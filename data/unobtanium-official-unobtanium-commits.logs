@@ -1,0 +1,956 @@
+commit bd1840cd9606ab044deb1def7aacce97be79ac13
+Author: Bryce Weiner <bryce@altsystem.io>
+Date:   Wed Nov 1 05:19:15 2017 -0700
+
+    Optimized subsidy calculation.
+
+commit 3a1c6c7f73e79f557e9f2c0c1bb7e9902fb5d9e9
+Author: Bryce Weiner <bryce@altsystem.io>
+Date:   Wed Nov 1 05:13:27 2017 -0700
+
+    New minimum subsidy of 0.01UNO per block begins at block 1,042,000.
+
+commit fe7c0a5fe9eaecbb3d95818dcf27dc2f5dea5891
+Author: Bryce Weiner <bryce@altsystem.io>
+Date:   Wed Nov 1 05:08:21 2017 -0700
+
+    New minimum subsidy of 0.01UNO per block begins at block 1035000.
+
+commit 97d99e44ecb27368bff6063f08a6da59178a6143
+Author: Bryce Weiner <bryce@altsystem.io>
+Date:   Wed Nov 1 05:01:24 2017 -0700
+
+    Updated client version
+
+commit 3d48d5ab1c7d850a40334cc3b4bfc124f96db1c9
+Author: Bryce Weiner <bryce@altsystem.io>
+Date:   Wed Nov 1 02:41:01 2017 -0700
+
+    MacOS Build Fixes
+
+commit d1d38ae5ff7144d865045fb2efecf847681f4203
+Author: Bryce Weiner <bryce@altsystem.io>
+Date:   Wed Nov 1 02:31:47 2017 -0700
+
+    MacOS build fixes
+
+commit 0c0d1aac3152c9906319aed8eb99d5087c868410
+Merge: 4a42958 426aeb2
+Author: unobtanium-official <cogburn805@gmail.com>
+Date:   Fri Sep 8 02:36:56 2017 -0400
+
+    Merge pull request #27 from Infernoman/master
+    
+    testnet auxpow chain ID
+
+commit 4a429584e8e98cb3462c7dbef40ff3a78904cae5
+Merge: 7ccdf8f 64282e6
+Author: unobtanium-official <cogburn805@gmail.com>
+Date:   Fri Sep 8 02:36:42 2017 -0400
+
+    Merge pull request #26 from cryptapus/patch-2
+    
+    added unobtanium.uno defined seed nodes
+
+commit 426aeb21db75ef46a18f885293f4c08a1ea21d83
+Author: Alastair Clark <jjaauto@hotmail.com>
+Date:   Mon Aug 28 23:51:49 2017 -0400
+
+    testnet chain ID
+
+commit 64282e698d16cf0d6ce5e746a6d0e1dd446ad034
+Author: cryptapus <info@cryptap.us>
+Date:   Sat Mar 11 23:02:17 2017 -0600
+
+    FK's nodes
+
+commit 0a222c5e8cb6befa00b6886e29311017c9341f2b
+Author: cryptapus <info@cryptap.us>
+Date:   Fri Mar 3 10:26:13 2017 -0600
+
+    removed old seed nodes (no longer available?)
+
+commit d1fa8203ad2935254cba54f0ebf6c33cf9b6b3d4
+Author: cryptapus <info@cryptap.us>
+Date:   Sat Feb 25 18:19:32 2017 -0600
+
+    I will point to a seed as well
+
+commit 316146b04faaa690f5f092b5c4f071307bf33cf7
+Author: cryptapus <info@cryptap.us>
+Date:   Tue Feb 21 07:18:23 2017 -0600
+
+    Update chainparams.cpp
+
+commit a1e5a1e8dabca8109177a37c1416fe5bb0533a64
+Author: cryptapus <info@cryptap.us>
+Date:   Tue Feb 21 07:10:13 2017 -0600
+
+    added unobtanium.uno defined seed nodes
+
+commit 7ccdf8ff9d0ddda761afd9a4010f05e123dcd6e9
+Merge: b9005b5 462aec8
+Author: unobtanium-official <cogburn805@gmail.com>
+Date:   Mon Jul 20 15:54:04 2015 -0400
+
+    Merge pull request #22 from thegreatoldone/master
+    
+    'Core' wallet to Storage Vault retransformation.
+
+commit b9005b525294783c5095a676e77764e9fad04872
+Merge: 66955ef 5d0fdc2
+Author: unobtanium-official <cogburn805@gmail.com>
+Date:   Mon Jul 20 15:53:44 2015 -0400
+
+    Merge pull request #21 from cryptapus/master
+    
+    Disconnect peers before AUX-POW hardfork
+
+commit 462aec807e52e6ee57cbc1cfa89f89c35ffceaf4
+Merge: 5f61b31 dbe3d37
+Author: Hagbard Celine <thegreatoldone@users.noreply.github.com>
+Date:   Sun Jul 19 23:06:40 2015 -0600
+
+    Merge pull request #1 from cryptapus/master
+    
+    Dissconnect from v0.9.5 nodes, Commit to v0.10 AUX-POW hard fork.
+
+commit dbe3d3779096100771351c981da2aaf7e4da310a
+Author: cryptapus <info@cryptap.us>
+Date:   Sat Jul 18 18:36:42 2015 +0000
+
+    Dissconnect from v0.9.5 nodes, Commit to v0.10 AUX-POW hard fork.
+
+commit 5f61b315331c847c2d57af779d4dbd3306635192
+Author: HagbardCeline <adamandshandra@server.local>
+Date:   Fri Jul 17 21:56:38 2015 -0600
+
+    0.10.1.1 Checkpoint
+
+commit c6fd1c9b0bf75ac9b0bd8120ee0afce581a75ad6
+Author: HagbardCeline <adamandshandra@server.local>
+Date:   Fri Jul 17 20:58:35 2015 -0600
+
+    0.10.1.1 Checkpoint
+
+commit 399198c38d3b0df23f4878c1c056b1abbe99a509
+Author: HagbardCeline <adamandshandra@server.local>
+Date:   Thu Jul 16 22:03:27 2015 -0600
+
+    Seednode updates
+
+commit 4b8e7f1a147d9b00a0394fceed15bde024d6979c
+Author: HagbardCeline <adamandshandra@server.local>
+Date:   Wed Jul 1 23:20:18 2015 -0600
+
+    Replace Testnet Seednode
+
+commit 71d7f0011d229b8703d52c26006fa050adc2b197
+Author: Blazr2 <adamandshandra@server.local>
+Date:   Thu Jun 25 23:32:57 2015 -0600
+
+    A few more tweaks
+
+commit 9dbb43df348d31283130f509cdf6c31016d7d025
+Author: Blazr2 <adamandshandra@server.local>
+Date:   Tue Jun 23 07:56:26 2015 -0600
+
+    Reblue the Vault, bring back the gramweight
+
+commit a8444ddd20caef2ed33c63e062b1eb2fc7c20396
+Author: Blazr2 <adamandshandra@server.local>
+Date:   Mon Jun 22 23:17:25 2015 -0600
+
+    Reblue the Vault, bring back the gramweight
+
+commit 5d0fdc2a19c934fb17434650eeb20c89365aa582
+Author: cryptapus <info@cryptap.us>
+Date:   Fri Jun 19 17:59:01 2015 +0000
+
+    URI to "unobtanium:"
+
+commit a6f7ceba3aed9576173ad9b03a6edfbc5fb46146
+Author: cryptapus <info@cryptap.us>
+Date:   Fri Jun 12 13:54:46 2015 +0000
+
+    Disconnect peers before AUX-POW hardfork
+
+commit 66955efbf845b70dad356242c23dcaebbd92d4c0
+Merge: a546f6a a337db6
+Author: Bryce Weiner <bryceweiner@users.noreply.github.com>
+Date:   Fri May 15 10:40:26 2015 -0400
+
+    Merge pull request #18 from bryceweiner/master
+    
+    Merge pull request #1 from unobtanium-official/patch-1
+
+commit a546f6a2b69f2026478242f5c712de0b237058eb
+Merge: f8e2039 a5defe4
+Author: Bryce Weiner <bryceweiner@users.noreply.github.com>
+Date:   Fri May 15 10:39:44 2015 -0400
+
+    Merge pull request #17 from mmpool/merge_mining_fix
+    
+    Fix to get merge mining working using auxpow rpc routines
+
+commit a337db6a902f9a9c763f42194d615ddc06d4a53b
+Merge: fbcf038 8ae415e
+Author: Bryce Weiner <bryceweiner@users.noreply.github.com>
+Date:   Fri May 15 10:39:27 2015 -0400
+
+    Merge pull request #1 from unobtanium-official/patch-1
+    
+    Windows build fix
+
+commit a5defe4d323f0007603e44bf5e15122af1dc146f
+Author: mmpool <admin@mmpool.org>
+Date:   Fri May 15 10:14:35 2015 +1200
+
+    Fix to get merge mining working using auxpow rpc routines
+
+commit f8e2039dc59b5e9b708080555048a26b615d7b54
+Author: Bryce Weiner <bryce@blocktech.com>
+Date:   Mon Mar 9 17:41:34 2015 -0400
+
+    Fixed ports in help text.
+
+commit e6d9baa1868720b1e2d5996a7f59c1e36f8ee0ea
+Author: Bryce Weiner <bryce@blocktech.com>
+Date:   Mon Mar 9 17:36:39 2015 -0400
+
+    Fixed ports in help text.
+
+commit b86ba5d33d66c7264408704a4de65de0d72bf714
+Author: Bryce Weiner <bryce@blocktech.com>
+Date:   Mon Mar 9 02:01:30 2015 -0400
+
+    Build fixes.
+
+commit 0b6181089285821fca5329d9b45dc4fce7c8f692
+Author: Bryce Weiner <bryce@blocktech.com>
+Date:   Mon Mar 9 00:29:35 2015 -0400
+
+    Auxpow fixes. Resolves #13
+
+commit 5f43c7b4ce435f66a4211f8e216ce89f573b2adc
+Author: Bryce Weiner <bryce@blocktech.com>
+Date:   Mon Mar 9 00:25:57 2015 -0400
+
+    Auxpow fixes.
+
+commit 24d4d8aa49ed960759f9735c2af8c84c875e36ee
+Author: Bryce Weiner <bryce@blocktech.com>
+Date:   Sun Mar 8 17:44:37 2015 -0400
+
+    Build fixes.
+
+commit 8ed7f8b270457cc3a6dfd93e622b83c3ac0e88f1
+Author: Bryce Weiner <bryce@blocktech.com>
+Date:   Sun Mar 8 16:59:20 2015 -0400
+
+    Build fixes.
+
+commit b844e1cea6fafcd113d17e35f86dff5dc1c40299
+Author: Bryce Weiner <bryce@blocktech.com>
+Date:   Sun Mar 8 16:31:50 2015 -0400
+
+    Build fixes.
+
+commit 8cb6704b2ad28b948a5b3e2efad0c03f0ec52ed5
+Author: Bryce Weiner <bryce@blocktech.com>
+Date:   Sun Mar 8 16:18:38 2015 -0400
+
+    Auxpow fixes.
+
+commit 8a66bff05b06e7cc8cd1bd76bf438948d902fd72
+Merge: 20b6bdd ced4b51
+Author: unobtanium-official <cogburn805@gmail.com>
+Date:   Thu Mar 5 01:14:36 2015 -0500
+
+    Merge pull request #12 from salfter/master
+    
+    add missing files so autogen will work
+
+commit ced4b51f5414f583b2b054f0e1dc0a253ebe1f10
+Author: Scott Alfter <scott@alfter.us>
+Date:   Wed Mar 4 21:07:31 2015 -0800
+
+    add missing files so autogen will work
+
+commit 20b6bdd77d3f80a595ab831fe3f7537f53087232
+Author: Bryce Weiner <bryce@blocktech.com>
+Date:   Wed Mar 4 04:00:06 2015 -0500
+
+    Build fixes.
+
+commit d53e7bbbec5e301b1a3bdff5992c64bd05f7365e
+Author: Bryce Weiner <bryce@blocktech.com>
+Date:   Wed Mar 4 03:00:04 2015 -0500
+
+    Build fixes.
+
+commit 442137d1a5978c03ad1d53858d7c6c19c82d6ec5
+Author: Bryce Weiner <bryce@blocktech.com>
+Date:   Wed Mar 4 02:59:23 2015 -0500
+
+    Build fixes.
+
+commit a5ed11a9aaec1bb44219e774f12bdf16473a16bd
+Author: Bryce Weiner <bryce@blocktech.com>
+Date:   Wed Mar 4 02:58:53 2015 -0500
+
+    Build fixes.
+
+commit cc2654cd3bc3d5776c18c50668b63935801cc87b
+Author: Bryce Weiner <bryce@blocktech.com>
+Date:   Wed Mar 4 02:58:03 2015 -0500
+
+    Build fixes.
+
+commit e4b3d787a4004b13ef2ee3806aa81172f52f6302
+Author: Bryce Weiner <bryce@blocktech.com>
+Date:   Wed Mar 4 02:57:50 2015 -0500
+
+    Build fixes.
+
+commit 960fad5ebe5433ff04750e893739291e16765173
+Author: Bryce Weiner <bryce@blocktech.com>
+Date:   Wed Mar 4 00:02:44 2015 -0500
+
+    Build fixes.
+
+commit a07b3f7f77f1425d9fc895d2ea16f4a72be73b1e
+Author: Bryce Weiner <bryce@blocktech.com>
+Date:   Tue Mar 3 23:58:57 2015 -0500
+
+    Build fixes.
+
+commit 708661cddb430c397439e91c16133bb1351d7eb1
+Author: Bryce Weiner <bryce@blocktech.com>
+Date:   Tue Mar 3 16:22:11 2015 -0500
+
+    Build fixes.
+
+commit 99bf3f7dca83b8b15b791d43b60cd4aa9a809d42
+Author: Bryce Weiner <bryce@blocktech.com>
+Date:   Tue Mar 3 16:03:33 2015 -0500
+
+    Build fixes.
+
+commit c25ccccbb921deab6e808588b3e2b8e586238c78
+Author: Bryce Weiner <bryce@blocktech.com>
+Date:   Tue Mar 3 14:56:36 2015 -0500
+
+    Build fixes.
+
+commit a818cfc5d431f3ae18e23dd1b213c72b49a2444f
+Author: Bryce Weiner <bryce@blocktech.com>
+Date:   Tue Mar 3 13:51:08 2015 -0500
+
+    Build fixes.
+
+commit dacc02f9c9de88db5025489dbe2b1bae1b3da409
+Author: Bryce Weiner <bryce@blocktech.com>
+Date:   Tue Mar 3 05:32:25 2015 -0500
+
+    Resolve merge conflicts
+
+commit b3fe21395080853dde8ac5fd1009783a13111d17
+Author: Bryce Weiner <bryce@blocktech.com>
+Date:   Tue Mar 3 05:02:03 2015 -0500
+
+    Resolve merge conflicts
+
+commit 64f0037c26c32f818f960c527f3705216f1fee5b
+Author: Bryce Weiner <bryce@blocktech.com>
+Date:   Tue Mar 3 04:56:12 2015 -0500
+
+    Resolve merge conflicts
+
+commit 89da887ae61b462ea3f4e3ad21735966e347a849
+Author: Bryce Weiner <bryce@blocktech.com>
+Date:   Tue Mar 3 04:53:59 2015 -0500
+
+    Resolve merge conflicts
+
+commit f03052a1cce5dbaf62be31c4249980033f6d316d
+Author: Bryce Weiner <bryce@blocktech.com>
+Date:   Tue Mar 3 04:52:05 2015 -0500
+
+    Resolve merge conflicts
+
+commit 1d0b321bb1861e76c9a647fe113038ffad13adc6
+Merge: 511bac1 58d4f3d
+Author: Bryce Weiner <bryce@blocktech.com>
+Date:   Tue Mar 3 04:47:39 2015 -0500
+
+    Merge branch 'devel'
+
+commit 58d4f3d6c05e3c2b91ff8f5aeebc3466bd372124
+Merge: ddc7c9e 511bac1
+Author: Bryce Weiner <bryce@blocktech.com>
+Date:   Tue Mar 3 04:45:33 2015 -0500
+
+    Resolve merge conflicts
+
+commit ddc7c9ec786f442ce8a18b73903eb937bd18f2a6
+Author: Bryce Weiner <bryce@blocktech.com>
+Date:   Tue Mar 3 04:16:59 2015 -0500
+
+    Build fixes.
+
+commit 511bac1220a1dd5a58743b37b89def7fb85afe00
+Author: Bryce Weiner <bryce@blocktech.com>
+Date:   Tue Mar 3 03:45:04 2015 -0500
+
+    Auxpow implementation
+
+commit f1c125a205b489a8f961a8cf1c1e085bd97507c5
+Author: Bryce Weiner <bryce@blocktech.com>
+Date:   Tue Mar 3 03:44:32 2015 -0500
+
+    Auxpow implementation
+
+commit 546efb2387f9ed2c4986ead95ad93720fd980be0
+Author: Bryce Weiner <bryce@blocktech.com>
+Date:   Tue Mar 3 03:43:33 2015 -0500
+
+    Auxpow implementation
+
+commit fade0d3279f07d00a935681401b98164d3dcc8b3
+Merge: 807d838 f8cf4a1
+Author: Bryce Weiner <bryce@blocktech.com>
+Date:   Mon Mar 2 21:31:39 2015 -0500
+
+    Merge branch 'master' of https://github.com/unobtanium-official/unobtanium into devel
+
+commit 807d8386742b8c7e639443c59287e74afa55fd45
+Author: Bryce Weiner <bryce@blocktech.com>
+Date:   Mon Mar 2 21:30:52 2015 -0500
+
+    AuxPow, Build fixes
+
+commit f8cf4a1a53e12b32b62f15c755744261dea84e11
+Author: unobtanium-official <cogburn805@gmail.com>
+Date:   Mon Mar 2 17:22:00 2015 -0500
+
+    Merged BIP32 fix.
+
+commit 073fca54380c6d724382caefd87c978100cbfa86
+Author: Bryce Weiner <bryce@blocktech.com>
+Date:   Mon Mar 2 17:02:21 2015 -0500
+
+    Branding fixes.
+
+commit 6689cfb38a3a9f1e026c7b26b451d3104ee38998
+Author: Bryce Weiner <bryce@blocktech.com>
+Date:   Mon Mar 2 16:53:29 2015 -0500
+
+    Branding fixes.
+
+commit 023f70b156eba16235168e74d6a9c4db929b63c2
+Author: Bryce Weiner <bryce@blocktech.com>
+Date:   Mon Mar 2 05:52:49 2015 -0500
+
+    Upgrade to 0.10 core
+
+commit ef8303fc1acd35a82033149df6f4ca4cb0f4d629
+Author: Bryce Weiner <bryce@blocktech.com>
+Date:   Mon Mar 2 05:52:17 2015 -0500
+
+    Upgrade to 0.10 core
+
+commit 44230eff86ea8dacc9b22b7d7140577e61f5de75
+Author: Bryce Weiner <bryce@blocktech.com>
+Date:   Mon Mar 2 05:51:44 2015 -0500
+
+    Upgrade to 0.10 core
+
+commit 20fb86a4c9a7dc03e1248cc361cfffca96a7c4f7
+Author: Bryce Weiner <bryce@blocktech.com>
+Date:   Mon Mar 2 05:51:13 2015 -0500
+
+    Upgrade to 0.10 core
+
+commit 40483eeb187cab5b838112444794671d7422545a
+Author: Bryce Weiner <bryce@blocktech.com>
+Date:   Mon Mar 2 05:50:50 2015 -0500
+
+    Upgrade to 0.10 core
+
+commit ba0995ea8e7fb6f6f3752b98c0899a8057716eb5
+Author: Bryce Weiner <bryce@blocktech.com>
+Date:   Mon Mar 2 05:49:30 2015 -0500
+
+    Upgrade to 0.10 core
+
+commit 9683aaf9b9eb3a914a2a9c5c5d55e9b6a54db184
+Author: Bryce Weiner <bryce@blocktech.com>
+Date:   Mon Mar 2 05:48:06 2015 -0500
+
+    Upgrade to 0.10 core
+
+commit a52dbc5d80a693da22864f8492d618eef025a410
+Author: Bryce Weiner <bryce@blocktech.com>
+Date:   Mon Mar 2 05:47:37 2015 -0500
+
+    Upgrade to 0.10 core
+
+commit 540c7d65d5885d960c2300bba58addbf34409940
+Author: Bryce Weiner <bryce@blocktech.com>
+Date:   Mon Mar 2 05:46:51 2015 -0500
+
+    Upgrade to 0.10 core
+
+commit 73f437fadf1b9b5968eab9a4721bedb00e62fa0f
+Author: Bryce Weiner <bryce@blocktech.com>
+Date:   Mon Mar 2 05:46:25 2015 -0500
+
+    Upgrade to 0.10 core
+
+commit b6576f58672848b336290a7c2bc38a89942c4b70
+Author: Bryce Weiner <bryce@blocktech.com>
+Date:   Mon Mar 2 05:44:19 2015 -0500
+
+    Upgrade to 0.10 core
+
+commit efc1fedc7659685fb3320e90100aa2ad36f52d0c
+Author: unobtanium-official <cogburn805@gmail.com>
+Date:   Wed Oct 8 03:56:39 2014 -0400
+
+    Update unobtanium-qt.pro
+
+commit be20b70682fbbaa7dc1228f7c34f343ca14d861c
+Merge: 65590b2 386d0d7
+Author: Bryce Weiner <bryce.weiner23@gmail.com>
+Date:   Sat Sep 13 02:41:27 2014 -0400
+
+    Merge branch 'thegreatoldone-master'
+
+commit 386d0d70820db2a971afb33fa1aaee5a522432af
+Merge: 65590b2 cb9805d
+Author: Bryce Weiner <bryce.weiner23@gmail.com>
+Date:   Sat Sep 13 02:41:02 2014 -0400
+
+    Merge branch 'master' of https://github.com/thegreatoldone/Unobtanium into thegreatoldone-master
+    
+    Conflicts:
+            unobtanium-qt.pro
+
+commit 65590b208ea453009b7ceeeac15a57976e6f2736
+Merge: c78412e 48d5f43
+Author: unobtanium-official <cogburn805@gmail.com>
+Date:   Wed Jul 2 10:58:23 2014 -0400
+
+    Merge pull request #5 from pnoch/master
+    
+    Fix support for OSX
+
+commit cb9805d2f473aa3518765958144f7fe05fe49e2a
+Author: TheGreatOldOne <adamandshandra@server.local>
+Date:   Tue Jul 1 22:26:18 2014 -0600
+
+    Alerts/Testnet/MinSubs/Sanitize
+
+commit 48d5f436cdb98136c3d90f0853cb9fab029cdbcb
+Author: pnoch <Noch@Nochs-Macbook.local>
+Date:   Sun Jun 22 12:30:23 2014 +0800
+
+    Fix support for OSX
+    
+    -Added miniupnpc support for OSX
+    -Fixed LIB and INCLUDE PATH to match brew install
+    -Improved OSX 10.9 and Universal build support
+
+commit c78412e6345946d1117ff6f60538e4a0239b7217
+Merge: a7ebd9b 8ae415e
+Author: unobtanium-official <cogburn805@gmail.com>
+Date:   Wed Jun 18 23:28:06 2014 -0400
+
+    Merge pull request #4 from unobtanium-official/patch-1
+    
+    Windows build fix
+
+commit 8ae415ef67e5f68b4493773afab60d9718e7f4eb
+Author: unobtanium-official <cogburn805@gmail.com>
+Date:   Wed Jun 18 23:27:35 2014 -0400
+
+    Windows build fix
+    
+    Daemon can use Boost 1.55, but Qt must use Boost 1.53
+
+commit a7ebd9b9f977c881d062af96e2685a2b802c0dba
+Merge: ec85a92 fbcf038
+Author: unobtanium-official <cogburn805@gmail.com>
+Date:   Wed Jun 18 20:01:55 2014 -0400
+
+    Merge pull request #3 from bryceweiner/master
+    
+    Windows build fixes
+
+commit ec85a924f5836421791fcebb02498e63abe89d9e
+Merge: b2c34e0 39a3d85
+Author: unobtanium-official <cogburn805@gmail.com>
+Date:   Wed Jun 18 20:01:44 2014 -0400
+
+    Merge pull request #2 from jyap808/patch-1
+    
+    Change to version 0.9.5
+
+commit fbcf038238de1d86bed10efa267318346a666f0f
+Author: Bryce Weiner <bryce.weiner23@gmail.com>
+Date:   Wed Jun 18 18:26:30 2014 -0400
+
+    Windows build fixes
+
+commit 39a3d85eb431f180d6c2e12d599c1a77cb96df4b
+Author: Julian Yap <jyap808@users.noreply.github.com>
+Date:   Wed Jun 18 11:34:56 2014 -1000
+
+    Change to version 0.9.5
+
+commit b2c34e02bab8567dca5d197167432c3fc8ceca67
+Merge: 7133736 d143db9
+Author: unobtanium-official <cogburn805@gmail.com>
+Date:   Wed Jun 18 17:18:57 2014 -0400
+
+    Merge pull request #1 from bryceweiner/master
+    
+    0.9.5
+
+commit d143db9dbf3f93f307d2ea91fcab73e1955d0d02
+Author: Bryce Weiner <bryce.weiner23@gmail.com>
+Date:   Wed Jun 18 17:12:02 2014 -0400
+
+    Checkpoint added @ block 400,000
+
+commit 8dd84d3a2686ec939f3c1a63804d391e2fa414d8
+Author: Bryce Weiner <bryce.weiner23@gmail.com>
+Date:   Wed Jun 18 16:31:16 2014 -0400
+
+    Fix MinTimespan
+
+commit 960d2ad9af09ff7c94b3125dd0221fef3a3599a9
+Author: Bryce Weiner <bryce.weiner23@gmail.com>
+Date:   Wed Jun 18 16:28:38 2014 -0400
+
+    Old CheckProofOfWorkRequired
+
+commit 2f02473d2a9a12e9c28ca5d8db1cb8266b46d24e
+Author: Bryce Weiner <bryce.weiner23@gmail.com>
+Date:   Wed Jun 18 16:22:38 2014 -0400
+
+    Added KGW
+
+commit 40042b55d410a8c0adfb7a5b1ee27c55a72a731d
+Author: Bryce Weiner <bryce.weiner23@gmail.com>
+Date:   Wed Jun 18 16:14:27 2014 -0400
+
+    Update client version to 0.9.5
+
+commit 6a1cc5e9982ed3ea78f45b6e7fbfc9798bf68d84
+Author: Bryce Weiner <bryce.weiner23@gmail.com>
+Date:   Wed Jun 18 16:13:09 2014 -0400
+
+    Added iSpace.co.uk to seed nodes
+
+commit d47d91d350fe23d26e4668900c625cde14232a90
+Author: Bryce Weiner <bryce.weiner23@gmail.com>
+Date:   Wed Jun 18 15:46:10 2014 -0400
+
+    0.9.3 rewind to identify network issues
+
+commit 4d223a21676c171dcd00fe9009d0525df00adaa6
+Author: Bryce Weiner <bryceweiner@users.noreply.github.com>
+Date:   Wed Jun 18 15:36:44 2014 -0400
+
+    Checkpoint rewind
+
+commit c0fe6c10b8155784b3685dc6fcb9e55498d6d009
+Author: Bryce Weiner <bryceweiner@users.noreply.github.com>
+Date:   Wed Jun 18 14:56:10 2014 -0400
+
+    Removed KGW
+    
+    ... and replaced it with the correct code. lulz
+
+commit 771a1f214d7890c4d280554f62e465e0f59e2451
+Author: Bryce Weiner <bryceweiner@users.noreply.github.com>
+Date:   Wed Jun 18 14:55:41 2014 -0400
+
+    Removed KGW
+
+commit b8448799d71d61ff05e778200c266c9b57ca17f3
+Author: Bryce Weiner <bryceweiner@users.noreply.github.com>
+Date:   Wed Jun 18 14:24:02 2014 -0400
+
+    Re-added KGW for testing
+
+commit c802023c03eaeb76c439878890af723cd6671f74
+Author: Bryce Weiner <bryceweiner@users.noreply.github.com>
+Date:   Wed Jun 18 14:03:27 2014 -0400
+
+    Update chainparams.cpp
+
+commit e82341df618a0549832fd4aba58dd8ae7ebd2727
+Author: Bryce Weiner <bryceweiner@users.noreply.github.com>
+Date:   Wed Jun 18 14:02:41 2014 -0400
+
+    Removed new versioning scheme
+
+commit efc239d4513a3a6642752d0779a9cfb00e5d5771
+Author: Bryce Weiner <bryceweiner@users.noreply.github.com>
+Date:   Wed Jun 18 06:52:51 2014 -0400
+
+    Removed KGW for testing
+
+commit 71337369ef1ec6c6b3e4701c39abc4dafbf419cb
+Author: Bryce Weiner <bryce.weiner23@gmail.com>
+Date:   Wed Jun 18 06:06:40 2014 -0400
+
+    Version 0.9.5
+
+commit a5597d98a0bdcb7433c0cb26b6bfa2064babbe5c
+Author: Bryce Weiner <bryce.weiner23@gmail.com>
+Date:   Wed Jun 18 05:11:31 2014 -0400
+
+    Versioning, KGW block fix
+
+commit 78056b8ffcc228e6d7aa5aa3a81e8cd6ad6b554e
+Author: Bryce Weiner <bryce.weiner23@gmail.com>
+Date:   Wed Jun 18 04:40:34 2014 -0400
+
+    Version fix
+
+commit 4be17214f9f1cc1b667fd2d28863bdc57c044c69
+Author: Bryce Weiner <bryce.weiner23@gmail.com>
+Date:   Wed Jun 18 04:22:27 2014 -0400
+
+    FIxed seed nodes
+
+commit 6ab43e782b8f11eae09013649bafd51d08f6bfa4
+Merge: f0ff4ba 16de0cd
+Author: unobtanium-official <cogburn805@gmail.com>
+Date:   Wed Jun 18 03:56:07 2014 -0400
+
+    Merge pull request #1 from jyap808/master
+    
+    Replace Mac installer background image. Specify correct QT file. Fix miniupnpc include directories
+
+commit 16de0cd381aa888d5c75e8f6c2e1b195d5da93e7
+Author: Julian Yap <julianokyap@gmail.com>
+Date:   Mon Jun 16 14:30:05 2014 -1000
+
+    Replace Mac installer background image. Specify correct QT file. Fix miniupnpc include directories
+
+commit f0ff4ba0149f522e33b4da68961b4045ada5ca33
+Author: razor <razorcoin@gmail.com>
+Date:   Mon Jun 16 00:11:18 2014 -0400
+
+    Linux build fixes.
+
+commit a678db6870aff9f9aeb5f9f54c08372c74110088
+Author: razor <razorcoin@gmail.com>
+Date:   Sun Jun 15 23:16:03 2014 -0400
+
+    Linux build fixes
+
+commit 5ea9af7338e6f1173c85f5019391a1dc5407fbf5
+Author: razor <razorcoin@gmail.com>
+Date:   Sun Jun 15 17:03:31 2014 -0400
+
+    Added linux build for windows
+
+commit 0f7ed53e6591aa197a5d51cc6f5fca3463931037
+Merge: e915aac c305392
+Author: razor <razorcoin@gmail.com>
+Date:   Sun Jun 15 16:48:34 2014 -0400
+
+    Merge branch 'master' of http://github.com/unobtanium-official/unobtanium
+
+commit e915aacc12d73311b0edd364341b5f5000537a72
+Author: razor <razorcoin@gmail.com>
+Date:   Sun Jun 15 16:48:08 2014 -0400
+
+    Caps fix for Qt.
+
+commit c3053921ab4a01441939a1d9aa18953e7843b420
+Author: unobtanium-official <cogburn805@gmail.com>
+Date:   Sun Jun 15 16:40:02 2014 -0400
+
+    Update README.md
+
+commit 121ceb6710437cd394e6b10d3e4930b7788e87dd
+Author: razor <razorcoin@gmail.com>
+Date:   Sun Jun 15 16:39:04 2014 -0400
+
+    Mandatory update required.
+
+commit e210932dbedc6c3c8610ae61eb4d6994d9774c6b
+Author: razor <razorcoin@gmail.com>
+Date:   Sun Jun 15 16:30:13 2014 -0400
+
+    Vetted. 0.9.5
+
+commit ee765263d6d3d72080f090d1f30e82e92a6df857
+Author: sherlockcoin <sherlockcoin@gmail.com>
+Date:   Wed May 14 04:32:47 2014 +0530
+
+    Soopy's Stargate Key (Anti-Timewap Fix) Applied
+    
+    Soopy's Stargate Key (Anti-Timewap Fix) Applied, Check-pointed, Version
+    Bumped to 1.0.0.0, HardFork At Block 387581, Wallet Background Graphics
+    Added.
+
+commit c2e6ba2b46369fd2071bce6d113530873fc0a50b
+Author: sherlockcoin <sherlockcoin@gmail.com>
+Date:   Wed May 14 03:13:56 2014 +0530
+
+    Soopy's Stargate Key (Anti-Timewap Fix) Applied
+    
+    Soopy's Stargate Key (Anti-Timewap Fix) Applied, Check-pointed, Version
+    Bumped to 1.0.0.0 , HardFork At Block 387581, Wallet Background Graphics
+    Added.
+
+commit 28cf19d2a8d538bab9ae1a2f96bc7e57e4e0c949
+Author: sherlockcoin <sherlockcoin@gmail.com>
+Date:   Mon May 12 01:52:06 2014 +0530
+
+    Soopy's Stargate Key (Anti-Timewrap Fix) Applied
+    
+    Soopy's Stargate Key (Anti-Timewrap Fix) Applied , Check-pointed ,
+    Version Bumped to 1.0.0.0 , HardFork At Block 365911
+
+commit 6cdb980b062f5f4659cf0ad4c1e9f5ce4cba81a4
+Author: sherlockcoin <sherlockcoin@gmail.com>
+Date:   Fri Apr 25 08:35:37 2014 +0530
+
+    Openssl HeartBleed Security Vulnerability Fixed
+    
+    Openssl HeartBleed Security Vulnerability, Versions Bumped, Seed Node
+    Updated, Checkpointed.
+
+commit 09f394cb3e219d22a694099c8d77beb19db72e4d
+Author: sherlockcoin <sherlockcoin@gmail.com>
+Date:   Fri Apr 25 08:34:42 2014 +0530
+
+    Openssl HeartBleed Security Vulnerability Fixed
+    
+    Openssl HeartBleed Security Vulnerability, Versions Bumped, Seed Node
+    Updated, Checkpointed.
+
+commit 23036dd75b1b383f8f453f576c91bf6806e22818
+Author: sherlockcoin <sherlockcoin@gmail.com>
+Date:   Fri Apr 25 00:10:29 2014 +0530
+
+    Openssl Heartbleed Security Vulnerability Fixed
+    
+    Openssl Heartbleed Security Vulnerability Addressed , Versions Bumped to
+    0.9.4, Seed Node Updated, Check-pointed.
+
+commit a524033199012215a0884a626802c2803afefbe2
+Author: sherlockcoin <sherlockcoin@gmail.com>
+Date:   Thu Apr 24 23:50:55 2014 +0530
+
+    Openssl HeartBleed Security Vulnerability Fixed
+    
+    Openssl HeartBleed Security Vulnerability, Versions Bumped, Seed Node
+    Updated, Checkpointed.
+
+commit e95f63002ecffca64b8eff55bc59c1106152bd68
+Author: thegreatoldone <cthulhu@theoldone.net>
+Date:   Thu Jan 30 20:41:52 2014 -0700
+
+    Un 0.9.3 - add getnetworkhash
+
+commit 030f3be20bbd376ad2487da823859bc82cb36f42
+Merge: 97f097c da19595
+Author: thegreatoldone <cthulhu@theoldone.net>
+Date:   Tue Jan 21 16:14:16 2014 -0700
+
+    Still shinier than BitBar
+
+commit 97f097c4de6f4f5a0552a98a71c81173170d57d6
+Merge: 9362493 708b1be
+Author: thegreatoldone <cthulhu@theoldone.net>
+Date:   Tue Jan 21 16:13:03 2014 -0700
+
+    Still shinier than BitBar
+
+commit da195958000064661929f8b705f23b99f0a5e5c2
+Author: The Great Old One <thegreatoldone@users.noreply.github.com>
+Date:   Tue Jan 21 16:09:39 2014 -0700
+
+    Delete .DS_Store
+
+commit 9362493a0cf39a910b7d9169f62b4cb2f32d68f7
+Author: thegreatoldone <cthulhu@theoldone.net>
+Date:   Tue Jan 21 15:56:09 2014 -0700
+
+    Still shinier than BitBar
+
+commit 708b1be443b54f31abf9d50b35ce4e09b2712b63
+Merge: b7b16a4 b60f93a
+Author: The Great Old One <thegreatoldone@users.noreply.github.com>
+Date:   Fri Jan 17 12:19:59 2014 -0800
+
+    Merge pull request #8 from ArtisAvotins/master
+    
+    OS X QT wallet building fixes. Added macdeploy and changed references from bitcoin to unobtanium
+
+commit b60f93a386bba908266b9cd87c67760545a2d6c2
+Author: Artis Avotins <artis.avotins@gmail.com>
+Date:   Fri Jan 17 14:43:13 2014 +0200
+
+    Added macdeploy script from bitcoin. Changed QT Plists to depict Unobtanium instead of Bitcoin. Cleaned clean_mac_info_plist.py file too. Also removed .DS_Store file. gitignore also added to avoid mess.
+
+commit b7b16a429768bd0deca2fee477d0a9166ac5b50a
+Merge: dd059ac 47806a9
+Author: The Great Old One <thegreatoldone@users.noreply.github.com>
+Date:   Sat Jan 11 09:03:56 2014 -0800
+
+    Merge pull request #5 from ArtisAvotins/master
+    
+    Additional DNS seed node and OS X patches
+
+commit 47806a9d41c2d869e6782cc5f5644d9785ebe13e
+Author: Artis Avotins <artis.avotins@gmail.com>
+Date:   Sat Jan 11 00:10:07 2014 +0200
+
+    Added contrib dir with a patch for OS X homebrew makefile
+
+commit 311de13447137e2ed35a7a3a3bdcbd4fb80de860
+Author: Artis Avotins <artis.avotins@gmail.com>
+Date:   Sat Jan 11 00:09:22 2014 +0200
+
+    Added rockchain.info as additional seed node, other changes fix OS X build. Patch file for OS X makefile added
+
+commit dd059acd84f5acd7e4ae861b08230652a46666a0
+Author: thegreatoldone <cthulhu@theoldone.net>
+Date:   Fri Jan 10 14:21:05 2014 -0700
+
+    Unobtanium 0.9.2
+
+commit 7fc1bc702954426a733fb72b1f119e1ca5780e2a
+Author: Troptions Team <cthulhu@theoldone.net>
+Date:   Wed Nov 20 11:38:53 2013 -0700
+
+    Un 0.9.1.1
+
+commit 20d9677b2c6f5ea5ad417854ac943b9c7c2e567e
+Author: Troptions Team <cthulhu@theoldone.net>
+Date:   Sun Nov 17 14:24:43 2013 -0700
+
+    Un 0.9.1
+
+commit 82510c0de655c9a7e7162f8ed1260e91ff922798
+Author: thegreatoldone <cthulhu@theoldone.net>
+Date:   Sat Oct 26 20:58:20 2013 -0600
+
+    Unobtanium 0.9.0
+
+commit c2919fcd3f7e7572871cf2b23999af658b800720
+Author: thegreatoldone <cthulhu@theoldone.net>
+Date:   Fri Oct 18 08:54:16 2013 -0600
+
+    Unobtanium 0.9.0

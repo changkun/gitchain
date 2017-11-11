@@ -1,0 +1,1419 @@
+commit e7465c9d3562ef7edb051592666efdf34c4e0553
+Merge: 77e7801 5df3c04
+Author: presstab <presstab1337@gmail.com>
+Date:   Thu Sep 29 09:46:36 2016 -0700
+
+    Merge pull request #2 from presstab/priv-fork
+    
+    Fork to new protocol on block 1,824,237
+
+commit 5df3c0419dea8c6c40a80c086591b19388d12784
+Author: presstab <presstab1337@gmail.com>
+Date:   Thu Sep 29 10:44:41 2016 -0600
+
+    Fork on block 1824237
+
+commit e3e4c95f06bae5cfcd0fc1048455476aab48b5b0
+Author: presstab <presstab1337@gmail.com>
+Date:   Thu Sep 22 09:57:56 2016 -0600
+
+    max trust discount of 3 blocks in a row
+
+commit fdae01801ae214407b7fa9fd21cdf295407d59de
+Merge: a4a7092 5195d63
+Author: presstab <presstab1337@gmail.com>
+Date:   Tue Aug 30 09:37:17 2016 -0600
+
+    Merge pull request #1 from alenevaa/connections-fix
+    
+    Fix the bug when inbound connections are closed
+
+commit 5195d635894d4e9673af66d80b73661fc7b4bfff
+Author: alenevaa <git.alenevaa@gmail.com>
+Date:   Tue Aug 30 14:53:48 2016 +0300
+
+    Fix the bug when inbound connections are closed
+    
+    Fix the bug when inbound connections are closed if -maxoutbound=<n>
+    parameter is using.
+
+commit a4a7092cf6da02328a3437dac09cf93647ad82e6
+Author: presstab <presstab1337@gmail.com>
+Date:   Wed Jul 13 10:22:51 2016 -0600
+
+    schedule new test fork for block 1758442
+
+commit 3ed5b10ae36f883f9b5adfe2fea6c9ff32cc682b
+Author: presstab <presstab1337@gmail.com>
+Date:   Wed Jul 13 10:14:38 2016 -0600
+
+    undo temporary minstaketime changes
+
+commit 02b9dfc3d6608ac39bbf9474321e19adb4305cd9
+Author: presstab <presstab1337@gmail.com>
+Date:   Tue Jul 5 16:12:42 2016 -0600
+
+    Protocol 6 calculates PoS reward using last PoS block as the height
+
+commit 7a69aea9743a73972fe3669bf2ee7f199b729ad7
+Author: presstab <presstab1337@gmail.com>
+Date:   Tue Jul 5 15:45:09 2016 -0600
+
+    reduce coinbase maturity (priv-fork only)
+
+commit 6b62dc2d3332590694e9d571720dc7e0317f91ae
+Author: presstab <presstab1337@gmail.com>
+Date:   Tue Jul 5 15:44:48 2016 -0600
+
+    make PoS diff able to adjust lower
+
+commit 1268f6c35ee78dd94ad8d508a3f1e0293e840ec1
+Author: presstab <presstab1337@gmail.com>
+Date:   Tue Jul 5 15:43:42 2016 -0600
+
+    updated blocktrust
+
+commit f0f8ba16ab0cf23d1c41774a8d955b700ab5dc7c
+Author: presstab <presstab1337@gmail.com>
+Date:   Tue Jul 5 12:52:53 2016 -0600
+
+    new trust rules 2
+
+commit 1d41a7e371a06646a0a22478b48e88fd5bcdb17f
+Author: presstab <presstab1337@gmail.com>
+Date:   Tue Jul 5 12:40:23 2016 -0600
+
+    update trust scores after fork
+
+commit 6d3e8799943c721658645feeac46ae6bf258fd33
+Author: presstab <presstab1337@gmail.com>
+Date:   Thu Jun 16 12:30:17 2016 -0600
+
+    reduce min stake age for priv fork
+
+commit 77e7801c2e920676c469d84b9e40082bbe496837
+Author: presstab <presstab1337@gmail.com>
+Date:   Mon May 2 14:24:34 2016 -0600
+
+    remove bin
+
+commit 118ebc81bb54a92eeefa5bb3fafcadf54640802f
+Author: presstab <presstab1337@gmail.com>
+Date:   Mon May 2 14:14:23 2016 -0600
+
+    Hard code versioning
+
+commit 6c520372baf5c848a90bcc332f10e392135851b3
+Author: presstab <presstab1337@gmail.com>
+Date:   Sun May 1 22:44:41 2016 -0600
+
+    update for new upnpc protocol
+
+commit e64272a0162f9b74f5ac2f4a03bef2b2c3d21afc
+Author: presstab <presstab1337@gmail.com>
+Date:   Sun May 1 22:36:51 2016 -0600
+
+    fork block 1719400
+
+commit 7ff0e3f26400e6baab128fc9cf9545d6491483e5
+Author: presstab <presstab1337@gmail.com>
+Date:   Fri Apr 29 13:30:20 2016 -0600
+
+    fork on block 1609500 (target May 14th)
+
+commit 9a485005b0ccc98b3f1a08bd5f7a940dfbf39ef3
+Author: presstab <presstab1337@gmail.com>
+Date:   Fri Apr 29 13:29:27 2016 -0600
+
+    add new PoS rewards
+
+commit e2236e027bc057f6ccf3dbb4fd8c88e23a85bc05
+Author: presstab <presstab1337@gmail.com>
+Date:   Sat Apr 16 14:04:06 2016 -0600
+
+    add hashsettings RPC
+
+commit 0d4d6abfe06914ca9298737e332c1b159a9c6819
+Author: presstab <presstab1337@gmail.com>
+Date:   Sat Apr 16 13:59:07 2016 -0600
+
+    fix syntax error
+
+commit 7519e71757d184b6f2f23f9359a547591c827855
+Author: presstab <presstab1337@gmail.com>
+Date:   Sat Apr 16 13:46:51 2016 -0600
+
+    Prevent Socket Leak in ThreadSocketHandler
+
+commit d2feaeb74b24dcee3cbb4d1584106ea4199e50fd
+Author: presstab <presstab1337@gmail.com>
+Date:   Sat Apr 16 13:45:56 2016 -0600
+
+    Correct Proxy Related Socket Leaks
+
+commit f72dcd7c2e925b4dddcacb04bb68d5411ed3090c
+Author: presstab <presstab1337@gmail.com>
+Date:   Sat Apr 16 13:43:24 2016 -0600
+
+    Don't Use showmyip.com
+
+commit e34c91cdf7db6ea6c241757af4efe1b30b3637b6
+Author: presstab <presstab1337@gmail.com>
+Date:   Sat Apr 16 13:37:57 2016 -0600
+
+    Avoid Querying DNS Seeds If More Than 3 Connections
+
+commit f521ed3a4c3ceda867d505019f7ce7095a4f5a9f
+Author: presstab <presstab1337@gmail.com>
+Date:   Sat Apr 16 13:35:44 2016 -0600
+
+    Prevent Transmission of Empty Tx
+
+commit 6bdc363eb4327fb92c60a549a85c6b013acf5927
+Author: presstab <presstab1337@gmail.com>
+Date:   Fri Apr 15 09:44:27 2016 -0600
+
+    replace DNS seeds, remove pnseeds
+
+commit 67ca1b38457f87ce03a738e6bf09c89c5ec4304c
+Author: presstab <presstab1337@gmail.com>
+Date:   Fri Apr 15 09:43:46 2016 -0600
+
+    Remove IRC code
+
+commit 12ffb3a0cb541073eb595e7f6ce7a6ea88b78eef
+Author: presstab <presstab1337@gmail.com>
+Date:   Thu Apr 14 15:09:50 2016 -0600
+
+    fix fork client disconnect
+
+commit 49c5e7b5c390d1aea9f1f9fcc748c60036300539
+Author: presstab <presstab1337@gmail.com>
+Date:   Thu Apr 14 15:09:27 2016 -0600
+
+    LiteStake
+
+commit 689cd8b7b50bd65a89fefe58cefb90e20238ba52
+Author: presstab <presstab1337@gmail.com>
+Date:   Tue Apr 12 10:35:14 2016 -0600
+
+    update version.h.in
+
+commit d55be7b165fc5091503cc88dfad15ad900fc0ce7
+Author: presstab <presstab1337@gmail.com>
+Date:   Tue Apr 12 10:26:15 2016 -0600
+
+    Fix invalid signature with crafted length
+
+commit 89752702363fbf58f036641ed9981b8860e2842e
+Author: presstab <presstab1337@gmail.com>
+Date:   Sun Apr 10 23:36:49 2016 -0600
+
+    add fork code
+
+commit ab189d0039d189525bc2899c5b1b939892d114f5
+Author: presstab <presstab1337@gmail.com>
+Date:   Thu Apr 7 09:23:02 2016 -0600
+
+    fix memleak
+
+commit 55b49dad3749896567cb13dd299b452b74572f00
+Author: presstab <presstab1337@gmail.com>
+Date:   Wed Apr 6 22:32:50 2016 -0600
+
+    update model less frequently to reduce resource consumption for QT
+
+commit 8cbc16ea679db82c548ecbca4dc7028b74251b24
+Author: presstab <presstab1337@gmail.com>
+Date:   Wed Apr 6 22:30:59 2016 -0600
+
+    clean up main.cpp and diff codes
+
+commit 5c4bf5d78d896f1ffa0d159a6772fdf23e076012
+Author: presstab <presstab1337@gmail.com>
+Date:   Sun Apr 3 12:13:01 2016 -0600
+
+    add standard difficulty adjustment code
+
+commit 23ef1a4ef18c3dc587ede605511e7330cb96d431
+Author: Kracko <admin@tumblingblock.com>
+Date:   Mon Nov 9 07:50:49 2015 -0800
+
+    Retarget revision
+
+commit dc521c780d74c083ae88c0f21c33d90d1762e646
+Merge: fda59ac af84438
+Author: Kracko <admin@tumblingblock.com>
+Date:   Fri Oct 9 09:15:13 2015 -0700
+
+    Merge PC and OSX changes.
+
+commit af8443872729cec07fa3ce6a91ed8e82e9675a08
+Author: Kracko <admin@tumblingblock.com>
+Date:   Tue Oct 6 07:17:41 2015 -0700
+
+    Adjust nFactor freeze to be by time rather than block
+
+commit 467985bba856c2a39d719fb5f708ab9d9281a1ae
+Author: Kracko <admin@tumblingblock.com>
+Date:   Sun Oct 4 17:03:57 2015 -0700
+
+    Mac build updates
+
+commit d28f940854e95d6e7c800f2b1198c3197d637d45
+Author: Kracko <admin@tumblingblock.com>
+Date:   Sat Oct 3 16:50:02 2015 -0700
+
+    Version update
+
+commit fda59ac69ee76c16da4e3007efa98049e7a7c66b
+Author: Kracko <admin@tumblingblock.com>
+Date:   Tue Sep 29 17:39:20 2015 -0700
+
+    Added final PoS reward rate
+
+commit 2f7655641d320e8bfc9a1552b2433e382ea6dd32
+Author: Kracko <admin@tumblingblock.com>
+Date:   Sat Sep 26 19:22:32 2015 -0400
+
+    Modified kernel checkpoint to non POS block
+
+commit b8e6c8ae2d349e31cd60e601db54755418d84b2f
+Author: Kracko <admin@tumblingblock.com>
+Date:   Sat Sep 26 14:39:59 2015 -0700
+
+    Version update
+
+commit eccb2c5b19df9aca3db943e425d64cd1d4ca52f5
+Author: Kracko <admin@tumblingblock.com>
+Date:   Sat Sep 26 14:39:04 2015 -0700
+
+    Disconnect from previous wallets when past their fork obsolescence
+
+commit 5cb62ef8e1574feac0a63deab469d46138018720
+Author: Kracko <admin@tumblingblock.com>
+Date:   Sat Sep 26 13:03:49 2015 -0700
+
+    Fork #3 updates
+
+commit 6cb3ae646ff8b4fd97110fe19b46c04252d8bf4e
+Author: Kracko <admin@tumblingblock.com>
+Date:   Wed May 13 11:34:09 2015 -0700
+
+    Set nBestHeight, nBestHeightTime and bnBestChainTrust at startup rather than wait for the next incoming block so nFactor is correctly reported at startup.
+
+commit 6678ad26fd994847f47866d6ccdc110c5ddba781
+Author: Kracko <admin@tumblingblock.com>
+Date:   Tue May 12 15:51:29 2015 -0700
+
+    Nfactor and checkpoints...
+
+commit 5bb568c6ce331017ff7ce4b6f819ce6f42419972
+Author: Kracko <admin@tumblingblock.com>
+Date:   Tue May 12 14:53:15 2015 -0700
+
+    Retarget and reward changes.  Added checkpoints.
+
+commit 6135192516147ae7d478fd850b085165289558a1
+Author: Kracko <admin@tumblingblock.com>
+Date:   Sun Feb 22 13:15:46 2015 -0800
+
+    Updated version.
+
+commit b9a233d09a7a171d331b2bc8371b90b22859416f
+Author: Kracko <admin@tumblingblock.com>
+Date:   Sun Feb 22 11:46:08 2015 -0800
+
+    Change from yellow to black text on splash screen during init phase
+
+commit 42031b3c8e15248a3a8ec6a04b6518a6568ef0bc
+Author: Kracko <admin@tumblingblock.com>
+Date:   Thu Feb 19 17:42:44 2015 -0800
+
+    Windows version fix
+
+commit 574ed81d1c65b17c181a0b2c9a77878198981652
+Merge: afb7c13 3748e4c
+Author: Kracko <admin@tumblingblock.com>
+Date:   Wed Feb 18 18:50:02 2015 -0800
+
+    Merge branch 'dev' of https://github.com/Kracko/ultracoin-2 into dev
+
+commit afb7c136b9821b4b0549bbd6945657001e8954ed
+Author: Kracko <admin@tumblingblock.com>
+Date:   Wed Feb 18 18:48:49 2015 -0800
+
+    More android fixes.
+
+commit 3748e4cab6ec606bec9c64a365be89bba14763a1
+Author: Kracko <Kracko@users.noreply.github.com>
+Date:   Wed Feb 11 09:46:24 2015 -0800
+
+    Update README.md
+
+commit 965439960ced9ad26cb484a8c3ca88b698fddb6b
+Author: Kracko <admin@tumblingblock.com>
+Date:   Tue Feb 10 15:59:49 2015 -0800
+
+    Android speed ups.
+
+commit a89991dee0a9e47c740b7cecb37fb4c739421cbd
+Author: Kracko <admin@tumblingblock.com>
+Date:   Mon Feb 9 13:45:11 2015 -0800
+
+    Updated checkpoints.
+
+commit b47371106fd093afec71f86f87460d051c07bf21
+Author: Kracko <admin@tumblingblock.com>
+Date:   Mon Feb 9 10:20:58 2015 -0800
+
+    Added stake transaction type and icon.
+
+commit e93ebb26e18db89ee116d3841438d329ed9ca272
+Author: Kracko <admin@tumblingblock.com>
+Date:   Mon Feb 9 08:32:42 2015 -0800
+
+    Removed src/streams.h
+
+commit ea2fdea95326795b892d7ad7613428d209eec86d
+Author: Kracko <admin@tumblingblock.com>
+Date:   Sun Feb 8 17:03:45 2015 -0800
+
+    Modified layout to better suit portable devices in landscape mode
+
+commit 3c6895be9605438c4e47108bd830d2ba5956c6f0
+Author: Kracko <admin@tumblingblock.com>
+Date:   Sun Feb 8 16:34:48 2015 -0800
+
+    Configured alert key
+
+commit 08402e721936b74d43ecf79c03c6673d01349390
+Author: Kracko <admin@tumblingblock.com>
+Date:   Sun Feb 8 00:59:40 2015 -0800
+
+    Droid/OSX redesign
+
+commit 097d34d48c033ea00665cf113ecf18c8c5294d4b
+Author: Kracko <admin@tumblingblock.com>
+Date:   Sat Feb 7 03:46:52 2015 -0800
+
+    Android fixes
+
+commit 9a6af43de27bdc6e1a328b4f7fb30a5d798994ad
+Author: Kracko <admin@tumblingblock.com>
+Date:   Fri Feb 6 18:24:47 2015 -0800
+
+    Android compile fixed.
+
+commit c1e1c098406fbb336c2d06dbda5afdf94d896efa
+Author: Kracko <admin@tumblingblock.com>
+Date:   Fri Feb 6 14:06:35 2015 -0800
+
+    Staking toolbar icon and finalizing one-click
+
+commit dc5fe380257919396f0f60922b807d2b7a5cce41
+Author: Kracko <admin@tumblingblock.com>
+Date:   Thu Feb 5 18:35:03 2015 -0800
+
+    Menu sidebar transition.
+
+commit d4c7d54805e87aba8ba2111e605032c23d9e5f86
+Author: Kracko <admin@tumblingblock.com>
+Date:   Wed Feb 4 09:50:52 2015 -0800
+
+    Compile from Mingw32 fixed
+
+commit 8140396e0553d5e596f473155ec4db9ab8a83b4b
+Merge: eba2d7f 6beed0c
+Author: Kracko <admin@tumblingblock.com>
+Date:   Tue Feb 3 20:38:55 2015 -0800
+
+    Merge branch 'dev' of https://github.com/Kracko/ultracoin-2 into dev
+
+commit 6beed0c4ccf8c7ffc8be7b066e0c1698e5c14013
+Author: Kracko <admin@tumblingblock.com>
+Date:   Tue Feb 3 19:09:58 2015 -0800
+
+    submitblock, getblocktemplate(submit) update.
+
+commit eba2d7ffa0086eadd8ea947950f041ac3ca4fd1c
+Author: Kracko <admin@tumblingblock.com>
+Date:   Fri Jan 2 11:32:54 2015 -0800
+
+    OneClick update
+
+commit dbd2f67623a9d5fee7ead9dd150995372266a599
+Author: Kracko <admin@tumblingblock.com>
+Date:   Wed Dec 31 16:42:21 2014 -0800
+
+    OneClick updates
+
+commit b303831149e5aa49ec1c17466b215be2277e395e
+Author: Kracko <admin@tumblingblock.com>
+Date:   Tue Dec 23 13:23:38 2014 -0800
+
+    Android fixes.
+
+commit 95adbfa2e9653803579336a86de83814322c07c8
+Author: Kracko <admin@tumblingblock.com>
+Date:   Thu Dec 18 16:19:18 2014 -0800
+
+    Android addition
+
+commit a6cb78d3b966167e7c8562e5a567e11c8c320fb3
+Author: kracko <admin@tumblingblock.com>
+Date:   Tue Dec 9 02:22:18 2014 -0800
+
+    Update subsidy
+
+commit 0423516827ed822e8db6173527ebfc339c0600bc
+Author: kracko <admin@tumblingblock.com>
+Date:   Mon Dec 8 14:48:01 2014 -0800
+
+    Prevent sending of coins while staking
+
+commit 0bcf25842612925700d8cf301785884022705e59
+Author: kracko <admin@tumblingblock.com>
+Date:   Sun Dec 7 21:29:20 2014 -0800
+
+    Retarget changed to Digishield
+
+commit 5aea029fd7f46228663b41e8bcdca2bab2d1296b
+Author: Kracko <admin@tumblingblock.com>
+Date:   Thu Dec 4 18:55:26 2014 -0800
+
+    Mac deployment additions
+
+commit ab291262214a0e34c9c6f58740011b833d5b9333
+Author: mwhite73 <marvin.white@gmail.com>
+Date:   Wed Dec 3 23:33:49 2014 -0800
+
+    Update protocol version.in and back down min prot version
+
+commit b65afda46c82c136556a5a0ae77064fd9013c3eb
+Author: mwhite73 <marvin.white@gmail.com>
+Date:   Wed Dec 3 21:42:28 2014 -0800
+
+    Timewarp implementation
+
+commit 342ca12a040d5d7b1b4730276b2b1b0b73cfd779
+Author: kracko <admin@tumblingblock.com>
+Date:   Tue Dec 2 15:28:39 2014 -0800
+
+    Got the copyright symbol in the about page- victory!  Added a second iconset for macs.
+
+commit 9d27feab363571f892aa1ccd416872e0ed791456
+Author: kracko <admin@tumblingblock.com>
+Date:   Tue Dec 2 08:18:45 2014 -0800
+
+    QMake file update.  Added back ::insert in serialize.h for non-Macs
+
+commit d1ce722a1e5208be7213264776fb345a6dc0116d
+Author: Kracko <admin@tumblingblock.com>
+Date:   Tue Dec 2 08:08:38 2014 -0800
+
+    Icon update.
+
+commit c004bacdcdf748ea30a415c763b17d6d609f48b7
+Author: Kracko <admin@tumblingblock.com>
+Date:   Mon Dec 1 15:42:30 2014 -0800
+
+    scrypt-jane code updates
+
+commit 2183786eac81a58ea396facb3d1e349ad08201cb
+Author: Kracko <admin@tumblingblock.com>
+Date:   Mon Dec 1 07:01:44 2014 -0800
+
+    script to generate icns file created and ultracoin.icns file added to Mac project.
+
+commit 317b89611e91a2a83b02019894c5ed12d719a705
+Author: kracko <admin@tumblingblock.com>
+Date:   Mon Dec 1 06:38:31 2014 -0800
+
+    Add Mac iconset group with flat green logo
+
+commit 1aecfdbfed24321348653216c4ef7c8828b98dd4
+Author: Kracko <admin@tumblingblock.com>
+Date:   Sun Nov 30 20:49:33 2014 -0800
+
+    QT Mac version built. Added ifdefs to support qt4 and qt5
+
+commit 1b8f4b078637311e96097cb98785b663f0b4d798
+Author: marvin <marvin@marvins-Mac.local>
+Date:   Sun Nov 30 17:18:02 2014 -0800
+
+    MacOS fixes for headless compile against brew ports.
+
+commit 103c75831ee2327a6d82c61ac23f009ba112333d
+Author: Kracko <Kracko@users.noreply.github.com>
+Date:   Sat Nov 29 09:59:17 2014 -0800
+
+    Update README.md
+
+commit d7590c612ceeca6b1e3ee93654e8ca68bcafc9be
+Author: kracko <admin@tumblingblock.com>
+Date:   Mon Nov 24 14:01:39 2014 -0800
+
+    Updated logo icon mask.
+
+commit 610a85b6d2b5846eea11264743fec185694219e4
+Author: kracko <admin@tumblingblock.com>
+Date:   Mon Nov 24 10:25:54 2014 -0800
+
+    Update version
+
+commit a0dc231143d86583ac4b7e839e263edb05df132b
+Author: kracko <admin@tumblingblock.com>
+Date:   Mon Nov 24 10:22:47 2014 -0800
+
+    Orphan fixes
+
+commit 68976c59cd22bd087d7c3a37e768487fb36ce732
+Author: kracko <admin@tumblingblock.com>
+Date:   Sun Nov 23 17:59:10 2014 -0800
+
+    Remove peercoin name
+
+commit 6b48d42d34371ccc591cec00c860568811fdaf16
+Author: kracko <admin@tumblingblock.com>
+Date:   Sun Nov 23 16:55:01 2014 -0800
+
+    Staking lag fixed.
+
+commit 433b14dd472d2b2a9a0bdd00dfd3e8d094dbc3fd
+Author: kracko <admin@tumblingblock.com>
+Date:   Sun Nov 23 13:55:23 2014 -0800
+
+    Key signing mem leak fix.  Better representation for PoS transactions.
+
+commit 96fbdf15055ea1175688c3dd70d3b2b9002acbd8
+Author: kracko <admin@tumblingblock.com>
+Date:   Sat Nov 22 12:09:52 2014 -0800
+
+    Resetting N-Factor to max at 30
+
+commit 9c7db884e2e0d2ddbebf3dcbb1537e3c14678bab
+Author: kracko <admin@tumblingblock.com>
+Date:   Fri Nov 21 09:07:17 2014 -0800
+
+    NFactor cap to 14
+
+commit 35504b81693478b4f40023f2a90c2d08a497fc67
+Author: Kracko <admin@tumblingblock.com>
+Date:   Wed Nov 19 17:46:24 2014 -0500
+
+    Add executable flag to build_detect_platform
+
+commit fb6f4d2185c5aebaf7bbfcc2eb96e2cf83a2c820
+Author: kracko <admin@tumblingblock.com>
+Date:   Wed Nov 19 14:44:33 2014 -0800
+
+    Upgrade/import support and version
+
+commit d0cc30b674971bbeaa7de9bbe98566ed32ecc713
+Author: kracko <admin@tumblingblock.com>
+Date:   Mon Nov 17 08:53:24 2014 -0800
+
+    More speed mods.
+
+commit ca9f3b959da78b39a702db9d5240860492bf9783
+Author: kracko <admin@tumblingblock.com>
+Date:   Mon Nov 17 07:42:52 2014 -0800
+
+    Commented out unnecessary db close.
+
+commit 92a068b7684b8e7e9d771d2498b1b9106584e508
+Author: kracko <admin@tumblingblock.com>
+Date:   Mon Nov 17 06:52:42 2014 -0800
+
+    Speed improvement.
+
+commit 933bd5f007570cd28dcc6db5be1b851ddf3e180c
+Author: kracko <admin@tumblingblock.com>
+Date:   Sun Nov 16 21:49:59 2014 -0800
+
+    version update
+
+commit c79602a5daaee29f7cc6c6f97cd8a6b175a92175
+Author: kracko <admin@tumblingblock.com>
+Date:   Sun Nov 16 21:41:13 2014 -0800
+
+    leveldb updates
+
+commit b74459ee5806a66422830bdb4b988356bd2ff063
+Merge: 836d069 e89e491
+Author: kracko <admin@tumblingblock.com>
+Date:   Sun Nov 16 18:25:55 2014 -0800
+
+    Merge branch 'leveldb_merge' of https://github.com/Kracko/ultracoin-2 into leveldb_merge
+    
+    Conflicts:
+            src/init.cpp
+            src/leveldb/build_detect_platform
+            src/main.cpp
+            src/main.h
+            src/version.h
+
+commit e89e491252fc73553a97d7f52cb723e0ef1c8297
+Author: mwhite73 <marvin.white@gmail.com>
+Date:   Sun Nov 16 18:18:34 2014 -0800
+
+    Adding leveldb support into unix makefile.
+
+commit 183ba7638598fb5587e9fa85579c42cb73baecdd
+Author: kracko <admin@tumblingblock.com>
+Date:   Sun Nov 16 15:46:51 2014 -0800
+
+    LevelDB Merge
+
+commit 836d069705ba1f9eb369c2853514af5a187ba595
+Author: kracko <admin@tumblingblock.com>
+Date:   Sun Nov 16 15:42:18 2014 -0800
+
+    Novacoin LevelDB merge with Ultracoin
+
+commit 489af9510e8cdfd69a04203e05d686928bbdd71f
+Author: kracko <admin@tumblingblock.com>
+Date:   Fri Nov 14 17:01:43 2014 -0800
+
+    Adding art and automatic version incrementing
+
+commit 36f047ca104cf228eb4576d190c8f299e6155007
+Author: kracko <admin@tumblingblock.com>
+Date:   Thu Nov 13 08:46:50 2014 -0800
+
+    Update images.
+
+commit 43d21d77396fa73a85125d88d932874626b87289
+Author: mwhite73 <marvin.white@gmail.com>
+Date:   Wed Nov 12 18:38:22 2014 -0800
+
+    Update stakeModifierCheckpoints
+
+commit b51b443cef351c90951b4ca47e2120efbb3a83ce
+Author: mwhite73 <marvin.white@gmail.com>
+Date:   Wed Nov 12 17:24:11 2014 -0800
+
+    Enabled DNS Seed to on by default and incremented version.
+
+commit b7a4145caba63d72fb2efad1c0615fa682b1cbf3
+Author: mwhite73 <marvin.white@gmail.com>
+Date:   Wed Nov 12 17:22:49 2014 -0800
+
+    Update checkpoints.
+
+commit eddb6ae8ce6066840624e6a593b9e76098b3cc8b
+Author: kracko <admin@tumblingblock.com>
+Date:   Mon Nov 10 10:28:32 2014 -0800
+
+    Icon update
+
+commit 65c52a32aded4339282bcca66a733ab27ab2a12c
+Author: kracko <admin@tumblingblock.com>
+Date:   Mon Nov 10 08:46:37 2014 -0800
+
+    Art update for new wallet.
+
+commit 1f8aa1264808ff8121be8ea8cd7fbac1662b91cf
+Author: kracko <admin@tumblingblock.com>
+Date:   Sat Nov 8 09:50:06 2014 -0800
+
+    DNS Seed Enabling
+
+commit 5d6aa0434c182765deba6f6624c5052903faaab5
+Author: kracko <admin@tumblingblock.com>
+Date:   Sat Nov 8 00:10:04 2014 -0800
+
+    Updated to QT 5.3.2, Boost 1.55, OpenSSL1.0.1j, and more
+
+commit 51c97f49a5dd0180e1e714e484bdedd9f23e1911
+Merge: b5c018f a3ad7f3
+Author: dx11 <dx11coin@outlook.com>
+Date:   Mon Jun 30 21:21:37 2014 +0800
+
+    Merge pull request #2 from dx11/dev
+    
+    Update to POS
+
+commit a3ad7f30a5d4c46045d2cd6b8f76790dfe5fe0f0
+Author: dx11 <dx11coin@outlook.com>
+Date:   Sun Jun 29 00:39:42 2014 +0800
+
+    Update checkpoints.cpp
+
+commit 6768758e8747df74bc6a3bd10c6495c4bc21bc67
+Author: dx11 <dx11coin@outlook.com>
+Date:   Sun Jun 29 00:30:57 2014 +0800
+
+    Update checkpoints.cpp
+
+commit 5a8bbaa508678d316dc3236d4829cfb9b905a53d
+Author: dx11 <dx11coin@outlook.com>
+Date:   Fri Jun 27 23:41:30 2014 +0800
+
+    Update checkpoints.cpp
+
+commit 5ae76a3727f9bda39ff94c006df9586dd7dd5d38
+Author: dx11 <dx11coin@outlook.com>
+Date:   Fri Jun 27 22:57:02 2014 +0800
+
+    Update Wallet Logo
+
+commit e612dd96f82ee448e1b1bb23d7024eff94b1345e
+Author: dx11 <dx11coin@outlook.com>
+Date:   Fri Jun 27 22:34:04 2014 +0800
+
+    Update version.h
+
+commit c7b86772160b6e8d3d423944031ffe5ed3a6daef
+Author: dx11 <dx11coin@outlook.com>
+Date:   Fri Jun 27 22:30:44 2014 +0800
+
+    Update main.cpp
+
+commit 5c27ff94fd7a28e885220e34f95fcd2bae6d76fd
+Author: dx11 <dx11coin@outlook.com>
+Date:   Mon Jun 23 02:49:30 2014 +0800
+
+    Updated Proof of Stake
+
+commit 0e95b56db4260926b5166bd0b4a106315c738203
+Author: dx11 <dx11coin@outlook.com>
+Date:   Mon Jun 23 02:35:37 2014 +0800
+
+    Update Coinstake
+
+commit 2afc4ad3cd72868421f8053a33ffa592f2af42a1
+Author: dx11 <dx11coin@outlook.com>
+Date:   Mon Jun 23 02:22:15 2014 +0800
+
+    Update Checkpoints and Version
+
+commit fe1fcbe8002838fbb46c9d1b9145afe841db8532
+Author: dx11 <dx11coin@outlook.com>
+Date:   Mon Jun 23 02:16:55 2014 +0800
+
+    Update encrypt message
+
+commit 18e88052263f1fd81fef1824e7e47bc4af0ee04c
+Author: dx11 <dx11coin@outlook.com>
+Date:   Mon Jun 23 01:53:42 2014 +0800
+
+    Update to display Pop up Wallet Backup
+
+commit 0780a553abb2aecdbaa25bd7691409e5e6453c20
+Author: dx11 <dx11coin@outlook.com>
+Date:   Mon Jun 23 01:15:00 2014 +0800
+
+    Start POS at Block 450,000
+
+commit d896b10d806f52c0585ffac745a8d3a10e80d21b
+Author: dx11 <dx11coin@outlook.com>
+Date:   Mon Jun 23 01:13:48 2014 +0800
+
+    Change Min and Max POS Age
+    
+    Change min and max pos age. POS is enabled at block 450000 to stop
+    forking early.
+
+commit a68ae00b71336063348646dd418c6c787dd398cd
+Author: dx11 <dx11coin@outlook.com>
+Date:   Mon Jun 23 01:12:05 2014 +0800
+
+    Start POS Height and Disable Continuous POS
+
+commit 91d02d295aced229ae31cec2ba2067a5820e5b9a
+Author: dx11 <dx11coin@outlook.com>
+Date:   Mon Jun 23 00:48:47 2014 +0800
+
+    Update Logos
+
+commit 6875956444e3c824df3569e2c6c8042753ea77cc
+Author: dx11 <dx11coin@outlook.com>
+Date:   Mon Jun 23 00:22:32 2014 +0800
+
+    Add Height to Proof of Work Reward and Change
+    
+    Add Height to Proof of Work Reward and Change to 5.2 at block 449000
+
+commit b5c018f117e89bc46390e5a80d61be546f05d469
+Author: dx11 <dx11coin@outlook.com>
+Date:   Fri May 9 14:09:02 2014 +0800
+
+    Update Icons
+
+commit 059ae4fc82ac24e4c56e92f1b8afad0d763d03c4
+Author: dx11 <dx11coin@outlook.com>
+Date:   Fri May 9 01:24:20 2014 +0800
+
+    Update
+
+commit 74a3f94666f9a88701ec46c6addb75e7f6c23aca
+Author: dx11 <dx11coin@outlook.com>
+Date:   Fri May 9 01:09:02 2014 +0800
+
+    Update main.h
+
+commit 423d363ba6d380e1d5368e72a57946a1f8ef80e6
+Author: dx11 <dx11coin@outlook.com>
+Date:   Fri May 9 01:03:35 2014 +0800
+
+    Change Address
+
+commit d3570a5f34fcf6554f400ffe3b4fb698fb0f18af
+Author: dx11 <dx11coin@outlook.com>
+Date:   Wed May 7 23:39:24 2014 +0800
+
+    Update Polski Language Pack
+
+commit d7ca96c7a9a2397d11729794968e625cf19ea21a
+Author: dx11 <dx11coin@outlook.com>
+Date:   Mon May 5 23:10:33 2014 +0800
+
+    Update Language Packs
+
+commit 1ca862825d59f93f426b408cbeca9d4da24f5f52
+Author: dx11 <dx11coin@outlook.com>
+Date:   Mon May 5 22:54:53 2014 +0800
+
+    Update checkpoints.cpp
+
+commit 26c13c710efda7e8f7740e178a82206242cae6b3
+Author: dx11 <dx11coin@outlook.com>
+Date:   Mon May 5 22:54:38 2014 +0800
+
+    Update kernel.cpp
+
+commit 78d8f1aa27d987fa5460047e34f3fd0492b4cb77
+Author: dx11 <dx11coin@outlook.com>
+Date:   Mon May 5 22:34:03 2014 +0800
+
+    POS checkbox signal handler compatibility
+
+commit 6631c390848791819014b20d98e30f7bdcfb53e2
+Author: dx11 <dx11coin@outlook.com>
+Date:   Mon May 5 22:01:22 2014 +0800
+
+    Update OpenSSL
+
+commit 5fa4168c39c3e27b54186c96d18847782465bc4a
+Author: dx11 <dx11coin@outlook.com>
+Date:   Mon May 5 21:39:26 2014 +0800
+
+    Update Logos
+
+commit 9a64d7d68c25865be206c94bba6120b4bf620d31
+Author: dx11 <dx11coin@outlook.com>
+Date:   Mon May 5 19:57:00 2014 +0800
+
+    More Updates
+
+commit 59a5d2a3152c6d9b467c99c9e537a922378c3fd9
+Author: dx11 <dx11coin@outlook.com>
+Date:   Mon May 5 17:18:06 2014 +0800
+
+    Add Rules to active POS and POW
+
+commit d87d4ea115d2dd8b32708dd64ab750f3d7fda76e
+Author: dx11 <dx11coin@outlook.com>
+Date:   Mon May 5 17:11:19 2014 +0800
+
+    Define POW/POS Switch Time and cleanup
+
+commit dda8fd249b49c5d28e412effc92ebad866e5c103
+Author: dx11 <dx11coin@outlook.com>
+Date:   Mon May 5 16:55:32 2014 +0800
+
+    Update version.cpp
+
+commit 54eba838bcfd154ac20e9a4904be9fc823b74956
+Author: dx11 <dx11coin@outlook.com>
+Date:   Mon May 5 16:55:07 2014 +0800
+
+    Version 1.0.3.0
+
+commit 24fa7c3c5971097b81a4c0940f50e8a6592598c6
+Author: dx11 <dx11coin@outlook.com>
+Date:   Sun May 4 02:48:07 2014 +0800
+
+    Add Stake Minting Checkbox
+
+commit e7f4cb114ab48dfd4e1813c873bc81d20a52318d
+Author: dx11 <dx11coin@outlook.com>
+Date:   Sun May 4 01:59:21 2014 +0800
+
+    Update PNG and POW hash
+
+commit 34f76c00a5fddd7b247f0951f6a08716e8520610
+Author: dx11 <dx11coin@outlook.com>
+Date:   Sun May 4 01:47:39 2014 +0800
+
+    Change Images and disable POS Changeover.
+
+commit e2f923e7757f31bef4b900cb209d6f81bdc2f30d
+Author: dx11 <dx11coin@outlook.com>
+Date:   Sun May 4 01:09:39 2014 +0800
+
+    Update Ports
+    
+    Update ports
+
+commit 993631fc8aa0beb3169f7e6173e26fb162c6acf5
+Author: dx11 <dx11coin@outlook.com>
+Date:   Sun May 4 00:50:06 2014 +0800
+
+    Update pro file and net.cpp
+
+commit 9edd59241041729231e5bebd9d0f77e47e8f13a9
+Author: dx11 <dx11coin@outlook.com>
+Date:   Sun May 4 00:45:22 2014 +0800
+
+    Fix POW Height and Random Generators
+
+commit f1f2ac297fd089830c3e3eead29ed584b15eea52
+Author: dx11 <dx11coin@outlook.com>
+Date:   Sat May 3 22:49:43 2014 +0800
+
+    Update Proof Works
+
+commit f3e6aac6570065bb43f168bb30cd3e09c8283685
+Author: dx11 <dx11coin@outlook.com>
+Date:   Sat May 3 21:43:35 2014 +0800
+
+    Update Kernel and UTC
+
+commit e348153a0949766288dbd9b178e1d8425f79a37d
+Author: dx11 <dx11coin@outlook.com>
+Date:   Sat May 3 21:41:01 2014 +0800
+
+    Update to Ultracoin Specs
+
+commit 491f30598dc851a7ddad010f67b107e2b5124949
+Author: dx11 <dx11coin@outlook.com>
+Date:   Sat May 3 21:09:07 2014 +0800
+
+    Update Name to Ultracoin
+
+commit 310715811888f519818b8e5e0919d291ec75c45c
+Merge: 6687445 eaf762c
+Author: ybcoin <ybcoin@gmail.com>
+Date:   Thu Mar 27 12:31:15 2014 +0800
+
+    Merge pull request #2 from zccoin/master
+    
+    add coin control feature
+
+commit eaf762ce155ad90b4f0c481c7d4c6b390b6af098
+Merge: 5ac2760 4820e99
+Author: zccoin <zhaocaibi@gmail.com>
+Date:   Mon Mar 24 11:53:06 2014 -0500
+
+    Merge branch 'master' of https://github.com/zccoin/ybcoin
+
+commit 5ac27602a4a3c55353315b4920cf27efd0b5a3e2
+Author: zccoin <zhaocaibi@gmail.com>
+Date:   Mon Mar 24 11:51:55 2014 -0500
+
+    add coin control feature
+
+commit 4820e99106b7ee3a6d43888b8245a9277420fdbb
+Merge: bf642c5 6687445
+Author: zccoin <zhaocaibi@gmail.com>
+Date:   Mon Mar 24 11:33:34 2014 -0500
+
+    Merge pull request #1 from ybcoin/master
+    
+    Merge 0.7.0.4
+
+commit 668744580792f2f16cb308bc4562eead028b597e
+Author: ybcoin <ycoin@gmail.com>
+Date:   Mon Mar 10 14:33:43 2014 +0800
+
+    new version 0.7.0.4
+
+commit ed6ee5f470c15a58dbf237f148f3909061848809
+Author: ybcoin <ycoin@gmail.com>
+Date:   Mon Mar 10 14:32:58 2014 +0800
+
+    change the new blockchain protocal height to 370000
+
+commit 11b500bf1689b12262f178b1e6c416497d4e8339
+Author: ybcoin <ycoin@gmail.com>
+Date:   Mon Mar 10 14:30:56 2014 +0800
+
+    add checkpoint to 380001
+
+commit bf642c50f6667d569cde7139f29d1be9f1fbe195
+Author: ybcoin <ycoin@gmail.com>
+Date:   Mon Feb 24 16:15:19 2014 +0800
+
+    remove dowhatshoulddo
+
+commit 2534c3805fb7cb773ac2c6d8f4eb2c93350d6022
+Author: ybcoin <ycoin@gmail.com>
+Date:   Fri Feb 21 13:08:11 2014 +0800
+
+    update to 0.7.0.2
+
+commit bc9264658b7fa2062e729abb7ff8a5db0b08a4f5
+Merge: 65e1943 2e2704a
+Author: ybcoin <ycoin@gmail.com>
+Date:   Fri Feb 21 13:05:39 2014 +0800
+
+    stop using float point
+
+commit 65e1943caa7db15b5a6a31b32546c9e2bd16b4cf
+Author: ybcoin <ycoin@gmail.com>
+Date:   Wed Feb 19 13:59:25 2014 +0800
+
+    Fix:splash window initialize failed
+
+commit 3ada342ac99bbd423b31447f13f4363c330da46e
+Author: ybcoin <ycoin@gmail.com>
+Date:   Wed Feb 19 13:53:50 2014 +0800
+
+    nothing
+
+commit c430f2025e34835608916efb4c8d8429ffa49b92
+Author: ybcoin <ycoin@gmail.com>
+Date:   Wed Feb 19 13:48:44 2014 +0800
+
+    big startup speed improve
+
+commit 165b0ae0ca523af6218bd0d6dfb1cb109f7a2ccf
+Author: ybcoin <ycoin@gmail.com>
+Date:   Wed Feb 19 13:47:46 2014 +0800
+
+    big startup speed improve
+
+commit 3bad15497a6ae505337cc2551f215a4ed631cba4
+Author: ybcoin <ycoin@gmail.com>
+Date:   Wed Feb 19 13:45:45 2014 +0800
+
+    translations update
+
+commit 3fcb91783c6bb88a4dd5f8c073f57fb9389a58ab
+Author: ybcoin <ycoin@gmail.com>
+Date:   Wed Feb 19 13:43:58 2014 +0800
+
+    Fix:initial splash window failed
+
+commit 4df8484f7db1c6e670a3a619f021e831f9a59b5f
+Author: ybcoin <ycoin@gmail.com>
+Date:   Wed Feb 19 13:41:50 2014 +0800
+
+    update
+
+commit 72563428d6635713691c9b3ee16a751ae36b1c51
+Author: ybcoin <ycoin@gmail.com>
+Date:   Wed Feb 19 13:39:19 2014 +0800
+
+    big startup speed improve
+
+commit fc4e0885e5c1d43c235d76f5553eace906dc13b6
+Author: ybcoin <ycoin@gmail.com>
+Date:   Wed Feb 19 13:36:15 2014 +0800
+
+    auto update to new block chain data file
+
+commit ba7c7b9e3419e308d9b3dabb6698312276ed8296
+Author: ybcoin <ycoin@gmail.com>
+Date:   Wed Feb 19 13:34:18 2014 +0800
+
+    update version to 0.7.0.1
+
+commit b1e5f2ddb8fbb05c768061ff5704a391fc8ff057
+Author: ybcoin <ycoin@gmail.com>
+Date:   Wed Feb 19 13:29:30 2014 +0800
+
+    a few updates
+
+commit 3c20697b77367028b23e7bccc4a11fcd27bd87c3
+Author: ybcoin <ycoin@gmail.com>
+Date:   Wed Feb 19 13:27:46 2014 +0800
+
+    add checkpoints to 299898
+
+commit 98656190d5a974e9bdcb30f6113e4137f503303e
+Author: ybcoin <ycoin@gmail.com>
+Date:   Wed Feb 19 13:26:28 2014 +0800
+
+    support new language ko_KR
+
+commit 2e2704a9fd5c6ad7ed6f9de4954825d20bbe2ffa
+Author: ybcoin <ybcoin@gmail.com>
+Date:   Tue Feb 11 10:26:54 2014 +0800
+
+    more stake info
+    
+    print more stake info while stake reward exceeded
+
+commit b26521bfebf6b23722b3681de599c2e7b8a35816
+Merge: 70f8f21 cf8b040
+Author: ybcoin <ycoin@gmail.com>
+Date:   Wed Nov 27 17:12:59 2013 +0800
+
+    Merge branch 'master' of https://github.com/ybcoin/ybcoin
+
+commit 8af7c852beece0df751fd33407f8ad9bdb89a014
+Merge: 70f8f21 cf8b040
+Author: ybcoin <ycoin@gmail.com>
+Date:   Wed Nov 27 17:12:59 2013 +0800
+
+    Merge branch 'master' of https://github.com/ybcoin/ybcoin
+
+commit 70f8f2112433f3cd680f9d8875f7eff5eb608a9c
+Author: ybcoin <ycoin@gmail.com>
+Date:   Wed Nov 27 17:04:05 2013 +0800
+
+    should be synced before generate pos block
+
+commit cf8b0406d586c5c760158b68a32e9a76d4a7354f
+Author: ybcoin <ycoin@gmail.com>
+Date:   Wed Nov 27 17:04:05 2013 +0800
+
+    should be synced when generatin pos block
+
+commit 348fd50ba3a263164526f0b96f312e7660dbb3e1
+Author: ybcoin <ycoin@gmail.com>
+Date:   Wed Nov 27 17:02:42 2013 +0800
+
+    bugfix:should not notify new version when it already is
+
+commit 86ed76d33bea9a14e3de81d5b20dada81ffeb842
+Author: ybcoin <ycoin@gmail.com>
+Date:   Wed Nov 27 17:00:02 2013 +0800
+
+    add checkpoint 210040
+
+commit fac49854c7e35ff8c7b7b616024312dd781274dd
+Author: ybcoin <ycoin@gmail.com>
+Date:   Mon Nov 11 13:39:25 2013 +0800
+
+    bugfix: crash when do not display new version infomation
+
+commit 34e63e614276a086024a08037ca4f286ee61c8bd
+Author: ybcoin <ycoin@gmail.com>
+Date:   Sun Nov 10 01:27:18 2013 +0800
+
+    the reward of pow declined 95% every 43200 blocks and the reward of pos will be 5% per month and declined 95% every month
+
+commit 6169c6bec1b1e2ee262471178def0d1c8884f6c3
+Author: ybcoin <ycoin@gmail.com>
+Date:   Sun Nov 10 01:21:04 2013 +0800
+
+    fix a bug
+
+commit 7ee567c135fbc5cd36146e23956aecb16195ee43
+Author: ybcoin <ycoin@gmail.com>
+Date:   Tue Oct 22 11:51:47 2013 +0800
+
+    qt += network
+
+commit 2a58e2cf3c2cd56012c99150ebc44538309d244b
+Author: ybcoin <ycoin@gmail.com>
+Date:   Tue Oct 22 11:51:00 2013 +0800
+
+    version 0.5.2.2
+
+commit d802625fbf09e63544a92fc24f4829418f34f038
+Author: ybcoin <ycoin@gmail.com>
+Date:   Tue Oct 22 11:50:31 2013 +0800
+
+    fixed: reorganize failed because of db's lack of lock entries
+
+commit 91bb0d0d224c0d56a5a488f5e23743a1b6b629e6
+Author: ybcoin <ycoin@gmail.com>
+Date:   Tue Oct 22 11:44:24 2013 +0800
+
+    add checkpoint to 176545
+
+commit a69de1058d55f4d6b0275bb1a0270ae4d5cf11e6
+Author: ybcoin <ycoin@gmail.com>
+Date:   Tue Oct 22 11:43:22 2013 +0800
+
+    add advertisment of ybcoin apps
+
+commit a464fc2303e50e24df74defcd5fe6d50cef01d1a
+Author: ybcoin <ycoin@gmail.com>
+Date:   Fri Sep 27 13:54:56 2013 +0800
+
+    add a new rpc listlatesttx and an option cachetx for enable it.
+
+commit 7e8a17322d771bb1c346f263a37ac6ebc7c0c626
+Author: ybcoin <ycoin@gmail.com>
+Date:   Fri Sep 27 13:51:03 2013 +0800
+
+    remove conflict transactions from mempool.
+
+commit 7d66a2164c67b629593fe7dffe1d3a9adb69ac18
+Author: ybcoin <ycoin@gmail.com>
+Date:   Fri Sep 27 13:48:56 2013 +0800
+
+    Make explicitly requested salvage operations keep going when there is an error.
+
+commit 5b67087cd7d11588a8fbdade31a74d215c352b98
+Author: ybcoin <ycoin@gmail.com>
+Date:   Sat Aug 31 21:56:57 2013 +0800
+
+    update
+
+commit 94d4ceb5fd3ac7944afd8bae2040d9f60218aee3
+Author: ybcoin <ycoin@gmail.com>
+Date:   Sat Aug 31 21:31:33 2013 +0800
+
+    rool back
+
+commit 075e74adc346d26e0618b62cc9e03bca76ac10b3
+Author: ybcoin <ycoin@gmail.com>
+Date:   Sat Aug 31 21:27:02 2013 +0800
+
+    testnet implemented
+
+commit 82095f1894541a3766dbb8bab740ae43803a0115
+Author: ybcoin <ycoin@gmail.com>
+Date:   Sat Aug 31 21:25:54 2013 +0800
+
+    change min tx fee,min relay tx fee, min tx out to 0.0001
+
+commit 52e4045e681c828c9117de2e301d97d8619b47f8
+Author: ybcoin <ycoin@gmail.com>
+Date:   Sat Aug 31 21:24:08 2013 +0800
+
+    fix listsinceblock return unconfirmed transaction
+
+commit ec419cf346f721b5070b53663ffb15f428d3b85d
+Author: ybcoin <ycoin@gmail.com>
+Date:   Sat Aug 31 21:22:38 2013 +0800
+
+    BIP 0037
+
+commit fd782d11e525d7516ef3fb82666629f7cf7b710a
+Author: ybcoin <ycoin@gmail.com>
+Date:   Mon Jul 15 12:02:17 2013 +0800
+
+    build succeed on osx
+
+commit e80528b3ddbfd0d6e3a584650d79f78247edf76a
+Author: ybcoin <ycoin@gmail.com>
+Date:   Mon Jul 15 12:01:00 2013 +0800
+
+    update to v0.4.3.0
+
+commit 5353192b91b34e5a721475988ba4f603eeb598f3
+Author: ybcoin <ycoin@gmail.com>
+Date:   Mon Jul 15 12:00:26 2013 +0800
+
+    FIX: solo minging do not work when wallet is encrypted.
+
+commit 60d1222041ed3116c7917b262a3c39060b6cb805
+Author: ybcoin <ycoin@gmail.com>
+Date:   Mon Jul 15 11:57:51 2013 +0800
+
+    add support for pool mining
+
+commit 951b7441af2a1ed0cef6100a33449d41385b66cb
+Author: ybcoin <ycoin@gmail.com>
+Date:   Mon Jul 15 11:54:05 2013 +0800
+
+    add checkpoints to 34288
+
+commit 4ab4f86862d8d188b9ae1ff7c898b23c8ff9a8d4
+Author: ybcoin <ycoin@gmail.com>
+Date:   Wed Jul 3 22:15:12 2013 +0800
+
+    build succeed on mingw-w64
+
+commit e7db7851845d58020a2b807da62dcb2f61b0e998
+Author: ybcoin <ycoin@gmail.com>
+Date:   Mon Jul 1 19:00:19 2013 +0800
+
+    update to v0.4.2.5
+
+commit 9435933f9957fd378e7c03bcdfd9ed2aa1fab0e5
+Author: ybcoin <ycoin@gmail.com>
+Date:   Mon Jul 1 18:59:41 2013 +0800
+
+    FIX: hash rate be zero occasionally
+
+commit c0d9621e48a6e26e645851637d0d1023b9304601
+Author: ybcoin <ycoin@gmail.com>
+Date:   Sun Jun 30 20:38:18 2013 +0800
+
+    translate all miningpage messages
+
+commit aa7bb4a825bfd97a2aee60d064f752d1cfaff9e5
+Author: ybcoin <ycoin@gmail.com>
+Date:   Sun Jun 30 20:36:07 2013 +0800
+
+    remove the ru supports
+
+commit 2ee68f2ba91bce6753ba5e86fdf958048b516931
+Author: ybcoin <ycoin@gmail.com>
+Date:   Sun Jun 30 19:31:21 2013 +0800
+
+    fix some translations errors
+
+commit 5751d6b2411b936e6ad7141eda15d173f733d1de
+Author: ybcoin <ycoin@gmail.com>
+Date:   Sun Jun 30 19:30:54 2013 +0800
+
+    fix some translations errors
+
+commit e1cbfa790013396ad90fee2de2fb88f949044120
+Author: ybcoin <ybcoin@gmail.com>
+Date:   Sun Jun 30 18:52:50 2013 +0800
+
+    Update net.cpp
+
+commit e0b117bf9293549064ce6261c6fd71330897b996
+Author: ybcoin <ycoin@gmail.com>
+Date:   Sun Jun 30 18:34:34 2013 +0800
+
+    remove duplicated directory
+
+commit 6c471df74cb548c076027f30940c12ca6a3103b3
+Author: ybcoin <ybcoin@gmail.com>
+Date:   Sun Jun 30 18:01:52 2013 +0800
+
+    Update README.md
+
+commit 87acf50b45aace487cce49f03cf8ba75be3761a6
+Author: ybcoin <ybcoin@gmail.com>
+Date:   Sun Jun 30 17:49:40 2013 +0800
+
+    Update ybcoin-qt.pro
+    
+    update
+
+commit 97e8d4f6f490cb617225206376e95fef461b4ae6
+Author: ybcoin <ybcoin@gmail.com>
+Date:   Sun Jun 30 17:47:31 2013 +0800
+
+    Update README.md
+
+commit 2e05f8b532c3096ad7dd528a41cb113f56995d68
+Author: ybcoin <ybcoin@gmail.com>
+Date:   Sun Jun 30 17:46:26 2013 +0800
+
+    Update README.md
+
+commit c86ac47492117011a1e6d6206199dd3cd2dce90e
+Author: ybcoin <ybcoin@gmail.com>
+Date:   Sun Jun 30 17:45:37 2013 +0800
+
+    Update README.md
+    
+    update ybcoin descriptions
+
+commit 10391c66a77961c1a07f3b64cd9c596f28fff7e9
+Author: ybcoin <ycoin@gmail.com>
+Date:   Sun Jun 30 17:31:24 2013 +0800
+
+    initialize
+
+commit d72035b5da3f6fc1d1c11ffd180a9720b3502a34
+Author: ybcoin <ybcoin@gmail.com>
+Date:   Sun Jun 30 01:30:09 2013 -0700
+
+    Initial commit

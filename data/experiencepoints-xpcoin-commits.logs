@@ -1,0 +1,89 @@
+commit a30d005d6cca7db74d62bbd339c98a88e85455a1
+Author: BinkersSoft <mikthor@sasktel.net>
+Date:   Thu Oct 12 20:58:16 2017 -0600
+
+    Fix sudo and bootstrap unzip location
+    
+    Fix sudo and bootstrap unzip location
+
+commit 2ef43021abba5a0345b4b061a07db36452a72b16
+Author: SOELexicon <craig_wright156@hotmail.com>
+Date:   Wed Oct 11 09:07:02 2017 +0100
+
+    bugfix
+
+commit a4096cd404c9e482644a36de4c64bf1a74479333
+Author: SOELexicon <craig_wright156@hotmail.com>
+Date:   Wed Oct 11 08:59:04 2017 +0100
+
+    Added blockchain download option to script
+
+commit 4a5d3b5dc72ceb4d7cb3384336899e8c66613258
+Author: SOELexicon <craig_wright156@hotmail.com>
+Date:   Wed Oct 11 05:43:54 2017 +0100
+
+    update credits
+
+commit f79f8203f627c78bf0435d52c8729870cc407018
+Author: SOELexicon <craig_wright156@hotmail.com>
+Date:   Wed Oct 11 05:41:34 2017 +0100
+
+    Update build notes for new script
+    
+    added instructions to install via shell script for ubuntu
+
+commit 1f1b51943a0102babb11c5184a79d29442d87b03
+Author: SOELexicon <craig_wright156@hotmail.com>
+Date:   Wed Oct 11 05:25:02 2017 +0100
+
+    Fix error
+
+commit fd0c3567a07aff03f022573d6d8439abedf86943
+Author: SOELexicon <craig_wright156@hotmail.com>
+Date:   Wed Oct 11 04:17:14 2017 +0100
+
+    changes to script
+
+commit e73d543738cd107c6dc6763375a7733f3575ea8c
+Author: SOELexicon <craig_wright156@hotmail.com>
+Date:   Wed Oct 11 03:24:56 2017 +0100
+
+    XPd-linux-compile-from-source.
+    
+    linux compile from source
+
+commit 4c56a8f9724580ce87004f7f876f28abf39907fd
+Author: SOELexicon <craig_wright156@hotmail.com>
+Date:   Wed Oct 11 03:23:26 2017 +0100
+
+    moveing file
+
+commit 90bf515d9e3cb36f19c623f95f1b88db27ccd93b
+Author: SOELexicon <craig_wright156@hotmail.com>
+Date:   Wed Oct 11 03:20:31 2017 +0100
+
+    XPd-ubuntu-compile-from-source
+    
+    Non GUI  Installer Script for ubuntu
+
+commit dead50b60dc222c62a9b2d0cb51d5e5b1ebf666d
+Author: DigiWarfare <christian@digitalizedwarfare.com>
+Date:   Tue Sep 26 12:05:45 2017 -0400
+
+    Changes
+    
+    Changes
+
+commit e190f54dea78786939da4c3140775bc15b01a715
+Author: DigiWarfare <christian@digitalizedwarfare.com>
+Date:   Tue Sep 26 11:24:06 2017 -0400
+
+    Base Commit
+    
+    SourceCode
+
+commit ef9141ae63fd7026631a35078d4497601eb3e188
+Author: DigiWarfare <christian@digitalizedwarfare.com>
+Date:   Tue Sep 26 11:19:10 2017 -0400
+
+    :space_invader: Added .gitattributes & .gitignore files

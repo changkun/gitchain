@@ -1,0 +1,47 @@
+commit b56b43b23962f303ee54af9118b93d7ccffcf744
+Author: Tillkoeln <Tillkoeln>
+Date:   Sun Sep 11 04:18:43 2016 +0200
+
+    Version 3.0
+    
+    Added Proof of Work Algo X13 Blocktime 180 seconds
+
+commit 5a0789a7181009db1d63d3d0a9161dde2883ec7e
+Author: Tillkoeln <Tillkoeln>
+Date:   Wed Sep 7 22:17:48 2016 +0200
+
+    V2.2.5 fixing Fat-Finger issues
+
+commit d4b4b2ba3ccc1927f3efc0ceae404911f4f6fa20
+Author: Tillkoeln <Tillkoeln>
+Date:   Wed Sep 7 21:39:06 2016 +0200
+
+    V2.2.1 Added Chat,Stats-Page & Block Explorer
+
+commit cf4ba1c09b8c66d6784a24d929d45f5b94d43a8d
+Author: Tillkoeln <Tillkoeln>
+Date:   Wed Sep 7 20:49:44 2016 +0200
+
+    Mandatory Update V2.0
+
+commit 763f90ea82041374b60047549ff298700ab98bf7
+Author: X2Team2017 <x2Team2016@hotmail.com>
+Date:   Tue Sep 6 22:09:29 2016 +0200
+
+    Update checkpoints.cpp
+    
+    checkpoints
+
+commit f356cfe5e7b65533f67a2c945f2e310579d341db
+Author: X2Team2017 <x2Team2016@hotmail.com>
+Date:   Fri Sep 2 15:12:35 2016 +0200
+
+    Update net.cpp
+    
+    nodes
+
+commit 9c3e02435960d137f07c9795a6d735fc159272ca
+Author: X2Team2017 <X2team2016@hotmail.com>
+Date:   Sat Dec 5 22:35:14 2015 +0100
+
+    Launch

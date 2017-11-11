@@ -1,0 +1,218 @@
+commit cc761605c9976fdc05be0db5ff8efdcbcac3eac4
+Merge: a1fcbf0 879855e
+Author: Romano <romanornr@gmail.com>
+Date:   Thu Oct 5 10:07:42 2017 +0200
+
+    Merge pull request #8 from Onurrr/master
+    
+    removed chinese characters
+
+commit 879855e4e574dc22d5516f59bcfc9055f7c2abeb
+Author: Onur Ozdemir <onur38o@hotmail.com>
+Date:   Thu Oct 5 10:02:55 2017 +0200
+
+    removed chinese characters
+
+commit a1fcbf09496daa280ccd721136e766c5e8d2d027
+Merge: bdfbe34 f6af1d7
+Author: romanornr <romanornr@gmail.com>
+Date:   Wed Oct 4 22:22:49 2017 +0200
+
+    Merge branch 'master' of github.com:viacoin/documents
+
+commit bdfbe342936541a26bb83fb19379e16672595f59
+Author: romanornr <romanornr@gmail.com>
+Date:   Wed Oct 4 22:22:16 2017 +0200
+
+    Viacoin korean whitepaper translation
+
+commit f6af1d7849f5dbd6c272cb15e4f33cfadafd4d6a
+Merge: 94cee8e 8046e49
+Author: Romano <romanornr@gmail.com>
+Date:   Tue Oct 3 20:12:33 2017 +0200
+
+    Merge pull request #7 from Onurrr/master
+    
+    partially fixed korean translation latex
+
+commit 8046e49d85298738ebc6e3d55ec4f00f5038bc97
+Author: Onur Ozdemir <onur38o@hotmail.com>
+Date:   Tue Oct 3 20:10:28 2017 +0200
+
+    partially fixed korean translation latex
+
+commit 94cee8e7eb5e6c8c025ecbd888b6bcf72596eeac
+Author: romanornr <romanornr@gmail.com>
+Date:   Sat Sep 30 19:20:25 2017 +0200
+
+    Viacoin whitepaper Chinese and Korean
+
+commit 2b4afb61621d396b586cd457532731dd94c37754
+Author: romanornr <romanornr@gmail.com>
+Date:   Thu Sep 28 12:08:16 2017 +0200
+
+    Viacoin whitepaper Korean LaTeX
+
+commit 6a0df541cac406b39fc20115da70141a51bc268b
+Author: romanornr <romanornr@gmail.com>
+Date:   Fri Sep 22 12:26:21 2017 +0200
+
+    Viacoin whitepaper recompile
+
+commit f2175ad6d98bf8a5a41714c1715effc56a9dea04
+Merge: 119ab1f c4bd89d
+Author: Romano <romanornr@gmail.com>
+Date:   Fri Sep 22 12:24:58 2017 +0200
+
+    Merge pull request #5 from camelkk/patch-2
+    
+    Viacoin whitepaper: Changes to several sections
+
+commit c4bd89df3c83d0728ebe797bef79bb0136163996
+Author: camelkk <32135321+camelkk@users.noreply.github.com>
+Date:   Fri Sep 22 13:08:18 2017 +1000
+
+    Update Viacoin_whitepaper.tex
+
+commit f2279b9c4af2c4f6d67b29790e13cc2524a9fa4e
+Author: camelkk <32135321+camelkk@users.noreply.github.com>
+Date:   Thu Sep 21 23:15:06 2017 +1000
+
+    Changes to several sections
+    
+    I changed some previous sections I edited and went through the rest of the whitepaper,
+    not sure if the formatting is correct but I didn't add too much so it should be okay.
+    thanks
+
+commit 119ab1fc50de7eedd3d2389a503ccae88358b76d
+Author: romanornr <romanornr@gmail.com>
+Date:   Thu Sep 21 12:11:34 2017 +0200
+
+    Viacoin whitepaper fixes
+
+commit cb740a8cf7e11bccb91684e8e4a571f7509723e9
+Merge: 49cbbf6 eeff141
+Author: Romano <romanornr@gmail.com>
+Date:   Thu Sep 21 12:10:37 2017 +0200
+
+    Merge pull request #4 from KoviaX/patch-3
+    
+    Update Viacoin_whitepaper.tex
+
+commit eeff14133d44ddbc19953466b88d21226157908e
+Author: KoviaX <32141052+KoviaX@users.noreply.github.com>
+Date:   Wed Sep 20 22:24:12 2017 +0200
+
+    Update Viacoin_whitepaper.tex
+
+commit 49cbbf63656b1ec4d4808a9ff3e36330af3b2afa
+Merge: 20eb2a7 3990071
+Author: Romano <romanornr@gmail.com>
+Date:   Wed Sep 20 21:43:09 2017 +0200
+
+    Merge pull request #3 from KoviaX/patch-3
+    
+    Viacoin whitepaper: Language and styling suggestions
+
+commit 3990071f850032702814f06d0327b36f8a17d460
+Author: KoviaX <32141052+KoviaX@users.noreply.github.com>
+Date:   Wed Sep 20 20:59:01 2017 +0200
+
+    Language and styling suggestions
+
+commit 20eb2a75e03dc4b195ee5c457605fa38088b2a3f
+Author: romanornr <romanornr@gmail.com>
+Date:   Wed Sep 20 20:21:08 2017 +0200
+
+    Viacoin whitepaper recompile
+
+commit e4ba2a263870257ca0db397238de9536d2e8427d
+Merge: b05a89b 595d427
+Author: Romano <romanornr@gmail.com>
+Date:   Wed Sep 20 18:11:34 2017 +0200
+
+    Merge pull request #2 from camelkk/patch-1
+    
+    changes to abstract, 1 Scrypt, 2 Merged Mining AuxPoW
+
+commit 595d427bf224b420ebc682ccc5ab2db6a4a353d7
+Author: camelkk <32135321+camelkk@users.noreply.github.com>
+Date:   Thu Sep 21 01:16:21 2017 +1000
+
+    changes to abstract, 1 Scrypt, 2 Merged Mining AuxPoW
+
+commit b05a89b943ff5bd6fa027e08cde6e8fc3c04e554
+Merge: 5129de6 0480e94
+Author: Romano <romanornr@gmail.com>
+Date:   Wed Sep 20 15:32:13 2017 +0200
+
+    Merge pull request #1 from Onurrr/master
+    
+    full color whitepaper
+
+commit 0480e94c201ddb1b29e6bd3c32bec65386a1ed41
+Merge: a23a959 5129de6
+Author: Onur Ozdemir <onur38o@hotmail.com>
+Date:   Wed Sep 20 15:28:27 2017 +0200
+
+    Merge remote-tracking branch 'upstream/master'
+
+commit a23a9591d3e7f508f9b67f4ab0237250378daa5a
+Author: Onur Ozdemir <onur38o@hotmail.com>
+Date:   Wed Sep 20 15:26:10 2017 +0200
+
+    fixed formula
+
+commit 5129de6c51921665d1531114e42364dd6e5879f4
+Author: romanornr <romanornr@gmail.com>
+Date:   Wed Sep 20 15:15:41 2017 +0200
+
+    Viacoin whitepaper: correct DGW formula
+
+commit df3b1fb5a77824a29ea2546819d0bf1b3b8e1b8c
+Author: Onur Ozdemir <onur38o@hotmail.com>
+Date:   Wed Sep 20 15:06:51 2017 +0200
+
+    full color whitepaper
+
+commit 6744e6e91dbfbf4518fff989d35b932bb3af23e5
+Author: romanornr <romanornr@gmail.com>
+Date:   Wed Sep 20 12:19:48 2017 +0200
+
+    Viacoin: Whitepaper release
+
+commit 23f29b5e1a4905b90058bf09402ada36eac30a68
+Author: romanornr <romanornr@gmail.com>
+Date:   Mon Sep 11 20:18:30 2017 +0200
+
+    bibliography LaTeX ignore
+
+commit 514d9bd1a78cce0e9e3a3862e67a3a2533cc0e44
+Author: romanornr <romanornr@gmail.com>
+Date:   Sun Sep 10 22:10:18 2017 +0200
+
+    gitignore laTeX logs
+
+commit 3ad71f3d012b44daee657c0ae788a9a12c05912d
+Author: romanornr <romanornr@gmail.com>
+Date:   Thu Sep 7 09:21:31 2017 +0200
+
+    Styx whitepaper Chinese translation
+
+commit a284963c2866ebafd28e7994f4eb44a74a0acca2
+Author: romanornr <romanornr@gmail.com>
+Date:   Thu Sep 7 09:21:02 2017 +0200
+
+    Styx whitepaper
+
+commit e127f27b891f88872299655d4ee6a784e2567326
+Author: romanornr <romanornr@gmail.com>
+Date:   Sun Sep 3 19:14:53 2017 +0200
+
+    yobtc english instructions
+
+commit 6fcf177d5e2b9015230f9d692e60a4501c9b531e
+Author: romanornr <romanornr@gmail.com>
+Date:   Sun Sep 3 19:13:43 2017 +0200
+
+    Initial commit

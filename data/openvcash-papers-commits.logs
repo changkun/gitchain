@@ -1,0 +1,119 @@
+commit b5442c8913c81933edf9bc9b3889457b72fe6768
+Author: xCoreDev <xcoredev@protonmail.com>
+Date:   Sat Dec 17 20:38:59 2016 +0100
+
+    Added missing paper
+
+commit 11e81cde268888e8418e1035eb1f63a88dad7749
+Author: John Connor <john_a_connor@icloud.com>
+Date:   Sun Apr 17 12:32:31 2016 -0400
+
+    Proof-of-Work RewardV3 Draft
+
+commit 8f767f64af060b405c2e5a9343efdd0d7887031c
+Author: John Connor <john_a_connor@icloud.com>
+Date:   Wed Mar 2 02:08:22 2016 -0500
+
+    - snip -
+
+commit e9e8b79f0943e7094aaac3f3cab9b8656c297e52
+Author: John Connor <john_a_connor@icloud.com>
+Date:   Wed Mar 2 02:06:47 2016 -0500
+
+    Changed references to super peer to public peer.
+
+commit 6e00fe74953b841d9693ae19fb266f368ebfbd05
+Author: John Connor <john_a_connor@icloud.com>
+Date:   Sun Feb 14 15:18:26 2016 -0500
+
+    Revision 5 (final implementation)
+
+commit 6235007415d2fd4e06f03816a3138783712216d9
+Author: John Connor <john_a_connor@icloud.com>
+Date:   Thu Feb 4 01:24:59 2016 -0500
+
+    revision 4
+
+commit a5aab7f159ce519104605d0ebc288e48bd871b83
+Author: John Connor <john_a_connor@icloud.com>
+Date:   Mon Jan 11 21:23:38 2016 -0500
+
+    revision 3
+
+commit e1a9d6820f57edc0c0e0ad427c866a3fbdad0a25
+Author: John Connor <john_a_connor@icloud.com>
+Date:   Tue Dec 29 18:54:05 2015 -0500
+
+    finalised algorithm
+
+commit 4ef358655fb1c22871a1938fbbf2ffdeef4e36da
+Author: John Connor <john_a_connor@icloud.com>
+Date:   Tue Dec 29 03:33:01 2015 -0500
+
+    Added reference to incentive paper.
+
+commit d0c6385d10a9b18378498e945858da295479dde7
+Author: John Connor <john_a_connor@icloud.com>
+Date:   Tue Dec 29 03:22:52 2015 -0500
+
+    initial import
+
+commit 2489594d2e7dd6bbeabe77abc9f514d01c431e9c
+Author: John Connor <john_a_connor@icloud.com>
+Date:   Wed Dec 9 03:23:10 2015 -0500
+
+    ChainBlender Initial Import Draft01
+
+commit f2715c596c09df95d540ec39b018fbf550e88ab5
+Author: John Connor <john_a_connor@icloud.com>
+Date:   Thu Sep 10 19:09:34 2015 -0400
+
+    revision 1 draft
+
+commit 4adbb1754f02d3f44a281efcaaccb8a4c287e1cd
+Author: John Connor <john_a_connor@icloud.com>
+Date:   Thu Sep 10 04:50:58 2015 -0400
+
+    revision 1 draft
+
+commit 1a3da90568067d588f553428debb011ffd0fa404
+Author: John Connor <john_a_connor@icloud.com>
+Date:   Thu Sep 3 08:35:17 2015 -0400
+
+    rough draft
+
+commit 827ec400fcf1da9454c088feffc9f1f7afffb883
+Author: John Connor <john_a_connor@icloud.com>
+Date:   Mon Aug 24 08:11:38 2015 -0400
+
+    scaling the blockchain
+
+commit 5e123aff62e8cbccd694933ab5ca6314a23caae4
+Author: John Connor <john_a_connor@icloud.com>
+Date:   Thu Aug 13 11:09:30 2015 -0400
+
+    full paper
+
+commit 055e4afcf7cdc88d27b84b932fd5f3c95be50c4b
+Author: John Connor <john_a_connor@icloud.com>
+Date:   Fri Jun 19 05:39:51 2015 -0400
+
+    cleanups
+
+commit 788a47020ef41c8802d3757a9331d00c8af0add9
+Author: John Connor <john_a_connor@icloud.com>
+Date:   Fri Jun 19 05:25:53 2015 -0400
+
+    added definitions
+
+commit 708f488c8c17e08a12bc4bdb4fc5ac1e2aaf6e24
+Author: John Connor <john_a_connor@icloud.com>
+Date:   Thu Jun 18 21:32:00 2015 -0400
+
+    initial import
+
+commit 4a060251c13efa0983ec3edefa97ab02a9974a3e
+Author: John Connor <john-connor@users.noreply.github.com>
+Date:   Thu Jun 18 17:46:53 2015 -0400
+
+    Initial commit

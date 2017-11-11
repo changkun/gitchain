@@ -1,0 +1,31 @@
+commit 321b5e3a5191e5806f3968845540a70d5c43330a
+Author: Funkenstein the Dwarf <funkenstein@woodcoin.org>
+Date:   Mon Mar 27 05:56:15 2017 -0400
+
+    Update README.md
+
+commit 13c7c129bc4bb29a5089df7f2c27d4850563fc40
+Author: Funkenstein the Dwarf <funkenstein@woodcoin.org>
+Date:   Mon Mar 27 05:53:06 2017 -0400
+
+    Update README.md
+
+commit f7686032f80708487350be9881895b102aa9649a
+Author: Funkenstein the Dwarf <funkenstein@woodcoin.org>
+Date:   Thu Mar 16 23:30:17 2017 -0400
+
+    woodcore-test-binaries
+    
+    Built on Debian 8 and stripped.
+
+commit 728c8b2213c47bbc21381e15fe2bac6e37f3075f
+Author: Scott King <Lvl4Sword@users.noreply.github.com>
+Date:   Sun Mar 12 22:28:44 2017 -0600
+
+    Add files via upload
+
+commit c7c102c083c643d578e450f787eb4d625d354973
+Author: Scott King <Lvl4Sword@users.noreply.github.com>
+Date:   Sun Mar 12 22:14:47 2017 -0600
+
+    Create README.md

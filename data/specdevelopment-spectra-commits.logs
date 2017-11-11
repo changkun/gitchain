@@ -1,0 +1,108 @@
+commit 3fd00c36d8d583ad946474f9709543c0bc55c321
+Author: SpecDevelopment <SpecDevelopment@users.noreply.github.com>
+Date:   Thu Sep 15 22:01:03 2016 -0500
+
+    Update spectra.js
+
+commit 17794ef6a12dc66dcd4bcc1f9d05868ed292ae12
+Author: SpecDevelopment <dev@speccoin.com>
+Date:   Thu Sep 8 15:32:55 2016 -0500
+
+    Update test2.sh
+
+commit b7819a419d28e626c367beb05f150e204be96e3c
+Author: SpecDevelopment <dev@speccoin.com>
+Date:   Thu Sep 8 15:28:34 2016 -0500
+
+    Update test2.sh
+
+commit ce54278684b4a5d7a9989d45acb188f16e2c8751
+Author: SpecDevelopment <dev@speccoin.com>
+Date:   Thu Sep 8 14:17:17 2016 -0500
+
+    Create test2.sh
+
+commit c47a118c3122c7d6f61b7cbabc1137f5bcd5b555
+Author: SpecDevelopment <dev@speccoin.com>
+Date:   Thu Sep 8 14:16:30 2016 -0500
+
+    Delete test.sh
+
+commit b931f75792abbd9572feca9902dcd48269cce45e
+Author: SpecDevelopment <dev@speccoin.com>
+Date:   Thu Sep 8 14:14:45 2016 -0500
+
+    Create test.sh
+
+commit 05ca48f54b1a1eda38d7eff2517c942eb9ff6618
+Author: SpecDevelopment <dev@speccoin.com>
+Date:   Wed Oct 21 13:33:08 2015 -0500
+
+    Update README.md
+
+commit 2cfbe37d44b79d5ec0b5873bd3b8a96a3701bdd5
+Author: SpecDevelopment <dev@speccoin.com>
+Date:   Mon Oct 12 04:44:56 2015 -0500
+
+    Update spectra_log.txt
+
+commit eb92f48769ca7e85709f6c33705e342d4e6fd83c
+Author: SpecDevelopment <dev@speccoin.com>
+Date:   Fri Oct 9 15:48:22 2015 -0500
+
+    Update spectra.js
+
+commit cb1da132f76320eb4a57fb77138c2acd0cd29e15
+Author: SpecDevelopment <dev@speccoin.com>
+Date:   Fri Oct 9 15:30:08 2015 -0500
+
+    Update spectra_config.php
+
+commit 7f78784f5b910842ce506cfe46750bd89b0ab65b
+Author: SpecDevelopment <dev@speccoin.com>
+Date:   Thu Oct 8 19:01:40 2015 -0500
+
+    Update spectra_config.php
+
+commit 8f4acd469027ca08b7fd9abdaa9a0ccf725a1392
+Merge: 7b3e8a9 b693763
+Author: CallMeJake <jake@alljake.com>
+Date:   Wed Oct 7 12:37:32 2015 -0700
+
+    Merge branch 'master' of https://github.com/SpecDevelopment/spectra
+
+commit 7b3e8a9d53ff5dfda419ae4e2a6bd124a57ddb7b
+Author: CallMeJake <jake@alljake.com>
+Date:   Wed Oct 7 12:36:14 2015 -0700
+
+    Footer Link Update
+
+commit b6937632eea0eff65b7a8b7ad0f73015dc73bbb8
+Author: SpecDevelopment <dev@speccoin.com>
+Date:   Wed Oct 7 12:40:36 2015 -0500
+
+    Update README.md
+
+commit 76196cea801e88f0ff0ec0cc7b3ee9660d6170c1
+Author: CallMeJake <jake@alljake.com>
+Date:   Wed Oct 7 10:10:40 2015 -0700
+
+    SPEC Open Source Block Explorer
+
+commit b9e1342ce95933f7dc514f78adbc43a4d202d6f8
+Author: CallMeJake <jake@alljake.com>
+Date:   Wed Oct 7 10:09:14 2015 -0700
+
+    Test Dev Access
+
+commit 5e97a0ccb8550393f5860378ccac8d31c83f8f4d
+Author: SpecDevelopment <dev@speccoin.com>
+Date:   Wed Oct 7 09:47:06 2015 -0500
+
+    Global Config
+
+commit b8b49e282f7477a3811e3eb56886b101ea6d0e44
+Author: SpecDevelopment <dev@speccoin.com>
+Date:   Wed Oct 7 09:43:53 2015 -0500
+
+    SPEC Open Source Block Explorer

@@ -1,0 +1,975 @@
+commit 21a8200f3804f9051c09f714fa569e073c8d109a
+Author: sunerok <justinvforvendetta@users.noreply.github.com>
+Date:   Sat Sep 23 15:07:23 2017 -0400
+
+    update coinbase maturity
+
+commit 17ed923d800e8e22998a6a35cad3b9b385f6ccce
+Author: sunerok <justinvforvendetta@users.noreply.github.com>
+Date:   Sat Sep 23 15:04:28 2017 -0400
+
+    update fee
+
+commit 837eec91f2d295eaf73647e9cfddc88613c5de16
+Author: sunerok <justinvforvendetta@users.noreply.github.com>
+Date:   Sat Sep 23 15:02:44 2017 -0400
+
+    added electrum-xvg.party to server list
+
+commit bdf15151f8251b3bb5a14d82e868cf0af25587d5
+Author: Sri Harsha Gangisetty <hars4646@gmail.com>
+Date:   Fri Sep 22 00:23:52 2017 +0530
+
+    Updated version number to 2.4.1 and updated cx_setup.py
+
+commit 88a82839dbd591eceee1329c2d0063c439417afc
+Author: sunerok <justinvforvendetta@users.noreply.github.com>
+Date:   Thu Sep 21 14:16:38 2017 -0400
+
+    seperate server list items
+
+commit b297215c165ee82e006e4e748128b6db7a3c27c1
+Merge: cf5bd1f d70a8aa
+Author: Sri Harsha Gangisetty <hars4646@gmail.com>
+Date:   Thu Sep 21 21:24:07 2017 +0530
+
+    Merge pull request #8 from vergecurrency/development
+    
+    Merge Development with Master
+
+commit cf5bd1f92d48a4535f53cc90e27991e48764512d
+Author: sunerok <justinvforvendetta@gmail.com>
+Date:   Tue Sep 19 22:18:22 2017 -0400
+
+    added another electrum server
+    
+    added electrum-xvg.stream.
+    
+    communicates with other electrum servers properly =]
+
+commit d70a8aaecd2c2c007bf796bd61ae4c953a5ea148
+Author: Sri Harsha Gangisetty <hars4646@gmail.com>
+Date:   Wed Sep 20 01:19:58 2017 +0530
+
+    Created Development branch and fixed wallet crash on new wallet creation
+
+commit 9c3731df86d2f08456c6dc41c85936f1a57e2e11
+Author: Sri Harsha Gangisetty <hars4646@gmail.com>
+Date:   Mon Aug 28 02:52:38 2017 +0530
+
+    fixed a bug during fallback when ltc_scrypt not found
+
+commit 454f1d938bf3080308f18682635d8918aa6833c6
+Merge: f344de1 f60ef41
+Author: Sri Harsha Gangisetty <hars4646@gmail.com>
+Date:   Fri Aug 25 20:29:46 2017 +0530
+
+    Merge pull request #6 from harwee/master
+    
+    Code Cleanup and Included packages to fix bug when building 32 bit binaries
+
+commit f60ef41f5dcabe7241c6c45f5e5bd05d0310b15c
+Merge: 50a3793 eb54fd6
+Author: Sri Harsha Gangisetty <hars4646@gmail.com>
+Date:   Fri Aug 25 20:24:11 2017 +0530
+
+    Merge branch 'master' of https://github.com/harwee/electrum-xvg
+
+commit 50a3793e4769e37e9aa1fd0712246de55c8ced7c
+Author: Sri Harsha Gangisetty <hars4646@gmail.com>
+Date:   Fri Aug 25 20:21:14 2017 +0530
+
+    included dbhash and dumbdbm to packages
+
+commit 927f6d8b4be680ddf2e859cc178f3ed89be4c972
+Author: Sri Harsha Gangisetty <hars4646@gmail.com>
+Date:   Fri Aug 25 19:22:16 2017 +0530
+
+    Modified imports to remove unnecessary bloat while packaging
+
+commit f344de1be56498e566d0faa36a66a0eab924919e
+Author: sunerok <justinvforvendetta@users.noreply.github.com>
+Date:   Fri Aug 25 02:22:37 2017 -0400
+
+    fix space
+
+commit 45922f6dd5e44fd7b771622e442adb9732d5519b
+Merge: 68e5064 eb54fd6
+Author: sunerok <justinvforvendetta@users.noreply.github.com>
+Date:   Thu Aug 24 18:11:43 2017 -0400
+
+    Merge pull request #5 from harwee/master
+    
+    Modifications for easy creation of Executables on windows.
+
+commit eb54fd69fcab1a96b8357767946bb79acddab3cb
+Author: Sri Harsha Gangisetty <hars4646@gmail.com>
+Date:   Fri Aug 25 03:17:47 2017 +0530
+
+    Updated comments to build executable!
+
+commit d9003b9676be37cab10b849ea71f9988fdaf0cac
+Author: Sri Harsha Gangisetty <hars4646@gmail.com>
+Date:   Fri Aug 25 03:13:19 2017 +0530
+
+    fixed a bug where script_dir is not detected when frozen
+
+commit 92f6ead2d33683d81b4b6d07e8a7c39762f9d2c8
+Author: Sri Harsha Gangisetty <hars4646@gmail.com>
+Date:   Fri Aug 25 02:57:50 2017 +0530
+
+    Added a cx_Freeze setup script to create Executable on windows; redirect stdout, stderr to log.txt;
+
+commit 68e5064bc7ffda79623a949362e5bfe371927ab8
+Author: sunerok <justinvforvendetta@users.noreply.github.com>
+Date:   Wed Aug 23 22:10:14 2017 -0400
+
+    electrum -> electrum_xvg
+
+commit 2975dd1a5988f51cc370ec96bad92ea6974c28ad
+Author: sunerok <justinvforvendetta@gmail.com>
+Date:   Wed Aug 23 21:41:43 2017 -0400
+
+    more updates for 2.4
+
+commit d2b98061a99ffeec7f32d073cd49e2ebd9b9f7ce
+Author: sunerok <justinvforvendetta@gmail.com>
+Date:   Wed Aug 23 21:39:47 2017 -0400
+
+    indent fixes
+
+commit 61c121cf8ccd6151cb6281a1b061490172294048
+Author: sunerok <justinvforvendetta@gmail.com>
+Date:   Wed Aug 23 21:25:44 2017 -0400
+
+    update to 2.4
+
+commit 7f1fae3b6089c36687aecc66e096c84cd147ff35
+Author: sunerok <justinvforvendetta@users.noreply.github.com>
+Date:   Mon Jul 17 11:15:51 2017 -0400
+
+    fix instructions for osx
+
+commit bcbb219f62a90ed78b79f5201bb95a245d35eeb6
+Merge: d7ac3e0 41672d5
+Author: sunerok <justinvforvendetta@users.noreply.github.com>
+Date:   Fri Jul 14 11:07:31 2017 -0400
+
+    Merge pull request #4 from 7eventh/master
+    
+    block explorer url correction
+
+commit 41672d587807e0a0fb44427b8f59f1f69f76f9b0
+Author: 7eventh <aphtrr@gmail.com>
+Date:   Fri Jul 14 02:32:40 2017 -0700
+
+    Revert "Revert "click network freeze fix""
+    
+    This reverts commit 5e62e9f424c0f99fd140535c92ca2ddd205455a8.
+
+commit 5e62e9f424c0f99fd140535c92ca2ddd205455a8
+Author: 7eventh <aphtrr@gmail.com>
+Date:   Fri Jul 14 02:18:05 2017 -0700
+
+    Revert "click network freeze fix"
+    
+    This reverts commit d8816caa53c667fcf8a5aa8501ee586595d978cf.
+
+commit 02ae65184e2964207850458dee334528285f3cbe
+Author: 7eventh <aphtrr@gmail.com>
+Date:   Fri Jul 14 02:15:39 2017 -0700
+
+    block explorer url correction
+
+commit d7ac3e04a06ff6a716b6ff840890e350aae6c86e
+Merge: 518eeb5 d8816ca
+Author: VERGE/XVG <vergecurrency@hushmail.com>
+Date:   Thu Jul 6 20:04:52 2017 -0400
+
+    Merge pull request #3 from 7eventh/master
+    
+    network tab freeze fix
+
+commit d8816caa53c667fcf8a5aa8501ee586595d978cf
+Author: 7eventh <aphtrr@gmail.com>
+Date:   Thu Jul 6 15:55:10 2017 -0700
+
+    click network freeze fix
+
+commit 518eeb58e64109957c7eae31307b66196e9016fd
+Merge: e8bb7be ac1d6f1
+Author: VERGE/XVG <vergecurrency@hushmail.com>
+Date:   Fri Jun 30 13:10:20 2017 -0400
+
+    Merge pull request #2 from swat69/patch-2
+    
+    Fix unexpected indent
+
+commit ac1d6f19f6198c9d1cd67e9411d634dc7263ddeb
+Author: Ben <swat69@users.noreply.github.com>
+Date:   Fri Jun 30 18:15:36 2017 +0200
+
+    Fix unexpected indent
+
+commit e8bb7be91a034307bbe9de9aed3eed4927290fcb
+Author: VERGE/XVG <vergecurrency@hushmail.com>
+Date:   Sat Jun 24 23:57:02 2017 -0400
+
+    Update network.py
+
+commit b66617b5668068be6b55909a4dd3d5e32b95ac9b
+Author: VERGE/XVG <vergecurrency@hushmail.com>
+Date:   Sat Jun 24 22:38:53 2017 -0400
+
+    Update README.md
+
+commit b1483498409d79205aeec818e18138de1fe28fd0
+Author: VERGE/XVG <vergecurrency@hushmail.com>
+Date:   Sat Jun 24 22:37:59 2017 -0400
+
+    Update README.md
+
+commit 22c1924a2b0a0a7565ea2a6baeb3cf88350c59af
+Author: VERGE/XVG <vergecurrency@hushmail.com>
+Date:   Sat Jun 24 22:36:44 2017 -0400
+
+    added travis for autobuilds
+
+commit 7d8b7b78f8805108b8b077302940fe80edbca966
+Author: justinvforvendetta <justinvforvendetta@gmail.com>
+Date:   Sat Jun 24 12:36:52 2017 -0400
+
+    indent
+
+commit aacc5bc794bc6e5337b91a95416ef80f09460217
+Author: justinvforvendetta <justinvforvendetta@gmail.com>
+Date:   Sat Jun 24 03:41:01 2017 -0400
+
+    fix donation addr
+
+commit c739a29579fe330f9c333c411e64f7b1fad210db
+Author: VERGE/XVG <vergecurrency@hushmail.com>
+Date:   Sat Jun 24 02:57:07 2017 -0400
+
+    meh. indent.
+
+commit 92b2c7a8635d715a89a25034e93671da56a6ed9a
+Author: VERGE/XVG <vergecurrency@hushmail.com>
+Date:   Sat Jun 24 02:55:38 2017 -0400
+
+    merrr indents.
+    
+    kill me!
+
+commit b549d7722f6e627c7b266aa20911432bb247b577
+Author: VERGE/XVG <vergecurrency@hushmail.com>
+Date:   Sat Jun 24 02:51:26 2017 -0400
+
+    bleh. more indent fixing.
+
+commit 54188fb57b96349afc204f287b94b9801349f5d9
+Author: VERGE/XVG <vergecurrency@hushmail.com>
+Date:   Sat Jun 24 02:49:29 2017 -0400
+
+    anudder indent.
+
+commit cf7f17ea080d0cec12ca725e507abbd1fedcfff0
+Author: VERGE/XVG <vergecurrency@hushmail.com>
+Date:   Sat Jun 24 02:47:35 2017 -0400
+
+    wtf more indent fixes
+    
+    how did this happpppennnnnnnnnnnnnnn lol
+
+commit 00bb74cc5f156cf383a480be63127b9f7e33e70a
+Author: VERGE/XVG <vergecurrency@hushmail.com>
+Date:   Sat Jun 24 02:45:57 2017 -0400
+
+    fix another indent.
+    
+    :rubs eyes/sips coffee:
+
+commit 211ea4fd37e29eae9c23723ef9537b5c15e77770
+Author: VERGE/XVG <vergecurrency@hushmail.com>
+Date:   Sat Jun 24 02:44:10 2017 -0400
+
+    fix indent, again.
+
+commit 388fef91a99c40d62ad5bb24225a97aaab6f3f80
+Author: VERGE/XVG <vergecurrency@hushmail.com>
+Date:   Sat Jun 24 02:42:56 2017 -0400
+
+    fix indent
+
+commit a9a180e8f580039c84ed01a80a1e92282ce38248
+Author: justinvforvendetta <justinvforvendetta@gmail.com>
+Date:   Sat Jun 24 02:40:45 2017 -0400
+
+    update icons, cleanup, add donation option.
+
+commit 894690b56840264a2715adf12b569c9bb0d21689
+Author: VERGE/XVG <vergecurrency@hushmail.com>
+Date:   Sat Jun 24 01:04:04 2017 -0400
+
+    fix indentation
+
+commit 2f5a1d0146285d73180feee897a1a8b625489a99
+Author: justinvforvendetta <justinvforvendetta@gmail.com>
+Date:   Sat Jun 24 00:47:57 2017 -0400
+
+    proxy/verify updates
+
+commit 34b9d5d0d67edbe43deb96594d65ebc34fc35233
+Merge: 723519a 1b31576
+Author: VERGE/XVG <vergecurrency@hushmail.com>
+Date:   Fri Jun 9 23:45:37 2017 -0400
+
+    Merge pull request #1 from justinvforvendetta/patch-1
+    
+    added ssl
+
+commit 1b31576a0a7ad12446701d9f98df56a4d954e2d0
+Author: sunerok <justinvforvendetta@users.noreply.github.com>
+Date:   Fri Jun 9 23:44:06 2017 -0400
+
+    added ssl
+
+commit 723519a874640b894c18e06bdef2b40504107c5a
+Author: vergecurrency <root@internets>
+Date:   Wed Jun 7 12:45:40 2017 -0400
+
+    update explorer
+
+commit 2cf2322cde3c9a03e39c2634c1003a5f9264c269
+Author: VERGE/XVG <vergecurrency@hushmail.com>
+Date:   Wed Jun 7 11:33:12 2017 -0400
+
+    update release info
+
+commit 2bfa387fb3d66d1d6d7b9cac1636fdbab6dc5e4a
+Author: VERGE/XVG <vergecurrency@hushmail.com>
+Date:   Wed Feb 17 02:05:21 2016 -0500
+
+    derp #2
+
+commit 39b4de08d4ef633cc8343c01013f6e026ac0333f
+Author: VERGE/XVG <vergecurrency@hushmail.com>
+Date:   Wed Feb 17 02:05:00 2016 -0500
+
+    derp
+
+commit fe2f1780203745fed4c86886d4cc378b96b68ae8
+Author: VERGE/XVG <vergecurrency@hushmail.com>
+Date:   Wed Feb 17 02:02:23 2016 -0500
+
+    changed default server
+
+commit 72debfd7ee6e9d1e3d4f4b7d3c5ad9714045729f
+Author: VERGE/XVG <vergecurrency@hushmail.com>
+Date:   Wed Feb 17 02:01:14 2016 -0500
+
+    fixed blockchain headers source
+
+commit a32e448af93673f281f3118a87aea1ee9224a7d3
+Author: vergecurrency <vergecurrency@hushmail.com>
+Date:   Wed Feb 17 01:51:58 2016 -0500
+
+    doged -> xvg
+
+commit 35d263e3967654bd5df3a209b9f7e6187aabfd15
+Author: vergecurrency <vergecurrency@hushmail.com>
+Date:   Wed Feb 17 01:50:55 2016 -0500
+
+    Revert "doged -> verge"
+    
+    This reverts commit 642a327789f4f4bf9e7ef248eaea0bbb63b4100a.
+
+commit 642a327789f4f4bf9e7ef248eaea0bbb63b4100a
+Author: vergecurrency <vergecurrency@hushmail.com>
+Date:   Wed Feb 17 01:50:48 2016 -0500
+
+    doged -> verge
+
+commit cca3a40709574c16dd3a637b17164f20883f7f0f
+Author: vergecurrency <vergecurrency@hushmail.com>
+Date:   Wed Feb 17 01:41:35 2016 -0500
+
+    logo
+
+commit 026320f6f10d08f5c927a67b4af756651fa945ed
+Author: vergecurrency <vergecurrency@hushmail.com>
+Date:   Wed Feb 17 01:37:45 2016 -0500
+
+    rebrand changes
+
+commit 2a7d4db21b418ba4b6057c33be00d1049d81e16e
+Author: DogecoinDark <justinvalo@yahoo.com>
+Date:   Fri Oct 23 10:28:42 2015 -0400
+
+    Update electrum-doged.conf.sample
+
+commit 2add6595d36341df4ddcac2e00b17f8aeabd14ce
+Author: DogecoinDark <justinvalo@yahoo.com>
+Date:   Fri Jul 24 11:00:46 2015 -0400
+
+    Update README.md
+
+commit 68400255ae3f5db3168c9ed6d9079f8e28780920
+Author: DogecoinDark <justinvalo@yahoo.com>
+Date:   Fri Jul 24 10:59:16 2015 -0400
+
+    Update README.md
+
+commit 2492841c5e5357d2447bc8b187517aa3b70c0ea3
+Author: DogecoinDark <justinvalo@yahoo.com>
+Date:   Fri Jul 24 10:57:55 2015 -0400
+
+    Create macosx.spec
+
+commit ee558302c479394b4c8c2ae1a18b1b7c30ebe831
+Author: DogecoinDark <justinvalo@yahoo.com>
+Date:   Fri Jul 24 10:21:48 2015 -0400
+
+    Update windows.spec
+
+commit a0c61a2ed6832633ade921dffcc866e50df1230b
+Author: DogecoinDark <justinvalo@yahoo.com>
+Date:   Fri Jul 24 10:21:04 2015 -0400
+
+    Create windows.spec
+
+commit 756c6bc7e0d3bdd32ba5b67a754925035f9a6526
+Author: DogecoinDark <justinvalo@yahoo.com>
+Date:   Sat Jul 4 11:58:01 2015 -0400
+
+    fee check
+
+commit d45117cb29d98a21fe9e2f2ebecb831f9da9e724
+Author: DogecoinDark <justinvalo@yahoo.com>
+Date:   Sat Jul 4 04:39:02 2015 -0400
+
+    Update transaction.py
+
+commit ad99c0f811229fc953dbceadccc7c026a246db85
+Author: DogecoinDark <justinvalo@yahoo.com>
+Date:   Thu Jun 25 07:41:41 2015 -0400
+
+    Update trezor.py
+
+commit 4514a88ab248a10fe131e4cd672817a5db801e5f
+Author: sunerok <justinvforvendetta@users.noreply.github.com>
+Date:   Thu Jun 25 07:31:09 2015 -0400
+
+    Update trezor.py
+
+commit 437bf1e94bb2a8a4f1b8b93aabfb6bc9b57ae531
+Author: DogecoinDark <justinvalo@yahoo.com>
+Date:   Wed Jun 10 15:55:59 2015 -0400
+
+    Update README.md
+
+commit d1070911cd074fd041932c1d0c0d6db0c33297bf
+Author: DogecoinDark <justinvalo@yahoo.com>
+Date:   Wed Jun 10 15:38:16 2015 -0400
+
+    Update README.md
+
+commit 3e0c2d93a308b08e7c2e9e0d9eb7d6bbe33d8ea8
+Author: DogecoinDark <justinvalo@yahoo.com>
+Date:   Wed Jun 10 15:16:53 2015 -0400
+
+    Update README.md
+
+commit 7cf9324930112345446d54163e2da12cb2900d22
+Author: DogecoinDark <justinvalo@yahoo.com>
+Date:   Wed Jun 10 15:15:57 2015 -0400
+
+    added windows instructions
+    
+    added windows instructions
+
+commit d7f1ec1acb01932e91ef35903146f0db64e5eee2
+Author: DogecoinDark <justinvalo@yahoo.com>
+Date:   Sun Jun 7 08:16:06 2015 -0400
+
+    Update README.md
+
+commit 8f216cddbccc4a2250fece31f01e65cc7fd317db
+Author: DogecoinDark <justinvalo@yahoo.com>
+Date:   Sat Jun 6 03:26:29 2015 -0400
+
+    Update README.md
+
+commit b36724edee09a6976e11854414d6595a56bfe8b1
+Author: DogecoinDark <justinvalo@yahoo.com>
+Date:   Sat Jun 6 03:25:39 2015 -0400
+
+    Update README.md
+
+commit 8f971f4c8d31d5bfc3ee8b4f2b86ac2831b1553c
+Author: DogecoinDark <justinvalo@yahoo.com>
+Date:   Sat Jun 6 03:19:51 2015 -0400
+
+    Update README.md
+
+commit 208b92fb33dc9d1853ec6f2d881aee5e47e32e69
+Author: DogecoinDark <justinvalo@yahoo.com>
+Date:   Sat Jun 6 02:46:55 2015 -0400
+
+    Update prepare-wine.sh
+
+commit d3fdf95cb40a10540a796c40dafa2fb6ca4a0bdc
+Author: DogecoinDark <justinvalo@yahoo.com>
+Date:   Fri Jun 5 10:13:42 2015 -0400
+
+    Update README.md
+
+commit ba7c1c54d98a1e017b245a69e41faecefaa69b47
+Author: DogecoinDark <justinvalo@yahoo.com>
+Date:   Fri Jun 5 10:13:24 2015 -0400
+
+    Update README.md
+
+commit d269cf69b867bf027a829462a4080427180b98ee
+Author: DogecoinDark <justinvalo@yahoo.com>
+Date:   Fri Jun 5 10:12:50 2015 -0400
+
+    Update README.md
+
+commit 1d4829f2816e3811244cf69925130fd53632eeb4
+Author: DogecoinDark <justinvalo@yahoo.com>
+Date:   Fri Jun 5 10:01:01 2015 -0400
+
+    Update build-electrum-git.sh
+
+commit f7d953567835907b2e5fb6dd50b39f56b84b280c
+Author: DogecoinDark <justinvalo@yahoo.com>
+Date:   Fri Jun 5 05:33:22 2015 -0400
+
+    Update util.py
+
+commit 47ce2681e2c49cdefffa90d2c47e66fcf494eada
+Author: DogecoinDark <justinvalo@yahoo.com>
+Date:   Fri Jun 5 05:32:58 2015 -0400
+
+    Update util.py
+
+commit bec337d2b11f8a0e06071b0efd31992820c4c1cc
+Author: DogecoinDark <justinvalo@yahoo.com>
+Date:   Fri Jun 5 05:30:29 2015 -0400
+
+    Update main_window.py
+
+commit 31ec71a3cd71e9f13f169108e1d64781c94e17a0
+Author: DogecoinDark <justinvalo@yahoo.com>
+Date:   Fri Jun 5 05:28:51 2015 -0400
+
+    Update amountedit.py
+
+commit 426b9519d2847d9da2f84a1875ff709bdd46968a
+Author: DogecoinDark <justinvalo@yahoo.com>
+Date:   Fri Jun 5 01:40:55 2015 -0400
+
+    Update main_window.py
+
+commit bb77854051a1032937f24dbcaf8180574190bc5e
+Author: DogecoinDark <justinvalo@yahoo.com>
+Date:   Fri Jun 5 01:39:27 2015 -0400
+
+    Update amountedit.py
+
+commit e1cb9c2b36837df57510a42028ff2daf7970b8e2
+Author: DogecoinDark <justinvalo@yahoo.com>
+Date:   Thu Jun 4 12:43:16 2015 -0400
+
+    added moar wordz
+    
+    added moar wordz
+
+commit f2402b77093c49060bbcdfc0eac85e058692aa14
+Author: DogecoinDark <justinvalo@yahoo.com>
+Date:   Thu Jun 4 11:49:36 2015 -0400
+
+    moar words
+    
+    added a couple moar words
+
+commit 7234ae435835bc81550b4b373c65f759fbde5b7a
+Author: DogecoinDark <justinvalo@yahoo.com>
+Date:   Thu Jun 4 11:20:20 2015 -0400
+
+    Update english.txt
+
+commit d701785cd7c18ea7850724255956239348668276
+Author: DogecoinDark <justinvalo@yahoo.com>
+Date:   Thu Jun 4 10:23:43 2015 -0400
+
+    Update transaction.py
+
+commit 89468c4b03d9305050244a72a5e1499b7c7c5b0f
+Author: sunerok <justinvforvendetta@gmail.com>
+Date:   Thu Jun 4 08:57:11 2015 -0400
+
+    mods
+    
+    mods
+
+commit efc900c67a688d13d9c0d2948a60a15e5de74729
+Author: bitspill <bitspill+github@bitspill.net>
+Date:   Wed Jun 3 01:55:33 2015 -0500
+
+    Update verifier.py
+    
+    A debug message that wasn't used or something
+
+commit b904f93013b7776cbe51ccc49a6f7573eaa4ecb0
+Author: DogecoinDark <justinvalo@yahoo.com>
+Date:   Wed Jun 3 00:42:57 2015 -0400
+
+    Update bitcoin.py
+
+commit e45781f051cb6952216f28938c83cf2ff213117c
+Author: DogecoinDark <justinvalo@yahoo.com>
+Date:   Wed Jun 3 00:41:47 2015 -0400
+
+    Update transaction.py
+
+commit a9633458ba91d0389f5a9c2c973ce72e5d92ab35
+Author: DogecoinDark <justinvalo@yahoo.com>
+Date:   Wed Jun 3 00:27:51 2015 -0400
+
+    Update transaction.py
+
+commit 641b367cf7fc6b2d7eceac4c26a4ff11e6cf748d
+Author: sunerok <justinvforvendetta@gmail.com>
+Date:   Tue Jun 2 09:11:33 2015 -0400
+
+    changed pending icon
+
+commit 0b39bc39218adbef5f178488166cbe8e5bce4785
+Author: DogecoinDark <justinvalo@yahoo.com>
+Date:   Tue Jun 2 08:52:30 2015 -0400
+
+    update enum
+
+commit 6dd50eacb046419366f2363925b355043830941e
+Author: DogecoinDark <justinvalo@yahoo.com>
+Date:   Tue Jun 2 08:40:57 2015 -0400
+
+    Update transaction.py
+
+commit 9f2ad1fcc81c3360bb51db2caf177648d37acf64
+Author: DogecoinDark <justinvalo@yahoo.com>
+Date:   Tue Jun 2 08:18:11 2015 -0400
+
+    Update transaction.py
+
+commit d319abc111c2ebc692c13ba7f3a021c1968bd75c
+Author: DogecoinDark <justinvalo@yahoo.com>
+Date:   Tue Jun 2 07:53:13 2015 -0400
+
+    1
+
+commit b5b47559f0653d198ce1efd645c4ed909bf0c9f8
+Author: sunerok <justinvforvendetta@gmail.com>
+Date:   Fri May 29 04:11:33 2015 -0400
+
+    icons update
+    
+    icons update
+
+commit 48f1b12c47de3172309978f89bc76b9f45222d41
+Author: sunerok <justinvforvendetta@gmail.com>
+Date:   Fri May 29 04:07:10 2015 -0400
+
+    icon
+    
+    icon
+
+commit 2bb9e0fdc5ed71b68c9969bfa46c1960b6859912
+Author: sunerok <justinvforvendetta@gmail.com>
+Date:   Fri May 29 03:20:02 2015 -0400
+
+    new icon
+    
+    new icon
+
+commit 40b428dfab27d9f1ba262bce66e3dbae525bd1ae
+Author: sunerok <justinvforvendetta@gmail.com>
+Date:   Fri May 29 03:16:01 2015 -0400
+
+    new icon
+    
+    new icon
+
+commit 5fc71fdb8361928dc8805ea8a49d9b9dd335fc31
+Author: sunerok <justinvforvendetta@gmail.com>
+Date:   Fri May 29 03:12:03 2015 -0400
+
+    new icon
+    
+    new icon
+
+commit 7a3b5926e869c0f5e73dc2ffc9d6233d57d4b32b
+Author: sunerok <justinvforvendetta@gmail.com>
+Date:   Fri May 29 03:08:28 2015 -0400
+
+    new icon
+    
+    new icon
+
+commit 8a430e78e7d41b220b322094901a18c04e9a58f1
+Author: sunerok <justinvforvendetta@gmail.com>
+Date:   Fri May 29 01:58:35 2015 -0400
+
+    new icons
+    
+    new icons
+
+commit 94cb9f0ccc10d63403c986d741b0d4c5ab4ea018
+Author: sunerok <justinvforvendetta@gmail.com>
+Date:   Fri May 29 01:55:28 2015 -0400
+
+    new icons
+    
+    new icons
+
+commit 3b89aa67950a3837fa8bcb4f863e64f5b37b9873
+Author: sunerok <justinvforvendetta@gmail.com>
+Date:   Fri May 29 01:35:05 2015 -0400
+
+    new network icon
+    
+    new network icon
+
+commit fe6ea126ba3bc842a00054c54d272b4def8b16d1
+Author: sunerok <justinvforvendetta@gmail.com>
+Date:   Fri May 29 01:30:04 2015 -0400
+
+    new lock icons
+    
+    new lock icons
+
+commit 2888d12a9a133222e80a2a6a36fdfc998dd8a755
+Author: sunerok <justinvforvendetta@gmail.com>
+Date:   Fri May 29 01:19:37 2015 -0400
+
+    new key
+    
+    new key icon
+
+commit 015eeea643a9fdbb108273051560068e89c6e10c
+Author: DogecoinDark <justinvalo@yahoo.com>
+Date:   Fri May 29 00:36:45 2015 -0400
+
+    Update README.md
+
+commit 4f042b6f485a6ef59a66dcc24bbd0a97c35b3a5b
+Author: DogecoinDark <justinvalo@yahoo.com>
+Date:   Fri May 29 00:34:13 2015 -0400
+
+    Update README.md
+
+commit 925b02c98e308f23bda2039d50a0eaa6362c832e
+Author: DogecoinDark <justinvalo@yahoo.com>
+Date:   Fri May 29 00:32:33 2015 -0400
+
+    Update README.md
+
+commit 8d3806984a5b3d739a14065dc6a7b556183b9836
+Author: DogecoinDark <justinvalo@yahoo.com>
+Date:   Wed May 27 20:04:21 2015 -0400
+
+    Update bitcoin.py
+
+commit 9e28c58103e8ab5d3e1fa964d458428e345a3aac
+Author: DogecoinDark <justinvalo@yahoo.com>
+Date:   Wed May 27 19:57:10 2015 -0400
+
+    Update main_window.py
+
+commit 7724b18fa527156603bcb07a3c893d7941a1b314
+Author: DogecoinDark <justinvalo@yahoo.com>
+Date:   Wed May 27 19:51:09 2015 -0400
+
+    Update electrum-doged.conf.sample
+
+commit 68d7628adb9fb095b81a844b7274caf92752f54c
+Author: DogecoinDark <justinvalo@yahoo.com>
+Date:   Wed May 27 19:47:52 2015 -0400
+
+    Update deterministic.spec
+
+commit e3c266a9ceebd64c735c89bb7b58d9193f9e736a
+Author: sunerok <justinvforvendetta@gmail.com>
+Date:   Wed May 27 10:14:49 2015 -0400
+
+    1
+    
+    1
+
+commit 874bb3671a797c00fd0b4c3a300b6157c230aae8
+Author: DogecoinDark <justinvalo@yahoo.com>
+Date:   Wed May 27 09:26:56 2015 -0400
+
+    Update README.md
+
+commit e408c5d6291d69aed9a16caed040c1ee83ee1911
+Author: DogecoinDark <justinvalo@yahoo.com>
+Date:   Wed May 27 09:18:07 2015 -0400
+
+    Update README.md
+
+commit 71e56ddea2441e7ae191192ee2905e16f6c82f54
+Author: DogecoinDark <justinvalo@yahoo.com>
+Date:   Wed May 27 09:15:36 2015 -0400
+
+    Update README.md
+
+commit 902fd6e8b9069b8053a55c0835fb31961dcec93d
+Author: DogecoinDark <justinvalo@yahoo.com>
+Date:   Wed May 27 09:15:15 2015 -0400
+
+    Update README.md
+
+commit 18e372ca9322688598213bbd3523e0683a7e1b12
+Author: sunerok <justinvforvendetta@gmail.com>
+Date:   Wed May 27 08:56:52 2015 -0400
+
+    1
+    
+    1
+
+commit f946029beab9ff57f087ab74347c296665eec5ca
+Author: sunerok <justinvforvendetta@gmail.com>
+Date:   Wed May 27 08:47:51 2015 -0400
+
+    1
+    
+    1
+
+commit b702e083d5ee3d7045739e0290d725dcc9f6c9da
+Author: DogecoinDark <justinvalo@yahoo.com>
+Date:   Wed May 27 08:42:06 2015 -0400
+
+    Update README.md
+
+commit 932ffa1fee614a74ea639ba64ff3c9f9781305c5
+Author: sunerok <justinvforvendetta@gmail.com>
+Date:   Wed May 27 08:22:13 2015 -0400
+
+    1
+    
+    1
+
+commit 9b5d04d0b11e41a8109a59bdfbb0f41b1be79584
+Author: sunerok <justinvforvendetta@gmail.com>
+Date:   Wed May 27 08:13:34 2015 -0400
+
+    1
+    
+    1
+
+commit 7d93964dc30714cfb4212035e7371744e40d2a58
+Author: sunerok <justinvforvendetta@gmail.com>
+Date:   Wed May 27 07:58:03 2015 -0400
+
+    1
+    
+    1
+
+commit 8e6e7061fe574b34596cb12ae72c17aeba2ebd5d
+Author: DogecoinDark <justinvalo@yahoo.com>
+Date:   Wed May 27 07:50:52 2015 -0400
+
+    Update README.md
+
+commit 917a6095f756c42e99a2765f8066b24d8a88351e
+Author: DogecoinDark <justinvalo@yahoo.com>
+Date:   Wed May 27 07:50:11 2015 -0400
+
+    Update and rename README to README.md
+
+commit c68741810e92fca95be66bc77333d989d794f718
+Author: DogecoinDark <justinvalo@yahoo.com>
+Date:   Wed May 27 07:48:19 2015 -0400
+
+    Update README
+
+commit a5f49f581e058fd3b29d855c85b87c87a872f05c
+Author: DogecoinDark <justinvalo@yahoo.com>
+Date:   Wed May 27 07:47:03 2015 -0400
+
+    Update README
+
+commit 7a67c5c6ecb7f412453cc801f9773833ff27420d
+Author: DogecoinDark <justinvalo@yahoo.com>
+Date:   Wed May 27 07:46:38 2015 -0400
+
+    Update README
+
+commit ec72306b670899fa15ff5405aea9567c48c0935c
+Author: sunerok <justinvforvendetta@gmail.com>
+Date:   Wed May 27 07:45:49 2015 -0400
+
+    1
+    
+    1
+
+commit 48aaca56c58d7847e9015df0c37a5636c9b26041
+Author: DogecoinDark <justinvalo@yahoo.com>
+Date:   Wed May 27 07:44:39 2015 -0400
+
+    Update README
+
+commit fa6d98b1ec660b26099551c5d349da7bfeaedca5
+Author: DogecoinDark <justinvalo@yahoo.com>
+Date:   Wed May 27 07:40:44 2015 -0400
+
+    Update README
+
+commit 84277342f7d3d4c043af24cf8e90ce161a30044d
+Author: sunerok <justinvforvendetta@gmail.com>
+Date:   Wed May 27 05:33:43 2015 -0400
+
+    1
+    
+    1
+
+commit f2719ec992fb2d4abff25653b7f28e404216904c
+Author: sunerok <justinvforvendetta@gmail.com>
+Date:   Wed May 27 05:26:14 2015 -0400
+
+    1
+    
+    1
+
+commit 4523f399f03e1b0804e86ef5b9ba8865c580e2f9
+Author: sunerok <justinvforvendetta@gmail.com>
+Date:   Wed May 27 02:59:50 2015 -0400
+
+    1
+    
+    1
+
+commit c12106136b7af8d73d8e9d574df6040f2cef42af
+Author: sunerok <justinvforvendetta@gmail.com>
+Date:   Wed May 27 01:13:27 2015 -0400
+
+    logos
+    
+    logos
+
+commit ce651975c08696e6d041c50642c1e6aae91545cb
+Author: sunerok <justinvforvendetta@gmail.com>
+Date:   Wed May 27 00:56:43 2015 -0400
+
+    1
+    
+    2
+
+commit 87921bcc98d51251e5ccc99969b9fa4324d467ca
+Author: sunerok <justinvforvendetta@gmail.com>
+Date:   Wed May 27 00:54:49 2015 -0400
+
+    :circus_tent: Added .gitattributes

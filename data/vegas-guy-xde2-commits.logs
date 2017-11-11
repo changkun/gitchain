@@ -1,0 +1,215 @@
+commit 7c24a68b3d152a53e74e00c20f112aa33e750329
+Author: Vegas-Guy <info@bitcoinlasvegas.net>
+Date:   Sun Sep 24 19:02:29 2017 +0200
+
+    Update version
+
+commit e95fafd79eebde1b8791534bbade735fdb6fb5c7
+Author: Vegas-Guy <info@bitcoinlasvegas.net>
+Date:   Sun Sep 24 18:48:12 2017 +0200
+
+    PoS rate 500% for special and 300% for normal.
+
+commit a796fa85578cd1afc64af5371900cdec56db4190
+Author: Kees de Wit <keesdewit@keesdewit.nl>
+Date:   Mon May 22 21:44:54 2017 +0200
+
+    Update images
+
+commit 6f23b8984e083222b9ef35407b410a4bb955434a
+Author: Kees de Wit <keesdewit@keesdewit.nl>
+Date:   Mon May 22 21:39:48 2017 +0200
+
+    Set icon size
+
+commit 63244ca6d835cb19d279b17c5ee7bd9fe5aaf97a
+Author: Kees de Wit <keesdewit@keesdewit.nl>
+Date:   Mon May 22 21:39:40 2017 +0200
+
+    Set icon size
+
+commit df1f5178858f07debf0ea4d96e78e93d19576734
+Author: Kees de Wit <keesdewit@keesdewit.nl>
+Date:   Mon May 22 21:39:32 2017 +0200
+
+    Revert spinner update
+
+commit b915de89db07bf2c7b382f79447b40445bd86a3e
+Author: Kees de Wit <keesdewit@keesdewit.nl>
+Date:   Mon May 22 21:21:33 2017 +0200
+
+    Correct syntax error
+
+commit 603da7f462ad352b0363807e95900f6564dcf180
+Author: Kees de Wit <keesdewit@keesdewit.nl>
+Date:   Mon May 22 21:15:48 2017 +0200
+
+    Add checkpoint
+
+commit 57fd0020bdd0a33ed7e2833932a0956c1927edf2
+Author: Kees de Wit <keesdewit@keesdewit.nl>
+Date:   Mon May 22 21:14:08 2017 +0200
+
+    Bump versions
+
+commit 4cb1bf9bfa13182f37cc7500bf406aff32543abd
+Author: Kees de Wit <keesdewit@keesdewit.nl>
+Date:   Mon May 22 21:09:30 2017 +0200
+
+    Improve readabilty
+
+commit 46514ee11d4503856789eb08ec0391f1409b3a96
+Author: Kees de Wit <keesdewit@keesdewit.nl>
+Date:   Mon May 22 21:06:54 2017 +0200
+
+    Update community wallet
+
+commit 2019fca40a34cd36375de7a8d72661454d010576
+Author: Kees de Wit <keesdewit@keesdewit.nl>
+Date:   Mon May 22 21:00:17 2017 +0200
+
+    Update minimum stake time
+
+commit 27fd175566d77ec3d396cb03d0f81a0a886d0e1d
+Author: Kees de Wit <keesdewit@keesdewit.nl>
+Date:   Mon May 22 20:44:18 2017 +0200
+
+    Update PoS rate to 25%
+
+commit c47b5318c6cc9900dd73050a95229524553dc526
+Author: Kees de Wit <keesdewit@keesdewit.nl>
+Date:   Mon May 22 20:15:18 2017 +0200
+
+    Update sync spinner
+
+commit 37f3e7b6b5719a4008e410a3d859807aa3338822
+Author: Kees de Wit <keesdewit@keesdewit.nl>
+Date:   Mon May 22 20:15:04 2017 +0200
+
+    Update images
+
+commit e56cea0ecc304d264afe778c162693e595a88100
+Author: Kees de Wit <keesdewit@keesdewit.nl>
+Date:   Mon May 22 20:06:52 2017 +0200
+
+    Fix stake reward
+
+commit 8f0b68e785363c93bd28c7357a79d1e89eb78ad0
+Author: Kees de Wit <keesdewit@keesdewit.nl>
+Date:   Sun May 7 21:37:40 2017 +0200
+
+    Update GUI
+
+commit 9e2ac1d675d55e0e36faecf62dd31a873043fbab
+Author: Kees de Wit <keesdewit@keesdewit.nl>
+Date:   Sun May 7 20:49:01 2017 +0200
+
+    Change amount in gui
+
+commit 715392be0864c4a07efa566a20900bd4f6cb5930
+Author: Kees de Wit <keesdewit@keesdewit.nl>
+Date:   Sun May 7 17:52:45 2017 +0200
+
+    Set fixed width and height
+
+commit 7ecfb428a42f9dee2afa10df088741d9c4086c04
+Author: Kees de Wit <keesdewit@keesdewit.nl>
+Date:   Sun May 7 17:49:22 2017 +0200
+
+    Background image
+
+commit e2fb2316b0b650b4f98a376a07bdc9f3e9e36f37
+Author: Kees de Wit <keesdewit@keesdewit.nl>
+Date:   Sun May 7 17:48:29 2017 +0200
+
+    Update images
+
+commit 434bdb3d330364c36cf35f2719a090e64405ca7d
+Author: Kees de Wit <keesdewit@keesdewit.nl>
+Date:   Sun May 7 16:47:05 2017 +0200
+
+    Rename example address
+
+commit a8475b926d2dc1ee1355bf059277dc5a0450fdb2
+Author: Kees de Wit <keesdewit@keesdewit.nl>
+Date:   Sun May 7 16:46:25 2017 +0200
+
+    Change seed node host
+
+commit 245e0aaeb4f42d2ded968b71f4ffece10884ab4a
+Author: Kees de Wit <keesdewit@keesdewit.nl>
+Date:   Sun May 7 16:21:30 2017 +0200
+
+    Set community and masternode dummy address
+
+commit 2744d28c1842db83266ea3e731ec34f05d5fad8e
+Author: Kees de Wit <keesdewit@keesdewit.nl>
+Date:   Sun May 7 16:10:44 2017 +0200
+
+    Update premine to support the swap
+
+commit ea09dd3cb87ad18a76923c37b4a206a23605bbaf
+Author: Kees de Wit <keesdewit@keesdewit.nl>
+Date:   Sun May 7 16:05:36 2017 +0200
+
+    Update genesis and merkle
+
+commit 61d0b2c09ba9fe2718f9a0202015f3e925ff1154
+Author: Kees de Wit <keesdewit@keesdewit.nl>
+Date:   Sun May 7 15:59:31 2017 +0200
+
+    Fix
+
+commit 58514297de67f5e60f2b4c11af2e94532f719393
+Author: Kees de Wit <keesdewit@keesdewit.nl>
+Date:   Sun May 7 15:58:13 2017 +0200
+
+    Fix
+
+commit f87182c9b3a07c32d5b6b782665f4d3363c11cbc
+Author: Kees de Wit <keesdewit@keesdewit.nl>
+Date:   Sun May 7 15:55:57 2017 +0200
+
+    Fix
+
+commit 3bc0a7eba2d0bb6a5c100aed0223e343b392ac43
+Author: Kees de Wit <keesdewit@keesdewit.nl>
+Date:   Sun May 7 15:54:51 2017 +0200
+
+    Fix
+
+commit 225916c672ea3ed363ebf9c9ede7793fc8fbc1ca
+Author: Kees de Wit <keesdewit@keesdewit.nl>
+Date:   Sun May 7 15:50:14 2017 +0200
+
+    Fix stake print
+
+commit 7d1be85c2ee4a012daf3dcb21357a51562199503
+Author: Kees de Wit <keesdewit@keesdewit.nl>
+Date:   Sun May 7 15:47:59 2017 +0200
+
+    Insert genesis creation script
+
+commit 8671f6011855a7ea5ddfeeeba53fe81fa8dae970
+Author: Kees de Wit <keesdewit@keesdewit.nl>
+Date:   Sun May 7 15:44:44 2017 +0200
+
+    Community wallet implementation
+
+commit ea70d8bbb725d91c817c7c2357ed691b4517bd5d
+Author: Kees de Wit <keesdewit@keesdewit.nl>
+Date:   Sun May 7 15:15:36 2017 +0200
+
+    Set RPC and P2P ports and chain parameters
+
+commit ade2090598460808ae75099769b015a4eff898e3
+Author: Kees de Wit <keesdewit@keesdewit.nl>
+Date:   Fri May 5 21:43:17 2017 +0200
+
+    Rename to XDE2
+
+commit bffe3a5d7f458bfa96cd54f74a95073403f0f827
+Author: Kees de Wit <keesdewit@keesdewit.nl>
+Date:   Fri May 5 21:21:34 2017 +0200
+
+    First commit

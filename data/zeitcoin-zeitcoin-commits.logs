@@ -1,0 +1,672 @@
+commit 75b1b1501b109cbb589a2f833c4f43e08ef015c4
+Author: zeitcoin <zeit@zeit-coin.net>
+Date:   Wed Aug 9 11:31:27 2017 +0200
+
+    DNS stuff
+    
+    Recover seed function
+
+commit dfca09ba6faf4689db06067234fe01bee33d5114
+Author: zeitcoin <zeit@zeit-coin.net>
+Date:   Wed Aug 2 07:12:51 2017 +0200
+
+    Remove all IRC-related dependencies
+
+commit 41198c7ab85ef234a5556945dd257444c6ee30a2
+Author: zeitcoin <zeit@zeit-coin.net>
+Date:   Wed Aug 2 06:31:40 2017 +0200
+
+    Seeder Update
+
+commit 16acdb269813563a74d24789d473ed3dd2c31cec
+Author: zeitcoin <zeit@zeit-coin.net>
+Date:   Tue Aug 1 08:18:21 2017 +0200
+
+    add some DNS seeders
+
+commit d36dc00ea5be555b2d5092e331200d1496b1db52
+Author: zeitcoin <zeit@zeit-coin.net>
+Date:   Mon Jul 31 09:48:48 2017 +0200
+
+    IRC Remove
+
+commit ad8db4995eac496b0b453099cd04c32fe444cf42
+Author: zeitcoin <zeit@zeit-coin.net>
+Date:   Mon Jul 31 09:43:13 2017 +0200
+
+    Remove IRC
+
+commit 2b3e628d253a9568308c9b075d21e8c88f5290dd
+Merge: e1c5c65 31b55bb
+Author: ZeitCoin <zeitcoin@users.noreply.github.com>
+Date:   Fri Jul 14 20:17:13 2017 +0200
+
+    Merge pull request #13 from ssdpool/master
+    
+    little fixes mac os
+
+commit 31b55bb9878f30823c27a9b5de0386bb67e2fbbc
+Author: ssdpool <poolssd@gmail.com>
+Date:   Fri Jul 14 15:18:21 2017 +0300
+
+    adding executable for leveldb
+
+commit 95afbfcf0b12ac70e8b37896fcec173af5869a75
+Author: ssdpool <poolssd@gmail.com>
+Date:   Fri Jul 14 15:09:51 2017 +0300
+
+    mac os build little fixes
+
+commit d032ef9e3a70e40ad12140ea589d5af4667d1805
+Merge: 2ccdf0c e1c5c65
+Author: ssdpool <poolssd@gmail.com>
+Date:   Fri Jul 14 15:02:04 2017 +0300
+
+    Merge remote-tracking branch 'refs/remotes/zeitcoin/master'
+
+commit e1c5c658336e645f4c36269494625bcce2d3d11f
+Author: zeitcoin <zeit@zeit-coin.net>
+Date:   Fri Jul 7 11:12:47 2017 +0200
+
+    Translation stuff
+
+commit 470786e49835e9de29611ea10c5e516f8ffa95e5
+Author: zeitcoin <zeit@zeit-coin.net>
+Date:   Fri Jul 7 10:59:30 2017 +0200
+
+    QT modifications
+
+commit 548214f4255b03e63e243513d674f4cef8b2fbcc
+Author: zeitcoin <zeit@zeit-coin.net>
+Date:   Fri Jul 7 08:44:50 2017 +0200
+
+    ULI implementation
+
+commit c62c2caaa788e4e50d18d246a420e510c8965742
+Merge: 136d997 2ccdf0c
+Author: ZeitCoin <zeitcoin@users.noreply.github.com>
+Date:   Fri Jul 7 07:41:51 2017 +0200
+
+    Merge pull request #11 from ssdpool/master
+    
+    hardfork based on requirements listed in desciption
+
+commit 2ccdf0c542c0c5f8a02709dfe0944a4490bb4952
+Author: ssdpool <poolssd@gmail.com>
+Date:   Sat Jul 1 09:25:36 2017 +0300
+
+    decrease nModifierIntervalV2
+
+commit 000d8b12794adcd6f73aab5d2469ea96c0bb1b2c
+Author: ssdpool <poolssd@gmail.com>
+Date:   Wed Jun 28 09:24:05 2017 +0300
+
+    disable split stake after hardfork
+
+commit f2dc1fe4d6b873aa96a939cf6cfa3dbf2463a4e6
+Author: ssdpool <poolssd@gmail.com>
+Date:   Mon Jun 26 14:10:34 2017 +0300
+
+    hardfork based on requirements listed in desciption
+    
+    requested parameters for the fork:
+    0.0005% per year stake ( currently was be 5%)
+    min stake age 1 day ( currently was be 20 days)
+    max stake age 20 days ( currently was be 40 days)
+    nModifierInterval  200 mins (3 hours and 20mins)  (currently was be 6
+    hours).
+    all change will switch on network time
+    Epoch timestamp: 1500120000
+    Human time (GMT): Saturday, 15. July 2017 12:00:00
+
+commit 136d997f6f57ad4544e4b9a1ce487edd71947b15
+Author: Rent_a_Ray <domy@synthetic-records.com>
+Date:   Thu Apr 27 06:24:37 2017 +0200
+
+    Rollback
+    
+    back to 2.0.1.7
+
+commit 527aca946344dce14de33f2fc0f127c305f16856
+Author: Rent_a_Ray <domy@synthetic-records.com>
+Date:   Fri Apr 21 13:03:55 2017 +0200
+
+    Small Fix for StageMinAge
+
+commit 9b61ab954c6c60c291ecefd0442f3f0c31802917
+Author: Rent_a_Ray <domy@synthetic-records.com>
+Date:   Tue Apr 18 09:59:30 2017 +0200
+
+    StakeMaxAge, StakeSplitAge, ModifierIntervall against Hardfork
+
+commit a9741144248e9cefc89ada10c419f8226d97457e
+Author: Rent_a_Ray <domy@synthetic-records.com>
+Date:   Thu Apr 13 09:01:02 2017 +0200
+
+    block.GetBlockTime fixed
+
+commit f398d6e5a1eb0dc4f601ec35add652c786fe70f2
+Author: Rent_a_Ray <domy@synthetic-records.com>
+Date:   Thu Apr 13 08:54:27 2017 +0200
+
+    StakeMinAge fixed
+
+commit fcce8dc5bb188e0e01b3e5eaecb98ddeff1419f1
+Author: Rent_a_Ray <domy@synthetic-records.com>
+Date:   Thu Apr 13 08:44:35 2017 +0200
+
+    bump Version
+
+commit 8fcceb5e9aa3535bbeb623f1b0603dc83fdd2abb
+Author: Rent_a_Ray <domy@synthetic-records.com>
+Date:   Thu Apr 13 08:44:01 2017 +0200
+
+    Version 2.0.2.1
+
+commit 8ea4a1fe82d5f72796e6c8ea5383cbfb92d9d25e
+Author: Rent_a_Ray <domy@synthetic-records.com>
+Date:   Wed Apr 12 15:34:13 2017 +0200
+
+    change POS values
+
+commit f096696c1c52e61a45d7e43366ca0c2f88701d6d
+Author: Rent_a_Ray <domy@synthetic-records.com>
+Date:   Wed Apr 12 11:25:48 2017 +0200
+
+    Modifier-Interval to 10 mins
+
+commit 545ae5cb419968e51498af03661c48b0a753785a
+Author: Rent_a_Ray <domy@synthetic-records.com>
+Date:   Tue Apr 11 12:43:34 2017 +0200
+
+    Ultra Low Interest .0005%
+
+commit ff34c17c99e50cbc3c51afce5f5bd48087a1dfab
+Author: Rent_a_Ray <zeitcoin@users.noreply.github.com>
+Date:   Wed Apr 5 11:34:51 2017 +0200
+
+    bump version
+
+commit 3fb13ab61977d45be5e8208f13237cecf32d1a22
+Author: Rent_a_Ray <zeitcoin@users.noreply.github.com>
+Date:   Wed Apr 5 11:29:22 2017 +0200
+
+    Version 2.0.2.0
+
+commit 9cfee1237ce1d89f2a1952a0d4ee7dab37c72be9
+Author: Rent_a_Ray <zeitcoin@users.noreply.github.com>
+Date:   Wed Apr 5 11:26:44 2017 +0200
+
+    Update
+
+commit ad071358a5a784090e761131c2c3b67e9f1b85b8
+Merge: a6c0c11 48c2ae5
+Author: Rent_a_Ray <zeitcoin@users.noreply.github.com>
+Date:   Wed Apr 5 11:24:51 2017 +0200
+
+    Merge pull request #9 from ray77/patch-1
+    
+    Description of ULI transformation
+
+commit 48c2ae5a52711dbffd4edef5cfbb52951bb5f017
+Author: Ray <ray77@users.noreply.github.com>
+Date:   Wed Apr 5 11:21:13 2017 +0200
+
+    Description of ULI transformation
+    
+    Version 2.0.2.0
+
+commit a6c0c1196df98801b49097694c4ad8e8c4167cde
+Author: Rent_a_Ray <domy@synthetic-records.com>
+Date:   Tue Apr 4 13:51:11 2017 +0200
+
+    Version 2.0.2.0
+
+commit 8da66a6bc0d9d13210d14c37039ed33c6aa09fbf
+Author: Rent_a_Ray <domy@synthetic-records.com>
+Date:   Tue Apr 4 13:01:15 2017 +0200
+
+    bump Version
+
+commit dce0e5ef61bbc7fcb6941a2a452775a25c6f691d
+Author: Rent_a_Ray <domy@synthetic-records.com>
+Date:   Mon Jun 29 10:57:08 2015 +0200
+
+    Version 2.0.1.7
+    
+    LevelDB support, security fix
+
+commit de036463bab74ec5092ea85764cd49cd19f1befa
+Author: Rent_a_Ray <domy@synthetic-records.com>
+Date:   Fri Jun 26 14:24:24 2015 +0200
+
+    Win .ico updated
+
+commit 66fe63be190dd5fa8a66bb3669e7307fa6ad7d92
+Author: Rent_a_Ray <domy@synthetic-records.com>
+Date:   Fri Jun 26 14:10:28 2015 +0200
+
+    Splash / Win Icon changed
+
+commit 99b81ed3a1226d6579fa6282270b5e26f9fe852b
+Author: Rent_a_Ray <domy@synthetic-records.com>
+Date:   Fri Jun 26 13:01:56 2015 +0200
+
+    Replaced nMaxClockDrift with Future/PastDrift
+
+commit 29f5db57c9c1c1fd41fb988979c41baec5e6bb68
+Author: Rent_a_Ray <domy@synthetic-records.com>
+Date:   Fri Jun 26 12:57:34 2015 +0200
+
+    makefile.unix fixed, Icons fixed
+
+commit 870a922770e991eca43ca6b2a1dcf4de8f292ea2
+Author: Rent_a_Ray <domy@Mac-Mini.fritz.box>
+Date:   Thu Jun 11 17:39:32 2015 +0200
+
+    Rollback
+    
+    Back to the original (working) code.
+
+commit b8803885dfb700a53c3895db39c82b1d8a740ff2
+Author: Zeitcoin <domy@synthetic-records.com>
+Date:   Thu Jun 4 08:22:50 2015 +0200
+
+    Update: Icons
+
+commit 8c973877148890f8af5d3d6e3bc08be9f11a7411
+Author: Zeitcoin <domy@synthetic-records.com>
+Date:   Thu Jun 4 07:20:17 2015 +0200
+
+    Revert "Revert "memory leak fix""
+    
+    This reverts commit 3a1a0cd37b390c631894db4d0d6ceb8b300a6841.
+
+commit 6c7f7d0ca3317e6b2d33999e62145b4f21ac68c6
+Author: Zeitcoin <domy@synthetic-records.com>
+Date:   Thu Jun 4 07:19:50 2015 +0200
+
+    Revert "Hardcoded nodes added"
+    
+    This reverts commit e51a7bbe61bce1109ddc4c33cd976d2144fa1dfb.
+
+commit 3a1a0cd37b390c631894db4d0d6ceb8b300a6841
+Author: Zeitcoin <domy@synthetic-records.com>
+Date:   Wed Jun 3 11:39:16 2015 +0200
+
+    Revert "memory leak fix"
+    
+    This reverts commit aabca572043fc407214e6b5e24923971482d125b.
+
+commit 3f25cc850aeacf6ce450ca83c5c8821f6cffd471
+Author: Zeitcoin <domy@synthetic-records.com>
+Date:   Sun May 31 21:08:53 2015 +0200
+
+    Update: Icons
+
+commit 7ea65d9c8622fbf2fb17feb504310bfb6f3bf13a
+Author: Zeitcoin <domy@synthetic-records.com>
+Date:   Sun May 31 20:15:14 2015 +0200
+
+    update, bump Version
+
+commit 5abfbacb859f4b393e2a14e597f52558cf422aea
+Author: Zeitcoin <domy@synthetic-records.com>
+Date:   Sun May 31 20:11:49 2015 +0200
+
+    Raspberry PI fix
+    
+    Disables -msse2 instructions for RISC devices
+
+commit a8749e9c9ebfc1ef99767f0c00a30911edb34bd0
+Author: Zeitcoin <domy@synthetic-records.com>
+Date:   Sun May 31 20:03:06 2015 +0200
+
+    bump version, updated icons
+
+commit aabca572043fc407214e6b5e24923971482d125b
+Author: Zeitcoin <domy@synthetic-records.com>
+Date:   Sun May 31 13:45:26 2015 +0200
+
+    memory leak fix
+
+commit 120356b9648b3417c68bf31d87732cf457f392a2
+Author: Zeitcoin <domy@synthetic-records.com>
+Date:   Fri May 29 19:33:51 2015 +0200
+
+    Fix: Checkpoint added
+
+commit 2fe1ce318fddf763249786d56abd71da6be98232
+Author: Zeitcoin <domy@synthetic-records.com>
+Date:   Fri May 29 19:31:48 2015 +0200
+
+    Checkpoint added
+
+commit fe0ab48463e4a05edc8f032baee6ca55a9e2190c
+Author: Zeitcoin <domy@synthetic-records.com>
+Date:   Fri May 29 19:17:46 2015 +0200
+
+    Check 250 blocks at startup
+
+commit 42c9aab00416ebaec7c4042b60b5f7336b38aad7
+Author: Zeitcoin <domy@synthetic-records.com>
+Date:   Fri May 29 18:55:01 2015 +0200
+
+    ARM-RISC support added
+
+commit e51a7bbe61bce1109ddc4c33cd976d2144fa1dfb
+Author: Rent_a_Ray <domy@synthetic-records.com>
+Date:   Fri May 29 16:08:27 2015 +0200
+
+    Hardcoded nodes added
+
+commit b06396ffd8c84d86db048dc453b40a023bce8705
+Author: zeitcoin <domy@synthetic-records.com>
+Date:   Thu Feb 26 12:32:49 2015 +0100
+
+    Update README.md
+
+commit 37fcf7f9b8dcc4a59f7ddb4a20835c8046c7d609
+Author: Zeitcoin <domy@synthetic-records.com>
+Date:   Thu Feb 26 12:21:53 2015 +0100
+
+    tiny fixes, new checkpoint, bump version
+
+commit 16cb55089b3883db16073b16e516d03dcc1ce07b
+Author: zeitcoin <domy@synthetic-records.com>
+Date:   Mon Feb 2 20:05:51 2015 +0100
+
+    bump version
+
+commit 335024201efc94e94034f332b200aac57954c7c8
+Author: zeitcoin <domy@synthetic-records.com>
+Date:   Mon Feb 2 19:57:53 2015 +0100
+
+    Adjustments
+
+commit 9462f19c05f90d9f33b3d5a1ebc10a417b0c83c4
+Author: Zeitcoin <domy@synthetic-records.com>
+Date:   Mon Feb 2 19:37:46 2015 +0100
+
+    New checkpoint added
+
+commit ab4d0142a7da1ea732d959b1c70500b47b6acd59
+Author: zeitcoin <domy@synthetic-records.com>
+Date:   Mon Feb 2 13:42:47 2015 +0100
+
+    Updated license date
+
+commit ecfed0c36281ad8b988b95eec1c775ad0e37f5ca
+Author: zeitcoin <domy@synthetic-records.com>
+Date:   Mon Feb 2 13:24:43 2015 +0100
+
+    add updated coin specs in README
+
+commit 4e1ad5bb8373225b0f13c00f714979b6fd29a624
+Author: Zeitcoin <domy@synthetic-records.com>
+Date:   Sat Jan 17 17:06:08 2015 +0100
+
+    sync-checkpoint master key changed
+
+commit bcb77d0e3bcb17ce21218517470c49ca5ef8a433
+Author: Zeitcoin <domy@synthetic-records.com>
+Date:   Sat Dec 20 21:36:18 2014 +0100
+
+    Update
+
+commit 7f1935fe6e1b4b4917bb21e99d302c91a4837610
+Author: Zeitcoin <domy@synthetic-records.com>
+Date:   Sat Dec 20 21:30:35 2014 +0100
+
+    Updated Docs
+
+commit ad6dd3c54e495ddb0189131286350614a0dcccfb
+Author: Zeitcoin <domy@synthetic-records.com>
+Date:   Sat Dec 20 21:27:06 2014 +0100
+
+    Mandatory Gauntlet Client
+
+commit dc2f52923eb3198f62cc2634d19b61d2dcc329fc
+Author: Zeitcoin <domy@synthetic-records.com>
+Date:   Sat Dec 20 20:31:21 2014 +0100
+
+    Checkpoints added, pubkey changed, POS fixed
+
+commit d7c343dfebb05f03c7ba6288b65b316cf0da2843
+Author: Zeitcoin <domy@synthetic-records.com>
+Date:   Sat Dec 20 19:35:29 2014 +0100
+
+    Update Readme
+
+commit b1386a08a0ab15ac695189479a1e9df371b0bdce
+Author: Zeitcoin <domy@synthetic-records.com>
+Date:   Sat Dec 20 19:30:14 2014 +0100
+
+    Splashscreen changed
+
+commit 463dc35c0a1b736af757a31a4cdc635a863e6cc7
+Author: Zeitcoin <domy@synthetic-records.com>
+Date:   Fri Dec 19 17:37:22 2014 +0100
+
+    Fixed BlockBrowser.cpp link
+
+commit 0e7747ae9074f9ede038106e99ba40ab2a7e2461
+Author: Ray <ray@zeit-coin.net>
+Date:   Mon Nov 17 13:56:46 2014 +0100
+
+    Commit: ignore .db
+
+commit 16e5d1b6e660bd82c515e1349dbfa96f17a6c4d8
+Author: Ray <ray@zeit-coin.net>
+Date:   Mon Nov 17 11:53:08 2014 +0100
+
+    fix QR-Code output
+
+commit c08286e5d2fe4bf887076cccea9dbedc665b7891
+Author: Ray <ray@zeit-coin.net>
+Date:   Sun Nov 16 22:21:15 2014 +0100
+
+    Version 2.0.1.4
+
+commit f14cf0f431fe4cfc8be4ed92d536a2c2ed887b33
+Author: Ray <ray@zeit-coin.net>
+Date:   Sun Nov 16 21:57:31 2014 +0100
+
+    Version 2.0.1.4
+
+commit a39112df94ebbc0e8a1bdf95e28c2ff04cf39b1c
+Author: Ray <ray@zeit-coin.net>
+Date:   Sun Nov 16 21:56:26 2014 +0100
+
+    Version 2.0.1.4
+
+commit 042c620f3f19c36cb19b8c7f345899d00094cd0e
+Author: Ray <ray@zeit-coin.net>
+Date:   Sun Nov 16 21:22:23 2014 +0100
+
+    add Block Explorer feature
+
+commit 1ab71e70192889f8cf0bf02d52bff2562f17d4a6
+Author: Ray <ray@zeit-coin.net>
+Date:   Sun Nov 16 21:09:27 2014 +0100
+
+    add Block Explorer QT dependencies
+
+commit 2259fb4bc98877c2a8fa49b9057b4b0bcdfff4d8
+Author: ray77 <chakotay@bk.ru>
+Date:   Tue Oct 21 17:25:15 2014 +0200
+
+    New wallet logo
+
+commit 639daed91cb32f43f88c520cae86364dd776d8d7
+Author: ray77 <chakotay@bk.ru>
+Date:   Tue Oct 21 17:24:51 2014 +0200
+
+    New mint icon
+
+commit 37e0f3ae92f997e8b04b4fe79825024da2b8c68f
+Author: ray77 <chakotay@bk.ru>
+Date:   Tue Oct 21 17:24:35 2014 +0200
+
+    Added FastStart
+
+commit e77b6962025e287b08d0a150e145e17fe34e7bef
+Author: ray77 <chakotay@bk.ru>
+Date:   Tue Oct 21 17:24:10 2014 +0200
+
+    Checkpoints added
+
+commit 524eabd7e1c9a35e22d8b3a76b804ff86f2336b1
+Author: ray77 <chakotay@bk.ru>
+Date:   Thu Oct 16 20:49:13 2014 +0200
+
+    Update Readme
+
+commit e2f939348d3538ecaf4ca2c41652e2956ddfd4af
+Author: ray77 <chakotay@bk.ru>
+Date:   Thu Oct 16 20:38:24 2014 +0200
+
+    Wallet Version 2.0.1.3
+
+commit 084f54fee52e6c2110fc9c89dba7253e0201a9ac
+Author: ray77 <chakotay@bk.ru>
+Date:   Thu Oct 16 20:31:13 2014 +0200
+
+    Checkpoints added
+
+commit a098ba2a237300ec0434d8cf57f0055262972026
+Author: ray77 <chakotay@bk.ru>
+Date:   Sun May 4 16:08:34 2014 +0200
+
+    Last POW Block 270000
+
+commit 98d35a36efedbd13259bc2b266061189874d8ca0
+Author: ray77 <chakotay@bk.ru>
+Date:   Sun May 4 16:04:33 2014 +0200
+
+    Update Readme
+
+commit f2d1c7f55293cfca3fe29e723f92930695efb503
+Author: ray77 <chakotay@bk.ru>
+Date:   Sun May 4 15:57:55 2014 +0200
+
+    Wallet Version 2.0.1.2
+
+commit 1925d5812c129877f769734e968e9765593212a7
+Author: ray77 <chakotay@bk.ru>
+Date:   Wed Apr 30 14:12:13 2014 +0200
+
+    POW end Block at 460000.
+    
+    This is for your safety and will be changed soon.
+
+commit fa96022341a4edd86cf0676e9ec1d42e98cd9db9
+Merge: 83e722e 9560b31
+Author: zeitcoin <zeitcoin@cryptobarterexchange.com>
+Date:   Wed Apr 23 20:05:57 2014 +0200
+
+    Merge pull request #5 from ray77/master
+    
+    OSX 64Bit changes
+
+commit 9560b31e1c0ee4dc6755446f554971ee7eb9fcfe
+Author: ray77 <chakotay@bk.ru>
+Date:   Wed Apr 23 20:00:25 2014 +0200
+
+    OSX 64Bit changes
+
+commit 83e722ee66911479882b5e839e6de2a615a55ba5
+Merge: 52f95f3 45dd848
+Author: zeitcoin <zeitcoin@cryptobarterexchange.com>
+Date:   Wed Apr 23 19:14:37 2014 +0200
+
+    Merge pull request #4 from zeitcoindev/master
+    
+    End POW -- v2
+
+commit 45dd848734ced3fbd2e8e8889435ed3ebd79d907
+Author: zeitcoindev <zeitcoindev@users.noreply.github.com>
+Date:   Tue Apr 22 22:24:59 2014 +0200
+
+    reschedule POW end, add checkpoint
+
+commit 7538cf4904c5474025b68b1333fd1822e8d7a8e7
+Author: zeitcoindev <zeitcoindev@users.noreply.github.com>
+Date:   Tue Apr 22 19:37:00 2014 +0200
+
+    increment build version
+
+commit 27986e4145e1ccf54a4711deda735e5e67b8a80f
+Author: zeitcoindev <zeitcoindev@users.noreply.github.com>
+Date:   Tue Apr 22 19:29:58 2014 +0200
+
+    mod pngs (ray)
+
+commit 71bd8492de210783223b2c1000642a4d43c4647a
+Author: zeitcoindev <zeitcoindev@users.noreply.github.com>
+Date:   Mon Apr 21 21:11:49 2014 +0200
+
+    change mac build
+
+commit 38f08fda9ef47c58cef1846fa70a9b5b0e2414df
+Author: zeitcoindev <zeitcoindev@users.noreply.github.com>
+Date:   Mon Apr 21 18:38:33 2014 +0200
+
+    replace unlock button with menu options from zeitcoinmovement fork
+
+commit 6b5cf3b66af7fa71561cb501a98c4808cc225fc6
+Author: zeitcoindev <zeitcoindev@users.noreply.github.com>
+Date:   Sun Apr 20 17:41:53 2014 +0200
+
+    POW end at block 230000
+
+commit c305fa54b01f720a71467dbe35ee92ba9bb6e66a
+Author: zeitcoindev <zeitcoindev@users.noreply.github.com>
+Date:   Fri Apr 18 22:40:16 2014 +0200
+
+    increment build version
+
+commit ff82b5eaa86b4ac266a2ef523306f201eb219adb
+Author: zeitcoindev <zeitcoindev@users.noreply.github.com>
+Date:   Fri Apr 18 20:11:33 2014 +0200
+
+    change net timings
+
+commit 0f38eb9af72599aab2b4fe94b929e5cafbb279e4
+Author: zeitcoindev <zeitcoindev@users.noreply.github.com>
+Date:   Fri Apr 18 19:55:35 2014 +0200
+
+    remove DNSSeed
+
+commit 01379b6810d24774764db0666f10b679b41fc9c8
+Author: zeitcoindev <zeitcoindev@users.noreply.github.com>
+Date:   Fri Apr 18 19:28:12 2014 +0200
+
+    tabs to 4 spaces
+
+commit af5d1b365afd43da1ac6a77248a31343a0f8fc6a
+Author: zeitcoindev <zeitcoindev@users.noreply.github.com>
+Date:   Fri Apr 18 18:07:00 2014 +0200
+
+    merge fix build with qt5 from rat4:patch, tabs to 4 spaces
+
+commit ae471ae226cee823678f2c29f88f22f31371a90e
+Author: zeitcoindev <zeitcoindev@users.noreply.github.com>
+Date:   Fri Apr 18 03:20:05 2014 +0200
+
+    fix sync bug
+
+commit 954334303e84a04edbfe2c2dbb7f4d7ee795ec2e
+Author: zeitcoindev <zeitcoindev@users.noreply.github.com>
+Date:   Tue Apr 15 22:05:48 2014 +0200
+
+    add coincontrol, end POW at block 190000,
+    change executable filenames and config to lower case,
+    add checkpoints and stakemodifier checkpoints,
+    correct Checkpoint_tests
+
+commit 52f95f3315e34cff061a3f20a8f2405f38a1af20
+Author: Mark Arsenault <dreaminjava13@gmail.com>
+Date:   Sun Mar 9 12:40:14 2014 -0400
+
+    Commit - TransactionFee fixed

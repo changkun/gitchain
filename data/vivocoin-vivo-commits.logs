@@ -1,0 +1,98 @@
+commit 4acd0000a466bac42c2c3c1bd1f28781e86248b7
+Author: Nick <qwerty.98.master@gmail.com>
+Date:   Thu Oct 12 22:05:02 2017 +0200
+
+    Additonal updates of README.md
+
+commit 20a62beca791b2532820b9c182ef093504728888
+Author: Nick <qwerty.98.master@gmail.com>
+Date:   Thu Oct 12 21:32:11 2017 +0200
+
+    Update README.md
+
+commit 74d90e2d0321e6a639e7721c93706397d04d25dd
+Author: Nick <qwerty.98.master@gmail.com>
+Date:   Fri Sep 15 15:14:28 2017 +0200
+
+    fixed retargetting problem
+
+commit b324240beab73780dc0fe1ad83fe3102e2bd6d92
+Author: Nick <qwerty.98.master@gmail.com>
+Date:   Thu Sep 14 19:58:20 2017 +0200
+
+    remove backup files
+
+commit b50615361d2c767c03eb6f6b03a2de8beb2652f7
+Author: Nick <qwerty.98.master@gmail.com>
+Date:   Tue Aug 29 08:58:46 2017 +0200
+
+    added checkpoint
+
+commit 99ee75f35f05d06982789faffa393afb7e299403
+Merge: 12cc5da 00471fc
+Author: Niklas <30809152+vivocoin@users.noreply.github.com>
+Date:   Tue Aug 29 08:52:42 2017 +0200
+
+    Merge pull request #2 from AltMinerNet/master
+    
+    Update to 0.12.1.6 - with MN payments enforced at 29.08.2017 at 12:00 UTC
+
+commit 00471fc30d06b581fbb8e71a17635c987f4e9d46
+Author: AltMinerNet <31431085+AltMinerNet@users.noreply.github.com>
+Date:   Tue Aug 29 07:56:42 2017 +0200
+
+    Update clientversion.h
+
+commit e5dfe519b19660716b8f18bc9e84eee1ece3e2ac
+Author: AltMinerNet <31431085+AltMinerNet@users.noreply.github.com>
+Date:   Tue Aug 29 07:55:45 2017 +0200
+
+    Update configure.ac
+
+commit 1b502e2d74baefbc4c3fd7fd341876cc86bedfc8
+Author: AltMinerNet <31431085+AltMinerNet@users.noreply.github.com>
+Date:   Tue Aug 29 07:51:56 2017 +0200
+
+    Update chainparams.cpp
+
+commit 564f251eba4b81d6c6a72a7d09d466ce7e9a02d0
+Author: AltMinerNet <31431085+AltMinerNet@users.noreply.github.com>
+Date:   Tue Aug 29 07:51:28 2017 +0200
+
+    Update spork.h
+
+commit 12cc5da0e74d48dcb37ffa8b4ff5551dc44d49d6
+Author: Nick <qwerty.98.master@gmail.com>
+Date:   Mon Aug 28 22:29:36 2017 +0200
+
+    enforce masternode payments
+
+commit fd73133aae3a61758c9303fd275337dd856dc1e7
+Author: Nick <qwerty.98.master@gmail.com>
+Date:   Sun Aug 20 21:36:33 2017 +0200
+
+    fixed temporary testnet
+
+commit 155c0c507bc9f991ed6fa8266cf558385e2479d5
+Author: Nick <qwerty.98.master@gmail.com>
+Date:   Sat Aug 19 11:50:12 2017 +0200
+
+    restart chain
+
+commit d02ef8b8104033314de574e1d934e3222eb58c18
+Author: Nick <qwerty.98.master@gmail.com>
+Date:   Tue Aug 15 20:25:47 2017 +0200
+
+    added previously ignored files
+
+commit 0f1c321371bfdce9eae27c5ea4ad70405ec19f41
+Author: Nick <qwerty.98.master@gmail.com>
+Date:   Fri Aug 11 12:56:01 2017 +0200
+
+    fixed github links
+
+commit 5d0f7ce325a671f1a76c8f62ea31c22a75e030f3
+Author: Nick <qwerty.98.master@gmail.com>
+Date:   Thu Aug 10 16:48:38 2017 +0200
+
+    initial commit

@@ -1,0 +1,218 @@
+commit b7096710b4c283e95182f6c3112a5426ee877849
+Merge: eb5693f 4b6e923
+Author: SBDomains <balnyssimonas@gmail.com>
+Date:   Thu Sep 28 18:59:18 2017 +0300
+
+    Merge pull request #4 from crackfoo/patch-1
+    
+    compile support for new linux distros
+
+commit eb5693f4300578cf415cab0f6449d9a259b12fed
+Merge: e704386 6585597
+Author: SBDomains <balnyssimonas@gmail.com>
+Date:   Thu Sep 28 18:56:54 2017 +0300
+
+    Merge pull request #8 from bumbacoin/patch-4
+    
+    update seed nodes
+
+commit e70438663d4cbcc7ea4ff29a2ed46476668723b5
+Merge: 7ca8c76 3c1490b
+Author: SBDomains <balnyssimonas@gmail.com>
+Date:   Thu Sep 28 18:56:46 2017 +0300
+
+    Merge pull request #7 from bumbacoin/patch-3
+    
+    gui changes
+
+commit 7ca8c762d2b53db11c62bac951eff83160a6f5ba
+Merge: 21f45b6 6afb514
+Author: SBDomains <balnyssimonas@gmail.com>
+Date:   Thu Sep 28 18:56:36 2017 +0300
+
+    Merge pull request #6 from bumbacoin/patch-2
+    
+    update seed nodes v1202
+
+commit 65855979371adbc2b3519b26c64e94bf2385bb48
+Author: bumbacoin <bumbacoin@gmail.com>
+Date:   Thu Sep 28 21:35:30 2017 +0800
+
+    update seed nodes
+
+commit 3c1490b06af40ad0a117e7236b7f661ec1400507
+Author: bumbacoin <bumbacoin@gmail.com>
+Date:   Thu Sep 28 14:56:02 2017 +0800
+
+    gui changes
+
+commit 6afb5149858b489fbf3d003e017991f84069a467
+Author: bumbacoin <bumbacoin@gmail.com>
+Date:   Wed Sep 27 09:38:23 2017 +0800
+
+    update seed nodes v1202
+
+commit 21f45b65b52d0dc84ab5d7b5794a0c70e377a767
+Merge: 53d55e0 2656f82
+Author: SBDomains <balnyssimonas@gmail.com>
+Date:   Wed Sep 6 16:52:10 2017 +0300
+
+    Merge pull request #3 from bumbacoin/master
+    
+    Update bitcoin-qt.rc
+
+commit 4b6e923b5a479b09216e0c353a55f8f3b59a697c
+Author: crackfoo <info@zpool.ca>
+Date:   Wed Sep 6 08:57:55 2017 -0300
+
+    compile support for new linux distros
+    
+    compile support for new linux distros
+    
+    thanks
+    
+    www.zpool.ca
+
+commit 2656f82adf43dac39eaaa54de862f976239e8e84
+Author: Fibbly Fobbly <User@Fibblys-MacBook-Pro.local>
+Date:   Wed Sep 6 16:31:38 2017 +0800
+
+    minor gui fixes
+
+commit 9e79f5fc573813d4293e6387d5e757ad3ae583a3
+Author: bumbacoin <bumbacoin@gmail.com>
+Date:   Tue Sep 5 20:10:32 2017 +0800
+
+    Update bitcoin-qt.rc
+
+commit 53d55e055d944086f6a1d6212035842be14df3ce
+Merge: 0ae622e 15aefe7
+Author: SBDomains <balnyssimonas@gmail.com>
+Date:   Mon Sep 4 12:49:49 2017 +0300
+
+    Merge pull request #2 from bumbacoin/master
+    
+    Change to PoS
+
+commit 15aefe7927ccc68389a32c5d0dc86754e84921f5
+Author: happy <bumbacoin@gmail.com>
+Date:   Sat Sep 2 14:56:31 2017 +0800
+
+    mxe win qt compile
+
+commit d45f104d0ed946c1ccd3f5a01f3cde326b58345c
+Author: happy <bumbacoin@gmail.com>
+Date:   Sat Sep 2 14:49:22 2017 +0800
+
+    gitignore
+
+commit 129a216e505d29b872830ed35d5e68f7c13770c3
+Author: bumbacoin <bumbacoin@gmail.com>
+Date:   Sat Sep 2 14:33:49 2017 +0800
+
+    change PoS reward in 2 years
+
+commit e1cc42445198ecd1497207b0e495f686765a5003
+Author: bumbacoin <bumbacoin@gmail.com>
+Date:   Fri Sep 1 08:43:04 2017 -0400
+
+    compile fix
+
+commit 363cffd9d8132d4aa5678119c62579cfbe667f47
+Author: bumbacoin <bumbacoin@gmail.com>
+Date:   Fri Sep 1 16:18:52 2017 +0800
+
+    update graphics
+
+commit 1dcdd992794263f597f1a34b7c722e503dbdadee
+Author: bumbacoin <bumbacoin@gmail.com>
+Date:   Fri Sep 1 12:03:25 2017 +0800
+
+    Update version.cpp
+
+commit 22fbf4ffe4de83e5d4cd281d217a02f64503028d
+Author: Fibbly Fobbly <User@Fibblys-MacBook-Pro.local>
+Date:   Fri Sep 1 11:51:12 2017 +0800
+
+    change default dir ,neaten and beautify
+
+commit 8af45ac1d378b3fe4482d53eff6c7c401e6643ba
+Author: Fibbly Fobbly <User@Fibblys-MacBook-Pro.local>
+Date:   Thu Aug 31 18:46:47 2017 +0800
+
+    last pow block
+
+commit e350ce742370f98e38b5f266c084c36a97c16b75
+Author: bumbacoin <bumbacoin@gmail.com>
+Date:   Tue Aug 29 11:55:22 2017 +0800
+
+    Update wallet.cpp
+
+commit ea06cecdd67b9e0a584da516136fda1e2bd660f3
+Author: bumbacoin <bumbacoin@gmail.com>
+Date:   Fri Aug 25 23:25:30 2017 +0800
+
+    change block time
+
+commit b7b4b6a6c1736f8e1b39c97635ae6fc9ecf8de60
+Author: bumbacoin <bumbacoin@gmail.com>
+Date:   Fri Aug 25 12:06:32 2017 +0800
+
+    pos
+
+commit dcb56fc9dc3012839a49f602f6361ab8b087f24f
+Author: bumbacoin <bumbacoin@gmail.com>
+Date:   Fri Aug 25 11:23:01 2017 +0800
+
+    cosmetic changes
+
+commit bf5baf28ea8f46cb9da856ac5e9a66c23510e6e5
+Author: bumbacoin <bumbacoin@gmail.com>
+Date:   Mon Aug 14 20:22:49 2017 +0800
+
+    DGW > nHeight 2211 rather than 1499990400
+
+commit a16019c62c4e0428a5018ad36854e8eef6e1fab5
+Author: bumbacoin <bumbacoin@gmail.com>
+Date:   Mon Aug 14 15:16:59 2017 +0800
+
+    Update main.cpp
+
+commit 26aa52a25bc200a5cd37cc456bc622e34c03322e
+Author: bumbacoin <bumbacoin@gmail.com>
+Date:   Mon Aug 14 15:12:56 2017 +0800
+
+    Update checkpoints.cpp
+
+commit 0ae622edd063e3392473d37d61f6661703fc74a3
+Author: SBDomains <balnyssimonas@gmail.com>
+Date:   Thu Jun 29 17:14:23 2017 +0300
+
+    "Dark Gravity Wave" implemented
+    
+    Unify is now safer, stronger & more secure with "Dark Gravity Wave" implemented into it's code.
+
+commit dae0a78b7763ce8bde31228aafe0622b0256b8c1
+Author: SBDomains <balnyssimonas@gmail.com>
+Date:   Tue Jun 20 18:20:43 2017 +0300
+
+    Update 0.01
+    
+    Update contains following changes:
+    
+    1. Ticker (units) changed from UNF to UNIFY.
+    2. Graphical updates (logo, splash screen, icon).
+
+commit 254248b405351fa2d970c542cfcf9366f0834059
+Author: SBDomains <balnyssimonas@gmail.com>
+Date:   Thu Jun 15 20:24:33 2017 +0300
+
+    Create README.md
+
+commit cd6dc6f55db20c5924cd71e91d4d0867cae57673
+Author: SBDomains <balnyssimonas@gmail.com>
+Date:   Thu Jun 15 20:19:33 2017 +0300
+
+    Unify Cryptocurrency Source Code
+    
+    Unify Cryptocurrency Source Code

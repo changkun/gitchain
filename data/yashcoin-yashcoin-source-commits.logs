@@ -1,0 +1,19 @@
+commit 44fbed7f13e05b157a0101d9e89e13afddd27a81
+Author: yashcoin <info@dc-ex.com>
+Date:   Fri Dec 23 09:56:26 2016 +0530
+
+    source
+
+commit ec710c0c4f529c2dc778a3a81f0f5b908ebdc96a
+Author: yashcoin <info@dc-ex.com>
+Date:   Fri Dec 23 09:46:10 2016 +0530
+
+    Revert ":neckbeard: Added .gitattributes & .gitignore files"
+    
+    This reverts commit 92ead64b36bea3b60ff23a0d320183961eee27bc.
+
+commit 92ead64b36bea3b60ff23a0d320183961eee27bc
+Author: yashcoin <info@dc-ex.com>
+Date:   Fri Dec 23 09:45:38 2016 +0530
+
+    :neckbeard: Added .gitattributes & .gitignore files

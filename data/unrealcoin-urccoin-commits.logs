@@ -1,0 +1,11 @@
+commit 1765287269284fb210f8a9f0366edc6e7877fe5a
+Author: urc <coinunreal@gmail.com>
+Date:   Sat Mar 28 17:25:39 2015 +0100
+
+    coin
+
+commit 9c74581bea3fbfc6ecffdae62c0fc1c3133678f2
+Author: urc <coinunreal@gmail.com>
+Date:   Sat Mar 28 17:09:38 2015 +0100
+
+    :space_invader: Added .gitattributes & .gitignore files

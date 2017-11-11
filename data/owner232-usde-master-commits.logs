@@ -1,0 +1,102 @@
+commit 94d2e72b1a5e51abe1ccdf511efd9979dc14f36c
+Author: Ryan mcmahan <owner232@gmail.com>
+Date:   Mon Oct 30 17:40:39 2017 -0500
+
+    Fixed some client gui issues
+
+commit c7b7e11d5bb32cb93ee1f3ffd63535b57cf798a8
+Author: Ryan mcmahan <owner232@gmail.com>
+Date:   Sun Oct 29 11:52:21 2017 -0500
+
+    Changed version to 1.0.3 So we can identify new clients
+
+commit c68874983c48d4ebb5d1fdc1de6cad1d1d882bd3
+Author: Ryan mcmahan <owner232@gmail.com>
+Date:   Sun Oct 29 11:25:48 2017 -0500
+
+    Forcing update to the network.
+
+commit 2da014a4f46f36579a751ce9839eb84397b5fc85
+Author: Ryan mcmahan <owner232@gmail.com>
+Date:   Sun Oct 29 11:02:11 2017 -0500
+
+    updated version # as client name
+
+commit 7120b5183dd9bd913c50474f3b6b0aec2e1f405e
+Author: Ryan mcmahan <owner232@gmail.com>
+Date:   Sun Oct 29 10:46:19 2017 -0500
+
+    Changed the stake age to prevent giant retarded miners from screwing up the network.
+    Will change back soon.
+
+commit 9483dd7603d744199340c9300dee59857e3ade50
+Author: Ryan mcmahan <owner232@gmail.com>
+Date:   Fri Oct 27 23:26:03 2017 -0500
+
+    changed readme
+
+commit e433cd7030eda6e251d45fe5135b7d5dd6f372d4
+Author: Ryan mcmahan <owner232@gmail.com>
+Date:   Fri Oct 27 23:17:37 2017 -0500
+
+    Final push before release tonight
+
+commit fbb0d7d983aa19eec532b7f81ed9fbd5331dc3c2
+Author: Ryan mcmahan <owner232@gmail.com>
+Date:   Fri Oct 27 17:27:09 2017 -0500
+
+    Cleaned up client background
+    Added seed nodes
+    You shouldnt need the config file to get the client to connect
+    Only a few steps left before release
+
+commit 2b5c04cacbcdf63ec09639c9d6b428d8e82b8943
+Author: Ryan mcmahan <owner232@gmail.com>
+Date:   Fri Oct 27 16:29:38 2017 -0500
+
+    Removed psd
+    Removed The Narcissistic egotistical banners that bitconnct had on everything
+
+commit c1897fbde69576011c65a1074301d515d24333cd
+Author: Ryan mcmahan <owner232@gmail.com>
+Date:   Fri Oct 27 15:57:25 2017 -0500
+
+    Fixing issue with genesis block
+    
+    Changed client layout, Images text etc
+
+commit dd05e572f6840b2bd1a8c5768b73423ff89336e5
+Author: Ryan mcmahan <owner232@gmail.com>
+Date:   Thu Oct 26 20:21:01 2017 -0500
+
+    Disabled genesis block creation script.
+
+commit 9debb8a6be346466903f8a5e2106f05a86b8e41e
+Author: Ryan mcmahan <owner232@gmail.com>
+Date:   Thu Oct 26 19:20:09 2017 -0500
+
+    Cleaned code directory
+    Updated readme from error
+    Deleted old files
+
+commit fe955087fc4466f2e54af8f5ba3c974b56faf10a
+Author: Ryan mcmahan <owner232@gmail.com>
+Date:   Thu Oct 26 19:17:31 2017 -0500
+
+    Updated readme
+    Awaiting client release,
+    This is it! :)
+
+commit 6f04dc92c8d73bae87af229751bd51b96dcb18c5
+Author: Ryan mcmahan <owner232@gmail.com>
+Date:   Thu Oct 26 19:13:23 2017 -0500
+
+    Minimum Staking age changed to 20 days
+    added linux cross compile leveldb folder
+    Updated build guides because the old ones where written by some professional programmer who didnt care if anyone else in the world could build it.
+
+commit 7aa790f4018e449436f3101425dc3f715c68c7f2
+Author: Ryan mcmahan <owner232@gmail.com>
+Date:   Mon Oct 23 12:55:30 2017 -0500
+
+    initial commit
