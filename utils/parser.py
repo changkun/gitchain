@@ -5,7 +5,7 @@ from loader import Loader
 
 class Parser(object):
     def __init__(self, relative_path):
-        self.file = os.path.join(os.path.dirname(__file__), file_path)
+        self.file = os.path.join(os.path.dirname(__file__), relative_path)
 
     def count_commits(self):
         loader = Loader(self.file, type='txt')
