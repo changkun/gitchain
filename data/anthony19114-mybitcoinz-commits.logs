@@ -1,0 +1,186 @@
+commit 969d677f29391f18dcb0648602ed521fb8876291
+Merge: 514c98e e9e0e4f
+Author: anthony19114 <anthony19114@gmail.com>
+Date:   Sat Oct 28 00:51:21 2017 -0500
+
+    Merge pull request #2 from mbrooks/cleanup-readme
+    
+    Rename Copay to MyBitcoinZ
+
+commit e9e0e4ffddf8081c3663a4f5487c54c637548a60
+Author: Matt Brooks <matt@msbrooks.com>
+Date:   Sat Oct 28 00:44:43 2017 -0500
+
+    Rename Copay to MyBitcoinZ
+    
+    MyBitcoinZ is a fork of Copay. This commit finds relevant instances
+    where Copay is documented and changes it to MyBitcoinZ so that it
+    is a little clearer.
+
+commit 514c98e1001896da7d686405a6e2b59b8523b49f
+Author: iMac <imac@iMacs-iMac.local>
+Date:   Thu Oct 26 19:49:19 2017 -0500
+
+    updates
+
+commit 38e66516dabed6a9386e01ac11e806e32cf8f633
+Author: iMac <imac@iMacs-iMac.local>
+Date:   Thu Oct 26 19:49:15 2017 -0500
+
+    updates
+
+commit 8a7a62b1a3c329c14c4a1cb403096d66bfa8a06a
+Author: iMac <imac@iMacs-iMac.local>
+Date:   Thu Oct 26 19:48:41 2017 -0500
+
+    updates
+
+commit 8d9c5a2d6a72059ce089e0e6071a6ee6a8b315f9
+Author: iMac <imac@iMacs-iMac.local>
+Date:   Thu Oct 26 19:47:54 2017 -0500
+
+    updates
+
+commit 6fefa77d7206fa653bae2f69270be83eb7a9f220
+Author: iMac <imac@iMacs-iMac.local>
+Date:   Wed Oct 25 20:12:43 2017 -0500
+
+    Updates
+
+commit 0ad1092a10c2453f6628f0a851e9ff9117ac5e33
+Author: iMac <imac@iMacs-iMac.local>
+Date:   Wed Oct 25 20:12:04 2017 -0500
+
+    Updates
+
+commit 19d057a903a9d62ef8ae848cbb53d4e1eb6ed0ab
+Author: iMac <imac@iMacs-iMac.local>
+Date:   Wed Oct 25 19:56:21 2017 -0500
+
+    Rates
+
+commit c6f71e23466d064764c6ae705e274a1f7701ca52
+Author: iMac <imac@iMacs-iMac.local>
+Date:   Wed Oct 25 19:17:20 2017 -0500
+
+    Updates
+
+commit 2bb832694a86a84879b70862fee082a3c499fb52
+Author: iMac <imac@iMacs-iMac.local>
+Date:   Mon Oct 9 03:23:31 2017 -0500
+
+    Changes
+
+commit 2020c8e5f5b8debc2d0d8cd4231092c9d6a777e6
+Author: iMac <imac@iMacs-iMac.local>
+Date:   Mon Oct 9 03:17:40 2017 -0500
+
+    Changes
+
+commit 48916bd2724630a182799f74abbc6aa892b062c1
+Author: iMac <imac@iMacs-iMac.local>
+Date:   Mon Oct 9 03:03:35 2017 -0500
+
+    Changes
+
+commit 07970f93830d5f479bff73442d36ebd4645827a9
+Author: iMac <imac@iMacs-iMac.local>
+Date:   Mon Oct 9 02:21:21 2017 -0500
+
+    Changes
+
+commit 0f1847ca570a741c96f418e16cc0c929eef7ffca
+Author: iMac <imac@iMacs-iMac.local>
+Date:   Mon Oct 9 02:20:08 2017 -0500
+
+    Changes
+
+commit dbe62ca0cd7297a5db104c2682e4b33438e8cfad
+Author: iMac <imac@iMacs-iMac.local>
+Date:   Mon Oct 9 01:59:14 2017 -0500
+
+    Changes
+
+commit 6ade069da9a8149e1cfc4cce0cdbe30531280d9d
+Author: iMac <imac@iMacs-iMac.local>
+Date:   Mon Oct 9 01:44:44 2017 -0500
+
+    Change
+
+commit 0b7d7f63ce16edad41bbcc41c946b584b2ac229b
+Author: iMac <imac@iMacs-iMac.local>
+Date:   Mon Oct 9 01:39:42 2017 -0500
+
+    Fixes
+
+commit a9c19541aa33dc8d0607c9ad4a8e438f53d2bd34
+Author: iMac <imac@iMacs-iMac.local>
+Date:   Mon Oct 9 01:37:34 2017 -0500
+
+    Fixes
+
+commit 8e0041850c25525e12d643f8dbfc49df1e2cdd39
+Author: iMac <imac@iMacs-iMac.local>
+Date:   Mon Oct 9 01:19:03 2017 -0500
+
+    Fixes
+
+commit 40aae01d29ad94a88f2d14957b5845313bfbaf75
+Author: hellomoto <hellomoto@bws.bitcoinz.ph>
+Date:   Mon Oct 9 08:10:12 2017 +0300
+
+    Fixes
+
+commit 3dfcf0161f03123ee3f2d1d997ef42d48938b745
+Author: hellomoto <hellomoto@bws.bitcoinz.ph>
+Date:   Mon Oct 9 08:07:00 2017 +0300
+
+    Fixes
+
+commit c88bb7b9c022b321d3b47b79c303730e7c28f74c
+Author: hellomoto <hellomoto@bws.bitcoinz.ph>
+Date:   Mon Oct 9 07:24:58 2017 +0300
+
+    Fixes
+
+commit aa10995dfe56f6a3e26a5f4f0ebf7b895d5cbf7d
+Author: hellomoto <hellomoto@bws.bitcoinz.ph>
+Date:   Mon Oct 9 07:12:13 2017 +0300
+
+    Fixes
+
+commit 3f8f7fdf639a52a13e5fd5ec478a9b11451355e5
+Author: iMac <imac@iMacs-iMac.local>
+Date:   Sun Oct 8 23:08:39 2017 -0500
+
+    Fixes
+
+commit 30d1aeecb573c874f1102442709773403f04c6a1
+Author: iMac <imac@iMacs-iMac.local>
+Date:   Sun Oct 8 22:59:19 2017 -0500
+
+    Fixes
+
+commit 096d8b8ec92120fdd4c02f827a314a617154fff0
+Author: iMac <imac@iMacs-iMac.local>
+Date:   Sun Oct 8 22:07:55 2017 -0500
+
+    Rebranding
+
+commit e34ff0109fb8ccce6fcd2bd0c363fec9c5c5caea
+Author: iMac <imac@iMacs-iMac.local>
+Date:   Sun Oct 8 21:59:31 2017 -0500
+
+    Rebranding
+
+commit 32b5c4e5ae59e9f74716b697402b8874ceb6bab0
+Author: hellomoto <hellomoto@bws.bitcoinz.ph>
+Date:   Mon Oct 9 04:31:37 2017 +0300
+
+    Initial COmmit
+
+commit 648f53ab1ce447cb607c3cefc17d404ece653d3b
+Author: hellomoto <hellomoto@bws.bitcoinz.ph>
+Date:   Mon Oct 9 04:31:13 2017 +0300
+
+    first commit

@@ -1,0 +1,231 @@
+commit 7a246468fa994342e75b5e86c2157af24e018e2e
+Author: BitSwift-v2 <alt.zu-a0a1lga@yopmail.com>
+Date:   Thu Mar 2 19:21:30 2017 -0500
+
+    Update README_windows.txt
+
+commit 93416350ff47bbbaaeac6cf968375b85ba479268
+Author: BitSwift-v2 <alt.zu-a0a1lga@yopmail.com>
+Date:   Thu Mar 2 18:09:14 2017 -0500
+
+    Update README.md
+
+commit a6ef43771e8441da04557bd9272c528b87deca3b
+Author: BitSwift-v2 <alt.zu-a0a1lga@yopmail.com>
+Date:   Thu Mar 2 18:07:07 2017 -0500
+
+    Update README
+
+commit 8a18eb05559d31b8f0320c6c6d07d5e00c1f5391
+Merge: 8a8b637 27846dd
+Author: BitSwift-v2 <alt.zu-a0a1lga@yopmail.com>
+Date:   Tue Feb 28 11:05:20 2017 -0700
+
+    Merge pull request #5 from Stoner19/master
+    
+    seednode4 added
+
+commit 8a8b637b3e6adb06125d371a87d56b63d70c2f5b
+Author: BitSwift-v2 <alt.zu-a0a1lga@yopmail.com>
+Date:   Fri Feb 24 13:52:15 2017 -0500
+
+    Update README.md
+
+commit 6ffff9ff7baa7f14d93e05b819a9a92c7b322dfb
+Author: BitSwift-v2 <alt.zu-a0a1lga@yopmail.com>
+Date:   Fri Feb 24 09:54:30 2017 -0500
+
+    Update README.md
+
+commit 87fd2f98de2ad81c6ec3b355fb67248f9fbcc66b
+Author: BitSwift-v2 <alt.zu-a0a1lga@yopmail.com>
+Date:   Thu Feb 23 21:03:52 2017 -0500
+
+    Update README.md
+
+commit d6642a443bc218a84d7d994e5d996fbb0aa1e572
+Author: BitSwift-v2 <alt.zu-a0a1lga@yopmail.com>
+Date:   Thu Feb 23 09:29:06 2017 -0700
+
+    Update README.md
+
+commit f8b6a29e1ab880b755769018851fae99b06fd58e
+Author: BitSwift-v2 <alt.zu-a0a1lga@yopmail.com>
+Date:   Thu Feb 23 09:28:00 2017 -0700
+
+    Update README.md
+
+commit 27846dd74e280664b1660e8ac4c4adc31de34058
+Author: Stoner19 <stoner19@msn.com>
+Date:   Tue Feb 14 11:41:16 2017 -0700
+
+    seednode4 added
+
+commit bdc1ce34056dc69a8ad8e269523113210ce17301
+Author: BitSwift-v2 <alt.zu-a0a1lga@yopmail.com>
+Date:   Fri Feb 10 15:57:07 2017 -0700
+
+    Update README.md
+
+commit e64ddb682b768bd4aed66a766ec9c663db3bd2f2
+Author: BitSwift-v2 <alt.zu-a0a1lga@yopmail.com>
+Date:   Fri Feb 10 15:56:44 2017 -0700
+
+    Update README.md
+
+commit c628c407c96a54c118e3f2e2407291497946eb67
+Author: BitSwift-v2 <alt.zu-a0a1lga@yopmail.com>
+Date:   Fri Feb 10 15:54:12 2017 -0700
+
+    Update README.md
+
+commit c18a1f593b8ed5e36b681b19b2e02275570204f3
+Merge: c4a23ea 2d3f6c1
+Author: BitSwift-v2 <alt.zu-a0a1lga@yopmail.com>
+Date:   Fri Feb 10 14:56:50 2017 -0700
+
+    Merge pull request #4 from Stoner19/master
+    
+    README.md correction
+
+commit 2d3f6c190ae52acde28aaab28dad2646cae2d5a6
+Author: Stoner19 <stoner19@msn.com>
+Date:   Fri Feb 10 14:53:56 2017 -0700
+
+    README.md correction
+
+commit 67d7e43a43dab45a35b9e1b89f5163f22f0a5545
+Merge: 41b0eb2 c4a23ea
+Author: Stoner19 <Stoner19@users.noreply.github.com>
+Date:   Fri Feb 10 14:54:52 2017 -0700
+
+    Merge pull request #1 from BitSwift-v2/master
+    
+    Merge pull request #3 from Stoner19/master
+
+commit c4a23ea52393a9eef68354a8b96c45240f6706a2
+Merge: a0da231 41b0eb2
+Author: BitSwift-v2 <alt.zu-a0a1lga@yopmail.com>
+Date:   Fri Feb 10 09:59:27 2017 -0700
+
+    Merge pull request #3 from Stoner19/master
+    
+    revisions to name, dependencies, & seednodes
+
+commit 41b0eb2fa2ac073bf1726714abf34001ccb97a6c
+Merge: 190aec9 a0da231
+Author: BitSwift-v2 <alt.zu-a0a1lga@yopmail.com>
+Date:   Fri Feb 10 09:59:19 2017 -0700
+
+    Merge branch 'master' into master
+
+commit 190aec9b90fa02480a8783ff6334af95675fa971
+Author: Stoner19 <stoner19@msn.com>
+Date:   Fri Feb 10 09:48:37 2017 -0700
+
+    README.md update & QT depends updated
+    
+    README.md update & QT depends updated
+
+commit 4454d93519f4a3fea8dccc98508ba7090dc59e84
+Author: Stoner19 <stoner19@msn.com>
+Date:   Fri Feb 10 09:03:32 2017 -0700
+
+    name cleanup & seednode3
+    
+    name changed to Bitswift from BitSwift & seednode3 added
+
+commit 17a4a28639507624f61071141838790d4aa8e4e3
+Author: Stoner19 <stoner19@msn.com>
+Date:   Mon Feb 6 18:48:22 2017 -0700
+
+    Seednodes updated
+    
+    Old seednodes removed, new ones added
+
+commit a0da23113118df0d7bf8b88afe24865265254fc0
+Merge: 68f3341 8900b7b
+Author: BitSwift-v2 <alt.zu-a0a1lga@yopmail.com>
+Date:   Wed Feb 1 16:44:48 2017 -0700
+
+    Merge pull request #2 from sleepysmurf/patch-1
+    
+    Update README.md
+
+commit 68f3341ac912d8169269628918108176d0ca25b0
+Merge: 2a909bc ba5860f
+Author: BitSwift-v2 <alt.zu-a0a1lga@yopmail.com>
+Date:   Wed Feb 1 16:44:39 2017 -0700
+
+    Merge pull request #1 from gjhiggins/master
+    
+    uri.replace arg correction
+
+commit 8900b7b4de8bb20f0cd2026dd8c75f57bcfb65bf
+Author: sleepysmurf <paulbusch@gmail.com>
+Date:   Thu Jan 19 22:15:34 2017 -0500
+
+    Update README.md
+
+commit 2a909bcc965fd7718c3bcf3d4116aa595e8cf5e0
+Author: bitswifter <bitswift@gmail.com>
+Date:   Fri Mar 11 17:36:48 2016 +0100
+
+    Checkpoint and cleanup, fixes
+
+commit a98f2690c45fdf9bf5b4d0cb912cf07c05bd82e1
+Author: bitswift-v2 <bitswift-v2@gmail.com>
+Date:   Sun Dec 28 22:45:10 2014 -0700
+
+    Fixing makefile.unix and send formatting.
+
+commit ba5860fed94a3044fe794bf6fab8b569ef10a871
+Author: Graham Higgins <gjhiggins@users.noreply.github.com>
+Date:   Sun Dec 28 23:15:01 2014 +0000
+
+    uri.replace arg correction
+    
+    >>> len('bitswift://')
+    11
+
+commit 2f71a685f9790dd6623cef7d2aba9bc0e91f8cb7
+Author: BitSwift-v2 <bitswift-v2@bitswift.io>
+Date:   Tue Dec 23 23:14:06 2014 -0700
+
+    Updating makefile.unix
+
+commit 5e65039d90836b698a956e79e29bddad9a8748b6
+Author: bitswift-v2 <bitswift-v2@gmail.com>
+Date:   Tue Dec 23 11:11:26 2014 -0700
+
+    Adding Swift services and Stealth addresses
+
+commit c70e89a83375baf6cf4b1274ebd2e66a78fddea3
+Author: bitswiftdev <bitswiftcoin@gmail.com>
+Date:   Sat Oct 4 07:44:54 2014 +0200
+
+    Updated file for mac compile
+
+commit 6b87b162afea1f201a12078274aaf86d25dc63aa
+Author: bitswiftdev <bitswiftcoin@gmail.com>
+Date:   Fri Oct 3 21:04:59 2014 +0200
+
+    End of pow fix
+
+commit ab121d3855200312c92691770882ce20312f74e9
+Author: bitswiftdev <bitswiftcoin@gmail.com>
+Date:   Mon Sep 29 20:30:51 2014 +0200
+
+    FIRST COMMIT
+
+commit 8487cefa805ab80be592b081a0ce402ac3dfcfc7
+Author: bitswiftdev <bitswiftcoin@gmail.com>
+Date:   Mon Sep 29 20:28:39 2014 +0200
+
+    FIRST COMMIT
+
+commit 341cb0a94b444daf560d3b0b1d9d9a67dd0db0e2
+Author: bitswiftdev <bitswiftcoin@gmail.com>
+Date:   Mon Sep 29 20:26:43 2014 +0200
+
+    :space_invader: Added .gitattributes & .gitignore files

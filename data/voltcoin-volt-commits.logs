@@ -1,0 +1,42 @@
+commit 24eddc9160a20145a1a4a187b643cdf138a87c1c
+Author: VoltCoin <voltcoin@mail.com>
+Date:   Mon Feb 27 20:33:24 2017 +0000
+
+    Update chainparams.cpp
+
+commit b76a214f6b622b690716c055ce5f7fc5ef7e95ed
+Author: VoltCoin <voltcoin@mail.com>
+Date:   Mon Feb 27 06:57:24 2017 +0000
+
+    Update chainparams.cpp
+
+commit f54811006c56eaf1d21b6a0b40fd09896df9971f
+Author: VoltCoin <voltcoin@mail.com>
+Date:   Sun Feb 26 18:37:03 2017 +0000
+
+    Update README.md
+
+commit 33f87c4a0c3ad509b422ef3393ee76d5f9b7190e
+Author: VoltCoin <voltcoin@mail.com>
+Date:   Sun Feb 26 18:17:55 2017 +0000
+
+    Update README.md
+
+commit c43ffcbeb9d0ab7df21946ef21fbfd5082cb9edb
+Merge: 687befc 2a998f4
+Author: VoltCoin <voltcoin@mail.com>
+Date:   Sun Feb 26 18:15:34 2017 +0000
+
+    Merge https://github.com/voltcoin/Volt
+
+commit 687befc26414531d366a808d991c2aa25c6cc917
+Author: VoltCoin <voltcoin@mail.com>
+Date:   Sun Feb 26 18:13:27 2017 +0000
+
+    Volt Coin
+
+commit 2a998f44af8c7e472bd7944b19237a6dc5fa7369
+Author: VoltCoin <voltcoin@mail.com>
+Date:   Sun Feb 26 18:10:20 2017 +0000
+
+    Initial commit

@@ -1,0 +1,43 @@
+commit 606966935d3eadd682828ecc8fa11319d6fb00c0
+Author: BitTokens Project Team <bittoken@yahoo.com>
+Date:   Wed Jul 19 02:28:28 2017 +0200
+
+    Update README.md
+
+commit 01c783c512e5c1adc1d0d883669f977480dc102f
+Author: bittoken@yahoo.com <bittoken@yahoo.com>
+Date:   Wed Jul 19 00:41:47 2017 +0300
+
+    hard fork add digishield, switch on block 82000
+
+commit dadd05689f91a35a6a87260230f1c29bebfd3b9e
+Author: BitTokens <BitTokens@gmail.com>
+Date:   Sun Dec 4 14:30:11 2016 +0200
+
+    change logo
+    
+    change logo
+
+commit 838fd3a29cc13e1b49eb3af49a6e9e9c02a6ef3f
+Author: BitTokens <BitTokens@gmail.com>
+Date:   Sun Dec 4 00:55:59 2016 +0200
+
+    added missing file
+    
+    added missing file
+
+commit 3f186076d33f8f760b93f1d7e013fefc15434a45
+Author: BitTokens <BitTokens@gmail.com>
+Date:   Thu Nov 17 21:29:51 2016 +0200
+
+    change block rewards, protocol, halving
+    
+    change block rewards, protocol, halving
+
+commit b6411d3a0bf3f558b81271bd958386e50fa97667
+Author: BitTokensTeam <bittokensteam@outlook.com>
+Date:   Wed Aug 24 01:04:05 2016 +0200
+
+    First commit
+    
+    First commit for BitToken

@@ -1,0 +1,17 @@
+commit ef7d95e9f0698aa612a6458980f0a170f54d3ec1
+Author: akuyacoin <32187014+akuyacoin@users.noreply.github.com>
+Date:   Fri Sep 22 11:44:27 2017 +0700
+
+    Create README.md
+
+commit d6aa1a573771444131a9738e5b396a574a77ca4a
+Author: AkuyaCoin <akuyacoin2@gmail.com>
+Date:   Fri Sep 22 11:40:11 2017 +0700
+
+    AkuyaCoin
+
+commit ee09cc1b6a2d8b1991e21ad7574a801ffc76864c
+Author: AkuyaCoin <akuyacoin2@gmail.com>
+Date:   Fri Sep 22 11:21:07 2017 +0700
+
+    :boom::camel: Added .gitattributes & .gitignore files

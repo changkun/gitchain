@@ -1,0 +1,169 @@
+commit bf8e7ac687d4f8d573957cdd9011d19bc66f667e
+Author: btcltcdigger <btcltcdigger@gmail.com>
+Date:   Wed Nov 8 08:32:24 2017 +0000
+
+    adding new code
+
+commit 65aa66274675bbb491eef8689dac4fd257917426
+Author: btcltcdigger <btcltcdigger@gmail.com>
+Date:   Wed Nov 8 08:31:04 2017 +0000
+
+    deleted old code
+
+commit 8dc3ae88c94d148b82b34aea06459849ee0d1446
+Author: btcltcdigger <btcltcdigger@gmail.com>
+Date:   Tue Nov 7 18:21:40 2017 +0000
+
+    removed obsolete folder
+
+commit 62c1c4b8b53a69b2a8275d67ed3740fb65f32fc3
+Author: btcltcdigger <btcltcdigger@gmail.com>
+Date:   Tue Nov 7 18:17:23 2017 +0000
+
+    code change
+
+commit 97e382c1f4548c5b4350d2be902721712e37c923
+Author: Abjcoin Blockchain <31169362+abjcoinblockchain@users.noreply.github.com>
+Date:   Tue Nov 7 09:44:53 2017 -0500
+
+    main.cpp
+
+commit d30738a1d64b836fa64f74dcf2a0d4ea778cf5a7
+Author: Abjcoin Blockchain <31169362+abjcoinblockchain@users.noreply.github.com>
+Date:   Tue Nov 7 09:34:32 2017 -0500
+
+    main.cpp
+
+commit a42f9654357bee154288f45e5b13a431b9154a52
+Author: Abjcoin Blockchain <31169362+abjcoinblockchain@users.noreply.github.com>
+Date:   Tue Nov 7 09:30:34 2017 -0500
+
+    main.cpp
+
+commit 01bf08abaf971c95361923e77921c5e694db18c3
+Author: Abjcoin Blockchain <31169362+abjcoinblockchain@users.noreply.github.com>
+Date:   Tue Nov 7 09:27:50 2017 -0500
+
+    main. cpp
+
+commit 4552141c9d37a645ca5e63aeedbf70c793800849
+Author: Abjcoin Blockchain <31169362+abjcoinblockchain@users.noreply.github.com>
+Date:   Tue Nov 7 09:22:42 2017 -0500
+
+    Add files via upload
+
+commit 649cfccf69eed7e58e0a0cec083ed8b32ee9fe29
+Author: Abjcoin Blockchain <31169362+abjcoinblockchain@users.noreply.github.com>
+Date:   Tue Nov 7 09:10:28 2017 -0500
+
+    Main.cpp
+
+commit 0d6036fe8c77b49421a2dd582df83708fc3e3e68
+Author: Abjcoin Blockchain <31169362+abjcoinblockchain@users.noreply.github.com>
+Date:   Tue Nov 7 08:29:02 2017 -0500
+
+    Add files via upload
+    
+    Abjcoin core project
+
+commit 390346765ab66368ba57e9224d0f7c78ab7bb5f2
+Author: Abjcoin Blockchain <31169362+abjcoinblockchain@users.noreply.github.com>
+Date:   Tue Oct 31 08:49:58 2017 -0400
+
+    Abjcoin project
+
+commit 23e571d85450bc2f57905eadb0a3f8b69a0070bf
+Author: Abjcoin Blockchain <31169362+abjcoinblockchain@users.noreply.github.com>
+Date:   Tue Oct 31 08:41:30 2017 -0400
+
+    main.cpp
+
+commit 5eef02fbfa38efd4b585d2c8da21d85a14cc2f63
+Author: Abjcoin Blockchain <31169362+abjcoinblockchain@users.noreply.github.com>
+Date:   Tue Oct 31 08:24:16 2017 -0400
+
+    main .cpp
+
+commit f2bc9625ec8835447600b3e4a8b06c8a351daa21
+Author: Abjcoin Blockchain <31169362+abjcoinblockchain@users.noreply.github.com>
+Date:   Tue Oct 31 08:17:02 2017 -0400
+
+    main.cpp
+
+commit 3a47a16b03f80d725723bc21ab929f6b49d4b4ae
+Author: Abjcoin Blockchain <31169362+abjcoinblockchain@users.noreply.github.com>
+Date:   Tue Oct 31 08:04:28 2017 -0400
+
+    Abjcoin Project
+
+commit 6adc44f7bcd95695cc71615ac71393d87fb15d8e
+Author: Abjcoin Blockchain <31169362+abjcoinblockchain@users.noreply.github.com>
+Date:   Tue Oct 31 08:03:41 2017 -0400
+
+    Abjcoin Project
+
+commit f0907622e52c2116cd46fe2d3c4af7eb12cd3891
+Author: Abjcoin Blockchain <31169362+abjcoinblockchain@users.noreply.github.com>
+Date:   Tue Oct 31 08:02:12 2017 -0400
+
+    Abjcoin Proect
+
+commit 03fcb6e6ecfcf8d33e7859ae44c54301013aadb1
+Author: Abjcoin Blockchain <31169362+abjcoinblockchain@users.noreply.github.com>
+Date:   Tue Oct 31 08:01:26 2017 -0400
+
+    Abjcoin Project
+
+commit 96c7b8f18ff8016b64641ceee67d8668ee2db27c
+Author: Abjcoin Blockchain <31169362+abjcoinblockchain@users.noreply.github.com>
+Date:   Tue Oct 31 08:00:46 2017 -0400
+
+    Abjcoin Project
+
+commit 0884c2601e84571a7f5083b7f4d10ad51d7bf607
+Author: Abjcoin Blockchain <31169362+abjcoinblockchain@users.noreply.github.com>
+Date:   Tue Oct 31 07:59:28 2017 -0400
+
+    Abjcoin Project
+
+commit c89d17944f7bb9f95c9867f34382b2ac91becf0b
+Author: Abjcoin Blockchain <31169362+abjcoinblockchain@users.noreply.github.com>
+Date:   Tue Oct 31 07:58:29 2017 -0400
+
+    Abjcoin project
+
+commit a8fb90d8266690a7d07b2cd1f99b71cd0bfea333
+Author: Abjcoin Blockchain <31169362+abjcoinblockchain@users.noreply.github.com>
+Date:   Tue Oct 31 07:56:54 2017 -0400
+
+    Abjcoin Project
+
+commit 92e2b2bb120c243cae8d4e7cbdeee418f4326b2a
+Author: Abjcoin Blockchain <31169362+abjcoinblockchain@users.noreply.github.com>
+Date:   Tue Oct 31 07:51:38 2017 -0400
+
+    Abjcoin Project
+
+commit f1ec2f3050088d15c55dca633da8605ab02133d1
+Author: Abjcoin Blockchain <31169362+abjcoinblockchain@users.noreply.github.com>
+Date:   Tue Oct 31 07:49:58 2017 -0400
+
+    Abjcoin Project
+
+commit 73046f94296bae40b0df0d0b59f7f97133052bb1
+Author: Abjcoin Blockchain <31169362+abjcoinblockchain@users.noreply.github.com>
+Date:   Tue Oct 31 07:48:29 2017 -0400
+
+    Abjcoin Project
+
+commit 4ac667306104cb8e99cd47a322ad960e288d548b
+Author: Abjcoin Blockchain <31169362+abjcoinblockchain@users.noreply.github.com>
+Date:   Tue Oct 31 07:46:21 2017 -0400
+
+    Abjcoin Project
+
+commit 68f7539fc16aa732f406e8ee0b2933a6f88e1150
+Author: Abjcoin Blockchain <31169362+abjcoinblockchain@users.noreply.github.com>
+Date:   Tue Oct 31 06:51:10 2017 -0400
+
+    Initial commit

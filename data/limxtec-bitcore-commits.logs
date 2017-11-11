@@ -1,0 +1,487 @@
+commit d9663bb4b3a8a1a520f06c26d7b72bc7c873c30e
+Author: Chris <apfelbaum@email.de>
+Date:   Thu Nov 2 21:55:26 2017 +0100
+
+    Change MAX_MONEY security function.
+    
+    That has not to do with the coin rollout.
+
+commit 9c0507d2974fe704cfbff1967b0c609424fee9a8
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sat Sep 23 20:29:38 2017 +0200
+
+    Copyright Changes
+
+commit 7bfd42cc3e6a9bec29d429d75652a5d84d06e800
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sat Sep 23 20:28:05 2017 +0200
+
+    Revert "Copyright Changes Bitcore -> Bitcoin Add new line"
+    
+    This reverts commit 2b53eeef0ff2ff3d2a45cea5d48d8a0073dff830.
+
+commit 2b53eeef0ff2ff3d2a45cea5d48d8a0073dff830
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sat Sep 23 20:22:48 2017 +0200
+
+    Copyright Changes Bitcore -> Bitcoin Add new line
+
+commit 4bcc737dce6a9b61c1c7e0f8082656fe292b91ac
+Merge: 2b30982 757738d
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Mon Jul 31 17:41:28 2017 +0530
+
+    Merge pull request #5 from madzebra/performance-improvements
+    
+    performance improvements for GUI
+
+commit 757738dc762e9673f2d530aa042ab29016ddae9c
+Author: madzera <madzebra@users.noreply.github.com>
+Date:   Sat Jul 29 19:50:22 2017 +0100
+
+    performance improvements for GUI
+
+commit 2b3098249038e268a5df25a16525df710434058e
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Mon Jul 24 20:57:11 2017 +0530
+
+    validation: validate pop witness data
+
+commit a2f3d8d829c3698e0cbfebea4ff386ea41c3a7bd
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sun Jul 23 20:33:25 2017 +0200
+
+    Version 0.14.1.6
+
+commit 348cafc85a43cb3c2ac11484109ff410723d486d
+Merge: dea7276 0208df9
+Author: Chris <apfelbaum@email.de>
+Date:   Sat Jul 22 13:19:36 2017 +0200
+
+    Merge pull request #4 from dArkjON/patch-1
+    
+    Update pow.cpp
+
+commit dea72763a8a81f792bfbdaaa2141288b71e4708e
+Author: Chris <apfelbaum@email.de>
+Date:   Sat Jul 22 13:11:27 2017 +0200
+
+    Fix
+
+commit 0208df968ae68d0f9b6a9903b31411b331e9fe78
+Author: Jon Durdel <info@darkjon.de>
+Date:   Sat Jul 22 12:34:52 2017 +0200
+
+    Update pow.cpp
+
+commit 654153544f4394cedb91e13f95ed946edfd4b7cc
+Author: Chris <apfelbaum@email.de>
+Date:   Sat Jul 22 12:17:30 2017 +0200
+
+    Fix FormatSubVersion
+
+commit 8c526568cf3efbd02c3c615d6c053e5c278eaf02
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Fri Jul 21 18:54:09 2017 +0200
+
+    Second Part 0.14.1.5
+    
+    -source formating (pow.cpp)
+    -remove uacomment
+    -enable witniss spam protection block 25K
+    -changes in NetworkHash calculation
+
+commit c06a303aa3348698b2a7ca9c441a9ce1748544e9
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Wed Jul 19 09:01:42 2017 +0200
+
+    Change Diff Algo
+    
+    Retarget after block 21000 is 64 blocks (2015) and adjustment step 15 %
+    (400%)
+
+commit f93bcf2ef3aff89610016c2e5c47f39a2e9e13ef
+Author: Chris <apfelbaum@email.de>
+Date:   Mon Jul 17 19:23:45 2017 +0200
+
+    Commit
+
+commit fc80671f6d400a6181a144437a6079108048d590
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Sun Jul 2 19:47:07 2017 +0530
+
+    coinsbase tx size strict
+
+commit 59a5103367a5ff8d21b4d616dd840d3e4d63336e
+Merge: dad2f91 b94815f
+Author: Chris <apfelbaum@email.de>
+Date:   Sun Jul 2 12:28:05 2017 +0200
+
+    Merge pull request #2 from dArkjON/patch-1
+    
+    Link Update
+
+commit b94815fca8b6da4a986cae432c1f3ee2db1a4586
+Author: Jon Durdel <info@darkjon.de>
+Date:   Sun Jul 2 12:02:14 2017 +0200
+
+    Link Update
+
+commit dad2f91adfae331ac5d678a79793592a1d97f541
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Fri Jun 16 11:56:48 2017 +0530
+
+    Fix BlockAssembler
+    -fixed new block creation
+    -fixed segwit
+    -fixed transaction in coinbase
+    
+    Signed-off-by: joshafest <joshaf.est@gmail.com>
+
+commit 0b7cf84fe3885aa337cde25418decd2f357af733
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sat Jun 3 19:04:57 2017 +0200
+
+    Witniss fix
+
+commit cf1b348e250ad6a1a8a6de83f533a6a531389100
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sat Jun 3 18:16:17 2017 +0200
+
+    Removed versions warnings
+
+commit 7ae3f8daf8383693d488759fb468374fa8bc4068
+Author: Chris <apfelbaum@email.de>
+Date:   Sat Jun 3 12:47:48 2017 +0200
+
+    Fix for Exchanges and pools
+
+commit 69d892644679b473c8983b7ef3c3eeee3a0d59a1
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Fri Jun 2 23:14:12 2017 +0200
+
+    Remove not used var
+
+commit ce3945a8070ce3b2247d63a67da2765533edbf3d
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Fri Jun 2 22:51:26 2017 +0200
+
+    Sync Fix
+
+commit 534c9b8467a9a779e2e231d74183e1f58359c2b6
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Fri Jun 2 20:48:43 2017 +0200
+
+    BitCore 0.14.1.1.
+    
+    Improvement for Segwit and blokreward.
+
+commit 9aea44f64e962998af865532e48094cc6a1493f5
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sat May 27 23:19:50 2017 +0200
+
+    Changes
+
+commit c7892c365250d4842ef40fe644324986d074959e
+Merge: 520b6a7 ad85597
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sat May 27 23:15:26 2017 +0200
+
+    Merge branch 'master' of https://github.com/LIMXTEC/BitCore
+    
+    # Conflicts:
+    #       configure.ac
+    #       src/pow.cpp
+
+commit 520b6a7b437c3a2c0b96f645087d6c5ba3667170
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sat May 27 23:10:56 2017 +0200
+
+    BitCore BTC Update 0.14.1.0
+    
+    Update to Bitcoin Core 0.14.1.0
+    Change Blocktime to 2,5 min and change Diffalgo to standart bitcoin.
+    (3.5 days)
+    forkblock is block 10K
+
+commit ad8559788eaf2b60e238e89745a1b956090ae081
+Author: Chris <apfelbaum@email.de>
+Date:   Fri May 12 22:56:19 2017 +0200
+
+    Update pow.cpp
+
+commit 4de5c60b3d4c98c405d40b26ba871be29185909b
+Author: Chris <apfelbaum@email.de>
+Date:   Fri May 12 15:59:18 2017 +0200
+
+    Update pow.cpp
+
+commit 20e244bdfd91eb3e6990ce359c89fa80596d41b4
+Author: Chris <apfelbaum@email.de>
+Date:   Fri May 12 15:57:12 2017 +0200
+
+    Update pow.cpp
+
+commit 9bc9cb17b73207a1b75cb2f1b03e63c71d0afe72
+Author: Chris <apfelbaum@email.de>
+Date:   Fri May 12 15:46:11 2017 +0200
+
+    Update pow.cpp
+
+commit 098f6c41cbf4be02e6e4ce11778d3322db13fb06
+Author: Chris <apfelbaum@email.de>
+Date:   Fri May 12 15:37:25 2017 +0200
+
+    Update chainparams.cpp
+
+commit b3a30ab5d518b450135ac487119a45617e695fc7
+Author: Chris <apfelbaum@email.de>
+Date:   Fri May 12 15:20:26 2017 +0200
+
+    Version 0.14.0.5
+
+commit 795a2bab097c67d8b283093d7219fa8ffa6607db
+Author: Chris <apfelbaum@email.de>
+Date:   Fri May 12 15:19:38 2017 +0200
+
+    Version 0.14.0.5
+
+commit 1f61166658552e1c6b2992f79da6a07444566f51
+Author: Chris <apfelbaum@email.de>
+Date:   Fri May 12 15:17:56 2017 +0200
+
+    Add Bitcoin DK3 Diff Hybrid Algo
+
+commit 92dec6e2bc710fa97c8fb262a3982e1122eee1d6
+Author: Chris <apfelbaum@email.de>
+Date:   Fri May 12 14:57:36 2017 +0200
+
+    Update chainparams.cpp
+
+commit ab66777ae83bfb52dc76b8a2d17260cf664d6652
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Fri May 5 23:22:05 2017 +0200
+
+    BitCore BTX Version 0.14.2
+    
+    - new setup for testnet
+    - TX Improvement
+    - set blocksize to 20MB included Segwit
+    - increase standard tx weight
+    - increase incremental relay fee
+    - increase dust relay tx fee
+    - increase may p2sigops
+
+commit 34196a651183d332c21cec0b06e1312ef1181960
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Fri Apr 28 14:44:01 2017 +0200
+
+    Changing file permissions
+
+commit 4ac6046dcbde9b521de2a24e17ec375c6c7a160b
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Fri Apr 28 11:12:51 2017 +0200
+
+    Bump Version
+
+commit 418003097a1081d5b5263e7f6db8776ef53e89d7
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Fri Apr 28 11:11:08 2017 +0200
+
+    Last Mainsettings
+
+commit 039f160a5ad29582d39a7229e902d3bf97c60a27
+Author: Chris <apfelbaum@email.de>
+Date:   Thu Apr 27 18:46:13 2017 +0200
+
+    Update pow.h
+
+commit 1f3713a014c38a2202f3383034745d4fe21d6f33
+Author: Chris <apfelbaum@email.de>
+Date:   Thu Apr 27 18:45:50 2017 +0200
+
+    Update pow.cpp
+
+commit 4224b3136bee114baf9aae8c6e05256f26a25e63
+Author: Chris <apfelbaum@email.de>
+Date:   Thu Apr 27 18:24:08 2017 +0200
+
+    Small Fix
+
+commit 5b0c1d79900015aacfd4ce3fa7d52dc912d46fa1
+Author: Chris <apfelbaum@email.de>
+Date:   Thu Apr 27 17:08:23 2017 +0200
+
+    Update validation.cpp
+
+commit 0c86175cb0d133209074e684ec1ba3a91281c09b
+Author: Chris <apfelbaum@email.de>
+Date:   Thu Apr 27 17:04:58 2017 +0200
+
+    Update validation.cpp
+
+commit 5107fa96b8115ccb70df1a50c8459c43eee5fc2a
+Author: Chris <apfelbaum@email.de>
+Date:   Thu Apr 27 16:29:20 2017 +0200
+
+    Update pow.h
+
+commit 2a512d3ec34c78a9c9a100ce8b5d74d92ca11ad1
+Author: Chris <apfelbaum@email.de>
+Date:   Thu Apr 27 14:28:00 2017 +0200
+
+    Update pow.cpp
+
+commit 30b27ac99b377c1fb6b2c09905febb3c29bdb225
+Author: Chris <apfelbaum@email.de>
+Date:   Thu Apr 27 14:04:29 2017 +0200
+
+    for test
+
+commit 76571d8c815c7bbf9c0246cac8b1d1a33b4175cc
+Author: Chris <apfelbaum@email.de>
+Date:   Thu Apr 27 13:29:12 2017 +0200
+
+    Explain nPowTargetTimespan
+
+commit 6382a05c858b9cbeb855c199a0262c5e3aabdc50
+Author: Chris <apfelbaum@email.de>
+Date:   Thu Apr 27 10:54:19 2017 +0200
+
+    Setup for open testnet
+
+commit 334736811b4a59c83c2db1fe258d2bd0e67c49ca
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Wed Apr 26 20:33:17 2017 +0200
+
+    Bitcore.cc
+
+commit 97cb02e489353c9a49e0f1c33ef196b087ce447f
+Merge: 467b0cb acf556f
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Wed Apr 26 20:32:32 2017 +0200
+
+    Revert "Bitcore.cc"
+    
+    This reverts commit 467b0cbe9a30fff027062460b3186083c7f23a9e.
+
+commit 467b0cbe9a30fff027062460b3186083c7f23a9e
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Wed Apr 26 20:31:05 2017 +0200
+
+    Bitcore.cc
+
+commit acf556f0403b89e95d7f1c4e8afa29d9a3f1223c
+Author: Chris <apfelbaum@email.de>
+Date:   Wed Apr 26 20:26:00 2017 +0200
+
+    Update README.md
+
+commit 9cabdcd3c4b3d123af4f95f43daec2ca459abf52
+Author: Chris <apfelbaum@email.de>
+Date:   Wed Apr 26 20:19:48 2017 +0200
+
+    Update hashblock.h
+
+commit 391e83191b69fff4fab9d3329588e17c9dd5da33
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Wed Apr 26 19:28:07 2017 +0200
+
+    Last Fix
+
+commit 5cf12afed357ff3cb85ac48fd1a84fbf4ed90a47
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Wed Apr 26 07:51:01 2017 +0200
+
+    Changes
+
+commit 5c5d699c9d0ab1a9053bbdc7438e7cd25313f283
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Tue Apr 25 23:57:54 2017 +0200
+
+    Remove not used data
+
+commit f7c6d554d0e3519667c655dd63d232f2639804e0
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Mon Apr 24 23:08:38 2017 +0200
+
+    Port 8555
+
+commit 6ce98103f8eb1924285f96f6828901b48da55fcb
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Mon Apr 24 20:52:05 2017 +0530
+
+    Update chainparamsbase.cpp
+
+commit 8f2ff4de3a40c2c2acd5ea45f34ba2a0c1f1f7c7
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Mon Apr 24 18:56:35 2017 +0530
+
+    Update chainparamsseeds.h
+
+commit aeb357b8d1550731a6ee4bf9ca56e43cd943c640
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Mon Apr 24 18:42:24 2017 +0530
+
+    main net seeds
+
+commit 69d66a0a272845e672dac17276a1a8c05be4626f
+Author: Chris <apfelbaum@email.de>
+Date:   Mon Apr 24 14:53:03 2017 +0200
+
+    Human time (GMT): Tue, 25 Apr 2017 12:51:36 GMT
+
+commit cecbb162d4f97767589e8d4091fafb31489e02de
+Author: Chris <apfelbaum@email.de>
+Date:   Mon Apr 24 14:23:18 2017 +0200
+
+    First Checkpoint
+
+commit d1d15233df00f6b472d943b1bfd7a9e65c99373d
+Author: Chris <apfelbaum@email.de>
+Date:   Mon Apr 24 13:33:46 2017 +0200
+
+    Update net.cpp
+    
+    We previously would block waiting for a CSemaphoreGrant in
+    ThreadOpenAddedConnections, when we did not need to. This would
+    block as the posts in CConnman shutdown were both to the wrong
+    semaphore and in the wrong location.
+
+commit c20a91800c2ce3036f7039d61c96c44f7b541beb
+Author: Chris <apfelbaum@email.de>
+Date:   Mon Apr 24 13:11:53 2017 +0200
+
+    Change Port 8333 to 8555
+
+commit 65a68fd7a45b5bc2edd94998efd81343abb12eac
+Author: Chris <apfelbaum@email.de>
+Date:   Mon Apr 24 13:11:16 2017 +0200
+
+    Update chainparamsseeds.h
+
+commit d423637e7b41c915a21f0e8bf8b7f83eaee37899
+Author: Chris <apfelbaum@email.de>
+Date:   Mon Apr 24 11:09:18 2017 +0200
+
+    Update chainparamsseeds.h
+
+commit e17755f28467d4e73f7969c73e7aea015ac8c7b9
+Author: Chris <apfelbaum@email.de>
+Date:   Mon Apr 24 02:25:09 2017 +0200
+
+    Update block.cpp
+
+commit a96e971666cf104d8dd357ff2f11c1a5b6bcfe5b
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Mon Apr 24 02:11:33 2017 +0200
+
+    Initial
+    
+    BitCore 0.14
+
+commit d5c9bbd1e03c213bc3233d9e62417265dcb8c432
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Mon Apr 24 02:08:18 2017 +0200
+
+    :space_invader: Added .gitattributes & .gitignore files

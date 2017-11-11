@@ -1,0 +1,3097 @@
+commit 1b76cae397456600fcf05beeba8c143dc1bc86a3
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Tue Oct 31 18:25:04 2017 +0530
+
+    Changed Max Tip to 45 Minutes
+    -TODO: make the masternodelist resync depending upon the last shutdown, now last blocktime.
+
+commit 971c3c26a1249e75e93424a308e5c8d233fb764c
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Sun Oct 29 22:18:46 2017 +0530
+
+    Changed masternode active colour blue-> red
+
+commit bdbeaf0f06df29111156024d619b889b14973a63
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sat Oct 28 21:26:51 2017 +0200
+
+    New splash..
+
+commit 203b993e63e07e893a4d419b35ea9faf45d33099
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sat Oct 28 20:29:25 2017 +0200
+
+    Masternode Improvment
+
+commit 6142c1608a18a54ada60f84ffc992a7a19c72f29
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Wed Sep 27 00:14:10 2017 +0200
+
+    Change Copyright
+
+commit 1fc9478b89785b03fe5bf19b0849294c8a868d68
+Merge: 5928d57 c8a41c8
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Tue Sep 26 14:19:36 2017 +0530
+
+    Merge branch 'master' of https://github.com/limxtec/bitsend
+
+commit 5928d5755ffed30119a339b3de946e62719eaa1c
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Tue Sep 26 14:16:58 2017 +0530
+
+    [Spork]: read enforce value as string and cast as int
+
+commit c8a41c88096a4a0a97a9ea1117bc26432e2bfd73
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Mon Sep 18 13:19:12 2017 +0200
+
+    Change Copyright
+
+commit 09e416637cd1a4d4bc7d25f80f792bd158e570f7
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Mon Sep 18 13:12:24 2017 +0200
+
+    Change Website
+
+commit 07d4b1da5dd9ff216ba886da48c2826ef1939716
+Author: Chris <apfelbaum@email.de>
+Date:   Mon Sep 18 11:59:26 2017 +0200
+
+    Change Copyright
+
+commit 8ce594ddfa2acc7e0372d76cc00e9b7e6d75cd21
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sun Sep 17 21:52:08 2017 +0200
+
+    25KB -> 250KB
+
+commit 405c064dc509534991b20ca9b2b61c36cd412c5a
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sun Sep 17 21:14:11 2017 +0200
+
+    Update 0.14.0.3
+    
+    Remove Release Warning
+    Fix 250KB TX Limit
+    Add shortcut masternode.conf
+    Add shortcur bitsend.conf
+    Fixes on masternode Tab
+
+commit 341b0aee2116b15f890b73d5314d98c932d5400b
+Merge: f009caf d6dbeed
+Author: Chris <apfelbaum@email.de>
+Date:   Sun Sep 17 15:18:04 2017 +0200
+
+    Merge pull request #65 from laudaa/patch-1
+    
+    [Doc] Trivial
+
+commit d6dbeed70b0e34a13c9e47dba194e676badd54f3
+Author: Lauda <lauda.m@protonmail.ch>
+Date:   Sun Sep 17 14:21:58 2017 +0200
+
+    [Doc] Trivial
+    
+    Fix gzip error.
+
+commit f009caf4b8b35c2ee1b6bbd3e8ea5646542dab32
+Merge: 2caf615 1c24eff
+Author: Chris <apfelbaum@email.de>
+Date:   Wed Sep 13 20:52:48 2017 +0200
+
+    Merge pull request #64 from madzebra/macos-icon-fix
+    
+    change icon for Mac OS
+
+commit 2caf6154940be75ec19f8cecfc3fa7c24fb1e742
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Tue Sep 12 21:49:37 2017 +0530
+
+    [Qt:] showConf , show masternode.conf file.
+
+commit 1c24eff375840a52f9560d1a91112e17e9337cc8
+Author: madzera <madzebra@users.noreply.github.com>
+Date:   Sat Sep 9 19:02:43 2017 +0100
+
+    change icon for Mac OS
+
+commit 71ecd68b1b5883264b9b62767de6725cf861a274
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Sat Sep 9 20:27:28 2017 +0530
+
+    GUI: string warning
+
+commit 11fca9ff0d3bb18459f2453cca256d59e900218d
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Sat Sep 9 18:11:29 2017 +0530
+
+    bug fix in #432a406
+
+commit 85c6a1c9d1f1dbe3dcaacff95fe6772f94dc3e76
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Fri Sep 8 14:18:46 2017 +0530
+
+    fix port
+
+commit 01ce4a502477f9df090ca0b08d5dd1059f5a22e3
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Fri Sep 8 08:44:03 2017 +0530
+
+    [QT]: can also depend on masternode.conf
+
+commit 432a4069e36dcb497fc78babcca86a146ff4bbcb
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Fri Sep 8 08:01:18 2017 +0530
+
+    Masternode: parase masternode.conf
+
+commit 07c92db911ea2d45b269c5a769f0cb4aca04fa94
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Wed Sep 6 11:06:44 2017 +0530
+
+    Spell
+
+commit c0176e11d32ba61b6763418a14d213aea3c93bf4
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Wed Sep 6 10:54:28 2017 +0530
+
+    Clean-Up
+
+commit 29694bce7696cfe6840df100ec226c7cbbe12371
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Mon Sep 4 11:40:07 2017 +0530
+
+    GUI{ icons/about.png} & masternodelist comaand
+
+commit b5b9fdbe5f3bafe89f1091742e61f3a7ae034230
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Thu Aug 31 14:30:53 2017 +0530
+
+    Masternode:Strict with BlockChecked
+
+commit a89934280c21a33a1974951336d6325c7c889343
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Thu Aug 31 13:02:44 2017 +0530
+
+    Version
+
+commit af6fddbc19ed159cbd3a8c3e1d08041b4e487289
+Merge: 9efc338 4eed150
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Thu Aug 31 12:59:40 2017 +0530
+
+    Merge branch 'master' of https://github.com/limxtec/bitsend
+    
+    # Conflicts:
+    #       configure.ac
+
+commit 9efc338a11d5745f79a838b484d75efa9e252814
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Thu Aug 31 12:48:36 2017 +0530
+
+    version
+
+commit a92b2925d995d9a1f419ff791b0c941440e58086
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Thu Aug 31 12:46:33 2017 +0530
+
+    GUI: upgrade gui according to theme
+
+commit 4eed1501f03e305630aa5f2844c2cdcfc35061bf
+Author: Chris <apfelbaum@email.de>
+Date:   Tue Aug 29 07:57:17 2017 +0200
+
+    Update README.md
+
+commit cadeb9a8134fd7003ea5217249536742a806800b
+Author: Chris <apfelbaum@email.de>
+Date:   Tue Aug 29 07:55:22 2017 +0200
+
+    Update README.md
+
+commit f1d124ffba40d863f2e15195be4e51c6ded5898d
+Author: Chris <apfelbaum@email.de>
+Date:   Tue Aug 29 07:55:01 2017 +0200
+
+    Update README.md
+
+commit c61caa8addceb4e3528cd7d498c958d9e38be9bf
+Author: Chris <apfelbaum@email.de>
+Date:   Tue Aug 29 07:53:15 2017 +0200
+
+    Update clientversion.h
+
+commit 1d12a7a73ad45383719b3b68ad293b8e52ec60a2
+Author: Chris <apfelbaum@email.de>
+Date:   Tue Aug 29 07:52:26 2017 +0200
+
+    Update configure.ac
+
+commit 3607338c1c58061cd8e0e1393c38426844c5489c
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Tue Aug 29 08:05:24 2017 +0530
+
+    CleanUp and MASTERNODE performance
+
+commit 5d3b2af77201fee6a07934030a085a82ba3e5932
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Mon Aug 28 07:59:59 2017 +0530
+
+    Network: Invoke network by masternode enable.
+
+commit 34c0e5958a698078e5f90f6094df2e462cb6227c
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Mon Aug 28 07:58:37 2017 +0530
+
+    ISSUE#37:
+
+commit 57784dfa92043dccc2dfeeac18e39a6fa34d06fc
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Sat Aug 26 23:06:43 2017 +0530
+
+    validation: Compatibility with 1.2.7 version
+
+commit 9ee5d8fb85c39d9986bc3701b37a93310a697778
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Sat Aug 26 23:01:45 2017 +0530
+
+    MSG: Standardize and strict to messages
+    
+    Signed-off-by: joshafest <joshaf.est@gmail.com>
+
+commit 2647bb80c6e403261c1b4e9d14ef86c1361e64ad
+Merge: fa85ff2 31b9fdc
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Sat Aug 26 22:58:48 2017 +0530
+
+    Merge branch 'master' of https://github.com/limxtec/bitsend
+
+commit fa85ff245da1135538649828275ce24b0c7353c8
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Sat Aug 26 22:55:25 2017 +0530
+
+    Masternodes: removed version filter for fast response
+
+commit 31b9fdc667008cf67c8a1679a331aa4ce4e004d5
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Fri Aug 25 11:45:05 2017 +0530
+
+    Update configure.ac
+
+commit 1f5521ebc9f6f1285390da5e174aa76e8822c297
+Merge: 17513fa e219066
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Fri Aug 25 08:21:30 2017 +0530
+
+    Merge pull request #57 from dArkjON/patch-16
+    
+    Update build-masternode.md
+
+commit e21906647706ed07df4d1429594e17a0628a1531
+Author: Jon Durdel <info@darkjon.de>
+Date:   Thu Aug 24 22:55:11 2017 +0200
+
+    Update build-masternode.md
+    
+    remove old ref link also fix ppa
+
+commit 17513fab84dd2bf9da97857ea1d25c34eb720a81
+Merge: 9a649a1 b76a11f
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Thu Aug 24 19:49:19 2017 +0530
+
+    Merge pull request #56 from laudaa/patch-3
+    
+    Remove ref. link
+
+commit b76a11f6ae8bc012fec2c2f847d7ff74c4ca13c3
+Author: Lauda <lauda.m@protonmail.ch>
+Date:   Thu Aug 24 10:19:27 2017 +0200
+
+    Remove ref. link
+
+commit 9a649a16b3d1b25c4b3692622e7d2a5f486682a9
+Merge: b812c66 6e975b5
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Wed Aug 23 17:27:20 2017 +0530
+
+    Merge pull request #55 from dArkjON/master
+    
+    Master
+
+commit 6e975b5c611d581555f741d9113476cf948de46c
+Author: dArkjON <info@darkjon.de>
+Date:   Wed Aug 23 11:16:36 2017 +0200
+
+    fix
+
+commit fddb38859a603a81c4c6be554db68678ba90657f
+Author: dArkjON <info@darkjon.de>
+Date:   Wed Aug 23 10:56:29 2017 +0200
+
+    fix
+
+commit bced9ed76a42662aae739ea94624cbbe46e56254
+Merge: 231b610 b812c66
+Author: Jon Durdel <info@darkjon.de>
+Date:   Wed Aug 23 10:52:20 2017 +0200
+
+    Merge pull request #1 from LIMXTEC/master
+    
+    udate
+
+commit b812c668496fdd2593e2f823dc4d875d6eb27c31
+Merge: 82da5df de0eb1e
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Wed Aug 23 12:37:38 2017 +0530
+
+    Merge pull request #47 from dArkjON/patch-4
+    
+    link fix
+
+commit 82da5df8d108c3e105ead2917547ea96db282377
+Merge: 897e1ab af49977
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Wed Aug 23 12:36:46 2017 +0530
+
+    Merge pull request #46 from dArkjON/patch-3
+    
+    fix link
+
+commit 897e1ab72a58fe79956689c00ba24afefa897e00
+Merge: 7c682a2 d8d1e3e
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Wed Aug 23 12:01:17 2017 +0530
+
+    Merge pull request #45 from dArkjON/patch-2
+    
+    ppa fix
+
+commit 7c682a2b188e159641a79d0c66e30fe9862ac294
+Merge: e5b0d49 0f03eb0
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Wed Aug 23 11:59:23 2017 +0530
+
+    Merge pull request #44 from dArkjON/patch-1
+    
+    update ppa:bitcoin
+
+commit e5b0d4944354a242ff6bbeed6b19f93ca2e60058
+Merge: 231b610 50f4128
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Wed Aug 23 11:58:54 2017 +0530
+
+    Merge pull request #43 from cryptonit/patch-1
+    
+    Update build-ubuntu-1404.md
+
+commit de0eb1eaad73cf04f62513ff3bec27c0c2721fb8
+Author: Jon Durdel <info@darkjon.de>
+Date:   Tue Aug 22 17:24:31 2017 +0200
+
+    link fix
+
+commit af499771cc403447b9c0ae367ab8026b7706c140
+Author: Jon Durdel <info@darkjon.de>
+Date:   Tue Aug 22 17:23:21 2017 +0200
+
+    fix link
+
+commit d8d1e3ee1361fb8253f8d38d6002330979e3a48c
+Author: Jon Durdel <info@darkjon.de>
+Date:   Tue Aug 22 17:21:46 2017 +0200
+
+    ppa fix
+
+commit 0f03eb0c04134d1ab4cce54d88a162335f8005d0
+Author: Jon Durdel <info@darkjon.de>
+Date:   Tue Aug 22 17:16:02 2017 +0200
+
+    update ppa:bitcoin
+
+commit 50f4128b921439a4a68769eb988ce1fd0f98480b
+Author: Helmut Siedl <coin@siedl.priv.at>
+Date:   Tue Aug 22 17:00:32 2017 +0200
+
+    Update build-ubuntu-1404.md
+
+commit 231b6103cb6831ecec6b48625c0227f1f4e313e3
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Mon Aug 21 23:39:52 2017 +0530
+
+    BIP9_Switch: Don't relay on version bits blindly, check if we have ThresholdHeight
+
+commit 49004e5220699b9b8ed33790f0764fe9c6caa532
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Mon Aug 21 22:49:11 2017 +0530
+
+    BIP9: relay on version bits Deployment
+
+commit c55f2c9b63051409f39a1c535f02a3fb397f5811
+Merge: eaf534b d6dba45
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Mon Aug 21 21:57:58 2017 +0530
+
+    Merge branch 'master' of https://github.com/limxtec/bitsend
+
+commit eaf534b5a390c0139791fc05319b3c40ad1a2575
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Mon Aug 21 21:56:29 2017 +0530
+
+    -Chainparams
+    -makefile
+    -versionbits revert to old
+
+commit d6dba458731f26b3f2a4258aaec9f056a2d3a2f7
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Mon Aug 21 08:24:04 2017 +0200
+
+    Rename Files
+
+commit c889e208422faa09b7bb77a25d6b513af6b69edb
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Mon Aug 21 11:48:16 2017 +0530
+
+    VersionBits: Strict height test
+
+commit f0e4f924dc849358b91053948fd529595d4d20d5
+Merge: ca59286 0e7a0dc
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Mon Aug 21 11:45:21 2017 +0530
+
+    Merge branch 'master' of https://github.com/limxtec/bitsend
+
+commit ca5928689210bbf8c15172c86e5051669dac91c2
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Mon Aug 21 11:45:02 2017 +0530
+
+    Fix
+
+commit 0e7a0dc59b6bc15b9773dc5a22eef535d1b504b3
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Mon Aug 21 11:29:29 2017 +0530
+
+    Update main_tests.cpp
+
+commit 03fb580fbc75377574f470b441d9d4f43569ae2d
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Mon Aug 21 11:23:26 2017 +0530
+
+    test fix
+
+commit 5356818fd18a81b5bbbdfd8a4c20830f5c0d528f
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Mon Aug 21 07:46:01 2017 +0200
+
+    Rename File
+
+commit f7b3ab1fedc2932743f9b53ae7ce47f61ed860ce
+Author: Chris <apfelbaum@email.de>
+Date:   Sun Aug 20 20:56:54 2017 +0200
+
+    Update chainparams.cpp
+
+commit e671bec7b63703ac356ac87c4fe126897887cb84
+Author: Chris <apfelbaum@email.de>
+Date:   Sun Aug 20 20:49:24 2017 +0200
+
+    Update configure.ac
+
+commit ae70406069bd0a9c215231f76068a2cb69498868
+Author: Chris <apfelbaum@email.de>
+Date:   Sun Aug 20 20:48:59 2017 +0200
+
+    Cleanup  - Set build to not Release Version
+
+commit 7583eda2f07461be4d5cfb1416a2011ecfce6f53
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Mon Aug 21 00:08:35 2017 +0530
+
+    fix
+
+commit ea434cb1111d0c38ab0b95244ad81ee03677b13c
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Sun Aug 20 23:54:19 2017 +0530
+
+    validation: Add one more bitfield "Height"
+
+commit 9ddac07d9a0a7321d80a32224872447aaa2b9256
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Sun Aug 20 23:10:31 2017 +0530
+
+    test
+
+commit 179614946055982ec64412f9dfdfa0bfeec6d7bc
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Sun Aug 20 23:02:05 2017 +0530
+
+    BIP: strict to height only in versionbits.cpp
+    - set default hardening-no
+
+commit 0bb7167400543830ad2d377c4df980cd33820966
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Sat Aug 19 18:09:08 2017 +0530
+
+    Small Fix
+
+commit 80f399e144ef3f75f3ef33516de1c6ab0e30d987
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Sat Aug 19 18:05:34 2017 +0530
+
+    Warning
+
+commit 0568c5e1667925da8d12ed5bf33bc68ba1f18554
+Merge: e265ea8 641c6cd
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Sat Aug 19 18:00:06 2017 +0530
+
+    Merge branch 'master' of https://github.com/limxtec/bitsend
+    
+    # Conflicts:
+    #       src/main.cpp
+
+commit e265ea84efe4c06c6b0469d1ae91feeb35860204
+Merge: b9c7aad a9f1763
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Sat Aug 19 17:58:40 2017 +0530
+
+    Merge branch 'Bitsend-0.14'
+    
+    # Conflicts:
+    #       README.md
+    #       doc/build-masternode.md
+
+commit a9f17630629758da27e8e7033c525abf0bb93a4a
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Sat Aug 19 12:24:35 2017 +0530
+
+    CoinBase Maturity
+
+commit db135a4cf358b47088231447007bc2bd99df46b4
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Sat Aug 19 08:46:28 2017 +0530
+
+    Segwit: check after 354490 for test
+
+commit 2192d6b8317e817232ffefa2249e9447e6b6509f
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Sat Aug 19 08:30:00 2017 +0530
+
+    [GUI] changed arrow color
+
+commit e13c2959aa7b49fb7483707629d37fb2c3470837
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Sat Aug 19 08:10:20 2017 +0530
+
+    [Build]: A fix to -
+    -"syntax error near to unexpected token'fi' "
+
+commit 6850755206f97dbcadf2ccd4f16758bc26a3031c
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Sat Aug 19 00:01:43 2017 +0530
+
+    fix last commit
+
+commit 92d6c98b3cfb23abcfa86754df6f48794b9b6dfc
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Fri Aug 18 23:56:09 2017 +0530
+
+    [BUILD]
+
+commit 0c2c3204d5e4d2ae51825b8d89b1136d634b4c00
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Fri Aug 18 23:08:15 2017 +0530
+
+    [Pay2uID]: A way to pay to username or user ID instead of address
+    --alpha mode--
+
+commit 0b0c4c8616d45e3881737ca7ceba781db27bd510
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Fri Aug 18 23:05:29 2017 +0530
+
+    icon
+
+commit 4d23533acb27a3293a89bbda665db3472fe20270
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Fri Aug 18 22:59:26 2017 +0530
+
+    Security:
+
+commit 4dcfdf628cc8b4b8ef148136010eb155acdf4928
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Fri Aug 18 22:34:09 2017 +0530
+
+    Masternode:Some checks and clean ups
+
+commit 42263690479d38ba5a044eaca20b2218ef3a39cd
+Merge: 557906e 5aa8ff0
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Fri Aug 18 22:22:18 2017 +0530
+
+    Merge branch 'Bitsend-0.14' of https://github.com/limxtec/bitsend into Bitsend-0.14
+
+commit 557906e3bc4818b2407d011817676f2119c123ca
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Fri Aug 18 22:21:25 2017 +0530
+
+    [icon]
+
+commit ad5cceab7fa8bce2620559e8b201d1d92b310da7
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Fri Aug 18 22:12:23 2017 +0530
+
+    [Build] and [segwit] : segwit with current time when time can be adjusted
+
+commit 5aa8ff02cd9518af95230fe085075f070b3fa8c0
+Merge: 0a650d0 259b7c6
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Thu Aug 17 10:55:49 2017 +0530
+
+    Merge pull request #42 from laudaa/patch-2
+    
+    [Release Notes] Mention InstantX & DarkSend removal
+
+commit 259b7c69cd72c851821c1b8314a3ea1ec9690240
+Author: Lauda <lauda.m@protonmail.ch>
+Date:   Wed Aug 16 20:31:39 2017 +0200
+
+    [Release Notes] Mention InstantX & DarkSend removal
+
+commit 0a650d0f0f697918dbe43a6ad66deef384d270e8
+Merge: 5a2c822 aed4f69
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Wed Aug 16 06:32:40 2017 +0530
+
+    Merge pull request #41 from laudaa/patch-1
+    
+    [Release Notes] 0.14.0
+
+commit 5a2c822486687d39946300e36697be3e347683a6
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Tue Aug 15 09:19:44 2017 +0200
+
+    String Changes
+    
+    Bitcoin -> Bitsend
+    bitcoin -> bitsend
+    BTC -> BSD
+    Filename "bitcoin" ->*bitsend*
+
+commit aed4f69025e6027dab179a3d744229c077fbb525
+Author: Lauda <lauda.m@protonmail.ch>
+Date:   Mon Aug 14 23:18:32 2017 +0200
+
+    [Release Notes] 0.14.0
+    
+    I've compiled a list of the (what I believe to be) most notable changes going from 0.10.x to 0.14.0. There are way too many changes to completely include into a single file (and would likely push away most readers). Therefore, I have added a list of links to all release notes of earlier versions.
+    I think that the way that Segwit gets activated (what about the other soft forks?) should be mentioned before this gets merged.
+
+commit 79f68323d1e73b745c2b386f6eb900a86dff0f17
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Fri Aug 11 13:04:37 2017 +0530
+
+    Masternode: check masternodes before adding them to get paid.
+
+commit b6b709afa7831fe3b1c99524c277a0460f917555
+Merge: 8d2958c 4a538e0
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Wed Aug 9 16:27:26 2017 +0530
+
+    Merge branch 'Bitsend-0.14' of https://github.com/limxtec/bitsend into Bitsend-0.14
+
+commit 4a538e0e106d59dc9632701649ff89625ae3d10f
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Wed Aug 9 12:53:12 2017 +0200
+
+    Fix Css Syle
+
+commit 641c6cdd9840e6867c909ddd3cb20d4b3818da74
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Wed Aug 9 12:47:40 2017 +0200
+
+    Revert "Fix Css Style"
+    
+    This reverts commit 753ff835978adb8aa5a997804d8b7fe1ecaa60f6.
+
+commit 753ff835978adb8aa5a997804d8b7fe1ecaa60f6
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Wed Aug 9 12:45:56 2017 +0200
+
+    Fix Css Style
+
+commit 8d2958cb669f72b2abb52bb34f5e5ccb3662083e
+Merge: 146d70f 406e964
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Tue Aug 8 14:46:41 2017 +0530
+
+    Merge branch 'Bitsend-0.14' of https://github.com/limxtec/bitsend into Bitsend-0.14
+
+commit 146d70f7f1d931eb44850051a6696db3989be2ae
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Tue Aug 8 14:46:02 2017 +0530
+
+    [GUI]: old SplashScreen
+    
+    Signed-off-by: joshafest <joshaf.est@gmail.com>
+
+commit 406e964349e2f81dac21a176180af41741c861b1
+Author: Chris <apfelbaum@email.de>
+Date:   Mon Aug 7 15:47:02 2017 +0200
+
+    Update chainparams.cpp
+
+commit a0247f19116cb812b3950442c89b821c2f06cd52
+Merge: 254e711 f202f1f
+Author: Chris <apfelbaum@email.de>
+Date:   Mon Aug 7 15:38:41 2017 +0200
+
+    Merge pull request #40 from laudaa/patch-1
+    
+    [0.14.0] Update deployment time
+
+commit f202f1f19ae4d6d128855a1fa791ae99d46bfa1c
+Author: Lauda <lauda.m@protonmail.ch>
+Date:   Mon Aug 7 13:16:35 2017 +0200
+
+    Update deployment time to October
+
+commit 257de63123d765de18626a8da88b4be224a28e74
+Author: Lauda <lauda.m@protonmail.ch>
+Date:   Mon Aug 7 12:49:39 2017 +0200
+
+    [0.14.0] Update deployment time
+
+commit 254e7117a4a465b0912dd41c0f844ee1dda1e4d6
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Mon Aug 7 13:24:53 2017 +0530
+
+    MSG: Added masternode winner msg string
+
+commit 2369f777f556a09dbd1d50c2500f3708aa40dda5
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sun Aug 6 19:34:02 2017 +0200
+
+    Commit
+
+commit 79080bde17a56524883d0eb6c91383c55bc23519
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Fri Aug 4 10:31:23 2017 +0530
+
+    [GUI]: icons, name and some strings
+
+commit c16d14f7e8907622f7c2f2045da8c50bf6338fb5
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Fri Aug 4 10:20:40 2017 +0530
+
+    POW: to compare uint64 and int64
+
+commit d08e24e3c67e3a38838b9015ef4da9ac39916b34
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Wed Aug 2 22:42:35 2017 +0530
+
+    [GUI] css/bitsend_main.css
+
+commit d06b71b43d22c46dce0a04bbeb06c8f6ba6daaef
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Wed Aug 2 10:41:42 2017 +0530
+
+    some fixes
+
+commit b56b80861b93e7bb481e92838cf620198e2a372c
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Tue Jul 25 21:22:17 2017 +0530
+
+    pow: include header
+
+commit 5c3b7b84c9ed7d50dbc95e6e54390d7cd7f876a4
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Mon Jul 24 21:34:57 2017 +0530
+
+    fix CONFLICT
+
+commit 4c413068fe36b2f0c7fd5fd3e2eb8e612ed4daf3
+Merge: 31b2074 ad45f2e
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Mon Jul 24 21:31:32 2017 +0530
+
+    Merge branch 'Bitsend-0.14' of https://github.com/limxtec/bitsend into Bitsend-0.14
+    
+    # Conflicts:
+    #       src/validation.cpp
+
+commit 31b2074c515e3ca660eafbbfbd5590317e949f8d
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Mon Jul 24 21:18:34 2017 +0530
+
+    POW: on check, relay on checkpoints untill 240k
+
+commit ad45f2ee84de382a848d05fc9921fdcf955a4501
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Mon Jul 24 21:18:34 2017 +0530
+
+    POW: on check, relay on checkpoints untill 96k
+
+commit 7eaf1c820ee935544b5f0e78be6d1667756ca7a4
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Sat Jul 22 09:22:44 2017 +0530
+
+    RPC: masternode mining template upgrade
+
+commit 0dbfafea01950a7e515be32e619e6d8b935fbceb
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Sat Jul 22 08:22:54 2017 +0530
+
+    --Second Milestone----
+    RPC: added masternode mining commands
+
+commit 779a3865970940a4cb5842a1501a9d1778bae438
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Sat Jul 22 08:16:35 2017 +0530
+
+    [qt] gui:Upgrade qt
+
+commit 6fff3821cd6c98c5ecd122554617fef718394f55
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Fri Jul 14 21:53:34 2017 +0530
+
+    masternode: System improvement
+    validation: specify
+    CAmount: max money
+    Makefile: just like old times
+
+commit 646a84ce6485b8ccd08f91a6ad7039e7e29cbea8
+Author: Chris <apfelbaum@email.de>
+Date:   Sat Jul 8 20:59:06 2017 +0200
+
+    Update main.cpp
+
+commit 158f9885e7d7d15e84630ac40c0d2e632628821a
+Author: Chris <apfelbaum@email.de>
+Date:   Sat Jul 8 20:48:23 2017 +0200
+
+    double #define fizz()
+
+commit 14acf23ea62a1f9fd0c7d5bc8c0adf25e082ed4a
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Mon Jul 3 13:09:44 2017 +0530
+
+    validation: reward fix
+
+commit dafde8da0ca617f277076277e172fedf1b08272d
+Merge: f85d01a a6ca00f
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Mon Jul 3 09:39:22 2017 +0530
+
+    Merge branch 'Bitsend-0.14' of https://github.com/limxtec/bitsend into Bitsend-0.14
+
+commit f85d01a8ec4d7586a64a42bc55a0d73bec68eb61
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Sun Jul 2 19:37:58 2017 +0530
+
+    validation: onn IsInitialBlockDownload
+
+commit a6ca00f7eeb26ab6395bd50d2d7543f642565d0b
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Wed Jun 28 08:59:31 2017 +0200
+
+    Fix Univalue Mingw Compiling
+
+commit 080e42298e6c222ad7914f1c7ead9993b83c9c5f
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Sun Jul 2 00:41:06 2017 +0530
+
+    removed test blockvalue
+
+commit 92fd606fcb3cdf74da53059a43edabbfa6d2887e
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Sat Jul 1 15:27:32 2017 +0530
+
+    masternode: remove address connect test for testing
+
+commit 8ee8d08dd68447b66dc303c4677450a63fbd6950
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Sat Jul 1 15:26:09 2017 +0530
+
+    rpc: test masternode rpc commands(only two, genkey and start)
+
+commit 6f1349c9743d0866a7b2529431b1ef3059a32fa9
+Merge: 721079b ffc7b00
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Wed Jun 28 12:45:00 2017 +0530
+
+    Merge branch 'Bitsend-0.14' of https://github.com/limxtec/bitsend into Bitsend-0.14
+
+commit 721079b7dcc82efca35e98adabbc6c0269845329
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Wed Jun 28 12:42:45 2017 +0530
+
+    fixed declaration
+
+commit ffc7b001c0e23eec632aeef8733d8e07a23755a4
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Wed Jun 28 08:24:55 2017 +0200
+
+    Univalue.h
+
+commit ae26f1cee89d9700a1f765567db1fac68226a3ad
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Mon Jun 26 10:54:35 2017 +0530
+
+    updated signhelper_mn.h
+    that was ignored
+
+commit e0a95e1515aba47ebac75e3784b917b10849861e
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Sun Jun 25 20:45:21 2017 +0530
+
+    added contrib and consensus
+
+commit 0304736f52526e85c5130c6a151decc10ebd2bab
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Sun Jun 25 20:31:50 2017 +0530
+
+    added doc
+
+commit bb811a96585d7614750d58dc8deeb1580b682aff
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Sat Jun 24 23:30:50 2017 +0530
+
+    Miner rewards with masternode
+
+commit af831639f5995c430af5a9dfd417c53ac5c8b7f5
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Tue Jun 20 18:15:44 2017 +0530
+
+    fixed build
+
+commit 67f60bdd5c91f9ce0f4a9b5c90ca78db43a056b4
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Fri Jun 16 22:13:11 2017 +0530
+
+    update masternode sysytem
+
+commit d22e5a560584e0c635fb17a9147a2bff1c8bbc02
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Mon Jun 12 22:38:49 2017 +0530
+
+    remove darksend
+    -try without darkpool
+
+commit bf0cc5ab882335d2d4283f6254d8d6f804753bfc
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Wed May 10 18:26:26 2017 +0530
+
+    First Milestone reached
+
+commit 29c18a418f2c2a8ca300bbc12824589b6338c906
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Wed May 10 18:23:15 2017 +0530
+
+    upgrade
+
+commit 026beb2f78a188c2b1cf1626364309c8dd268677
+Author: Chris <apfelbaum@email.de>
+Date:   Fri Apr 21 09:19:22 2017 +0200
+
+    Create Forkview.txt
+
+commit f66bd2e502591a6092382ac9d1b4ab24c6c0eb3b
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Tue Apr 11 21:33:50 2017 +0530
+
+    update modle
+    -near to milestone, but not reached yet.
+
+commit 797891ce899a03a8e32332fed57e1cd643adab27
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Mon Apr 10 23:45:04 2017 +0530
+
+    Moving classes as in Bitcoin
+    -ipv6
+    -onetry connect with open network
+    -estimate fees
+    -remove client function
+    -add nLocalServices
+    -remove getwork
+    -priortisetransaction<txid>
+    -datacarrier
+    prevent easy Rpc memory exhaust
+
+commit ce68cab8732303b84712037cdc6ec5bd4c4dfd49
+Merge: 94ecef7 60b553a
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Wed Apr 5 12:48:30 2017 +0530
+
+    Merge remote-tracking branch 'remotes/origin/Bitsend-0.14' into Bitsend-0.14
+
+commit 94ecef7aae874e0ff0b0a79d4fa8feb230d18196
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Wed Apr 5 12:45:49 2017 +0530
+
+    some problem
+
+commit 8250d3ec8dae04df772d260b7a7cd290add396e9
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Wed Apr 5 12:40:27 2017 +0530
+
+    some more main update
+
+commit 60b553abdb2adc5e3f261de44a72a85b862591e8
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Tue Apr 4 22:42:26 2017 +0530
+
+    Update README.md
+
+commit 73366882e80272b8f6bbc72cb8df19ff257bd8a5
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Tue Apr 4 22:38:45 2017 +0530
+
+    setled down for new update
+
+commit 6d3a24bd91340303bfb492750bc5a8d13120d83c
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Tue Apr 4 22:27:31 2017 +0530
+
+    setling down to new update
+
+commit b9c7aad1a6be2e20850d6d5b683d88d404de7cc6
+Author: LIMX-SUPPORT <contact@limx.eu>
+Date:   Sun Apr 2 17:43:06 2017 +0200
+
+    Update build-masternode.md
+
+commit f0e8ad95beac74e001c35f6a3974ca8ef9fe4bec
+Author: LIMX-SUPPORT <contact@limx.eu>
+Date:   Sun Apr 2 17:25:58 2017 +0200
+
+    Update build-masternode.md
+
+commit d718be5f6c844d21f9c314900b913d0f1c432221
+Merge: 8bb2392 086abc1
+Author: Chris <apfelbaum@email.de>
+Date:   Sat Apr 1 23:45:34 2017 +0200
+
+    Merge pull request #36 from laudaa/master
+    
+    [doc] Move most recent release notes & Correct current Version
+
+commit 086abc188dadf6524a5dab5f56eb22d1636e444b
+Author: laudaa <lauda.m@protonmail.ch>
+Date:   Sat Apr 1 22:48:23 2017 +0200
+
+    [doc] Move most recent release notes & Correct current Version
+
+commit 79e0a20da13c80a704783c269c305549eee75206
+Merge: 7022014 8bb2392
+Author: Chris <apfelbaum@email.de>
+Date:   Fri Mar 31 19:36:14 2017 +0200
+
+    Merge pull request #34 from LIMXTEC/master
+    
+    Patch for 0.14 build.
+
+commit 8bb2392a6aeb17df1a4ea81722fe84def4ade53a
+Merge: 8c59f10 3ce69cb
+Author: Chris <apfelbaum@email.de>
+Date:   Thu Mar 30 21:21:45 2017 +0200
+
+    Merge pull request #33 from madzebra/pixmaps-dash-pics
+    
+    [pixmaps] removed old dash pics
+
+commit 3ce69cb941093573b9b4fa249e55a2c26ed915d6
+Author: madzera <madzebra@users.noreply.github.com>
+Date:   Thu Mar 30 19:58:35 2017 +0100
+
+    [pixmaps] removed old dash pics
+
+commit 8c59f10358ef71b9537baca12b88699eaa06df05
+Merge: 7022014 e94119e
+Author: Chris <apfelbaum@email.de>
+Date:   Thu Mar 30 20:46:31 2017 +0200
+
+    Merge pull request #32 from madzebra/fixes-for-deployment
+    
+    fixes for mac format (.dmg), debian/ubuntu (.deb) deployment
+
+commit e94119efe548274a5ff8a272a9059bed26f4ec49
+Author: madzera <madzebra@users.noreply.github.com>
+Date:   Thu Mar 30 18:23:45 2017 +0100
+
+    fixes for mac format (.dmg), debian/ubuntu (.deb) deployment
+    
+    pixmaps fixes are for .deb deployment
+
+commit 70220141724d79109c0cff3ff83d0ac7b5e8e734
+Author: Chris <apfelbaum@email.de>
+Date:   Thu Mar 30 11:40:51 2017 +0200
+
+    Update and rename dash-qt.pro to bitsend-qt.pro
+
+commit 3c1b10efc99052771b2447085dfa3e8cec7ebf34
+Merge: e6674e7 82babac
+Author: Chris <apfelbaum@email.de>
+Date:   Thu Mar 30 11:39:15 2017 +0200
+
+    Merge pull request #30 from laudaa/master
+    
+    Remove obsolete file & improve README.md
+
+commit 82babac4deeb8c60dcb51698a77e5b6715b6dd0c
+Author: Lauda <lauda.m@protonmail.ch>
+Date:   Thu Mar 30 02:51:01 2017 +0200
+
+    Adjust link to the new thread
+
+commit 7dbe1705073e4456e237ce5b1349b773db47af4c
+Author: Lauda <lauda.m@protonmail.ch>
+Date:   Thu Mar 30 02:47:02 2017 +0200
+
+    Typo 5000 -> 25000
+
+commit 6acda7520386c5ea4031c23360c4cae0e8b7d3a6
+Author: laudaa <lauda.m@protonmail.ch>
+Date:   Thu Mar 30 02:34:50 2017 +0200
+
+    [doc] Several improvements
+    
+    Further improvements are required for other files.
+
+commit 88517ee89bfe43c61c1997ed7da2b3f06b6af35b
+Author: laudaa <lauda.m@protonmail.ch>
+Date:   Thu Mar 30 02:17:28 2017 +0200
+
+    Improve README.md
+    
+    This improves the README.md and moves the copyright into the appropriate
+    file.
+
+commit aa7dbd81626b69d8cf77af5b04c6f4646bda40df
+Author: laudaa <lauda.m@protonmail.ch>
+Date:   Thu Mar 30 01:54:55 2017 +0200
+
+    Remove obsolete file.
+    
+    From what I can tell, this file is not required anywhere and contains
+    some old references to Bitcoin and DASH.
+
+commit e6674e793f212626f7e7441e0a3b22c2f7d9b552
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Wed Mar 29 15:49:54 2017 +0200
+
+    Improvment LiquidityProvider
+
+commit e4f916f8f818d27e9bdc2fcbc930dc0695e0ace0
+Merge: 58decc4 63ec087
+Author: Chris <apfelbaum@email.de>
+Date:   Wed Mar 29 14:53:22 2017 +0200
+
+    Merge pull request #29 from laudaa/patch-3
+    
+    [doc] Update doxyfile
+
+commit 58decc4bc987521fc1e47983fb1c7c1d7bebde53
+Merge: 5092372 bceeea8
+Author: Chris <apfelbaum@email.de>
+Date:   Wed Mar 29 14:53:14 2017 +0200
+
+    Merge pull request #28 from laudaa/patch-2
+    
+    [doc] Fix coins required for a masternode
+
+commit 50923724264fb09ccab49ab679d08968b51fcccf
+Merge: e74b890 f13ff01
+Author: Chris <apfelbaum@email.de>
+Date:   Wed Mar 29 14:53:05 2017 +0200
+
+    Merge pull request #27 from laudaa/patch-1
+    
+    Correct second link in README.md
+
+commit 63ec08742e814c5a4a56b6b5387e8d8588796c7d
+Author: Lauda <lauda.m@protonmail.ch>
+Date:   Wed Mar 29 01:40:53 2017 +0200
+
+    [doc] Update doxyfile
+
+commit bceeea8e9230485e49f082fd68757b407cee3100
+Author: Lauda <lauda.m@protonmail.ch>
+Date:   Wed Mar 29 01:39:18 2017 +0200
+
+    [doc] Fix coins required for a masternode
+
+commit f13ff0137401d67c7a80c24514082711b5ab1a9a
+Author: Lauda <lauda.m@protonmail.ch>
+Date:   Tue Mar 28 23:46:58 2017 +0200
+
+    Correct second link in README.md
+
+commit e74b8900c76579ad069ed14b8866562d5d9f1572
+Merge: 3b93009 87ae05e
+Author: Chris <apfelbaum@email.de>
+Date:   Tue Mar 28 20:06:12 2017 +0200
+
+    Merge pull request #26 from laudaa/master
+    
+    Structural improvements to repository
+
+commit 87ae05e5b15fac4de0a52d96f98d3694505a5202
+Author: laudaa <lauda.m@protonmail.ch>
+Date:   Tue Mar 28 01:15:48 2017 +0200
+
+    Removes the img folder completely
+    
+    This folder contains information about bootstrapping Bitcoin Core. This
+    has been generally not recommended since v0.10.0 (see here
+    https://bitcoin.org/en/release/v0.10.0), as syncing via client is
+    faster.
+    
+    This removal shouldn't cause any issues elsewhere hopefully?
+
+commit 898b16628c2b8fc865f73ccf01c70ff0a6e71f39
+Author: laudaa <lauda.m@protonmail.ch>
+Date:   Tue Mar 28 01:11:47 2017 +0200
+
+    Make filetype consistent && fill in release notes
+
+commit 4feb08bb2d4d23a50339a99d1e937a3e0d7dc3dc
+Author: laudaa <lauda.m@protonmail.ch>
+Date:   Tue Mar 28 01:10:29 2017 +0200
+
+    Removed obsolete files
+
+commit 3b930097d7f0bc4dd2ddb111c645e7d88aec1eea
+Merge: 979df79 2416c13
+Author: Chris <apfelbaum@email.de>
+Date:   Tue Mar 28 00:47:47 2017 +0200
+
+    Merge pull request #25 from laudaa/master
+    
+    Move all (excluding the last) release notes out of README.md into separate files
+
+commit 2416c130622eecb5fe94ad0b41f0d4efdb37b01c
+Author: laudaa <lauda.m@protonmail.ch>
+Date:   Tue Mar 28 00:38:54 2017 +0200
+
+    Remove missed notes from Readme
+    
+    This leaves only the last notes in the README.md.
+
+commit 7f8cdc52db907fd78f19c7a9cd633bb7dda08644
+Author: laudaa <lauda.m@protonmail.ch>
+Date:   Tue Mar 28 00:36:50 2017 +0200
+
+    Move remaining release notes into docs & Readme corrections
+    
+    This pull request moves the release notes into their own files. It also
+    leaves the notes from the last version (should you prefer it this way)
+    in the README.md
+    
+    Also, minor typo corrections in README.md
+
+commit 979df7910611aa2f2252eaba2e3cae1be6fe247e
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Tue Mar 28 00:32:07 2017 +0200
+
+    Not used
+
+commit 830684dce6dd541267faf96adc85ea22fd579ad3
+Author: laudaa <lauda.m@protonmail.ch>
+Date:   Tue Mar 28 00:11:57 2017 +0200
+
+    Move Release notes  (0.11.2) from Readme into proper file
+    
+    This also removes the duplicate entry for 0.11.1 as it already exists
+    within its own file. There is more work to be done here.
+    IMHO release notes should not (!) be part of the Readme.md.
+
+commit 30c8b58ad7f5ad7581269de85a60eaec4670f209
+Merge: b1ac8b2 2666e54
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Tue Mar 21 21:04:44 2017 +0100
+
+    Merge pull request #23 from dArkjON/patch-5
+    
+    Update INSTALL
+
+commit b1ac8b222594e8dbf1caf9c62733e1b1da5503d2
+Merge: fe4347a 89bdd75
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Tue Mar 21 21:04:35 2017 +0100
+
+    Merge pull request #22 from dArkjON/patch-4
+    
+    Update README.md
+
+commit fe4347a4bc305642d27a735953f83c17dcd56886
+Merge: ce02735 384d913
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Tue Mar 21 21:04:27 2017 +0100
+
+    Merge pull request #21 from dArkjON/patch-3
+    
+    Create build-ubuntu-1404.md
+
+commit 2666e54cc24a9c3a16755b363a530434363c8371
+Author: Jon Durdel <info@darkjon.de>
+Date:   Tue Mar 21 09:40:51 2017 +0100
+
+    Update INSTALL
+
+commit 89bdd752d0755696f69e5c501df35286027d3dc5
+Author: Jon Durdel <info@darkjon.de>
+Date:   Tue Mar 21 09:40:03 2017 +0100
+
+    Update README.md
+
+commit 384d913d73d4dd8834d284bc9ecfc40a9979c19e
+Author: Jon Durdel <info@darkjon.de>
+Date:   Tue Mar 21 09:30:31 2017 +0100
+
+    Create build-ubuntu-1404.md
+
+commit ce0273545e02c302be40706e614b63059957c26d
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Tue Mar 21 00:43:01 2017 +0100
+
+    getblocktemplate fix
+
+commit 38bb76013300715e64043ca36529a5a73c9ab3e0
+Merge: cb5d2e5 974e5e1
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Fri Mar 17 13:00:08 2017 +0100
+
+    Merge pull request #19 from dArkjON/patch-1
+    
+    Update README.md
+
+commit cb5d2e5bd606311ea76cb8f2be9f53433b859b20
+Merge: 650fc88 a208f38
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Fri Mar 17 12:59:52 2017 +0100
+
+    Merge pull request #20 from dArkjON/patch-2
+    
+    Update INSTALL
+
+commit a208f385962522eb66cfe30366f72224d463c884
+Author: Jon Durdel <info@darkjon.de>
+Date:   Fri Mar 17 11:51:09 2017 +0100
+
+    Update INSTALL
+
+commit 974e5e10359dc6347578ba7e623e7c333791ed45
+Author: Jon Durdel <info@darkjon.de>
+Date:   Fri Mar 17 11:49:16 2017 +0100
+
+    Update README.md
+
+commit 650fc88590c21df527de857263e0bcfbb8640bf1
+Merge: 9fe3654 1667197
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Wed Mar 15 21:56:24 2017 +0100
+
+    Merge pull request #17 from madzebra/shrink-debug-file-interval
+    
+    New feature allows to shrink debug file periodically
+
+commit 16671977039a5de9c3964954f4a29d0f9b6e2e4d
+Author: madzera <madzebra@users.noreply.github.com>
+Date:   Wed Mar 15 18:10:33 2017 +0000
+
+    shrinkdebuginterval: changed default value
+
+commit d199f35c3994102274370e00a42cb01f14b3f9fc
+Author: madzera <madzebra@users.noreply.github.com>
+Date:   Wed Mar 15 11:40:57 2017 +0000
+
+    New feature allows to shrink debug file periodically
+
+commit 9fe36547e34824958fcd71017aefa630d4ead33f
+Merge: 94ade15 4eff3a2
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Tue Mar 14 21:33:02 2017 +0100
+
+    Merge pull request #16 from LIMXTEC/Test
+    
+    Ping automatically every 2 minutes (unconditionally)
+
+commit 4eff3a28059771b9b6cda7e1cec86b0d6e955faf
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Tue Mar 14 21:14:04 2017 +0100
+
+    Ping automatically every 2 minutes (unconditionally)
+    
+    ... instead of after 30 minutes of no sending, for latency measurement
+    and keep-alive. Also, disconnect if no reply arrives within 20 minutes,
+    instead of 90 of inactivity (for peers supporting the 'pong' message).
+
+commit 94ade155d782b3b69179e04bb02eca92648ab2eb
+Merge: 814265b 328ab17
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Mon Mar 13 00:35:25 2017 +0100
+
+    Merge pull request #14 from LIMXTEC/Test
+    
+    Add peertab Version 1
+
+commit 328ab1740eb0e473361498ee785e4ce771dce47d
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sun Mar 12 23:28:50 2017 +0100
+
+    Revert "Second Update peerlist"
+    
+    This reverts commit 52808fc2099ae40f1acbc957e1ee4d8adaf8c215.
+
+commit 52808fc2099ae40f1acbc957e1ee4d8adaf8c215
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sat Mar 11 23:23:01 2017 +0100
+
+    Second Update peerlist
+
+commit 73068e6ef367105ca919ba78d2cb1790f6fafae8
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Thu Mar 9 22:41:40 2017 +0100
+
+    First update Peerlist
+
+commit 814265b43f1d95de45c8e5ccdedde6bfa223e2e8
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Wed Mar 8 20:55:39 2017 +0100
+
+    Add some hard nodes
+
+commit 3bd0a26a64c16cb6df002c4bb2cf862ab7ad124d
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Wed Mar 8 20:51:40 2017 +0100
+
+    Changes
+
+commit 617f728822cbe517bfb60f9c65a383fa8c3fabfb
+Merge: cb581e0 f8a318e
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Wed Mar 8 20:38:48 2017 +0100
+
+    Merge remote-tracking branch 'origin/master'
+    
+    # Conflicts:
+    #       configure.ac
+    #       src/clientversion.h
+    #       src/main.cpp
+
+commit cb581e044680533f7bdb61ff17e879083b5ebaec
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Wed Mar 8 20:35:36 2017 +0100
+
+    Small Changes and Checkpoints
+    
+    - COPYRIGHT_YEAR 2017
+    - Small Changes Bitsend Splash and Paperwallet
+    - Security Update MAX Coin
+    - Add checkpoints
+    - Add new nodes
+
+commit f8a318ececb728f2eb5765f1ae4ebf1e9c9fb875
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Wed Nov 30 12:52:44 2016 +0100
+
+    Update version.h
+
+commit 55a2bf2a05c110dd170ad8885acd6a7d57650fdc
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sun Nov 27 18:12:02 2016 +0100
+
+    Update main.cpp
+
+commit 3096b97160b971292dedc9fac6dcfbdc0e6f44d5
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sat Nov 19 20:27:33 2016 +0100
+
+    Update version.h
+
+commit 1f2acde92a78a3d532520c4b12a2917e65bac208
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sat Nov 19 20:27:12 2016 +0100
+
+    Update clientversion.h
+
+commit f7b21cdbaf59de45042bd061c6826c45e06d14ec
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sat Nov 19 20:26:51 2016 +0100
+
+    Update configure.ac
+
+commit 39d7ebce9da4d68c0baed0d8451f172ddb53dbf2
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sat Nov 19 20:26:31 2016 +0100
+
+    Fix
+
+commit d06e6d6db4164036b1093f5f910414ee8bf05bc5
+Merge: 2f0bc13 32cad7e
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Sun Nov 6 07:27:05 2016 +0530
+
+    Merge pull request #12 from bumbacoin/patch-1
+    
+    Update macdeployqtplus
+
+commit 32cad7e13a861d59c1f6e38ae8fb56179f94317a
+Author: bumbacoin <bumbacoin@gmail.com>
+Date:   Sat Nov 5 21:58:26 2016 +0800
+
+    Update macdeployqtplus
+
+commit 2f0bc131745791e9cd8c69555acedbfdb0055636
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Fri Nov 4 23:16:46 2016 +0100
+
+    Source Cleanup
+
+commit 1bb7c7f7fbe90b0c378183012658e01c233f62f2
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Fri Nov 4 23:00:48 2016 +0100
+
+    Revert "Changes 2"
+    
+    This reverts commit 154e17275ea10fd74f2613c0455c7a0a9fdce1ae.
+
+commit 154e17275ea10fd74f2613c0455c7a0a9fdce1ae
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Fri Nov 4 22:57:39 2016 +0100
+
+    Changes 2
+
+commit 3e98ff8588fd94514fed24497f622336094b46eb
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Fri Nov 4 22:34:07 2016 +0100
+
+    Changes
+
+commit cb4b075f6b01ba38058e3e57eb2ffeccfb7f4899
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Fri Nov 4 12:55:22 2016 +0100
+
+    New Version
+
+commit 7df88c988ff6d3cf32136278dbd98edb9ce30a86
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Fri Nov 4 12:55:01 2016 +0100
+
+    New Version 1.2.5
+
+commit 32be80312bf70a988aafe92866ec3a75851db4a3
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Fri Nov 4 12:54:22 2016 +0100
+
+    New Version
+
+commit e35d51df1f2d875ca4c10d96217e234412896484
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Fri Nov 4 12:52:51 2016 +0100
+
+    Source Cleanup
+
+commit be7783f859567ef05366983a485063e97c67f11b
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Thu Oct 20 18:14:48 2016 +0200
+
+    Update README.md
+
+commit e301f813ce8f04918039cce2215b02980f584c91
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Thu Oct 20 18:14:36 2016 +0200
+
+    Update README.md
+
+commit 79f8bc8a5d83055c09ed1ca8037ff15695e8187f
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Thu Oct 20 18:14:04 2016 +0200
+
+    Update README.md
+
+commit d4c3cf7141bf0570d3ce69794af5d4dea70b226b
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Thu Oct 20 18:11:26 2016 +0200
+
+    Update README.md
+
+commit 96a3b44f289931961246fcfd7d0589935a10f788
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Thu Oct 20 18:11:07 2016 +0200
+
+    Update README.md
+
+commit a74593b29042dda7505dfcc423730eb947d60523
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Wed Oct 19 22:53:41 2016 +0200
+
+    Bumb Version
+
+commit 3b64f2e657d3029384dcfc88c1b1884ea63376db
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Thu Oct 13 23:33:44 2016 +0200
+
+    Bumo Version
+
+commit d6c448b72c3cce5d8ddad4a31c7bf82f54d9856f
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Thu Oct 13 23:32:43 2016 +0200
+
+    Update clientversion.h
+
+commit 2371f088651e75285de087a614a6238055f850f1
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Thu Oct 13 23:31:52 2016 +0200
+
+    Version Bump
+
+commit 2422f0ab431e814cbb74ee2ae2534ff5482cb9e4
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Thu Oct 13 23:31:01 2016 +0200
+
+    Improvement
+
+commit 7293ba72e24302fb1a17a3d4df4b09d141bf7d51
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sat Oct 8 09:23:17 2016 +0200
+
+    Changes GetBlocksToMaturity
+
+commit 2cfc572dd4b34fdd73059772a3ad5b17b65ad939
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sat Oct 8 09:03:28 2016 +0200
+
+    Qt Fix for COINBASE_MATURITYFROKK
+
+commit 92480c217a6721e390f60de5a527711a0b18ac08
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Fri Oct 7 21:03:10 2016 +0200
+
+    Mac Image Update
+
+commit ad20b18e3ab83f87ca6a8ed6f66550575fc0d7f6
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Fri Oct 7 14:50:51 2016 +0200
+
+    New Switchtime
+    
+    (UTC) 1452384000  11/01/2016 @ 12:00am (UTC)
+
+commit 502eae8fc0eefa0dcbb73d0e1c08f35e7187ac8d
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Fri Oct 7 14:46:56 2016 +0200
+
+    Update 1.1.9.9.
+    
+    - Algos switch improvment
+    - new protocol version
+    - remove Algo X17+ and added Xevan Algo
+    - Xevan is ultra asic resistant
+    - New Switchtime is 01/10/2016 @ 12:00am (UTC)
+
+commit ee23c673de115ccc4f055af7c8d2930a8b65c551
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sun Aug 28 09:46:16 2016 +0200
+
+    Update clientversion.h
+
+commit 80c6e64691188e8c9611ccdea7eab02e50235b59
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sun Aug 28 09:45:57 2016 +0200
+
+    Update configure.ac
+
+commit 79de5f8f0a636dd3f3922d24c91d08e56e3f8dde
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sun Aug 28 09:45:44 2016 +0200
+
+    Update README.md
+
+commit eacfb2eb8892eb032f268231ffca7216c117239e
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sun Aug 28 09:45:36 2016 +0200
+
+    Update README.md
+
+commit 3e66df7d0abe74e036341462241c445984793915
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sun Aug 28 09:43:34 2016 +0200
+
+    X17+
+
+commit e84777ffbb1abc766de52ff7243b5ba72607871f
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Fri Aug 26 20:38:44 2016 +0200
+
+    Node changes
+
+commit 73a9832a6e2592e3bcd94c90eb9f8e0d094ca54e
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Fri Aug 26 20:20:56 2016 +0200
+
+    bumb min version
+
+commit 294db23a68b52574501792098bbbc3045f40654b
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Fri Aug 26 17:55:13 2016 +0200
+
+    Update README.md
+
+commit 6d58e75d35a5a3a12ab7f63bdc79920fde293f70
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Fri Aug 26 17:54:01 2016 +0200
+
+    Update README.md
+
+commit a59b662d233bd03aec79d088fa6582074bb8b00c
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Fri Aug 26 17:50:36 2016 +0200
+
+    Update README.md
+
+commit f39236395ca4405e6d8d15ba5256cc57cd8decae
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Fri Aug 26 17:49:49 2016 +0200
+
+    Readme
+
+commit 92e746ebb2bb447edcedd60f0e439318238f704b
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Fri Aug 26 17:47:49 2016 +0200
+
+    Update clientversion.h
+
+commit f7abd78edf484cf25e7d2453744034d7949c323e
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Fri Aug 26 17:47:30 2016 +0200
+
+    Bumb
+
+commit 69db6008aa73a1cbcdb8ccddbba2c5b6e6d837b5
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Fri Aug 26 17:47:05 2016 +0200
+
+    Update diff_bitsend.h
+
+commit 5a22526e10d7e6a3c15d31debe6429a5e51353bb
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Fri Aug 26 17:46:02 2016 +0200
+
+    Small fix
+
+commit b4a7d348ae4b3cabfb41d820e79c0b0615f8ebb5
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Thu Aug 25 12:28:01 2016 +0200
+
+    Update checkpoints.cpp
+
+commit 385f2de15065b376f9ca84e24dbb5c317caa3283
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Thu Aug 25 12:22:13 2016 +0200
+
+    Change Version
+
+commit 35702f68ab9003b1622900187fff0f69e2dd8932
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Thu Aug 25 12:21:54 2016 +0200
+
+    Change Version
+
+commit 777312bd624469d9f9e2ba5a3c4f5849d1d7e783
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Thu Aug 25 12:21:25 2016 +0200
+
+    Change Version
+
+commit 6ea1ca77b753f9d7082b527c1b9372cf44b00df4
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Mon Aug 22 01:13:17 2016 +0200
+
+    Part 2
+
+commit f1f11df25312d526eb3321024f3c916e4e14d752
+Merge: d34fa5b 169a506
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Mon Aug 22 01:11:09 2016 +0200
+
+    Update BitSend 1.1.0.0
+    
+    Hardfork
+    -Change Masternodes from 5000 BSD to 25.000 BSD
+    -Change TX size up to 200 KB (100 KB)
+    Softfork
+    Block 239.000
+    - Add Dual KGW3 with Diffbreak
+    - Change Blocktime to 3 min (6min)
+    - Change Reward to 25 BSD(50 BSD)
+    - change COINBASE_MATURITY to 288 (25)
+    Block 240.000
+    Change Algo Hash to X17+
+    (not compatible to X17)
+
+commit 169a5067e15d5089a93aea7febd8070e174c22d1
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Mon Aug 22 00:34:33 2016 +0200
+
+    Update 1.1.0.0
+
+commit 4fcf12dbb448b121ab49afedde80723015d922b3
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Sun Jul 24 20:54:47 2016 +0530
+
+    revert "only pow changed"
+
+commit c979949cf1faaaf9eb7e431ec54eb0ec3b87717e
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Sun Jul 24 20:40:11 2016 +0530
+
+    only pow change
+
+commit 39bd9733ece1b3848e6ae852e27f4715fae544ce
+Merge: 7140346 a7e184d
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sat Jul 23 00:39:52 2016 +0200
+
+    Merge pull request #10 from LIMXTEC/DEV-joshafest
+    
+    Fix Source
+
+commit a7e184dd2ad1ed8e8de2be71094ca26e99cafadf
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sat Jul 23 00:37:12 2016 +0200
+
+    Fix Source
+    
+    x
+
+commit 7140346f429a22daa024b81d9591b1eaca8b23ab
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Fri Jul 22 23:56:29 2016 +0200
+
+    Revert "Update main.cpp"
+    
+    This reverts commit 7bd8fc9367c64c06d933f29fef6549b6e9adacee.
+
+commit 3f2b9cb1c32a55ffb7abb434237e2143486148fa
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Fri Jul 22 23:56:26 2016 +0200
+
+    Revert "fixed genesis chrash"
+    
+    This reverts commit 6aeb0e0ebdbc6f758994e3efd75a6ba039f68e60.
+
+commit 76371fd12924f42c02f855ce03d7aabb12af07e3
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Fri Jul 22 23:56:23 2016 +0200
+
+    Revert "Update core.h"
+    
+    This reverts commit 962e015c426264b53dbc381f7483bbf2c3d44ce0.
+
+commit 5b852bc43bec3218ade7beb79f6eeeb6dc2ad4ac
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Fri Jul 22 23:56:20 2016 +0200
+
+    Revert "Update core.h"
+    
+    This reverts commit 7277ee9dd2a39f462b677bccd5370c78244f84d4.
+
+commit 1038635318a4c53e609bac389a6b07a18c1c5c75
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Fri Jul 22 23:56:17 2016 +0200
+
+    Revert "removed additional check wall"
+    
+    This reverts commit a3c68b3edb28f3cba9199efc62185d41e2fb8aa3.
+
+commit 65b47adddfdc511cbc3c6c61febcd4d4445866f0
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Fri Jul 22 23:56:13 2016 +0200
+
+    Revert "fixed declarations"
+    
+    This reverts commit d31aac1ae9ef8b6cdc5fb72162ee30e8d690e558.
+
+commit d3139fcfc921f0f9f07cee56d9fa8f341a348d54
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Fri Jul 22 23:56:10 2016 +0200
+
+    Revert "fixed"
+    
+    This reverts commit 88e077e17f9531fcc83a1017291b51cf417166d6.
+
+commit f89ea812664385b2dffc05bbff3607fffad23cdd
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Fri Jul 22 23:56:07 2016 +0200
+
+    Revert "fixed"
+    
+    This reverts commit dc656a8592d1b4ed09dd14b622753890566b6229.
+
+commit 59572bbceab6025bd08c246fcf2dfabd0e279eb5
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Fri Jul 22 23:56:02 2016 +0200
+
+    Revert "Revert "Update main.cpp""
+    
+    This reverts commit d28462533f421f0090fa9293ea0d8a601bf37606.
+
+commit d28462533f421f0090fa9293ea0d8a601bf37606
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Fri Jul 22 23:55:30 2016 +0200
+
+    Revert "Update main.cpp"
+    
+    This reverts commit 7bd8fc9367c64c06d933f29fef6549b6e9adacee.
+
+commit dc656a8592d1b4ed09dd14b622753890566b6229
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Fri Jul 22 21:07:23 2016 +0530
+
+    fixed
+
+commit 88e077e17f9531fcc83a1017291b51cf417166d6
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Fri Jul 22 21:07:05 2016 +0530
+
+    fixed
+
+commit d31aac1ae9ef8b6cdc5fb72162ee30e8d690e558
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Fri Jul 22 12:51:41 2016 +0530
+
+    fixed declarations
+
+commit a3c68b3edb28f3cba9199efc62185d41e2fb8aa3
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Thu Jul 21 22:17:54 2016 +0530
+
+    removed additional check wall
+
+commit 7277ee9dd2a39f462b677bccd5370c78244f84d4
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Thu Jul 21 12:54:26 2016 +0530
+
+    Update core.h
+
+commit 962e015c426264b53dbc381f7483bbf2c3d44ce0
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Thu Jul 21 06:35:26 2016 +0530
+
+    Update core.h
+
+commit 6aeb0e0ebdbc6f758994e3efd75a6ba039f68e60
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Tue Jul 19 16:39:44 2016 +0530
+
+    fixed genesis chrash
+
+commit 7bd8fc9367c64c06d933f29fef6549b6e9adacee
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Tue Jul 19 16:35:39 2016 +0530
+
+    Update main.cpp
+
+commit 98ed4ee56f41ddf28ebe9579769a986b81eeb23b
+Merge: 6edb044 197c6de
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Tue Jul 19 12:48:59 2016 +0200
+
+    Merge pull request #9 from LIMXTEC/joshafest-patch-1
+    
+    A Fix to "getblock "hash""
+
+commit 197c6ded45864d8ac1389598fc36210ac1bcb5d9
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Tue Jul 19 13:05:09 2016 +0530
+
+    Update main.cpp
+
+commit 060c46914f04b0161366f34f18dee9541f8c01d0
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Tue Jul 19 12:46:40 2016 +0530
+
+    Update core.h
+
+commit 42b0d63a672de1c9be774b2955bd4026f9d0f3d9
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Tue Jul 19 12:43:41 2016 +0530
+
+    Added GetHashX17 to core.cpp
+
+commit 6edb044c0813fb693a8479576b25109b4874019d
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Wed Jul 13 20:17:30 2016 +0200
+
+    Revert "new way"
+    
+    This reverts commit 6d8d4af4448c2ffcc7735c76d3f54a9c1b1f7697.
+
+commit 2a12ac4617b085da2d60e6e27b1ae31aca689101
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Wed Jul 13 20:17:27 2016 +0200
+
+    Revert "new way"
+    
+    This reverts commit 889bbd23ca447e84f7370358fdcd287f6281cfcf.
+
+commit 58eed1390d1d26b4b7ea9a93613506a57299f4be
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Wed Jul 13 20:17:24 2016 +0200
+
+    Revert "New way from line 229 to 36"
+    
+    This reverts commit 39e7ec81aed78c19849a0a1f5faba6a65edc62b8.
+
+commit d5b4699d68b44901e9208e6cd6377c457b15068a
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Wed Jul 13 19:39:36 2016 +0200
+
+    Debug
+
+commit 6d8d4af4448c2ffcc7735c76d3f54a9c1b1f7697
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Wed Jun 29 18:38:08 2016 +0530
+
+    new way
+    
+    This may creat genesis mismatch error.....we can force x11
+
+commit 889bbd23ca447e84f7370358fdcd287f6281cfcf
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Wed Jun 29 18:30:20 2016 +0530
+
+    new way
+    
+    line 389
+
+commit 39e7ec81aed78c19849a0a1f5faba6a65edc62b8
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Wed Jun 29 18:26:32 2016 +0530
+
+    New way from line 229 to 36
+    
+    it should be tried at original
+
+commit de6e7670cfe305312dc9553aeb51dce53d33d45e
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Mon Jun 27 00:18:05 2016 +0200
+
+    Next Version
+
+commit da117ee26beba187c27e6eaa7e18f125e31e95c5
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sun Jun 26 20:05:44 2016 +0200
+
+    Revert "Remove Test function and move Gethash back to core.cpp"
+    
+    This reverts commit 9827b9ad5d344d03ad64808d5ae9618ff6407e20.
+
+commit 481cf2e615704edd6061672f923e844bdd586ed6
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sun Jun 26 20:05:37 2016 +0200
+
+    Revert "Remove #include "main.h" from chainparams.cpp"
+    
+    This reverts commit 4f1ea1b233cf8fe5d6771df45487c9ddd0a67a86.
+
+commit 2b06d977dc55f8f610cde1f82bad789aa75394fd
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sun Jun 26 20:05:33 2016 +0200
+
+    Revert "Commit"
+    
+    This reverts commit 8244002077b0be221471c71c5ffd14bc090275bb.
+
+commit eca1491c0ad78f984d402938ddfabd9636d986f8
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sun Jun 26 20:05:28 2016 +0200
+
+    Revert "Update main.h"
+    
+    This reverts commit 4bc551dae3eb03647996e2c936f11ff835200a16.
+
+commit 366d6258a5540b7cce5f264982bb51697c1ed200
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sun Jun 26 20:05:07 2016 +0200
+
+    Revert "Revert "Update masternode.cpp""
+    
+    This reverts commit 268beb54ea5845a291bb5440abeac1c2b26efda4.
+
+commit 268beb54ea5845a291bb5440abeac1c2b26efda4
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sun Jun 26 20:05:03 2016 +0200
+
+    Revert "Update masternode.cpp"
+    
+    This reverts commit d01e95029b0678ee00ec9a293f6f2849bb652a9d.
+
+commit 42b44c52289644494d5b5852e5e9a706d0066d04
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sun Jun 26 20:03:16 2016 +0200
+
+    Revert "Update forkview.txt"
+    
+    This reverts commit e52bf20488ec6ca138a9f2438b3ef1ca6f675399.
+
+commit e52bf20488ec6ca138a9f2438b3ef1ca6f675399
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sat Jun 25 20:59:56 2016 +0200
+
+    Update forkview.txt
+
+commit d01e95029b0678ee00ec9a293f6f2849bb652a9d
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Sun Jun 26 00:03:34 2016 +0530
+
+    Update masternode.cpp
+
+commit 4bc551dae3eb03647996e2c936f11ff835200a16
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Sun Jun 26 00:01:36 2016 +0530
+
+    Update main.h
+
+commit 8244002077b0be221471c71c5ffd14bc090275bb
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Fri Jun 24 22:23:29 2016 +0200
+
+    Commit
+
+commit 4f1ea1b233cf8fe5d6771df45487c9ddd0a67a86
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Fri Jun 24 22:22:46 2016 +0200
+
+    Remove #include "main.h" from chainparams.cpp
+
+commit 9827b9ad5d344d03ad64808d5ae9618ff6407e20
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Fri Jun 24 22:21:18 2016 +0200
+
+    Remove Test function and move Gethash back to core.cpp
+    
+    Move Gethash back to core.cpp and change gethash in chainparams back to
+    gethash1.
+
+commit 228e8c65ceed9615144ddec1cd754b689ff1467b
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Fri Jun 24 13:42:24 2016 +0200
+
+    little Fix
+
+commit 006a7ec0e98b86b6f744898557ea2356d7a606f4
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Fri Jun 24 10:04:14 2016 +0200
+
+    X17
+    
+    Fix
+
+commit 7f5878e91de39ec113d59928a3cc034f567a1785
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Fri Jun 24 01:24:55 2016 +0200
+
+    Fix getblockheader X17
+
+commit 1a0ab9fe126d4c057275d39ecdec6653064e2382
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Fri Jun 24 00:12:56 2016 +0200
+
+    // We need her a Switch for X11 and X17
+
+commit f548ac6beca2d9ee6aef125f0592acc5fb8b7c46
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Wed Jun 22 21:05:21 2016 +0200
+
+    Fix
+
+commit a9bf9e3d7aeeff171b301657b50bde42668cf2b6
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Wed Jun 22 15:28:40 2016 +0530
+
+    An alternative way
+
+commit b0a80be856eb38e213cc31fb5cdab4a041dab7c8
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Wed Jun 22 15:27:01 2016 +0530
+
+    an alternative way
+
+commit aadb09a4c789640de556b9efb33b37c749da1616
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Wed Jun 22 15:25:09 2016 +0530
+
+    An altrernative way
+    
+    i see Height is declared in main.h .....So, I think we can use it without any error
+
+commit a20a2c079af29abef5a5bda68d225220be4efd94
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Wed Jun 22 15:22:16 2016 +0530
+
+    Altway to do
+
+commit f093ac00a628e13204801e854abdeedfcaafca8b
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Wed Jun 22 08:38:10 2016 +0200
+
+    Fix for chainparams and core.cpp
+
+commit ab86217f3657c0f7210939afb31554fadae3bedc
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Wed Jun 22 00:19:08 2016 +0200
+
+    Note
+
+commit 0db5764902e0efad5194b64e0b27ded7295724e6
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Wed Jun 22 00:14:47 2016 +0200
+
+    New KGW4 Pre Settings
+
+commit f02b94a0437209a7681721cf9acef5f0532ebd25
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Tue Jun 21 22:34:43 2016 +0200
+
+    Fee changes
+
+commit 0795fde833538766881fdf9f91629c13efc2f1ed
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Tue Jun 21 21:46:02 2016 +0200
+
+    Stop by 20% POW / 80% Masternode
+
+commit 35f60627a7ee0640375e1d35a7f4043fef033258
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Tue Jun 21 21:38:09 2016 +0200
+
+    Version
+    
+    Blocksize 20 MB, Max TX KB 100 -> 200,  COINBASE_MATURIT 25 -> 120
+
+commit 9937c9778447e4b61f8227eca4d13574af7ac2f4
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Tue Jun 21 21:00:39 2016 +0200
+
+    Update clientversion.h
+
+commit 740b407efa646af64c561e387dfb059b6ee9e778
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Tue Jun 21 21:00:06 2016 +0200
+
+    Bumo Version
+
+commit d5e1983949d07a6ad74ea9a3129c55028f5c134b
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Tue Jun 21 20:58:20 2016 +0200
+
+    Update masternode.cpp
+
+commit 69063122ba051d981c84a1ccbbd218647d7bec64
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Tue Jun 21 20:54:41 2016 +0200
+
+    Update masternode.h
+
+commit c75ebde0d00320a270e8e7ba3a0b281fc2e5b9de
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Tue Jun 21 20:52:10 2016 +0200
+
+    Update spork.h
+
+commit 8a4204066964095e0bb795ad36c274b0149163da
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Tue Jun 21 20:48:05 2016 +0200
+
+    Update main.cpp
+
+commit 1100c4d77a935b3f110d38348f1c46ebc24f91a2
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Tue Jun 21 20:46:53 2016 +0200
+
+    Update main.h
+
+commit d34fa5b1e2d770f99f35f3c8411f374acc5ac1cb
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Tue Jun 21 20:45:44 2016 +0200
+
+    Update main.h
+
+commit 50446b95490c263fd4fa6c0f9b51d1c76e0cb307
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Mon Jun 20 16:11:03 2016 +0530
+
+    move of core.cpp hash
+
+commit b043d4904a1112bac198e40b8f7aa40d0b30e528
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Mon Jun 20 16:07:46 2016 +0530
+
+    remove function (Hash)
+
+commit 734f073a65387859b01de689330e1996a377372c
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Sun Jun 12 21:49:49 2016 +0530
+
+    Update over x17 issue
+
+commit c88a559ab3bca3b16e94ac986f0d2dc4e7ce6f9a
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Sun Jun 12 21:47:09 2016 +0530
+
+    Update over x17 issue
+
+commit 4eab910b796c116a2ae83e42dd94b7cb31975a13
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Sun Jun 12 21:44:19 2016 +0530
+
+    Update over x17 issue
+
+commit c285b50b25689defa42d6ff2bcf1296afbf4a961
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Sun Jun 12 21:41:56 2016 +0530
+
+    update
+
+commit 0c6845b541f79b37017987ac1b5df9bce5bee002
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Fri Jun 10 07:39:23 2016 +0530
+
+    added missing include
+
+commit 04008a6c7ef01af2466e788a2f547fbed257c680
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Thu Jun 9 21:58:02 2016 +0530
+
+    algo switch to x17
+
+commit 056cc9dcc9381ad4b1cbd720997cb4278e8bb579
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Thu Jun 9 21:56:11 2016 +0530
+
+    algo switch to x17
+
+commit d70d841721be7e59e9e416915f8becf3e420846c
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Thu Jun 9 21:53:48 2016 +0530
+
+    algo switch to x17
+    
+    from block 210000 on mainnet
+
+commit 88a53deba78d5fc972632b6c9e568bc3855300cc
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Thu Jun 9 21:48:39 2016 +0530
+
+    algo switch to x17
+    
+    the testnetis not configured properly
+
+commit 24643080a4c137c10662196a3ec6daf74a637e73
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sat Jun 4 15:00:15 2016 +0200
+
+    Update forkview.txt
+
+commit 470a23981ee39731d525c4970a26a95fe10a1859
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sat Jun 4 11:54:49 2016 +0200
+
+    Info
+
+commit 19622e407586af924dd0b1cdde7afc9c08ad1eea
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Fri Jun 3 22:42:00 2016 +0200
+
+    Data for X17
+
+commit cc2f4a2dbb9747b3e6949e33a18174afbf976f1a
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Wed Jun 1 22:25:32 2016 +0200
+
+    Little GFX Changes
+
+commit 8c49861808a5053e7c980905b87f7c80ee04da90
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Wed Jun 1 21:43:13 2016 +0200
+
+    Small changes
+
+commit b4814f4ee8c917febab6ae28ca3e5d3e2d37b8cd
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Wed Jun 1 20:26:08 2016 +0200
+
+    Second step version 1.0.0.4
+
+commit 632e878ee591868e8c38ea04bf5fde883da9a801
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sat May 21 23:47:42 2016 +0200
+
+    Hash Algo Rewrite X11 Bump Version 1.0.0.4
+
+commit afb4941c344941cbf9ff494ca90e826c5ff5398d
+Merge: f694441 d8dd95e
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sun May 15 11:28:49 2016 +0200
+
+    Merge pull request #6 from LIMXTEC/DEV
+    
+    Dev Version 1.0.0.3
+
+commit d8dd95e06114639cfdceb1e25e6931af1bfc16f1
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sat May 14 10:10:18 2016 +0200
+
+    Patch 1.0.0.3
+
+commit 7af24d8e2608e26c0564c3e92d032760f57f1ca2
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sat May 14 09:58:26 2016 +0200
+
+    Patch 1.0.0.3
+
+commit 2bc5b64e4809f4b4f8cf7f3afcdf1fec323a8ab0
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sat May 14 09:19:25 2016 +0200
+
+    Patch 1.0.0.3
+
+commit 39a451632c602248d30dc348f7b2b318eba22f44
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sat May 14 01:29:18 2016 +0200
+
+    1.0.0.3 Patch
+
+commit b39052b59c9d1a19f0b60105bb28a5f83a8f19eb
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Fri May 13 16:32:07 2016 +0200
+
+    Remove Debugline
+
+commit cb1328b2cd5147dee04892b9bb20f53ede37d38f
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Fri May 13 15:56:34 2016 +0200
+
+    Remove Debugline
+
+commit c0af5930eff2831ce8db5629f2175411029b7110
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Fri May 13 15:55:52 2016 +0200
+
+    Remove Debugline
+
+commit 18bc4ef9034e9f6b0581579ae14b674252970c2d
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Fri May 13 15:51:30 2016 +0200
+
+    Little Changes in net.cpp
+
+commit e56d3b9a45d56f7f97d2ab255cf6e864cc157151
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Fri May 13 15:46:07 2016 +0200
+
+    Little Changes for correct init
+
+commit d11e11eb1e22a42fbd6f390e3a3646cdc033b7c4
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Tue May 10 00:46:46 2016 +0200
+
+    Add Checkpint
+
+commit ce80dd786f408a9ccd86b9998164c5f85415e9b1
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Tue May 10 00:45:45 2016 +0200
+
+    Version 1.0.0.3
+    
+    Changes in Promode and new Hardsnodes
+
+commit c247f4b55bef8e430b3102076ca8b1647c6644c6
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Mon May 9 12:27:58 2016 +0200
+
+    Update chainparams.cpp
+
+commit c1a4c669c27480de1880cf5240260f2fb51466d8
+Merge: 43797d9 830eb04
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Mon May 9 00:43:18 2016 +0200
+
+    Merge remote-tracking branch 'origin/DEV' into DEV
+    
+    # Conflicts:
+    #       src/chainparams.cpp
+
+commit 43797d9fc1bb0f903842644c01788ec5bcacb749
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Mon May 9 00:42:19 2016 +0200
+
+    Update 1.0.0.3
+    
+    Add "Promode" The Wallet start defult without Darksend and InstantX. You
+    must now add command line promode=1 for enable this function. The
+    Darksend and InstantX Core Function is enable and can now disable with
+    disable_Darksend_InstantX_on_Core=1. I have added new Image for all QT
+    Design Mode. And you can now back to the "Standard Bitcoin" Design.
+
+commit 830eb0427a5d4e42676c5a0ccc94d6ed00c365ba
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Thu Apr 28 11:34:13 2016 +0200
+
+    Add new Node for Testnet
+
+commit 9d8bea413647c2906354786a2050211129a752b4
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Thu Apr 28 11:31:24 2016 +0200
+
+    Remove commits
+
+commit 4b23cebdfd7dc84912c756deecc844e74b80a34c
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Thu Apr 28 11:30:34 2016 +0200
+
+    Add new node seed
+
+commit 52577106b7160f36d8c91cc8b08681a29ff351f9
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Wed Apr 27 22:22:04 2016 +0200
+
+    Image Shrink KB Size from 3 MB to 220 KB
+
+commit 4ea41b307ecfd13ef15a273346e5c065ba5d3182
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Wed Apr 27 22:05:37 2016 +0200
+
+    New Images
+
+commit f69444123756b07e55b8f466d669db3ca31ee49e
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sat Apr 9 22:47:22 2016 +0200
+
+    Set frameDarksend if client masternode
+
+commit bd1e57e9db97ee2632eed3c869916f73bb4cb357
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Wed Mar 23 10:24:03 2016 +0100
+
+    Bump openssl to 1.0.1q
+
+commit 3baa0975ba700b8ba22663b641a0960e29e6759b
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Wed Mar 23 10:23:06 2016 +0100
+
+    Bump boost version to 1.59
+
+commit 7d213bc26aa0c832427407547a92e2260787e8d6
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Wed Mar 23 10:22:12 2016 +0100
+
+    Bump miniupnpc version to 1.9.20151026
+
+commit 3d54a434daafe61e55d80a37928e8a404f8b5e65
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Wed Mar 23 10:17:27 2016 +0100
+
+    Bump miniupnpc version to 1.9.20151026
+
+commit 3e4167d985bafa7a959ac98179c0f42ad5be4f4f
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Wed Mar 23 10:16:40 2016 +0100
+
+    Bump native ccache to 3.2.4
+
+commit 44c184b41bed4ee3c457b176507e063440a94174
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Wed Mar 23 10:16:03 2016 +0100
+
+    Bump native protobuf to 2.6.1
+
+commit 221acf9081b3139dee9b233069bc10710d870009
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Thu Mar 10 14:06:45 2016 +0100
+
+    Update bitcoingui.cpp
+
+commit 21d0d9d2f162aaee2d6a1fbe4ceb4088c2224ba6
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Thu Mar 10 09:23:00 2016 +0100
+
+    Setup from "Up to date"
+    
+    I change the "Up to date"  to 360. The wallets show now "Up to date" up to 4h. That is also the "BitSend" Diffbreak time.
+
+commit bbaf6ae4f56f9f873cecfd1c7f79de344083d1c3
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Thu Mar 10 09:15:04 2016 +0100
+
+    Update rpcdump.cpp
+
+commit 703dd3408780bb83e35bf9c889cd0c403bd87438
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sat Feb 20 14:55:36 2016 +0100
+
+    Pump Version
+
+commit b37e4ea5d3345993fa4b111070855ed370626f71
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sat Feb 20 14:55:19 2016 +0100
+
+    Pump Version
+
+commit c9fb0654966328add1d5c6ad1110707e0dd97f67
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sat Feb 20 14:52:47 2016 +0100
+
+    Increase the MIN_PEER_PROTO_VERSION up to 70077
+    
+    All old nodes are now to invalid. ( Old Limecoinx)
+
+commit b439e724a75ea93f59980438db2b980755eeebaa
+Author: LIMX-SUPPORT <contact@limx.eu>
+Date:   Mon Feb 15 20:25:04 2016 +0100
+
+    readme
+
+commit c259b44b01f8c76708a079b59395c003c54d0228
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Mon Feb 15 12:44:35 2016 +0100
+
+    Update README.md
+
+commit b867bc32bf23fc96661762a60d2a3bdefb46994a
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Mon Feb 15 12:43:46 2016 +0100
+
+    Release Notes
+
+commit 27aed77cf61ab355e8226a8a05c7eacb0a274ad5
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sun Feb 14 19:44:52 2016 +0100
+
+    GFX Update
+
+commit 972e4ceb91f406312b688c1a2276b73104d41834
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sun Feb 14 19:40:20 2016 +0100
+
+    Revert "GFX Fixes"
+    
+    This reverts commit 364c24b98b8ba895c5c1ec93ce3d2725e233237d.
+
+commit 364c24b98b8ba895c5c1ec93ce3d2725e233237d
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sun Feb 14 19:29:42 2016 +0100
+
+    GFX Fixes
+
+commit 57ad9f9953699f669a9cc9eba67524ba11e2b504
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Fri Feb 12 21:59:41 2016 +0100
+
+    Reducing Imagesize
+    
+    Windows compiling limit is 100 MB for qrc-bitsend.cpp
+
+commit 0296b1c9fad7a31f0e9df9ffbf853281d3a76f89
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Fri Feb 12 20:44:44 2016 +0100
+
+    Icons Win
+
+commit 77d6347263d14f26dd70919be35df65fa6914533
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Mon Feb 8 22:51:16 2016 +0100
+
+    Update clientversion.h
+
+commit 5395af13283e11368d4693f634678e5806aaef6c
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Mon Feb 8 22:50:33 2016 +0100
+
+    Pump Version
+
+commit 3bf78833fc043b1fb9ff23e631f655572da69744
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Mon Feb 8 22:40:40 2016 +0100
+
+    Chainparams Fix
+
+commit 28ee207fe2f1fadb01aa75abe974968949b7820b
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Mon Feb 8 21:43:15 2016 +0100
+
+    Rename limxblack.css to bitsendblack.css
+
+commit f82c3b735e4ec4e7c1d387d0ac72302e3bb6de7f
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Mon Feb 8 21:42:47 2016 +0100
+
+    Rename limxlila.css to bitsendlila.css
+
+commit 59a96bff267f214832b481c5fdb4a215e3d3f98b
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Mon Feb 8 21:36:37 2016 +0100
+
+    Update Makefile.am
+
+commit 1e11a8bcf94afe782c7ebc0a5265328007842fa1
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Mon Feb 8 21:00:27 2016 +0100
+
+    Update bitsend.qrc
+
+commit 2c74541d74b0a670f2540f9750fa3aa8a853cbf2
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Mon Feb 8 20:57:40 2016 +0100
+
+    Update bitsend.qrc
+
+commit 0a6554aabb09498023c0e5f10eaa28de6319291d
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Mon Feb 8 20:51:21 2016 +0100
+
+    Rename limecoinx-qt-res.rc to bitsend-qt-res.rc
+
+commit 46b88205078810ef699a39449f5ea56669ba3627
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Mon Feb 8 10:30:45 2016 +0100
+
+    Fix @ User Kasvain No.2
+
+commit 8242d732d63bfcdd2c635ea33abaabc410042067
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sun Feb 7 20:07:57 2016 +0100
+
+    Fix @ User Kasvain
+    
+    Little error fix
+
+commit bd8e76111c5cea683de517deea1fc08bf702edbd
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Fri Feb 5 00:16:13 2016 +0100
+
+    Little Changes Paperwallet IMG
+
+commit 220df602ee7ba16f674830237a43b8f8c0333bab
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Fri Feb 5 00:07:18 2016 +0100
+
+    Blocksize
+
+commit cefee7cc452b41d64e9c23bc54aab4e6213ec454
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Thu Feb 4 23:59:42 2016 +0100
+
+    Bitsend Version 1.0.0
+    
+    Rebrand from LImecoinX to BitSend
+    Increase the Blocklimit from 1 MB to 4 MB
+    Increase the FeeTX
+
+commit e9f5079e82ebbcc94bc48e93f5ee45e2266c7926
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Fri Jan 8 13:26:59 2016 +0100
+
+    Change Seednode
+
+commit 3a37363f45932294f8bb1f878b3af27559ecb5c1
+Merge: 07785a6 84cd6cf
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Fri Dec 25 11:01:09 2015 +0100
+
+    Merge pull request #1 from LIMXTEC/development
+    
+    Development Bittrex API
+
+commit 07785a69f28cb162107309f13658f4d68c08de11
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sun Nov 15 16:48:07 2015 +0100
+
+    Update main.cpp
+
+commit 14af4b44fe8cd8b9d37b0ac90694d2f8e0e6f42b
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sun Nov 15 10:01:37 2015 +0100
+
+    For Pool Operarato
+
+commit 5e87f2ddf45f10ef7210f8f0ee332b4e2414c151
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Thu Nov 12 20:25:47 2015 +0100
+
+    Version Pump
+
+commit a147d67b2f96bf313e0e2c778645930ba87e6678
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Thu Nov 12 20:24:43 2015 +0100
+
+    Pump Version
+
+commit e88abeaf6d9f82b99d2d473b82f6e61dacdb38f9
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Thu Nov 12 20:22:28 2015 +0100
+
+    Fix 11.2.36
+
+commit 296384bf95986d8ab4df11b9cbd4ae210b357d17
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Mon Nov 9 18:16:23 2015 +0100
+
+    Add new Checkpoint
+
+commit 33cd415bf5004fe8ccfdc5b69857a25ac52103d3
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Mon Nov 9 18:12:34 2015 +0100
+
+    Version Pump
+
+commit 92d7aea333d03ced74dcc62c59eac2eca2472ca9
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Mon Nov 9 18:12:14 2015 +0100
+
+    Version Pump
+
+commit b46494967cddb5a0eb5014fd7fb97ca2b2f50776
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Mon Nov 9 18:06:08 2015 +0100
+
+    Little Fix
+
+commit 7d748b709eab87277be3095faf93114bc7dd1837
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Tue Oct 27 20:49:48 2015 +0100
+
+    Update sendcoinsdialog.ui
+
+commit f537e709672ba07b88d27b2bcc388d58161ed6ef
+Author: LIMX-SUPPORT <contact@limx.eu>
+Date:   Wed Oct 21 00:27:57 2015 +0200
+
+    mn guide update
+
+commit fa20956890fcf1f19a266987de39ea3c92338b0f
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Tue Oct 20 12:59:55 2015 +0200
+
+    Darksend is Default false
+    
+    ..
+
+commit a38b2b3e24501fe4aef30de9a56bcf235e3a2525
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Tue Oct 20 12:59:11 2015 +0200
+
+    Update sendcoinsdialog.ui
+
+commit 060338c5ac85d102f812f789e45b8dea52afe979
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Tue Oct 20 12:58:03 2015 +0200
+
+    Update masternode.h
+
+commit e0dc8316e9bb69bad8758367ab092e1265dc1c0d
+Author: LIMX-SUPPORT <contact@limx.eu>
+Date:   Tue Oct 20 10:58:44 2015 +0200
+
+    final paperwallet design
+
+commit c99464f4b40e5193edc4705833d4d3d47acebf49
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Tue Oct 20 07:33:10 2015 +0200
+
+    Update main.h
+
+commit b0a1e830c217a5acd0d3f261c2415e9b1fc2256d
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Mon Oct 19 21:06:24 2015 +0200
+
+    Reduce from 8h to 6h
+
+commit 4b5aac0323394fc9599f9b60edcf5d94b23344ee
+Author: LIMX-SUPPORT <contact@limx.eu>
+Date:   Mon Oct 19 14:12:22 2015 +0200
+
+    paperwallet fix
+
+commit 7b30c6b60bf907bb3b4c12cdd27e869b41dc84d3
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Mon Oct 19 09:12:57 2015 +0200
+
+    Small Changes LIMX Diffbreak function
+
+commit 2d652276cd14a2c9e848e6e812f847492575bf1a
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Mon Oct 19 09:09:33 2015 +0200
+
+    Update main.cpp
+
+commit 3dbb72a1f23acd440cfbe5f41b6cc855f03f0049
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sun Oct 18 23:49:06 2015 +0200
+
+    Update main.cpp
+
+commit 5d08774b0b5d247b0a663eb314639cb060131f3a
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sun Oct 18 23:45:48 2015 +0200
+
+    LIMX KGW Diffbreak function
+
+commit 4a24618dccede7b6341c06f6492c8d93ea5ce03f
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sun Oct 18 17:53:20 2015 +0200
+
+    Update main.cpp
+
+commit 54aea7d554c6f68a9ebabcbc88bf6ac757a53aa7
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sun Oct 18 17:33:03 2015 +0200
+
+    Update main.cpp
+
+commit a06bfdad35247f9a795876598e63f4fd81bab1bd
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sun Oct 18 17:08:18 2015 +0200
+
+    Update main.cpp
+
+commit ef4c58c2853c450d2121d64edde1cf1ae00ade54
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sun Oct 18 16:41:47 2015 +0200
+
+    Update main.cpp
+
+commit 9171918c272025db3cebc95d44492117185909d7
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sun Oct 18 08:37:40 2015 +0200
+
+    Small Fix
+
+commit 8993c92144fcd3e849648b6ba5342ac688756a21
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sat Oct 17 17:03:53 2015 +0200
+
+    Note
+
+commit e95eaa135e61c31d3f7ab7324073683dd70db6cb
+Author: LIMX-SUPPORT <contact@limx.eu>
+Date:   Sat Oct 17 16:49:22 2015 +0200
+
+    icons + version.cpp
+
+commit c83c37b106d2fabfc5db7dfda3c1ac1673997757
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sat Oct 17 14:54:48 2015 +0200
+
+    Change Pastesecond to 0.25
+
+commit 68d971487e2b1aaaf752271d6f17f27fb376ba64
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sat Oct 17 14:42:36 2015 +0200
+
+    Update diff_limx.h
+
+commit 3ded79453ec1bc8c4bffb5b2270ebf91f9f25618
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sat Oct 17 14:32:52 2015 +0200
+
+    This should slow down the upward difficulty change
+
+commit a58f852267025470827f82a717683ead4412481c
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sat Oct 17 13:49:12 2015 +0200
+
+    Pump Version
+
+commit 027823a2a4cbd8a58ddd2047bea0c6912747e90b
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sat Oct 17 13:48:34 2015 +0200
+
+    Version Pump
+
+commit ba4eb5820fdd2151758411b0730ae54a37450244
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sat Oct 17 13:46:54 2015 +0200
+
+    Change Masternode Reward
+
+commit f9da973a935bd01af973cc1bbbadaf5b056ac9bc
+Author: LIMX-SUPPORT <contact@limx.eu>
+Date:   Thu Aug 27 14:22:15 2015 +0200
+
+    add optional wallet design part 3
+
+commit 5778f0e72fd8cbc8e8616a792352ead7a27cf055
+Author: LIMX-SUPPORT <contact@limx.eu>
+Date:   Sat Aug 15 19:09:15 2015 +0200
+
+    add optional wallet design part 2
+
+commit 9c7c644a0b1b844100e00a03c9c469058e47cbf7
+Author: LIMX-SUPPORT <contact@limx.eu>
+Date:   Sat Aug 15 17:24:07 2015 +0200
+
+    add permission
+
+commit 8f167e6619e5bcc188203c379d98dafdbd4fe5f2
+Author: LIMX-SUPPORT <contact@limx.eu>
+Date:   Sat Aug 15 14:42:39 2015 +0200
+
+    add optional wallet design part 1
+
+commit 757f8bcf24a77772ccb6fd76810b2fe3245c5c8b
+Author: LIMX-SUPPORT <contact@limx.eu>
+Date:   Sat Aug 15 13:51:59 2015 +0200
+
+    OpenSSL update
+
+commit 7f44cde7a86e5db35bb9f8c9c06d365868d188ce
+Author: LIMX-SUPPORT <contact@limx.eu>
+Date:   Fri Aug 14 20:10:27 2015 +0200
+
+    info
+
+commit 84cd6cf3c3416ba846a72ffa1b3ed325ea14b367
+Author: goto2014 <mip-goto@web.de>
+Date:   Wed Aug 5 21:24:42 2015 +0200
+
+    bittrex api
+
+commit 1ec4041e3837219d333dd1f819deab391cbaaa3f
+Author: goto2014 <mip-goto@web.de>
+Date:   Wed Aug 5 21:05:54 2015 +0200
+
+    bittrex public wrapper python3
+
+commit d4b6ba8047d1da3d6a933716206b2b991068ae49
+Author: goto2014 <mip-goto@web.de>
+Date:   Wed Aug 5 20:19:08 2015 +0200
+
+    goto-github-test
+
+commit ef25f0e2f5917572b4e0b268c38e9495456d69e3
+Author: goto2014 <mip-goto@web.de>
+Date:   Wed Aug 5 20:11:10 2015 +0200
+
+    goto-github-test
+
+commit e5f337b01f5197a696d3014dd903b1dd5dd7fe64
+Author: LIMX-SUPPORT <contact@limx.eu>
+Date:   Thu Jul 30 20:20:15 2015 +0200
+
+    Update README.md
+
+commit 72578d97942fa3b9f9450efe916a07a81046a8f1
+Author: LIMX-SUPPORT <contact@limx.eu>
+Date:   Thu Jul 30 20:15:43 2015 +0200
+
+    Version 0.11.2.33
+
+commit da1c8a3965b8de24877b1858f68c34060486b5d1
+Author: LIMX-SUPPORT <contact@limx.eu>
+Date:   Thu Jul 30 18:54:11 2015 +0200
+
+    Initial commit

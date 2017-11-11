@@ -1,0 +1,53 @@
+commit 83f78b09072fb80e8b3efaf07199f3fe406462c3
+Author: BitQuark <bitquarkcoin@gmail.com>
+Date:   Tue Jan 17 00:30:05 2017 -0500
+
+    Add CurrentBlockValue to getmininginfo
+
+commit 82a27beffa1477f915886baa79c9fce35470339d
+Author: BitQuark <bitquarkcoin@gmail.com>
+Date:   Tue Jan 17 00:28:39 2017 -0500
+
+    Add CurrentBlockValue to getmininginfo
+
+commit adb69c7332356e5cc06ec5a2f6546de70f438f36
+Author: BitQuark <bitquarkcoin@gmail.com>
+Date:   Tue Jan 17 00:27:20 2017 -0500
+
+    Add CurrentBlockValue to getmininginfo
+
+commit 76f1fd9e436eea66f31237126a1aee91c79e8879
+Author: BitQuark <bitquarkcoin@gmail.com>
+Date:   Mon Jan 16 00:00:05 2017 -0500
+
+    Add moneysupply to RPC
+
+commit c119756144e411b2c7529dedf1e45ffe4b219270
+Author: BitQuark <bitquarkcoin@gmail.com>
+Date:   Sun Jan 15 23:58:12 2017 -0500
+
+    Add moneysupply to RPC
+
+commit 2cf5e90f3a2b762be625bfeed9e1a27748603744
+Author: BitQuark <bitquarkcoin@gmail.com>
+Date:   Sun Jan 15 23:56:44 2017 -0500
+
+    Add moneysupply to RPC
+
+commit d23214ff3f04c6fe776859346f22495be554a166
+Author: BitQuark <bitquarkcoin@gmail.com>
+Date:   Sun Jan 15 23:53:35 2017 -0500
+
+    Add moneysupply to RPC
+
+commit e329bc72de42427beda5ac78524535330e70a937
+Author: BitQuark <bitquarkcoin@gmail.com>
+Date:   Sun Jan 15 23:51:27 2017 -0500
+
+    Add moneysupply to RPC
+
+commit 2cb65270ad5d081ffab9984959070e3bc111a723
+Author: BitQuark <bitquarkcoin@gmail.com>
+Date:   Sat Jan 7 00:32:02 2017 -0500
+
+    Add System Alerts

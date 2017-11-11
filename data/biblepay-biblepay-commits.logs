@@ -1,0 +1,623 @@
+commit 87d26bd1fdb2f0e7462577ff5f5891f8dd36f95f
+Author: biblepay <contact@biblepay.org>
+Date:   Thu Nov 9 16:14:09 2017 -0600
+
+    1.0.5.4b (TESTNET) - Leisure Upgrade
+    
+    - Support for Colored Coins
+    - Support for Retirement Account (RBBP) trading through RPC console
+    - New wallet theme with upgraded logo
+
+commit 25e112ac2949b4f41e01a714a9d193c3b7b7fcb9
+Author: biblepay <contact@biblepay.org>
+Date:   Mon Oct 30 13:14:59 2017 -0500
+
+    1.0.5.4-Leisure (TESTNET)
+    
+    - Remove Temples
+    - Payment schedule reverts back to standard sanctuaries for everyone
+
+commit 3d78c93cbd58b0bc17d6895d512a48dec5b1d7d4
+Author: biblepay <contact@biblepay.org>
+Date:   Mon Oct 30 09:18:22 2017 -0500
+
+    1.0.5.3 - Leisure Upgrade (TESTNET)
+    
+    - Fix bug to prevent Temple payments during superblocks
+
+commit afbcfe43c55671af82f91d352765e6a456a58ece
+Author: biblepay <contact@biblepay.org>
+Date:   Sun Oct 29 09:56:27 2017 -0500
+
+    1.0.5.2-Leisure (TESTNET)
+    
+    - Fix Temple bug
+    - Fix f8000 bug
+
+commit de1d1f4971cb9495e2029e722b000b18d8a523c0
+Author: biblepay <contact@biblepay.org>
+Date:   Sat Oct 28 14:42:13 2017 -0500
+
+    1.0.5.1-Non-Mandatory
+    
+    - Testnet change for f8000 to start at 12200
+
+commit 392d2721c55bab23427c22ac0054e6f4e756f380
+Author: biblepay <contact@biblepay.org>
+Date:   Sat Oct 28 12:25:44 2017 -0500
+
+    1.0.5.0 - Non Mandatory (TESTNET)
+    
+    - Temple bug
+
+commit 14230b6b95a6ad08bb9af4f3557fca59551bf789
+Author: biblepay <contact@biblepay.org>
+Date:   Fri Oct 27 16:09:11 2017 -0500
+
+    1.0.4.9-Non-Mandatory (TESTNET)
+    
+    - Retirement accounts 1.0 (TESTNET)
+    - Trading Engine orderbook (TESTNET)
+    - Temples with 15MM BBP Requirement
+    - F8000 (TESTNET)
+    - Color coins, complex transactions with escrow
+
+commit 9a82919828d3c1e67450b126744d2f00d27b95c9
+Author: biblepay <rob@biblepay.org>
+Date:   Fri Oct 6 11:29:31 2017 -0500
+
+    1.0.4.8-Non-Mandatory
+    
+    - Features in testnet for Sanctuary Collateral
+
+commit e77652eeec23fd7b8ecebe8abbdf589a7c5dbfe7
+Author: biblepay <rob@biblepay.org>
+Date:   Tue Oct 3 11:13:26 2017 -0500
+
+    1.0.4.7b-Non-Mandatory
+    
+    - Move logging for Sanctuaries to prevent spam
+
+commit 98e8f9be14c2f37b52219f8a59ef11fb35b801ba
+Author: biblepay <rob@biblepay.org>
+Date:   Mon Oct 2 10:32:24 2017 -0500
+
+    1.0.4.7-Non-Mandatory
+    
+    - Enable spork8 in testnet for sanctuary testing
+
+commit 9a1575b90f0848e15d85a08cae4aba44e1255291
+Author: biblepay <rob@biblepay.org>
+Date:   Sun Oct 1 10:05:46 2017 -0500
+
+    1.0.4.6-Non-Mandatory
+    
+    - Testnet sanctuary adjustments for budgeting
+
+commit 9cb2bfda7256613ae2207eaf0caec8fcd0f625bb
+Author: biblepay <rob@biblepay.org>
+Date:   Sat Sep 30 12:46:02 2017 -0500
+
+    1.0.4.5b-Non-Mandatory
+    
+    - Enable superblocks in testnet for sanctuary testing
+
+commit fed5693cfe12c2fe6447679e077eee5fca5c80c1
+Author: biblepay <rob@biblepay.org>
+Date:   Sat Sep 30 10:28:05 2017 -0500
+
+    1.0.4.5-Non-Mandatory
+    
+    - Remove Tithe Blocks in TestNet after Sactuaries go live
+    - Increment Budget payment start block in testnet
+
+commit 6e51c6f657ba7dbbd45b0fbaa979cb0cceede862
+Author: biblepay <rob@biblepay.org>
+Date:   Fri Sep 29 22:38:01 2017 -0500
+
+    1.0.4.4c-Non-Mandatory
+    
+    - Various fixed for testnet sanctuaries
+
+commit 0cbf9c7ddbbbd5d91fc31dd7de54615f9c591f30
+Author: biblepay <rob@biblepay.org>
+Date:   Fri Sep 29 12:47:31 2017 -0500
+
+    1.0.4.4b-Non-Mandatory
+    
+    - Base watchman-on-the-wall package for testnet
+
+commit 3d4a58453393293dfb4ac1ddc335258d1b9abd0b
+Author: rob@biblepay.org <rob@biblepay.org>
+Date:   Thu Sep 28 16:31:53 2017 -0500
+
+    1.0.4.4-Non-Mandatory
+    
+    - Testnet features: 1 minute blocks and reqd change for sanctuary
+    syncing
+
+commit ff4ad4726934f86c7f103463d41ac0ddd2c3b352
+Author: biblepay <contact@biblepay.org>
+Date:   Wed Sep 27 10:47:59 2017 -0500
+
+    1.0.4.3-non-mandatory
+    
+    - Required chainparam change for testnet for sanctuaries
+
+commit ce0ab86866d836aea7d5d90e5ab290f1d1b7a85d
+Author: biblepay <contact@biblepay.org>
+Date:   Tue Sep 26 20:08:36 2017 -0500
+
+    1.0.4.2-Non-Mandatory
+    
+    - Testnet bug found preventing masternode startup
+
+commit fa2e3d06e5e2434b2a1989d907508ff1b8236785
+Author: biblepay <contact@biblepay.org>
+Date:   Mon Sep 25 15:32:23 2017 -0500
+
+    1.0.4.1-Non-Mandatory
+    
+    - Dual KJV bible support (Ryzen testing)
+
+commit 7899b9378290e735bc470065925bbdf094f3cc8c
+Author: biblepay <contact@biblepay.org>
+Date:   Sun Sep 24 07:59:36 2017 -0500
+
+    1.0.4.0b-Non-Mandatory
+    
+    - Better menus for testnet for upcoming features
+
+commit ac8900af942a0189b275e0df13ded7963ea256db
+Author: biblepay <contact@biblepay.org>
+Date:   Sat Sep 23 22:29:29 2017 -0500
+
+    1.0.4.0-Non-Mandatory
+    
+    - BlockChain News Add, Edit, View for TestNet
+    - Possible fix for Nanaminer DoubleFreeCorruption (LOCK)
+
+commit d26f20a159ce4682bf802a3ba2cd869d18dfe48a
+Author: biblepay <contact@biblepay.org>
+Date:   Wed Sep 20 19:08:51 2017 -0500
+
+    1.0.3.9c-Non-Mandatory
+    
+    - Add testnet feature to allow us to create a news article
+    - Potential fix to mining hashcounter for xeons (test)
+
+commit 50133cafe334e7edb051037d44ccf45cd88acab8
+Author: biblepay <contact@biblepay.org>
+Date:   Mon Sep 18 16:43:52 2017 -0500
+
+    FILE PERM EXEC
+
+commit 450aec83522f9c95c297b8ae2d55f89e7e04e8e3
+Author: biblepay <contact@biblepay.org>
+Date:   Sun Sep 17 22:08:14 2017 -0500
+
+    1.0.3.9b-Non-Mandatory
+    
+    - Xeon tests
+
+commit 902db3764ab6f252354267a0528f53f8dcf4e5a0
+Author: biblepay <contact@biblepay.org>
+Date:   Sun Sep 17 14:24:26 2017 -0500
+
+    1.0.3.9-Non-Mandatory
+    
+    - Mining improvements for Windows
+
+commit 9f0a346b3a17a5fe7e6a40507d80a62be24bf651
+Author: biblepay <contact@biblepay.org>
+Date:   Sun Sep 17 08:48:01 2017 -0500
+
+    1.0.3.8-Non-Mandatory (Pre-Release)
+    
+    - Bench version for Windows Testing of alternate f7000 miner for testing
+    thread mutex (shared memory) lag
+
+commit 5311c43f28de7f3b76a8ae571a412cd3ef76ebce
+Author: biblepay <contact@biblepay.org>
+Date:   Sat Sep 16 08:27:56 2017 -0500
+
+    1.0.3.7-Non-Mandatory
+    
+    - Upgrade Pool Solution Post
+    - Add proposal serialize function for governance
+
+commit 634f36ad6d91cae81333199ba6a6e4ada75d1469
+Author: biblepay <contact@biblepay.org>
+Date:   Fri Sep 15 15:01:40 2017 -0500
+
+    1.0.3.6-Non-Mandatory
+    
+    - Fix internal pool error
+
+commit de1334b3375c17e349cbfa2a44c61d827aa7ee89
+Author: biblepay <contact@biblepay.org>
+Date:   Thu Sep 14 21:46:42 2017 -0500
+
+    1.0.3.5b-Non-Mandatory
+    
+    - Alleivate ReadBlockFromDisk error when transmitting a block
+
+commit c25f7f6238876b343724e2d395f1aba7885b268c
+Author: biblepay <contact@biblepay.org>
+Date:   Thu Sep 14 16:04:16 2017 -0500
+
+    1.0.3.5-Non-Mandatory
+    
+    - Prevent poolminers from dropping from pool
+    - Advertise OS to pool so we can make a pool report of OS flavor
+
+commit a6de98c7fac5affb45335b7a9ea02d1e0208bf49
+Author: biblepay <contact@biblepay.org>
+Date:   Wed Sep 13 13:50:37 2017 -0500
+
+    1.0.3.4-Mandatory Upgrade
+    
+    - Fix ST13 Error
+    - Fix f7000 Low-Subsidy based on High-Diff calculation
+    - Fix Pool banning issue
+    - Fix Read Disk error
+
+commit 6f7b99457e94a37662b767f67d621d54e2c0705f
+Author: biblepay <contact@biblepay.org>
+Date:   Wed Sep 13 11:03:48 2017 -0500
+
+    1.0.3.3-Mandatory Upgrade
+    
+    - Fix ST13 Error
+
+commit a706a9af843a5f24352de7f7ca6f93a61e52977d
+Author: biblepay <contact@biblepay.org>
+Date:   Wed Sep 13 08:26:52 2017 -0500
+
+    1.0.3.2-Mandatory Upgrade
+    
+    - Fix f7000 low-subsidy based on high-diff
+    - Fix pool banning issue
+    - Fix block readfrom disk error
+
+commit 8c9585d0340d6f574aec3b108dd225207735500a
+Author: biblepay <contact@biblepay.org>
+Date:   Mon Sep 11 12:43:58 2017 -0500
+
+    1.0.3.1-Mandatory Upgrade
+    
+    - Added checkpoint at block 7000
+    - Fix F7000 Sync problem
+
+commit 643bdb49935ed946c95c8661e5fff2fc94dd3472
+Author: biblepay <contact@biblepay.org>
+Date:   Sun Sep 3 09:35:16 2017 -0500
+
+    1.0.2.9 - Mandatory Upgrade
+    
+    - F7000 feature at block 7000 (Proof of BibleHash/Raising the Bar)
+    - Read the Bible UI fix (Help | Read the Bible)
+
+commit 1447efed702edb4033a2862a15f85679349719c5
+Author: biblepay <contact@biblepay.org>
+Date:   Fri Sep 1 20:21:42 2017 -0500
+
+    1.0.2.8-Non-Mandatory
+    
+    - Add threadsafe mutex for miner
+
+commit 0c0a6fc26fb49a52fa2e21dd9bc237bb1f31e2ea
+Author: biblepay <contact@biblepay.org>
+Date:   Thu Aug 31 13:51:06 2017 -0500
+
+    1.0.2.7-Non-Mandatory
+    
+    - Changed volatile bool to threadsafe map
+    - Added verse from Genesis to the Genesis block
+
+commit ad90d1a88346f37cf661ef6e16d5b70591b3d6ac
+Author: biblepay <contact@biblepay.org>
+Date:   Thu Aug 31 08:16:50 2017 -0500
+
+    1.0.2.6-Non-Mandatory
+    
+    - Feature to combine pool communications into one packet per node in
+    contrast to one packet per thread
+
+commit 550176ae340e298c53f79acf9e9dc3fb9a0cc72f
+Author: biblepay <contact@biblepay.org>
+Date:   Tue Aug 29 06:51:41 2017 -0500
+
+    1.0.2.5-Non-Mandatory
+    
+    - Fix bug in pool solution check RPC call
+
+commit 81b293ab7f72e7edb3061bb3754081d79174e116
+Author: biblepay <contact@biblepay.org>
+Date:   Mon Aug 28 12:54:09 2017 -0500
+
+    1.0.2.4b-Non-Mandatory
+    
+    - Fix bug in GetBibleHash RPC call
+
+commit 21dbbe1a18242ca0912961731fc25d5626fa50ab
+Author: biblepay <contact@biblepay.org>
+Date:   Mon Aug 28 12:52:30 2017 -0500
+
+    1.0.2.4-Non-Mandatory
+    
+    - Fix bug in GetBibleHash RPC call
+
+commit 3a8a8954450f52e79d24016ee55476625666c510
+Author: biblepay <contact@biblepay.org>
+Date:   Sun Aug 27 23:27:59 2017 -0500
+
+    1.0.2.3-Non-Mandatory
+    
+    - More efficient pool communications
+
+commit e200f18b61429c2ecfcb9eab99553693b17a46eb
+Author: biblepay <contact@biblepay.org>
+Date:   Thu Aug 24 09:28:07 2017 -0500
+
+    1.0.2.3-Non-Mandatory
+    
+    - Raise the bar to prevent offload to asic
+    - Require full node hashing by referencing txindex
+
+commit 4c98a27698a5945345531a495832f27376928c45
+Author: biblepay <contact@biblepay.org>
+Date:   Thu Aug 17 18:46:46 2017 -0500
+
+    1.0.2.2-Non-Mandatory
+    
+    - Adjustments for TestNet to remove x11 component, align block subsidy
+    and diff to be compatible with changes
+
+commit 9db2710f969b97f57fee8b67edbc5ccb7f080e42
+Author: biblepay <contact@biblepay.org>
+Date:   Wed Aug 16 21:29:48 2017 -0500
+
+    1.0.2.1d-Non-Mandatory
+    
+    - Anti-x-11 enhancement in testnet (diff display and diff component of
+    subsidy)
+
+commit 8353b7f5370e5ed47456c45267de58a8eb03d2e9
+Author: biblepay <contact@biblepay.org>
+Date:   Tue Aug 15 22:24:50 2017 -0500
+
+    1.0.2.1c-Non-Mandatory
+    
+    1.0.2.1c - Non-Mandatory Release
+    
+    - For upcoming mandatories rule @1350(testnet)||@7000(Prod), Testnet
+    features: test anti-block-clump retarget rule, slow_block_threshhold =
+    30 mins rule,
+    and lowering x11 difficulty by 300%, and ratio of x11:biblehashes in
+    getmininginfo
+    - In wallet Bible Reader (Help | Read Bible).  NOTE: You currently must
+    choose the Book after the page loads.
+    - Fixes for in-wallet pool-miner (fixes diminishing KHS)
+    - adjustment to getnetworkhasps
+
+commit 0f4d96a28f150846432b5d02848a9987f10efe9b
+Author: biblepay <contact@biblepay.org>
+Date:   Tue Aug 15 20:57:28 2017 -0500
+
+    1.0.2.1b-Non-Mandatory Release
+    
+    1.0.2.1b - Non-Mandatory Release
+    
+    - For upcoming mandatories rule @1350(testnet)||@7000(Prod), Testnet
+    features: test anti-block-clump retarget rule, slow_block_threshhold =
+    30 mins rule,
+    and lowering x11 difficulty by 300%, and ratio of x11:biblehashes in
+    getmininginfo
+    - In wallet Bible Reader (Help | Read Bible).  NOTE: You currently must
+    choose the Book after the page loads.
+    - Fixes for in-wallet pool-miner (fixes diminishing KHS)
+    - adjustment to getnetworkhasps
+
+commit 4691f73ef7c5cf02622f65fc4e856a92e686be5c
+Author: biblepay <contact@biblepay.org>
+Date:   Tue Aug 15 15:42:18 2017 -0500
+
+    1.0.2.1 - Non-Mandatory Release
+    
+    1.0.2.1 - Non-Mandatory Release
+    
+    - For upcoming mandatories rule @1350(testnet)||@7000(Prod), Testnet
+    features: test anti-block-clump retarget rule, slow_block_threshhold =
+    30 mins rule,
+    and lowering x11 difficulty by 300%, and ratio of x11:biblehashes in
+    getmininginfo
+    - In wallet Bible Reader (Help | Read Bible).  NOTE: You currently must
+    choose the Book after the page loads.
+    - Fixes for in-wallet pool-miner (fixes diminishing KHS)
+    - adjustment to getnetworkhasps
+
+commit 7bc311a35fbce35c7af2549eaef854393ba66d3e
+Author: biblepay <contact@biblepay.org>
+Date:   Sat Aug 12 22:50:00 2017 -0500
+
+    1.0.2.0f-Non-Mandatory (Mandatory for TestNet)
+    
+    - TestNet required updates
+    - TestNet Pool Mining enhancements
+
+commit 8a24b7298a704e912fe7179db7bfac9689b4d0a8
+Author: biblepay <contact@biblepay.org>
+Date:   Sat Aug 12 12:23:31 2017 -0500
+
+    1.0.2.0e-Non-Mandatory(PreRelease)
+    
+    - Enhancement for PoolMining in testnet
+
+commit b53ec8d5e35c7cb6258836ef8936bc4e048d07e1
+Author: biblepay <contact@biblepay.org>
+Date:   Fri Aug 11 19:15:38 2017 -0500
+
+    1.0.2.0d - Non-Mandatory
+    
+    - Enhancement to TestNet for Pool
+
+commit 3d6bcfdc165872da0abf3a687242d43588e2c549
+Author: biblepay <contact@biblepay.org>
+Date:   Fri Aug 11 18:56:18 2017 -0500
+
+    1.0.2.0c-Non-Mandatory
+    
+    - Testnet pool enhancement
+
+commit 4335582ecabe1f5bfd7b9c5f1e757af73866e6bc
+Author: biblepay <contact@biblepay.org>
+Date:   Fri Aug 11 18:21:31 2017 -0500
+
+    1.0.2.0b-Non-Mandatory (PreRelease)
+    
+    - Pool enhancement for testnet
+
+commit 8df91c18e30e28832e302a65ea68dd3d40bf4693
+Author: biblepay <contact@biblepay.org>
+Date:   Fri Aug 11 17:55:25 2017 -0500
+
+    1.0.2.0-Non-Mandatory (PreRelease)
+    
+    - Pool enhancement for thread safety (keeps miners from crashing when
+    pool mining)
+
+commit f257e257b11d77e312ff11cbe031109cae941b55
+Author: biblepay <contact@biblepay.org>
+Date:   Wed Aug 9 23:06:36 2017 -0500
+
+    1.0.1.9-Non-Mandatory (PreRelease)
+    
+    - Pool Mining enhancement for testnet to prevent pool miners from
+    crashing (global criticalsection added)
+
+commit 5fdd7c4be39042b690f668a223ac0603467af0cf
+Author: biblepay <contact@biblepay.org>
+Date:   Mon Aug 7 21:02:45 2017 -0500
+
+    1.0.1.9-Non_Mandatory (prerelease)
+    
+    - More efficient miner
+    - Miner crash prevention
+
+commit 94bea2dca2dcc06d5675a012a5246014e0ca2108
+Author: biblepay <contact@biblepay.org>
+Date:   Sun Aug 6 09:08:01 2017 -0500
+
+    1.0.1.8d-Non-Mandatory
+    
+    - Added pool debug info for testnet
+
+commit f1e46c6ae8b6d69c801c5eaa328ebc5f5910cf8f
+Author: biblepay <contact@biblepay.org>
+Date:   Sat Aug 5 21:48:36 2017 -0500
+
+    1.0.1.8c-Non-Mandatory
+    
+    - Pool enhancements for debugging in testnet
+
+commit 0439b65d6b2cc1f8735cf8d7fd024ab2f9b33ab1
+Author: biblepay <contact@biblepay.org>
+Date:   Sat Aug 5 16:00:28 2017 -0500
+
+    1.0.1.8b-Non-Mandatory
+    
+    - Enhancement to allow linux to compile pool feature
+
+commit d7e7d879edb0c8641eae9f3a95f4698769393b1a
+Author: biblepay <contact@biblepay.org>
+Date:   Sat Aug 5 11:14:41 2017 -0500
+
+    1.0.1.8-Non-Mandatory (Pre-Release)
+    
+    - Added Pool Mining support for TestNet
+
+commit 1fdb06b565bfad2a38951e0dc1d7cd8830e15a2b
+Author: biblepay <contact@biblepay.org>
+Date:   Fri Jul 28 18:56:09 2017 -0500
+
+    1.0.1.7
+    
+    BiblePay 1.0.1.7 - Non-Mandatory Release
+    
+    - Mining: Update hashmeter every 15 seconds to improve hash throughput;
+    made the miner more resilient; changed caption of networkhashps in
+    getmininginfo
+    - Blockchain: Added feature that keeps track of PoW solution Wallet
+    Version to allow us to see the % of the network on old wallet versions
+    - RPC: Added run versionreport (this shows the walletversions by percent
+    on the network but will not work until everyone upgrades), added
+    fullversion to getinfo
+    - Mining Crash: Added race condition prevention and handle one unhandled
+    condition that *may* have caused the mining thread to die (let us test
+    this first so as to isolate the problem)
+    - Logging: Removed a couple lines of SPAM from the logs
+
+commit ad0d65f2dbd9dfb1a4b6127b3dab8d0d88cba615
+Author: biblepay <contact@biblepay.org>
+Date:   Tue Jul 25 19:26:18 2017 -0500
+
+    1.0.1.6b-Mandatory
+    
+    BiblePay 1.0.1.6b - Mandatory Release
+    
+    - Added hashmeter to getmininginfo
+    - Added potential fix for crash-reboot issue
+    - Added Tithe Block Skip protection starting at block 500
+
+commit cc5210ddd113cd41af1b06a14aec86852b20e05b
+Author: biblepay <contact@biblepay.org>
+Date:   Tue Jul 25 17:02:39 2017 -0500
+
+    1.0.1.6-Non-Mandatory
+    
+    - Added hashmeter to getmininginfo
+    - Added potential fix for crash-reboot issue when mining
+
+commit 90faa2d570d113d4177f675a7299a0be13e02632
+Author: biblepay <rob@usglobaldata.com>
+Date:   Mon Jul 24 14:29:06 2017 -0500
+
+    1.0.1.5-Non-Mandatory
+    
+    - Added Ability to Utilize all of the Processor Power from BibleHashing
+    - Added Checkpoint
+    - Removed one line of spam
+
+commit 02bf8e6acb84d4e640c324830df717f614aa955c
+Author: biblepay <rob@usglobaldata.com>
+Date:   Sun Jul 23 18:09:22 2017 -0500
+
+    1.0.1.4b-Non-Mandatory
+    
+    Add basic build instructions for Linux.
+
+commit 5911d423a51cdb49787329f14053ef88b0cfc241
+Author: biblepay <rob@usglobaldata.com>
+Date:   Sun Jul 23 16:38:36 2017 -0500
+
+    1.0.1.4-Mandatory
+    
+    Adding checkpoint at block 7 for go-live.
+
+commit e80af24bb545328fe064176b8d442071f95b39cd
+Author: biblepay <contact@biblepay.us>
+Date:   Fri Jul 21 22:37:06 2017 -0500
+
+    1.0.1.3-BibleHash Enhancements
+    
+    Give the wallet the ability to free itself if the chain ever gets stuck
+    (after one hour).
+
+commit fd8db16748a8ae1e38d7bda5692353be00a14918
+Author: biblepay <contact@biblepay.us>
+Date:   Mon Jul 17 21:03:53 2017 -0500
+
+    v1.0
+    
+    - Initial Version

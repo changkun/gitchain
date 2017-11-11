@@ -1,0 +1,190 @@
+commit 3ab3d1976d2af5d4c02367331aefcbfda7324af8
+Author: BitConnect <bitconnect@tutanota.com>
+Date:   Thu Sep 21 16:18:35 2017 +0530
+
+    Create Readme.md
+
+commit f5c621bd2e25844274d439c2d495f8c99d7ab015
+Author: BitConnect <bitconnect@tutanota.com>
+Date:   Thu Sep 21 16:12:23 2017 +0530
+
+    Update readme.md
+
+commit 1d8e2cc4a6606a5cfbadce65c7b8aef9f4ffeed6
+Author: BitConnect <bitconnect@tutanota.com>
+Date:   Thu Sep 21 16:10:31 2017 +0530
+
+    Update readme.md
+
+commit c0327d4e5c27d7656e3df9f72eae1ce919d9329c
+Author: BitConnect <bitconnect@tutanota.com>
+Date:   Thu Sep 21 15:41:30 2017 +0530
+
+    Mac : New Version of bitconnect wallet
+    
+    - New design layout
+    - Solved technical bugs
+
+commit 2cddfa3e42b2cded33e558af54a4bdcd6def414a
+Author: BitConnect <bitconnect@tutanota.com>
+Date:   Thu Sep 21 15:36:24 2017 +0530
+
+    Window : New Version of bitconnect wallet
+    
+    - New design layout
+    - Solved technical bugs
+
+commit 2236ea21df7f22d30d3122c6db45249cd9cd3a41
+Author: BitConnect <bitconnect@tutanota.com>
+Date:   Thu Sep 21 15:29:53 2017 +0530
+
+    New Version of bitconnect wallet
+    
+    - New design Layout
+    - Solve technical bugs
+
+commit 56903e36f280dbdaed6289467d723200ced2415d
+Author: BitConnect <bitconnect@tutanota.com>
+Date:   Tue Sep 12 12:15:25 2017 +0530
+
+    Update main.cpp
+
+commit df7ba6bb9dfe6eebd7a71f6cbdb9ed72b658cba0
+Author: BitConnect <bitconnect@tutanota.com>
+Date:   Tue Sep 12 12:10:56 2017 +0530
+
+    Update main.h
+
+commit 74f628f35604be62017148500fa068843b73bdf7
+Author: BitConnect <bitconnect@tutanota.com>
+Date:   Sun Aug 27 11:33:53 2017 +0530
+
+    Update main.cpp
+
+commit 4cf9a1bce1772f344fed5d4d93724bb4df5975e0
+Author: BitConnect <bitconnect@tutanota.com>
+Date:   Sun Aug 27 11:27:14 2017 +0530
+
+    Update main.h
+
+commit a75b20e5924bd04fe4503471c6512dff5baed646
+Author: BitConnect <bitconnect@tutanota.com>
+Date:   Sun Aug 27 11:24:33 2017 +0530
+
+    Update main.cpp
+
+commit 73084c6c8df5d803dacbcef4274859cde983c0ba
+Author: BitConnect <bitconnect@tutanota.com>
+Date:   Fri Feb 10 11:53:47 2017 +0530
+
+    Update README.md
+
+commit c7f6fe13c5b7cd3b6edc984a503d242870fc9150
+Author: bitconnectcoin <bitconnect@tutanota.com>
+Date:   Fri Feb 10 10:27:21 2017 +0530
+
+    New design layout of bitconnect wallet
+
+commit 1e473da96d36dd181f2616536d51d65bf7f59052
+Author: bitconnectcoin <bitconnect@tutanota.com>
+Date:   Wed Feb 8 12:42:01 2017 +0530
+
+    Bitconnect mac wallet update
+
+commit d0fc93c8cf684cbbe37cb51c223625359527d62e
+Author: BitConnect <bitconnect@tutanota.com>
+Date:   Fri Feb 3 18:47:32 2017 +0530
+
+    Update readme.md
+
+commit a2eaefe657c24b35711861232018f052397b9d72
+Author: BitConnect <bitconnect@tutanota.com>
+Date:   Fri Feb 3 18:46:44 2017 +0530
+
+    Create readme.md
+
+commit 9f539b3b1bbdfd4bb1325b4b32468855ea614375
+Author: bitconnectcoin <bitconnect@tutanota.com>
+Date:   Fri Feb 3 18:34:31 2017 +0530
+
+    Bitconnect wallet setup files
+
+commit f0093a9cadd1552cc7319b727df3aed70d4cd76a
+Author: BitConnect <bitconnect@tutanota.com>
+Date:   Fri Feb 3 18:30:41 2017 +0530
+
+    Delete bitconnect-linux-qt.zip
+
+commit 82041128a95ff22ac4db37b3dd55d028f4e914eb
+Author: BitConnect <bitconnect@tutanota.com>
+Date:   Fri Feb 3 18:22:41 2017 +0530
+
+    Update readme.md
+
+commit b89301987da87a8550c3b76e3be70e44b68bc53c
+Author: BitConnect <bitconnect@tutanota.com>
+Date:   Fri Feb 3 18:19:16 2017 +0530
+
+    bitconnect wallet for linux OS
+
+commit 554797cf0ddd5680faa0f17495e3262c9d3b2ec4
+Author: BitConnect <bitconnect@tutanota.com>
+Date:   Fri Feb 3 17:56:52 2017 +0530
+
+    Latest design of bitconnect-qt
+    
+    Created attractive design of bitconnect window wallet.
+
+commit 3017528f5e970049e583c3ba1a87e7b0cd0bd730
+Author: BitConnect <bitconnect@tutanota.com>
+Date:   Fri Feb 3 17:45:06 2017 +0530
+
+    Delete Old design of window bitconnect-qt
+
+commit 45db043dc30eed4a6bc76fb60d03050735313e67
+Author: BitConnect <bitconnect@tutanota.com>
+Date:   Mon Jan 23 10:08:59 2017 +0530
+
+    Update README.md
+
+commit b85c84a25b077a4510dc5f7ccd2b61b02576befb
+Author: BitConnect <bitconnect@tutanota.com>
+Date:   Sat Dec 31 13:20:41 2016 +0530
+
+    Create ReadMe.md
+
+commit 567cc92675566d10990f30a8fb7cf98f485dfb60
+Author: BitConnect <bitconnect@tutanota.com>
+Date:   Sat Dec 31 13:12:23 2016 +0530
+
+    Update readme.md
+
+commit 14469dc77451e9a7b4d85d030a8c72fb1cfe8b05
+Author: BitConnect <bitconnect@tutanota.com>
+Date:   Sat Dec 31 13:05:56 2016 +0530
+
+    Create readme.md
+
+commit 94ca644f86c70caf62c58b873fd376a0354f0d66
+Author: bitconnectcoin <bitconnect@tutanota.com>
+Date:   Sat Dec 31 12:51:16 2016 +0530
+
+    Bitconnect wallet, miner and deamon setup files
+
+commit 0634dbff36acbca93dfb5d456bab8c24d5dae8c3
+Author: bitconnectcoin <bitconnect@tutanota.com>
+Date:   Sat Dec 31 12:44:18 2016 +0530
+
+    Bitconnect Coin Project
+
+commit a16d21eda9199f1a56df4ab04a709dd4fe1d2640
+Author: bitconnectcoin <bitconnect@tutanota.com>
+Date:   Sat Dec 31 12:42:16 2016 +0530
+
+    readme
+
+commit 1062d84713efdd5e0bb242d65517202d052faa25
+Author: BitConnect <bitconnect@tutanota.com>
+Date:   Sat Dec 31 12:39:58 2016 +0530
+
+    Create README.md

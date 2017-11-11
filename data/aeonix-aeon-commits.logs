@@ -1,0 +1,1459 @@
+commit 2c6f125f1ac2eec7c85aade81d5c348391e2c0c2
+Merge: 25a25d0 5b87332
+Author: aeonix <aeon.coin@gmail.com>
+Date:   Sat Oct 7 15:59:18 2017 -0700
+
+    Merge pull request #104 from iamsmooth/master
+    
+    Fee multipler, restricted RPC fix, update version
+
+commit 5b873329bb9c3f4af2c013a05eaaa920bbe35232
+Author: iamsmooth <iamjaviersmooth@gmail.com>
+Date:   Sat Oct 7 22:47:54 2017 +0000
+
+    Update version
+
+commit 03d9148d3596939ef0c61949ae546fdf16d998b3
+Author: iamsmooth <iamjaviersmooth@gmail.com>
+Date:   Sat Oct 7 22:06:18 2017 +0000
+
+    Fix for restricted RPC
+
+commit fb1f1589f5aed136b885c62d75fa172e22eb62af
+Author: iamsmooth <iamjaviersmooth@gmail.com>
+Date:   Sat Oct 7 21:24:59 2017 +0000
+
+    Add fee multiplier feature to simplewallet
+
+commit 25a25d08f37ba16505b3f612132f8adf7f32acaa
+Merge: 274522d ff954f5
+Author: aeonix <aeon.coin@gmail.com>
+Date:   Sat Oct 7 01:40:09 2017 -0700
+
+    Merge pull request #102 from xmr-eric/patch-1
+    
+    Normalize heading capitalization in Readme.md
+
+commit ff954f5a6b5342b2e35313e49a7c21f0af372146
+Author: xmr-eric <xmr-eric@users.noreply.github.com>
+Date:   Fri Oct 6 15:34:59 2017 -0400
+
+    Normalize heading capitalization in Readme.md
+
+commit 274522d05cb13bada1f5a7a3c5134038a87891f0
+Merge: dc3e0d4 04c3798
+Author: aeonix <aeon.coin@gmail.com>
+Date:   Fri Oct 6 02:53:04 2017 -0700
+
+    Merge pull request #93 from xmr-eric/patch-1
+    
+    Make Aeon.cash a link
+
+commit 04c3798d53f5795ec6ec5eadd3a231b926dc350c
+Author: xmr-eric <xmr-eric@users.noreply.github.com>
+Date:   Thu Oct 5 15:35:32 2017 -0400
+
+    Readd "Other license info" section
+
+commit dc3e0d4935be5687b6e077f3f526342b01c788e1
+Merge: 3f890c7 1449067
+Author: aeonix <aeon.coin@gmail.com>
+Date:   Thu Oct 5 03:16:19 2017 -0700
+
+    Merge pull request #86 from wang-gretzky/master
+    
+    fix build on musl libc systems
+
+commit 61b4c8104f192d2dcd413b239c1644b4584518d0
+Author: xmr-eric <xmr-eric@users.noreply.github.com>
+Date:   Sun Oct 1 22:34:00 2017 -0400
+
+    Make Aeon.cash a link, remove redundant license
+
+commit 3f890c7cf4739e339a0f2039761f7c38b615d130
+Merge: 76b60da 18a8c24
+Author: aeonix <aeon.coin@gmail.com>
+Date:   Sun Oct 1 03:44:49 2017 -0700
+
+    Merge pull request #90 from iamsmooth/master
+    
+    Add deployment note about controlling access to wallet RPC port
+
+commit 18a8c24f1f8ac26db35e29d214af6ece3db68a33
+Author: iamsmooth <iamjaviersmooth@gmail.com>
+Date:   Sun Oct 1 10:43:31 2017 +0000
+
+    Add deployment note about controlling access to wallet RPC port
+
+commit 76b60da99b9451538ae14f62e6eb620a6bf4847b
+Merge: 831edec 012d89f
+Author: aeonix <aeon.coin@gmail.com>
+Date:   Sun Oct 1 03:31:17 2017 -0700
+
+    Merge pull request #87 from LesPristy/master
+    
+    Add "restricted-rpc" command line option
+
+commit 831edece00bb2a3c075c6cbcee51d08f971da9cb
+Merge: 333a4fe 85cbd5a
+Author: aeonix <aeon.coin@gmail.com>
+Date:   Sun Oct 1 03:29:42 2017 -0700
+
+    Merge pull request #89 from iamsmooth/master
+    
+    Add manual cmake build instructions, fix diff command hashrate display
+
+commit 85cbd5a0def6523839c882a4642ce07d97300082
+Author: iamsmooth <iamjaviersmooth@gmail.com>
+Date:   Sun Oct 1 10:27:37 2017 +0000
+
+    Fix incorrect hash rate displayed by diff command
+
+commit 661638879022d05c30363193c2357ce208799588
+Author: iamsmooth <iamjaviersmooth@gmail.com>
+Date:   Sun Oct 1 01:19:15 2017 +0000
+
+    Add manual cmake build instructions
+
+commit 012d89f717d3d40672a5af15e63f675181e2b086
+Author: LesPristy <LesPristy@users.noreply.github.com>
+Date:   Sat Sep 30 17:55:52 2017 -0400
+
+    remove incorrect code
+
+commit 144906770e07a1524e507ff0f3aed54704a9f052
+Author: Lee Wang <lee.wang.gretzky@gmail.com>
+Date:   Sat Sep 30 20:17:48 2017 +0000
+
+    fix build on musl libc systems
+
+commit a827fdb1b7247e0b1861b66f7de6c4143806c52e
+Author: LesPristy <LesPristy@users.noreply.github.com>
+Date:   Sat Sep 30 17:20:14 2017 -0400
+
+    namespace edit
+
+commit f3a493813a0b82b11116083afad2993373618f7a
+Author: LesPristy <LesPristy@users.noreply.github.com>
+Date:   Sat Sep 30 17:03:55 2017 -0400
+
+    arg_restricted_rpc
+
+commit 3b983b59745d3468b7afaa5efa9bd03a8a33fd61
+Author: LesPristy <LesPristy@users.noreply.github.com>
+Date:   Sat Sep 30 16:52:51 2017 -0400
+
+    Update for restricted RPC
+
+commit 84c13fe54e37de4d0da94b096f18b20fdccf0fd0
+Author: LesPristy <LesPristy@users.noreply.github.com>
+Date:   Sat Sep 30 16:04:40 2017 -0400
+
+    Restricted RPC
+
+commit 5b8dc7a37dc30eb581c7337c93742a342c67151a
+Author: LesPristy <LesPristy@users.noreply.github.com>
+Date:   Sat Sep 30 15:51:59 2017 -0400
+
+    m_restricted
+
+commit 1c963cf4d9f4488d15431a1fa846045afe351513
+Author: LesPristy <LesPristy@users.noreply.github.com>
+Date:   Sat Sep 30 15:35:59 2017 -0400
+
+    Restricted RPC option
+
+commit 333a4fe989ba8270b7100795f8259e4ad31a1d30
+Merge: 5f6845f f580bd3
+Author: aeonix <aeon.coin@gmail.com>
+Date:   Sat Sep 30 02:43:13 2017 -0700
+
+    Merge pull request #84 from iamsmooth/master
+    
+    Update version
+
+commit f580bd3f8a33f83d05fa3288fea3aa7635143de0
+Author: iamsmooth <iamjaviersmooth@gmail.com>
+Date:   Sat Sep 30 00:54:28 2017 +0000
+
+    Update version
+
+commit 5f6845f85d888cb68554aaa6797029d12f0c829e
+Merge: a9478d3 06d72c3
+Author: aeonix <aeon.coin@gmail.com>
+Date:   Fri Sep 29 17:07:38 2017 -0700
+
+    Merge pull request #83 from iamsmooth/master
+    
+    Update checkpoint and README
+
+commit 06d72c33c9c5abb05bb19f8d406c6b8aa91b1f38
+Author: iamsmooth <iamjaviersmooth@gmail.com>
+Date:   Fri Sep 29 21:53:34 2017 +0000
+
+    Rename README
+
+commit 513023f0f976336f8c2a92ceae5ced0572c90295
+Author: iamsmooth <iamjaviersmooth@gmail.com>
+Date:   Fri Sep 29 21:51:01 2017 +0000
+
+    Update README
+
+commit e613a68cca74345b8d865ec405c4d8bbec425b69
+Author: iamsmooth <iamjaviersmooth@gmail.com>
+Date:   Fri Sep 29 21:50:47 2017 +0000
+
+    Update checkpoint
+
+commit a9478d319c7b57b61dfbe12f220c8ebf008d2d2c
+Merge: 8ec130c 10f9ef5
+Author: aeonix <aeon.coin@gmail.com>
+Date:   Fri Sep 29 13:16:56 2017 -0700
+
+    Merge pull request #82 from iamsmooth/master
+    
+    Add missing wallet command to retrieve spend key
+
+commit 10f9ef5d0799a68eaea272ed131c1b904391be82
+Author: iamsmooth <iamjaviersmooth@gmail.com>
+Date:   Fri Sep 29 13:13:51 2017 +0000
+
+    Add missing wallet command to retrieve spend key
+
+commit 8ec130c31ee7c7cdec4514de5aaeeb8fe9c2810c
+Merge: eda45db f7d16d3
+Author: aeonix <aeon.coin@gmail.com>
+Date:   Fri Sep 29 04:59:52 2017 -0700
+
+    Merge pull request #81 from iamsmooth/master
+    
+    Merge upstream fix from Monero, QCN for exceptions while refreshing in rpc wallet
+
+commit f7d16d3917e7ac88fe5bc7c68b02afd83b536da2
+Author: Sammy Libre <sammy007@users.noreply.github.com>
+Date:   Sat Nov 1 11:30:53 2014 +0500
+
+    Exception handling while refreshing in rpc wallet (credits to QCN)
+
+commit eda45db03623c749ada5d6d4dfd3221146216a83
+Merge: d148aaa 96168a8
+Author: aeonix <aeon.coin@gmail.com>
+Date:   Fri Sep 29 01:58:33 2017 -0700
+
+    Merge pull request #67 from stoffu/build-fix
+    
+            fix for ArchLinux: avoid fallthru warning in base58.cpp
+
+commit d148aaa3ab4cd529147cb1348611e5520afafc38
+Merge: 9f04c3a 9b05f70
+Author: aeonix <aeon.coin@gmail.com>
+Date:   Fri Sep 29 01:55:32 2017 -0700
+
+    Merge pull request #77 from stoffu/oaes-lib
+    
+    crypto: oaes_lib: remove unused _NR array
+
+commit 9f04c3ae28939db74dae12e22d8b48c2a28a0144
+Merge: 9d92ac9 b2a5a5c
+Author: aeonix <aeon.coin@gmail.com>
+Date:   Tue Sep 26 11:33:51 2017 -0700
+
+    Merge pull request #78 from stoffu/rpc-getblocktemplate
+    
+    rpc getblocktemplate: get upstream change from monero
+
+commit b2a5a5c3d95020c89ab91a99cccbdb8ec944fd9e
+Author: stoffu <stoffu@protonmail.ch>
+Date:   Mon Sep 11 20:04:46 2017 +0900
+
+    rpc getblocktemplate: get upstream change from monero
+
+commit 9b05f7012906a52f350c4de12525ce485f056c1b
+Author: stoffu <stoffu@protonmail.ch>
+Date:   Mon Sep 11 14:05:41 2017 +0900
+
+    crypto: oaes_lib: remove unused _NR array
+
+commit 96168a89c6670b40312a8a5718b2ee8b139ba6c2
+Author: stoffu <stoffu@protonmail.ch>
+Date:   Sun Sep 10 15:27:47 2017 +0900
+
+    fix for ArchLinux: no fallthru in base58.cpp
+
+commit 9d92ac99e92c69a10fdf7e6b67184d62db95a500
+Merge: 92ad08e f6a4ce1
+Author: aeonix <aeon.coin@gmail.com>
+Date:   Wed Sep 6 23:42:45 2017 -0700
+
+    Merge pull request #74 from stoffu/rpc-port
+    
+    simplewallet: default daemon rpc port is 11181
+
+commit f6a4ce1410f29ed4731f64e29e1ea95b4484f646
+Author: stoffu <stoffu@protonmail.ch>
+Date:   Fri Sep 1 18:38:16 2017 +0900
+
+    simplewallet: default daemon rpc port is 11181
+
+commit 92ad08e480db9bd3eaec00941d4ab17910da61ba
+Merge: b6225ff ffa43ee
+Author: aeonix <aeon.coin@gmail.com>
+Date:   Tue Jun 13 06:39:45 2017 -0700
+
+    Merge pull request #65 from stoffu/build-fix
+    
+    removed unused variable
+
+commit ffa43ee78321fee02a212291df4b3d3c17afc684
+Author: stoffu <stoffu@protonmail.ch>
+Date:   Thu Jun 8 15:03:50 2017 +0900
+
+    removed unused variable
+
+commit b6225ffd48ee987c96178032dd9987144b75d55b
+Merge: 0077b2e 20c9f1b
+Author: aeonix <aeon.coin@gmail.com>
+Date:   Tue May 23 00:57:04 2017 -0700
+
+    Merge pull request #60 from stoffu/appveyor
+    
+    Fix for Windows build (on AppVeyor)
+
+commit 20c9f1b7b06609250a086e32ff896aebea0fa093
+Author: stoffu <stoffu@protonmail.ch>
+Date:   Wed May 3 00:37:38 2017 +0900
+
+    don't build upnpc-static.exe as in Monero
+
+commit 12e2a94675f7709de33555177cabbdd898709234
+Author: stoffu <stoffu@protonmail.ch>
+Date:   Tue May 2 23:19:52 2017 +0900
+
+    commented out problematic #define constexpr
+
+commit 0077b2e0f6c3a47bdec2d66ef2e3b1f4ba5ec447
+Merge: c6e80cb 6d3223a
+Author: aeonix <aeon.coin@gmail.com>
+Date:   Sun Apr 23 00:37:38 2017 -0700
+
+    Merge pull request #58 from iamsmooth/master
+
+commit 6d3223ac9b08830ac9f188a173d70c1ef64397a5
+Author: iamsmooth <iamjaviersmooth@gmail.com>
+Date:   Fri Apr 21 12:32:33 2017 +0000
+
+    update version
+
+commit 1dd79653208c3cb5fffc2e8cf6d7180a460173d4
+Author: iamsmooth <iamjaviersmooth@gmail.com>
+Date:   Fri Apr 21 08:22:50 2017 +0000
+
+    disable relay of tx with legacy fee
+
+commit 57ff3e83f1a9824de82dd19a2d9651b7f96d4857
+Author: iamsmooth <iamjaviersmooth@gmail.com>
+Date:   Fri Apr 21 06:23:16 2017 +0000
+
+    prioritize transactions by fee/byte
+
+commit c6e80cb921ec41bd6067c39f382e51ba30216bc8
+Merge: feaa117 05edba3
+Author: aeonix <aeon.coin@gmail.com>
+Date:   Tue Apr 18 05:27:26 2017 -0700
+
+    Merge pull request #56 from iamsmooth/master
+    
+    add option to disable automatic blockchain saving
+
+commit 05edba3de78743fac9557f1cede0b6f8f6161a3c
+Author: iamsmooth <iamjaviersmooth@gmail.com>
+Date:   Tue Apr 18 12:24:17 2017 +0000
+
+    add option to disable automatic blockchain saving
+
+commit feaa1170b73c7d751c44ec22a111016ead728ce4
+Merge: 29f4bc0 d6460d4
+Author: aeonix <aeon.coin@gmail.com>
+Date:   Wed Apr 5 15:24:16 2017 -0700
+
+    Merge pull request #55 from Arux-BTT/visual_studio_14_2015_win64
+    
+    Visual studio 14 2015 win64
+
+commit d6460d49112140c8d90f47015c7855e7234eb4a3
+Author: Arux <arnocoin@gmx.fr>
+Date:   Wed Apr 5 14:59:55 2017 +0200
+
+    fix wrong define flag in cmake
+    a define changed in the miniupnpc library (MINIUPNP_STATICLIB instead of STATICLIB)and windows build was unable to complete (error LNK2019: unresolved external symbol)
+    see https://github.com/miniupnp/miniupnp/commit/f6774e33169b3101c3a242984510c9b6da033e26
+
+commit 8ccb64c7c56c9eea09fc8b6aa244c1138e3d2a08
+Author: Arux <arnocoin@gmx.fr>
+Date:   Wed Apr 5 14:05:37 2017 +0200
+
+    fix miniupnpc cmakelist (winsock2 and iphlapi are not found)
+    winsock2 and iphlapi are not found by find_library (a path must be missing somewhere) on windows
+    while waiting for a better automated solution, setting the variables by hand is acceptable
+    see https://github.com/monero-project/monero/commit/2c82eb71e7296823447b61069c8e917e468fbd8a
+
+commit 29f4bc0f84bae5dd6de88a0cf908dbec9ea5e634
+Merge: 1c1efd2 155796a
+Author: aeonix <aeon.coin@gmail.com>
+Date:   Wed Apr 5 00:07:50 2017 -0700
+
+    Merge pull request #54 from iamsmooth/master
+    
+    Fix incoming_tx_lock deadlock introduced by 0.9.9.0
+
+commit 155796a7dd03a7df4c85eff4c27af8962c632874
+Author: iamsmooth <iamjaviersmooth@gmail.com>
+Date:   Wed Apr 5 07:05:49 2017 +0000
+
+    update version
+
+commit d5ba9661f4bfe432ba4c25115fff1368f79d6213
+Author: iamsmooth <iamjaviersmooth@gmail.com>
+Date:   Wed Apr 5 07:04:49 2017 +0000
+
+    Fix for incoming_tx_lock deadlock introduced in 0.9.9.0
+
+commit 1c1efd235ed5d5d51ef62b69fc4c3db70a5d4f3b
+Merge: a5f9beb f650d94
+Author: aeonix <aeon.coin@gmail.com>
+Date:   Mon Apr 3 21:58:38 2017 -0700
+
+    Merge pull request #51 from iamsmooth/master
+    
+    0.9.10.0 updates
+
+commit f650d9447352cd591e0bbfc3c5fc129643bac210
+Author: iamsmooth <iamjaviersmooth@gmail.com>
+Date:   Tue Apr 4 04:55:29 2017 +0000
+
+    update version
+
+commit 788b4926db79840a3d25c32e8c4e183d1ba4c02d
+Author: redfish <redfish@galactica.pw>
+Date:   Tue Jun 21 19:36:26 2016 -0400
+
+    contrib: epee: add missing noexcept spec to class decl
+    
+    The noexcept specs were added to make GCC 6.1.1 happy (#846), but this
+    one was missing (because GCC did not complain about it on Linux, but
+    does complain on OSX).
+
+commit 06378914762586ce2d978859ec979404d699330f
+Author: iamsmooth <iamjaviersmooth@gmail.com>
+Date:   Mon Apr 3 10:56:19 2017 +0000
+
+    take locks more narrowly; avoid I/O with lock
+
+commit 43406c13a27a037a2c659c984c4f5067b207dc09
+Author: iamsmooth <iamjaviersmooth@gmail.com>
+Date:   Mon Apr 3 10:51:24 2017 +0000
+
+    Avoid theoretical (unlikely) deadlock
+
+commit a5f9beba41f76ef1f3e79af4398b9b3cf9388704
+Merge: 373e063 b573ddd
+Author: aeonix <aeon.coin@gmail.com>
+Date:   Wed Mar 29 04:02:07 2017 -0700
+
+    Merge pull request #49 from iamsmooth/master
+    
+    fixes, bump version
+
+commit b573ddd269164f228996a3a4e17c2fa293217b8c
+Author: iamsmooth <iamjaviersmooth@gmail.com>
+Date:   Tue Mar 28 21:13:57 2017 -0700
+
+    update release number
+
+commit 2ae96f1be6fb323043a3e533ff00899534142d0f
+Author: iamsmooth <iamjaviersmooth@gmail.com>
+Date:   Tue Mar 28 18:36:34 2017 -0700
+
+    Stability fixes
+
+commit 373e06308e210789f807a43a288d6e06ed6dc25f
+Merge: 76026e8 6119365
+Author: aeonix <aeon.coin@gmail.com>
+Date:   Sat Mar 25 00:21:34 2017 -0700
+
+    Merge pull request #47 from Arux-BTT/miniupnpc201703013
+    
+    Miniupnpc201703013
+
+commit 6119365c373acfafc4bfcbb28eaa36cbed21e1f4
+Author: Arux-BTT <arnocoin@gmx.fr>
+Date:   Tue Mar 14 22:32:46 2017 +0100
+
+    crypto: fix compile error: use named type in sizeof
+    
+    Btw, the warning 4200 remains disabled, but it did not get triggered
+    (GCC 6.1.1, ARM). But, perhaps a better way than disabling
+    the warning would be to do what is suggested here:
+    http://stackoverflow.com/questions/3350852/how-to-correctly-fix-zero-sized-array-in-struct-union-warning-c4200-without%3E
+    see monero-project/monero@6462a3a
+
+commit 327558b7fea82e3cf8eb2f4c66c61c2dd724b38f
+Author: Arux-BTT <arnocoin@gmx.fr>
+Date:   Tue Mar 14 22:30:44 2017 +0100
+
+    contrib: epee: add exception spec to throwing destructors
+    
+    The destructors get a noexcept(true) spec by default, but these
+    destructors in fact throw exceptions. An alternative fix might be to not
+    throw (most if not all of these throws are non-essential
+    error-reporting/logging).
+    see monero-project/monero@c2d7300
+
+commit 5b5d91018ec1ea3fbb7f57f9c49e900bfdc9ff7d
+Author: Arux-BTT <arnocoin@gmx.fr>
+Date:   Tue Mar 14 22:26:53 2017 +0100
+
+    miniupnpc: fix compil Update to compile with latest miniupnpc
+    
+    upnpDiscover() takes a new argument for TTL.
+    Use the suggested default of 2.
+    
+    see monero-project/monero@ee27559
+
+commit 4a94b67ad6fab78d9cf9eddc49504fb2f9147a2d
+Author: Arux-BTT <arnocoin@gmx.fr>
+Date:   Tue Mar 14 22:01:15 2017 +0100
+
+    miniupnpc: update CMakeList.txt to fix compilation
+    upnpc library is now called libminiupnpc-static (instead of upnpc-static)
+
+commit a10fb86d8cc1089a8b388fb5662895b245c60f00
+Author: Arux-BTT <arnocoin@gmx.fr>
+Date:   Tue Mar 14 20:41:27 2017 +0100
+
+    miniupnpc: manual merge
+    given that miniupnpc is part of miniupnp repo, you cannot use submodule to update only upnpc folder.
+    manual merge is not a perfect solution but it's required in this case
+    so miniupnpc is now up to date as of today (https://github.com/miniupnp/miniupnp commit e6ed3c5b8af83bb2e81f85d923da3e82abfbbc75 on Mar 13, 2017)
+
+commit 76026e82aff66b867a6456f55446f9c857e31027
+Merge: 244eb01 a677dbb
+Author: aeonix <aeon.coin@gmail.com>
+Date:   Fri Mar 10 01:26:22 2017 -0800
+
+    Merge pull request #45 from ladyencrypt/patch-1
+    
+    simplewallet typo correction
+
+commit a677dbb9dd79348905212bd10ef2fe64f7e2257d
+Author: ladyencrypt <freshprince@tuta.io>
+Date:   Wed Mar 8 05:46:58 2017 +0000
+
+    Update simplewallet.cpp
+    
+    typo correction
+
+commit 244eb01b47c1ebc40f8777b93a236a8477ca2c88
+Merge: 554b378 9f9fc2d
+Author: aeonix <aeon.coin@gmail.com>
+Date:   Mon Mar 6 20:36:09 2017 -0800
+
+    Merge pull request #44 from iamsmooth/master
+    
+    add check_tx command for tx confirmation checking
+
+commit 9f9fc2d176445826692c7e036a88764604845ad4
+Author: iamsmooth <iamjaviersmooth@gmail.com>
+Date:   Mon Mar 6 20:33:42 2017 -0800
+
+    add check_tx command for tx confirmation checking
+
+commit 554b378f1ba8d08477298941762af643e3c85be2
+Merge: 4a1bc79 995664e
+Author: aeonix <aeon.coin@gmail.com>
+Date:   Sat Mar 4 01:07:25 2017 -0800
+
+    Merge pull request #43 from iamsmooth/master
+    
+    Fix for block 798358 failure
+
+commit 995664efb0d5bdb8b2dcf83f999d20ed5934a50d
+Author: iamsmooth <iamjaviersmooth@gmail.com>
+Date:   Sat Mar 4 01:02:58 2017 -0800
+
+    update version
+
+commit c051d0f79f0e396edddb3715ba85b16ef06215c1
+Author: iamsmooth <iamjaviersmooth@gmail.com>
+Date:   Fri Mar 3 23:26:42 2017 -0800
+
+    update checkpoint
+
+commit 4e9831abcfc3b5a27f85aeeb476f21210e32a408
+Author: iamsmooth <iamjaviersmooth@gmail.com>
+Date:   Fri Mar 3 20:43:05 2017 -0800
+
+    remove key images when purging stuck tx fix from monero (warptangent)
+
+commit e7748c81a9fe7c7d2025df5c098a30dda7633cf9
+Author: iamsmooth <iamjaviersmooth@gmail.com>
+Date:   Fri Mar 3 20:37:45 2017 -0800
+
+    reject attempt to store tx with mismatched tx_id key
+    failed alt chain reorg fix from monero (moneromooo)
+
+commit 4a1bc795a006cc53b893d8ea62331d318261a759
+Merge: 3c3462f 070a3fe
+Author: aeonix <aeon.coin@gmail.com>
+Date:   Sun Feb 26 12:20:17 2017 -0800
+
+    Merge pull request #41 from sammy007/osx
+    
+    Fix warnings for OSX
+
+commit 070a3fe4c04fdeb4ce5322110216fe2832b2e3d8
+Author: Sammy Libre <sammy007@users.noreply.github.com>
+Date:   Sun Feb 26 07:41:01 2017 +0500
+
+    Set osx specific warnings
+
+commit 3c3462f72cc6e623bd694382b2df824019227377
+Merge: 198c841 ea6f1df
+Author: aeonix <aeon.coin@gmail.com>
+Date:   Thu Feb 23 21:47:06 2017 -0800
+
+    Merge pull request #40 from iamsmooth/master
+    
+    fix coretests build
+
+commit ea6f1dfb81a76a5b82bb1069f945ba2d628859e7
+Author: iamsmooth <iamjaviersmooth@gmail.com>
+Date:   Thu Feb 23 21:45:21 2017 -0800
+
+    fix coretests build
+
+commit 198c84175e3cc1a49eecd6461c79d10630b7863d
+Merge: d54e0bb 93807c4
+Author: aeonix <aeon.coin@gmail.com>
+Date:   Thu Feb 23 16:22:49 2017 -0800
+
+    Merge pull request #39 from iamsmooth/master
+    
+    update version string
+
+commit 93807c4162b3addb94bb9bee1bbef0a38edf416b
+Author: iamsmooth <iamjaviersmooth@gmail.com>
+Date:   Thu Feb 23 16:21:28 2017 -0800
+
+    update version string
+
+commit d54e0bbaaa7ddc695147842f0757bbfa6faba4b9
+Merge: f4c3ff3 0703441
+Author: aeonix <aeon.coin@gmail.com>
+Date:   Thu Feb 23 15:31:34 2017 -0800
+
+    Merge pull request #38 from iamsmooth/master
+    
+    fixes, ringct
+
+commit 0703441791d89618376ccfbe31b503a74bb87d96
+Author: iamsmooth <iamjaviersmooth@gmail.com>
+Date:   Thu Feb 23 15:21:27 2017 -0800
+
+    preliminary ringct integration (not yet functional), merge upstream fixes
+
+commit d96950d37af6629ae7f4332a75335f1b40584c12
+Author: Javier Smooth <iamjaviersmooth@gmail.com>
+Date:   Sat Jan 9 00:33:40 2016 -0800
+
+    More efficient portable 64x64 multiplication
+
+commit f4c3ff3e4e189aa79f0b34a1cba8c363ba3be71a
+Merge: 9a150d2 aaf5ac4
+Author: aeonix <aeon.coin@gmail.com>
+Date:   Mon Dec 21 02:42:44 2015 -0800
+
+    Merge pull request #30 from iamsmooth/master
+    
+    add --no-igd option to disable UPnP, originally from rfree2monero
+
+commit aaf5ac446d2547feb5753762c34acac2d4c02bd2
+Author: Javier Smooth <iamjaviersmooth@gmail.com>
+Date:   Mon Dec 21 02:38:45 2015 -0800
+
+    add --no-igd option to disable UPnP, originally from rfree2monero
+
+commit 9a150d295d1a2f97a53974222ccf87a96a582e38
+Merge: a3a2009 5e08db9
+Author: aeonix <aeon.coin@gmail.com>
+Date:   Wed Nov 4 23:38:14 2015 -0800
+
+    Merge pull request #29 from iamsmooth/master
+    
+    transaction fixes and version bump
+
+commit 5e08db9a040bdc5bb5c916b6c7a8509d1d648844
+Author: Javier Smooth <iamjaviersmooth@gmail.com>
+Date:   Wed Nov 4 23:25:17 2015 -0800
+
+    Bump version
+
+commit 140a1db71cf2df17440dd897cd1d9b1bac299d52
+Author: Javier Smooth <iamjaviersmooth@gmail.com>
+Date:   Wed Nov 4 23:22:40 2015 -0800
+
+    Do not create transactions larger than the size of the penalty free zone
+    In order to observe block size pressure due to transactions volumes, it is
+    helpful to keep individual transaction sizes somewhat smaller so multiple
+    transactions are more likely to be packed into a block.
+
+commit f3f09bde9888507f9769eb4e2dddc5c9d15e81b6
+Author: Javier Smooth <iamjaviersmooth@gmail.com>
+Date:   Mon Oct 12 06:38:31 2015 -0700
+
+    Use DEFAULT_TX_SPENDABLE_AGE rather than CRYPTONOTE_MINED_MONEY_UNLOCK_WINDOW for mixin selection
+
+commit a3a20096cc39aae424482ef3a144c25419c1ee76
+Merge: 2f44c09 beafc79
+Author: aeonix <aeon.coin@gmail.com>
+Date:   Fri Oct 9 15:05:31 2015 -0700
+
+    Merge pull request #27 from iamsmooth/master
+    
+    remove unused decl, buffer overflow fix, version bump
+
+commit beafc79d0a09de845a9fd249e07aa41dd5719ad7
+Author: Javier Smooth <iamjaviersmooth@gmail.com>
+Date:   Fri Oct 9 14:53:55 2015 -0700
+
+    Version bump
+
+commit a8f9a538e96d25fae783151d6c3bb991bf12bb11
+Author: moneromooo-monero <moneromooo-monero@users.noreply.github.com>
+Date:   Fri Oct 9 15:17:21 2015 +0100
+
+    miniupnpc: quick fix for buffer overflow
+    
+    http://talosintel.com/reports/TALOS-2015-0035/
+    
+    reported by palexander on IRC
+
+commit 3525ea52ab101ee2e39992848d3dc25e24eb097f
+Author: Javier Smooth <iamjaviersmooth@gmail.com>
+Date:   Sat Sep 26 00:57:17 2015 -0700
+
+    Cleanup: remove unused declaration (credit tewinget/Monero)
+
+commit 2f44c0917afa1fd74d7308a9472487e3c371e4fc
+Merge: 84e396f e6573fa
+Author: aeonix <aeon.coin@gmail.com>
+Date:   Tue Sep 15 03:41:10 2015 -0700
+
+    Merge pull request #26 from iamsmooth/master
+    
+    Fix node unblocking message formatting
+
+commit e6573fa4049c493888e465ee063aa6097671f142
+Author: Javier Smooth <iamjaviersmooth@gmail.com>
+Date:   Tue Sep 15 03:39:39 2015 -0700
+
+    Fix node unblocking message formatting
+
+commit 84e396f0340f7614219aafc961680bd420a5d06e
+Merge: 1e10a95 6966469
+Author: aeonix <aeon.coin@gmail.com>
+Date:   Wed Sep 9 22:09:33 2015 -0700
+
+    Merge pull request #25 from iamsmooth/master
+    
+    Fix some compile errors
+
+commit 696646920ffe97d4f8ecf2973996b56db8e93b39
+Author: warptangent <warptangent@inbox.com>
+Date:   Mon May 25 22:07:17 2015 -0700
+
+    Fix compile for GCC 5.1.0
+    
+    Add fix for compile error with multiple uses of peerid_type (uint64_t)
+    variable in lambda expression.
+    - known GCC issue: https://gcc.gnu.org/bugzilla/show_bug.cgi?id=65843
+    
+    epee: replace return value of nullptr for expected boolean with false.
+    
+    Fixes #231.
+
+commit 1d1b1ef1098e5711cc397a12d40aa9dca94b7e1c
+Author: Javier Smooth <iamjaviersmooth@gmail.com>
+Date:   Sun Aug 30 22:27:06 2015 -0700
+
+    Remove obsolete declarations from portable slow-hash
+
+commit 1e10a95fc908080916d14e6909b63ea7821b66c9
+Merge: 7bd42ac ca2c2f7
+Author: aeonix <aeon.coin@gmail.com>
+Date:   Thu Sep 3 02:40:59 2015 -0700
+
+    Merge pull request #24 from iamsmooth/master
+    
+    Revert memory reduction, stuck tx fix, optimize syncing, seed node update, version update
+
+commit ca2c2f7616b36e002b5112961f07517a1b5053a1
+Author: Javier Smooth <iamjaviersmooth@gmail.com>
+Date:   Thu Sep 3 02:35:27 2015 -0700
+
+    Update version to 0.9.4.0
+
+commit a092e62e4ae4d856a6c5043b4df01a2f9f4c944f
+Author: Javier Smooth <iamjaviersmooth@gmail.com>
+Date:   Thu Sep 3 02:35:08 2015 -0700
+
+    Update seed node list
+
+commit 841a4cc618ed922b3d883059eb370fc2c78f0808
+Author: Javier Smooth <iamjaviersmooth@gmail.com>
+Date:   Thu Sep 3 02:34:43 2015 -0700
+
+    Ignore blockchain file with too-new version
+
+commit 05fdf5995c0213d5595c96faadbdd99f8932ab22
+Author: Javier Smooth <iamjaviersmooth@gmail.com>
+Date:   Thu Sep 3 02:34:14 2015 -0700
+
+    Optimize sync speed within checkpoint zone
+
+commit eaa844b713d29c28f69f27e9d533243f80f0dd52
+Author: Javier Smooth <iamjaviersmooth@gmail.com>
+Date:   Wed Sep 2 23:44:58 2015 -0700
+
+    Revert "Memory usage reduction"
+    
+    This reverts commit 86d8cb9b7b9526fe1e0c3f23a3823bf2618e978c.
+
+commit 5b85836cdcb3aa0a53543815f3bfd1ae95a0e0ee
+Author: Javier Smooth <iamjaviersmooth@gmail.com>
+Date:   Wed Sep 2 23:44:53 2015 -0700
+
+    Revert "Remove debugging messages"
+    
+    This reverts commit 2e1a5976c0f4eef540fab895e2116381f9955470.
+
+commit 7c7d3048c37f68846f5fdc30ce7850c571b6b2ed
+Author: Javier Smooth <iamjaviersmooth@gmail.com>
+Date:   Wed Sep 2 23:41:48 2015 -0700
+
+    Revert "Version 0.9.3.0"
+    
+    This reverts commit 79c6b23ab6c506c0159c03c3d13e4c8a24f09293.
+
+commit 952878faca81158bfae2e285c769f9bcd90b89c7
+Author: Javier Smooth <iamjaviersmooth@gmail.com>
+Date:   Wed Sep 2 23:39:25 2015 -0700
+
+    Revert "Reduce logging of stale tx expiration"
+    
+    This reverts commit cf7ceae47218a1e399ad129fb9368ffeebdb68ac.
+
+commit f805d3ecf3ea224b63cd8ae480ad3241afa55c8e
+Author: Javier Smooth <iamjaviersmooth@gmail.com>
+Date:   Wed Sep 2 23:39:00 2015 -0700
+
+    Revert "Keep memory pool consistent when stuck tx removed"
+    
+    This reverts commit bdb577bde461f37ef1cd264fd31e59828c7586b7.
+
+commit 7bd42ac0a0231480b207f6444f78dac3a3029fb8
+Merge: 3b38425 79c6b23
+Author: aeonix <aeon.coin@gmail.com>
+Date:   Wed Sep 2 05:38:54 2015 -0700
+
+    Merge pull request #23 from iamsmooth/master
+    
+    Version 0.9.3.0
+
+commit 79c6b23ab6c506c0159c03c3d13e4c8a24f09293
+Author: Javier Smooth <iamjaviersmooth@gmail.com>
+Date:   Wed Sep 2 05:36:50 2015 -0700
+
+    Version 0.9.3.0
+
+commit 3b38425976ce195a696259be22cf9b56fe201939
+Merge: fdf2a7e f5011ad
+Author: aeonix <aeon.coin@gmail.com>
+Date:   Wed Sep 2 04:51:58 2015 -0700
+
+    Merge pull request #22 from iamsmooth/master
+    
+    stuck tx bug fix from Monero and slow-hash optim on non-AESNI
+
+commit f5011adff1ad4a8cbeac1859cefdb36dccd1a004
+Author: Javier Smooth <iamjaviersmooth@gmail.com>
+Date:   Sun Aug 23 13:50:19 2015 -0700
+
+    Improved slow-hash performance on non-AESNI
+
+commit 157c65dafaa1569cc96078e32f11ad2aed0905c9
+Author: Javier Smooth <iamjaviersmooth@gmail.com>
+Date:   Fri Aug 21 11:29:09 2015 -0700
+
+    Remove one useless line from slow-hash
+
+commit bdb577bde461f37ef1cd264fd31e59828c7586b7
+Author: warptangent <warptangent@inbox.com>
+Date:   Thu Apr 23 05:14:10 2015 -0700
+
+    Keep memory pool consistent when stuck tx removed
+    
+    When a stuck tx is removed from memory pool, first remove the associated
+    spent key images.
+
+commit cf7ceae47218a1e399ad129fb9368ffeebdb68ac
+Author: Javier Smooth <iamjaviersmooth@gmail.com>
+Date:   Fri Aug 21 09:38:51 2015 -0700
+
+    Reduce logging of stale tx expiration
+
+commit fdf2a7e8a3739fcee364474fe67c56dbaa20df04
+Merge: 68e6c32 db9d91a
+Author: aeonix <aeon.coin@gmail.com>
+Date:   Wed Aug 19 01:21:05 2015 -0700
+
+    Merge pull request #21 from iamsmooth/master
+    
+    Fix bug of not using optimized hash on Windows
+
+commit db9d91aca20b92c48cdaf875b28b01d5ad443792
+Author: Javier Smooth <iamjaviersmooth@gmail.com>
+Date:   Wed Aug 19 01:20:10 2015 -0700
+
+    Fix bug of not using optimized hash on Windows
+
+commit 68e6c32c1f765f72ed775c0910c8fccf00e040e9
+Merge: 443652e d4f0e8c
+Author: aeonix <aeon.coin@gmail.com>
+Date:   Sun Aug 16 19:02:01 2015 -0700
+
+    Merge pull request #20 from iamsmooth/master
+    
+    Memory usage reduction, backward compatibility for fees, bump version
+
+commit d4f0e8c7383dfb046ecf6f7b481ad99791012ae2
+Author: Javier Smooth <iamjaviersmooth@gmail.com>
+Date:   Sun Aug 16 18:58:10 2015 -0700
+
+    Bump version
+
+commit 1e743dc671ec63e5b708d7bdabbe8c5d711b4c97
+Author: Javier Smooth <iamjaviersmooth@gmail.com>
+Date:   Sun Aug 16 08:32:35 2015 -0700
+
+    Mine below-std fee transactions only half the time
+
+commit 2e1a5976c0f4eef540fab895e2116381f9955470
+Author: Javier Smooth <iamjaviersmooth@gmail.com>
+Date:   Fri Aug 14 07:58:52 2015 -0700
+
+    Remove debugging messages
+
+commit 86d8cb9b7b9526fe1e0c3f23a3823bf2618e978c
+Author: Javier Smooth <iamjaviersmooth@gmail.com>
+Date:   Fri Aug 14 07:37:54 2015 -0700
+
+    Memory usage reduction
+
+commit 443652e48c87e7afe61204c26aec438ed56079e4
+Merge: 5dbc923 e35f3c2
+Author: aeonix <aeon.coin@gmail.com>
+Date:   Tue Aug 11 22:52:45 2015 -0700
+
+    Merge pull request #19 from iamsmooth/master
+    
+    Add donation mining
+
+commit e35f3c2babe8b98e73f6be242fca8c8365087dff
+Author: Javier Smooth <iamjaviersmooth@gmail.com>
+Date:   Tue Aug 11 22:44:35 2015 -0700
+
+    Add donation mining
+
+commit 5dbc92310ca19d4486bc6a32984a5762ceb36730
+Merge: a2643fd 80ec551
+Author: aeonix <aeon.coin@gmail.com>
+Date:   Tue Aug 11 17:50:24 2015 -0700
+
+    Merge pull request #18 from iamsmooth/master
+    
+    Remove unused declaration
+
+commit 80ec551070d7d053214f9c8b95156f8fade15436
+Author: Javier Smooth <iamjaviersmooth@gmail.com>
+Date:   Tue Aug 11 17:30:45 2015 -0700
+
+    Remove unused declaration
+
+commit a2643fdbd7165592542131c733a294c3367f1535
+Merge: 207da48 ca3b36d
+Author: aeonix <aeon.coin@gmail.com>
+Date:   Tue Aug 11 03:15:11 2015 -0700
+
+    Merge pull request #17 from iamsmooth/master
+    
+    Track failed outgoing connections and slow down retries
+    Increase default transaction fee to 0.01
+
+commit ca3b36dfeb114e93da57c2d01961e8195b9dbbed
+Author: Javier Smooth <iamjaviersmooth@gmail.com>
+Date:   Tue Aug 11 00:45:58 2015 -0700
+
+    Increase default transaction fee to 0.01
+
+commit 3b14263e5a41f439d84dc26688a937f22ce62998
+Author: Javier Smooth <iamjaviersmooth@gmail.com>
+Date:   Sat Aug 8 15:44:01 2015 -0700
+
+    Track failed outgoing connections and slow down retries
+
+commit 207da485594aa52eb4bc2e9719d4bee66352480a
+Merge: 9af088b ba0ff3b
+Author: aeonix <aeon.coin@gmail.com>
+Date:   Fri Aug 7 01:59:36 2015 -0700
+
+    Merge pull request #16 from iamsmooth/master
+    
+    update checkpoints, tag 0.9.1.1
+
+commit ba0ff3b7603d27488f078e24b0c83b61bed3f3cb
+Author: Javier Smooth <iamjaviersmooth@gmail.com>
+Date:   Thu Aug 6 22:35:01 2015 -0700
+
+    update checkpoints, tag 0.9.1.1
+
+commit 9af088beed676585434165a6cfd8b832d068f57b
+Merge: 57bc6a2 d177b6a
+Author: aeonix <aeon.coin@gmail.com>
+Date:   Thu Aug 6 21:30:38 2015 -0700
+
+    Merge pull request #15 from iamsmooth/master
+    
+    bump version for 0.9.1.0
+
+commit d177b6a0f3b10d3b13368ad1cf8ad2fb2fe639bb
+Author: Javier Smooth <iamjaviersmooth@gmail.com>
+Date:   Thu Aug 6 21:29:37 2015 -0700
+
+    bump version for 0.9.1.0
+
+commit 57bc6a25f0d1141ce4def3feb778a8f759d92c51
+Merge: 1382025 b62d0f2
+Author: aeonix <aeon.coin@gmail.com>
+Date:   Thu Aug 6 21:11:34 2015 -0700
+
+    Merge pull request #14 from iamsmooth/master
+    
+    IP banning
+
+commit b62d0f238d089de8b95bf89a679a9261107de102
+Author: Javier Smooth <iamjaviersmooth@gmail.com>
+Date:   Wed Aug 5 02:04:30 2015 -0700
+
+    Add IP blocking for misbehaving nodes (adapted from Boolberry)
+
+commit f92079ebfd6ce9bfabfefbe9ecfec3f667322c65
+Author: Javier Smooth <iamjaviersmooth@gmail.com>
+Date:   Sat Aug 1 19:19:42 2015 -0700
+
+    quiet down p2p logging a bit
+
+commit 1382025dcbf87ee5bf19b04ad2043d45ade832e6
+Merge: 43b49e2 bf65fe5
+Author: aeonix <aeon.coin@gmail.com>
+Date:   Sat Aug 1 03:03:42 2015 -0700
+
+    Merge pull request #13 from iamsmooth/master
+    
+    portable mul128 clean up, small memory optimization
+
+commit bf65fe5b670fccd4357f1e849d9e6361b0aae0df
+Author: Javier Smooth <iamjaviersmooth@gmail.com>
+Date:   Sat Aug 1 02:24:27 2015 -0700
+
+    remove unused data from in-mem blockchain (small mem savings)
+
+commit b5d19efd6fe6e9ffb284159a4a7e176d007da434
+Author: Javier Smooth <iamjaviersmooth@gmail.com>
+Date:   Mon Jul 27 15:47:26 2015 -0700
+
+    clean up portable 128-bit multiply
+
+commit 43b49e26e8e399fe17ecf457b598973266504b5d
+Merge: b358062 2599001
+Author: aeonix <aeon.coin@gmail.com>
+Date:   Mon Jul 27 06:38:23 2015 -0700
+
+    Merge pull request #12 from iamsmooth/master
+    
+    various portability fixes
+
+commit 25990016d565a42d65d26ae5c0087537bbcbd56c
+Author: Javier Smooth <iamjaviersmooth@gmail.com>
+Date:   Mon Jul 27 06:36:18 2015 -0700
+
+    another portable cryptonote-lite fix
+
+commit eecae8c6f8e9344e7865761692ef2126b316c61d
+Author: Zachary Michaels <mikezackles@gmail.com>
+Date:   Wed Aug 20 11:57:29 2014 -0400
+
+    Fix time_t serialization issue
+    
+    On 32-bit MinGW-w64, time_t is int32_t.  The existing code was serializing
+    time_t directly and implicitly assuming that time_t is int64_t.  This commit
+    formalizes that assumption by serializing int64_t directly and casting to
+    time_t where appropriate.
+    
+    Thanks go to greatwolf for reporting this issue.
+    
+    monero-project/bitmonero#88
+
+commit 3d4254802ac9d011b09ed072e1a9576fcb58c7b3
+Author: Javier Smooth <iamjaviersmooth@gmail.com>
+Date:   Mon Jul 27 04:22:45 2015 -0700
+
+    reenable optimized slow-hash
+
+commit 0ca9573e420be98f42479e7f1e361eeb11641c03
+Author: Javier Smooth <iamjaviersmooth@gmail.com>
+Date:   Mon Jul 27 04:20:42 2015 -0700
+
+    clean up compiler warning in groestl
+
+commit e74c6e4f3b819bcebf86704be1f6be05756c9e37
+Author: Javier Smooth <iamjaviersmooth@gmail.com>
+Date:   Mon Jul 27 04:07:19 2015 -0700
+
+    one more portable slow-hash fix
+
+commit d5232f85fd4de6b1dabb704e86b40cf3ebc210f3
+Author: Javier Smooth <iamjaviersmooth@gmail.com>
+Date:   Mon Jul 27 04:05:08 2015 -0700
+
+    typo in previous commit
+
+commit 0474a51fd3c03d3e48972b3645d97ff49d2a431c
+Author: Javier Smooth <iamjaviersmooth@gmail.com>
+Date:   Mon Jul 27 04:02:06 2015 -0700
+
+    cryptonite-lite for for portable slow-hash
+
+commit b3580628fd5cd0cc12a0e1bfb3bc3c71cc1b4842
+Merge: c3bfb2e a98edc5
+Author: aeonix <aeon.coin@gmail.com>
+Date:   Mon Jul 27 03:21:25 2015 -0700
+
+    Merge pull request #11 from iamsmooth/master
+    
+    lower mining priority for non-anon, 32 bit and non-intel portability fixes
+
+commit a98edc5f208a7c441a97baa331a68a804fa45c53
+Author: Javier Smooth <iamjaviersmooth@gmail.com>
+Date:   Mon Jul 27 03:03:36 2015 -0700
+
+    portable slow-hash for 32 bit and non-intel
+
+commit 22b327a8b475814be76cdf47b9bfa890e9daff8d
+Author: Javier Smooth <iamjaviersmooth@gmail.com>
+Date:   Mon Jul 27 02:43:22 2015 -0700
+
+    signed char type fix for ARM (from Monero)
+
+commit c6432ac2ee3769475cee3017b489b936fd9a1761
+Author: Javier Smooth <iamjaviersmooth@gmail.com>
+Date:   Mon Jul 27 01:14:03 2015 -0700
+
+    lower mining priority for anon-impairing (<2 mixins) tx
+
+commit c3bfb2e5375946dce90de31a3c3f44463324c7c9
+Merge: 640307d 5ece7ce
+Author: aeonix <aeon.coin@gmail.com>
+Date:   Sat Jul 25 18:31:51 2015 -0700
+
+    Merge pull request #10 from iamsmooth/master
+    
+    reward calculation fix for 32-bit (from Monero)
+
+commit 5ece7cee9ccc12c1a5a7fe02892a07e0f4c978ce
+Author: Javier Smooth <iamjaviersmooth@gmail.com>
+Date:   Sat Jul 25 18:30:31 2015 -0700
+
+    reward calculation fix for 32-bit (from Monero)
+
+commit 640307d21ee2d9a2d3d71a432b9c64275fb96a5d
+Merge: 1738870 8482dd0
+Author: aeonix <aeon.coin@gmail.com>
+Date:   Sat Jul 25 03:01:03 2015 -0700
+
+    Merge pull request #9 from iamsmooth/master
+    
+    add second seed node
+
+commit 8482dd0f4a82464035fa417f281a18ef16c73832
+Author: Javier Smooth <iamjaviersmooth@gmail.com>
+Date:   Sat Jul 25 02:59:53 2015 -0700
+
+    add second seed node
+
+commit 17388700c843dd72348ceb0e32d9d0ca495062f3
+Merge: bf1f6c7 6ba75fe
+Author: aeonix <aeon.coin@gmail.com>
+Date:   Sat Jul 25 02:55:05 2015 -0700
+
+    Merge pull request #8 from iamsmooth/master
+    
+    type error in tree-hash, minor slow-hash optimization
+
+commit 6ba75feb51878100f38ce3073917de0c68f90931
+Author: Javier Smooth <iamjaviersmooth@gmail.com>
+Date:   Sat Jul 25 02:01:39 2015 -0700
+
+    small slow-hash optimization
+
+commit bcf69e1481ed6b726e50ceabdf9308182822d051
+Author: Javier Smooth <iamjaviersmooth@gmail.com>
+Date:   Wed Jul 22 16:18:32 2015 -0700
+
+    fix type error in tree-hash, clean up a bit of C namespace pollution
+
+commit bf1f6c7e06cc323d0f52b16772ba295521a2eef4
+Merge: ab4989f a3bb499
+Author: aeonix <aeon.coin@gmail.com>
+Date:   Wed Jul 22 13:35:41 2015 -0700
+
+    Merge pull request #7 from iamsmooth/master
+    
+    cosmetic fixes for status displays needed for hard fork 1
+
+commit a3bb49925b6bd1a093e6d9c7a27b1f7b35362d9c
+Author: Javier Smooth <iamjaviersmooth@gmail.com>
+Date:   Wed Jul 22 13:29:46 2015 -0700
+
+    cosmetic fixes for status displays needed for hard fork 1
+
+commit ab4989f0bd952be4aaaaeaa92ad9a3043a9eb873
+Merge: 98356eb 3ccdefc
+Author: aeonix <aeon.coin@gmail.com>
+Date:   Tue Jul 21 10:26:42 2015 -0700
+
+    Merge pull request #5 from iamsmooth/master
+    
+    release phoenix
+
+commit 3ccdefcb43d718337c0f78fa9cc154110730e820
+Merge: 98356eb f230abb
+Author: Javier Smooth <iamjaviersmooth@gmail.com>
+Date:   Tue Jul 21 10:22:53 2015 -0700
+
+    merge devel up to master
+
+commit f230abbe72c3233705a334f45ec324adcfb0a12b
+Author: Javier Smooth <iamjaviersmooth@gmail.com>
+Date:   Tue Jul 21 10:20:34 2015 -0700
+
+    assign height for hard fork 1, bump version to 0.9.0.0
+
+commit 98356eb339045fb6d68f643845a0eab7ec599695
+Merge: 1b0d893 e7cf717
+Author: aeonix <aeon.coin@gmail.com>
+Date:   Sun Jul 12 16:05:31 2015 -0700
+
+    Merge pull request #4 from iamsmooth/master
+    
+    update checkpoint
+
+commit e7cf71719c436a21678d54fc51a570a8c6caa35a
+Author: Javier Smooth <iamjaviersmooth@gmail.com>
+Date:   Sun Jul 12 15:54:58 2015 -0700
+
+    update checkpoint
+
+commit a4ef992394613bebc2a57b96f9094af4194c3224
+Author: Javier Smooth <iamjaviersmooth@gmail.com>
+Date:   Tue May 12 01:43:16 2015 -0700
+
+    verify checkpoints upon loading saved blockchain (from Monero); add recent checkpoint
+
+commit 4274ea7859d2eebf5e1194fb2f4c06af5970a184
+Author: Javier Smooth <iamjaviersmooth@gmail.com>
+Date:   Tue May 12 01:35:33 2015 -0700
+
+    240 seconds for post-fork block time
+
+commit da960131ed4dcc637e3c67bd556ceb861928232c
+Author: Javier Smooth <iamjaviersmooth@gmail.com>
+Date:   Mon May 11 03:21:53 2015 -0700
+
+    update block target
+
+commit 082f523a13ec6e55a8f24563e773ca91b5101545
+Author: Javier Smooth <iamjaviersmooth@gmail.com>
+Date:   Mon May 11 00:13:07 2015 -0700
+
+    reenable checkpoints after testing
+
+commit c59c9b39bad8a01650be171149f397fbae60d7f3
+Author: Javier Smooth <iamjaviersmooth@gmail.com>
+Date:   Mon May 11 00:11:20 2015 -0700
+
+    fix slow-hash (old) test
+
+commit b4e3cfa7711c316f109b2e7b65a7c57bd8b537b5
+Author: Javier Smooth <iamjaviersmooth@gmail.com>
+Date:   Sun May 10 16:36:15 2015 -0700
+
+    fix test case compile errors
+
+commit 2ea054d8f1e9d55fe0c8b83677070ee3ebcfe54e
+Author: Javier Smooth <iamjaviersmooth@gmail.com>
+Date:   Sat May 9 12:30:26 2015 -0700
+
+    params for live network
+
+commit 65a9350f8e40bcccd294a2da1ed66e1e5a26829d
+Merge: 1b0d893 6c658b4
+Author: Javier Smooth <iamjaviersmooth@gmail.com>
+Date:   Sat May 9 12:17:39 2015 -0700
+
+    Merge branch 'hf1-test' into devel
+
+commit 6c658b4ed28741de8264b76baee7cfd8ce08c9d6
+Author: Javier Smooth <iamjaviersmooth@gmail.com>
+Date:   Sat May 9 03:21:59 2015 -0700
+
+    properly scale block reward for block target
+
+commit 1b0d8930414b0354b47bc7a544e323def49ec445
+Merge: e6d4eb5 2da3e81
+Author: aeonix <aeon.coin@gmail.com>
+Date:   Fri May 8 03:15:14 2015 -0700
+
+    Merge pull request #3 from iamsmooth/master
+    
+    new seed node, default p2p connection limit
+
+commit 2da3e816c0653ecfb1fb0d3ffe3548958273a458
+Author: Javier Smooth <iamjaviersmooth@gmail.com>
+Date:   Fri May 8 03:13:30 2015 -0700
+
+    update seed node
+
+commit 0b439baaa06358ed35f020f153e1d3f032993785
+Author: Javier Smooth <iamjaviersmooth@gmail.com>
+Date:   Fri May 8 02:44:55 2015 -0700
+
+    restore original p2p connection limit
+
+commit 270c995a4bc4a8f7193306137d629178d626958e
+Author: Javier Smooth <iamjaviersmooth@gmail.com>
+Date:   Wed May 6 00:12:31 2015 -0700
+
+    integration test for hard fork 1 changes
+
+commit e6d4eb55d3ea5719f90deb0051eacd77fd4ed7e3
+Merge: 84c0190 407a9ae
+Author: aeonix <aeon.coin@gmail.com>
+Date:   Sun May 3 19:40:41 2015 -0700
+
+    Merge pull request #2 from iamsmooth/master
+    
+    improved mixin selection from Monero
+
+commit 407a9ae98d268b0ff51f7ab68d15caca60f16062
+Author: Javier Smooth <iamjaviersmooth@gmail.com>
+Date:   Sun Apr 5 04:39:09 2015 -0700
+
+    handle unlikely rounding up after sqrt
+
+commit 6a1d23bba374a47010d380312191eb168167de01
+Author: Javier Smooth <iamjaviersmooth@gmail.com>
+Date:   Sun Apr 5 04:01:00 2015 -0700
+
+    triangular distribution to choose recent outputs more often for mixins
+
+commit 84c0190677e43013f16ded1c1a1b296985137118
+Merge: 6015f4f ac08530
+Author: aeonix <aeon.coin@gmail.com>
+Date:   Tue Apr 7 05:50:22 2015 +0000
+
+    Merge pull request #1 from iamsmooth/master
+    
+    move dev back to main repo
+
+commit ac085309f2f1c0e75bb46ea223eca532e094cb1c
+Author: iamsmooth <iamjaviersmooth@gmail.com>
+Date:   Sun Oct 12 16:21:35 2014 +0000
+
+    update checkpoints
+
+commit 4d5d2b6afc3fcdb817bce7363a8efce967f2bf23
+Author: iamsmooth <iamjaviersmooth@gmail.com>
+Date:   Sat Oct 11 21:00:05 2014 +0000
+
+    remove obsolete contact information from README
+
+commit 7b289d81df7a05e4da8e9082bf080853516fa949
+Author: iamsmooth <email@notused>
+Date:   Fri Sep 12 22:57:32 2014 +0000
+
+    output rng fix from boolberry
+
+commit b802f6e510ca719142f3de0ac2020f32c50c1846
+Author: iamsmooth <iamjaviersmooth@gmail.com>
+Date:   Sat Oct 11 20:42:50 2014 +0000
+
+    update seed node
+
+commit 0699d51c33c2a8e5bfede882ec329ed21998eb20
+Author: iamsmooth <iamjaviersmooth@gmail.com>
+Date:   Sat Oct 11 10:02:47 2014 +0000
+
+    tree-hash fix from Monero
+
+commit 6015f4f5c2397ff808dd61a99d0eb19b19a45883
+Author: aeonix <aeon.coin@gmail.com>
+Date:   Wed Aug 20 20:52:18 2014 +0200
+
+    version-1.10
+
+commit e86e3663fb8d45df496930e5956882816a31aabc
+Author: aeonix <aeon.coin@gmail.com>
+Date:   Mon Jul 7 07:09:51 2014 +0200
+
+    version-1.4
+
+commit d0a4015643114d51a9a2628f3ca2ec24a8a3ffcf
+Author: aeonix <aeon.coin@gmail.com>
+Date:   Mon Jul 7 07:07:01 2014 +0200
+
+    version-1.4
+
+commit 8addf7d335ec1205cb5d4a1c0eddf2c71bd31f29
+Author: aeonix <aeon.coin@gmail.com>
+Date:   Sun Jun 22 14:15:24 2014 +0200
+
+    fixes
+
+commit eb3c4e29f53381a98de69819c97142cd6e00e620
+Author: aeonix <aeoncoin@gmail.com>
+Date:   Fri Jun 6 23:54:02 2014 -0700
+
+    fixes
+
+commit 380b9a52d10bce3e7b54d317a446172e22b52ad9
+Author: aeonix <aeoncoin@gmail.com>
+Date:   Fri Jun 6 02:24:29 2014 -0700
+
+    adding files
+
+commit 931b92efcd17df5698f5e7f1880a0a1f5a728b96
+Author: aeonix <aeoncoin@gmail.com>
+Date:   Fri Jun 6 02:23:29 2014 -0700
+
+    first commit

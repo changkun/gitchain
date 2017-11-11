@@ -1,0 +1,11 @@
+commit d636adbc302f5a7152d44db79ff8e2391bbbfc4f
+Author: avatarcoin <avatarcoin@scryptmail.com>
+Date:   Wed Dec 9 19:34:40 2015 +0100
+
+    avatar
+
+commit 6462bfb3b71eef63847c42da70cbeb90f031ada0
+Author: avatarcoin <avatarcoin@scryptmail.com>
+Date:   Wed Dec 9 19:31:23 2015 +0100
+
+    :octocat: Added .gitattributes & .gitignore files

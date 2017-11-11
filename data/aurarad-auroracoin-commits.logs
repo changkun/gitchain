@@ -1,0 +1,569 @@
+commit 063d6ac5c4fe1008d7dc310b5c7ef3e65c1912aa
+Author: Myckel Habets <myckel@sdf.lonestar.org>
+Date:   Wed Mar 8 14:18:07 2017 +0100
+
+    Revert MacOSX translation changes
+
+commit 2f52b00739132a0d96d8fb1b36a0705e4a550a40
+Author: Myckel Habets <myckel@sdf.lonestar.org>
+Date:   Wed Mar 8 12:09:12 2017 +0100
+
+    Fix Mac localizations
+
+commit 7fdcfa5a1ad0c5cad38226adbd120e988ac34a7d
+Author: Myckel Habets <myckel@sdf.lonestar.org>
+Date:   Wed Mar 8 12:00:27 2017 +0100
+
+    Remove Windows cruft
+
+commit ef17346bb0ae8ff77a7907ba8f97c7a80f2ba202
+Author: ny2cafuse <jessfoddrill@gmail.com>
+Date:   Tue Feb 28 12:42:14 2017 -0800
+
+    Adding tiff file
+
+commit bac5374e666a50599f4488fe7f9ebd4400af6482
+Author: ny2cafuse <jessfoddrill@gmail.com>
+Date:   Tue Feb 28 12:38:55 2017 -0800
+
+    Mac Deploy chmod
+
+commit aea299a67e990c8d8e6ee4dc1f16189ccfd939c2
+Merge: fcf1254 1e49446
+Author: ny2cafuse <jessfoddrill@gmail.com>
+Date:   Fri Feb 17 11:32:36 2017 -0800
+
+    Merge pull request #6 from aurarad/development
+    
+    2017.02.1.0 update.
+
+commit 1e49446afbf3f809f1351a70c043aa5666df4b50
+Author: Myckel Habets <myckel@sdf.lonestar.org>
+Date:   Fri Feb 17 16:49:23 2017 +0100
+
+    debian changelog update
+
+commit 26b707200d847a52f5f2e8b7c10004b9d376f30f
+Author: Myckel Habets <myckel@sdf.lonestar.org>
+Date:   Sun Jan 22 16:55:41 2017 +0100
+
+    Fix Dutch typo
+
+commit 63d70e2d27ec8c602ab702dc538b38ef57ebd590
+Author: Myckel Habets <myckel@sdf.lonestar.org>
+Date:   Sun Jan 22 15:10:01 2017 +0100
+
+    In-wallet miner improvements
+
+commit 0323f116498a1c47165d05f4272da43fa0ce55c7
+Merge: 31d0f37 3d9e142
+Author: Myckel Habets <myckel@sdf.lonestar.org>
+Date:   Fri Jan 20 21:54:10 2017 +0100
+
+    Merge branch 'development' of github.com:aurarad/Auroracoin into development
+
+commit 31d0f379d3914a08d12ac4bac2ad309a83bf53fa
+Author: Myckel Habets <myckel@sdf.lonestar.org>
+Date:   Fri Jan 20 21:53:49 2017 +0100
+
+    Don't bail out at this.
+
+commit 3d9e1423570763ab00869f79b3e630ac12fac1c4
+Author: ny2cafuse <jessfoddrill@gmail.com>
+Date:   Thu Jan 19 11:08:55 2017 -0800
+
+    Updating seeds
+    
+    Added DNS and pnSeed references for the electrum servers.
+
+commit ff84a826fdeefecd8f97554f47f2711f1fbbbfc2
+Author: Myckel Habets <myckel@sdf.lonestar.org>
+Date:   Thu Jan 19 17:06:46 2017 +0100
+
+    Versioning and copyrights.
+
+commit c4d7735aad5f3824fd93fd3b63820e261e8963ce
+Author: Myckel Habets <myckel@sdf.lonestar.org>
+Date:   Thu Jan 19 17:01:36 2017 +0100
+
+    New checkpoints.
+
+commit 9b477430851ff96e3cee07410c912c472cd8c018
+Author: Myckel Habets <myckel@sdf.lonestar.org>
+Date:   Tue Jan 17 20:21:37 2017 +0100
+
+    Windows version building fix
+
+commit 983f3159a4cf13c7f84ddafa1c956800ddc00867
+Merge: 397c467 1662237
+Author: ny2cafuse <jessfoddrill@gmail.com>
+Date:   Sun Dec 4 11:58:06 2016 -0800
+
+    Merge pull request #5 from ny2cafuse/development
+    
+    More version changes
+
+commit 1662237d3af3068b5d9cb9e0fe5e369d1faf15ed
+Author: ny2cafuse <jessfoddrill@gmail.com>
+Date:   Sun Dec 4 11:37:11 2016 -0800
+
+    Removing non-unicode name test.
+
+commit 05793d5d537cff21b4bb1cbf9dc390cfe8495f67
+Author: ny2cafuse <jessfoddrill@gmail.com>
+Date:   Sun Dec 4 10:06:22 2016 -0800
+
+    Missing const in version.h
+
+commit 1adfc9661c630c2d6563cc0dd6e77e81c51806b6
+Author: ny2cafuse <jessfoddrill@gmail.com>
+Date:   Sun Dec 4 10:00:45 2016 -0800
+
+    Addition of non-unicode client name.
+
+commit 6097368b9cd5b3d8fd3782eca559b0262eedf479
+Author: ny2cafuse <jessfoddrill@gmail.com>
+Date:   Sun Dec 4 09:03:33 2016 -0800
+
+    A few more getinfo changes.
+    
+    Adding build name.
+
+commit 56a9c33937336dab0d8678103e47869d3e4f4e34
+Author: ny2cafuse <jessfoddrill@gmail.com>
+Date:   Sun Dec 4 08:50:12 2016 -0800
+
+    Build_date in getinfo fix
+
+commit 058372cb4a0e62e07e1cf991fcc58c0da23909bc
+Author: ny2cafuse <jessfoddrill@gmail.com>
+Date:   Sun Dec 4 08:41:37 2016 -0800
+
+    Build_Date in getinfo test
+
+commit 5ef6426991df562bf7166ef72f3107d402957cf3
+Author: ny2cafuse <jessfoddrill@gmail.com>
+Date:   Sun Dec 4 07:56:21 2016 -0800
+
+    Version.h fix, missing if statement
+
+commit 8518b41678ef8eeacc24c11848ecc871f729fd2b
+Author: ny2cafuse <jessfoddrill@gmail.com>
+Date:   Sat Dec 3 19:14:19 2016 -0800
+
+    Merging clientversion.h and version.h
+    
+    Merged version code into version.h, removed clientversion.h, and updated
+    code to reflect the change.
+
+commit 397c4677c52abc86da7eb37bfbc1721a8d9fe6bd
+Author: ny2cafuse <jessfoddrill@gmail.com>
+Date:   Wed Nov 30 11:43:01 2016 -0800
+
+    Removing leftover bootstrap images
+    
+    These were tied to an outdated bootstrap help doc.
+
+commit bd84790f78ecbfc1993cd63a541a101a342fe56d
+Author: ny2cafuse <jessfoddrill@gmail.com>
+Date:   Wed Nov 30 11:41:16 2016 -0800
+
+    Removed setup.nsi from .gitignore
+    
+    Failed to commit due to .gitignore inclusion.
+
+commit 70815fba5fef7df8e68dc9d2c4b6e668010c23bf
+Author: ny2cafuse <jessfoddrill@gmail.com>
+Date:   Wed Nov 30 11:39:05 2016 -0800
+
+    Correcting the Setup.nsi location.
+    
+    Added setup.nsi back into the folder and changed the location in the
+    code.
+
+commit 8c83ebf3bcd97285d71e71713556551e2068d37e
+Author: ny2cafuse <jessfoddrill@gmail.com>
+Date:   Wed Nov 30 11:37:23 2016 -0800
+
+    Correcting cleanup correction.
+    
+    Code was changed to reflect new folder locations.  Confirmed with
+    @BioMike.
+
+commit 8e7e070cd084c182db8965ac4393a3019e1849f1
+Author: Myckel Habets <myckel@sdf.lonestar.org>
+Date:   Wed Nov 30 16:13:51 2016 +0100
+
+    Code clean up.
+
+commit ba40680d1554ffe7755bc6ff7e797470d62557d9
+Author: Myckel Habets <myckel@sdf.lonestar.org>
+Date:   Wed Nov 30 15:11:55 2016 +0100
+
+    Correct permissions
+
+commit f37a1bcb9cb346962774a41a637dc9492ca02bc0
+Author: Myckel Habets <myckel@sdf.lonestar.org>
+Date:   Wed Nov 30 15:01:35 2016 +0100
+
+    Removal correction.
+
+commit a540e0ab3b92302e3783d50246da8c19d88ec4c3
+Author: ny2cafuse <jessfoddrill@gmail.com>
+Date:   Mon Nov 28 19:50:24 2016 -0800
+
+    Changes to the versions- round 1
+    
+    Cleaning up the version name in the qt wallets, and fixing the static
+    build date with a date/time pulled at the time of compile.
+
+commit 663c5b440dea83472baa0ecd2f9bec71f97cd8a7
+Author: ny2cafuse <jessfoddrill@gmail.com>
+Date:   Mon Nov 28 19:48:17 2016 -0800
+
+    Misc Cleanup
+    
+    Removal of old documentation, dev scripts and tools, and leftover
+    pixmaps.  Remaining folders from share, qa, and contrib folders moved to
+    misc folder, and references to files in these folders have been changed
+    in the code to reflect their new location.
+
+commit b845813a2f879d0f3c890e553c766c3ba69584d2
+Author: Myckel Habets <myckel@sdf.lonestar.org>
+Date:   Thu Sep 29 05:48:22 2016 +0200
+
+    Auroracoin icon
+
+commit c0cd235502645f56eac4fa808e7170a6cbe9854b
+Author: Myckel Habets <myckel@sdf.lonestar.org>
+Date:   Mon Sep 12 17:25:58 2016 +0200
+
+    And there goes the testnet, bye!
+
+commit 7af785ea9612d03372bf058583053052f9f97805
+Author: Myckel Habets <myckel@sdf.lonestar.org>
+Date:   Mon Sep 12 16:18:53 2016 +0200
+
+    Removal of regnet.
+
+commit 75450e2f56670fcb0167cb62a8a623117292fc38
+Author: Myckel Habets <myckel@sdf.lonestar.org>
+Date:   Mon Sep 12 14:59:37 2016 +0200
+
+    Support for Tor/Onion network removed.
+
+commit be4f8d858e885b952be6816ed79b2d4cda6e3499
+Author: Myckel Habets <myckel@sdf.lonestar.org>
+Date:   Sat Aug 20 00:46:27 2016 +0200
+
+    Remove DGB block size sillyness.
+
+commit d6ede41b49be7a07c85880b22af4891034aeac5f
+Author: Myckel Habets <myckel@sdf.lonestar.org>
+Date:   Sun Aug 14 23:57:53 2016 +0200
+
+    Wallet loading speed fix.
+
+commit b7f97b8b228ebd2050fb945716576193490f2e48
+Author: Myckel Habets <myckel@sdf.lonestar.org>
+Date:   Mon Aug 8 00:05:20 2016 +0200
+
+    Initial testnet code removal.
+
+commit fcf1254cdbd99bf74a597d7008b33ccba1f4a9d8
+Merge: acd8fb9 3682bb8
+Author: Myckel Habets <myckel@sdf.lonestar.org>
+Date:   Sun Aug 7 23:45:51 2016 +0200
+
+    Cleaning development branch
+
+commit 3682bb820d9947698e7ab4bf7ba9766458703f59
+Author: Myckel Habets <myckel@sdf.lonestar.org>
+Date:   Fri Aug 5 23:52:29 2016 +0200
+
+    Release changes
+
+commit 0a8ebe1a1ec46cc855ac791e07dca29e1081eb9f
+Author: Myckel Habets <myckel@sdf.lonestar.org>
+Date:   Tue Jul 19 13:21:27 2016 +0200
+
+    Comment log message
+
+commit f50ddd139db9cedba55f92ead10b24e93a248942
+Author: Myckel Habets <myckel@sdf.lonestar.org>
+Date:   Tue Jul 19 12:41:20 2016 +0200
+
+    PoW check fixes
+
+commit 1d45383661ab18bba89064c6504b3c677c3024e1
+Author: Myckel Habets <myckel@sdf.lonestar.org>
+Date:   Wed Jun 29 16:21:47 2016 +0200
+
+    Debian changelog update
+
+commit 32d61d11fd7c959bba3441dc49f95b509b252ef4
+Author: Myckel Habets <myckel@sdf.lonestar.org>
+Date:   Fri Jun 24 14:14:03 2016 +0200
+
+    Change version number to get to packing a new version.
+
+commit 9586904fd28566b50b3a7e409719c16b68a6f611
+Author: Myckel Habets <myckel@sdf.lonestar.org>
+Date:   Tue May 31 00:12:39 2016 +0200
+
+    Fix Dutch translation typo
+
+commit 31e74dcd3bd4d25ff15a074b72a5310be27e8ec0
+Author: Myckel Habets <myckel@sdf.lonestar.org>
+Date:   Mon May 30 23:58:56 2016 +0200
+
+    Drop support for miniupnpc versions less than 1.6.
+
+commit 412dfe35222d118a8547a07bf42c0c82ff3773ce
+Author: Myckel Habets <myckel@sdf.lonestar.org>
+Date:   Mon May 30 23:11:07 2016 +0200
+
+    Fix bug #1
+
+commit f536120a2f943a5e24897347eb4cb25228737662
+Author: Myckel Habets <myckel@sdf.lonestar.org>
+Date:   Mon May 30 22:54:00 2016 +0200
+
+    New splash image
+
+commit 4a183ab5261bed1a37fbc073fde2d498fbf7f9d9
+Author: Myckel Habets <myckel@sdf.lonestar.org>
+Date:   Thu May 26 15:30:50 2016 +0200
+
+    Fix more debian dir paths
+
+commit 620d6014aeabacc92c484ac12ee7ea72cb80ba3b
+Author: Myckel Habets <myckel@sdf.lonestar.org>
+Date:   Thu May 26 15:22:52 2016 +0200
+
+    Fix debian dir paths
+
+commit db936335b70fc4e1f84eb80b01f02b558efd1959
+Author: Eric Jennings <ericj@loopshot.com>
+Date:   Sun May 22 17:33:27 2016 -0700
+
+    Add support for miniupnp versions >= 1.5
+    - On Mac OS X 10.10 (Yosemite), this build did not work with the default
+      versions of miniupnp from homebrew. This patch fixes it.
+
+commit 26d1eb509c991e3bc87ab82bbb33b3bb10a6b318
+Author: Myckel Habets <myckel@sdf.lonestar.org>
+Date:   Fri May 13 15:21:44 2016 +0200
+
+    Debian changelog
+
+commit c7e2f66bae90e0b7088eeccbe575f3d97cee7f64
+Author: Myckel Habets <myckel@sdf.lonestar.org>
+Date:   Fri May 13 14:47:08 2016 +0200
+
+    Improved debian building folder.
+
+commit aa88fb352165a028c72ef52f59b435ea9416d865
+Author: Myckel Habets <myckel@sdf.lonestar.org>
+Date:   Fri May 13 14:37:50 2016 +0200
+
+    New checkpoints
+
+commit 08f595c6ea0a3388a031b4fc1b1caf9e5a136e6f
+Author: Myckel Habets <myckel@sdf.lonestar.org>
+Date:   Thu May 12 00:46:05 2016 +0200
+
+    Copyright notice fix.
+
+commit 4f87d7fb327abb98ccb104ca7188c54894b65f0a
+Author: Myckel Habets <myckel@sdf.lonestar.org>
+Date:   Mon May 9 23:21:41 2016 +0200
+
+    Revert previous change and return the minimum values for the algos to normal.
+
+commit 1cedb6d53eba12e71ae94775baf9822bceaad849
+Author: Myckel Habets <myckel@sdf.lonestar.org>
+Date:   Mon May 2 00:26:52 2016 +0200
+
+    Be in line with master branch
+
+commit b56003b2959e87ef20afec27dc42737004be31b7
+Author: Myckel Habets <myckel@sdf.lonestar.org>
+Date:   Mon May 2 00:05:48 2016 +0200
+
+    M4: switch to bdb53
+
+commit acd8fb92433f5f7076d1d8ddeeab32eb7dd75de1
+Author: Myckel Habets <myckel@sdf.lonestar.org>
+Date:   Fri Aug 5 23:52:29 2016 +0200
+
+    Release changes
+
+commit 8bb91c4648296005d8518a7bbcb99c8d879393e6
+Author: Myckel Habets <myckel@sdf.lonestar.org>
+Date:   Tue Jul 19 13:21:27 2016 +0200
+
+    Comment log message
+
+commit 844f70b1d29a5499d90d9d5eaf32c57b483e769a
+Author: Myckel Habets <myckel@sdf.lonestar.org>
+Date:   Tue Jul 19 12:41:20 2016 +0200
+
+    PoW check fixes
+
+commit b2974d88535d4e8e8bc33cc8674d97e9c8ac7660
+Author: Myckel Habets <myckel@sdf.lonestar.org>
+Date:   Wed Jun 29 16:21:47 2016 +0200
+
+    Debian changelog update
+
+commit 30480c4820970c3c35a3bd2fb66f76198d9dc0c3
+Author: Myckel Habets <myckel@sdf.lonestar.org>
+Date:   Tue Jun 28 11:33:21 2016 +0200
+
+    Bump to juli
+
+commit d2e905de505436d958ddce08309486ffe06f30a7
+Author: Myckel Habets <myckel@sdf.lonestar.org>
+Date:   Fri Jun 24 14:14:03 2016 +0200
+
+    Change version number to get to packing a new version.
+
+commit ff736bea85f711150c837368753190bce135255a
+Author: Myckel Habets <myckel@sdf.lonestar.org>
+Date:   Tue May 31 00:12:39 2016 +0200
+
+    Fix Dutch translation typo
+
+commit 3923e13d49b2ed9b61fddaae3e4458e9f5aab429
+Author: Myckel Habets <myckel@sdf.lonestar.org>
+Date:   Mon May 30 23:58:56 2016 +0200
+
+    Drop support for miniupnpc versions less than 1.6.
+
+commit f1be536ec4d170a98f672994c99cb950ec35da24
+Author: Myckel Habets <myckel@sdf.lonestar.org>
+Date:   Mon May 30 23:11:07 2016 +0200
+
+    Fix bug #1
+
+commit f946f292e40a4190466eb014aff03ef7df7a8702
+Author: Myckel Habets <myckel@sdf.lonestar.org>
+Date:   Mon May 30 22:54:00 2016 +0200
+
+    New splash image
+
+commit 232ce2190d691825e95b68027eb804c85284e709
+Author: Myckel Habets <myckel@sdf.lonestar.org>
+Date:   Thu May 26 15:30:50 2016 +0200
+
+    Fix more debian dir paths
+
+commit 83fd46d06d68e64f364255686b94547e1f6a8bc2
+Author: Myckel Habets <myckel@sdf.lonestar.org>
+Date:   Thu May 26 15:22:52 2016 +0200
+
+    Fix debian dir paths
+
+commit 3e201b70849efb3c66eec9a85016f5173bea27b3
+Merge: 745a370 a2754ee
+Author: Myckel Habets <BioMike@users.noreply.github.com>
+Date:   Mon May 23 16:21:58 2016 +0200
+
+    Merge pull request #3 from erictj/development
+    
+    Add support for miniupnp versions >= 1.5
+
+commit a2754ee3299322eb77710250b8cf0a9ea79f98ce
+Author: Eric Jennings <ericj@loopshot.com>
+Date:   Sun May 22 17:33:27 2016 -0700
+
+    Add support for miniupnp versions >= 1.5
+    - On Mac OS X 10.10 (Yosemite), this build did not work with the default
+      versions of miniupnp from homebrew. This patch fixes it.
+
+commit 745a370e61d75c2fe0c6f5a6f777c1bef2c46887
+Author: Myckel Habets <myckel@sdf.lonestar.org>
+Date:   Fri May 13 16:07:58 2016 +0200
+
+    Small debian build fix
+
+commit 8f5c38fb5e7af1688a0438de268554f1ebc3f755
+Author: Myckel Habets <myckel@sdf.lonestar.org>
+Date:   Fri May 13 15:21:44 2016 +0200
+
+    Debian changelog
+
+commit 6b708dc572c379a1583bf334d99dd37aa520f382
+Author: Myckel Habets <myckel@sdf.lonestar.org>
+Date:   Fri May 13 14:48:25 2016 +0200
+
+    Improved debian building folder.
+
+commit bde4933ce0baeacfa35a15c1c6a3db48f1d3f887
+Author: Myckel Habets <myckel@sdf.lonestar.org>
+Date:   Fri May 13 14:47:08 2016 +0200
+
+    Improved debian building folder.
+
+commit 3110e75dd390c3b68d017e56cbfeb8d35f296b5c
+Author: Myckel Habets <myckel@sdf.lonestar.org>
+Date:   Fri May 13 14:37:50 2016 +0200
+
+    New checkpoints
+
+commit 7ddb6b4c62ed2655e61f5577230bcfb5257fbc5d
+Author: Myckel Habets <myckel@sdf.lonestar.org>
+Date:   Thu May 12 00:46:05 2016 +0200
+
+    Copyright notice fix.
+
+commit 4d2bebae87f3b39a193e130f98453c85b861cdbe
+Author: Myckel Habets <myckel@sdf.lonestar.org>
+Date:   Wed May 11 23:58:05 2016 +0200
+
+    Push private key import fix to master.
+
+commit 525a80ceda654328932dcfd207ef0adc9fb52fd2
+Author: Myckel Habets <myckel@sdf.lonestar.org>
+Date:   Mon May 9 23:21:41 2016 +0200
+
+    Revert previous change and return the minimum values for the algos to normal.
+
+commit f8cfe121ab94b75f1474d2c8fe23bee18ca6007d
+Author: Myckel Habets <myckel@sdf.lonestar.org>
+Date:   Mon May 2 00:26:52 2016 +0200
+
+    Be in line with master branch
+
+commit 82ea3188d8ce9d3c091ba1c75a165a8a4a87647b
+Author: Myckel Habets <myckel@sdf.lonestar.org>
+Date:   Mon May 2 00:23:25 2016 +0200
+
+    M4: switch to bdb53 linked
+
+commit 716b477b11b04c0b8d26a09f7a31fe3346f764b2
+Author: Myckel Habets <myckel@sdf.lonestar.org>
+Date:   Mon May 2 00:05:48 2016 +0200
+
+    M4: switch to bdb53
+
+commit 4387fa2b4188916179105d5c9609dd414979ef9a
+Author: ny2cafuse <jessfoddrill@gmail.com>
+Date:   Wed Apr 27 09:41:40 2016 -0700
+
+    Version change in configure.ac
+
+commit d44fdc6f1b6a4a06caa35f197c1f5d99be82dac0
+Author: ny2cafuse <jessfoddrill@gmail.com>
+Date:   Sun Apr 24 14:03:27 2016 -0700
+
+    Key import patch
+    
+    Allows older paper wallet keys to be imported in the wallet.
+
+commit 63627614e694133242eb728bdcdf99865a420ac7
+Author: ny2cafuse <jessfoddrill@gmail.com>
+Date:   Fri Mar 18 14:24:17 2016 -0700
+
+    Initial commit

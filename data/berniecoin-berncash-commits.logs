@@ -1,0 +1,424 @@
+commit de82de0562d61fa547dcc796c7e8242780d9bed5
+Author: BERNiecoin <BernieCoinDev@gmail.com>
+Date:   Sun Aug 20 02:15:31 2017 -0400
+
+    Fix ambiguous array
+
+commit b9e5d9ee8af90977c589ecd82c24f18b8b6c0fc7
+Author: BERNiecoin <BernieCoinDev@gmail.com>
+Date:   Wed Feb 1 13:29:00 2017 -0500
+
+    Update statisticspage.cpp
+
+commit 9d67f509a916dfd9899bb5e7bc0e58ca46659d0c
+Author: BERNiecoin <BernieCoinDev@gmail.com>
+Date:   Sun Jan 22 05:38:37 2017 -0500
+
+    v1.2.3
+
+commit 101349845b3f1a5637d50fa2adb8ff1d3bfffa32
+Author: BERNiecoin <BernieCoinDev@gmail.com>
+Date:   Sun Jan 22 04:59:14 2017 -0500
+
+    v1.2.3
+
+commit b69d3c1a93dffbc6c877fb45740ff62ea407ca4f
+Author: BERNiecoin <BernieCoinDev@gmail.com>
+Date:   Sun Jan 22 04:57:01 2017 -0500
+
+    v1.2.3 checkpoint modifier checksum
+
+commit 36d2aa3c1ec9ca2489617f66dba191e0778fead9
+Author: BERNiecoin <BernieCoinDev@gmail.com>
+Date:   Sun Jan 22 04:53:15 2017 -0500
+
+    v1.2.3 new checkpoint
+
+commit ed8fb86be59c546b8d0dfa918f217e59fa06faf1
+Author: BERNiecoin <BernieCoinDev@gmail.com>
+Date:   Sun Jan 22 04:47:15 2017 -0500
+
+    Alert keys
+
+commit d3b9bcf6b99934d575d2d183c090c77af4c5693e
+Author: BERNiecoin <BernieCoinDev@gmail.com>
+Date:   Sun Jan 22 04:30:18 2017 -0500
+
+    Update README.md
+
+commit 4483f8faaf1e8d891a70d6b41d13b8d1071a8ce4
+Author: BERNiecoin <BernieCoinDev@gmail.com>
+Date:   Sat Jan 7 05:29:54 2017 -0500
+
+    Move seednodes under barn.cash DNS
+
+commit 56b99ecc7fa2c444bedbfdddcc3b8820550a7b59
+Author: BERNiecoin <BernieCoinDev@gmail.com>
+Date:   Mon Dec 19 10:24:07 2016 -0500
+
+    Correct label text
+
+commit 5786fa4d0f2f891073f0eb7bda1b454c74a7c4c7
+Author: BERNiecoin <BernieCoinDev@gmail.com>
+Date:   Mon Dec 19 00:43:42 2016 -0500
+
+    Update README
+
+commit 7101e60322b8fcbd0be33223f25e5363a8c39333
+Author: BERNiecoin <BernieCoinDev@gmail.com>
+Date:   Mon Dec 19 00:42:21 2016 -0500
+
+    Update about window
+
+commit c096f85076bd2adbccc2d44bdc9e7fc4e2291c22
+Author: BERNiecoin <BernieCoinDev@gmail.com>
+Date:   Sun Dec 18 21:38:02 2016 -0500
+
+    v1.2.2
+
+commit ad4576722476e682ec1c2a9fa4892cbebbd1d13c
+Author: BERNiecoin <BernieCoinDev@gmail.com>
+Date:   Sun Dec 18 21:36:59 2016 -0500
+
+    v1.2.2
+
+commit db29b5448bbe0dcc127f6fc8d06a8cf80470388c
+Author: BERNiecoin <BernieCoinDev@gmail.com>
+Date:   Sun Dec 18 21:35:44 2016 -0500
+
+    v1.2.2
+
+commit 899dbcca6b8e98f74221bdcfb459c642e531e07e
+Author: BERNiecoin <BernieCoinDev@gmail.com>
+Date:   Sun Dec 18 21:33:34 2016 -0500
+
+    v1.2.2
+
+commit ca6286e5f046ee11a5f96b173d0a90ef21fb04df
+Author: BERNiecoin <BernieCoinDev@gmail.com>
+Date:   Sat Dec 17 21:05:08 2016 -0500
+
+    PoW Phase 1 day approximation fix
+    
+    Correct number used to display approximation of days left.
+
+commit a6388790e698476f50c45aa47abd09fdd53373d9
+Author: BERNiecoin <BernieCoinDev@gmail.com>
+Date:   Tue Dec 6 07:51:37 2016 -0500
+
+    version 1.2.1
+
+commit 6a1b86254c5bd3d5283671e941a61021b704e8ba
+Author: BERNiecoin <BernieCoinDev@gmail.com>
+Date:   Tue Dec 6 07:48:51 2016 -0500
+
+    version 1.2.1
+
+commit 55345ac2c244cba88a1b13dd56d25a4db4cdffab
+Author: BERNiecoin <BernieCoinDev@gmail.com>
+Date:   Tue Dec 6 07:46:56 2016 -0500
+
+    revert type change
+
+commit 1d18be59c58ed4e349a00c880e7fc4a499203534
+Author: BERNiecoin <BernieCoinDev@gmail.com>
+Date:   Tue Dec 6 07:44:15 2016 -0500
+
+    revert type change
+
+commit a3a0b28036801afe59fc916c87dd249c59695f31
+Author: BERNiecoin <BernieCoinDev@gmail.com>
+Date:   Tue Dec 6 07:41:58 2016 -0500
+
+    revert previous change
+
+commit d956bd306d568de284133fe581fc89dddee729b1
+Author: BERNiecoin <BernieCoinDev@gmail.com>
+Date:   Tue Dec 6 07:38:21 2016 -0500
+
+    type correction
+
+commit 0b4a8b5687f97765e6e5c3f4bb3127779157f45f
+Author: BERNiecoin <BernieCoinDev@gmail.com>
+Date:   Tue Dec 6 07:33:27 2016 -0500
+
+    v1.2.1
+
+commit e2151af0419311dc9ad8ef427ad335d157a427a9
+Author: BERNiecoin <BernieCoinDev@gmail.com>
+Date:   Tue Dec 6 07:30:47 2016 -0500
+
+    v1.2.1
+
+commit e67727899780c7a467bc5601ef82eaaa3969d053
+Author: BERNiecoin <BernieCoinDev@gmail.com>
+Date:   Tue Dec 6 07:03:37 2016 -0500
+
+    remove webkit
+    
+    preparation for version minor bump also, 1.2.1
+
+commit d199abbdc19822aa882ae53a53b8f9a5ed16218d
+Author: BERNiecoin <BernieCoinDev@gmail.com>
+Date:   Tue Dec 6 00:39:58 2016 -0500
+
+    Update aboutdialog.ui
+
+commit 5513c9c08b8c6921790854881b31b528d06cf026
+Author: BERNiecoin <BernieCoinDev@gmail.com>
+Date:   Wed Nov 16 05:46:23 2016 -0500
+
+    version bump, v1.2
+
+commit 48930420284448e80f8eaca4c4e5aee4d8b299b2
+Author: BERNiecoin <BernieCoinDev@gmail.com>
+Date:   Wed Nov 16 05:22:33 2016 -0500
+
+    Update INSTALL
+
+commit ab160727e7297acd44fe0fef5f2dc47dc62156e0
+Author: BERNiecoin <BernieCoinDev@gmail.com>
+Date:   Wed Nov 16 05:17:18 2016 -0500
+
+    copyright
+
+commit 06b2d34baa0341dc601eeb8ae042027fb1ac25fc
+Author: BERNiecoin <BernieCoinDev@gmail.com>
+Date:   Wed Nov 16 04:09:14 2016 -0500
+
+    version 1.2
+    
+    and copyright
+
+commit ffd5c9759b5306ae15526b591a487169d8fc14f7
+Author: BERNiecoin <BernieCoinDev@gmail.com>
+Date:   Wed Nov 16 04:01:51 2016 -0500
+
+    version 1.2
+
+commit 2e32d328977cc8226d44961b3d2f57465d987407
+Author: BERNiecoin <BernieCoinDev@gmail.com>
+Date:   Wed Nov 16 03:56:33 2016 -0500
+
+    Update README.md
+
+commit 9fc6f95d826bad2099ebcfc157c50f4f008676c7
+Author: BERNiecoin <BernieCoinDev@gmail.com>
+Date:   Wed Nov 16 03:34:06 2016 -0500
+
+    version bump 1.2
+
+commit cfd9fc5a101dbb852abf1894ce836dd0ddce99e3
+Author: BERNiecoin <BernieCoinDev@gmail.com>
+Date:   Wed Nov 16 03:23:21 2016 -0500
+
+    v1.2 new checkpoint modified
+    
+    previously used block 556520 had a bad timestamp to use. Changed to use block 556535 which has a better timestamp in relation to timestamps of blocks around it.
+
+commit a81c3be1ad229d796e246e1735281eeeb0559eb2
+Author: BERNiecoin <BernieCoinDev@gmail.com>
+Date:   Wed Nov 16 03:18:41 2016 -0500
+
+    v1.2 modifier checkpoint
+    
+    At block height 556535
+
+commit 35bb2b561c3efe6af54faeec6d2d129b9531bb7a
+Author: BERNiecoin <BernieCoinDev@gmail.com>
+Date:   Wed Nov 16 03:09:05 2016 -0500
+
+    v1.2new checkpoint
+    
+    at block height 556520
+
+commit 42af93877c548f262e95ec96df1fb66bbad905ce
+Author: BERNiecoin <BernieCoinDev@gmail.com>
+Date:   Wed Nov 16 02:38:30 2016 -0500
+
+    typo correction
+
+commit fa98cdd6971e629ca2beb558115373ef129af636
+Author: BERNiecoin <BernieCoinDev@gmail.com>
+Date:   Wed Nov 16 02:35:31 2016 -0500
+
+    CWI seednodes added
+    
+    27 total seednodes
+
+commit 417761b71fe93fa4821bcad94da7f58587661597
+Author: BERNiecoin <BernieCoinDev@gmail.com>
+Date:   Tue Oct 11 06:48:00 2016 -0400
+
+    Update wallet.cpp
+
+commit 98a920be16e836450f7f0be286add02d4c006968
+Author: BERNiecoin <BernieCoinDev@gmail.com>
+Date:   Tue Oct 11 06:46:24 2016 -0400
+
+    Update wallet.h
+
+commit 34853ef046ec9012c17a3baf8b4e59c104bc938b
+Author: BERNiecoin <BernieCoinDev@gmail.com>
+Date:   Tue Oct 11 06:44:33 2016 -0400
+
+    Update bitcoingui.cpp
+
+commit 1960954acb27962b135f5a5db916b24bab1c741a
+Author: BERNiecoin <BernieCoinDev@gmail.com>
+Date:   Wed Sep 7 09:17:01 2016 -0400
+
+    Update walletmodel.cpp
+    
+    Fix 'for staking only' unlock
+
+commit 85e55bd80dafd5239b26fb58233a79777ad296d1
+Author: BERNiecoin <BernieCoinDev@gmail.com>
+Date:   Wed Jun 1 02:55:19 2016 -0400
+
+    Update kernel.cpp
+    
+    checkpoint stake modifiers
+
+commit 800b228d86e11cba6a1b1ff3af94689a6e3b61fe
+Author: BERNiecoin <BernieCoinDev@gmail.com>
+Date:   Mon May 30 17:09:03 2016 -0400
+
+    Update README.md
+
+commit e4b186c567d3e86bbf9bee49ce4774b97816f5fd
+Merge: 3c8c775 86cc268
+Author: BERNiecoin <BernieCoinDev@gmail.com>
+Date:   Mon May 30 10:08:37 2016 -0400
+
+    Merge pull request #2 from CryptoCanary/patch-3
+    
+    Update statisticspage.cpp
+
+commit 86cc26858edb6bf4aa7b2863c6b8b238f06724ed
+Author: Steven Saxton <ssaxton@kent.edu>
+Date:   Mon May 30 10:05:43 2016 -0400
+
+    Update statisticspage.cpp
+    
+    abs() hashrate so negatives do not show in gui
+
+commit 3c8c775e6adee4abc9b3046d43264f556d089048
+Author: BERNiecoin <BernieCoinDev@gmail.com>
+Date:   Mon May 30 08:28:02 2016 -0400
+
+    Update README.md
+
+commit 7c65286bcec7ee6ac64f367f9989639d3b15a61f
+Author: BERNiecoin <BernieCoinDev@gmail.com>
+Date:   Fri May 13 04:52:29 2016 -0400
+
+    Update blockbrowser.ui
+    
+    style buttons
+
+commit 93cc4283efa86ab01a7ac6ac988a4c8f1766ea3d
+Author: BERNiecoin <BernieCoinDev@gmail.com>
+Date:   Fri May 13 04:37:33 2016 -0400
+
+    Update addressbookpage.ui
+    
+    style buttons
+
+commit 7947913aff26f281f332991a0b50f90e4e061bda
+Author: BERNiecoin <BernieCoinDev@gmail.com>
+Date:   Fri May 13 04:02:45 2016 -0400
+
+    Update sendcoinsdialog.ui
+    
+    same style buttons
+
+commit b20caa50fb38242e2cb1c557210336f4a78cde0d
+Author: BERNiecoin <BernieCoinDev@gmail.com>
+Date:   Fri May 13 03:52:44 2016 -0400
+
+    Update sendcoinsdialog.ui
+
+commit c03f54a363f5e40743b432b7dab6f87c2fef078a
+Author: BERNiecoin <BernieCoinDev@gmail.com>
+Date:   Fri May 13 03:35:37 2016 -0400
+
+    Update miningpage.ui
+    
+    match button sizes
+
+commit 3ac07e2ef4e61233e5d28f8ba3339ef2f70449a9
+Author: BERNiecoin <BernieCoinDev@gmail.com>
+Date:   Fri May 13 02:58:31 2016 -0400
+
+    Update addresstablemodel.cpp
+    
+    Verify an owned address is used for easy mining.
+
+commit f43491191dcd2e73218694a484e16bd37d3dd2dd
+Author: BERNiecoin <BernieCoinDev@gmail.com>
+Date:   Thu May 12 18:35:30 2016 -0400
+
+    Update statisticspage.ui
+    
+    Remove label
+
+commit c614e382c4534f0092be622f87991c9a5a0a0392
+Author: BERNiecoin <BernieCoinDev@gmail.com>
+Date:   Thu May 12 14:38:43 2016 -0400
+
+    Update README.md
+
+commit b72b051efea41180726ca3e430af617e70cbd3d7
+Author: BERNiecoin <BernieCoinDev@gmail.com>
+Date:   Thu May 12 14:35:24 2016 -0400
+
+    Update bitcoingui.cpp
+    
+    remove webkit dep. Add MimeData
+
+commit 248f1e39ec5d4aeecebe3d0a11fa7eb2040b54e7
+Author: BERNiecoin <BernieCoinDev@gmail.com>
+Date:   Thu May 12 02:35:36 2016 -0400
+
+    Update overviewpage.ui
+    
+    Remove unhelpful styling.
+
+commit b3386ff5d84de944d605c474810022cd06a10e83
+Author: BERNiecoin <BernieCoinDev@gmail.com>
+Date:   Thu May 12 02:03:18 2016 -0400
+
+    Update overviewpage.ui
+    
+    Spacing
+
+commit 34a8fd303020b06e4e98e565e0db19141cfcabf5
+Author: BERNiecoin <BernieCoinDev@gmail.com>
+Date:   Thu May 12 01:34:34 2016 -0400
+
+    Update overviewpage.cpp
+    
+    revert
+
+commit 788c550b853d4adbad25b8387221461ca0be8e75
+Author: BERNiecoin <BernieCoinDev@gmail.com>
+Date:   Thu May 12 01:33:53 2016 -0400
+
+    Update overviewpage.ui
+    
+    Center logo
+
+commit cbbf700e4d17e93573fa5a6c5118a310fe30a687
+Author: BERNiecoin <BernieCoinDev@gmail.com>
+Date:   Thu May 12 01:19:15 2016 -0400
+
+    Update overviewpage.cpp
+    
+    This will not look good on windows.
+
+commit 9b412fa122a1f31586923ab43e40e684d83b9029
+Author: BERNiecoin <berniecoindev@gmail.com>
+Date:   Wed May 11 20:00:01 2016 -0400
+
+    Version 1.1

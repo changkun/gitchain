@@ -1,0 +1,124 @@
+commit a08a82aea618c89dcccecb3ccaa2ca7f21f500c9
+Merge: 3dcb236 11d0bc3
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Thu Nov 9 21:36:33 2017 +0530
+
+    Merge pull request #3 from satoshi-ninja/patch-1
+    
+    info on how to compile libleveldb & libmemenv
+
+commit 11d0bc32b09fdd221475161438f007f591c27df7
+Author: Satoshi Ninja <satoshi.ninja@protonmail.com>
+Date:   Thu Nov 9 13:09:12 2017 +0100
+
+    info on how to compile libleveldb & libmemenv
+
+commit 3dcb236fe523cda803a5ecc64148cccb1b0e57c6
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Tue Oct 10 07:54:49 2017 +0530
+
+    revert
+
+commit d751611a67a3dc3f3f355677e2c2d841238af8bc
+Merge: 046bd8b 703fb5c
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Mon Oct 9 22:30:47 2017 +0530
+
+    Merge pull request #1 from LIMXTEC/Branch_master
+    
+    added node
+
+commit 703fb5cd4a9a4ff35e18cfafb26e477737541214
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Sun Oct 8 20:03:31 2017 +0530
+
+    added node
+
+commit 046bd8b6125f64084eaa280889c14395121551d9
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Mon Oct 9 22:20:52 2017 +0530
+
+    Revert "fix update"
+    
+    This reverts commit 34e19409fb52a2cfef54aeaea6577d71be4a09d8.
+
+commit 34e19409fb52a2cfef54aeaea6577d71be4a09d8
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Mon Oct 9 22:04:04 2017 +0530
+
+    fix update
+
+commit 1338f365da23d3dbeb0ce2a489cc85fb7184de14
+Merge: a462b3a dd1b13b
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Mon Oct 9 21:30:48 2017 +0530
+
+    Merge branch 'master' of https://github.com/B3-Coin/B3-CoinV2
+
+commit a462b3a7ffcbc81dd60428b0538db7e1ff1ae5a1
+Merge: d8193d2 0efcea3
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Mon Oct 9 21:21:20 2017 +0530
+
+    Merge branch 'master' of https://github.com/B3-Coin/B3-CoinV2
+
+commit dd1b13bf7cc2ac605575abb63fd1a73e8bbc511d
+Merge: d8193d2 0efcea3
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Mon Oct 9 21:21:20 2017 +0530
+
+    Merge branch 'master' of https://github.com/B3-Coin/B3-CoinV2
+
+commit d8193d254b7547c18457c44d21599873eb7fd752
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Mon Oct 9 21:20:45 2017 +0530
+
+    update build
+
+commit 0efcea3095900acccc5eee645db072b40b7081ae
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Mon Oct 9 21:06:13 2017 +0530
+
+    switch to autotools
+
+commit 776bf80afef5420c89f368ee1baba508ec480aa4
+Author: kalilinuxoo7 <heman.singh.leu@gmail.com>
+Date:   Mon Oct 9 20:53:24 2017 +0530
+
+    build system update
+
+commit 951c42455ca84c061eea4215f9697e8b3f49acb2
+Author: joshafest <joshaf.est@gmail.com>
+Date:   Sun Oct 8 20:03:31 2017 +0530
+
+    added node
+
+commit df8fa9b7ed5f4e4de5788e35c4a71b1e6d663be9
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Fri Dec 23 11:04:02 2016 +0100
+
+    Source CleanUp
+
+commit 27dda2dcbd4f2479e661c667b8bdee936087dda6
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Thu Dec 22 12:20:31 2016 +0100
+
+    Update rpcblockchain.cpp
+
+commit 8124fb4538f09557ef11e2ec1a13f4e585ece2dc
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Tue Dec 20 08:32:55 2016 +0100
+
+    Staking improvment
+
+commit 3fc7a52dfd5a5678e1469daee64bcd0283019f56
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Mon Dec 19 22:16:47 2016 +0100
+
+    B3-Coin- Inittial
+
+commit ee2f1cb41463bd99d891f1a5c472b478b155f78e
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Mon Dec 19 22:13:48 2016 +0100
+
+    :neckbeard: Added .gitattributes & .gitignore files

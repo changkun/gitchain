@@ -1,0 +1,155 @@
+commit ad9aa5b97ccc3786ba6c4df0416dace0ada805b5
+Author: dm5k <damien.miller@gmail.com>
+Date:   Sat Nov 4 01:34:44 2017 -0400
+
+    Added supporting build tools, dependencies, and a bit of additional documentation
+
+commit 3f27246decf0494b763b50dafa82de24b33d29d9
+Author: tokyoghetto <live2pimp@Hotmail.com>
+Date:   Fri Nov 3 11:27:10 2017 -0600
+
+    Add files via upload
+
+commit c3029b8afdf9f80e696f8955f26b4d92d2a63e50
+Author: tokyoghetto <live2pimp@Hotmail.com>
+Date:   Fri Nov 3 11:14:59 2017 -0600
+
+    Add files via upload
+
+commit 71e79959359394d5fa717a8cde4ff343a5811bab
+Author: tokyoghetto <live2pimp@Hotmail.com>
+Date:   Fri Nov 3 11:13:25 2017 -0600
+
+    Add files via upload
+
+commit 323fd953ac192a42037bda574082c1664a73fb6f
+Author: tokyoghetto <live2pimp@Hotmail.com>
+Date:   Fri Nov 3 11:11:24 2017 -0600
+
+    Add files via upload
+
+commit eba32997cb003ae82e43126e1680b744abc3a717
+Author: tokyoghetto <live2pimp@Hotmail.com>
+Date:   Fri Nov 3 11:09:59 2017 -0600
+
+    Add files via upload
+
+commit 4066b9f6f0b497a6a3ce15609d50d02229a0d425
+Author: tokyoghetto <live2pimp@Hotmail.com>
+Date:   Fri Oct 27 14:24:01 2017 -0600
+
+    Add files via upload
+
+commit 3d4a6939a83fa1039e7a9fae9d88906063588f5a
+Author: tokyoghetto <live2pimp@Hotmail.com>
+Date:   Fri Oct 27 14:21:38 2017 -0600
+
+    Add files via upload
+
+commit 62bf21e467e1ff62c95d0a5c53dad211f79b8e34
+Author: tokyoghetto <live2pimp@Hotmail.com>
+Date:   Fri Oct 27 14:17:03 2017 -0600
+
+    Create !.gitignore
+
+commit a6875debefd1f40a020190671d9f20e6eb2d0e16
+Author: tokyoghetto <live2pimp@Hotmail.com>
+Date:   Fri Oct 27 14:14:15 2017 -0600
+
+    Create  !.gitignore
+
+commit 1b71d74c70a2b1faade435ce082919b18ed5abd0
+Author: tokyoghetto <live2pimp@Hotmail.com>
+Date:   Fri Oct 27 14:08:31 2017 -0600
+
+    Add files via upload
+
+commit 91aa43e1ab070e772a1e00e834017a845b8937df
+Author: tokyoghetto <live2pimp@Hotmail.com>
+Date:   Fri Oct 27 14:05:40 2017 -0600
+
+    Add files via upload
+
+commit bda33a627ef6f3517dddbc52b99e986ba05fde3f
+Author: tokyoghetto <live2pimp@Hotmail.com>
+Date:   Fri Oct 27 13:20:13 2017 -0600
+
+    Add files via upload
+
+commit 9cb0ad3bfeb52771ef84e72a9dc9bba4a53dc957
+Author: tokyoghetto <live2pimp@Hotmail.com>
+Date:   Fri Oct 27 13:18:10 2017 -0600
+
+    Add files via upload
+
+commit 720e628b90a6dd435ba5d55886bfc73367c3cb11
+Author: tokyoghetto <live2pimp@Hotmail.com>
+Date:   Fri Oct 27 12:52:59 2017 -0600
+
+    Add files via upload
+
+commit 42f6f552bfa113fbbf040530d82d568993cc6a08
+Author: tokyoghetto <live2pimp@Hotmail.com>
+Date:   Fri Oct 27 12:49:11 2017 -0600
+
+    Add files via upload
+
+commit 793f8e11481d4c2c20f674280b69fa01f03833e2
+Author: tokyoghetto <live2pimp@Hotmail.com>
+Date:   Fri Oct 27 12:45:50 2017 -0600
+
+    Create ignore.md
+
+commit 4bbecb354644b7aa052e55596357a92ef73b1883
+Author: tokyoghetto <live2pimp@Hotmail.com>
+Date:   Fri Oct 27 12:43:58 2017 -0600
+
+    Add files via upload
+
+commit e9a7026ac24ab7e38142890ba9f48c220bff0d73
+Author: tokyoghetto <live2pimp@Hotmail.com>
+Date:   Fri Oct 27 12:41:30 2017 -0600
+
+    Add files via upload
+
+commit 3c2c63e47e70c546a3b6079966dbb48e09abaad2
+Author: tokyoghetto <live2pimp@Hotmail.com>
+Date:   Fri Oct 27 12:38:06 2017 -0600
+
+    Create ignore.md
+
+commit acb1afafd65b7ba0cc51e7b2290269b9cf94bee1
+Author: tokyoghetto <live2pimp@Hotmail.com>
+Date:   Fri Oct 27 12:35:02 2017 -0600
+
+    Add files via upload
+
+commit 4a5a654f282b3003b4bb4528b6b5d6aa7d2ef681
+Author: tokyoghetto <live2pimp@Hotmail.com>
+Date:   Fri Oct 27 12:32:09 2017 -0600
+
+    Add files via upload
+
+commit 7fc3bf7cf93549b748c2ed3566beb9159c5a6bb1
+Author: tokyoghetto <live2pimp@Hotmail.com>
+Date:   Fri Oct 27 12:30:38 2017 -0600
+
+    Add files via upload
+
+commit 0adb344941d3a766b54d4647d18c6de1f0d24a00
+Author: tokyoghetto <live2pimp@Hotmail.com>
+Date:   Fri Oct 27 12:29:17 2017 -0600
+
+    Create test.md
+
+commit 83efb5a2ade168c36507d6a3b43fd759fd80fccf
+Author: tokyoghetto <live2pimp@Hotmail.com>
+Date:   Fri Oct 27 12:19:31 2017 -0600
+
+    Add files via upload
+
+commit ad3961e5449befc546ce99e56b2eca665cb7aa27
+Author: BTCRPDev <32334289+BTCRPDev@users.noreply.github.com>
+Date:   Fri Oct 27 12:15:56 2017 -0600
+
+    first commit

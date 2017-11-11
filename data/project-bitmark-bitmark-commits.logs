@@ -1,0 +1,1155 @@
+commit c481d4357cf910d05c183e3d55a11913e875b7af
+Merge: fb4f2a6 8a10f12
+Author: Melvin Carvalho <melvincarvalho@gmail.com>
+Date:   Sat Dec 24 18:34:00 2016 +0100
+
+    Merge pull request #13 from dbkeys/master
+    
+    Custom .gitignore for Bitmark
+
+commit 8a10f12366558d6da80304022182cd3100492c5e
+Author: dbkeys <dbkeys@users.noreply.github.com>
+Date:   Wed Dec 21 19:19:53 2016 +0000
+
+    Update clientversion.h
+
+commit ed1ab38044a62377c3d66989449cea39ddb021ba
+Author: dbkeys <dbkeys@bitmark.io>
+Date:   Tue Dec 20 07:41:58 2016 -0800
+
+    Customized .gitignore file (Allows git to disregard .o files, etc.)
+    configure.ac updated (INCLUDES -> AM_CPPFLAGS)
+    fix accidental rebase inclusion; in main.h: int64_t GetBlockValue(int nHeight, int64_t nFees);
+
+commit fb4f2a67c554458aba790e83cecf1000d3088c35
+Merge: 1409c9d a94816f
+Author: Melvin Carvalho <melvincarvalho@gmail.com>
+Date:   Fri Nov 11 13:06:51 2016 +0100
+
+    Merge pull request #12 from icook/0.9.5
+    
+    v0.9.5 - Add money supply indexing and RPC abbreviations
+
+commit a94816fc8b94201a6009ee423c2a6d908bcd5f43
+Author: Isaac Cook <isaac@simpload.com>
+Date:   Fri Aug 19 00:32:35 2016 -0500
+
+    Bump version number for fork release
+
+commit 8479856875d476fb99249adb36a968a41b808653
+Author: Isaac Cook <isaac@simpload.com>
+Date:   Sat Nov 5 21:12:06 2016 -0500
+
+    Correct two broken links in release guide
+
+commit b43aeda7b94ee756ae45e2ec03c2151874f0f220
+Author: Isaac Cook <isaac@simpload.com>
+Date:   Thu Oct 13 17:41:42 2016 -0500
+
+    Add total money supply to getinfo
+
+commit d520b96b18ab78ed36b72fd8573d7599a296190c
+Author: Isaac Cook <isaac@simpload.com>
+Date:   Sun Sep 25 17:28:05 2016 -0500
+
+    Add abbreviations for rpc commands
+
+commit bf4edef567a1527b82e5386b73024e5d73eb47d1
+Author: Isaac Cook <isaac@simpload.com>
+Date:   Fri Aug 19 00:15:21 2016 -0500
+
+    Track money supply in the block index
+
+commit 1409c9d956704c95879e552fd14d4426cd0ce04c
+Merge: 93b204d 51e1972
+Author: Melvin Carvalho <melvincarvalho@gmail.com>
+Date:   Thu Jan 7 23:03:14 2016 +0100
+
+    Merge pull request #9 from dbkeys/master
+    
+    Update active peer seed nodes, bump revision number, some grammar edits to README
+
+commit 51e1972f36f749ef22a7d053467d77e53b6ea781
+Author: dbkeys <dbkeys@bitvek.com>
+Date:   Wed Jan 6 18:30:28 2016 -0800
+
+    Grammar, Edits
+
+commit fbb91393a9c2b441524f905bb7380a2b06541c5e
+Author: dbkeys <dbkeys@bitvek.com>
+Date:   Wed Jan 6 12:02:32 2016 -0800
+
+    Edits to README
+
+commit c1b9d8fc5ae2a184415d5c3e2b69b7507a5cd2db
+Author: dbkeys <dbkeys@bitvek.com>
+Date:   Wed Jan 6 11:23:58 2016 -0800
+
+    Bump revision number to 5
+    Update hard-coded seeds (fixed network nodes)
+
+commit 93b204dd1113649cce3c288a4ef28f2ca0678e42
+Merge: 243966e 2d64d30
+Author: Melvin Carvalho <melvincarvalho@gmail.com>
+Date:   Wed Jan 6 01:53:36 2016 +0100
+
+    Merge pull request #8 from icook/master
+    
+    Fix boost 1.58 compilation
+
+commit 2d64d30daa83c186fb6663577f5c30333d98b8cc
+Author: Isaac Cook <isaac@simpload.com>
+Date:   Tue Jan 5 14:37:20 2016 -0600
+
+    Fix boost 1.58 compilation
+    
+    * From bitcoin/bitcoin#6113
+
+commit 243966e318431306b503c4be3c99d2725bb725ee
+Merge: 8bcb666 867e17b
+Author: Melvin Carvalho <melvincarvalho@gmail.com>
+Date:   Thu Apr 23 12:56:59 2015 +0200
+
+    Merge pull request #6 from gitter-badger/gitter-badge
+    
+    Add a Gitter chat badge to README.md
+
+commit 867e17bc0b105a92a5fe7eb567616f3791e6425d
+Author: The Gitter Badger <badger@gitter.im>
+Date:   Thu Apr 23 10:56:28 2015 +0000
+
+    Added Gitter badge
+
+commit 8bcb666828d19acf085cb1a6b84051da9032c704
+Author: MarkPfennig <coinsolidation@gmail.com>
+Date:   Wed Feb 18 14:32:38 2015 +0000
+
+    ;
+
+commit 45676e4f7fb06aed85235ed8d00deea9a622596f
+Author: MarkPfennig <coinsolidation@gmail.com>
+Date:   Wed Feb 18 14:20:45 2015 +0000
+
+    set MAX_ADDR_TO_SEND to 1000
+
+commit 52b1e4c0737f34075f4c9fe7bd7ee3eb0ab14ea0
+Author: MarkPfennig <coinsolidation@gmail.com>
+Date:   Wed Feb 18 05:27:02 2015 +0000
+
+    Intermediary Signatures after building
+
+commit 326fe479c2df23b47f3dc160158f4a0578a27f98
+Author: MarkPfennig <coinsolidation@gmail.com>
+Date:   Sun Feb 8 15:50:22 2015 +0000
+
+    Prepare for 0.9.4
+
+commit ef1e3180ce25a5d20203284ff7a113834bf5259d
+Author: MarkPfennig <coinsolidation@gmail.com>
+Date:   Sun Feb 8 15:47:10 2015 +0000
+
+    Bump openssl to k in release process
+
+commit c73430933540c2c9c16a3e9eff5a4a57e8d17fdf
+Author: MarkPfennig <coinsolidation@gmail.com>
+Date:   Sun Feb 8 15:44:44 2015 +0000
+
+    Improve robustness of DER recoding code
+
+commit 7c79a509e517a61ccaeedab0298ca774c1717bd9
+Author: MarkPfennig <coinsolidation@gmail.com>
+Date:   Sun Feb 8 15:42:43 2015 +0000
+
+    gitian: bump revision for OSX qt
+
+commit 45d7e319561f9b04b030ece5f2972c77e3259bb8
+Author: MarkPfennig <coinsolidation@gmail.com>
+Date:   Sun Feb 8 15:40:44 2015 +0000
+
+    gitian: openssl-1.0.1i.tar.gz -> openssl-1.0.1k.tar.gz
+
+commit ce48ebcd6d7b86377fbbe1125a61e13054d3a631
+Author: MarkPfennig <coinsolidation@gmail.com>
+Date:   Sun Feb 8 15:32:14 2015 +0000
+
+    fail immediately on an empty signature
+
+commit 80b63d600dff665de99e80288e6bf53f82ab5df9
+Author: MarkPfennig <coinsolidation@gmail.com>
+Date:   Sun Feb 8 15:30:29 2015 +0000
+
+    consensus: guard against openssl's new strict DER checks
+
+commit 969b62bd94fee15dd07c71e89ed2d2cc91229b6f
+Author: MarkPfennig <coinsolidation@gmail.com>
+Date:   Sun Feb 8 15:22:51 2015 +0000
+
+    Disable SSLv3 (in favor of TLS) for the RPC client and server.
+
+commit 7c40d3376a80748387a2e810a2e000cb9e0524e2
+Author: MarkPfennig <coinsolidation@gmail.com>
+Date:   Sun Feb 8 15:20:33 2015 +0000
+
+    Limit the number of new addressses to accumulate
+
+commit 756a9e1dcbe1d89701b1d7d199eaa42cce8b9189
+Author: MarkPfennig <coinsolidation@gmail.com>
+Date:   Sun Feb 8 15:15:46 2015 +0000
+
+    update checkpoints at 46519
+
+commit 3c43e36b85efdd2d8fd85834f68697d9a8d5fc80
+Author: MarkPfennig <coinsolidation@gmail.com>
+Date:   Thu Dec 4 03:09:25 2014 +0000
+
+    update release notes for new dependencies
+
+commit 95ed8db4824d823cd202ebf9f86443455bb384d7
+Author: MarkPfennig <coinsolidation@gmail.com>
+Date:   Thu Dec 4 00:07:12 2014 +0000
+
+    missed a ;
+
+commit 0cb2a1abaceef7a48c92b0e254af4eae1a7f3000
+Author: MarkPfennig <coinsolidation@gmail.com>
+Date:   Wed Dec 3 23:55:35 2014 +0000
+
+    change private key version to pub+128
+
+commit b6568edafca1379863195efd03fc297b51e3c907
+Author: MarkPfennig <coinsolidation@gmail.com>
+Date:   Wed Dec 3 23:17:44 2014 +0000
+
+    make -alertnotify code static
+
+commit e2ae3d82fac39bbb8a2ac8495202193a3e9c7dae
+Author: MarkPfennig <coinsolidation@gmail.com>
+Date:   Wed Dec 3 23:11:48 2014 +0000
+
+    make -proxy set all network types to avoid connect leak
+
+commit 6b676303e34ab107ca6dcfbafe6fc0410b475c2f
+Author: MarkPfennig <coinsolidation@gmail.com>
+Date:   Wed Dec 3 23:07:36 2014 +0000
+
+    fix release name strings for gitian builds
+
+commit cb0749316823670748480c3bf1990c17a4905852
+Author: MarkPfennig <coinsolidation@gmail.com>
+Date:   Wed Dec 3 23:05:05 2014 +0000
+
+    swap cdrkit source to fedora packages
+
+commit b2d28c48eb6ace49fc7970395410d6203b07941f
+Author: MarkPfennig <coinsolidation@gmail.com>
+Date:   Wed Dec 3 23:01:47 2014 +0000
+
+    strict handling of orphan transactions, default config for max orphan blocks and transactions
+
+commit e6e17d449ff18b37bb66c14e10adb999bd431cee
+Author: MarkPfennig <coinsolidation@gmail.com>
+Date:   Wed Dec 3 21:52:28 2014 +0000
+
+    remove message about boost, and useless millisleep
+
+commit 14688412d2b7dbd4c4d1c8a997b8e92befa95c25
+Author: MarkPfennig <coinsolidation@gmail.com>
+Date:   Wed Dec 3 21:49:01 2014 +0000
+
+    6eb5410d8f746da03a50eb964795c16cce916eb7
+
+commit 8ae2f6bd251b05f63d95d57ab6a9ac7501ea3a6a
+Author: MarkPfennig <coinsolidation@gmail.com>
+Date:   Wed Dec 3 21:46:55 2014 +0000
+
+    Limit CNode::mapAskFor
+
+commit e31b78b250dffa7418a78376e196348499d16138
+Author: MarkPfennig <coinsolidation@gmail.com>
+Date:   Wed Dec 3 21:43:46 2014 +0000
+
+    avoid crash
+
+commit 7bb979d46062613c72db2b64c44f76ede138da0a
+Author: MarkPfennig <coinsolidation@gmail.com>
+Date:   Wed Dec 3 21:41:31 2014 +0000
+
+    avoid repeated lookups in mapOrphanTransactions*
+
+commit 09e16c0b97d00484ed8d36cfc3f4ad5e81dae1e4
+Author: MarkPfennig <coinsolidation@gmail.com>
+Date:   Wed Dec 3 21:32:32 2014 +0000
+
+    miniupnp 1.9.20140701
+
+commit 94d7df9a04dc1362a9dcf0ddaa8ee6c6b1559af3
+Author: MarkPfennig <coinsolidation@gmail.com>
+Date:   Wed Dec 3 18:48:44 2014 +0000
+
+    length error libc-compat
+
+commit 6fedff489c75e342f9096980fc9936a519f5242a
+Author: MarkPfennig <coinsolidation@gmail.com>
+Date:   Wed Dec 3 18:47:03 2014 +0000
+
+    FDELT_TYPE config check
+
+commit 9e2633bf49da8b2dd14439cf299ab6898c32694a
+Author: MarkPfennig <coinsolidation@gmail.com>
+Date:   Wed Dec 3 18:43:55 2014 +0000
+
+    fix boost in builds
+
+commit 0acf8a233e9a8b6d9f19fda84ef4e95f98e56fd9
+Author: MarkPfennig <coinsolidation@gmail.com>
+Date:   Wed Dec 3 18:42:21 2014 +0000
+
+    fix unicode character display on osx when building with 10.7 sdk
+
+commit 3b373dcb657773724e38a924fc482e9b591c4b07
+Author: MarkPfennig <coinsolidation@gmail.com>
+Date:   Wed Dec 3 18:14:19 2014 +0000
+
+    openssl 1.0.1i
+
+commit bd311e6e623adb3d80d80a5e2ce4fc9dc4570e5b
+Author: MarkPfennig <coinsolidation@gmail.com>
+Date:   Wed Dec 3 18:04:35 2014 +0000
+
+    only query dnsseeds when really needed
+
+commit 3b10f818e60a1071385f2b1de1fe132312cb3fad
+Author: MarkPfennig <coinsolidation@gmail.com>
+Date:   Wed Dec 3 17:40:42 2014 +0000
+
+    Increase IsStandard() scriptSig length
+
+commit 256b1f5b8f0dce90bc40480225aa8576aa3933e6
+Author: MarkPfennig <coinsolidation@gmail.com>
+Date:   Wed Dec 3 16:15:50 2014 +0000
+
+    Check redeemScript size does not exceed 520 byte limit
+
+commit 220afcda57e7493ede7031f786ad5d5d04ab5423
+Author: MarkPfennig <coinsolidation@gmail.com>
+Date:   Wed Dec 3 16:11:01 2014 +0000
+
+    ignore overly long redeemScripts while wallet loads
+
+commit e355a4969a1bcc4a1a9ef7dfbaf755a92f1d28be
+Author: MarkPfennig <coinsolidation@gmail.com>
+Date:   Wed Dec 3 14:36:20 2014 +0000
+
+    Jeff's paranoid base58 return value checks
+
+commit 38cf4e70b8e522d448d78d7489594ce538bfd8e8
+Author: MarkPfennig <coinsolidation@gmail.com>
+Date:   Wed Dec 3 14:33:04 2014 +0000
+
+    friendly message on missing ssl EC support
+
+commit 6d1f9aa77f9aafe9f25daefb541e3f814b972b54
+Author: MarkPfennig <coinsolidation@gmail.com>
+Date:   Wed Dec 3 14:08:35 2014 +0000
+
+    add in sipa's limited deserialized string lengths
+
+commit 849fe69141407cf979cbbe88c1039115c7fbb20c
+Author: MarkPfennig <coinsolidation@gmail.com>
+Date:   Wed Dec 3 13:59:25 2014 +0000
+
+    0a6dcae50827fd4dd8cb1874936b2ca136232c6e cs_main mutex
+
+commit 80e6d9d5e32f13fdd417a8d4086c3a5bcc9b14e5
+Author: MarkPfennig <coinsolidation@gmail.com>
+Date:   Wed Dec 3 13:57:16 2014 +0000
+
+    throw error on read block from disk error instead of segfault
+
+commit 25c6b02083ed77b3088b7c901a69023d59f20d0b
+Author: MarkPfennig <coinsolidation@gmail.com>
+Date:   Wed Dec 3 13:53:25 2014 +0000
+
+    bip72 testmode bug fix bf75a3d3fdae069ff6eed410bf16ee68452ea41f
+
+commit b70fc11b44231bbfb89024729c50a67301e243c4
+Author: MarkPfennig <coinsolidation@gmail.com>
+Date:   Wed Dec 3 13:51:02 2014 +0000
+
+    redeemScript for P2SH
+
+commit ad676e72b22195bb441c88fd30798e13a7746a52
+Author: MarkPfennig <coinsolidation@gmail.com>
+Date:   Wed Dec 3 13:44:51 2014 +0000
+
+    swap bignum for cbignum, add tests
+
+commit ddeca4e78e319457fc373c6658e0660d9fa8087d
+Author: MarkPfennig <coinsolidation@gmail.com>
+Date:   Wed Dec 3 13:19:59 2014 +0000
+
+    -gen -genproclimit -keypool need ENABLE_WALLET
+
+commit 7ce0c51e872c9a4e986d8bc06eae78fc5643a578
+Author: MarkPfennig <coinsolidation@gmail.com>
+Date:   Wed Dec 3 13:15:27 2014 +0000
+
+    remove showmyip.com support
+
+commit c394736a65b4422d25cf6ce620beaf262558c6ea
+Author: MarkPfennig <coinsolidation@gmail.com>
+Date:   Wed Dec 3 13:12:21 2014 +0000
+
+    start bump to 0.9.3
+
+commit f5c42a15179253a87300188e1896fac7b3fdcc2f
+Author: MarkPfennig <coinsolidation@gmail.com>
+Date:   Wed Dec 3 13:08:44 2014 +0000
+
+    add in setNumBlocks to GUI
+
+commit 9e06b07837ac4f244db42c0b5a232559ef338b56
+Author: MarkPfennig <coinsolidation@gmail.com>
+Date:   Wed Dec 3 13:05:33 2014 +0000
+
+    Remove NumBlocksOfPeers 752ecec5cc055506bf9e905a60a96068ea9f92bc
+
+commit c1fc9ff16d1ecd520db8b69b387cbc7136a3be35
+Author: MarkPfennig <coinsolidation@gmail.com>
+Date:   Thu Nov 20 12:03:09 2014 +0000
+
+    update checkpoints at 46190
+
+commit 352423eba11e6a9789f16908e37a849733d0bf2a
+Author: MarkPfennig <coinsolidation@gmail.com>
+Date:   Sat Oct 4 17:58:34 2014 +0100
+
+    update checkpoints at 44750
+
+commit 88900ac57769183eb32a56a7980325c424fcda05
+Author: MarkPfennig <coinsolidation@gmail.com>
+Date:   Tue Sep 23 03:57:40 2014 +0100
+
+    Clean up RPCs that are disabled in safe-mode. 4507-bitcoin
+
+commit e253704bbf106dfbbf8c7b90b521da391d838510
+Author: MarkPfennig <coinsolidation@gmail.com>
+Date:   Mon Sep 22 00:31:05 2014 +0100
+
+    update checkpoints at 42020
+
+commit b5200179ea22d97857013057a0e77b92542947ec
+Author: MarkPfennig <coinsolidation@gmail.com>
+Date:   Sun Sep 14 21:33:59 2014 +0100
+
+    checkpoints at 38290
+
+commit 974467b95257354a8f18b0a1f0f16840a4a351d8
+Author: MarkPfennig <coinsolidation@gmail.com>
+Date:   Tue Sep 9 02:14:24 2014 +0100
+
+    checkpoints updated at 34830
+
+commit 36b8c5fc9bfbca8ea3fd00be1c5b7cac5ad82347
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Tue Sep 2 15:18:20 2014 +0100
+
+    update checkpoints at 33298
+
+commit 78a7e0265a6c07c91dbe32e6624656096fb820bf
+Merge: 5c769c0 242d4db
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Mon Aug 25 07:57:08 2014 +0100
+
+    Merge branch 'master' of github.com:project-bitmark/bitmark
+
+commit 5c769c094bb22613d3fd0df6810ba7a5e7a8885f
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Mon Aug 25 07:56:54 2014 +0100
+
+    checkpoints udpated at 30688
+
+commit 242d4db89f3830133584bd171685630e5485fbfb
+Author: Mark Pfennig <coinsolidation@gmail.com>
+Date:   Fri Aug 22 04:10:18 2014 +0100
+
+    Update README.md
+
+commit bad77eefa3854ce0f141ab819b90ef999bcc819f
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Thu Aug 21 22:49:34 2014 +0100
+
+    tidy comments
+
+commit aa1a614b0efe41c7989bb30b2b96e35bdf4cda59
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Thu Aug 21 07:30:23 2014 +0100
+
+    tidy up installer header
+
+commit 2d8cc81627ba37b200cfedb400efed5c0230e614
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Thu Aug 21 07:22:04 2014 +0100
+
+    do the same thing again, but this time correctly
+
+commit d1e382afc3f3c5f0b2f6256b4da068bfe08fa419
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Thu Aug 21 06:30:14 2014 +0100
+
+    distinguish between unknown and tagged release versions
+
+commit 783dceb36c7678a9d0850e191690e1322e7f91b5
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Thu Aug 21 05:44:34 2014 +0100
+
+    sanity check, force build.h and change pita unk
+
+commit 1efd8147bb721b25d7309d5d9febfec999116615
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Thu Aug 21 05:11:07 2014 +0100
+
+    change build.h location
+
+commit cfbdea98f2e674e4769e89ac3b31e108200bb6ad
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Thu Aug 21 04:40:53 2014 +0100
+
+    force building of build.h
+
+commit c81aa15140f6f7ae43077980ab9a910033d16f66
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Thu Aug 21 03:30:39 2014 +0100
+
+    revert
+
+commit 501a8e99e1de5fac0cefafc5f7ad70bfec65b730
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Thu Aug 21 03:00:44 2014 +0100
+
+    force build.h
+
+commit 20632e36be4be6b685057100f9eedde0ff17fa12
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Thu Aug 21 01:28:40 2014 +0100
+
+    trivial change
+
+commit dc7bd1d29f418ca0dec832430156dac655fa2507
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Wed Aug 20 22:55:21 2014 +0100
+
+    account for configure's voodoo
+
+commit 7f7f2174296fc6aac0dc73342d3cf53119394f91
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Wed Aug 20 18:52:37 2014 +0100
+
+    update checkpoints for release at 28400
+
+commit 9b185c985c8894b6b074787c053ccc1c5b5207f2
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Wed Aug 20 17:54:09 2014 +0100
+
+    require relaytime and expiration. bump version ready for release
+
+commit c77356926a211ca6e6a7fd7880e24d30f77a43ac
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Wed Aug 20 17:30:28 2014 +0100
+
+    add in relay time and expiration for alerts
+
+commit fee323a5e661fdc779afc8deb47d77420ccd867a
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Wed Aug 20 16:49:22 2014 +0100
+
+    git archive version tagging
+
+commit e8ddb00cc4be0e7bee4d755cda490ce20d25e10a
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Wed Aug 20 16:45:24 2014 +0100
+
+    add in alerts and new keys
+
+commit ebda85c21c2c1d4511b7c89b1cf558582ff01224
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Wed Aug 20 16:31:59 2014 +0100
+
+    stripped
+
+commit 05ec55577f56f0941029e529659d8aa20c9607c8
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Wed Aug 20 16:24:28 2014 +0100
+
+    temporary add new daemon - don't use
+
+commit ab0ca86d7c9b515499331346f12f0d8fa8f340e3
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Wed Aug 20 14:02:24 2014 +0100
+
+    application of new branding to client
+
+commit 77c228f058b424b21e76569278613580566da222
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Mon Aug 18 17:09:46 2014 +0100
+
+    checkpoints updated at 27050
+
+commit 21b680c40aa96f64e34a253515cf0be535b97efd
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Sun Aug 10 19:13:59 2014 +0100
+
+    update weekly checkpoints at 20675
+
+commit 19f33e9e375db50e5b7c8ae8d0514520b30b0e15
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Wed Aug 6 00:21:50 2014 +0100
+
+    update checkpoints at 17500
+
+commit dfce3ec4444d3754b7bcc7c7ead924e5cd4b02fa
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Thu Jul 31 19:00:20 2014 +0100
+
+    updated seed nodes
+
+commit 942ae312b3165d4e4a9512754f5490918a4aaba0
+Merge: 06c6332 f3979a1
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Mon Jul 28 18:17:55 2014 +0100
+
+    Merge branch 'master' of github.com:project-bitmark/bitmark
+
+commit 06c63321c4ca5af1bdafea28b5246eaa3cbcdc19
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Mon Jul 28 18:17:39 2014 +0100
+
+    update checkpoints
+
+commit f3979a11db5e7c34cf1ded8de032e4b771fde3c6
+Author: Mark Pfennig <coinsolidation@gmail.com>
+Date:   Mon Jul 28 02:31:46 2014 +0100
+
+    Update README.md
+
+commit 1adbe144354dcc31bce181c420d391c1eefd2b20
+Author: Mark Pfennig <coinsolidation@gmail.com>
+Date:   Mon Jul 28 02:30:24 2014 +0100
+
+    Update README.md
+
+commit 1a14417753bc52b843e6108b1ac7eca5eb480a55
+Merge: eb20bd4 117d626
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Fri Jul 25 23:01:34 2014 +0100
+
+    Merge branch 'master' of github.com:project-bitmark/bitmark
+
+commit eb20bd4e37b149e03d3c2644f1b829dfc86158ab
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Fri Jul 25 23:01:02 2014 +0100
+
+    cleanup broken urls
+
+commit 117d6268a64ab768dba603f9aacf05792f3ee78c
+Author: Mark Pfennig <coinsolidation@gmail.com>
+Date:   Wed Jul 23 20:37:20 2014 +0100
+
+    Update README.md
+
+commit e4330107256a41f54d46a018f78c2abb25982994
+Author: Mark Pfennig <coinsolidation@gmail.com>
+Date:   Wed Jul 23 20:37:04 2014 +0100
+
+    Update README.md
+    
+    update links
+
+commit f526abda19247278bd9a198b8e42f70d7ff8f477
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Mon Jul 21 19:23:45 2014 +0100
+
+    how did this work with the wrong checkpoint data?
+
+commit 1ed529015955e0ec00d70bd3bf37472f7e5e9ba2
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Sat Jul 19 09:03:36 2014 +0100
+
+    update readme, we are released
+
+commit 335632b88128688c7a757b55ba898153d9a93d9b
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Sat Jul 19 06:50:19 2014 +0100
+
+    added checkpoint at block 4918
+
+commit d8835fed4e3d84b1835252fc499f465319241727
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Sun Jul 13 11:26:26 2014 +0100
+
+    clean up some variables
+
+commit 0dd9d0243cee4bbc012040d85b47a383323599b2
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Sun Jul 13 01:54:08 2014 +0100
+
+    remove genesis miner
+
+commit 9af95e7874637a5053b32592bd7d6f41fe85a637
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Sun Jul 13 01:18:00 2014 +0100
+
+    multicore genesis miner, with time rolling
+
+commit 6d6141d5812d1249c2f42b68b0d3df5b85df9ce3
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Sun Jul 13 01:16:56 2014 +0100
+
+    multicore genesis miner..
+
+commit bb4b5af0ac0e727d7da18a533fb8c18f6b74136e
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Sun Jul 13 00:14:40 2014 +0100
+
+    temporary add genesis miner
+
+commit 5dcd1c9f84a4a6d8b43f9b0db24794ef6e2349af
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Sat Jul 12 22:10:27 2014 +0100
+
+    13/July/2014, with memory of the past, we look to the future. TDR
+
+commit 2f045fb4143c3cfe42e9bd10e1d8e6e06dcb7b06
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Sat Jul 12 21:40:23 2014 +0100
+
+    add master nodes and dns seeder
+
+commit dfbea893517399046a4ea15767326e4191b6aa14
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Sat Jul 12 20:48:06 2014 +0100
+
+    nsis graphics
+
+commit d1f21208b9c929ad1795698037d4a1569db7e03e
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Sat Jul 12 20:33:23 2014 +0100
+
+    testnet graphics
+
+commit 1c502271b017a6518154526a366a124a46b746ce
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Sat Jul 12 20:22:19 2014 +0100
+
+    loose matte and add dependency note
+
+commit 1ff334a84ab744ce2065b8b4274861e869aa6a70
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Sat Jul 12 20:11:18 2014 +0100
+
+    new splash
+
+commit ff8ca1264eb9bf1d2c7a1c89c164581c9939fcc3
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Sat Jul 12 20:09:48 2014 +0100
+
+    new icon
+
+commit 61647805d51a652a07dca6dd000d0866aa6821b3
+Merge: 7880d0a be315d8
+Author: Mark Pfennig <coinsolidation@gmail.com>
+Date:   Wed Jul 9 16:50:44 2014 +0100
+
+    Merge pull request #1 from project-bitmark/upgrade-qt4
+    
+    update to qt 4.8.6
+
+commit be315d8580dd260a932e0a7a6ba7247ce0298fec
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Wed Jul 9 16:47:28 2014 +0100
+
+    update release process for qt 4.8.6
+
+commit 471fe6e93f0adbd25b45c2495b68c0ecd4ca8212
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Wed Jul 9 11:48:11 2014 +0100
+
+    update to qt 4.8.6
+
+commit 7880d0ad743f7636c3124d503a8070b58f4d3b4f
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Tue Jul 8 00:29:45 2014 +0100
+
+    osx icns file
+
+commit 30fb965b26346f3ba7c8841821ac1318d5deb921
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Tue Jul 8 00:18:16 2014 +0100
+
+    icns builder
+
+commit 27800944a25e4440147825ce603223298299f7b9
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Mon Jul 7 23:25:24 2014 +0100
+
+    casing error in osx yml
+
+commit d3c6b93e03c8610db65c53c200b3371b040cc1b9
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Mon Jul 7 23:12:33 2014 +0100
+
+    prepare for osx cross compilation
+
+commit 0d36f209b58026844641488f6b37315f59d4719f
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Sun Jul 6 21:50:55 2014 +0100
+
+    fix project urls
+
+commit 704094ae7fcd1f2689d4e067071eee787623cf9b
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Sun Jul 6 20:55:27 2014 +0100
+
+    s/Bitmark Core project/Project Bitmark/
+
+commit b6df754e604b36edc2328208377dd4f1f285a719
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Sun Jul 6 19:53:42 2014 +0100
+
+    modify installer, toolbar images, clean icon sizes for windows
+
+commit 24e0071ecc9b1fa1d185a741ffebecf36980820d
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Sun Jul 6 19:08:45 2014 +0100
+
+    installer images, remove old -bc icon
+
+commit 9c883bdf461c680567e8b6fabf7e497171a3b5a1
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Sun Jul 6 18:36:12 2014 +0100
+
+    temporary svg
+
+commit 95344b50dfea1dad1a4b898282b5fe7e2297fb0b
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Sun Jul 6 17:39:59 2014 +0100
+
+    icon creator for all icons finished
+
+commit bdfcacd99819d62c87388c497932881de002ee5d
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Sun Jul 6 17:23:31 2014 +0100
+
+    auto on all icons including testnet
+
+commit 22c5a6d6a1973654986a6ca130d380b2cc084394
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Sun Jul 6 17:15:12 2014 +0100
+
+    sh file for auto ico, png, xpm creation
+
+commit 4201bb4c24cf611ab61d44044405b1c6a7a3ce14
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Sun Jul 6 16:53:27 2014 +0100
+
+    hq logo and correctly generated windows ico
+
+commit 1d22eff3061cd48fc66f4a5c60280d5e290ddd60
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Sun Jul 6 16:29:55 2014 +0100
+
+    add macdeploy.. needed for dist builds
+
+commit 3d3810e35387e9b2e7dbd74d7355471ee71f212b
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Sun Jul 6 14:53:41 2014 +0100
+
+    misc doc changes
+
+commit c467c793424184940a6bd44be35960ef245dc21f
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Sun Jul 6 14:46:43 2014 +0100
+
+    gitian descriptors for cross compiling bitmark
+
+commit e924bbff1054781721d9473f6efa78a0cdc0cff2
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Sat Jul 5 16:44:12 2014 +0100
+
+    minor readme changes
+
+commit 516bdeade12ec7762b546a60005cdf7b5f188b15
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Sat Jul 5 16:26:39 2014 +0100
+
+    fix urls in readme
+
+commit 1e6c770c3ae35512e957061d902b0397a84b0abe
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Sat Jul 5 16:23:32 2014 +0100
+
+    tl;dr added to readme
+
+commit c1e621ea8fa043734acced4e5a2dd4e9099cdb97
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Fri Jul 4 23:17:33 2014 +0100
+
+    readme updated
+
+commit 16a40adf54a05569316ce852e8598d3c0c8fc6d6
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Fri Jul 4 23:13:04 2014 +0100
+
+    splash and about tidied
+
+commit 719c1db512eb6fda4aeb866af36cef789a2354eb
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Fri Jul 4 22:19:53 2014 +0100
+
+    src headers >m
+
+commit 97570737df6244622322a63fc05f54b144c5c451
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Fri Jul 4 22:10:46 2014 +0100
+
+    src headers <m
+
+commit 43fc1c7340605b2f3bf9cfb4c48db55a49314893
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Fri Jul 4 21:45:11 2014 +0100
+
+    headers and splash modification
+
+commit f6e423727b8613cb8994fa6464b3a9a852ed1821
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Fri Jul 4 19:19:00 2014 +0100
+
+    qt (c) headers
+
+commit b23b6dfd597c90e639ade798d9aea62f47b48d6a
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Fri Jul 4 15:06:13 2014 +0100
+
+    splash screen
+
+commit 4c59387d047775b3629bea3fea7e9331b8ae0554
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Fri Jul 4 14:00:58 2014 +0100
+
+    bitmark branding, thanks to mymenace
+
+commit f9e30165b543631296d3d8779187be23acd07ce6
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Thu Jul 3 19:50:47 2014 +0100
+
+    bitmark: uri support and test update
+
+commit 0d9819e73a1a96138963491fcf1b3ed9f2bdc2b1
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Thu Jul 3 19:44:02 2014 +0100
+
+    url cleanup on src
+
+commit edec604453950904a5121b337ad40e8bf30bdb7d
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Thu Jul 3 19:39:40 2014 +0100
+
+    fix base58 test, remove blockcheck test, url fixes
+
+commit aec505d6bbbea3652d15313c88f16e6b8254a30d
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Thu Jul 3 19:18:37 2014 +0100
+
+    place holder addresses
+
+commit 9086d121c11216cd0f5a9665c1df7773b6365e48
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Thu Jul 3 18:22:11 2014 +0100
+
+    currency units, BTM, MARK, mb
+
+commit e34d4e062e8e89136e4bd8a5df08da56c345e63f
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Tue Jul 1 21:05:42 2014 +0100
+
+    update checkpoints for testnet
+
+commit f2ef5df57c766cf8558ed82d73ccfd952a649426
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Tue Jul 1 19:07:19 2014 +0100
+
+    remove print on accept block, stratum-mining problem not bitmark
+
+commit e97a246687ee7eb224f794ee7b5c2cbd6c317a2c
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Tue Jul 1 18:57:51 2014 +0100
+
+    quick debug line whilst investigating stratum support
+
+commit 29f2715e882213933385fdb5b4d62113217d19f9
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Tue Jul 1 18:54:14 2014 +0100
+
+    quick debug line whilst investigating stratum support
+
+commit 6523829b2d21b219f393dab2bfa6898cfaf2b57c
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Tue Jul 1 16:32:55 2014 +0100
+
+    token checkpoint so getblocktemplate does not think blockchain is always downloading
+
+commit 6747dad860ec4742d7dffead7a5c8206b0b374e8
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Mon Jun 30 23:49:32 2014 +0100
+
+    begin process to force version 2 blocks from the start
+
+commit 0746428b3ee8e3cdac7030accf5f2c7c12a0a3c2
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Mon Jun 30 23:04:28 2014 +0100
+
+    ... unconditional support for BIP31
+
+commit 479a5a193381a2cec0b60d8cbfbbac1d908728cf
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Mon Jun 30 22:32:44 2014 +0100
+
+    add unconditional support for BIP16, BIP30, BIP31
+
+commit 9d234f72016d681798b56590ec3b87cc78af0e12
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Mon Jun 30 21:54:44 2014 +0100
+
+    add temporary mainnet to run unit tests on, remove some checkpoints
+
+commit 5c1c0c9199ca753ff403eb2594b79cffb362035a
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Mon Jun 30 17:14:13 2014 +0100
+
+    update readme
+
+commit da998fb98cf6498f2e0d61c1d3b9341c04dfbbae
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Mon Jun 30 17:06:53 2014 +0100
+
+    remove generation scripts, use genesis from Params()
+
+commit 7429f2369d3eb0e9530555b6de72af55da53fd90
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Mon Jun 30 16:47:46 2014 +0100
+
+    bitmark internal miner working
+
+commit f8b43cac698e8c06baa008076da53681dfda55eb
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Mon Jun 30 16:22:41 2014 +0100
+
+    remove scan hash and unused variable
+
+commit 464df54be2df2e318047428bd33dfd9ad6fcec2c
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Mon Jun 30 16:05:51 2014 +0100
+
+    scrypt support and testnet
+
+commit 16b6720912a962dab9f343b20c2b797121b3bca7
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Mon Jun 30 04:31:05 2014 +0100
+
+    most of the scrypt integration
+
+commit bf73c3ab0e012adc7511c799206b08df0e6e8523
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Mon Jun 30 02:30:00 2014 +0100
+
+    update readme to say not ready yet as committing live
+
+commit c1dfb5ddb0073ac5eb149c0bea105789b7e9f6c9
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Mon Jun 30 02:24:30 2014 +0100
+
+    remove some files that are not needed
+
+commit c042280fb858586a387d2f4943449f0788db42ac
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Mon Jun 30 01:55:50 2014 +0100
+
+    update uris mistakenly replaced
+
+commit 8bd004b4b8552b298360007e274b36979bab3d32
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Mon Jun 30 01:32:31 2014 +0100
+
+    update bloom test and keytest for bitmark
+
+commit c42268dadc208859966169abd6fc6a714bb7f1b8
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Mon Jun 30 00:03:30 2014 +0100
+
+    update key test vectors
+
+commit 6141d9a61dc217214f4903acc426c9d5337a24a7
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Sun Jun 29 23:59:20 2014 +0100
+
+    address prefixes
+
+commit 1a9529197fa40c6d1be691039f5bf44abeb17afe
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Sun Jun 29 22:16:01 2014 +0100
+
+    subsidy schedule, halving, interim reductions, test case
+
+commit 9375edbac50e6dd73f254e2401d72fd0e38b5fbd
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Sun Jun 29 18:55:30 2014 +0100
+
+    typo
+
+commit 39c62b1d7b379671d0209c0e49e72d736cdd4516
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Sun Jun 29 18:52:43 2014 +0100
+
+    basic chain params
+
+commit 482a86f5599f1d874fda9a5591809beda047685c
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Sun Jun 29 17:14:02 2014 +0100
+
+    bitmark port configurations
+
+commit 989c848f89f1708fe8c596eb986076808f7d9016
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Sun Jun 29 16:29:08 2014 +0100
+
+    bitmark global rename
+
+commit 11a6ce1d811056febc7c6dc9e74c73c2cab940a1
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Wed Jun 25 21:21:04 2014 +0100
+
+    test dm4
+
+commit 09c36ac650cefb32b6e00cc227fbecb7fa7e83aa
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Mon Jun 23 23:23:42 2014 +0100
+
+    final test from dev m3
+
+commit df3373d1e0c7f8fdbe95cb1c1cfb423c2942a1f2
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Mon Jun 23 23:22:51 2014 +0100
+
+    mini readme
+
+commit 2b2d3f5094d389d5dfebf4cb7af176513ac3bb36
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Mon Jun 23 23:20:41 2014 +0100
+
+    test
+
+commit 0f2453d31170e0fc3eb8dc3bce169db81e55efb6
+Author: coinsolidation <coinsolidation@gmail.com>
+Date:   Mon Jun 23 23:19:43 2014 +0100
+
+    Initial commit

@@ -1,0 +1,145 @@
+commit 0cbcc83e136bdb3ab6229cebf120350d3c3de506
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Fri Nov 10 01:38:33 2017 +0100
+
+    Changes COLUMN_TYPE,
+
+commit 1e2bb0ee6761d05de9eee26ab3c065470f13bd35
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Fri Nov 10 01:36:05 2017 +0100
+
+    Changes
+
+commit 8f5bbee3451c99652db3cd5c7dd9a4cb58744818
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Fri Nov 10 01:00:36 2017 +0100
+
+    Bump Version
+
+commit e323d0437438227e7969636aa845d064de547718
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Fri Nov 10 00:48:17 2017 +0100
+
+    [Qt] Multisig GUI
+
+commit eb1b8708c5d1a1dd8173571c7e06fe32fd56726a
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Thu Nov 9 22:07:49 2017 +0100
+
+    New Changes
+
+commit f0bc9eb602f449df3dca9d1f5be44bfb39c0a551
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Wed Nov 1 22:43:33 2017 +0100
+
+    Change Folder BTDXTEST to Bitcloud
+
+commit 88ae241c51711cedaca73a46f7d723e4a411d11e
+Merge: 109c1a9 d210cc1
+Author: Chris <apfelbaum@email.de>
+Date:   Tue Sep 26 19:43:26 2017 +0200
+
+    Merge pull request #3 from dArkjON/patch-2
+    
+    update port in sample
+
+commit d210cc17e6088380c7d0fbc2ca4f07dbcae569c2
+Author: Jon Durdel <info@darkjon.de>
+Date:   Tue Sep 26 17:53:12 2017 +0200
+
+    update port in sample
+
+commit 109c1a97da9bd0b653e46bec91056e676aef2e89
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sat Sep 23 21:01:00 2017 +0200
+
+    Update 2.0.0.3 Security Update
+
+commit f0783c00dcb41fb8abd3da431921a392740c2d79
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Mon Sep 18 13:16:23 2017 +0200
+
+    Change Copyright in Files
+
+commit 52da11709e8e3bdd5b9b68c3165975189e6f878b
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sun Sep 17 19:30:12 2017 +0200
+
+    Change Copyright Splash
+
+commit f464d299b338d4bef4761388e6909607b64695e8
+Author: Chris <apfelbaum@email.de>
+Date:   Fri Sep 8 22:16:18 2017 +0200
+
+    Fix
+
+commit 508665831217a07410491b0fbe058a42de1dacef
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Wed Aug 16 16:52:28 2017 +0200
+
+    Set new version fix in pow.cpp
+
+commit 1d2bdce6511526fb5a2de306f4f8a9217fde8718
+Merge: 31f7abf 6107b04
+Author: Chris <apfelbaum@email.de>
+Date:   Wed Aug 16 15:01:48 2017 +0200
+
+    Merge pull request #1 from dArkjON/patch-1
+    
+    Error Fix
+
+commit 6107b04c1dc7b56a57bac3fac6967c84e613a3b7
+Author: Jon Durdel <info@darkjon.de>
+Date:   Wed Aug 16 14:53:02 2017 +0200
+
+    Error Fix
+    
+    C = c
+
+commit 31f7abf9fb7b39cd465f83653c94042d83b43a91
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Wed Aug 16 13:01:13 2017 +0200
+
+    Rename String
+
+commit 5718d5a6d9ec148579432d6621c1b517857ab4e6
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Wed Aug 16 01:25:44 2017 +0200
+
+    Changing file permissions
+
+commit c985563f817026c503c14b27f0a5c2ff95d4aa1a
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Wed Aug 16 01:17:44 2017 +0200
+
+    Changing file permissions
+
+commit c80fcc19f3ca70999e6c5f701e6d39dba1bdc7cf
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Wed Aug 16 00:39:15 2017 +0200
+
+    Init2
+
+commit a4b492ea9808906d1a5e7fae7d0da3df4b696777
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Wed Aug 16 00:17:21 2017 +0200
+
+    Changing file permissions
+
+commit 7229f307f79a7922ae3c233bce5f6c4e23361c57
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Wed Aug 16 00:15:38 2017 +0200
+
+    Changing file permissions
+
+commit ccba168f0ce0fe1f9b8a34791633dbefb4d1cf67
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Tue Aug 15 23:34:47 2017 +0200
+
+    Bitcloud Version 2.0.0.0 Intitial
+
+commit 2cca896442cfa741f585c1653c1cfb1444ba81a3
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Tue Aug 15 23:20:22 2017 +0200
+
+    :lollipop: Added .gitattributes & .gitignore files
