@@ -1,0 +1,433 @@
+commit 2894c97c19d058268f6e139e1aa00c90939f78a0
+Author: vashshawn <shawnvash@gmail.com>
+Date:   Tue Jun 20 01:15:27 2017 -0700
+
+    Update README.md
+
+commit e375fab973ef7e0713dbaba7a92b14aa38407394
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Fri Dec 30 00:36:14 2016 -0800
+
+    Release version 2.0.0
+
+commit 95dd091d2a50a65cbf37a47dc34e9aa37beff46b
+Merge: 98d620d 4d46ac1
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Thu Dec 29 15:34:44 2016 -0800
+
+    Merge pull request #1 from Fuzzbawls/master
+    
+    Updated code to address invalid sidechain
+
+commit 4d46ac1866c0e4e6320b1fa156cd7aee58379364
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Tue Dec 27 21:09:12 2016 -0800
+
+    Add addnode/getaddednodeinfo RPC commands
+
+commit 7d4f4a6d0c0abca0712648f629286973fcd3a575
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Tue Dec 27 18:27:15 2016 -0800
+
+    Update subtree .gitignore files
+
+commit 35f461f028635b57660f62215f869eb98b581243
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Tue Dec 27 18:23:40 2016 -0800
+
+    Add .gitignore file
+    
+    Lets ignore some of the generated files from the build process
+
+commit f13fca863246e5ec133fb689dad7c17b6ac3cbf1
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Tue Dec 27 18:19:54 2016 -0800
+
+    Remove trailing whitespace
+
+commit 7b45348a40432f23f5e994b9ffb823596aaac5d4
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Tue Dec 27 18:12:40 2016 -0800
+
+    Reduce spam messages in debug.log
+    
+    We really don't need to list off the last 2500 stake modifiers in the
+    log when starting the client. Silence those messages unless running with
+    the -debug option.
+
+commit 2188ad380428db0791f460bc01e04deec5eed0ec
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Tue Dec 27 18:10:39 2016 -0800
+
+    Change alert and checkpoint master keys
+    
+    Since the previous holder of these keys is M.I.A. and to prevent a
+    future large reorginization, the old keys need to be invalidated.
+
+commit 7459e6d014ccdd33f2e43cc9dfb8599ae6a48ad0
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Tue Dec 27 18:05:00 2016 -0800
+
+    Future Hard-Fork - March 1 2017 00:00:00 UTC
+    
+    Bummp up the version to 2.x.x and increment protocol version
+    
+    This will effectively disconnect old version clients starting March
+    1 2017 00:00:00 UTC. There is currently an invalid side-chain that is
+    causing excessive bandwidth usage by bombarding the network with
+    orphaned blocks.
+    
+    This fork won't change block rewards or transaction limits, and is only
+    done to forcibly deny connections to old clients.
+
+commit d480dcb9a067d6da70777606149c5a844c23108d
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Sat Dec 24 21:39:48 2016 -0800
+
+    Add a LOT of checkpoints
+    
+    Checkpoints up to block 650000. Note that due to network sidechains
+    and some erronous data, clients upgrading may encounter an error
+    message.
+    
+    Such clients should use a bootstrap to resync their wallets.
+
+commit 7e0962dfb973aadd1548db4262ff9949f5441fa5
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Sat Dec 24 21:38:47 2016 -0800
+
+    Add new DNS & fallback seed addresses
+    
+    Primary DNS Seeder: Fuzzbawls
+    Backup: Drew
+
+commit 26efe9cd411693ba08f228dc3a0a4f1fe2867544
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Sat Dec 24 21:04:15 2016 -0800
+
+    Set version to 1.2.2.99
+    
+    the trailing .99 is used as an identifier for non-release builds.
+
+commit 98746e2ba1c63fef2c5046c4af87dc9a3837ee30
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Sat Dec 24 21:02:46 2016 -0800
+
+    Clean up and standardize the daemon makefiles
+    
+    There were LOTS of inconsistencies between the various distribution
+    specific makefiles.
+
+commit 4bd82ac31d91aab564e35e8595a587d5d3e42fca
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Sat Dec 24 21:00:06 2016 -0800
+
+    Generate build info even for windows
+    
+    Release binaries for windows are cross-compiled from linux, so there
+    is no need to forcibly disable the recreation of build info.
+    
+    Native windows compilers should not set USE_BUILD_INFO=1 to avoid
+    errors.
+
+commit ac6fb73f8b8c231347d12b3f5fb22c9a2aed9325
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Sat Dec 24 20:58:42 2016 -0800
+
+    Update minimum OS X version
+    
+    10.7 is now the minimum supported version of OS X
+
+commit f2c57f955910e63d2cdb37b2f62147901d2d1e69
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Sat Dec 24 20:57:13 2016 -0800
+
+    Remove hard-coded libs for Mac builds
+    
+    There are already checks and defaults further down that work just fine,
+    no need to have hard-coded values for supporting libraries.
+
+commit 45e7d2541a061058e8355fcbb6e6f6d92bed8a77
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Sat Dec 24 20:53:10 2016 -0800
+
+    Clean up indentation and whitespace inconsistencies
+    
+    No code changes, just cleaning up some inconsistencies with whitespace
+    and indentation.
+
+commit 778d0bad5b95171cf83389f2e7e6c002e1be8cab
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Sat Dec 24 20:46:44 2016 -0800
+
+    Fix Miniupnpc define in pro file
+    
+    Newer versions of miniupnpc use MINIUPNP_STATICLIB instead of just
+    STATICLIB. Define both for maximum compatibility.
+
+commit 16f922f22c29d9e4e6f99ccdc9750a428db0fa35
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Sat Dec 24 20:44:16 2016 -0800
+
+    Signature verification guards
+    
+    Combined patch to guard against newer versions of OpenSSL's strict
+    DER signature requirements, as well as guarding against signatures
+    with crafted lengths (ppcoin)
+
+commit b6c9904a932262bf44279199c70ee9ac37c75f57
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Sat Dec 24 20:43:34 2016 -0800
+
+    Update/Fix windows deployment script
+
+commit 1d3a9ccd73f0f0f81520400d31ee1e6fe5da4e0c
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Sat Dec 24 20:41:13 2016 -0800
+
+    Add contrib files
+    
+    The contrib directory contains supporting tools to help with deployment
+    and/or integration for 3rd party programs.
+
+commit b20e46bf34c5d440bd4307500c32e93e6fa48984
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Sat Dec 24 20:37:43 2016 -0800
+
+    GUI Fixes and Additions
+    
+    Bitcoin-Qt: use statustips in addition to tooltips
+    
+    - add setStatusTip() in addition to setTooltip() where it makes sense
+    - add only setStatusTip() if GUI element is only used in main- or tray
+      menu
+    
+    - add an event filter on our BitcoinGUI object to prevent garbelled text
+    on the status bar, which happens when we use it for e.g. displaying
+    block-sync state and then a QEvent::StatusTip wants to write own
+    text to it
+    
+    - remove a double translation of "Bitcoin client"
+    
+    small update for BitcoinGUI::setNumBlocks() function
+    
+    - re-work code parts that check if we have a Statusbar warning
+    - use same variable names in the header
+    
+    Show warning when using prerelease version
+    
+    Implements #1948
+    
+    - Add macro `CLIENT_VERSION_IS_RELEASE` to clientversion.h
+    - When running a prerelease (the above macro is `false`):
+    - In UI, show an orange warning bar at the top. This will be used
+    for other warnings (and alerts) as well, instead of the status bar.
+    - For `bitcoind`, show the warning in the "errors" field in `getinfo`
+    response.
+    
+    BTC Commit(s):
+    6f959c4cb340cf66b36170be137b7b59d619b35b
+    ce2f66d9bfd2040753b1af93dc520a8a3f7a5213
+    62e21fb5d00c33df37b6faaf0626da120c4783bc
+
+commit dfebe4163db4c83703e6aa6fa91a6e5ab36c73c0
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Sat Dec 24 20:16:42 2016 -0800
+
+    Fix icon images
+    
+    For some reason, the previous images had useless enpty space around
+    them.
+
+commit fe180a87c11bc60a9d50b2dca7d0eca4f3db9258
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Thu Dec 22 21:07:01 2016 -0800
+
+    Remove pre-build object files
+    
+    These files get generated at compile time, there is no reason to
+    include them in the source tree.
+
+commit bcf2d3f10f09b7fb1e365391a22f0a65bfed7abd
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Tue Dec 20 22:41:36 2016 -0800
+
+    Tighten the version string generation process.
+    
+    Dynamic version string generation now properly takes into account any
+    modifications to files in the source tree. As a result, the version
+    string will more clearly show when a client has been built with
+    modifications.
+    
+    Official release binaries will show 'vX.X.X'
+    Unofficial builds will append the commit shorthash to the version number
+    Builds with uncommitted file modifications will further append 'dirty'
+    to the string.
+
+commit 21506ea156ec7f0bccbd4fc6f06741eb82b91615
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Tue Dec 20 22:34:34 2016 -0800
+
+    Remove generated Makefile
+    
+    Makefile is generated when running qmake, and should not be included in
+    the source tree.
+
+commit b0561e26a80c087143dffaf79ccef3bd736a8a3e
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Tue Dec 20 22:32:37 2016 -0800
+
+    Remove IRC based peer fetching
+    
+    IRC based peer fetching has been depreciated for many years now, and
+    has proven to be unreliable at best, and insecure at worst.
+    
+    Default peer fetching method now (future commit) is DNS based.
+
+commit 98d620d18efb58f480e11ae3e37ce97fe5f9243a
+Author: SoonCoin <info@sooncoin.com>
+Date:   Wed Jul 6 20:51:33 2016 +0200
+
+    version change to 1.2.1.0
+
+commit a840ffbf28b160781717a4f8a4e345a5060b9407
+Author: SoonCoin <info@sooncoin.com>
+Date:   Wed Jul 6 20:48:38 2016 +0200
+
+    vers v2
+
+commit ff7b0df23e2a5df7b11b6c5f89fbfd4aac73e8a1
+Author: SoonCoin <info@sooncoin.com>
+Date:   Wed Jul 6 20:47:48 2016 +0200
+
+    set last pow block at 420000
+
+commit 8deef2f9efc597523b405749e4976799903f1bd1
+Author: SoonCoin <info@sooncoin.com>
+Date:   Sat Jun 25 04:09:00 2016 +0200
+
+    Delete wallet.png
+    
+    unneeded image
+
+commit 5b436a3e95c8d6f65df137cbb6cdae236535c55d
+Author: SoonCoin <info@sooncoin.com>
+Date:   Mon Mar 14 19:34:25 2016 +0100
+
+    added extra seed node seeder
+
+commit 9031ee3e02b430642c699f0faebc71f2b98d0dea
+Author: SoonCoin <info@sooncoin.com>
+Date:   Sun Mar 13 21:22:26 2016 +0100
+
+    update version after changes
+
+commit d183a9f307d7076e63de46451cac40fdaa252583
+Author: SoonCoin <info@sooncoin.com>
+Date:   Sun Mar 13 20:57:00 2016 +0100
+
+    added checkpoints
+
+commit c3943b7f5197ca7466ba2d80b0639d1d547a5bdb
+Author: SoonCoin <info@sooncoin.com>
+Date:   Fri Mar 11 14:14:17 2016 +0100
+
+    added seed node see.corgicoin.co.uk
+
+commit 3dedf14f2ff4bfd2858d5c80110fff7bbf4f3afb
+Author: SoonCoin <info@sooncoin.com>
+Date:   Sat Feb 27 04:06:17 2016 +0100
+
+    added more checkpoints
+
+commit 9ef2e2c75070410ecdbf32d048574f89a892c488
+Author: SoonCoin <info@sooncoin.com>
+Date:   Tue Feb 23 00:56:41 2016 +0100
+
+    added upnp 1.9 compatibility
+
+commit 9b524bd10ded7936697d3475ca5f467e990c1d10
+Author: SoonCoin <info@sooncoin.com>
+Date:   Fri Feb 5 20:40:58 2016 +0100
+
+    removed old crashed nodeip
+
+commit cceb3f6326a90a422a3966c63da3d597e78d77d6
+Author: SoonCoin <info@sooncoin.com>
+Date:   Fri Feb 5 20:30:57 2016 +0100
+
+    more checkpoints added
+
+commit 5b2e7573f6f4643ad254bcb9f39d39c4ba81148a
+Author: SoonCoin <info@sooncoin.com>
+Date:   Fri Feb 5 20:14:13 2016 +0100
+
+    renamed old name to new
+
+commit 5ac04a38ee2886b5333c1ad99a8d6b0e5c239976
+Author: SoonCoin <info@sooncoin.com>
+Date:   Fri Feb 5 20:13:02 2016 +0100
+
+    renamed old name to new
+
+commit 3f3b3534f95910769e4d19c7a7a08bcee8936460
+Author: SoonCoin <info@sooncoin.com>
+Date:   Fri Feb 5 20:11:44 2016 +0100
+
+    renamed mismatched name
+
+commit e0bcd926fc203f29fd0cbf30d19eb9f306e54c22
+Author: SoonCoin <info@sooncoin.com>
+Date:   Fri Feb 5 20:10:29 2016 +0100
+
+    renamed old template name file to new
+
+commit cf23fe13ab1a34a53e53f722de40eee80305d3d6
+Author: SoonCoin <info@sooncoin.com>
+Date:   Fri Jan 29 18:52:57 2016 +0100
+
+    added checkpoints
+
+commit c2d2e90cea541b8270d626536202f8adc65f8210
+Author: SoonCoin <info@sooncoin.com>
+Date:   Fri Jan 29 18:37:09 2016 +0100
+
+    added seed node
+
+commit 3bd60016c4d645d12cc5fbf1b795fb3ae9dc0f38
+Author: SoonCoin <info@sooncoin.com>
+Date:   Fri Jan 15 10:56:15 2016 +0100
+
+    add logo to wallet
+
+commit 1a6e5d0615908f6647f8ab4f104d6e006b962869
+Author: SoonCoin <info@sooncoin.com>
+Date:   Fri Jan 15 10:48:09 2016 +0100
+
+    add logo
+
+commit 1484d2718dd16a784a460d232c05f4e5890332f2
+Author: SoonCoin <info@sooncoin.com>
+Date:   Fri Jan 15 10:37:45 2016 +0100
+
+    fix textcolor
+    
+    fixed showing text color on message page
+
+commit cb6a51dd778105099eaad5195dce5fa6d4f571bd
+Author: SoonCoin <info@sooncoin.com>
+Date:   Thu Jan 14 21:46:32 2016 +0100
+
+    update
+
+commit fbeaae65d591af7a18daf51371183d3072f4ff83
+Author: SoonCoin <info@sooncoin.com>
+Date:   Thu Jan 14 07:23:50 2016 +0100
+
+    updated pics
+
+commit 53593724f68e1b7864816b867e7ddaee488d089a
+Author: SoonCoin <info@sooncoin.com>
+Date:   Thu Jan 14 02:04:11 2016 +0100
+
+    start of corgi v2

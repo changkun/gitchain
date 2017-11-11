@@ -1,0 +1,19 @@
+commit 0dce076e7951f93fbef30d6ca647267de10f324c
+Author: Coinonat Foundation <coinonat@gmail.com>
+Date:   Tue Aug 8 21:13:53 2017 +0300
+
+    Coinonat
+
+commit 25dbe81c80752c124a11add6bbf4d52d220b1db3
+Author: Coinonat Foundation <coinonat@gmail.com>
+Date:   Mon Mar 27 21:22:49 2017 +0200
+
+    Coinonat
+    
+    Release
+
+commit e92f2a5195f2738d1343657e1a123025cf0757c4
+Author: Coinonat Foundation <coinonat@gmail.com>
+Date:   Mon Mar 27 21:17:03 2017 +0200
+
+    :lollipop: Added .gitattributes & .gitignore files

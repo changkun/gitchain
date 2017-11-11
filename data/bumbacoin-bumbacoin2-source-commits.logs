@@ -1,0 +1,83 @@
+commit cd75893a9df734d5547366b0077781a139241821
+Merge: f938ba0 55332ac
+Author: bumbacoin <bumbacoin@gmail.com>
+Date:   Thu Jun 1 11:54:34 2017 +0800
+
+    Merge pull request #1 from bumbacoin/stakeTesting
+    
+    Stake testing
+
+commit 55332ac06c26f296d1d6f73a8688ee8d2d3f6cc3
+Author: bumbacoin <bumbacoin@gmail.com>
+Date:   Thu Feb 2 20:41:09 2017 +0800
+
+    Update rpcwallet.cpp
+    
+    speeling
+
+commit eb0ddbe8dcf1d9c0d0891762d680088c9e0d0188
+Author: bumbacoin <bumbacoin@gmail.com>
+Date:   Thu Jan 19 15:31:41 2017 +0800
+
+    manual stake split/combine thresholds
+
+commit f938ba05dc04865fb4d05c0b7f3d4ee0ac50d6e2
+Author: bumbacoin <bumbacoin@gmail.com>
+Date:   Wed Jan 18 09:31:29 2017 +0800
+
+    Update README.md
+
+commit 95f7f39b0969f53039f7e336018910db32b41e68
+Author: bumbacoin <bumbacoin@gmail.com>
+Date:   Thu Jan 5 13:32:08 2017 +0800
+
+    additional seed
+
+commit 44f8672dd534388ac9d583550dbfff8459d09184
+Author: bumbacoin <bumbacoin@gmail.com>
+Date:   Wed Jan 4 15:24:54 2017 +0800
+
+    clean and polish
+
+commit b231daf7a2047102c6745075395de985f96fb202
+Author: bumbacoin <bumbacoin@gmail.com>
+Date:   Fri Dec 9 22:29:31 2016 +0800
+
+    increase file desriptors, fix makefile.osx
+
+commit 091cc73135fd94dc7c97d9fb0088915dccd2741e
+Author: bumbacoin <bumbacoin@gmail.com>
+Date:   Fri Dec 9 22:14:42 2016 +0800
+
+    minor update
+
+commit 07282e4af807159a5ad6c9b0e60103256b0637d9
+Author: bumbacoin <bumbacoin@gmail.com>
+Date:   Fri Dec 9 22:13:02 2016 +0800
+
+    add true/false to rescan for importprivkey
+    
+    allows adding of multiple privkeys before rescan
+    
+    importprivkey Bxxxxxxxxxxxxxxxxx1 "" false
+    importprivkey Bxxxxxxxxxxxxxxxxx2 "" false
+    importprivkey Bxxxxxxxxxxxxxxxxx3 "" false
+    importprivkey Bxxxxxxxxxxxxxxxxx4 "" true
+
+commit a0a12556a72276d3308d9605cedb3b922bb1b1de
+Author: bumbacoin <bumbacoin@gmail.com>
+Date:   Mon Dec 5 22:20:16 2016 +0800
+
+    update for later UPNP
+
+commit 2f39d930aab313572782778cec361db3f13c9a69
+Author: bumbacoin <bumbacoin@gmail.com>
+Date:   Mon Dec 5 22:09:35 2016 +0800
+
+    first
+
+commit 9efe40e5986e64233029fc4244a341c4bf813787
+Author: bumbacoin <bumbacoin@gmail.com>
+Date:   Mon Dec 5 22:05:32 2016 +0800
+
+    Initial commit

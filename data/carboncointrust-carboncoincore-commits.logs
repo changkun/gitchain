@@ -1,0 +1,137 @@
+commit edf69148e6023b5b4787e720540b062b2523355f
+Author: carboncoinadministrator <carboncointrust@gmail.com>
+Date:   Fri Oct 28 21:40:34 2016 +0000
+
+    Bug fixes
+
+commit 908c9f25b2e44c2d1147ab94b1ad9623d81a96ea
+Author: carboncoinadministrator <carboncointrust@gmail.com>
+Date:   Wed Sep 14 00:59:10 2016 +0000
+
+    Splashscreen bug fixes
+
+commit 7e8c8e5c9e3227e3a7a939ff5e1e4a736f76518d
+Author: carboncoinadministrator <carboncointrust@gmail.com>
+Date:   Tue Sep 13 22:32:01 2016 +0000
+
+    Use new splashscreen code from bitcoin
+
+commit ee0b96cb2d6d408bd2d25d97240956ca42720be7
+Author: carboncoinadministrator <carboncointrust@gmail.com>
+Date:   Tue Sep 13 19:31:06 2016 +0000
+
+    Add kilo and mega-carbon units for qt client
+
+commit f68bf3fe06072c9312184901663df8f07e8eeaeb
+Author: carboncoinadministrator <carboncointrust@gmail.com>
+Date:   Tue Sep 13 19:28:29 2016 +0000
+
+    Use carboncoin icons and splashscreen
+
+commit 6a23434b9f88df627f69f4afcd82efa174b74b96
+Author: carboncoinadministrator <carboncointrust@gmail.com>
+Date:   Tue Sep 13 12:44:05 2016 +0000
+
+    Add scrypt files
+
+commit 6503c4db59d5cbbdb57ea5a48a6d54d2abd2ceb2
+Author: carboncoinadministrator <carboncointrust@gmail.com>
+Date:   Tue Sep 13 12:27:36 2016 +0000
+
+    Allow spending of time-locked outputs
+
+commit 38d0d9078c9cdd4480826155e9676c45cb4945e8
+Author: carboncoinadministrator <carboncointrust@gmail.com>
+Date:   Tue Sep 13 12:21:56 2016 +0000
+
+    Carboncoin string replacements
+
+commit 73a8e4c076cee7efd7f1de64e4940238803fcd88
+Author: carboncoinadministrator <carboncointrust@gmail.com>
+Date:   Tue Sep 13 11:52:04 2016 +0000
+
+    Add ignored files and directories 2
+
+commit 228a7c574f46985b127a67fc226a5b7a4e1b7aaf
+Author: carboncoinadministrator <carboncointrust@gmail.com>
+Date:   Tue Sep 13 11:37:54 2016 +0000
+
+    Add ignored files and directories
+
+commit 6542d3d20da1a0f946cc6556402f9e85afee5252
+Author: carboncoinadministrator <carboncointrust@gmail.com>
+Date:   Tue Sep 13 10:29:59 2016 +0000
+
+    Coin string replacement script
+
+commit 1b7249cde4991b69792a6be56ac17c4de830ca4f
+Author: carboncoinadministrator <carboncointrust@gmail.com>
+Date:   Tue Sep 13 10:26:21 2016 +0000
+
+    Carboncoin 0.12.1 ACP
+
+commit 6c1c7bc33d75b671cc42f80f4435c52e1f2e43f2
+Author: carboncoinadministrator <carboncointrust@gmail.com>
+Date:   Tue Sep 13 10:20:47 2016 +0000
+
+    Carboncoin core configuration
+
+commit 9b6e6ad76c601b14ba143a9a18e06d22e365da88
+Author: carboncoinadministrator <carboncointrust@gmail.com>
+Date:   Tue Sep 13 10:06:22 2016 +0000
+
+    Bitcoin integration/staging tree
+    
+    Branch 0.12.1
+
+commit b078968782776a35dfd2be868e3a1e59da08a12c
+Author: carboncoinadministrator <carboncointrust@gmail.com>
+Date:   Thu Jul 30 17:24:38 2015 +0200
+
+    Mac deploy script update 2
+
+commit 3617744c4af7dde57a955a859558a7e9c7bf27d8
+Author: carboncoinadministrator <carboncointrust@gmail.com>
+Date:   Tue May 5 11:16:39 2015 +0200
+
+    Mac deploy script update
+
+commit eba33dc35ea523f0424557ac0b0b0b22843c65c3
+Author: carboncoinadministrator <carboncointrust@gmail.com>
+Date:   Mon May 4 19:00:38 2015 +0200
+
+    Gitian build system version update
+
+commit f79d0208c1f86a4721f94edb7a5b19d3d790875d
+Author: carboncoinadministrator <carboncointrust@gmail.com>
+Date:   Mon May 4 15:55:27 2015 +0200
+
+    Carboncoin 0.9.2 ACP
+    
+    Integration of Advanced Checkpointing
+
+commit 2a8d7cc9fd03d5221b5121983041bc5c5a3b6370
+Author: carboncoinadministrator <carboncointrust@gmail.com>
+Date:   Thu Sep 4 22:22:43 2014 +0200
+
+    New checkpoints
+
+commit b4e7f0b6d77526f2d8d7068db7bf89ef254b37a8
+Author: carboncoinadministrator <carboncointrust@gmail.com>
+Date:   Mon Jun 30 03:45:22 2014 +0200
+
+    Carboncoin string replacements
+
+commit 905bc4eb38e8de3ef0178cedfc2d1831a9f81ecf
+Author: carboncoinadministrator <carboncointrust@gmail.com>
+Date:   Fri Jun 20 13:32:48 2014 +0200
+
+    Carboncoin core configuration
+
+commit 60bd12f0c141ab77d36ef91405c429e0cdca972d
+Author: carboncoinadministrator <carboncointrust@gmail.com>
+Date:   Wed Jun 4 21:13:12 2014 +0200
+
+    Bitcoin integration/staging tree
+    
+    Branch: 0.9.1

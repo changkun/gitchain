@@ -1,0 +1,298 @@
+commit 8f4d93c894eedb54f6de149155ecfe649167fc60
+Author: Peter Bushnell <bushsolo@gmail.com>
+Date:   Fri Jul 7 15:17:22 2017 +0100
+
+    Temp: Remove hashInvalidCheckpoint
+
+commit cd1eb50fc588698fdedf15ca467e78f1dfb16603
+Author: Peter Bushnell <bushsolo@gmail.com>
+Date:   Fri Jul 7 15:13:17 2017 +0100
+
+    Suppress checkpoint sync error
+
+commit 2b4bb1ba25ea55464802376c0173fa496657a730
+Author: Peter Bushnell <bushsolo@gmail.com>
+Date:   Fri Jul 7 14:02:23 2017 +0100
+
+    v0.8.7.1
+
+commit 9970fd0a994e02170c79384c673896a7b336e162
+Author: Peter Bushnell <bushsolo@gmail.com>
+Date:   Fri Jul 7 13:55:29 2017 +0100
+
+    Temporary relaxing of checkpointsync
+    
+    Windows is not following the synchronised checkpoints and has left Linux
+    on a shorter fork as a result. This commit will get Linux client in sync
+    and a permanent fix can be created.
+
+commit 6de4197f8a0f78cf3a48214d08b7f3f35d10134d
+Author: Peter Bushnell <bushsolo@gmail.com>
+Date:   Fri Jul 7 10:07:12 2017 +0100
+
+    Fix boost 1.58 error
+
+commit 6112fe39e21329ca7ef1aca2ba7f77612a588aa3
+Author: Peter Bushnell <bushsolo@gmail.com>
+Date:   Tue Jun 13 18:57:11 2017 +0100
+
+    Update pnSeeds
+
+commit 51f3fa1cd0a408e51c106f0a53448eca6d466848
+Merge: 74c9f98 96bee6f
+Author: Peter Bushnell <bushsolo@gmail.com>
+Date:   Tue Jun 13 11:46:09 2017 +0100
+
+    Merge pull request #5 from cannabiscoindev/fork_one
+    
+    Fork: Fix inflation model and increase coinbase maturity
+
+commit 96bee6ffae10b70400a4ab6d8c3ccd8649b9bcde
+Author: Peter Bushnell <bushsolo@gmail.com>
+Date:   Tue Jun 13 11:44:04 2017 +0100
+
+    Update checkpoints
+
+commit e8904765000517dc7f261c7dd6e0e7dfdf4b7eae
+Author: Peter Bushnell <bushsolo@gmail.com>
+Date:   Sun Jun 11 13:19:22 2017 +0100
+
+    Update NSI file
+
+commit a22cf7236018661669b42d1b02ff57a5dec1f151
+Author: Peter Bushnell <bushsolo@gmail.com>
+Date:   Sun Jun 11 12:52:02 2017 +0100
+
+    gitignore add locale binaries and build folders
+
+commit a126efe23f4b078b792befda2dbe9046a2576260
+Author: Peter Bushnell <bushsolo@gmail.com>
+Date:   Sun Jun 11 12:48:51 2017 +0100
+
+    Remove locale binaries
+
+commit 6d0fba982c0752736c407915f03e18906f039aa2
+Author: Peter Bushnell <bushsolo@gmail.com>
+Date:   Sun Jun 11 12:18:06 2017 +0100
+
+    Fix UPNP compilation error
+
+commit 8601c7eb1c87240a5cc7d4bb3151444204e0a075
+Author: Peter Bushnell <bushsolo@gmail.com>
+Date:   Sat Jun 10 10:21:09 2017 +0100
+
+    Add checkpoint
+
+commit e2f0b22dbd289314e992c3e96b43406892e6af7e
+Author: Peter Bushnell <bushsolo@gmail.com>
+Date:   Fri Jun 9 10:54:42 2017 +0100
+
+    v0.8.7.0
+
+commit 1a2f1f4291d8e45ff837e838badab56428842db3
+Author: Peter Bushnell <bushsolo@gmail.com>
+Date:   Fri Jun 9 10:53:36 2017 +0100
+
+    Fork: Fix inflation model. Increase maturity.
+    
+    Hard fork on block 2282000 to fix inflation model by increasing coin per
+    block to 70 coins and halving every time half the remaining supply is
+    reach which should be roughly every four years, the same as Bitcoin.
+    Coinbase maturity was 30, this has now been increased to 100 the same as
+    Bitcoin. Coinbase maturity is the number of confirmation required before
+    newly minted coins can be spent.
+
+commit c097f3a7f40d40c57b7a1401ff3d75bac6e1beab
+Author: Peter Bushnell <bushsolo@gmail.com>
+Date:   Fri Jun 9 10:49:08 2017 +0100
+
+    Increment PROTOCOL_VERSION
+
+commit 4da1388639757988df0fffda57a72204ac4bcf08
+Author: Peter Bushnell <bushsolo@gmail.com>
+Date:   Fri Jun 9 10:48:52 2017 +0100
+
+    Make commit info variable
+
+commit 4cc639e4f239b531c69bbef864113b2e3a4d8467
+Author: Peter Bushnell <bushsolo@gmail.com>
+Date:   Fri Jun 9 10:48:26 2017 +0100
+
+    Show date range for Cann devs
+
+commit 946a39435b02759d18d7cd7f1acbaa1f797f644f
+Author: Peter Bushnell <bushsolo@gmail.com>
+Date:   Fri Jun 9 10:44:55 2017 +0100
+
+    Checkpoint keys
+
+commit 90747cabb118d647f306f84c5a6e967b79cc3bc3
+Author: Peter Bushnell <bushsolo@gmail.com>
+Date:   Fri Jun 9 10:44:34 2017 +0100
+
+    Win compilation vars
+
+commit 8e833dc411c3260b9048db5ca5888804b91a4e79
+Author: Peter Bushnell <bushsolo@gmail.com>
+Date:   Fri Jun 9 10:37:36 2017 +0100
+
+    Change CAlert key
+
+commit 361244857ad91f9182834d92f9f83ffe7f013bc0
+Author: Peter Bushnell <bushsolo@gmail.com>
+Date:   Fri Jun 9 10:37:24 2017 +0100
+
+    Update README
+
+commit 1b98f81b36e3d4b7aacf1450c8f0dc9a8d44effc
+Author: Peter Bushnell <bushsolo@gmail.com>
+Date:   Fri Jun 9 10:37:10 2017 +0100
+
+    Update gitignore
+
+commit 74c9f9815b6c5720a3728abdacc5453c5e4c244e
+Author: CannabisCoin <support@cannabiscoin.net>
+Date:   Sun Jan 3 22:08:13 2016 -0700
+
+    Updated checkpoints
+    
+    Fixed Typos
+
+commit c3925a1b6044ac429e9894f52287bf1304bfe5ff
+Author: CannabisCoin <support@cannabiscoin.net>
+Date:   Sat Dec 26 23:20:37 2015 -0700
+
+    Typo
+    
+    "uint256" changed to "unit256"
+
+commit d1db1bbbcbc17dd5c6093a2e0f6ca84bd4f4fc6c
+Author: CannabisCoin <support@cannabiscoin.net>
+Date:   Sun Dec 20 15:07:41 2015 -0700
+
+    Checkpoints
+    
+    Updated Checkpoints
+
+commit b5c3b5b239d5d70e53afdaabbd9e924143603dd4
+Author: CannabisCoin <support@cannabiscoin.net>
+Date:   Fri Jun 19 04:41:15 2015 -0700
+
+    Ticker Added
+    
+    Added CANN as the ticker in description
+
+commit 77129a24efaab476068a96c0d497182f00d78256
+Author: Bushstar <bushsolo@gmail.com>
+Date:   Sat Oct 18 08:46:16 2014 +0100
+
+    Add additional seeder
+
+commit ca5ede4dbb5b22a7ad06658f484980a466973f05
+Author: CannabisCoin <support@cannabiscoin.net>
+Date:   Thu Oct 2 00:33:49 2014 -0700
+
+    Was missing "Set Language"
+    
+    Causes header not to show up properly in nsis installer
+
+commit 1608bc07af9f301d4298c88759752f47b7e5ff8b
+Author: CannabisCoin <support@cannabiscoin.net>
+Date:   Thu Sep 25 00:24:00 2014 -0700
+
+    Fix For URI
+
+commit 6931f98d5790c4e32a9a8bd6f61d2821b487b0f9
+Author: CannabisCoin <support@cannabiscoin.net>
+Date:   Wed Sep 17 06:16:02 2014 -0700
+
+    Updated Max Coins
+
+commit cdf06ae8ad41fdbbd0f89d47c016a995f4710206
+Author: CannabisCoin <support@cannabiscoin.net>
+Date:   Tue Sep 9 06:57:15 2014 -0700
+
+    Set image paths
+
+commit 35d09e63b97959f93671eee8ad8307a42c5f4750
+Author: CannabisCoin <support@cannabiscoin.net>
+Date:   Tue Sep 9 06:23:19 2014 -0700
+
+    Corrected URL
+
+commit ff0dae275d45ccf957fa24966638fcdc32172927
+Author: CannabisCoin <support@cannabiscoin.net>
+Date:   Tue Sep 9 06:19:34 2014 -0700
+
+    Added images
+
+commit 6394086dbe43dcb26ce3cd2e3babd2376ce1aec9
+Author: Bushstar <bushsolo@gmail.com>
+Date:   Mon Sep 8 16:21:56 2014 +0100
+
+    Change wallet image
+
+commit 3469b471156ce42dbb582db4c687e94398bfcdc2
+Author: Bushstar <bushsolo@gmail.com>
+Date:   Mon Sep 8 16:03:00 2014 +0100
+
+    Update splash screen
+
+commit 9ec89fc127385c5d3417741a78c3fcae7851722d
+Author: Bushstar <bushsolo@gmail.com>
+Date:   Mon Sep 8 14:20:36 2014 +0100
+
+    v0.8.6.3
+
+commit 520e695e18c6a3ace48fdac4e3f491039d12fe8c
+Author: Bushstar <bushsolo@gmail.com>
+Date:   Mon Sep 8 14:16:08 2014 +0100
+
+    Set QT build to static
+
+commit 45e2bc4308dd558d70afef58559ec1b547d81a65
+Author: Bushstar <bushsolo@gmail.com>
+Date:   Mon Sep 8 14:15:17 2014 +0100
+
+    Configure installer
+
+commit 58d5b0771b4693ab7d403d0c70bbd9d3bda0121e
+Author: Bushstar <bushsolo@gmail.com>
+Date:   Mon Sep 8 13:32:05 2014 +0100
+
+    GUI Changes
+
+commit 8bfafe820f9cce799f4c1bb56c5a2b26a30294ed
+Author: Bushstar <bushsolo@gmail.com>
+Date:   Sun Sep 7 15:52:05 2014 +0100
+
+    Add .gitignore
+    
+    This prevents temporary local files from being added to the repo by
+    accident.
+
+commit d6dc36062de6230272ff3c992950fce811817144
+Author: Bushstar <bushsolo@gmail.com>
+Date:   Sun Sep 7 15:51:26 2014 +0100
+
+    Add DNS seeder and pnSeeds
+
+commit 6149d21ae36674b20ba495b04f039e3d0b98caf9
+Author: cannabiscoindev <support@cannabiscoin.net>
+Date:   Thu Aug 28 23:58:18 2014 -0700
+
+    Changed permissions on build_detect_platform
+
+commit fa6afea6c8aececdb333a4be3be6b0f6da4f57e8
+Author: CannabisCoin <support@cannabiscoin.net>
+Date:   Sat Jun 7 00:03:07 2014 -0700
+
+    CannabisCoin X11
+    
+    For Release 6-7-14
+
+commit 93f9144c9a049d8605c780385a9166cb789c4297
+Author: CannabisCoin <cannabiscoindev@users.noreply.github.com>
+Date:   Fri Jun 6 23:17:51 2014 -0700
+
+    Initial commit

@@ -1,0 +1,203 @@
+commit d850b8dc71c2d8e154981018d0803e7550ea00ed
+Merge: 49e61ab 6dd3efa
+Author: deeponion <rs1953@yahoo.com>
+Date:   Sun Oct 8 21:34:49 2017 -0700
+
+    Merge pull request #12 from Victory/build-on-travis
+    
+    Build on travis
+
+commit 49e61abaa22306aad8cfd22037263cd5ed2816c0
+Merge: 209943e e980254
+Author: deeponion <rs1953@yahoo.com>
+Date:   Sun Oct 8 21:31:45 2017 -0700
+
+    Merge pull request #13 from wuhann/patch-1
+    
+    Create bitcoin_sc.ts
+
+commit 209943e8eea3399e3bcd9885050efbbca17ee2f7
+Merge: ca22ec4 c3f9d5f
+Author: deeponion <rs1953@yahoo.com>
+Date:   Sun Oct 8 21:31:10 2017 -0700
+
+    Merge pull request #8 from niklasmato/patch-1
+    
+    Create bitcoin_nl.es
+
+commit ca22ec4839ab3b5762c21c556020b52b3377bcc6
+Author: deeponion <rs1953@yahoo.com>
+Date:   Sun Oct 8 21:28:29 2017 -0700
+
+    version 1.3
+
+commit e980254429d57dbbebefe28a201757160bdc4472
+Author: wuhann <1949844+wuhann@users.noreply.github.com>
+Date:   Thu Sep 28 16:16:08 2017 +0800
+
+    Create bitcoin_sc.ts
+    
+    a simplified Chinese translation
+    
+    author: wuhann @deeponion forum
+
+commit 6dd3efacf0660a18acc1e1be425bdf2e538f908c
+Author: Victory <git@dfhu.org>
+Date:   Sun Sep 17 12:44:26 2017 -0400
+
+    Correct docs for building on qt
+
+commit 13c08283bfac26290525e468a4e7b4a3a23b8f75
+Author: Victory <git@dfhu.org>
+Date:   Sun Sep 17 12:16:49 2017 -0400
+
+    add to lifecycle
+
+commit 6f33edf17e68e98842fd0d12b9741a60c640e879
+Author: Victory <git@dfhu.org>
+Date:   Sun Sep 17 12:05:17 2017 -0400
+
+    remove language
+
+commit cd7228bdbeaadbfd3d6a46a01d1ac2c1d00f1479
+Author: Victory <git@dfhu.org>
+Date:   Sun Sep 17 11:39:23 2017 -0400
+
+    make src/leveldb/build_detect_platform executable
+
+commit 39564ec1899f92f182255ae70b047412999aa10a
+Author: Victory <git@dfhu.org>
+Date:   Sat Sep 16 19:47:15 2017 -0400
+
+    even less verbose
+
+commit 7ee4efe0da5eb63b8c08d63a0327ed3b1e8517d9
+Author: Victory <git@dfhu.org>
+Date:   Sat Sep 16 19:28:57 2017 -0400
+
+    stdout to /dev/null for make
+
+commit dda627e263e4a9818ab835eb2ac943d868c0366b
+Author: Victory <git@dfhu.org>
+Date:   Sat Sep 16 19:13:10 2017 -0400
+
+    libminiupnpc, libqrencde, libleveldb
+
+commit 8c5ff6aad8f332f22ec710d3e4013f93c0caec23
+Author: Victory <git@dfhu.org>
+Date:   Sat Sep 16 19:05:30 2017 -0400
+
+    Add libevent-dev
+
+commit 946e702335d8d0b3425a26f14d181f755697e276
+Author: Victory <git@dfhu.org>
+Date:   Sat Sep 16 19:01:03 2017 -0400
+
+    Travis formatting
+
+commit 1c5ae93e2464bc01994060e78f3760e2db759e09
+Author: Victory <git@dfhu.org>
+Date:   Sat Sep 16 18:59:26 2017 -0400
+
+    Travis formatting
+
+commit 63fb7324311903cb55f3edadae6ea0807fdaf151
+Author: Victory <git@dfhu.org>
+Date:   Sat Sep 16 18:53:57 2017 -0400
+
+    add sudo
+
+commit d9fdf25302612d7397f4c244eb9c883d443e248e
+Author: Victory <git@dfhu.org>
+Date:   Sat Sep 16 18:52:57 2017 -0400
+
+    add sudo
+
+commit 0080c2c1a716c880b5e7ab5f11e4c63177a39550
+Author: Victory <git@dfhu.org>
+Date:   Sat Sep 16 18:49:18 2017 -0400
+
+    add travis file
+
+commit 78a5bf3a8c85dd2b701fa6720e1c2c7f18281a14
+Author: deeponion <rs1953@yahoo.com>
+Date:   Tue Sep 5 00:30:45 2017 -0700
+
+    minor maintenance release, with more recent checkpoints and minor fixes
+
+commit e274c40265d46b561aebf7af575d2da9657ee44d
+Merge: 931500c 518a6f4
+Author: deeponion <rs1953@yahoo.com>
+Date:   Sun Sep 3 16:59:29 2017 -0700
+
+    Merge pull request #10 from chillerfx/master
+    
+    Update build-unix.txt
+
+commit 931500ce8196fe6c1bb3dc68ab42ab8b33e1db9a
+Merge: d0d33df 7a618bf
+Author: deeponion <rs1953@yahoo.com>
+Date:   Sun Sep 3 16:58:05 2017 -0700
+
+    Merge pull request #5 from 420Lord/patch-1
+    
+    Update README.md
+
+commit 518a6f4efb516f17b061c185057d66f77517a713
+Author: chillerfx <arturas.sotnicenko@tvm.stud.vu.lt>
+Date:   Tue Aug 29 01:03:40 2017 +0300
+
+    Update build-unix.txt
+
+commit c3f9d5fd78d7c52d5ded40e8b61f6cc7b77ce59a
+Author: Nicolas M <nicolasmaton@gmail.com>
+Date:   Sat Aug 26 15:33:26 2017 +0200
+
+    Create bitcoin_nl.es
+
+commit 7a618bf3ce8c43a5824aac37e66a892a513e636b
+Author: 420Lord <31207152+420Lord@users.noreply.github.com>
+Date:   Mon Aug 21 11:56:22 2017 +0200
+
+    Update README.md
+    
+    Fixed some grammatical errors
+
+commit d0d33dfc10ef5f7a974a01407659e6148e229b3d
+Author: deeponion <rs1953@yahoo.com>
+Date:   Mon Jul 24 23:52:10 2017 -0700
+
+    fixed an address size issue
+
+commit 10d09f17e01efa30d7817520cb9837c4b4bb7bc9
+Merge: e0d8939 b804c3b
+Author: deeponion <rs1953@yahoo.com>
+Date:   Mon Jul 24 20:59:51 2017 -0700
+
+    Merge pull request #1 from bumbacoin/patch-1
+    
+    fix DeepOnion.icns naming
+
+commit e0d8939b16766f90bef5c4c1486302d120004c36
+Author: deeponion <rs1953@yahoo.com>
+Date:   Mon Jul 24 20:58:06 2017 -0700
+
+    update
+
+commit 5e44a89f26b6a2b2cd9dfc1bda236b20b7479756
+Author: deeponion <rs1953@yahoo.com>
+Date:   Mon Jul 24 20:54:29 2017 -0700
+
+    version 1.1
+
+commit b804c3bd34283c5af1cded929d82147c9dbf0983
+Author: bumbacoin <bumbacoin@gmail.com>
+Date:   Mon Jul 17 23:37:17 2017 +0800
+
+    fix DeepOnion.icns naming
+
+commit 4bd0b4b1fb7c747e0ddb2a5c04f2ef3ce09b75ba
+Author: deeponion <rs1953@yahoo.com>
+Date:   Wed Jul 12 10:38:25 2017 -0700
+
+    init version

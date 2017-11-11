@@ -1,0 +1,796 @@
+commit a7e371e04214aeccd8a80fd4d124f61a80787880
+Author: cygnus <metalhead55544@yahoo.com>
+Date:   Thu Nov 9 19:31:58 2017 -0500
+
+    Add Easy Installer for Linux
+
+commit 4b8a03fd2665efde1f3c1f55d301b03f62c258fc
+Merge: 5dac1d9 4ca02ba
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Thu Nov 9 17:36:34 2017 -0500
+
+    Update Readme
+    
+    Update README.md
+
+commit 5dac1d98f8ee5a2f88ea26ed0fd9d078678e0644
+Merge: 442977b 7910fab
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Thu Nov 9 17:35:33 2017 -0500
+
+    Fixed Wallet Links
+    
+    Update README.md
+
+commit 4ca02ba23ef038a58fa6400d8efb1b90f67be2bc
+Author: NxtGenCowboy <NxtGenCowboy@gmail.com>
+Date:   Wed Nov 8 23:01:43 2017 -0600
+
+    Update README.md
+    
+    Swap Slack Invite to Discord Invite
+
+commit 7910fab7991d6858d83df2ba1e08ff0e280ac8ef
+Author: NxtGenCowboy <NxtGenCowboy@gmail.com>
+Date:   Wed Nov 8 22:27:30 2017 -0600
+
+    Update README.md
+    
+    Fixed Wallet Links
+
+commit 442977b065ebc458cd1208a8051f146b95ecaf61
+Merge: 742eae5 7489c5a
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Tue Oct 17 16:12:57 2017 -0400
+
+    Merge pull request #22 from CryptoCanary/patch-2
+    
+    Remove unneeded arguments
+
+commit 7489c5a805c21c5f355c77fcafe1531d68e57fe7
+Author: Steven Saxton <ssaxton@kent.edu>
+Date:   Tue Oct 17 02:30:58 2017 -0400
+
+    Remove unneeded arguments
+    
+    The staking indicator tool tip for no mature coins was erroneously given these arguments while debugging the stake weight. In my rush to debug the weight, I did the same (these arguments) in a proper location and forgot to remove the original debugging attempt code (these arguments) after the debugging was complete and when I did remove the correct debugging code. Sorry for my oversight. It was the result of sleeplessness and not carelessness.
+
+commit 742eae5666c31f3dccf2fb79e7693c00121013b2
+Author: cygnus <metalhead55544@yahoo.com>
+Date:   Wed Sep 27 20:29:40 2017 -0400
+
+    Add Raspberry Pi Build
+
+commit 6fac858a6c532929e6793eada54572d7a63bafd3
+Author: cygnus <metalhead55544@yahoo.com>
+Date:   Wed Sep 27 19:13:34 2017 -0400
+
+    Update releases
+
+commit e6d6042922863a0dd064bebb0c4900cb7ee3833c
+Author: cygnus <metalhead55544@yahoo.com>
+Date:   Wed Sep 27 19:09:13 2017 -0400
+
+    1.9.4.1 Version bump
+
+commit 62b7b4d1e52268a03bc45f37681618b49304489b
+Author: cygnus <metalhead55544@yahoo.com>
+Date:   Wed Sep 27 19:03:31 2017 -0400
+
+    1.9.4.1 Updates
+
+commit d820ea5ff5a55579a949143ee5d891c67ba0da32
+Merge: 4118d99 e5d095c
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Thu Jul 13 02:21:31 2017 -0400
+
+    Merge pull request #19 from CryptoCanary/master
+    
+    v1.9.3.1 rollup. Revision bump. Wording changes and corrections. Chec…
+
+commit e5d095c55514580f9ce94860935f2ad6c68eb236
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Thu Jul 13 01:51:47 2017 -0400
+
+    v1.9.3.1 rollup. Revision bump. Wording changes and corrections. Checkpoint at block 180646.
+
+commit 4118d9928a73c88a06ebd1125acb702d2c8521e9
+Merge: b9f977f 34d40c6
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Wed Jul 12 14:57:47 2017 -0400
+
+    Staking options menu
+    
+    Lock and unlock menu options
+
+commit 34d40c6f8bb20e9096c9039a5508dbbfdcd39397
+Author: Steven Saxton <ssaxton@kent.edu>
+Date:   Sun Jul 9 06:35:31 2017 -0400
+
+    Lock and unlock menu options
+
+commit 6431816bba26ba7bf7a18d22448a32f95da9bfa5
+Author: Steven Saxton <ssaxton@kent.edu>
+Date:   Sun Jul 9 06:31:36 2017 -0400
+
+    Unlock and lock menu options
+
+commit b9f977f003aba46603ece82bd3025e07c5ad4079
+Merge: abb75fe 4386aea
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Thu May 11 17:31:10 2017 -0400
+
+    Merge pull request #17 from CryptoCanary/master
+    
+    Icons to better match logo
+
+commit 4386aea7a49af6e736b0ac219d1c872c6c01f555
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Thu May 11 16:42:47 2017 -0400
+
+    Icons to better match logo
+
+commit abb75fe9d15b04f06623d9ee1bbb3b4f63cd556f
+Merge: 3675e33 34f0889
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Wed May 10 23:25:26 2017 -0400
+
+    Version Fix
+    
+    v1.9.2.1
+
+commit 34f08891486a414918b61d7499a3050c479a1c50
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Wed May 10 23:21:59 2017 -0400
+
+    v1.9.2.1
+
+commit 3675e33be931139242db9729d037b5143dce3969
+Merge: 09e3723 7504ac9
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Wed May 10 23:16:58 2017 -0400
+
+    Merge pull request #15 from CryptoCanary/master
+    
+    Capitol C
+
+commit 7504ac906cfcf4fc87e7402702ecba3137dac7e8
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Wed May 10 23:12:05 2017 -0400
+
+    Capitol C
+
+commit 09e372352074c611dc44a500e4512892eb0c2057
+Merge: e8a6268 5ac0d08
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Wed May 10 23:06:55 2017 -0400
+
+    Modify Splash
+    
+    Make splash screen text legible. Remove commit tag from client name.
+
+commit 5ac0d08ad1bd8d7b18046c0c7add9289658d962c
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Wed May 10 22:55:10 2017 -0400
+
+    Make splash screen text legible. Remove commit tag from client name.
+
+commit e8a6268d0d0a3fc47bcbc087c0bf1bad9a5bae41
+Merge: e1f77f4 1d865b7
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Wed May 10 22:26:46 2017 -0400
+
+    Merge pull request #13 from CryptoCanary/master
+    
+    Curecoin capitalized.
+
+commit 1d865b721326f81322ee23a309eef288f4d6e024
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Wed May 10 22:18:33 2017 -0400
+
+    Curecoin capitolized.
+
+commit e1f77f4210b63a5dd99f2e41bea5a8d94eeb3a23
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Wed May 10 21:30:50 2017 -0400
+
+    Clean old items
+
+commit 5a241d43c42a724eedb1a2734ad289af2bd34596
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Wed May 10 21:30:31 2017 -0400
+
+    Clean old items
+
+commit 095ea58a6157eabc06f80ffe21424de9f025f4d9
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Wed May 10 21:30:09 2017 -0400
+
+    Clean old items
+
+commit 045eedb6afc5ee0d30208d027ea725bc85bb72e2
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Wed May 10 21:29:35 2017 -0400
+
+    Clean old items
+
+commit 04a109cf84c30342057f1df2bd759e575acc4b79
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Wed May 10 21:28:15 2017 -0400
+
+    Clean old items
+
+commit 052dfa9e8d8e45460f8a7a27f0a7441174fba73b
+Merge: 4b6ac5c 29b55a3
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Wed May 10 21:21:49 2017 -0400
+
+    Version bump
+    
+    Cosmetic improvements. Version bump and version consistancy fixed.
+
+commit 29b55a35d3009789196c14ffa949a042bfbf4468
+Author: Steven Saxton <ssaxton@kent.edu>
+Date:   Wed May 10 20:39:17 2017 -0400
+
+    add DNS seednodes
+
+commit cfbe95238435e2a6967f0effe468eea5ea03cc04
+Author: Steven Saxton <ssaxton@kent.edu>
+Date:   Wed May 10 20:32:44 2017 -0400
+
+    Update checkpoint server pubkey.
+    
+    Josh has the corresponding private key.
+
+commit e6bfc8c73a9b3c98091c1d1b23fe9af5ddaeaf25
+Author: Steven Saxton <ssaxton@kent.edu>
+Date:   Wed May 10 20:28:57 2017 -0400
+
+    Update Mainnet alert public key.
+    
+    Josh has the corresponding private key.
+
+commit 8c4c9af49d58591a29f39f9f39a7f98c102a9911
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Wed May 10 20:15:52 2017 -0400
+
+    Cosmetic improvements. Version bump and version consistancy fixed.
+
+commit 4b6ac5ca8b8f6b984247d3f4a610a1e6e57307d3
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Wed May 10 17:53:22 2017 -0400
+
+    Update Build Instructions
+
+commit 4f5ac02d630894f1e60fa5bcb28e875397890ef2
+Merge: 4f82c05 c1a737d
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Wed May 10 17:32:40 2017 -0400
+
+    New build instructions
+    
+    Qt5 and Qt5 dependencies update in Qt readme.
+
+commit c1a737de96b36038168e7b178784aa6a6d3ee9a6
+Author: Steven Saxton <ssaxton@kent.edu>
+Date:   Wed May 10 17:06:54 2017 -0400
+
+    Qt5 and Qt5 dependencies update.
+
+commit 4f82c05182c16d0a5b33aa2e03e4b5ea6521c127
+Merge: e352f17 a1a0af0
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Wed May 10 04:13:21 2017 -0400
+
+    Merge pull request #10 from CryptoCanary/master
+    
+    Qt5 ready.
+
+commit a1a0af0c34775e0c553ab9be892a9f264f63ba97
+Merge: 2a887c3 e352f17
+Author: Steven Saxton <ssaxton@kent.edu>
+Date:   Wed May 10 03:03:56 2017 -0400
+
+    Merge branch 'master' into master
+
+commit 2a887c369a4baa01daaccc4165df6e523302ce91
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Wed May 10 02:49:50 2017 -0400
+
+    Qt5 ready.
+
+commit e352f1757969bdcdf56e0a231db65e4dfff65bd5
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Wed Apr 26 01:25:43 2017 -0400
+
+    Update build info
+
+commit 657b75309e84fd01a720105600f90f1094633dff
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Fri Apr 7 06:07:59 2017 -0400
+
+    Update README.md
+
+commit b6347c97a73a70d1f28b49675ccc1dad8f6bf742
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Fri Apr 7 06:03:48 2017 -0400
+
+    Update README.md
+
+commit 04cdbbddeab92e3e57d333189a8c10038a3fc269
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Fri Apr 7 05:56:16 2017 -0400
+
+    Update README.md
+
+commit 0299a35f616b0b264b8c1649167d86eac8fa0ed4
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Mon Mar 20 00:30:54 2017 -0400
+
+    Update README.md
+
+commit 4a36e36e34ab13e7403134e6755d665eb89b35d3
+Merge: 6e468a9 bfa07c7
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Sun Jan 22 06:57:30 2017 -0500
+
+    Merge pull request #9 from CryptoCanary/patch-1
+    
+    Add Stake Modifiers for existing checkpoints
+
+commit 6e468a95b73396084ada1aec69a00e18e4ce38e2
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Sun Jan 22 03:07:22 2017 -0500
+
+    Update Readme
+
+commit bfa07c79cf943d4a00af6f491fee25c1d85def5e
+Author: Steven Saxton <ssaxton@kent.edu>
+Date:   Sat Jan 14 23:13:20 2017 -0500
+
+    Add Stake Modifiers for existing checkpoints
+
+commit 9384dbf01de5df14efd21fbb63f8fc68a65953bf
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Wed Dec 28 19:18:27 2016 -0500
+
+    Update README.md
+
+commit 43e6fc9a7973daaf223653846977146f5cd9337d
+Merge: 13a8c33 0c711ed
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Wed Dec 28 18:58:48 2016 -0500
+
+    Merge pull request #8 from FifthGB/patch-1
+    
+    Update README
+
+commit 0c711ed8f4f29340da147bf309bbc6edb945b185
+Author: FifthGB <jakewiser22@gmail.com>
+Date:   Wed Dec 28 16:55:56 2016 -0700
+
+    Update README
+
+commit 13a8c335ba69f72113e868439daa1e7aa61babda
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Wed Dec 21 05:49:56 2016 -0500
+
+    Update curecoingui.cpp
+
+commit f8aa8cd37f046cc3539e13beda4fa467387b327a
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Wed Dec 21 05:29:10 2016 -0500
+
+    Update releases.txt
+
+commit f5244b568171fe4584ad525543e95990987c2126
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Wed Dec 21 05:28:08 2016 -0500
+
+    Remove old version
+
+commit 4dee5e7cb0be4afd847de6123d934d0841e7291a
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Wed Dec 21 05:27:33 2016 -0500
+
+    Remove old version
+
+commit 2ea30a2e386f676c35e15788213b00d0d59ddbe7
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Wed Dec 21 04:54:03 2016 -0500
+
+    Update version.cpp
+
+commit 7b123c35b9b76014d263baf702864ac4a8c94061
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Wed Dec 21 04:50:40 2016 -0500
+
+    Update Version 1.3.4
+
+commit b06321c6497f8b085dafc9d1fc64c9c4e05dd790
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Wed Dec 21 04:26:22 2016 -0500
+
+    Updating Version 1.3.4
+
+commit 2c79780ed2e43823fe898ebbcec370d951beac3f
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Thu Dec 8 23:01:01 2016 -0500
+
+    Update readme-qt.rst
+
+commit c19470306d7081e13ccf5218094dfaf0bfde9a06
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Thu Dec 8 22:59:47 2016 -0500
+
+    Update readme-qt.rst
+
+commit 5a3904eb1596e7fafdcb7ddf48e628c0b317243b
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Thu Dec 8 22:57:47 2016 -0500
+
+    Update readme-qt.rst
+
+commit 72ec2a72447ce8f50d358b424ca258575d8dbae0
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Thu Dec 8 22:44:09 2016 -0500
+
+    Update README.md
+
+commit 5fec54dab1445b5b78f04adf4ce5c53a56670b4e
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Thu Dec 8 22:30:20 2016 -0500
+
+    Linux QT Binary for 1.3.3 (GUI version)
+
+commit 7d64a1afb49bd9d84e892400bd03f5e7af72b239
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Thu Dec 8 22:27:35 2016 -0500
+
+    Update UPDATE
+
+commit b38d25231263aee64fbaa5b065eec797e30a7472
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Thu Dec 8 21:28:15 2016 -0500
+
+    Lock/Unlock tips
+
+commit 0606ee4a62f704505a12c0170f130c3f25563f57
+Merge: 67775bf 803c25d
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Wed Nov 30 14:35:21 2016 -0500
+
+    Merge pull request #6 from Erkan-Yilmaz/patch-1
+
+commit 67775bf915d2d3b55df6b73c500c82b1cc9a1f5a
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Wed Nov 30 12:11:10 2016 -0500
+
+    1.3.3 Windows Installer
+    
+    Compiled by @drhimura
+
+commit 803c25d4a4c63c27b0bb69ba845b272b254b0567
+Author: Erkan Yilmaz <erkan77@gmail.com>
+Date:   Sun Nov 27 14:11:45 2016 +0100
+
+    typo
+    
+    typo
+
+commit 604c5c81b879ef293c9f3e5b9bcf4a49b5d0714a
+Merge: 68c0efe cef7467
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Wed Nov 23 03:45:31 2016 -0500
+
+    Linux build update
+
+commit cef746745f2dd52f7d1860e17d8369ab2bd70bcf
+Author: Duncan Bristow <duncbristow@msn.com>
+Date:   Wed Nov 9 20:49:13 2016 -0700
+
+    Fixed build bug on Ubuntu
+    
+    Some quick googling led me to this similar fix:
+    https://github.com/rat4/blackcoin/pull/15/files
+
+commit 68c0efe663e505977f61d8e4ace569204d1db304
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Tue Nov 1 22:57:17 2016 -0400
+
+    Add files via upload
+
+commit 756ce114d73e3c8e4cee3a872524afeff539da26
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Mon Oct 31 02:07:42 2016 -0400
+
+    Add files via upload
+
+commit 2f873e8ce934eb748ad441f7776f27234739845d
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Mon Oct 31 02:05:11 2016 -0400
+
+    Add files via upload
+
+commit 9d442fd1657aee27cd4dff346773173c70010da9
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Mon Oct 31 01:59:31 2016 -0400
+
+    Add files via upload
+
+commit c988f610ff2a8c24c056d3e4bf6ba7023e3228f5
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Mon Oct 31 01:47:04 2016 -0400
+
+    Add files via upload
+
+commit 4f3335034fe5e6097c2ed387e13c8657cb690513
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Mon Oct 31 01:38:45 2016 -0400
+
+    Create releases.txt
+
+commit f6ba289ffa2c67200f883741c5d430d3ce817e7a
+Merge: eee7d41 c26681a
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Sat Oct 22 23:21:30 2016 -0400
+
+    Merge pull request #3 from drhimura/patch-1
+    
+    Readme translation
+
+commit c26681a0f8b11f2535a662eac82b7b8d87e89e24
+Author: drhimura <drhimura@users.noreply.github.com>
+Date:   Sun Oct 23 05:07:27 2016 +0200
+
+    Create
+    
+    Readme translation
+
+commit eee7d41fe37dd2c0ed3ecebb3e77033fc02e03bc
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Wed Oct 19 07:52:09 2016 -0400
+
+    Update Install
+
+commit 9c845647fbcc91f55bbc3922841e5f229621c73a
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Wed Oct 19 07:49:08 2016 -0400
+
+    Update Versoin
+
+commit 197417f5c5946213106a834b2a91f85897c22e4e
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Wed Oct 19 07:26:47 2016 -0400
+
+    Update version.h
+
+commit 399a5a5a537ff4f77b8d8147b896a8300064199a
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Wed Oct 19 07:25:17 2016 -0400
+
+    Update version.cpp
+
+commit 4a425dc60cad1475fa674b157d51951e5686a60e
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Wed Oct 19 07:22:19 2016 -0400
+
+    Update Checkpoints.cpp
+
+commit 87dedb0d701bc69f64378bcbcc554644089bde75
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Wed Oct 19 07:14:48 2016 -0400
+
+    Update logo
+
+commit b24c9fc222283cccbdaf0f614e0f5df0165f1944
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Wed Oct 19 07:09:37 2016 -0400
+
+    Update logos
+
+commit e75d05721b397d695bd95d136df55a1fba2f7f5c
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Wed Oct 19 07:08:26 2016 -0400
+
+    Update logo
+
+commit 2b51e508abcda086f777a119125770796fed0d16
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Tue Oct 4 17:48:57 2016 -0400
+
+    Update
+
+commit 8ece333e075293962bde72d04c4f5482a112a063
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Wed Feb 3 01:42:14 2016 -0500
+
+    Update Readme
+
+commit 4ef309f10dbfbc929ac6f2211b2d6042d222a377
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Wed Feb 3 01:37:23 2016 -0500
+
+    update read.me
+
+commit 6cec42f9406a7f61925ce73cf9b3a6eee47ecb3f
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Sun Nov 15 23:10:43 2015 -0500
+
+    Update README
+
+commit f20f74825466bc9c04d01f758b189470ef4bf09f
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Sun Nov 15 22:57:39 2015 -0500
+
+    update year
+
+commit 76f3e741966725ca6e81f7191e8d642fab9a0b44
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Sun Nov 15 22:49:10 2015 -0500
+
+    Download paths
+
+commit 302bfd5caec3bf191aec24138518c6ad03ce8ffa
+Merge: 184e7a9 c0807ed
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Sun Nov 15 22:40:50 2015 -0500
+
+    Merge pull request #1 from carver/patch-1
+    
+    docs: miniupnpc dependency on debian
+
+commit 184e7a9f8d5c3dc3a7009525e1f72f2f1bfc4844
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Thu Jun 11 02:50:01 2015 -0400
+
+    commit id
+
+commit c744c101f58063aa8e6fbdaca00cb2b00043be62
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Thu Jun 11 02:01:18 2015 -0400
+
+    update version
+
+commit 4f3058dfa676175baf73485572d8a9093cbeb0a4
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Wed Jun 10 05:38:23 2015 -0400
+
+    Update README.md
+
+commit af8f7d2d5af5a4a9148f091cf6c9705a3f4128fc
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Wed Jun 10 05:36:05 2015 -0400
+
+    Update README.md
+
+commit d282c1efee8bf9d18e209036cd7b2e2eba619ff9
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Wed Jun 10 05:09:31 2015 -0400
+
+    Logo Updates
+
+commit 444740581172d90c066eea9c26baed56e7bd9b77
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Wed Jun 10 05:02:24 2015 -0400
+
+    Basic updates
+
+commit 54e5d19ef49ac94e9d31f811cb2e46dc3196f42b
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Tue Jun 9 20:54:00 2015 -0400
+
+    Update aboutdialog.ui
+
+commit 721ff6837458b3f6969d08ec26528f7590d96386
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Tue Dec 2 14:04:44 2014 -0500
+
+    Update aboutdialog.ui
+
+commit 27e015c9150463f2181e4762eb98ebe34a9ab80b
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Tue Dec 2 14:01:02 2014 -0500
+
+    Update version.h
+
+commit c6cd5719a1288048a7441b91efe07bc3665b8c4c
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Tue Dec 2 13:58:59 2014 -0500
+
+    Update version.cpp
+
+commit 9c18917a15874b3311e0ab4d735e4dc083627a43
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Tue Dec 2 13:45:23 2014 -0500
+
+    Update curecoinunits.cpp
+
+commit 9c69c254e030166946aad96f51b39d38f1a03f12
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Tue Dec 2 13:38:03 2014 -0500
+
+    Update README
+
+commit f191ffbf20d2f22821a35b7af294f50abb7a6774
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Tue Dec 2 13:34:59 2014 -0500
+
+    Update COPYING
+
+commit aa1cb377b6d85a6b3c61ccd739f6c50100962ab3
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Tue Dec 2 13:33:44 2014 -0500
+
+    Update README.md
+
+commit b984866805aae680324c4776734ce6cdd968e00d
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Tue Dec 2 13:22:28 2014 -0500
+
+    Update README.md
+
+commit 23dde3b8f2901c1ab573d151cb680ce9394ee447
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Tue Dec 2 13:21:16 2014 -0500
+
+    Update README.md
+
+commit 9f7ce83b5da401e464c0d2b094fb2e477337039d
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Fri Jul 25 17:05:11 2014 -0400
+
+    Update checkpoints.cpp
+
+commit 25e2da777d1cbec6b06cadf2e097c48cd24f6aa2
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Sun Jun 29 22:12:01 2014 -0400
+
+    Update wallet.cpp
+
+commit 294cc5359178181a0708aa996442cbb510a35bee
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Thu May 29 20:30:44 2014 -0400
+
+    Update README.md
+
+commit 06729eb68dbc8057a386210e69b625a6ba320961
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Thu May 29 20:29:35 2014 -0400
+
+    Update README.md
+
+commit 69e9707a84f4b7e6e09f9800e2a436850e39ac1a
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Sun May 25 12:41:05 2014 -0400
+
+    Create emptyfile
+
+commit 61040e8b57ecacd2afa84a055bfcf539c8e5c399
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Sun May 25 12:39:53 2014 -0400
+
+    Delete emptyfile
+
+commit ed37fcf7c80acbf4afece1fe942e78b27f5e87c8
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Sun May 25 12:39:27 2014 -0400
+
+    Add obj directory for easier compile.
+    
+    Add obj directory for easier compile.
+
+commit c0807ed6a327f3b71f64a8875b6cb429df60a65f
+Author: Jason Carver <ut96caarrs@snkmail.com>
+Date:   Fri May 16 22:24:35 2014 -0700
+
+    docs: miniupnpc dependency on debian
+
+commit dc848ca62b4979066e6cac7ea070193b5a7bcc25
+Author: cygnusxi <racingoblivious@gmail.com>
+Date:   Sat May 10 14:49:26 2014 -0600
+
+    Curecoin Launch
+    
+    Initial launch of Curecoin.

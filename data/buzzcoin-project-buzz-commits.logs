@@ -1,0 +1,173 @@
+commit 96abc5db67429daf448e91a19ca8f7fc1c2d520d
+Merge: 4f5c6b8 60a530f
+Author: Austin Witherow <au.witherow@gmail.com>
+Date:   Mon Oct 9 10:15:31 2017 +0200
+
+    Merge pull request #1 from konez2k/master
+    
+    macOS Build + Build Fixes + Cleanup
+
+commit 60a530fec22caffb879d688433cb56351c1ff6a1
+Author: konez2k <32417933+konez2k@users.noreply.github.com>
+Date:   Mon Oct 9 10:13:23 2017 +0200
+
+    Fixed name
+
+commit bebf58f4fb1440fa9884e9ee41f188bac5d2bd4c
+Author: konez2k <konez2k@gmail.com>
+Date:   Sun Oct 8 11:27:23 2017 +0200
+
+    fix mac retina display
+
+commit 748aaac8bb6b0e4773e47a98b8384fe21b2c51e0
+Author: konez2k <konez2k@gmail.com>
+Date:   Sun Oct 8 11:26:56 2017 +0200
+
+    fix macdeploy and docs
+
+commit 8815ff71f90963fbba1e006cffd55d2f84c4ecb2
+Author: konez2k <konez2k@gmail.com>
+Date:   Sun Oct 8 10:43:33 2017 +0200
+
+    remove windows makefiles
+
+commit acd94f7ad5fed9a1f2966b8f18640d17a2c24cf6
+Author: konez2k <konez2k@gmail.com>
+Date:   Sun Oct 8 10:43:01 2017 +0200
+
+    update macos build
+
+commit de735ecf23935c1a745a27ddcbf904cc494099ab
+Author: konez2k <konez2k@gmail.com>
+Date:   Sun Oct 8 10:39:01 2017 +0200
+
+    fix build errors, new macos notification manager
+
+commit 191806c8783cf6bf0e8b94fba0bca0b6e38e6d65
+Author: konez2k <konez2k@gmail.com>
+Date:   Sun Oct 8 10:37:58 2017 +0200
+
+    fix leveldb permissions
+
+commit 9b61ed5c9055207f4286cb1b05de6917a29ae85e
+Author: konez2k <konez2k@gmail.com>
+Date:   Sun Oct 8 10:37:32 2017 +0200
+
+    new hi-res icons and mac icon package
+
+commit d5cfa53471eaff00e46d00f4704c0c09649978f5
+Author: konez2k <konez2k@gmail.com>
+Date:   Sun Oct 8 10:36:59 2017 +0200
+
+    ignore build objects and files
+
+commit 509bd70536cdefe9d3b189b437b3d2f1bc42e69b
+Author: konez2k <konez2k@gmail.com>
+Date:   Sun Oct 8 10:36:37 2017 +0200
+
+    remove build objects
+
+commit 4f5c6b814256be541aff5f634794b1eced29808d
+Author: BUZZCOINproject <buzzcoinproject@yahoo.com>
+Date:   Sat Sep 23 18:08:45 2017 -0700
+
+    v2.1
+
+commit 0109b1d75fa77c8dc501001a7e7e010ef01e2d21
+Merge: d051cb9 5a29ba8
+Author: BUZZCOINproject <buzzcoinproject@yahoo.com>
+Date:   Sat Sep 23 12:14:59 2017 -0700
+
+    Merge branch 'master' of https://github.com/BUZZCOINproject/buzzcoin
+
+commit d051cb976f4aa3b1ff4d050f8261758a70e428dc
+Author: BUZZCOINproject <buzzcoinproject@yahoo.com>
+Date:   Sat Sep 23 12:14:20 2017 -0700
+
+    Fee Fix v2 Fix
+
+commit 5a29ba8f37085c14cfb73ae949d4d04404580ced
+Author: BUZZCOINproject <buzzcoinproject@yahoo.com>
+Date:   Tue Sep 19 20:59:45 2017 -0700
+
+    v2 update
+
+commit 8d0573f26503034e2cb62ab7700e2e8e83dd1f38
+Author: ambiprofin <ambiprofin@users.noreply.github.com>
+Date:   Tue Feb 9 12:30:43 2016 +0530
+
+    Fix that error
+
+commit 6a9ac71d93eb82054849da3d1a3b0ebe06af645c
+Author: BUZZCOINproject <buzzcoinproject@yahoo.com>
+Date:   Wed Feb 3 12:35:51 2016 -0800
+
+    new images
+
+commit bbf0c06bdc120f76f0b38a0eca3d339aaa7d425a
+Author: ambiprofin <ambiprofin@users.noreply.github.com>
+Date:   Wed Feb 3 23:50:12 2016 +0530
+
+    Change Version and Block Old Peers
+
+commit 736b35d81f32d53093394073fefcea86f05a20bb
+Author: BUZZCOINproject <buzzcoinproject@yahoo.com>
+Date:   Fri Jan 22 22:18:25 2016 -0800
+
+    Change Icons
+
+commit fa1fc7c0e25739a28eb04432e4e0167de79d0059
+Author: ambiprofin <comptrollersys@gmail.com>
+Date:   Thu Jan 21 21:58:40 2016 +0530
+
+    Well, let's delay that fork
+
+commit 3325a554926ec8510235e633a332762e21eef5a8
+Author: ambiprofin <comptrollersys@gmail.com>
+Date:   Thu Jan 21 21:56:27 2016 +0530
+
+    Remove Windows Code
+
+commit 10c0f8a1422ef556f35e10c2a0ffbc32fad7920d
+Author: ambiprofin <comptrollersys@gmail.com>
+Date:   Tue Jan 19 23:19:35 2016 +0530
+
+    Darn it! I keep on making stupid mistakes!
+
+commit 78c8d526a93e4e0f81ec44ee6c0c697f619d6d84
+Author: ambiprofin <comptrollersys@gmail.com>
+Date:   Sat Jan 16 00:24:09 2016 +0530
+
+    Simple Mistake ;<
+
+commit 739be7ef111ef5bfda747175777d67e3ec0f9990
+Author: ambiprofin <comptrollersys@gmail.com>
+Date:   Sat Jan 16 00:20:16 2016 +0530
+
+    Well, that's over with
+
+commit 9d91749be4e6c3e60e6a4f9437ed6a5b5e2dea8c
+Author: ambiprofin <comptrollersys@gmail.com>
+Date:   Fri Jan 15 23:54:31 2016 +0530
+
+    Fork the wrong fee to the (supposedly) right fee
+
+commit 83725c5c9c505eb0bbadbdacdb708087f4feb11a
+Author: ambiprofin <comptrollersys@gmail.com>
+Date:   Thu Jan 14 21:57:20 2016 +0530
+
+    Lift up minimum fee
+
+commit be6faeb72a04dd094c2d5a664acc8edd0bfdd365
+Author: BUZZCOINproject <buzzcoinproject@yahoo.com>
+Date:   Mon Jan 11 08:35:57 2016 -0800
+
+    BuzzCoin
+    
+    BuzzCoin
+
+commit dd844075b21338a9482da6da3a4302f4df391e50
+Author: BUZZCOINproject <buzzcoinproject@yahoo.com>
+Date:   Sun Jan 10 20:35:50 2016 -0800
+
+    :neckbeard: Added .gitattributes & .gitignore files

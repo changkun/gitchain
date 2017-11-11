@@ -1,0 +1,619 @@
+commit de399ccb068a82f045d6a77ae66f9589b547cc14
+Author: Josh Rickmar <jrick@companyzero.com>
+Date:   Tue Oct 31 12:28:34 2017 -0400
+
+    Set correct dcrwallet version at link time.
+    
+    Depends on decred/dcrwallet#985.
+
+commit 66b60ece9c30e33f1faf1132d8c2cb326b829699
+Author: David Hill <dhill@mindcry.org>
+Date:   Fri Sep 29 17:31:13 2017 -0400
+
+    v1.1.1 decrediton (#63)
+
+commit 879921cdca9983657008adba2ba02f6ff26c406b
+Author: David Hill <dhill@mindcry.org>
+Date:   Mon Sep 25 16:51:43 2017 -0400
+
+    v1.1.0 - Add Decrediton for Windows (#61)
+
+commit 7dd84ee443c62977d6640c2e41bb4bd9ed9d2565
+Author: David Hill <dhill@mindcry.org>
+Date:   Sat Sep 23 11:43:09 2017 -0400
+
+    v1.1.0 (#60)
+
+commit 775be2d1da33066800b644f0efdde86056985f63
+Author: David Hill <dhill@mindcry.org>
+Date:   Fri Aug 25 15:10:19 2017 -0400
+
+    v1.0.8 (#58)
+
+commit fda5369d715084a10634291e37ac3d504cbb8dc4
+Author: David Hill <dhill@mindcry.org>
+Date:   Fri Aug 18 11:29:23 2017 -0400
+
+    v1.0.7 (#57)
+
+commit 1fe1b34d45e6bf7b01214c05badc1bbaa9834ed5
+Author: John C. Vernaleo <john@netpurgatory.com>
+Date:   Wed Jun 28 14:55:55 2017 -0400
+
+    v1.0.6 decrediton
+
+commit 56da8b90915b219563ab64a1b8b9b371f563b252
+Author: John C. Vernaleo <john@netpurgatory.com>
+Date:   Wed Jun 21 09:14:13 2017 -0400
+
+    v1.0.5
+
+commit 253f3c2dcc34841cbb39d3da41331ae681dfb91c
+Author: John C. Vernaleo <john@netpurgatory.com>
+Date:   Fri Jun 9 13:38:50 2017 -0400
+
+    v1.0.4
+
+commit d02f91524db07b83940e65ca9d16decbf26597d2
+Author: John C. Vernaleo <john@netpurgatory.com>
+Date:   Wed Jun 7 17:24:53 2017 -0400
+
+    Release notes for v1.0.3
+
+commit 27c1434be5ab663dd20398b9e6a288b0a9f559d6
+Author: John C. Vernaleo <john@netpurgatory.com>
+Date:   Tue May 2 14:22:31 2017 -0400
+
+    decrediton v1.0.2
+
+commit 0ca79486b5c578c0ab1867d724d698ff1aef3015
+Author: John C. Vernaleo <john@netpurgatory.com>
+Date:   Mon May 1 14:44:48 2017 -0400
+
+    Remove 32bit OSX/darwin builds
+    
+    The last version of OSX to support 32bit processors was 10.6 Snow
+    Leopard from 2009.  No modern mac is likely to even be able to run
+    Snow Leopard.  For this reason we should not be building and providing
+    binaries for 32bit darwin.
+
+commit add3eabe12e7d502776bc5dc6cfcd116216dc4d9
+Author: John C. Vernaleo <john@netpurgatory.com>
+Date:   Fri Apr 28 06:42:08 2017 -0400
+
+    Release notes for v1.0.1
+
+commit 1657fc69c05367b17dfea5f489ca5d9e33f5c0b3
+Author: John C. Vernaleo <john@netpurgatory.com>
+Date:   Mon Apr 24 13:13:46 2017 -0400
+
+    Release notes for v1.0.0
+
+commit 3fd812c01d7d769464f1d8c72d09d236fc386dba
+Author: John C. Vernaleo <john@netpurgatory.com>
+Date:   Mon Apr 24 12:09:38 2017 -0400
+
+    gominer v1.0.0
+
+commit c31ac9033387236ff9a3b6c46b17127985fed072
+Author: John C. Vernaleo <john@netpurgatory.com>
+Date:   Wed Apr 12 15:18:12 2017 -0400
+
+    Make links to old wiki point to local resources
+    
+    Point to verifying binaries section of readme specifically.
+
+commit 990e0cb58ea8cad58dddbdebaf0ec7d539b38d33
+Author: John C. Vernaleo <john@netpurgatory.com>
+Date:   Fri Mar 31 14:15:10 2017 -0400
+
+    Add promptsecret tool to builds
+
+commit c7f1ccc29b2d5a0466a2d573bba073b244cc2797
+Author: John C. Vernaleo <john@netpurgatory.com>
+Date:   Mon Feb 20 14:05:31 2017 -0500
+
+    Add release to version when doing release builds.
+
+commit 81ca5fa9387d84aac21c537eebef5d8750abe5d9
+Author: John C. Vernaleo <john@netpurgatory.com>
+Date:   Tue Feb 14 12:53:55 2017 -0500
+
+    Add solaris-amd64 to decred builds.
+    
+    Do not build dragonflybsd or solaris for dcrinstaller since both of
+    them fail to build.
+
+commit f28268fc8760500a2297e32d715269b72e916b7d
+Author: John C. Vernaleo <john@netpurgatory.com>
+Date:   Wed Feb 15 15:44:05 2017 -0500
+
+    Release notes for v0.8.2
+
+commit c6abc12c968c78e46df60fbbacfa214c7ba70b23
+Author: John C. Vernaleo <john@netpurgatory.com>
+Date:   Tue Feb 14 15:00:15 2017 -0500
+
+    Paymetheus v0.8.1
+
+commit 6f3955924657a68903d37ae8173ad6febfa0f108
+Author: John C. Vernaleo <john@netpurgatory.com>
+Date:   Tue Feb 7 14:27:25 2017 -0500
+
+    v0.8.0
+    
+    The build script for gominer now includes the older blake kernel.
+    
+    Update to the VERSION file.
+    
+    Remove dcrticketbuyer from packages.
+
+commit e29d479e17efa2607d7f29ce3b04799cce492912
+Author: raedah <raedah@users.noreply.github.com>
+Date:   Mon Dec 26 14:01:47 2016 -0800
+
+    fix broken links (#26)
+
+commit 771b24558d903ec145f109fd20412c6aa64a7c87
+Author: John C. Vernaleo <john@netpurgatory.com>
+Date:   Fri Dec 16 15:21:26 2016 -0500
+
+    v0.7.0
+
+commit d814d6ddccf4ee8f1ad69de211defc0f404802ae
+Author: John C. Vernaleo <john@netpurgatory.com>
+Date:   Fri Nov 25 22:09:00 2016 -0500
+
+    v0.6.1 (#23)
+    
+    * v0.6.1
+
+commit ee8b4dfe1e747e4eecd18459741af67da5f61e53
+Author: John C. Vernaleo <john@netpurgatory.com>
+Date:   Fri Nov 4 16:06:02 2016 -0400
+
+    Release 0.6.0
+
+commit 2716698410958f5fa8d45a111be41e37d0d6a354
+Author: John C. Vernaleo <john@netpurgatory.com>
+Date:   Mon Oct 10 15:30:00 2016 -0400
+
+    v0.5.1
+
+commit 7d478c47325fbe6b7d2c25d24e4d70367fc7fae8
+Author: John C. Vernaleo <john@netpurgatory.com>
+Date:   Tue Oct 4 15:22:04 2016 -0400
+
+    Updates for v0.5.0
+
+commit b3d61bfa469c976dd6591b036b70ead55e99c950
+Author: John C. Vernaleo <john@netpurgatory.com>
+Date:   Thu Sep 29 12:08:58 2016 -0400
+
+    Modify the gominer package script for the multiple new versions of gominer.
+    
+    Currently this is based on my build box which can only do
+    linux opencl and has to be provided the others but it can
+    be easily modified for other situations as we settle on
+    build infrastructure.
+
+commit 0b023c1f02edfd5838fa86fda9f9f48f6b485ff6
+Author: John C. Vernaleo <john@netpurgatory.com>
+Date:   Wed Sep 7 12:32:55 2016 -0400
+
+    Update dcrinstall manifest
+
+commit 4b65de4c96af60c53efb0b9ea62db2f0a417a8eb
+Author: John C. Vernaleo <john@netpurgatory.com>
+Date:   Tue Sep 6 11:25:39 2016 -0400
+
+    Some minor corrections/changes to release notes.
+
+commit d655861fb88f7b4c3cfba1a897f53a2f8e696a18
+Author: John C. Vernaleo <john@netpurgatory.com>
+Date:   Fri Sep 2 13:24:21 2016 -0400
+
+    Updates for v0.4.0
+
+commit 8f8975557af1715a42e9180bd2395c9e164aeb37
+Author: jolan <jolan@users.noreply.github.com>
+Date:   Thu Sep 1 11:41:36 2016 -0500
+
+    remove webui as it no longer exists (#13)
+
+commit 321d86882a4932a0d3a0f405429297f26ca93bd3
+Author: John C. Vernaleo <john@netpurgatory.com>
+Date:   Thu Sep 1 10:46:02 2016 -0400
+
+    Add copay packages to manifest and build dir
+
+commit 750a568c3dbdaae566002b8963ff982d34f57a2b
+Author: John C. Vernaleo <john@netpurgatory.com>
+Date:   Thu Aug 11 13:39:02 2016 -0400
+
+    Updates for v0.3.0
+
+commit 838040fd2ba57aa97c9a553d29bfa6fb16847529
+Author: John C. Vernaleo <john@netpurgatory.com>
+Date:   Thu Aug 11 10:52:05 2016 -0400
+
+    Update build scripts a little.
+    
+    Don't make the big tarballs that aren't used.
+    If windows build is present for gominer, include
+    in manifest and build dir.
+
+commit 875570007ae93f7a86e225d58c7c98eff1af1b51
+Author: John C. Vernaleo <john@netpurgatory.com>
+Date:   Thu Jul 28 16:31:29 2016 -0400
+
+    Add ccminer hash to release notes.
+
+commit 4110dd64311078cc7d659a823a1bac547ccad4d3
+Author: John C. Vernaleo <john@netpurgatory.com>
+Date:   Thu Jul 28 16:18:35 2016 -0400
+
+    Add ccminer build to v0.2.0
+
+commit 2c6d26225af7d1befbf71a3fb8272b1bb1ffd653
+Author: John C. Vernaleo <john@netpurgatory.com>
+Date:   Wed Jul 27 13:07:03 2016 -0400
+
+    Add gominer v0.2.0 to release.
+
+commit 93cb33c477bd785f9b396dde57de7cfd4b80a5d0
+Author: John C. Vernaleo <john@netpurgatory.com>
+Date:   Mon Jul 25 10:52:30 2016 -0400
+
+    Update for v0.2.0
+
+commit 51d2b6ac3b937faab84e1bca081ce757b77b4c0c
+Author: John C. Vernaleo <john@netpurgatory.com>
+Date:   Wed Jun 22 12:58:58 2016 -0400
+
+    Better name for the dcrinstall manifest.
+
+commit bdc633bb8e5a3b39954a3cb6fc2380ebfcf05544
+Author: John C. Vernaleo <john@netpurgatory.com>
+Date:   Wed Jun 22 10:37:22 2016 -0400
+
+    Fix a link in release notes. (#5)
+
+commit ea0147d29a1b360904a3c9d44637a09fa4a3dab9
+Author: John C. Vernaleo <john@netpurgatory.com>
+Date:   Tue Jun 21 12:53:37 2016 -0400
+
+    Release v0.1.6
+
+commit c8a032e754cf09ed8c93854e95cf155f4c44dc6c
+Author: John C. Vernaleo <john@netpurgatory.com>
+Date:   Tue Jun 21 13:32:44 2016 -0400
+
+    Improve naming of files for installer.
+
+commit 30fe6d25e9c0aac15bfe0a95abfe64d21517a69e
+Author: John C. Vernaleo <john@netpurgatory.com>
+Date:   Mon Jun 13 14:19:07 2016 -0400
+
+    Add build script for dcrinstall.
+
+commit 1ec628b2a208a3dd10e3c92d7a485d3ec023fa92
+Author: John C. Vernaleo <john@netpurgatory.com>
+Date:   Mon Jun 13 11:18:11 2016 -0400
+
+    Update paths for new URL
+
+commit e96928195a5317fa2b3b67c2d55c849bd5e7d304
+Author: John C. Vernaleo <john@netpurgatory.com>
+Date:   Mon Jun 13 10:20:40 2016 -0400
+
+    Some cleanup to the way releases are made.
+    
+    Simplify archive names.
+    
+    Provide .tar.gz files for windows (along side the .zip files).
+    
+    Put not in README about source code locations.
+    
+    Requested by marco.
+
+commit 0b01cd298453ab16c663f5cc7536f1453337ef10
+Author: John C. Vernaleo <john@netpurgatory.com>
+Date:   Tue Jun 7 09:37:50 2016 -0400
+
+    Fix formatting bug in release notes
+
+commit 04a665c91b15cdd06421c1b44a1d9398cbd099a5
+Author: John C. Vernaleo <john@netpurgatory.com>
+Date:   Tue Jun 7 08:29:33 2016 -0400
+
+    Update for v0.1.5
+
+commit 52a35856b589035b3526108cfcfce8474ffd1351
+Author: John C. Vernaleo <john@netpurgatory.com>
+Date:   Fri May 27 16:04:47 2016 -0400
+
+    Add link to release notes
+
+commit ae017bc9ecdf73f3097234e9d8e84651224d93d6
+Author: John C. Vernaleo <john@netpurgatory.com>
+Date:   Thu May 26 12:45:14 2016 -0400
+
+    Update for v0.1.4
+
+commit 0e15db48c0fd5df2305f9fdf3c0208b2d0c0a019
+Author: John C. Vernaleo <john@netpurgatory.com>
+Date:   Tue May 24 11:21:44 2016 -0400
+
+    Add dcrticketbuyer to build script.
+    
+    Minor change to decredbuild.sh to be a bit more general.
+
+commit 3786ea8f52c507dcbb5c73a6fc11824756055c07
+Author: John C. Vernaleo <john@netpurgatory.com>
+Date:   Tue May 10 14:23:35 2016 -0400
+
+    Update for v0.1.3
+
+commit 1c6c11cb6e24abe467169f6cdaf6f5a31a65c5e5
+Author: John C. Vernaleo <john@netpurgatory.com>
+Date:   Thu May 5 14:06:56 2016 -0400
+
+    Name directories inside tar files better.
+    
+    Closes #19
+
+commit b662b09836501fe78508233b5ca543214e1a47e6
+Author: John C. Vernaleo <john@netpurgatory.com>
+Date:   Wed May 4 10:56:55 2016 -0400
+
+    Add VERSION file.
+    
+    This provides a machine readable (json) file which
+    lists the latest VERSION and release dates for each
+    group of software in this repository.
+    
+    Closes #17
+
+commit f84fc573b3ef222898e610c2e603f5efd81e344e
+Author: John C. Vernaleo <john@netpurgatory.com>
+Date:   Tue May 3 17:23:34 2016 -0400
+
+    Update for v0.1.2
+
+commit 15841bcfa607fe4b0b2955713f9e19c243b8fbc4
+Author: John C. Vernaleo <john@netpurgatory.com>
+Date:   Wed Apr 27 15:19:23 2016 -0400
+
+    Miner release v0.1.0
+
+commit 2d765402c2e869a788105e1a19e70c51e0dac4bc
+Author: John C. Vernaleo <john@netpurgatory.com>
+Date:   Tue Apr 26 11:17:59 2016 -0400
+
+    Improve names of generated files.
+    
+    Add decred to the beginning of the tar.gz or zip names
+    along with an optional tag is specified on the cmd line.
+    
+    Closes #13
+
+commit 4f4ce5bd04f64e17287f771b8477921a099be5a7
+Author: John C. Vernaleo <john@netpurgatory.com>
+Date:   Mon Apr 25 14:05:49 2016 -0400
+
+    Update for v0.1.1
+
+commit b74ba329c5a6c99b51fdd97cdce6b2ae551a509a
+Author: John C. Vernaleo <john@netpurgatory.com>
+Date:   Mon Apr 18 21:15:35 2016 -0400
+
+    v0.1.0
+
+commit b7c39e123e908dd9282b4f332f096bcb2c1cf8da
+Author: John C. Vernaleo <john@netpurgatory.com>
+Date:   Tue Apr 12 09:41:33 2016 -0400
+
+    Add links to releases in release notes.
+
+commit b114b3e0ce89de01ec08c4942d38251ea7f5ddcb
+Author: John C. Vernaleo <john@netpurgatory.com>
+Date:   Mon Apr 11 11:38:13 2016 -0400
+
+    Add some more info to the README.md
+
+commit 80ce24790060cbc69445c502255313bff11a6019
+Author: John C. Vernaleo <john@netpurgatory.com>
+Date:   Thu Apr 7 07:39:28 2016 -0400
+
+    Update for v0.0.10 for real this time.
+
+commit bc4f42dc1f7bf4d9feadfeca94855537bf0c6de6
+Author: John C. Vernaleo <john@netpurgatory.com>
+Date:   Tue Apr 5 16:22:22 2016 -0400
+
+    Release notes for v0.0.10
+
+commit 7f7f222fc498d7a6679564e23d2bac52fe08cd80
+Author: (⌐■_■) <jolan@users.noreply.github.com>
+Date:   Mon Apr 4 18:54:10 2016 -0500
+
+    add linux-arm64 to build list
+    
+    tested on an ODROID-C2
+
+commit 7af7db73a85c908d5aeb6ca19e451d5114cd97c3
+Author: John C. Vernaleo <john@netpurgatory.com>
+Date:   Fri Apr 1 13:49:48 2016 -0400
+
+    Release notes for v0.0.9
+
+commit 5566ed4769bd4a9bac878430080b1abe904fa11f
+Author: Josh Rickmar <jrick@companyzero.com>
+Date:   Fri Mar 25 15:45:17 2016 -0400
+
+    Release notes for v0.0.8 Paymetheus.
+
+commit 5dbbd469e54727968f2fe427ebb17becdd4f597e
+Author: John C. Vernaleo <john@netpurgatory.com>
+Date:   Fri Mar 18 15:40:33 2016 -0400
+
+    Release notes for v0.0.8
+    
+    Fill in missing bits from v0.0.7 release notes.
+
+commit ea7d02a1b0fb3b40fdbc226339cd7296dab7dff6
+Author: Alex Yocom-Piatt <ay-p@decred.org>
+Date:   Wed Mar 9 18:02:43 2016 +0000
+
+    Release 0.0.7 for patch
+
+commit 59e0ef6af02b6be762432f888a4acc82f380610c
+Author: John C. Vernaleo <john@netpurgatory.com>
+Date:   Thu Mar 3 16:01:03 2016 -0500
+
+    v0.0.6
+
+commit 7fe93508a52a485e4e61493c3ab3bf3542664e8b
+Author: John C. Vernaleo <john@netpurgatory.com>
+Date:   Fri Feb 26 12:08:21 2016 -0500
+
+    Add notes for v0.0.5.
+
+commit cba15ade97ad1d3c9e343c7c8f973e6b27b314af
+Author: John C. Vernaleo <john@netpurgatory.com>
+Date:   Thu Feb 25 18:03:08 2016 -0500
+
+    Add sample confs to the packages.
+
+commit 0f795abda8296860725ead0dd29e7d75ea869ea1
+Author: John C. Vernaleo <john@netpurgatory.com>
+Date:   Thu Feb 25 17:50:44 2016 -0500
+
+    Add build script.
+
+commit 57a0b1c49f380028e9bec20ed33f9e02db018db2
+Author: John C. Vernaleo <john@netpurgatory.com>
+Date:   Thu Feb 25 17:35:06 2016 -0500
+
+    v0.0.5_cgminer
+
+commit 4d47818dffe43b1d7372cbc8e54df7610ef884de
+Author: John C. Vernaleo <john@netpurgatory.com>
+Date:   Thu Feb 25 17:32:34 2016 -0500
+
+    v0.0.4_cgminer
+
+commit 5a5a9d9afb3bf447d2aaae425cb3f41becc054f7
+Author: John C. Vernaleo <john@netpurgatory.com>
+Date:   Thu Feb 25 17:28:55 2016 -0500
+
+    v0.0.3_cgminer
+
+commit 3f725abfcfa035dda369085d4d15e0149df63a3d
+Author: John C. Vernaleo <john@netpurgatory.com>
+Date:   Thu Feb 25 17:25:17 2016 -0500
+
+    v0.0.2_cgminer
+
+commit e58ed67fa5060f4007453e0a4a9dee5a6082d7ab
+Author: John C. Vernaleo <john@netpurgatory.com>
+Date:   Thu Feb 25 17:08:44 2016 -0500
+
+    v0.0.1_cgminer
+
+commit d61042d7f8bc0bd920f32cb64c3631d0521d8834
+Author: John C. Vernaleo <john@netpurgatory.com>
+Date:   Thu Feb 25 17:05:12 2016 -0500
+
+    cgminer needs slightly different versions
+
+commit 33e113db6e630bcc6f9c977a2507f6f09387e771
+Author: John C. Vernaleo <john@netpurgatory.com>
+Date:   Thu Feb 25 17:04:17 2016 -0500
+
+    Add checksums for cgminer v0.0
+
+commit 16b1240454b0dc227c418b3000a15dde16ea7f3b
+Author: John C. Vernaleo <john@netpurgatory.com>
+Date:   Thu Feb 25 17:00:55 2016 -0500
+
+    Add checksum files and signatures for existing releases.
+
+commit f1c55f007e8914f27efc248dc2385960ef88c286
+Author: John C. Vernaleo <john@netpurgatory.com>
+Date:   Thu Feb 25 16:45:05 2016 -0500
+
+    Add cgminer v0.0 release notes
+
+commit 43c8a957be416e84c0f0941a8d0fbc6e63ff2fa0
+Author: John C. Vernaleo <john@netpurgatory.com>
+Date:   Thu Feb 25 16:40:32 2016 -0500
+
+    v0.0.4 release notes
+
+commit 536e2579c8421be051c1e48cee7fd3c0a0a23164
+Author: John C. Vernaleo <john@netpurgatory.com>
+Date:   Thu Feb 25 16:36:57 2016 -0500
+
+    v0.0.3 release notes
+
+commit d3962595dbbabfe01aae13148bcb609f94c823ef
+Author: John C. Vernaleo <john@netpurgatory.com>
+Date:   Thu Feb 25 16:23:59 2016 -0500
+
+    v0.0.2 release notes
+
+commit 1f7f09ac349ecb7dd4a93a4b86909319e44673a0
+Author: John C. Vernaleo <john@netpurgatory.com>
+Date:   Thu Feb 25 16:14:55 2016 -0500
+
+    One more bit of formatting
+
+commit ac2a38a48582d79df282900e59d669cb080e408d
+Author: John C. Vernaleo <john@netpurgatory.com>
+Date:   Thu Feb 25 16:13:52 2016 -0500
+
+    Fix formatting again
+
+commit 8875c2b668e10ee19a9479341a526109853e5eb4
+Author: John C. Vernaleo <john@netpurgatory.com>
+Date:   Thu Feb 25 16:12:52 2016 -0500
+
+    Add v0.0.1 release notes
+
+commit 5924687f4c5575829a4525f40ae30cac2dd7815e
+Author: John C. Vernaleo <john@netpurgatory.com>
+Date:   Thu Feb 25 16:06:21 2016 -0500
+
+    More formatting
+
+commit 98e5a3e741a65e0fe18c853734a5916b3402d785
+Author: John C. Vernaleo <john@netpurgatory.com>
+Date:   Thu Feb 25 16:04:57 2016 -0500
+
+    Some formatting
+
+commit 2a58d4c6417c904a140b6c9a4050805f23990fa3
+Author: John C. Vernaleo <john@netpurgatory.com>
+Date:   Thu Feb 25 16:01:31 2016 -0500
+
+    Add v0.0 release notes
+
+commit 689fa3f492e49997cba6a9e1ccb27ad4448245c3
+Author: John C. Vernaleo <john@netpurgatory.com>
+Date:   Thu Feb 25 15:46:21 2016 -0500
+
+    .gitignore
+
+commit 0e3f11094cbfd2bc15307f61f60cd573710ed9cb
+Author: John C. Vernaleo <john@netpurgatory.com>
+Date:   Thu Feb 25 15:44:33 2016 -0500
+
+    Add to README.md
+
+commit 127a520ba2c307977961cbcf9e6c22e1b7091862
+Author: John C. Vernaleo <john@netpurgatory.com>
+Date:   Wed Feb 24 14:16:06 2016 -0500
+
+    Initial commit

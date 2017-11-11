@@ -1,0 +1,72 @@
+commit 73bc5652564d344af6847eefde6d386225d4ad02
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Sep 3 20:40:41 2017 -0400
+
+    Working IBD
+
+commit 1cf58492c0095e5cb8e3b55b16520d61815cebf9
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Sep 3 18:21:05 2017 -0400
+
+    remove logs
+
+commit 0a3681d79ca03a11fac5fa687b6ff200373cedbf
+Merge: 5e74410 fe00494
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Sep 3 18:02:13 2017 -0400
+
+    Merge branch 'master' of https://github.com/Infernoman/C-Bit
+
+commit 5e74410ce835942d90de14c7c5d26d028f162785
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Sep 3 18:01:41 2017 -0400
+
+    revert to checkpoints instead of chainwork
+
+commit fe00494aa4051b66826b2c8fdfd0d83293e7cde8
+Author: Alastair Clark <jjaauto@hotmail.com>
+Date:   Sun Sep 3 17:16:58 2017 -0400
+
+    Cutoff 0.12.0 nodes.
+
+commit 7aa0730999acc05c8c47ceb11891eb44d24146ff
+Author: Alastair Clark <jjaauto@hotmail.com>
+Date:   Sun Sep 3 16:03:23 2017 -0400
+
+    Update chainparams.cpp
+
+commit 1c78af9451136518eaba80d700db50773f2c03f0
+Author: Alastair Clark <jjaauto@hotmail.com>
+Date:   Sun Sep 3 15:59:25 2017 -0400
+
+    Update protocol version
+
+commit 54ff11c39bd6137e9b32b428fbe4d4597abd2cd6
+Author: Alastair Clark <jjaauto@hotmail.com>
+Date:   Sun Sep 3 15:58:46 2017 -0400
+
+    Add checkpoint
+
+commit 20c3432936292bf0450a73dc5d8de1b8b89a453f
+Author: crzycbit <crzybluebilly@mailinator.com>
+Date:   Tue May 23 21:51:16 2017 -0500
+
+    fixed output files
+
+commit d6ac5ef209e1415551dada804162d9efe40f314a
+Author: crzycbit <crzybluebilly@mailinator.com>
+Date:   Mon May 22 23:07:32 2017 -0500
+
+    Fix command-line options
+
+commit ca0891f282f08715f71636223833a5d134c9ab19
+Author: crzycbit <crzybluebilly@mailinator.com>
+Date:   Mon May 22 22:46:11 2017 -0500
+
+    C-Bit 1.0
+
+commit 0d3ce456ad72020aa5b14e9d65c1925dc3c6fb94
+Author: crzycbit <crzybluebilly@mailinator.com>
+Date:   Mon May 22 22:43:56 2017 -0500
+
+    :octocat: Added .gitattributes

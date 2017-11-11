@@ -1,0 +1,32 @@
+commit b8c8e2b5d55d711f951f83071b9ea60d8e8b177f
+Merge: 43ad296 79776ac
+Author: CryptoBridge <CryptoBridge@gmail.com>
+Date:   Wed Oct 4 09:17:35 2017 +0200
+
+    Merge pull request #1 from CryptoBridge/feature/DGW-Hardfork
+    
+    Feature/dgw hardfork
+
+commit 79776ace7d87fbd5b3e69a414aecf61a84002a7c
+Author: Cryptobridge <cryptobridge@gmail.com>
+Date:   Wed Oct 4 08:30:05 2017 +0200
+
+    Adjust block number to hard fork later
+
+commit f2e091e7ab7e9db66bdc4b8b6ca4007ba3b23a57
+Author: CryptoBridge <cryptobridge@gmail.com>
+Date:   Mon Oct 2 12:49:24 2017 +0200
+
+    Bump version
+
+commit fa98435f59a46a9c5de4da3107f1fa24bb34d190
+Author: CryptoBridge <cryptobridge@gmail.com>
+Date:   Mon Oct 2 10:26:41 2017 +0200
+
+    Switch to DGW to hard fork at block 98848
+
+commit 43ad296d1c5159ca2de0899c3b413fd3b6bb4f00
+Author: CryptoBridge <info@cryptobridge.com>
+Date:   Wed Jul 12 07:52:26 2017 +0200
+
+    Initial commit of BridgeCoin 1.0.1

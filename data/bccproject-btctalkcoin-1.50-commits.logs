@@ -1,0 +1,36 @@
+commit b046b5507452ae7ade130faee046489c3ea29d88
+Author: YarkoL <YarkoL@users.noreply.github.com>
+Date:   Sat May 10 22:00:52 2014 +0300
+
+    Update README.md
+
+commit c8e590b1544154a4edc30bf80f546ffe594a5c69
+Author: YarkoL <YarkoL@users.noreply.github.com>
+Date:   Sat May 10 22:00:24 2014 +0300
+
+    Delete README
+
+commit fb4bd938683e24e0b813c57108636542b5351aa7
+Merge: 2d228f3 e59826c
+Author: Niklas <niklas@panarchia.(none)>
+Date:   Sat May 10 21:58:16 2014 +0300
+
+    Merge branch 'master' of https://github.com/YarkoL/BTCtalkcoin
+
+commit 2d228f3529645e3719c2387f4d2d5804d51e7e8b
+Author: Niklas <niklas@panarchia.(none)>
+Date:   Sat May 10 21:56:09 2014 +0300
+
+    1.50
+
+commit e59826cdcbdd0a498249983ca1bfcb1099c88cf5
+Author: YarkoL <YarkoL@users.noreply.github.com>
+Date:   Sat May 10 21:54:33 2014 +0300
+
+    Update README
+
+commit 79b08d222d2593efddf6c6fc988f4a49a73929f4
+Author: Niklas <niklas@panarchia.(none)>
+Date:   Sat May 10 21:50:10 2014 +0300
+
+    1.50

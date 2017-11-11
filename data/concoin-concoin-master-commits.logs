@@ -1,0 +1,19 @@
+commit c66226aa4cc485618b747a18d887168d281328d0
+Author: Concoin <ceo@concoin.com>
+Date:   Tue Apr 25 09:15:06 2017 +0200
+
+    Update net.cpp
+
+commit 2cb96c0e15a3a1fd59536b30d53530c48c3968b1
+Author: ConCoin <ceo@concoin.com>
+Date:   Mon Apr 3 19:17:25 2017 +0200
+
+    ConCoin
+    
+    The most dangerous cryptocurrency in the world
+
+commit 4a66039d1c5ff2681c95965a71abc8481e9d7c70
+Author: ConCoin <ceo@concoin.com>
+Date:   Mon Apr 3 19:16:38 2017 +0200
+
+    :neckbeard: Added .gitattributes & .gitignore files

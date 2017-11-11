@@ -1,0 +1,866 @@
+commit 5288564b95dd96d95106e8cdf398ea70f6a80f5e
+Author: muddafudda <troychef@outlook.com>
+Date:   Wed Apr 16 00:38:40 2014 +0800
+
+    Update Pro
+
+commit 845b4b920fd519b4c66172334d1896b85847a1f9
+Author: muddafudda <troychef@outlook.com>
+Date:   Wed Apr 16 00:35:33 2014 +0800
+
+    Revert "Sync before generate pos block"
+    
+    This reverts commit a279e3c86e4264ffea365e8e9af1409741525272.
+
+commit 22e21769ca6a1107359f7544d40fdf9d48df87d9
+Author: muddafudda <troychef@outlook.com>
+Date:   Wed Apr 16 00:35:20 2014 +0800
+
+    Revert "Update rpcwallet.cpp"
+    
+    This reverts commit 3a2879c11ff8add96c46f5ab0353782509a19715.
+
+commit f92ad3eda41ec214ba2975623d7e929cd0e7bd4c
+Author: muddafudda <troychef@outlook.com>
+Date:   Wed Apr 16 00:34:47 2014 +0800
+
+    Revert "Update db.h"
+    
+    This reverts commit 7ecdc3640387db3e87c39e7392f80820172dfd60.
+
+commit cc7ca41e45586dd36e93a32af09bbae4835dffa4
+Author: muddafudda <muddafudda@users.noreply.github.com>
+Date:   Wed Mar 26 00:49:58 2014 +0800
+
+    Update kernel.cpp
+
+commit c3b39d36f8c399b38178a5194c6492b0f0381c97
+Author: muddafudda <muddafudda@users.noreply.github.com>
+Date:   Wed Mar 26 00:48:39 2014 +0800
+
+    Update checkpoints.cpp
+
+commit 14ce7fbedd50802b0e326451606dc895d226e42a
+Author: muddafudda <muddafudda@users.noreply.github.com>
+Date:   Tue Mar 25 01:16:03 2014 +0800
+
+    Update version.h
+
+commit a279e3c86e4264ffea365e8e9af1409741525272
+Author: muddafudda <muddafudda@users.noreply.github.com>
+Date:   Sat Feb 22 00:52:59 2014 +0800
+
+    Sync before generate pos block
+
+commit 7ecdc3640387db3e87c39e7392f80820172dfd60
+Author: muddafudda <muddafudda@users.noreply.github.com>
+Date:   Sat Feb 22 00:47:43 2014 +0800
+
+    Update db.h
+
+commit 2f78aba3ee2813a094a90626e98f50e2a19fe283
+Author: muddafudda <muddafudda@users.noreply.github.com>
+Date:   Sun Feb 16 09:11:56 2014 +0800
+
+    Update irc.cpp
+
+commit 3a2879c11ff8add96c46f5ab0353782509a19715
+Author: muddafudda <muddafudda@users.noreply.github.com>
+Date:   Sun Jan 5 14:11:25 2014 +0800
+
+    Update rpcwallet.cpp
+
+commit 3d027f3de8d4eebfe9f58d3ceda0108c1d8ec186
+Author: muddafudda <muddafudda@users.noreply.github.com>
+Date:   Thu Nov 28 22:54:34 2013 +0800
+
+    Update kernel.cpp
+
+commit b2d4b8f8fd8bf2577eca94e20317cd4aefd9a569
+Author: muddafudda <muddafudda@users.noreply.github.com>
+Date:   Thu Nov 28 22:53:54 2013 +0800
+
+    Update checkpoints.cpp
+
+commit 6bac3a356fb7c9a2c8e84b8ccca0a359f6f5080a
+Author: muddafudda <muddafudda@users.noreply.github.com>
+Date:   Thu Oct 31 00:54:57 2013 +0800
+
+    Update version.h
+
+commit 810da5185ba2b70589d57a2f493ac47075f2e6fe
+Author: muddafudda <muddafudda@users.noreply.github.com>
+Date:   Thu Oct 31 00:53:51 2013 +0800
+
+    Update kernel.cpp
+
+commit 961a812c5de8fb11b3316f41036d557ad53c8997
+Author: muddafudda <muddafudda@users.noreply.github.com>
+Date:   Thu Oct 31 00:52:34 2013 +0800
+
+    Update checkpoints.cpp
+
+commit 4cf81e7ae05097fa292d779b8fbfa7447dc663d1
+Merge: 4803595 8516e4d
+Author: muddafudda <troychef@hotmail.com>
+Date:   Tue Oct 8 07:15:53 2013 -0700
+
+    Merge pull request #32 from muddafudda/Colossus-dev
+    
+    Colossus dev
+
+commit 8516e4d180a19761ddd8503612eb912bf90bcd2d
+Author: muddafudda <troychef@hotmail.com>
+Date:   Tue Oct 8 22:15:37 2013 +0800
+
+    Move Disconnect Peers to Sun 13th October 0.01.00 GMT
+
+commit ce4840c032214ab27e25f89c598cf1bf87e1d1a7
+Merge: 8b861db 4803595
+Author: muddafudda <troychef@hotmail.com>
+Date:   Mon Oct 7 09:58:02 2013 -0700
+
+    Merge pull request #31 from muddafudda/master
+    
+    Merge
+
+commit 48035955f6bf0102fc21dc7af0ebbf01b7d96f7d
+Author: muddafudda <troychef@hotmail.com>
+Date:   Tue Oct 8 00:43:54 2013 +0800
+
+    Update util.h
+
+commit d72fcf7bc33cf704a4a5b3b2294d8e9df7b368b3
+Author: muddafudda <troychef@hotmail.com>
+Date:   Tue Oct 8 00:42:47 2013 +0800
+
+    Update util.cpp
+
+commit 611646c7c3d7d13158b3adcf6f83b2d9403b9335
+Author: muddafudda <troychef@hotmail.com>
+Date:   Tue Oct 8 00:41:08 2013 +0800
+
+    Update main.cpp
+
+commit fa3f23cc3125a31a59356e33e9dfec1ce7b4f8ab
+Author: muddafudda <troychef@hotmail.com>
+Date:   Tue Oct 8 00:25:27 2013 +0800
+
+    Update wallet.cpp
+
+commit cfb95b8f004fe1f7a358efff43ffa05023452d18
+Merge: 307f9e5 8b861db
+Author: muddafudda <troychef@hotmail.com>
+Date:   Mon Oct 7 09:20:20 2013 -0700
+
+    Merge pull request #30 from muddafudda/Colossus-dev
+    
+    Merge pull request #29 from muddafudda/master
+
+commit 8b861db0b0a632576d4f5a77e26f077d6f2b10ac
+Merge: 8472cb1 307f9e5
+Author: muddafudda <troychef@hotmail.com>
+Date:   Mon Oct 7 09:16:06 2013 -0700
+
+    Merge pull request #29 from muddafudda/master
+    
+    Merge
+
+commit 307f9e54d5457e6b041b4c6414fc3a105483d493
+Merge: 045bdf1 8472cb1
+Author: muddafudda <troychef@hotmail.com>
+Date:   Mon Oct 7 09:15:39 2013 -0700
+
+    Merge pull request #28 from muddafudda/Colossus-dev
+    
+    Update main.cpp
+
+commit 8472cb1ca9be3a24af1970776a4a9d805dcc2834
+Author: muddafudda <troychef@hotmail.com>
+Date:   Tue Oct 8 00:14:35 2013 +0800
+
+    Update main.cpp
+
+commit 045bdf148a9011d6b4fa08b5ba797d52b1c37af6
+Merge: 6df3cfe ebbc184
+Author: muddafudda <troychef@hotmail.com>
+Date:   Mon Oct 7 08:54:34 2013 -0700
+
+    Merge pull request #27 from muddafudda/Colossus-dev
+    
+    Colossus dev
+
+commit ebbc184e30ffd08ce8b85f680b2be8326a695dfa
+Author: muddafudda <troychef@hotmail.com>
+Date:   Mon Oct 7 23:40:08 2013 +0800
+
+    Update kernel.cpp
+
+commit fe689ab4053cabc772a728f9f8722ad6d30a5fc4
+Author: muddafudda <troychef@hotmail.com>
+Date:   Mon Oct 7 23:39:00 2013 +0800
+
+    Update checkpoints.cpp
+
+commit fa08a7e02497fc0c9524f399b217a8bf565e3ebb
+Author: muddafudda <troychef@hotmail.com>
+Date:   Mon Oct 7 23:35:19 2013 +0800
+
+    Disconnect Old Peers On Friday October 11th, 2013
+
+commit 6df3cfe56946d1436dc84ba1678228254dd566be
+Merge: f6cbb66 ddf5dbd
+Author: muddafudda <troychef@hotmail.com>
+Date:   Mon Oct 7 08:29:43 2013 -0700
+
+    Merge pull request #26 from muddafudda/Colossus-dev
+    
+    Merge pull request #25 from muddafudda/master
+
+commit ddf5dbde0eaa739232624b70fd3b91c025aa3392
+Merge: dcc6768 f6cbb66
+Author: muddafudda <troychef@hotmail.com>
+Date:   Mon Oct 7 08:29:24 2013 -0700
+
+    Merge pull request #25 from muddafudda/master
+    
+    Merge
+
+commit f6cbb66802c30400027d5d78d73a22375f4b410c
+Author: muddafudda <troychef@hotmail.com>
+Date:   Mon Oct 7 23:25:18 2013 +0800
+
+    Update version.h
+
+commit 44dfd5cf7503e894718453caa6290850d8f5c267
+Author: muddafudda <troychef@hotmail.com>
+Date:   Mon Oct 7 23:19:08 2013 +0800
+
+    Revert "Revert "Commits N height""
+    
+    This reverts commit 8de05cb48d66f16b01e59baf84d93085c33d2989.
+
+commit 8de05cb48d66f16b01e59baf84d93085c33d2989
+Author: muddafudda <troychef@hotmail.com>
+Date:   Wed Oct 2 23:27:42 2013 +0800
+
+    Revert "Commits N height"
+    
+    This reverts commit 342f9c77d958b437ab3ec394a13c7e25c224c4f4.
+
+commit 25f92717145b91e7b6eaafa13e36edd9eeead562
+Merge: 41d2f54 dcc6768
+Author: muddafudda <troychef@hotmail.com>
+Date:   Wed Oct 2 08:19:37 2013 -0700
+
+    Merge pull request #24 from muddafudda/Colossus-dev
+    
+    Merge pull request #23 from muddafudda/master
+
+commit dcc676842faf3e8a1fc58ef796a5bd5e27c50d7a
+Merge: 96b6f11 41d2f54
+Author: muddafudda <troychef@hotmail.com>
+Date:   Wed Oct 2 08:11:34 2013 -0700
+
+    Merge pull request #23 from muddafudda/master
+    
+    Merge
+
+commit 41d2f5467c0cbef6f5345d0ab850ccc6785d7800
+Merge: 342f9c7 96b6f11
+Author: muddafudda <troychef@hotmail.com>
+Date:   Wed Oct 2 08:10:19 2013 -0700
+
+    Merge pull request #22 from muddafudda/Colossus-dev
+    
+    Update version.h
+
+commit 96b6f116e7258b08359a04131224737c28a0217a
+Author: muddafudda <troychef@hotmail.com>
+Date:   Wed Oct 2 22:47:52 2013 +0800
+
+    Update version.h
+
+commit 342f9c77d958b437ab3ec394a13c7e25c224c4f4
+Author: muddafudda <troychef@hotmail.com>
+Date:   Wed Oct 2 22:41:09 2013 +0800
+
+    Commits N height
+
+commit 0d482123c8530382dc0dc3b6f4b337a82e646ee2
+Merge: 827c586 8fbecad
+Author: muddafudda <troychef@hotmail.com>
+Date:   Mon Sep 30 08:20:12 2013 -0700
+
+    Merge pull request #21 from muddafudda/Colossus-dev
+    
+    Colossus dev
+
+commit 8fbecadda7b5a03516675af56c6982a5bda60158
+Author: muddafudda <troychef@hotmail.com>
+Date:   Mon Sep 30 23:19:48 2013 +0800
+
+    Update sendcoinsdialog.ui
+
+commit 7614b93712f0111d65d38569b1d9352cf7b21605
+Author: muddafudda <troychef@hotmail.com>
+Date:   Mon Sep 30 23:18:49 2013 +0800
+
+    Update overviewpage.ui
+
+commit 18bc972fd7a802f907cae843f77e63eb50c64aae
+Author: muddafudda <troychef@hotmail.com>
+Date:   Mon Sep 30 23:02:56 2013 +0800
+
+    Update README.md
+
+commit 18e3cef650d21c2a4fdcaa161acbb84bab79bcd9
+Merge: ed17bb1 827c586
+Author: muddafudda <troychef@hotmail.com>
+Date:   Mon Sep 30 08:01:46 2013 -0700
+
+    Merge pull request #20 from muddafudda/master
+    
+    Merge
+
+commit 827c58637156b9692178531368df2540d6c6fd0b
+Merge: e76d331 ed17bb1
+Author: muddafudda <troychef@hotmail.com>
+Date:   Mon Sep 30 08:01:00 2013 -0700
+
+    Merge pull request #19 from muddafudda/Colossus-dev
+    
+    Merge pull request #18 from muddafudda/master
+
+commit e76d3319e8767d77320433a435e78ff7887151e3
+Author: muddafudda <troychef@hotmail.com>
+Date:   Mon Sep 30 22:59:59 2013 +0800
+
+    Update kernel.cpp
+
+commit 436e2a01fa60ea466e38edbbba69c7613843d782
+Author: muddafudda <troychef@hotmail.com>
+Date:   Mon Sep 30 22:59:24 2013 +0800
+
+    Update checkpoints.cpp
+
+commit ed17bb13a7a7f4c8d3a4e3b9bee1eca3c86d0453
+Merge: d4eb784 4e5082d
+Author: muddafudda <troychef@hotmail.com>
+Date:   Mon Sep 30 06:49:40 2013 -0700
+
+    Merge pull request #18 from muddafudda/master
+    
+    Merge pull request #17 from muddafudda/Colossus-dev
+
+commit 4e5082d84125dab1ae642c731f62507a2e20c70d
+Merge: 17f158a d4eb784
+Author: muddafudda <troychef@hotmail.com>
+Date:   Mon Sep 30 06:49:09 2013 -0700
+
+    Merge pull request #17 from muddafudda/Colossus-dev
+    
+    Merge pull request #16 from muddafudda/master
+
+commit d4eb7842b0ee3f033d7087a12bcc316ec69513a3
+Merge: a2ab97e 17f158a
+Author: muddafudda <troychef@hotmail.com>
+Date:   Mon Sep 30 05:07:44 2013 -0700
+
+    Merge pull request #16 from muddafudda/master
+    
+    Merge
+
+commit 17f158a163b22b44c6d32b32ebb71389b44f38b5
+Author: muddafudda <troychef@hotmail.com>
+Date:   Mon Sep 30 20:06:56 2013 +0800
+
+    Update version.h
+
+commit 620d1db60856126018f7b0b80f7a5ce5a39a2fb3
+Author: muddafudda <troychef@hotmail.com>
+Date:   Mon Sep 30 19:48:33 2013 +0800
+
+    Update main.cpp
+
+commit 2ff1ed87caf10498c96523adda1b882a88c7ed69
+Merge: 6033b35 a2ab97e
+Author: muddafudda <troychef@hotmail.com>
+Date:   Mon Sep 30 04:45:25 2013 -0700
+
+    Merge pull request #15 from muddafudda/Colossus-dev
+    
+    Merge pull request #14 from muddafudda/master
+
+commit 6033b35eb63a68b8ab9a19f08a904290f5f4a54c
+Author: muddafudda <troychef@hotmail.com>
+Date:   Mon Sep 30 19:45:02 2013 +0800
+
+    Update checkpoints.cpp
+
+commit a2ab97eeda9b2425cde5ec382950b3aecb6f5f2f
+Merge: 35afb0c 79306f3
+Author: muddafudda <troychef@hotmail.com>
+Date:   Mon Sep 30 04:43:49 2013 -0700
+
+    Merge pull request #14 from muddafudda/master
+    
+    Merge
+
+commit 79306f3bba862d5e79a1ad257fb1807d2bdec708
+Author: muddafudda <troychef@hotmail.com>
+Date:   Sun Sep 29 00:39:48 2013 +0800
+
+    Update checkpoints.cpp
+
+commit db3f73907287ebca4e4615ed6dcf88fbaf782c97
+Merge: 5e71cf3 35afb0c
+Author: muddafudda <troychef@hotmail.com>
+Date:   Sat Sep 28 08:55:15 2013 -0700
+
+    Merge pull request #13 from muddafudda/Colossus-dev
+    
+    Update checkpoints.cpp
+
+commit 35afb0cd71deb617924badcbba80726e9f57ca02
+Author: muddafudda <troychef@hotmail.com>
+Date:   Sat Sep 28 23:49:22 2013 +0800
+
+    Update checkpoints.cpp
+
+commit 5e71cf33572f559ed2f6ffab33c1cdbfe795fcf9
+Merge: 2c4fb45 efaadc2
+Author: muddafudda <troychef@hotmail.com>
+Date:   Sat Sep 28 08:22:27 2013 -0700
+
+    Merge pull request #12 from muddafudda/Colossus-dev
+    
+    Colossus dev
+
+commit efaadc2e0525cfa20afb08a8f57ddd3b6469ae37
+Author: muddafudda <troychef@hotmail.com>
+Date:   Sat Sep 28 23:21:30 2013 +0800
+
+    Update net.cpp
+
+commit c167e05a35060c06c9510b5f20599c3660210e50
+Author: muddafudda <troychef@hotmail.com>
+Date:   Sat Sep 28 22:25:00 2013 +0800
+
+    Update checkpoints.cpp
+
+commit 7078c2db51f86e4b732f0e154ce1d2a2cf671507
+Author: muddafudda <troychef@hotmail.com>
+Date:   Sat Sep 28 22:07:32 2013 +0800
+
+    Update checkpoints.cpp
+
+commit 2c4fb452f33822207fb37f0f8b94226b15404d7d
+Merge: 7cfd87d 6a6c9b2
+Author: muddafudda <troychef@hotmail.com>
+Date:   Fri Sep 27 07:38:15 2013 -0700
+
+    Merge pull request #10 from muddafudda/Colossus-dev
+    
+    Colossus dev
+
+commit 7cfd87dc8abae50324cd4414ce8f833a3449e943
+Author: muddafudda <troychef@hotmail.com>
+Date:   Fri Sep 27 22:37:53 2013 +0800
+
+    Update main.h
+
+commit 6a6c9b22a59189c2ec5a664d96f76e01d497191d
+Author: muddafudda <troychef@hotmail.com>
+Date:   Fri Sep 27 22:27:34 2013 +0800
+
+    Update main.cpp
+
+commit 143c0036e50edac30ed5dfed140f800496919537
+Merge: 004fdfe c1aea76
+Author: muddafudda <troychef@hotmail.com>
+Date:   Fri Sep 27 07:24:23 2013 -0700
+
+    Merge pull request #9 from muddafudda/master
+    
+    Pull
+
+commit c1aea767651c7dcf506a80b14b683781df414eda
+Author: muddafudda <troychef@hotmail.com>
+Date:   Fri Sep 27 22:21:43 2013 +0800
+
+    Logo Update
+
+commit f88b5c254591b8478a0a6fec09c4157d4d9a3bcc
+Merge: 5cb10a4 004fdfe
+Author: muddafudda <troychef@hotmail.com>
+Date:   Fri Sep 27 01:46:55 2013 -0700
+
+    Merge pull request #8 from muddafudda/Colossus-dev
+    
+    Colossus dev
+
+commit 5cb10a4ae9da74395d583e4ea7d2a1f9d2167f57
+Author: muddafudda <troychef@hotmail.com>
+Date:   Fri Sep 27 16:42:39 2013 +0800
+
+    Update checkpoints.cpp
+
+commit de1cc34f8d820c78aa092eff8938716e5edb8556
+Author: muddafudda <troychef@hotmail.com>
+Date:   Fri Sep 27 16:42:34 2013 +0800
+
+    Update kernel.cpp
+
+commit 004fdfe5f76c21a3a26ee92dbdd470a456ae001a
+Author: muddafudda <troychef@hotmail.com>
+Date:   Thu Sep 26 01:43:38 2013 +0800
+
+    Update version.h
+
+commit eee35c4d58eb626da95918bd831bf729bebd4747
+Merge: fb5496c c124fe3
+Author: muddafudda <troychef@hotmail.com>
+Date:   Wed Sep 25 09:58:01 2013 -0700
+
+    Merge pull request #7 from muddafudda/master
+    
+    Merge
+
+commit c124fe3a3c394ddab15ca867a179a48773ea3792
+Author: muddafudda <troychef@hotmail.com>
+Date:   Thu Sep 26 00:56:43 2013 +0800
+
+    Update colossuscoin-qt.pro
+
+commit ef9dd1bdc19509d27452c653b4874bbaf8277118
+Author: muddafudda <troychef@hotmail.com>
+Date:   Thu Sep 26 00:56:12 2013 +0800
+
+    Update colossuscoin-qt.pro
+
+commit 6ec6c0a0ab3d76ee518058fa1c5aee869ca61adc
+Merge: d6197dd fb5496c
+Author: muddafudda <troychef@hotmail.com>
+Date:   Wed Sep 25 09:52:18 2013 -0700
+
+    Merge pull request #6 from muddafudda/Colossus-dev
+    
+    Colossus dev
+
+commit fb5496c8bfdc9599539dc923dcd63953596d40f0
+Author: muddafudda <troychef@hotmail.com>
+Date:   Thu Sep 26 00:51:53 2013 +0800
+
+    Update version.h
+
+commit 8ab96be9ba676575068ec7577d942e541d519072
+Author: muddafudda <troychef@hotmail.com>
+Date:   Thu Sep 26 00:28:44 2013 +0800
+
+    Update version.h
+
+commit d6197dd177a80d9a010a67b4800beaa1922fd30e
+Author: muddafudda <troychef@hotmail.com>
+Date:   Thu Sep 26 00:28:12 2013 +0800
+
+    Update version.h
+
+commit 5589a3041f36ad1096fbf53e409077e9c490f8bf
+Author: muddafudda <troychef@hotmail.com>
+Date:   Thu Sep 26 00:25:22 2013 +0800
+
+    Removed Remaining InfiniteV2 References
+
+commit d783bef20155439e5e90bfa7ffd2e79cbb6a240f
+Merge: b88c939 937ab03
+Author: muddafudda <troychef@hotmail.com>
+Date:   Wed Sep 25 09:18:56 2013 -0700
+
+    Merge pull request #3 from muddafudda/Colossus-dev
+    
+    Merge pull request #2 from muddafudda/master
+
+commit 937ab03bff06d7ec0ca023b787841f164fb8e49e
+Merge: 56d22e3 b88c939
+Author: muddafudda <troychef@hotmail.com>
+Date:   Wed Sep 25 08:28:23 2013 -0700
+
+    Merge pull request #2 from muddafudda/master
+    
+    Update Dev
+
+commit b88c939e563293275e7a9bd49f79cadf00e7de94
+Author: muddafudda <troychef@hotmail.com>
+Date:   Wed Sep 25 23:26:16 2013 +0800
+
+    Updated Checkpoint Warning
+
+commit c2e83ecf10e9fb2490eafc1d8ff8fafdb72da05f
+Author: muddafudda <troychef@hotmail.com>
+Date:   Sat Sep 21 08:04:06 2013 +0800
+
+    Update kernel.cpp
+
+commit 427e15025e1de520c93b409ac842e236723bb793
+Author: muddafudda <troychef@hotmail.com>
+Date:   Sat Sep 21 08:04:01 2013 +0800
+
+    Update checkpoints.cpp
+
+commit 854c9cfd6177af54aa160c3b870f6cca430a6d02
+Author: cryptos <ognewsnet@gmail.com>
+Date:   Thu Sep 5 01:21:29 2013 +0800
+
+    Commit
+
+commit 75c129df1aad348295ca8b1fa67b7c9d60e81fe7
+Merge: b827f33 56d22e3
+Author: muddafudda <muddagit@gmail.com>
+Date:   Wed Sep 4 09:20:08 2013 -0700
+
+    Merge pull request #1 from muddafudda/Colossus-dev
+    
+    Colossus dev
+
+commit 56d22e3f6433e2229c566419f6426bda363305b1
+Author: muddafudda <muddagit@gmail.com>
+Date:   Thu Sep 5 00:17:14 2013 +0800
+
+    Update checkpoints.cpp
+
+commit 1c82ee34dc015fa6d72505bdfba498dbbef33b5b
+Author: muddafudda <muddagit@gmail.com>
+Date:   Thu Sep 5 00:13:00 2013 +0800
+
+    Update kernel.cpp
+
+commit b827f3319ecf2f7f00b83a905e27b4e98b3ba17e
+Author: muddafudda <ognewsnet@gmail.com>
+Date:   Mon Sep 2 00:14:38 2013 +0800
+
+    Commit
+
+commit 563bbbdbd2863e3932d423be39e6a597febd3195
+Author: muddafudda <ognewsnet@gmail.com>
+Date:   Mon Sep 2 00:10:58 2013 +0800
+
+    Deleteold-qt
+
+commit 2c1d7d7a62e869554a80dbb91eb1554768e1939b
+Author: muddafudda <ognewsnet@gmail.com>
+Date:   Mon Sep 2 00:06:47 2013 +0800
+
+    Commit
+
+commit edeceb8b3ae63e6ed2d91902fd2d5da278c39083
+Author: muddafudda <ognewsnet@gmail.com>
+Date:   Mon Sep 2 00:06:34 2013 +0800
+
+    Commit
+
+commit 9446ffd398215ed99a2bcc8d292c7af2cdd5d1d3
+Author: muddafudda <ognewsnet@gmail.com>
+Date:   Mon Sep 2 00:06:26 2013 +0800
+
+    Commit
+
+commit 605ee31a64bb836ff37ee1f8c4891396fe25cc7d
+Author: muddafudda <ognewsnet@gmail.com>
+Date:   Mon Sep 2 00:06:11 2013 +0800
+
+    Commit
+
+commit 46406d339685e47dbc227642c10644de54f9c155
+Author: muddafudda <ognewsnet@gmail.com>
+Date:   Mon Sep 2 00:05:28 2013 +0800
+
+    Commit
+
+commit f74d7f2802170c183e458f17569e4258f31008b8
+Author: muddafudda <ognewsnet@gmail.com>
+Date:   Mon Sep 2 00:05:24 2013 +0800
+
+    Commit
+
+commit 0ef1f953470b2c70c5a716a26f915bfeec465792
+Author: muddafudda <ognewsnet@gmail.com>
+Date:   Mon Sep 2 00:05:19 2013 +0800
+
+    Commit
+
+commit bd5238e5051307fb161ef077d5c46eb8830f13b4
+Author: muddafudda <ognewsnet@gmail.com>
+Date:   Mon Sep 2 00:05:00 2013 +0800
+
+    Commit
+
+commit 69c6c39146cfc2862f2d82adb25f94c7186bc34e
+Author: muddafudda <ognewsnet@gmail.com>
+Date:   Mon Sep 2 00:04:48 2013 +0800
+
+    Commit
+
+commit b04646db81484d21961309dbe8ac8f3d28a5b3c0
+Author: muddafudda <ognewsnet@gmail.com>
+Date:   Mon Sep 2 00:04:42 2013 +0800
+
+    Commit
+
+commit f8f8ba76e2a01b6216c706129263b727b44a1d9c
+Author: muddafudda <ognewsnet@gmail.com>
+Date:   Mon Sep 2 00:04:30 2013 +0800
+
+    Commit
+
+commit 91587536b7c677b431b1bc225b2e382880970a7b
+Author: muddafudda <ognewsnet@gmail.com>
+Date:   Mon Sep 2 00:04:12 2013 +0800
+
+    Commit
+
+commit fdc1fb7e8a6391c59decf24d68a2ad114ec05af6
+Author: muddafudda <ognewsnet@gmail.com>
+Date:   Mon Sep 2 00:04:07 2013 +0800
+
+    Commit
+
+commit 75f22dd1acd364f471a53a85cbfc9ceaf56f1bad
+Author: muddafudda <ognewsnet@gmail.com>
+Date:   Mon Sep 2 00:03:57 2013 +0800
+
+    Commit
+
+commit 1beba3bc2db0412933376a7f016dc919b607ac90
+Author: muddafudda <ognewsnet@gmail.com>
+Date:   Mon Sep 2 00:03:41 2013 +0800
+
+    Commit
+
+commit ef75a638a3a26da4c15799113561e01a95d29a3b
+Author: muddafudda <ognewsnet@gmail.com>
+Date:   Mon Sep 2 00:03:16 2013 +0800
+
+    Commit
+
+commit a2c3e9321450883200d431f13a45d27c78019553
+Author: muddafudda <ognewsnet@gmail.com>
+Date:   Mon Sep 2 00:02:59 2013 +0800
+
+    Commit
+
+commit 7317d690a5cf250461e3aeaa15d4f3a1dea603a0
+Author: muddafudda <ognewsnet@gmail.com>
+Date:   Mon Sep 2 00:02:05 2013 +0800
+
+    Commit
+
+commit cde377fce1f607e96414074469b11b6d665bb4af
+Author: muddafudda <muddagit@gmail.com>
+Date:   Sat Aug 31 23:01:32 2013 +0800
+
+    Update main.cpp
+
+commit 10c339822c58bafe2258fc0b397ad43eec58a0dd
+Author: muddafudda <muddagit@gmail.com>
+Date:   Sat Aug 31 22:15:05 2013 +0800
+
+    Update main.h
+
+commit 59e7e9a4fda9743ae6a5fae06831010865c1450b
+Author: muddafudda <muddagit@gmail.com>
+Date:   Sat Aug 31 22:13:32 2013 +0800
+
+    Update main.cpp
+
+commit 4cd5fc0c67db90f8e33be0bd8f3b9f0f4a87a897
+Author: muddafudda <muddagit@gmail.com>
+Date:   Sat Aug 31 21:24:13 2013 +0800
+
+    Update main.cpp
+
+commit 5213b1bd870605506d9d7783cce45f6d1c1e9e04
+Author: muddafudda <muddagit@gmail.com>
+Date:   Sat Aug 31 21:20:13 2013 +0800
+
+    Timestamp Fix
+
+commit 1903737b98840b26359b19d3989c4e139232a2ca
+Author: muddafudda <muddagit@gmail.com>
+Date:   Sat Aug 31 21:18:10 2013 +0800
+
+    Wallet output fix small tx values
+
+commit 302ca196e2219d4001c561013545e78d51e33cfc
+Author: muddafudda <muddagit@gmail.com>
+Date:   Sat Aug 31 21:16:04 2013 +0800
+
+    Small Tx values stake reward fix
+
+commit 473337fc66ae08fb2befa831c2f9b79e78801323
+Author: muddafudda <muddagit@gmail.com>
+Date:   Sat Aug 31 20:57:42 2013 +0800
+
+    Update main.cpp
+
+commit ce3f38c81a015933846e66c02454da2207d53487
+Author: muddafudda <muddagit@gmail.com>
+Date:   Sat Aug 31 20:54:03 2013 +0800
+
+    Update main.h
+
+commit e539e489e77bc077a75fd9f349edc35f4b5f1fa2
+Author: muddafudda <muddagit@gmail.com>
+Date:   Sat Aug 31 20:48:40 2013 +0800
+
+    Fix self-forking issues, caused by minimum proof-of-stake calculation
+    
+    Fix self-forking issues, caused by minimum proof-of-stake calculation
+
+commit 66ec901bb857b5179172eadde0a3dae46f14e5ec
+Author: muddafudda <ognewsnet@gmail.com>
+Date:   Sat Aug 31 03:03:06 2013 +0800
+
+    Commit
+
+commit 5096110c062dc828cefaddb04701630831d884a3
+Author: muddafudda <muddagit@gmail.com>
+Date:   Sat Aug 31 02:30:47 2013 +0800
+
+    Update version.h
+
+commit 8130bb1c4e1f68864a8b48a4320d2b26164b5a08
+Author: muddafudda <muddagit@gmail.com>
+Date:   Sat Aug 31 02:16:50 2013 +0800
+
+    Update main.cpp
+
+commit 23c5d05565a6539859f39a13cd654573b45857ef
+Author: muddafudda <muddagit@gmail.com>
+Date:   Sat Aug 31 00:46:02 2013 +0800
+
+    Update wallet.cpp
+
+commit 2d24c06eac593cd162cfad5f56e3ab68ded8777a
+Author: muddafudda <muddagit@gmail.com>
+Date:   Fri Aug 23 02:08:52 2013 +0800
+
+    Update infinitecoinv2-qt.pro
+
+commit 248850cc59380c661b5b7097c024ab9f42b062de
+Author: muddafudda <muddagit@gmail.com>
+Date:   Fri Aug 23 01:58:20 2013 +0800
+
+    Update README.md
+
+commit 9176631a58fea8396406bd124e31e22c83c68e42
+Author: muddafudda <muddagit@gmail.com>
+Date:   Fri Aug 23 01:57:50 2013 +0800
+
+    Update README.md
+
+commit 7975f59721a5f80993f42c9448aed13bdb21f7f9
+Author: muddafudda <ognewsnet@gmail.com>
+Date:   Fri Aug 23 01:53:27 2013 +0800
+
+    commit

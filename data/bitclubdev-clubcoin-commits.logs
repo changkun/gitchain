@@ -1,0 +1,1486 @@
+commit 354fbbea61c4d7c1beeda00e50f06ba9ffa9a270
+Author: Joshua J. Bouw <joshua.j.bouw@googlemail.com>
+Date:   Tue Feb 21 10:32:06 2017 +0700
+
+    Update copyrights
+
+commit 239aeed172e4f60e0cabd1026881cfae4a049acb
+Author: sinetek <pitwuu@gmail.com>
+Date:   Tue Jan 3 20:34:43 2017 +0700
+
+    Constify trivial argument.
+
+commit ff07eddd07aa7f8aac5129d0d302bddc112c6e9c
+Author: sinetek <pitwuu@gmail.com>
+Date:   Sat Nov 19 10:05:25 2016 +0700
+
+    Disable OpenSSL config file loading.
+
+commit 6c7f8824f8137c17780a72c293257fdda2705a34
+Author: sinetek <sinetek@sineteks-MacBook-Air.local>
+Date:   Sat Nov 19 10:04:12 2016 +0700
+
+    sync headers, trivial
+
+commit 4ca1320dc6614922e5dee1fb9fe6d2546f66e5ef
+Author: sinetek <sinetek@sineteks-MacBook-Air.local>
+Date:   Mon Nov 14 22:36:01 2016 -0500
+
+    Trivial sync's
+
+commit 050177c978801261757682546c9512cb1be46631
+Author: sinetek <sinetek@sineteks-MacBook-Air.local>
+Date:   Mon Nov 14 22:30:25 2016 -0500
+
+    UtilityDialog fixups.
+
+commit 8f7dcb38beca01feac4f7fc5bf36f3e134026425
+Author: sinetek <sinetek@sineteks-MacBook-Air.local>
+Date:   Mon Nov 14 22:20:20 2016 -0500
+
+    UtilityDialog: Add shutdown window.
+
+commit c926625178b0ab7daf81a47463d9a0fc1ac53fcb
+Author: sinetek <sinetek@sineteks-MacBook-Air.local>
+Date:   Mon Nov 14 21:39:30 2016 -0500
+
+    RPCExecutor: remove stop().
+
+commit 3bfbee1c20d1ec5112f9fd7e6985c339b265a6bd
+Author: sinetek <sinetek@sineteks-MacBook-Air.local>
+Date:   Mon Nov 14 21:32:46 2016 -0500
+
+    TransactionFilterProxy: sync.
+
+commit 56ee581e65bf625e225c14490514369624f0dcc3
+Author: sinetek <sinetek@sineteks-MacBook-Air.local>
+Date:   Mon Nov 14 21:06:45 2016 -0500
+
+    Qt/TrafficWidget sync.
+
+commit 2f95c142b96eaf086468e1d14f53287a11415755
+Author: sinetek <sinetek@sineteks-MacBook-Air.local>
+Date:   Mon Nov 14 20:53:03 2016 -0500
+
+    Makefile: remove monitoreddatamapper.
+
+commit b443d205f5f018b364ee2d7dceeab5a7ae8975a0
+Author: sinetek <sinetek@sineteks-MacBook-Air.local>
+Date:   Mon Nov 14 20:49:58 2016 -0500
+
+    Macdock, Macnotif: sync.
+
+commit 34b20f1e1b21208362dc7a18f01ab446910e4446
+Author: sinetek <sinetek@sineteks-MacBook-Air.local>
+Date:   Mon Nov 14 20:49:18 2016 -0500
+
+    Notificator: sync.
+
+commit 60d8b6baff1cfc7f7efc6d6cf37c49cf0163bd18
+Author: sinetek <sinetek@sineteks-MacBook-Air.local>
+Date:   Mon Nov 14 20:47:54 2016 -0500
+
+    GUI Constants: sync
+
+commit d1750fadadc5acc515c44311453ebf93cc2b7b91
+Author: sinetek <sinetek@sineteks-MacBook-Air.local>
+Date:   Mon Nov 14 20:45:19 2016 -0500
+
+    MonitoredDataMapper: remove.
+
+commit 13ecba68cae63bded5863cfc1840497ab9dfffcf
+Author: sinetek <sinetek@sineteks-MacBook-Air.local>
+Date:   Mon Nov 14 16:03:58 2016 -0500
+
+    Random: Small refactor to use FastRandomContext.
+
+commit 5373d3a6868888b57cd6c4b7d5cf29efbb2abb26
+Author: sinetek <sinetek@sineteks-MacBook-Air.local>
+Date:   Sun Nov 13 16:41:59 2016 -0500
+
+    No need for translation file, it seems??
+
+commit 60bf3bc9fd07c223513461f2d20fb2923c37a8fd
+Author: sinetek <sinetek@sineteks-MacBook-Air.local>
+Date:   Sun Nov 13 16:41:30 2016 -0500
+
+    emit -> Q_EMIT
+
+commit 2e7ef813d77cd3c75ce56670945992d6883f5fc2
+Author: sinetek <sinetek@sineteks-MacBook-Air.local>
+Date:   Sun Nov 13 16:40:48 2016 -0500
+
+    script is part of consensus lib
+
+commit 238ed33e838e03c226a0c0998b919ddf043e0e2d
+Author: sinetek <pitwuu@gmail.com>
+Date:   Fri Nov 11 11:32:29 2016 -0500
+
+    Bump copyright headers to 2015
+
+commit 97e7dd33c265acd9e81043774e017f1cefd9232b
+Author: sinetek <pitwuu@gmail.com>
+Date:   Mon Nov 7 10:45:54 2016 -0500
+
+    Release notes for 1.2.0
+
+commit 7cc16f399ad5ed4c9b895ef048d8b481f0f068ba
+Merge: 19583c6 e87af42
+Author: sinetek <pitwuu@gmail.com>
+Date:   Fri Nov 4 12:28:15 2016 -0400
+
+    Merge branch 'master' of https://github.com/BitClubDev/ClubCoin
+
+commit 19583c66ad70edb6ec25b45628a99593832ea629
+Author: Gregory Maxwell <greg@xiph.org>
+Date:   Fri Dec 6 15:56:38 2013 -0800
+
+    Restore hex to getrawtransaction vout scriptPubkey.
+    
+    Commit be066fad accidentally removed the hex field.
+    This gets in the way of doing offline signing.
+    
+    (credit belongs to sipa for actually looking for the
+     cause instead of being lazy like me and just shrugging
+     and writing the scriptpubkey from the asm.)
+
+commit 2c36eda454c9f20449e88c5844903b60e525aaef
+Author: sinetek <pitwuu@gmail.com>
+Date:   Fri Nov 4 12:26:31 2016 -0400
+
+    Next release will be 1.3.0.
+
+commit e87af42238e065557ac548eda9f48ece941dce6e
+Author: Gregory Maxwell <greg@xiph.org>
+Date:   Fri Dec 6 15:56:38 2013 -0800
+
+    Restore hex to getrawtransaction vout scriptPubkey.
+    
+    Commit be066fad accidentally removed the hex field.
+    This gets in the way of doing offline signing.
+    
+    (credit belongs to sipa for actually looking for the
+     cause instead of being lazy like me and just shrugging
+     and writing the scriptpubkey from the asm.)
+
+commit fdf94fa8a0e51f13bb6f10997e5531e00da1b41c
+Author: sinetek <pitwuu@gmail.com>
+Date:   Fri Nov 4 07:02:58 2016 -0400
+
+    Mark as 1.2.0 RC1 release.
+
+commit 25719c788ef05a5685cacf7a22bb2fe999f7300d
+Author: sinetek <pitwuu@gmail.com>
+Date:   Fri Nov 4 06:51:26 2016 -0400
+
+    Make deploy: we don't ship clubcoin-cli.
+
+commit 626f2278bc3bd1e53ce7b70b2dab704a6170a6df
+Author: sinetek <pitwuu@gmail.com>
+Date:   Tue Nov 1 19:05:31 2016 -0400
+
+    Add missing begin_ptr(), end_ptr().
+
+commit 1bf87fd2029634beb86fd281187ec019deb66479
+Author: sinetek <pitwuu@gmail.com>
+Date:   Tue Nov 1 19:05:14 2016 -0400
+
+    Add resources for Windows builds.
+
+commit 1c2f31cd010afdaef309896dd2a99430596df91d
+Author: sinetek <pitwuu@gmail.com>
+Date:   Tue Nov 1 01:01:18 2016 -0400
+
+    Add back qt/res/* to EXTRA_DIST.
+
+commit a68455f3b8616c5e697ef1acf5e6c0776b8f635a
+Author: sinetek <pitwuu@gmail.com>
+Date:   Mon Oct 31 23:47:36 2016 -0400
+
+    Fix version, disable {utils,libs} by default.
+
+commit 67b7b395eac3d51db6f91e5cf00ea026d33d3e99
+Author: sinetek <pitwuu@gmail.com>
+Date:   Mon Oct 31 22:27:58 2016 -0400
+
+    config.ac: by default we don't want libs nor utils.
+
+commit 23f78773ab64273c888c932b26f24a16e877b978
+Author: sinetek <pitwuu@gmail.com>
+Date:   Mon Oct 31 22:26:42 2016 -0400
+
+    Makefile: make 'dist' happy. Empty stub files.
+
+commit a08ba8073272bacb774a8d2949ee3808990e1b17
+Author: sinetek <pitwuu@gmail.com>
+Date:   Sun Oct 30 18:52:31 2016 -0400
+
+    Makefiles: dist target needs a few files. make it happy.
+
+commit 3fcb3207222ace85f4ce8480e73f528cb0d9d348
+Author: sinetek <pitwuu@gmail.com>
+Date:   Sun Oct 30 18:48:32 2016 -0400
+
+    Fix Qt building.
+
+commit b8b158de03a73d69b3c2fdbfd062eb257a58e307
+Author: sinetek <pitwuu@gmail.com>
+Date:   Sun Oct 30 18:23:56 2016 -0400
+
+    Qt: Rework signals & slots, makefile.
+
+commit c21bd951cf4f5445f18cf356076ebb2968b2b94d
+Author: sinetek <pitwuu@gmail.com>
+Date:   Sun Oct 30 18:23:29 2016 -0400
+
+    Qt: Add windows shutdown monitor.
+
+commit c3626470c1e7e784047f0936fd63c9c552a9fa4f
+Author: sinetek <pitwuu@gmail.com>
+Date:   Sun Oct 30 15:48:42 2016 -0400
+
+    Header
+
+commit f5d40dcf2c6dd565512aba2cea9e31a3993c3a62
+Author: sinetek <pitwuu@gmail.com>
+Date:   Wed Oct 19 09:00:08 2016 -0400
+
+    Bring autoconf et al. closer to upstream versions.
+
+commit 3a27c2c50782baaae6e6a018d906459938686880
+Author: sinetek <pitwuu@gmail.com>
+Date:   Wed Oct 19 08:59:53 2016 -0400
+
+    Add secp256k1 from upstream.
+
+commit 3ea4f97c0096ffc0f9f637e955ecb0e28afc7ace
+Author: sinetek <pitwuu@gmail.com>
+Date:   Wed Oct 19 07:26:38 2016 -0400
+
+    Add a few missing files from upstream.
+
+commit cc604d6f116b99a47ae16fa912b6b4e7db84914a
+Author: sinetek <pitwuu@gmail.com>
+Date:   Wed Oct 19 07:14:35 2016 -0400
+
+    Add a few missing files from upstream.
+
+commit 43940a74e8e36e32e1504069c211288ecb8cdcfd
+Author: sinetek <pitwuu@gmail.com>
+Date:   Wed Oct 19 06:18:19 2016 -0400
+
+    Makefile.am: Sync with upstream.
+
+commit 7eeed17b91e394b1cb1b005c3bc726b7d56eb3a2
+Author: sinetek <pitwuu@gmail.com>
+Date:   Wed Oct 19 06:18:02 2016 -0400
+
+    m4: Update bdb, qt, subdir scripts.
+
+commit 0ec133b669346d68bbd17b6d34226c91c3fc1b6e
+Author: sinetek <pitwuu@gmail.com>
+Date:   Wed Oct 19 05:47:46 2016 -0400
+
+    m4: Add atomic script.
+
+commit 122a6de259a029083b8a992b556428cdff7cc089
+Author: sinetek <pitwuu@gmail.com>
+Date:   Wed Oct 19 05:41:14 2016 -0400
+
+    m4: Update pthread script.
+
+commit cc265faccee251694cf70633a38bfb600666563f
+Author: sinetek <pitwuu@gmail.com>
+Date:   Wed Oct 19 05:40:05 2016 -0400
+
+    m4: Update lang scripts.
+
+commit 372984618ae357b69c23eb0712eec35916c58878
+Author: sinetek <pitwuu@gmail.com>
+Date:   Wed Oct 19 05:37:33 2016 -0400
+
+    m4: Update qt script.
+
+commit 2663494531e930b9997a7e83fc9adc2da3a5bd47
+Author: sinetek <pitwuu@gmail.com>
+Date:   Wed Oct 19 05:36:37 2016 -0400
+
+    m4: Update boost scripts.
+
+commit 00c0e271bde6404128bda9502bf7444ca366b553
+Author: Luke Dashjr <luke-jr+git@utopios.org>
+Date:   Wed Sep 21 22:54:41 2016 +0000
+
+    Add MIT license to build-aux/m4 scripts
+
+commit cfa3a1387d29a67b9ed17be951a6b7e4efdf1f0f
+Author: sinetek <pitwuu@gmail.com>
+Date:   Wed Oct 19 05:16:58 2016 -0400
+
+    Macdeploy: sync.
+
+commit 7521de37a55140c1e3b07859036b629ce61e48fd
+Author: sinetek <pitwuu@gmail.com>
+Date:   Tue Oct 18 08:18:05 2016 -0400
+
+    Mac deployment: rework background image.
+
+commit eb48a488bf2b617a8aca5dd4d0a13ffe1e6c2b28
+Author: sinetek <pitwuu@gmail.com>
+Date:   Tue Oct 18 08:13:12 2016 -0400
+
+    Sync Makefile and add doc/man.
+
+commit 21d5fd8cbef88b8164d133f5a85da4c5a94361cb
+Author: Cory Fields <cory-nospam-@coryfields.com>
+Date:   Wed Jun 1 18:05:09 2016 -0400
+
+    build: out-of-tree fixups
+    
+    Don't glob the leveldb for dist. That means we need to enumerate the headers.
+
+commit ff8538d40ea7300856fa2baaf9d181b3f3142af5
+Author: sinetek <pitwuu@gmail.com>
+Date:   Mon Oct 3 22:23:51 2016 -0400
+
+    CTAES: add to dist target.
+
+commit e3c4421c7b7822e4a6ab3f702ce6953e910cd59c
+Author: sinetek <pitwuu@gmail.com>
+Date:   Mon Oct 3 21:50:42 2016 -0400
+
+    Univalue: sync.
+
+commit 3029da4217fd341bc6c4cd65bb09def5d7aa342e
+Author: sinetek <pitwuu@gmail.com>
+Date:   Wed Aug 24 06:35:46 2016 -0400
+
+    Remove the old qt makefiles.
+
+commit 7d5f023199d673bced6c62a4d4396e11195cc2b0
+Author: sinetek <pitwuu@gmail.com>
+Date:   Wed Aug 24 06:32:19 2016 -0400
+
+    Separate protocol versioning from clientversion
+
+commit 24f92df78c7c6780f40b9d49a3e6f93929b2d108
+Author: sinetek <pitwuu@gmail.com>
+Date:   Mon Aug 22 15:45:43 2016 -0400
+
+    Remove p2p alert handling.
+
+commit 516b9e81cfde22cdba3ef031d19ebd4974578ad9
+Author: sinetek <pitwuu@gmail.com>
+Date:   Mon Aug 22 13:48:43 2016 -0400
+
+    CMedianFilter: Move to timedata.
+
+commit ac59302b54f1d2121b3cfa01280185375d214b12
+Author: sinetek <pitwuu@gmail.com>
+Date:   Mon Aug 22 13:48:11 2016 -0400
+
+    Threadsafety.h: sync
+
+commit c8a0ff983f2dde57bef6c459684e4c941384b15f
+Author: sinetek <pitwuu@gmail.com>
+Date:   Mon Aug 22 13:47:13 2016 -0400
+
+    Tinyformat: version bump.
+
+commit 0d41dcb8f6581921e8eba3c3dbcc216d0706b7c7
+Author: sinetek <pitwuu@gmail.com>
+Date:   Mon Aug 22 09:22:01 2016 -0400
+
+    Univalue: add from BTC HEAD.
+
+commit 556b3d51834775b84bf310c73e5e470f107820b4
+Author: sinetek <pitwuu@gmail.com>
+Date:   Mon Aug 22 08:31:40 2016 -0400
+
+    Crypto: sync files, build in crypto.
+
+commit bc52ebc75233348621dd49ac56bac423886bb994
+Author: sinetek <pitwuu@gmail.com>
+Date:   Fri Aug 19 16:15:12 2016 -0400
+
+    Univalue: import from BTC/HEAD
+
+commit 85ba23b610be661425dad20083e3388d0c3b9fc2
+Author: sinetek <pitwuu@gmail.com>
+Date:   Fri Aug 19 16:12:38 2016 -0400
+
+    various makefiles fixes
+
+commit e7a6843f0f3893239d8e59e10912f3e8bfcbc8d0
+Author: sinetek <pitwuu@gmail.com>
+Date:   Fri Aug 19 15:41:02 2016 -0400
+
+    small init() sync
+
+commit afe7c9ab6c275e45e8a869bcb44f4885dba59db0
+Author: sinetek <pitwuu@gmail.com>
+Date:   Fri Aug 19 15:26:16 2016 -0400
+
+    Windows: SetupNetworking();
+
+commit 677c2df9a93eae4bff904570ba83dd1070d6681c
+Merge: addf8d6 98ba711
+Author: sinetek <pitwuu@gmail.com>
+Date:   Fri Aug 19 13:51:10 2016 -0400
+
+    Merge branch 'master' of https://github.com/BitClubDev/ClubCoin
+
+commit addf8d6355d5e18b044a047fb0c68e79dc389088
+Author: sinetek <pitwuu@gmail.com>
+Date:   Fri Aug 19 13:44:08 2016 -0400
+
+    test: Remove java comparison tool
+
+commit 98ba7115e523f3e44ecffd5facef18c17cb5927b
+Author: sinetek <pitwuu@gmail.com>
+Date:   Thu Aug 18 23:23:39 2016 -0400
+
+    fix check-secure: readelf detection + python script.
+
+commit 1dc059be11f25c3f8878d4030d1b09bb328a92a8
+Author: sinetek <pitwuu@gmail.com>
+Date:   Thu Aug 18 22:07:54 2016 -0400
+
+    Make: enable hardening
+
+commit f6a69e464fcd3b738665e7d222c3e67e600a6894
+Author: sinetek <pitwuu@gmail.com>
+Date:   Tue Aug 16 20:25:31 2016 -0400
+
+    bump year
+
+commit 3f1caf077c231624d60caf066aaa29e440445ccf
+Author: sinetek <pitwuu@gmail.com>
+Date:   Mon Aug 15 19:00:52 2016 -0400
+
+    src/Makefile: cleanup
+
+commit 3cabeb80c585d40b044e39fe43362a1efe7df034
+Author: sinetek <pitwuu@gmail.com>
+Date:   Mon Aug 15 18:48:51 2016 -0400
+
+    build-ubuntu: not useful anymore
+
+commit 634f232eebcd8f38ad554e83f6d0e28e5a1afee2
+Author: sinetek <pitwuu@gmail.com>
+Date:   Thu Aug 11 22:58:05 2016 -0400
+
+    Sync: include headers sync
+
+commit 6cacef1d9790556174ff4646d0f71a1edd8f9f99
+Author: sinetek <pitwuu@gmail.com>
+Date:   Thu Aug 11 00:04:42 2016 -0400
+
+    Add: compat/sanity, init calls glib sanity check
+
+commit 6486f34e051377fedd2d11ebf7aac65678ed4d7a
+Author: sinetek <pitwuu@gmail.com>
+Date:   Wed Aug 10 23:37:15 2016 -0400
+
+    allocators rework to use support/*
+
+commit b11a8f7c95e1432bfddfc1a2e1414292b7625820
+Author: sinetek <pitwuu@gmail.com>
+Date:   Wed Aug 10 23:19:39 2016 -0400
+
+    Add: allocators/{secure.h,zeroafterfree.h}
+
+commit 36ab7c483a00ab6f3b36909dd47b7eb547e5a00e
+Author: sinetek <pitwuu@gmail.com>
+Date:   Wed Aug 10 23:09:35 2016 -0400
+
+    Add: support/pagelocker
+
+commit bab0de026ab5978bbcfa1a9ba791cf2fe90ac14d
+Author: sinetek <pitwuu@gmail.com>
+Date:   Wed Aug 10 23:06:18 2016 -0400
+
+    Sync: base58
+
+commit 2b6076e0d3310399908ccaae17aa3687687a1551
+Author: Wladimir J. van der Laan <laanwj@gmail.com>
+Date:   Mon May 5 13:22:28 2014 +0200
+
+    rpc: add `getblockchaininfo` and `getnetworkinfo`
+    
+    Adds two new info query commands that take over information from
+    hodge-podge `getinfo`.
+    
+    Also some new information is added:
+    - `getblockchaininfo`
+      - `chain`: (string) current chain (main, testnet3, regtest)
+      - `verificationprogress: (numeric) estimated verification progress
+      - `chainwork`
+    - `getnetworkinfo`
+      - `localaddresses`: (array) local addresses, from mapLocalHost (fixes #1734)
+
+commit fbc4f74909c4d3aac11607ba705640f4a9d73996
+Author: sinetek <pitwuu@gmail.com>
+Date:   Wed Aug 10 16:48:57 2016 -0400
+
+    Add main-specific node state
+
+commit ef54764c48d08efdd6a343ad272f9d332ce156a5
+Author: fanquake <fanquake@gmail.com>
+Date:   Tue May 10 12:50:56 2016 +0800
+
+    [depends] miniupnpc 2.0
+
+commit 88051966cf0727552ee0ead48e68571db52d138c
+Author: sinetek <pitwuu@gmail.com>
+Date:   Wed Aug 10 15:27:20 2016 -0400
+
+    Random: section off to random.cpp, bring in support code for random.
+    Util: move some string utilities to utilstrencodings.cpp.
+
+commit f2cc100a512300dd819b7124aa03dacee6721994
+Author: sinetek <pitwuu@gmail.com>
+Date:   Tue Aug 9 17:59:10 2016 -0400
+
+    {key, net}: stylistic sync in #include, headers.
+
+commit 44249efc4e451bec9416cef23117a5e464d0faeb
+Author: sinetek <pitwuu@gmail.com>
+Date:   Mon Aug 8 23:03:48 2016 -0400
+
+    no need to track these files in build-aux/m4
+
+commit 43455ebda6bb25d360263f8cdd153dd7c023a84c
+Author: sinetek <pitwuu@gmail.com>
+Date:   Fri Aug 5 17:16:45 2016 -0400
+
+    [PATCH] net: Ignore  P2P messages
+
+commit fa754de24a8d3e5b7dda8fd1fd6621c2e2d58d7d
+Author: sinetek <pitwuu@gmail.com>
+Date:   Fri Aug 5 17:00:01 2016 -0400
+
+    Add qrencode detection.
+
+commit 3630e6e0009626912fb5fd23c1fbfaab496d926d
+Author: fanquake <fanquake@gmail.com>
+Date:   Fri Mar 18 09:03:58 2016 +0800
+
+    [Depends] Miniupnpc 1.9.20160209
+    
+    2016/01/24:
+      Change miniwget to return HTTP status code
+      Increments API_VERSION to 16
+    
+    2016/01/22:
+      Improve UPNPIGD_IsConnected() to check if WAN address is not private.
+      Parse HTTP response status line in miniwget.c
+
+commit 8a3dfeda75be6a16980084e0c9810e19351edd1c
+Author: fanquake <fanquake@gmail.com>
+Date:   Fri Mar 18 09:06:08 2016 +0800
+
+    [Depends] Latest config.guess & config.sub
+
+commit bfa35ad60f092c0a6ec03172238391ff30fe4eeb
+Author: Cory Fields <cory-nospam-@coryfields.com>
+Date:   Mon Apr 4 15:48:18 2016 -0400
+
+    depends: create a hostid and buildid and add option for salts
+    
+    These add very simple sanity checks to ensure that the build/host toolchains
+    have not changed since the last run. If they have, all ids will change and
+    packages will be rebuilt.
+    
+    For more complicated usage (like parsing dpkg), HOST_ID_SALT/BUILD_ID_SALT may
+    be used to introduce arbitrary data to the ids.
+
+commit 291265f23b99adc02c7f5c07ad972d0c90dbe235
+Author: Cory Fields <cory-nospam-@coryfields.com>
+Date:   Mon Apr 4 18:20:20 2016 -0400
+
+    depends: qt/cctools: fix checksum checksum tests
+    
+    Checksums were being verified after download, but not again before extraction
+
+commit bdf095afeeceaa46751e7c66411de26acb6899af
+Author: Cory Fields <cory-nospam-@coryfields.com>
+Date:   Mon Apr 4 15:44:02 2016 -0400
+
+    depends: fix "unexpected operator" error during "make download"
+
+commit 23456cf50f820e576a85c23b0e52ad06f579b0ed
+Author: Cory Fields <cory-nospam-@coryfields.com>
+Date:   Thu Mar 3 01:01:30 2016 -0500
+
+    depends: fix fallback downloads
+    
+    In some cases, failed downloads wouldn't trigger a fallback download attempt.
+    Namely, checksum mismatches.
+
+commit cdc571dda59c21e90b881d92d0c1a968ccf81623
+Author: Wladimir J. van der Laan <laanwj@gmail.com>
+Date:   Sat Apr 2 16:45:26 2016 +0200
+
+    depends: mac deploy Py3 compatibility
+    
+    This fixes the gitian MacOSX build, it was broken in #7723.
+    
+    The patch to `native_mac_alias` should probably make it upstream.
+
+commit 0152b94def2bf3afb511ab884898f4575474e12e
+Author: MarcoFalke <falke.marco@gmail.com>
+Date:   Sat Feb 27 15:11:50 2016 +0100
+
+    [depends] Delete unused patches
+    
+    Superseded by 4bdad99f5000539dcf03ddc92c142fa6deb44c01
+
+commit d2ab1fd9913cdf87f8ef99a31ad7d5a97f3a2596
+Author: Cory Fields <cory-nospam-@coryfields.com>
+Date:   Thu Apr 21 16:23:40 2016 -0400
+
+    depends: use c++11
+
+commit 486d3844812e342bf26f082673ead1d41d3a97ef
+Author: MarcoFalke <falke.marco@gmail.com>
+Date:   Fri Feb 26 09:59:39 2016 +0100
+
+    [depends] builders: No need to set -L and --location for curl
+
+commit 6354abc90ad2d2459f4f84e97232613a34be26e1
+Author: Luke Dashjr <luke-jr+git@utopios.org>
+Date:   Tue Feb 9 22:15:25 2016 +0000
+
+    Bugfix: depends/Travis: Use --location (follow redirects) and --fail [on HTTP error response] with curl
+    
+    Conflicts:
+            .travis.yml
+
+commit 33c5a27bab260b0d39b56027b34905c31b29f013
+Author: Luke Dashjr <luke-jr+git@utopios.org>
+Date:   Tue Feb 9 03:29:23 2016 +0000
+
+    depends: Use curl for fetching on Linux
+    
+    Currently Travis's wget fails fetching qrencode:
+    
+    Fetching qrencode...
+    ERROR: no certificate subject alternative name matches
+            requested host name `fukuchi.org'.
+    To connect to fukuchi.org insecurely, use `--no-check-certificate'.
+    OpenSSL: error:14077438:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert internal error
+    Unable to establish SSL connection.
+    make: *** [/home/travis/build/luke-jr/bitcoin/depends/sources/download-stamps/.stamp_fetched-qrencode-qrencode-3.4.4.tar.bz2.hash] Error 4
+
+commit 7ca3eabeb1c8f42851f5983087ee3001850ebdd8
+Author: fanquake <fanquake@gmail.com>
+Date:   Wed May 4 19:03:59 2016 +0800
+
+    [depends] Add -stdlib=libc++ to darwin CXX flags
+
+commit 9148af1b6d764c64a512c568ccbe3f35099ba095
+Author: sinetek <pitwuu@gmail.com>
+Date:   Fri May 6 18:52:47 2016 +0700
+
+    Sync some network code and structures.
+
+commit f8583e0af1cbb6e7df2ceae70b5610a1d630dc05
+Author: sinetek <pitwuu@gmail.com>
+Date:   Fri May 6 17:41:17 2016 +0700
+
+    chainparams: sync net structures.
+
+commit d142f837140b5ffd8b9fbd8fea17ffcb23644641
+Author: sinetek <pitwuu@gmail.com>
+Date:   Fri May 6 17:40:59 2016 +0700
+
+    addrman: sync
+
+commit 3aac4e734f4ab88dfa219c1570e7062e93f5b8a1
+Author: sinetek <pitwuu@gmail.com>
+Date:   Fri May 6 17:29:13 2016 +0700
+
+    Fix comment's grammar.
+
+commit a9e9823f40cd4994c65c67f3e861fa51b10a05b3
+Author: sinetek <pitwuu@gmail.com>
+Date:   Fri May 6 17:08:19 2016 +0700
+
+    ThreadDNSAddressSeed(): sync; Also add a few network-related constants.
+
+commit e5360ecf3bb2fad49288c79e52dc90edb49d5930
+Author: sinetek <pitwuu@gmail.com>
+Date:   Thu May 5 02:52:27 2016 +0700
+
+    Revert some net sync changes for now.
+
+commit 5e459059f77df5b9f61fd3068903e28926f6d245
+Author: Gregory Maxwell <greg@xiph.org>
+Date:   Mon Apr 11 01:09:34 2016 +0000
+
+    Only send one GetAddr response per connection.
+    
+    This conserves resources from abusive peers that just send
+     getaddr in a loop. Also makes correlating addr messages
+     against INVs less effective.
+    
+    Conflicts:
+            src/main.cpp
+            src/net.cpp
+            src/net.h
+
+commit 698f13f4c14f8b7289701dcfd30997a984a3c2f3
+Author: Cory Fields <cory-nospam-@coryfields.com>
+Date:   Tue Apr 12 20:23:16 2016 -0400
+
+    net: require lookup functions to specify all arguments
+    
+    To make it clear where DNS resolves are happening
+
+commit 52588aed8235d86ab23a6748d4d1d3f19057129c
+Author: sinetek <pitwuu@gmail.com>
+Date:   Thu May 5 02:21:34 2016 +0700
+
+    makefiles: remove deprecated/non-working hard-coded makefiles.
+
+commit f53b5e338bb89a43b76d05ffa84da5cf40f1dcec
+Author: sinetek <pitwuu@gmail.com>
+Date:   Thu May 5 02:17:21 2016 +0700
+
+    LevelDB 1.18 fresh import.
+
+commit af8141f66a7f13ec74c6f22fba32c93c8eb40953
+Author: sinetek <pitwuu@gmail.com>
+Date:   Thu May 5 02:11:22 2016 +0700
+
+    doc: LevelDB change notes.
+
+commit ea9cc16a3c50b3a5a815d7a6d7c23564d86b292c
+Author: sinetek <pitwuu@gmail.com>
+Date:   Thu May 5 02:06:58 2016 +0700
+
+    Update leveldb to LevelDB 1.18.
+
+commit 0a8c0e0144f806f73cffe15de84c351c9b9d9970
+Author: sinetek <pitwuu@gmail.com>
+Date:   Thu May 5 02:06:10 2016 +0700
+
+    Remove Univalue for now since we don't use it.
+
+commit 72d82b1141bdb91edbbf426b3c8db4acbd17fdc5
+Author: Cory Fields <cory-nospam-@coryfields.com>
+Date:   Wed Feb 17 14:35:35 2016 -0500
+
+    leveldb: integrate leveldb into our buildsystem
+    
+    leveldb's buildsystem causes us a few problems:
+    - breaks out-of-tree builds
+    - forces flags used for some tools
+    - limits cross builds
+    
+    Rather than continuing to add wrappers around it, simply integrate it into our
+    build.
+    
+    Conflicts:
+            configure.ac
+            src/Makefile.am
+
+commit b73c928ef06561cc5d01b158f137984964ee8ba4
+Author: Cory Fields <cory-nospam-@coryfields.com>
+Date:   Mon Apr 25 22:27:59 2016 -0400
+
+    depends: enable pre-compiled headers for qt
+    
+    All trusty compilers work ok with this now, and it shaves a few minutes off of
+    build time
+
+commit 69aeb503c2cb5079c8a6af603cf7e9d627946649
+Author: Cory Fields <cory-nospam-@coryfields.com>
+Date:   Wed Mar 9 16:45:58 2016 -0500
+
+    build: quiet annoying warnings without adding new ones
+    
+    Disabling warnings can be tricky, because doing so can cause a different
+    compiler to create new warnings about unsupported disable flags. Also, some
+    warnings don't surface until they're paired with another warning (gcc). For
+    example, adding "-Wno-foo" won't cause any trouble, but if there's a legitimate
+    warning emitted, the "unknown option -Wno-foo" will show up as well.
+    
+    Work around this in 2 ways:
+    
+    1. When checking to see if -Wno-foo is supported, check for "-Wfoo" instead.
+    2. Enable -Werror while checking 1.
+    
+    If "-Werror -Wfoo" compiles, "-Wno-foo" is almost guaranteed to be supported.
+    
+    -Werror itself is also checked. If that fails to compile by itself, it likely
+    means that the user added a flag that adds a warning. In that case, -Werror
+    won't be used while checking, and the build may be extra noisy. The user would
+    need to fix the bad input flag.
+    
+    Also, silence 2 more additional warnings that can show up post-c++11.
+
+commit 65bc32f6175788d94c56d9339e8b3df1a83e1991
+Author: sinetek <pitwuu@gmail.com>
+Date:   Thu May 5 01:35:32 2016 +0700
+
+    doc: Add note about the move to C++11.
+
+commit eacb0e4d812fdcfc214b77022435a5e82b270294
+Author: Wladimir J. van der Laan <laanwj@gmail.com>
+Date:   Thu Apr 28 10:18:06 2016 +0200
+
+    build: update ax_cxx_compile_stdcxx to serial 4
+
+commit 63e70be8e12cf9a013265e02ce8c403241c54083
+Author: sinetek <pitwuu@gmail.com>
+Date:   Thu May 5 01:01:54 2016 +0700
+
+    Deprecated auto_ptr -> unique_ptr.
+
+commit e7489ece9e23a5aaa09de1f12bde879355d13bac
+Author: sinetek <pitwuu@gmail.com>
+Date:   Thu May 5 01:00:25 2016 +0700
+
+    vector<> changes to get C++11 support.
+
+commit d4aa354c11e8c0a8522a1df9970250d10ca2c279
+Author: Cory Fields <cory-nospam-@coryfields.com>
+Date:   Fri Jan 8 13:31:55 2016 -0500
+
+    c++11: add scoped enum fallbacks to CPPFLAGS rather than defining them locally
+    
+    Due to include ordering, defining in one place was not enough to ensure correct
+    usage. Use global defines so that we don't have to worry abou this ordering.
+    
+    Also add a comment in configure about the test.
+
+commit f234a3b5d6600c44768ea4b15c70eea0d61481ef
+Author: Cory Fields <cory-nospam-@coryfields.com>
+Date:   Tue Jan 5 15:58:48 2016 -0500
+
+    c++11: detect and correct for boost builds with an incompatible abi
+    
+    This is ugly, but temporary. boost::filesystem will likely be dropped soon
+    after c++11 is enabled. Otherwise, we could simply roll our own copy_file. I've
+    fixed this at the buildsystem level for now in order to avoid mixing in
+    functional changes.
+    
+    Explanation:
+    If boost (prior to 1.57) was built without c++11, it emulated scoped enums
+    using c++98 constructs. Unfortunately, this implementation detail leaked into
+    the abi. This was fixed in 1.57.
+    
+    When building against that installed version using c++11, the headers pick up
+    on the native c++11 scoped enum support and enable it, however it will fail to
+    link. This can be worked around by disabling c++11 scoped enums if linking will
+    fail.
+    
+    Add an autoconf test to determine incompatibility. At build-time, if native
+    enums are being used (a c++11 build), and force-disabling them causes a
+    successful link, we can be sure that there's an incompatibility and enable the
+    work-around.
+    
+    Conflicts:
+            src/walletdb.cpp
+
+commit af3c3ad5d7ef822e99c24b8ffddc9051b01eb90a
+Author: sinetek <pitwuu@gmail.com>
+Date:   Thu May 5 00:38:39 2016 +0700
+
+    Enable C++11 and require a suitable compiler.
+
+commit a3b6baee1dbde790d1a78122afb852daa68aa5ff
+Author: sinetek <pitwuu@gmail.com>
+Date:   Mon May 2 23:20:59 2016 +0700
+
+    next release will be 1.2
+
+commit dac6b4be43f053c9c27d68c66c4427c889531364
+Merge: 7d3b437 0e50543
+Author: Philippe Michaud-Boudreault <pitwuu@gmail.com>
+Date:   Mon May 2 22:31:43 2016 +0700
+
+    Merge pull request #11 from BitClubDev/1.1
+    
+    Pull 1.1 into master
+
+commit 0e50543520fbbdd0ab9ea5da76d8bab389c28230
+Author: sinetek <pitwuu@gmail.com>
+Date:   Sun Apr 10 18:53:35 2016 +0700
+
+    gitian: no dll's are built right now
+
+commit 5fb2f1f924a1d7a77769d2ae688a632162fcf39e
+Author: sinetek <pitwuu@gmail.com>
+Date:   Sun Apr 10 15:10:45 2016 +0700
+
+    bump version for 1.1.0
+
+commit 0d79ed18b20fd98bc28c64eb4387d87e1fd8320e
+Author: sinetek <pitwuu@gmail.com>
+Date:   Sun Apr 10 13:19:19 2016 +0700
+
+    bump version to 1.1.0
+
+commit d25cdb4dc0810c1a5e6c8fe1ee890aef72de03f6
+Author: sinetek <pitwuu@gmail.com>
+Date:   Sun Apr 10 13:12:10 2016 +0700
+
+    gitian: setup.exe not working on Windows yet
+
+commit 0e1013603d21158938a53cf138dcc12a739f228c
+Author: sinetek <pitwuu@gmail.com>
+Date:   Sun Apr 10 12:36:24 2016 +0700
+
+    gitian: bump cache dir for 1.1
+
+commit 7d3b437b2fa39ca684e0e6ce67ef7fb1493a1183
+Author: sinetek <pitwuu@gmail.com>
+Date:   Sun Apr 10 12:25:45 2016 +0700
+
+    Correct User Agent
+
+commit 757cad751d206336ace658bbd24a6120c7459b1d
+Author: sinetek <pitwuu@gmail.com>
+Date:   Fri Apr 8 19:22:00 2016 +0700
+
+    version.cpp replacement clientversion, fixes CLIENT_BUILD, CLIENT_DATE
+
+commit 13474b9cbed224ad90c57ed5822f3699f7c354f5
+Author: sinetek <pitwuu@gmail.com>
+Date:   Fri Apr 8 19:06:00 2016 +0700
+
+    CLIENT_BUILD, CLIENT_DATE: Report truth
+
+commit ee07e0c96c57a0230ade4cd8249159567367373b
+Author: Luke Dashjr <luke-jr+git@utopios.org>
+Date:   Sat Feb 27 06:09:18 2016 +0000
+
+    Bugfix: gitian: Add curl to packages (now needed for depends)
+
+commit d4f76539b647565447384a13f19df45003929a50
+Author: sinetek <pitwuu@gmail.com>
+Date:   Fri Apr 8 18:34:56 2016 +0700
+
+    plist: CC fixes
+
+commit 1feb0b985aef9411d71940b44cfb2082265d0f3a
+Author: sinetek <pitwuu@gmail.com>
+Date:   Fri Apr 8 17:16:51 2016 +0700
+
+    gitian: bump for HEAD
+
+commit 9df7812dd1a728985904c0390fb4fc94bd876157
+Author: sinetek <pitwuu@gmail.com>
+Date:   Fri Apr 8 17:12:29 2016 +0700
+
+    sync: some version, clientversion work
+
+commit 53ee6290c8fbcd44267793eb17e963d746b87cc8
+Author: sinetek <pitwuu@gmail.com>
+Date:   Fri Apr 8 17:11:54 2016 +0700
+
+    bump version for HEAD
+
+commit 34781f63e1704fdfa7e0c2321340ddc257849a7b
+Author: sinetek <pitwuu@gmail.com>
+Date:   Thu Apr 7 07:26:07 2016 +0700
+
+    boost::thread #includes
+
+commit a44adc6d7db9269929581e1769d17946d4e3db81
+Author: sinetek <pitwuu@gmail.com>
+Date:   Wed Apr 6 18:36:56 2016 +0700
+
+    add missing include
+
+commit 03bd0b853706e8eef7ad6c4c7f1ef9e31de25931
+Author: sinetek <pitwuu@gmail.com>
+Date:   Wed Apr 6 17:43:01 2016 +0700
+
+    bump version to v1.0.4rc1
+
+commit 64d0d98b3ab4cab69a63a6cb6889b922084877ef
+Author: sinetek <pitwuu@gmail.com>
+Date:   Tue Mar 22 18:52:16 2016 +0900
+
+    readme add inaccurate warning
+
+commit c3eb601232f138e85a1db5e768f875eafbb8de2b
+Author: sinetek <pitwuu@gmail.com>
+Date:   Tue Mar 22 18:30:24 2016 +0900
+
+    Correct name
+
+commit cbb6c6c7975ecf0f248fc9d7c7985049172a9cb6
+Author: sinetek <pitwuu@gmail.com>
+Date:   Sat Mar 12 20:33:30 2016 +0900
+
+    missing header include
+
+commit bf74f48acac24795b7aaad1756dadba910e99cca
+Author: sinetek <pitwuu@gmail.com>
+Date:   Sat Mar 12 20:11:50 2016 +0900
+
+    MockTime moved
+
+commit 0b6cd80e8a7214d1b76dd61974e58c571d3ee7a4
+Author: sinetek <pitwuu@gmail.com>
+Date:   Sat Mar 12 20:07:52 2016 +0900
+
+    duplicate code removal
+
+commit ea8756a0a8ad95fc1599bf08729ce8f7405fa65f
+Author: sinetek <pitwuu@gmail.com>
+Date:   Sat Mar 12 19:42:39 2016 +0900
+
+    SetupEnvironment(): sync w/ bitcoin. There might still be missing calls to it though.
+
+commit 6881a858adc784bb2a2ae1840a666c58eab46624
+Author: sinetek <pitwuu@gmail.com>
+Date:   Sat Mar 12 19:30:20 2016 +0900
+
+    remove dead code
+
+commit 1d469caf3c690fdbea66882d342a55eb4dcdc7fc
+Author: sinetek <pitwuu@gmail.com>
+Date:   Sat Mar 12 18:54:47 2016 +0900
+
+    ignore right *.pc file
+
+commit 17f520338836c9c458074cd68f9c20d5eaf72c3a
+Author: sinetek <pitwuu@gmail.com>
+Date:   Sat Mar 12 18:43:50 2016 +0900
+
+    sync some headers from bitcoin
+
+commit 1f9139abba874a0a93753b78ad87b528c6fbd161
+Merge: 6ab138d c39e503
+Author: sinetek <pitwuu@gmail.com>
+Date:   Sat Mar 12 18:02:52 2016 +0900
+
+    Merge branch 'master' of https://github.com/BitClubDev/ClubCoin
+
+commit 6ab138d72e5d9692c48b4461e391b0f5581f41ea
+Author: sinetek <pitwuu@gmail.com>
+Date:   Sat Mar 12 18:02:38 2016 +0900
+
+    util.h: sync some headers
+
+commit c39e5033ca780dcc565313e01a1573d647194cd8
+Merge: 2fbbb3f dff4c4f
+Author: Philippe Michaud-Boudreault <pitwuu@gmail.com>
+Date:   Sat Mar 12 17:49:46 2016 +0900
+
+    Merge pull request #5 from BitClubDev/dbgchanges
+    
+    Dbgchanges
+
+commit 2fbbb3f79d5f3e94ea47dcc551b5da2dbda2b296
+Author: sinetek <pitwuu@gmail.com>
+Date:   Sat Mar 12 17:48:48 2016 +0900
+
+    utiltime: bring in. sync w/ bitcoin
+
+commit 5b192cf37867cddc153627d93f924fccf3ae68e7
+Author: sinetek <pitwuu@gmail.com>
+Date:   Sat Mar 12 17:36:00 2016 +0900
+
+    SetThreadPriority(): sync w/ bitcoin
+
+commit 5d9ae80da2987a0a7e6a77ef37a4b404f1b1bbe1
+Author: sinetek <pitwuu@gmail.com>
+Date:   Sat Mar 12 17:18:41 2016 +0900
+
+    RenameThread(): sync w/ bitcoin
+
+commit 818b8b1675da0cf3173c9433f6b5733847a39bd5
+Author: sinetek <pitwuu@gmail.com>
+Date:   Sat Mar 12 17:08:20 2016 +0900
+
+    bitcoin/commit/9b637589740089a56a81a79d38f4be522cfa43c3
+
+commit 471039e8e01df22cbb9dceefb5bdbde9c1174baa
+Author: sinetek <pitwuu@gmail.com>
+Date:   Sat Mar 12 17:07:26 2016 +0900
+
+    FileCommit(): sync w/ bitcoin
+
+commit dff4c4f7946f6c70bf0dbe795833a4a34601272b
+Author: sinetek <pitwuu@gmail.com>
+Date:   Fri Mar 11 16:06:00 2016 +0900
+
+    add berkeleyDB version info
+
+commit c4749fefa30f494036a6921e3477221092ffcf3e
+Author: sinetek <pitwuu@gmail.com>
+Date:   Fri Mar 11 15:52:14 2016 +0900
+
+    Debug window: show User Agent
+
+commit db342176cae7ff34a2309b98ea29eee555347a00
+Author: sinetek <pitwuu@gmail.com>
+Date:   Fri Mar 11 15:36:32 2016 +0900
+
+    Bump version to 1.0.4
+
+commit a1a6d86ad5c36be5ade5284a55d89b32e13bb5d1
+Author: sinetek <pitwuu@gmail.com>
+Date:   Fri Mar 11 14:49:06 2016 +0900
+
+    About dialog: add 32/64 bit info on i386 arches
+
+commit 5299c1a00de23f245d9e178049a672ad4e073008
+Author: sinetek <pitwuu@gmail.com>
+Date:   Fri Mar 11 14:31:23 2016 +0900
+
+    Rename rpcconsole.ui => debugwindow.ui
+
+commit bf6256deecad6f2a30f18007a30287f4bbbdcb0c
+Author: MarcoFalke <falke.marco@gmail.com>
+Date:   Wed Jan 20 09:51:02 2016 +0100
+
+    [walletdb] Fix syntax error in key parser
+    
+    Conflicts:
+            src/db.cpp
+
+commit 59daf84eeb9f43950345e63e288853ad962ba907
+Author: sinetek <pitwuu@gmail.com>
+Date:   Tue Feb 2 19:42:07 2016 +0700
+
+    gitian osx: fix out name
+
+commit e33a6f20032d388b46783eea687e1c280b8f922a
+Merge: 35512fc 7177677
+Author: sinetek <pitwuu@gmail.com>
+Date:   Tue Feb 2 18:15:09 2016 +0700
+
+    Merge branch 'master' of https://github.com/BitClubDev/ClubCoin
+
+commit 35512fca83db9af8dfb5a62e3ad3b955cc3337a2
+Author: sinetek <pitwuu@gmail.com>
+Date:   Tue Feb 2 18:14:43 2016 +0700
+
+    Macdeploy: CC specifics
+
+commit 7177677e996cba4bfe68347af5de6e0acf7668c1
+Author: sinetek <pitwuu@gmail.com>
+Date:   Tue Feb 2 17:25:37 2016 +0700
+
+    quick workaround: fix dist for osx building
+
+commit 2e390b25b8ceb917640ee44a090e52ef87e6bbcb
+Author: sinetek <pitwuu@gmail.com>
+Date:   Tue Feb 2 10:14:54 2016 +0700
+
+    gitian: add osx
+
+commit 1897a7a93620f0c17fefb0f941e4fa096aecd576
+Author: sinetek <pitwuu@gmail.com>
+Date:   Tue Feb 2 10:11:35 2016 +0700
+
+    README is probably too old to be relevant
+
+commit 872f26fe21e767885ff70ea2d9de020310c8356c
+Author: sinetek <pitwuu@gmail.com>
+Date:   Tue Feb 2 10:08:32 2016 +0700
+
+    descs: retire old ones
+
+commit 774a7b4de837d064817f647458e14b319dc1c135
+Merge: 10c7173 5d6188a
+Author: sinetek <pitwuu@gmail.com>
+Date:   Tue Feb 2 10:07:36 2016 +0700
+
+    Merge branch 'master' of https://github.com/BitClubDev/ClubCoin
+
+commit 5d6188ad4110e60c2d7472e5f14859b90746ace2
+Merge: f4decb5 9d4cdab
+Author: sinetek <pitwuu@gmail.com>
+Date:   Tue Feb 2 10:06:15 2016 +0700
+
+    Merge branch 'master' of https://github.com/BitClubDev/ClubCoin
+
+commit 10c717341696eda517f872597e7e8587359a9b49
+Author: sinetek <pitwuu@gmail.com>
+Date:   Tue Feb 2 09:50:17 2016 +0700
+
+    Remove rust from NSIS config.
+
+commit 9d4cdabcadaf61f43fa9e259409b88ce5f17b1d1
+Author: sinetek <pitwuu@gmail.com>
+Date:   Tue Feb 2 09:28:01 2016 +0700
+
+    No -cli for Windows deploy.
+
+commit f4decb5f37ea65d6ecb13acde82508359d6349ea
+Author: sinetek <pitwuu@gmail.com>
+Date:   Tue Feb 2 09:18:01 2016 +0700
+
+    gitian: add win
+
+commit 620f72604acd87e0feab6bd2f1197cb05a5c4653
+Author: sinetek <pitwuu@gmail.com>
+Date:   Sun Jan 31 18:12:13 2016 +0700
+
+    Qt Static Linking fixes
+
+commit bfb56b2309748fc3d63950a6ddfe9fb3db5dedbc
+Author: sinetek <pitwuu@gmail.com>
+Date:   Sun Jan 31 03:06:52 2016 +0700
+
+    fix make dist to include res
+
+commit c40d951bb34408483d293802b39d0a803cda3398
+Author: sinetek <pitwuu@gmail.com>
+Date:   Sun Jan 24 18:28:59 2016 +0700
+
+    try to fix gitian linux
+
+commit 1bbe4e8ad4e65c7f7ea83bb64175e3ef0e8faff4
+Author: sinetek <pitwuu@gmail.com>
+Date:   Sun Jan 24 17:47:11 2016 +0700
+
+    fix dist
+
+commit 2af7af385eece9e008aec7b88394c8ca1b8e0c05
+Author: sinetek <pitwuu@gmail.com>
+Date:   Sun Jan 24 16:29:19 2016 +0700
+
+    dist: no tests
+
+commit ee7221c3d3b5561c06a316c0e7900710b7db9007
+Author: sinetek <pitwuu@gmail.com>
+Date:   Sun Jan 24 16:23:39 2016 +0700
+
+    icns work {os x}
+
+commit e0436ac5e199abe04c0eaccb8d370aec127f688a
+Author: sinetek <pitwuu@gmail.com>
+Date:   Sun Jan 24 16:23:02 2016 +0700
+
+    qrc_bitcoin: 404
+
+commit 274708639d61018c3ae7328bf6d3e23d4f199d82
+Author: sinetek <pitwuu@gmail.com>
+Date:   Sun Jan 24 16:08:55 2016 +0700
+
+    contrib/macdeploy: fix dist
+
+commit 99262fd93b8c55441ea92cc4cd504b1befe1bc5d
+Author: sinetek <pitwuu@gmail.com>
+Date:   Sun Jan 24 16:08:29 2016 +0700
+
+    fix some pixmaps for CC
+
+commit bdaffe3fe4bdb4db9c529e26c0c3f137b5e39f37
+Author: sinetek <pitwuu@gmail.com>
+Date:   Sun Jan 24 15:59:42 2016 +0700
+
+    icons: not relevant to CC
+
+commit 9c20d41f0b4922fab48119053b7fbe92f8f39493
+Author: sinetek <pitwuu@gmail.com>
+Date:   Sun Jan 24 02:46:10 2016 +0700
+
+    autogen: proper +x permissions
+
+commit 092d7fc0e76bcdf38b2d7e5e778b66c6335478a3
+Author: sinetek <pitwuu@gmail.com>
+Date:   Sun Jan 24 02:05:47 2016 +0700
+
+    Adding prelim depends
+
+commit 07e4843f019bdc3b276e0b52d263e03e881be34a
+Author: sinetek <pitwuu@gmail.com>
+Date:   Sun Jan 24 01:58:41 2016 +0700
+
+    Adding prelim depends
+
+commit 4264042342badcacb9e54a67eb31fd2e65b2dd0d
+Author: sinetek <pitwuu@gmail.com>
+Date:   Sun Jan 24 01:57:27 2016 +0700
+
+    add gitian linux
+
+commit 2762063c90741870db9010b812539b7a783ac9c8
+Author: sinetek <pitwuu@gmail.com>
+Date:   Tue Jan 19 13:18:25 2016 +0700
+
+    We use autobuild on those platforms.
+
+commit fd1fa9e890d4eb1a0ad91a7a9e26ae121c7947f8
+Author: sinetek <pitwuu@gmail.com>
+Date:   Mon Jan 18 11:09:37 2016 +0700
+
+    fixes for building OS X version
+
+commit fc9486c4bc61ce70ccefe0b18d0c3686f4528dd9
+Author: sinetek <pitwuu@gmail.com>
+Date:   Tue Jan 12 17:47:21 2016 +0700
+
+    adding autoconf files
+
+commit 7f0c96e35e4360c7008b0cec2054a80a4e5a3992
+Author: sinetek <pitwuu@gmail.com>
+Date:   Tue Jan 12 17:43:13 2016 +0700
+
+    Adding m4 deps
+
+commit 85004e60c8cd92c0b4b6587960fe93f6144dda63
+Author: sinetek <pitwuu@gmail.com>
+Date:   Tue Jan 5 20:12:08 2016 +0700
+
+    fix berkeley db linking
+
+commit 727d38f3efd172ba1beea7d563c5602de911fbb6
+Author: sinetek <pitwuu@gmail.com>
+Date:   Tue Jan 5 20:11:40 2016 +0700
+
+    make sure the wallet is enabled.
+
+commit 9ae908d00e4ee941d78e6d3a0bc98ba3769b4cd9
+Merge: 4e7e8fe 4a188fc
+Author: sinetek <pitwuu@gmail.com>
+Date:   Tue Jan 5 19:59:32 2016 +0700
+
+    Merge branch 'master' of https://github.com/BitClubDev/ClubCoin
+
+commit 4e7e8feff5e200d1c63f984ab7c9bc3b70676836
+Author: sinetek <pitwuu@gmail.com>
+Date:   Tue Jan 5 19:59:16 2016 +0700
+
+    add compile support for qt5
+
+commit 4a188fc685d6002effc798f5d9af84f99b0a12c5
+Author: sinetek <pitwuu@gmail.com>
+Date:   Tue Jan 5 18:48:08 2016 +0700
+
+    fix NOMSG on OS X
+
+commit 3f0039898ff446ce5a43554c2cc047848d27057d
+Author: sinetek <pitwuu@gmail.com>
+Date:   Tue Jan 5 18:30:01 2016 +0700
+
+    Rig in a proper build system w/ autotools and friends
+
+commit 7aab7959211ddcfb1272a3daa08d4627b211de1a
+Author: sinetek <pitwuu@gmail.com>
+Date:   Tue Jan 5 18:29:23 2016 +0700
+
+    fix windows build
+
+commit 8ddd292e98a5747d45233594e8c323fa889613ef
+Author: sinetek <pitwuu@gmail.com>
+Date:   Tue Dec 29 13:37:28 2015 +0700
+
+    sync gitignore
+
+commit 0a725a1ee0686eeb4e9de25f80db18a3bca96402
+Author: Wladimir J. van der Laan <laanwj@gmail.com>
+Date:   Sun Apr 28 08:51:49 2013 +0200
+
+    move WSAStartup to init
+    
+    WSAStartup should be called before using any other socket
+    functions. BindListenPort is not called if not listening.
+    
+    Closes #2585.
+
+commit 77efccb484f13eafcd187aa41230633d57a94271
+Author: sinetek <pitwuu@gmail.com>
+Date:   Tue Dec 29 13:13:18 2015 +0700
+
+    add missing include
+
+commit 42c6950af0ce9473c94306f44fe81df08bd9b072
+Merge: e839e07 e98b86f
+Author: Joshua J. Bouw <joshua.j.bouw@googlemail.com>
+Date:   Sun Dec 27 15:46:41 2015 +0700
+
+    Merge pull request #4 from sinetek/master
+    
+    translation fixes
+
+commit e98b86f25cdc5aac40ff62c565be462f3d0e9915
+Author: sinetek <pitwuu@gmail.com>
+Date:   Thu Dec 24 17:00:47 2015 +0700
+
+    translation fixes
+
+commit e839e071ced002a75064fd2b10285f4b999aa528
+Merge: a944b54 c75db46
+Author: Joshua J. Bouw <joshua.j.bouw@googlemail.com>
+Date:   Thu Dec 24 16:54:42 2015 +0700
+
+    Merge pull request #3 from sinetek/master
+    
+    translation fixes
+
+commit c75db4692221fee8bdde4cfdd45a7b41b70870f3
+Author: sinetek <pitwuu@gmail.com>
+Date:   Thu Dec 24 16:42:32 2015 +0700
+
+    黑幣 -> 眾樂幣
+
+commit af048075b5ca73feb1f9da5837e6b7ca20650d04
+Author: sinetek <pitwuu@gmail.com>
+Date:   Thu Dec 24 16:34:48 2015 +0700
+
+    黑币 -> 众乐币
+
+commit a944b543d5a0aea5fc1af12b97357d500253bad0
+Author: joshuajbouw <joshua.j.bouw@googlemail.com>
+Date:   Wed Dec 9 00:09:42 2015 +0700
+
+    Removed added +
+
+commit e3a818128b0fa6c4774a99ec7d07eaf34dc7307c
+Merge: 9e1295c 7b41eee
+Author: joshuajbouw <joshua.j.bouw@googlemail.com>
+Date:   Wed Dec 2 12:27:27 2015 +0700
+
+    Merge pull request #2 from BitClubDev/bip66-compatibility
+    
+    BIP66 Compatibility
+
+commit 7b41eeee7305bea1edf42f5c54f233ae6c5b96a5
+Author: joshuajbouw <joshua.j.bouw@googlemail.com>
+Date:   Wed Dec 2 12:27:02 2015 +0700
+
+    BIP66 Compatibility
+
+commit 64874846cdf12b6f45e43b61cdefd6037de95555
+Author: joshuajbouw <joshua.j.bouw@googlemail.com>
+Date:   Wed Dec 2 12:18:00 2015 +0700
+
+    BIP66 Compatibility
+
+commit 9e1295c18808fa4f184dadd5715e40d6c0843ca8
+Author: joshuajbouw <joshua.j.bouw@googlemail.com>
+Date:   Tue Dec 1 14:20:08 2015 +0700
+
+    Updated attributions for placeholders
+    
+    Will add in proper attributions once I have collected them all.
+
+commit d26c7d9e985df5953b593891c6856d2d940ebe40
+Author: joshuajbouw <joshua.j.bouw@googlemail.com>
+Date:   Tue Dec 1 14:13:31 2015 +0700
+
+    Added more information about ClubCoin.
+
+commit ffa2782ecc973464000a05d693d2bb273efa9cfb
+Author: ebit <accounts@evobitsit.com>
+Date:   Sun Nov 29 15:14:31 2015 +0100
+
+    Removed some text
+
+commit 96bb8193a5d57b0d14b9a5fb16df8f9e134c3ff3
+Author: ClubCoin <info@clubcoin.co>
+Date:   Tue Nov 24 16:10:37 2015 +0100
+
+    Initial commit

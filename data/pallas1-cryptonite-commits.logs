@@ -1,0 +1,311 @@
+commit 77a3637ded739408d966c0a620a085d21ab082b0
+Author: Piero Orsoni <pallas1@users.noreply.github.com>
+Date:   Wed Sep 20 10:46:04 2017 +0200
+
+    Security fixes
+
+commit a9edea15baaf7751c7b6208b31e21c04411ed189
+Author: pallas1 <pallas1@users.noreply.github.com>
+Date:   Fri Aug 18 10:17:04 2017 +0200
+
+    Added some seed nodes.
+    
+    For more reliable and quick initial sync.
+
+commit f182ec0989eada53eef5dd369bf5d8c2bdae6672
+Merge: 78e400f b48a9d3
+Author: pallas1 <pallas1@users.noreply.github.com>
+Date:   Wed Aug 16 11:52:45 2017 +0200
+
+    Merge pull request #2 from krnlx/master
+    
+    Reducing cpu usage && Fix trie sync
+
+commit b48a9d35ee793c968898ef81e10eab9f79627903
+Author: krnl <kernelx@me.com>
+Date:   Mon Aug 14 22:34:19 2017 +0300
+
+    TrieView::Activate - remove the hard limit on block number
+
+commit c5f47ce76ca1ede4a6c2d78bfa9cd1579ee0ee73
+Author: krnl <kernelx@me.com>
+Date:   Mon Aug 14 09:48:54 2017 +0300
+
+    Triesync loop fix
+
+commit d0363d10ffa8d8cf1fa9e3d1749408827aed8961
+Author: krnl <kernelx@me.com>
+Date:   Fri Aug 11 12:09:43 2017 +0300
+
+    TrieView::Activate faster
+
+commit 78e400f334490985330a21d42ba0c5e7ba362f6c
+Author: pallas1 <pallas1@users.noreply.github.com>
+Date:   Thu Aug 10 11:53:41 2017 +0200
+
+    Avoid possible sync loop
+    
+    Limit number of getslice from the same peer.
+
+commit e49d7f6a81a63b969d21415aacf798e8e3741ef2
+Author: pallas1 <pallas1@users.noreply.github.com>
+Date:   Thu Aug 10 11:46:12 2017 +0200
+
+    Fixed transaction export
+    
+    Always reported "confirmed = true", now only if "status = confirmed".
+
+commit 73508112bda62dc6f3b468ef3f73bf2186b9e40a
+Author: pallas1 <pallas1@users.noreply.github.com>
+Date:   Thu Aug 10 11:24:14 2017 +0200
+
+    Bump version
+
+commit 8e000d225cb05f772fc879af385e4c2c8454282a
+Author: pallas1 <pallas1@users.noreply.github.com>
+Date:   Thu Aug 10 11:23:24 2017 +0200
+
+    Bump version
+
+commit 6b5835ba6cb8332a60a24920aa3ae8c16d82ef86
+Author: pallas1 <pallas1@users.noreply.github.com>
+Date:   Thu Jul 6 09:32:38 2017 +0200
+
+    Enable orphans on rpc calls.
+
+commit fd41cde9044f6c1721da8b8909771d15aeff0108
+Author: pallas1 <pallas1@users.noreply.github.com>
+Date:   Wed Apr 19 16:48:38 2017 +0200
+
+    Avoid crash.
+    
+    Gracefully manage the rare situation where Pindex is invalid.
+
+commit 5b41036e83bd7d018b81529a287780366039b862
+Author: pallas1 <pallas1@users.noreply.github.com>
+Date:   Wed Apr 5 13:33:40 2017 +0200
+
+    Increase block download timeout
+    
+    Try to avoid disconnecting good peers too often.
+
+commit c763650289cc76e59957b9e01cf2ebd7c09a13cc
+Author: pallas1 <pallas1@users.noreply.github.com>
+Date:   Wed Apr 5 13:31:46 2017 +0200
+
+    Make it use the predefined macro
+    
+    Download blocks from peer timeout.
+
+commit edc4e2543243d8078f16505fb50e1316c1c70f54
+Author: pallas1 <pallas1@users.noreply.github.com>
+Date:   Tue Mar 21 15:34:46 2017 +0100
+
+    Fix wallet backup
+
+commit 018e2ced86910945a7e33175414504e2a47942f5
+Merge: 2344c58 961d7ad
+Author: pallas1 <pallas1@users.noreply.github.com>
+Date:   Sun Mar 19 14:45:40 2017 +0100
+
+    Merge pull request #1 from pallas1/trie_fix
+    
+    Trie sync fix: avoids hanging on the final part of an initial wallet block download.
+
+commit 961d7ad3310369b7f7bda63e4e8da196f730e897
+Author: pallas1 <pallas1@users.noreply.github.com>
+Date:   Tue Mar 14 08:55:08 2017 +0100
+
+    Do the Prove() recursively, using the new methods
+
+commit 579e72cb2e4dc63ce417eb6f4ba1dd302496c1db
+Author: pallas1 <pallas1@users.noreply.github.com>
+Date:   Tue Mar 14 08:49:23 2017 +0100
+
+    Adding new methods for trie prove() traversal
+
+commit 07729a6a97ade3e799213d01fe5b16bc0cee716e
+Author: pallas1 <pallas1@users.noreply.github.com>
+Date:   Sat Mar 11 11:26:59 2017 +0100
+
+    Trie sync fix
+    
+    Disabled broken trie prove check.
+
+commit 2344c5882c40a37773441673df55abe8ac3bce41
+Author: pallas1 <pallas1@users.noreply.github.com>
+Date:   Wed Mar 8 15:25:31 2017 +0100
+
+    Updated revision number
+
+commit 3d8e5e4d574510e1de30d299e84142ba1a671d24
+Author: pallas1 <pallas1@users.noreply.github.com>
+Date:   Mon Mar 6 14:54:05 2017 +0100
+
+    Updated revision number
+    
+    To help distinguish new builds
+
+commit 0ffa0bc1f5bf7972b5ae1ab55226edbc056c0545
+Author: pallas1 <pallas1@users.noreply.github.com>
+Date:   Mon Mar 6 13:56:37 2017 +0100
+
+    Compile fix 2
+    
+    Another little type fix.
+
+commit 741ae7a74a5c82ca5ce8cf009316dedd312bd199
+Author: pallas1 <pallas1@users.noreply.github.com>
+Date:   Mon Oct 10 10:38:44 2016 +0200
+
+    Compile fix
+
+commit 3fb059181f91919560a67c9144f7517991ba157e
+Author: MiniblockchainProject <MiniblockchainProject@users.noreply.github.com>
+Date:   Sun Oct 26 23:10:32 2014 +1100
+
+    Added line break after MBC copyright
+
+commit 677dbf8adc8c50468a62c1f8271b7ef349e89b6f
+Author: MiniblockchainProject <MiniblockchainProject@users.noreply.github.com>
+Date:   Sun Oct 26 23:05:28 2014 +1100
+
+    Changed default readme
+
+commit 1e539fc55ddf0e4b9f8162ceecd8d7b86a03ed75
+Author: catia przybylski <catia@nowhere.com>
+Date:   Wed Sep 10 21:27:42 2014 -0400
+
+    Remove safemode on unreachable blocks
+
+commit 26fcabaae0cd9c963577cc3b231e14164ca78a18
+Author: catia przybylski <catia@nowhere.com>
+Date:   Tue Sep 2 14:12:21 2014 -0400
+
+    Add option to setaccount rpc
+
+commit 6635d32c74b8a8601bbddac6f39aff3b952285f1
+Author: catia przybylski <catia@nowhere.com>
+Date:   Wed Aug 27 10:19:51 2014 -0400
+
+    Add message support to createrawtransaction
+
+commit f5d5838786be73c2fa35afea304137b4de9588a9
+Author: catia przybylski <catia@nowhere.com>
+Date:   Wed Aug 6 12:52:57 2014 -0400
+
+    Fix race condition in trie download from multiple peers
+
+commit ea227b920a9cc74393d7bed4372a1c874d4aef6c
+Author: catia przybylski <catia@nowhere.com>
+Date:   Mon Aug 4 02:44:46 2014 -0400
+
+    Do some extra checking on database condition incase node is actually operational but key is missing.
+
+commit f779f6e0b97d427e6f9687546aa0fb25efeb0a34
+Author: catia przybylski <catia@nowhere.com>
+Date:   Sun Aug 3 17:28:25 2014 -0400
+
+    Fix missing lock on DisconnectTip
+
+commit fc37aa65106c2e45f6470fce57deb6fe272a199f
+Author: catia przybylski <catia@nowhere.com>
+Date:   Sun Aug 3 15:51:26 2014 -0400
+
+    Remove forcenotrie
+
+commit 5bf722b544b3252e7952cc0b0deeaa0cfba10cf6
+Author: catia przybylski <catia@nowhere.com>
+Date:   Sun Aug 3 14:41:06 2014 -0400
+
+    Fix sync in bitcoin mode
+
+commit e363742ef37e656abb23e740d676f74dede3a55b
+Author: catia przybylski <catia@nowhere.com>
+Date:   Sun Aug 3 02:13:20 2014 -0400
+
+    Upgrade to v0.1.1
+
+commit f4658ee675e79eece0b85a7c772efe958432f93b
+Author: catia przybylski <catia@nowhere.com>
+Date:   Wed Jul 30 03:48:15 2014 -0400
+
+    Add a new argument to getwork to allow checking of shares by external programs
+
+commit 168c7d6de5727057befbb3448e7862ca09a2d486
+Author: catia przybylski <catia@nowhere.com>
+Date:   Tue Jul 29 22:31:33 2014 -0400
+
+    Fix json result for getblocktemplate
+
+commit 04248aa1a9f4445194ae07eb35e029dbdbe1266c
+Author: catia przybylski <catia@nowhere.com>
+Date:   Tue Jul 29 18:51:19 2014 -0400
+
+    Revert getwork change
+
+commit 852d95eb2c9a18113908bf461b82c0f2f17a13f4
+Author: catia przybylski <catia@nowhere.com>
+Date:   Tue Jul 29 16:06:22 2014 -0400
+
+    Always generate new work on getwork call
+
+commit e876262453994bb427065e1d08662209bfd38ec5
+Author: catia przybylski <catia@nowhere.com>
+Date:   Tue Jul 29 05:36:27 2014 -0400
+
+    Looks like getblocktemplate, no clients to test with though
+
+commit 329085a4e262f9c3e17554024a2fe82500694b31
+Author: catia przybylski <catia@nowhere.com>
+Date:   Tue Jul 29 00:56:18 2014 -0400
+
+    Fix miner hash rate reporting
+
+commit 460059da7fb57079a3d4e289767cce398d70bf14
+Author: catia przybylski <catia@nowhere.com>
+Date:   Mon Jul 28 21:20:45 2014 -0400
+
+    Insert a random string into generated coinbase transaction to make getwork more classic
+
+commit 38d3f8791bb436a9a327120f1009a4c061116569
+Author: catia przybylski <catia@nowhere.com>
+Date:   Mon Jul 28 16:59:32 2014 -0400
+
+    Updated subtrie rules
+
+commit 882cd6b74b79a94699f4c33ffd83d24246e91646
+Author: catia przybylski <catia@nowhere.com>
+Date:   Mon Jul 28 03:40:23 2014 -0400
+
+    Change alert key
+
+commit ae9fd266629d4c3593a79bfa3a3dfbc05b003212
+Author: catia przybylski <catia@nowhere.com>
+Date:   Mon Jul 28 03:31:52 2014 -0400
+
+    Remove some unneeded files
+
+commit 9fd7f260ab03f8ad891178ae9f86bf01ec743841
+Author: catia przybylski <catia@nowhere.com>
+Date:   Mon Jul 28 03:12:27 2014 -0400
+
+    Remove lmdb from makefile
+
+commit c8b2feac17c62ef47ef4828f3529c24aa9bf599c
+Author: catia przybylski <catia@nowhere.com>
+Date:   Mon Jul 28 00:44:08 2014 -0400
+
+    Fix incorrect print of txid
+
+commit 12d1c0b50cfa5d899f3e9ace51c2851827204ca5
+Author: catia przybylski <catia@nowhere.com>
+Date:   Mon Jul 28 00:23:39 2014 -0400
+
+    Add more seed nodes. Fix uninitialized varialble causing fork. Turned on release flag.
+
+commit e2471d3ed5a138d0c256183b1d75f4c0166f2d91
+Author: catia przybylski <catia@nowhere.com>
+Date:   Sun Jul 27 21:15:06 2014 -0400
+
+    Initial commit

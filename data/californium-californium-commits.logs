@@ -1,0 +1,13 @@
+commit 90c78c2bdd45179de92895bb39f9077b79f1c0e6
+Author: Tabcoin <mollytab.dev@gmail.com>
+Date:   Sun Apr 19 17:05:10 2015 -0500
+
+    1.0
+    
+    1.0
+
+commit c11cf8e87810dbad159a2279dcc0a3149b8c0906
+Author: Tabcoin <mollytab.dev@gmail.com>
+Date:   Sun Apr 19 17:02:30 2015 -0500
+
+    :tada: Added .gitattributes & .gitignore files

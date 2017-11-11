@@ -1,0 +1,141 @@
+commit a96a83a22e6af1f20216dbf6051a5898a5d8d1a8
+Author: scificrypto <realgrandnagus@gmail.com>
+Date:   Sun May 8 19:04:47 2016 -0400
+
+    Fix blockbrowser missing file
+
+commit 106968043adb30b0bfe4a9f12e6c638a7478d12b
+Author: scificrypto <realgrandnagus@gmail.com>
+Date:   Fri Oct 23 18:23:05 2015 -0400
+
+    Version 9.3.0
+
+commit f388042dc5ce2bbd2911d5639122645dbaf020c4
+Author: scificrypto <realgrandnagus@gmail.com>
+Date:   Wed Oct 7 14:17:03 2015 -0400
+
+    Fix addressbook bugs
+
+commit f5bfd8ab0de6812af309a0fadcc934ca05ee6c63
+Author: scificrypto <realgrandnagus@gmail.com>
+Date:   Wed Oct 7 14:16:03 2015 -0400
+
+    Fix SpentCoins to remove orphans, fix GetAmounts
+
+commit b6074414a41ab8f0046a6218c4d4460c409a1414
+Author: scificrypto <realgrandnagus@gmail.com>
+Date:   Tue Oct 6 13:36:44 2015 -0400
+
+    Fast Stake
+    
+    Reduce CPU usage for minting and qt freezing.
+
+commit e0cf2875f470929d56dc89ae1145143ceed99561
+Author: scificrypto <realgrandnagus@gmail.com>
+Date:   Tue Oct 6 13:21:31 2015 -0400
+
+    Add Block Browser.
+    
+    Add Block Browser, improve coincontroldialog, add Current Block Info.
+
+commit 59068657575bd680c3f91285125a10f74fa3c20b
+Author: scificrypto <realgrandnagus@gmail.com>
+Date:   Tue Oct 6 13:14:36 2015 -0400
+
+    Fix SplitTreshold
+
+commit a1f2b0ef85105ea7971a5cd224df28ff69a45b2f
+Author: scificrypto <realgrandnagus@gmail.com>
+Date:   Fri Sep 25 13:07:36 2015 -0400
+
+    Add split/combine threshold
+    
+    Split default is 5. Split max on startup is 200, split max on rpc is
+    balance divided by 500, or 200 whichever is greater.
+    Combine default is 10. Combine max on startup is 400, combine max on rpc
+    is balance divided by 250, or 400 whichever is greater.
+
+commit a94bc4b2215181bf1718e504870d135208817716
+Author: scificrypto <realgrandnagus@gmail.com>
+Date:   Fri Sep 25 12:54:51 2015 -0400
+
+    Add checkpoints
+
+commit e0e7edb2b315e58eb6363ae24e96aacec385da33
+Author: hartland <robert@hartlandpc.com>
+Date:   Thu Jun 5 19:09:57 2014 -0500
+
+    Version 9.2
+
+commit 56e67c4f98f8d826036eca951a31c31ca5c6e940
+Author: hartland <robert@hartlandpc.com>
+Date:   Wed Apr 23 11:48:34 2014 -0500
+
+    Fix Checkpoint out of date
+
+commit 249ddadeee275b7411d62badef1368d80ccaae5f
+Author: hartland <robert@hartlandpc.com>
+Date:   Thu Apr 10 11:29:57 2014 -0500
+
+    Add Checkpoint
+
+commit 893d03b97787300b01332942192a4bb27e78b417
+Author: hartland <robert@hartlandpc.com>
+Date:   Sat Feb 15 19:13:42 2014 -0600
+
+    Version 0.8.8 Release
+
+commit a8394a287dcec837567f391ab4d80434a412ac05
+Author: hartland <robert@hartlandpc.com>
+Date:   Thu Feb 13 19:34:55 2014 -0600
+
+    Pre-release for 8.8
+
+commit ed294fff0bdeba38d0e331e08ae208e77ca060a6
+Author: hartland <robert@hartlandpc.com>
+Date:   Sun Jan 12 12:59:29 2014 -0600
+
+    Version 8.6.0
+
+commit 894e9fa4256de7da3776235d0e5a80af05d78bd1
+Author: Robert VanHazinga <robert@hartlandpc.com>
+Date:   Wed Jan 1 04:05:17 2014 -0600
+
+    Update rpcmining.cpp
+
+commit c759ff3a664fb6bc45ce7d60771cf59130680bb7
+Author: hartland <robert@hartlandpc.com>
+Date:   Wed Jan 1 03:37:17 2014 -0600
+
+    Add CheckPoint
+
+commit dc38d4f1148c4e7d131de67e2c9eae617f8376af
+Merge: a40d1d0 83eec7f
+Author: hartland <robert@hartlandpc.com>
+Date:   Wed Jan 1 03:27:04 2014 -0600
+
+    Merge branch 'master' of https://github.com/scificryptocoin/Darsek
+
+commit a40d1d07bd5aa87578d75f2917b32aa64f95615c
+Author: hartland <robert@hartlandpc.com>
+Date:   Wed Jan 1 03:26:12 2014 -0600
+
+    Fix Warning
+
+commit 83eec7f1b004c057ca621c54e2c6a2dc14fc04e7
+Author: scificryptocoin <info@scificryptocoin.com>
+Date:   Tue Dec 24 01:42:38 2013 -0600
+
+    Update README.md
+
+commit 5bf7d4eaf639fe2dc4eb8315486eae107d39dad7
+Author: scificryptocoin <info@scificryptocoin.com>
+Date:   Sat Dec 21 15:06:28 2013 -0600
+
+    Delete darsekd
+
+commit 56cab832b880410b2ab0b629d3af89855e936d33
+Author: hartland <robert@hartlandpc.com>
+Date:   Sat Dec 21 14:48:48 2013 -0600
+
+    First Commit

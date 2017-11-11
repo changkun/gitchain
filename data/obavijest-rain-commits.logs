@@ -1,0 +1,144 @@
+commit a6bc6c7c4bb33e2b23b79a453c99fc34bbb67999
+Merge: 91d431a 6a50c99
+Author: OBAViJEST <morthor.spede@gmail.com>
+Date:   Sun Sep 10 18:14:00 2017 -0400
+
+    Merge pull request #7 from antoinemineau/miniupnpc
+    
+    bitcoin patch for miniupnpc > 1.6
+
+commit 6a50c992badb23801b37706541fe7d80d56b68e6
+Author: Antoine Mineau <mineau.a@gmail.com>
+Date:   Fri Aug 25 14:11:56 2017 -0400
+
+    bitcoin patch for miniupnpc > 1.6
+
+commit 91d431a6792e667bf81fc9c2b15c01f2b4ed9645
+Merge: 9ef7c49 7c943eb
+Author: OBAViJEST <morthor.spede@gmail.com>
+Date:   Tue Jun 6 11:44:45 2017 -0400
+
+    Merge pull request #6 from OBAViJEST/revert-4-patch-3
+    
+    Revert "fix for *nix build"
+
+commit 7c943eb56522b4215fbb9deb52110e905f3006b0
+Author: OBAViJEST <morthor.spede@gmail.com>
+Date:   Tue Jun 6 11:43:35 2017 -0400
+
+    Revert "fix for *nix build"
+
+commit 9ef7c493db8fbb9dabb2768a5288102f32f4c3b4
+Merge: 7128d9c 185b471
+Author: OBAViJEST <morthor.spede@gmail.com>
+Date:   Tue Jun 6 10:46:54 2017 -0400
+
+    Merge pull request #2 from bumbacoin/patch-1
+    
+    Update clientversion.h
+
+commit 7128d9cea47d047565f8a67d60461f0ff079bff6
+Merge: 21d11ba c8f6655
+Author: OBAViJEST <morthor.spede@gmail.com>
+Date:   Tue Jun 6 10:45:16 2017 -0400
+
+    Merge pull request #3 from bumbacoin/patch-2
+    
+    update osx icns file name
+
+commit 21d11bae234ffd6d4cd19efb044c23c665f5348b
+Merge: b5337db b8f7b47
+Author: OBAViJEST <morthor.spede@gmail.com>
+Date:   Tue Jun 6 10:44:19 2017 -0400
+
+    Merge pull request #4 from bumbacoin/patch-3
+    
+    fix for *nix build
+
+commit b5337db3a49017fe37b6a54fc3f853420c487a6f
+Merge: 7125359 10c3bfd
+Author: OBAViJEST <morthor.spede@gmail.com>
+Date:   Tue Jun 6 10:43:57 2017 -0400
+
+    Merge pull request #5 from hashtobewild/debug
+    
+    factored out brokenBlock variable
+
+commit 10c3bfd4bcef1d2c1ef2e08c9866222ad5b95ed5
+Author: HashToBeWild <hashtobewild@cryptocurrency.ninja>
+Date:   Tue Jun 6 15:27:43 2017 +0200
+
+    factored out brokenBlock variable
+
+commit b8f7b47d55201cf777d439007b7fbf2c7af7d3af
+Author: bumbacoin <bumbacoin@gmail.com>
+Date:   Tue Jun 6 21:06:05 2017 +0800
+
+    fix for *nix build
+
+commit c8f6655640a2ba60b77b733ccf69a44fbe6f2cd4
+Author: bumbacoin <bumbacoin@gmail.com>
+Date:   Tue Jun 6 19:26:29 2017 +0800
+
+    update osx icns file name
+
+commit 185b471f4be27143b682e86d9900b5441e95be16
+Author: bumbacoin <bumbacoin@gmail.com>
+Date:   Tue Jun 6 19:16:30 2017 +0800
+
+    Update clientversion.h
+    
+    version update
+
+commit 71253596b08335507e4f4db71b87b3cf2fa67feb
+Author: OBAViJEST <morthor.spede@gmail.com>
+Date:   Mon Jun 5 11:40:15 2017 -0400
+
+    Update version.h
+
+commit 0172f35fea2a47423775c5118003613149efc640
+Author: OBAViJEST <morthor.spede@gmail.com>
+Date:   Mon Jun 5 09:20:28 2017 -0400
+
+    Update version.h
+
+commit 5fd45d1206b759d81ed064d937f9d6e22a63e6c6
+Merge: 9ef8283 ca8a67b
+Author: OBAViJEST <morthor.spede@gmail.com>
+Date:   Sun Jun 4 21:20:48 2017 -0400
+
+    Merge pull request #1 from hashtobewild/dev
+    
+    Dev - approved by OBAViJEST
+
+commit ca8a67b9521f10aa11f1aeda96ff820cc0120547
+Author: HashToBeWild <hashtobewild@cryptocurrency.ninja>
+Date:   Mon Jun 5 02:03:40 2017 +0200
+
+    Updated comment
+
+commit 0229ccd60dc428bf2f31edc59872f6b927969342
+Author: HashToBeWild <hashtobewild@cryptocurrency.ninja>
+Date:   Sun Jun 4 15:42:27 2017 +0200
+
+    Ban transactions from lost premine wallet
+
+commit 96102fb71e806c1e4a3d3df850870bc5b089f025
+Author: HashToBeWild <hashtobewild@cryptocurrency.ninja>
+Date:   Sun Jun 4 15:41:01 2017 +0200
+
+    Skip known broken blocks during sync
+
+commit 9ef82835a7839e0629e65c2b4ecfee8be2206487
+Author: Digger <bitc0der2245@gmail.com>
+Date:   Sun May 21 11:58:45 2017 -0400
+
+    re-up
+    
+    re-up
+
+commit feef17dc02e07681437e80c071c7be33a5bd3a8b
+Author: Digger <bitc0der2245@gmail.com>
+Date:   Sun May 21 11:57:15 2017 -0400
+
+    :neckbeard: Added .gitattributes & .gitignore files

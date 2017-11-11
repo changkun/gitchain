@@ -1,0 +1,207 @@
+commit 594ebf12040a652c79a89538e2b737f08dcd6c09
+Author: toxicologist <toxiccologist@gmail.com>
+Date:   Sat Aug 26 21:26:29 2017 -0300
+
+    Resized image, sent to left
+
+commit f1d14d335fd165519975cd006a159c1a4f751117
+Author: toxicologist <toxiccologist@gmail.com>
+Date:   Sat Aug 26 20:55:19 2017 -0300
+
+    Fixed image aspect ratio.. hopefully
+
+commit e720b5b837a77e350e9e5a25c396149e5babeba7
+Author: toxicologist <toxiccologist@gmail.com>
+Date:   Sat Aug 26 19:12:46 2017 -0300
+
+    Revert "Added icon to overview page"
+    
+    This reverts commit 3456f8d6425028809e4cb36acb348035b2fceb56.
+
+commit 3456f8d6425028809e4cb36acb348035b2fceb56
+Author: toxicologist <toxiccologist@gmail.com>
+Date:   Sat Aug 26 19:00:06 2017 -0300
+
+    Added icon to overview page
+
+commit 7c7a08c1bc6775ba5af5edbd059b9ccecaaa7d3a
+Author: toxicologist <toxiccologist@gmail.com>
+Date:   Sat Aug 19 11:33:08 2017 -0300
+
+    Replaced chancoin.info with coinminers.net
+
+commit dd01e9dfb645efee242e19b726eafd6b955db675
+Author: toxicologist <toxiccologist@gmail.com>
+Date:   Mon Aug 14 21:42:50 2017 -0300
+
+    Updated readme with helpful info
+
+commit 6d47c7b4990944694a76a61cef853c5ba6965b11
+Author: toxicologist <toxiccologist@gmail.com>
+Date:   Mon Aug 14 21:34:01 2017 -0300
+
+    Updated readme with download link to binaries
+
+commit f865d3a70367a2fb17a9db4ea30d3f828de29a7d
+Author: toxicologist <toxiccologist@gmail.com>
+Date:   Mon Aug 14 21:33:41 2017 -0300
+
+    Updated readme with download link to binaries
+
+commit 0a7825eace8e1cb0f92e984073402fa508e7560a
+Author: toxicologist <toxiccologist@gmail.com>
+Date:   Mon Aug 14 21:33:10 2017 -0300
+
+    Updated readme with download link to binaries
+
+commit f7c4f0ead05b56dab1e16285aa4504dd5912359e
+Author: toxicologist <toxiccologist@gmail.com>
+Date:   Mon Aug 14 21:32:43 2017 -0300
+
+    Updated readme with download link to binaries
+
+commit 83210fa26fe2e757fec2161d81a883bda24e1459
+Merge: 03d7ca3 fd5b664
+Author: toxicologist <toxiccologist@gmail.com>
+Date:   Mon Aug 14 15:40:50 2017 -0300
+
+    Merge branch 'master' of https://github.com/chancoin-core/chancoin
+
+commit 03d7ca39a3dc4b7bff1ef2004037e89b6c7ae291
+Author: toxicologist <toxiccologist@gmail.com>
+Date:   Mon Aug 14 15:40:31 2017 -0300
+
+    Updated icons - again
+
+commit fd5b664f612aabca45107a38fa2296d692cd5de0
+Author: toxicologist <toxiccologist@gmail.com>
+Date:   Mon Aug 14 09:07:50 2017 +0000
+
+    Added chancoin.info as seednode
+
+commit 54dc7c27b1035ffc344a51152a418c5066980d07
+Author: agrecascino <arecascino@localhost.localdomain>
+Date:   Tue Aug 8 15:29:24 2017 -0400
+
+    New, prettier about dialog.
+
+commit 23d2689ffbf1300420755160034d6bd42cd4fab5
+Author: agrecascino <agrecascino123@gmail.com>
+Date:   Tue Aug 8 14:51:06 2017 -0400
+
+    Fix copyright.
+
+commit b3987d16a37228072ba5b9271e0763f3ffbb039e
+Author: toxicologist <toxiccologist@gmail.com>
+Date:   Tue Aug 8 15:26:58 2017 -0300
+
+    Updated icons
+
+commit 357d13da3b9cce38a89491efc7c6c0ad5f5a3745
+Author: agrecascino <agrecascino123@gmail.com>
+Date:   Mon Aug 7 20:38:20 2017 -0400
+
+    This was just copied from the ABCcoin tutorial, wasn't it.
+
+commit 2d373065dc4a662bed03bf6a6f02497e7662ead3
+Merge: 6266c44 ce9c60e
+Author: nelfwarrior <nelfwarrior64@gmail.com>
+Date:   Tue Jul 25 23:57:36 2017 -0400
+
+    Merge branch 'master' of https://github.com/chancoindev/CHANCOIN
+
+commit 6266c44eb8914da3d9a1a40223399d700a0ec52d
+Author: nelfwarrior <nelfwarrior64@gmail.com>
+Date:   Tue Jul 25 23:56:57 2017 -0400
+
+    updated readme, removed build files
+
+commit ce9c60e3ae3cc559ebfd1b1e6341f1537060e211
+Author: name <root@serenity>
+Date:   Tue Jul 25 19:12:31 2017 -0400
+
+    Changed alert key.
+
+commit fffdefb114106734d11d2add40bcb4a7ebb0884a
+Author: chancoindev <chancoin@protonmail.com>
+Date:   Tue Jul 25 18:53:25 2017 -0400
+
+    added burned coins
+
+commit 65c537ee90ceac4bac1fe488f375bdc14412929b
+Author: chancoindev <chancoin@protonmail.com>
+Date:   Tue Jul 25 16:45:40 2017 -0400
+
+    fixed inner loop var scope
+
+commit 750c0160b50409962f76244f3083a0e54061292e
+Author: chancoindev <chancoin@protonmail.com>
+Date:   Tue Jul 25 16:41:14 2017 -0400
+
+    testnet tx2
+
+commit 91f678601fc394ef47272a5dfcd563b50f7a7d9b
+Author: chancoindev <chancoin@protonmail.com>
+Date:   Tue Jul 25 15:59:48 2017 -0400
+
+    fixed block index bug
+
+commit 3473072db40edab06caaf99a91b883c169d8ce2a
+Author: chancoindev <chancoin@protonmail.com>
+Date:   Tue Jul 25 14:51:20 2017 -0400
+
+    updated transactions
+
+commit 8e20685ef87c79172bc2972b5173e1a95095e81f
+Author: chancoindev <chancoin@protonmail.com>
+Date:   Tue Jul 25 03:37:40 2017 -0400
+
+    added burn tx
+
+commit 5510b98881f6887e174c1c5569d0bfc061289e17
+Author: chancoindev <chancoin@protonmail.com>
+Date:   Tue Jul 25 03:04:08 2017 -0400
+
+    testnet retarget to min-diff every block
+
+commit 5124e9f4c80d48861d7ef5e8c48b150bb7905bc4
+Author: chancoindev <chancoin@protonmail.com>
+Date:   Tue Jul 25 01:48:26 2017 -0400
+
+    removed binary
+
+commit 71f94854f9b8c4305b588301135e45184d6350b6
+Author: chancoindev <chancoin@protonmail.com>
+Date:   Tue Jul 25 01:47:10 2017 -0400
+
+    added old binary, new testnet proofofworklimit
+
+commit 3445fd902c3c40353b2cbb91ebc6419dc8b4816f
+Author: chancoindev <chancoin@protonmail.com>
+Date:   Mon Jul 24 23:16:56 2017 -0400
+
+    fixed order-of-operations bug
+
+commit c069f5b7c31196d669e46bc211b54894bd6a36ed
+Author: chancoindev <chancoin@protonmail.com>
+Date:   Mon Jul 24 22:58:00 2017 -0400
+
+    fixed uint256 truncation
+
+commit c3e855868043a4c92503f3b63fdccefbcdbabe84
+Author: chancoindev <chancoin@protonmail.com>
+Date:   Mon Jul 24 22:47:35 2017 -0400
+
+    fixed incorrect txids, added debug output
+
+commit 3f7bc751e3f103e72b84449743c8ca83d0f39f5c
+Author: name <root@serenity>
+Date:   Mon Jul 24 20:29:50 2017 -0400
+
+    Miniupnpc and testnet.
+
+commit 064ca3740f8c091b6139f08827e08bd5d1181740
+Author: chancoindev <chancoin@protonmail.com>
+Date:   Mon Jul 24 14:51:34 2017 -0400
+
+    first commit

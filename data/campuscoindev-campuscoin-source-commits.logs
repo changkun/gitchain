@@ -1,0 +1,30 @@
+commit 04053e491e5fbd94e4397996339407f667bd51b6
+Merge: eac69b6 03a4a67
+Author: campuscoindev <campuscoindev@outlook.com>
+Date:   Sun Jul 30 04:57:04 2017 -0400
+
+    Merge pull request #3 from hexpool/patch-1
+    
+    Update rpcrawtransaction.cpp
+
+commit 03a4a67862ed0e142c9ebf2d447806798996960b
+Author: hexpool <30502705+hexpool@users.noreply.github.com>
+Date:   Thu Jul 27 17:12:01 2017 +0200
+
+    Update rpcrawtransaction.cpp
+    
+    Conditional check for boost version, so that it compiles on more boost versions.
+
+commit eac69b6aedcc4a47a08807d1c62768deb2c84945
+Author: campuscoindev <campuscoindev@outlook.com>
+Date:   Tue Jul 11 17:13:54 2017 -0400
+
+    Source
+    
+    CampusCoin Source Code
+
+commit b5078d108dc5913e3fa2e3c934e399f4b1f2c069
+Author: campuscoindev <campuscoindev@outlook.com>
+Date:   Tue Jul 11 17:12:40 2017 -0400
+
+    Initial commit

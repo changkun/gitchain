@@ -1,0 +1,417 @@
+commit e8e3f0e25721bde6c892903081dae02c1c6b0df7
+Merge: 72e7eec 007d74d
+Author: SlimePuppy <SlimePuppy@users.noreply.github.com>
+Date:   Wed Aug 9 16:12:26 2017 -0500
+
+    Merge pull request #22 from CatcoinOfficial/SlimePuppy-patch-1
+    
+    Update LibDB and OpenSSL versions for Windows Build
+
+commit 72e7eec2223cac7cab525a2bdedc4729ea82d072
+Author: SlimePuppy <SlimePuppy@users.noreply.github.com>
+Date:   Wed Aug 9 16:10:54 2017 -0500
+
+    Update Dep Versions
+
+commit 007d74dec42d92189e84779d76d4cf8906a803a6
+Author: SlimePuppy <SlimePuppy@users.noreply.github.com>
+Date:   Wed Aug 9 16:07:29 2017 -0500
+
+    Update LibDB and OpenSSL versions for Windows Build
+
+commit 9eda388f630648178fa4564a994da3de21e6e74c
+Author: Blaksmith <blak@uhtc.net>
+Date:   Wed Aug 9 01:50:04 2017 -0400
+
+    Updated missing entries for catcoin-qt.pro file
+
+commit 89b8dcae967170e3ce5596a782af0d774816e812
+Author: Blaksmith <blak@uhtc.net>
+Date:   Wed Aug 9 00:59:02 2017 -0400
+
+    Added missing images for Multisig
+
+commit 17d71339dd202c825f2f136c85fc1da938acc526
+Author: Blaksmith <blak@uhtc.net>
+Date:   Wed Aug 9 00:53:18 2017 -0400
+
+    Added missing UI files for MultiSig
+
+commit bef305ddf717d22f9ea3a1d67df7c02e0dac1ccb
+Author: Blaksmith <blak@uhtc.net>
+Date:   Wed Aug 9 00:45:17 2017 -0400
+
+    Fixed Last Block Time check (Effective 9-1-2017 00:00:00 GMT), Updated OpenSSL for DER, Added MultiSig by Jaboja, Added checkpoints up to today.
+
+commit edba4b417e1afaa4be1120b06c4c53b59b9fe6de
+Author: Blaksmith <blak@uhtc.net>
+Date:   Wed Aug 9 00:44:29 2017 -0400
+
+    Fixed Last Block Time check (Effective 9-1-2017 00:00:00 GMT), Updated OpenSSL for DER, Added MultiSig by Jaboja, Added checkpoints up to today.
+
+commit 0526303330f1d67aa46fb79d964427072a18968d
+Author: Blaksmith <blak@uhtc.net>
+Date:   Wed Aug 5 15:09:49 2015 -0400
+
+    Removed "Testnet Only" debugging output per block for the PID routine.
+
+commit f389fe5494f2cb72c6f22ce82a45c045c637098d
+Author: Blaksmith <blak@uhtc.net>
+Date:   Sat Jun 27 13:32:15 2015 -0400
+
+    Fixed assert(pindexFirst) bug
+    Fixed the warning about signed vs unsigned.
+
+commit a54f07dc995e4e055869d6b632e0b289f0881509
+Author: SlimePuppy <SlimePuppy@users.noreply.github.com>
+Date:   Fri Jun 26 04:22:08 2015 -0500
+
+    Assign version number for 9.2.0
+
+commit 8f0bfe2e16a6b99467dbec43a6e5a0d3eb78bb85
+Author: Blaksmith <blak@uhtc.net>
+Date:   Thu Jun 25 18:15:43 2015 -0400
+
+    Fork block number set: 46331 - Should hit around the middle of July, 2015.
+
+commit 5f1d9c2f95a67f410e2bb4229a2ca35d716a552a
+Author: Blaksmith <blak@uhtc.net>
+Date:   Wed Jun 24 18:03:04 2015 -0400
+
+    Re-set the fork block back to 999999 until a block has been picked.
+
+commit f094601c3352f6ba4e2e4c0e1fe14da482d0939c
+Author: Blaksmith <blak@uhtc.net>
+Date:   Wed Jun 24 02:47:45 2015 -0400
+
+    Kicks self in ass... didn't actually update block fork number.
+
+commit 7caeb291d5ee3babeb7beee0c2b6044fbefcae4a
+Author: Blaksmith <blak@uhtc.net>
+Date:   Wed Jun 24 01:06:53 2015 -0400
+
+    Checkpoints updated properly this time
+
+commit 0d5a0ec09bbbf1c0b2ad3941c751419b86942c7a
+Author: Blaksmith <blak@uhtc.net>
+Date:   Wed Jun 24 01:03:02 2015 -0400
+
+    Set fork block to 44500
+    Versions set to 0.9.2.0
+    Added checkpoints up to block 44000
+
+commit 8698e23c109da209369b1aed571b1eec7dbb962e
+Author: SlimePuppy <awhecker@gmail.com>
+Date:   Tue Jun 23 21:01:08 2015 -0500
+
+    Multiple Updates - Prep for release of 9.2.0
+
+commit 6c808632da42144a1581a893a6f6c984cba18a1e
+Author: SlimePuppy <SlimePuppy@users.noreply.github.com>
+Date:   Tue Jun 23 21:00:25 2015 -0500
+
+    Copyright dates; adjust algo
+
+commit b1116e4fe48aeae44d5efd60c549b2f4ce36b26d
+Author: SlimePuppy <awhecker@gmail.com>
+Date:   Tue Jun 23 20:23:10 2015 -0500
+
+    Revert "Multiple Updates - prep for release of 9.2.0"
+    
+    This reverts commit bf85a6f2436d77f91fbfb5ba59e3b980d506a188.
+
+commit bf85a6f2436d77f91fbfb5ba59e3b980d506a188
+Author: SlimePuppy <awhecker@gmail.com>
+Date:   Tue Jun 23 20:19:53 2015 -0500
+
+    Multiple Updates - prep for release of 9.2.0
+    
+    Minus checkpoint. Minus correct main.cpp from Blaksmith
+
+commit d427d05bbcd3ce214eafcd8cb696f5cc94d746d1
+Merge: b349dd7 c6e9d74
+Author: Zero Drama <rares.marian@zoho.com>
+Date:   Fri Oct 10 03:49:44 2014 -0400
+
+    Merge pull request #16 from SlimePuppy/master
+    
+    Update net.cpp
+
+commit c6e9d74a24ec5d6dbeef1b89cbb553c0dce0cbcf
+Author: SlimePuppy <SlimePuppy@users.noreply.github.com>
+Date:   Thu Oct 9 15:34:17 2014 -0500
+
+    Update net.cpp
+    
+    Updated seed node policy to reinforce the requirement to run only officially-released code, and removed seed node known to be using hacked code.
+
+commit b349dd78e056066fcefbc96e355065535fbec7b9
+Author: SlimePuppy <awhecker@gmail.com>
+Date:   Thu May 1 14:29:25 2014 -0500
+
+    V9.1.1 QT Splash Screen image Update
+
+commit 7364f291dd84a08eb3cf7f78db101d754cbe097d
+Merge: 330911d 91a928f
+Author: Zero Drama <rares.marian@zoho.com>
+Date:   Thu May 1 03:52:14 2014 -0400
+
+    Merge pull request #12 from tmagik/master
+    
+    Tighten timing checks and clean up the divide by zerodrama bug
+
+commit 91a928f5033177ac1cb22a288d0a363f31d5c2a3
+Author: Troy Benjegerdes <hozer@hozed.org>
+Date:   Thu May 1 01:55:15 2014 -0500
+
+    Get rid of assert, and go back a few more blocks
+
+commit 97cfc3f2963f47b65f4eaf410d129270c5ef77ed
+Author: Troy Benjegerdes <hozer@hozed.org>
+Date:   Thu May 1 00:55:11 2014 -0500
+
+    Change fork4Block to just before the bug.
+
+commit 8849be9ae387a2ae7bd4348757640dbec1ccd946
+Author: Troy Benjegerdes <hozer@hozed.org>
+Date:   Thu May 1 00:27:23 2014 -0500
+
+    Only display 'fatal' when it's actually fatal.
+
+commit b8c3b9b05dee13fd495fc5a2bd6d59e775c85f68
+Author: Troy Benjegerdes <hozer@hozed.org>
+Date:   Thu May 1 00:09:15 2014 -0500
+
+    Catcoin 0.9.1.1 (911) release fixes divide by zerodrama timewarp bug
+    
+    We now return you to your regularly scheduled catnap.
+
+commit 0d03a5b3d8bb7bc3c935e7196c5d807da997cf9c
+Author: Troy Benjegerdes <hozer@hozed.org>
+Date:   Wed Apr 30 21:53:02 2014 -0500
+
+    Tighten up timing tolerances and assert instead of diving by zero
+
+commit 993d4709d1bbd776798243e5a57d1cf7fe18e7fe
+Author: Troy Benjegerdes <hozer@hozed.org>
+Date:   Wed Apr 30 19:32:05 2014 -0500
+
+    Whitespace/tab/comment cleanup
+
+commit 330911df5e34ab1070fb7bcd8bfcedd6af3dbd64
+Merge: ab986e4 da7e6d9
+Author: Zero Drama <rares.marian@zoho.com>
+Date:   Fri Apr 11 14:00:35 2014 -0400
+
+    Merge pull request #11 from tmagik/master
+    
+    DOH just do a **build** version update, not a minor release. egg-of-face
+
+commit da7e6d9a72eac4b5eaf497befd9fee74f5d31713
+Author: Troy Benjegerdes <hozer@hozed.org>
+Date:   Fri Apr 11 12:45:03 2014 -0500
+
+    DOH just do a **build** version update, not a minor release. egg-of-face
+
+commit ab986e44639742e9a3ba9c99b72b44c9efb9e002
+Merge: a8270b7 1ca4404
+Author: Zero Drama <rares.marian@zoho.com>
+Date:   Fri Apr 11 01:53:51 2014 -0400
+
+    Merge pull request #10 from tmagik/master
+    
+    Bump version for openssl security updates
+
+commit 1ca440467863ff2daa0234b36401706872391e6a
+Author: Troy Benjegerdes <hozer@hozed.org>
+Date:   Fri Apr 11 00:40:30 2014 -0500
+
+    Bump version for openssl security updates
+
+commit a8270b7ba8ebd36b4531ac7972379db8d2bcf411
+Author: zerodrama <rares.marian@zoho.com>
+Date:   Mon Mar 17 00:55:42 2014 -0400
+
+    splash for 0.9
+
+commit 44bd36dc961179e5379e90c09df8a49191e1792a
+Author: zerodrama <rares.marian@zoho.com>
+Date:   Sat Mar 15 19:59:04 2014 -0400
+
+    PID difficulty and version 0.9
+
+commit d1edb7a0961721e00b107006456ea408e4a03aa0
+Author: SlimePuppy <awhecker@gmail.com>
+Date:   Mon Feb 17 20:32:24 2014 -0600
+
+    New Wallet Splash
+
+commit 3bb1c8d21c47c2ba88daeb8f0c514faad040f11c
+Author: SlimePuppy <SlimePuppy@users.noreply.github.com>
+Date:   Mon Feb 17 20:12:25 2014 -0600
+
+    Delete splash.png
+    
+    johnny_non provided updated splash screen - this is deprecated
+
+commit c8c613f9763ee87dbf9c397e32bab4773dd5ccec
+Author: SlimePuppy <SlimePuppy@users.noreply.github.com>
+Date:   Mon Feb 17 17:47:39 2014 -0600
+
+    Update clientversion.h
+    
+    Changed to Release on line 15
+
+commit e2be4dfd20a591e6d899b1cdb1a616baab985c26
+Merge: 2ea59d8 0866f28
+Author: SlimePuppy <SlimePuppy@users.noreply.github.com>
+Date:   Mon Feb 17 17:24:06 2014 -0600
+
+    Merge pull request #9 from tmagik/master
+    
+    Checkpoint, and debug to unfork this mess
+
+commit 0866f287f038ad90ee4a0866dcf2745ecdd11c13
+Author: Troy Benjegerdes <hozer@hozed.org>
+Date:   Fri Feb 14 21:20:02 2014 -0600
+
+    Checkpoints, and try for a reasonable ComputeMinWork calculation
+
+commit 1f5cddef445dcb9ab566c575e018d1ef628138f2
+Author: Troy Benjegerdes <hozer@hozed.org>
+Date:   Fri Feb 14 15:31:49 2014 -0600
+
+    Update the DNS seed list and policy
+
+commit bac658fa4d30e5312b1d3524fccc28d76b73887b
+Author: Troy Benjegerdes <hozer@hozed.org>
+Date:   Fri Feb 14 15:26:44 2014 -0600
+
+    Version bump and pre-release info, and add debug for fork problem
+
+commit d83ffa42967c826151143300dee6eb6975f68efd
+Author: Troy Benjegerdes <hozer@hozed.org>
+Date:   Tue Feb 11 13:31:29 2014 -0600
+
+    Add a checkpoint in preparation for a 0.9.0 release (0.8.9.9-beta)
+
+commit fa9010711c3fc4fbdbf4771a1dddc1b7b39ebf20
+Author: Troy Benjegerdes <hozer@hozed.org>
+Date:   Sun Feb 9 14:00:57 2014 -0600
+
+    Put in some updated DNS seeds so we don't need addnode=XX
+
+commit 2ea59d84d1c0d5aa759e2137fe375bc7386007c8
+Merge: 19527d6 ffa0ba4
+Author: Maverickthenoob <kevin_mccurdy@hotmail.com>
+Date:   Thu Jan 30 18:24:51 2014 -0800
+
+    Merge pull request #6 from tmagik/master
+    
+    Readme updates
+
+commit ffa0ba4193862b36898bbc450f008617b736bc85
+Author: Troy Benjegerdes <hozer@hozed.org>
+Date:   Thu Jan 30 19:17:07 2014 -0600
+
+    more fidgety
+
+commit b17d5a316063d15b0a0ab3e90ec8be2a75a0b2a5
+Author: Troy Benjegerdes <hozer@hozed.org>
+Date:   Thu Jan 30 19:15:34 2014 -0600
+
+    Arg. need readme.md viewer
+
+commit ddb8a71603e6c0ae3e5cb8bdd08dd2040c2a6547
+Author: Troy Benjegerdes <hozer@hozed.org>
+Date:   Thu Jan 30 19:12:42 2014 -0600
+
+    Readme update
+
+commit 19527d610fc0a2799cf5a70a42b3530c7db0c9ca
+Merge: c0ba459 8768a31
+Author: Zero Drama <rares.marian@zoho.com>
+Date:   Thu Jan 30 04:29:04 2014 -0800
+
+    Merge pull request #5 from zerodrama/master
+    
+    make build_detect_platform executable
+
+commit 8768a31b2a5d6615e91f0cd0472d691bc7edb9a2
+Author: zerodrama <rares.marian@zoho.com>
+Date:   Thu Jan 30 07:23:52 2014 -0500
+
+    generated missing catcoin_testnet.ico
+
+commit c0ba459ae2ba6fa611bb6fbf10fdbef6e50954aa
+Author: Zero Drama <rares.marian@zoho.com>
+Date:   Thu Jan 30 06:48:07 2014 -0500
+
+    changed lines 382 and 419 to catcoin-qt.rc
+    
+    reference: https://github.com/CatcoinOfficial/CatcoinRelease/issues/2
+
+commit 82d8d801188ec1739a590973ef0fb2f17c39ac92
+Merge: 95ca382 c1a6ad7
+Author: zerodrama <rares.marian@zoho.com>
+Date:   Wed Jan 29 23:37:00 2014 -0500
+
+    Merge branch 'master' of https://github.com/CatcoinOfficial/CatcoinRelease
+
+commit 95ca38252ae2b54d781a49395fabde661cfb052d
+Author: zerodrama <rares.marian@zoho.com>
+Date:   Wed Jan 29 23:33:50 2014 -0500
+
+    make build_detect_platform executable
+
+commit c1a6ad7c7204467c9676982e792c8ac8c5be255d
+Merge: cd89c4d 91f0da2
+Author: tmagik <hozer@hozed.org>
+Date:   Wed Jan 29 20:09:48 2014 -0800
+
+    Merge pull request #4 from ambethia/osx
+    
+    Build on OS X 10.9
+
+commit 91f0da20a0da3ff60b11c024aa5ba33138b7261d
+Merge: ae2c623 cd89c4d
+Author: Jason L Perry <jasper@ambethia.com>
+Date:   Wed Jan 29 23:07:51 2014 -0500
+
+    Merge remote-tracking branch 'upstream/master' into osx
+    
+    Conflicts:
+            catcoin-qt.pro
+
+commit cd89c4d492c1688efc53a4e85c888b90470cc114
+Merge: 38aa24d 06de378
+Author: tmagik <hozer@hozed.org>
+Date:   Wed Jan 29 19:58:49 2014 -0800
+
+    Merge pull request #3 from tmagik/master
+    
+    Cleanup for release & version bump
+
+commit ae2c62357db3546fe5b4ce3521277b0ed9f5a7ab
+Author: Jason L Perry <jasper@ambethia.com>
+Date:   Wed Jan 29 22:47:47 2014 -0500
+
+    Build on OS X 10.9
+
+commit 06de3783bcb5a50f8996358d56092355d83a7356
+Author: Troy Benjegerdes <hozer@hozed.org>
+Date:   Wed Jan 29 21:43:50 2014 -0600
+
+    Cleanup for release & version bump
+
+commit 38aa24de848e3efbb0db782a2c628b168040ad6a
+Author: Maverickthenoob <kevin_mccurdy@hotmail.com>
+Date:   Wed Jan 29 22:10:48 2014 -0400
+
+    Commit working files
+
+commit eaf435dcaaf936e633827d8758148a229879df02
+Author: Maverickthenoob <kevin_mccurdy@hotmail.com>
+Date:   Wed Jan 29 22:09:02 2014 -0400
+
+    first commit

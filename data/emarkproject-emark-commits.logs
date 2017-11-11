@@ -1,0 +1,419 @@
+commit bd6dddf88f957b1d2169923630533e26295625df
+Merge: a10bf0e d639813
+Author: emarkproject <info@deutsche-emark.org>
+Date:   Tue Jun 6 21:49:15 2017 +0200
+
+    Merge pull request #27 from xBlackEye/patch-6
+    
+    Update bitcoin_de.ts
+
+commit d6398133800ef5e320f64ecd175a55e51f743de0
+Author: Lukas <xBlackEye@users.noreply.github.com>
+Date:   Tue Jun 6 21:47:37 2017 +0200
+
+    Update bitcoin_de.ts
+
+commit a10bf0e9799a708fe9d2acd01c0eaccf32f94503
+Merge: d274751 cac546a
+Author: emarkproject <info@deutsche-emark.org>
+Date:   Tue Jun 6 21:47:16 2017 +0200
+
+    Merge pull request #26 from Broatcast/master
+    
+    Fix Unix build process with hardening, Fix cleanup target
+
+commit cac546a4261a85acb1419d1f8722123c6c471179
+Author: Robert Kuntz <ghub@broatcast.de>
+Date:   Thu Jun 1 19:33:11 2017 +0200
+
+    Typo fix
+
+commit 9588f679aff66b64d3c7a7a208f2461c1e4407bf
+Author: Broatcast <ghub@broatcast.de>
+Date:   Thu Jun 1 19:21:30 2017 +0200
+
+    Fix Unix build process with hardening, Fix cleanup target
+
+commit d27475124d5350e1fa4aa6668ffe490890c28c22
+Merge: 3d0da6f 43cdb7c
+Author: Rumhocker <rumhocker@deutsche-emark.org>
+Date:   Thu Mar 2 20:14:47 2017 +0100
+
+    Merge pull request #25 from xBlackEye/patch-5
+    
+    Update bitcoin_de.ts
+
+commit 43cdb7c46fd3d72ecba05fee930aa00345448580
+Author: Lukas <xBlackEye@users.noreply.github.com>
+Date:   Sun Feb 19 11:55:10 2017 +0100
+
+    Update bitcoin_de.ts
+
+commit c0836e7a6b62b28de06b07a75044d2e303b465ad
+Author: Lukas <xBlackEye@users.noreply.github.com>
+Date:   Sun Feb 19 11:43:05 2017 +0100
+
+    Update bitcoin_de.ts
+
+commit 238dff74de6429086e27299f3815157dd566faf9
+Author: Lukas <xBlackEye@users.noreply.github.com>
+Date:   Sun Feb 19 11:40:11 2017 +0100
+
+    Update bitcoin_de.ts
+
+commit f96892c343c38c293e2c37c942aaa9f330b7b466
+Author: Lukas <xBlackEye@users.noreply.github.com>
+Date:   Sun Feb 19 11:30:47 2017 +0100
+
+    Update bitcoin_de.ts
+
+commit 3d0da6f4e033c06947f064b9e8464910c81663e4
+Merge: 3152ab5 a324082
+Author: Rumhocker <rumhocker@deutsche-emark.org>
+Date:   Sat Feb 18 12:08:11 2017 +0100
+
+    Merge pull request #22 from xBlackEye/patch-3
+    
+    Update bitcoin_de.ts
+
+commit 3152ab518e94e2d12d8daa30ac90812955ed94d5
+Merge: b6d687a b4d6414
+Author: Rumhocker <rumhocker@deutsche-emark.org>
+Date:   Sat Feb 18 12:07:58 2017 +0100
+
+    Merge pull request #21 from xBlackEye/patch-2
+    
+    Update bitcoin_de.ts
+
+commit b6d687ad4665e957b61068d18d1bdaf9b5d80b78
+Merge: 04ee9cf 8cc308c
+Author: Rumhocker <rumhocker@deutsche-emark.org>
+Date:   Sat Feb 18 12:07:48 2017 +0100
+
+    Merge pull request #20 from xBlackEye/patch-1
+    
+    Update bitcoin_de.ts
+
+commit 04ee9cfbd835ce80e264d255cf13fd00eeaa7b4c
+Merge: b7f892e 9ba643a
+Author: Rumhocker <rumhocker@deutsche-emark.org>
+Date:   Sat Feb 18 12:07:24 2017 +0100
+
+    Merge pull request #24 from xBlackEye/patch-4
+    
+    Update bitcoin_de.ts
+
+commit 9ba643a0db44b929057b97221a054f75042abec4
+Author: Lukas <xBlackEye@users.noreply.github.com>
+Date:   Sat Feb 18 11:05:10 2017 +0100
+
+    Update bitcoin_de.ts
+
+commit a324082e735c979e5a5e289dbe34c356e3753a81
+Author: Lukas <xBlackEye@users.noreply.github.com>
+Date:   Sun Dec 11 09:57:49 2016 +0100
+
+    Update bitcoin_de.ts
+
+commit b4d6414a0914f8688b34ea1f6a4e609b56ee217b
+Author: Lukas <xBlackEye@users.noreply.github.com>
+Date:   Fri Nov 4 09:38:11 2016 +0100
+
+    Update bitcoin_de.ts
+
+commit bd127e087c58e989063b1383d3b01c00d606c9fc
+Author: Lukas <xBlackEye@users.noreply.github.com>
+Date:   Fri Nov 4 09:30:45 2016 +0100
+
+    Update bitcoin_de.ts
+
+commit 8cc308c3b753a2252b7cda1333a845bfd57c62ec
+Author: Lukas <xBlackEye@users.noreply.github.com>
+Date:   Fri Nov 4 09:24:03 2016 +0100
+
+    Update bitcoin_de.ts
+
+commit b7f892ef2966e579638aa6974addc0bf64369634
+Merge: afeb498 66c3805
+Author: Rumhocker <rumhocker@deutsche-emark.org>
+Date:   Sun Oct 30 18:55:41 2016 +0100
+
+    Merge pull request #17 from Rumhocker/master
+    
+    eMarkproject/eMark
+
+commit 66c380553a9e0c2592e07e169a401b587e162493
+Author: Rumhocker <rumhocker@deutsche-emark.org>
+Date:   Sun Oct 30 18:32:09 2016 +0100
+
+    Version up
+
+commit ef111bcd30204e8618c269cbf209b72b8127a9ee
+Author: Rumhocker <rumhocker@deutsche-emark.org>
+Date:   Sun Oct 30 18:31:56 2016 +0100
+
+    comment out to build static Windows.exe
+
+commit 6d49a907f14ab7be59b81bf75b7f5a06e0c4c893
+Author: Rumhocker <rumhocker@deutsche-emark.org>
+Date:   Sun Oct 30 18:30:27 2016 +0100
+
+    Hardfork readme
+
+commit a5dbdb7fefb34f363022c433e6671a80394a3715
+Author: Rumhocker <rumhocker@deutsche-emark.org>
+Date:   Sun Oct 30 18:29:55 2016 +0100
+
+    avoid calling GetAdjustedTime() from static intialization
+
+commit a76f67d4b376fe8a5fba7a42e3f65dc6cc923069
+Author: Rumhocker <rumhocker@deutsche-emark.org>
+Date:   Sun Oct 30 18:29:41 2016 +0100
+
+    fix miniupnpc > 1.6
+
+commit ab8630ad268d3a28a7e80c86d94342b70a6e01fb
+Author: Rumhocker <rumhocker@deutsche-emark.org>
+Date:   Sun Oct 30 18:29:21 2016 +0100
+
+    new Mac icon
+
+commit 395fdd53bd70f47bb6a757333fbe253bcced9e75
+Author: Rumhocker <rumhocker@deutsche-emark.org>
+Date:   Mon May 9 22:25:38 2016 +0200
+
+    Update license year range to 2016
+
+commit e4f834a00cc25349030c36ca5a6d18ff6171c8c8
+Author: Rumhocker <rumhocker@deutsche-emark.org>
+Date:   Mon May 9 22:24:55 2016 +0200
+
+    fix german typo
+
+commit 7ed6cbafe749d0d076bd9825b67b15e4c00a06de
+Author: Rumhocker <rumhocker@deutsche-emark.org>
+Date:   Sat May 7 16:43:30 2016 +0200
+
+    set HardforkTime
+
+commit 262e117197b8ba92fdb5dfa3cebe527ef0c8e6c7
+Author: Rumhocker <rumhocker@deutsche-emark.org>
+Date:   Wed May 4 20:44:04 2016 +0200
+
+    build static wallets
+
+commit 27bf83586c69876146fc48d43852f1aa4d05dbd1
+Author: Rumhocker <rumhocker@deutsche-emark.org>
+Date:   Wed May 4 20:43:25 2016 +0200
+
+    don´t connect to older version
+
+commit 4f6fb0cf3e521f7e3921ba339a9e530ee8430e4b
+Author: Rumhocker <rumhocker@deutsche-emark.org>
+Date:   Wed May 4 08:20:25 2016 +0200
+
+    Protocol V3
+
+commit 3cfd0862a66db340aee81204313565b4ab9c4ce2
+Author: Rumhocker <rumhocker@deutsche-emark.org>
+Date:   Wed May 4 08:14:54 2016 +0200
+
+    new checkpoints
+
+commit 5bf0e2ca9f912b56b50f3837aebcc05bd5d095e1
+Author: Rumhocker <rumhocker@deutsche-emark.org>
+Date:   Wed May 4 08:14:36 2016 +0200
+
+    add Regtest
+
+commit b1cf5c32875f2f911856104832e963051e3742e7
+Author: Rumhocker <rumhocker@deutsche-emark.org>
+Date:   Fri Feb 26 00:34:27 2016 +0100
+
+    add "filtered block" for ProcessMessages()
+
+commit d60a9ca65113a64b54a812d71e355c417a917748
+Author: Rumhocker <rumhocker@deutsche-emark.org>
+Date:   Fri Feb 26 00:31:14 2016 +0100
+
+    fix "timestamp"
+
+commit a4ef813c0e16900910cd0f117ffb7b08a90fa99d
+Author: Rumhocker <rumhocker@deutsche-emark.org>
+Date:   Thu Feb 25 22:25:24 2016 +0100
+
+    Version 1.4
+
+commit 4b43059080656f36dd94f71224795ee52210ff69
+Author: Rumhocker <rumhocker@deutsche-emark.org>
+Date:   Thu Feb 25 22:24:56 2016 +0100
+
+    add uint256 const type
+
+commit a49759dd988828349c6cd58f0e183df9d86ae912
+Author: Rumhocker <rumhocker@deutsche-emark.org>
+Date:   Thu Feb 25 21:39:46 2016 +0100
+
+    include bloom
+
+commit 7bb520bd63708564b957d83ded5c205305c997d5
+Author: Rumhocker <rumhocker@deutsche-emark.org>
+Date:   Wed Feb 24 16:21:03 2016 +0100
+
+    Update ProcessGetData
+    
+    to relay merklehashes for call from breadwallet
+
+commit b28445175033b95d36392062909773ae8d4cac7d
+Merge: b97823f afeb498
+Author: Rumhocker <rumhocker@deutsche-emark.org>
+Date:   Wed Feb 24 16:15:41 2016 +0100
+
+    Merge remote-tracking branch 'refs/remotes/emarkproject/master'
+
+commit b97823f92c4dcb9d577f9bb6db10a4fadcba0af6
+Author: Rumhocker <rumhocker@deutsche-emark.org>
+Date:   Mon Nov 23 18:08:30 2015 +0100
+
+    added back "getnetworkhashps"
+
+commit afeb49892b47c00343a3308eaba989e0442b77e0
+Merge: 1dea5ef 68ce2c6
+Author: emarkproject <info@deutsche-emark.org>
+Date:   Fri Oct 9 15:52:12 2015 +0200
+
+    Merge pull request #14 from Rumhocker/master
+    
+    Version 1.3.1
+
+commit 68ce2c65116de402a3f5ef0fa85d6676bf4636b1
+Author: Rumhocker <rumhocker@deutsche-emark.org>
+Date:   Fri Oct 9 15:38:16 2015 +0200
+
+    fix typo
+
+commit 919378a1c6181c39f33857a99c261c43ace5fa65
+Author: Rumhocker <rumhocker@deutsche-emark.org>
+Date:   Fri Oct 9 15:38:02 2015 +0200
+
+    cancel alert
+
+commit b28f511feb7a8934a15f40567906e9c3c593fbde
+Author: Rumhocker <rumhocker@deutsche-emark.org>
+Date:   Thu Oct 8 20:44:51 2015 +0200
+
+    fix typo in german translation
+
+commit 1dea5ef43c2f844847c4e48b152949998f4241cb
+Merge: a1aa91a 5d44038
+Author: emarkproject <info@deutsche-emark.org>
+Date:   Tue Oct 6 21:06:18 2015 +0200
+
+    Merge pull request #13 from Rumhocker/master
+    
+    eMark 1.3 files
+
+commit 5d44038b80e82dd9efa9c1f6e5868ff9effc991f
+Author: Rumhocker <rumhocker@deutsche-emark.org>
+Date:   Mon Oct 5 23:18:17 2015 +0200
+
+    German translation
+
+commit 7e4cb6464b7eefd2098d14434cd5d4ae42224533
+Author: Rumhocker <rumhocker@deutsche-emark.org>
+Date:   Mon Oct 5 23:17:54 2015 +0200
+
+    icon fix
+
+commit 3ba10a12a38fa8026d05300c0336d730437e4017
+Author: Rumhocker <rumhocker@deutsche-emark.org>
+Date:   Sun Oct 4 23:41:57 2015 +0200
+
+    eMark 1.3
+
+commit eeaae00aff3c3e81eba92f99adfa358c376c7eb7
+Author: Rumhocker <kontakt@deutsche-elektronische-mark.de>
+Date:   Mon Feb 23 19:06:19 2015 +0100
+
+    fix some addressbook bugs
+
+commit 73e8c21c4eaefa31c70c3acaeac3af6d46efe1d1
+Author: Rumhocker <kontakt@deutsche-elektronische-mark.de>
+Date:   Mon Feb 23 18:16:06 2015 +0100
+
+    Bugfix - resolve listtransactions issues
+
+commit b1a21bf116c58c02923a431be31a6c7b03d684ae
+Author: Rumhocker <kontakt@deutsche-elektronische-mark.de>
+Date:   Mon Feb 23 18:07:43 2015 +0100
+
+    Bugfix - CWalletTx::GetAmounts
+    
+    Avoid trying to parse outputs that aren’t relevant to
+    CWalletTx::GetAmounts;
+
+commit 5373b3e5c8b880f1fcfdfb37284a59ed0b5d6bd1
+Author: Rumhocker <kontakt@deutsche-elektronische-mark.de>
+Date:   Sat Jan 17 02:39:21 2015 +0100
+
+    LevelDB for QT
+
+commit 174f1626838ecaa5c2c221afa14cc262a4dd40fb
+Author: Rumhocker <kontakt@deutsche-elektronische-mark.de>
+Date:   Fri Jan 16 19:25:27 2015 +0100
+
+    Executable!
+
+commit 16af7af0396c7fcc19d6d0d15942577d19f4f993
+Author: Rumhocker <kontakt@deutsche-elektronische-mark.de>
+Date:   Fri Jan 16 17:48:19 2015 +0100
+
+    add LevelDB support
+
+commit a1aa91ae8c35bfb8bb76f7d775cd7c53fe4926a4
+Author: MrData <mrdata@crypto2.net>
+Date:   Mon Nov 3 22:58:56 2014 -0500
+
+    Send fix
+
+commit b8d52554a2643919b19481db615ccef2c011138b
+Author: Rumhocker <kontakt@deutsche-elektronische-mark.de>
+Date:   Sat Nov 1 23:30:41 2014 +0100
+
+    Change DEM Logo
+
+commit c47aeaecdbc0c32b8f674db929296b2aba1421db
+Author: MrData <mrdata@crypto2.net>
+Date:   Fri Oct 31 12:29:13 2014 -0400
+
+    Linux GUI fix
+
+commit db4b6d4ac155cfeb87acb0a8c99f56a4adb9a958
+Author: MrData <mrdata@crypto2.net>
+Date:   Thu Oct 30 20:29:27 2014 -0400
+
+    Type fixes for Linux
+
+commit 89313167b0d3c3e4691e6fce9e89f3ab3959fbf5
+Author: Rumhocker <kontakt@deutsche-elektronische-mark.de>
+Date:   Thu Oct 30 21:16:52 2014 +0100
+
+    DEM new logo
+
+commit 6ca231cf5b520ab55901c1f86e188847f7084363
+Author: Rumhocker <kontakt@deutsche-elektronische-mark.de>
+Date:   Thu Oct 30 21:16:33 2014 +0100
+
+    Mandatory Wallet Update
+
+commit 6d3e2d99e54c42fe9f9c398ea8434f37fcf28f94
+Author: MrData <mrdata@crypto2.net>
+Date:   Wed Oct 29 13:45:33 2014 -0400
+
+    DEM Updates and Fixes
+
+commit 3c865e63204c49a12867597299ab055ed1a0905f
+Author: eMarks <cthulhu@theoldone.net>
+Date:   Fri Oct 11 14:10:05 2013 -0600
+
+    eMarks 1.0
