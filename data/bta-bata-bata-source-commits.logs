@@ -1,0 +1,2998 @@
+commit 9b281acd90120d8b5b88d5a6c50e6065ab88dd94
+Author: pc888 <p.p.caruana@gmail.com>
+Date:   Thu Oct 26 03:49:20 2017 +1100
+
+    Update Readme
+    
+    Changed removed Slack from Group Chat and replayed with Discord.
+    Updated link for updated Bootstrap.
+
+commit f93f424964a6a9c9a43e8c2c8a8ecf6cc8b86dfb
+Merge: e33979b 96852d5
+Author: pc888 <p.p.caruana@gmail.com>
+Date:   Sat Aug 26 11:08:34 2017 +1000
+
+    Merge pull request #54 from midnight-miner/10.5.1
+    
+    Merge pull request #24 from JustinPercy/10.5.1
+
+commit 96852d559056693e9549000e5fc1619985fd008b
+Merge: a2d69a9 9ceaa9a
+Author: MidnightMiner <midnight-miner@users.noreply.github.com>
+Date:   Thu Aug 24 08:32:13 2017 -0400
+
+    Merge pull request #24 from JustinPercy/10.5.1
+    
+    updates to Firewall 1.2.1
+
+commit e33979be69381f51faba198fb3e9e00abd370cd1
+Author: pc888 <p.p.caruana@gmail.com>
+Date:   Thu Aug 24 16:30:50 2017 +1000
+
+    Update configure.ac
+
+commit 522fa9435ec1252944c5599eeff9a141e9aa58d8
+Merge: e077aae 9ceaa9a
+Author: pc888 <p.p.caruana@gmail.com>
+Date:   Thu Aug 24 15:45:25 2017 +1000
+
+    Merge pull request #52 from JustinPercy/10.5.1
+    
+    Firewall 1.2.1
+
+commit 9ceaa9a1031a124492d98234f8edc2e48b38899b
+Author: JustinPercy <justin@biznaturally.ca>
+Date:   Thu Aug 24 00:36:00 2017 -0500
+
+    Firewall 1.2.1
+
+commit e077aae47ec0e0c75472bf4ae5e3cf3acda18ef6
+Merge: 9c71a94 4eb7ebe
+Author: pc888 <p.p.caruana@gmail.com>
+Date:   Thu Aug 24 14:06:34 2017 +1000
+
+    Merge pull request #51 from BTA-BATA/10.5.1
+    
+    10.5.1
+
+commit 4eb7ebeacbc9e74d4624d0c85784ac2ec07a4390
+Merge: cf4062d a2d69a9
+Author: pc888 <p.p.caruana@gmail.com>
+Date:   Thu Aug 24 14:03:15 2017 +1000
+
+    Merge pull request #50 from midnight-miner/10.5.1
+    
+    10.5.1 - latest firewall updates
+
+commit a2d69a9086be1d4a70082c699529bcd92708b144
+Merge: 5e6aa28 e9f0f91
+Author: MidnightMiner <midnight-miner@users.noreply.github.com>
+Date:   Thu Aug 24 00:00:48 2017 -0400
+
+    Merge pull request #23 from JustinPercy/10.5.1
+    
+    includes Firewall 1.2.1
+
+commit e9f0f914a7be08af17cc3515d50f84c2706599e8
+Author: JustinPercy <justin@biznaturally.ca>
+Date:   Wed Aug 23 22:53:36 2017 -0500
+
+    Firewall 1.2.1
+
+commit cf4062d60743f444cc9e8df2680bfb3c04569a2d
+Merge: 0499f0a 5e6aa28
+Author: pc888 <p.p.caruana@gmail.com>
+Date:   Thu Aug 24 11:48:56 2017 +1000
+
+    Merge pull request #49 from midnight-miner/10.5.1
+    
+    10.5.1
+
+commit 5e6aa2898e7467ee7c5293660b9a23ba41edcb13
+Merge: c9dbde8 6e8d1f7
+Author: jdavid <jdavid@192.168.20.110>
+Date:   Wed Aug 23 11:54:33 2017 -0400
+
+    Merge branch '10.5.1' of https://github.com/midnight-miner/BATA-Development.git into 10.5.1
+
+commit c9dbde8ca8e12e784d2adfabb6f87a87042246a0
+Author: midnight-miner <midnight.miner.crypto@gmail.com>
+Date:   Wed Aug 23 11:53:40 2017 -0400
+
+    Updated Mac files with Bata branding.
+
+commit 6e8d1f7dea7bce517437bbdb7427d4414c2b3500
+Merge: a3f8df8 62d6f90
+Author: MidnightMiner <midnight-miner@users.noreply.github.com>
+Date:   Wed Aug 23 08:24:07 2017 -0400
+
+    Merge pull request #22 from JustinPercy/10.5.1
+    
+    net.cpp updated
+
+commit 62d6f906cf0411736986d4ff3824c75c8ef9e0e8
+Author: JustinPercy <justin@biznaturally.ca>
+Date:   Tue Aug 22 23:32:04 2017 -0500
+
+    net.cpp fixed
+
+commit 9da0deff480ceec5631af0a31561b8f2af490dbb
+Author: JustinPercy <justin@biznaturally.ca>
+Date:   Tue Aug 22 22:47:34 2017 -0500
+
+    net.cpp fixed
+
+commit a8864b11d128be37d7ad76400bb1943eb6dc11df
+Author: JustinPercy <justin@biznaturally.ca>
+Date:   Tue Aug 22 00:45:01 2017 -0500
+
+    net.cpp - debug
+
+commit f8eda129154de96f9047fda6d64cd47d6d85e4ad
+Author: JustinPercy <justin@biznaturally.ca>
+Date:   Mon Aug 21 12:58:34 2017 -0500
+
+    net.cpp - tested
+
+commit a3f8df82214b874ad040ef0c78ae98c910a09b34
+Merge: eea3aa3 442f558
+Author: MidnightMiner <midnight-miner@users.noreply.github.com>
+Date:   Mon Aug 21 13:35:11 2017 -0400
+
+    Merge pull request #21 from JustinPercy/10.5.1
+    
+    Firewall commit.
+
+commit 442f55844703c4139d449609e986c7de020e7d32
+Author: JustinPercy <justin@biznaturally.ca>
+Date:   Mon Aug 21 12:09:24 2017 -0500
+
+    Aggressive
+
+commit 01a7f99c689a69818c5f4bc9a3dac71b7adba502
+Author: JustinPercy <justin@biznaturally.ca>
+Date:   Mon Aug 21 11:20:03 2017 -0500
+
+    Release
+
+commit eea3aa39453164851dd02fe139d110f7261dfcc3
+Merge: ceb4eee 5d52350
+Author: MidnightMiner <midnight-miner@users.noreply.github.com>
+Date:   Sun Aug 20 23:23:13 2017 -0400
+
+    Merge pull request #20 from JustinPercy/10.5.1
+    
+    Firewall 1.2 - Stable
+
+commit 5d523507691af692390428965ab86afd780d5500
+Author: JustinPercy <justin@biznaturally.ca>
+Date:   Sun Aug 20 21:20:48 2017 -0500
+
+    Firewall 1.2 - Final
+
+commit 626a405a27ba4fb4a4002ed52ab28081a843bc9b
+Author: JustinPercy <justin@biznaturally.ca>
+Date:   Sun Aug 20 20:27:37 2017 -0500
+
+    Firewall 1.2 - Stable
+
+commit 0499f0ad2e7801d28203fcafd61e9f4f7efc8c33
+Merge: dcabac8 ceb4eee
+Author: pc888 <p.p.caruana@gmail.com>
+Date:   Sat Aug 19 10:37:41 2017 +1000
+
+    Merge pull request #48 from midnight-miner/10.5.1
+    
+    10.5.1
+
+commit ceb4eeedf7e5736892d9a7c8148e8376365f60eb
+Merge: 15a4195 92116c0
+Author: jdavid <jdavid@192.168.20.110>
+Date:   Fri Aug 18 16:49:46 2017 -0400
+
+    Merge branch '10.5.1' of https://github.com/midnight-miner/BATA-Development.git into 10.5.1
+
+commit 15a4195991b77ee26faf932baa993c7b439d0e79
+Author: midnight-miner <midnight.miner.crypto@gmail.com>
+Date:   Fri Aug 18 16:49:31 2017 -0400
+
+    Modified Mac deploy script.
+
+commit 92116c0f18dc1e188cf53d7785d7b3c860759625
+Author: midnight-miner <midnight.miner.crypto@gmail.com>
+Date:   Fri Aug 18 16:40:29 2017 -0400
+
+    Small touches to prepare for release.
+    
+    Adjusted Splash screen font.
+    Set Pre-Release flag.
+    Bumped minumum PROTOCOL to 80008.
+
+commit 38ef64246c872e4f86436c51269ff10e425fc233
+Merge: e15ef40 0199cd0
+Author: MidnightMiner <midnight-miner@users.noreply.github.com>
+Date:   Fri Aug 18 15:25:35 2017 -0400
+
+    Merge pull request #19 from JustinPercy/10.5.1
+    
+    Bandwidth Ratios
+
+commit 0199cd0feef3dd49b31672ded56090bb056e6a01
+Author: JustinPercy <justin@biznaturally.ca>
+Date:   Fri Aug 18 11:23:57 2017 -0500
+
+    Firewall update
+
+commit 188f006ae69f4d07cb8af423812b4d3096386cb5
+Author: JustinPercy <justin@biznaturally.ca>
+Date:   Fri Aug 18 07:22:30 2017 -0500
+
+    Firewall rule 4
+
+commit 6f5e3b62509ca97c070d9e4aec3daf7abc9f2a70
+Author: JustinPercy <justin@biznaturally.ca>
+Date:   Fri Aug 18 07:16:47 2017 -0500
+
+    Firewall rule 4
+
+commit 4241e848b0e722731475f83c18dd49f502b64033
+Author: JustinPercy <justin@biznaturally.ca>
+Date:   Fri Aug 18 07:16:05 2017 -0500
+
+    Firewall rule 4
+
+commit 111849df0813106944e9022ee0e7a16d2aa34cc9
+Author: JustinPercy <justin@biznaturally.ca>
+Date:   Fri Aug 18 07:15:52 2017 -0500
+
+    Firewall rule 4
+
+commit b1dfa084f32cdc741f79fd011aaba9ec5d2d7d14
+Author: JustinPercy <justin@biznaturally.ca>
+Date:   Fri Aug 18 07:08:03 2017 -0500
+
+    Firewall rule 4
+
+commit 139881169f0a1c49d469716e3be088314630d9d2
+Author: JustinPercy <justin@biznaturally.ca>
+Date:   Fri Aug 18 04:34:23 2017 -0500
+
+    FINAL
+
+commit dcabac87f0b139b2365df14ab3d14c94936d6e53
+Merge: f271b13 e15ef40
+Author: pc888 <p.p.caruana@gmail.com>
+Date:   Fri Aug 18 10:55:38 2017 +1000
+
+    Merge pull request #46 from midnight-miner/10.5.1
+    
+    10.5.1
+
+commit e15ef40cb277ae53dbe3137b8f9bc7fa2a235a5c
+Merge: cc20c5e f1f9952
+Author: jdavid <jdavid@192.168.20.110>
+Date:   Thu Aug 17 15:59:52 2017 -0400
+
+    Merge branch '10.5.1' of https://github.com/midnight-miner/BATA-Development.git into 10.5.1
+
+commit cc20c5e892a9d2ccb861723e8302b8a99aedf72b
+Author: midnight-miner <midnight.miner.crypto@gmail.com>
+Date:   Thu Aug 17 13:42:13 2017 -0400
+
+    Updated Mac deploy script.
+
+commit f1f99521b55f37398bab4ea6a31cf9e3d31b899f
+Author: midnight-miner <midnight.miner.crypto@gmail.com>
+Date:   Thu Aug 17 13:42:13 2017 -0400
+
+    Updated Mac deploy script.
+
+commit 73bc8950272981cc87682feb99345ab62115dca7
+Author: midnight-miner <midnight.miner.crypto@gmail.com>
+Date:   Thu Aug 17 03:20:43 2017 -0400
+
+    Update Travis scripts
+
+commit 898ac5f1a95d650358294e72bca345f7ea9c9693
+Author: midnight-miner <midnight.miner.crypto@gmail.com>
+Date:   Thu Aug 17 02:25:08 2017 -0400
+
+    Attempt trusty instead of precise on Travis build.
+
+commit 3eec9312cdf9349cbfe15d6da943db96ddbb0e68
+Merge: 8724ec7 aed9cc0
+Author: midnight-miner <midnight.miner.crypto@gmail.com>
+Date:   Thu Aug 17 02:19:26 2017 -0400
+
+    Merge branch '10.5.1' of https://github.com/midnight-miner/BATA-Development.git into 10.5.1
+
+commit 8724ec740c6c6b10f7984c85ca4c295d18ace344
+Merge: ebbb150 bbc2460
+Author: midnight-miner <midnight.miner.crypto@gmail.com>
+Date:   Thu Aug 17 02:15:27 2017 -0400
+
+    Conflicts:
+            .travis.yml
+
+commit aed9cc06e1bd25536f7344eddbf0133784bc79ab
+Merge: ebbb150 bbc2460
+Author: midnight-miner <midnight.miner.crypto@gmail.com>
+Date:   Thu Aug 17 02:15:27 2017 -0400
+
+    Merge branch '10.5.1' of
+    https://github.com/midnight-miner/BATA-Development.git into 10.5.1
+    
+    Conflicts:
+            .travis.yml
+
+commit ebbb15053a4f85a3f655b63215ae18361511aabb
+Author: midnight-miner <midnight.miner.crypto@gmail.com>
+Date:   Thu Aug 17 01:35:54 2017 -0400
+
+    Update Travis config.
+
+commit bbc2460c906c13ba5d70cf9d51e1c3ed453f6176
+Author: midnight-miner <midnight.miner.crypto@gmail.com>
+Date:   Thu Aug 17 01:35:54 2017 -0400
+
+    Update Travis config.
+
+commit 1a9f2e63b9a033290acfab3fee08b8c51e3d317a
+Merge: 74ceba0 38d000b
+Author: MidnightMiner <midnight-miner@users.noreply.github.com>
+Date:   Thu Aug 17 00:40:10 2017 -0400
+
+    Merge pull request #17 from JustinPercy/10.5.1
+    
+    Latest Latest...
+
+commit 74ceba06d206a0adc338c6c456620573a31fd9eb
+Author: midnight-miner <midnight.miner.crypto@gmail.com>
+Date:   Thu Aug 17 00:32:01 2017 -0400
+
+    Tidy up code for 10.5.1
+
+commit b963aa562582ec329dfc3bac49d0809ad9aaeac3
+Author: midnight-miner <midnight.miner.crypto@gmail.com>
+Date:   Wed Aug 16 23:09:27 2017 -0400
+
+    Modified PEER PROTOCOL verions for faster synchronization.
+
+commit 38d000be04627265b8f8fd24dd24740da163b2c4
+Author: JustinPercy <justin@biznaturally.ca>
+Date:   Wed Aug 16 21:06:56 2017 -0500
+
+    Latest
+
+commit cfb909987378f6ccf871e44ea5629bdd7da57c9c
+Author: JustinPercy <justin@biznaturally.ca>
+Date:   Wed Aug 16 21:06:09 2017 -0500
+
+    Latest
+
+commit 8ebe68f3a33ead29f9d3d7684aca5d026c3b18bb
+Merge: a2dbc1b bc7f01d
+Author: midnight-miner <midnight.miner.crypto@gmail.com>
+Date:   Wed Aug 16 21:51:23 2017 -0400
+
+    Merge branch '10.5.1' of https://github.com/midnight-miner/BATA-Development.git into 10.5.1
+
+commit a2dbc1b149f2f024965d2035f0f565578cdcb3d5
+Author: midnight-miner <midnight.miner.crypto@gmail.com>
+Date:   Wed Aug 16 21:43:24 2017 -0400
+
+    tidy up splash screen
+
+commit bc7f01d4cc0a294f1413bcb4856d8c23318cba80
+Merge: 4224749 8cbf91a
+Author: MidnightMiner <midnight-miner@users.noreply.github.com>
+Date:   Wed Aug 16 18:15:00 2017 -0400
+
+    Merge pull request #16 from JustinPercy/10.5.1
+    
+    Firewall 1.2
+
+commit 8cbf91ac6070833e6eba5d9d12e1550dd97fef74
+Author: JustinPercy <justin@biznaturally.ca>
+Date:   Wed Aug 16 15:26:17 2017 -0500
+
+    Firewall - PROTOCOL VERSION removed
+
+commit 4224749f49a86c85b5aeaeaf2bdfd9fe5e9aff2c
+Author: midnight-miner <midnight.miner.crypto@gmail.com>
+Date:   Wed Aug 16 15:33:03 2017 -0400
+
+    Increased minimum verson for block request to 80008.
+
+commit 1dc8be8b2e3e579b53d3b7a8b4377ca7223af4e0
+Author: JustinPercy <justin@biznaturally.ca>
+Date:   Wed Aug 16 13:39:39 2017 -0500
+
+    Release info
+
+commit d0c11f27a44336b2d1a2703dd0cc7c4524449970
+Author: JustinPercy <justin@biznaturally.ca>
+Date:   Wed Aug 16 13:33:08 2017 -0500
+
+    Stable release
+
+commit 50c93fb1bc34554e49815fd74a7339f31ca02292
+Merge: d314429 4f2a1fc
+Author: MidnightMiner <midnight-miner@users.noreply.github.com>
+Date:   Wed Aug 16 12:24:32 2017 -0400
+
+    Merge pull request #14 from JustinPercy/10.5.1
+    
+    Firewall 1.2
+
+commit 4f2a1fc8a6d7c203f865be739982dbfb423b3850
+Author: JustinPercy <justin@biznaturally.ca>
+Date:   Wed Aug 16 05:57:11 2017 -0500
+
+    Fixed
+
+commit 8eb4ac8bc8dacfbeef9222d92e631624d78bf28b
+Author: JustinPercy <justin@biznaturally.ca>
+Date:   Wed Aug 16 04:32:00 2017 -0500
+
+    Fixed
+
+commit 1fe5e1f226fc04bba6d478c3d302d0012d63cab3
+Author: JustinPercy <justin@biznaturally.ca>
+Date:   Wed Aug 16 04:30:40 2017 -0500
+
+    Fixed
+
+commit 5dd6dc137199a8fac7e8bc4f1b10aaf23f56b46a
+Author: JustinPercy <justin@biznaturally.ca>
+Date:   Tue Aug 15 23:30:01 2017 -0500
+
+    Firewall 1.2
+
+commit ebe7e2cffd8b8586bc4087330309c1ec55f9729c
+Author: JustinPercy <justin@biznaturally.ca>
+Date:   Tue Aug 15 09:57:33 2017 -0500
+
+    Firewall 1.2
+
+commit 6cae3ec3053ebb2acb9538b52989cfa1ee72c3fa
+Author: JustinPercy <justin@biznaturally.ca>
+Date:   Tue Aug 15 01:42:37 2017 -0500
+
+    released
+
+commit d3144291a2dea654cd59ccf457edd5e90d8975f7
+Merge: fe47e2d 376ec96
+Author: MidnightMiner <midnight-miner@users.noreply.github.com>
+Date:   Mon Aug 14 08:11:11 2017 -0400
+
+    Merge pull request #12 from JustinPercy/10.5.1
+    
+    net.cpp & Branch.md
+
+commit 376ec96d6b31e2f9e90b0a75d50dbfd3b32fd0f7
+Merge: 0966cd9 1682f74
+Author: JustinPercy <justin@biznaturally.ca>
+Date:   Mon Aug 14 04:18:03 2017 -0500
+
+    Branch
+
+commit 0966cd963530bd4a0ddb06afc1c4657511ebdc4b
+Author: JustinPercy <justin@biznaturally.ca>
+Date:   Mon Aug 14 04:14:48 2017 -0500
+
+    Banscore
+
+commit af0c139037303147a613729cf8f14643d20575c2
+Author: JustinPercy <justin@biznaturally.ca>
+Date:   Mon Aug 14 04:13:09 2017 -0500
+
+    Banscore
+
+commit fe47e2dc801d2651b0247fb219979eb4d99f61aa
+Author: midnight-miner <midnight.miner.crypto@gmail.com>
+Date:   Sun Aug 13 10:51:20 2017 -0400
+
+    Tidy up files
+
+commit 1682f741f98b73fd2cd1ca54cdd1317ff6dca5de
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sun Aug 13 04:26:07 2017 -0500
+
+    Update BRANCH.md
+
+commit 42ea5edaccf3fa4f484fa481cb168b2e1638cb80
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sun Aug 13 04:14:03 2017 -0500
+
+    Update BRANCH.md
+
+commit bfd2717b488dc1497bc1a04352c51397f31d99e6
+Author: JustinPercy <justin@biznaturally.ca>
+Date:   Sun Aug 13 02:53:26 2017 -0500
+
+    Travis
+
+commit 706a7c4fb0e21fd610061dd3d3122c47ccd0f704
+Author: JustinPercy <justin@biznaturally.ca>
+Date:   Sun Aug 13 02:47:39 2017 -0500
+
+    Travis
+
+commit e9e990ce4d74842c2cdeab46ca685f1d70732c81
+Author: JustinPercy <justin@biznaturally.ca>
+Date:   Sun Aug 13 02:42:31 2017 -0500
+
+    Fixing Messes
+
+commit f271b1348b9ba519845f1a0031a3e8085bd65206
+Merge: f00a4c5 d0d76a8
+Author: pc888 <p.p.caruana@gmail.com>
+Date:   Sat Aug 12 11:01:49 2017 +1000
+
+    Merge pull request #43 from midnight-miner/10.5.1
+    
+    10.5.1
+
+commit d2afcef363298cf1e06f793ab62e3b233cb5626c
+Author: JustinPercy <justin@biznaturally.ca>
+Date:   Fri Aug 11 18:22:23 2017 -0500
+
+    net.cpp, README.md
+
+commit d0d76a812a733dfba71ac0c1302f5c78dbfa760e
+Author: midnight-miner <midnight.miner.crypto@gmail.com>
+Date:   Fri Aug 11 18:32:37 2017 -0400
+
+    Travis build script updat for Win32 and Win64
+
+commit 56f6f071ec08556cb55a15626c7b00ca9166aac8
+Author: midnight-miner <midnight.miner.crypto@gmail.com>
+Date:   Fri Aug 11 17:06:39 2017 -0400
+
+    Update Travis compilation and testing.
+
+commit 4cbe8a668de9d1d83ea75b7b994fdb18778ffce4
+Author: midnight-miner <midnight.miner.crypto@gmail.com>
+Date:   Fri Aug 11 16:41:27 2017 -0400
+
+    Fix Linux Compile error 10.5.1
+
+commit ff26b16c2416d54ecdbfa4b84c06c4e2b10dc59d
+Merge: 6dc047f f00a4c5
+Author: midnight-miner <midnight.miner.crypto@gmail.com>
+Date:   Fri Aug 11 16:06:39 2017 -0400
+
+    Merge branch '10.5.1' of https://github.com/BTA-BATA/BATA-SOURCE.git into 10.5.1
+
+commit 6dc047fb118bb4c322a2e4997f6a7ed8090924c0
+Author: midnight-miner <midnight.miner.crypto@gmail.com>
+Date:   Fri Aug 11 16:02:51 2017 -0400
+
+    Update Checkpoints to block 700000 on 10.5.1
+
+commit f00a4c534dbef4831eebf4531bcc1b283c1acf51
+Merge: 649b9f2 f839646
+Author: pc888 <p.p.caruana@gmail.com>
+Date:   Thu Aug 10 10:14:08 2017 +1000
+
+    Merge pull request #42 from midnight-miner/10.5.1
+    
+    10.5.1
+
+commit f839646b1194dffb54a00787b3b57dc8fa7ee8fd
+Merge: 6f3fa9c 649b9f2
+Author: MidnightMiner <midnight-miner@users.noreply.github.com>
+Date:   Wed Aug 9 16:18:09 2017 -0400
+
+    Merge branch '10.5.1' into 10.5.1
+
+commit 6f3fa9cbd6c779a5aa39635492fd5e51199e790f
+Author: midnight-miner <midnight.miner.crypto@gmail.com>
+Date:   Wed Aug 9 16:07:44 2017 -0400
+
+    Synchronize changes from JustinPercy
+
+commit 120810dd4eb64d527e229f2120b3b2764048f1bf
+Author: midnight-miner <midnight.miner.crypto@gmail.com>
+Date:   Wed Aug 9 13:17:10 2017 -0400
+
+    Repo clean up of build files and permissions.
+
+commit 649b9f2b4351abe966172af0d49baf10689c96ce
+Merge: aae5354 9b23abe
+Author: pc888 <p.p.caruana@gmail.com>
+Date:   Wed Aug 9 23:35:42 2017 +1000
+
+    Merge pull request #41 from JustinPercy/10.5.1
+    
+    net.h
+
+commit 9b23abe0087b9e9035b6de700b7019d3064492f5
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Wed Aug 9 08:23:21 2017 -0500
+
+    net.h
+    
+    assert removed
+
+commit aae53547b421b973a997bb1e43095b109aa96879
+Merge: 10a3905 fc2e5f5
+Author: pc888 <p.p.caruana@gmail.com>
+Date:   Wed Aug 9 21:38:06 2017 +1000
+
+    Merge pull request #40 from JustinPercy/10.5.1
+    
+    net.cpp
+
+commit fc2e5f5d45f26d044c894abf4b575e17dcf00b37
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Wed Aug 9 05:22:17 2017 -0500
+
+    net.cpp
+    
+    - DNS seed minimum changed from 2 to 10
+    - Firewall error handling improved
+
+commit 26d491ab70100427ba1a40547052fd0876db9d28
+Author: midnight-miner <midnight.miner.crypto@gmail.com>
+Date:   Tue Aug 8 23:31:08 2017 -0400
+
+    Git Repo tidy up files remaining from builds.
+
+commit 10a39051d15b7b5f559375c71ee1a5aa9cbb9f6f
+Merge: 617f8db 2fa0bed
+Author: pc888 <p.p.caruana@gmail.com>
+Date:   Tue Aug 8 20:35:48 2017 +1000
+
+    Merge pull request #39 from JustinPercy/10.5.1
+    
+    ThreadSocketHandler - Disconnect unused nodes
+
+commit 2fa0bedde5fb5c5b68836c501c6c9e405f1d95ed
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Tue Aug 8 04:47:55 2017 -0500
+
+    Update BRANCH.md
+
+commit 2e089f32d23ab3e4c1ca0019074059457ae5ef59
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Tue Aug 8 04:00:20 2017 -0500
+
+    Disconnect unused nodes
+    
+    Syntax changed, added new check for idle
+
+commit 617f8db6d18cb200b58887b675be90a59f078452
+Merge: 9bba253 13339df
+Author: pc888 <p.p.caruana@gmail.com>
+Date:   Tue Aug 8 11:56:01 2017 +1000
+
+    Merge pull request #38 from JustinPercy/10.5.1
+    
+    Verified working...
+
+commit 13339df889e92c0f86a4d17236bbcd1d648b5ea5
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Mon Aug 7 20:35:43 2017 -0500
+
+    Inactivity checking - stable
+    
+    Changed cycle variables, long-term network activity.
+
+commit b946819b94d2279079bd9d4d40eb4c39f23092aa
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Mon Aug 7 19:22:47 2017 -0500
+
+    Bata
+
+commit 9f0a8b940656b43a7706645f1cd2913cbae36cb2
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Mon Aug 7 19:22:15 2017 -0500
+
+    Bata development
+
+commit 9bba253bc14ed8dcd97f2662bbb13f5d50887433
+Merge: e4a6703 0f8eb56
+Author: pc888 <p.p.caruana@gmail.com>
+Date:   Tue Aug 8 09:27:03 2017 +1000
+
+    Merge pull request #37 from midnight-miner/10.5.1
+    
+    C++11 updates and Mac compilation.
+
+commit 1d23532ff8c18ecaf97c77ab12f0b1d010b8b757
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Mon Aug 7 18:06:25 2017 -0500
+
+    Inactivity Fix
+
+commit 0f8eb5688cc4ca5a405c12262b8e9822b9075fb3
+Author: midnight-miner <midnight.miner.crypto@gmail.com>
+Date:   Mon Aug 7 15:07:54 2017 -0400
+
+    C++11 updates and Mac compilation.
+
+commit 750ca4821dfe9d847ffc4de0d0202f982ace13a2
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Mon Aug 7 11:51:23 2017 -0500
+
+    Inactivity Fix
+    
+    Syntax Change, 60 minutes-check changed to TIMEOUT_INTERVAL
+    RefreshRecentConnections Timer changed to TIMEOUT_INTERVAL
+
+commit 7b36bc8864f8a8ea6e9cdc1edc32fdcc4237148b
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Mon Aug 7 10:02:55 2017 -0500
+
+    Update BRANCH.md
+    
+    Inactivity checking syntax changed
+
+commit e4a6703a418e6ab275675fe3358b13f00a54d22e
+Merge: 7a73ed4 bd5ad7f
+Author: pc888 <p.p.caruana@gmail.com>
+Date:   Tue Aug 8 00:58:30 2017 +1000
+
+    Merge pull request #36 from JustinPercy/10.5.1
+    
+    Inactivity checking
+
+commit bd5ad7f12046f67cb0cf5a1588c7e574f8ca24b9
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Mon Aug 7 09:54:04 2017 -0500
+
+    Inactivity checking
+    
+    nLastRecv syntax changed
+    Call to disconnect function instead of setting variable
+
+commit 7a73ed4c2fa8685f196553fa34cfb4449207827c
+Merge: 9c71a94 a308471
+Author: pc888 <p.p.caruana@gmail.com>
+Date:   Mon Aug 7 23:36:06 2017 +1000
+
+    Merge pull request #35 from JustinPercy/10.5.1
+    
+    10.5.1 Final
+
+commit a308471c6b4261b143d9d4cad8320a849cae98bf
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Mon Aug 7 07:13:20 2017 -0500
+
+    Firewall 1.1
+
+commit f9b23fc933ed8d0da4c09f7069aa52231f6e5c51
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Mon Aug 7 07:05:35 2017 -0500
+
+    Firewall 1.1
+
+commit 1f7ba096bae3f1b13a0bf08519041255893a6a61
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Mon Aug 7 00:16:25 2017 -0500
+
+    Update BRANCH.md
+
+commit cd21422cb9023d8a004c10b041ccb5b0b7087b6e
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sun Aug 6 22:19:51 2017 -0500
+
+    wrong path...
+
+commit 23f713cbd5b6855223f216129536873051ec150d
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sun Aug 6 22:19:19 2017 -0500
+
+    Prefix changed to Firewall
+
+commit 96b3f41323831849951073f94df0cad04cad458a
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sun Aug 6 22:07:11 2017 -0500
+
+    Update README.md
+
+commit 13b6966f1d247071ca7115da8376987431a459f7
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sun Aug 6 21:55:02 2017 -0500
+
+    Update README.md
+
+commit eda35a9e00f3d7ea47ccb4c5f2fc9db24e03df2d
+Merge: 57e1203 9c71a94
+Author: pc888 <p.p.caruana@gmail.com>
+Date:   Mon Aug 7 12:43:47 2017 +1000
+
+    Merge branch '10.5.1' into 10.5.1
+
+commit 57e1203a721ff1155881560d6bbbf7d556f4f575
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sun Aug 6 19:37:09 2017 -0500
+
+    Update README.md
+
+commit a8d48e8ed5eab397f5507e5996db2c039b351175
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sun Aug 6 19:33:16 2017 -0500
+
+    Add files via upload
+
+commit b926dbdd18e0fb64fa9784b93c3270f273d8c148
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sat Aug 5 02:13:35 2017 -0500
+
+    RefreshRecentConnections
+    
+    - Cycling syntax updated
+    - Commented out live-debug
+
+commit 0db36b5c6150d35eeff4dd5de8eb12c5786bd4fb
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sat Aug 5 01:23:11 2017 -0500
+
+    Add files via upload
+
+commit a8fcd7cc0f41b4bd42ceb9b2b90a3467d47ceed3
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sat Aug 5 00:16:50 2017 -0500
+
+    Firewall updated to v1.1
+
+commit d11a09b16805e8d417173e26d9e9f5d68eb086b3
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Fri Aug 4 18:48:53 2017 -0500
+
+    Firewall updated
+    
+    Source code cleaned, added detection #3
+
+commit ae30058ad82d38ce146213b4f8d3bc055555216c
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Fri Aug 4 16:37:36 2017 -0500
+
+    RefreshRecentConnections
+    
+    cycling activated!
+
+commit 702f249f6de72de0c17f7bd433c4d57fffb8975b
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Fri Aug 4 02:06:25 2017 -0500
+
+    RefreshRecentConnections function
+    
+    cycling enabled...
+
+commit 10b64d746f08f2280f917862bb62b3ddedf7961c
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Thu Aug 3 23:34:09 2017 -0500
+
+    RefreshRecentConnections function
+    
+    stable - cycle interval: 25 minutes
+
+commit c8eb6bddf8850045cecf7dd9c7b7a910d9a855a2
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Thu Aug 3 22:12:42 2017 -0500
+
+    Add files via upload
+
+commit 23712a2b332318ef1934c48477f0f5f386173c48
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Thu Aug 3 21:33:35 2017 -0500
+
+    Add files via upload
+
+commit dc4958a72d3c49d2be345000a65dcdc4a78ce573
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Thu Aug 3 20:58:06 2017 -0500
+
+    Add files via upload
+
+commit f37979589f3db37c820303e7da09d5dd324e4a22
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Thu Aug 3 20:00:49 2017 -0500
+
+    Update BRANCH.md
+
+commit 68703b29b8b11fb3fd98ddced7c4bb7da5ff9cd6
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Thu Aug 3 19:59:57 2017 -0500
+
+    Add files via upload
+
+commit ef85f023b0016ad8050c1fc96e971bcb1de29bd6
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Thu Aug 3 02:59:32 2017 -0500
+
+    Add files via upload
+
+commit 754146448d63458070ed59eb8ea600be71c0f6e9
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Thu Aug 3 00:33:28 2017 -0500
+
+    Add files via upload
+
+commit f94fed80f840e58c1a5a10f23cc0b3f4032d002d
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Wed Aug 2 20:14:59 2017 -0500
+
+    Add files via upload
+
+commit c67af3fba0336e80deebcc81977d2056d7a3e613
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Wed Aug 2 19:50:58 2017 -0500
+
+    Update BRANCH.md
+
+commit eb0ad7bbbabd6cfed79d8b62c87ab002deba972d
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Wed Aug 2 19:49:58 2017 -0500
+
+    Add files via upload
+
+commit 9c71a94656293a5a24ea617a69ad6bfd560c6418
+Merge: f9f1210 882a80a
+Author: pc888 <p.p.caruana@gmail.com>
+Date:   Mon Jul 31 18:35:41 2017 +1000
+
+    Merge pull request #33 from JustinPercy/10.5
+    
+    Version # change
+
+commit 3b116efe9b254a5374df8bfff38cf047e553bc0b
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Mon Jul 31 03:05:07 2017 -0500
+
+    configure change
+
+commit 882a80a360e45bb6ac1eea670684661abc5b30b7
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Mon Jul 31 03:03:05 2017 -0500
+
+    Update configure.ac
+
+commit f3cc8d85820e7765125cb83b76e364b5334247b9
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Mon Jul 31 03:02:09 2017 -0500
+
+    Update configure.ac
+
+commit f9f1210e85d5cec4427afbd409f975751bb14ee7
+Merge: 1df526c 16badc6
+Author: pc888 <p.p.caruana@gmail.com>
+Date:   Mon Jul 31 17:42:00 2017 +1000
+
+    Merge pull request #32 from JustinPercy/10.5
+    
+    Update README.md
+
+commit ef634129f7bc02bef1142f0d955a73a1387cc5ad
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Mon Jul 31 02:21:13 2017 -0500
+
+    Update BRANCH.md
+
+commit 0a49e2ebb6d401f5c1a2448f242a0ce0b32afc25
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Mon Jul 31 02:20:14 2017 -0500
+
+    Rename Branch.md to BRANCH.md
+
+commit 16badc65b26eb09d0bbc0b6db0f04fa7177fa2f9
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Mon Jul 31 02:19:36 2017 -0500
+
+    Create BRANCH.md
+
+commit e2187e0c34461b195aad8fd530f06a439fac3418
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Mon Jul 31 02:18:13 2017 -0500
+
+    Create Branch.md
+
+commit e6b6227c75d24ca14ef0dddce7756eed28e54a1c
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Mon Jul 31 01:17:57 2017 -0500
+
+    Add files via upload
+
+commit 34f36073316c1e11f0227ae32be54e316881eaff
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Mon Jul 31 01:17:20 2017 -0500
+
+    Add files via upload
+
+commit 5f1f79b5e4a64d1abd306872050c107f6194ae7f
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Mon Jul 31 01:12:17 2017 -0500
+
+    Add files via upload
+
+commit 443e301055cdae08840485210a2b1f2ffa8ad751
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Mon Jul 31 00:43:48 2017 -0500
+
+    Update README.md
+
+commit a1cab76ef351ea4cd2ac2e852b21c046941ac65c
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Mon Jul 31 00:28:13 2017 -0500
+
+    Update README.md
+
+commit 1df526c21eaf7e6aa3591df7d7adb7bbef1387c3
+Merge: 8a6166d b1ef2a9
+Author: pc888 <p.p.caruana@gmail.com>
+Date:   Mon Jul 31 14:36:41 2017 +1000
+
+    Merge pull request #31 from JustinPercy/10.5
+    
+    Stable release
+
+commit b1ef2a9d88c957089b50a90446e382e928a42bc3
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sun Jul 30 23:01:29 2017 -0500
+
+    Add files via upload
+
+commit 37b7d28e5c38375d4853b9a314ddb571e4aaf071
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sun Jul 30 22:59:17 2017 -0500
+
+    Add files via upload
+
+commit 14021b7de080a779499f5e5633ae376d5f26e5b2
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sun Jul 30 22:44:07 2017 -0500
+
+    Add files via upload
+
+commit 597b0adad49a80461905d00560b6d704a4a18541
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sun Jul 30 22:07:54 2017 -0500
+
+    Update rpcmining.cpp
+
+commit c7c85e515a42a0203f1737a263700edbd78ed163
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sun Jul 30 22:07:02 2017 -0500
+
+    Update miner.cpp
+
+commit fb3e0bb74747913d10d957b443a3de6056b02448
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sun Jul 30 22:05:35 2017 -0500
+
+    Update rpcwallet.cpp
+
+commit 7982332a0b6d5f3bc7bb448da678b590efb1ac5b
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sun Jul 30 22:04:04 2017 -0500
+
+    Update rpcserver.cpp
+
+commit 56be248493023c57acd4bcbcd1bc75d6994a6134
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sun Jul 30 22:03:15 2017 -0500
+
+    Update rpcserver.h
+
+commit d477f3db9b367bd3fa11bc260ef2b7c8e20fa9f1
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sun Jul 30 22:02:07 2017 -0500
+
+    Update main.h
+
+commit 2d09332c693d87bc1716517f77ffbb46ba4d3ca3
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sun Jul 30 22:01:17 2017 -0500
+
+    Update main.cpp
+
+commit ff57b7d99f426e5f1aed97ec6d69e1175c834d71
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sun Jul 30 21:59:55 2017 -0500
+
+    Update init.cpp
+
+commit 1813177c477771707437e46a14d1b1a434961c42
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sun Jul 30 21:56:52 2017 -0500
+
+    Add files via upload
+
+commit 65e606f283dc711cf2cd6eb09f009a10c7cd65ef
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sun Jul 30 21:55:16 2017 -0500
+
+    Delete miner.h
+
+commit f8e777aba86f2d40aaeba7909b2c9dad51111ffd
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sun Jul 30 21:55:06 2017 -0500
+
+    Delete main.h
+
+commit efde7e1db232c33946feb7567f93324da000e8a2
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sun Jul 30 21:54:55 2017 -0500
+
+    Delete init.h
+
+commit e005ba5ddb47ebc07ac0650a6d25dbb370bc6430
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sun Jul 30 21:54:40 2017 -0500
+
+    Delete main.cpp
+
+commit 7fbabd1fc4b407d142968f1a11187f2aebd6ca26
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sun Jul 30 21:54:28 2017 -0500
+
+    Delete miner.cpp
+
+commit ac656c7ccd17ea29870652897556b5310359539c
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sun Jul 30 21:54:19 2017 -0500
+
+    Delete mruset.h
+
+commit 0211d212224d5db362428b63cf44a91e614edcc1
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sun Jul 30 21:54:10 2017 -0500
+
+    Delete init.cpp
+
+commit 8a6166d02c598d2e46b101eba8b1e7f2898a2c11
+Merge: 9020c68 07e69f6
+Author: pc888 <p.p.caruana@gmail.com>
+Date:   Mon Jul 31 12:49:38 2017 +1000
+
+    Merge pull request #29 from JustinPercy/10.5
+    
+    :)
+
+commit 07e69f6ad6cd5c7bcd440ee293d864ad149d6144
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sun Jul 30 21:34:00 2017 -0500
+
+    Add files via upload
+
+commit e471f5884e87501477fc29008205391b7c1dab04
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sun Jul 30 21:33:30 2017 -0500
+
+    Add files via upload
+
+commit 65fa089b89b0bd8de8f23d0efd9f3f124bbcd06f
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sun Jul 30 21:25:56 2017 -0500
+
+    Add files via upload
+
+commit 9020c68b2715b78e1b8c8b39776ebf0f8e170cad
+Merge: 869b12c b7a6011
+Author: pc888 <p.p.caruana@gmail.com>
+Date:   Mon Jul 31 12:19:23 2017 +1000
+
+    Merge pull request #28 from JustinPercy/10.5
+
+commit b7a60113cc3f457010d3f67315b3d7fd07011f52
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sun Jul 30 21:14:20 2017 -0500
+
+    Add files via upload
+
+commit 51bf906fda80e4021d16abeadfd458f033b05944
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sun Jul 30 20:36:48 2017 -0500
+
+    Add files via upload
+
+commit e0d83506808065f2a787aa835f704807d0ad7483
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sun Jul 30 20:31:09 2017 -0500
+
+    Delete net-dev.cpp
+
+commit 4f0aa837a659ab0e15acbd117fbddc66b8e3fc8c
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sun Jul 30 20:30:50 2017 -0500
+
+    Delete net-bkp.cpp
+
+commit 869b12c502f071a9aa0100d0e79aa577137c8cc7
+Merge: c6b9e0f 101bd2f
+Author: pc888 <p.p.caruana@gmail.com>
+Date:   Sun Jul 30 22:29:13 2017 +1000
+
+    Merge pull request #27 from JustinPercy/10.5
+    
+    Update clientversion.h
+
+commit 101bd2fdb8aad34e37e06d1f94bf850faf77e214
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sun Jul 30 07:12:08 2017 -0500
+
+    Update clientversion.h
+
+commit c6b9e0fe76d29ec669142423cd55e270c35727c1
+Merge: 8efbb27 bb7745a
+Author: pc888 <p.p.caruana@gmail.com>
+Date:   Sun Jul 30 21:58:39 2017 +1000
+
+    Merge pull request #26 from JustinPercy/10.5
+    
+    mining code
+
+commit bb7745ad47106509c190b6a61ed79155bfbef4fd
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sun Jul 30 06:45:11 2017 -0500
+
+    Add files via upload
+
+commit 04b8a106380750230676cf7b83b1cdda342feae8
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sun Jul 30 06:44:23 2017 -0500
+
+    Add files via upload
+
+commit c5f6952800d4cddcb07f92815edc39ab6f5ac239
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sun Jul 30 06:29:23 2017 -0500
+
+    Add files via upload
+
+commit 48f97652cb5e5c25d8ee9c306325ed69e6c411f7
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sun Jul 30 06:27:34 2017 -0500
+
+    Add files via upload
+
+commit 2fc0968739c8be0f6502ef670dad0df9819c0993
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sun Jul 30 05:33:10 2017 -0500
+
+    Update rpcserver.cpp
+
+commit ddc08d5887d89933cc98b36af7d721348077242d
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sat Jul 29 15:25:06 2017 -0500
+
+    Update README.md
+
+commit 8efbb27251bc59e30dd855cc533b94a5320a700f
+Merge: 7eefad5 8db713a
+Author: pc888 <p.p.caruana@gmail.com>
+Date:   Sat Jul 29 19:03:05 2017 +1000
+
+    Merge pull request #25 from BTA-BATA/dev-0.10.5
+    
+    Dev 0.10.5
+
+commit 8db713abdd26eb5b8b69a4758744cf2630e1ec83
+Merge: 22389cd 0a10340
+Author: pc888 <p.p.caruana@gmail.com>
+Date:   Sat Jul 29 18:59:38 2017 +1000
+
+    Merge pull request #24 from JustinPercy/10.5
+    
+    10.5
+
+commit 0a1034072ed08aea341244533cb6718f53ba903d
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sat Jul 29 02:56:08 2017 -0500
+
+    Update README.md
+
+commit 83f39810e34f820641fbc349901b9a78e20a296d
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sat Jul 29 02:53:02 2017 -0500
+
+    Update README.md
+
+commit bbfd49eb73290516a8065b23366002d4ca81f6d0
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sat Jul 29 02:50:25 2017 -0500
+
+    Update README.md
+
+commit b261bad071424db3c19fce3fc3a51a4bb78492e1
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sat Jul 29 02:45:54 2017 -0500
+
+    Update README.md
+
+commit 4229d006ecd398b5c4a6fda9f7ce786991e91c31
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sat Jul 29 02:43:25 2017 -0500
+
+    Update README_windows.txt
+
+commit 72896ed430e150bd0396a953a5244973ffa1baed
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sat Jul 29 02:42:46 2017 -0500
+
+    Update README.md
+
+commit 23b38eaf9ef21e0332c3f9a873faea1e66f72c7a
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sat Jul 29 02:41:57 2017 -0500
+
+    Update README.md
+
+commit f1290bce0d38f743e9d4635cb493dde8559ef20b
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sat Jul 29 02:38:31 2017 -0500
+
+    Update README.md
+
+commit 3cdd11a28365d6c7f6fe483061aa3c322f433d03
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sat Jul 29 02:33:26 2017 -0500
+
+    Delete README.md
+
+commit eb602fbe23a9f315006617386b83cc390c8aa947
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sat Jul 29 02:31:47 2017 -0500
+
+    Update README.md
+
+commit eaa8cac29e7b28d42767729421dd4c31600e9ed6
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sat Jul 29 02:26:47 2017 -0500
+
+    Update README.md
+
+commit 2f24e83f58ab005a706f55c04ac8354ef6a8e10e
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sat Jul 29 02:24:01 2017 -0500
+
+    Add files via upload
+
+commit 07261deee3167f41115bef593bc89219c2d0ae4e
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sat Jul 29 02:23:27 2017 -0500
+
+    Delete main.h
+
+commit df30b90e41173e7d6f09b740aedf2a15786d254f
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sat Jul 29 02:22:24 2017 -0500
+
+    Delete init.cpp
+
+commit 7ff40d1a2b089ee75538ffe23b341744cea4d88c
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sat Jul 29 02:22:04 2017 -0500
+
+    Delete main.cpp
+
+commit f120a5b75daa41b254e29ca44be7b0b41f588559
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sat Jul 29 02:21:25 2017 -0500
+
+    Delete rpcserver.h
+
+commit a26f4af19db6cb296fc2442fe35c691d59468cdc
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sat Jul 29 02:20:48 2017 -0500
+
+    Delete rpcserver.cpp
+
+commit 67683df56cd17a863155e7028c16c374ffd76d30
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sat Jul 29 02:20:19 2017 -0500
+
+    Delete rpcclient.cpp
+
+commit 362b8d8e14487bc06cd0b64c68f2ccef7dd635b5
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sat Jul 29 02:19:28 2017 -0500
+
+    Delete rpcmining.cpp
+
+commit b13de9b7cef866ff0ccb12240be4c58e03527391
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sat Jul 29 02:18:55 2017 -0500
+
+    Update miner.h
+
+commit 0b1595159305bc2f72aaaafe28fe4f7c6d7e8771
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sat Jul 29 02:18:33 2017 -0500
+
+    Update miner.cpp
+
+commit f3f8db5475630020592907c6a9ea78f8fa2f7396
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sat Jul 29 01:57:16 2017 -0500
+
+    Add files via upload
+
+commit 38c6bd4e3cd6ec5e48daf2df691dd2ad500ba08a
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sat Jul 29 01:54:35 2017 -0500
+
+    Add files via upload
+
+commit be896cdc00727aa134e48cbebac6a0b7914e661a
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sat Jul 29 01:50:25 2017 -0500
+
+    Add files via upload
+
+commit 216059f768114a728ecd2fd0542fab3ccda464df
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sat Jul 29 01:48:48 2017 -0500
+
+    Add files via upload
+
+commit 7eefad5cb8055337cb73a6436d47bbdbc91937e4
+Merge: 40d1e50 22389cd
+Author: pc888 <p.p.caruana@gmail.com>
+Date:   Sat Jul 29 16:33:32 2017 +1000
+
+    Merge pull request #22 from BTA-BATA/dev-0.10.5
+    
+    Dev 0.10.5
+
+commit 22389cd372fc642c38a8e197c1b24468d16787c5
+Merge: 9de9644 3d1722c
+Author: pc888 <p.p.caruana@gmail.com>
+Date:   Sat Jul 29 16:30:17 2017 +1000
+
+    Merge pull request #21 from JustinPercy/10.5
+    
+    Stable release
+
+commit 3d1722c47184a279b8f37a7849f2c17cab17fb1d
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Fri Jul 28 23:52:29 2017 -0500
+
+    Update bitcoin-config.h
+
+commit eb91ecca5a9a101a8b39eb6b1adb12b606b5bc98
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Fri Jul 28 23:50:05 2017 -0500
+
+    Add files via upload
+
+commit b9b3a2d7f1819153b7c934a00a61267c47a79697
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Fri Jul 28 23:49:25 2017 -0500
+
+    Add files via upload
+
+commit fcf3d622d36121d1ab3142d03a27c85f0cff7194
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Fri Jul 28 23:46:04 2017 -0500
+
+    Add files via upload
+
+commit 807e5c3bec2032f5ac635516d15fbea54d9c7962
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Fri Jul 28 23:44:06 2017 -0500
+
+    Add files via upload
+
+commit fa94c49a3385d92cc858205943ee8a6f042228aa
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Fri Jul 28 16:54:14 2017 -0500
+
+    Add files via upload
+
+commit a4ce993d5ff183255dc8843d59ffa70f152f90f4
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Fri Jul 28 16:52:29 2017 -0500
+
+    Delete net.cpp
+
+commit 6ca0d8fd611d635d3592fc27f3a65334d968822e
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Fri Jul 28 16:52:05 2017 -0500
+
+    Add files via upload
+
+commit e4ae8e3f21d2c5b89c6d02076c2e1c02a850795d
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Fri Jul 28 16:43:30 2017 -0500
+
+    Add files via upload
+
+commit e95f68fc3d1c6b5e6d67e7d6e8481b58de464886
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Fri Jul 28 16:42:45 2017 -0500
+
+    Add files via upload
+
+commit 034cff797b889b5a0eda202c0ac7a9f0d3f6a9f3
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Fri Jul 28 01:39:49 2017 -0500
+
+    Add files via upload
+
+commit 48fe4861858e22b608a0a9673c0a954254245041
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Fri Jul 28 01:20:21 2017 -0500
+
+    Delete net.cpp
+
+commit b08d32ef2c0d972a558af44d6fe3ca2301370f7d
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Fri Jul 28 01:16:55 2017 -0500
+
+    Update README.md
+
+commit 8e21694096475676e15f2464f9942cd5e40ee151
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Fri Jul 28 01:13:24 2017 -0500
+
+    Add files via upload
+
+commit 722bd3f92d108d9d9c536a9508fbd4483d866a7f
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Fri Jul 28 01:10:55 2017 -0500
+
+    Add files via upload
+
+commit e3d66ccf7e7744c97c402f70bda9589e9a2851cb
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Fri Jul 28 01:08:45 2017 -0500
+
+    Add files via upload
+
+commit 56e683674a003c59148f26b49c52e396c6ebf0bd
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Fri Jul 28 00:59:29 2017 -0500
+
+    Add files via upload
+
+commit a346ea4c9ef9a29280dd644d481fa385d95163cd
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Thu Jul 13 17:54:23 2017 -0500
+
+    Add files via upload
+
+commit 3af3706a0a33a9f38b2c1906857c86958e6a024b
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Wed Jul 12 22:22:36 2017 -0500
+
+    Add files via upload
+
+commit 87d0c86ea34af42bc0e7780e4f097765cdd82ac0
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Mon Jul 10 01:25:07 2017 -0500
+
+    Add files via upload
+
+commit 4ba2ae2cd1f3cc7a8d4a1a166ea8edc06794e2a6
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Mon Jul 10 01:20:45 2017 -0500
+
+    Update genbuild.sh
+
+commit 4dc8b886629c5cdc9be6c6ff5179aef6906a6766
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Mon Jul 10 01:20:19 2017 -0500
+
+    Update bitcoin-config.h
+
+commit c5774c85db659b5b819ebb8a0a05d63a614c9e6a
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Mon Jul 10 01:19:47 2017 -0500
+
+    Update clientversion.h
+
+commit 3963bc6bb46003e26b2d9bc16e420d86dfd5cddb
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Mon Jul 10 01:18:58 2017 -0500
+
+    Update Makefile
+
+commit 6e586d9047326ab410443d9b5f71dd8a7197858e
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sun Jul 9 23:09:35 2017 -0500
+
+    Add files via upload
+
+commit d7381fc5650351a0c66743492ead7a0f2d1511d7
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sun Jul 9 12:36:50 2017 -0500
+
+    Update README.md
+
+commit f774c6c298a575f6b606713f343bc0ec48c97386
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Fri Jul 7 18:46:18 2017 -0500
+
+    Update README.md
+
+commit b9a830645ec57a7280afa83f4d36de49f8556242
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Fri Jul 7 18:45:55 2017 -0500
+
+    Update README.md
+
+commit 520d22c14fa3eb8bb5269deb1a0f598ed40b0392
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Fri Jul 7 18:45:23 2017 -0500
+
+    Update README.md
+
+commit a4fc3c369ed738ad16eb2aa30be6e9f9dc89da2d
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Fri Jul 7 18:43:41 2017 -0500
+
+    Update README.md
+
+commit 24017a42dc304395261cdcb0febc2660fe4141b2
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Fri Jul 7 18:42:40 2017 -0500
+
+    Update README.md
+
+commit 92c40e1f63367eb622ad0ff434a4ee8f2e2cb7f6
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Fri Jul 7 18:20:16 2017 -0500
+
+    Update README.md
+
+commit 7492979d630f313c0e825a1099a8b94ba587e061
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Fri Jul 7 18:19:35 2017 -0500
+
+    Update README.md
+
+commit 03ae959061e05c41cda1f7f5dc40226ccdf43bd0
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Fri Jul 7 17:41:41 2017 -0500
+
+    Update README.md
+
+commit 3fed274501ebad96f6956908e5697a78566059e7
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Fri Jul 7 17:41:18 2017 -0500
+
+    Update README.md
+
+commit 40d1e50cd518b2bb2d397526df4437dc0effe362
+Merge: 9de9644 ce61c26
+Author: pc888 <p.p.caruana@gmail.com>
+Date:   Thu Jul 6 17:56:58 2017 +1000
+
+    Merge pull request #18 from BTA-BATA/dev-0.10.4.1
+    
+    Dev 0.10.4.1
+
+commit ce61c26b4ceb951383a77d02a324ea9b9d5111c5
+Merge: 9de9644 1d644a2
+Author: pc888 <p.p.caruana@gmail.com>
+Date:   Thu Jul 6 17:55:32 2017 +1000
+
+    Merge pull request #17 from JustinPercy/10.4.1
+    
+    JustinPercy
+
+commit 1d644a29a1f7edb51ac5a9856861095ed9f1c41b
+Merge: bfebc9a 9de9644
+Author: pc888 <p.p.caruana@gmail.com>
+Date:   Thu Jul 6 17:52:14 2017 +1000
+
+    Merge branch 'dev-0.10.4.1' into 10.4.1
+
+commit bfebc9ad5e916ca00cb4a881aad0b902a31f6330
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Wed Jul 5 22:18:35 2017 -0500
+
+    Add files via upload
+
+commit 33372ce6c9ce48938c8ba6b4baaecbe55cdbda93
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Wed Jul 5 20:50:16 2017 -0500
+
+    Add files via upload
+
+commit 4b3e9d4d4ce5b1c33316cb5e189458465ecefdd7
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Wed Jul 5 20:36:38 2017 -0500
+
+    Update version.h
+
+commit 2ea0882ee57d96e72fdc87f8aa47cfa66bef6c31
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Wed Jul 5 10:18:08 2017 -0500
+
+    Add files via upload
+
+commit 429d2b814e9508869d33b9e0843684b1d0f057a7
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Wed Jul 5 10:12:09 2017 -0500
+
+    Add files via upload
+
+commit 147246b2b44eb860383ac1385d90e7e0263993cc
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Wed Jul 5 10:11:30 2017 -0500
+
+    Add files via upload
+
+commit 52337c4091e85466ef1d438bbf898c651f95ebb9
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Wed Jul 5 09:36:43 2017 -0500
+
+    Add files via upload
+
+commit e9f1f65449738b20bdc7dcf00894ee79dbd57288
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Wed Jul 5 09:24:27 2017 -0500
+
+    Add files via upload
+
+commit d5bcf4ec9900c229645da78c3c581e223f625eec
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Wed Jul 5 08:44:26 2017 -0500
+
+    Add files via upload
+
+commit cba522e937f9c59d32036c4f5f365ee96bbdad9b
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Wed Jul 5 08:44:04 2017 -0500
+
+    Add files via upload
+
+commit b36f058f4e6602d27ad8b762cef7ec4333f71e81
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Wed Jul 5 08:42:48 2017 -0500
+
+    Update net.cpp
+
+commit 04647be0aa11f4591a6ef531361859bccfb40ff7
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Wed Jul 5 00:53:50 2017 -0500
+
+    Update clientversion.h
+
+commit e0c518c2f48032a7dec1dffb7c5f469cd58faae9
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Wed Jul 5 00:53:23 2017 -0500
+
+    Update bitcoin-config.h
+
+commit b3fa18fdaf099945ab779b9c7038b40fd6db2869
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Tue Jul 4 03:39:00 2017 -0500
+
+    Add files via upload
+
+commit 5933e0cf2764642ee49e8c716d261edd54878395
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Tue Jul 4 00:34:44 2017 -0500
+
+    Add files via upload
+
+commit 19cb81de39582974a0cd052a1433eec2dea92d22
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Tue Jul 4 00:26:17 2017 -0500
+
+    Add files via upload
+
+commit 7412c99303db5760d27f76c5199edcd4720166d9
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Tue Jul 4 00:24:52 2017 -0500
+
+    Add files via upload
+
+commit 80a86ae69786ad6047c03ff7606ce863298ce73d
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Tue Jul 4 00:21:39 2017 -0500
+
+    Add files via upload
+
+commit a784316bfa7bf80998dbe6f889acf086958d700e
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Tue Jul 4 00:04:50 2017 -0500
+
+    Add files via upload
+
+commit 876a193eccea3eb40f38546493c721ffb0ae18bc
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Mon Jul 3 23:54:20 2017 -0500
+
+    Add files via upload
+
+commit c466f8744af83ca2183f8cdeb55a082c1dd8e771
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Mon Jul 3 23:45:56 2017 -0500
+
+    Add files via upload
+
+commit 57ea8fe22a02193144e17d3c8d170c10a3fce800
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Mon Jul 3 23:14:48 2017 -0500
+
+    Add files via upload
+
+commit 3bb0512c106a29a1d87a5c153e0befcbb8612c4a
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Mon Jul 3 23:09:17 2017 -0500
+
+    Add files via upload
+
+commit e509c9ebd03a37a68ca548b7785b4c9dac95b2ad
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Mon Jul 3 23:07:15 2017 -0500
+
+    Add files via upload
+
+commit 437db9cc014d69601cd7b3052ab4854794fcc52f
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Mon Jul 3 21:02:13 2017 -0500
+
+    Add files via upload
+
+commit 8d725c08abfe7b8c6dfb7c2859fe4d165c6bc0a4
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Mon Jul 3 20:55:31 2017 -0500
+
+    Add files via upload
+
+commit e9b1e56754020789b69745a83a1c358445d63e57
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Mon Jul 3 20:52:13 2017 -0500
+
+    Add files via upload
+
+commit bdae92f837a987fc76dd829d8c3944b1f0c2aade
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Mon Jul 3 20:30:15 2017 -0500
+
+    Add files via upload
+
+commit 1fc09849e1fa6dd5a2b0fbca0b404645a39c951d
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Mon Jul 3 13:37:17 2017 -0500
+
+    Add files via upload
+
+commit 6a1ad1de26e78253f8075f4dc3cb046722f07c75
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Mon Jul 3 08:59:45 2017 -0500
+
+    Add files via upload
+
+commit c2b5821a07377b9e46a38d8d9fafd250357f4358
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Mon Jul 3 08:57:36 2017 -0500
+
+    Add files via upload
+
+commit 122ba10dccb7f16d9c57dbdc4407a7cd2d27a956
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Mon Jul 3 08:43:35 2017 -0500
+
+    Add files via upload
+
+commit f33a1c41544ed1b5717ef4a6804bf16caf7e2ab5
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Mon Jul 3 08:34:03 2017 -0500
+
+    Add files via upload
+
+commit 57f0a5c03f56a09e042ba24e8e48fc74a49654eb
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Mon Jul 3 08:29:46 2017 -0500
+
+    Add files via upload
+
+commit 0156c8199977eeb200e444d4ee282a325e165652
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Mon Jul 3 07:52:57 2017 -0500
+
+    Add files via upload
+
+commit c19acf0a3f3dc1ed197ce2774d41310443452da2
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Mon Jul 3 07:08:21 2017 -0500
+
+    Add files via upload
+
+commit 2573e1ae5dce0f12461b4915ee7b9fb17235a5ce
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Mon Jul 3 07:07:23 2017 -0500
+
+    Add files via upload
+
+commit 8ec0e934d2a3e4fd679692b6ed45ae06983f77e3
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Mon Jul 3 07:02:20 2017 -0500
+
+    Add files via upload
+
+commit bbde93db1843a5b13a328d9cd6fdaa07fbd23ccb
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Mon Jul 3 06:57:43 2017 -0500
+
+    Delete BATA CORE 10.4 NetFlood PATCH 1
+
+commit 14fc53519c96b6cc38cbf2121090d7b12bf0aa49
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Mon Jul 3 06:57:19 2017 -0500
+
+    Add files via upload
+
+commit b2ceaf3aede0daa28bb699a28cccfa741ae20164
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Mon Jul 3 06:14:47 2017 -0500
+
+    Add files via upload
+
+commit e70e03942e7818812842259444285595d8f3e8ec
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Mon Jul 3 06:01:34 2017 -0500
+
+    Add files via upload
+
+commit bb37032abd3832ab8cc9bfdeda73ccf7980389a9
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sat Jul 1 21:54:45 2017 -0500
+
+    Add files via upload
+
+commit 8d3ffe349b20563c7c35b7047dc695b814b71b77
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sat Jul 1 21:53:14 2017 -0500
+
+    Add files via upload
+
+commit 26bbf7359e85cb7e1d83cc8bc3f7eec0adfc8997
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sat Jul 1 21:52:05 2017 -0500
+
+    Add files via upload
+
+commit 768bdda5ea9abdc373aad97c5359b78feb0a398d
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sat Jul 1 21:49:56 2017 -0500
+
+    Add files via upload
+
+commit acec25b0364eb3d0c456b84a7deee11f14edff44
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sat Jul 1 21:42:47 2017 -0500
+
+    Add files via upload
+
+commit a793d12a76a62a419438a35b4fad516b0857a967
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sat Jul 1 21:41:26 2017 -0500
+
+    Add files via upload
+
+commit 6ee0e99900b03c1884db7e1cacc08e31307fb99c
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sat Jul 1 21:40:42 2017 -0500
+
+    Add files via upload
+
+commit cb1510fcfc6e7846a9c43f81fa23666a1862213b
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sat Jul 1 21:38:29 2017 -0500
+
+    Add files via upload
+
+commit 7196bf814fabab266de8f7a5808ade65e9aa2b14
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sat Jul 1 21:36:07 2017 -0500
+
+    Add files via upload
+
+commit c5aa1fa42f29a153a2e4097ba8e3995c5e4f5466
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sat Jul 1 21:35:24 2017 -0500
+
+    Add files via upload
+
+commit b92ee0531dcb3d5950197ce69c0710d15ef94887
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sat Jul 1 21:31:52 2017 -0500
+
+    Add files via upload
+
+commit 486b5057fae25bd4666c09eba1715d8233a1e4f8
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sat Jul 1 21:30:04 2017 -0500
+
+    Add files via upload
+
+commit 64115dc014aac96ca5a1f09a2a9f71691d4389b5
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sat Jul 1 21:29:07 2017 -0500
+
+    Add files via upload
+
+commit 652cca8229353d0014e291a3d723a285e8938804
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sat Jul 1 04:20:01 2017 -0500
+
+    Update README.md
+
+commit 81fa48cf61cea3c5dec158564d3e2db971951717
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sat Jul 1 04:16:02 2017 -0500
+
+    Add files via upload
+
+commit a851564f876edddc7832a4c2055c41591548d10f
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sat Jul 1 04:15:18 2017 -0500
+
+    Add files via upload
+
+commit b836bfe4b3fa9ef54798f97169ac6031ae29c955
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sun Jun 25 00:38:03 2017 -0500
+
+    Update README.md
+
+commit f994da539ee102cde0943e21aa64564721dde78f
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sun Jun 25 00:37:07 2017 -0500
+
+    Update README.md
+
+commit cf2b39cbed94851027df8200c78d07cdcf3f43a9
+Author: Biznatch Enterprises <justin@biznaturally.ca>
+Date:   Sun Jun 25 00:34:38 2017 -0500
+
+    Update README.md
+
+commit 9de9644c65c4433689f22f4b0acee8bc5a7d149e
+Author: pc888 <p.p.caruana@gmail.com>
+Date:   Sun Jun 25 15:31:57 2017 +1000
+
+    Update README.md
+
+commit a5ad62903fc1fe552db23b06291dbe734c55f6e3
+Author: pc888 <p.p.caruana@gmail.com>
+Date:   Sun Jun 25 15:05:32 2017 +1000
+
+    Update README.md
+    
+    Updated Linux compile instructions
+
+commit 303dec46e54014b07f15a0dedeea596a2ba6de94
+Author: pc888 <p.p.caruana@gmail.com>
+Date:   Sat May 6 23:01:14 2017 +1000
+
+    Update README.md
+
+commit 46f4798cd4ae1e867509dd87d1150ec74610d996
+Author: pc888 <p.p.caruana@gmail.com>
+Date:   Sat May 6 22:59:52 2017 +1000
+
+    Update README.md
+
+commit 2041072388c9d1713b84abebd834a382ecd498dd
+Merge: e35444d e2f5459
+Author: pc888 <p.p.caruana@gmail.com>
+Date:   Fri May 5 14:02:15 2017 +1000
+
+    Merge pull request #13 from midnight-miner/master
+    
+    Core 0.10 file clean up.
+
+commit e2f54597530930d8c5e6320f782b1d9bf10a77fd
+Author: midnight-miner <midnight.miner.crypto@gmail.com>
+Date:   Thu May 4 23:42:31 2017 -0400
+
+    Core 0.10 file clean up.
+
+commit e35444dd9c98f1d8164274e88c159f419cf8160b
+Merge: edaedee d97a791
+Author: pc888 <p.p.caruana@gmail.com>
+Date:   Fri May 5 10:51:43 2017 +1000
+
+    Merge pull request #12 from midnight-miner/master
+    
+    Unresolved conflicts in recent code #11
+
+commit d97a79155e8c013467a2b4e5ce705863824f8194
+Author: midnight-miner <midnight.miner.crypto@gmail.com>
+Date:   Thu May 4 19:46:18 2017 -0400
+
+    Unresolved conflicts in recent code #11
+
+commit edaedee67e62f3e8ae1451c50074d361be93cb8d
+Author: pc888 <p.p.caruana@gmail.com>
+Date:   Thu May 4 17:01:40 2017 +1000
+
+    Delete bata.png
+
+commit 0003edc51adf639760538db76fcb0ff6c761ae56
+Author: pc888 <p.p.caruana@gmail.com>
+Date:   Thu May 4 17:00:29 2017 +1000
+
+    Add files via upload
+
+commit 76d99336c4a4977a251d0a6b523f38bf6111fdf9
+Author: pc888 <p.p.caruana@gmail.com>
+Date:   Thu May 4 16:59:05 2017 +1000
+
+    Update README.md
+
+commit 762301157e435046ed33ede3d88133cf5b19bb73
+Merge: 9d712e7 d46ec7f
+Author: pc888 <p.p.caruana@gmail.com>
+Date:   Thu May 4 13:23:01 2017 +1000
+
+    Merge pull request #10 from BTA-BATA/0.10
+    
+    0.10
+
+commit d46ec7f6e3d588d40321d4312f079fa520f2aee4
+Merge: 6c742df 7cb7fa8
+Author: pc888 <p.p.caruana@gmail.com>
+Date:   Thu May 4 13:16:15 2017 +1000
+
+    Merge pull request #9 from midnight-miner/master
+    
+    Basic wallet Core 0.10 updates
+
+commit 7cb7fa8f7383ec12fe08642ee95824a6d5609929
+Author: MidnightMiner <midnight-miner@users.noreply.github.com>
+Date:   Wed May 3 22:32:25 2017 -0400
+
+    Delete run-bitcoind-for-test.sh
+
+commit 5cdbea37e5f410dfa092862ed1f0d294eeb72b68
+Author: MidnightMiner <midnight-miner@users.noreply.github.com>
+Date:   Wed May 3 22:32:14 2017 -0400
+
+    Delete tests-config.sh
+
+commit 8e5c42bfc4cabd9c7f0ca15c728906e071755c49
+Author: midnight-miner <midnight.miner.crypto@gmail.com>
+Date:   Wed May 3 00:35:45 2017 -0400
+
+    Core 0.10 updates
+
+commit ba11268b40ff63f0e704352020db33a0564beab1
+Author: midnight-miner <midnight.miner.crypto@gmail.com>
+Date:   Wed May 3 00:10:22 2017 -0400
+
+    core 0.10 updates
+
+commit 450aa46841814b0d4a3bc3e21c28f9d0d556137b
+Merge: 27e287b 9b82a55
+Author: MidnightMiner <midnight-miner@users.noreply.github.com>
+Date:   Tue May 2 23:38:35 2017 -0400
+
+    Merge pull request #3 from midnight-miner/development-0.10.4
+    
+    0.10.4
+
+commit 9b82a558b62b1024852160a77e9e6b1d8062245f
+Merge: 0e892a3 6c742df
+Author: midnight-miner <midnight.miner.crypto@gmail.com>
+Date:   Tue May 2 23:36:49 2017 -0400
+
+    Merge remote-tracking branch 'upstream/0.10' into development-0.10.4
+    
+    # Conflicts:
+    #       bata-qt.pro
+    #       build-aux/m4/bitcoin_qt.m4
+    #       build-aux/m4/bitcoin_subdir_to_include.m4
+    #       contrib/README.md
+    #       contrib/debian/manpages/bitcoin-qt.1
+    #       contrib/debian/manpages/bitcoin.conf.5
+    #       contrib/debian/manpages/bitcoind.1
+    #       contrib/gitian-descriptors/README
+    #       contrib/gitian-descriptors/README.md
+    #       contrib/gitian-descriptors/boost-win32.yml
+    #       contrib/gitian-descriptors/deps-win32.yml
+    #       contrib/gitian-descriptors/gitian-win32.yml
+    #       contrib/gitian-descriptors/gitian.yml
+    #       contrib/gitian-descriptors/qt-win32.yml
+    #       contrib/init/README.md
+    #       contrib/init/bitcoind.openrc
+    #       contrib/init/bitcoind.openrcconf
+    #       contrib/seeds/README.md
+    #       contrib/seeds/makeseeds.py
+    #       depends/.gitignore
+    #       depends/Makefile
+    #       depends/builders/darwin.mk
+    #       depends/builders/linux.mk
+    #       depends/config.guess
+    #       depends/config.site.in
+    #       depends/config.sub
+    #       depends/funcs.mk
+    #       depends/hosts/darwin.mk
+    #       depends/packages/bdb.mk
+    #       depends/packages/boost.mk
+    #       depends/packages/expat.mk
+    #       depends/packages/libxcb.mk
+    #       depends/packages/native_ccache.mk
+    #       depends/packages/native_cctools.mk
+    #       depends/packages/native_comparisontool.mk
+    #       depends/packages/native_protobuf.mk
+    #       depends/packages/openssl.mk
+    #       depends/packages/packages.mk
+    #       depends/packages/protobuf.mk
+    #       depends/packages/qt.mk
+    #       depends/patches/qt/fix-xcb-include-order.patch
+    #       depends/patches/qt/mac-qmake.conf
+    #       doc/README.md
+    #       doc/README_windows.txt
+    #       doc/build-msw.md
+    #       doc/build-osx.md
+    #       doc/readme-qt.rst
+    #       doc/release-notes.md
+    #       share/qt/Info.plist
+    #       share/qt/clean_mac_info_plist.py
+    #       share/setup.nsi
+    #       src/base58.h
+    #       src/bitcoinrpc.cpp
+    #       src/bloom.cpp
+    #       src/checkpoints.cpp
+    #       src/clientversion.h
+    #       src/init.cpp
+    #       src/key.cpp
+    #       src/leveldb/AUTHORS
+    #       src/leveldb/Makefile
+    #       src/leveldb/build_detect_platform
+    #       src/leveldb/db/corruption_test.cc
+    #       src/leveldb/db/db_impl.cc
+    #       src/leveldb/db/db_test.cc
+    #       src/leveldb/include/leveldb/db.h
+    #       src/leveldb/util/env_posix.cc
+    #       src/leveldb/util/hash.cc
+    #       src/main.cpp
+    #       src/main.h
+    #       src/makefile.linux-mingw
+    #       src/makefile.mingw
+    #       src/makefile.osx
+    #       src/makefile.unix
+    #       src/net.cpp
+    #       src/net.h
+    #       src/qt/aboutdialog.cpp
+    #       src/qt/aboutdialog.h
+    #       src/qt/addressbookpage.cpp
+    #       src/qt/addressbookpage.h
+    #       src/qt/addresstablemodel.cpp
+    #       src/qt/addresstablemodel.h
+    #       src/qt/askpassphrasedialog.h
+    #       src/qt/bitcoin.cpp
+    #       src/qt/bitcoinaddressvalidator.cpp
+    #       src/qt/bitcoinaddressvalidator.h
+    #       src/qt/bitcoinamountfield.cpp
+    #       src/qt/bitcoinamountfield.h
+    #       src/qt/bitcoingui.cpp
+    #       src/qt/bitcoingui.h
+    #       src/qt/bitcoinstrings.cpp
+    #       src/qt/bitcoinunits.h
+    #       src/qt/clientmodel.h
+    #       src/qt/coincontroldialog.cpp
+    #       src/qt/csvmodelwriter.h
+    #       src/qt/editaddressdialog.h
+    #       src/qt/forms/aboutdialog.ui
+    #       src/qt/forms/optionsdialog.ui
+    #       src/qt/forms/overviewpage.ui
+    #       src/qt/guiconstants.h
+    #       src/qt/guiutil.cpp
+    #       src/qt/guiutil.h
+    #       src/qt/locale/bitcoin_ar.ts
+    #       src/qt/macdockiconhandler.h
+    #       src/qt/macnotificationhandler.h
+    #       src/qt/notificator.h
+    #       src/qt/optionsdialog.cpp
+    #       src/qt/optionsdialog.h
+    #       src/qt/optionsmodel.cpp
+    #       src/qt/optionsmodel.h
+    #       src/qt/overviewpage.h
+    #       src/qt/paymentserver.cpp
+    #       src/qt/paymentserver.h
+    #       src/qt/qvalidatedlineedit.h
+    #       src/qt/qvaluecombobox.h
+    #       src/qt/rpcconsole.cpp
+    #       src/qt/rpcconsole.h
+    #       src/qt/sendcoinsdialog.cpp
+    #       src/qt/sendcoinsdialog.h
+    #       src/qt/sendcoinsentry.cpp
+    #       src/qt/sendcoinsentry.h
+    #       src/qt/signverifymessagedialog.cpp
+    #       src/qt/signverifymessagedialog.h
+    #       src/qt/splashscreen.cpp
+    #       src/qt/splashscreen.h
+    #       src/qt/test/uritests.cpp
+    #       src/qt/transactiondesc.cpp
+    #       src/qt/transactiondesc.h
+    #       src/qt/transactiondescdialog.h
+    #       src/qt/transactionfilterproxy.h
+    #       src/qt/transactionrecord.cpp
+    #       src/qt/transactionrecord.h
+    #       src/qt/transactiontablemodel.cpp
+    #       src/qt/transactiontablemodel.h
+    #       src/qt/transactionview.h
+    #       src/qt/walletframe.h
+    #       src/qt/walletmodel.cpp
+    #       src/qt/walletmodel.h
+    #       src/qt/walletview.h
+    #       src/rpcblockchain.cpp
+    #       src/rpcdump.cpp
+    #       src/rpcnet.cpp
+    #       src/rpcrawtransaction.cpp
+    #       src/rpcwallet.cpp
+    #       src/script.cpp
+    #       src/script.h
+    #       src/serialize.h
+    #       src/test/miner_tests.cpp
+    #       src/test/script_tests.cpp
+    #       src/version.cpp
+    #       src/wallet.cpp
+    #       src/wallet.h
+    #       src/walletdb.cpp
+
+commit 27e287be0709d98f845560582e76f4edb6ff93b2
+Merge: 8306a05 9d712e7
+Author: MidnightMiner <midnight-miner@users.noreply.github.com>
+Date:   Tue May 2 23:09:39 2017 -0400
+
+    Merge pull request #2 from BTA-BATA/master
+    
+            Update README.md
+
+commit 9d712e749d26a373002e1d4bd061106f408b6bd3
+Author: pc888 <p.p.caruana@gmail.com>
+Date:   Tue May 2 17:27:41 2017 +1000
+
+    Set theme jekyll-theme-cayman
+
+commit 0e892a39d9a77ef59397471801537f169cbe56ce
+Author: midnight-miner <midnight.miner.crypto@gmail.com>
+Date:   Tue May 2 01:08:43 2017 -0400
+
+    Updated README file.  Updated link for Tor
+
+commit e83ed7191d72bbb152f037005d437112168f6020
+Author: midnight-miner <midnight.miner.crypto@gmail.com>
+Date:   Mon May 1 23:07:23 2017 -0400
+
+    Update Mac build paths.
+
+commit 6eb05395ddc10d44443510fb389ae211edf57d9b
+Author: midnight-miner <midnight.miner.crypto@gmail.com>
+Date:   Thu Apr 27 00:05:58 2017 -0400
+
+    Copyright updates
+
+commit 8e481a6bfbf67e0b262dea05b040ea4cc7351fd6
+Author: midnight-miner <midnight.miner.crypto@gmail.com>
+Date:   Wed Apr 26 23:57:29 2017 -0400
+
+    Documentation and utilities updated.
+
+commit 6c742df68cf01232e21e39d4225d2b34817ec98c
+Author: pc888 <p.p.caruana@gmail.com>
+Date:   Wed Apr 19 21:33:24 2017 +1000
+
+    Update README.md
+
+commit ccc2c255e4fa54712776bcfa257f7a8b9a34a75f
+Author: pc888 <p.p.caruana@gmail.com>
+Date:   Tue Apr 11 21:05:04 2017 +1000
+
+    Update README.md
+
+commit 4eeb0413da9b041ef1f35c2b951d984619c9469c
+Author: pc888 <p.p.caruana@gmail.com>
+Date:   Tue Apr 11 21:01:26 2017 +1000
+
+    Update README.md
+
+commit f58355dee1c4f2cb23b44da04ba89f3aec2e63f8
+Author: midnight-miner <midnight.miner.crypto@gmail.com>
+Date:   Sun Apr 9 21:57:30 2017 -0400
+
+    Updated /depends cross-compile to Qt 5.6.1
+
+commit 1a95d9843adcc4e3b1cadba5788d9f490087af21
+Author: midnight-miner <midnight.miner.crypto@gmail.com>
+Date:   Sat Apr 8 20:20:35 2017 -0400
+
+    Fix permissions on Travis scripts
+
+commit 3b47afc2ecc9cbafe0dffaa1a30070809060f965
+Author: midnight-miner <midnight.miner.crypto@gmail.com>
+Date:   Sat Apr 8 20:11:07 2017 -0400
+
+    Update Travis scripts and file clean up.
+
+commit 5b2f9214cac02c8e2240a76f4d1f3f4232a39f04
+Author: midnight-miner <midnight.miner.crypto@gmail.com>
+Date:   Sat Apr 8 18:39:05 2017 -0400
+
+    Updated TOR download link.
+
+commit c6c0ccd65baeec52900b65b084e9ba8500de1250
+Author: midnight-miner <midnight.miner.crypto@gmail.com>
+Date:   Sat Apr 8 18:30:04 2017 -0400
+
+    More Core 0.10 changesand updates
+
+commit e8f9861fe7a24cf749566926434b9779347a2d95
+Author: Bata Currency <p.p.caruana@gmail.com>
+Date:   Fri Apr 7 17:46:44 2017 +1000
+
+    Update README.md
+
+commit 43e7538559041f8f5434e687c75ea30321202022
+Author: Bata Currency <p.p.caruana@gmail.com>
+Date:   Fri Apr 7 17:34:22 2017 +1000
+
+    Update README.md
+
+commit c8bfa65a079b83175ae73ad93d606c622ceddd74
+Author: midnight-miner <midnight.miner.crypto@gmail.com>
+Date:   Sat Feb 18 19:59:01 2017 -0500
+
+    More Bata specific changes to core 0.10.x
+
+commit 8772760787fd94dd8f3278c9013339a4b017dc67
+Author: Jason David <jdavid@actionit.ca>
+Date:   Mon Dec 26 21:39:16 2016 -0500
+
+    more core 0.10.x updates.
+
+commit 471f72dbec72422adf433c2a8277c841c29ba18f
+Author: midnight-miner <midnight.miner.crypto@gmail.com>
+Date:   Sat Oct 22 16:31:38 2016 -0400
+
+    more core 0.10.x updates
+
+commit d9d4aefa39bb514782fdc1e6f64f603b636e6758
+Author: midnight-miner <midnight.miner.crypto@gmail.com>
+Date:   Sat Oct 22 16:02:14 2016 -0400
+
+    missing travis files from core 0.10.x copy.
+
+commit 3ed409e50c78c620e30d4f24606105ef75bec377
+Author: midnight-miner <midnight.miner.crypto@gmail.com>
+Date:   Sat Oct 22 15:05:38 2016 -0400
+
+    src file updates for core 0.10.x
+
+commit 1e54c5b4a3e38fe0fba3872788fcb415aab53d05
+Author: midnight-miner <midnight.miner.crypto@gmail.com>
+Date:   Sat Oct 22 10:48:19 2016 -0400
+
+    Updates core 0.10.x test files
+
+commit 5526c7f78f6f95d7ed52efc3631c9638db9d9fd4
+Author: midnight-miner <midnight.miner.crypto@gmail.com>
+Date:   Sat Oct 22 10:39:31 2016 -0400
+
+    core 0.10.x qt source file updates
+
+commit dc0a051bb7d27b1b0dad46b58b3484423a6c86e0
+Author: midnight-miner <midnight.miner.crypto@gmail.com>
+Date:   Sat Oct 22 00:04:22 2016 -0400
+
+    core 0.10.x new src files added.
+
+commit 517a46785c1243cb4113b4d29e30ec37fe1d5636
+Author: midnight-miner <midnight.miner.crypto@gmail.com>
+Date:   Sat Oct 22 00:02:53 2016 -0400
+
+    core 0.10.x new src files added.
+
+commit 8e0113b3a84b669c0fb06b8b25d7afcef73a47eb
+Author: midnight-miner <midnight.miner.crypto@gmail.com>
+Date:   Fri Oct 21 23:59:16 2016 -0400
+
+    core 0.10.x share files added.
+
+commit d933bb49fd0c51b960215052dad5b5a904a9ab14
+Author: midnight-miner <midnight.miner.crypto@gmail.com>
+Date:   Fri Oct 21 23:58:24 2016 -0400
+
+    core 0.10.x doc updates
+
+commit 131aea2d196e0f29361ead0eecc39be20ceb137e
+Author: midnight-miner <midnight.miner.crypto@gmail.com>
+Date:   Fri Oct 21 23:55:30 2016 -0400
+
+    Update leveldb from 1.13 to 1.18
+
+commit a0d2c91f9a8c296dca710120bf53aef41aacd5e4
+Author: midnight-miner <midnight.miner.crypto@gmail.com>
+Date:   Fri Oct 21 23:39:18 2016 -0400
+
+    Corrected Bata p2p port num.
+
+commit a68ff40a261e5b1ac3fcbac0ff7657fd8d8ac5c5
+Author: midnight-miner <midnight.miner.crypto@gmail.com>
+Date:   Sun Oct 2 18:08:44 2016 -0400
+
+    Added background image to Qt wallet.
+
+commit 6446b69403f54a87efdfe17fbfceaaf13bfbc8d7
+Author: midnight-miner <midnight.miner.crypto@gmail.com>
+Date:   Mon Sep 19 08:11:02 2016 -0400
+
+    Fixed URL.
+
+commit 0f89b4890d62ae8fb6710a2b025e37d15c3c9df1
+Author: midnight-miner <midnight.miner.crypto@gmail.com>
+Date:   Mon Sep 19 07:13:40 2016 -0400
+
+    Fix RPC port for BATA wallet.
+
+commit 10c6c53ae1d1a1ef9039552894ca71cb5fc687ce
+Author: midnight-miner <midnight.miner.crypto@gmail.com>
+Date:   Mon Sep 19 07:13:04 2016 -0400
+
+    BATA coin name substitution.
+
+commit 01b7e0623ea149c61724cd3ce36f8f11726f34d0
+Author: midnight-miner <midnight.miner.crypto@gmail.com>
+Date:   Mon Sep 19 07:03:11 2016 -0400
+
+    Miscount decimal places!
+
+commit 0ded707ab3bd9ebbb081fdbb81380c6c6102e52d
+Author: midnight-miner <midnight.miner.crypto@gmail.com>
+Date:   Mon Sep 19 06:10:29 2016 -0400
+
+    Added build-aux, contrib, depends, qa directories from upstream version.
+
+commit 4d583fef6c77b9412d69ce28e83e235314d2a58a
+Author: midnight-miner <midnight.miner.crypto@gmail.com>
+Date:   Mon Sep 19 04:14:53 2016 -0400
+
+    Missing comma in DNS Seed array.
+
+commit 2f93990a00328c0dd131cea3742cc187a5dd3d36
+Author: midnight-miner <midnight.miner.crypto@gmail.com>
+Date:   Mon Sep 19 03:04:26 2016 -0400
+
+    Removed block on CBlockIndex::IsSuperMajority to lock-in v2 protocol.
+
+commit ffde9148e8e548606d451b333dd191cb37d191ed
+Author: midnight-miner <midnight.miner.crypto@gmail.com>
+Date:   Mon Sep 19 03:02:41 2016 -0400
+
+    Fix comments and typos.
+
+commit 88810d7e857a731ed7c83c920c42010df250e805
+Author: midnight-miner <midnight.miner.crypto@gmail.com>
+Date:   Mon Sep 19 02:58:02 2016 -0400
+
+    Removed showmyip.com service and updated Seed nodes.
+
+commit 945cbd9780d8197ae252a366adfad93ac609f536
+Author: midnight-miner <midnight.miner.crypto@gmail.com>
+Date:   Mon Sep 19 01:36:38 2016 -0400
+
+    Missing splash image.
+
+commit 48cc30d33a4ce4619fa2b5d54cec627aa637dd61
+Author: midnight-miner <midnight.miner.crypto@gmail.com>
+Date:   Sun Sep 18 18:11:32 2016 -0400
+
+    Update checkpoints
+
+commit ce0ef4951ffb6bc30163149899c61117722fc6bd
+Author: midnight-miner <midnight.miner.crypto@gmail.com>
+Date:   Sun Sep 18 18:11:21 2016 -0400
+
+    Update MIN FEE from float to INT
+
+commit 7df4dbd0b508f4f7b1c2fe97cc43081980072022
+Author: midnight-miner <midnight.miner.crypto@gmail.com>
+Date:   Sun Sep 18 18:10:47 2016 -0400
+
+    Typos found in build
+
+commit 0e2f91cc4ce4060264b07cfcf8824b50d12126ff
+Author: midnight-miner <midnight.miner.crypto@gmail.com>
+Date:   Sun Sep 18 16:46:24 2016 -0400
+
+    Update sources to core 0.8.7.5
+    
+    Update BATA source code from litecoin 0.8.7.5
+
+commit 8b631e1b427de55250ee426c6c409419b31ef3f3
+Author: midnight-miner <midnight.miner.crypto@gmail.com>
+Date:   Fri Sep 16 20:28:40 2016 -0400
+
+    Add Travis CI
+
+commit 8306a05d6d4440312241a09b8723fa4d38566606
+Merge: 5a7485e 850a742
+Author: Bata Currency <p.p.caruana@gmail.com>
+Date:   Fri Oct 7 16:54:32 2016 +1100
+
+    Merge pull request #7 from bumbacoin/master
+    
+    mac compile update
+
+commit 850a7422aaabdd182cf6bec63de27e6f014b5aec
+Author: Fibbly Fobbly <User@Fibblys-MacBook-Pro.local>
+Date:   Fri Oct 7 13:46:16 2016 +0800
+
+    mac compile update
+
+commit 5a7485e548a66e91d422d454b50e7155ee53d20d
+Author: Bata Currency <p.p.caruana@gmail.com>
+Date:   Wed Oct 5 00:35:09 2016 +1100
+
+    Update README.md
+
+commit 1554c68611ff1ce65e7e5d757e3029a5058dbbea
+Author: Bata Currency <p.p.caruana@gmail.com>
+Date:   Wed Oct 5 00:32:46 2016 +1100
+
+    Update README.md
+
+commit bdac67a0726b431512a4c654b2d081e0310b957e
+Merge: 4eb2b69 94e9d41
+Author: Bata Currency <p.p.caruana@gmail.com>
+Date:   Tue Oct 4 10:43:09 2016 +1100
+
+    Merge pull request #6 from midnight-miner/dev-0.8.7.5
+    
+    Update to core 0.8.7.5
+
+commit 94e9d417d091dff7d44e81e6c5d04ab590df5c19
+Author: midnight-miner <midnight.miner.crypto@gmail.com>
+Date:   Sun Oct 2 18:08:44 2016 -0400
+
+    Added background image to Qt wallet.
+
+commit 358bba6879f9b639e6c0a2e4fa53b057b0a33655
+Author: midnight-miner <midnight.miner.crypto@gmail.com>
+Date:   Mon Sep 19 08:11:02 2016 -0400
+
+    Fixed URL.
+
+commit 35b7d52c003092291afa464b42069f013fb1cdc9
+Author: midnight-miner <midnight.miner.crypto@gmail.com>
+Date:   Mon Sep 19 07:13:40 2016 -0400
+
+    Fix RPC port for BATA wallet.
+
+commit b944003ac5caec44b6ba9879ebdb67bdf6d5542a
+Author: midnight-miner <midnight.miner.crypto@gmail.com>
+Date:   Mon Sep 19 07:13:04 2016 -0400
+
+    BATA coin name substitution.
+
+commit 43360f06abdaedb52c7cfd3a70b05ad9d857acc3
+Author: midnight-miner <midnight.miner.crypto@gmail.com>
+Date:   Mon Sep 19 07:03:11 2016 -0400
+
+    Miscount decimal places!
+
+commit aecd47579933511a42054687b056574223591c6f
+Author: midnight-miner <midnight.miner.crypto@gmail.com>
+Date:   Mon Sep 19 06:10:29 2016 -0400
+
+    Added build-aux, contrib, depends, qa directories from upstream version.
+
+commit 99914e6b761f155778fb37713dd0c6e8ce2f1aee
+Author: midnight-miner <midnight.miner.crypto@gmail.com>
+Date:   Mon Sep 19 04:14:53 2016 -0400
+
+    Missing comma in DNS Seed array.
+
+commit 5855c9cedab3f0b9d70d71bf13d456b545c26a4a
+Author: midnight-miner <midnight.miner.crypto@gmail.com>
+Date:   Mon Sep 19 03:04:26 2016 -0400
+
+    Removed block on CBlockIndex::IsSuperMajority to lock-in v2 protocol.
+
+commit 734fbe5a17c38fa1d41689e4d95950a8c0c43ee0
+Author: midnight-miner <midnight.miner.crypto@gmail.com>
+Date:   Mon Sep 19 03:02:41 2016 -0400
+
+    Fix comments and typos.
+
+commit 41f7771fb58a09779fad74613e36914fd289a266
+Author: midnight-miner <midnight.miner.crypto@gmail.com>
+Date:   Mon Sep 19 02:58:02 2016 -0400
+
+    Removed showmyip.com service and updated Seed nodes.
+
+commit d224c6b929835a63bd5daa2e04422d1ab72fd1f9
+Author: midnight-miner <midnight.miner.crypto@gmail.com>
+Date:   Mon Sep 19 01:36:38 2016 -0400
+
+    Missing splash image.
+
+commit 17b8f0f80b6f418e338b81b8b91cee82cb5eca4b
+Author: midnight-miner <midnight.miner.crypto@gmail.com>
+Date:   Sun Sep 18 18:11:32 2016 -0400
+
+    Update checkpoints
+
+commit 2cbb5f3f08a9e4ecc93d74f0146ab63a0d08d035
+Author: midnight-miner <midnight.miner.crypto@gmail.com>
+Date:   Sun Sep 18 18:11:21 2016 -0400
+
+    Update MIN FEE from float to INT
+
+commit cc2e156c5a1952918bddfa8d0eb26e312f4f6d61
+Author: midnight-miner <midnight.miner.crypto@gmail.com>
+Date:   Sun Sep 18 18:10:47 2016 -0400
+
+    Typos found in build
+
+commit b7ce21ea9569828da76de45a47d951d11f3ff749
+Author: midnight-miner <midnight.miner.crypto@gmail.com>
+Date:   Sun Sep 18 16:46:24 2016 -0400
+
+    Update sources to core 0.8.7.5
+    
+    Update BATA source code from litecoin 0.8.7.5
+
+commit 2b87ba5b789e2832c97586520975b1153bb483be
+Author: midnight-miner <midnight.miner.crypto@gmail.com>
+Date:   Fri Sep 16 20:28:40 2016 -0400
+
+    Add Travis CI
+
+commit 4eb2b694e1da78c685fa515002c0d67a580e29bc
+Merge: 9499e79 0b1f5b6
+Author: Bata.io <p.p.caruana@gmail.com>
+Date:   Sat Feb 27 19:20:20 2016 +1100
+
+    Merge pull request #5 from BTA-BATA/patch-1
+    
+    Update README.md
+
+commit 0b1f5b6f7f73eaf408c3c3c63dc10bb7a6cb0e3b
+Author: Bata.io <p.p.caruana@gmail.com>
+Date:   Sat Feb 27 19:18:27 2016 +1100
+
+    Update README.md
+
+commit 9499e79a801bd27a50b1c8428d9aa849a876ab5f
+Merge: d93b9c2 73da1e5
+Author: Bata.io <p.p.caruana@gmail.com>
+Date:   Sat Feb 27 19:16:49 2016 +1100
+
+    Merge pull request #4 from chrysophylax69/master
+    
+    changes to compile on fedora 23 x64 ... #crysx
+
+commit 73da1e5497b55c64fdf2b5cef4d5847d65697786
+Author: chrysophylax69 <chrysophylax69@github.com>
+Date:   Sat Feb 27 15:04:19 2016 +1030
+
+    attribute correction -x ...fix auto leveldb compile ... #crysx
+
+commit 7396156afeca6d42dbe6afc60873ab472969c9a8
+Author: chrysophylax69 <chrysophylax69@github.com>
+Date:   Sat Feb 27 14:35:21 2016 +1030
+
+    changes to compile on fedora 23 x64 ... #crysx
+
+commit d93b9c2257cb0c473d4c1d187f602bdb7574b71b
+Author: Bata.io <p.p.caruana@gmail.com>
+Date:   Tue Dec 1 14:48:36 2015 +1100
+
+    Update README.md
+
+commit 55a87d8bae0733de16fcf269763ff94154947cfb
+Author: Bata.Money <p.p.caruana@gmail.com>
+Date:   Mon Jun 22 01:20:48 2015 +1000
+
+    Update README.md
+
+commit 8f8df755eb03f214b19f05ac51afb70950546c79
+Author: Bata.Money <p.p.caruana@gmail.com>
+Date:   Mon Jun 22 01:19:20 2015 +1000
+
+    Update README.md
+
+commit 81261315deed88017b21a42bba96cd01cf0ceecb
+Merge: a3789ee b04dd6f
+Author: Bata.Money <p.p.caruana@gmail.com>
+Date:   Sun Jun 21 20:37:31 2015 +1000
+
+    Merge pull request #3 from justinvforvendetta/master
+    
+    Update README.md
+
+commit b04dd6f5dfdc7c2bdba88356ca4ced8170b748b8
+Author: sunerok <justinvforvendetta@users.noreply.github.com>
+Date:   Sun Jun 21 06:35:31 2015 -0400
+
+    Update README.md
+
+commit a3789eed475bf019d4c2f418cd6ee40f11d97a5e
+Merge: 523cd76 ae665d5
+Author: Bata.Money <p.p.caruana@gmail.com>
+Date:   Sun Jun 21 20:31:44 2015 +1000
+
+    Merge pull request #2 from justinvforvendetta/patch-1
+    
+    Update README.md
+
+commit 460f480d01017b54ef6efa1d427d828be45f8001
+Author: sunerok <justinvforvendetta@users.noreply.github.com>
+Date:   Sun Jun 21 06:27:35 2015 -0400
+
+    Update README.md
+
+commit ae665d5a3a010e2fe0e6df3844f95c21cfb6e18b
+Author: sunerok <justinvforvendetta@users.noreply.github.com>
+Date:   Sun Jun 21 06:24:01 2015 -0400
+
+    Update README.md
+
+commit 523cd76cc3866806317494cf02046e38dbad07f4
+Merge: a58787f 6aca92e
+Author: Bata.Money <p.p.caruana@gmail.com>
+Date:   Sun Jun 21 20:23:11 2015 +1000
+
+    Merge pull request #1 from justinvforvendetta/master
+    
+    i2p updates
+
+commit 6aca92e651112ac8c86a4d9515814b4172b02d24
+Author: sunerok <justinvforvendetta@users.noreply.github.com>
+Date:   Sun Jun 21 03:41:24 2015 -0400
+
+    Update README.md
+
+commit 41c5e8316211a2d5d03eca3ee8567452df3bf9e4
+Author: sunerok <justinvforvendetta@users.noreply.github.com>
+Date:   Sun Jun 21 03:11:38 2015 -0400
+
+    Update README.md
+
+commit b36fffc5e14b5e184bcdd42b0358c5182c187f61
+Author: sunerok <justinvforvendetta@users.noreply.github.com>
+Date:   Sun Jun 21 03:10:12 2015 -0400
+
+    Update README.md
+
+commit e6ecbfcb745beff133c6f2506aa86bae4c928e01
+Author: sunerok <justinvforvendetta@users.noreply.github.com>
+Date:   Sat Jun 20 05:44:51 2015 -0400
+
+    Update README.md
+
+commit 7c4df31190747a35c4a10d8237c1670897918b3c
+Author: sunerok <justinvforvendetta@users.noreply.github.com>
+Date:   Sat Jun 20 02:37:02 2015 -0400
+
+    Update README.md
+
+commit 87cf3540e5bdc33b280f3c9a42cc9a77c1e8071b
+Author: sunerok <justinvforvendetta@users.noreply.github.com>
+Date:   Sat Jun 20 01:53:09 2015 -0400
+
+    Update README.md
+
+commit cb403c33716aefb38779e2c58ec27aa9a3fc74bf
+Author: sunerok <justinvforvendetta@users.noreply.github.com>
+Date:   Sat Jun 20 01:52:20 2015 -0400
+
+    Update README.md
+
+commit 954fd0982e253812e7ebffe16794c1466115656f
+Author: sunerok <justinvforvendetta@users.noreply.github.com>
+Date:   Sat Jun 20 01:51:34 2015 -0400
+
+    Update README.md
+
+commit 925a9ec01b608c3e2622803c5a8bd5c55d8984a7
+Author: sunerok <justinvforvendetta@users.noreply.github.com>
+Date:   Sat Jun 20 01:51:09 2015 -0400
+
+    Rename readme to README.md
+
+commit 098925d429dc9e784aeb1cb47ffbf775c40afa9d
+Author: sunerok <justinvforvendetta@users.noreply.github.com>
+Date:   Sat Jun 20 01:49:51 2015 -0400
+
+    Update readme
+
+commit f5f321c440cd1afe6bdfed546aaff301295d0f95
+Author: sunerok <justinvforvendetta@users.noreply.github.com>
+Date:   Sat Jun 20 01:48:46 2015 -0400
+
+    Update readme
+
+commit cdd7791a6db4efbe1361a0db222d6daf58ff0c36
+Author: sunerok <justinvforvendetta@gmail.com>
+Date:   Sat Jun 20 01:47:54 2015 -0400
+
+    png
+
+commit babcd5912b59a1ac7b64b6b79607b482a93ab97f
+Author: sunerok <justinvforvendetta@users.noreply.github.com>
+Date:   Sat Jun 20 01:47:11 2015 -0400
+
+    Update readme
+
+commit 3ed721ca5a991dfbf4131b481424c371fcfb2e12
+Author: sunerok <justinvforvendetta@users.noreply.github.com>
+Date:   Sat Jun 20 01:46:07 2015 -0400
+
+    Update readme
+
+commit d0fdbd3e3d5b0477246014908280974ce3b01616
+Author: sunerok <justinvforvendetta@users.noreply.github.com>
+Date:   Sat Jun 20 01:39:29 2015 -0400
+
+    Update readme
+
+commit 82cbaef7eea672eece883802bcd5ceee3e51893a
+Author: sunerok <justinvforvendetta@users.noreply.github.com>
+Date:   Sat Jun 20 01:36:22 2015 -0400
+
+    Update readme
+
+commit 73e97be96b02603b6d20143ae4facfa0a6eef5bd
+Author: sunerok <justinvforvendetta@users.noreply.github.com>
+Date:   Sat Jun 20 01:33:41 2015 -0400
+
+    Update readme
+
+commit 8d214c320a4b50f68e449ab76c42620296ae5277
+Author: sunerok <justinvforvendetta@gmail.com>
+Date:   Sat Jun 20 01:27:05 2015 -0400
+
+    logo
+    
+    logo
+
+commit 7ad46609843d368abbdee8549f900ad519d7b2cd
+Author: sunerok <justinvforvendetta@users.noreply.github.com>
+Date:   Fri Jun 19 22:43:13 2015 -0400
+
+    Update netbase.cpp
+
+commit f9fec39cc1e83afa8a0c6c6504f30828205be868
+Author: sunerok <justinvforvendetta@users.noreply.github.com>
+Date:   Fri Jun 19 22:41:03 2015 -0400
+
+    Update netbase.cpp
+
+commit 253d225250d426477dd79a96ba4c98a2bf90417b
+Author: sunerok <justinvforvendetta@users.noreply.github.com>
+Date:   Fri Jun 19 22:33:30 2015 -0400
+
+    Update netbase.cpp
+
+commit a3d3964db3d4f933dc0f6b36d5eace7fad57e1ce
+Author: sunerok <justinvforvendetta@users.noreply.github.com>
+Date:   Fri Jun 19 22:31:34 2015 -0400
+
+    Update netbase.cpp
+
+commit f9dda25784aa188f31a91aaf0d44067678752e83
+Author: sunerok <justinvforvendetta@users.noreply.github.com>
+Date:   Fri Jun 19 22:27:03 2015 -0400
+
+    Update netbase.cpp
+
+commit 4e25f1613e0d7abee9c61e53fc316d0033b961f5
+Author: sunerok <justinvforvendetta@users.noreply.github.com>
+Date:   Fri Jun 19 22:18:39 2015 -0400
+
+    i2p support
+    
+    added i2p support
+
+commit a58787fa58e6364b93b4ce2e1bdab432e0484fff
+Author: Bata.Money <admin@bata.money>
+Date:   Mon May 11 15:00:10 2015 +1000
+
+    Bata - Source

@@ -15,3 +15,7 @@ $ pip install -r req.txt
 # fetch repo data you want
 $ python utils/creeper.py
 ```
+
+## License
+
+MIT &copy; Contributors

@@ -1,0 +1,11 @@
+commit 17289018c42baf61a23aabd199badee614abf601
+Author: Aces <Aces>
+Date:   Fri Jul 29 01:20:44 2016 +0500
+
+    initial commit
+
+commit e85ee7905f94cd73a0d375bb00743a710e23b2c5
+Author: Aces <Aces>
+Date:   Fri Jul 29 01:15:59 2016 +0500
+
+    :lollipop: Added .gitattributes & .gitignore files

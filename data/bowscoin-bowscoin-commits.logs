@@ -1,0 +1,115 @@
+commit ce8f04753eeaab4ea6bf78244cc0589639ecb8d5
+Author: bowscoin <bowscoin@gmail.com>
+Date:   Tue Jul 21 23:03:08 2015 +0300
+
+    Update README.md
+
+commit 7cddf7fd07b47813af6aafc46b9bbc447a454fde
+Author: bowscoin <bowscoin@gmail.com>
+Date:   Sat May 16 12:22:27 2015 +0300
+
+    Update setup.nsi, guiutil.cpp
+
+commit 28450e414f36b153a10647d70da23f2b90142de5
+Author: bowscoin <bowscoin@gmail.com>
+Date:   Sat May 16 11:54:24 2015 +0300
+
+    del debian
+
+commit 4ff12801182be5d2ee5029a65a5f8d2c65efa6d2
+Author: bowscoin <bowscoin@gmail.com>
+Date:   Sat May 16 11:13:06 2015 +0300
+
+    Update walletunlock.py
+
+commit f7a9a30a2113c19b57c65eb7ee8eced2e1de47aa
+Author: bowscoin <bowscoin@gmail.com>
+Date:   Sat May 16 11:12:48 2015 +0300
+
+    Update walletchangepass.py
+
+commit de1a72a4651e6f6e2eee86a3f0d2da70b27d40fc
+Author: bowscoin <bowscoin@gmail.com>
+Date:   Sat May 16 11:11:53 2015 +0300
+
+    Update spendfrom.py
+
+commit 2992c603fd378c51af048aad22436803b8b1cc43
+Author: bowscoin <bowscoin@gmail.com>
+Date:   Sat May 16 11:10:50 2015 +0300
+
+    Update makeseeds.py
+
+commit 5b5ca9a25df66cef52d3e302a9bb135884f3981a
+Author: bowscoin <bowscoin@gmail.com>
+Date:   Sat May 16 11:09:57 2015 +0300
+
+    Update qt_translations.py
+
+commit cf86c073c226fd1e7e8a3d13e1645688d8c1d1d7
+Author: bowscoin <bowscoin@gmail.com>
+Date:   Sat May 16 11:08:56 2015 +0300
+
+    Update pyminer.py
+
+commit 7eb2ddfe6e31f8fc8175d7b062a3c5dfcded8d97
+Author: bowscoin <bowscoin@gmail.com>
+Date:   Sat May 16 11:08:22 2015 +0300
+
+    Update example-config.cfg
+
+commit 1dbbbf1e9f9651c4681f180af3a44459d98a1a57
+Author: bowscoin <bowscoin@gmail.com>
+Date:   Sat May 16 11:07:39 2015 +0300
+
+    Update notes.txt
+
+commit f81906ae497567dcfd51745d0314a3646aa222e6
+Author: bowscoin <bowscoin@gmail.com>
+Date:   Sat May 16 11:06:41 2015 +0300
+
+    Update fancy.plist
+
+commit 8877743717c3c06feff8b6ab048641b5e17c4d4a
+Author: bowscoin <bowscoin@gmail.com>
+Date:   Sat May 16 11:06:07 2015 +0300
+
+    Update macdeployqtplus
+
+commit 10bb4bd8b89c7dc4fcb748af7251b40c3e4f449c
+Author: bowscoin <bowscoin@gmail.com>
+Date:   Sat May 16 11:04:58 2015 +0300
+
+    Update bitcoin.qt.pro.patch
+
+commit bbf3d24d619004f83c0da6aa1a09648d660ec2d9
+Author: bowscoin <bowscoin@gmail.com>
+Date:   Sat May 16 10:57:37 2015 +0300
+
+    Update README
+
+commit 5f5bfa72ff1db8d25e5dd1a32fc9cda3400583da
+Author: bowscoin <bowscoin@gmail.com>
+Date:   Sat May 16 10:56:17 2015 +0300
+
+    Update bitrpc.py
+
+commit a2b2b222229942a1fd1ce182ca0cdd12f82d2607
+Author: bowscoin <bowscoin@gmail.com>
+Date:   Sat May 16 00:24:27 2015 +0300
+
+    add gitian
+
+commit fd36e8f474f3724fa5f25c7880e37700d4d90fb2
+Author: bowscoin <bowscoin@gmail.com>
+Date:   Wed May 6 15:10:35 2015 +0300
+
+    Update checkpoints.cpp
+    
+    New checkpoint 450 block
+
+commit d1049590b28aca4f08e2b608d365a68feb15d7d5
+Author: bowscoin <bowscoin@gmail.com>
+Date:   Tue May 5 20:45:30 2015 +0300
+
+    first commit

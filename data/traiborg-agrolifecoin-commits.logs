@@ -1,0 +1,31 @@
+commit c53bf4d40bac59cc8cb835adfe484ecbea2b791d
+Author: Traian Borgovan <traiyborg@gmail.com>
+Date:   Sat Apr 1 13:25:36 2017 +0200
+
+    Update checkpoints.cpp
+
+commit bcc95cf6e99922de7422c5532168ed16cb49713a
+Author: Traian Borgovan <traiyborg@gmail.com>
+Date:   Sat Apr 1 03:45:04 2017 +0200
+
+    Readme
+
+commit 4510c7246ddd82ab2197684a5125c74937275013
+Author: Traian Borgovan <traiyborg@gmail.com>
+Date:   Sat Apr 1 03:44:18 2017 +0200
+
+    Create README.md
+    
+    Agro related POS coin
+
+commit 1d61f0215b1d36b729b608446b4de3d516d695d8
+Author: User <user@gmail.com>
+Date:   Sat Apr 1 03:38:48 2017 +0200
+
+    V2
+
+commit 06f14e9b66a849f364fa0fea07c8fbf983c57fd5
+Author: User <user@gmail.com>
+Date:   Sat Apr 1 03:36:21 2017 +0200
+
+    :boom::camel: Added .gitattributes & .gitignore files

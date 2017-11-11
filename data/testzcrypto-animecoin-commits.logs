@@ -1,0 +1,29 @@
+commit c47a4cad2673d6132ebb09a623618f185f083970
+Author: testzcrypto <testzcrypto@gmail.com>
+Date:   Thu Jun 5 03:18:10 2014 +0600
+
+    Mac OS X build
+
+commit 10728a4e30ee95b7bd54d8726207cf472192c282
+Author: testzcrypto <testzcrypto@gmail.com>
+Date:   Thu May 29 01:19:11 2014 +0600
+
+    Windows installer
+
+commit f681c8842e9159e5646f11684b28ecfe4852c10e
+Author: testzcrypto <testzcrypto@gmail.com>
+Date:   Thu May 29 01:18:11 2014 +0600
+
+    Updated DNS seed
+
+commit 4bcaa441a6b0809c6324a2847078be587f005576
+Author: root <root@node01.mmc-chain.com>
+Date:   Sun Jan 26 20:02:59 2014 +0000
+
+    Added LostFolders
+
+commit 2877acb9bf758112f52454857cdc6802caa8c8a5
+Author: root <root@node01.mmc-chain.com>
+Date:   Sun Jan 26 19:10:05 2014 +0000
+
+    First commit

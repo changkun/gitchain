@@ -1,0 +1,132 @@
+commit 1b2c7431345ece978810eff14026b6d0d743ea0a
+Author: thebitradio <uwe.karbole@gmail.com>
+Date:   Tue Aug 15 07:33:18 2017 -0400
+
+    Version bump on clientversion
+
+commit 3e62e05cc46e7849505a34ad8b59b532a8ca91d8
+Author: thebitradio <uwe.karbole@gmail.com>
+Date:   Tue Aug 15 07:30:19 2017 -0400
+
+    Version bump
+
+commit 9eae8a95077b2c49697b61179edb53e9c40c40dd
+Author: thebitradio <thebitradio@gmail.com>
+Date:   Sun Aug 13 14:49:30 2017 -0400
+
+    Fix for TX relay issues
+
+commit e82b9df5da450c5c21c8af74199c4121ada98e99
+Author: thebitradio <Uwe.Karbole@gmail.com>
+Date:   Mon Mar 27 02:49:03 2017 +0200
+
+    Update README.md
+
+commit 3cde3ba2835ded106cedda52f7d41a8cf7f5341e
+Author: thebitradio <thebitradio@gmail.com>
+Date:   Sat Mar 18 12:56:45 2017 -0400
+
+    New genesis block, pushed MN start date out
+
+commit 9bd4301d8d5486639d5d72a210b07dda8eea336e
+Author: thebitradio <uwe.karbole@gmail.com>
+Date:   Sun Dec 18 09:21:36 2016 -0500
+
+    Adjusted block payout at block 9500
+
+commit ddf0b7be5473f3978184029464df2e2cbda638bc
+Author: thebitradio <uwe.karbole@gmail.com>
+Date:   Fri Dec 9 23:55:50 2016 -0500
+
+    Updates to MN start, rewards, etc.
+
+commit 3c02e769816ba329ebca7d0490f9f11810943d65
+Merge: e912d1f d58a1aa
+Author: thebitradio <uwe.karbole@gmail.com>
+Date:   Tue Nov 29 06:35:45 2016 -0500
+
+    Merge branch 'master' of https://github.com/thebitradio/Bitradio
+
+commit e912d1f1a483f9ef013e957856428b6735186f06
+Author: thebitradio <uwe.karbole@gmail.com>
+Date:   Tue Nov 29 06:34:24 2016 -0500
+
+    Pushed MN payments back a week
+
+commit d58a1aad73407189140b15dded9f49a8427e3872
+Author: thebitradio <Uwe.Karbole@gmail.com>
+Date:   Mon Nov 28 23:25:18 2016 +0100
+
+    Update README.md
+
+commit 5d3aac5bc6b4ea2839b7e30230b9cdca90d16973
+Author: thebitradio <Uwe.Karbole@gmail.com>
+Date:   Mon Nov 28 23:24:32 2016 +0100
+
+    Update README.md
+
+commit 9dbbfe837e7a6f0bc1c286f714dd6380147a9588
+Author: thebitradio <Uwe.Karbole@gmail.com>
+Date:   Mon Nov 28 23:24:03 2016 +0100
+
+    Update README.md
+
+commit a549f54a583c7f8aad41a1136ccf739166b6fd4b
+Author: thebitradio <Uwe.Karbole@gmail.com>
+Date:   Mon Nov 28 23:23:40 2016 +0100
+
+    Update README.md
+
+commit ce9a10c1b65c480648e03059d717a697a2292ba8
+Author: thebitradio <Uwe.Karbole@gmail.com>
+Date:   Mon Nov 28 23:19:06 2016 +0100
+
+    Update addeditadrenalinenode.ui
+
+commit 79887dc1664756406a7d14e5a707b605cf957f88
+Author: thebitradio <Uwe.Karbole@gmail.com>
+Date:   Mon Nov 28 23:15:57 2016 +0100
+
+    Update bitcoin-qt.rc
+
+commit 10ad67934f2d3734593367580d2c7b8764828d17
+Author: thebitradio <Uwe.Karbole@gmail.com>
+Date:   Mon Nov 28 23:13:37 2016 +0100
+
+    Delete radio_02_ov__W660xh0.jpg
+
+commit 4d912e92f636f12b65d4b12a49a13f07420cc96a
+Author: thebitradio <Uwe.Karbole@gmail.com>
+Date:   Sun Nov 20 10:36:11 2016 +0100
+
+    Delete beschreibung
+
+commit e89a704cc6d149c080b615dd7dcb241ca6587464
+Author: thebitradio <uwe.karbole@gmail.com>
+Date:   Sat Nov 19 15:48:28 2016 -0500
+
+    Fixed nSubidy for stake rewards
+
+commit 71f0f8cecb1118eb9793758def5e54355680e024
+Author: thebitradio <uwe.karbole@gmail.com>
+Date:   Sat Nov 19 14:52:04 2016 -0500
+
+    Updated foundation/charity address
+
+commit ec48509375467c671a6cd87c09a06f436f1f5cbe
+Author: thebitradio <uwe.karbole@gmail.com>
+Date:   Sat Nov 19 06:26:48 2016 -0500
+
+    Added premine checkpoint
+
+commit c673932dfe1fe681e9c33cf9b356aeac0c96f50f
+Author: thebitradio <uwe.karbole@gmail.com>
+Date:   Sat Nov 19 06:26:01 2016 -0500
+
+    Updated masternode payout start date
+
+commit 85cb933a79b7420e9f16680139e09040c819c8c8
+Author: thebitradio <uwe.karbole@gmail.com>
+Date:   Thu Nov 17 21:03:28 2016 -0500
+
+    Initial Bitradio commit

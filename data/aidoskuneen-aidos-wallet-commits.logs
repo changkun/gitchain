@@ -1,0 +1,420 @@
+commit a4ef0e2c4e0588e03f8e19fb8232727e62662d3a
+Author: Nos-Manus <nor-manus@protonmail.com>
+Date:   Thu Aug 24 13:45:50 2017 +0200
+
+    bump version
+
+commit 4e52b649213c07c34beca965a07e3658888f5e2d
+Author: Nos-Manus <nor-manus@protonmail.com>
+Date:   Thu Aug 24 13:23:33 2017 +0200
+
+    fixed displaying of amounts
+    
+    correct formatting
+    don't use exponent notation for small numbers
+
+commit bf2391f64e52e1f0ab71c4887b04d09393fc3fb5
+Author: ogami daigoro <ogami.daigoro@outlook.jp>
+Date:   Fri Aug 11 10:19:27 2017 +0900
+
+    bumped
+
+commit 933e10bf99e912af6fe6a77b41db3488f5858930
+Author: ogami daigoro <ogami.daigoro@outlook.jp>
+Date:   Fri Aug 11 10:18:53 2017 +0900
+
+    fixed pow mutex
+
+commit 782cd7ecf680e7ab02de9074de0cc12f81a613dc
+Author: Nos-Manus <nor-manus@protonmail.com>
+Date:   Thu Aug 10 23:14:23 2017 +0200
+
+    update ccurl libs for build version
+
+commit e83eef6d4944fa35df61503a016b0c2c7e09640b
+Author: Nos-Manus <nor-manus@protonmail.com>
+Date:   Thu Aug 10 19:38:49 2017 +0200
+
+    typo
+
+commit ddeeb5065218b2cbbe91ec8cd5fe24434fcbc553
+Author: Nos-Manus <nor-manus@protonmail.com>
+Date:   Thu Aug 10 19:32:38 2017 +0200
+
+    pthread for win64
+
+commit 80db0f4298a0d1ed4f3951b94df8c6b11f49411f
+Author: Nos-Manus <nor-manus@protonmail.com>
+Date:   Thu Aug 10 18:06:44 2017 +0200
+
+    * upp version
+
+commit b41a346b08106c983ab16e117900bbd69230bdc9
+Author: Nos-Manus <nor-manus@protonmail.com>
+Date:   Thu Aug 10 17:55:27 2017 +0200
+
+    change compile for win32
+
+commit 362edfa04f3a709ec5fb790e92974865280de2bc
+Author: Nos-Manus <nor-manus@protonmail.com>
+Date:   Thu Aug 10 17:35:02 2017 +0200
+
+    change node version
+
+commit 0c3cb563a6bf7f7925ab973771e2c1dc0c2c2843
+Author: Nos-Manus <nor-manus@protonmail.com>
+Date:   Thu Aug 10 17:21:11 2017 +0200
+
+    test
+
+commit 80c0df8855431bf79bf74b6b560a0bf3d4f44c37
+Author: ogami daigoro <ogami.daigoro@outlook.jp>
+Date:   Thu Aug 10 14:55:58 2017 +0900
+
+    fixed ccurl issue on win64 msc
+
+commit 523de545bc4094b1ea4cf62526df121fa6d76132
+Author: ogami daigoro <ogami.daigoro@outlook.jp>
+Date:   Thu Aug 10 07:55:56 2017 +0900
+
+    fixed libccurl to use beginthread
+
+commit 9539ad9232a202067a7e4a5907cc7cec56144154
+Author: ogami daigoro <ogami.daigoro@outlook.jp>
+Date:   Thu Aug 10 07:48:25 2017 +0900
+
+    fixed path in appvoyer.yml
+
+commit 403bb71a7719907fe8c39a33de6e10507dfef4e1
+Author: ogami daigoro <ogami.daigoro@outlook.jp>
+Date:   Thu Aug 10 07:45:49 2017 +0900
+
+     win64 with gcc and  win32 for msc
+
+commit 0f315808acb48d2a85525e3b3b175b2599330ae0
+Author: ogami daigoro <ogami.daigoro@outlook.jp>
+Date:   Wed Aug 9 22:43:51 2017 +0900
+
+    bumped
+
+commit 179b159b7579eea6d2a0aa0a7e711b73d98e4532
+Author: ogami daigoro <ogami.daigoro@outlook.jp>
+Date:   Wed Aug 9 22:35:22 2017 +0900
+
+    added xz
+
+commit 9558062a3bbbdc8162c77afaf1a0121ae3dcfdfa
+Author: ogami daigoro <ogami.daigoro@outlook.jp>
+Date:   Wed Aug 9 22:15:47 2017 +0900
+
+    fixed package.json
+
+commit f97b7c483194b5523783dbdee7cf38df29fc5008
+Author: ogami daigoro <ogami.daigoro@outlook.jp>
+Date:   Wed Aug 9 22:10:41 2017 +0900
+
+    remove rpm
+
+commit d6a15d300e6f8bb4b70c34e4598c182dc58a6427
+Author: ogami daigoro <ogami.daigoro@outlook.jp>
+Date:   Wed Aug 9 21:55:04 2017 +0900
+
+    bumped
+
+commit e61d36b134178f70b8141105a34f77f52669749e
+Author: ogami daigoro <ogami.daigoro@outlook.jp>
+Date:   Wed Aug 9 21:54:30 2017 +0900
+
+    removed tx check
+
+commit a24f31a8396a676c9e34028811acf75cf91f1224
+Author: Nos-Manus <nor-manus@protonmail.com>
+Date:   Wed Aug 2 10:26:23 2017 +0200
+
+    change phrasing
+
+commit ccb4bb8f6f4b50c01dffeb2d93dd8a1494956523
+Author: ogami daigoro <ogami.daigoro@outlook.jp>
+Date:   Wed Aug 2 13:08:33 2017 +0900
+
+    added seed notice
+
+commit e952aba215afa4b4d5eadc841eeaf2cc4e4b2c34
+Author: Nos-Manus <nor-manus@protonmail.com>
+Date:   Tue Aug 1 08:37:43 2017 +0200
+
+    up version number
+
+commit 52bee946c388851a12095f62b14bd7c1e2a9218a
+Author: Nos-Manus <nor-manus@protonmail.com>
+Date:   Tue Aug 1 08:33:29 2017 +0200
+
+    * fix history view for bundle with multiple tx
+
+commit 43cdbe38848ff3e34eea06fe21c2624a6960adf6
+Author: ogami daigoro <ogami.daigoro@outlook.jp>
+Date:   Wed Jul 26 15:39:20 2017 +0900
+
+    fixed floating error
+
+commit dbd88a550ababe6c6559eec6b48832a6c630daa8
+Author: ogami daigoro <ogami.daigoro@outlook.jp>
+Date:   Mon Jul 3 12:46:27 2017 +0900
+
+    added debug info for ccurl
+
+commit a58f953e06128f790571bb005b36eda4af95387c
+Author: ogami daigoro <ogami.daigoro@outlook.jp>
+Date:   Wed Jun 28 10:45:34 2017 +0900
+
+     for travis
+
+commit 5abf72de7db01b64a19a25109b70d5d64b6d0216
+Author: ogami daigoro <ogami.daigoro@outlook.jp>
+Date:   Wed Jun 28 10:35:16 2017 +0900
+
+    added -lpthread for travis
+
+commit f47d8b14e4dcc7bc90209641ca22d383c69a7e6d
+Author: ogami daigoro <ogami.daigoro@outlook.jp>
+Date:   Wed Jun 28 10:23:17 2017 +0900
+
+    for showing more info in travis
+
+commit 8603381f477ac406cd0cd6b2c27e1f7988c95fe7
+Author: Ogami Daigoro <ogami-daigoro@users.noreply.github.com>
+Date:   Wed Jun 21 23:36:23 2017 +0900
+
+    for updates of travis
+
+commit 743feb491f7937e87f7053f44aed022442e45076
+Author: Nos-Manus <nor-manus@protonmail.com>
+Date:   Wed Jun 21 14:32:57 2017 +0200
+
+    change mwm for testnet to 13
+
+commit 87ba94aa483575d1195d45895edb8b0060a659ca
+Author: ogami daigoro <ogami.daigoro@outlook.jp>
+Date:   Tue Jun 20 16:35:54 2017 +0900
+
+    readme
+
+commit e72cd3ee0212ed7bc709f4a8425260599a0913a4
+Author: ogami daigoro <ogami.daigoro@outlook.jp>
+Date:   Tue Jun 20 14:53:38 2017 +0900
+
+    fixed getexitcode bug
+
+commit ba7624290a688c6e4cff1f760e18d04ae9253e18
+Author: ogami daigoro <ogami.daigoro@outlook.jp>
+Date:   Mon Jun 19 22:05:27 2017 +0900
+
+    rm unsed release, bumped version
+
+commit 82540a3ef36bf370a62646ece6f546c1ce141eab
+Author: Nos-Manus <nor-manus@protonmail.com>
+Date:   Mon Jun 19 10:08:36 2017 +0200
+
+    lightWalletPort testnet
+
+commit 49c417d39632972b561e5445ba7de5cce6fa8b40
+Author: Nos-Manus <nor-manus@protonmail.com>
+Date:   Mon Jun 19 10:06:42 2017 +0200
+
+    settings.port is meant for running a full node -> meshport not api
+
+commit 3e4399a053b7b9457ad05f729d814d5b3af5dbdc
+Author: ogami daigoro <ogami.daigoro@outlook.jp>
+Date:   Mon Jun 19 15:20:18 2017 +0900
+
+    for travis error
+
+commit 93078f4c1c04929fea90a7621e06957968c828da
+Author: ogami daigoro <ogami.daigoro@outlook.jp>
+Date:   Mon Jun 19 15:14:00 2017 +0900
+
+    for travis error
+
+commit 72d1019fea4fd39e79b30fcf44115ccc67306723
+Author: ogami daigoro <ogami.daigoro@outlook.jp>
+Date:   Mon Jun 19 14:59:25 2017 +0900
+
+    changed pow for win ia32
+
+commit 0c8250eb35f6fbe0d087c5e56c75a7eb574a6275
+Author: ogami daigoro <ogami.daigoro@outlook.jp>
+Date:   Sun Jun 18 16:48:05 2017 +0900
+
+    set default host
+
+commit 3e628ffab6d4d2bf010e655b4d585819e9b423ad
+Author: ogami daigoro <ogami.daigoro@outlook.jp>
+Date:   Sun Jun 18 08:25:46 2017 +0900
+
+    for ia32
+
+commit d677c6bdf5f34225771c792036a7f38529917554
+Author: Nos-Manus <nor-manus@protonmail.com>
+Date:   Thu Jun 8 11:01:15 2017 +0200
+
+    explain re-usage of addresses in FAQ
+
+commit 19b3672a36ec68ff70dbd56f5db7df415076ce47
+Author: Nos-Manus <nor-manus@protonmail.com>
+Date:   Wed Jun 7 22:49:12 2017 +0200
+
+    Wallet can be also used for Testnet now
+
+commit b37c6093207b43184e4fc478fddbc3fff2b850b4
+Merge: b60af97 417691c
+Author: Nos-Manus <nor-manus@protonmail.com>
+Date:   Wed Jun 7 22:41:19 2017 +0200
+
+    Merge remote-tracking branch 'origin/master'
+
+commit b60af97159755583110ad92f52e3871216959fa0
+Author: Nos-Manus <nor-manus@protonmail.com>
+Date:   Wed Jun 7 22:39:14 2017 +0200
+
+    Changes to be able to use the Wallet with the Testnet
+
+commit 417691cbec623d178edbdfeacb6286d4bc9a601a
+Author: ogami daigoro <ogami.daigoro@outlook.jp>
+Date:   Wed Jun 7 04:20:56 2017 +0200
+
+    updated ccurl libs
+
+commit 448acc73301e2b7a647509cead029369633d49c7
+Author: ogami daigoro <ogami.daigoro@outlook.jp>
+Date:   Wed Jun 7 01:47:29 2017 +0200
+
+    fixed invalid nonce bug
+
+commit 6b9df5bb2a05b9cfd16328dd6a9c516def49f633
+Author: ogami daigoro <ogami.daigoro@outlook.jp>
+Date:   Fri May 26 08:51:38 2017 +0200
+
+    trivials
+
+commit eb91e67b24540ecb52c32b67f5bc693c9a912f41
+Author: ogami daigoro <ogami.daigoro@outlook.jp>
+Date:   Fri May 26 08:47:29 2017 +0200
+
+    added libs
+
+commit b8d315606152da19e874294b45607688971a8c82
+Author: ogami daigoro <ogami.daigoro@outlook.jp>
+Date:   Fri May 26 06:13:28 2017 +0200
+
+    appveyor
+
+commit 58bc5a3393fcc116c6099700955f599ece5b28d8
+Author: ogami daigoro <ogami.daigoro@outlook.jp>
+Date:   Fri May 26 06:06:03 2017 +0200
+
+    trivials
+
+commit e6602e5d9907f81ada91eae841645604a9dda021
+Author: ogami daigoro <ogami.daigoro@outlook.jp>
+Date:   Fri May 26 06:03:29 2017 +0200
+
+    trivials
+
+commit 9a1f001403e858476d7cd40bab44bbe98553f851
+Author: ogami daigoro <ogami.daigoro@outlook.jp>
+Date:   Fri May 26 05:57:23 2017 +0200
+
+    trivials
+
+commit 3315ea5913838334656e91d99e13485989a21d08
+Author: ogami daigoro <ogami.daigoro@outlook.jp>
+Date:   Fri May 26 05:52:11 2017 +0200
+
+    trivials
+
+commit 39f60e26bf01d7d3a100a35ad970c28664f34649
+Author: ogami daigoro <ogami.daigoro@outlook.jp>
+Date:   Fri May 26 05:43:46 2017 +0200
+
+    added cpu pow
+
+commit e5288371e8993515fba9596d80e0e5aab082a19c
+Merge: 272e1a2 b61eee0
+Author: ogami daigoro <ogami.daigoro@outlook.jp>
+Date:   Wed May 24 05:34:27 2017 +0200
+
+    Merge tag 'v1.0.0'
+
+commit 272e1a292303ea5077ea56760ea19acbc75397a3
+Author: Nos-Manus <nor-manus@protonmail.com>
+Date:   Wed May 24 01:46:55 2017 +0200
+
+    * fixed time in transaction history
+    
+    * fixed display of complete amount after click
+
+commit b61eee0208acfe66d737162d0ef8c8345c625d66
+Author: ogami daigoro <ogami.daigoro@outlook.jp>
+Date:   Tue May 23 13:14:50 2017 +0200
+
+    for CI
+
+commit e0586679e710b858472e1d0cf6b45960adcc7459
+Author: ogami daigoro <ogami.daigoro@outlook.jp>
+Date:   Tue May 23 13:10:25 2017 +0200
+
+    for CI
+
+commit 05a5645aeecf68ac67589b390f8bd4fccbc6bd27
+Author: ogami daigoro <ogami.daigoro@outlook.jp>
+Date:   Tue May 23 12:52:37 2017 +0200
+
+    for CI
+
+commit 8c6bf1eb2d46d44b9f9ae639af433f9fb07a8869
+Author: ogami daigoro <ogami.daigoro@outlook.jp>
+Date:   Tue May 23 12:25:17 2017 +0200
+
+    changed to file glob
+
+commit 013f933afcb0500b385f71c198575252af6fa529
+Author: ogami daigoro <ogami.daigoro@outlook.jp>
+Date:   Mon May 22 13:10:25 2017 +0200
+
+    version in package.json
+
+commit 130e1b0cc11a8cecd2ca40e25c71008e6d1e790e
+Author: ogami daigoro <ogami.daigoro@outlook.jp>
+Date:   Mon May 22 13:05:04 2017 +0200
+
+    version number
+
+commit f310b01cd01b7358227e303662e712d1ef8425aa
+Author: ogami daigoro <ogami.daigoro@outlook.jp>
+Date:   Mon May 22 13:01:12 2017 +0200
+
+    appveyor
+
+commit 2b51306f60178d69c3d9d3d9607fc043a4beede9
+Author: ogami daigoro <ogami.daigoro@outlook.jp>
+Date:   Mon May 22 12:59:32 2017 +0200
+
+    readme
+
+commit 6f9a713a22da4173651fffd9b505e26399106d7f
+Author: ogami daigoro <ogami.daigoro@outlook.jp>
+Date:   Mon May 22 12:54:37 2017 +0200
+
+    updated appveyor.yml
+
+commit a6a1f1c7bcce0806de7b57e1ebca0fa3758a0ece
+Author: ogami daigoro <ogami.daigoro@outlook.jp>
+Date:   Mon May 22 12:16:15 2017 +0200
+
+    del ia32 bin
+
+commit 82bf8f5f5ec6b99c017614127bea98e118e60a05
+Author: ogami daigoro <ogami.daigoro@outlook.jp>
+Date:   Mon May 22 11:06:03 2017 +0200
+
+    1st

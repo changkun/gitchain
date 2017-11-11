@@ -1,0 +1,155 @@
+commit 633ecf48df6cea200f6029ea87ffb61d6a919dc3
+Author: mammix2 <mammix2@hotmail.com>
+Date:   Tue Jun 28 23:00:37 2016 +0100
+
+    set max file descriptors, version up
+
+commit 9588e15645e76cda3d46f9859dd0c2eac02cb8f7
+Author: mammix2 <mammix2@hotmail.com>
+Date:   Wed Jun 22 21:05:47 2016 +0100
+
+    build updates
+
+commit e64b403bb3299b89a397681c9cd053b32494f795
+Author: AmberCoinDev <dev@ambercoin.info>
+Date:   Mon Nov 23 21:42:42 2015 +0000
+
+    OSX updates for compile
+
+commit b66a2ec74ef5b64aa9732aa13b8bcfe840627f2d
+Author: AmberCoinDev <dev@ambercoin.info>
+Date:   Mon Nov 23 21:15:51 2015 +0000
+
+    node typos again...
+
+commit b70e5e7a026a94246aeaa0b68626a3c9544a79de
+Author: AmberCoinDev <dev@ambercoin.info>
+Date:   Mon Nov 23 20:47:30 2015 +0000
+
+    version up
+
+commit acb4f29ffa6dbed6ef5a74b2442b310ae640216e
+Author: AmberCoinDev <dev@ambercoin.info>
+Date:   Mon Nov 23 20:40:34 2015 +0000
+
+    adjust seed node name typos
+
+commit 44914b81a23145bbc3240103abf3986986eac13a
+Author: AmberCoinDev <dev@ambercoin.info>
+Date:   Mon Nov 23 20:35:48 2015 +0000
+
+    added more nodes for future growth
+
+commit 4b7f4d7e6537e6dc5d8ed7ddb62024663721cb53
+Author: AmberCoinDev <dev@ambercoin.info>
+Date:   Mon Nov 23 20:29:53 2015 +0000
+
+    added more nodes
+
+commit 805525c85adbfe17024aeeadf2b19e552b7b89c0
+Author: AmberCoinDev <dev@ambercoin.info>
+Date:   Mon Nov 23 12:12:20 2015 +0000
+
+    protocol version up
+
+commit b8218c3a753acb452de7af43dd2dc5b60a5113d7
+Author: AmberCoinDev <dev@ambercoin.info>
+Date:   Thu Nov 19 15:04:39 2015 +0000
+
+    revert max supply, version up
+
+commit 1a0b7150518bd22fe49815bdb3b6e664a8397ea2
+Author: AmberCoinDev <dev@ambercoin.info>
+Date:   Tue Nov 17 23:52:22 2015 +0000
+
+    Version up
+
+commit 7562134368903b7993053525814ed39dea0f30ad
+Author: AmberCoinDev <dev@ambercoin.info>
+Date:   Tue Nov 17 23:51:38 2015 +0000
+
+    Example address update
+
+commit 431ae257ea0feab3ea93660bedd0510fd3bacd7c
+Author: AmberCoinDev <dev@ambercoin.info>
+Date:   Tue Nov 17 00:39:37 2015 +0000
+
+    coin reward logic, MAX coins total increase
+
+commit f63ab6abf5d0d937a9d2ec3dea2b624f5e4870b8
+Author: AmberCoinDev <dev@ambercoin.info>
+Date:   Mon Nov 16 22:31:32 2015 +0000
+
+    hard fork, update PoS constants
+
+commit fa4d940687cdfb9954256034a75f48bb4fe436e7
+Author: AmberCoinDev <dev@ambercoin.info>
+Date:   Mon Nov 16 21:27:09 2015 +0000
+
+    update final PoW block height
+
+commit 1f35e53656d6c7221782517ce5fc11ef0c09c75c
+Author: AmberCoinDev <dev@ambercoin.info>
+Date:   Mon Nov 16 21:11:37 2015 +0000
+
+    update icons and logos
+
+commit b89ad9a5bcd6c3aba12907a06a17f91c08ed4feb
+Author: AmberCoinDev <dev@ambercoin.info>
+Date:   Mon Nov 16 20:52:39 2015 +0000
+
+    update to OpenSSL 1.0.2a, GUI and Copyright year
+
+commit 30e9a5be47b11e7635617e1b5a65bff76389d443
+Author: AmberCoinDev <dev@ambercoin.info>
+Date:   Fri Nov 13 14:15:46 2015 +0000
+
+    New sync server pub key
+
+commit b10cd0522b01176175c7419ffe7bbe4c202e75c0
+Author: AmberCoinDev <dev@ambercoin.info>
+Date:   Fri Nov 13 14:02:11 2015 +0000
+
+    new checkpoint at block 561000
+
+commit 010699bd884ea3ae29717920f413c0c9d53384a6
+Author: AmberCoinDev <dev@ambercoin.info>
+Date:   Fri Nov 13 13:55:17 2015 +0000
+
+    Major version up
+
+commit d8573ec80e2551f3549ca0ceead7e2370eb73f6d
+Author: AmberCoinDev <dev@ambercoin.info>
+Date:   Thu May 7 23:44:54 2015 +0100
+
+    Final hard fork changes
+
+commit 9aef0e364c703bbab842430971113193992e12d9
+Author: AmberCoinDev <dev@ambercoin.info>
+Date:   Thu May 7 23:13:02 2015 +0100
+
+    Final hard fork changes
+
+commit df381732a70ff673a37727ff94147843caa40eea
+Author: AmberCoinDev <dev@ambercoin.info>
+Date:   Thu May 7 22:28:55 2015 +0100
+
+    Mac OSX updates
+
+commit 0e292f0c0ed7a82459ae8fecfb89ebe3ddd689d7
+Author: AmberCoinDev <dev@ambercoin.info>
+Date:   Thu May 7 22:18:28 2015 +0100
+
+    PoW & PoS rewards update, hard fork at block 116000
+
+commit 4a25bdc67c54f73c4feba2e5581b441342ba3234
+Author: AmberCoinDev <AmberCoinDev>
+Date:   Wed Dec 24 01:46:33 2014 +0500
+
+    initial commit
+
+commit 2739af159e3bf55493d617b6af612721b4f08425
+Author: AmberCoinDev <AmberCoinDev>
+Date:   Wed Dec 24 01:46:02 2014 +0500
+
+    :octocat: Added .gitattributes & .gitignore files

@@ -1,0 +1,21 @@
+commit 472e0ade53afc9d74113e4cd5faa01f276901d77
+Author: BIXC-Coin <info@mybixc.com>
+Date:   Thu Apr 6 13:06:33 2017 +0530
+
+    Cryptocurrency Bixc
+    
+    Cryptocurrency Bixc
+
+commit 88bc0b1ccecc4b2e808ebc6c4db7b89eff631827
+Author: OGNCoin <info@ogncoin.com>
+Date:   Thu Apr 6 13:03:23 2017 +0530
+
+    Revert ":boom::camel: Added .gitattributes"
+    
+    This reverts commit cb29ca3710aa73525c8296e27dcd4fb10d4decdc.
+
+commit cb29ca3710aa73525c8296e27dcd4fb10d4decdc
+Author: OGNCoin <info@ogncoin.com>
+Date:   Thu Apr 6 13:03:14 2017 +0530
+
+    :boom::camel: Added .gitattributes

@@ -1,0 +1,21 @@
+commit 10b15858b9e05ba1b310841cb450f778e1574522
+Author: Givecoin <Dan@Daniels-MacBook-Pro.local>
+Date:   Tue May 20 08:00:58 2014 -0400
+
+    forceObjFolder
+    
+    github client getting stuck. Forcing creation of obj dir.
+
+commit cefa3eb09cb12411bfa29b6d004cdcfc1a581d35
+Author: Givecoin <Dan@Daniels-MacBook-Pro.local>
+Date:   Tue May 20 00:21:30 2014 -0400
+
+    KGWMERGE
+    
+    “+0.1”
+
+commit acc53e834e789f439766d85bbbd363333cd130fd
+Author: Give-Coin <Give-Coin@users.noreply.github.com>
+Date:   Mon May 19 20:53:26 2014 -0700
+
+    Initial commit

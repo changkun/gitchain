@@ -1,0 +1,4851 @@
+commit b642cef33c03b7e1e301e251d73cce770e52d177
+Merge: 4029816 875326c
+Author: Juan <j-a-m-l@users.noreply.github.com>
+Date:   Fri Nov 10 13:23:24 2017 +0100
+
+    Merge pull request #389 from rbraunschweig/master
+    
+    Minor UI tweaks
+
+commit 875326c59f9704e84a8b9078d5371900795c0a5c
+Merge: 69c1f56 806f4a0
+Author: Rhys <alt.rbraunschweig@gmail.com>
+Date:   Thu Nov 9 18:27:06 2017 +0200
+
+    Merge branch 'dev'
+
+commit 806f4a08b2627ed7c9af840056efb46ddf60a0e2
+Author: Rhys <alt.rbraunschweig@gmail.com>
+Date:   Thu Nov 9 18:26:01 2017 +0200
+
+    Fix button inconsistencies
+
+commit 402981613360ad4e23ea05ba58b990a297b9ee57
+Merge: 3f7755c 08a2000
+Author: Juan <j-a-m-l@users.noreply.github.com>
+Date:   Thu Nov 9 17:18:25 2017 +0100
+
+    Merge pull request #383 from spresnal/issue_382
+    
+    Make it more obvious you're not connected to the network
+
+commit 3f7755cc48945b548d64d46b27f59fc3e3c0cc3d
+Merge: 69c1f56 791bf9b
+Author: Juan <j-a-m-l@users.noreply.github.com>
+Date:   Thu Nov 9 17:14:23 2017 +0100
+
+    Merge pull request #388 from ArkEcosystem/boldninja-readme
+    
+    Updated README.md with image and some proofreading
+
+commit ddb31eadd8a109b48e8b2a48403b844bd6bfe06f
+Author: Rhys <alt.rbraunschweig@gmail.com>
+Date:   Thu Nov 9 17:55:12 2017 +0200
+
+    Responsive tweaks
+
+commit 88e1d3d0a35f0872f59a0bd9541017f6628c3d46
+Author: Rhys <alt.rbraunschweig@gmail.com>
+Date:   Thu Nov 9 15:49:08 2017 +0200
+
+    Convert menu button to an icon button and move to the left of logo
+
+commit c403eaed0ffa9bc7d66801be56c75deabf36aed6
+Author: Rhys <alt.rbraunschweig@gmail.com>
+Date:   Thu Nov 9 14:35:01 2017 +0200
+
+    Remove deprecated mdOpenMenu warning
+
+commit f8842cb76124896a7036106eb902262aee7e3a64
+Author: Rhys <alt.rbraunschweig@gmail.com>
+Date:   Thu Nov 9 14:33:22 2017 +0200
+
+    Insert space between currency symbols and values
+
+commit 7ee86bb06f9b1ae27cba169ad273c125fc1b6c0f
+Author: Rhys <alt.rbraunschweig@gmail.com>
+Date:   Thu Nov 9 14:29:34 2017 +0200
+
+    Remove padding from navbar menus
+
+commit 791bf9b719ad4a3a3890a7acb401b18c765e3ae2
+Author: boldninja <almightyninja@gmail.com>
+Date:   Wed Nov 8 22:43:16 2017 +0100
+
+    Updated README.md with image and some proofreading
+    
+    Updated readme with new header image and some proofreading.
+
+commit 69c1f565056c8469e23a3d7f3d85a80cad7099b5
+Merge: 29a249a 15c1e01
+Author: Juan <j-a-m-l@users.noreply.github.com>
+Date:   Wed Nov 8 13:22:46 2017 +0100
+
+    Merge pull request #386 from j-a-m-l/debug-karma-electron
+    
+    Change Karma to use Electron for testing and add new tests
+
+commit 15c1e01970e9ff5159d4a12196cb7320cf737889
+Author: jaml <dev@jaml.pro>
+Date:   Wed Nov 8 13:14:23 2017 +0100
+
+    Use the  file to ask NVM (if configured) to use the its Node.js version
+
+commit 18273aa7de1058bd91a31d208260e67ba6b249d0
+Author: jaml <dev@jaml.pro>
+Date:   Wed Nov 8 13:07:55 2017 +0100
+
+    Refactor the AccountController and add tests
+
+commit 45381ae6b563f6c298773a169b809fe0eda81797
+Author: jaml <dev@jaml.pro>
+Date:   Mon Nov 6 21:31:28 2017 +0100
+
+    Change the Karma configuration to be more Electron-oriented
+    
+     - Add and update some testing dependencies
+     - Use version 3.5.3 of Mocha to solve some problems, as seen here:
+       https://github.com/twolfson/karma-electron/issues/27
+     - Start some tests of the main file (AccountController)
+     - Add myself as contributor
+
+commit 08a20007f346378d76b3ace83bf9175552973807
+Author: Sam Presnal <boiler9000@gmail.com>
+Date:   Tue Nov 7 06:30:08 2017 -0500
+
+    change icon color to red when not connected to network
+
+commit 29a249ae87be30dc84f6e40acbadf84d7cdfd686
+Merge: 0512fbf ca42cd6
+Author: jaml <dev@jaml.pro>
+Date:   Mon Nov 6 13:04:58 2017 +0100
+
+    Merge branch 'spresnal-master'
+
+commit ca42cd60cf5c04d6840e164c0b92f30d3e81ef75
+Author: jaml <dev@jaml.pro>
+Date:   Mon Nov 6 12:57:21 2017 +0100
+
+    Fix and refactor some tests
+
+commit 3f95d8ec64d4e868741c2148364d669cc4eaa950
+Merge: 0512fbf 716f97d
+Author: jaml <dev@jaml.pro>
+Date:   Mon Nov 6 12:49:24 2017 +0100
+
+    Merge branch 'master' of git://github.com/spresnal/ark-desktop into spresnal-master
+
+commit 0512fbf8e15de9c8ef32177b0340cfa620122427
+Author: fixcrypt <fx.thoorens@gmail.com>
+Date:   Sun Nov 5 15:12:39 2017 +0100
+
+    Issue on ledger not working "new Buffer" is mandatory when used to allocate memory
+
+commit 891bff9958b15366355c0719eb1a742b4cc3fe6c
+Merge: 899d0cb 17c9e71
+Author: Juan <j-a-m-l@users.noreply.github.com>
+Date:   Sun Nov 5 06:25:33 2017 +0100
+
+    Merge pull request #381 from j-a-m-l/refactor-account-html
+    
+    Refactor the HTML of the account section (closes #298)
+
+commit 17c9e71f72426f7cbbe6d406a445b958c70f767b
+Author: jaml <dev@jaml.pro>
+Date:   Sun Nov 5 06:04:03 2017 +0100
+
+    Move the HTML of the account card to a new component
+
+commit 62ec0aae2c41471ff3e34a397fa613c1c7232dc9
+Author: jaml <dev@jaml.pro>
+Date:   Sun Nov 5 05:56:55 2017 +0100
+
+    Move the HTML of the account tabs to new components
+
+commit 81bb15cd4cc6a68fcc895e847b7a17c0372ad738
+Author: jaml <dev@jaml.pro>
+Date:   Sun Nov 5 05:21:47 2017 +0100
+
+    Change the HTML wrapper element of some components
+
+commit dde317fd40ada0cd233cfd393ec801bbf999a021
+Author: jaml <dev@jaml.pro>
+Date:   Sun Nov 5 00:46:41 2017 +0100
+
+    Move the HTML of the main side navigation (account) to a new component
+
+commit 899d0cbb25defbfa47ac474f903e20f7cbc5d034
+Merge: 41c80ef 0ddf106
+Author: Juan <j-a-m-l@users.noreply.github.com>
+Date:   Sun Nov 5 00:18:02 2017 +0100
+
+    Merge pull request #380 from j-a-m-l/refactor-dashboard-html
+    
+    Split index.html into some more components
+
+commit 0ddf106a0ae1397de405f1eef0cbb3c689b124d8
+Author: jaml <dev@jaml.pro>
+Date:   Sun Nov 5 00:07:32 2017 +0100
+
+    Move dashboard components to their own folder
+
+commit 60f2f60116e0d624117e8f1d41d84f58b1b7fcef
+Author: jaml <dev@jaml.pro>
+Date:   Sun Nov 5 00:04:45 2017 +0100
+
+    Move the HTML of the market box (dashboard) to a new component
+
+commit 420c68fa765f245a8d411ea0a0e27c4bc998c2c7
+Author: jaml <dev@jaml.pro>
+Date:   Sun Nov 5 00:00:40 2017 +0100
+
+    Move the HTML of the network box (dashboard) to a new component
+
+commit a947839e940cde9b6b0eaba9cf47f2e52b375366
+Author: jaml <dev@jaml.pro>
+Date:   Sat Nov 4 23:54:30 2017 +0100
+
+    Move the HTML of the account box (dashboard) to a new component
+
+commit 3df47bb5e5a7f78a557f1651d6ee94999a5c2681
+Author: jaml <dev@jaml.pro>
+Date:   Sat Nov 4 23:39:59 2017 +0100
+
+    Move the HTML of the main navigation bar to a new component
+
+commit 716f97d2cda5fc59b0993e1ac5e358d56adec5fe
+Author: Sam Presnal <boiler9000@gmail.com>
+Date:   Sat Nov 4 09:26:18 2017 -0400
+
+    added a handful of tests so mock/stub injection can start being extended further
+
+commit a86ba0194e4dbe943eedef773208e068c085ca46
+Author: Sam Presnal <boiler9000@gmail.com>
+Date:   Fri Nov 3 21:12:20 2017 -0400
+
+    inject stubbed dependencies for unit testing the controller
+
+commit 41c80ef3b398af3a090da454c9fd16f1b2e24ef9
+Merge: eef717e 1f4dd94
+Author: Juan <j-a-m-l@users.noreply.github.com>
+Date:   Fri Nov 3 20:29:32 2017 +0100
+
+    Merge pull request #377 from j-a-m-l/more-standardjs
+    
+    Adapt more code to StandardJS
+
+commit 1f4dd94cd178c16f8271265863e2441cc37db491
+Author: jaml <dev@jaml.pro>
+Date:   Fri Nov 3 20:17:09 2017 +0100
+
+    Adapt more code to StandardJS
+
+commit eef717e67d391a8c45fb39bfde093151ba998196
+Merge: 2cb64a4 66358d8
+Author: Lúcio Rubens <luciorubeens@gmail.com>
+Date:   Tue Oct 31 09:52:18 2017 -0300
+
+    Merge pull request #375 from noahgr/standardjs-vscode
+    
+    Add extensions and settings file to .vscode
+
+commit 2cb64a451f2bbd4838214ff48ce3c2bb2b7f91e0
+Merge: 84559d0 f6c8010
+Author: Lúcio Rubens <luciorubeens@gmail.com>
+Date:   Tue Oct 31 09:35:33 2017 -0300
+
+    Merge pull request #376 from noahgr/code-format
+    
+    [Lint] Format code
+
+commit f6c8010b559cfd4456879a230fe2a423effbcb38
+Author: Noah Gregorio <noahgr51@outlook.com>
+Date:   Mon Oct 30 16:45:51 2017 -0300
+
+    lint all files
+
+commit 66358d8da20beb25cc19dac431251c45f911bb72
+Author: Noah Gregorio <noahgr51@outlook.com>
+Date:   Mon Oct 30 15:11:10 2017 -0300
+
+    add extensions and settings file to vscode
+
+commit 84559d0c25e17da74a9f9ccff068a7d125872dd2
+Merge: 45a01f3 f168b79
+Author: Lúcio Rubens <luciorubeens@gmail.com>
+Date:   Mon Oct 30 13:21:50 2017 -0300
+
+    Merge pull request #354 from alexbarnsley/bug/network-connectivity
+    
+    Sort peers & fix bug with filtered peer status
+
+commit 45a01f3ac289037502960e6425cc5983c2550907
+Merge: 0c4a911 5810eeb
+Author: Lúcio Rubens <luciorubeens@gmail.com>
+Date:   Mon Oct 30 10:13:35 2017 -0300
+
+    Merge pull request #372 from krau612/sendark-to-contacts-and-accounts
+    
+    Add accounts to list of addresses to send Ark to
+
+commit 0c4a91101a6998b912fba97f4363a6a65edadb1f
+Merge: 99baa2f 6b4b789
+Author: Lúcio Rubens <luciorubeens@gmail.com>
+Date:   Sat Oct 28 10:06:33 2017 -0300
+
+    Merge pull request #371 from noahgr/translate-tag-publickey
+    
+    Fix translate tag on public key tooltip
+
+commit 99baa2f8a78e9b6a94618717cf8eaa734987b781
+Merge: 95fb8e2 50e3259
+Author: Lúcio Rubens <luciorubeens@gmail.com>
+Date:   Sat Oct 28 09:23:02 2017 -0300
+
+    Merge pull request #370 from noahgr/account-balance
+    
+    Fix current account balance
+
+commit 5810eeb61fe2ecda501d39566fe548face137d10
+Author: Kris Rau <krau612@gmail.com>
+Date:   Fri Oct 27 21:43:03 2017 -0700
+
+    Add accounts to list of addresses to send Ark to
+
+commit 6b4b789455aa4540d8fdbd076077267331fcb8ae
+Author: Noah Gregorio <noahgr51@outlook.com>
+Date:   Fri Oct 27 17:48:08 2017 -0300
+
+    fix translate tag on public key tooltip
+
+commit 50e3259046bcdf0729a26d3e6716373bc1fcaf83
+Author: Noah Gregorio <noahgr51@outlook.com>
+Date:   Fri Oct 27 17:26:51 2017 -0300
+
+    fix current account balance
+
+commit 95fb8e2b8b19271d20fcc423c31af53452dd5fab
+Merge: a6ed3c1 9f8bed2
+Author: Lúcio Rubens <luciorubeens@gmail.com>
+Date:   Fri Oct 27 12:01:26 2017 -0300
+
+    Merge pull request #365 from ckhatri/removeDeprecatedMethods
+    
+    removes deprecated method
+
+commit a6ed3c1b044881a46a74a837e3c59b7e402f8a54
+Merge: b9061b0 1197863
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Fri Oct 27 11:44:35 2017 -0300
+
+    dependency: add standardjs #328
+
+commit b9061b0c491e327fee6204e7be54591b7f16bdd7
+Merge: 733d112 58b42a8
+Author: Lúcio Rubens <luciorubeens@gmail.com>
+Date:   Thu Oct 26 17:15:00 2017 -0300
+
+    Merge pull request #357 from krau612/fix/ledger-worker-not-exiting
+    
+    Exit ledger-worker process on quit signal
+
+commit 733d112397a45423df2487aed368f04326a468e9
+Merge: 0951f33 93da53f
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Thu Oct 26 14:46:55 2017 -0300
+
+    merge: fix conflict #335
+
+commit 0951f339f4e5af32b18d6bf1b79f605d3876f756
+Author: François-Xavier Thoorens <fx.thoorens@gmail.com>
+Date:   Thu Oct 26 12:23:20 2017 +0200
+
+    added header image
+
+commit 7930fb0edbde26bb3705d392d82ae587c1ab1454
+Merge: 7449661 3a99092
+Author: Lúcio Rubens <luciorubeens@gmail.com>
+Date:   Wed Oct 25 16:27:43 2017 -0300
+
+    Merge pull request #318 from ckhatri/fixCurrencyFormats
+    
+    wrote a new format currency method which will localize any number passed in
+
+commit 9f8bed2d73cf94ea18ce201996fe7a98776c22bc
+Author: ckhatri <chirag.k.khatri@gmail.com>
+Date:   Wed Oct 25 14:11:16 2017 -0500
+
+    remove all instances where it's used
+
+commit 744966128ea75455db81f60d613ace0527225c25
+Merge: 4bb3370 d83dd0d
+Author: Lúcio Rubens <luciorubeens@gmail.com>
+Date:   Wed Oct 25 16:02:11 2017 -0300
+
+    Merge pull request #362 from alexbarnsley/bug/hide-remove-ledger-option
+    
+    Hide 'Remove' button for a Ledger account
+
+commit 3a990923e28bc09db674b28259058dc8be32d0f2
+Merge: eb552c6 5d5cdb2
+Author: ckhatri <chirag.k.khatri@gmail.com>
+Date:   Wed Oct 25 13:59:11 2017 -0500
+
+    Merge branch 'fixCurrencyFormats' of https://github.com/ckhatri/ark-desktop into fixCurrencyFormats
+
+commit eb552c681785bee8647f82b9a380bdaccd3df8db
+Merge: c75fd31 62267fa
+Author: ckhatri <chirag.k.khatri@gmail.com>
+Date:   Wed Oct 25 13:58:58 2017 -0500
+
+    fix merge
+
+commit c75fd31cd49edf9a20c357664afa3fcb24469b3b
+Author: ckhatri <chirag.k.khatri@gmail.com>
+Date:   Wed Oct 25 13:56:57 2017 -0500
+
+    move to filters file
+
+commit 4bb3370dbe42268fa5e2a195c9192770d993b291
+Merge: 5d6eb83 b48c527
+Author: Lúcio Rubens <luciorubeens@gmail.com>
+Date:   Wed Oct 25 12:48:28 2017 -0300
+
+    Merge pull request #352 from ckhatri/hoverCopy
+    
+    added copy address or copy public key when you hover over that
+
+commit 5d6eb839f2a2dd7b6b941830880e3d65ffde2561
+Merge: 841c87a 5f24e8e
+Author: Lúcio Rubens <luciorubeens@gmail.com>
+Date:   Wed Oct 25 12:17:09 2017 -0300
+
+    Merge pull request #351 from krau612/feature/well-confirmed
+    
+    Show 'Well Confirmed' once the number of confirmations is greater than 50.
+
+commit 841c87ab0ffda22dc7677ed1797f305236f2fd54
+Merge: ce007ae 44cce86
+Author: Lúcio Rubens <luciorubeens@gmail.com>
+Date:   Wed Oct 25 11:59:28 2017 -0300
+
+    Merge pull request #350 from alexbarnsley/feature/toast-service
+    
+    Implement Toast Service
+
+commit ce007aedd3341c72701c8ea0984c28412288cdaf
+Merge: bd89853 1c41e1d
+Author: Lúcio Rubens <luciorubeens@gmail.com>
+Date:   Wed Oct 25 11:43:10 2017 -0300
+
+    Merge pull request #349 from krau612/disable-screenshot-protection-setting-linux
+    
+    Disable screenshot protection setting if the platform is linux
+
+commit bd898530feba3fdcb07324e45516d11ba5eb059e
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Wed Oct 25 11:15:41 2017 -0300
+
+    Moved style sheet links to end of index.html #348
+
+commit a86e612a06c0833d615831a6d68f731e01c1344e
+Author: ckhatri <chirag.k.khatri@gmail.com>
+Date:   Tue Oct 24 22:53:49 2017 -0500
+
+    removes deprecated method
+
+commit 62267fa2ee9dfbc98a583448afdf517fc370ad22
+Merge: 3ccf90f afcf595
+Author: Lúcio Rubens <luciorubeens@gmail.com>
+Date:   Tue Oct 24 19:27:18 2017 -0300
+
+    Merge pull request #342 from krau612/fix/travis-config
+    
+    Added libusb to Travis addons
+
+commit 3ccf90f3ac2a32c387521b14f1020649410e1646
+Merge: 4a4cbe2 2f18ec5
+Author: Lúcio Rubens <luciorubeens@gmail.com>
+Date:   Tue Oct 24 19:26:37 2017 -0300
+
+    Merge pull request #341 from alexbarnsley/bug/feedback-no-network
+    
+    Stop Import/Create account if no network
+
+commit 93da53f740833b31fc51bb3fec50bcc506d0d93a
+Author: Kris Rau <krau612@gmail.com>
+Date:   Tue Oct 24 15:06:07 2017 -0700
+
+    Add delete button to each user image
+
+commit ff15889ae7dddff01539456e4977327b93902be8
+Author: Kris Rau <krau612@gmail.com>
+Date:   Tue Oct 24 13:44:27 2017 -0700
+
+    Set background to default if deleting the current background
+
+commit 119a62168397dff0b797cfee8a02da2b06413ba4
+Author: Kris Rau <krau612@gmail.com>
+Date:   Tue Oct 24 13:39:54 2017 -0700
+
+    Don't call manageBackgrounds after delete
+
+commit d276a32c8cb7f8aa95195a62bd96292877da2f57
+Author: Kris Rau <krau612@gmail.com>
+Date:   Tue Oct 24 13:38:06 2017 -0700
+
+    Don't call manageBackgrounds after upload
+
+commit 44cce8679b8649341654c42ab96f25b613e85f64
+Merge: 641ad47 4a4cbe2
+Author: Alex Barnsley <alex.j.barnsley@gmail.com>
+Date:   Tue Oct 24 21:20:14 2017 +0100
+
+    Merge branch 'master' into feature/toast-service
+
+commit 4a4cbe2f729bde2df09ed471fe3dc025e80d670c
+Merge: 1885789 0b3b1cc
+Author: Lúcio Rubens <luciorubeens@gmail.com>
+Date:   Tue Oct 24 14:32:14 2017 -0300
+
+    Merge pull request #338 from alexbarnsley/bug/fix-initial-contact-creation
+    
+    Use single AddressBookController for account view
+
+commit cbb39e6f9c5f494e1a6965808f6f56d33e44a8d0
+Author: Kris Rau <krau612@gmail.com>
+Date:   Tue Oct 24 09:43:39 2017 -0700
+
+    Don't show upload button on themes tab
+
+commit 1885789923216b0911925ea6f365bed83a07e8a1
+Merge: 2dff444 4dec852
+Author: Lúcio Rubens <luciorubeens@gmail.com>
+Date:   Tue Oct 24 13:19:45 2017 -0300
+
+    Merge pull request #339 from alexbarnsley/bug/fix-rename-virtual-folder
+    
+    Fixes for virtual folders
+
+commit d83dd0d02c7a92125aa30cced97d4f9cf8d98279
+Author: Alex Barnsley <alex.j.barnsley@gmail.com>
+Date:   Mon Oct 23 20:30:08 2017 +0100
+
+    Hide 'Remove' button for a Ledger account
+
+commit 5d5cdb2b5eaca54b72e51ca5b2638bf5dcb937f4
+Merge: 5e53460 2dff444
+Author: Chirag Khatri <chirag.k.khatri@gmail.com>
+Date:   Mon Oct 23 12:27:15 2017 -0500
+
+    Merge branch 'master' into fixCurrencyFormats
+
+commit 58b42a8489422b97fd1ff946a8ab5554421335d4
+Author: Kris Rau <krau612@gmail.com>
+Date:   Sun Oct 22 08:55:44 2017 -0700
+
+    Fixed uncaught exception when force quitting
+
+commit f3d876295766287c3b2edd8b07ee6d344ced6351
+Author: Kris Rau <krau612@gmail.com>
+Date:   Sat Oct 21 10:55:06 2017 -0700
+
+    Exit ledger-worker process on quit signal
+
+commit f168b793e5b0b10e704a633bb1a461ba35a04d3a
+Author: Alex Barnsley <alex.j.barnsley@gmail.com>
+Date:   Thu Oct 19 14:19:35 2017 +0100
+
+    Check version response is successful
+
+commit f10d0c30d3d1074edd95113fe3e2d1ca98bb1334
+Author: Alex Barnsley <alex.j.barnsley@gmail.com>
+Date:   Wed Oct 18 15:13:46 2017 +0100
+
+    Get current peer version to filter peers based on that
+
+commit 2d40d8793124dc00cff8f8eeb086513681b80b88
+Author: Alex Barnsley <alex.j.barnsley@gmail.com>
+Date:   Wed Oct 18 15:13:03 2017 +0100
+
+    Pass filtered peers list to findGoodPeer too
+
+commit 1c41e1d36bba447d9f826334c2d8e267ecab4532
+Author: Kris Rau <krau612@gmail.com>
+Date:   Tue Oct 17 14:12:13 2017 -0700
+
+    Created function to get label
+
+commit e1f03cde355ee7ff7d697d66d9b4acc9375bde6e
+Author: Alex Barnsley <alex.j.barnsley@gmail.com>
+Date:   Tue Oct 17 21:24:35 2017 +0100
+
+    Removed duplicated filter of status
+
+commit d7da568760d3419b39233a83d54b759f81e120a7
+Author: Alex Barnsley <alex.j.barnsley@gmail.com>
+Date:   Tue Oct 17 21:15:00 2017 +0100
+
+    Sort peers by Height DESC, Delay ASC
+
+commit b48c5278b65ae4535e82feb50a47e4fcfd1c13c0
+Author: ckhatri <chirag.k.khatri@gmail.com>
+Date:   Tue Oct 17 14:23:09 2017 -0500
+
+    added copy address or copy public key when you hover over that
+
+commit 641ad47779da1d7a665475bec2b09a21c592391d
+Author: Alex Barnsley <alex.j.barnsley@gmail.com>
+Date:   Tue Oct 17 13:42:28 2017 +0100
+
+    Add newline to end
+
+commit 831d37cc9c3085c751ad1a03462d9c0d3c0a98a6
+Author: Alex Barnsley <alex.j.barnsley@gmail.com>
+Date:   Tue Oct 17 13:41:33 2017 +0100
+
+    Prettify log output
+
+commit 7c87ec262af1092e44775ba41469e1a180d82cc2
+Author: Alex Barnsley <alex.j.barnsley@gmail.com>
+Date:   Tue Oct 17 13:35:17 2017 +0100
+
+    Default logging to disabled
+
+commit c2ed2783e1dcff451781ad0dfca6405cfc4f9564
+Author: Alex Barnsley <alex.j.barnsley@gmail.com>
+Date:   Tue Oct 17 13:23:23 2017 +0100
+
+    Add missing semi-colon
+
+commit 81311e23945f2e62d49568cc27249e249af3e117
+Author: Alex Barnsley <alex.j.barnsley@gmail.com>
+Date:   Tue Oct 17 13:23:15 2017 +0100
+
+    Use variable instead of getting from array
+
+commit 01bd865bb2f0bf170c044b3b173cd5b8c85afc37
+Author: Alex Barnsley <alex.j.barnsley@gmail.com>
+Date:   Tue Oct 17 13:22:53 2017 +0100
+
+    Log to file for all notices
+
+commit 6513dbac007ce7f0730d25557a8c77fe2b991e95
+Author: Alex Barnsley <alex.j.barnsley@gmail.com>
+Date:   Tue Oct 17 13:19:45 2017 +0100
+
+    Remove unused parameters
+
+commit 5f24e8e91374e40b3ee47a9fe26dd5df277fa2ee
+Author: Kris Rau <krau612@gmail.com>
+Date:   Mon Oct 16 08:52:01 2017 -0700
+
+    Confirmations show 'Well Confirmed' after 50 confirmations. Tooltip shows the actual number once well confirmed
+
+commit a85a7e8b228127c2e740530b4177ddd896b224a3
+Author: Alex Barnsley <alex.j.barnsley@gmail.com>
+Date:   Mon Oct 16 15:25:33 2017 +0100
+
+    Change logFile to true/false instead of path
+
+commit f2ca1c64cde8793d5eb7ef6633342c08b773a8a5
+Author: Alex Barnsley <alex.j.barnsley@gmail.com>
+Date:   Mon Oct 16 15:09:45 2017 +0100
+
+    Don't use quotes for keys
+
+commit 04ca961a6b19d7bfc2d2962a6f9c6e9f876b333d
+Author: Alex Barnsley <alex.j.barnsley@gmail.com>
+Date:   Mon Oct 16 15:07:39 2017 +0100
+
+    Disable logging to file by default
+
+commit 191103f4fbdbed31a16e8f1c37658cef42668208
+Author: Alex Barnsley <alex.j.barnsley@gmail.com>
+Date:   Mon Oct 16 15:06:16 2017 +0100
+
+    Implement logging and config into toastService
+
+commit d6dc0b0bb87e2105ca48f95cf456a92a0fe905cd
+Author: Alex Barnsley <alex.j.barnsley@gmail.com>
+Date:   Mon Oct 16 15:05:11 2017 +0100
+
+    Include config service on index
+
+commit 1b9915b74fdbf2ab040b265d82b31d8faab3e58f
+Author: Alex Barnsley <alex.j.barnsley@gmail.com>
+Date:   Mon Oct 16 15:04:52 2017 +0100
+
+    Initial commit of config.js and configService
+
+commit 85f18aca36ab7aacd6b7022a48f9041753eb7f70
+Author: Alex Barnsley <alex.j.barnsley@gmail.com>
+Date:   Mon Oct 16 15:04:30 2017 +0100
+
+    Added Logs folder
+
+commit 5ebd166a72d4bab97d1e2fe91d3b8f489804e809
+Author: Kris Rau <krau612@gmail.com>
+Date:   Sun Oct 15 21:09:07 2017 -0700
+
+    Disable screenshot protection setting if the platform is linux
+
+commit 3939725fee55264fcacb897fc0e0975158ff30f6
+Author: Alex Barnsley <alex.j.barnsley@gmail.com>
+Date:   Sun Oct 15 21:05:16 2017 +0100
+
+    Use ToastService across the application
+
+commit eff648cebe7a94e9d5bc108c63924234d8f88925
+Author: Alex Barnsley <alex.j.barnsley@gmail.com>
+Date:   Sun Oct 15 20:56:41 2017 +0100
+
+    Remove toast object
+
+commit fe5d9ca90b3e009b6405bf5bab1028ea4f7588d2
+Author: Alex Barnsley <alex.j.barnsley@gmail.com>
+Date:   Sun Oct 15 20:56:07 2017 +0100
+
+    Use ToastService to update toast messages
+
+commit bf9ac7841d8b47c4d885f5d57e7633b789086c85
+Author: Alex Barnsley <alex.j.barnsley@gmail.com>
+Date:   Sun Oct 15 20:48:16 2017 +0100
+
+    Include ToastService
+
+commit c17da17274b910fc25e0b0bb694bfda10129e8a2
+Author: Alex Barnsley <alex.j.barnsley@gmail.com>
+Date:   Sun Oct 15 20:47:04 2017 +0100
+
+    Add classes for toast types
+
+commit 934654b34efec5ff7920e7afaa0bfdda1a89fbbd
+Author: Alex Barnsley <alex.j.barnsley@gmail.com>
+Date:   Sun Oct 15 20:36:56 2017 +0100
+
+    Initial commit of ToastService
+
+commit 2f18ec5e5af190a5d7801c8ed41262705602a3d1
+Author: Alex Barnsley <alex.j.barnsley@gmail.com>
+Date:   Sat Oct 14 21:30:04 2017 +0100
+
+    Add empty account if getFromPeer request fails
+
+commit 0a1abbeea2adfa4cdca160181529f3da9f0000e5
+Author: Alex Barnsley <alex.j.barnsley@gmail.com>
+Date:   Sat Oct 14 21:19:08 2017 +0100
+
+    Remove check for connection
+
+commit b9a82df3e9fe93764a2d68d4313bac3cd63b44b6
+Author: Kris Rau <krau612@gmail.com>
+Date:   Fri Oct 13 19:11:55 2017 -0700
+
+    Created showToast function. Removed unnecessary log statements
+
+commit afcf5958f2782441baa8f288ab6c7a954b3a94bf
+Author: Kris Rau <krau612@gmail.com>
+Date:   Fri Oct 13 15:08:16 2017 -0700
+
+    Added libusb to travis addons
+
+commit 55d6a70bb886e159f9b6f6ba081e58b38c3561ba
+Author: Kris Rau <krau612@gmail.com>
+Date:   Fri Oct 13 14:21:09 2017 -0700
+
+    Removed Trailing Comma
+
+commit c46e25d162f5e2cc1dd37bd3084a4c1d286b4524
+Author: Alex Barnsley <alex.j.barnsley@gmail.com>
+Date:   Fri Oct 13 15:26:06 2017 +0100
+
+    Tweak capitalisation
+
+commit 2b46c0b13fe65ae4224c7ea9b6e638dba867d239
+Author: Alex Barnsley <alex.j.barnsley@gmail.com>
+Date:   Fri Oct 13 15:11:45 2017 +0100
+
+    Stop Import/Create account if no network
+
+commit 4dec8520b38512c8a527e2fe396ad570f75dadaa
+Author: Alex Barnsley <alex.j.barnsley@gmail.com>
+Date:   Thu Oct 12 23:19:18 2017 +0100
+
+    Update html to look at correct URL
+
+commit 81169c0c1a41d6a0ed49e6957edf48fbc91dc4ea
+Author: Alex Barnsley <alex.j.barnsley@gmail.com>
+Date:   Thu Oct 12 23:18:48 2017 +0100
+
+    Refactor to Add or Save folders in 1 method
+
+commit 259a8159bee5d2c5a04b0726e63a2cb1eb7bebb1
+Author: Alex Barnsley <alex.j.barnsley@gmail.com>
+Date:   Thu Oct 12 23:18:10 2017 +0100
+
+    Add method to account service to rename folder
+
+commit d93906a58f914f969e2a92ab475c27d48943131f
+Author: Kris Rau <krau612@gmail.com>
+Date:   Wed Oct 11 07:30:25 2017 -0700
+
+    Added semicolon
+
+commit 0b3b1cca9d68500f46c7ea77eef5ca4c6db02c6b
+Author: Alex Barnsley <alex.j.barnsley@gmail.com>
+Date:   Wed Oct 11 14:17:38 2017 +0100
+
+    Use single AddressBookController for account view
+
+commit c9d3539a53c7cddc90c4c676437ac26ff6f21f78
+Author: Kris Rau <krau612@gmail.com>
+Date:   Tue Oct 10 19:06:04 2017 -0700
+
+    Added .gif as an image option
+
+commit c6dda153c82c4202862d8e0714c3b9c8ed045977
+Author: Kris Rau <krau612@gmail.com>
+Date:   Tue Oct 10 19:05:27 2017 -0700
+
+    Only show images as background options
+
+commit 97e2e875fbd297bae818e46b5aed4845c1a8ef91
+Author: Kris Rau <krau612@gmail.com>
+Date:   Tue Oct 10 18:57:33 2017 -0700
+
+    Created directory for user background images
+
+commit e12098d773858c7b141d452647891c507c504eca
+Author: Kris Rau <krau612@gmail.com>
+Date:   Tue Oct 10 16:38:41 2017 -0700
+
+    User can delete uploaded backgrounds
+
+commit e6c2eb9b6ed510d876174f2155a5f9c8e4c2a522
+Author: Kris Rau <krau612@gmail.com>
+Date:   Tue Oct 10 16:01:31 2017 -0700
+
+    Custom backgrounds working
+
+commit a439b9828a55d5d6b5773cfaf645511bcbfac787
+Author: Kris Rau <krau612@gmail.com>
+Date:   Tue Oct 10 15:48:27 2017 -0700
+
+    Copy file into program assets
+
+commit e6a0027c5364afdef6e485ee53bc142f4cbda7dc
+Author: Kris Rau <krau612@gmail.com>
+Date:   Tue Oct 10 15:28:02 2017 -0700
+
+    Open File Explorer
+
+commit 2dff4443fc488674fc6228d0068429274aa612e7
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Tue Oct 10 18:01:05 2017 -0300
+
+    hot fix release
+
+commit ca6447d4e39bec3c81f41c832df2f00e88f5256a
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Tue Oct 10 13:27:49 2017 -0300
+
+    bug: fix the navbar opacity after adding the splashscreen
+
+commit 9d17da042a87c5ebdf6ff7c818a2bdda5ef19632
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Tue Oct 10 13:18:20 2017 -0300
+
+    bug: fix incompatible background from previous version
+
+commit 48cac4787fbd5697f2f564a88082eecf3c6a86ff
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Tue Oct 10 11:48:41 2017 -0300
+
+    bug: fix dark mode on virtual folders
+
+commit 28bb5e0a5b51d4490aaa198a408ad10bf6e7de17
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Tue Oct 10 11:20:55 2017 -0300
+
+    dependency: upgrade packages
+
+commit c7809d2035cde9ad5f1c844a69a89c6a9e9ea05d
+Merge: cf66220 cf9200a
+Author: Lúcio Rubens <luciorubeens@gmail.com>
+Date:   Tue Oct 10 09:32:18 2017 -0300
+
+    Merge pull request #332 from liamreoch/contact_delete
+    
+    declared increment before use to fix contact deletion bug - Resolves #333
+
+commit cf9200af4bf6c06af8ad1e708c9ac2121cb3cfdf
+Author: Liam Reoch <liamreoch@192-168-1-8.tpgi.com.au>
+Date:   Tue Oct 10 23:07:25 2017 +1100
+
+    declared increment before use to fix contact deletion bug
+
+commit cf6622097b06480f16464a56825b3ca8a7fe70fc
+Merge: 35cbb4f d517e29
+Author: Lúcio Rubens <luciorubeens@gmail.com>
+Date:   Tue Oct 10 08:45:01 2017 -0300
+
+    Merge pull request #330 from liamreoch/master
+    
+    swapped method for getting accounts to fix amount display bug
+
+commit d517e29f1fec0dd3d3662091cf8c74b78a986ef2
+Author: Liam Reoch <liamreoch@192-168-1-8.tpgi.com.au>
+Date:   Tue Oct 10 21:19:09 2017 +1100
+
+    modified getAllAccounts() to use the filtered account list
+
+commit 571d1a0c585f09eb3bd77c1bcbdcd8468711e337
+Author: Liam Reoch <liamreoch@192-168-1-8.tpgi.com.au>
+Date:   Tue Oct 10 19:48:35 2017 +1100
+
+    swapped method for getting accounts to fix amount display bug
+
+commit 1197863b3221fe31122b75d1799edc0d3351bb06
+Author: jaml <dev@jaml.pro>
+Date:   Tue Oct 10 01:33:58 2017 +0200
+
+    Adapt tests to StandardJS
+
+commit c5024ee497beb3877cb0040a4b147dd0ba9413fe
+Author: jaml <dev@jaml.pro>
+Date:   Tue Oct 10 00:56:43 2017 +0200
+
+    Install and configure StandardJS
+
+commit 35cbb4f4f476b4a152196b567894c772efff1f8e
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Mon Oct 9 19:00:30 2017 -0300
+
+    update: translations
+
+commit 5e53460e71fe6184c15d757184897000c69a137f
+Author: ckhatri <chirag.k.khatri@gmail.com>
+Date:   Mon Oct 9 16:29:48 2017 -0500
+
+    updated so pulls the correct currency balance
+
+commit 33bb6d0d3c47a4ccf885a0236495cc9e06e9eebd
+Author: ckhatri <chirag.k.khatri@gmail.com>
+Date:   Mon Oct 9 16:26:32 2017 -0500
+
+    missed one place i didn't replace the old method with the new filter
+
+commit c924a49dad3bd5ae33c19bc3137f8da618eb0dff
+Author: ckhatri <chirag.k.khatri@gmail.com>
+Date:   Mon Oct 9 14:26:26 2017 -0500
+
+    removed old method
+
+commit c75c90d9ee644e025e358bc9f0fb3e0824d605e8
+Author: ckhatri <chirag.k.khatri@gmail.com>
+Date:   Mon Oct 9 14:25:45 2017 -0500
+
+    added custom filter for currency formatting
+
+commit f141c1c8028c8d272f1b09e5e4826237c46f428a
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Mon Oct 9 13:31:48 2017 -0300
+
+    release: 1.4.0
+
+commit 967db94e56245e1335e11cd9dd1a423e89453af3
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Mon Oct 9 13:25:22 2017 -0300
+
+    bug: fix switch network color
+
+commit 903c27b1c285bf08a4ab78eec1c9a61d234c276f
+Merge: 81caf86 0956906
+Author: Lúcio Rubens <luciorubeens@gmail.com>
+Date:   Mon Oct 9 13:21:44 2017 -0300
+
+    Merge pull request #325 from krau612/application-menu-fixes
+    
+    Fix Application Menu to match Settings Menu
+
+commit 81caf8608cb60e119b6565091d49cb1a4a649c4d
+Merge: 202e1b7 70475ef
+Author: Lúcio Rubens <luciorubeens@gmail.com>
+Date:   Mon Oct 9 13:19:52 2017 -0300
+
+    Merge pull request #326 from krau612/set-default-currency
+    
+    Set BTC to default currency and first in currencies list
+
+commit 202e1b74ed2b83ff7f9fc481b24a449b7bd9ba6a
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Mon Oct 9 13:10:00 2017 -0300
+
+    improvement(csv-export): get loaded transactions before export
+
+commit 8134a895fa145cb5593bcce761ce57670e7aa76c
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Mon Oct 9 12:25:33 2017 -0300
+
+    bug(infinite-scroll): scroll to top when switch account
+
+commit 370a565ed5680dfedc54d22390d2c7fe1fa38b6f
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Mon Oct 9 11:23:32 2017 -0300
+
+    bug: fix refresh account loop
+
+commit 09e36284643fe7c5a819d19dda50a4647aaa94c1
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Mon Oct 9 11:20:29 2017 -0300
+
+    dependency: add qrcode-generator
+
+commit 42e8b6c6e10f2d91ecaca08617e5ea2b6816d9c7
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Mon Oct 9 11:18:59 2017 -0300
+
+    bug(infinite-scroll): fix broadcast event
+
+commit 7a7146516b73ffc8ee018f771803e7f20d2c9f6f
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Mon Oct 9 10:47:05 2017 -0300
+
+    feature: add infinite-scroll on transactions list
+
+commit 70475efda65d843b2c21f9daad44c8a08a78e2a2
+Author: Kris Rau <krau612@gmail.com>
+Date:   Sun Oct 8 22:10:45 2017 -0700
+
+    Set BTC to default currency and first in currencies list
+
+commit 0956906b82bf074db2b35f8ebb420b4c3597ba4e
+Author: Kris Rau <krau612@gmail.com>
+Date:   Sun Oct 8 21:31:24 2017 -0700
+
+    Fix Application Menu to match Settings Menu
+
+commit 395375999172bbb633de31245c43732e59353fa4
+Merge: ea8790c 1e08b38
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Sun Oct 8 10:55:54 2017 -0300
+
+    Merge branch 'master' of https://github.com/ArkEcosystem/ark-desktop
+
+commit ea8790c4cba3e5acfcc40decda9e63c337f45f49
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Sun Oct 8 10:55:33 2017 -0300
+
+    bug: refresh account after broadcast transaction
+
+commit 1e08b38247e9c6172af8f126a3df076a704cb22a
+Merge: dea4781 fdbe536
+Author: fix <fx.thoorens@gmail.com>
+Date:   Sat Oct 7 14:11:59 2017 +0200
+
+    Merge branch 'master' of https://github.com/ArkEcosystem/ark-desktop
+
+commit dea47819b76470b244617431c90aea2e74422822
+Author: fix <fx.thoorens@gmail.com>
+Date:   Sat Oct 7 14:11:54 2017 +0200
+
+    removed unused coinmarketcap widget
+
+commit 0514b3a4e7b5e64d8c4f63bd0f14089ef414bbfc
+Author: fix <fx.thoorens@gmail.com>
+Date:   Sat Oct 7 14:11:27 2017 +0200
+
+    improved ledger import
+
+commit fdbe5366707af1a72b459de33e36cf454e79cbbd
+Merge: 82d2e00 5e5d104
+Author: Lúcio Rubens <luciorubeens@gmail.com>
+Date:   Sat Oct 7 08:40:42 2017 -0300
+
+    Merge pull request #321 from sleepdefic1t/master
+    
+    Fix black window
+
+commit 82d2e00f4de8730a7441ff81a71e926a279fafb0
+Merge: 3c60291 aa20e01
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Sat Oct 7 08:23:35 2017 -0300
+
+    merge: #315
+
+commit 3c602913e204b5df7c5d2af664e3549cddf69eef
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Sat Oct 7 06:53:04 2017 -0300
+
+    bug: fix dark mode in confirmation/alert dialog
+
+commit e4c04aa6c1a282e210ba78c12210bf5fbe30533b
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Sat Oct 7 06:40:38 2017 -0300
+
+    bug: truncate addresses in sidebar on devnet
+
+commit 7310ed88221e5740a9cd1eec9dbdd0e3ffebcda0
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Sat Oct 7 06:28:34 2017 -0300
+
+    update: add splash screen #275
+
+commit 52134e1f852ce0cfff1ed358d22875cd1aa52efa
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Fri Oct 6 11:54:07 2017 -0300
+
+    bug: fix network color
+
+commit 5e5d10404886af46d3f5757804ad749ab544de4d
+Author: Simon <sleepdefic1t@users.noreply.github.com>
+Date:   Thu Oct 5 20:32:37 2017 -0400
+
+    Update package.json
+
+commit 3e3ab106e0d3e2e00ae1acd5db05943000d9199d
+Author: Simon <sleepdefic1t@users.noreply.github.com>
+Date:   Thu Oct 5 20:15:48 2017 -0400
+
+    Update package.json
+    
+    add missing  "async" dependency
+
+commit bb0809a6d05fc8d3e2f3c129b967fddd59908080
+Merge: f7cfb92 2ca2dd7
+Author: Simon <sleepdefic1t@users.noreply.github.com>
+Date:   Thu Oct 5 20:14:23 2017 -0400
+
+    Merge pull request #1 from ArkEcosystem/master
+    
+    Update ark-desktop
+
+commit 2ca2dd721f9b7c445b4b4212159ab7f4ec570542
+Author: fix <fx.thoorens@gmail.com>
+Date:   Thu Oct 5 13:06:14 2017 +0200
+
+    discover automatically new ledger account without refresh
+
+commit 86b0de92031d7169036c9a8d26ef909c8d188586
+Author: fix <fx.thoorens@gmail.com>
+Date:   Thu Oct 5 11:48:17 2017 +0200
+
+    support for network configured slip44 with backward compatibility default to 111
+
+commit e04e05db216601eff7524169aac582984f79cdef
+Author: ckhatri <chirag.k.khatri@gmail.com>
+Date:   Wed Oct 4 17:11:19 2017 -0500
+
+    added accountCurrencyBalance to help clean up code
+
+commit 7e4cce2a61dbe714354bca47bc823dd3853b76ed
+Author: ckhatri <chirag.k.khatri@gmail.com>
+Date:   Wed Oct 4 15:00:16 2017 -0500
+
+    wrote a new format currency method which will localize any number passed in, so currency values are consistent
+
+commit ac424461fb56b4205552dbbe95b50c179d9c4cb6
+Merge: 9ab85fd 91fb95e
+Author: fix <fx.thoorens@gmail.com>
+Date:   Tue Oct 3 11:00:12 2017 +0200
+
+    merge
+
+commit 9ab85fd744cf42f4f781cd0d5cff6e3b724857ee
+Author: fix <fx.thoorens@gmail.com>
+Date:   Tue Oct 3 10:54:25 2017 +0200
+
+    fixed issue not playing song
+
+commit aa20e01ae8b5d5d22b4e9225e4bed30dc7f7b9d4
+Author: jaml <dev@jaml.pro>
+Date:   Sun Oct 1 18:48:05 2017 +0200
+
+    Add the Travis badge
+
+commit 750e8dd0ea80a06b8b8ad33519b375ebbd00ff33
+Author: jaml <dev@jaml.pro>
+Date:   Sun Oct 1 18:28:56 2017 +0200
+
+    Add Travis configuration
+
+commit f91a6324f39392336a9c644e15335513513fded8
+Author: jaml <dev@jaml.pro>
+Date:   Sun Oct 1 18:22:42 2017 +0200
+
+    Move `angular-mocks` dev dependency to main `package.json`
+
+commit d74ce81610f342002d393a1cfcc0bf9c9078c47f
+Author: jaml <dev@jaml.pro>
+Date:   Sun Oct 1 18:18:06 2017 +0200
+
+    Reorganize the entire test infrastructure
+
+commit 082cefbdbfad8e71c03885f42238ff8063d9b5a8
+Author: jaml <dev@jaml.pro>
+Date:   Sun Oct 1 17:42:20 2017 +0200
+
+    Add "devtron" as a dependency
+
+commit 30e37def864f795ebc49008fa37bcee19351600c
+Author: jaml <dev@jaml.pro>
+Date:   Sun Oct 1 01:16:53 2017 +0200
+
+    Install and configure Karma
+
+commit 6939328c144dacc386afa8c2520d2a975c3fef8e
+Author: jaml <dev@jaml.pro>
+Date:   Sun Oct 1 00:22:22 2017 +0200
+
+    Fix test about "Play sound on transactions" setting and improve label
+
+commit fac220278e22ebecc2731653d7dc82d72a8fdd79
+Author: jaml <dev@jaml.pro>
+Date:   Sat Sep 30 23:54:36 2017 +0200
+
+    Improve the structure of the tests and add some examples
+
+commit e2968ea3dd54d55f70e25389fcb9312ffa08e0b5
+Author: jaml <dev@jaml.pro>
+Date:   Fri Sep 29 11:05:19 2017 +0200
+
+    Add some instructions about testing
+
+commit f820c230a23ba2da8d5cf079c229ed9d47f4634f
+Author: jaml <dev@jaml.pro>
+Date:   Fri Sep 29 00:51:53 2017 +0200
+
+    Adapt existent tests to some changes
+
+commit 735e37a5f1defe5d0c8c31277e974fed549559b8
+Author: jaml <dev@jaml.pro>
+Date:   Wed Sep 27 23:13:35 2017 +0200
+
+    Split the unique test file into others
+    
+    This is a possible division of the responsibilities:
+     - hooks: set up and tear down
+     - commands: custom client actions
+     - user_data: object to access and remove user data easily
+
+commit 91fb95ebd9fbd71a3c52cdae57cdf8002fb4419a
+Merge: bebf78f 25b23df
+Author: Lúcio Rubens <luciorubeens@gmail.com>
+Date:   Sun Oct 1 10:30:55 2017 -0300
+
+    Merge pull request #314 from noahgr/peer-fee
+    
+    Get fees from api before create the transaction
+
+commit bebf78fab1a57fdbe4409b4fb2c3947f4843071b
+Merge: 5c697d6 e4da0bd
+Author: Lúcio Rubens <luciorubeens@gmail.com>
+Date:   Sun Oct 1 10:25:17 2017 -0300
+
+    Merge pull request #296 from alexbarnsley/bug/error-on-get-active-delegates
+    
+    Add Delegate - Feedback when no internet connection
+
+commit 5c697d6232af2baf506920d1f11f2d2ce30ccd41
+Merge: 0a2029c eb9e0bf
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Sun Oct 1 09:42:43 2017 -0300
+
+    fix #308 conflict
+
+commit 0a2029c7f45cf065052dfcd1a3bd69cd278e3318
+Merge: 9c346b4 21c50c8
+Author: Lúcio Rubens <luciorubeens@gmail.com>
+Date:   Sat Sep 30 23:49:48 2017 -0300
+
+    Merge pull request #313 from noahgr/qrcode-theme
+    
+    Fix theme on qr code dialog
+
+commit 9c346b4a5a917837ebaff1eb225247993f953086
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Sat Sep 30 23:26:28 2017 -0300
+
+    bug: fix currency balance button
+
+commit 21c50c83e25c5b87b1df21937d813aa0b7339c0e
+Author: Noah Gregorio <noahgr51@outlook.com>
+Date:   Sat Sep 30 13:41:20 2017 -0300
+
+    Fix theme on qr code dialog
+
+commit 25b23dfa8e1232eced2dda12d1dd765a4b862712
+Author: Noah Gregorio <noahgr51@outlook.com>
+Date:   Sat Sep 30 13:29:16 2017 -0300
+
+    Get fees from api before create the transaction
+
+commit 8195b2e3319fa1bfc8521b2d8456586bbf6a74e4
+Merge: 0b13c87 efe2f35
+Author: Lúcio Rubens <luciorubeens@gmail.com>
+Date:   Fri Sep 29 19:25:59 2017 -0300
+
+    Merge pull request #295 from j-a-m-l/avoid-duplicated-contacts
+    
+    Avoid duplicated contacts or contacts that are the same that user addresses
+
+commit 0b13c8798717454e8273ed163e2d81cbdc78c998
+Merge: 65d6897 bdcad91
+Author: Lúcio Rubens <luciorubeens@gmail.com>
+Date:   Fri Sep 29 11:11:14 2017 -0300
+
+    Merge pull request #311 from noahgr/show-transaction
+    
+    Remove recipient address and change type to label on the show transaction
+
+commit 65d6897bd3bd6ef56b2c508ff588f35242af9e48
+Merge: f9e474f e571a94
+Author: Lúcio Rubens <luciorubeens@gmail.com>
+Date:   Fri Sep 29 11:10:14 2017 -0300
+
+    Merge pull request #310 from noahgr/qrcode-ledger
+    
+    Fix qr-code on send ark in ledger account
+
+commit f9e474f81a6a742c4ba9a605ab799e52fee3f8ea
+Merge: 2c876ae 10020bb
+Author: Lúcio Rubens <luciorubeens@gmail.com>
+Date:   Fri Sep 29 11:09:47 2017 -0300
+
+    Merge pull request #309 from noahgr/strict-mode
+    
+    Add 'use strict' into all services/controllers
+
+commit 2c876aebfadb6cf7d684553c263dbbd0c671a18a
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Fri Sep 29 11:07:14 2017 -0300
+
+    update: remove unnecessary files #303
+
+commit c9da80f7cc642bad35b44ec54ec16ba13a70fa5c
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Fri Sep 29 10:31:08 2017 -0300
+
+    fix: correct variable to remove sign/verify message
+
+commit 8943eabf0886031e4e6586ed535f9ca0d090be4f
+Merge: 5da27f3 e8b714c
+Author: Lúcio Rubens <luciorubeens@gmail.com>
+Date:   Fri Sep 29 10:23:36 2017 -0300
+
+    Merge pull request #282 from SBero/277_Nano_S_Invalid_Status
+    
+    #277 - Remove 'Sign / Verify Message' for Ledger users.
+
+commit bdcad91b87869e43250117aa89dba24bf91973d6
+Author: Noah Gregorio <noahgr51@outlook.com>
+Date:   Fri Sep 29 10:02:44 2017 -0300
+
+    Remove recipient address and change type to label
+
+commit e571a9451ef4d59c73bfdf2e4bbfd1914aeb137e
+Author: Noah Gregorio <noahgr51@outlook.com>
+Date:   Fri Sep 29 09:28:28 2017 -0300
+
+    Fix qr-code on send ark
+
+commit 10020bbc0857edc663780a247b4ce1d5dc2d5e6b
+Author: Noah Gregorio <noahgr51@outlook.com>
+Date:   Fri Sep 29 08:31:42 2017 -0300
+
+    Add 'use strict' into all services/controllers
+
+commit eb9e0bff59a22ae2af35c5deb766213579c146a9
+Author: jaml <dev@jaml.pro>
+Date:   Fri Sep 29 11:05:19 2017 +0200
+
+    Add some instructions about testing
+
+commit 4c9040c3bba6db2af8eabb5769a55e1545816cb3
+Author: jaml <dev@jaml.pro>
+Date:   Fri Sep 29 11:04:46 2017 +0200
+
+    Add a way to watch for changes and run tests automatically
+
+commit ecc011214ab5f00fd5f6bc48482c825aa6eae41a
+Author: jaml <dev@jaml.pro>
+Date:   Fri Sep 29 00:51:53 2017 +0200
+
+    Adapt existent tests to some changes
+
+commit 5da27f3fad6f54492d62427df5922b2aff5207ac
+Merge: 5570dce ab35f95
+Author: Lúcio Rubens <luciorubeens@gmail.com>
+Date:   Thu Sep 28 16:54:08 2017 -0300
+
+    Merge pull request #305 from ckhatri/updateBalance
+    
+    Update balance
+
+commit 5570dce08275776c5a9eb09dd859ed1769b3d9d7
+Merge: 2ca5a48 49f44e8
+Author: Lúcio Rubens <luciorubeens@gmail.com>
+Date:   Thu Sep 28 16:51:17 2017 -0300
+
+    Merge pull request #302 from ckhatri/fixIconTooltips
+    
+    now when you hover over the icons in wallet page, will show text
+
+commit 2ca5a485a9fef42e7e6c840bbf4c69837fba3b07
+Merge: c5b5703 1f5d5fb
+Author: Lúcio Rubens <luciorubeens@gmail.com>
+Date:   Thu Sep 28 16:49:55 2017 -0300
+
+    Merge pull request #304 from ckhatri/addSpanishLanguage
+    
+    add spanish as a language choice
+
+commit c5b57032b6db7fe3f5012e3b14ed6569199a033a
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Thu Sep 28 16:32:45 2017 -0300
+
+    feature: add option to refresh account manually
+
+commit fa81e658b4363205ad832ff30b9928b5dcc333f7
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Thu Sep 28 11:15:59 2017 -0300
+
+    bug: fix previousTx on loop
+
+commit e8b714cb19a9159aa122ca405c438e35bb93d901
+Author: Stephen Bero <stephen.m.bero@gmail.com>
+Date:   Thu Sep 28 07:03:55 2017 -0700
+
+    Changed the check to the correct object
+
+commit 477d88c1559874716544a7a0bc71783f9929338f
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Thu Sep 28 07:49:37 2017 -0300
+
+    update: add a divider in settings ;ist
+
+commit b42e95f840c06a857138f055749406e0d3c2ccd9
+Author: jaml <dev@jaml.pro>
+Date:   Thu Sep 28 00:32:36 2017 +0200
+
+    Rename all instaces of "song" by "sound"
+
+commit a54e8cda0101e730ffc9db516e9ed688de7939a9
+Author: jaml <dev@jaml.pro>
+Date:   Thu Sep 28 00:26:26 2017 +0200
+
+    Use "sound" instead of "song"
+
+commit 64f5879d21fd688147094cc0eccd1778acbb2dab
+Author: jaml <dev@jaml.pro>
+Date:   Wed Sep 27 23:28:08 2017 +0200
+
+    Add a small space between the text of the "Play sound on transacion" option and the switch button
+
+commit d6a1335bf7f147300cc588800197d694b4698950
+Author: jaml <dev@jaml.pro>
+Date:   Wed Sep 27 23:13:35 2017 +0200
+
+    Split the unique test file into others
+    
+    This is a possible division of the responsibilities:
+     - hooks: set up and tear down
+     - commands: custom client actions
+     - user_data: object to access and remove user data easily
+
+commit 70ea75457061954fa63babe3525abf4fcb3c5b0e
+Author: jaml <dev@jaml.pro>
+Date:   Sat Sep 23 01:33:05 2017 +0200
+
+    Reorganize the settings menu and improve its aesthetics
+
+commit 43aa9dded903646fdce7bf3b640b124678dc7ba1
+Author: jaml <dev@jaml.pro>
+Date:   Sat Sep 23 00:16:16 2017 +0200
+
+    Alig the "Play song when receive funds?" label and switch button
+
+commit 2d00acf136c870afa8006c2d5c4c30dfaf30b605
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Wed Sep 27 15:32:14 2017 -0300
+
+    new: blocks pattern
+
+commit 8c158efa9662b88597a48df6dc6cd304f7e14111
+Merge: 9fe766f 609ac45
+Author: Lúcio Rubens <luciorubeens@gmail.com>
+Date:   Wed Sep 27 13:44:03 2017 -0300
+
+    Merge pull request #288 from alexbarnsley/bug/include-ledger-balance
+    
+    Include ledger in balance total
+
+commit 9fe766f138de8c000dd9074eb8318bac328eaf67
+Merge: 87e9f76 d0fc9c1
+Author: Lúcio Rubens <luciorubeens@gmail.com>
+Date:   Wed Sep 27 13:38:26 2017 -0300
+
+    Merge pull request #284 from j-a-m-l/initial-connection-toasts
+    
+    Avoid showing several "toasts" while the app connects to the network
+
+commit 87e9f76d56f7315371ef1b86f02b8dfb88959f60
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Wed Sep 27 13:26:01 2017 -0300
+
+    dependency: add cross-env
+
+commit 0a2a0126d83948e514fa3030875ac546a8a607a8
+Merge: 9f643a2 fd72a3f
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Wed Sep 27 13:22:36 2017 -0300
+
+    Merge commit 'refs/pull/281/head' of https://github.com/ArkEcosystem/ark-desktop
+
+commit 0e60eefea80705eb50123f697cd5d3323d4b803c
+Author: jaml <dev@jaml.pro>
+Date:   Wed Sep 27 00:07:55 2017 +0200
+
+    Include tests from nested directories
+
+commit ab35f953d73499dd866662950819a5d0571b00ca
+Author: ckhatri <chirag.k.khatri@gmail.com>
+Date:   Tue Sep 26 15:45:41 2017 -0500
+
+    kept it as a button, looks nicer and creates space
+
+commit fd41f9083ac5aa9981d721d6d65b118b24c30caf
+Author: ckhatri <chirag.k.khatri@gmail.com>
+Date:   Tue Sep 26 15:41:52 2017 -0500
+
+    update balance to use myAccountsCurrencyBalance method
+
+commit 1f5d5fb91618017ecedfaed0c424f5d2d858ca8f
+Author: ckhatri <chirag.k.khatri@gmail.com>
+Date:   Tue Sep 26 15:25:42 2017 -0500
+
+    add spanish as a language choice
+
+commit 49f44e8f7fa0c806f686009beb88afe8d2150b9b
+Author: ckhatri <chirag.k.khatri@gmail.com>
+Date:   Mon Sep 25 18:50:38 2017 -0500
+
+    now when you hover over the icons in wallet page, will show text
+
+commit 9f643a2df4cb2dedfa5b17bc126bbc635eaf22ec
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Mon Sep 25 17:56:25 2017 -0300
+
+    bug: ledger accounts list in dark mmode
+
+commit c826e701f35cc54a4752da333dc6a11c22bb8889
+Merge: 54f10f5 c88c1a6
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Mon Sep 25 17:31:21 2017 -0300
+
+    Merge branch 'master' of https://github.com/ArkEcosystem/ark-desktop
+
+commit 54f10f5e04a368c191a4ce8edc67055d909f08cd
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Mon Sep 25 17:30:04 2017 -0300
+
+    update: change the warn message on create account
+
+commit c88c1a6ee8f4bd5ef803f2704f0753fff8e324e3
+Author: François-Xavier Thoorens <fx.thoorens@gmail.com>
+Date:   Mon Sep 25 22:20:25 2017 +0200
+
+    fixing builds not recognising ledger
+
+commit 1f0d99e841d78b49aa11614b3b1402a3172b2da6
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Mon Sep 25 17:10:30 2017 -0300
+
+    bug: change the opacity of some dashboard elements #280
+
+commit 3daa6bf962b4bd9df8224a96570df333aa1ba3f9
+Merge: 7040793 5fea4f4
+Author: Lúcio Rubens <luciorubeens@gmail.com>
+Date:   Mon Sep 25 15:23:42 2017 -0300
+
+    Merge pull request #300 from yagoantonio/patch-3
+    
+    Add translate tag to play song
+
+commit 5fea4f481505dcfa7dc2a3b7c57f4ffa3857bc7c
+Author: Yago Antonio <yago_antonio@live.com>
+Date:   Mon Sep 25 12:54:14 2017 -0300
+
+    Add translate tag to play song
+
+commit e4da0bd20264ef7a05f67967141470e45e3bab3a
+Author: Alex Barnsley <alex.j.barnsley@gmail.com>
+Date:   Sun Sep 24 21:28:13 2017 +0100
+
+    Default to array, not object
+
+commit 69b937dc53c02643c5afb26716d2ab4bc00f7a69
+Author: Alex Barnsley <alex.j.barnsley@gmail.com>
+Date:   Sun Sep 24 21:05:41 2017 +0100
+
+    Show delegate dropdown regardless
+
+commit 9555190d94a139fd6131928120660e2786cac39f
+Author: Alex Barnsley <alex.j.barnsley@gmail.com>
+Date:   Sun Sep 24 21:03:29 2017 +0100
+
+    Catch promise reject and error
+
+commit 8d4604fd387dce5602fb545e658b512588a1c16e
+Author: Alex Barnsley <alex.j.barnsley@gmail.com>
+Date:   Sun Sep 24 21:03:03 2017 +0100
+
+    Catch http request failure
+
+commit efe2f358bcae89c82bbd221679959790684b4584
+Author: jaml <dev@jaml.pro>
+Date:   Sun Sep 24 19:18:02 2017 +0200
+
+    Avoid adding contacs with duplicated names or with the name or address of an account
+
+commit 7040793c5f614f7837066f3bcac43f6fac16cf1a
+Merge: fd00e51 c134b5a
+Author: Lúcio Rubens <luciorubeens@gmail.com>
+Date:   Sun Sep 24 13:57:19 2017 -0300
+
+    Merge pull request #287 from ckhatri/refreshButtonAction
+    
+    Pressing refresh button now gives user a response
+
+commit fd00e5128ec1586e089ab7d30617a2bba36ea1bb
+Merge: f830f9d d7ad96b
+Author: Lúcio Rubens <luciorubeens@gmail.com>
+Date:   Sun Sep 24 13:49:40 2017 -0300
+
+    Merge pull request #292 from alexbarnsley/task/tweak-package-urls
+    
+    Update URLs to repos
+
+commit 69087cf53e4751a3b13371670382e180b27cbe82
+Author: jaml <dev@jaml.pro>
+Date:   Sun Sep 24 18:43:31 2017 +0200
+
+    Remove some `console.log` instructions
+
+commit f830f9d8ee3b140703ab3903761ec4a09fdaed3c
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Sun Sep 24 13:40:53 2017 -0300
+
+    update: build background and ark logo
+
+commit e974bee51c167c582fdf4b29b90a9496990596eb
+Merge: ccadad8 53b0008
+Author: Lúcio Rubens <luciorubeens@gmail.com>
+Date:   Sun Sep 24 12:44:24 2017 -0300
+
+    Merge pull request #294 from ArkEcosystem/theming
+    
+    feature: dark mode
+
+commit 53b0008fde97ef3b00cc9bf2e26e99dafae409f9
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Sun Sep 24 12:12:05 2017 -0300
+
+    update: update UI for dark mode
+
+commit 2cf62d39688c70bb47c69a7cb1bf8cc2b9441221
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Sun Sep 24 12:11:24 2017 -0300
+
+    dependency: upgrade angular material
+
+commit d7ad96bb802deda84a3f69eb5df2b7e1d68851b4
+Author: Alex Barnsley <alex.j.barnsley@gmail.com>
+Date:   Sun Sep 24 00:08:46 2017 +0100
+
+    Update URLs to repos
+
+commit 609ac456c32a74a58078fc9eb5168fa4b96a1723
+Author: Alex Barnsley <alex.j.barnsley@gmail.com>
+Date:   Fri Sep 22 22:52:49 2017 +0100
+
+    Revert balance override
+
+commit 6ae8bc00e0733c554bfcc0f3e7312657ffb28e3c
+Author: Alex Barnsley <alex.j.barnsley@gmail.com>
+Date:   Fri Sep 22 22:49:27 2017 +0100
+
+    Fix issue with showing Ledger accounts as normal
+
+commit e8db23ccf2789208ca6a1b7bdc1efcf7c7f5d092
+Author: Alex Barnsley <alex.j.barnsley@gmail.com>
+Date:   Fri Sep 22 22:39:05 2017 +0100
+
+    Remove debug
+
+commit f84d28a4c2f360215e540cfa1bec4b9aa691f5c3
+Author: Alex Barnsley <alex.j.barnsley@gmail.com>
+Date:   Fri Sep 22 22:16:52 2017 +0100
+
+    Include ledger accounts in balance
+
+commit d9031557a8cfbd48940e1aa4639da6e9b7137188
+Author: Alex Barnsley <alex.j.barnsley@gmail.com>
+Date:   Fri Sep 22 22:16:26 2017 +0100
+
+    Method to consolidate normal & ledger accounts
+
+commit c87fbbc87423a620f5196c3c44382c838e3525e1
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Fri Sep 22 18:14:21 2017 -0300
+
+    feature: dark mode
+
+commit c134b5af560be75e7ff2d551fb704ea041fd080f
+Author: ckhatri <chirag.k.khatri@gmail.com>
+Date:   Fri Sep 22 13:38:37 2017 -0500
+
+    when you press the refresh button next to my account, it'll look like the user has clicked so they have a response
+
+commit ccadad85472e84a921a2efcbfd8057f04b44ddac
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Fri Sep 22 11:18:24 2017 -0300
+
+    bug: show the edit icon when contact with same address as selected
+
+commit a9198cb5b8d58fcd863037fe9fcaae14e9b31399
+Merge: 485d99c f2df0bb
+Author: Lúcio Rubens <luciorubeens@gmail.com>
+Date:   Fri Sep 22 10:03:27 2017 -0300
+
+    Merge pull request #257 from SBero/256_window_state
+    
+    improvement: maintain window state upon close
+
+commit 485d99cc153f92c3854daafebb453e69e931feaf
+Merge: a7c44bc 6f4d9c8
+Author: Lúcio Rubens <luciorubeens@gmail.com>
+Date:   Fri Sep 22 08:40:35 2017 -0300
+
+    Merge pull request #255 from ckhatri/screenshotProtectionFix
+    
+    bug: screenshot protection status update
+
+commit d0fc9c1f93a0312512e494f3de62ba472bbeff62
+Author: jaml <dev@jaml.pro>
+Date:   Fri Sep 22 06:17:20 2017 +0200
+
+    Avoid showing several "toasts" while the app is connecting to the network
+
+commit a7c44bcd546277287120a456278af57d5b734286
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Thu Sep 21 19:17:43 2017 -0300
+
+    bug: select language
+
+commit be9355f3dcb330eb402404c46b73d7530e1621dd
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Thu Sep 21 19:00:28 2017 -0300
+
+    bug: save state on close
+
+commit df37959bea382eef4203c19529b95d913b1b846c
+Merge: 91510be 17b0182
+Author: Lúcio Rubens <luciorubeens@gmail.com>
+Date:   Thu Sep 21 18:12:45 2017 -0300
+
+    Merge pull request #250 from yograterol/fix-balance-position
+    
+    bug: add padding to balance text
+
+commit 91510beb2c999bc59ec590a13362d99c43c82f85
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Thu Sep 21 18:04:42 2017 -0300
+
+    bug: expense instead of expend
+
+commit 6d85891503697ef116921e86f5c15514c04051b7
+Merge: 606d2d3 b37ad16
+Author: Lúcio Rubens <luciorubeens@gmail.com>
+Date:   Thu Sep 21 17:32:31 2017 -0300
+
+    Merge pull request #246 from ckhatri/contactAddressHoverFix
+    
+    bug: fixes transaction not translating next to income/expend issue #244
+
+commit 606d2d3de8fbcfac74c4a38746551f3acc98099b
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Thu Sep 21 14:26:05 2017 -0300
+
+    bug: format currency balance according to user's language
+
+commit 515ea3cd6b5391ffc771a5e6b0a4d87e6af102fa
+Merge: 2fe45c8 9030f90
+Author: Lúcio Rubens <luciorubeens@gmail.com>
+Date:   Thu Sep 21 08:32:24 2017 -0300
+
+    Merge pull request #283 from ArkEcosystem/refactor
+    
+    refactor: file system and module naming
+
+commit b568d014742efed612b25db03d256462ebbe46c0
+Author: Stephen Bero <stephen.m.bero@gmail.com>
+Date:   Wed Sep 20 23:20:25 2017 -0700
+
+    Check if ledgercomm is set, to determine if the 'Sign Message' tab is displayed
+
+commit fd72a3f1f303587bb1bf6721f481b9b37931765a
+Author: jaml <dev@jaml.pro>
+Date:   Thu Sep 21 01:28:51 2017 +0200
+
+    Explain how to run the "live-reload" script on the README
+
+commit fd0a2b33589a55d795a65662779946fb3a8e5754
+Author: jaml <dev@jaml.pro>
+Date:   Thu Sep 21 01:24:25 2017 +0200
+
+    Install and configure [elemon](https://github.com/manidlou/elemon) to provide a "live-reload" feature
+
+commit 9030f90c84c3478ccb306b4e301a42404c9311fa
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Wed Sep 20 16:18:29 2017 -0300
+
+    bug(addressBook): remove cached directory
+
+commit 44b5f96ef0e17327c7f622e287cfd75998093d77
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Wed Sep 20 15:43:07 2017 -0300
+
+    refactor: file system and module naming
+
+commit 7f5e4bf23ef9cacc56b3d08425f8287a6cd14074
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Wed Sep 20 15:21:15 2017 -0300
+
+    refactor(addons): add plugin loader
+
+commit 76bcbe1fe29e9a18c785ddb5e6150c409213c746
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Wed Sep 20 15:04:57 2017 -0300
+
+    refactor(services): change file name
+
+commit 2119de8b00bca80295860f5dbe4515a3f4d3a697
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Wed Sep 20 14:53:43 2017 -0300
+
+    refactor(filters): moved filters from accountController
+
+commit a4e797267e1cb1bb1978045ad88a3ba7212be93a
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Wed Sep 20 13:46:05 2017 -0300
+
+    refactor(directives): add copy to clipboard
+
+commit e23d9416f2a81f5dd604ba2b264f78da4e3672cb
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Wed Sep 20 13:36:22 2017 -0300
+
+    refactor(app.js): change module name
+
+commit 4ca3f87d5cc972d286c3bb6835715e90de4d0fc7
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Wed Sep 20 13:03:32 2017 -0300
+
+    refactor(directives): add valid amount
+
+commit f8fbcdddf24795de6e7d956e7bc32cdebb93a4e1
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Wed Sep 20 13:01:10 2017 -0300
+
+    refactor(app.js): add init modules
+
+commit 565e7c08274089408d5487af6bb6eb1bccd839d0
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Wed Sep 20 12:56:46 2017 -0300
+
+    config(appearance): add themes and colors
+
+commit 70d96f268065d6ba54c9d272b655dce8c057bda1
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Wed Sep 20 12:15:55 2017 -0300
+
+    refactor(components): add shapeshift
+
+commit fa49beb7e78da4c1338f47416b46ce2a0e0bd5f1
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Wed Sep 20 12:05:46 2017 -0300
+
+    refactor(components): add address book
+
+commit 9e663e450cd5a4a7b5f925581468d6af7b79fb41
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Wed Sep 20 11:51:24 2017 -0300
+
+    refactor(components): add qr-code scanner
+
+commit 6e264c5b2780c635e85b77a363e61109a3f8ded9
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Wed Sep 20 11:17:52 2017 -0300
+
+    Update build background
+
+commit 2b68f925752f00af23c39c2d0cc3070bc71ef992
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Wed Sep 20 11:07:43 2017 -0300
+
+    Change backgrounds directory
+
+commit 1a48717ed328590c1fed8cf3ce1c2716eb61d8a0
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Wed Sep 20 10:53:50 2017 -0300
+
+    Remove unnecessary jsclock data
+
+commit 2fe45c887a9d34436bd01a63495e67d086d8752b
+Merge: d6e4f09 c31e410
+Author: François-Xavier Thoorens <fx.thoorens@gmail.com>
+Date:   Wed Sep 20 09:42:41 2017 +0200
+
+    Merge pull request #278 from j-a-m-l/note-about-node-hid
+    
+    Add a note to README about the node-hid dependencies
+    +5
+
+commit d6e4f094d87d2e31a82e93e78777c28e3bf9848d
+Author: François-Xavier Thoorens <fx.thoorens@gmail.com>
+Date:   Wed Sep 20 09:40:12 2017 +0200
+
+    Update README.md
+
+commit c31e410f22e69984094502ef229cf2296bdb7d59
+Author: jaml <dev@jaml.pro>
+Date:   Wed Sep 20 08:57:51 2017 +0200
+
+    Add a note to README about the node-hid dependencies
+
+commit b9a4a534598a8336df8827875296e3c56648a859
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Tue Sep 19 14:43:58 2017 -0300
+
+    Fixed fee in transactions list
+
+commit 49a5fb03c01edeef242f28a2dd2c50ed566fa2b4
+Merge: 64c1ab3 ef425e2
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Tue Sep 19 14:39:23 2017 -0300
+
+    Merge commit 'refs/pull/236/head' of https://github.com/ArkEcosystem/ark-desktop
+
+commit 64c1ab31b29ad19b82d2ef267b0b1e85c88bdf44
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Tue Sep 19 14:12:03 2017 -0300
+
+    Update color in transactions list
+
+commit 4e712577632855df0eba3167563ec60613b7692f
+Merge: 538ef34 1271d2c
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Tue Sep 19 11:33:06 2017 -0300
+
+    Merge commit 'refs/pull/235/head' of https://github.com/ArkEcosystem/ark-desktop
+
+commit 538ef34309ba112a50042aa49869e47dc9f6fbef
+Merge: c664149 cc46728
+Author: Lúcio Rubens <luciorubeens@gmail.com>
+Date:   Tue Sep 19 11:05:03 2017 -0300
+
+    Merge pull request #231 from darfraider/master
+    
+    added validateTransaction method support for createSecondPassphrase
+
+commit c664149de27aba6580c0d3ba33e19c9b33171501
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Mon Sep 18 19:33:55 2017 -0300
+
+    Update qrcode button
+
+commit 0a8bca66b1cdbd4e522efcada0cd66d69db97d42
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Mon Sep 18 17:39:47 2017 -0300
+
+    Fixed translate pipe in sendArk
+
+commit 3edc7ee962766fae10edeac89d97aa7b76faafc0
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Mon Sep 18 16:51:46 2017 -0300
+
+    Add option to disable plugin
+
+commit a77eef28c55736730ef397cf4ad9b70f978d65cb
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Mon Sep 18 16:43:31 2017 -0300
+
+    Fixed wrong path issue
+
+commit 73218ec296af11e856447451c01c6a20f3c8c7da
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Mon Sep 18 16:33:25 2017 -0300
+
+    fileninja: Plugin loader
+
+commit 94ace1bdc09266d0bc60e429e680f7403def58a5
+Merge: ffc5a58 0805e1d
+Author: Lúcio Rubens <luciorubeens@gmail.com>
+Date:   Mon Sep 18 09:43:55 2017 -0300
+
+    Merge pull request #224 from fileninja/fileninja_export_account
+    
+    CSV Export of Account
+
+commit ffc5a58304e848c275098219ffbfb001bdc20d04
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Mon Sep 18 07:13:30 2017 -0300
+
+    Add hint format in message verify
+
+commit 38032332676cbc556465b975251fd6451ef63690
+Merge: 0028771 fafd597
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Mon Sep 18 06:33:59 2017 -0300
+
+    Merge commit 'refs/pull/200/head' of https://github.com/ArkEcosystem/ark-desktop
+
+commit 1271d2c94c89d36c7e448330c73a792ccb0e2ec5
+Author: Kris Rau <krau612@gmail.com>
+Date:   Sun Sep 17 10:15:37 2017 -0700
+
+    Show plus and minus amount in self transactions
+
+commit 002877173b38f22c1d3a7725bda76d85c5b8e856
+Author: fix <fx.thoorens@gmail.com>
+Date:   Fri Sep 15 18:15:01 2017 +0200
+
+    fixed bad behavior when disconnecting
+
+commit 0af1b04d033f5fdbe18874f98cd1b71b7a82e38b
+Merge: 6014560 328139c
+Author: François-Xavier Thoorens <fx.thoorens@gmail.com>
+Date:   Fri Sep 15 17:50:31 2017 +0200
+
+    Merge pull request #268 from ArkEcosystem/pr/267
+    
+    Pr/267
+
+commit 328139ca00c66c3e037454a6794944455b7c7caa
+Author: fix <fx.thoorens@gmail.com>
+Date:   Fri Sep 15 17:48:43 2017 +0200
+
+    make change working on connected ledgers
+
+commit e0088a20d5a2a21ed76ff0a60e45f9eb48b2e041
+Author: DFM <deiform87@gmail.com>
+Date:   Fri Sep 15 11:12:37 2017 +0100
+
+    Cleanup console error
+
+commit 6ee744be804869beef57c9ee8e4069a33a0acdd2
+Author: DFM <deiform87@gmail.com>
+Date:   Fri Sep 15 11:10:54 2017 +0100
+
+    Remove open web dev tools
+
+commit a1c6ce70a496b6a37ddd5aed4c0064167c725c34
+Author: DFM <deiform87@gmail.com>
+Date:   Fri Sep 15 11:04:05 2017 +0100
+
+    Fix blocking ledger list on affected systems by moving check to child process
+
+commit f2df0bb1168d438d36ba0fc9b5800f7373a5f265
+Author: Stephen Bero <stephen.m.bero@gmail.com>
+Date:   Mon Sep 11 19:18:12 2017 -0700
+
+    Update to maintain window state upon close
+
+commit 6f4d9c8f8cb5de8cc874b79b189002023eadeb77
+Author: ckhatri <chirag.k.khatri@gmail.com>
+Date:   Mon Sep 11 14:19:16 2017 -0500
+
+    adds update screenshot protection function fixes issue #252
+
+commit 17b01825228a3a9038f7d35ad441e51c8f10b7ab
+Author: Yohan Graterol <yohangraterol92@gmail.com>
+Date:   Sat Sep 9 17:59:45 2017 -0500
+
+    Add padding to balance text
+
+commit b37ad167ccc1bb927c6b6a3a28890c07ed3cc525
+Author: ckhatri <chirag.k.khatri@gmail.com>
+Date:   Thu Sep 7 11:08:55 2017 -0500
+
+    swapped expend and income spots so they are now in correct spots
+
+commit 3d00a9edbc0de1233211611dd97e5518d0b7a3c8
+Author: ckhatri <chirag.k.khatri@gmail.com>
+Date:   Wed Sep 6 11:47:45 2017 -0500
+
+    fixes transaction not translating next to income/expend issue #244
+
+commit ef425e20bce2647b2dfc8fcb974ef318a6d87a93
+Author: Kris Rau <kris@localhost.localdomain>
+Date:   Mon Sep 4 20:04:06 2017 -0700
+
+    Horizontal Scrollbar in Transactions list now visible w/o scrolling down
+
+commit 01be3cfd60084ba193b8b8d0e279b2343b46dc23
+Author: Kris Rau <kris@localhost.localdomain>
+Date:   Mon Sep 4 18:15:31 2017 -0700
+
+    Sending ARK to yourself now shows up as grey, not red
+
+commit 6014560b59d61055234a6a7866328e7dcf544f84
+Author: fix <fx.thoorens@gmail.com>
+Date:   Tue Sep 5 00:32:35 2017 +0200
+
+    prevent ledger address from registering delegate and 2nd passphrase
+
+commit 569be95af541c511ca40b141749582ec47093206
+Author: fix <fx.thoorens@gmail.com>
+Date:   Mon Sep 4 22:45:51 2017 +0200
+
+    remove unecessary force
+
+commit 365a30aed2032401829072797359eb36159450b2
+Merge: f7e8c76 24a32f7
+Author: fix <fx.thoorens@gmail.com>
+Date:   Mon Sep 4 22:43:47 2017 +0200
+
+    Merge branch 'master' of https://github.com/ArkEcosystem/ark-desktop
+
+commit f7e8c76928cf707850b57f9b4d91608fb75647c4
+Author: fix <fx.thoorens@gmail.com>
+Date:   Mon Sep 4 22:43:22 2017 +0200
+
+    fixed public key lost after querying ledger
+
+commit 24a32f763fa12ce42e734abf2f42e7f83686e676
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Mon Sep 4 10:51:41 2017 -0300
+
+    Fix accounts list
+
+commit 87453fd9fa24102f219c287fb6beb01817660b01
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Mon Sep 4 10:46:12 2017 -0300
+
+    Add more languages
+
+commit 0d859b285db9feb4e8ff9c750dfeab16baebc812
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Mon Sep 4 10:32:40 2017 -0300
+
+    Updated alert message on import account
+
+commit 300487d8d922e79012b7a5afabc27c85b67c4ef4
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Mon Sep 4 10:15:33 2017 -0300
+
+    Updated currencies list
+
+commit 773652a06bae160b4074d2f37cea8c8ef2e5c668
+Merge: 48256fb 66e2750
+Author: fix <fx.thoorens@gmail.com>
+Date:   Mon Sep 4 14:55:31 2017 +0200
+
+    Merge branch 'master' of https://github.com/ArkEcosystem/ark-desktop
+
+commit 48256fb549d93985af3808844d6452071aa57abe
+Author: fix <fx.thoorens@gmail.com>
+Date:   Mon Sep 4 14:55:08 2017 +0200
+
+    updated translations
+
+commit 66e27500ac7a737303b71afc66f0219fb4854ec9
+Author: Lucio <luciorubeens@gmail.com>
+Date:   Mon Sep 4 08:24:20 2017 -0300
+
+    1.3.2
+
+commit 66d63fc906e9ef515b1bf94abba71298b29673e0
+Merge: 7fdf248 852b6a4
+Author: fix <fx.thoorens@gmail.com>
+Date:   Mon Sep 4 12:38:14 2017 +0200
+
+    Merge branch 'master' of https://github.com/ArkEcosystem/ark-desktop
+
+commit 7fdf24830898207606f3ee00cb42488c69b83509
+Author: fix <fx.thoorens@gmail.com>
+Date:   Mon Sep 4 12:38:10 2017 +0200
+
+    make compatible with ledger review of ark-ledger
+
+commit cc4672861057366ff7526e6d45a906be11fc72df
+Author: Darf Raider <krypt0kurrenc@gmail.com>
+Date:   Sun Sep 3 02:58:21 2017 -0500
+
+    added validateTransaction method support for createSecondPassphrase method
+
+commit 852b6a4e660da9300e7408ba07dc1375f8192853
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Fri Sep 1 08:48:48 2017 -0300
+
+    Change alert message on create second passphrase
+
+commit 8f098d7226d556701328ba3e9d1462fdeba02046
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Fri Sep 1 05:22:32 2017 -0300
+
+    Remove type column in transaction list
+
+commit 06b6cbf32d2cbc64cac3021cc2e2e01f488a4463
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Fri Sep 1 05:06:48 2017 -0300
+
+    Remove debug
+
+commit 2dba26c42a8538486cd667afc3140399967ebdab
+Merge: 4a840ec e53d1f6
+Author: Lucio Rubens <lucio@luctio-mac.local>
+Date:   Fri Sep 1 04:46:28 2017 -0300
+
+    Merge commit 'refs/pull/220/head' of https://github.com/ArkEcosystem/ark-desktop
+
+commit e53d1f66aca41838525470dd0cc0472e32715cd8
+Author: Stephen Bero <stephen.m.bero@gmail.com>
+Date:   Thu Aug 31 16:54:50 2017 -0700
+
+    Fixed a number of issues / findings in the code
+
+commit 4a840ec489cb4b264134c0a5d3289ae607d3cf6a
+Merge: 5511761 62966c8
+Author: Lúcio Rubens <luciorubeens@gmail.com>
+Date:   Thu Aug 31 19:01:50 2017 -0300
+
+    Merge pull request #227 from yagoantonio/patch-2
+    
+    Fix message warning in createAccount
+
+commit 55117612237996608c5ca9a7a1764b550ab3f86b
+Merge: ed13282 c342309
+Author: Lúcio Rubens <luciorubeens@gmail.com>
+Date:   Thu Aug 31 19:00:25 2017 -0300
+
+    Merge pull request #226 from yagoantonio/patch-1
+    
+    Network symbol in showTransaction
+
+commit 62966c8ae39ce849034d59d56dd7f38b036f9105
+Author: Yago Antonio <yago_antonio@live.com>
+Date:   Thu Aug 31 18:50:38 2017 -0300
+
+    Fix message warning in createAccount
+
+commit c3423097975d4a2b9211fdcd78bed63d4059d403
+Author: Yago Antonio <yago_antonio@live.com>
+Date:   Thu Aug 31 18:31:40 2017 -0300
+
+    Network symbol in showTransaction
+
+commit ed1328208c9ea31ea97e0e362a68856389604a2e
+Merge: 243001e 6006054
+Author: Lucio Rubens <lucio@luctio-mac.local>
+Date:   Thu Aug 31 14:08:38 2017 -0300
+
+    Load tx from file
+
+commit 243001ee1336b53b621976ccd5f51abd171a532a
+Merge: 5408d93 1ef5c29
+Author: Lucio Rubens <lucio@luctio-mac.local>
+Date:   Thu Aug 31 10:20:37 2017 -0300
+
+    Merge commit 'refs/pull/212/head' of https://github.com/ArkEcosystem/ark-desktop
+
+commit 0805e1d6585f47d777e064c2d08a719378e52598
+Author: Alex Beck <alex.beck093@web.de>
+Date:   Wed Aug 30 14:57:52 2017 +0200
+
+    implemented CSV Export of Account
+
+commit 346ac2121b3db1226031ed660ae655c75f835f65
+Author: Stephen Bero <stephen.m.bero@gmail.com>
+Date:   Tue Aug 29 15:24:38 2017 -0700
+
+    Missed change
+
+commit e646b2d72b526a9601e97f63c8eee71fd1245381
+Author: Stephen Bero <stephen.m.bero@gmail.com>
+Date:   Tue Aug 29 15:22:12 2017 -0700
+
+    Updated to have a 2s timeout on the http call
+    Added the local-to-server time diff so for any failing future calls to the time server, we can still get as accurate as possible to the correct time
+
+commit 5408d93ea3044337d767e0e67a0154e663deb23c
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Sun Aug 27 08:36:57 2017 -0300
+
+    Fix order of items in settings
+
+commit 95c1b32e6088f9614109ccd679a61c041bedb20f
+Merge: 68ac79a 1ee9f3b
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Sun Aug 27 08:04:32 2017 -0300
+
+    Merge commit 'refs/pull/198/head' of https://github.com/ArkEcosystem/ark-desktop
+
+commit 1ee9f3bef2dcac0af573cee14f9dcd6c77255a63
+Author: Stephen Bero <stephen.m.bero@gmail.com>
+Date:   Sat Aug 26 11:48:37 2017 -0700
+
+    Moved the currency selection into settings. Added a currency symbol to the Price popup
+
+commit 68ac79abaad08c1b405965ad3ee8434dcd206bea
+Author: Naomi More <naaomimore@gmail.com>
+Date:   Sat Aug 26 14:42:24 2017 -0300
+
+    Remove unnecessary param in showTransaction
+
+commit 60060542bab7a0f030ca88771b8e8b2bd74beba8
+Author: Naomi More <naaomimore@gmail.com>
+Date:   Sat Aug 26 14:18:55 2017 -0300
+
+    Save/Import transaction file
+
+commit c378bd0571fdcde37f10bd6d084011932764e36d
+Merge: 2ef21e0 a1a9531
+Author: Lúcio Rubens <luciorubeens@gmail.com>
+Date:   Sat Aug 26 07:17:48 2017 -0300
+
+    Merge pull request #216 from naaomimore/patch-9
+    
+    Income/expend in address book
+
+commit 2ef21e0aaa726d8881d8a3ca70c1ade4ca5d6025
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Sat Aug 26 01:52:46 2017 -0300
+
+    Toolbar color in accounts list
+
+commit 2afdfe155e1fb29335288bcc035ac5fe17a4479f
+Merge: f7cfb92 46da5b8
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Fri Aug 25 10:40:33 2017 -0300
+
+    Merge commit 'refs/pull/201/head' of https://github.com/ArkEcosystem/ark-desktop
+
+commit 1ef5c29b6fdcc3c9294752fefd6b45f3f5885547
+Author: Alex Beck <alex.beck093@web.de>
+Date:   Thu Aug 24 14:00:14 2017 +0200
+
+    optimized hex check
+
+commit a1a9531f8ead4a1a61df9cbc16357d5d1ed57280
+Author: Naomi More <naaomimore@gmail.com>
+Date:   Wed Aug 23 11:53:37 2017 -0300
+
+    Income/expend in address book
+
+commit 9f414ed96c7b3e7cccaa1274f305c13d9cf1d065
+Author: Stephen Bero <stephen.m.bero@gmail.com>
+Date:   Sun Aug 20 08:37:37 2017 -0700
+
+    Updated ChangserService for the use of the time server
+
+commit 82fc4172df0c950d261a80765f275b9a62a7b150
+Author: Stephen Bero <stephen.m.bero@gmail.com>
+Date:   Sat Aug 19 11:19:50 2017 -0700
+
+    Updated the necessary functions to use new Time Service for timestamp needs
+
+commit 96e53fad7069667cdd17962a40acb5914b58d98e
+Author: Alex Beck <alex.beck093@web.de>
+Date:   Thu Aug 17 09:00:29 2017 +0200
+
+    implemented input check  against hex in message verify
+
+commit cb51405187ffdf19253beb9509a0d2b22d56dc5b
+Merge: 7edbfeb 8d442f3
+Author: Stephen Bero <stephen.m.bero@gmail.com>
+Date:   Wed Aug 16 06:24:58 2017 -0700
+
+    Merge branch 'select-option-for-currecy' of github.com:SBero/ark-desktop into select-option-for-currecy
+
+commit 7edbfeb828e0022a97810d576b2cc325e5e7429e
+Author: Stephen Bero <stephen.m.bero@gmail.com>
+Date:   Wed Aug 16 06:23:20 2017 -0700
+
+    Needed to update the Market popup panel in the top right for the currency select option
+
+commit a16618f9750e788bae36c67812fc29a5655fdaab
+Author: Stephen Bero <stephen.m.bero@gmail.com>
+Date:   Tue Aug 15 22:49:39 2017 -0700
+
+    Cleaned up the changeCurrency function, added a selector
+
+commit 27d5e0d144eac5c3c6f48de4b2d15b62ffc316ce
+Author: Stephen Bero <stephen.m.bero@gmail.com>
+Date:   Tue Aug 15 21:57:20 2017 -0700
+
+    Changing the currency selection (which is hidden) to a more visible option for the user
+
+commit 46da5b8c48374e4ed124d5d988b5b881de7f1357
+Author: Alex Beck <alex.beck093@web.de>
+Date:   Wed Aug 16 11:29:13 2017 +0200
+
+    improved scrolling to account dashboard
+
+commit f7cfb920c097fa3cc38163a62f6c15cf8515ddd6
+Merge: 2a4166c 9d33604
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Wed Aug 16 06:16:39 2017 -0300
+
+    Merge commit 'refs/pull/199/head' of https://github.com/ArkEcosystem/ark-desktop
+
+commit fafd5971d1cdac54fc7de483481f8a1629fb3755
+Author: Alex Beck <alex.beck093@web.de>
+Date:   Wed Aug 16 10:38:19 2017 +0200
+
+    implemented verifying of copied messages
+
+commit 2a4166c98ad8d0cfa2041bb4b19fd3e449f2d2d4
+Author: fix <fx.thoorens@gmail.com>
+Date:   Wed Aug 16 09:49:56 2017 +0200
+
+    version bump
+
+commit 9d336046cd7e8869cdb5f83e1e465426025d8508
+Author: Stephen Bero <stephen.m.bero@gmail.com>
+Date:   Tue Aug 15 23:23:38 2017 -0700
+
+    Fix for button alignment
+
+commit 8d442f31b68ca4bbc76d037610bade6b3245c046
+Author: Stephen Bero <stephen.m.bero@gmail.com>
+Date:   Tue Aug 15 22:49:39 2017 -0700
+
+    Cleaned up the changeCurrency function, added a selector
+
+commit 7af89d613dde60f7e8b045e00682716528b95218
+Author: Stephen Bero <stephen.m.bero@gmail.com>
+Date:   Tue Aug 15 21:57:20 2017 -0700
+
+    Changing the currency selection (which is hidden) to a more visible option for the user
+
+commit c0d7cc35b7285253790432c7e9cd506db83c974d
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Tue Aug 15 18:55:46 2017 -0300
+
+    Add .editorconfig
+
+commit 349fba67644bc18b8a9e079ef0a91b29dc104e1b
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Sun Aug 13 11:32:41 2017 -0300
+
+    Option to show publickey
+
+commit 80f568225e7a4783f3036c77d0e79abf94752257
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Sun Aug 13 09:09:19 2017 -0300
+
+    Fix condition when show passphrase
+
+commit e0d8d6f4832efdeb804e7e4fad854415d93b98d7
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Sun Aug 13 09:04:31 2017 -0300
+
+    Fix second signature after create
+
+commit 61e72ce3c52feb6243950624c60ee8c21a0b93b9
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Sun Aug 13 08:34:24 2017 -0300
+
+    Update packages
+
+commit c18c08cec7f9fb485b15731c1bb68fd41fce2ae1
+Author: fix <fx.thoorens@gmail.com>
+Date:   Tue Aug 8 19:20:45 2017 +0200
+
+    added integration tests
+
+commit 6d7e187dfa1fd5468836266001f35038360f4c41
+Author: fix <fx.thoorens@gmail.com>
+Date:   Tue Aug 8 12:18:09 2017 +0200
+
+    revert accidental remove of menu and ledger icons config
+
+commit dfb03f9a6d56e0d5395888daf671dae571ad3c99
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Mon Aug 7 16:17:48 2017 -0300
+
+    v1.3.0
+
+commit e0b361ef32cb92b49a70acf3475f628e86e4e5be
+Merge: c4e2600 9e97e33
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Mon Aug 7 10:49:53 2017 -0300
+
+    Merge conflicts
+
+commit 9e97e3369df0633b5b1b19e159bc9659f7578693
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Mon Aug 7 10:30:11 2017 -0300
+
+    Themes list
+
+commit c4e26000b8e74b424f9d55e56cc8130cc3cb6f13
+Author: fix <fx.thoorens@gmail.com>
+Date:   Mon Aug 7 10:20:49 2017 +0200
+
+    do not append tx to list if sent has failed
+
+commit 0a65988ceaa5a949c79f0803da703dab1913396a
+Author: fix <fx.thoorens@gmail.com>
+Date:   Mon Aug 7 10:14:59 2017 +0200
+
+    backward compatibility with previous version of background management
+
+commit ddda399202a0798d03dfb48d03ead2df40925170
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Fri Aug 4 23:52:19 2017 -0300
+
+    Image path fix
+
+commit 7b643a6a5827ef55e07d10543691cb39b8d1eea8
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Fri Aug 4 14:11:21 2017 -0300
+
+    Dynamic palette
+
+commit fc9840efad389c941af1363cb5f12aca45e69ffd
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Fri Aug 4 08:06:47 2017 -0300
+
+    Change default background image
+
+commit a32e8b0ac727f2f11bbfdc7cb71fa9cf0f3b5edb
+Author: fix <fx.thoorens@gmail.com>
+Date:   Thu Aug 3 23:51:55 2017 +0200
+
+    refresh UI when contacts are saved
+
+commit c6081d9eab2d1ddd5567a1fbef70be20cd014239
+Merge: fd2d4fe 8553fde
+Author: fix <fx.thoorens@gmail.com>
+Date:   Thu Aug 3 22:59:15 2017 +0200
+
+    Merge branch 'master' of https://github.com/ArkEcosystem/ark-desktop
+
+commit fd2d4fef5742704a18af58e8ab48805e64c41d63
+Author: fix <fx.thoorens@gmail.com>
+Date:   Thu Aug 3 22:58:46 2017 +0200
+
+    added back electron-rebuild
+
+commit 56429520bbf1c8ede8ecc2764205c0b9d0094635
+Author: fix <fx.thoorens@gmail.com>
+Date:   Thu Aug 3 22:57:15 2017 +0200
+
+    fixed issue on timestamping
+
+commit 8553fde81f2868e084893d59bef78665e1295c16
+Author: Lúcio Rubens <luciorubeens@gmail.com>
+Date:   Thu Aug 3 16:33:45 2017 -0300
+
+    Fix default background image
+
+commit d0faf25cb52f5b9bed52ae3e2baf5d1304784be7
+Author: fix <fx.thoorens@gmail.com>
+Date:   Thu Aug 3 14:59:58 2017 +0200
+
+    added lucio as contributor and upgraded dev dependencies
+
+commit 23ce0fc2f0c23ec06e66c9b1cfef27badfe23a5c
+Author: fix <fx.thoorens@gmail.com>
+Date:   Thu Aug 3 14:59:22 2017 +0200
+
+    removed useless close button
+
+commit 88f5ea18e9d1730f934f633e61122f97fda482f6
+Author: fix <fx.thoorens@gmail.com>
+Date:   Thu Aug 3 13:02:57 2017 +0200
+
+    update network list in UI
+
+commit 13f02f47ae4c5078f4b12e56c15904c88bc99ef7
+Author: fix <fx.thoorens@gmail.com>
+Date:   Thu Aug 3 12:35:55 2017 +0200
+
+    improved network management
+
+commit bb2ce02a3f3b77affdf52825b4f004ac4686a678
+Merge: 3a07d2e 241011c
+Author: François-Xavier Thoorens <fx.thoorens@gmail.com>
+Date:   Thu Aug 3 11:55:25 2017 +0200
+
+    Merge pull request #173 from yagoantonio/master
+    
+    Add instead of save in manager network
+
+commit 3a07d2e4bf94cb2befb7bfe7ec3d45836fcb0886
+Author: fix <fx.thoorens@gmail.com>
+Date:   Thu Aug 3 11:53:05 2017 +0200
+
+    added debug file for vscode
+
+commit 10847211b7fb2635a3cfcb071b07a4b76253c52e
+Author: fix <fx.thoorens@gmail.com>
+Date:   Thu Aug 3 11:11:38 2017 +0200
+
+    removed misleading UX for contacts
+
+commit cf6329dbe0a05f879838ccb494c6f5704eddcfbe
+Merge: 6c5c256 06eefac
+Author: fix <fx.thoorens@gmail.com>
+Date:   Sat Jul 29 11:52:12 2017 +0200
+
+    Merge branch 'master' of https://github.com/ArkEcosystem/ark-desktop
+
+commit 6c5c25651b0ace0a220aa832b86f583194040baa
+Author: fix <fx.thoorens@gmail.com>
+Date:   Sat Jul 29 11:52:07 2017 +0200
+
+    tweaks
+
+commit 06eefac29f0e51827e3a7e28e3db700324f237b1
+Merge: b4003eb 4fa9860
+Author: François-Xavier Thoorens <fx.thoorens@gmail.com>
+Date:   Sat Jul 29 11:51:28 2017 +0200
+
+    Merge pull request #164 from fileninja/fileninja_watch_only_replace
+    
+    Replaced watch-only addresses with addressbook contacts
+    +5
+
+commit b4003eb925e88c99789b20e6db0e0270bd529e85
+Author: fix <fx.thoorens@gmail.com>
+Date:   Sat Jul 29 11:35:45 2017 +0200
+
+    improved top bar layout
+
+commit 4fa986040933a3d6e6e23ba8dcc5cc16af58a674
+Merge: e1f45fb ecbfee5
+Author: François-Xavier Thoorens <fx.thoorens@gmail.com>
+Date:   Sat Jul 29 11:34:42 2017 +0200
+
+    Merge branch 'master' into fileninja_watch_only_replace
+
+commit ecbfee55187ab758bfffb087d5afdd8b708b4fe9
+Author: fix <fx.thoorens@gmail.com>
+Date:   Sat Jul 29 11:26:33 2017 +0200
+
+    improved top bar layout
+
+commit 475757ce4fbdb6431cdb523943a556c71e37abf3
+Merge: e735b31 d0148bd
+Author: François-Xavier Thoorens <fx.thoorens@gmail.com>
+Date:   Sat Jul 29 10:28:10 2017 +0200
+
+    Merge pull request #163 from naaomimore/patch-6
+    
+    Change Network
+
+commit e735b314225feaf8b073f007cf0fa96d756742b0
+Merge: 71e79e6 48982ff
+Author: François-Xavier Thoorens <fx.thoorens@gmail.com>
+Date:   Thu Jul 27 10:01:35 2017 +0200
+
+    Merge pull request #177 from sleepdefic1t/master
+    
+    Remove deprecated 'electron-prebuilt'
+
+commit 48982ffda54b052fa24b2c6bedead19322537a20
+Author: Simon <sleepdefic1t@users.noreply.github.com>
+Date:   Wed Jul 26 20:33:41 2017 -0400
+
+    Remove deprecated 'electron-prebuilt'
+    
+    deprecation: electron-prebuilt has been renamed to electron
+    https://github.com/egoist/vuepack/issues/51
+    
+    Fixes macOS build issues.
+
+commit 241011c67c2c5ac2469fc12f56eb859982acc157
+Author: Yago Antonio <yago_antonio@live.com>
+Date:   Fri Jul 21 15:58:21 2017 -0300
+
+    Update manageNetwork.html
+
+commit 26c4d533c520c7e377941f0d044f8e4560234667
+Author: Yago Antonio <yago_antonio@live.com>
+Date:   Fri Jul 21 15:34:26 2017 -0300
+
+    Update AccountController.js
+
+commit 71e79e6cdb497c1f24b487228cbaa19862eec966
+Merge: b8c97d5 d40f13b
+Author: fix <fx.thoorens@gmail.com>
+Date:   Sat Jul 15 16:14:55 2017 +0200
+
+    Merge branch 'pr/165'
+
+commit d40f13b6fac7edf43d0ddf013b336f1cc6881be3
+Author: fix <fx.thoorens@gmail.com>
+Date:   Sat Jul 15 16:13:54 2017 +0200
+
+    reworked dependencies
+
+commit b8c97d5f255bc89646dee426724a70a19432cc51
+Merge: e815a3a 04f2577
+Author: François-Xavier Thoorens <fx.thoorens@gmail.com>
+Date:   Thu Jul 13 12:15:00 2017 +0200
+
+    Merge pull request #167 from ArkEcosystem/pr/165
+    
+    Pr/165
+
+commit 04f257724e4203a1f0cdfea5d6dc682084f3cf86
+Author: fix <fx.thoorens@gmail.com>
+Date:   Thu Jul 13 12:13:41 2017 +0200
+
+    improved sign/verify
+    
+    - moved to accountService
+    - added signed with ledger
+
+commit 61c7bf9bb4742e10ee4ce6d139cdccdae2e77e57
+Merge: 1f3b5b9 e815a3a
+Author: Yago Antonio <yago_antonio@live.com>
+Date:   Tue Jul 11 15:13:58 2017 -0300
+
+    Merge pull request #1 from ArkEcosystem/master
+    
+    Update from upstream
+
+commit f3b1dc50f32a1f92b30c728123afd7e5877b57f6
+Merge: 2c02374 e815a3a
+Author: fix <fx.thoorens@gmail.com>
+Date:   Tue Jul 11 16:14:01 2017 +0200
+
+    Merge branch 'master' into pr/165
+
+commit 2c023746e90367cb5d59c72637749bc551bdb243
+Author: Alex Beck <alex.beck093@web.de>
+Date:   Tue Jul 11 14:33:20 2017 +0200
+
+    set the sign/verify storage address related
+
+commit e815a3a7348f9de918578c4f89a2b27958a5675c
+Author: fix <fx.thoorens@gmail.com>
+Date:   Tue Jul 11 14:14:20 2017 +0200
+
+    small fixes on ledger connectivity
+
+commit 5d3258b3a7369955d73b9af8ebd30df3fcebd417
+Author: Alex Beck <alex.beck093@web.de>
+Date:   Tue Jul 11 13:49:16 2017 +0200
+
+    Implemented Signing and Verifying for Messages
+
+commit e1f45fb49604a3e3b94cf29f324097d620ac0614
+Author: Alex Beck <alex.beck093@web.de>
+Date:   Tue Jul 11 10:18:53 2017 +0200
+
+    replaced watch-only addresses in index with addressbook contacts
+
+commit d0148bd1f4bc616fcdaea44bb70dafd0a655a3b7
+Author: Naomi More <naaomimore@gmail.com>
+Date:   Mon Jul 10 22:25:47 2017 -0300
+
+    Change Network
+
+commit 4e01d1d0eb36cdcdb279158b949b23ae24ac1fe6
+Merge: e5da5af e312dba
+Author: fix <fx.thoorens@gmail.com>
+Date:   Mon Jul 10 21:45:33 2017 +0200
+
+    Merge branch 'master' of https://github.com/ArkEcosystem/ark-desktop
+
+commit e5da5af5e19bd35f4f9b457db0e2c924a2db7aa9
+Author: fix <fx.thoorens@gmail.com>
+Date:   Mon Jul 10 21:45:25 2017 +0200
+
+    next iteration on ledger integration
+
+commit e312dba4d6da1e042d16fbd2f574dfa795682f58
+Merge: 5db45a5 1f3b5b9
+Author: François-Xavier Thoorens <fx.thoorens@gmail.com>
+Date:   Mon Jul 10 21:43:49 2017 +0200
+
+    Merge pull request #161 from yagoantonio/master
+    
+    Refresh Price
+
+commit 1f3b5b9e6b1902ff007abaa22cff9f6036290148
+Author: yagoantonio <yago_antonio@live.com>
+Date:   Mon Jul 10 15:28:37 2017 -0300
+
+    Update NetworkService.js
+
+commit df39816c7e145ecd7503d0777b80744491961a71
+Author: yagoantonio <yago_antonio@live.com>
+Date:   Mon Jul 10 15:12:03 2017 -0300
+
+    Update AccountController.js
+
+commit 5db45a57ced0cba4d6f56d738dc077b1f2b653c8
+Author: Lucio Rubens <luciorubeens@gmail.com>
+Date:   Sun Jul 2 06:22:12 2017 -0300
+
+    Network token name
+
+commit d208b68df4ecd97f993c9d0d8ef89b957126f478
+Author: fix <fx.thoorens@gmail.com>
+Date:   Sat Jul 1 12:44:15 2017 +0200
+
+    added ledger in UX
+
+commit df34592237f7c110d93ab056759290698567ccd7
+Merge: e43276a 53590d7
+Author: François-Xavier Thoorens <fx.thoorens@gmail.com>
+Date:   Fri Jun 23 01:09:07 2017 +0200
+
+    Merge pull request #155 from naaomimore/patch-4
+    
+    Option to clear localStorage
+
+commit e43276a46f6308997caf24ff25bc1ab4f7a1e5cd
+Author: fix <fx.thoorens@gmail.com>
+Date:   Thu Jun 22 10:32:29 2017 +0200
+
+    fixed prototype based function messing up with angular
+
+commit 53590d7ea75f393c0784f7efb572c4b3c6f7caa1
+Author: Naomi More <naaomimore@gmail.com>
+Date:   Thu Jun 22 08:29:14 2017 +0000
+
+    fix message and translation
+
+commit 7aaedd420c84ca65ada6996e81ba9a82731bc5d4
+Merge: 58e4238 11f7915
+Author: Naomi More <naaomimore@gmail.com>
+Date:   Thu Jun 22 08:23:56 2017 +0000
+
+    Merge branch 'master' into patch-4
+
+commit ce70e0ada06306a57f511dfa60fb696b84940c0a
+Merge: fe6a802 11f7915
+Author: fix <fx.thoorens@gmail.com>
+Date:   Thu Jun 22 10:11:20 2017 +0200
+
+    Merge branch 'master' of https://github.com/ArkEcosystem/ark-desktop
+
+commit 11f79155c96dfb989f376181b664ea89cbd04f60
+Merge: c3a7835 2e98d51
+Author: François-Xavier Thoorens <fx.thoorens@gmail.com>
+Date:   Thu Jun 22 10:11:04 2017 +0200
+
+    Merge pull request #137 from fileninja/fileninja_modal_close_button
+    
+    Modal close buttons
+
+commit 2e98d514f7b65b810be821cbc4082e958544e943
+Author: Alex Beck <alex.beck093@web.de>
+Date:   Thu Jun 22 10:05:50 2017 +0200
+
+    removed old code which was commented out
+
+commit fe6a802139f83b9eade324a3ba40c9ebe05019ab
+Merge: 3fddc58 c3a7835
+Author: fix <fx.thoorens@gmail.com>
+Date:   Thu Jun 22 09:19:38 2017 +0200
+
+    Merge branch 'master' of https://github.com/ArkEcosystem/ark-desktop
+
+commit 3fddc58e0993dd02ebe7ba111f7e466c05849be1
+Merge: 11aecb7 ff3a258
+Author: fix <fx.thoorens@gmail.com>
+Date:   Thu Jun 22 09:19:31 2017 +0200
+
+    merge
+
+commit c3a7835be8329fc39f3949d789cd81efada717e1
+Merge: 35f6075 86bc4dc
+Author: François-Xavier Thoorens <fx.thoorens@gmail.com>
+Date:   Thu Jun 22 09:18:55 2017 +0200
+
+    Merge pull request #152 from fileninja/fileninja_language_selector
+    
+    Language selector
+
+commit 35f6075d47dbf9e96f66c7dd506cae663c4a449b
+Merge: ff3a258 2b6984c
+Author: François-Xavier Thoorens <fx.thoorens@gmail.com>
+Date:   Thu Jun 22 09:18:07 2017 +0200
+
+    Merge pull request #153 from fileninja/fileninja_tooltips
+    
+    Tooltips in Navigation Bar
+
+commit 11aecb7d4ceb3313a7011023559977d3ed419b72
+Author: fix <fx.thoorens@gmail.com>
+Date:   Thu Jun 22 09:12:15 2017 +0200
+
+    first iteration ledger integration
+
+commit ff3a25818ab408a4ebb51348c12e009afbf1b351
+Merge: 289aad0 ba67571
+Author: François-Xavier Thoorens <fx.thoorens@gmail.com>
+Date:   Thu Jun 22 09:11:30 2017 +0200
+
+    Merge pull request #156 from naaomimore/patch-5
+    
+    Fix colors from material angular
+
+commit ba675710ff74bf26732278aebed2a3a3bc093f4b
+Author: Naomi More <naaomimore@gmail.com>
+Date:   Wed Jun 21 12:37:26 2017 +0000
+
+    Fix colors from material angular
+
+commit 58e423888266aa31d534a10da6984f53cb8ef481
+Author: Naomi More <naaomimore@gmail.com>
+Date:   Wed Jun 21 12:20:51 2017 +0000
+
+    Option to clear localStorage
+
+commit 289aad098136d76a0404734a8d2740a425e096b2
+Merge: cf85f50 4a2dc83
+Author: François-Xavier Thoorens <fx.thoorens@gmail.com>
+Date:   Tue Jun 20 18:35:10 2017 +0200
+
+    Merge pull request #154 from fileninja/fileninja_different_os_icons
+    
+    Icon Differentiation
+
+commit 4a2dc83e8c50e82ed4bef2e1fa4b36ff302c3fb0
+Author: Alex Beck <alex.beck093@web.de>
+Date:   Tue Jun 20 09:34:16 2017 +0200
+
+    added operating system differentiation and added an example icon for linux systems
+
+commit 86bc4dc2e089b331ad610e930a3c476e20716316
+Author: Alex Beck <alex.beck093@web.de>
+Date:   Mon Jun 19 09:43:22 2017 +0200
+
+    added KeyByValue-Search Function
+
+commit cd86c548d333c0a5bdcd85af5a57eccc1edf0caa
+Author: Alex Beck <alex.beck093@web.de>
+Date:   Mon Jun 19 09:41:29 2017 +0200
+
+    added z-index for selector
+
+commit 5dccba530cc12660b85ee84a30f3cfd5a511146f
+Author: Alex Beck <alex.beck093@web.de>
+Date:   Mon Jun 19 09:33:10 2017 +0200
+
+    added language selector
+
+commit 2b6984c79cc669946f66cf5c27d6f3f015c41330
+Author: Alex Beck <alex.beck093@web.de>
+Date:   Mon Jun 19 09:26:57 2017 +0200
+
+    Added Tooltips to Main Topbar
+
+commit cf85f5010a46b20d1b7d87c98175bbb90ae1b997
+Author: Lúcio Rubens <luciorubeens@gmail.com>
+Date:   Sat Jun 17 20:56:48 2017 +0000
+
+    Fix bind autocomplete address
+
+commit f189f50dc26b968416765b4a6918becef3232188
+Author: Lúcio Rubens <luciorubeens@gmail.com>
+Date:   Fri Jun 16 12:07:38 2017 +0000
+
+    Tab index and visible address in account book
+
+commit 86bd01bf8c4bf49b161ff0a58668005350a59c0c
+Merge: d80c810 5e788bc
+Author: fix <fx.thoorens@gmail.com>
+Date:   Tue Jun 13 10:52:10 2017 +0200
+
+    merge
+
+commit d80c810d3406069420739f5889e91a431eb8b14f
+Author: fix <fx.thoorens@gmail.com>
+Date:   Tue Jun 13 10:50:51 2017 +0200
+
+    fixing issue on autocomplete
+
+commit 5e788bcbaae479074c96159ff846af3a7a055ecf
+Merge: 6904713 a8b7e8f
+Author: François-Xavier Thoorens <fx.thoorens@gmail.com>
+Date:   Tue Jun 13 10:50:10 2017 +0200
+
+    Merge pull request #135 from naaomimore/patch-2
+    
+    option to show inserted passphrase
+
+commit 6904713de09d22711080d5f9dad2e2cdd68e970d
+Merge: fdf046f 633be6e
+Author: François-Xavier Thoorens <fx.thoorens@gmail.com>
+Date:   Tue Jun 13 10:30:34 2017 +0200
+
+    Merge pull request #145 from vekexasia/feature/icons
+    
+    Added some icons and css + fixed dialog wrong buttons positioning
+
+commit fdf046f73d1e217db915428cff30e057b9967f33
+Author: fix <fx.thoorens@gmail.com>
+Date:   Tue Jun 13 10:27:32 2017 +0200
+
+    better address validation
+
+commit 45ad3ce82f831a4738e57e3570c3cbe44f64f990
+Merge: 63d594c fbda433
+Author: fix <fx.thoorens@gmail.com>
+Date:   Tue Jun 13 10:16:22 2017 +0200
+
+    Merge branch 'master' of https://github.com/ArkEcosystem/ark-desktop
+
+commit fbda433add1f19554ddb6d86a3fa0f0882bbe58e
+Merge: e3d50be a69ae14
+Author: François-Xavier Thoorens <fx.thoorens@gmail.com>
+Date:   Tue Jun 13 10:16:16 2017 +0200
+
+    Merge pull request #141 from fileninja/fileninja_address_book
+    
+    Address-Book
+
+commit 63d594c4a9ac78cd8f3a471cc859934599b376cb
+Merge: 261356c e3d50be
+Author: fix <fx.thoorens@gmail.com>
+Date:   Tue Jun 13 10:12:14 2017 +0200
+
+    merge
+
+commit a69ae14e7c78a92f1df5ab7f29b866ec553bc479
+Author: Alex Beck <alex.beck093@web.de>
+Date:   Sat Jun 10 16:34:29 2017 +0200
+
+    added name and address verification against empty strings
+
+commit 0bda23b8d63195824658ba414ba8c1bb776e069b
+Author: Alex Beck <alex.beck093@web.de>
+Date:   Sat Jun 10 16:27:14 2017 +0200
+
+    added error-theme to toasts
+
+commit 633be6ee1a251e41009e34dcf3966dd478c2bcbd
+Author: Andrea Baccega <vekexasia@gmail.com>
+Date:   Fri Jun 9 17:16:31 2017 +0200
+
+    Added some icons and css + fixed dialog wrong buttons positioning
+
+commit a8f56fd78adf13998ed328817d4ddc2daf66002e
+Author: Alex Beck <alex.beck093@web.de>
+Date:   Fri Jun 9 09:10:14 2017 +0200
+
+    check address against regex to verify user input
+
+commit 2d9072fe37b59af10a4d9c507b1af516f519dda1
+Author: Alex Beck <alex.beck093@web.de>
+Date:   Thu Jun 8 22:42:29 2017 +0200
+
+    small addressbook usability improvements
+
+commit 5d93a5dad83a295af51fe3e716be611a4a4e3106
+Author: Alex Beck <alex.beck093@web.de>
+Date:   Thu Jun 8 20:10:09 2017 +0200
+
+    changed from global storage to normal storage
+
+commit e3d50be8b9f20d799622db3c27538bbefdb75108
+Merge: 4b154e7 539d73b
+Author: François-Xavier Thoorens <fx.thoorens@gmail.com>
+Date:   Thu Jun 8 18:47:29 2017 +0200
+
+    Merge pull request #139 from fileninja/fileninja_network_management_improvement
+    
+    Network Management Improvements
+
+commit 4b154e7968c789bec06fa56b133f1149b154254e
+Merge: cb5244c 29952bc
+Author: François-Xavier Thoorens <fx.thoorens@gmail.com>
+Date:   Thu Jun 8 17:57:42 2017 +0200
+
+    Merge pull request #142 from zillionn/patch-23
+    
+    Send ark scrollbar
+
+commit 29952bc6833163c02c3a70b0bb050e7e48db6e16
+Author: zillionn <zillionn@users.noreply.github.com>
+Date:   Thu Jun 8 18:37:31 2017 +0300
+
+    Create app.css
+
+commit 30fbf8b36098bc0b3171209107beacfbd16e1318
+Author: Alex Beck <alex.beck093@web.de>
+Date:   Thu Jun 8 17:09:10 2017 +0200
+
+    implemented an Address-Book with options to add, delete and modify contacts. Also added an Autocompletion example in the sendArk Function
+
+commit cb5244c8a5740864696c3085515e9e8c50890101
+Merge: cdd10d8 3b21d48
+Author: François-Xavier Thoorens <fx.thoorens@gmail.com>
+Date:   Wed Jun 7 17:37:06 2017 +0200
+
+    Merge pull request #138 from zillionn/patch-20
+    
+    electron-about-window
+
+commit 3b21d48451cae029d5f745053c7acef04b1c2851
+Author: zillionn <zillionn@users.noreply.github.com>
+Date:   Wed Jun 7 17:41:53 2017 +0300
+
+    Update main.js
+
+commit 053dda76e2d177eb6ea53f261ac21b8b09e49d4b
+Author: zillionn <zillionn@users.noreply.github.com>
+Date:   Wed Jun 7 17:40:11 2017 +0300
+
+    Update package.json
+
+commit 539d73bebab7b6173c8a094d0fc87f8be617d25a
+Author: Alex Beck <alex.beck093@web.de>
+Date:   Wed Jun 7 16:37:51 2017 +0200
+
+    implemented removable networks which are now live displayed without rerendering
+
+commit 504774963b44a9e83b5911e3beb0959909e22c0c
+Author: Alex Beck <alex.beck093@web.de>
+Date:   Wed Jun 7 14:59:51 2017 +0200
+
+    reworked "add Watch-Only Address" and added close button to the modal
+
+commit cfe1a9bda63951652b1565fff1c377eebb2cbb90
+Author: Alex Beck <alex.beck093@web.de>
+Date:   Wed Jun 7 14:17:57 2017 +0200
+
+    added close buttons to modal dialogs
+
+commit a8b7e8ff6be481dec9c598967ca52b66e5e190a2
+Author: Naomi More <naaomimore@gmail.com>
+Date:   Sat Jun 3 15:44:38 2017 +0000
+
+    option to show inserted passphrase
+
+commit cdd10d80d7e507106c5f8b02bf8dbd31130c538f
+Merge: 2792e60 69150cf
+Author: François-Xavier Thoorens <fx.thoorens@gmail.com>
+Date:   Fri Jun 2 11:14:27 2017 +0200
+
+    Merge pull request #134 from bradyo/issue-109-remove-account
+    
+    reword delete account to remove account
+
+commit 69150cf0fc754baf4007bfef73dfa8151082af3f
+Author: Brady Olsen <bradyaolsen@gmail.com>
+Date:   Fri Jun 2 01:23:24 2017 -0700
+
+    reword delete account to remove account
+
+commit 261356c889673f65a2069f322ac6d184599a9955
+Merge: 368f788 2792e60
+Author: fix <fx.thoorens@gmail.com>
+Date:   Thu Jun 1 10:10:39 2017 +0200
+
+    Merge branch 'master' of https://github.com/ArkEcosystem/ark-desktop
+
+commit 2792e6012e0648883704d907d0d93e273247cc19
+Merge: 8796d46 68d2b21
+Author: François-Xavier Thoorens <fx.thoorens@gmail.com>
+Date:   Thu Jun 1 09:58:52 2017 +0200
+
+    Merge pull request #130 from zillionn/patch-18
+    
+    Delegate username case sensitivity
+
+commit 68d2b21382d13a2d32d40d9358d911d5fd328fdd
+Author: zillionn <zillionn@users.noreply.github.com>
+Date:   Wed May 31 23:06:55 2017 +0300
+
+    Update AccountService.js
+
+commit 368f788c8036f87120841751fd9311b69260f022
+Author: fix <fx.thoorens@gmail.com>
+Date:   Wed May 31 20:35:10 2017 +0200
+
+    first iteration timestamping document
+
+commit c71f4f698f9ceef41110ed1adf44b103c5a63625
+Merge: af1598a 8796d46
+Author: fix <fx.thoorens@gmail.com>
+Date:   Wed May 31 20:34:22 2017 +0200
+
+    Merge branch 'master' of https://github.com/ArkEcosystem/ark-desktop
+
+commit af1598a23f306fdda83c2fbc47c3c467c31a5928
+Merge: e87d25a 8c4fccd
+Author: fix <fx.thoorens@gmail.com>
+Date:   Wed May 31 20:34:17 2017 +0200
+
+    merge
+
+commit 8796d46e320bb0d264a51ba43ec9bd73bcb47104
+Merge: 8c4fccd c459cc3
+Author: François-Xavier Thoorens <fx.thoorens@gmail.com>
+Date:   Wed May 31 20:33:16 2017 +0200
+
+    Merge pull request #128 from zillionn/patch-16
+    
+    Tab index
+
+commit c459cc3e9cdcbba51d4d9f5b073a60b782a8ac22
+Author: zillionn <zillionn@users.noreply.github.com>
+Date:   Wed May 31 20:31:55 2017 +0300
+
+    Update sendArk.html
+
+commit 8c4fccd8e19c1f242f6d45c04f568011b8c7d07e
+Merge: f7405db 9e98f81
+Author: François-Xavier Thoorens <fx.thoorens@gmail.com>
+Date:   Wed May 31 00:15:17 2017 +0200
+
+    Merge pull request #120 from zillionn/patch-10
+    
+    Adding delegate dropdown
+
+commit f7405db45aa2c22455a7600383a392d2d67fe0a7
+Merge: a0826ed 1a313ce
+Author: François-Xavier Thoorens <fx.thoorens@gmail.com>
+Date:   Wed May 31 00:12:36 2017 +0200
+
+    Merge pull request #121 from zillionn/patch-12
+    
+    Homepage price change color
+
+commit a0826edd4283842571723d96ab192f5b3e30cd53
+Merge: 595aace e6f5fa4
+Author: François-Xavier Thoorens <fx.thoorens@gmail.com>
+Date:   Wed May 31 00:11:59 2017 +0200
+
+    Merge pull request #122 from zillionn/patch-13
+    
+    BTC price in satoshi
+
+commit 595aace0a9c240d6a5109ad83dc4a963afd06c35
+Merge: c41f99d 71261da
+Author: François-Xavier Thoorens <fx.thoorens@gmail.com>
+Date:   Wed May 31 00:11:05 2017 +0200
+
+    Merge pull request #124 from luciorubeens/master
+    
+    Add a sound effect when receive funds
+
+commit c41f99d42e18dc48289a881a93cc5f0bc0b3abb7
+Merge: ab93c6f 3da7c7a
+Author: François-Xavier Thoorens <fx.thoorens@gmail.com>
+Date:   Wed May 31 00:08:59 2017 +0200
+
+    Merge pull request #125 from luciorubeens/readme-aur
+    
+    Add instructions to install from AUR
+
+commit e87d25a57f593ad95178f92f12c362bdacf0c9c6
+Author: fix <fx.thoorens@gmail.com>
+Date:   Tue May 30 23:20:14 2017 +0200
+
+    first iteration on timestamping doc on blockchain
+
+commit 3da7c7ad7e2a6bc3d467908e927ea971159854e6
+Author: Lúcio Rubens <luciorubeens@gmail.com>
+Date:   Mon May 29 09:57:52 2017 +0000
+
+    Add instructions to install from AUR
+
+commit 71261dad8d72df7a1483d206c98b5851cc23a46d
+Author: Lúcio Rubens <luciorubeens@gmail.com>
+Date:   Thu May 25 11:53:31 2017 +0000
+
+    Add a sound effect when receive funds
+
+commit e6f5fa4b55d77771fe68aeb495b8bc5af673386f
+Author: zillionn <zillionn@users.noreply.github.com>
+Date:   Wed May 24 10:48:38 2017 +0300
+
+    Update NetworkService.js
+
+commit 9e98f8104a8b96093259e94e90e3647bfc84700d
+Author: zillionn <zillionn@users.noreply.github.com>
+Date:   Tue May 23 15:11:45 2017 +0300
+
+    Update addDelegate.html
+    
+    Not sure how this "translate" feature works. Please fix it if it's wrong.
+
+commit 36d4f41930241b19d2bcd0ed93448f9d0c16500d
+Author: zillionn <zillionn@users.noreply.github.com>
+Date:   Tue May 23 15:01:20 2017 +0300
+
+    Update addDelegate.html
+    
+    Maybe something like this...
+
+commit e35761bd6dfea3b1ae2bbbd76b412c0971138361
+Author: zillionn <zillionn@users.noreply.github.com>
+Date:   Tue May 23 14:48:30 2017 +0300
+
+    Update AccountService.js
+
+commit 73a05284488934baa8830bfc0691fc9160f1ec5a
+Author: zillionn <zillionn@users.noreply.github.com>
+Date:   Tue May 23 14:48:09 2017 +0300
+
+    Update AccountController.js
+
+commit 1a313cedd8b817d650d41143cf9f45ccd9d299ed
+Author: zillionn <zillionn@users.noreply.github.com>
+Date:   Tue May 23 14:43:38 2017 +0300
+
+    Update index.html
+
+commit ab93c6fabaa8751ffa83f4679ea61bb75cc37973
+Merge: 5e73ecd 6c400fe
+Author: François-Xavier Thoorens <fx.thoorens@gmail.com>
+Date:   Mon May 22 08:51:18 2017 +0200
+
+    Merge pull request #116 from zillionn/patch-6
+    
+    Safer account creation
+
+commit 4fffa889ba903a76a151d61000f8de342baa45e5
+Author: Lúcio Rubens <luciorubeens@gmail.com>
+Date:   Sun May 21 21:12:24 2017 +0000
+
+    Style for angular material
+    
+    Hi zillionn, great feature. I updated like documentation in https://material.angularjs.org/latest/api/directive/mdSelect
+
+commit 93367521fe45ef0d18a9b128aa2e1b3846b2bb83
+Author: zillionn <zillionn@users.noreply.github.com>
+Date:   Sun May 21 21:20:39 2017 +0300
+
+    Update addDelegate.html
+
+commit eafa277c508993218418d23a1bb77e8668861aac
+Author: zillionn <zillionn@users.noreply.github.com>
+Date:   Sun May 21 20:56:27 2017 +0300
+
+    Update addDelegate.html
+
+commit 3a886aafddae601a723aa37839d49703c34ca89e
+Author: zillionn <zillionn@users.noreply.github.com>
+Date:   Sun May 21 20:55:39 2017 +0300
+
+    Update AccountController.js
+
+commit 38685038132d90680e489de72989e787cb2f0625
+Author: zillionn <zillionn@users.noreply.github.com>
+Date:   Sun May 21 20:53:38 2017 +0300
+
+    Update AccountService.js
+
+commit 5e73ecd7135614aa9470aadba84aaf4009815988
+Merge: 5614d34 45c4593
+Author: François-Xavier Thoorens <fx.thoorens@gmail.com>
+Date:   Sat May 20 17:05:22 2017 +0200
+
+    Merge pull request #118 from zillionn/patch-7
+    
+    New version button
+
+commit 5614d34264c57c358f593df7a6d15b01db02c2b2
+Merge: c02b10c 8be02aa
+Author: François-Xavier Thoorens <fx.thoorens@gmail.com>
+Date:   Sat May 20 17:01:58 2017 +0200
+
+    Merge pull request #119 from naaomimore/master
+    
+    Add total send amount in current currency selected
+
+commit 8be02aa1839b34393a8a730e1448e76ae6e89bc2
+Author: Naomi More <naaomimore@gmail.com>
+Date:   Sat May 20 11:49:47 2017 +0000
+
+    Add total send amount in current currency selected
+
+commit 45c45934bd544d413956d109408c979fecdf445b
+Author: zillionn <zillionn@users.noreply.github.com>
+Date:   Tue May 16 11:50:08 2017 +0300
+
+    Update index.html
+
+commit ff4113bac2a04f0222d8d96a9501043e26b9f2e4
+Author: zillionn <zillionn@users.noreply.github.com>
+Date:   Sun May 14 15:46:18 2017 +0300
+
+    Update NetworkService.js
+
+commit 44ec08a7a3e5ea9f83995236ffd277a326cf08a1
+Author: zillionn <zillionn@users.noreply.github.com>
+Date:   Sun May 14 15:42:04 2017 +0300
+
+    Update AccountController.js
+
+commit 12152acf6e49197731af1b8a2a128a2cb84a0201
+Author: zillionn <zillionn@users.noreply.github.com>
+Date:   Sun May 14 15:40:49 2017 +0300
+
+    Update NetworkService.js
+
+commit 27dbc1507f84e4758f1fa2f293ed606620540cf5
+Author: zillionn <zillionn@users.noreply.github.com>
+Date:   Sun May 14 15:37:49 2017 +0300
+
+    Update index.html
+
+commit 6c400fec69ae6e0b856737c25463e511d03cc68a
+Author: zillionn <zillionn@users.noreply.github.com>
+Date:   Sat May 13 15:19:39 2017 +0300
+
+    Update bg-BG.po
+
+commit 0c67cac663b71cca816e793ad8da5ecea97c05c3
+Author: zillionn <zillionn@users.noreply.github.com>
+Date:   Sat May 13 15:15:50 2017 +0300
+
+    Update bg-BG.po
+
+commit 6887e84c21d5285c437969eef2844335ca6081b9
+Author: zillionn <zillionn@users.noreply.github.com>
+Date:   Sat May 13 15:10:50 2017 +0300
+
+    Update createAccount.html
+
+commit 3de5c98adb888921ff6e938b8667369081213fdd
+Author: zillionn <zillionn@users.noreply.github.com>
+Date:   Sat May 13 14:03:33 2017 +0300
+
+    Update createAccount.html
+
+commit d1e6923e99b310c84c18661dda79ef5b07f24c0d
+Author: zillionn <zillionn@users.noreply.github.com>
+Date:   Sat May 13 14:02:03 2017 +0300
+
+    Update AccountController.js
+
+commit 09ac105fc7678fce987fd7aeb4aff5166647ca3b
+Author: zillionn <zillionn@users.noreply.github.com>
+Date:   Sat May 13 13:55:18 2017 +0300
+
+    Update app.css
+
+commit ea08a0a614fbe7b72646a26d02159496fc3bd078
+Author: zillionn <zillionn@users.noreply.github.com>
+Date:   Sat May 13 13:54:49 2017 +0300
+
+    Update createAccount.html
+
+commit f45ec7dfdaeda94ca63843dd294acd5786c5fb40
+Author: zillionn <zillionn@users.noreply.github.com>
+Date:   Sat May 13 13:53:05 2017 +0300
+
+    Safer account creation
+    
+    I read few posts that people just copy/paste the passphrase to create their account but forget to store the passphrase and therefore can't do anything with the received ARK in that wallet, from a delegate or somebody else. I believe this is a better and safer approach of creating the account. This is also how Ledger Nano S works.
+
+commit c02b10c4306e7616c8c2638e27118dad0d732ea2
+Merge: c14b291 13d2695
+Author: Lúcio Rubens <luciorubeens@gmail.com>
+Date:   Sat May 13 00:28:23 2017 +0000
+
+    Merge pull request #114 from luciorubeens/master
+    
+    Fix deprecated method MediaStream.stop() on QR scan
+
+commit 13d269537a4fed0f6c16dbbc146ee260353b461e
+Author: Lúcio Rubens <luciorubeens@gmail.com>
+Date:   Sat May 13 00:23:27 2017 +0000
+
+    Fix deprecated method MediaStream.stop() on QR scan
+
+commit c14b291cf655d8423c3392407bdf5912f7a93585
+Author: fix <fx.thoorens@gmail.com>
+Date:   Fri May 12 22:34:17 2017 +0200
+
+    bumped version
+
+commit b23942c5b863523df0c819a7c76b64c21ef8b233
+Author: fix <fx.thoorens@gmail.com>
+Date:   Fri May 12 22:33:49 2017 +0200
+
+    add textures
+
+commit 84b5bb6be5a6ed325efb4e6c58c11d609a5e9eb8
+Author: fix <fx.thoorens@gmail.com>
+Date:   Fri May 12 22:09:00 2017 +0200
+
+    hotfix on decimal
+
+commit 91f8b630287b4d3dde06229a2daf61060665a03c
+Merge: e1c366c 10d9e47
+Author: fix <fx.thoorens@gmail.com>
+Date:   Fri May 12 07:52:22 2017 +0200
+
+    Merge branch 'master' of https://github.com/ArkEcosystem/ark-desktop
+
+commit e1c366c393cd407d3d0841eef50b44a398cc2c58
+Author: fix <fx.thoorens@gmail.com>
+Date:   Fri May 12 07:52:16 2017 +0200
+
+    removed cold wallet warning
+
+commit 10d9e47f643b80fa987c36f53cc3d3a405b54ece
+Merge: d6729aa 63bf2d6
+Author: François-Xavier Thoorens <fx.thoorens@gmail.com>
+Date:   Fri May 12 07:51:25 2017 +0200
+
+    Merge pull request #97 from dafty-1/master
+    
+    Add refresh account balance button to dashboard
+
+commit d6729aa1d8b4abbae794a7a2ab510b16eb767025
+Author: fix <fx.thoorens@gmail.com>
+Date:   Thu May 11 11:34:46 2017 +0200
+
+    added texture
+
+commit 2015139b1f3cceaee527fafb13e7c4412f59133c
+Author: fix <fx.thoorens@gmail.com>
+Date:   Thu May 11 11:34:16 2017 +0200
+
+    fixed to a default network version in case of upgrade
+
+commit 4cd522c49eb743662d408edd11ff6135f9a1e957
+Author: fix <fx.thoorens@gmail.com>
+Date:   Thu May 11 11:32:09 2017 +0200
+
+    fixing path on windows
+
+commit 63bf2d66222432f785305bffdb8fac061e4deca6
+Merge: 2dc04c8 5b5458d
+Author: dafty-1 <alex.leach28@gmail.com>
+Date:   Wed May 10 23:03:12 2017 +0100
+
+    Merge branch 'master' into master
+
+commit fe5b73ef60ab15c1f5174c78a1c124c007583080
+Merge: bf20be0 5b5458d
+Author: fix <fx.thoorens@gmail.com>
+Date:   Wed May 10 18:50:54 2017 +0200
+
+    Merge branch 'master' of https://github.com/ArkEcosystem/ark-desktop
+
+commit bf20be05530adaea785dd3fe3f05cf3cbdabab32
+Author: fix <fx.thoorens@gmail.com>
+Date:   Wed May 10 18:50:47 2017 +0200
+
+    bumped version
+
+commit 5b5458d454f0bdb4131630d6eef356a05b25b5ed
+Merge: 7f38456 6bdca6a
+Author: François-Xavier Thoorens <fx.thoorens@gmail.com>
+Date:   Tue May 9 18:34:58 2017 +0200
+
+    Merge pull request #104 from mody199610/patch-1
+    
+    More User Friendly
+
+commit 6bdca6a4c695ea7f24f300a0735227422fc11478
+Author: mody199610 <mohamed145620@bue.edu.eg>
+Date:   Tue May 9 18:13:36 2017 +0200
+
+    Pull 104 Fix
+
+commit 7f38456a4c68d3195ba5276d2b72770f6b6a703f
+Merge: 3930867 cd11b5d
+Author: fix <fx.thoorens@gmail.com>
+Date:   Tue May 9 14:17:20 2017 +0200
+
+    Merge branch 'master' of https://github.com/ArkEcosystem/ark-desktop
+
+commit cd11b5dd01114dc95ae1ac3728ec690a105bc119
+Merge: 4492982 920aad2
+Author: François-Xavier Thoorens <fx.thoorens@gmail.com>
+Date:   Tue May 9 14:16:59 2017 +0200
+
+    Merge pull request #106 from luciorubeens/qr-scanner
+    
+    Add QR code scanner
+
+commit 920aad2d9d425571864a1db7b034e0abe2f9cc76
+Author: Lúcio Rubens <luciorubeens@gmail.com>
+Date:   Tue May 9 10:19:23 2017 +0000
+
+    Add QR code scanner
+
+commit 82d6a7f53e30c6572dd816ce569c0c8035617ff0
+Merge: c1dddf0 4492982
+Author: Lúcio Rubens <luciorubeens@gmail.com>
+Date:   Tue May 9 09:33:39 2017 +0000
+
+    Merge branch 'master' of https://github.com/ArkEcosystem/ark-desktop
+
+commit 39308675973dd619021e50f8ce51a0d578600552
+Merge: 4f24879 4492982
+Author: fix <fx.thoorens@gmail.com>
+Date:   Tue May 9 11:17:58 2017 +0200
+
+    Merge branch 'master' of https://github.com/ArkEcosystem/ark-desktop
+
+commit 4f248790ca3063b15778c5aaf0303b1e134e4b2b
+Author: fix <fx.thoorens@gmail.com>
+Date:   Tue May 9 11:17:41 2017 +0200
+
+    make possible to create account when not connected on internet
+
+commit 7cc16de3914f678cc5b3bc6a3f10963196ca70d9
+Author: fix <fx.thoorens@gmail.com>
+Date:   Tue May 9 11:16:03 2017 +0200
+
+    rebroadcast if tx stay unconfirmed
+
+commit 449298268281281c66f71e8c199103d2aa34127c
+Merge: 8e65335 75d9eb8
+Author: François-Xavier Thoorens <fx.thoorens@gmail.com>
+Date:   Mon May 8 11:20:00 2017 +0200
+
+    Merge pull request #105 from mody199610/patch-2
+    
+    Renamed Full Screen based on issue #82
+
+commit 75d9eb8f49c184c4052ad088ce862b5e27f11d03
+Author: mody199610 <mohamed145620@bue.edu.eg>
+Date:   Mon May 8 02:56:43 2017 +0200
+
+    Renamed Full Screen based on issue #82
+
+commit f4ce94d143477e356352523d0a584d7aaffef1a3
+Author: mody199610 <mohamed145620@bue.edu.eg>
+Date:   Mon May 8 02:44:56 2017 +0200
+
+    More User Friendly
+    
+    Changed the cold wallet message to a more friendly one that wont confuse ARK Users.
+
+commit 8e65335ddb4ac7c0c5cef2e7d1d1e4a1849b1182
+Merge: 8738833 9d6d8a7
+Author: François-Xavier Thoorens <fx.thoorens@gmail.com>
+Date:   Sat May 6 12:08:39 2017 +0200
+
+    Merge pull request #100 from zillionn/patch-3
+    
+    Error message style
+
+commit 9d6d8a7787e88c0c3f94e98f014231ff12010560
+Author: zillionn <zillionn@users.noreply.github.com>
+Date:   Sat May 6 12:42:18 2017 +0300
+
+    Update app.css
+
+commit 29ff5a60d68196b40e38bc7e09769d5da0cdd073
+Author: zillionn <zillionn@users.noreply.github.com>
+Date:   Sat May 6 12:32:53 2017 +0300
+
+    Update AccountController.js
+
+commit c1dddf0ea9c1e346f4ab9f318851bd9c62690b3b
+Author: Lúcio Rubens <luciorubeens@gmail.com>
+Date:   Wed May 3 23:14:29 2017 -0400
+
+    Add remaining balance
+
+commit 39bcf3a31c7dab5d951ef837ee429618c7473f2d
+Author: fix <fx.thoorens@gmail.com>
+Date:   Wed May 3 11:39:46 2017 +0200
+
+    removing market data if not able to find one
+
+commit 8738833924add4810c6a615a576b349e93b65fbd
+Author: fix <fx.thoorens@gmail.com>
+Date:   Thu May 4 23:26:56 2017 +0200
+
+    autoconfiguring network from node
+
+commit a96d45077b0fc4c1843f23f086ba29cc45251072
+Merge: 3afcf8f e812492
+Author: fix <fx.thoorens@gmail.com>
+Date:   Thu May 4 10:33:19 2017 +0200
+
+    Merge branch 'master' of https://github.com/ArkEcosystem/ark-desktop
+
+commit e812492546d793d13a5f1c30c3ff2d745bf9d33a
+Merge: a142f4f 859a8e9
+Author: François-Xavier Thoorens <fx.thoorens@gmail.com>
+Date:   Thu May 4 10:29:33 2017 +0200
+
+    Merge pull request #98 from luciorubeens/feature-remaining-balance
+    
+    Add remaining balance on sendArk
+
+commit 859a8e947c3791bda18be32b521ef276d8dbf543
+Author: Lúcio Rubens <luciorubeens@gmail.com>
+Date:   Wed May 3 23:14:29 2017 -0400
+
+    Add remaining balance
+
+commit 2dc04c822c0eb2294fc4de41c78953ec86bc9195
+Author: Dafty <dafty@tutanota.com>
+Date:   Wed May 3 19:39:54 2017 +0100
+
+    add refresh account balance button to dashboard
+
+commit 0a0583ea831f86a8b41fe5106b044de93b6b755d
+Merge: 8159bf2 a142f4f
+Author: Lúcio Rubens <luciorubeens@gmail.com>
+Date:   Wed May 3 07:20:10 2017 -0300
+
+    Merge pull request #1 from ArkEcosystem/master
+    
+    Update from original
+
+commit 3afcf8f661cf1f0f96fdf52d8b71f98f85a4f5cf
+Merge: 01bb8c2 a142f4f
+Author: fix <fx.thoorens@gmail.com>
+Date:   Wed May 3 11:39:51 2017 +0200
+
+    Merge branch 'master' of https://github.com/ArkEcosystem/ark-desktop
+
+commit 01bb8c266a4d99a7afbe3d651a63de688317b17a
+Author: fix <fx.thoorens@gmail.com>
+Date:   Wed May 3 11:39:46 2017 +0200
+
+    removing market data if not able to find one
+
+commit a142f4f90fe21e7c497aa61b893971197ca09f7c
+Merge: 88b86da c32548f
+Author: François-Xavier Thoorens <fx.thoorens@gmail.com>
+Date:   Wed May 3 11:38:55 2017 +0200
+
+    Merge pull request #95 from luciorubeens/offline-price
+    
+    Save last price in localStorage
+
+commit 88b86da922a3af2f071d6c1a9733077a84d5c6fe
+Merge: bf87836 ad0ceac
+Author: François-Xavier Thoorens <fx.thoorens@gmail.com>
+Date:   Wed May 3 11:31:41 2017 +0200
+
+    Merge pull request #96 from dafty235/master
+    
+    Send all button to populate amount with all available funds
+
+commit ad0ceacd0acdfec034ed575666f2ed95212eba3b
+Merge: 85a37ba bf87836
+Author: dafty235 <alex.leach28@gmail.com>
+Date:   Wed May 3 10:24:30 2017 +0100
+
+    Merge branch 'master' into master
+
+commit bf8783609ff05b792329cee76df0253514cdd8df
+Merge: 79b74b8 618c840
+Author: François-Xavier Thoorens <fx.thoorens@gmail.com>
+Date:   Wed May 3 11:17:20 2017 +0200
+
+    Merge pull request #94 from luciorubeens/fix-icon-taskbar
+    
+    Add png file icon
+
+commit 79b74b818c337d5b2d2a1feff1a4d71f94f6691b
+Merge: a2cc3e9 793d4e1
+Author: François-Xavier Thoorens <fx.thoorens@gmail.com>
+Date:   Wed May 3 11:14:42 2017 +0200
+
+    Merge pull request #93 from luciorubeens/fix-amount
+    
+    Add a directive for valid amount
+
+commit a2cc3e9c33136b56124c82e7002f20b05661caaf
+Author: fix <fx.thoorens@gmail.com>
+Date:   Wed May 3 11:06:48 2017 +0200
+
+    added textures
+
+commit 85a37babdbdc374c3f4f4b9b4ba08f77f07ddb8a
+Author: Dafty <dafty@scryptmail.com>
+Date:   Wed May 3 09:15:05 2017 +0100
+
+    move text to translate tag
+
+commit 1ceff55258051e8b3892cd649a2dcbceb880846e
+Author: Dafty <dafty@tutanota.com>
+Date:   Tue May 2 23:59:09 2017 +0100
+
+    adding send all button on new transaction
+
+commit 24772fee463544358c8a4f98f45fed1e037a067b
+Merge: bb1e1f1 892aab8
+Author: fix <fx.thoorens@gmail.com>
+Date:   Mon May 1 16:09:46 2017 +0200
+
+    Merge branch 'background-manager' of https://github.com/luciorubeens/ark-desktop into luciorubeens-background-manager
+
+commit bb1e1f15d57c2d47ab82c33e60d4f91b5f1b91a1
+Merge: f16fd4a 8159bf2
+Author: François-Xavier Thoorens <fx.thoorens@gmail.com>
+Date:   Mon May 1 16:08:19 2017 +0200
+
+    Merge pull request #90 from luciorubeens/master
+    
+    Added new terms and adjusted others
+
+commit f16fd4a222b63656534a7d0c6cb3209d9d5e41c7
+Merge: c98e0dc 6c3f70d
+Author: François-Xavier Thoorens <fx.thoorens@gmail.com>
+Date:   Mon May 1 16:03:31 2017 +0200
+
+    Merge pull request #77 from bitcoinsSG/master
+    
+    make installation easier and quicker
+
+commit c32548f69144d9c1995013e5e27446407879b2e4
+Author: Lúcio Rubens <luciorubeens@gmail.com>
+Date:   Mon May 1 09:08:29 2017 -0400
+
+    Save last price in localStorage
+
+commit 618c840764f7c77bada5d71140704c675eab6f25
+Author: Lúcio Rubens <luciorubeens@gmail.com>
+Date:   Mon May 1 08:15:38 2017 -0400
+
+    Add png file icon
+
+commit 793d4e1d2afa7cdb85a16cdae2bea523e47b2e32
+Author: Lúcio Rubens <luciorubeens@gmail.com>
+Date:   Mon May 1 05:26:03 2017 -0400
+
+    Add a directive for valid amount
+
+commit 892aab8ee0cc0b649cd916e2ca82b7f9f9340e8e
+Author: Lúcio Rubens <luciorubeens@gmail.com>
+Date:   Sun Apr 30 11:39:40 2017 -0400
+
+    Add manager to customize backgrounds
+
+commit 8159bf2efa944d0f6fdf22533072995e6f618eb7
+Author: Lúcio Rubens <luciorubeens@gmail.com>
+Date:   Sat Apr 29 09:22:54 2017 -0400
+
+    Angular Material and translate tag issue fix
+
+commit c98e0dc6d3e4dff4d228cebc4a7c6baacd2bff75
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Thu Apr 27 13:22:50 2017 +0800
+
+    bump version to 1.2.0
+
+commit ed0526dba83d93a2c86e972d4a4efd125b3c6468
+Merge: c205204 35ba6f5
+Author: fix <fx.thoorens@gmail.com>
+Date:   Tue Apr 25 22:53:50 2017 +0200
+
+    Merge branch 'master' of https://github.com/ArkEcosystem/ark-desktop
+
+commit c20520459b0eca5bf14bc017321ce90de0b495ea
+Author: fix <fx.thoorens@gmail.com>
+Date:   Tue Apr 25 22:53:14 2017 +0200
+
+    added broadcast, fix #72
+
+commit 35ba6f52912ec1904d58f3b4c52b90056c77e334
+Merge: f8ba040 e10643c
+Author: François-Xavier Thoorens <fx.thoorens@gmail.com>
+Date:   Tue Apr 25 12:09:13 2017 +0200
+
+    Merge pull request #70 from zillionn/patch-1
+    
+    Total balance
+
+commit f8ba0406b15a6e057135082f4bf17df4e6c88c6b
+Author: fix <fx.thoorens@gmail.com>
+Date:   Tue Apr 25 12:05:43 2017 +0200
+
+    improving peer connection reliability
+
+commit a8b2157fe1463ddf4db2d72e8034565e3c4b9ae0
+Merge: 860d4ed 0d7c8ac
+Author: François-Xavier Thoorens <fx.thoorens@gmail.com>
+Date:   Fri Apr 21 10:08:19 2017 +0200
+
+    Merge pull request #85 from dafty235/master
+    
+    fixing typo in deb synopsis and improving documentation
+
+commit 0d7c8ac37e7acb077d0bdc4f922d1b83a84d18f6
+Author: dafty235 <alex.leach28@gmail.com>
+Date:   Thu Apr 20 22:19:37 2017 +0100
+
+    adding screenshots to README.md
+
+commit b7e19d16d571b619eda4ce78fe3d42fabb000b9d
+Author: dafty235 <alex.leach28@gmail.com>
+Date:   Thu Apr 20 21:51:10 2017 +0100
+
+    updating linux package synopsis
+
+commit 860d4ed4e6c31935bb024c9c587653326ff4fc13
+Merge: 0c3b0a8 81c5947
+Author: François-Xavier Thoorens <fx.thoorens@gmail.com>
+Date:   Thu Apr 20 16:32:21 2017 +0200
+
+    Merge pull request #84 from kristjank/master
+    
+    Possible comparison bug?
+
+commit 0c3b0a8e3250183aa45dde3498fee842bb3b63f6
+Author: François-Xavier Thoorens <fx.thoorens@gmail.com>
+Date:   Thu Apr 20 16:13:12 2017 +0200
+
+    Create CONTRIBUTING.md
+
+commit 81c59476246b1cf5c60b519996291754efd79d35
+Author: chris <kristjan.kosic@gmail.com>
+Date:   Thu Apr 20 10:33:57 2017 +0200
+
+    Possible comparisson bug?
+    According to docs: The typeof operator returns type information as a string. There are six possible values that typeof returns: "number," "string," "boolean," "object," "function," and "undefined.".
+    In the code - the comparission is done with 'String'  not 'string'. if data is object, then already first if gets executed...
+
+commit 5302b40dab111d9d86411fecc7e6ebf036929e94
+Merge: 10e8588 32a42bd
+Author: François-Xavier Thoorens <fx.thoorens@gmail.com>
+Date:   Tue Apr 18 12:59:25 2017 +0200
+
+    Merge pull request #79 from kristjank/master
+    
+    Some initial suggestions
+
+commit 32a42bd0cca04aaac459ce34d3ff64298ccb1d13
+Author: chris <kristjan.kosic@gmail.com>
+Date:   Tue Apr 18 12:37:48 2017 +0200
+
+    Some local fixes and changes I noticed while learning and getting familiar with the code. Code is really nice and clean, so no "critical changes" or bugs have been identified.
+
+commit e10643cc0d5bdd047008b9db11f760510abed669
+Author: zillionn <zillionn@users.noreply.github.com>
+Date:   Mon Apr 17 13:35:29 2017 +0300
+
+    Vertical scrollbar
+    
+    I get a vertical scrollbar when transaction ID is in the title because of the max-width.
+
+commit 6c3f70daf023b51fdc4ffa15b6adc310ef7c74cb
+Author: Gaurav S.J.B. Rana <bitcoinssg@gmail.com>
+Date:   Sun Apr 16 14:59:25 2017 -0400
+
+    make installation easier and quicker
+
+commit f418429103cdea2abbaa792c5af7f34584ab4e1c
+Author: zillionn <zillionn@users.noreply.github.com>
+Date:   Fri Apr 14 14:05:37 2017 +0300
+
+    Update index.html
+
+commit 10e8588f4160e79ef2d8f0fe1df5f486d0f74cac
+Merge: e164c9d 598d204
+Author: François-Xavier Thoorens <fx.thoorens@gmail.com>
+Date:   Fri Apr 14 10:53:44 2017 +0200
+
+    Merge pull request #62 from 6ea86b96/brewfile
+    
+    Add a Brewfile for OS X users
+
+commit e164c9d76bc2ae4570822ef6f5929a9d5ebb0d4f
+Merge: 5e79374 fcf2198
+Author: François-Xavier Thoorens <fx.thoorens@gmail.com>
+Date:   Fri Apr 14 10:50:37 2017 +0200
+
+    Merge pull request #67 from axenter/patch-1
+    
+    Price when offline
+
+commit 5e793748f6e729d0238333df74e2ce3350bb7131
+Author: François-Xavier Thoorens <fx.thoorens@gmail.com>
+Date:   Mon Apr 10 10:18:35 2017 +0200
+
+    updated realtime currency
+
+commit cf7d8457752d6077364e0d97f19e1e01976bc560
+Author: zillionn <zillionn@users.noreply.github.com>
+Date:   Sat Apr 8 12:25:37 2017 +0300
+
+    Update index.html
+
+commit d33c38226f88340ab0574e1544d48462b9abc436
+Author: zillionn <zillionn@users.noreply.github.com>
+Date:   Sat Apr 8 11:53:35 2017 +0300
+
+    Update index.html
+
+commit fcf2198f0502b6c7e0d71619aa6eb2b1e52d62db
+Author: Lars <lrsrensing@gmail.com>
+Date:   Sat Apr 8 09:01:35 2017 +0200
+
+    Price when offline
+    
+    Set Ark price at 0 when offline
+
+commit 598d204b1edc16c9504b65f05efd89b05702468f
+Author: 6ea86b96 <6ea86b96@gmail.com>
+Date:   Sun Apr 2 12:46:47 2017 +0700
+
+    Add a Brewfile for OS X users
+
+commit 3afc3febcb870abbaa38a3eec7fc2c8f46c1f0dc
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Tue Mar 28 18:04:26 2017 +0800
+
+    release 1.1.0
+
+commit 12a323d59b6741aba3701915bececeb6e24cf080
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Tue Mar 28 18:01:53 2017 +0800
+
+    update translations
+
+commit 81428288ef63a29894cf53eb62cd9383306f6bed
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Tue Mar 28 17:42:21 2017 +0800
+
+    update translation template
+
+commit 766372b21e36e094aabc73e26ec9eaad5d1b8a28
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Tue Mar 28 17:41:20 2017 +0800
+
+    udpate trans
+
+commit 6f62f8263b79f976e9acce55b5d0830d6e2b8156
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Tue Mar 28 17:41:12 2017 +0800
+
+    add app functions to tray. Fixes #58
+
+commit 04b22282aed4afa260f9e09bce4944e098d4fcc7
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Tue Mar 28 17:29:20 2017 +0800
+
+    add client restart notice on 2nd passphrase and delegate creation. Fixes #39 #3
+
+commit 0706811b7718d21005c9bcdae1bc890603dabe26
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Tue Mar 28 17:22:08 2017 +0800
+
+    add form validation when importing account
+
+commit ed17c4003f0a5e9eba5b3be916bb633c31a8b083
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Tue Mar 28 17:15:25 2017 +0800
+
+    refresh account time is doing to same a block time (8s) down from 20s
+
+commit b701ef6dfd38780ab2020426fcb56e99fc3b7034
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Tue Mar 28 17:13:01 2017 +0800
+
+    fix bug where tx will stay with 0 confirmations
+
+commit f2af1df305153e2f7702adaec805dd7bbdbe827d
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Tue Mar 28 14:39:06 2017 +0800
+
+    remove click on t amount open the explorer
+
+commit 2187cf19a8ef8e4e04e3b6be2ef5e51745310543
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Tue Mar 28 13:05:07 2017 +0800
+
+    release 1.0.2
+
+commit 20ba9565e30ae8cb5c6ad129771006ce4871c05f
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Mon Mar 27 19:44:48 2017 +0800
+
+    add back the frame arround the window. Fixes #19
+
+commit 1b06d25858ed329a235770f5a3bbfb024fa3ca29
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Mon Mar 27 19:42:04 2017 +0800
+
+    add form validation whne creating an account
+
+commit 1207cd56b9d9da40184b94d93151e51163d90e30
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Mon Mar 27 19:35:48 2017 +0800
+
+    delete last account now redirects to homepage. Fixes #56
+
+commit 098dbe8af0b4bdade51c1458ad035dfa96316a91
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Mon Mar 27 19:29:16 2017 +0800
+
+    add home menu icon. Partially Fixes #56
+
+commit 695efe4030a55198b5ef8a14aacb976542e3acb6
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Mon Mar 27 19:22:11 2017 +0800
+
+    update md-dialogs to be larger. Fixes #54
+
+commit ed537a189b35b8420d2444de6b9585e7707eaba5
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Mon Mar 27 18:35:18 2017 +0800
+
+    move menu boxes on top 50px lower. Fixes #46
+
+commit 655e7858c3a063ec140cd1f5c9d24ce9d4be434c
+Merge: 1f1593a 98e9166
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Mon Mar 27 17:06:42 2017 +0800
+
+    Merge branch 'master' into feature-improvements
+
+commit 98e9166007436ace8e3d1f93273e32e5adad505d
+Merge: f66a613 716a83b
+Author: fix <fx.thoorens@gmail.com>
+Date:   Fri Mar 24 11:11:48 2017 +0100
+
+    merge
+
+commit f66a61309738fd4ba3e090f7fb9acd9fe74eae51
+Author: fix <fx.thoorens@gmail.com>
+Date:   Fri Mar 24 11:08:49 2017 +0100
+
+    fix marketcap
+
+commit 1f1593a35cc940158878add63543caa592894a42
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Fri Mar 24 16:21:36 2017 +0800
+
+    add open in the explorer action on address. Fixes #7
+
+commit 7fd0c5f87379c4ba4dff0c5408dc1efcd16c03d3
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Fri Mar 24 16:15:25 2017 +0800
+
+    clicking on a tx id now opens the explorer. Fixes #7
+
+commit 304e93c541588a2f7d2c01f1387f669f5f05f6bb
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Fri Mar 24 16:08:55 2017 +0800
+
+    remove send ark from contact sheet
+
+commit 23e9fb3412661fa411119145d2e4d86e8aee58ee
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Fri Mar 24 16:07:37 2017 +0800
+
+    add chinese translation
+
+commit 60f3b3033d34ff5371b74d8f6fb52d750c956194
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Fri Mar 24 16:01:02 2017 +0800
+
+    update translation files
+
+commit 055cb843d355b1392c182f655f2f2a55c63ba315
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Thu Mar 23 22:53:44 2017 +0800
+
+    extract translation template
+
+commit e026a8075f09b6a6b21509015085b1f60583f451
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Thu Mar 23 22:50:02 2017 +0800
+
+    update top icons. Fixes #20
+
+commit 716a83b42920743679c7f889533c67712375c124
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Wed Mar 22 00:40:50 2017 +0800
+
+    release 1.0.1
+
+commit b6c087d2c473abb85dae2e0a47aeed27ce4adf7e
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Wed Mar 22 00:40:23 2017 +0800
+
+    change tx pagination to 50 per page
+
+commit a98ae8b4ca0259dbd35e772e3af53a2d1f57dc52
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Wed Mar 22 00:39:47 2017 +0800
+
+    update genesis block time
+
+commit 143896069e94f82c93cf5c87b4a5d43f9782f618
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Wed Mar 22 00:27:22 2017 +0800
+
+    release 1.0.0
+
+commit 19ac2a16f9d078aee8daffc4297db4ee55962773
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Wed Mar 22 00:16:03 2017 +0800
+
+    udpate ark js branch
+
+commit 4993df774a8cc8485df3b3f0a7913028663216bc
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Wed Mar 22 00:15:51 2017 +0800
+
+    update seed server
+
+commit 41366d35b185790dc142217d46f9979c2b23eee5
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Wed Mar 22 00:02:45 2017 +0800
+
+    update mainnet nethash
+
+commit cb46d6308b6e5b0c089127ddedbd16483c4efaf7
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Tue Mar 21 20:40:30 2017 +0800
+
+    add more compact design on tx list
+
+commit b86e22b6f29bf9f7f0cd93b665ec540bf9aa74e6
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Tue Mar 21 20:24:59 2017 +0800
+
+    updaate tx vendorbrige to be on the right
+
+commit 463a317c3185c623e5fc52436355ff5527e75072
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Tue Mar 21 19:53:57 2017 +0800
+
+    add improved UI/UX when sending a transaction. Fixes #53 and #32
+
+commit bcc0b3b677f88e9d479b771388b3d33f5381d847
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Tue Mar 21 15:32:58 2017 +0800
+
+    bug fix on account dedup check
+
+commit c2c086a3ab91c966ea33b823d48025b39356710b
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Tue Mar 21 15:08:07 2017 +0800
+
+    remove clutter on homepage and set minimum box size. Fixes #47
+
+commit d4751ccb0d1cff5390733842e4d340d484512e52
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Tue Mar 21 14:56:43 2017 +0800
+
+    add notification when copied to clipboard. Fixes #48
+
+commit a657531f41a0121d2d66001d4c18b812a5696893
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Tue Mar 21 14:51:05 2017 +0800
+
+    add vote help text. Fixes #50
+
+commit 4ad797a09843cf5f76d75eaf68ec3d624a2106ea
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Tue Mar 21 14:37:55 2017 +0800
+
+    update mainnet seed servers
+
+commit 041e04f7390932eb9643f676bd6c7f8564c6f41d
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Sat Mar 18 05:36:42 2017 +0800
+
+    release 0.4.1
+
+commit 3d35f30b2a0965c62ca5128cbedcf90a4ca04dd8
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Fri Mar 17 19:22:05 2017 +0800
+
+    add default values after account fetch and extra checks
+
+commit 3f53059687a42699198902f20f39810beef19bec
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Thu Mar 16 23:15:01 2017 +0800
+
+    fix bug when no recipient
+
+commit 4fae333526be66e07a7d7c5b86ed0d5c293b477f
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Thu Mar 16 20:40:35 2017 +0800
+
+    release 0.4.0
+
+commit 7f42d39e30932f66f9e787e2be1e5570c19c675a
+Merge: f4420f7 e0c5dae
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Thu Mar 16 20:40:09 2017 +0800
+
+    Merge branch 'feature-improvements' into dev
+
+commit e0c5daed926bfd8bba962087406e484688757686
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Thu Mar 16 20:39:11 2017 +0800
+
+    add dist cmd
+
+commit ed0efbb8179c3a429b02454208be8766ade3277e
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Thu Mar 16 20:11:51 2017 +0800
+
+    add small feature feature on tx addresses
+
+commit f4420f77b481f4e93b60610ec7d4108d63c99dfa
+Merge: e10740f 7b0adca
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Wed Mar 15 01:13:04 2017 +0800
+
+    Merge pull request #52 from ArkEcosystem/feature-second-passphrase
+    
+    Feature second passphrase
+
+commit 655413496a6b54412c17df04c986620e6a42a393
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Tue Mar 14 18:15:16 2017 +0800
+
+    contact sheet is now more visible
+
+commit f660d9da14ad7128c53cf0cd8667bd065469fae0
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Tue Mar 14 18:08:45 2017 +0800
+
+    update translation template
+
+commit 300a7315488def1e0621811be78d6f559bab975a
+Merge: 7a41be4 8adef98
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Tue Mar 14 18:08:03 2017 +0800
+
+    Merge branch 'feature-improvements' of github.com:ArkEcosystem/ark-desktop into feature-improvements
+
+commit 7a41be4d2610b196b67c52751727948aef060c46
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Fri Mar 10 13:45:14 2017 +0800
+
+    improve ux on second passphrase creation
+
+commit 32dba6bca40007b388bc4e9cfc88d98408b5ba82
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Fri Mar 10 13:43:30 2017 +0800
+
+    forcing passphrases to be bip 39 compliant
+
+commit f5d10aecac4e93b2adc30ae397f80200d00eeea5
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Fri Mar 10 13:28:24 2017 +0800
+
+    update translation template
+
+commit c5e932689a4b10f11e87bc3e70de016f25043e05
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Fri Mar 10 13:27:25 2017 +0800
+
+    fix typo
+
+commit 7b0adca7d42e54d82b093a2f5316283c6526e2cc
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Tue Mar 14 18:05:57 2017 +0800
+
+    translation fix
+
+commit 8adef982a18ac1d1b23133cb473bf71add9351c4
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Fri Mar 10 13:45:14 2017 +0800
+
+    improve ux on second passphrase creation
+
+commit b9d72db37736d01efaf7878538d169edae9f314d
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Fri Mar 10 13:43:30 2017 +0800
+
+    forcing passphrases to be bip 39 compliant
+
+commit 1f6c4b20ee7a80c075ed3fe10f99b606df368989
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Fri Mar 10 13:28:24 2017 +0800
+
+    update translation template
+
+commit 0b5570d85d6589ae41f451c58acf04dab73826dc
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Fri Mar 10 13:27:25 2017 +0800
+
+    fix typo
+
+commit 476ce1dd1c82d838304831ace5b653b018875d7c
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Thu Mar 9 18:23:23 2017 +0800
+
+    network error are now forwarded as objects
+
+commit 61161f844182c647040669a48a2ce1a2b1f3ca77
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Thu Mar 9 18:15:23 2017 +0800
+
+    improve error handling
+
+commit ad82c6d6cbe1729f0c54b227a58c9a6ed8ddb798
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Thu Mar 9 17:53:46 2017 +0800
+
+    add second passphrase creation feature
+
+commit dedff2983a3e311b0065b8982cc4979a9a10ff82
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Wed Mar 8 17:36:08 2017 +0800
+
+    allow click to close on contact sheet
+
+commit e10740f4f50c9e8d0f01b7bee7c76df50bfab11d
+Merge: 1a869da 28e7fd8
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Sat Mar 4 17:41:27 2017 +0800
+
+    Merge pull request #44 from ArkEcosystem/feature-bug-fixes
+    
+    Feature bug fixes
+
+commit 28e7fd896d37c599c5bf40e9f0257a56ac925138
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Fri Mar 3 18:11:17 2017 +0800
+
+    update translations
+
+commit 79aab2528651de692bfe0d9fafc39ecf41bef915
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Fri Mar 3 18:04:00 2017 +0800
+
+    update translation template
+
+commit 83e5562385172f6b29aef799a7e7e6cb6af6b35e
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Fri Mar 3 17:14:06 2017 +0800
+
+    release 0.3.2
+
+commit 86b223c0ec31ded77c5853b8503e43e937eb39d5
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Fri Mar 3 17:09:34 2017 +0800
+
+    transaction decimal floating point is now adapting to the transaction. Fixes #41
+
+commit aeab2b6f96900c1ffdf03fd807d3c0522f9a5385
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Fri Mar 3 16:48:24 2017 +0800
+
+    disable all click outside to close feature on popups. Fixes #43
+
+commit 8fd6d94ff9cafcc01bc2f2e0a84dcb02c1726e97
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Fri Mar 3 16:32:57 2017 +0800
+
+    small transactions are now correctly display in the transaction confirmation window. Partially fixes #41
+
+commit eb7ad5245e98241a68b94e79962b393dc3410500
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Fri Mar 3 15:08:15 2017 +0800
+
+    add checks on delegate name during registration. Fixes #42
+
+commit f986eef0aad19a5218646761fc93341d11f5e3ba
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Fri Mar 3 14:31:34 2017 +0800
+
+    fix wrong address being shown when registering a delate. Fixes #40
+
+commit 5ad8f3b644d88c544a4cbfdee667eace6a8bb9de
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Fri Mar 3 14:22:32 2017 +0800
+
+    add check for duplicate imported accounts
+
+commit 33a4d5aa25d7a824d66d8b9d3e8ce0268a637d08
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Fri Mar 3 14:06:53 2017 +0800
+
+    add menu item to disable content protection
+
+commit 91a67ad95ddbe900430b869965e219726332747a
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Fri Mar 3 13:56:47 2017 +0800
+
+    now using mater branch of arkjs
+
+commit a92ebdf9a6c5272929b2271fc2d31f91d1502f41
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Fri Mar 3 13:54:05 2017 +0800
+
+    improve key bindings
+
+commit 1a869da071d361b2f448fb5af49a08d98684c86f
+Merge: c0e320e 6cf6401
+Author: fix <fx.thoorens@gmail.com>
+Date:   Mon Feb 13 22:23:28 2017 +0100
+
+    Merge branch 'dev' of https://github.com/ArkEcosystem/ark-desktop into dev
+
+commit c0e320e46a2e4d2614bfaaab7759716fa520c9a8
+Author: fix <fx.thoorens@gmail.com>
+Date:   Mon Feb 13 22:23:20 2017 +0100
+
+    update ark-js to new testnet
+
+commit 6cf6401c8ffd37d754f6ab3877316e58734e1aec
+Merge: 36ffc3f a07cca4
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Tue Feb 14 00:42:04 2017 +0800
+
+    Merge branch 'master' of github.com:ArkEcosystem/ark-desktop
+
+commit 36ffc3f9b11741821db0a982e8509840d75b7982
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Sat Feb 11 00:27:10 2017 +0800
+
+    update release link
+
+commit 4736b3843ccd54698f81f083d8a8ca108d45355d
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Tue Feb 14 00:27:35 2017 +0800
+
+    bump version
+
+commit 5038d59724d3c755732eaaf4a18114ca5c3a9a97
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Tue Feb 14 00:27:17 2017 +0800
+
+    minor packaging changes
+
+commit cdf855c58760e487d1feef36556ec152e50167fe
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Tue Feb 14 00:14:50 2017 +0800
+
+    update network settings to latest testnet
+
+commit d85f2f643b576221ecbb4911aeb6737a263ce204
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Mon Feb 13 17:59:00 2017 +0800
+
+    update testnet nethash
+
+commit b05a69365d089e964a41a661b44ae59e521f8e64
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Mon Feb 13 17:57:50 2017 +0800
+
+    update http header when making requests to peers
+
+commit 90ba943baa4d9dd92f8f4b46e23b3c5e029860be
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Mon Feb 13 17:55:59 2017 +0800
+
+    update peer timeout from 2sec to 5sec
+
+commit 74ac843483ac18a4a4841041b80628a56263c61f
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Mon Feb 13 17:53:39 2017 +0800
+
+    disable price fetch
+
+commit a07cca40f0ab35e87634b53db7f91d3a08b3b158
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Sat Feb 11 00:27:10 2017 +0800
+
+    update release link
+
+commit 453d70f5f0404a9cabe47ef771d4e8ec4d37314e
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Wed Feb 8 18:33:52 2017 +0800
+
+    update linux build command
+
+commit 0889d56bbb055d62fbab89f4a9c509871c151f9d
+Merge: 01647d7 1d82b01
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Wed Feb 8 17:06:34 2017 +0800
+
+    fix conflicts
+
+commit 1d82b0191949b89aa7d18537c97f4ac3a1d9c337
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Wed Feb 8 17:04:10 2017 +0800
+
+    release 0.3
+
+commit 4c5fedea8f56ae742375addfa01d0f033a89a4ec
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Sat Feb 4 03:24:04 2017 +0800
+
+    update packaging workflow
+
+commit 7c41bfbbf7b0f04362acd528e453244096591181
+Merge: c9a8609 19192a6
+Author: François-Xavier Thoorens <fx.thoorens@gmail.com>
+Date:   Fri Feb 3 10:20:06 2017 +0100
+
+    Merge pull request #35 from ArkEcosystem/feature-improved-ux
+    
+    Feature improved ux
+
+commit 19192a6e280f7d209577ecd94632a13cbba1e1b2
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Fri Feb 3 17:02:19 2017 +0800
+
+    remove roboto licanse
+
+commit 08a105e4de885e0e6459316e6fc44e7fd84e4f0c
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Fri Feb 3 16:59:06 2017 +0800
+
+    add client version to brand header
+
+commit e9bc0a9232f11dcecc3754625080e06cf54f0bc1
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Fri Feb 3 16:53:45 2017 +0800
+
+    disable save passphrase feature
+
+commit a52cdcaee811d20a57b57b4ecaa161f768ffb0c9
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Fri Feb 3 16:49:28 2017 +0800
+
+    add import account feature
+
+commit 5bca32b149061d84172b748d5f0e00b3933e6af3
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Fri Feb 3 11:47:13 2017 +0800
+
+    update contributors
+
+commit cfcc1a22ffdb27b5f88289bd67bc653cf67746b9
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Thu Feb 2 23:50:48 2017 +0800
+
+    trying to clarify watch only addresses
+
+commit 628e4fecfcccedce46f73f3fe21e486a3fe768a2
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Thu Feb 2 23:43:10 2017 +0800
+
+    revert package versioning
+
+commit 68a221fd1285468959c5a2164e0679d40a7b50c3
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Thu Feb 2 17:59:22 2017 +0800
+
+    move material-design-icons from deps to statis linkage
+
+commit 76200a408a6cd7d85835c6f55438bbbf5011c005
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Thu Feb 2 17:50:27 2017 +0800
+
+    add forgotten font files
+
+commit 38909c882018cf35042c365bbee69b2a787cd0bb
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Thu Feb 2 17:50:15 2017 +0800
+
+    fix packages deps versioning conflicts
+
+commit 877f11d37e5da0b097e29720752aa4551e8c143a
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Thu Feb 2 17:35:31 2017 +0800
+
+    roboto font is now loaded locally
+
+commit e3018de98c2b65c99d73075fa4a81b808266cb49
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Thu Feb 2 17:30:20 2017 +0800
+
+    add material design icons locally
+
+commit c9a8609ed1bcf5cb9ce61ffa8f7bfe56ebd5b4eb
+Merge: 1eedc57 185e4ce
+Author: François-Xavier Thoorens <fx.thoorens@gmail.com>
+Date:   Thu Feb 2 03:30:24 2017 +0100
+
+    Merge pull request #34 from ArkEcosystem/doweig-playground
+    
+    Various bug fixes
+
+commit 185e4cebc93f66e827490de49520b5a1ae08477d
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Thu Feb 2 02:28:16 2017 +0800
+
+    fix send ark form passphrase auto fill
+
+commit 9283ab8c3958eeb7b48f0f8aa17e7176dd5f7701
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Thu Feb 2 02:21:09 2017 +0800
+
+    revert promise change
+
+commit 28a775219b99779ee3d0a05b0afc4f7c4a589775
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Wed Feb 1 21:04:46 2017 +0800
+
+    minor bug fixx
+
+commit c71c8ef3abf38ab0e2dac44414cacfd3c2a9cd04
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Wed Feb 1 20:56:55 2017 +0800
+
+    remove debug
+
+commit 85b1959a39b6d05ad644d30984b2fd8e1bdab72a
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Wed Feb 1 20:53:15 2017 +0800
+
+    typo
+
+commit 57707a4b711ff851c8a99369ba64d97bbcce16fb
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Wed Feb 1 20:51:18 2017 +0800
+
+    remove debug
+
+commit e1e07a9f2f57e0d22b630c2e031a4bbcdf327941
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Wed Feb 1 20:40:24 2017 +0800
+
+    disable clickOutsideToClose on ark send popup - fixes #5
+
+commit ca8ab642d09e15e7ce41eb80b350033064e3c097
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Wed Feb 1 18:40:21 2017 +0800
+
+    making app loading smoother - fixes #1
+
+commit 01647d71e496daaab7ae6314eba3e601a0b42492
+Author: fix <fx.thoorens@gmail.com>
+Date:   Wed Feb 1 11:35:30 2017 +0100
+
+    use getAccount instead of fetchAccount (so no need to be connected)
+
+commit 36c3f733e28a9cd1dcce817d4223474e36d4dd35
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Wed Feb 1 17:39:14 2017 +0800
+
+    trim form fields for send ark form - fixes #2
+
+commit 75d19391f017e33634c9d97f59961e597ea754cf
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Wed Feb 1 17:25:11 2017 +0800
+
+    remove duplicate code
+
+commit addf43da435689d9f582e000c54629ac8ecf7b3a
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Wed Feb 1 17:13:25 2017 +0800
+
+    add max smartbridge length to 64 char in send ark form - fixes #8
+
+commit 76ab63981182465d1c809d1099c3c4dd6c75a4a8
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Wed Feb 1 17:07:36 2017 +0800
+
+    refactor and improve error handling in account controller - fixes #9
+
+commit 8d132b049918f51142c61f8c68b9f0012cdf0936
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Wed Feb 1 16:35:32 2017 +0800
+
+    add forced validation on send ark form - partial fix for #8
+
+commit 2263689e85972deed0f6a643ddd8c60e9807e0dc
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Wed Feb 1 14:15:56 2017 +0800
+
+    fix broken send button
+
+commit 3809f35fbbd910961160df0d047cd4368cdf7b01
+Author: Guillaume Verbal <guillaume.verbal@gmail.com>
+Date:   Tue Jan 31 17:16:22 2017 +0800
+
+    update deprecated packages
+
+commit 1eedc578cabff12495780ed748ec47da2607537c
+Author: fix <fx.thoorens@gmail.com>
+Date:   Thu Jan 19 23:11:49 2017 +0100
+
+    last nice version
+
+commit a8c32816d6ce39bcb448e86e4ffd90bddfd507be
+Author: fix <fx.thoorens@gmail.com>
+Date:   Wed Jan 18 11:23:06 2017 +0100
+
+    fixed not working translation tags
+
+commit ea6fe7c6a622454e93cb8c1c0c9d0e4e4cb530cf
+Author: fix <fx.thoorens@gmail.com>
+Date:   Wed Jan 18 09:59:40 2017 +0100
+
+    improved management of passphrases and network
+
+commit 3ccb6824fd29fbc35ddcbb9f84758b6a5ad3b635
+Author: fix <fx.thoorens@gmail.com>
+Date:   Wed Jan 18 09:59:12 2017 +0100
+
+    first iteration for translations
+
+commit 2d9500f2196a51d76ca47ba557bb4db2917d8abb
+Author: fix <fx.thoorens@gmail.com>
+Date:   Tue Jan 17 12:29:21 2017 +0100
+
+    improved switch between networks
+
+commit fd6458c5763df1952eed0619f346aa3e3fed621d
+Author: fix <fx.thoorens@gmail.com>
+Date:   Wed Jan 11 18:35:59 2017 +0100
+
+    improved README
+
+commit 957bf3589f2d7c21fe597772d88905236a4b63fc
+Merge: 72a02d6 3f0ec48
+Author: fix <fx.thoorens@gmail.com>
+Date:   Wed Jan 11 18:03:02 2017 +0100
+
+    Merge branch 'master' of https://github.com/ArkEcosystem/ark-desktop
+
+commit 72a02d6132864238aeb253c33497cb13a0c35bd1
+Author: fix <fx.thoorens@gmail.com>
+Date:   Wed Jan 11 18:01:37 2017 +0100
+
+    bumping version
+
+commit 1d57050b6ac42e5f6061f1011f55a6f556c1b0d3
+Author: fix <fx.thoorens@gmail.com>
+Date:   Wed Jan 11 17:37:31 2017 +0100
+
+    upgrade to new version of ark
+
+commit 3f0ec48d5fb243fcde6aed9dec76937e6ee38bf2
+Author: François-Xavier Thoorens <fx.thoorens@gmail.com>
+Date:   Fri Nov 25 09:06:38 2016 +0100
+
+    Update README.md
+
+commit 718ed76e7c677b40a101dd2872eaa445d64545e0
+Author: fix <fx.thoorens@gmail.com>
+Date:   Thu Nov 24 14:45:10 2016 +0100
+
+    branding
+
+commit 1bb0e4b27b3caa9cb416767e8a41c96ce19e4b3f
+Author: fix <fx.thoorens@gmail.com>
+Date:   Thu Nov 24 13:30:59 2016 +0100
+
+    bumping version
+
+commit 2666aa86ed3aec7ba2dce806b3c70937dab78cdd
+Author: fix <fx.thoorens@gmail.com>
+Date:   Thu Nov 24 13:24:40 2016 +0100
+
+    initial commit

@@ -1,0 +1,168 @@
+commit 3b97be6e8740f4e76d0cad8d6a3ad60dabff5bbd
+Merge: 69f4f44 79bc27b
+Author: WPStudio <benjamin@wpstudio.com>
+Date:   Thu Jan 21 15:06:24 2016 -0500
+
+    Merge branch 'master' of https://github.com/wpstudio/blazecoin
+
+commit 69f4f441a58b3019fb4b83669590e5df9dc42d48
+Author: WPStudio <benjamin@wpstudio.com>
+Date:   Thu Jan 21 15:06:01 2016 -0500
+
+    cleanup
+
+commit 79bc27b56f0a4037f44149ad82450aa34fa1b3fe
+Author: Benjamin Bradley <benjamin@wpstudio.com>
+Date:   Thu Jan 21 15:05:30 2016 -0500
+
+    Delete .gitignore
+
+commit 92322bd3b60812d236527a167da02f697abd622c
+Author: Benjamin Bradley <benjamin@wpstudio.com>
+Date:   Thu Jan 21 15:03:24 2016 -0500
+
+    Delete blazecoin-qt
+
+commit 713d03ada95878f1f0ac4b8a6364016692fef513
+Author: Benjamin Bradley <benjamin@wpstudio.com>
+Date:   Thu Jan 21 15:03:15 2016 -0500
+
+    Delete qrc_blazecoin.cpp
+
+commit fa6dff500c795260535bb61e9a8e675be1be2e6c
+Author: Benjamin Bradley <benjamin@wpstudio.com>
+Date:   Thu Jan 21 15:03:05 2016 -0500
+
+    Delete qrc_res.cpp
+
+commit 8df0c5a136f8ab7dfad1a9abf5f2a177f1a74600
+Author: WPStudio <benjamin@wpstudio.com>
+Date:   Thu Jan 21 15:02:10 2016 -0500
+
+    adding a gitignore
+
+commit d8dacfce274a490aca29f201030f645df25639d7
+Author: Benjamin Bradley <benjamin@wpstudio.com>
+Date:   Thu Jan 21 14:59:49 2016 -0500
+
+    Update README.md
+
+commit 12fcb60dfbef2ea73a267b21470c60fd6d6587cf
+Author: Benjamin Bradley <benjamin@wpstudio.com>
+Date:   Thu Jan 21 14:59:33 2016 -0500
+
+    Update README.md
+
+commit 949c1c70bdef7d3c298071a00885a654547f7c54
+Author: WPStudio <benjamin@wpstudio.com>
+Date:   Thu Jan 21 14:58:27 2016 -0500
+
+    alert about using source
+
+commit 72f8309fac4552cca9ae22cdc9c0cb9c232af295
+Author: WPStudio <benjamin@wpstudio.com>
+Date:   Thu Jan 21 14:55:37 2016 -0500
+
+    modification to coin control
+
+commit b9c14145ef61538d88359ef974f61fe0664f17fc
+Author: Benjamin Bradley <benjamin@wpstudio.com>
+Date:   Thu Oct 2 13:20:15 2014 -0400
+
+    Added new checkpoints
+
+commit 5f5760559dfeabe63c5bbef0814434d0d7723807
+Author: Benjamin Bradley <benjamin@wpstudio.com>
+Date:   Thu Jul 31 10:26:17 2014 -0400
+
+    added a blazeshield logo
+
+commit cd4d6e162a7fcb0af372dd7bf31e94eda84760d6
+Author: Benjamin Bradley <benjamin@wpstudio.com>
+Date:   Mon Jul 7 11:19:05 2014 -0400
+
+    Added new checkpoint
+
+commit d940cd66aabdfd0b76e296603197ffe11f37db81
+Merge: d1ab293 463ca08
+Author: Benjamin Bradley <benjamin@wpstudio.com>
+Date:   Sun Jun 22 06:50:37 2014 -0400
+
+    Merge pull request #6 from wpstudio/dev
+    
+    Update README.md
+
+commit 463ca086b53bdc623063e75e1e1b750b301516cf
+Author: Benjamin Bradley <benjamin@wpstudio.com>
+Date:   Sun Jun 22 06:49:52 2014 -0400
+
+    Update README.md
+
+commit d1ab293faa3555e80f0b68d6a993f6129cbf425f
+Author: Benjamin Bradley <benjamin@wpstudio.com>
+Date:   Sun Jun 22 06:28:15 2014 -0400
+
+    Fixed the Windows Build runtime issue
+
+commit 581ca44ed944e6c84457078c32ef065aa0bee70e
+Author: Benjamin Bradley <benjamin@wpstudio.com>
+Date:   Fri Jun 20 18:43:59 2014 -0400
+
+    added macnotificationhandler.mm dependency to .pro file
+
+commit 3bfd66b24d1a7f33a987f106f8b815e057c9dd8d
+Author: Benjamin Bradley <benjamin@wpstudio.com>
+Date:   Fri Jun 20 18:25:53 2014 -0400
+
+    mac customization
+
+commit 6771f3c4205bd718bd070a00708a7bbfc7d0a3b1
+Author: Benjamin Bradley <benjamin@wpstudio.com>
+Date:   Fri Jun 20 18:06:14 2014 -0400
+
+    tabWindow Mac issue
+
+commit eaa076ca2462e2d43fb67c070566e2a94355003d
+Merge: 90d7836 44d1046
+Author: Benjamin Bradley <benjamin@wpstudio.com>
+Date:   Fri Jun 20 13:37:13 2014 -0400
+
+    Merge pull request #2 from wpstudio/Version2
+    
+    Version 2 fix with Leveldb done right
+
+commit 44d10466ae51d68cfd65eed57a5bbd956246c4f2
+Author: Benjamin Bradley <benjamin@wpstudio.com>
+Date:   Fri Jun 20 13:03:45 2014 -0400
+
+    Version 2 fix with Leveldb done right
+
+commit 90d7836f8a2733151df7db6b54b5dae8755c7f46
+Author: Benjamin Bradley <benjamin@wpstudio.com>
+Date:   Sat Jun 14 09:08:05 2014 -0400
+
+    Added checkpoint for block 60413
+
+commit 6ad3609d6973cf5f1693c5c649d4733a83eb2c92
+Author: Benjamin Bradley <benjamin@wpstudio.com>
+Date:   Wed Jun 4 14:57:25 2014 -0400
+
+    Added checkpoint for block 33000
+
+commit 9240908d5d0a57616ed0a314f2f88abc29fe120e
+Author: wpstudio <benjamin@wpstudio.com>
+Date:   Wed Jun 4 12:19:40 2014 -0400
+
+    Fixed icons
+
+commit 8bd88ba1df70aabe5dc2713f3f3fba7e6b7210dd
+Author: Benjamin Bradley <benjamin@wpstudio.com>
+Date:   Fri May 30 09:17:54 2014 -0400
+
+    Added checkpoint for block 18500
+
+commit dcf686c267a592d6d3928829a0ce2352d8ea923f
+Author: Benjamin Bradley <benjamin@wpstudio.com>
+Date:   Fri May 23 20:47:19 2014 -0400
+
+    Initial Commit

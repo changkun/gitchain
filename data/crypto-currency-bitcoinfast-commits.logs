@@ -1,0 +1,115 @@
+commit 01203412bf91eb7810538f7b4a37503c1fb4e7dd
+Author: Spidersbox <Spider@Spidersbox.com>
+Date:   Sun Oct 22 11:51:04 2017 -0700
+
+    added KGW. version up
+
+commit 25eea2516f01ade75a1383ea2c826bbd0888324e
+Author: Spidersbox <Spider@Spidersbox.com>
+Date:   Sat Sep 30 12:25:53 2017 -0700
+
+    version up
+
+commit d12fccaca23625740debdb8f2336898768c61b91
+Author: Spidersbox <Spider@Spidersbox.com>
+Date:   Sat Sep 30 12:13:30 2017 -0700
+
+    removed sleep in zapwallet. version up
+
+commit 6cf40da9d8736bac926b9345e5bc154d0070728d
+Author: Spidersbox <Spider@Spidersbox.com>
+Date:   Sat Sep 30 12:05:00 2017 -0700
+
+    fixed stake error. added loading messages to splash
+
+commit 5b5ef5470a5062e85ca5fc947f6f2d860ed3321e
+Author: Spidersbox <Spider@Spidersbox.com>
+Date:   Sat Sep 9 17:12:20 2017 -0700
+
+    fixed unlock for stake only. added zapwallettxes
+
+commit 40baf4f90d17754ff9b5baefcfb70de72baa9795
+Author: Spidersbox <Spider@Spidersbox.com>
+Date:   Sat Sep 2 21:49:14 2017 -0700
+
+    added zapwallettxes and check/repair wallet to menu
+
+commit d57961cb65d0dd01f65151ec3b17f9febcaddff1
+Author: Spidersbox <Spider@Spidersbox.com>
+Date:   Sat Sep 2 19:08:13 2017 -0700
+
+    test nStakeTime befor divide
+
+commit d2214e452f8d71dd3e77d77849768581db8ae078
+Author: Spidersbox <Spider@Spidersbox.com>
+Date:   Sun Aug 13 21:20:28 2017 -0700
+
+    version up
+
+commit e7a9fbc983dbb0243f93c6fb60f24b0dee508c29
+Author: Spidersbox <Spider@Spidersbox.com>
+Date:   Sun Aug 13 14:55:33 2017 -0700
+
+    version up
+
+commit a53cf1b62059bb4d0551cbd55c7e0d37bbd3ff69
+Author: Spidersbox <Spider@Spidersbox.com>
+Date:   Sun Aug 13 12:55:20 2017 -0700
+
+    added disconnection of non bcf peers
+
+commit a868cc9154cac509dbd41304cff48c503554a8b8
+Author: Spidersbox <Spider@Spidersbox.com>
+Date:   Thu Jun 29 23:05:54 2017 -0700
+
+    Using a different way to predict staking wait time
+
+commit 0b0086ebc6da9d3b9ea2495d6430c93c576d2183
+Author: Spidersbox <Spider@Spidersbox.com>
+Date:   Tue Jun 27 15:51:26 2017 -0700
+
+    enabled dns seeding
+
+commit ae3e699fc953596e873e7995fb9e8f15b644e4aa
+Author: Spidersbox <Spider@Spidersbox.com>
+Date:   Tue Jun 27 10:03:07 2017 -0700
+
+    corrected home page link
+
+commit e09e68ad045b9dd23eac9bc1c19784040f7a5ecd
+Author: Spidersbox <Spider@Spidersbox.com>
+Date:   Mon Jun 26 22:29:27 2017 -0700
+
+    added staking icon
+
+commit 8ca70bf19b8590a0d1a393cc91dc1eaeb183fd91
+Author: Spidersbox <Spider@Spidersbox.com>
+Date:   Mon Jun 26 17:35:36 2017 -0700
+
+    added staking icons to res
+
+commit 8f0f25b3a352bd33fe134eab6b8e37ba520ecf09
+Author: Spidersbox <Spider@Spidersbox.com>
+Date:   Sun Jun 25 17:18:40 2017 -0700
+
+    corrected link on logo
+
+commit ca8aec5f8f6424246272bd1bd1ff33d58f6e2028
+Author: Spidersbox <Spider@Spidersbox.com>
+Date:   Sun Jun 25 14:34:37 2017 -0700
+
+    added unlock to stake and click on logo to open browser to home page
+
+commit 2aa186458e640e88b21862eb0adcc2ffe239b903
+Author: medicoincrypto <cryptomedicoin@gmail.com>
+Date:   Mon Dec 8 16:22:03 2014 +1300
+
+    BitcoinFast Code
+    
+    BitcoinFast
+
+commit 9c68d0f44de8f0dff4c7d54e3c2d6a9350432f48
+Author: BitCoinFast <bitcoinfastteam@gmail.com>
+Date:   Mon Dec 8 16:05:56 2014 +1300
+
+    Initial commit

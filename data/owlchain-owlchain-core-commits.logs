@@ -1,0 +1,2285 @@
+commit a9f2408bb63a35a08c1c24306476736947b5f0fa
+Merge: 486f222 b8c5911
+Author: cmcm2222 <cmcm3433@gmail.com>
+Date:   Thu Sep 14 13:57:14 2017 +0900
+
+    Merge pull request #8 from edubai/master
+    
+    Spelling mistakes.
+
+commit b8c5911940890f019350550d001dba28bfedc424
+Author: edubai <ddxxbb@gmail.com>
+Date:   Wed Sep 13 12:16:31 2017 +0400
+
+    Spelling mistakes.
+    
+    Spelling mistakes fixes.
+
+commit 486f222c5214c03b1c928b401ff8e2d703d5fb7b
+Author: Knolza <knolza2016@gmail.com>
+Date:   Sun Apr 30 03:07:10 2017 +0900
+
+    toggle on sudo command
+
+commit 8c5c8ea4c01da94392d8c9e3fc815dd2ddd97250
+Author: Knolza <knolza2016@gmail.com>
+Date:   Sun Apr 30 03:02:36 2017 +0900
+
+    Fix travis-ci script
+
+commit 415a36260aab7b397dfab9dea8420f54b96171f4
+Author: Knolza <knolza2016@gmail.com>
+Date:   Sun Apr 30 02:53:39 2017 +0900
+
+    Fix shell script error
+
+commit c448aec5cb12ef7b791a3df0094522ec51bf6759
+Author: Knolza <knolza2016@gmail.com>
+Date:   Sun Apr 30 02:51:08 2017 +0900
+
+    Fix linux sodium install
+
+commit 260b0848204e8edfc946b416ea2cbae5751c44c9
+Author: Knolza <knolza2016@gmail.com>
+Date:   Sun Apr 30 02:28:28 2017 +0900
+
+    not suppot travis-ci for linux
+
+commit bdf4950c3de6c354199a201a8e3645011844f4f6
+Author: Knolza <knolza2016@gmail.com>
+Date:   Sun Apr 30 02:24:42 2017 +0900
+
+    fix travis ubuntu-trusty
+
+commit 513e77aa1b2bac21fe15e43815948f98a5f797e5
+Author: Knolza <knolza2016@gmail.com>
+Date:   Sun Apr 30 02:16:07 2017 +0900
+
+    Set up travis-ci ubuntu test
+
+commit e23b46157226a3b7be102e341b1b40de41d5c791
+Author: Knolza <knolza2016@gmail.com>
+Date:   Sun Apr 30 02:15:29 2017 +0900
+
+    Remove to!string in unittest
+
+commit c85dd5cbd262a61dbc1a11239c9a5b9f7f8fdd51
+Author: Yezune Choi <knolza2016@gmail.com>
+Date:   Sun Apr 30 01:38:35 2017 +0900
+
+    remove installed package
+
+commit cacb3d5a152ce678eacf1f7bf57479e321ee51eb
+Author: Knolza <knolza2016@gmail.com>
+Date:   Sun Apr 30 01:32:37 2017 +0900
+
+    change travis-ci os
+
+commit 40b5be9cee6c88d46829673a93c6d76cec0c847e
+Author: Knolza <knolza2016@gmail.com>
+Date:   Sun Apr 30 01:15:33 2017 +0900
+
+    fix package name
+
+commit 4297b59fde9b47a0b2da736ca61a4a4a3055cfa3
+Merge: 56a9ba5 c3d0e00
+Author: Knolza <knolza2016@gmail.com>
+Date:   Sun Apr 30 01:10:33 2017 +0900
+
+    Merge branch 'clips' into PoC0
+    add dependencies for source browsing and debuging.
+
+commit c3d0e00804c74f9ed3d638ab60fd1917e008b2fc
+Author: Knolza <knolza2016@gmail.com>
+Date:   Sun Apr 30 00:24:23 2017 +0900
+
+    Move serializeSDLang to sqlstore.d
+
+commit cf2561aff5a8a514f6ddffcfc65288a81e89f9db
+Author: Knolza <knolza2016@gmail.com>
+Date:   Sun Apr 30 00:18:55 2017 +0900
+
+    Add keypair.d
+
+commit 384260d9d601a0104a9bda0e31df586249fde48d
+Author: Knolza <knolza2016@gmail.com>
+Date:   Sun Apr 30 00:18:33 2017 +0900
+
+    Add sqlstore.d
+
+commit 266a133a9b70b7300fd481f83569b5328c97cbed
+Author: Knolza <knolza2016@gmail.com>
+Date:   Sun Apr 30 00:18:07 2017 +0900
+
+    fix warnings
+
+commit 9f54efb59aaa3f3174e106c2120d6fdee6e7e6d3
+Author: Knolza <knolza2016@gmail.com>
+Date:   Sun Apr 30 00:16:42 2017 +0900
+
+    add all dependencies
+
+commit 56a9ba54c6257908baf88fb4d7b45c6aa8e5f94d
+Author: astonshnam <drumhyun@naver.com>
+Date:   Sat Apr 29 14:57:23 2017 +0900
+
+    Update app.d
+
+commit 1bf375373cdff02071ae8277c173aac08d224e1b
+Author: astonshnam <drumhyun@naver.com>
+Date:   Sat Apr 29 14:41:04 2017 +0900
+
+    Update Contracts list default value
+
+commit 61d81cf0c5c7e0f8619b44b28ee9a8066110b99c
+Author: astonshnam <drumhyun@naver.com>
+Date:   Fri Apr 28 22:07:59 2017 +0900
+
+    Update TrustContract REST API
+
+commit e7f3a850c7f0ff3ec3ea5b0cfe0556bf2e11786a
+Merge: 41cb3f0 f5d4855
+Author: Knolza <knolza2016@gmail.com>
+Date:   Fri Apr 28 16:38:10 2017 +0900
+
+    Merge branch 'PoC0' into clips
+
+commit f5d4855e6be13a33da24b556b37cac10c4e6e7e5
+Author: Knolza <knolza2016@gmail.com>
+Date:   Fri Apr 28 14:46:55 2017 +0900
+
+    remove mutex in clips
+
+commit 41cb3f024b4ca18b54b686a273f10dc271e90def
+Author: Knolza <knolza2016@gmail.com>
+Date:   Fri Apr 28 13:49:55 2017 +0900
+
+    update test
+
+commit fc2ade845eee7cec287b554454381fbe785d9ff1
+Merge: 7fca4ff 7b6b727
+Author: Knolza <knolza2016@gmail.com>
+Date:   Fri Apr 28 13:34:50 2017 +0900
+
+    Merge branch 'TrustContract0' into PoC0
+
+commit 7fca4ff79625adafe2f3fc35939b05f1782308e3
+Author: Knolza <knolza2016@gmail.com>
+Date:   Fri Apr 28 13:33:43 2017 +0900
+
+    Revert "webowl"
+    
+    This reverts commit cbd41ce6eaa5b6eb210401b8868cf1e632961b94.
+
+commit 7b6b72781bc7dc2064aaedeecb621d19e6b298d0
+Author: techny <technykim@gmail.com>
+Date:   Fri Apr 28 10:56:42 2017 +0900
+
+    update rental ssl
+
+commit a0aaaa4e1b4da6270d6891b7a9cd72c17f1af30e
+Merge: b59d94e 17fbc51
+Author: techny <technykim@gmail.com>
+Date:   Fri Apr 28 10:56:07 2017 +0900
+
+    Merge branch 'PoC0' into TrustContract0
+
+commit b59d94e28fb4e607e5060c4c8a90c00f60b28488
+Author: techny <technykim@gmail.com>
+Date:   Fri Apr 28 10:50:26 2017 +0900
+
+    Add coin example
+
+commit 17fbc51c90cdc3ced2398f925c7549e36e2ea7ad
+Author: Knolza <knolza2016@gmail.com>
+Date:   Fri Apr 28 08:37:51 2017 +0900
+
+    initial clips-d
+
+commit cbd41ce6eaa5b6eb210401b8868cf1e632961b94
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Fri Apr 28 00:34:15 2017 +0900
+
+    webowl
+
+commit e3727226a1dcc312a9967b991af9dc83bd971c8f
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Fri Apr 28 00:29:15 2017 +0900
+
+    add
+
+commit 35fd0413073150ed468f673a1d43a18932aab61c
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Fri Apr 28 00:26:10 2017 +0900
+
+    add
+
+commit 36fb57f06e11205b31f2a2cd83ca7c5bb6cd9893
+Author: techny <technykim@gmail.com>
+Date:   Thu Apr 27 20:37:10 2017 +0900
+
+    add Hello Coin Ontology
+
+commit 2f752884112a237e5f6740f58ebda0ed06eda0ae
+Author: Knolza <knolza2016@gmail.com>
+Date:   Thu Apr 27 20:22:31 2017 +0900
+
+    Add ignore
+
+commit 024f67ac2053a8b7a3e7cfbc689c388b5f3a892d
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Thu Apr 27 19:27:32 2017 +0900
+
+    add
+
+commit 65828f29fd3cb3314f39c2416a4f9fb00f5cce01
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Thu Apr 27 19:12:07 2017 +0900
+
+    add
+
+commit 1bc92c89bb63d948805a933ac07c530d7e1ddac7
+Author: Knolza <knolza2016@gmail.com>
+Date:   Thu Apr 27 19:02:17 2017 +0900
+
+    remove botan statement
+
+commit 14c646bed34b5210307b741435fbd541414af34e
+Merge: 0af13dd 696ee0f
+Author: Knolza <knolza2016@gmail.com>
+Date:   Thu Apr 27 18:54:14 2017 +0900
+
+    Merge branch 'TrustContract0' into clips
+
+commit 696ee0fb6c7b4ba655f832033e617801c3353c25
+Merge: f372cf8 13f201e
+Author: Knolza <knolza2016@gmail.com>
+Date:   Thu Apr 27 18:52:01 2017 +0900
+
+    Merge branch 'TrustContract0' of http://github.com/owlchain/owlchain-core into TrustContract0
+
+commit f372cf84ce438cb7c40ff53ad588559422bd06df
+Merge: cbefc12 b7e6a30
+Author: Knolza <knolza2016@gmail.com>
+Date:   Thu Apr 27 18:51:51 2017 +0900
+
+    merge from clips branch
+
+commit 13f201ef39b48dfca61c2744745ffe86112161ca
+Author: astonshnam <drumhyun@naver.com>
+Date:   Thu Apr 27 18:22:53 2017 +0900
+
+    Modify func caculateBalance
+
+commit b7e6a30241a037991caecf45594e3e4c189e6ae7
+Author: astonshnam <drumhyun@naver.com>
+Date:   Thu Apr 27 17:54:39 2017 +0900
+
+    Modify runTrustContract REST API
+
+commit cbefc12d1b6c693206334948265e336f68d73fb9
+Merge: 0fdf0c1 b59b9fd
+Author: Knolza <knolza2016@gmail.com>
+Date:   Thu Apr 27 17:32:34 2017 +0900
+
+    Merge branch 'TrustContract0' of http://github.com/owlchain/owlchain-core into TrustContract0
+
+commit b59b9fda0b952b2207a062232b635794485f991a
+Author: astonshnam <drumhyun@naver.com>
+Date:   Thu Apr 27 17:30:18 2017 +0900
+
+    Update runTrustContract REST API
+
+commit 0af13dd757cb7bace1012f7984245dade222fa58
+Author: Knolza <knolza2016@gmail.com>
+Date:   Thu Apr 27 17:19:03 2017 +0900
+
+    add prefix function
+
+commit 97c637727dbfef1c6ea7d4347fc909352ce59e07
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Thu Apr 27 17:09:07 2017 +0900
+
+    add function
+
+commit 3d67123f6f5d1ab98ed7a742f1bf5a1e5e1a387d
+Author: astonshnam <drumhyun@naver.com>
+Date:   Thu Apr 27 16:51:34 2017 +0900
+
+    Update runTrustContract REST API
+
+commit 3e2aa16be7aaacc83acfa4185c06cb9d5d00a58c
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Thu Apr 27 16:50:22 2017 +0900
+
+    add
+
+commit ec1b4dbf40cee952147e1116d82e400411e93d64
+Author: Knolza <knolza2016@gmail.com>
+Date:   Thu Apr 27 16:31:42 2017 +0900
+
+    initial code for reedsolomon encode/decode
+
+commit 2f55cce6a381904e403cf67a0e94f9ab2d221e6d
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Thu Apr 27 14:18:21 2017 +0900
+
+    modify
+
+commit 117e923c8c070f2fc19f47c87e9c45cbcebe4f5c
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Thu Apr 27 14:07:44 2017 +0900
+
+    modify button
+
+commit b4ee19e7b81b92899f4f4f4607ad054ee50644d4
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Thu Apr 27 01:26:31 2017 +0900
+
+    add
+
+commit 4fe031a9816591d2ab92093395b1d304548158d3
+Merge: fefc8ad 0fdf0c1
+Author: Knolza <knolza2016@gmail.com>
+Date:   Wed Apr 26 19:12:42 2017 +0900
+
+    Merge branch 'TrustContract0' into clips
+    
+    add reasoning and ui
+
+commit 0fdf0c11226305830796e7d05e8ed0e33f97b8c0
+Merge: d8ca88d 51a8d6d
+Author: Knolza <knolza2016@gmail.com>
+Date:   Wed Apr 26 19:11:46 2017 +0900
+
+    update reasoning
+
+commit d8ca88d6323c708f1c8e0b2b0fc1983fbc200852
+Author: Knolza <knolza2016@gmail.com>
+Date:   Wed Apr 26 19:01:27 2017 +0900
+
+    inital code for Reasoning
+
+commit a44ee7115531b32d9015c9412eb31d190e05bbc1
+Author: Knolza <knolza2016@gmail.com>
+Date:   Wed Apr 26 19:01:06 2017 +0900
+
+    OCCP -> OCP
+
+commit b68bda2b202f7101145d8a37099600002801ba82
+Author: Knolza <knolza2016@gmail.com>
+Date:   Wed Apr 26 19:00:45 2017 +0900
+
+    Add clips-d
+
+commit 736f7046753843e3428449218f4531798d435339
+Author: Knolza <knolza2016@gmail.com>
+Date:   Wed Apr 26 19:00:28 2017 +0900
+
+    OCCP -> OCP(Owlchain Consesus Protocol)
+
+commit 5609979ac0f9ba215d117a1e165feeeb1f45d0e2
+Author: Knolza <knolza2016@gmail.com>
+Date:   Wed Apr 26 18:57:44 2017 +0900
+
+    Ignore bin file
+
+commit 51a8d6dcce5f143ab7208048b9ea596205e526c9
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Wed Apr 26 17:42:28 2017 +0900
+
+    add_modify
+
+commit 42f7b89e032a2fc26a69704ba3e27badd743f5e3
+Author: astonshnam <drumhyun@naver.com>
+Date:   Wed Apr 26 16:24:10 2017 +0900
+
+    Update confirmedTrustContract REST API
+
+commit 1c0336b5d1da1d911b1ed0f830b69e71e36998a9
+Author: astonshnam <drumhyun@naver.com>
+Date:   Wed Apr 26 16:14:27 2017 +0900
+
+    Update validateTrustContract, confirmedTrustContract
+
+commit ec9cf57c3ba2bcb960eeb7ac5853b99bf7a123dc
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Wed Apr 26 11:33:06 2017 +0900
+
+    function modify
+
+commit 6ec6412f39ab215ac2f489413f3d6dd1b462b20b
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Wed Apr 26 10:41:23 2017 +0900
+
+    data.reverse()
+
+commit 7bbd35a1cb5151e44fe634904b35958a2aaa5965
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Tue Apr 25 22:59:48 2017 +0900
+
+    add_func
+
+commit cb624615e6c68ab06a31e62c0e6d1da6e8f0e5d7
+Author: techny <technykim@gmail.com>
+Date:   Tue Apr 25 21:30:11 2017 +0900
+
+    add Example menu code(funding)
+
+commit 1365e6cc41d241e78b8404b99cd8371fc245f70b
+Author: techny <technykim@gmail.com>
+Date:   Tue Apr 25 21:20:16 2017 +0900
+
+    contract examples upload
+
+commit af96eb02bf78f2ed811d799c09e54b806f0b3abb
+Author: techny <technykim@gmail.com>
+Date:   Tue Apr 25 20:11:49 2017 +0900
+
+    example codes upload
+
+commit 91839fac0c4a0993f55204129fb7c4a3a57e5cde
+Author: techny <technykim@gmail.com>
+Date:   Tue Apr 25 17:42:08 2017 +0900
+
+    typing error correction
+
+commit 7b003fd51d861695ff72ed203c6bb7c947978f45
+Author: techny <technykim@gmail.com>
+Date:   Tue Apr 25 17:40:31 2017 +0900
+
+    typing error correction
+    
+    (ofthiscontent => of this content)
+
+commit 4044f4024cec50ebcec27a1e1f57f72c58bcb700
+Author: astonshnam <drumhyun@naver.com>
+Date:   Tue Apr 25 19:40:25 2017 +0900
+
+    Update TrustContract REST API
+
+commit 7ce97a02871e9578a36fb1fe08e38c48be1cbf96
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Tue Apr 25 18:33:40 2017 +0900
+
+    add
+
+commit ddd9a1c79f483c5ddf9ced7a8f58abb0b2249b11
+Merge: d017f85 b243331
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Tue Apr 25 18:31:43 2017 +0900
+
+    Merge branch 'TrustContract0' of https://github.com/owlchain/owlchain-core into TrustContract0
+
+commit d017f85e5c7e01257d84634428eea9274e3ef872
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Tue Apr 25 18:31:31 2017 +0900
+
+    add_func
+
+commit b2433314659bc341dd3ae750b786c079e193c68f
+Author: astonshnam <drumhyun@naver.com>
+Date:   Tue Apr 25 18:21:33 2017 +0900
+
+    Update confirmedTrustContract REST API
+
+commit 2291b40a6e30eca859fd3c794597dfd49f39856e
+Author: astonshnam <drumhyun@naver.com>
+Date:   Tue Apr 25 17:51:22 2017 +0900
+
+    Update runTrustContract REST API
+
+commit e34c4924108dfbd88fc157f1edefd45e535c4167
+Author: astonshnam <drumhyun@naver.com>
+Date:   Tue Apr 25 16:59:02 2017 +0900
+
+    Update app.d
+
+commit 8c2225ef18701e6769752964f97dc3170bf4de2b
+Author: techny <technykim@gmail.com>
+Date:   Tue Apr 25 16:33:57 2017 +0900
+
+    Add voting sample owl file
+
+commit 5d911defd28a801c4495d32b1248d1ae2fbf288a
+Author: astonshnam <drumhyun@naver.com>
+Date:   Tue Apr 25 15:02:39 2017 +0900
+
+    Update TrustContract REST API
+
+commit a343c5025748103b5bd8df58356b33ba5a553625
+Author: taekhoon kim <technykim@gmail.com>
+Date:   Tue Apr 25 11:42:07 2017 +0900
+
+    Voting script changed
+
+commit 16cf45f7008789f9e4acc8a6dcc4f3942812f863
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Tue Apr 25 10:25:45 2017 +0900
+
+    add voting.sdl
+
+commit 7b85350886af799d73fad95108812dd5eb52c1fd
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Tue Apr 25 01:38:12 2017 +0900
+
+    add img
+
+commit c33220cf7582403d1ebc148e69eee2999c211513
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Mon Apr 24 17:25:05 2017 +0900
+
+    modify_img
+
+commit cb0b7efcf3dbba683e2bf66a29c22203cfa3edcf
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Mon Apr 24 16:32:22 2017 +0900
+
+    s
+
+commit 18f50dc12b28491f6313242a0b7037bf2ae8bf21
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Mon Apr 24 16:29:37 2017 +0900
+
+    add_function
+
+commit 665b9132a6fe59a65fe15a1a6aad1ea3c9e2e3c6
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Mon Apr 24 15:26:58 2017 +0900
+
+    modify_func
+
+commit 36d3aee91f984cbf7e6b75b8312746436d8a69e5
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Mon Apr 24 14:30:13 2017 +0900
+
+    add
+    /blockchain/trustcontract/validateTrustContract
+
+commit a72f49c50749b29a3cf46962deb1a864f7ca4adb
+Author: astonshnam <drumhyun@naver.com>
+Date:   Mon Apr 24 14:17:57 2017 +0900
+
+    Update validateTrustContract API
+
+commit e436c638fe62ce87e2b5a96b1ac4642bdf63374b
+Author: astonshnam <drumhyun@naver.com>
+Date:   Mon Apr 24 13:27:01 2017 +0900
+
+    Update validateTrustContract API
+
+commit b30c23c060a0df0d7644929062698bba3d398da1
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Mon Apr 24 11:25:29 2017 +0900
+
+    midify_image
+
+commit fefc8add928ab3d688aa3ccde8ff3b76684961ae
+Merge: a564871 b32315a
+Author: Knolza <knolza2016@gmail.com>
+Date:   Mon Apr 24 08:00:44 2017 +0900
+
+    Merge remote-tracking branch 'origin/TrustContract0' into clips
+
+commit a5648716472256ea0978f21b6cc61cc30b506935
+Merge: 29eb01e 75c48be
+Author: Knolza <knolza2016@gmail.com>
+Date:   Mon Apr 24 08:00:26 2017 +0900
+
+    Merge branch 'PoC0' into clips
+
+commit b32315aea652d5e91247a1f07510d832a148d54c
+Author: astonshnam <drumhyun@naver.com>
+Date:   Sun Apr 23 19:02:18 2017 +0900
+
+    Update app.d
+    
+    Update unites
+
+commit 99cf39f55f09ea8253c63d857df94eb9c3035263
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Sun Apr 23 10:02:52 2017 +0900
+
+    add
+
+commit bdec91e237ec983af6f6da8627bfee50ddc9e2a4
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Sun Apr 23 09:46:52 2017 +0900
+
+    add
+
+commit 1b5c4ae3558028ff5d8a026be210ea8c682e140c
+Author: Mac <mac@Macui-MacBook-Pro.local>
+Date:   Sun Apr 23 01:05:48 2017 +0900
+
+    add
+
+commit b588f231dc24d7fafd5a318e06708c62d5394788
+Merge: 7bf1509 2e06d2f
+Author: Mac <mac@Macui-MacBook-Pro.local>
+Date:   Sat Apr 22 11:42:37 2017 +0900
+
+    Merge branch 'TrustContract0' of https://github.com/owlchain/owlchain-core into TrustContract0
+    
+    add
+
+commit 2e06d2fbabbdc13cc0f27c9e4a7c728e2b91ab29
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Sat Apr 22 09:24:02 2017 +0900
+
+    add
+
+commit 7bf1509b112eaebd42dcd8a762949420fbf07857
+Author: Mac <mac@Macui-MacBook-Pro.local>
+Date:   Sat Apr 22 01:59:15 2017 +0900
+
+    add
+
+commit 35b08d91862926f4a664c003252868f7e478ee47
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Fri Apr 21 19:03:45 2017 +0900
+
+    add
+
+commit b3040bf087add49413b33188bf5648da0fddffb3
+Author: astonshnam <drumhyun@naver.com>
+Date:   Fri Apr 21 18:17:50 2017 +0900
+
+    Create reqTrustContractList, Update runTrustContract
+
+commit d6e1e6a7758479572c0aed41f40576d5e823f8c1
+Author: taekhoon kim <technykim@gmail.com>
+Date:   Fri Apr 21 16:17:35 2017 +0900
+
+    Git Test
+
+commit 695f46fa294d22b3710eeb2ecffd1bc42e0ded9e
+Merge: 7f56775 75c48be
+Author: astonshnam <drumhyun@naver.com>
+Date:   Fri Apr 21 15:29:21 2017 +0900
+
+    Merge branch 'PoC0' into TrustContract0
+
+commit 7f5677503c0663710bc7d40065fc7782d87045e3
+Author: astonshnam <drumhyun@naver.com>
+Date:   Fri Apr 21 15:28:08 2017 +0900
+
+    Create TrustContract REST API
+
+commit 85ae48ad87114f5a2f8cdefa74f1a3f6de96b0c3
+Merge: b3e8999 29eb01e
+Author: astonshnam <drumhyun@naver.com>
+Date:   Fri Apr 21 15:26:59 2017 +0900
+
+    Merge remote-tracking branch 'origin/clips' into TrustContract0
+
+commit 29eb01e63c0ad9f42fc0bf56e22e69e9fd5a5823
+Author: Knolza <knolza2016@gmail.com>
+Date:   Fri Apr 21 07:00:01 2017 +0900
+
+    fix mis-spell
+
+commit 70a60ae2ff353f3c91c2ab17b53a6838c840ee4d
+Author: Knolza <knolza2016@gmail.com>
+Date:   Fri Apr 21 06:50:44 2017 +0900
+
+    Add CLIPS Rule engine
+
+commit 75c48becf8a1056b15801062ac733878e960db65
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Thu Apr 20 17:50:36 2017 +0900
+
+    add_func
+
+commit b3e89991fffd990634c3aa92acd1f0119ad54d89
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Thu Apr 20 14:15:16 2017 +0900
+
+    add
+
+commit fe9aeda6c61717a18c8cc7093736dc84e5a2da86
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Thu Apr 20 13:34:47 2017 +0900
+
+    add_copy_test_code
+
+commit e01fac5d7d54045c51b11dc6478c91c818d6fb15
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Thu Apr 20 10:25:19 2017 +0900
+
+    add1
+
+commit 4bfe6d6a58b4faeceb80423c6c13b4e5f1359603
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Thu Apr 20 01:59:19 2017 +0900
+
+    add_files
+
+commit 504f1dee5ef214ed81766de8b1fc3dd73f41d8bf
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Wed Apr 19 17:49:58 2017 +0900
+
+    add
+
+commit 8e89879f57b0ef87d7df7b24959dea5940b07915
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Wed Apr 19 17:03:31 2017 +0900
+
+    add commit
+
+commit 7cb5ff0afeca0b627cafab26e840bbac3dde5eb0
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Wed Apr 19 16:05:19 2017 +0900
+
+    add
+
+commit 9afd237cd3f070f67608f47775315adfce95d014
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Wed Apr 19 14:37:22 2017 +0900
+
+    add1
+
+commit 93d5197922bd487d8ce9b0bab5c169bb2d09929d
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Wed Apr 19 00:28:55 2017 +0900
+
+    add_commit
+
+commit 66ec4233d8e1a248371ce51672952d40aeca6e22
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Tue Apr 18 21:32:35 2017 +0900
+
+    add_commit
+
+commit 5096bb1efcdb4ebf21a4f92711a0267f5e36f0bf
+Author: Mac <mac@Macui-MacBook-Pro.local>
+Date:   Tue Apr 18 01:27:16 2017 +0900
+
+    add
+
+commit 212f6b0b8d24265ffe419c9d4728f627f96f658a
+Author: Mac <mac@Macui-MacBook-Pro.local>
+Date:   Tue Apr 18 01:17:15 2017 +0900
+
+    add commit
+
+commit 81a130343ebe83bd0e715da1e7165c92d1ec63db
+Author: Mino Choi <mc@owl.community>
+Date:   Mon Apr 17 18:03:23 2017 +0900
+
+    Create ReedSolomon.java
+    
+    Sample C# code for Reed-Solomon Address Formatting from Nxt
+
+commit 66ee840b8f24b1adaca42deb31e6f6a5d17bf576
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Sun Apr 16 01:20:21 2017 +0900
+
+    modify
+
+commit 733695d6178fb508cb7c89f8d49aa53ae02ffd39
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Sun Apr 16 01:19:05 2017 +0900
+
+    add_publishing
+
+commit 80e076e7495977ed2a0ad01d23338d3c792e9751
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Sat Apr 15 23:05:42 2017 +0900
+
+    add_func
+
+commit e759c52197fa510f71d2841d71a5ec9daa6b9b94
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Sat Apr 15 00:06:15 2017 +0900
+
+    Vocabulary
+
+commit e4253da44e128ff6bc2505b54c6f9ba6cca2e3fa
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Fri Apr 14 17:21:48 2017 +0900
+
+    add_func
+
+commit 343f909ebce12ec79b2652f2f58dbd5b96f30553
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Fri Apr 14 10:29:39 2017 +0900
+
+    set_trust_contact
+
+commit 8675d09318b23ff5318af4cef7f9b6fb8ebfe78e
+Merge: 48e5820 e4d71c1
+Author: Knolza <knolza2016@gmail.com>
+Date:   Fri Apr 14 09:35:37 2017 +0900
+
+    Merge branch 'PoC0' of http://github.com/owlchain/owlchain-core into PoC0
+
+commit 48e5820492e1ae8629d6ee4c0fcaf684924e054c
+Author: Knolza <knolza2016@gmail.com>
+Date:   Fri Apr 14 09:34:22 2017 +0900
+
+    Update vibe-d version
+
+commit e4d71c1c4422642f14cae7700926d9d08c678a27
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Fri Apr 14 00:11:33 2017 +0900
+
+    reset folder
+
+commit 23608b5b7c7a182b5a55f4cf7b9fac5238db7eab
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Thu Apr 13 21:18:05 2017 +0900
+
+    add_trust
+
+commit bb82e14381768b2142dad30f6f02ba85dd8ca2b6
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Thu Apr 13 17:54:09 2017 +0900
+
+    add_func
+
+commit b2ed30edca960d747d92f2807ebb9d94adba79ae
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Thu Apr 13 17:07:08 2017 +0900
+
+    add_first
+
+commit 975efb8bafaf70dbfeeb6fca8b0ebedfa5c19789
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Thu Apr 13 01:07:22 2017 +0900
+
+    trust Contract
+
+commit 7c09f3925694327e61ceb1dd960b653f8ec4a92c
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Wed Apr 12 17:01:40 2017 +0900
+
+    add _ popup
+
+commit 5fa2b8bad729c3077232e36f4244136ba6a188a8
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Wed Apr 12 15:28:39 2017 +0900
+
+    add_config
+
+commit 4563f58ccb84339bc61748ddeac0757a61f73dba
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Tue Apr 11 17:49:16 2017 +0900
+
+    add _config
+
+commit 977742d11f8a129e46220417202fb0ca8e3eb853
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Tue Apr 11 15:01:10 2017 +0900
+
+    add configulation
+
+commit 3c6c40e4a3e7b26eb7319a26e6cf682157e5c7ab
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Tue Apr 11 10:17:15 2017 +0900
+
+    add comma
+
+commit 42bd60cd887a8188a03ceb129b36ce1c5ba0330f
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Tue Apr 11 09:44:55 2017 +0900
+
+    add_modify_css
+
+commit e3ff01f8771fcfaa2a641a5289e435ad3540c6a5
+Author: Mac <mac@Macui-MacBook-Pro.local>
+Date:   Tue Apr 11 00:31:13 2017 +0900
+
+    add
+
+commit cdb7cc8659bae871d356fe4ff450ee679342c7a3
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Tue Apr 11 00:20:04 2017 +0900
+
+    add_trust_module
+
+commit fcf04087061271b00f9a4501d4ad8c650283a9ec
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Mon Apr 10 15:34:21 2017 +0900
+
+    2nd commit
+
+commit 3002ffb2649845df982203446e92d141ac7d9b35
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Mon Apr 10 14:32:33 2017 +0900
+
+    set trust-contract
+
+commit 506a1f37d90c21609085a19af99f8cdf820e7e6f
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Mon Apr 10 14:18:40 2017 +0900
+
+    add_image
+
+commit d20aa683fdaf86872d2ea896e497a42d7e459169
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Mon Apr 10 13:34:50 2017 +0900
+
+    Login add_moudle
+
+commit 6a25ef8b07893ef692d49bc5e096160ed35ad289
+Author: Mac <mac@Macui-MacBook-Pro.local>
+Date:   Mon Apr 10 00:27:17 2017 +0900
+
+    add script:
+
+commit c76b2beee9558a0321060a37e9ce967a15570a2b
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Sun Apr 9 22:34:29 2017 +0900
+
+    add_module
+
+commit 2777de4f096bc833154fe120dda1511bc23f9a05
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Sun Apr 9 02:09:34 2017 +0900
+
+    add_function
+
+commit 562652f1e69d91a65990e6d62bcc940868a6b5e1
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Sun Apr 9 00:18:42 2017 +0900
+
+    create_boscoin_account
+
+commit 9531e1353b68b3ff201a1e3be607acc3a8ddeb2f
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Sat Apr 8 01:10:16 2017 +0900
+
+    add_login
+
+commit 241da324bfacd751ab53472215ee225c4e76cfa8
+Author: astonshnam <drumhyun@naver.com>
+Date:   Fri Apr 7 17:23:33 2017 +0900
+
+    Modify api.d
+    
+    Modify api.d
+
+commit 24ed238cba75a943ad18b22f7262b504239e32c6
+Author: astonshnam <drumhyun@naver.com>
+Date:   Fri Apr 7 17:23:18 2017 +0900
+
+    Update app.d
+    
+    Add import path
+
+commit 19fce2f122842b6b21703401fc8d601a4ef350a0
+Author: astonshnam <drumhyun@naver.com>
+Date:   Fri Apr 7 17:22:46 2017 +0900
+
+    Modify wallet.d
+    
+    Add class Account
+
+commit fd930685998ae03158a69442806a164f4d23cd31
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Fri Apr 7 14:36:06 2017 +0900
+
+    main_trust css modify
+
+commit 50ceef93caeafcd4c75a22fd1fd17bc6c12e6d99
+Author: astonshnam <drumhyun@naver.com>
+Date:   Fri Apr 7 10:55:53 2017 +0900
+
+    Modify app.d
+    
+    Update unites
+
+commit 0614a55b523cac134c81990749e40155399afb86
+Author: astonshnam <drumhyun@naver.com>
+Date:   Fri Apr 7 10:43:37 2017 +0900
+
+    Modify webapi.d
+    
+    Add struct CreateAccount
+
+commit 576e1c1ff72161f8cb8c6435dfa3e2554d5be88f
+Author: astonshnam <drumhyun@naver.com>
+Date:   Fri Apr 7 10:43:12 2017 +0900
+
+    Modify app.d
+    
+    createAccount
+
+commit d041cd69c1a56b8f086e627fb4833065a713b6dc
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Thu Apr 6 22:34:16 2017 +0900
+
+    layout_motion
+
+commit 2ceb45d7fc2207d698602275a3cbf6cd9b3e6249
+Merge: 977da74 44fa1d2
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Thu Apr 6 21:57:37 2017 +0900
+
+    Merge branch 'PoC0' of https://github.com/owlchain/owlchain-core into PoC0
+
+commit 977da743d539cfd86e38317aa5acff9fd370b14b
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Thu Apr 6 21:56:27 2017 +0900
+
+    add_motion
+
+commit 44fa1d210919f9703dffc809bb8d0e210102d6c6
+Author: astonshnam <drumhyun@naver.com>
+Date:   Thu Apr 6 20:39:44 2017 +0900
+
+    Update app.d, webapi.d
+
+commit 8f86123a6ef05bb83759caa287171aa005b590f4
+Merge: 95d8b19 644899b
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Thu Apr 6 20:25:19 2017 +0900
+
+    Merge branch 'PoC0' of https://github.com/owlchain/owlchain-core into PoC0
+
+commit 644899bf48da6b19f4a757c0cd6a93572683bcd6
+Author: astonshnam <astonnam@owl.community>
+Date:   Thu Apr 6 20:21:46 2017 +0900
+
+    Update readme.md
+
+commit 95d8b194a1fcb7eb877ec34f007d7966411578d8
+Merge: 9d9c300 518e591
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Thu Apr 6 20:12:21 2017 +0900
+
+    Merge branch 'PoC0' of https://github.com/owlchain/owlchain-core into PoC0
+
+commit 9d9c300789ccc045485cc7293158fe1960b6b72a
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Thu Apr 6 20:12:08 2017 +0900
+
+    making_init
+
+commit 518e591054513c27926fa1af0292e10b802a5f26
+Author: astonshnam <drumhyun@naver.com>
+Date:   Thu Apr 6 20:05:08 2017 +0900
+
+    Update webapi.d
+
+commit cf737929fec9de262a03d8664fa8e4ce88e83c8a
+Author: astonshnam <astonnam@owl.community>
+Date:   Thu Apr 6 19:34:59 2017 +0900
+
+    Update readme.md
+
+commit 696d52e2a5313f91b5008a54f48fc2b53adb49f2
+Author: astonshnam <astonnam@owl.community>
+Date:   Thu Apr 6 19:28:33 2017 +0900
+
+    Update readme.md
+
+commit 0f87b864f8532c5764fe79ad4b3f76db947f8bb4
+Author: astonshnam <drumhyun@naver.com>
+Date:   Thu Apr 6 18:18:23 2017 +0900
+
+    Update app.d, webapi.d
+
+commit 82a89e1818c52cc2444c797f887345d7ddd69e12
+Author: astonshnam <astonnam@owl.community>
+Date:   Thu Apr 6 17:36:41 2017 +0900
+
+    Update readme.md
+
+commit b8d280ad51efaf9977eee7de6d0585fb98fb252e
+Author: icarushong <icarus@actus.kr>
+Date:   Thu Apr 6 17:08:40 2017 +0900
+
+    Add Websocket Interface
+
+commit bc959bc5cb60f8db97842a8bdb87e3d0266dedb6
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Thu Apr 6 01:09:57 2017 +0900
+
+    add create_seed
+
+commit b52d03941e1dada2660594c8f1d07a0e253ac7ff
+Author: astonshnam <drumhyun@naver.com>
+Date:   Wed Apr 5 20:52:53 2017 +0900
+
+    Add SetFreezing, GetBlockSynchronization
+    
+    Add SetFreezing, GetBlockSynchronization
+
+commit 4c4535ff15b8ab281b3f16cd2f9a0bab4ac194e6
+Author: astonshnam <drumhyun@naver.com>
+Date:   Wed Apr 5 19:34:52 2017 +0900
+
+    Modify api-readme.md
+    
+    udouble -> double
+
+commit b080e20793b2ef4304032063ef4061c6a5021dc9
+Author: icarushong <icarus@actus.kr>
+Date:   Wed Apr 5 18:53:37 2017 +0900
+
+    Add Rest API
+
+commit c9ecf5af17fd2b5cda83b970d34ba2a3bf069c76
+Author: astonshnam <drumhyun@naver.com>
+Date:   Wed Apr 5 16:56:27 2017 +0900
+
+    Modify app.d
+
+commit b9e04225646eaa3f9759b2ded9a303d8875e36e7
+Author: astonshnam <drumhyun@naver.com>
+Date:   Wed Apr 5 16:55:04 2017 +0900
+
+    Modify sendTransaction, Add confirmSeed, getBlockInformation
+    
+    Modify sendTransaction, Add confirmSeed, getBlockInformation
+
+commit e4095a10cd200f60696050a2d96191e27c47d271
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Wed Apr 5 00:30:32 2017 +0900
+
+    Receive Bos
+
+commit 640b55213b62f9eed48347a1d5d129fc758f248c
+Author: astonshnam <drumhyun@naver.com>
+Date:   Tue Apr 4 19:31:48 2017 +0900
+
+    Add createSeed()
+    
+    Add createSeed()
+
+commit 92262c9ad26c8c78bd76631d74d7471447d566f4
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Tue Apr 4 17:34:26 2017 +0900
+
+    motion test
+
+commit 8d6109d2b42ea3c170e27ba3e826f6bae4c2c371
+Author: Mac <mac@Macui-MacBook-Pro.local>
+Date:   Tue Apr 4 01:05:39 2017 +0900
+
+    git
+
+commit 0c42627a2fa3bc0af592b5786c45ad6f7622cdae
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Mon Apr 3 21:16:19 2017 +0900
+
+    addFunction Receive func
+
+commit 2b61fa36f4f0aa6c18b778ecec3015b2b05d333d
+Author: astonshnam <drumhyun@naver.com>
+Date:   Mon Apr 3 20:15:04 2017 +0900
+
+    modify shell.d, app.d
+
+commit 725c79d636d6c694efeb6d4f9a60702808def65a
+Author: astonshnam <drumhyun@naver.com>
+Date:   Mon Apr 3 18:16:41 2017 +0900
+
+    modify app.d
+    
+    modify app.d
+
+commit bb86ccd55b3b081b684efe3aaa7c135bd06d5455
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Mon Apr 3 17:26:36 2017 +0900
+
+    Receive Data step1
+
+commit 6e1cc55ed6f47203fae9ea2c78894cc5b4acc4d3
+Author: astonshnam <drumhyun@naver.com>
+Date:   Mon Apr 3 16:33:57 2017 +0900
+
+    Modify api.d, shell.d
+
+commit c5eab05d5a7e93b8f7326ef9cf877f7d20dd8cde
+Author: TaekHoon Kim <technykim@gmail.com>
+Date:   Mon Apr 3 16:33:27 2017 +0900
+
+    Update readme.md
+
+commit 9db69a800e34e7d11abedbe140deceac4d0aac42
+Author: Mac <mac@Macui-MacBook-Pro.local>
+Date:   Mon Apr 3 00:37:05 2017 +0900
+
+    addon
+
+commit bc1406c3bc4844ffb768b795ab367b17f96fb801
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Sun Apr 2 15:26:47 2017 +0900
+
+    trust_contract addon-motion
+
+commit bbc275469ce14b385aca64a6626676d065ba9aa2
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Sun Apr 2 13:18:28 2017 +0900
+
+    trust-contract addon
+
+commit 975d86b5a92eb07240101fc46649d256ecfda026
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Sun Apr 2 01:42:51 2017 +0900
+
+    trust-contract modify
+
+commit 9007422d82cdbbecf7c290dddf78bedb8370a7bd
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Thu Mar 30 23:11:50 2017 +0900
+
+    receiveBos 구현
+
+commit cdf9929088645ca0e1c42a811f8bea9cff5aac00
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Thu Mar 30 19:49:08 2017 +0900
+
+    com
+
+commit e3ce1c668297f47cca4923c39ab30b5121f49355
+Author: Knolza <knolza2016@gmail.com>
+Date:   Thu Mar 30 09:01:59 2017 +0900
+
+    Fix travis-ci dependancy
+
+commit 86037c2e8c21c8ed521c1e8d68c530bfcc4b78d2
+Author: Knolza <knolza2016@gmail.com>
+Date:   Thu Mar 30 08:44:48 2017 +0900
+
+    Fix travis-ci dependency
+
+commit 8fe3dcd62592668858c6de204ad0d1a425db3a85
+Author: Knolza <knolza2016@gmail.com>
+Date:   Thu Mar 30 08:35:26 2017 +0900
+
+    Fix package dependency
+
+commit b1b7ab034280f2aaa72d33865f0fa9b57cc95794
+Author: Knolza <knolza2016@gmail.com>
+Date:   Thu Mar 30 08:16:15 2017 +0900
+
+    Add p2p peer module
+
+commit 4da524b4e954de6b99bf6a85e58827542085dbd4
+Author: Knolza <knolza2016@gmail.com>
+Date:   Thu Mar 30 08:15:52 2017 +0900
+
+    add sodium crypto library sample code
+
+commit 32467fc8e81234382f6613b019a971ad3c3b0ed3
+Author: Knolza <knolza2016@gmail.com>
+Date:   Thu Mar 30 08:15:12 2017 +0900
+
+    Fix for travis-ci dependency
+
+commit 1e0f7dce0a244ddf77a427e2e6cb6d16a4444ca6
+Author: Knolza <knolza2016@gmail.com>
+Date:   Thu Mar 30 07:30:50 2017 +0900
+
+    Remove api member
+
+commit 35765c2c75dd12828b2563c615016bd80be6aac8
+Author: Knolza <knolza2016@gmail.com>
+Date:   Thu Mar 30 07:30:16 2017 +0900
+
+    Fix module name  for unittest error
+
+commit 6d0abb597de9f097afadf28d7f52a62fb8780e58
+Author: Knolza <knolza2016@gmail.com>
+Date:   Thu Mar 30 07:29:09 2017 +0900
+
+    Fix library dependencies
+    
+    Add sodium cryptography library and vibe-sdlang serializer
+
+commit 68e163c26d98f64ad2c2a7ce3ba82b267b493a3e
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Thu Mar 30 00:24:16 2017 +0900
+
+    trust-contract
+
+commit d370e6b959d63f8b609f438347532826d06d2f6f
+Author: Mino Choi <mc@owl.community>
+Date:   Wed Mar 29 10:59:00 2017 +0900
+
+    Update readme.md
+
+commit d5dc6821f6b3c220052fed8662bc57f86ddaf1fd
+Author: astonshnam <drumhyun@naver.com>
+Date:   Wed Mar 29 01:45:46 2017 +0900
+
+    Add UI & WebSocket Interconnection
+    
+    Add UI & WebSocket Interconnection
+
+commit 5a2b08e293af1139c628d2d18303a40c1e6463a5
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Wed Mar 29 01:14:43 2017 +0900
+
+    code-editor
+
+commit a8c10d964a88466518a60b66b6c20a8acdb34f42
+Author: astonshnam <drumhyun@naver.com>
+Date:   Tue Mar 28 23:58:07 2017 +0900
+
+    Add UI & Shell Inter Task Call
+    
+    Add UI & Shell Inter Task Call
+
+commit 7d8d5099a39d0e3c91e5100a9e1824571f8064ff
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Tue Mar 28 01:03:46 2017 +0900
+
+    syntax highlighting textarea
+
+commit 9e0415eec6750d60f434620f13327ad0f385822c
+Author: astonshnam <drumhyun@naver.com>
+Date:   Tue Mar 28 21:32:54 2017 +0900
+
+    Modify api.d
+    
+    getAddress() return type: string -> IAddress
+
+commit eaf0c265d0fa4c260d680a1f18628b2b3c60caaf
+Merge: 1281cc5 7e617f8
+Author: astonshnam <drumhyun@naver.com>
+Date:   Tue Mar 28 21:20:31 2017 +0900
+
+    Modify app.d, webapi.d
+    
+    Modify app.d, webapi.d
+
+commit 1281cc59132e82c0969a0786baa40a37b934d031
+Author: astonshnam <drumhyun@naver.com>
+Date:   Tue Mar 28 20:38:36 2017 +0900
+
+    Define Interfaces
+    
+    IWallet, IAccount, IAddress, IOCCPRequest, IOCCPResponse,
+    IOCCPListener, IOCCPSettings, IShell
+
+commit 76129fc3bd7e4b10ddf4e5d5de585942519d021f
+Author: astonshnam <drumhyun@naver.com>
+Date:   Tue Mar 28 20:36:55 2017 +0900
+
+    Update .gitIgnore
+    
+    Add *.swp, *snippets
+
+commit 7e617f809730a06d6540231cf52089558a4950f3
+Author: Mino Choi <mc@owl.community>
+Date:   Tue Mar 28 18:48:59 2017 +0900
+
+    Update readme.md
+
+commit 3b2d33f0311bebf29b1c5fd3eb065a78ee7c40a4
+Author: Mino Choi <mc@owl.community>
+Date:   Tue Mar 28 18:47:32 2017 +0900
+
+    Update readme.md
+
+commit ed87ff6780de7ef196f3c3c505b289c471d0bff9
+Author: Mino Choi <mc@owl.community>
+Date:   Tue Mar 28 18:39:54 2017 +0900
+
+    Update readme.md
+
+commit 4313b1c7832c89bc3f232761ca3731903769ccef
+Author: astonshnam <drumhyun@naver.com>
+Date:   Fri Mar 24 15:26:27 2017 +0900
+
+    Modify app.d
+    
+    Modify exportAccountFile()’s path
+
+commit bbf813f99013a3917f303a65287a5a156a69b57f
+Author: astonshnam <drumhyun@naver.com>
+Date:   Thu Mar 23 19:28:55 2017 +0900
+
+    modify app.d
+    
+    modify exportAccountFile()
+
+commit 016bf72f55876e717da64ce16675465badd8fadf
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Thu Mar 23 16:25:13 2017 +0900
+
+    _accountAddress
+
+commit befb8a141d6298778996b2c39f0df35fa394068a
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Thu Mar 23 16:10:03 2017 +0900
+
+    add
+
+commit ba64819d536dbeb498c7f79972512645a54bde69
+Author: astonshnam <drumhyun@naver.com>
+Date:   Thu Mar 23 14:23:28 2017 +0900
+
+    test Windows
+    
+    test Windows
+
+commit efa00112ac94583092fd7524fb0bf3e882cbc6fc
+Author: astonshnam <drumhyun@naver.com>
+Date:   Thu Mar 23 13:59:10 2017 +0900
+
+    Modify CreateAccount, exportAccountFile
+    
+    Add CreateAccount.filePath
+
+commit 80a6dbc49a56ead8322ff14a25b99b99c6f02724
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Thu Mar 23 02:24:01 2017 +0900
+
+      :
+
+commit dd31bf4ad43206ec3c7be44eaa1d729b6608f206
+Author: astonshnam <drumhyun@naver.com>
+Date:   Wed Mar 22 23:21:02 2017 +0900
+
+    Add ReceiveBos
+    
+    Add ReceiveBos
+
+commit 3af515ab3e4eab40a774b3e2e994441f1e4a3e73
+Author: astonshnam <drumhyun@naver.com>
+Date:   Wed Mar 22 22:52:18 2017 +0900
+
+    Add exportAccountFile()
+    
+    Add exportAccountFile()
+
+commit a72ed3879095d04dcbd1ab67c8038f5c61e85e2c
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Wed Mar 22 18:07:47 2017 +0900
+
+    test
+
+commit 25fc551050c22878932a594a1dded7bf82942652
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Wed Mar 22 17:56:48 2017 +0900
+
+    add
+
+commit 5569b2469e1fd89aa73e3d943124563cc325be43
+Author: astonshnam <drumhyun@naver.com>
+Date:   Wed Mar 22 16:52:45 2017 +0900
+
+    Update app.d
+    
+    Update Unites
+
+commit 30025553f48832d99975e7af8263c79243d5ac2e
+Author: astonshnam <drumhyun@naver.com>
+Date:   Wed Mar 22 16:40:57 2017 +0900
+
+    Update app.d, webapi.d
+    
+    Add memo of Transaction
+
+commit 6c0d0eeb0dc958a07c3f3014ea46bbfff4c6dc13
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Wed Mar 22 16:02:11 2017 +0900
+
+    send
+
+commit 9b4627e44dc9f3a89b14be2e1740b0969c1082ef
+Author: astonshnam <drumhyun@naver.com>
+Date:   Wed Mar 22 12:52:47 2017 +0900
+
+    Update app.d, webapi.d
+    
+    Create GetAccountTransaction, GetAccountTransaction()
+
+commit be1cb7863e5986de34e456928c0329d15365bff6
+Author: astonshnam <drumhyun@naver.com>
+Date:   Wed Mar 22 12:13:21 2017 +0900
+
+    Update app.d
+    
+    Update app,d
+
+commit 14347656a53c6b088b32fdf14647321bbdf4fba9
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Wed Mar 22 09:43:00 2017 +0900
+
+    test
+
+commit 43921e6f9c6c07e260a85ea1b6b8551b35e7fcc0
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Tue Mar 21 21:54:28 2017 +0900
+
+    기본trnas
+
+commit f0967e83c70f5b21e086af20375b7df6ef83b3f6
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Tue Mar 21 21:46:19 2017 +0900
+
+    수정
+
+commit 2315df9446a7073a61837bfd0d830b6536aed2d7
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Tue Mar 21 21:09:01 2017 +0900
+
+    SEND
+
+commit 20315f7f971fccda5357f05faf8bdb690b1cb01e
+Merge: 29aa7df a74039b
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Tue Mar 21 19:17:41 2017 +0900
+
+    Merge branch 'PoC0' of https://github.com/owlchain/owlchain-core into PoC0
+
+commit 29aa7dfbdc2e2772e483d467ba7b978a86470338
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Tue Mar 21 19:15:16 2017 +0900
+
+    function
+
+commit a74039bbd112252a3c428681fea8e2da0a822c33
+Author: astonshnam <drumhyun@naver.com>
+Date:   Tue Mar 21 19:10:48 2017 +0900
+
+    Update createAcount(), getAcount()
+    
+    Update createAcount(), getAcount()
+
+commit a3637a17dfe18eefd51468f657044b6d3242fba4
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Tue Mar 21 18:57:22 2017 +0900
+
+    test
+
+commit ac20e4945dfa5ebef2386bc5d1419a9ca4324fb4
+Merge: 607c066 06a5f40
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Tue Mar 21 17:50:50 2017 +0900
+
+    Merge branch 'PoC0' of https://github.com/owlchain/owlchain-core into PoC0
+
+commit 06a5f40631543de2ad9119234b87cf0bab620c84
+Author: astonshnam <drumhyun@naver.com>
+Date:   Tue Mar 21 17:15:40 2017 +0900
+
+    Update app,d
+    
+    Update app,d
+
+commit fc0a9221075408f8db806b06fc659fb615ccae3b
+Author: astonshnam <drumhyun@naver.com>
+Date:   Tue Mar 21 16:56:00 2017 +0900
+
+    Update app.d
+    
+    Update app.d
+
+commit 07c253ff5e39811de3528f9755ad2c8043acf459
+Author: astonshnam <drumhyun@naver.com>
+Date:   Tue Mar 21 16:53:41 2017 +0900
+
+    Update app.d, webapi.d
+    
+    Update app.d, webapi.d
+
+commit 607c0668d40feea54faa66f6673649a258ef1391
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Tue Mar 21 16:07:41 2017 +0900
+
+    add
+
+commit 50128b389684f448e1046670a67b896ff2305c4e
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Tue Mar 21 00:33:23 2017 +0900
+
+    function분리
+
+commit 20cb1a9ec5a2613a2d398d5cf7a3094540ec76a7
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Mon Mar 20 23:54:37 2017 +0900
+
+    Ajax
+
+commit 0d426c471611fa939bcd14222c6e6630afef416a
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Mon Mar 20 13:46:30 2017 +0900
+
+    test
+
+commit 2b5c3c5e237ba6dcd825b26030efd2b8cf7ae52a
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Mon Mar 20 13:37:59 2017 +0900
+
+    dev..
+
+commit 9170a162d9d79fc57f69cf1db09b967cfd9a2154
+Author: Mino Choi <mc@owl.community>
+Date:   Mon Mar 20 10:44:32 2017 +0900
+
+    Update readme.md
+
+commit bbee24ef31d265f770b034e16bc9791074733150
+Author: Mino Choi <mc@owl.community>
+Date:   Mon Mar 20 10:43:49 2017 +0900
+
+    Update readme.md
+
+commit f8c944f92a2e7789c260b7bb76f8270515b6e579
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Mon Mar 20 00:18:50 2017 +0900
+
+    기본설정
+
+commit bc4b993ef3a8fe592a5fdf9430d7a590b6599653
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Sun Mar 19 23:34:59 2017 +0900
+
+    3차 팝업
+
+commit aede577765fead233e33190883097edccbcbade9
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Sun Mar 19 19:53:18 2017 +0900
+
+    block Info 추가
+
+commit 1653b8755a08d215976e64712c853b21eaa0ae92
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Sun Mar 19 01:13:04 2017 +0900
+
+    Freezing - Un-Freezing
+
+commit 388001c16d41bd6ac31057e3113fbe93de352bf1
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Sat Mar 18 23:44:00 2017 +0900
+
+    popup
+
+commit 84687fddc60f8ec70f89bf005cca24ed13656f39
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Sat Mar 18 18:33:12 2017 +0900
+
+    기본퍼블리싱_팝업준비
+
+commit dedeaf42f2c8cce824d083ec1263091c5a34b366
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Sat Mar 18 16:53:08 2017 +0900
+
+    3차
+
+commit 4b4dd852a9dc5be98333ef22587dcc93bd49c009
+Merge: e712939 dbb0742
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Sat Mar 18 16:18:50 2017 +0900
+
+    Merge branch 'PoC0' of https://github.com/owlchain/owlchain-core into PoC0
+    
+    # Conflicts:
+    #       source/owlchain/ui/public/index.html
+
+commit e7129396e8b30a3effe2ff117655ac7324e9a77f
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Sat Mar 18 16:13:54 2017 +0900
+
+    2차 commit
+
+commit dbb0742e6345d6493c215d106411d3bc5fffa1e0
+Author: astonshnam <drumhyun@naver.com>
+Date:   Fri Mar 17 16:33:07 2017 +0900
+
+    Update app.d, index.html, webapi.d
+    
+    Update app.d, index.html, webapi.d
+
+commit 2dc9f5f9a774631b42ef57fafa8fda66ef56389e
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Fri Mar 17 00:53:34 2017 +0900
+
+    URL/FORM/COMMIT
+
+commit 45339f7e217d134415847be95c8892e92d2c8e5c
+Merge: 474e5af f8e692d
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Fri Mar 17 00:03:23 2017 +0900
+
+    Merge branch 'PoC0' of https://github.com/owlchain/owlchain-core into PoC0
+
+commit 474e5af1f0ca3ddd4db0814abb60d7f5ff4c6071
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Fri Mar 17 00:01:47 2017 +0900
+
+    git
+
+commit f8e692dc32d1dfdd63bd65ee193c3fba9501913c
+Author: astonshnam <drumhyun@naver.com>
+Date:   Thu Mar 16 19:26:53 2017 +0900
+
+    Update app.dm webapi.d
+    
+    Update app.dm webapi.d
+
+commit a8fe687853c2ec67deb66730708934bd8fdc5cdb
+Author: astonshnam <drumhyun@naver.com>
+Date:   Tue Mar 14 15:44:03 2017 +0900
+
+    modify puncher.d
+    
+    modify puncher.d
+
+commit 7d82b58bf9052b7ee2791e3c612b760ca2db12fb
+Author: astonshnam <drumhyun@naver.com>
+Date:   Tue Mar 14 15:38:48 2017 +0900
+
+    Modify puncher.d
+    
+    Modify puncher.d
+
+commit 8f4818104c957858058a6c53569069466b3a8712
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Thu Mar 16 00:44:06 2017 +0900
+
+    GIT
+
+commit 1ca91a7d396bf769c91443b9c6109ed8d66177ac
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Thu Mar 16 00:36:03 2017 +0900
+
+    Append
+
+commit 4b98c0bb79ba39a583539a63e573f7af14f5a346
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Wed Mar 15 21:09:42 2017 +0900
+
+    save
+
+commit 9c5af1febd845db1336fd59738debab23bf33a85
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Wed Mar 15 21:07:14 2017 +0900
+
+    add
+
+commit 268b227bc7c4c5e08de49a86b76164dc9a5db0bc
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Wed Mar 15 16:54:50 2017 +0900
+
+    modify
+
+commit b50fdfb5e3984cc03456f9c9a9afc7dc965315bf
+Author: astonshnam <drumhyun@naver.com>
+Date:   Tue Mar 14 15:36:59 2017 +0900
+
+    Create puncher.d
+    
+    Create puncher.d
+
+commit 4360684bb13c9e6c9db2c20af2b019dd3ead14aa
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Tue Mar 14 01:40:24 2017 +0900
+
+    Account 진행중
+
+commit e3ec441d620c3d822f51478bdbd9dde57cfe9e66
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Tue Mar 14 00:59:21 2017 +0900
+
+    GIT TEST
+
+commit ab0cad4864972d785976a41246e117546cdb7f0a
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Sun Mar 12 21:30:32 2017 +0900
+
+    텍스트수정
+
+commit 53beaf348f6f0c75a9da7aea37f178f57fc48199
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Sun Mar 12 21:19:54 2017 +0900
+
+    .
+
+commit 36bea5e078c6769783c41402b6b2b0e322fdc662
+Merge: e47ac4a 838e16d
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Sun Mar 12 20:09:37 2017 +0900
+
+    Merge branch 'master' of https://github.com/owlchain/owlchain-core into PoC0
+
+commit e47ac4aa81466f43ccdbc77b29998dd72f38d7ce
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Sat Mar 11 13:44:49 2017 +0900
+
+    setup
+
+commit 69d159767304d28c9ef2c27e52f30191b16e2ede
+Author: yeshtml5 <yeshtml5@gmail.com>
+Date:   Sat Mar 11 13:42:25 2017 +0900
+
+    setup
+
+commit 892c250c6382fea18352f1108322cf31755a7945
+Author: JeongHoon Baek <coalash@gmail.com>
+Date:   Fri Mar 10 10:10:26 2017 +0900
+
+    Add dscanner style configuration for static analysis
+
+commit a401dbabe7b32df6440b058f6e9b295387741dfb
+Author: JeongHoon Baek <hey-jude@users.noreply.github.com>
+Date:   Sat Mar 4 14:20:35 2017 +0900
+
+    Change current branch name
+
+commit 771f0ca5736d088bf710e73d7b1bb36adc78a3ee
+Author: Knolza <knolza2016@gmail.com>
+Date:   Sat Mar 4 10:32:33 2017 +0900
+
+    update travis-ci link
+
+commit 1b4e13c36e6b2cd98757947b5662192dca69c34e
+Author: Knolza <knolza2016@gmail.com>
+Date:   Sat Mar 4 10:21:07 2017 +0900
+
+    update travis-ci link
+
+commit 023ef12f2ab1e8ca47d48955c554808b1a7a2cd0
+Merge: 0c73bf2 c31bc21
+Author: astonshnam <drumhyun@naver.com>
+Date:   Fri Mar 3 18:33:59 2017 +0900
+
+    Merge pull request #1 from owlchain/travis-ci
+    
+    Travis ci
+
+commit c31bc216ead43bb64c8049ff4ac428e590debaa0
+Author: JeongHoon Baek <coalash@gmail.com>
+Date:   Fri Mar 3 17:35:32 2017 +0900
+
+    add unittest script : default script has a compile-error.
+
+commit 33a62d3b6edd46a650e3ced2ea9bdce567f4637c
+Author: JeongHoon Baek <coalash@gmail.com>
+Date:   Fri Mar 3 17:07:44 2017 +0900
+
+    add travis-ci settings
+
+commit 0c73bf2c4c1bb027821a589d31d543c483896e9e
+Author: astonshnam <drumhyun@naver.com>
+Date:   Fri Feb 24 13:21:41 2017 +0900
+
+    update logo.png
+    
+    update logo.png
+
+commit ff6c243e9f60e2e60db338257fd35a33c10b1849
+Author: Knolza <knolza2016@gmail.com>
+Date:   Wed Feb 22 14:59:40 2017 +0900
+
+    Fix readme
+
+commit 9f08f5997569c8c2a6e4b77fe3486c198e061f18
+Author: Knolza <knolza2016@gmail.com>
+Date:   Wed Feb 22 14:58:54 2017 +0900
+
+    Fix code
+
+commit 49f9f80564f2f219a0406995abc2e1c8e9a054bd
+Author: astonshnam <drumhyun@naver.com>
+Date:   Wed Feb 22 14:45:15 2017 +0900
+
+    fix app.d
+    
+    fix app.d
+
+commit 95c9b6762bd483a3e421f70339e29f2d1ed0efeb
+Merge: 84b7451 0c74a08
+Author: Knolza <knolza2016@gmail.com>
+Date:   Wed Feb 22 14:41:38 2017 +0900
+
+    Merge branch 'PoC0' of https://github.com/owlchain/owlchain-core into PoC0
+
+commit 84b7451ab49094c81db174146808f62615634c90
+Author: Knolza <knolza2016@gmail.com>
+Date:   Wed Feb 22 14:41:09 2017 +0900
+
+    Add TAL RFP
+
+commit 0c74a08363240428916e0aca37394f531c43d28e
+Author: astonshnam <drumhyun@naver.com>
+Date:   Wed Feb 22 12:48:13 2017 +0900
+
+    create main/blockinfo page and webapi.d
+
+commit 226ab50137c731ca327bc1a6ca04c071399c55ba
+Author: Knolza <knolza2016@gmail.com>
+Date:   Thu Feb 9 15:58:22 2017 +0900
+
+    Add blockchain.d
+
+commit 1116f88e884892d5ca9f06273758f7e2c7c98d17
+Author: Knolza <knolza2016@gmail.com>
+Date:   Thu Feb 9 11:58:08 2017 +0900
+
+    add run application template from vibe.d
+
+commit c628d43cac247f68a25aab997a59822ea60ab1ee
+Author: Knolza <knolza2016@gmail.com>
+Date:   Thu Feb 9 11:55:13 2017 +0900
+
+    Add blockchain.d
+
+commit e9b76972cde8c414f319cf159a07bdc980d0873c
+Author: Knolza <knolza2016@gmail.com>
+Date:   Thu Feb 9 11:37:47 2017 +0900
+
+    Update api
+
+commit 2acf182cdd4a860bbcf1e6559abb0d053fa4fcdf
+Author: Knolza <knolza2016@gmail.com>
+Date:   Thu Feb 9 11:35:45 2017 +0900
+
+    Add dataPath variable for storing data
+
+commit bd9df1dd081963eccf89db76e5da638ace3ec503
+Author: Knolza <knolza2016@gmail.com>
+Date:   Thu Feb 9 11:34:57 2017 +0900
+
+    Add compiler switching script
+
+commit 9113f974d97a0958e4fbc80c7d71ae6f50432d21
+Author: astonshnam <drumhyun@naver.com>
+Date:   Wed Feb 8 17:57:19 2017 +0900
+
+    edit api.d
+
+commit 234ca284e8f4042a650347c5ef8893a6cfbedb6c
+Author: astonshnam <drumhyun@naver.com>
+Date:   Wed Feb 8 15:42:13 2017 +0900
+
+    apply REST
+
+commit f0c2bdc819229b207e31340e41f971118906f153
+Author: astonshnam <drumhyun@naver.com>
+Date:   Wed Feb 8 11:06:21 2017 +0900
+
+    edit puncher.d
+
+commit 0aa3327e137b05aa4a55067122a2dabc45eb3337
+Merge: 4eba33b 60c6f0c
+Author: Knolza <knolza2016@gmail.com>
+Date:   Wed Feb 8 10:59:36 2017 +0900
+
+    merge dummy data
+
+commit 60c6f0c1e2dd42a20a12a47faee3d48cec35a6a0
+Author: astonshnam <drumhyun@naver.com>
+Date:   Tue Feb 7 17:06:22 2017 +0900
+
+    edit owlchain-data-api.md
+
+commit cf248dabbf1718c5d00a8e6ab76d792b1ac41d00
+Author: astonshnam <drumhyun@naver.com>
+Date:   Tue Feb 7 17:04:22 2017 +0900
+
+    Create owlchain-data-api.md
+    
+    Create owlchain-data-api.md
+
+commit c8ba85d3edefd9c6774dcdd7972d05ae5019ab4e
+Author: jakehdchoi <jakehdchoi@gmail.com>
+Date:   Wed Feb 1 14:00:35 2017 +0900
+
+    Update readme.md
+
+commit 4eba33bc729572b47665112a5b945fe57faea577
+Author: Knolza <knolza2016@gmail.com>
+Date:   Wed Jan 25 22:30:25 2017 +0900
+
+    fix title
+
+commit f5b638a0ce36f5f42653455d45b9af8a41e627c4
+Author: Knolza <knolza2016@gmail.com>
+Date:   Wed Jan 25 22:29:54 2017 +0900
+
+    Add license file
+
+commit 882f4d202fce2295bb35746094b4eb8f4a096336
+Author: astonshnam <drumhyun@naver.com>
+Date:   Mon Jan 23 21:19:57 2017 +0900
+
+    Apply Bootstrap
+    
+    Apply Bootstarp
+
+commit 49e8ff9c4badcabd3bee97d20d36fdebd2be9741
+Author: Knolza <knolza2016@gmail.com>
+Date:   Wed Jan 18 17:40:13 2017 +0900
+
+    Fix align -> center
+
+commit 5d60f28cf1797e714a0ef9765e968382d733da10
+Author: Knolza <knolza2016@gmail.com>
+Date:   Wed Jan 18 17:26:26 2017 +0900
+
+    Apply bootstrap
+
+commit f377adab449beb37c8ed0a149572c3c37528ff36
+Author: Knolza <knolza2016@gmail.com>
+Date:   Wed Jan 18 17:21:17 2017 +0900
+
+    Apply to config
+
+commit 1b6bd0b90bec762e316d7cc903afcaeaed411267
+Author: Knolza <knolza2016@gmail.com>
+Date:   Wed Jan 18 17:20:55 2017 +0900
+
+    Apply config
+
+commit 0f1af1be81c3f8ea19eee7a46ef99a83bdc84742
+Author: Knolza <knolza2016@gmail.com>
+Date:   Wed Jan 18 17:19:57 2017 +0900
+
+    Integration API to api.d
+
+commit 817b72ee8600817809d559e9b96b9d6c7f878750
+Author: astonshnam <drumhyun@naver.com>
+Date:   Wed Jan 18 11:34:15 2017 +0900
+
+    fix title
+
+commit e7f6c82422efae1508a2926b187b9e460c9c8474
+Author: astonshnam <drumhyun@naver.com>
+Date:   Wed Jan 18 11:22:24 2017 +0900
+
+    add ui template
+
+commit 838e16dc1129cb5561c2612cf56d024305fb12f5
+Merge: 946c494 63de9c3
+Author: Knolza <knolza2016@gmail.com>
+Date:   Tue Jan 17 20:54:21 2017 +0900
+
+    Merge branch 'PoC0'
+
+commit 63de9c3d11f88361168bbb669bd829e518de4709
+Author: Knolza <knolza2016@gmail.com>
+Date:   Tue Jan 17 20:53:54 2017 +0900
+
+    fix singleton issue
+
+commit 79203d6658512eb5a7e51b100bee8afcebf64c3b
+Author: Knolza <knolza2016@gmail.com>
+Date:   Tue Jan 17 16:31:50 2017 +0900
+
+    Add shell scrip file for build and unites
+
+commit 8576c6ebcbd5f06dbb784de78e509dcde9bda203
+Author: Knolza <knolza2016@gmail.com>
+Date:   Tue Jan 17 16:31:30 2017 +0900
+
+    Add config module
+
+commit 3521e05538260f03559b7e82053404476a30881f
+Author: Knolza <knolza2016@gmail.com>
+Date:   Tue Jan 17 12:04:07 2017 +0900
+
+    Copy config file
+
+commit cdd9417ea8173f081c341fcb2ec7d198e8343c6f
+Author: Knolza <knolza2016@gmail.com>
+Date:   Tue Jan 17 12:03:46 2017 +0900
+
+    public key dummy
+
+commit bb75bb03c3b7d37d035b81d95fec3b4d589ad6e0
+Author: Knolza <knolza2016@gmail.com>
+Date:   Tue Jan 17 12:03:23 2017 +0900
+
+    Update index root
+
+commit 899a4bd8985be0a95cdf9709a4a1606c713b9ae3
+Author: Knolza <knolza2016@gmail.com>
+Date:   Tue Jan 17 12:02:19 2017 +0900
+
+    Add config file and handler
+
+commit 3365f192eb0281c2f197fc7f2973d1cadd188c7a
+Author: Knolza <knolza2016@gmail.com>
+Date:   Tue Jan 17 12:01:55 2017 +0900
+
+    add travis-ci
+
+commit 66682915681d8e195d73b6c885868ded93daf76b
+Author: Knolza <knolza2016@gmail.com>
+Date:   Tue Jan 17 12:01:16 2017 +0900
+
+    Add coding style guide
+
+commit 874788dd18b2f0450cd614782286d3fcd21dac38
+Author: Knolza <knolza2016@gmail.com>
+Date:   Sat Jan 14 16:13:47 2017 +0900
+
+    Fix readme
+
+commit 93206d03449970b33e0504f809f3efbfd6914401
+Author: Knolza <knolza2016@gmail.com>
+Date:   Sat Jan 14 15:45:23 2017 +0900
+
+    Update link
+
+commit 01f41f2a668f778bb16f09ca5c1aa3029ad241e9
+Author: Knolza <knolza2016@gmail.com>
+Date:   Sat Jan 14 15:39:26 2017 +0900
+
+    add technical paper link
+
+commit 66031c2ee14c04573c77b71a7dc2554d16244a44
+Author: Knolza <knolza2016@gmail.com>
+Date:   Sat Jan 14 15:32:21 2017 +0900
+
+    Update image
+
+commit 37f309cf60c495e66643bd401b1f97713212edb3
+Author: Knolza <knolza2016@gmail.com>
+Date:   Sat Jan 14 15:28:47 2017 +0900
+
+    Add readme
+
+commit fcd5f6ebec3da0d88e8c95d173ad1097973d5ba7
+Author: Knolza <knolza2016@gmail.com>
+Date:   Sat Jan 14 15:24:43 2017 +0900
+
+    resize image
+
+commit efd33211b5f90ff4299fff6434d8a559c1e69b53
+Author: Knolza <knolza2016@gmail.com>
+Date:   Sat Jan 14 15:21:57 2017 +0900
+
+    Fix readme
+
+commit c681fef1e1f7fb47bbb3312c88f9381986a3ebe4
+Author: Knolza <knolza2016@gmail.com>
+Date:   Sat Jan 14 15:18:30 2017 +0900
+
+    add readme
+
+commit 25ec56d18aa55d00208d63cedbfec59501e5d4f7
+Author: Knolza <knolza2016@gmail.com>
+Date:   Sat Jan 14 15:11:18 2017 +0900
+
+    Add images
+
+commit cb96d20cd0dd00cb210425912b27192953c98b02
+Author: Knolza <knolza2016@gmail.com>
+Date:   Sat Jan 14 15:07:46 2017 +0900
+
+    Add owl chain overview image
+
+commit bb94af164543a5518277c8814ae25d44de6120bb
+Author: Knolza <knolza2016@gmail.com>
+Date:   Sat Jan 14 14:50:52 2017 +0900
+
+    Fix readme
+
+commit cf769baa9ccb88796f581335120a20cbadf0a98c
+Author: Knolza <knolza2016@gmail.com>
+Date:   Sat Jan 14 14:49:49 2017 +0900
+
+    Fix readme
+
+commit e51d545a0a26e8b710259be1c2cfe16036eb1000
+Author: Knolza <knolza2016@gmail.com>
+Date:   Sat Jan 14 14:47:12 2017 +0900
+
+    Fix readme
+
+commit a64def54704cf1523226dee55c7c827e0378a608
+Author: Knolza <knolza2016@gmail.com>
+Date:   Sat Jan 14 14:41:17 2017 +0900
+
+    fix url
+
+commit aebb43c0d6fe290d472a8c67f1a448e200511f87
+Author: Knolza <knolza2016@gmail.com>
+Date:   Sat Jan 14 14:35:35 2017 +0900
+
+    Add event process diagram
+
+commit d891439a29e19424db5512fb9d7c3f1f4c2103eb
+Author: Knolza <knolza2016@gmail.com>
+Date:   Sat Jan 14 14:31:33 2017 +0900
+
+    Add remittance process diagram
+
+commit 5b26659e8e50c77fd9686901d8f0151340d7718f
+Author: Knolza <knolza2016@gmail.com>
+Date:   Sat Jan 14 13:24:42 2017 +0900
+
+    PoC 0
+    
+    Purpose: proof of concept about remittance event/data flow and, FBA
+    consensus model.
+
+commit 946c4946dfa47009e8788c9787d583b7f3f90ed6
+Author: Knolza <knolza2016@gmail.com>
+Date:   Sun Jan 8 12:37:06 2017 +0900
+
+    Add chat view message
+
+commit 3b3090ec02a1aec807fe1421608d35c89e88d0fc
+Author: Knolza <knolza2016@gmail.com>
+Date:   Wed Jan 4 20:54:05 2017 +0900
+
+    Add  build method
+
+commit 99f2dcb1c27c93cd49d45ea423a55c71a6bef8a5
+Author: Knolza <knolza2016@gmail.com>
+Date:   Wed Jan 4 20:43:59 2017 +0900
+
+    Fix spelling
+
+commit d050cf29507c9e0172b4349701e8f0e86d06088c
+Author: Knolza <knolza2016@gmail.com>
+Date:   Wed Jan 4 20:40:33 2017 +0900
+
+    Add readme.md
+    
+    Folder description file
+
+commit 3bbe8471a2874b268ea8f6c5ba5d0821022d41fe
+Author: Knolza <knolza2016@gmail.com>
+Date:   Wed Dec 28 17:26:04 2016 +0900
+
+    Remove ipv6 listening
+
+commit 25293e148608b14b927db494d17d69777d0454f1
+Author: Knolza <knolza2016@gmail.com>
+Date:   Wed Dec 28 17:25:04 2016 +0900
+
+    Comment about MFBA  readme
+
+commit 706ad8bb8595822253229077f91c314c3b31eedc
+Author: Knolza <knolza2016@gmail.com>
+Date:   Wed Dec 28 17:24:28 2016 +0900
+
+    Add RESTfull api module
+
+commit e12ca2d819a6a7ae339bb6a7c1753c070f65e73c
+Author: Knolza <knolza2016@gmail.com>
+Date:   Wed Dec 28 17:19:48 2016 +0900
+
+    add module dependencies
+
+commit cb3f31eac915864b9969ef0486817bf6bb2ce2ee
+Author: Knolza <knolza2016@gmail.com>
+Date:   Wed Dec 28 01:57:11 2016 +0900
+
+    Adding web ui component css, fonts and javascripts
+
+commit 8b57e59be0725dbbc72a8c8b84602078e0ac87ec
+Author: Knolza <knolza2016@gmail.com>
+Date:   Tue Dec 27 21:08:20 2016 +0900
+
+    Fix copy file error
+
+commit 2f6528018ff8bdbe4503b063e1479806941d9b9b
+Author: Knolza <knolza2016@gmail.com>
+Date:   Tue Dec 27 21:04:04 2016 +0900
+
+    Initial commit
+    
+    Initializing owlchain-core

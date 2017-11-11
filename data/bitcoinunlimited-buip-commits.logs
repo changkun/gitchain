@@ -1,0 +1,1112 @@
+commit cf20fa12e09ab79d071b940c999f94d0b86f22ac
+Merge: 47872d4 39e2736
+Author: Andrea Suisani <sickpig@gmail.com>
+Date:   Sun Sep 17 22:17:15 2017 +0200
+
+    Merge pull request #60 from sickpig/buip062-to-067
+    
+    Add BUIP062 to BUIP066
+
+commit 39e2736b90d1ed6ea4a8f2dd9ac2cafa3f143467
+Author: Andrea Suisani <sickpig@gmail.com>
+Date:   Sun Sep 17 21:32:28 2017 +0200
+
+    Add BUIP062 to BUIP066
+
+commit 47872d41747f3bf80ed8abc7140e2354e3ce4b1c
+Merge: 66985a3 b65ee07
+Author: Andrea Suisani <sickpig@gmail.com>
+Date:   Fri Jun 16 17:36:55 2017 +0200
+
+    Merge pull request #53 from HeaTeR/protocolupgrade
+    
+    Protocolupgrade: BUIP061
+
+commit 66985a34dea5b7c81494048a20ca93d4b422e733
+Merge: 30684e5 a513f65
+Author: Andrea Suisani <sickpig@gmail.com>
+Date:   Fri Jun 16 16:48:08 2017 +0200
+
+    Merge pull request #58 from sickpig/port-pr4-from-upstream
+    
+    [port] Patch-1 Fixed typo and reflinks
+
+commit 30684e59e03582d54bca36ab46fcfa0f40ccbc7e
+Merge: 4de8f10 e9825b6
+Author: Andrea Suisani <sickpig@gmail.com>
+Date:   Fri Jun 16 16:47:49 2017 +0200
+
+    Merge pull request #57 from sickpig/port-pr3-from-upstream
+    
+    [port] Align activation timestamp to 1501590000 (1 Aug 2017 12:20:00 UTC)
+
+commit 4de8f10bd1a6408481b703bbab73f9c632de7018
+Merge: 6804221 a088962
+Author: Andrea Suisani <sickpig@gmail.com>
+Date:   Fri Jun 16 16:47:38 2017 +0200
+
+    Merge pull request #56 from sickpig/port-pr2-from-upstream
+    
+    [port] Reformulate to "Extended BU tx/sigops rules" to clarify
+
+commit 68042210e313822ff5210be500cd3e3e0eff392c
+Merge: 3a9b833 3c9db59
+Author: Andrea Suisani <sickpig@gmail.com>
+Date:   Fri Jun 16 16:47:04 2017 +0200
+
+    Merge pull request #55 from sickpig/add-versioning
+    
+    [port] Add version numbers to documents
+
+commit a513f65b684861ed2c66cd3534a002778bfb3461
+Author: Andrea Suisani <sickpig@gmail.com>
+Date:   Fri Jun 16 11:25:33 2017 +0200
+
+    Make the reference to HF neutral: s/buip-hf/uahf/i
+
+commit 49d8dd9e8fa3d4709a16254e234d85df7e198b75
+Author: Victor <github.greatwolf@mamber.net>
+Date:   Wed Jun 14 16:23:51 2017 -0700
+
+    Patch-1 Fixed typo and reflinks; Rebased with latest head. (#4)
+    
+    Fix typos and reflinks
+
+commit e9825b66dcd7b00d19739b7198e360a5873bb5c0
+Author: ftrader <freetrader@tuta.io>
+Date:   Wed Jun 14 12:45:38 2017 +0200
+
+    Align activation timestamp to 1501590000 (1 Aug 2017 12:20:00 UTC)
+    
+    Set version to 1.2
+
+commit a088962bddf63968a4c8d504681abcf1868a84ca
+Author: ftrader <freetrader@tuta.io>
+Date:   Wed Jun 14 11:06:43 2017 +0200
+
+    Reformulate to "Extended BU tx/sigops rules" to clarify
+    
+    Set version to 1.1
+
+commit 3c9db59229fab6e992c304927db7717580afb32d
+Author: ftrader <freetrader@tuta.io>
+Date:   Wed Jun 14 10:54:19 2017 +0200
+
+    Add version numbers to documents
+    
+    Set to version 1.0 with current date.
+
+commit 3a9b833698cd4cb3a7a87dbc25fe9295ac199137
+Merge: c0040ed 80a722d
+Author: Andrea Suisani <sickpig@gmail.com>
+Date:   Tue Jun 13 15:20:24 2017 +0200
+
+    Merge pull request #48 from deadalnix/txsigopslimit
+    
+    Add a per tx sigops limit.
+
+commit b65ee07e51631704d8e0c2395771309790ccdf1f
+Author: LIN Zheming <heater@gmail.com>
+Date:   Tue Jun 13 17:41:54 2017 +0800
+
+    re-enable TX version 1 after fourth stage.
+
+commit 852eef8fa4d17a769723452d2ff34264cfe8a101
+Author: LIN Zheming <heater@gmail.com>
+Date:   Tue Jun 13 17:36:20 2017 +0800
+
+    add submitted date.
+    correct the date to 2017-06-13 GMT+8
+
+commit 80081b3fde99fb7299fea1ef4ea791e16d0e36c7
+Author: LIN Zheming <heater@gmail.com>
+Date:   Tue Jun 13 17:32:32 2017 +0800
+
+    add submitted date.
+
+commit 13d7f12820ed48066150fb561611618a82a3de85
+Author: LIN Zheming <heater@gmail.com>
+Date:   Tue Jun 13 10:52:43 2017 +0800
+
+    modify README to add BUIP061
+
+commit 36020c1b6ca123c95d3743b23fee06cb8063eccb
+Author: LIN Zheming <heater@gmail.com>
+Date:   Tue Jun 13 09:59:23 2017 +0800
+
+    Rename into BIP061
+
+commit b35b8e8282c4f52cdb28a733a3bba3c7c3e468aa
+Author: Lin Zheming <heater@gmail.com>
+Date:   Mon Jun 12 23:09:47 2017 +0800
+
+    rename to unassigned
+
+commit adf00335b173d66991c77c301cf90e4c6441836f
+Author: LIN Zheming <heater@gmail.com>
+Date:   Mon Jun 12 17:02:37 2017 +0800
+
+    make correction that the node will use versionbit not BIP9 to signal.
+
+commit 2746923a4b1d0463b051d739a1e4cc31c09b27d4
+Author: LIN Zheming <heater@gmail.com>
+Date:   Mon Jun 12 16:13:10 2017 +0800
+
+    much better translation.
+
+commit c0040ed23e90dde3730951a5579d297c529af9e8
+Merge: b89199e 5a11920
+Author: Andrea Suisani <sickpig@gmail.com>
+Date:   Mon Jun 12 09:42:26 2017 +0200
+
+    Merge pull request #52 from deadalnix/defaultMG
+    
+    Change default MG from 8MB to 2MB
+
+commit b89199ea3ef41ced02d9d075531d245908cdb14b
+Merge: ff11f74 d972ab8
+Author: Andrea Suisani <sickpig@gmail.com>
+Date:   Mon Jun 12 09:42:12 2017 +0200
+
+    Merge pull request #49 from deadalnix/hashing
+    
+    Specification for replay protected signatures
+
+commit ff11f746e2be8e388150b52cf2ae1e59aba644e2
+Merge: eb3c2c7 c04859b
+Author: Andrea Suisani <sickpig@gmail.com>
+Date:   Mon Jun 12 09:40:54 2017 +0200
+
+    Merge pull request #51 from ftrader-bitcoinunlimited/buip_55_spec21
+    
+    Separate the test plan out from the requirement specification
+
+commit 69fc053e53984550e9890add799eae8de08349e2
+Author: LIN Zheming <heater@gmail.com>
+Date:   Mon Jun 12 13:55:47 2017 +0800
+
+    More translation about benefits and risks
+
+commit 807b1da187b2434f344d29bc9c9eecc04d0d0f1a
+Author: LIN Zheming <heater@gmail.com>
+Date:   Mon Jun 12 12:43:14 2017 +0800
+
+    add <br/>s at the end of lines.
+
+commit 5c01e3a384c9a9a496d93079be605cec60b509cf
+Author: LIN Zheming <heater@gmail.com>
+Date:   Mon Jun 12 12:41:09 2017 +0800
+
+    adds some transation in English
+
+commit e8bc82e6202884cd644a5b3f8ec6b48d01babdf4
+Author: LIN Zheming <heater@gmail.com>
+Date:   Mon Jun 12 10:57:46 2017 +0800
+
+    Add description of Risks
+
+commit 2208e78d4693903ba4408f6b9bf3b8c615598f63
+Author: LIN Zheming <heater@gmail.com>
+Date:   Sun Jun 11 10:43:31 2017 +0800
+
+    define two grace periods.
+
+commit 70c790d6ad874675c3e5b0db49a1a1e526e6179f
+Author: LIN Zheming <heater@gmail.com>
+Date:   Sun Jun 11 10:24:49 2017 +0800
+
+    1. Change the Name into Demonstration of Phase in Full Network Upgrade Activated by Miners
+    2. Add another (first) grace peroid for minor miners to upgrade.
+    3. There's no fork under Nakamoto Consensus.
+
+commit d972ab8c2ca7564ad22a350b7708e2865086de53
+Author: Amaury SECHET <deadalnix@gmail.com>
+Date:   Thu Jun 8 13:08:05 2017 +0200
+
+    Specification for replay protected signatures
+
+commit 5a119201200543e489ab8ca5b9d3471e1564cf27
+Author: Amaury SECHET <deadalnix@gmail.com>
+Date:   Sat Jun 10 18:43:52 2017 +0200
+
+    Change default MG from 8MB to 2MB
+
+commit 60c6cb1242d3bf659553f2cb5276797bc8926e47
+Author: Lin Zheming <heater@gmail.com>
+Date:   Sun Jun 11 00:09:20 2017 +0800
+
+    rename to “Demonstration of Miner Active Protocol Upgrade”
+
+commit 9c0df85e4fc9550212e98d4bd04675771232bb81
+Author: Lin Zheming <heater@gmail.com>
+Date:   Sat Jun 10 23:53:13 2017 +0800
+
+    Change the “fusion fork” to “Synthetic Fork”. and describe the method to include other protocol upgrade.
+
+commit 48224c93753eae454b4ff765df55c515b641431d
+Author: Lin Zheming <heater@gmail.com>
+Date:   Sat Jun 10 23:21:32 2017 +0800
+
+    Only nodes, no users.
+
+commit c04859bb26bc24f88b27705be1d604ee314374ea
+Author: ftrader <freetrader@tuta.io>
+Date:   Sat Jun 10 16:59:23 2017 +0200
+
+    Fix typo in spec intro sentence
+
+commit f3cf804a1658b3bb8dae728d4780db15b1fd7370
+Author: Lin Zheming <heater@gmail.com>
+Date:   Sat Jun 10 22:51:26 2017 +0800
+
+    New BUIP about Protocol Improvement aka Fusion Fork.
+
+commit 10f59c11274e108bcbee794a67e933026f12e3b0
+Author: ftrader <freetrader@tuta.io>
+Date:   Sat Jun 10 16:45:20 2017 +0200
+
+    Separate the test plan out from the requirement specification
+    
+    As per https://github.com/BitcoinUnlimited/BUIP/issues/50
+    
+    Some minor fixups and removal of obsolete note in test plan section which
+    has been clarified by requirements changes.
+
+commit eb3c2c7c74defc811724157dedf2388a254277be
+Merge: 6c8f38a afc8e3b
+Author: Andrea Suisani <sickpig@gmail.com>
+Date:   Sat Jun 10 13:00:35 2017 +0200
+
+    Merge pull request #44 from ftrader-bitcoinunlimited/buip_55_spec17
+    
+    Add REQ-6-3 : require the use of revised BIP143 transaction digest algorithm for protected transactions
+
+commit 80a722de0a35e59f29ed60157f8ce62b27bf1223
+Author: Amaury SECHET <deadalnix@gmail.com>
+Date:   Fri Jun 9 00:15:31 2017 +0200
+
+    Add a per tx sigops limit.
+
+commit afc8e3b7dab900e2ad3686dad79c81ef94aee9da
+Author: ftrader <freetrader@tuta.io>
+Date:   Thu Jun 8 22:53:58 2017 +0200
+
+    Provisionally resolve BIP143 spec link
+    
+    Also removed the Design section - we should have that in separate
+    document rather.
+
+commit 6c8f38ab126c28d193ecf6d00efbe7a544299a6c
+Merge: baab576 1ef1693
+Author: Andrea Suisani <sickpig@gmail.com>
+Date:   Thu Jun 8 22:00:19 2017 +0200
+
+    Merge pull request #45 from ftrader-bitcoinunlimited/buip_55_spec18
+    
+    Repurpose REQ-5 to require "BU tx/sigops rules" for blocks > 1MB
+
+commit baab5762b85d0f97d870383b93a817f9cd381dab
+Merge: 70cc491 d3f421e
+Author: Andrea Suisani <sickpig@gmail.com>
+Date:   Thu Jun 8 21:59:44 2017 +0200
+
+    Merge pull request #47 from ftrader-bitcoinunlimited/buip_55_spec20
+    
+    Add ~1 year expiry to OP_RETURN protection of REQ-6-1
+
+commit d3f421e8b915234eb49cee454e37525711d744e8
+Author: ftrader <freetrader@tuta.io>
+Date:   Thu Jun 8 13:18:15 2017 +0200
+
+    Review comments (rounded down, human friendly)
+
+commit 23be9f3d1caab2463df021b5d616171fbfeeb1c4
+Author: ftrader <freetrader@tuta.io>
+Date:   Thu Jun 8 12:41:04 2017 +0200
+
+    Add ~1 year expiry to OP_RETURN protection of REQ-6-1
+    
+    The OP_RETURN protection expires after block 530,000 (sunset clause).
+
+commit f258be7c9da4142756e69a30d738ee5477bef988
+Author: ftrader <freetrader@tuta.io>
+Date:   Thu Jun 8 02:05:36 2017 +0200
+
+    Add REQ-6-3 : require the use of revised BIP143 transaction digest algorithm for protected transactions
+    
+    The link to the revised algorithm needs to be completed, and has been
+    made a TODO in the references.
+
+commit 1ef1693c4bf08fe5c99d02600bac67b759a5821f
+Author: ftrader <freetrader@tuta.io>
+Date:   Thu Jun 8 02:29:28 2017 +0200
+
+    Repurpose REQ-5 to require "BU tx/sigops rules" for blocks > 1MB
+
+commit 70cc491e797fa9377a253bf39770e28d9ef384a4
+Merge: 2fd094b 3e98285
+Author: Andrea Suisani <sickpig@gmail.com>
+Date:   Thu Jun 8 10:39:55 2017 +0200
+
+    Merge pull request #46 from ftrader-bitcoinunlimited/buip_55_spec19
+    
+    Rename all UAHF to HF (folder, doc, and in spec contents)
+
+commit 3e982856122774f7dd5d5a42bbbc9a91a82abc9b
+Author: ftrader <freetrader@tuta.io>
+Date:   Thu Jun 8 10:36:02 2017 +0200
+
+    Change UAHF to HF internally
+
+commit d9e081eff96f82a3edf2bd372db63b3b32db8a68
+Author: ftrader <freetrader@tuta.io>
+Date:   Thu Jun 8 10:34:36 2017 +0200
+
+    Rename the spec folder and file to remove "UA"
+
+commit 2fd094bea670856b7063a9ec5e9c1d9688ca3a6c
+Merge: ddfd2c8 7ca296d
+Author: Andrea Suisani <sickpig@gmail.com>
+Date:   Thu Jun 8 10:24:52 2017 +0200
+
+    Merge pull request #43 from ftrader-bitcoinunlimited/buip_55_spec16
+    
+    [formatting] Separate notes on "BU tx/sigops rules" from rule (2) text
+
+commit ddfd2c8cd784c202e360d38f327ffa6925e75adb
+Merge: 56ace81 dabe65e
+Author: Andrea Suisani <sickpig@gmail.com>
+Date:   Thu Jun 8 10:23:57 2017 +0200
+
+    Merge pull request #35 from ftrader-bitcoinunlimited/buip_55_spec11
+    
+    Change REQ-4-2 to require user to configure *new* MG activated at fork
+
+commit dabe65ee9c9f6eb84b833d22d5989ded00c71d5d
+Author: ftrader <freetrader@tuta.io>
+Date:   Thu Jun 8 00:52:49 2017 +0200
+
+    Define "fork MG" and remove upper limit of 8MB in REQ-4-2
+    
+    - Adapt rationale in line with automatic activation of "fork MG"
+    
+    - Eliminate one of the Notes - they contained redundant information.
+
+commit f4d62d42ff6a0a745fd2847a08630c57636e0d35
+Author: ftrader <freetrader@tuta.io>
+Date:   Mon Jun 5 13:30:59 2017 +0200
+
+    Change REQ-4-2 to require user to configure *new* MG activated at fork
+
+commit 56ace8130458f4e49d55811572aedce692406254
+Merge: 8da1003 c17d230
+Author: Andrea Suisani <sickpig@gmail.com>
+Date:   Thu Jun 8 10:07:16 2017 +0200
+
+    Merge pull request #32 from ftrader-bitcoinunlimited/buip_55_spec8
+    
+    Modify REQ-4-1 to turn it into a startup error
+
+commit 8da100398eda301a8237a4406d9ae90051a0e909
+Merge: 56b3a5a 295bffe
+Author: Andrea Suisani <sickpig@gmail.com>
+Date:   Thu Jun 8 10:04:44 2017 +0200
+
+    Merge pull request #31 from ftrader-bitcoinunlimited/buip_55_spec7
+    
+    Residual REQ-3 update after meeting 2017-06-07
+
+commit 56b3a5a329f71851951acdbaa9a5ef7f6aba77a6
+Merge: 38a7ebd 5872f08
+Author: Andrea Suisani <sickpig@gmail.com>
+Date:   Thu Jun 8 10:03:50 2017 +0200
+
+    Merge pull request #41 from ftrader-bitcoinunlimited/buip_55_spec14
+    
+    [minor edit] Fix the wording on Note 3 of REQ-6-2
+
+commit 7ca296da8e6586064ac4df750c7494f67ab90447
+Author: ftrader <freetrader@tuta.io>
+Date:   Thu Jun 8 01:43:24 2017 +0200
+
+    [formatting] Separate notes on "BU tx/sigops rules" from rule (2) text
+    
+    Due to lack of newlines the notes were mixed up into rule (2) body.
+
+commit 38a7ebd5c349b6e863a6ffd16a9ee8f0806e36a1
+Merge: e946226 b89ce5a
+Author: Andrea Suisani <sickpig@gmail.com>
+Date:   Thu Jun 8 01:35:33 2017 +0200
+
+    Merge pull request #42 from ftrader-bitcoinunlimited/buip_55_spec15
+    
+    Add back REQ-6-1 which was accidentally removed
+
+commit b89ce5a0eb8791a16091605a4bee09cfcdf3a3b6
+Author: ftrader <freetrader@tuta.io>
+Date:   Thu Jun 8 01:34:04 2017 +0200
+
+    Add back REQ-6-1 which was accidentally removed
+    
+    This one was accidentally removed by PR#33 .
+    
+    Add it back so that we can continue processing the followup actions.
+
+commit 5872f0882c079b3547744cf772c5f44ec654a9d4
+Author: ftrader <freetrader@tuta.io>
+Date:   Thu Jun 8 01:11:32 2017 +0200
+
+    Fix the wording on Note 3 of REQ-6-2
+    
+    As per the conversation following
+    https://github.com/BitcoinUnlimited/BUIP/pull/36/files#r120440269
+
+commit c17d2301d32aecf2651ef2e995de14ee6a1353b4
+Author: ftrader <freetrader@tuta.io>
+Date:   Thu Jun 8 00:30:35 2017 +0200
+
+    Change "EB" to "fork EB" in REQ-4-1
+    
+    - Added a "fork EB" definition at the top of the document.
+    
+    - Updated rationale as it was based on faulty premise of using only the existing EB configuration.
+    
+    - Removed Note 1 as well, since ordinary clients would not be able to follow the hard fork chain without upgrading (due to replay protection).
+
+commit 295bffe4f2e55d595f6ce59c53d995cfeebddd21
+Author: ftrader <freetrader@tuta.io>
+Date:   Thu Jun 8 00:02:25 2017 +0200
+
+    Update REQ-3 as per review meeting decision
+    
+    The size constraint of 8MB is dropped for the fork block.
+    Corresponding unsound rationale has been removed.
+
+commit e9462268b9f6e8a1706dd4e352aeb59f1dc5a058
+Merge: dbec7c0 8ba6b4b
+Author: Andrea Suisani <sickpig@gmail.com>
+Date:   Wed Jun 7 22:16:43 2017 +0200
+
+    Merge pull request #39 from ftrader-bitcoinunlimited/buip_55_spec13
+    
+    Add BU tx/sigops rules definition
+
+commit dbec7c0913a3bcaf8da6c53c4d4c7a062e81af52
+Merge: 1162124 6088636
+Author: Andrea Suisani <sickpig@gmail.com>
+Date:   Wed Jun 7 22:15:44 2017 +0200
+
+    Merge pull request #36 from ftrader-bitcoinunlimited/buip_55_spec12
+    
+    Add bit 6 (0x40) hash type handling to REQ-6-2
+
+commit 1162124b14f9e5dc70dbda5b74da2eaeff33afc7
+Merge: fe9b306 de0468e
+Author: Andrea Suisani <sickpig@gmail.com>
+Date:   Wed Jun 7 22:15:33 2017 +0200
+
+    Merge pull request #33 from ftrader-bitcoinunlimited/buip_55_spec9
+    
+    Remove REQ-5, the re-org protection given by REQ-3 is considered sufficient
+
+commit 8ba6b4bb70b6a2fbb9953ff7638a0bb781a29a28
+Author: ftrader <freetrader@tuta.io>
+Date:   Wed Jun 7 11:12:19 2017 +0200
+
+    Correct formula, add plain description and clarification about how BU handles these rules
+    
+    Thanks to sickpig for catching the omission of rounding in the formula.
+
+commit 2fc1171e325bdf8a6d68564d5361d5f46315ba17
+Author: ftrader <freetrader@tuta.io>
+Date:   Wed Jun 7 02:38:54 2017 +0200
+
+    Add reference to BUIP040
+
+commit 5dffcc6967a12027fe045a51a39e3ee8721286a5
+Author: ftrader <freetrader@tuta.io>
+Date:   Wed Jun 7 00:03:04 2017 +0200
+
+    Add BU tx/sigops rules definition
+    
+    This definition will be used in later amendments to the rest of the spec where needed.
+
+commit 6ea6373c424809952a13023e261537d9897a9f91
+Author: ftrader <freetrader@tuta.io>
+Date:   Mon Jun 5 16:47:52 2017 +0200
+
+    Fix requirement description
+
+commit 60886362a37a9f2a10dba463aaf04d3bf3419a51
+Author: ftrader <freetrader@tuta.io>
+Date:   Mon Jun 5 14:50:06 2017 +0200
+
+    Add bit 6 (0x40) hash type handling to REQ-6-2
+    
+    The name "SIGHASH_FORKHASH" has been proposed for this bit.
+    If set, the transaction is verified with the magic value (fork id) added to
+    nHashType prior to hash computation.
+    
+    If bit 6 is unset, the verification will be done as usual.
+
+commit 413faf3166d9e75cac2b94ff608ff26be96a6fcd
+Author: ftrader <freetrader@tuta.io>
+Date:   Mon Jun 5 12:00:36 2017 +0200
+
+    Modify REQ-4-1 to turn it into a startup error
+
+commit de0468ee1dd4653fe644acedf1e631ef8dd93840
+Author: ftrader <freetrader@tuta.io>
+Date:   Mon Jun 5 12:07:53 2017 +0200
+
+    Remove REQ-5 as the re-org protection given by REQ-3 is considered sufficient
+
+commit 651b1673ba676dbf915010fe409fb59016eae3e9
+Author: ftrader <freetrader@tuta.io>
+Date:   Mon Jun 5 11:30:13 2017 +0200
+
+    Modify REQ-3 to not allow fork block to exceed 8MB
+    
+    As per discussion item no. 2
+
+commit fe9b306b601505732aea5034de430f894726b75f
+Merge: ac8371c e28a9ce
+Author: Andrea Suisani <sickpig@gmail.com>
+Date:   Mon Jun 5 11:10:24 2017 +0200
+
+    Merge pull request #30 from ftrader-bitcoinunlimited/buip_55_spec6
+    
+    Rename to use BUIP-UAHF internally, other consistency and formatting
+
+commit e28a9ce6b82f0d9a76ff65566139690cb53bab2e
+Author: ftrader <freetrader@tuta.io>
+Date:   Mon Jun 5 00:53:55 2017 +0200
+
+    Rename to use BUIP-UAHF internally, other consistency and formatting
+
+commit ac8371cd237a291e83bd2328d4261b0e6c317066
+Merge: 0ba141c 7400c8f
+Author: Andrea Suisani <sickpig@gmail.com>
+Date:   Sun Jun 4 22:38:36 2017 +0200
+
+    Merge pull request #29 from ftrader-bitcoinunlimited/buip_55_spec5
+    
+    Rename to BUIP-UAHF/buip-uahf-technical-spec.md
+
+commit 7400c8f6beca6fa2a69e20d7c942293faab3cd03
+Author: ftrader <freetrader@tuta.io>
+Date:   Sun Jun 4 01:10:19 2017 +0200
+
+    Remove link to what is now UAHF spec from BUIP055
+
+commit 98982980e35a095c998a2f8c9f47316a50c5e81f
+Author: ftrader <freetrader@tuta.io>
+Date:   Sun Jun 4 01:04:41 2017 +0200
+
+    Rename to BUIP-UAHF/buip-uahf-technical-spec.md
+
+commit 0ba141c2f9dc8c066e85352edc2fee7c6f1e76b1
+Merge: 0ec5e0c 063f6d6
+Author: Andrea Suisani <sickpig@gmail.com>
+Date:   Sat Jun 3 11:15:04 2017 +0200
+
+    Merge pull request #28 from ftrader-bitcoinunlimited/buip_55_spec4
+    
+    Changes based on initial review comments
+
+commit 063f6d69e2e940356b505305dc2a3682c9b8ae93
+Author: ftrader <freetrader@tuta.io>
+Date:   Sat Jun 3 02:04:53 2017 +0200
+
+    Changes based on initial review comments
+    
+    - clearly define Median Time Past (MTP) and use it
+    - use 'activation time' consistently
+    - add notes where requirements have been suggested to be removed or replaced
+    - relocate some comments to more suitable places (e.g. TEST-4 partial to REQ-3 note)
+    - delete some comments which have been addressed
+
+commit 0ec5e0c49d1aad44dc06d8a3a0a66c3e321b5b1d
+Merge: 345c95d 6e83354
+Author: Andrea Suisani <sickpig@gmail.com>
+Date:   Fri Jun 2 01:02:48 2017 +0200
+
+    Merge pull request #27 from ftrader-bitcoinunlimited/buip_55_spec3
+    
+    Add replay protection requirements
+
+commit 6e833546411a3d2b9d05f3557b0c9f7400707a73
+Author: ftrader <freetrader@tuta.io>
+Date:   Fri Jun 2 00:28:52 2017 +0200
+
+    Add replay protection requirements
+
+commit 345c95d60846ff45db9af72a2d47e1074f1c57bb
+Merge: fb79fc5 d53e601
+Author: Andrea Suisani <sickpig@gmail.com>
+Date:   Thu Jun 1 11:07:17 2017 +0200
+
+    Merge pull request #26 from ftrader-bitcoinunlimited/buip_55_spec2
+    
+    Add link to technical specification working document
+
+commit d53e601c2e79f9e2e998df9506ca61d50b3146ea
+Author: ftrader <freetrader@tuta.io>
+Date:   Thu Jun 1 10:48:07 2017 +0200
+
+    Add link to technical specification working document
+
+commit fb79fc5d452600d119e655088a2577be569be9f4
+Merge: 586cf32 6ea1d6a
+Author: Andrea Suisani <sickpig@gmail.com>
+Date:   Thu Jun 1 10:41:59 2017 +0200
+
+    Merge pull request #25 from ftrader-bitcoinunlimited/buip_55_spec1
+    
+    Initial draft of spec (rough requirements and tests so far)
+
+commit 6ea1d6ad38e11ea64565d1954c28605e29a07260
+Author: ftrader <freetrader@tuta.io>
+Date:   Thu Jun 1 10:27:40 2017 +0200
+
+    Reformat, assign TEST-* ids
+
+commit 12f634225f0eb24ed795a0ed0f07005bacaed9a3
+Author: ftrader <freetrader@tuta.io>
+Date:   Thu Jun 1 10:18:36 2017 +0200
+
+    Initial draft of spec (rough requirements and tests so far)
+
+commit 586cf32180d0916eefcd5a05b3e16d6a519c472e
+Merge: 474859c 5705e00
+Author: Andrea Suisani <sickpig@gmail.com>
+Date:   Thu Jun 1 09:20:58 2017 +0200
+
+    Merge pull request #24 from sickpig/buip055/tech-spec
+    
+    Add BUIP055 technical specification scaffolding
+
+commit 5705e00eaff7fd17b07527b31309be0bd6cbc7c1
+Author: Andrea Suisani <sickpig@gmail.com>
+Date:   Thu Jun 1 09:13:05 2017 +0200
+
+    Add BUIP055 technical specification scaffolding
+
+commit 474859c86dd2261b871e7315bb49c4742bbbfdd4
+Merge: 7545546 5ee6943
+Author: Andrea Suisani <sickpig@gmail.com>
+Date:   Fri May 26 18:04:20 2017 +0200
+
+    Merge pull request #23 from sickpig/update-055
+    
+    Update BUIP055
+
+commit 5ee6943f132ef5c80a6342e11b697c42f890941c
+Author: Andrea Suisani <sickpig@gmail.com>
+Date:   Fri May 26 15:59:27 2017 +0200
+
+    Update BUIP055
+
+commit 754554673c5d350b5888c33e1ed377ecac8c3333
+Author: Andrea Suisani <sickpig@gmail.com>
+Date:   Wed May 24 13:52:49 2017 +0200
+
+    Fix BUIP060 title
+
+commit 93e485eb4b721eac7d25c35ddcc851250ce22514
+Author: Andrea Suisani <sickpig@gmail.com>
+Date:   Wed May 24 13:51:49 2017 +0200
+
+    Fix link to BUIP060
+
+commit c41511ed5b3d5b83d286c9bdbed6e8c7e8ac1699
+Merge: ecaa0ce c77fabc
+Author: Andrea Suisani <sickpig@gmail.com>
+Date:   Wed May 24 13:49:50 2017 +0200
+
+    Merge pull request #22 from ftrader-bitcoinunlimited/buip_59
+    
+    Add BUIP 059 (Make "sticky gate" optional and disabled by default)
+
+commit ecaa0cec8ad591fc8b156d693a992ed4968682ed
+Merge: 7949aab a120817
+Author: Andrea Suisani <sickpig@gmail.com>
+Date:   Wed May 24 13:48:19 2017 +0200
+
+    Merge pull request #21 from ftrader-bitcoinunlimited/buip_58
+    
+    Add BUIP 058 (Dynamic checkpoints)
+
+commit c77fabc6604ee394b78570c27ee140759481c38a
+Author: ftrader <freetrader@tuta.io>
+Date:   Wed May 24 13:42:35 2017 +0200
+
+    Add BUIP 059
+
+commit a1208172141a001651f23be826033cad8dbad40c
+Author: ftrader <freetrader@tuta.io>
+Date:   Wed May 24 12:51:54 2017 +0200
+
+    Add BUIP 058
+
+commit 7949aabd0bdc3be191156e1addfa85e4da7594c3
+Merge: 9b83f67 a9a301e
+Author: Andrea Suisani <sickpig@gmail.com>
+Date:   Wed May 24 12:26:49 2017 +0200
+
+    Merge pull request #20 from sickpig/add-buip-060
+    
+    Add BUIP060: New Members for Election #6
+
+commit a9a301ee5e0c4c21e2fa49b3cc4b1657abb0c99f
+Author: Andrea Suisani <sickpig@gmail.com>
+Date:   Wed May 24 12:12:29 2017 +0200
+
+    Add BUIP060: New Members for Election #6
+
+commit 9b83f67eb1f4712d7a9936a4845978c58636552d
+Merge: 0ccbc9a 988ccd2
+Author: Andrea Suisani <sickpig@gmail.com>
+Date:   Wed May 24 11:50:23 2017 +0200
+
+    Merge pull request #19 from ftrader-bitcoinunlimited/buip_52_add_option_1
+    
+    Add optional item 1 based on Solex forum input
+
+commit 988ccd2c65eca14c2824a0db7c4f8109ccaf240c
+Author: ftrader <freetrader@tuta.io>
+Date:   Wed May 24 11:15:06 2017 +0200
+
+    Move Optional Item before alternatives, since option must get voted on
+
+commit 93b8ac1cdb1e2d3499633876940a8f847a48183a
+Author: ftrader <freetrader@tuta.io>
+Date:   Wed May 24 11:10:27 2017 +0200
+
+    Add optional item 1 based on Solex forum input
+
+commit 0ccbc9a0b118871146956242b9a17830e0d4c100
+Merge: 3f48453 d4d87f5
+Author: Andrea Suisani <sickpig@gmail.com>
+Date:   Sun May 21 17:37:43 2017 +0200
+
+    Merge pull request #18 from sanch0panza/add_buip_057
+    
+    BUIP057: Add BIP 135 support (generalized BIP9 version bits)
+
+commit d4d87f5027492c74fb07eca316a114ad85fc141f
+Author: sanch0panza <sanch0panza@protonmail.com>
+Date:   Sun May 21 17:29:00 2017 +0200
+
+    Add BUIP057 to README (and fix date on BUIP056 in README)
+
+commit 3f48453249e5e692fa081ecfebd5b29cb1eb6dec
+Merge: 734c832 659e9d6
+Author: Andrea Suisani <sickpig@gmail.com>
+Date:   Sun May 21 16:51:16 2017 +0200
+
+    Merge pull request #17 from tomasvdw/master
+    
+    Minor clarifications to BUIP056
+
+commit 1914d533256d3a011fcb5459914fc07e380f9ae6
+Author: sanch0panza <sanch0panza@protonmail.com>
+Date:   Sun May 21 15:05:21 2017 +0200
+
+    BUIP057: Add BIP 135 support (generalized BIP9 version bits)
+
+commit 659e9d6dd8aa7ca348ba3ebb87d0d6bb97b0ba38
+Author: Tomas van der Wansem <tomas@tomasvdw.nl>
+Date:   Sat May 20 10:20:47 2017 +0200
+
+    Add reorg protection
+
+commit 15cf6fbcb8b03d27643c84ce4bf85b998b5a0b31
+Author: Tomas van der Wansem <tomas@tomasvdw.nl>
+Date:   Sat May 20 09:56:35 2017 +0200
+
+    Minor clarifications
+    
+    * Include sigops and tx limit
+    * Clarify use of not rounded percentage
+    * Clarify _MB variable relations
+
+commit 734c8324a33390249313b356c8a3cda409754cba
+Merge: 2a1fad0 b12e65b
+Author: Andrea Suisani <sickpig@gmail.com>
+Date:   Tue May 16 10:08:36 2017 +0200
+
+    Merge pull request #16 from tomasvdw/master
+    
+    Add BUIP056 Increase the Block Size Limit at a Support Threshold
+
+commit b12e65bb3c737fa8b9ebe5c9c019a061e741eb4d
+Author: Tomas van der Wansem <tomas@tomasvdw.nl>
+Date:   Mon May 15 12:58:26 2017 +0200
+
+    Add BUIP056
+
+commit 2a1fad07619f061f3ad08ef49c78db3d95837a74
+Merge: b389e95 37647ec
+Author: Andrea Suisani <sickpig@gmail.com>
+Date:   Sat May 13 15:16:40 2017 +0200
+
+    Merge pull request #15 from BitcoinUnlimited/add/buip-055
+    
+    Add BUIP055
+
+commit 37647ecc12c9f4d8ea8bb3cfebfcac42bd7cf3de
+Author: Andrea Suisani <sickpig@gmail.com>
+Date:   Sat May 13 15:06:16 2017 +0200
+
+    Add BUIP055
+
+commit b389e9579ba348c2c713430f36d18b0b662d4bec
+Merge: 014f926 e26f64a
+Author: Andrea Suisani <sickpig@gmail.com>
+Date:   Sat May 6 11:42:08 2017 +0200
+
+    Merge pull request #14 from ftrader-bitcoinunlimited/buip_52_fix_price
+    
+    Fix Travis Small Business price
+
+commit e26f64a3fe1a9d4cb48fd34e677a8fcfa8739264
+Author: ftrader <freetrader@tuta.io>
+Date:   Sat May 6 11:30:03 2017 +0200
+
+    Fix Travis Small Business price
+
+commit 014f92619d8b32070c98df0bc36d1e0ff77c7e23
+Merge: 52450bd 88d3f21
+Author: Andrea Suisani <sickpig@gmail.com>
+Date:   Sat May 6 11:24:59 2017 +0200
+
+    Merge pull request #13 from ftrader-bitcoinunlimited/buip_54
+    
+    Add BUIP 054 (make AD optional)
+
+commit 88d3f2160823f4fa4d6e2df95ecb3c935b98b409
+Merge: 1928aae 52450bd
+Author: Andrea Suisani <sickpig@gmail.com>
+Date:   Sat May 6 11:23:27 2017 +0200
+
+    Merge branch 'master' into buip_54
+
+commit 52450bdbc8395c5227b984895197d0981722bb4e
+Merge: b192c42 3f34927
+Author: Andrea Suisani <sickpig@gmail.com>
+Date:   Sat May 6 11:19:47 2017 +0200
+
+    Merge pull request #12 from ftrader-bitcoinunlimited/buip_53
+    
+    Add BUIP 053  (Tweakable client DoS responses)
+
+commit 1928aae823425cccf8b689b64c88c9f75c158c2d
+Author: ftrader <freetrader@tuta.io>
+Date:   Sat May 6 10:35:38 2017 +0200
+
+    Add BUIP 054
+
+commit 3f34927af3029f00ca01a04e8e30b9e25c8a8fe5
+Author: ftrader <freetrader@tuta.io>
+Date:   Sat May 6 10:05:49 2017 +0200
+
+    Add BUIP 053
+
+commit b192c4276147276f485e5234537ef9df4962b977
+Author: Andrea Suisani <sickpig@gmail.com>
+Date:   Mon May 1 17:12:23 2017 +0200
+
+    Fix formatting of 051
+
+commit 2171d2ead59a4ae59b2812b73ff364794b722067
+Author: Andrea Suisani <sickpig@gmail.com>
+Date:   Mon May 1 17:07:39 2017 +0200
+
+    Fix mismatching BUIP numbers.
+    
+    "Set up dedicated Continuous Integration" should have used 52
+    where as 51 should be "Add CompactBlocks support"
+
+commit c065fb4d4d457b774bb78aa627d825215d0a4cea
+Merge: 382cc9d dad3aec
+Author: Andrea Suisani <sickpig@gmail.com>
+Date:   Fri Apr 21 16:15:15 2017 +0200
+
+    Merge pull request #10 from BitcoinUnlimited/add-buip049-to-051
+    
+    Add BUIP 049, 050 and 051
+
+commit dad3aec2ce3a9aaa44cfc3351c03577da949c3ba
+Author: Andrea Suisani <sickpig@gmail.com>
+Date:   Fri Apr 21 16:05:50 2017 +0200
+
+    Add BUIP 049, 050 and 051
+
+commit 382cc9d3332e187bd020fd73252a1e7260571bec
+Merge: c743561 45ef038
+Author: Andrea Suisani <sickpig@gmail.com>
+Date:   Fri Apr 21 15:50:33 2017 +0200
+
+    Merge pull request #9 from BitcoinUnlimited/format-update-buip-0037
+    
+    Update BUIP037
+
+commit 45ef0387983b87ce6fb0b36d98544d4b8a742027
+Author: Andrea Suisani <sickpig@gmail.com>
+Date:   Fri Apr 21 15:44:13 2017 +0200
+
+    Update BUIP037
+
+commit c743561de4203230273547b118706b459c77bd77
+Merge: 1116628 4157a30
+Author: Andrea Suisani <sickpig@gmail.com>
+Date:   Fri Apr 21 14:10:55 2017 +0200
+
+    Merge pull request #8 from BitcoinUnlimited/update-readme
+    
+    Update README
+
+commit 4157a30eb057467a2383977fe4548048d1509062
+Author: Andrea Suisani <sickpig@gmail.com>
+Date:   Fri Apr 21 13:13:25 2017 +0200
+
+    Update README
+    
+    Briefly describe BUIP voting process and add a reference to
+    the Articles of Federation where the complete process is described.
+
+commit 11166282a0f7163781bdf29ed08662ffa248f06a
+Merge: 5e308ba cd73d4b
+Author: Andrea Suisani <sickpig@gmail.com>
+Date:   Fri Apr 21 12:31:05 2017 +0200
+
+    Merge pull request #7 from BitcoinUnlimited/update-buip-statuses
+    
+    Update statuses up to BUIP 048
+
+commit cd73d4b94b8587cc3696168f569fea205c143085
+Author: Andrea Suisani <sickpig@gmail.com>
+Date:   Fri Apr 21 12:06:04 2017 +0200
+
+    Update statuses up to BUIP048
+
+commit 5e308bafd02f8b85d9753583fad395e7b905785f
+Merge: 5d88f7f 19b46f8
+Author: Andrea Suisani <sickpig@gmail.com>
+Date:   Mon Mar 13 01:40:53 2017 +0100
+
+    Merge pull request #6 from BitcoinUnlimited/new/add-buips-047-048
+    
+    Add BUIP 047 and 048
+
+commit 19b46f8f52d1452a86a0e44b58a54608d6d20042
+Author: Andrea Suisani <sickpig@gmail.com>
+Date:   Mon Mar 13 01:38:35 2017 +0100
+
+    Add BUIP 047 and 048
+    
+    BUIP047: The Future of Bitcoin - Development & Scaling Conference
+    BUIP048: New Members for Election #5
+
+commit 5d88f7fb358611782b369f6281af683825b2ffe2
+Merge: 67f7097 0eef34c
+Author: Andrea Suisani <sickpig@gmail.com>
+Date:   Mon Feb 20 01:23:42 2017 +0100
+
+    Merge pull request #5 from BitcoinUnlimited/new/add-buip042-to-046
+    
+    Add BUIPs 42 to 46
+
+commit 0eef34c65377e92b31d2ec18ad28179496c9db63
+Author: Andrea Suisani <sickpig@gmail.com>
+Date:   Mon Feb 20 01:03:29 2017 +0100
+
+    Add BUIPs 42 to 46
+
+commit 67f709749d4cf31e4cdba07235add839c5abf10d
+Merge: dc11dc8 376b63b
+Author: Andrea Suisani <sickpig@gmail.com>
+Date:   Mon Dec 19 00:06:38 2016 +0100
+
+    Merge pull request #4 from sickpig/new/buip037-to-041
+    
+    Add buip037 to 041
+
+commit 376b63b25bf0e882227b188b31a58b83c0abd8e5
+Author: Andrea Suisani <sickpig@gmail.com>
+Date:   Mon Dec 19 00:05:41 2016 +0100
+
+    Update BUIP037
+    
+    TODO properly fix table formatting.
+
+commit 1cabc01e0b62c2ba0611ac527905f6767a596d76
+Author: Andrea Suisani <sickpig@gmail.com>
+Date:   Sun Dec 18 23:58:55 2016 +0100
+
+    Fix a bunch of formatting errors
+
+commit 22df4679e0214cace3fcf62f6a946ab2e3a63bf1
+Author: Andrea Suisani <sickpig@gmail.com>
+Date:   Sun Dec 18 23:55:10 2016 +0100
+
+    Add BUIP037 to 041
+
+commit dc11dc8d3c7bde10d8df11eb798afda7d51477fc
+Merge: b370435 1b03c64
+Author: Andrea Suisani <sickpig@gmail.com>
+Date:   Wed Nov 9 23:51:41 2016 +0100
+
+    Merge pull request #3 from sickpig/new/buip031-to-036
+    
+    New BUIPs: from 031 to 036
+
+commit 1b03c64ff64b8839160167c8e2d19214b142bf87
+Author: Andrea Suisani <sickpig@gmail.com>
+Date:   Wed Nov 9 22:21:25 2016 +0100
+
+    New BUIPs: from 031 to 036
+    
+    Add 6 new BUIPs and while at it fix img tag
+    across the board. Also remove an addendum of
+    BUIP004 that had a meaning only in the context
+    of the bitco.in/forum
+
+commit b37043509ce2cccab6b734da2023f9a77d1fa9ce
+Author: Andrea Suisani <sickpig@gmail.com>
+Date:   Sat Oct 1 22:33:55 2016 +0200
+
+    Dropped 5th column from the BUIPs list
+
+commit 2276b8fc1d8a4329878829bfddc4b8db07b23816
+Author: Andrea Suisani <sickpig@gmail.com>
+Date:   Sat Oct 1 22:30:49 2016 +0200
+
+    Harmonize <pre> block fields order
+    Use mediawiki for the README file
+    Add submit date and status the BUIPs index
+
+commit 39eaa8b9c231ea4f27f0d64768bae5be53871d7d
+Merge: 9c95d9d b42a0c5
+Author: Andrea Suisani <sickpig@gmail.com>
+Date:   Sat Oct 1 00:23:15 2016 +0200
+
+    Merge pull request #1 from BitcoinUnlimited/test/md-flavours
+    
+    Adding all submitted/known BUIPs to the repo.
+
+commit b42a0c55d4cab18fc8da7fbe05e43cec84070036
+Author: Andrea Suisani <sickpig@gmail.com>
+Date:   Tue Sep 6 23:33:25 2016 +0200
+
+    Adding all submitted/known BUIPs to the repo.
+    
+    A lot of thing left to do, mainly related to
+    harmonize and fix layout and typos.
+
+commit 9c95d9da389225738bfe797641829e09c63ec413
+Author: gandrewstone <g.andrew.stone@gmail.com>
+Date:   Mon Sep 5 21:50:00 2016 -0400
+
+    Initial commit

@@ -1,0 +1,229 @@
+commit b8fc8be8495c5471808e0e8c1bd39b468bfad106
+Merge: 6691470 68be7a6
+Author: JackLee <33215063+JackLeeAchain@users.noreply.github.com>
+Date:   Wed Nov 8 09:32:26 2017 +0800
+
+    Merge pull request #6 from RayAchain/master
+    
+    add Contract RPC "blockchain_get_contract_result" ++ Format the code
+
+commit 68be7a65d19e9f572a30f7faebe7df084536d7b0
+Author: guozilei <guozilei@new4g.cn>
+Date:   Tue Nov 7 21:10:46 2017 +0800
+
+    add Contract RPC "blockchain_get_contract_result"
+
+commit 669147043a0bf496f7c6fb98bd1264b4bb3c61fd
+Author: xiaoming <xiaoming@new4g.cn>
+Date:   Fri Nov 3 10:54:02 2017 +0800
+
+    add submodules
+
+commit 2cbc783928ded2cccaf4de96d176db59517ee753
+Author: xiaoming <xiaoming@new4g.cn>
+Date:   Fri Nov 3 10:29:56 2017 +0800
+
+    delete lib files
+
+commit 8b0b365a726b4526ad0a35e174b06f3d0a2e0f9d
+Author: WillAchain <33215404+WillAchain@users.noreply.github.com>
+Date:   Wed Nov 1 17:40:51 2017 +0800
+
+    add build win32 files
+    
+    add build win32 files
+
+commit fa47891d137e0ee8f09ba702fe7022a64b8b0180
+Merge: dd3131b 6f533a6
+Author: lipu <lipu@new4g.cn>
+Date:   Wed Nov 1 14:11:37 2017 +0800
+
+    Merge branch 'master' of https://github.com/Achain-Dev/Achain
+
+commit dd3131b1c4ad670788bb1b0c1d8789ca3ce2becd
+Author: lipu <lipu@new4g.cn>
+Date:   Wed Nov 1 14:10:42 2017 +0800
+
+    Update .gitignore file.
+
+commit 6f533a6b073236fdbd9c77da01ebd9593ec498b1
+Author: Achain <31724495+Achain-Dev@users.noreply.github.com>
+Date:   Wed Nov 1 09:08:37 2017 +0800
+
+    Update README.md
+
+commit 572910c41110a1b047339aababa3ee5586a26a32
+Author: Achain <31724495+Achain-Dev@users.noreply.github.com>
+Date:   Wed Nov 1 09:07:46 2017 +0800
+
+    Update README.md
+
+commit ab2aca1d6525f69c31c6371159fdea652d753374
+Author: Achain <31724495+Achain-Dev@users.noreply.github.com>
+Date:   Wed Nov 1 09:07:00 2017 +0800
+
+    Update README.md
+
+commit e12f0c3619a89548cd4ba1363840645f9fb937b3
+Author: lipu <lipu@new4g.cn>
+Date:   Tue Oct 31 18:25:20 2017 +0800
+
+    Update directory structure;.
+
+commit 3d1b5b426c999d4332709da177499bb22e063535
+Author: Achain <31724495+Achain-Dev@users.noreply.github.com>
+Date:   Fri Sep 15 09:06:41 2017 +0800
+
+    Update README.md
+    
+    update the forum address
+
+commit fabf29e99ebd624590660579980d096a88181858
+Author: Achain <31724495+Achain-Dev@users.noreply.github.com>
+Date:   Mon Sep 11 10:40:19 2017 +0800
+
+    Update README.md
+
+commit eac96296f7725123f302b0e0a24a7962f82ab880
+Author: Achain <31724495+Achain-Dev@users.noreply.github.com>
+Date:   Mon Sep 11 10:34:53 2017 +0800
+
+    Create README.md
+    
+    remove useless word
+
+commit 0a67a7e0414432ebc86ee102333a92bee5a89853
+Author: Achain <31724495+Achain-Dev@users.noreply.github.com>
+Date:   Mon Sep 11 02:28:06 2017 +0000
+
+    Delete README.md
+
+commit a7029b39b14b5aea1ab816e497b9184c448ce808
+Author: Achain <31724495+Achain-Dev@users.noreply.github.com>
+Date:   Fri Sep 8 11:07:12 2017 +0800
+
+    Create BUILD_UBUNTU.md
+
+commit f0d7a838ed9f8936cd2f73aeba8ea15f90fcf7a3
+Author: Achain <31724495+Achain-Dev@users.noreply.github.com>
+Date:   Fri Sep 8 10:52:16 2017 +0800
+
+    Update README.md
+
+commit 2370c81b3f0f1ba99d37c59e8212bb141ae6ea6f
+Author: Achain <31724495+Achain-Dev@users.noreply.github.com>
+Date:   Fri Sep 8 10:48:51 2017 +0800
+
+    Update BUILD_WIN32.md
+    
+    update format for build_win32
+
+commit e742e9eb8bbee8adc165b36049ceffdeb6d974a3
+Author: Achain <31724495+Achain-Dev@users.noreply.github.com>
+Date:   Fri Sep 8 10:40:22 2017 +0800
+
+    Update BUILD_WIN32.md
+
+commit f60d431f1d178e79846e37a3a638f2c95e07bb12
+Author: Achain <31724495+Achain-Dev@users.noreply.github.com>
+Date:   Fri Sep 8 10:37:02 2017 +0800
+
+    Update BUILD_WIN32.md
+    
+    update the file formate
+
+commit 648bd8222dbfcaa2ba16241a54d2bfe451027695
+Author: Achain <31724495+Achain-Dev@users.noreply.github.com>
+Date:   Fri Sep 8 10:24:55 2017 +0800
+
+    Update BUILD_WIN32.md
+
+commit 56ba32492e07398b5c5b4d325e0df002cee50de2
+Author: Achain <31724495+Achain-Dev@users.noreply.github.com>
+Date:   Fri Sep 8 10:10:36 2017 +0800
+
+    Update BUILD_WIN32.md
+
+commit e11d4c2999287d8797afd82c437f44371cdacf9d
+Author: Achain <31724495+Achain-Dev@users.noreply.github.com>
+Date:   Fri Sep 8 10:09:33 2017 +0800
+
+    Update BUILD_WIN32.md
+
+commit e8ac84194066e6631d3fbb1ef12f9566d716e226
+Author: Achain <31724495+Achain-Dev@users.noreply.github.com>
+Date:   Fri Sep 8 09:38:11 2017 +0800
+
+    Update README.md
+
+commit 73a90279173663fe65c47a39f9f5961bcc2c063c
+Author: Achain <31724495+Achain-Dev@users.noreply.github.com>
+Date:   Fri Sep 8 09:36:46 2017 +0800
+
+    Create BUILD_WIN32.md
+    
+    add windows building specification
+
+commit 842399f412917f6e3f399bdf3d6ae2179e6fabff
+Author: Achain <31724495+Achain-Dev@users.noreply.github.com>
+Date:   Fri Sep 8 09:28:34 2017 +0800
+
+    Update README.md
+
+commit 31164767a9ef8e39e174eece45ae6cd25a4cd694
+Author: Achain <31724495+Achain-Dev@users.noreply.github.com>
+Date:   Fri Sep 8 09:16:33 2017 +0800
+
+    Update README.md
+
+commit 7cc124a0d5d8f0070947203f8af52a07f622c7dd
+Author: Achain-Dev <31724495+Achain-Dev@users.noreply.github.com>
+Date:   Thu Sep 7 18:42:56 2017 +0800
+
+    Update README.md
+
+commit 1df3a719b414d7be23e5be6cda248ccf9d334153
+Author: Achain-Dev <31724495+Achain-Dev@users.noreply.github.com>
+Date:   Thu Sep 7 18:38:39 2017 +0800
+
+    Create LICENSE
+    
+    MIT opensource License
+
+commit a00db42077b9c5e2074e293deebbc971f01258b5
+Author: Achain-Dev <31724495+Achain-Dev@users.noreply.github.com>
+Date:   Thu Sep 7 18:37:17 2017 +0800
+
+    Update README.md
+
+commit 83cd6ca31382e78eb372333e9ecc2aef4ac984f7
+Author: Achain-Dev <31724495+Achain-Dev@users.noreply.github.com>
+Date:   Thu Sep 7 18:35:42 2017 +0800
+
+    Update README.md
+
+commit 1f97cf94c4c8f8745774d978c4e1b46114e9f13a
+Author: Achain-Dev <31724495+Achain-Dev@users.noreply.github.com>
+Date:   Thu Sep 7 18:35:00 2017 +0800
+
+    Update README.md
+
+commit 891a020257c7086f6d969d095f70641841a404c2
+Author: Achain-Dev <31724495+Achain-Dev@users.noreply.github.com>
+Date:   Thu Sep 7 18:30:14 2017 +0800
+
+    Update README.md
+    
+    update some specification for Achain
+
+commit a3a4cd3ab72935cebadacc058f5860c1a3902427
+Author: lipu <lipu@hongzonglis-MacBook-Pro.local>
+Date:   Thu Sep 7 17:47:48 2017 +0800
+
+    Achain open source.
+
+commit ad805c9f7097af08f35e5f8759eec531edc26d66
+Author: Achain-Dev <31724495+Achain-Dev@users.noreply.github.com>
+Date:   Thu Sep 7 17:37:18 2017 +0800
+
+    Initial commit

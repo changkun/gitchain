@@ -40,16 +40,23 @@ class RepoSpider(object):
         self.db = os.path.join(os.path.dirname(
             __file__), f'../data/{owner}-{repo_name}.json')
 
+    def _exists(self):
+        return os.path.isfile(self.db)
+
     def _writer(self, data):
         with open(self.db, 'w') as json_f:
             json_f.write(json.dumps(data, indent=4, separators=(',', ': ')))
         print('Done.')
 
     def start(self, clone=True):
+        # 0. check data exists or not
+        if self._exists():
+            print('Exists: ', self.repo_url)
+            return
+        print('creeping: ', self.repo_url)
         # 1. fetch all repo informations
         repo_response = requests.get(url=self.repo_url, auth=self.auth)
         repo_infos = json.loads(repo_response.text)
-
         if clone:
             os.system(
                 f"git clone {repo_infos['clone_url']} temp/{self.repo_name}")
