@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/db.js"],"names":["callback"],"mappings":";;;;;;kBAAe,oBAAY;AACzB;AACAA;AACD,C","file":"db.js","sourcesContent":["export default callback => {\r\n  // connect to a database if needed, then pass it to `callback`:\r\n  callback();\r\n}"]}
