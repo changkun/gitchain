@@ -1,0 +1,306 @@
+commit 40d9f5f735695954db7b656bb30b89331edc4b31
+Author: daviunx <davidmarsa@gmail.com>
+Date:   Fri Jul 21 02:21:40 2017 +0200
+
+    Added docker
+
+commit 30603a00847f8853becc51918df71942de2a24de
+Author: daviunx <davidmarsa@gmail.com>
+Date:   Sun Jul 16 04:47:18 2017 +0200
+
+    Code update rpcrawtransactionx
+
+commit b41816e1d7ec3e80461d30179ee453b0c36eda96
+Author: daviunx <davidmarsa@gmail.com>
+Date:   Sun Jul 16 04:45:56 2017 +0200
+
+    Update chainparams
+
+commit 66f0852868e05623db5ea5e60e83630a27bf1b65
+Author: daviunx <davidmarsa@gmail.com>
+Date:   Sun Jul 16 04:12:05 2017 +0200
+
+    Dockefile update
+
+commit 9b76992d64201f572ff669cc8e2fd8892291dd9b
+Author: daviunx <davidmarsa@gmail.com>
+Date:   Sun Jul 16 03:46:51 2017 +0200
+
+    Added docker
+
+commit f4f59ded18ba2b716d33b05964f6f31b536bd582
+Author: btcdraft <btcdraft@users.noreply.github.com>
+Date:   Sat Jan 28 21:42:18 2017 -0500
+
+    Update chainparams.cpp
+    
+    changed seed node for website relaunch
+
+commit 2acefe74bbbaf204ea6bdb413a70bd89b5cb848d
+Author: btcdraft <goodmanmjg@gmail.com>
+Date:   Sun Aug 16 19:04:45 2015 -0400
+
+    Update sendcoinsdialog.cpp
+
+commit 2330045fbeeb99e6b8767462603df9322dddedee
+Author: btcdraft <goodmanmjg@gmail.com>
+Date:   Sun Aug 16 19:03:40 2015 -0400
+
+    Update bitcoin_eu_ES.ts
+
+commit 7cdd2db1139d207d96c83e18454c23716786268c
+Author: btcdraft <goodmanmjg@gmail.com>
+Date:   Sun Aug 16 19:03:01 2015 -0400
+
+    Update bitcoin_et.ts
+
+commit c199ee52886d24b91bd799a8946099b44a461a40
+Author: btcdraft <goodmanmjg@gmail.com>
+Date:   Sun Aug 16 19:02:34 2015 -0400
+
+    Update bitcoin_es_UY.ts
+
+commit 896802e3ba49e2668e947466885d0694269cd601
+Author: btcdraft <goodmanmjg@gmail.com>
+Date:   Sun Aug 16 19:02:00 2015 -0400
+
+    Update bitcoin_es_MX.ts
+
+commit 61476d465e1526d1b909991a96b7859853f11a1b
+Author: btcdraft <goodmanmjg@gmail.com>
+Date:   Sun Aug 16 19:00:53 2015 -0400
+
+    Update bitcoin_es_DO.ts
+
+commit 041711ba341e957e047ac96d1703e76c805db951
+Author: btcdraft <goodmanmjg@gmail.com>
+Date:   Sun Aug 16 19:00:32 2015 -0400
+
+    Update bitcoin_es_CL.ts
+
+commit f5e67781e8d1c1309eade6e7ff49c94eed1fb3c8
+Author: btcdraft <goodmanmjg@gmail.com>
+Date:   Sun Aug 16 19:00:09 2015 -0400
+
+    Update bitcoin_es.ts
+
+commit 22e0e90260fdacc8230539992c604d108502c3a3
+Author: btcdraft <goodmanmjg@gmail.com>
+Date:   Sun Aug 16 18:59:42 2015 -0400
+
+    Update bitcoin_eo.ts
+
+commit 3e738462e9b183765ad1fc70fa242e526c3d0a68
+Author: btcdraft <goodmanmjg@gmail.com>
+Date:   Sun Aug 16 18:59:19 2015 -0400
+
+    Update bitcoin_en.ts
+
+commit 7a4cd3fbec567d1e349d4bebf017553ad4e4c111
+Author: btcdraft <goodmanmjg@gmail.com>
+Date:   Sun Aug 16 18:58:53 2015 -0400
+
+    Update bitcoin_el_GR.ts
+
+commit 87971ec39da3c97f59f4411f31eb924567a976e8
+Author: btcdraft <goodmanmjg@gmail.com>
+Date:   Sun Aug 16 18:58:08 2015 -0400
+
+    Update bitcoin_de.ts
+
+commit e899910d1456c4616e1ec49b072e8bd4f02dfc63
+Author: btcdraft <goodmanmjg@gmail.com>
+Date:   Sun Aug 16 18:57:47 2015 -0400
+
+    Update bitcoin_cy.ts
+
+commit a100fe63a8b1d249913d40127394689d3a5314a7
+Author: btcdraft <goodmanmjg@gmail.com>
+Date:   Sun Aug 16 18:57:24 2015 -0400
+
+    Update bitcoin_ca@valencia.ts
+
+commit d46da2128ed36eddc74e6a8c48de2d974fc53087
+Author: btcdraft <goodmanmjg@gmail.com>
+Date:   Sun Aug 16 18:56:59 2015 -0400
+
+    Update bitcoin_ca.ts
+
+commit 757223ca1713a2cb74b91dfdb7e65386b50a33e7
+Author: btcdraft <goodmanmjg@gmail.com>
+Date:   Sun Aug 16 18:56:37 2015 -0400
+
+    Update bitcoin_bs.ts
+
+commit 396e3b5309ca1077300727a070f031f011658dda
+Author: btcdraft <goodmanmjg@gmail.com>
+Date:   Sun Aug 16 18:55:50 2015 -0400
+
+    Update bitcoin_bg.ts
+
+commit 93cce5191e73498fbbc0f9e0a3a8de4b2d8744f5
+Author: btcdraft <goodmanmjg@gmail.com>
+Date:   Sun Aug 16 18:55:20 2015 -0400
+
+    Update bitcoin_be_BY.ts
+
+commit 0a6386f71f766d2a0d030409812d322e3b8c7426
+Author: btcdraft <goodmanmjg@gmail.com>
+Date:   Sun Aug 16 18:54:54 2015 -0400
+
+    Update bitcoin_ar.ts
+
+commit 20f103ba75737f8081151acccf95bc6034706dd1
+Author: btcdraft <goodmanmjg@gmail.com>
+Date:   Sun Aug 16 18:54:21 2015 -0400
+
+    Update bitcoin_af_ZA.ts
+
+commit ae3f56915692d8c2fbad4a81b2a75f119695d28e
+Author: btcdraft <goodmanmjg@gmail.com>
+Date:   Sun Aug 16 18:53:44 2015 -0400
+
+    Update bitcoin_zh_TW.ts
+
+commit 600257b169b72df5b5fcee92372050c4d9da51db
+Author: btcdraft <goodmanmjg@gmail.com>
+Date:   Sun Aug 16 18:52:05 2015 -0400
+
+    Update bitcoin_zh_CN.ts
+
+commit 71611877d7d55a8ed12a6c91e0834e097a7d3d12
+Author: btcdraft <goodmanmjg@gmail.com>
+Date:   Sun Aug 16 18:51:22 2015 -0400
+
+    Update bitcoin_ca_ES.ts
+
+commit 1510ab4b6c0e74f2ca6061093d46d3e8a4e4b211
+Author: btcdraft <goodmanmjg@gmail.com>
+Date:   Sun Aug 16 18:50:43 2015 -0400
+
+    Update bitcoin_cs.ts
+
+commit a121e024b0ede03cd17c176ecf94c33ffad7926b
+Author: btcdraft <goodmanmjg@gmail.com>
+Date:   Sun Aug 16 18:50:14 2015 -0400
+
+    Update bitcoin_da.ts
+
+commit bf660c90784005e0e9b3a840c510b90ee9d41c63
+Author: btcdraft <goodmanmjg@gmail.com>
+Date:   Sun Aug 16 18:49:01 2015 -0400
+
+    Update bitcoin_ru.ts
+
+commit e7f6fcba659cfc5ca87ca8cbb5e68de077e878e7
+Author: btcdraft <goodmanmjg@gmail.com>
+Date:   Sun Aug 16 18:48:22 2015 -0400
+
+    Update bitcoin_sk.ts
+
+commit 9dc7f5ce669bbe32eb2dad5d36e93f21b000ff0b
+Author: btcdraft <goodmanmjg@gmail.com>
+Date:   Sun Aug 16 18:43:37 2015 -0400
+
+    Update signverifymessagedialog.cpp
+
+commit d532c43c061eb7cebabf30ea00cc7424ea40af12
+Author: btcdraft <goodmanmjg@gmail.com>
+Date:   Sun Aug 16 18:42:51 2015 -0400
+
+    Update signverifymessagedialog.ui
+
+commit a22f25493b2f27f0e217a32e20eba0873670db55
+Author: btcdraft <goodmanmjg@gmail.com>
+Date:   Sun Aug 16 18:41:51 2015 -0400
+
+    Update sendcoinsentry.cpp
+
+commit 0cdd795eee8b97df57451f8d300bd46d4db61e05
+Author: btcdraft <goodmanmjg@gmail.com>
+Date:   Sun Aug 16 18:40:28 2015 -0400
+
+    changed eg address
+    
+    changed eg address
+
+commit 1252d12f8e544debd3cdb151e584615cf995a9c1
+Author: btcdraft <goodmanmjg@gmail.com>
+Date:   Sun Aug 16 18:35:36 2015 -0400
+
+    added 3rd node
+    
+    added 44030 node
+
+commit b291f0003430af47c9359541237b135ba920c83e
+Author: btcdraft <goodmanmjg@gmail.com>
+Date:   Tue Jul 14 16:17:44 2015 -0700
+
+    Updated checkpoints to block 25000
+    
+    added checkpoints to 25k
+
+commit 60afc3f340e663264af3335eb203a8e38aae9e6c
+Merge: eefa8ba 43efcbd
+Author: btcdraft <goodmanmjg@gmail.com>
+Date:   Sat Jul 4 09:22:30 2015 +0800
+
+    Merge pull request #1 from btcdraft/btcdraft-patch-1
+    
+    Added Checkpoints from 5k to 15k
+
+commit eefa8bad8a86d46ea1536fa49ddc4d4f618db435
+Author: btcdraft <goodmanmjg@gmail.com>
+Date:   Fri Jul 3 18:19:48 2015 -0700
+
+    Fixed github link
+    
+    fixed github link for draftcoin location
+
+commit cd2ebc3a3696038861955ffdb73eb25b79a41359
+Author: btcdraft <goodmanmjg@gmail.com>
+Date:   Fri Jul 3 18:17:17 2015 -0700
+
+    Fixed github link
+    
+    fixed github link
+
+commit 5038fb882b9421638f4f92dca357fbfca48e6d52
+Author: btcdraft <goodmanmjg@gmail.com>
+Date:   Fri Jul 3 18:16:09 2015 -0700
+
+    Fixed github link
+    
+    changed to proper draftcoin location
+
+commit 43efcbd2552d0a7ec6b049d80cac956a4491a27a
+Author: btcdraft <goodmanmjg@gmail.com>
+Date:   Fri Jul 3 17:50:56 2015 -0700
+
+    Added Checkpoints
+    
+    Checkpoints from 5k to 15K
+
+commit 9930dd36d51f8b8a8549280b78247cc71d424256
+Author: btcdraft <goodmanmjg@gmail.com>
+Date:   Fri Jul 3 17:23:50 2015 -0700
+
+    Update build-osx.txt
+
+commit c2178697cbf91ee0b74a8e0ce32f568abd563bac
+Author: root <root@vps38368.vps.ovh.ca>
+Date:   Sun May 31 13:34:50 2015 -0400
+
+    added seed nodes
+
+commit 4b1724ba0f09f0a7fb1490f10c1974a96b8e6d2e
+Author: ssdpool <admin@ssdpool.com>
+Date:   Wed May 27 09:13:14 2015 +0300
+
+    fix seed6
+
+commit 65f747aaf170a72c17ce7b17fc1194ea82279ed1
+Author: ssdpool <admin@ssdpool.com>
+Date:   Tue May 26 17:32:27 2015 +0300
+
+    first commit

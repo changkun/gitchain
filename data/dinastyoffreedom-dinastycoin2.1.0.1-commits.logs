@@ -1,0 +1,25 @@
+commit 3bcf71aeee001c9dcf3d9f01481ea64ff68344cf
+Author: dinastyoffreedom <info@dinastyoffreedom.com>
+Date:   Tue Aug 29 12:41:13 2017 +0200
+
+    Add files via upload
+
+commit 58eba5bd7187c376450b1ee985a73a70c54a2dbd
+Author: dinastyoffreedom <info@dinastyoffreedom.com>
+Date:   Tue Aug 29 12:41:00 2017 +0200
+
+    Create make_config.mk
+
+commit b93496e000cb4594a9bc31274340c6cd88a9f4a8
+Author: dinastyoffreedom <info@dinastyoffreedom.com>
+Date:   Mon Aug 28 17:19:18 2017 +0200
+
+    zawy diff support
+    
+    Support Zawy Algorithm to reduce timestampa attack... starting from block 320000... Upgrade it is a MUST! for all
+
+commit 2bc1443b6b63af1120df4551eee5e667de60547e
+Author: dinastyoffreedom <info@dinastyoffreedom.com>
+Date:   Mon Aug 28 12:24:41 2017 +0200
+
+    v.2.1.0.1 with zawy diff support

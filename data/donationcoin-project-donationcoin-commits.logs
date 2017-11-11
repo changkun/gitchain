@@ -1,0 +1,291 @@
+commit 4dc095f5bac943f3b0f1051b2ab1dbf41ad1fdc2
+Author: Donationcoin <asiashibe@gmail.com>
+Date:   Fri Jul 21 23:52:13 2017 -0400
+
+    Add files via upload
+
+commit 63f569f95360e3dae4509dcd5c7cf55ccf29c359
+Author: Donationcoin <asiashibe@gmail.com>
+Date:   Fri Jul 21 23:47:41 2017 -0400
+
+    Delete about.png
+
+commit 1e5473e4f1224909c8a199f26eef0c7ff8cf157e
+Merge: b492111 3ab4c1b
+Author: Donationcoin <asiashibe@gmail.com>
+Date:   Fri Jul 21 23:39:22 2017 -0400
+
+    Merge pull request #7 from CryptoCanary/patch-7
+    
+    fix qstring argument missing runtime warning
+
+commit 3ab4c1b86e012d1ca9b917d5dc6ac046e43a7528
+Author: Donationcoin <asiashibe@gmail.com>
+Date:   Fri Jul 21 23:37:00 2017 -0400
+
+    Update splashscreen.cpp
+
+commit 5a2a9b244c9e9a2ccbd497fd2ea87e423e997500
+Author: Steven Saxton <ssaxton@kent.edu>
+Date:   Fri Jul 21 23:22:10 2017 -0400
+
+    fix qstring argument missing runtime warning
+
+commit b492111bd885657eebb3f95b8ea42db92b1c7364
+Author: Donationcoin <asiashibe@gmail.com>
+Date:   Wed Jul 12 03:50:58 2017 -0400
+
+    v1.4
+
+commit 0c56de9cac585bfe1a688c20fc6c03d3b22e2904
+Author: Donationcoin <asiashibe@gmail.com>
+Date:   Wed Jul 12 03:49:35 2017 -0400
+
+    Delete splash_testnet.png
+
+commit badf9980244f7bf4b73704c30ed01f716b978d71
+Author: Donationcoin <asiashibe@gmail.com>
+Date:   Wed Jul 12 03:49:21 2017 -0400
+
+    Delete splash.png
+
+commit 7450ca0cd6f549bd267ed6b61e51e64cc4757135
+Author: Donationcoin <asiashibe@gmail.com>
+Date:   Wed Jul 12 03:49:06 2017 -0400
+
+    Delete about.png
+
+commit 071f7e628db421597a1859344fecc34c5b350156
+Author: Donationcoin <asiashibe@gmail.com>
+Date:   Wed Jul 12 03:48:40 2017 -0400
+
+    Delete Thumbs.db
+
+commit 982f8544b038d046ac0d9544d002b566deccc20c
+Merge: c71578c bb0ab28
+Author: Donationcoin <asiashibe@gmail.com>
+Date:   Sat Mar 4 18:56:11 2017 -0500
+
+    Merge pull request #5 from CryptoCanary/patch-5
+    
+    A bit smaller vertically.
+
+commit c71578c2517cbeb7a8029ee4e65619e46fafc857
+Merge: e102519 3d505fc
+Author: Donationcoin <asiashibe@gmail.com>
+Date:   Sat Mar 4 18:55:33 2017 -0500
+
+    Merge pull request #6 from CryptoCanary/patch-6
+    
+    Less vertical real estate used
+
+commit 3d505fc1ee4f29c627422a51f61d7a15cad8dbe7
+Author: Steven Saxton <ssaxton@kent.edu>
+Date:   Sat Mar 4 18:36:41 2017 -0500
+
+    Less vertical real estate used
+
+commit bb0ab2867c0558a5cc5503449521f1decc1f5f6a
+Author: Steven Saxton <ssaxton@kent.edu>
+Date:   Sat Mar 4 18:32:49 2017 -0500
+
+    A bit smaller vertically.
+    
+    "Wallet" label changed to "Donationcoin"
+
+commit e102519e7436b3bea0cbb2d22a6d979caa641037
+Author: Donationcoin <asiashibe@gmail.com>
+Date:   Sun Jan 15 17:57:15 2017 -0500
+
+    Version 1.4
+
+commit 3cdbde3fe1b0a79749056ac045ec8b2e2109426f
+Author: Donationcoin <asiashibe@gmail.com>
+Date:   Sun Jan 15 17:55:51 2017 -0500
+
+    Version 1.4
+
+commit b711fb063183e8266ac734cdcbe31f3e074c3fb3
+Author: Donationcoin <asiashibe@gmail.com>
+Date:   Sun Jan 15 17:53:56 2017 -0500
+
+    Version 1.4
+
+commit 1ac84c56c9ea4e5813daa05260864c542c6e773a
+Author: Donationcoin <asiashibe@gmail.com>
+Date:   Sun Jan 15 17:53:05 2017 -0500
+
+    Version 1.4
+
+commit 554c3114c7d1f9a17fe87eab36b82a389ce6d74e
+Author: Donationcoin <asiashibe@gmail.com>
+Date:   Sun Jan 15 17:52:03 2017 -0500
+
+    Version 1.4
+
+commit 0feaec02ac514bb4f21afdb5853a4c143c478c30
+Author: Donationcoin <asiashibe@gmail.com>
+Date:   Sun Jan 15 17:47:52 2017 -0500
+
+    Update splashscreen.cpp
+
+commit 58378ede328fc40c84e58248df04aed1ab6a6f42
+Author: Donationcoin <asiashibe@gmail.com>
+Date:   Sun Jan 15 17:27:05 2017 -0500
+
+    Update aboutdialog.cpp
+
+commit dfaddf5890f34d765cd60149fed0e4ef08404ed3
+Author: Donationcoin <asiashibe@gmail.com>
+Date:   Sun Jan 15 16:58:21 2017 -0500
+
+    Update version.cpp
+
+commit 005070f73251a3597a5789c08a7cce9c4f13ec29
+Author: Donationcoin <asiashibe@gmail.com>
+Date:   Sun Jan 15 16:41:29 2017 -0500
+
+    Version 1.4
+
+commit 035c912f8f908bae5e0d6fb7da441fdb4c1dc173
+Author: Donationcoin <asiashibe@gmail.com>
+Date:   Sun Jan 15 15:36:33 2017 -0500
+
+    New checkpoint for v1.4
+
+commit c686d8462251a8ad4aae413d024b7ea456d18bdd
+Author: Donationcoin <asiashibe@gmail.com>
+Date:   Sun Jan 15 15:28:50 2017 -0500
+
+    Delete .lock
+
+commit 2b721c77a28cb7b853b62116689d98aa1039b19f
+Author: Donationcoin <asiashibe@gmail.com>
+Date:   Sun Jan 15 15:28:26 2017 -0500
+
+    Delete donationcoin.conf
+
+commit 1c8f9fa54110bc6c205a2b12340b7afbd93d94d1
+Author: Donationcoin <asiashibe@gmail.com>
+Date:   Sun Jan 15 15:14:28 2017 -0500
+
+    copyright year
+
+commit 346fc4323f8178fb5d36462080d769b7ce8f8403
+Author: Donationcoin <asiashibe@gmail.com>
+Date:   Sun Jan 15 15:11:22 2017 -0500
+
+    version bump
+
+commit c24e132564ce88e62d8333e4984a789cdee62ffa
+Author: Donationcoin <asiashibe@gmail.com>
+Date:   Sun Jan 15 15:10:07 2017 -0500
+
+    Updates for conf now being in application data directory.
+    
+    Also copyright year update.
+
+commit 24b5158ad79a3ec860dd25ac32040c3b600fa2e6
+Author: Donationcoin <asiashibe@gmail.com>
+Date:   Sun Jan 15 15:02:22 2017 -0500
+
+    conf is not needed in exe root any longer
+
+commit e1d0ab9e9b57a92b9293d9678f3f1913ffcad7f3
+Merge: 76ed6cf 38b1514
+Author: Donationcoin <asiashibe@gmail.com>
+Date:   Sun Jan 15 14:56:29 2017 -0500
+
+    Merge pull request #1 from CryptoCanary/patch-1
+    
+    No longer use the executables current directory to store data. Use the user's application data home.
+
+commit 76ed6cf9c28cc56bd13ca1cd5564c98ef9d9d9e4
+Merge: 1500cf0 a787d1d
+Author: Donationcoin <asiashibe@gmail.com>
+Date:   Sun Jan 15 14:56:08 2017 -0500
+
+    Merge pull request #2 from CryptoCanary/patch-3
+    
+    Update overviewpage.cpp
+
+commit 1500cf0a3623547db8cfe00d8962fb65be52ec22
+Merge: 51f61f9 db30f30
+Author: Donationcoin <asiashibe@gmail.com>
+Date:   Sun Jan 15 14:55:54 2017 -0500
+
+    Merge pull request #3 from CryptoCanary/patch-4
+    
+    Update rpcrawtransaction.cpp
+
+commit 51f61f998bf4b5113b052fe3efcaec3de27f1a88
+Merge: 6805470 4da61d6
+Author: Donationcoin <asiashibe@gmail.com>
+Date:   Sun Jan 15 14:55:33 2017 -0500
+
+    Merge pull request #4 from CryptoCanary/patch-2
+    
+    Update overviewpage.ui
+
+commit 38b1514e0631ee0196236467048a50c435c29642
+Author: Steven Saxton <ssaxton@kent.edu>
+Date:   Sun Jan 15 14:41:08 2017 -0500
+
+    DNS seednodes
+
+commit db30f303d9fbd512ba06b59f2aacf46c9ba55acc
+Author: Steven Saxton <ssaxton@kent.edu>
+Date:   Wed Oct 12 22:48:32 2016 -0400
+
+    Update rpcrawtransaction.cpp
+
+commit a787d1deab83490107b2d660352f21dd2cabc4a2
+Author: Steven Saxton <ssaxton@kent.edu>
+Date:   Thu Sep 22 23:23:25 2016 -0400
+
+    Update overviewpage.cpp
+
+commit 4da61d6d0a5232073d5c4bed4e223d05bccc88be
+Author: Steven Saxton <ssaxton@kent.edu>
+Date:   Thu Sep 22 16:58:51 2016 -0400
+
+    Update overviewpage.ui
+    
+    Fix coin logo being clipped by setting min size
+
+commit 9975ef57e6246f365b409309d96121de9f59dd26
+Author: Steven Saxton <ssaxton@kent.edu>
+Date:   Thu Sep 22 16:51:49 2016 -0400
+
+    Update util.cpp
+
+commit c576d5a2034d6c33936d017811f42d7347f2569c
+Author: Steven Saxton <ssaxton@kent.edu>
+Date:   Tue Sep 20 21:01:39 2016 -0400
+
+    No longer use the executables current directory to store data. Use user home data directories.
+    
+    // Windows < Vista: C:\Documents and Settings\Username\Application Data\donationcoin
+    // Windows >= Vista: C:\Users\Username\AppData\Roaming\donationcoin
+    // Mac: ~/Library/Application Support/donationcoin
+    // Unix: ~/.donationcoin
+
+commit 680547007a0bded064deb5f69e04cf3384f5507d
+Author: CryptoCanary <ssaxton@kent.edu>
+Date:   Thu Sep 17 13:08:29 2015 -0400
+
+    Make executable /src/leveldb/build_detect_platform
+
+commit 7e48c754b236fb13675d8470e37000a35ee33992
+Author: Donationcoin <asiashibe@gmail.com>
+Date:   Tue Jun 24 21:02:14 2014 +0100
+
+    Update net.cpp
+
+commit d376aeece024ea33b4e49a7d6b5ef063f21b1dd8
+Author: donationcoin-project <developers@donation-coin.org>
+Date:   Tue Jun 24 20:52:09 2014 +0100
+
+    Version 1.3
+    
+    Release to fix fork in blockchain. Checkpoints added to Block 63500.

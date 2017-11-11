@@ -1,0 +1,71 @@
+commit bbcf047535781998e67f71d628ff437fa17fd9e4
+Author: DNotesCoin <contact@dnotescoin.com>
+Date:   Mon Aug 14 20:46:09 2017 -0400
+
+    Update checkpoints.cpp
+
+commit d240b37b089456dbe8d5339898a359c808e7c12a
+Author: DNotesCoin <contact@dnotescoin.com>
+Date:   Mon Aug 14 20:42:32 2017 -0400
+
+    Update bitcoinrpc.cpp
+
+commit fbb08321db1e25a3b620782f01f2548619938960
+Author: DNotesCoin <contact@dnotescoin.com>
+Date:   Mon Aug 14 20:39:14 2017 -0400
+
+    Update init.cpp
+
+commit 3db4b329369eeff818864d8bb0d6b519c70708a9
+Merge: 0829dd9 5c3be17
+Author: DNotesCoin <contact@dnotescoin.com>
+Date:   Mon Aug 14 20:36:13 2017 -0400
+
+    Merge pull request #3 from DNotesCoin/revert-2-master
+    
+    Revert "Fixing port selection"
+
+commit 0829dd9fd9555ae4d0b89f16341cfd58035f2b84
+Author: DNotesCoin <contact@dnotescoin.com>
+Date:   Mon Aug 14 20:31:14 2017 -0400
+
+    Update README.md
+
+commit 5c3be173e7090a87ecd558153f1e9b81a3ea4e21
+Author: DNotesCoin <contact@dnotescoin.com>
+Date:   Mon Aug 14 20:02:18 2017 -0400
+
+    Revert "Fixing port selection"
+
+commit 8e0adf39d86a025f0661a985ec33e40508b886ae
+Merge: bf5c439 cbc020e
+Author: DNotesCoin <contact@dnotescoin.com>
+Date:   Mon Aug 14 18:55:26 2017 -0400
+
+    Merge pull request #2 from buzztiaan/master
+    
+    Fixing port selection
+
+commit cbc020ec52081cc3f3417d7227ec7f5e41112947
+Author: buzztiaan <buzztiaan@users.noreply.github.com>
+Date:   Tue Aug 15 00:10:23 2017 +0200
+
+    fixed actual default port selection
+
+commit 71dda6113d189410ab966083b3e2724195c29017
+Author: buzztiaan <buzztiaan@users.noreply.github.com>
+Date:   Tue Aug 15 00:07:43 2017 +0200
+
+    fixed help msg
+
+commit bf5c4399e2d20215f89bfe0dbd2793042549e245
+Author: DNotesCoin <contact@dnotescoin.com>
+Date:   Sat Feb 28 14:08:33 2015 -0500
+
+    Update checkpoints.cpp
+
+commit 85178048e5051611620601e4e93a0cb509df35e1
+Author: DNotesCoin <contact@dnotescoin.com>
+Date:   Wed Feb 18 15:48:36 2015 -0500
+
+    Upload

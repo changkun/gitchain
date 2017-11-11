@@ -60,9 +60,10 @@ class RepoSpider(object):
         # 1. fetch all repo informations
         repo_response = requests.get(
             url=self.repo_url, auth=self.auth, headers=self.headers)
-        print(repo_response)
+        if repo_response.status_code == 404:
+            print('Crashed response, 404')
+            return
         repo_infos = json.loads(repo_response.text)
-        print(repo_infos)
         if clone:
             os.system(
                 f"git clone {repo_infos['clone_url']} temp/{self.repo_name}")

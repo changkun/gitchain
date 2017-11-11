@@ -1,0 +1,62 @@
+commit 3d04d2800d443888df209d3d1e3fffa32850e3ea
+Author: cpozzer <titanicdream@gmail.com>
+Date:   Thu Aug 31 23:19:22 2017 +0400
+
+    Update addeditadrenalinenode.ui
+
+commit e756ec1595e404c9104b9a8cc5cde8c2b6dc5e52
+Author: cpozzer <titanicdream@gmail.com>
+Date:   Mon Aug 28 10:42:51 2017 +0300
+
+    v2.0.0.1
+
+commit 831ee9142740c8e6b27f7e4213136c2e24b0277e
+Author: cpozzer <titanicdream@gmail.com>
+Date:   Mon Aug 28 11:24:37 2017 +0400
+
+    Added DNS Seeding
+
+commit f7c0c4d092325737246c1b947da77874b8d137d7
+Merge: 0d208b3 695d13b
+Author: cpozzer <titanicdream@gmail.com>
+Date:   Sun Aug 27 17:25:14 2017 +0300
+
+    Merge pull request #1 from cpozzer/cpozzer-patch-1
+    
+    Compile fix.
+
+commit 695d13be04d7683e11639edb74a2f893142a30f3
+Author: cpozzer <titanicdream@gmail.com>
+Date:   Sun Aug 27 17:24:43 2017 +0300
+
+    Update version.cpp
+
+commit 729d7a5fcabfb6a2ff690ae237aee19bdb24baa8
+Author: cpozzer <titanicdream@gmail.com>
+Date:   Sun Aug 27 17:24:19 2017 +0300
+
+    Update makefile.osx
+
+commit d03a933e5b6193e164d1d62e355f783a96bcf882
+Author: cpozzer <titanicdream@gmail.com>
+Date:   Sun Aug 27 17:23:59 2017 +0300
+
+    Update makefile.linux-mingw
+
+commit 4b5c7a4eb0e9934888c845d7e3d01ae5d0d42905
+Author: cpozzer <titanicdream@gmail.com>
+Date:   Sun Aug 27 17:23:47 2017 +0300
+
+    Update makefile.bsd
+
+commit cfc076a6d15fcb807823139a1798e4327d833f46
+Author: cpozzer <titanicdream@gmail.com>
+Date:   Sun Aug 27 17:22:30 2017 +0300
+
+    Update makefile.unix
+
+commit 0d208b325d1cc9384ff853b6116f9e17926d6bc3
+Author: cpozzer <titanicdream@gmail.com>
+Date:   Thu Aug 24 17:32:08 2017 +0300
+
+    Initial release.

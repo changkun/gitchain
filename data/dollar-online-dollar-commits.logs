@@ -1,0 +1,109 @@
+commit c0840b64e4062f09a110fc2160c5484ab1ba06cb
+Author: bumbacoin <bumbacoin@gmail.com>
+Date:   Sat Mar 11 12:54:58 2017 +0800
+
+    Create empty.txt
+
+commit 7f1f05d00add9fb767952987334d6b0da1542ef5
+Author: bumbacoin <bumbacoin@gmail.com>
+Date:   Sat Mar 11 12:37:16 2017 +0800
+
+    end PoW and update PoS rewards
+
+commit 1e4f11fadb6225225ff413523b3c730ebb2005bc
+Author: DOLLAR ONLINE <info@edollar.online>
+Date:   Fri Mar 10 16:22:16 2017 +0100
+
+    Update main.h
+
+commit 1a89c13370faaed14e2c2b7ed6df5f3d0ef4a8c8
+Author: DOLLAR ONLINE <info@edollar.online>
+Date:   Thu Mar 9 15:10:22 2017 +0100
+
+    Update checkpoints.cpp
+
+commit 8f889f748386ed7b1e00e21ea6130e167f65a1a0
+Author: DOLLAR ONLINE <info@edollar.online>
+Date:   Thu Mar 9 15:03:57 2017 +0100
+
+    Update main.h
+
+commit 61d9bf807fea22673af6233802492f19e138b115
+Author: DOLLAR ONLINE <info@edollar.online>
+Date:   Thu Feb 23 11:51:23 2017 +0100
+
+    Update clientversion.h
+
+commit 48d6dc537789eced837cad7f44acf1774628dc2d
+Author: DOLLAR ONLINE <info@edollar.online>
+Date:   Thu Feb 23 11:49:23 2017 +0100
+
+    Update version.h
+
+commit 765605faa636d77647f58507a6a53ca727769b90
+Author: DOLLAR ONLINE <info@edollar.online>
+Date:   Thu Feb 23 02:14:40 2017 +0100
+
+    Update clientversion.h
+
+commit 95c83fe0cb85e33c9b3ae6643ed241bf07236502
+Author: DOLLAR ONLINE <info@edollar.online>
+Date:   Thu Feb 23 02:11:16 2017 +0100
+
+    Update main.h
+
+commit 40a7925262f90ff1122de118ae9ffd75ecc082b4
+Author: DOLLAR ONLINE <info@edollar.online>
+Date:   Thu Feb 23 02:10:11 2017 +0100
+
+    Update main.cpp
+
+commit 2d17d66b09451a361b1d8982c281cb9c5653311d
+Author: DOLLAR ONLINE <info@edollar.online>
+Date:   Thu Feb 23 00:35:38 2017 +0100
+
+    Update checkpoints.cpp
+
+commit ccd88039584035bea8ef831b78a3f9954a2544c1
+Author: DOLLAR ONLINE <info@edollar.online>
+Date:   Mon Nov 21 22:30:45 2016 +0100
+
+    Update main.h
+
+commit 670444b200d608f09cced93ba708441493cdba76
+Author: DOLLAR ONLINE <info@edollar.online>
+Date:   Mon Nov 21 22:30:03 2016 +0100
+
+    Update checkpoints.cpp
+
+commit 31109e748a4a75240e0ba6bdac12a982e8cf99dd
+Author: DOLLAR ONLINE <info@edollar.online>
+Date:   Sun Nov 20 00:33:55 2016 +0100
+
+    PoS starts at block 1000
+
+commit 7902bcba4f16f6479925095dae1e4f80a8c2b6be
+Author: DOLLAR ONLINE <info@edollar.online>
+Date:   Sat Nov 19 12:37:53 2016 +0100
+
+    Update checkpoints.cpp
+
+commit 15eca6702df344b5b7ca4374ac0c0bc40ddac6d4
+Author: DOLLAR ONLINE <info@edollar.online>
+Date:   Thu Nov 17 19:47:52 2016 +0100
+
+    Update README.md
+    
+    Deleted DOLLAR ASCII sign.
+
+commit 3ddf3ae871833a91e54df7bf66c38ec9fa63ec8f
+Author: DOLLAR ONLINE <info@edollar.online>
+Date:   Thu Nov 17 19:47:08 2016 +0100
+
+    Update README.md
+
+commit 0b2728acac4e081275355cce82c9e4513fe6734d
+Author: Djordje Marcetin <marcetin@gmail.com>
+Date:   Thu Nov 17 16:44:14 2016 +0100
+
+    DOLLAR

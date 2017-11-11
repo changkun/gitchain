@@ -1,0 +1,59 @@
+commit 3210ea48619e64411c39438978654ca33e4e778d
+Author: coins7ex <krzysiek773@o2.pl>
+Date:   Sat Oct 29 14:40:03 2016 +0100
+
+    Update README.md
+
+commit 76518d544529ed7a857063c8614b70b85f8095d5
+Author: coins7ex <krzysiek773@o2.pl>
+Date:   Sat Oct 29 14:31:42 2016 +0100
+
+    Update README.md
+
+commit 671b30a12be6c7cc411ec7f5298cbaf2368f7e05
+Author: coins7ex <krzysiek773@o2.pl>
+Date:   Sat Oct 29 14:24:02 2016 +0100
+
+    Update README.md
+
+commit aed36b1568208ea5b05fcb3aaba8615cebf323b7
+Author: coins7ex <krzysiek773@o2.pl>
+Date:   Sat Oct 29 14:18:04 2016 +0100
+
+    Update bitcoinrpc.cpp
+
+commit 9f34d3ae5360eb1e1b8e222aec33dcd0b82271df
+Author: coins7ex <krzysiek773@o2.pl>
+Date:   Sat Oct 29 14:15:31 2016 +0100
+
+    Update clientversion.h
+
+commit fbe4beafc21c271fbe62e8512e4dfe27ca093134
+Author: dimecoinproject <dimecoin.org@gmail.com>
+Date:   Tue Dec 31 14:19:37 2013 +0800
+
+    update copyright
+
+commit 3d406a306a366e50ab949623419db37ba1562950
+Author: antcoin <antcoin.com@gmail.com>
+Date:   Sun Dec 29 10:24:25 2013 +0800
+
+    updated logo , checkpoints and chinese name
+
+commit b7c5077182a9fa5983bc711d45a740b81f3e8297
+Author: antcoin <antcoin.com@gmail.com>
+Date:   Tue Dec 24 18:15:28 2013 +0800
+
+    add share folder and update check points
+
+commit 93992a744e95038a2029d3352e205c9feca7114c
+Author: antcoin <antcoin.com@gmail.com>
+Date:   Tue Dec 24 11:40:54 2013 +0800
+
+    fix the translate
+
+commit aaf32266c1170a5376172285b102d7dc4dfa99d3
+Author: antcoin <antcoin.com@gmail.com>
+Date:   Mon Dec 23 23:03:05 2013 +0800
+
+    init project
