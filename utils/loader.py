@@ -22,7 +22,8 @@ class Loader(object):
 
 
 def main():
-    loader = Loader('../data/coin_repo.csv', type='csv')
+    loader = Loader(os.path.join(os.path.dirname(__file__),
+                                 '../data/coin_repo.csv'), type='csv')
     loader.start()
 
 
