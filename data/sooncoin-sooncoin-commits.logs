@@ -1,0 +1,61 @@
+commit 19b6529ccf05467360d7ebccd1911a24fb77bccf
+Author: SoonCoin <info@sooncoin.com>
+Date:   Mon Oct 5 22:51:21 2015 +0200
+
+    Update chainparams.cpp
+
+commit 4b0b84b0ebb4e03672cd8490855efb6fe0110981
+Author: SoonCoin <info@sooncoin.com>
+Date:   Fri Mar 27 02:04:17 2015 +0100
+
+    updated extra push seed
+
+commit 7e14c2cc65fea4736c1f3531cefd3d02db38eaed
+Author: SoonCoin <info@sooncoin.com>
+Date:   Thu Mar 26 17:03:48 2015 +0100
+
+    pull req applied
+
+commit 9f93e2bfacf1d1ad10a9ce338213a856159b7382
+Author: SoonCoin <info@sooncoin.com>
+Date:   Thu Mar 26 16:50:53 2015 +0100
+
+    fix start
+
+commit 4116ba589d55de1d0ffb1fb5d39164744be03276
+Author: SoonCoin <info@sooncoin.com>
+Date:   Tue Mar 24 20:11:00 2015 +0100
+
+    update error fix
+
+commit 288b7e890978099576e142c562801df0f5885528
+Author: SoonCoin <info@sooncoin.com>
+Date:   Tue Mar 24 01:53:48 2015 +0100
+
+    update bug fix
+
+commit b816740fb7f0a55238716ac91333f4d61ec0b7cd
+Author: SoonCoin <info@sooncoin.com>
+Date:   Tue Mar 24 00:06:51 2015 +0100
+
+    testnet error change
+
+commit 998346f11c7fb73c743d9d696b38e136cb9d601d
+Author: SoonCoin <info@sooncoin.com>
+Date:   Sun Mar 22 04:52:38 2015 +0100
+
+    update after 100000
+
+commit 26a4bb70bf9577b800a71fbe283345b0c5a4a8a3
+Author: SoonCoin <info@sooncoin.com>
+Date:   Sun Mar 22 04:37:40 2015 +0100
+
+    update after block 100000
+
+commit e13aa30fa43f35818506feb81d430dd27ce4906a
+Author: Ricardo van Dinther <Ricardo@MacBook-Pro-van-Ricardo.local>
+Date:   Tue Nov 11 15:34:27 2014 +0100
+
+    dev not to use
+    
+    dev not to use

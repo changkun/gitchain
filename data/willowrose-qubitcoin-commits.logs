@@ -1,0 +1,299 @@
+commit 684008da3146c6fdcec4d7b888c050a818b90f42
+Author: willowrose <willowrose@users.noreply.github.com>
+Date:   Wed Oct 19 10:53:52 2016 +0200
+
+    0.11.2.2
+
+commit e7d45c7dd25a7e50f27035920de869ca4729d0e3
+Author: willowrose <willowrose@users.noreply.github.com>
+Date:   Wed Oct 19 10:46:08 2016 +0200
+
+    Text change
+
+commit d587d191d5076817e4004c8b966bc07494489f6f
+Merge: 56f57c6 25ac631
+Author: willowrose <willowrose@users.noreply.github.com>
+Date:   Wed Oct 19 10:27:17 2016 +0200
+
+    Merge pull request #4 from jemekite/master
+    
+    zeta to qubit
+
+commit 25ac63160aef0ba4242da77bd9e801b80fe87138
+Author: Jemekite <jemekite@users.noreply.github.com>
+Date:   Wed Oct 19 15:13:22 2016 +0700
+
+    zeta to qubit
+
+commit 56f57c65c934936efb232ccaba464c4ccb505497
+Merge: acc0b5a fcb0e24
+Author: willowrose <willowrose@users.noreply.github.com>
+Date:   Wed Oct 19 00:36:19 2016 +0200
+
+    Merge pull request #3 from willowrose/dev
+    
+    Increase default max transaction fee
+
+commit fcb0e2461d3bd31dc9e9f5249fcd78c3ef98dd15
+Author: willowrose <willowrose@users.noreply.github.com>
+Date:   Wed Oct 19 00:00:43 2016 +0200
+
+    Increase default max transaction fee
+
+commit acc0b5a202bd4f66b9f6eef32b4a394c06278ef1
+Author: willowrose <willowrose@users.noreply.github.com>
+Date:   Sat Sep 24 20:19:42 2016 +0200
+
+    0.11.2.1
+
+commit f0e780dd7ec44d75f836ba33b64e9700be5f1aa1
+Author: willowrose <willowrose@users.noreply.github.com>
+Date:   Sat Sep 24 20:14:25 2016 +0200
+
+    Fix miner
+
+commit b50d533729d260cd9e15683882537b634626f210
+Merge: 3a457c4 b0698fb
+Author: willowrose <willowrose@users.noreply.github.com>
+Date:   Sat Sep 24 10:59:49 2016 +0200
+
+    Merge pull request #2 from willowrose/0.11
+    
+    0.11.2.0
+
+commit b0698fb917f5558fe2ab4b22be15a7d2c20e16c5
+Author: willowrose <willowrose@users.noreply.github.com>
+Date:   Sat Sep 24 10:46:15 2016 +0200
+
+    0.11.2.0
+
+commit d4c9f9ff1ece686174789f9987151a4450342a07
+Author: willowrose <willowrose@users.noreply.github.com>
+Date:   Sat Sep 24 03:51:01 2016 +0200
+
+    0.11.2.0
+
+commit 4ac86cce9d2038254d970626c5ac123b506237dd
+Author: willowrose <willowrose@users.noreply.github.com>
+Date:   Sat Sep 24 02:47:08 2016 +0200
+
+    0.11.2.0
+
+commit dca9a649b280a7ea9c5b10f2febccaf1e82e43fc
+Author: willowrose <willowrose@users.noreply.github.com>
+Date:   Sat Sep 24 02:13:36 2016 +0200
+
+    0.11.2.0
+
+commit eb603d9c1a7cf13e6bc96761dfe1e360caa0f1cf
+Author: willowrose <willowrose@users.noreply.github.com>
+Date:   Sat Sep 24 01:28:05 2016 +0200
+
+    0.11.2.0
+
+commit 3a457c4c7de07be83fee329a2c6426cc2be93c5f
+Author: willowrose <willowrose@users.noreply.github.com>
+Date:   Mon Aug 8 14:44:20 2016 +0200
+
+    Wallet version
+
+commit e505065fd673e8f93a6e9c0551ca74c761092c35
+Author: willowrose <willowrose@users.noreply.github.com>
+Date:   Mon Aug 8 14:13:36 2016 +0200
+
+    Checkpoint and seed nodes
+
+commit e2098bcb4edaeec4d4414394089f7dbcdc277bd0
+Merge: 5d2a03f 83269c6
+Author: willowrose <willow.the.vampire.slayer@gmail.com>
+Date:   Thu May 8 20:54:56 2014 +0200
+
+    Merge pull request #1 from whatevercode/master
+    
+    changes to get build on osx working
+
+commit 83269c6f31cc3c9a4313c82ae75975bbe6aa32fa
+Author: whatevercode <florian.gr@gmx.net>
+Date:   Sun Apr 20 13:12:08 2014 +0200
+
+    changes to get build on osx working
+
+commit 5d2a03f5a6b7cc4ff853f25d530bfb939e37ee2e
+Author: willowrose <willowrose>
+Date:   Sat Apr 19 00:50:19 2014 +0200
+
+    QR dialog prefix change to q2c
+
+commit 652d49d1209ac5f1bbda7939285bc31481dc30aa
+Author: willowrose <willowrose>
+Date:   Fri Apr 18 22:55:36 2014 +0200
+
+    .pro version
+
+commit 0479b614208759bca74e2557d0cd9c35b1350928
+Author: willowrose <willowrose>
+Date:   Fri Apr 18 22:50:40 2014 +0200
+
+    Client version
+
+commit bc616e108a17874c2d7fc945f9da3a5fce9f588d
+Author: willowrose <willowrose>
+Date:   Fri Apr 18 22:49:14 2014 +0200
+
+    Add checkpoint
+
+commit 2aba882977b1eb9ff6e87671d70282ccdd09eaa0
+Author: willowrose <willowrose>
+Date:   Fri Apr 18 22:32:03 2014 +0200
+
+    Fix .pro file for linux
+
+commit 1c616605f0f63e69983754a114d21eebddbb8710
+Author: qubitcoin <qubitcoin@mail.ru>
+Date:   Sat Feb 22 16:26:56 2014 +0200
+
+    0.8.4.1
+
+commit 4900289a0128b670f5e62da5bee9712547cce6b1
+Author: qubitcoin <qubitcoin@mail.ru>
+Date:   Sat Feb 22 16:25:13 2014 +0200
+
+    0.8.4.1
+
+commit d6b36f15cde8c2d5bbc2134cf3c5010cbe62f17b
+Author: qubitcoin <qubitcoin@mail.ru>
+Date:   Sat Feb 22 16:24:28 2014 +0200
+
+    0.8.4.1
+
+commit 3d95ba0f2069f3e0820ca6ac6796e75294856a21
+Author: qubitcoin <qubitcoin@mail.ru>
+Date:   Sat Feb 22 16:23:12 2014 +0200
+
+    stop kimoto
+
+commit 8fdd6d8a1ed4468da0039fc68d834a3ee62d7ecc
+Author: qubitcoin <qubitcoin@mail.ru>
+Date:   Sat Feb 22 15:37:40 2014 +0200
+
+    Update main.cpp
+
+commit a9c68df12f0b53acab9dac0c67d7faeddb18aef7
+Author: qubitcoin <qubitcoin@mail.ru>
+Date:   Thu Feb 13 23:26:21 2014 +0200
+
+    0.8.4
+
+commit ce7ef7440b77d2bbaf34874e7e656946c77d2c14
+Author: qubitcoin <qubitcoin@mail.ru>
+Date:   Thu Feb 13 23:24:00 2014 +0200
+
+    0.8.4
+
+commit 1b5977330b59ca4082adb37131360f44615bae7a
+Author: qubitcoin <qubitcoin@mail.ru>
+Date:   Thu Feb 13 23:23:25 2014 +0200
+
+    0.8.4
+
+commit f896d931b1d5f61234d2db109e7f186ff32e879e
+Author: Krecu Eugen <eugen@krotix.com>
+Date:   Thu Feb 13 22:47:50 2014 +0200
+
+    change font size
+
+commit 2f9f2b2590cad52bc7c068a06fbb3e4556e9102b
+Author: Krecu Eugen <eugen@krotix.com>
+Date:   Thu Feb 13 22:25:43 2014 +0200
+
+    change icons/images
+
+commit cb60ac04605a2e63e8bcc8143c61e154de453dc6
+Author: Krecu Eugen <eugen@krotix.com>
+Date:   Thu Feb 13 22:18:50 2014 +0200
+
+    Added KimotoGravityWell! after 120960 block
+
+commit 044a735b14cf1053d26616f04a33f44e542bb78c
+Author: Krecu Eugen <eugen@krotix.com>
+Date:   Thu Feb 13 22:02:32 2014 +0200
+
+    Qubit -> QubitCoin
+
+commit 46ba8975596c1ccde2880fe681b2a0c4a347a722
+Author: Krecu Eugen <eugen@krotix.com>
+Date:   Thu Feb 13 21:18:38 2014 +0200
+
+    clear qt cache
+
+commit 05db0e7f45c316e9ab4e4b4efb4f2e3b6f133669
+Author: Krecu Eugen <eugen@krotix.com>
+Date:   Thu Feb 13 21:15:08 2014 +0200
+
+    update link version
+
+commit 127935c6189666bd52091802f89b7f938c7cdd6d
+Author: Krecu Eugen <eugen@krotix.com>
+Date:   Thu Feb 13 21:11:25 2014 +0200
+
+    update link
+
+commit 29d27037bd0a324bb449f9d2f27393c35b5d4f55
+Author: qubitcoin <qubitcoin@mail.ru>
+Date:   Wed Feb 12 14:18:51 2014 +0200
+
+    Update net.cpp
+
+commit 03c20cce75adc4565e42197ee77071237d467caa
+Merge: 469ae16 35b6aa8
+Author: qubitcoin <qubitcoin@mail.ru>
+Date:   Wed Feb 12 14:17:00 2014 +0200
+
+    Merge pull request #5 from exmac/master
+    
+    chmod +x build_detect_platform
+
+commit 35b6aa89357284c6ac543ed2c5d5cdb6db5010c4
+Author: Ruslan Malymon <ex.mac.work@gmail.com>
+Date:   Tue Feb 11 22:57:39 2014 +0100
+
+    chmod +x build_detect_platform
+
+commit 469ae16b7d5c7200b4a6b8a3181acec8160c0f15
+Merge: ff5bf1e 67b396d
+Author: qubitcoin <qubitcoin@mail.ru>
+Date:   Tue Feb 11 23:47:36 2014 +0200
+
+    Merge pull request #3 from exmac/master
+    
+    add dns seeds
+
+commit 67b396d81c5123fa09b5ebf0a05567a8a9cb8f7b
+Author: exmac <ex.mac.work@gmail.com>
+Date:   Tue Feb 11 22:43:52 2014 +0100
+
+    add dns seeds
+
+commit ff5bf1e42cbffe36c0e045b43139ca5f7bfcc12b
+Author: QubitCoin <QubitCoin@mail.ru>
+Date:   Wed Jan 15 12:50:01 2014 +0200
+
+    obj dir
+
+commit cc87618631e799b31f6e7e6aa8df4c601027f8b7
+Author: QubitCoin <QubitCoin@mail.ru>
+Date:   Wed Jan 15 12:44:47 2014 +0200
+
+    QBT to Q2C
+
+commit d05788f3e8e8cbbdf4b116a62d836d8c28d98e2b
+Author: QubitCoin <QubitCoin@mail.ru>
+Date:   Sun Jan 12 22:10:29 2014 +0200
+
+    linux fix
+
+commit 657a79f93b5ae229b533d4cfc81d839019039d63
+Author: QubitCoin <QubitCoin@mail.ru>
+Date:   Sun Jan 12 21:00:25 2014 +0200
+
+    init

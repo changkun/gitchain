@@ -1,0 +1,843 @@
+commit fd9e3b35617ab4406d329724a9632f1b734220b7
+Author: lavajumper <lavajumper@lavajumper.com>
+Date:   Fri Aug 18 00:15:07 2017 -0400
+
+    Fixed wrong rpc port in help - via bitspill
+
+commit 0e3c67783e5578cf8540f821a574c29a716c5346
+Author: lavajumper <lavajumper@lavajumper.com>
+Date:   Mon Aug 14 14:37:33 2017 -0400
+
+    bump version to 0.10.4.1
+
+commit b8e1b97ff80a4cd472672affc53fc6432a3c2716
+Author: lavajumper <lavajumper@lavajumper.com>
+Date:   Wed Aug 9 16:02:26 2017 -0400
+
+    Fixed logging error that threw Exception to console
+
+commit 0700116996b4f6b2e01ea6fd658d19796c38caea
+Author: lavajumper <lavajumper@lavajumper.com>
+Date:   Tue Aug 1 15:16:41 2017 -0400
+
+    Fixed help output for 'sendfrom' rcp command
+
+commit 452dcaa4d63081cdbe36e17746ebba8a17d20fb4
+Author: sexcoin-project <dev@sexcoin.info>
+Date:   Mon Jul 3 11:12:46 2017 -0400
+
+    Update README.md
+
+commit d605f261c056a1235318fed3584a31a06b792dff
+Merge: a7b56c6 07a595d
+Author: lavajumper <lavajumper@lavajumper.com>
+Date:   Mon Jul 3 11:07:38 2017 -0400
+
+    Merge branch '0.10.4.0'
+    
+    Conflicts:
+            README.md
+
+commit 07a595d81257c54a7612c00ee65a52d04a2d0ab6
+Author: lavajumper <lavajumper@lavajumper.com>
+Date:   Mon Jul 3 11:05:19 2017 -0400
+
+    Update README.md
+
+commit a7b56c68b255c4d5f09eed6e324ed82c277b3812
+Merge: 6132e6c 8e89ad5
+Author: lavajumper <lavajumper@lavajumper.com>
+Date:   Mon Jul 3 11:02:11 2017 -0400
+
+    Merge branch '0.10.4.0'
+    
+    Conflicts:
+            README.md
+
+commit 8e89ad54d4dc08d59c44ea644b7e9cf4cf84f904
+Author: lavajumper <lavajumper@lavajumper.com>
+Date:   Mon Jul 3 10:53:02 2017 -0400
+
+    adapt bootstrap generator to sexcoin
+    Prep QT for QT5 linux build fix
+
+commit d10f4b671d90b7c11de7f271fac413e360062daf
+Author: lavajumper <lavajumper@lavajumper.com>
+Date:   Tue Jun 27 09:40:26 2017 -0400
+
+    Age Verification should default to "None"
+
+commit 206706440530c76d2f327e55a8c814eea9b59248
+Author: lavajumper <lavajumper@lavajumper.com>
+Date:   Mon Jun 26 16:32:23 2017 -0400
+
+    Remove noisy logging
+
+commit a903dff732d5693b619bf102303665d26b60cc60
+Merge: b2dad4d d4c4a09
+Author: lavajumper <lavajumper@lavajumper.com>
+Date:   Sun Jun 25 15:04:43 2017 -0400
+
+    Merge branch '0.10.4.0' of https://github.com/sexcoin-project/sexcoin into 0.10.4.0
+
+commit b2dad4d03ae89775423466b5f3c0cc4762424cb3
+Author: lavajumper <lavajumper@lavajumper.com>
+Date:   Sun Jun 25 15:03:16 2017 -0400
+
+    Fix RPC sendtoaddress and RPC sendfrom bug that crashes client
+
+commit d4c4a09cd93074d3851c2f50926cd1255273e5e0
+Merge: c8646cb 38d45dd
+Author: lavajumper <lavajumper@lavajumper.com>
+Date:   Thu Jun 22 11:58:07 2017 -0400
+
+    Merge branch '0.10.4.0' of https://github.com/sexcoin-project/sexcoin into 0.10.4.0
+
+commit c8646cbe31671c938a54b9257f4b4bf3deb60d95
+Author: lavajumper <lavajumper@lavajumper.com>
+Date:   Thu Jun 22 11:55:54 2017 -0400
+
+    Mac updates
+
+commit 38d45dda89b88205354e86db9b26e6c5d560ba05
+Author: Lavajumper <lavajumper@users.noreply.github.com>
+Date:   Wed Jun 21 21:04:20 2017 -0400
+
+    Update README
+
+commit 9c3afc1110b84ab955b24d174bc9e99279361fd6
+Author: lavajumper <lavajumper@lavajumper.com>
+Date:   Wed Jun 21 11:46:39 2017 -0400
+
+    Replace more ltc references
+
+commit b1f42f0662f112b2148769df5d75aa0642db566f
+Author: lavajumper <lavajumper@lavajumper.com>
+Date:   Wed Jun 21 11:40:35 2017 -0400
+
+    Replace more LTC references
+
+commit 5256b86951c5556c2d1f155b075f0064367e99b0
+Author: lavajumper <lavajumper@lavajumper.com>
+Date:   Wed Jun 21 11:23:56 2017 -0400
+
+    Another SendMany fix
+
+commit bb7e550ae8d3a73ce5c29295287393a7922be969
+Author: lavajumper <lavajumper@lavajumper.com>
+Date:   Wed Jun 21 10:56:03 2017 -0400
+
+    Remove very noisy logging
+
+commit 7f7ee7d0606c3390309f2cfd70bb5f751b23b57f
+Author: lavajumper <lavajumper@lavajumper.com>
+Date:   Wed Jun 21 10:45:46 2017 -0400
+
+    Fix sendMany setting wrong age flag via old style comments
+    Update V2 Enforce threshold
+
+commit a0c588548a65323e75646b3d6c015133f750e112
+Author: lavajumper <lavajumper@lavajumper.com>
+Date:   Fri Jun 9 16:18:26 2017 -0400
+
+    Make QT 5.2 available again
+
+commit b343907c64b00634f9531a02c9aaa72c37ebf85f
+Author: lavajumper <lavajumper@lavajumper.com>
+Date:   Fri Jun 9 13:17:53 2017 -0400
+
+    Update versioning in preparation for official release
+
+commit c5ef03a1fb95ded380329f2bdb678d50b195e558
+Author: lavajumper <lavajumper@lavajumper.com>
+Date:   Wed May 31 18:25:01 2017 -0400
+
+    Update checkpoints. Added network source to some logging
+
+commit 0468446d8f10b6fb58478779a7c5c11b78e3517f
+Author: lavajumper <lavajumper@lavajumper.com>
+Date:   Wed May 17 21:54:06 2017 -0400
+
+    Update limits to reflect current block heights.
+    Update checkpoints
+    Minor syntax changes for sexcoin
+
+commit cbba460a2285e46ae0aae4dc089b198e2f7c4a6b
+Author: lavajumper <lavajumper@lavajumper.com>
+Date:   Wed Oct 12 19:44:35 2016 -0400
+
+    Uploading icon resource
+
+commit 5bdff483298c9e2118c61772bcf08b6ee70e8f54
+Author: lavajumper <lavajumper@lavajumper.com>
+Date:   Wed Oct 12 19:36:33 2016 -0400
+
+    typo fixed for icons
+
+commit 34dcb7b9c2ea85226dcf05772304cc9b2e24eead
+Author: lavajumper <lavajumper@lavajumper.com>
+Date:   Wed Oct 12 19:33:45 2016 -0400
+
+    better qt icon for block browser
+
+commit d9ec29c49a8e0f5c2eb14e9bca94cb89c6760280
+Author: lavajumper <lavajumper@lavajumper.com>
+Date:   Fri Oct 7 14:31:17 2016 -0400
+
+    Enable Mac Deployment
+
+commit f2288a61ae86c7dff2d272213425166db8829a9b
+Author: lavajumper <lavajumper@lavajumper.com>
+Date:   Tue Oct 4 22:50:07 2016 -0400
+
+    fix for older qt versions
+
+commit 8199528cf242c9d48db82b0404d9fa81da1fe7c9
+Author: lavajumper <lavajumper@lavajumper.com>
+Date:   Tue Oct 4 19:32:44 2016 -0400
+
+    fixed syntax error on previous fix
+
+commit d941e6190ea021e4792ebde16b3dbe13a4c7c0a4
+Author: lavajumper <lavajumper@lavajumper.com>
+Date:   Tue Oct 4 19:30:45 2016 -0400
+
+    Fix coinbase fee misreported
+
+commit fcd5f42951f41bdd2008a2d665cbe3de7aeb6453
+Author: lavajumper <lavajumper@lavajumper.com>
+Date:   Tue Oct 4 19:25:34 2016 -0400
+
+    Fix block browser missing input values
+
+commit eda6c36e7dc952832548f14b4cad63594130d1f5
+Author: lavajumper <lavajumper@lavajumper.com>
+Date:   Tue Oct 4 16:03:21 2016 -0400
+
+    Added thin block explorer page, fixed double background on about dialog
+    The explorer is still a little buggy, but does not affect stability
+
+commit 46efd73bbf2cb27162d7d5eb6f15bf5c07c10899
+Author: lavajumper <lavajumper@lavajumper.com>
+Date:   Mon Oct 3 16:50:16 2016 -0400
+
+    Insert Valid Example Addresses
+
+commit 17d3a5f75f567c42b28a73cb87011542b3f9d9d1
+Author: lavajumper <lavajumper@lavajumper.com>
+Date:   Mon Oct 3 16:29:09 2016 -0400
+
+    Icon changes
+
+commit 7d1f456a3d065228d3744254fbcc39a83645c447
+Author: lavajumper <lavajumper@lavajumper.com>
+Date:   Mon Oct 3 15:39:04 2016 -0400
+
+    GUI Age Verification Flag display
+
+commit 3ca7fe6dfce1bad10462d1a2ae047a3188f3e850
+Author: lavajumper <lavajumper@lavajumper.com>
+Date:   Mon Oct 3 13:31:55 2016 -0400
+
+    GUI Age Verification Text Display
+
+commit 04b10bf5d146eb2840ab952cb6b762fb119a32a8
+Author: lavajumper <lavajumper@lavajumper.com>
+Date:   Sat Oct 1 20:30:11 2016 -0400
+
+    Clean up GUI, remove debugging noise
+
+commit 24785480ab0ec60db66ecdc0d60457133bffa60f
+Author: lavajumper <lavajumper@lavajumper.com>
+Date:   Sat Oct 1 19:34:45 2016 -0400
+
+    GUI reporting for Transaction Flags
+
+commit 936f803180ebffda2ed7cf5f77742afc31a71fd8
+Merge: 2c80053 b6e1746
+Author: lavajumper <lavajumper@lavajumper.com>
+Date:   Sat Oct 1 10:49:26 2016 -0400
+
+    Merge branch '0.10.4.0' of https://github.com/sexcoin-project/sexcoin into 0.10.4.0
+
+commit 2c80053a297862b59a4745cb4e640694df7a394f
+Author: lavajumper <lavajumper@lavajumper.com>
+Date:   Sat Oct 1 10:24:16 2016 -0400
+
+    Transflags write/create for the GUI
+
+commit b6e1746a2cf6a41dde66d6268b5f7342dbb69e19
+Author: Lavajumper <lavajumper@users.noreply.github.com>
+Date:   Fri Sep 30 16:32:52 2016 -0400
+
+    Update README
+
+commit 82c563d64ea64d05573e1e6b3e6544c1652ba844
+Author: lavajumper <lavajumper@lavajumper.com>
+Date:   Fri Sep 30 15:21:38 2016 -0400
+
+    Adding in patch files to fix 'depends' build system
+
+commit 8a2fc892a32211ca6b41e24223c332aa42edcbf6
+Author: lavajumper <lavajumper@lavajumper.com>
+Date:   Fri Sep 30 15:11:49 2016 -0400
+
+    Sexcoin Age Verification and Transaction Flags
+    also fixes ./depends build failures
+
+commit 72b2173dd7adcab4b84356da1f6d7b3e06172fdd
+Author: lavajumper <lavajumper@lavajumper.com>
+Date:   Tue Sep 27 18:48:39 2016 -0400
+
+    Fix missing ignored Makefiles for test and depends
+
+commit 56fe643813baaa6656b468d0581f0db3351d27c1
+Author: lavajumper <lavajumper@lavajumper.com>
+Date:   Tue Sep 27 18:46:51 2016 -0400
+
+    fix autogen.sh failure
+
+commit 0bc35169d71696d99ed0a4fd9e3a769aa6c31931
+Author: lavajumper <lavajumper@lavajumper.com>
+Date:   Fri Sep 23 17:44:18 2016 -0400
+
+    added notes, Minor updates for testnet
+
+commit 9dadf808f6a2e25c7e1ebf4c9100c7cc0fd9552d
+Author: lavajumper <lavajumper@lavajumper.com>
+Date:   Tue Sep 13 11:26:48 2016 -0400
+
+    New Alert key. Clarify Protocol Version
+
+commit 3f3e7d486e48006b667f038551010c9673e8b739
+Author: lavajumper <lavajumper@lavajumper.com>
+Date:   Mon Sep 12 21:11:59 2016 -0400
+
+    insure protocol version gets bumped, but not out of range for 0646 clients
+
+commit 833212ab86b3566a5b811a269367951f2437c9ca
+Merge: 2e62ad9 cef0887
+Author: lavajumper <lavajumper@lavajumper.com>
+Date:   Mon Sep 12 18:51:21 2016 -0400
+
+    Merge branch '0.10.4.0' of https://github.com/sexcoin-project/sexcoin into 0.10.4.0
+
+commit 2e62ad954f37c6baf3067362960e962887500f91
+Author: lavajumper <lavajumper@lavajumper.com>
+Date:   Mon Sep 12 18:49:36 2016 -0400
+
+    Fix testnet dnsseed code
+
+commit cef088715606d4b9d40efa0109907921ca6c997b
+Author: sexcoin-project <dev@sexcoin.info>
+Date:   Thu Sep 8 16:05:48 2016 -0400
+
+    Update README
+
+commit e251fe6017d29fb220dbe54de665ffe9ad189748
+Author: sexcoin-project <dev@sexcoin.info>
+Date:   Thu Sep 8 16:05:35 2016 -0400
+
+    Update README
+
+commit e20f40a1408776ce05bf8746b4c42f091e2bf162
+Author: sexcoin-project <dev@sexcoin.info>
+Date:   Thu Sep 8 16:05:00 2016 -0400
+
+    Update README
+
+commit dcdb49d58e5c86e272feddeea68d0175d134cbf5
+Author: sexcoin-project <dev@sexcoin.info>
+Date:   Thu Sep 8 16:04:15 2016 -0400
+
+    Update README
+
+commit 6132e6c3ff94f2535bfed2203a9ff73f7741eda1
+Author: sexcoin-project <dev@sexcoin.info>
+Date:   Wed Sep 7 22:30:31 2016 -0400
+
+    Update README
+
+commit e1d0a54e6d66a46f10bd6ec4eaede9fcb5e10dbf
+Author: lavajumper <lavajumper@lavajumper.com>
+Date:   Wed Sep 7 18:23:59 2016 -0400
+
+    Testnet Implemented
+
+commit 60897aa150adc8af6ead9191e349641aea0b38bc
+Author: lavajumper <lavajumper@lavajumper.com>
+Date:   Tue Sep 6 10:48:34 2016 -0400
+
+    Sexcoin 0.10.4 Initial
+
+commit fdd98d1676bcfe55a8a4ba6525329dca3a441fbb
+Author: sexcoin-project <dev@sexcoin.info>
+Date:   Tue Dec 1 17:03:31 2015 -0500
+
+    update contact information
+
+commit 4a441fa40be627270f9d6ed25b9be8dfdf966c51
+Merge: e2cd633 ebf08be
+Author: sexcoin-project <info@sexcoin.info>
+Date:   Sat Sep 13 18:39:27 2014 -0400
+
+    Merge pull request #13 from pmconrad/master
+    
+    Enable DNS seeds
+
+commit ebf08be951866b9601776a5abb2016c4a321e7b1
+Author: Peter Conrad <conrad@quisquis.de>
+Date:   Wed Sep 10 10:24:42 2014 +0200
+
+    Enable DNS seeds
+
+commit e2cd633985afa15a5ee4adec2e6fb4b0c97b3446
+Author: nfceek <bsmith@lnxadmn.com>
+Date:   Mon May 19 17:53:10 2014 -0400
+
+    update about screen
+
+commit 4b29d2841f508c040137dc4817675bdce406b48b
+Merge: 0dea2e1 cb616c1
+Author: sxcer <sxcerr@gmail.com>
+Date:   Sun May 4 22:19:41 2014 -0700
+
+    Merge pull request #11 from sxcer/master
+    
+    Fix KGW Timewarp vulnerability
+
+commit cb616c1d4cdd2add65b3ca17d9b7375450dd677a
+Author: sxcer <sxcerr@gmail.com>
+Date:   Mon May 5 01:16:32 2014 -0400
+
+    fix version numbers that were somehow hosed up
+
+commit f8a75f9a0826a5c72a90261467933b2e6b5beb08
+Merge: 2d2f2d5 bf99061
+Author: sxcer <sxcerr@gmail.com>
+Date:   Mon May 5 01:07:54 2014 -0400
+
+    Merge branch 'master' of https://github.com/sxcer/sexcoin
+
+commit 2d2f2d5b732217de2535a325e75272362b9747b3
+Author: sxcer <sxcerr@gmail.com>
+Date:   Mon May 5 01:03:49 2014 -0400
+
+    Fix KGW algorithm to prevent KGW Timewarp attack
+    
+    Anti Timewarp attack code causes hard fork, set to activate at block 643808
+    version bump to 0.6.4.6
+
+commit bf990618a746c3cbc211c980d6702a40cc3b85bf
+Merge: b64e1e8 0dea2e1
+Author: sxcer <sxcerr@gmail.com>
+Date:   Sun May 4 18:36:30 2014 -0700
+
+    Merge pull request #2 from sexcoin-project/master
+    
+    sexcoin-project updates
+
+commit 0dea2e1172e44ae4bb6e12565e487433df405479
+Author: sxcer <sxcerr@gmail.com>
+Date:   Mon Apr 14 03:17:57 2014 -0400
+
+    fix version num
+
+commit f2448aea0574cdf8570da7d6e1086a307a9051d4
+Author: sxcer <sxcerr@gmail.com>
+Date:   Mon Apr 14 03:17:34 2014 -0400
+
+    fix version num
+
+commit ee69b9f5b202f17f950d40169a861cb83a85df66
+Merge: dd69b10 b64e1e8
+Author: sxcer <sxcerr@gmail.com>
+Date:   Mon Apr 14 03:08:54 2014 -0400
+
+    Merge pull request #10 from sxcer/master
+    
+    v0.6.4.5
+
+commit b64e1e8ea706249c659fa08138b40d80800914f0
+Author: sxcer <sxcerr@gmail.com>
+Date:   Mon Apr 14 02:43:53 2014 -0400
+
+    do not use client suffix string
+
+commit 12233cffc6ad90a75fe8b41e1d18be922df9a76d
+Author: sxcer <sxcerr@gmail.com>
+Date:   Mon Apr 14 02:36:09 2014 -0400
+
+    fixup version string creation from genbuild.sh on windows for sexcoind
+    
+    add genbuild.sh run to sexcoind building on windows, plus minor
+    makefile.mingw changes for INCLUDE and LIB paths to denote versions
+    used
+
+commit 2bf1a86b6faaca0162ca2de11cbb612abd9cb5f7
+Author: sxcer <sxcerr@gmail.com>
+Date:   Mon Apr 14 01:11:08 2014 -0400
+
+    Enable build info (build.h) on windows
+    
+    On windows with command line Git (which includes msys/bash shell) from
+    http://git-scm.com/
+    installed, you can successfully execute the genbuild.sh script to create
+    build.h. Use USE_BUILD_INFO=1 to enable on any host/OS. No checking for
+    git is done, so it will fail if Git is not installed on windows.
+
+commit bff4f54637c03387a080d3da78f38b0c676789ef
+Author: sxcer <sxcerr@gmail.com>
+Date:   Mon Apr 14 00:39:24 2014 -0400
+
+    windows .pro file improvements and version change to 0.6.4.5
+    
+      - Add vars to more easily adapt to different drive layouts
+      - Reorganize and clean up LIB and INCLUDE vars
+      - Actually use Boost lib suffix var
+      - Fix qrencode qrcode var names, text, and lib names
+      - Add -fpermissive to C/CXXFLAGS to change error on func arg types to warning
+
+commit fdacc8ec668443e4e6557d7d35091116f6d5101b
+Author: sxcer <sxcerr@gmail.com>
+Date:   Sun Apr 13 10:03:05 2014 -0400
+
+    Add new pubkey for Alert Messages
+    
+    The original pubkey for Alert Messages was inserted by original developer(s)
+    which have long since abandonded the project. No one has the private key
+    for that pubkey, so we cannot send any alert messages.
+    The new key has not been tested yet, but the exisiting one doesn't work
+    anyway. sxcer created the key pair and it will be distributed to several
+    users at sexcoinforum.org.
+    
+    As a sidenote, the original pubkey is identical to the one distributed
+    with the last known RoyalCoin sources:
+    
+    https://sourceforge.net/projects/royalcoin/files/royalcoin-source.zip/download
+
+commit dd69b103d6515319d85bcbb3470eea7f62d7d2bd
+Merge: c04978f f2967ef
+Author: sxcer <sxcerr@gmail.com>
+Date:   Tue Apr 8 14:04:09 2014 -0400
+
+    Merge pull request #9 from sxcer/master
+    
+    add address and account name to listunspent output
+
+commit f2967ef57677175a0e2faeae95ce6b0cb0a44a49
+Author: sxcer <sxcerr@gmail.com>
+Date:   Tue Apr 8 12:14:18 2014 -0400
+
+    add address and account name to listunspent output
+
+commit 09ceffed373ddac7cd79ec78911c7297b76b927c
+Merge: 109fc4a c04978f
+Author: sxcer <sxcerr@gmail.com>
+Date:   Wed Mar 5 22:46:34 2014 -0500
+
+    Merge pull request #1 from sexcoin-project/master
+    
+    catch up to master
+
+commit c04978fab518c477b0b60d9780d0fd24a18f1f36
+Author: sexcoin-project <info@sexcoin.info>
+Date:   Tue Mar 4 12:36:38 2014 -0500
+
+    Delete sexcoin-qt.pro.user.9c7556e.2.5pre1
+
+commit 62fbf9a20ca31315f55030a0149aa322ba03925b
+Author: sexcoin-project <info@sexcoin.info>
+Date:   Tue Mar 4 12:36:26 2014 -0500
+
+    Delete sexcoin-qt.pro.user
+
+commit 109fc4a3ca66367a89886c8cc2bdff2f9925b482
+Author: sexcoin-project <info@sexcoin.info>
+Date:   Sat Feb 22 04:43:50 2014 -0500
+
+    update email for devs
+
+commit cfb60a8d0928cea2aac37d74b4e33fe8b52c2445
+Merge: 9a1902d 01c7699
+Author: sexcoin-project <info@sexcoin.info>
+Date:   Mon Feb 17 05:28:23 2014 -0500
+
+    Merge pull request #5 from vodkadrunkinski/master
+    
+    OSX updated
+
+commit 9a1902d2d979c27610c4f00f4459d8f516bc6e49
+Author: sexcoin-project <info@sexcoin.info>
+Date:   Sun Feb 16 08:47:39 2014 -0500
+
+    undo portable/usb datadir changes
+    
+    The portable/usb datadir changes were moved to a separate branch for now.
+
+commit 01c769936a4ba37237254842a5e118ae479d447b
+Author: Alexey Zilber <alex@bodykar.ma>
+Date:   Sat Feb 15 18:05:50 2014 +0800
+
+    removed completely
+
+commit 5b4520134aef31aecc1b08d6497ccbec4a4ef698
+Author: Alexey Zilber <alex@bodykar.ma>
+Date:   Sat Feb 15 17:59:57 2014 +0800
+
+    OSX updates
+
+commit 363f4c45f913ec468a7e010056118c8d41013967
+Author: Alexey Zilber <alex@bodykar.ma>
+Date:   Sat Feb 15 13:18:03 2014 +0800
+
+    Last fix for upnp segfault bug as per bitcoin client codebase
+
+commit 608640ac42965c64de8de2253007743bb441f561
+Merge: 5c0914d bbf5132
+Author: Alexey Zilber <alex@bodykar.ma>
+Date:   Sat Feb 15 10:44:17 2014 +0800
+
+    Merge remote-tracking branch 'origin'
+
+commit 5c0914d5ca30dc4523ea830e333c3f0790b5b6b9
+Author: Alexey Zilber <alex@bodykar.ma>
+Date:   Sat Feb 15 10:44:12 2014 +0800
+
+    version updates
+
+commit bbf5132d8159947967c2e434d74c2893bb716d25
+Author: joe-co <joe@company-corp.com>
+Date:   Fri Feb 14 21:40:15 2014 -0500
+
+    Client Release 0.6.4.4
+
+commit 29caee60c1e1fefdd9b4d22809cb0a93c2fdb45e
+Merge: eaba163 2e804df
+Author: Alexey Zilber <alex@bodykar.ma>
+Date:   Sat Feb 15 10:33:18 2014 +0800
+
+    Merge branch 'master' of https://github.com/sexcoin-project/sexcoin
+
+commit 2e804df627272fc626b6603956f967dc33e425c4
+Merge: 347732a 65ffd83
+Author: sexcoin-project <info@sexcoin.info>
+Date:   Fri Feb 14 21:31:59 2014 -0500
+
+    Merge pull request #4 from lavajumper/master
+    
+    Client Release 0.6.4.4
+
+commit 65ffd83e955ef4fdd85b1894fe4aa46e187a5a09
+Author: lavajumper <lavajumper@lavajumper.com>
+Date:   Fri Feb 14 21:29:24 2014 -0500
+
+    Client Release 0.6.4.4
+
+commit eaba1634c9a9d7dff1423caf59377d05e875abe5
+Author: Alexey Zilber <alex@bodykar.ma>
+Date:   Sat Feb 15 10:26:22 2014 +0800
+
+    merged in latest client
+
+commit 347732a07f0fc58ad00f4b169d37f8f9cc463407
+Merge: 8e056cc 9590d5a
+Author: sexcoin-project <info@sexcoin.info>
+Date:   Fri Feb 14 20:21:02 2014 -0500
+
+    Merge pull request #3 from lavajumper/master
+    
+    Client Release 0.6.4.4
+
+commit 8e056cc6c692cd400d0190c312692c6b79870d87
+Merge: add9d74 c938d47
+Author: sexcoin-project <info@sexcoin.info>
+Date:   Fri Feb 14 20:20:35 2014 -0500
+
+    Merge pull request #2 from vodkadrunkinski/master
+    
+    OSX fixes
+
+commit 9590d5ab00d5f34797d1518528434ef0794ce0d4
+Author: lavajumper <lavajumper@lavajumper.com>
+Date:   Fri Feb 14 19:18:19 2014 -0500
+
+    Client Release 0.6.4.4
+
+commit 8f2c1770e1e63db378914f0bcc2f4dcd235fb748
+Author: lavajumper <lavajumper@lavajumper.com>
+Date:   Fri Feb 14 19:05:08 2014 -0500
+
+    Client Release 0.6.4.4
+
+commit f45f87ec087ff0ce34d3aac06d4382f714264f00
+Author: lavajumper <lavajumper@lavajumper.com>
+Date:   Fri Feb 14 17:00:42 2014 -0500
+
+    Client Release 0.6.4.4
+
+commit 7d7f63a82d1f0f19e392397b9e9e3fcd0a089298
+Author: lavajumper <lavajumper@lavajumper.com>
+Date:   Fri Feb 14 16:39:04 2014 -0500
+
+    Client Release 0.6.4.4
+
+commit b23751e02f1aa2829281f3743f90204b1a38826d
+Author: lavajumper <lavajumper@lavajumper.com>
+Date:   Fri Feb 14 16:31:42 2014 -0500
+
+    Client Release 0.6.4.4
+
+commit a67c659440a7019f2ece451711a5aa1174313c2b
+Author: lavajumper <lavajumper@lavajumper.com>
+Date:   Fri Feb 14 14:40:44 2014 -0500
+
+    Client Release 0.6.4.4
+
+commit b572f52158e49c5a17a1445832c3a095afe7ca4a
+Author: lavajumper <lavajumper@lavajumper.com>
+Date:   Fri Feb 14 14:07:50 2014 -0500
+
+    typo fixes
+
+commit 29440376d43f313d050ce8ee1533f2847741f24c
+Author: lavajumper <lavajumper@lavajumper.com>
+Date:   Fri Feb 14 13:49:01 2014 -0500
+
+    test commit
+
+commit c938d475630c08a0d695f29b863250ae0ea73b5d
+Author: Alexey Zilber <alex@bodykar.ma>
+Date:   Thu Dec 12 20:15:51 2013 +0800
+
+    Fix for legacy QT compatibility
+
+commit 29bfefeb2347a8e6dbbdbc52fcfa2e78de15cf5c
+Author: Alexey Zilber <alex@bodykar.ma>
+Date:   Thu Dec 12 13:06:08 2013 +0800
+
+    OSX fixes
+
+commit add9d7408d002daf473978e6910f084ba7635074
+Author: lavajumper <lavajumper@lavajumper.com>
+Date:   Mon Sep 23 18:19:23 2013 -0400
+
+    made default sexcoin-qt.pro the unix version
+
+commit 73c7022d1fd3366ef0f6c580e5568767a4c217de
+Author: lavajumper <lavajumper@lavajumper.com>
+Date:   Mon Sep 23 18:13:37 2013 -0400
+
+    made default sexcoin.qt.pro the unix version
+
+commit 7891fa3a95b8823ced8e860b4a3a800ac73bdb7e
+Author: lavajumper <lavajumper@lavajumper.com>
+Date:   Fri Sep 13 12:10:17 2013 -0400
+
+    Removed check for litecoin blockheight
+    
+    Removed litecoin blockheight sanity check
+
+commit 3d413ba23a41484d793d5cb02d3c4881ac71b789
+Merge: 38445b4 6c03ec2
+Author: sexcoin-project <sexcoindev@gmail.com>
+Date:   Wed Sep 11 13:16:17 2013 -0700
+
+    Merge pull request #1 from lavajumper/master
+    
+    0.6.4.1 - RC1 code
+
+commit 6c03ec2e8d517756dcc2b2988eb3e66cf20ae186
+Author: lavajumper <joe@connexsmart.com>
+Date:   Wed Sep 11 15:59:37 2013 -0400
+
+    0.6.4.1 RC1 minor fixes
+
+commit 25704103823b819ff0a4f56c234721d6f48e8fcf
+Author: lavajumper <joe@connexsmart.com>
+Date:   Tue Sep 10 18:40:47 2013 -0400
+
+    0.6.4.1 RC1 minor fixes
+
+commit 31955ce2dab4465cdeb85b34f8c3a1c528fc2a88
+Author: lavajumper <joe@connexsmart.com>
+Date:   Tue Sep 10 16:51:15 2013 -0400
+
+    0.6.4.1 RC1 -minor fixes
+
+commit 0430d401dedd8167bd4a59b823db1b41c5eb45e3
+Author: lavajumper <joe@connexsmart.com>
+Date:   Sun Sep 8 15:02:57 2013 -0400
+
+    New Client 0.6.4.1 (RC1)
+
+commit bad80965b59e48692021d8098959c2eabf674741
+Author: lavajumper <joe@connexsmart.com>
+Date:   Sun Sep 8 14:57:41 2013 -0400
+
+    New Client 0.6.4.1 (RC1)
+    
+    This is the new client that most significantly has the change in
+    retarget time.
+
+commit dcc161731d9ed46f86c462bae66a52d6c4fafad4
+Author: lavajumper <joe@connexsmart.com>
+Date:   Sun Sep 1 16:38:50 2013 -0400
+
+    Prepping for new Client ( 0.6.4.0)
+
+commit f081c5e8fbda9c53d647e5965196cc059ea291a5
+Author: lavajumper <joe@connexsmart.com>
+Date:   Sun Sep 1 16:31:53 2013 -0400
+
+    Prepping for new Client ( 0.6.4.0)
+    
+    Preparing fork for new client code.
+
+commit 38445b4ce6305ba69dc390a8dbdcf15a6d8062fa
+Author: sexcoin-project <sexcoindev@gmail.com>
+Date:   Fri Jun 28 04:16:44 2013 -0500
+
+    added first checkpoint
+
+commit fcf868326ac5f5647e61111d2a756244d41e19d8
+Author: sexcoin-project <sexcoin-project@vubuntu.(none)>
+Date:   Wed Jun 26 11:10:36 2013 -0500
+
+    bumped client version to 0.6.3.1
+
+commit b67f2700f4293f9c1d13c01444444de7e5863d4c
+Author: sexcoin-project <sexcoindev@gmail.com>
+Date:   Wed Jun 26 10:50:40 2013 -0500
+
+    added windows build info to sexcoin-qt.pro file
+
+commit db895baaef26d602a77fa87aed2a2308702311c6
+Author: sexcoin-project <sexcoin-project@vubuntu.(none)>
+Date:   Wed Jun 26 10:42:30 2013 -0500
+
+    removed more unnecessary files from 0.6.3.0 codebase
+
+commit 9ce9adbb5ea385a8fe38b277fb35b142a29e05b8
+Author: sexcoin-project <sexcoindev@gmail.com>
+Date:   Thu Jun 20 04:45:17 2013 -0500
+
+    cleaned up the code base
+
+commit ddb1dbada412ca1f0c6fc353d23f7bf082aecb57
+Author: sexcoin-project <sexcoindev@gmail.com>
+Date:   Thu Jun 20 04:42:35 2013 -0500
+
+    cleaned up the code base
+
+commit a573d20b814b3e100d0b5f6eb8f3bb647b27d107
+Author: sexcoin-project <sexcoindev@gmail.com>
+Date:   Thu Jun 20 04:23:07 2013 -0500
+
+    removed errors and updated project status
+
+commit 841dd119852284197f90119fb6b8d68b642fbd1b
+Author: sexcoin-project <sexcoindev@gmail.com>
+Date:   Thu Jun 20 04:16:36 2013 -0500
+
+    sexcoin version 0.6.3.0 - initial release

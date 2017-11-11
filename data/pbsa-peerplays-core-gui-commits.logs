@@ -1,0 +1,64 @@
+commit 81ca8cea855b485a4f6dfb067bfcfc256f5f8d7f
+Merge: 73ffec4 3ce4165
+Author: KeeganPBSA <30601525+KeeganPBSA@users.noreply.github.com>
+Date:   Tue Oct 10 15:42:37 2017 -0300
+
+    Merge pull request #11 from PBSA/0.1.2
+    
+    0.1.2
+
+commit 3ce416587c5a5cf4b5638a26b9da6e918633b6c7
+Author: Keegan Francis <k.francis@pbsa.info>
+Date:   Tue Oct 10 13:03:08 2017 -0300
+
+    Dump of updated codebase from peerlpays-redux-ui project - Version 0.1.2
+
+commit 9d47a0c70c417d4253a0f2aa82508bf4d4e96a3a
+Author: Keegan Francis <k.francis@pbsa.info>
+Date:   Tue Oct 10 12:12:56 2017 -0300
+
+    Updated the version of the wallet
+
+commit 4b1eabfeaf4e2ac4e1c9cda271d3b00b2a66824e
+Author: Unknown <k.francis@pbsa.info>
+Date:   Tue Oct 10 11:29:57 2017 -0300
+
+    0.1.2
+    
+    - Commit containing all code worked on since the 0.1.1 release
+
+commit 73ffec42dc7ed73741d40306fecbcfa8c9a55925
+Author: Viktor <vtet32@gmail.com>
+Date:   Tue Jun 13 13:37:45 2017 +0300
+
+    Add commands for build electron app
+
+commit d6a8bd58605b7c574a667bde5ed21b9bc9e1b5cf
+Author: Viktor <vtet32@gmail.com>
+Date:   Tue Jun 13 13:26:52 2017 +0300
+
+    Add commands for build electron app
+
+commit bfa75b6fc7cfc1569450ed0eac8e813813064ebe
+Author: Viktor <vtet32@gmail.com>
+Date:   Tue Jun 13 13:22:06 2017 +0300
+
+    Change app description
+
+commit 4de4203e26826af9e7ace61fffb61efaa762e62b
+Author: Anonymous <anonymous@gmail.com>
+Date:   Tue Jun 13 11:26:19 2017 +0300
+
+    Up copy-webpack-plugin version
+
+commit 72e2b36e781e1e0a44f01d1d16df12daa71dedd6
+Author: Viktor <vtet32@gmail.com>
+Date:   Mon Jun 12 18:21:51 2017 +0300
+
+    Update version
+
+commit a7a0060883edb6ebae66948e79614d60f93bb813
+Author: Viktor <vtet32@gmail.com>
+Date:   Mon Jun 12 18:20:23 2017 +0300
+
+    Initial commit

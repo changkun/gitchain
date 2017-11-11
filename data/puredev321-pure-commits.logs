@@ -1,0 +1,71 @@
+commit cacd671de28658a4efcb14dc61baae53075e1586
+Author: puredev321 <32012785+puredev321@users.noreply.github.com>
+Date:   Mon Oct 23 10:21:53 2017 +0300
+
+    v1.0.0.2
+    
+    Bump version
+
+commit 0616bca8afab21fdf12e4775af724af9f0ae5d78
+Author: puredev321 <32012785+puredev321@users.noreply.github.com>
+Date:   Mon Oct 23 10:17:19 2017 +0300
+
+    v1.0.0.2
+    
+    Increased PoS reward up to 20 PURE
+    at blocks 30k-120k
+
+commit 84f6ad77c9addbd7eedce58c2d90d5a19abb3871
+Author: puredev321 <32012785+puredev321@users.noreply.github.com>
+Date:   Tue Sep 19 09:51:12 2017 +0300
+
+    v1.0.0.1
+    
+    Typo fixes
+
+commit 56278d47f45aebe276b4e8c94aa6fa5d35cdfb83
+Author: puredev321 <32012785+puredev321@users.noreply.github.com>
+Date:   Tue Sep 19 09:43:36 2017 +0300
+
+    Delete
+
+commit 7370c84ffedaadc4506a667c2ace48943e793314
+Author: puredev321 <32012785+puredev321@users.noreply.github.com>
+Date:   Tue Sep 19 09:41:47 2017 +0300
+
+    Typo fixes
+
+commit a62a6d058b86391eee3519cdfb6a9f6a1a7d127b
+Merge: 7a9788f 9c2b371
+Author: puredev321 <32012785+puredev321@users.noreply.github.com>
+Date:   Tue Sep 19 10:29:33 2017 +0500
+
+    Merge pull request #1 from bumbacoin/patch-1
+    
+    update default linux data directory
+
+commit 9c2b3712203221e233a7ab757e5365ec3ecbe522
+Author: bumbacoin <bumbacoin@gmail.com>
+Date:   Tue Sep 19 10:15:07 2017 +0800
+
+    Update util.cpp
+
+commit 7a9788f8dd134ad13791c7098c8b507ac92b9d50
+Author: puredev321 <32012785+puredev321@users.noreply.github.com>
+Date:   Mon Sep 18 14:35:39 2017 +0500
+
+    Add files via upload
+    
+    Wallet
+
+commit c3d10f463bf1117bfaa2f7d9447a574cb29022d8
+Author: puredev321 <32012785+puredev321@users.noreply.github.com>
+Date:   Sun Sep 17 11:51:30 2017 +0500
+
+    Create README.md
+
+commit 3600ead2abef7d72a110384289353ca3830b7288
+Author: puredev321 <32012785+puredev321@users.noreply.github.com>
+Date:   Sat Sep 16 23:15:21 2017 +0300
+
+    v1.0.0.0

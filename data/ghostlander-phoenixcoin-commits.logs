@@ -1,0 +1,494 @@
+commit 9ee74c61f66ec43800b35298e5e523304ec9a685
+Author: John Doering <ghostlander@gmail.com>
+Date:   Wed Aug 2 15:24:37 2017 +0000
+
+    Phoenixcoin v0.6.6.1
+    
+    Maintenance release.
+
+commit 987dd68f71a7d8276cef3b6c3d578fd4845b5699
+Author: John Doering <ghostlander@gmail.com>
+Date:   Wed Jul 19 08:10:09 2017 +0000
+
+    Implement fLimitFree to CTxMemPool::accept()
+    
+    Works around a potential DoS vulnerability (see Bitcoin commit
+    ce99358f4aa4182d6983fde3e33a8fdbe1dfe4c3).
+
+commit 1d42157438866e90c767c84c9902f5ec61c93e33
+Author: John Doering <ghostlander@gmail.com>
+Date:   Wed Jul 19 07:13:07 2017 +0000
+
+    Autoremove Failed Transactions from Mempool
+    
+    If two or more transactions share the same input and one of them gets
+    into a block, the others should be invalidated from the mempool
+    (see Bitcoin commit 231b399952fd620ee0f72b1947024dba9651630d).
+    Non-working SPV related code also removed.
+
+commit 66999bd2f50e7c605abecb0b3b120ba79b5701d4
+Author: John Doering <ghostlander@gmail.com>
+Date:   Sat Jun 24 21:21:56 2017 +0000
+
+    Checkpoints Every 100K Blocks
+
+commit ddbdbf6cbff4ca52f87268f28c60d588bf843344
+Author: John Doering <ghostlander@gmail.com>
+Date:   Thu May 25 15:33:21 2017 +0000
+
+    NeoScrypt Updated
+
+commit d97793066416b2f3b06c09bad31b2d778314ab70
+Author: John Doering <ghostlander@gmail.com>
+Date:   Thu May 18 19:37:53 2017 +0000
+
+    miniUPnPc API v15+ Compatibility
+
+commit 226226af70d0609eaf21eafbdbeb9e6d70023f8e
+Author: John Doering <ghostlander@gmail.com>
+Date:   Wed Oct 21 03:55:48 2015 +0300
+
+    resendtx RPC Implemented
+
+commit b522c9ccdf725ce6277dab89a69ca8a81a2f2729
+Author: John Doering <ghostlander@gmail.com>
+Date:   Tue Oct 6 23:52:07 2015 +0300
+
+    Boost > v1.56 Compatibility Fixes
+
+commit fca926ddb16dee94d5c4fde8d116f8ad7f7a44f3
+Author: John Doering <ghostlander@gmail.com>
+Date:   Tue Sep 15 16:05:01 2015 +0300
+
+    NeoScrypt Updated
+
+commit 7e0bc592f27d7639f96febdcab8ae6931b25db6a
+Author: John Doering <ghostlander@gmail.com>
+Date:   Sat Aug 15 18:00:19 2015 +0300
+
+    Block Download Optimised
+
+commit 1c8db3dc05510980897ca804f382187a6a701ec0
+Author: John Doering <ghostlander@gmail.com>
+Date:   Wed Aug 5 03:18:38 2015 +0300
+
+    checkwallet and repairwallet RPC Implemented
+
+commit 45b0e4657c1098758f68bda785adcd21680d9848
+Author: John Doering <ghostlander@gmail.com>
+Date:   Wed Aug 5 00:36:29 2015 +0300
+
+    Three Minor Bugs Fixed
+
+commit 7706adddffab5afeefeac4da74a158f19b4a6574
+Author: John Doering <ghostlander@gmail.com>
+Date:   Tue Aug 4 21:45:03 2015 +0300
+
+    Checkpoints Updated
+
+commit cf1ee65b49c429a6849db846d4739852c4bc6dea
+Author: Ghostlander <ghostlander@gmail.com>
+Date:   Sun Jul 27 15:05:13 2014 +0300
+
+    v0.6.6.0: NeoScrypt
+    
+    Support for NeoScrypt added with a hard fork at block #400K.
+    Many minor updates.
+
+commit fb8af99ea4efbfffdecdaca55ed8cb98c1d1e217
+Author: Ghostlander <ghostlander@gmail.com>
+Date:   Thu May 29 02:50:39 2014 +0300
+
+    Address DB Related Tweak and v0.6.5.3 Release
+
+commit 203d9bb868fb7108258e1c6b9f3a349522813af8
+Author: Ghostlander <ghostlander@gmail.com>
+Date:   Wed May 28 14:04:04 2014 +0300
+
+    Checkpoints Updated
+
+commit cc2a3cd4c6969120920b4a03857cc9f2dafedb54
+Author: Ghostlander <ghostlander@gmail.com>
+Date:   Wed May 28 13:25:35 2014 +0300
+
+    Minor Improvements
+
+commit ff5918927da38f8ee3e0fd2d6ed9ce8192761c28
+Author: Ghostlander <ghostlander@gmail.com>
+Date:   Tue May 27 23:43:32 2014 +0300
+
+    Soft Fork 2
+    
+    Against future time travels.
+
+commit 0d1451a33a7197877e143540c94d42e1c849208e
+Author: Ghostlander <ghostlander@gmail.com>
+Date:   Tue May 27 18:22:12 2014 +0300
+
+    Performance Improvements
+
+commit 7d99445399481a1bac647b6df81a56a064555505
+Author: Ghostlander <ghostlander@gmail.com>
+Date:   Tue May 27 05:37:48 2014 +0300
+
+    Dual Network Magic Number Support + Version Update
+    
+    Introduces support for an additional network magic number.
+    Dual magic peers are able to communicate with peers supporting either
+    old or new or dual magic numbers. No hard fork needed.
+
+commit bad7688e0a67ff42f04a71120d1dbb676bc48504
+Author: Ghostlander <ghostlander@gmail.com>
+Date:   Fri May 23 22:03:26 2014 +0300
+
+    GetMyExternalIP() Updated and Improved
+
+commit c2b219c415a4cac23a80718dd874fa9aad3aa293
+Author: Ghostlander <ghostlander@gmail.com>
+Date:   Fri May 23 19:24:18 2014 +0300
+
+    CBerkeleyAddrDB: Simple BerkeleyDB Powered Address Engine
+    
+    A functional replacement to CAddrMan (peers.dat)
+    Stores address (peer) entries in separate 'addr' records of addr.dat
+    Filters out the most part of getaddr/addr spam.
+    Enabled by -addrdb=1 start up switch.
+
+commit 53a4f3de953547cdae84b751fd5af030295e2a04
+Author: Ghostlander <ghostlander@gmail.com>
+Date:   Thu Apr 10 07:25:39 2014 +0300
+
+    Start-Up Block Verification Reduced
+
+commit 54f78a2aae57904e6dc0ae68e51f12fca7d63330
+Author: Ghostlander <ghostlander@gmail.com>
+Date:   Thu Apr 10 07:12:03 2014 +0300
+
+    Qt GUI: Display Current Session Orphans Only
+
+commit c2b34be6bf6c7dae673c752a1c41b4be1e11484d
+Author: Ghostlander <ghostlander@gmail.com>
+Date:   Sun Mar 30 21:19:19 2014 +0300
+
+    peers.dat Flush Interval Increased
+    
+    The default interval for flushing peer IPs to peers.dat is increased
+    from 100 seconds to 1200 seconds (20 minutes).
+
+commit 3809cf9e6e3527609d139c15636e908e232ddb6e
+Author: Ghostlander <ghostlander@gmail.com>
+Date:   Sun Mar 30 20:08:36 2014 +0300
+
+    defaultkey Option Implemented
+    
+    -defaultkey at start-up or defaultkey=1 at phoenixcoin.conf enable use
+    of the default wallet key instead of a fresh key from the key pool.
+    May be useful for solo mining and transaction change collection.
+
+commit 90cfe3d1817351dedf203e5dc546821cfba4ceef
+Author: Ghostlander <ghostlander@gmail.com>
+Date:   Thu Mar 20 13:30:38 2014 +0200
+
+    v0.6.5.2 Release: Version and Checkpoints Updated
+
+commit 9d5bf6801cf10b0616ce8690eab19b2d608b2861
+Author: Ghostlander <ghostlander@gmail.com>
+Date:   Thu Mar 20 12:48:19 2014 +0200
+
+    Soft Fork 1
+    
+    Introduces the block limiter and strict time travel allowances.
+
+commit 36bc8e3971c49ed904424a651e87747d20268238
+Author: Ghostlander <ghostlander@gmail.com>
+Date:   Thu Mar 20 01:35:09 2014 +0200
+
+    MacOS X and Other Related Fixes (cont'd)
+    
+    A minor fix due to the previous patch.
+
+commit f2f190d25f8ace42d3cedc4cab0092d4e71c2fba
+Author: Ghostlander <ghostlander@gmail.com>
+Date:   Wed Mar 19 03:07:07 2014 +0200
+
+    MacOS X and Other Related Fixes
+
+commit 22d35e13e7e6761616c1dd35ec40e19979881f1d
+Author: Ghostlander <ghostlander@gmail.com>
+Date:   Mon Mar 10 23:52:00 2014 +0200
+
+    Copyrights Updated to Year 2014
+
+commit 46a856bb92e6ffc1f83f7c744e8c465acc1dc72a
+Author: Ghostlander <ghostlander@gmail.com>
+Date:   Mon Mar 10 23:25:44 2014 +0200
+
+    New Splash Screen
+
+commit 3c53c44a2ed0724ef35c60421b70a83578b93695
+Author: Ghostlander <ghostlander@gmail.com>
+Date:   Mon Mar 10 23:18:12 2014 +0200
+
+    Minor Tweaks for the Coin Control (cont'd)
+
+commit 81fce650185ef40de1e64d1e0732822dd6e00df4
+Author: Ghostlander <ghostlander@gmail.com>
+Date:   Mon Mar 10 23:07:43 2014 +0200
+
+    Minor Tweaks for the Coin Control
+
+commit 5b9ace788934b7cebe2b3908c19af8775df9bff5
+Author: Ghostlander <ghostlander@gmail.com>
+Date:   Mon Mar 3 21:14:13 2014 +0200
+
+    Better RPC Authorisation Resistance to Brute Force Attacks
+    
+    Addresses Bitcoin CVE-2013-4165.
+
+commit f7cb55c59afa8e392e7e4e8831c5022ae8629592
+Author: Ghostlander <ghostlander@gmail.com>
+Date:   Mon Mar 3 19:26:50 2014 +0200
+
+    Oversized Transaction Messages Truncated
+    
+    Addresses Bitcoin CVE-2013-4627.
+
+commit 4c0c4195de2d6ac12e2ddc44dde3f11c82a5f54f
+Author: Ghostlander <ghostlander@gmail.com>
+Date:   Mon Mar 3 18:58:59 2014 +0200
+
+    Transaction Checks Optimised
+    
+    Addresses Bitcoin CVE-2013-2293. Stops fetching transaction inputs to
+    memory once a spent or invalid input detected.
+
+commit 0bf9c7ae830c833d6a73b98abda2d6e7b93d44a1
+Author: Ghostlander <ghostlander@gmail.com>
+Date:   Mon Mar 3 02:43:20 2014 +0200
+
+    Byte Counters Added to getpeerinfo
+
+commit 1551876745cd6030e0e96eb5cd0a4e99c27eb260
+Author: Ghostlander <ghostlander@gmail.com>
+Date:   Fri Feb 28 21:38:35 2014 +0200
+
+    A Fix for Node Disconnection Crashes
+    
+    Prior to this commit, a situation when a node being disconnected by
+    ThreadSocketHandler() had messages in the receive buffer being
+    processed by ThreadMessageHandler() could trigger an exception.
+    ************************
+    EXCEPTION: NSt8ios_base7failureE
+    CDataStream::ignore() : end of data
+    phoenixcoin in ThreadMessageHandler()
+
+commit ee8a7b7dc8dd42ac14eba99660ad84e700ce13fb
+Author: Ghostlander <ghostlander@gmail.com>
+Date:   Thu Feb 27 21:00:17 2014 +0200
+
+    The Coin Control Implemented
+
+commit 22cd300e3fe857663f502a3ca45bb56a660b731e
+Author: Ghostlander <ghostlander@gmail.com>
+Date:   Sun Feb 2 20:29:43 2014 +0200
+
+    A Few Compiler Warnings Eliminated
+
+commit df4ed17a0416ee5893caee302a26381958e122ab
+Author: Ghostlander <ghostlander@gmail.com>
+Date:   Sat Feb 1 13:59:35 2014 +0200
+
+    v0.6.5.1 Release: Version and Checkpoints Updated
+
+commit abec0fa522e21107467949571a91f1dd6db5601e
+Author: Ghostlander <ghostlander@gmail.com>
+Date:   Sun Jan 26 07:12:55 2014 +0200
+
+    Many Small Updates and Fixes
+
+commit a7cc3c3b18b1e9efd367f03d8c38af0be8400bc0
+Author: Ghostlander <ghostlander@gmail.com>
+Date:   Fri Jan 24 16:18:43 2014 +0200
+
+    Network Connection Filter Updated
+
+commit 9cb581524207728b06238bda1a0e0d7d105fb2c4
+Author: Ghostlander <ghostlander@gmail.com>
+Date:   Thu Jan 23 10:37:06 2014 +0200
+
+    Set the Default RPC Port for Testnet
+
+commit 06884d51a2db4a005b0af87e083d2a80b2bedd82
+Author: Ghostlander <ghostlander@gmail.com>
+Date:   Sun Jan 19 07:35:53 2014 +0200
+
+    Qt GUI: Support for Testnet PXC Added
+
+commit 15898e515c7e7fc305a7cc358c02b0bbb55596c2
+Author: Ghostlander <ghostlander@gmail.com>
+Date:   Sun Jan 19 07:07:25 2014 +0200
+
+    Qt GUI: Better Multiresolution Logo Icons
+
+commit 068a49522f1daa2a32b0c8575b9f0339e78d53f7
+Author: Ghostlander <ghostlander@gmail.com>
+Date:   Sun Jan 19 06:42:28 2014 +0200
+
+    Qt GUI: A Cumulative Interface Update
+
+commit 86636511ce223a91ed449f482939b33e3b65db6c
+Author: Ghostlander <ghostlander@gmail.com>
+Date:   Fri Jan 17 20:52:38 2014 +0200
+
+    Qt GUI: Console and Mining Reorganised (cont'd)
+
+commit 1aca0413bd8d8d19ec6714eee87e73a71b007a4c
+Author: Ghostlander <ghostlander@gmail.com>
+Date:   Fri Jan 17 05:14:55 2014 +0200
+
+    Qt GUI: Console and Mining Reorganised
+
+commit 8ef22d0610f4b1c285fa0426b68ab8b134c1d5a4
+Author: Ghostlander <ghostlander@gmail.com>
+Date:   Fri Jan 17 01:30:14 2014 +0200
+
+    Displayed Coin Base Maturity Reduced for Daemon and Qt GUI
+
+commit 3290d0b00b78c13f2b31622802f5b75964f0903e
+Author: Ghostlander <ghostlander@gmail.com>
+Date:   Fri Jan 17 01:27:48 2014 +0200
+
+    Polling Delay for Message Handling Reduced
+
+commit 08a83a35aeafb99ff1b9adab707e79ca383c761f
+Author: Ghostlander <ghostlander@gmail.com>
+Date:   Wed Jan 15 21:47:41 2014 +0200
+
+    Fix Memory Leaks Due to Missing ECDSA_SIG_free()
+
+commit 2d8713aba1525606a9c367fbd85b2a43b150a04c
+Author: Ghostlander <ghostlander@gmail.com>
+Date:   Wed Jan 15 20:29:13 2014 +0200
+
+    Qt GUI: Maintenance of Translations
+
+commit b466c94430c79d5fcbd65eeb42e00a1f681f4930
+Author: Ghostlander <ghostlander@gmail.com>
+Date:   Sat Jan 11 08:05:08 2014 +0200
+
+    Qt GUI: Stratum Support for Mining Added (cont'd)
+
+commit a4e442f91cbbd91db5e915ffe292b4f9c4633f3a
+Author: Ghostlander <ghostlander@gmail.com>
+Date:   Sat Jan 11 07:08:06 2014 +0200
+
+    Qt GUI: Stratum Support for Mining Added
+
+commit f64ef98cf35f22064452c77167b5bbdcac720870
+Author: Ghostlander <ghostlander@gmail.com>
+Date:   Fri Jan 10 04:06:01 2014 +0200
+
+    addnode and getaddednodeinfo RPC Commands Added
+
+commit 4a3e4a3eefdfcec99f19c9fc671d24da9a44e301
+Author: Ghostlander <ghostlander@gmail.com>
+Date:   Fri Jan 10 01:02:56 2014 +0200
+
+    Qt GUI: Copy Transaction ID Added with No Subtransaction Index
+
+commit 04f72ed75316e5857faba264cda3c8acf9fbabb6
+Author: Ghostlander <ghostlander@gmail.com>
+Date:   Tue Jan 7 00:43:08 2014 +0200
+
+    Checkpoints Updated
+
+commit 46a4ed031d29fb5a113faa717088f7b6f38b9cc8
+Author: Ghostlander <ghostlander@gmail.com>
+Date:   Thu Dec 26 01:29:50 2013 +0200
+
+    Thread Names Compacted
+
+commit 24c4121b149189000de98338e89ae6e76c493bde
+Author: Ghostlander <ghostlander@gmail.com>
+Date:   Wed Dec 25 23:23:35 2013 +0200
+
+    DNS Seed Nodes Added
+
+commit f3a56e52ce2db98d4b8f6829619d0daa3fa67546
+Author: Ghostlander <ghostlander@gmail.com>
+Date:   Mon Dec 23 21:53:22 2013 +0200
+
+    Checkpoints Updated
+
+commit 88809fe6be5c4d8ead83dde19f55d29c984c0ee4
+Author: Feathercoin <feather@feathercoin.com>
+Date:   Mon Dec 9 16:24:55 2013 +0100
+
+    Update Mac .icns
+
+commit 8de70f7c44ffa6e5b42b1d679ac45255ee27da1f
+Author: Ghostlander <ghostlander@gmail.com>
+Date:   Sun Dec 8 14:07:41 2013 +0200
+
+    Windows 64-bit Target Added
+
+commit 77f3aac7465ba1ecc6a0cb2b3fc775f18554126b
+Merge: 6cf2f74 5c75ccd
+Author: Ghostlander <ghostlander@gmail.com>
+Date:   Sat Dec 7 22:29:53 2013 +0200
+
+    Merge branch 'master' of https://github.com/ghostlander/Phoenixcoin
+
+commit 6cf2f743c626d625548ec6118b5ff449c56af3bc
+Author: Ghostlander <ghostlander@gmail.com>
+Date:   Sat Dec 7 22:28:12 2013 +0200
+
+    A Thread Name and RPC Related Update
+
+commit 5c75ccd21622a0b8e9114b19fa7720b380c8aa1d
+Author: ghostlander <ghostlander@gmail.com>
+Date:   Thu Nov 21 10:27:30 2013 +0200
+
+    Specification Update
+
+commit 42fc486e3f082a644768648a35e8a7d70aff6491
+Author: Ghostlander <ghostlander@gmail.com>
+Date:   Sat Nov 9 17:56:55 2013 +0200
+
+    A Qt GUI Update
+
+commit 2d919b82c4fb4b554ee6fe2780861526d60c5109
+Author: Ghostlander <ghostlander@gmail.com>
+Date:   Sat Nov 9 17:21:42 2013 +0200
+
+    Checkpoints Updated
+
+commit 914be5e07348d9840ce63adb2513e26265dc4257
+Author: Ghostlander <ghostlander@gmail.com>
+Date:   Fri Nov 8 23:02:38 2013 +0200
+
+    Qt GUI Base Code
+
+commit 29ef2a2519e726515f34c24eb7d84b514180d6e1
+Author: Ghostlander <ghostlander@gmail.com>
+Date:   Fri Nov 8 18:21:24 2013 +0200
+
+    A Hard Fork Related Update
+
+commit dcec96fc0f451154650af975a5b8713796bf0e16
+Author: Ghostlander <ghostlander@gmail.com>
+Date:   Thu Nov 7 22:38:10 2013 +0200
+
+    Daemon Base Code
+
+commit e786e26843e684be4766b3db0040bece2c57a0ac
+Author: ghostlander <ghostlander@gmail.com>
+Date:   Fri Nov 1 20:58:54 2013 +0200
+
+    Initial commit
+
+commit 271e11cdf00367e24e364e0dee7df6d3aced089c
+Author: ghostlander <ghostlander@gmail.com>
+Date:   Fri Nov 1 11:22:03 2013 -0700
+
+    Initial commit

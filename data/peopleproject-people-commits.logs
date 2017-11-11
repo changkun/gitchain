@@ -1,0 +1,295 @@
+commit c506a6e25b31628fb31966e6a0e4ebe001f02f2f
+Author: peoplecoindev <andrewcoin2010@gmail.com>
+Date:   Mon Oct 2 20:42:51 2017 +0300
+
+    Add new DNSSeedData
+
+commit fa9d38a9c90657ce407839191f53150d21e65ccd
+Author: peoplecoindev <andrewcoin2010@gmail.com>
+Date:   Mon Oct 2 19:41:16 2017 +0300
+
+    Fix CDNSSeed
+
+commit 2362a0936a794ed189cfd6fadc30455cc7d9e4d2
+Author: peoplecoindev <andrewcoin2010@gmail.com>
+Date:   Mon Oct 2 18:32:25 2017 +0300
+
+    Fix
+
+commit bc3dcbc9ad758b8641cee937a8001969099e4f84
+Author: Tomas <stomass2015@gmail.com>
+Date:   Tue Jul 18 18:09:24 2017 +0300
+
+    New Checkpoints
+
+commit deb1b63c8728cd320c238827a7f76a1f1d2efa95
+Author: Tomas <stomass2015@gmail.com>
+Date:   Sun Jul 9 02:05:23 2017 +0300
+
+    Add checkpoints
+
+commit 8f04cc92140de2b1a26ea196012b9f03f610ddb3
+Author: Tomas <stomass2015@gmail.com>
+Date:   Sun Jul 9 02:03:33 2017 +0300
+
+    qt
+
+commit e266f381b6bde180eb264e86dc87e47572e8bf94
+Author: Tomas <stomass2015@gmail.com>
+Date:   Thu Jul 6 20:51:22 2017 +0300
+
+    Rell
+
+commit 0ef94ada8388aa27b8a1ba3a30ce4a1a0d9b1bad
+Author: Tomas <stomass2015@gmail.com>
+Date:   Thu Jul 6 16:16:02 2017 +0300
+
+    Deps release
+
+commit 0567a6f917d8ad9e0975ce38b7a180111e092e46
+Author: Tomas <stomass2015@gmail.com>
+Date:   Thu Jul 6 16:13:05 2017 +0300
+
+    edit pro
+
+commit a3399fdc20642a967bd9679b3a10175f3d6387cc
+Merge: 0ff3591 0500f5c
+Author: Tomas <stomass2015@gmail.com>
+Date:   Thu Jul 6 16:11:48 2017 +0300
+
+    Merge branch 'master' of https://github.com/peopleproject/people
+
+commit 0ff3591740bad1bd99906104451d14e9c65f2ad3
+Author: Tomas <stomass2015@gmail.com>
+Date:   Thu Jul 6 16:11:45 2017 +0300
+
+    Remove market
+
+commit 0500f5c0fcff6f7fdeecea04e40aaa46ad9fc91a
+Author: stomass2015 <stomass2015@gmail.com>
+Date:   Wed Jul 5 16:02:14 2017 +0300
+
+    Update README.md
+
+commit c591f55b28f18185e050aee2f30e877009f998ac
+Author: stomass2015 <stomass2015@gmail.com>
+Date:   Wed Jul 5 16:01:33 2017 +0300
+
+    Update README.md
+
+commit 696533d9d7bedac046f0ccf7fce7b936cfd35072
+Author: stomass2015 <stomass2015@gmail.com>
+Date:   Wed Jul 5 16:00:39 2017 +0300
+
+    Update README.md
+
+commit de4eadedf9e0b6a27063bb9358b26c460b6bc985
+Author: Tomas <stomass2015@gmail.com>
+Date:   Wed Jul 5 14:53:12 2017 +0300
+
+    Edit prams
+
+commit 6044c021fa5873daad8691074d3487d6b32b60b2
+Author: Tomas <stomass2015@gmail.com>
+Date:   Tue Jul 4 19:09:04 2017 +0300
+
+    Edit pro
+
+commit 0ffeb0273fb1976f3002f5f3ce0481230dec4a58
+Author: Tomas <stomass2015@gmail.com>
+Date:   Tue Jul 4 18:57:05 2017 +0300
+
+    new host
+
+commit 4e3288cc2910aae75a14d148a11119f2009a6678
+Author: Tomas <stomass2015@gmail.com>
+Date:   Mon Jul 3 21:49:13 2017 +0300
+
+    qt edit deps
+
+commit efbc6482483ea72829a5f47757d2ff5778685139
+Author: Tomas <stomass2015@gmail.com>
+Date:   Mon Jul 3 11:07:46 2017 +0300
+
+    edit adress js (GUI)
+
+commit b9e1fcfaba25bbf2dec4dc23ffff580c6ffe58c8
+Author: Tomas <stomass2015@gmail.com>
+Date:   Mon Jul 3 10:33:34 2017 +0300
+
+    Add checkpoint
+
+commit 98b97006474a92869acd5884367afacfa798901d
+Author: Tomas <stomass2015@gmail.com>
+Date:   Mon Jul 3 10:22:58 2017 +0300
+
+    RegNet genesis
+
+commit 4eaf0d26babc13e33dddc19150fcd2f120b7a797
+Author: Tomas <stomass2015@gmail.com>
+Date:   Mon Jul 3 10:21:49 2017 +0300
+
+    Testnet genesis
+
+commit 6d14559c60f46fd60cc6aa646b7343b4bebfca70
+Author: Tomas <stomass2015@gmail.com>
+Date:   Mon Jul 3 10:20:41 2017 +0300
+
+    Main genesis
+
+commit 8383848ca6857ebac8c041432b3184b678d820f8
+Author: Tomas <stomass2015@gmail.com>
+Date:   Mon Jul 3 10:08:25 2017 +0300
+
+    Create new genesis & restart coin
+
+commit b869740c6dc89a279d292ff35402f53d5b664238
+Author: Tomas <stomass2015@gmail.com>
+Date:   Mon Jul 3 08:40:32 2017 +0300
+
+    commit index and style
+
+commit 76589564aeedec8b697091a3ce5714fd3c9b62c9
+Author: Tomas <stomass2015@gmail.com>
+Date:   Mon Jul 3 08:28:47 2017 +0300
+
+    Edit url
+
+commit 7f05cb9c4839c22b6478f2ec1899354f4225189e
+Author: Tomas <stomass2015@gmail.com>
+Date:   Mon Jul 3 07:43:14 2017 +0300
+
+    LastBlock
+
+commit 60c7dd03ad97c5c9a9b81bfabe696b5a5af07527
+Author: Tomas <stomass2015@gmail.com>
+Date:   Mon Jul 3 07:38:39 2017 +0300
+
+    Edit GUI
+
+commit 51167ef03d610f26ad880508e7dbebe0aaa9a524
+Author: Tomas <stomass2015@gmail.com>
+Date:   Mon Jul 3 07:18:52 2017 +0300
+
+    Coin settings
+
+commit 659a532cd4d8d11a2939b5e3dd5573a4243bc91f
+Author: Tomas <stomass2015@gmail.com>
+Date:   Mon Jul 3 01:53:06 2017 +0300
+
+    newdata
+
+commit bf145987a6eb1d70c7769ab043c31671fdbc28b1
+Author: Tomas <stomass2015@gmail.com>
+Date:   Sun Jul 2 19:31:37 2017 +0300
+
+    Restart coin
+
+commit 4f4672426faa89e52a0426324053e3f8288da109
+Author: Tomas <stomass2015@gmail.com>
+Date:   Sun Jul 2 18:38:34 2017 +0300
+
+    Gen genesis
+
+commit bacc5036bec9fa21fb959e3abe4f279dec1d9f70
+Author: Tomas <stomass2015@gmail.com>
+Date:   Sun Jul 2 18:33:26 2017 +0300
+
+    Gen genesis
+
+commit 444a8ac7c7154af99dd653cbefe31d67ba33ed05
+Author: Tomas <stomass2015@gmail.com>
+Date:   Sun Jul 2 18:26:05 2017 +0300
+
+    test time
+
+commit e770877492ef5ccac5d35f87452207ebc26d4881
+Author: Tomas <stomass2015@gmail.com>
+Date:   Fri Jun 30 19:37:05 2017 +0300
+
+    Edit qt frame
+
+commit 2bde0d2e4a1bb59516d0e10175a882ffd28ec6d2
+Author: Tomas <stomass2015@gmail.com>
+Date:   Fri Jun 30 11:45:56 2017 +0300
+
+    Edit name
+
+commit 3d2cd6fd1fe755a970d7f5a0de9e6546b80bbc72
+Author: Tomas <stomass2015@gmail.com>
+Date:   Fri Jun 30 11:28:09 2017 +0300
+
+    Edit locals & ui forms
+
+commit 6828980d891c28da8fec2fa3ace8300164237375
+Author: Tomas <stomass2015@gmail.com>
+Date:   Fri Jun 30 11:24:05 2017 +0300
+
+    error qt build
+
+commit 417ca6f0cdabaa39abcc26237b46b746226e00fa
+Author: Tomas <stomass2015@gmail.com>
+Date:   Fri Jun 30 09:13:44 2017 +0300
+
+    Update readme
+
+commit b3fb384ab1686013621b9177f3655ba8f4824292
+Author: Tomas <stomass2015@gmail.com>
+Date:   Fri Jun 30 09:12:27 2017 +0300
+
+    Edit readme
+
+commit 736d9308eb6e96f4f71d8d4cfacfde30540a7e24
+Merge: 7ca3c7f 72e7a0a
+Author: Tomas <stomass2015@gmail.com>
+Date:   Fri Jun 30 09:07:12 2017 +0300
+
+    Merge branch 'master' of https://github.com/peopleproject/people
+
+commit 7ca3c7f9165839b4d9d83bf7f0dc51648bbb7f95
+Author: Tomas <stomass2015@gmail.com>
+Date:   Fri Jun 30 09:07:06 2017 +0300
+
+    Rename locele file
+
+commit 72e7a0afd3676cbad9d9becad0f9ede92a3e647a
+Author: debian <debian@debian>
+Date:   Fri Jun 30 00:20:45 2017 +0300
+
+    premmision
+
+commit 48bb3d7a11d9f7d3b901202b60569013f6899088
+Author: Tomas <stomass2015@gmail.com>
+Date:   Thu Jun 29 16:35:15 2017 +0300
+
+    Add dns
+
+commit 5ff9248f9cef2f6bd111173bd6491439d92bc088
+Author: Tomas <stomass2015@gmail.com>
+Date:   Thu Jun 29 16:32:11 2017 +0300
+
+    Checkpoints
+
+commit 77d460941eb5e0ec6a7009b281bb3a70049ff537
+Author: Tomas <stomass2015@gmail.com>
+Date:   Thu Jun 29 16:14:51 2017 +0300
+
+    New params
+
+commit 3c0e2a084ebd0e674665ceb80ddf6f6e6a62a6ce
+Author: Tomas <stomass2015@gmail.com>
+Date:   Thu Jun 29 14:46:42 2017 +0300
+
+    New genesis
+
+commit e4ccdb81f716d5eb19d41bec0c617139af6671e3
+Author: Tomas <stomass2015@gmail.com>
+Date:   Thu Jun 29 14:06:26 2017 +0300
+
+    Rem
+
+commit 54947d1d0c80838c83d3c64ed9ada0c4dbf6e5e2
+Author: Tomas <stomass2015@gmail.com>
+Date:   Tue Jun 27 01:54:25 2017 +0300
+
+    Add test source

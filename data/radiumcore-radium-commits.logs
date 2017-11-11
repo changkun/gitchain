@@ -1,0 +1,152 @@
+commit 78d9fe1cb647420d110e9d62955066bf6c3e12cd
+Merge: cabc083 f344396
+Author: alaniz3 <alaniz3@users.noreply.github.com>
+Date:   Wed Sep 6 15:14:01 2017 +0100
+
+    Merge pull request #3 from JJ12880/master
+    
+    Improve speed of getblockbynumber RPC call
+
+commit f344396760e8259c52bf95dad5367ccd08b9c828
+Author: JJ12880 <justinj100@gmail.com>
+Date:   Wed Sep 6 06:59:47 2017 -0400
+
+    improve speed of getblockbynumber rpc call
+
+commit 3d259c90b864a602cd4d43d71513d03559cba790
+Merge: fa3fe7f cabc083
+Author: JJ12880 <JJ12880@users.noreply.github.com>
+Date:   Wed Sep 6 06:52:22 2017 -0400
+
+    Merge pull request #1 from RadiumCore/master
+    
+    update to core
+
+commit cabc083546b389c467c0fe4fafa51bb89c50f192
+Author: alaniz <alaniz@linuxmail.org>
+Date:   Fri May 19 22:28:16 2017 +0100
+
+    Added more fixed seeds to chainparamseeds
+
+commit afab2f4ced4ab7ab2a4b069dd9c7a2e23d7434ae
+Author: JJ12880 <JJ12880@users.noreply.github.com>
+Date:   Fri May 19 16:43:40 2017 -0400
+
+    Added more fixed nodes
+
+commit ef51c422e63d7e907d5546a310b6139c8cef435d
+Author: Tim Mesker <tim@projectradium.org>
+Date:   Fri May 19 15:06:13 2017 -0400
+
+    Fix port assumptions
+
+commit a0a1397e0043c231400a2a80f726f73ca3488207
+Author: Tim Mesker <tim@projectradium.org>
+Date:   Fri May 19 08:05:54 2017 -0400
+
+    Add pre-compiled qm's so that certain platforms don't struggle with them.
+
+commit 3fa29772f78d0a4ab7646977f064e1bb50710050
+Author: Tim Mesker <tim@projectradium.org>
+Date:   Fri May 19 07:54:09 2017 -0400
+
+    Update DNS and non-DNS seeds.
+
+commit fa3fe7fa72fc84011a999140ea45ea70d5214ac3
+Author: alaniz <alaniz@linuxmail.org>
+Date:   Sun May 14 16:01:32 2017 +0100
+
+    Minor fix
+
+commit 330c2d706f74e67112df9cf51088a9e9c73de6b1
+Merge: 748b8b1 4fedecd
+Author: alaniz3 <alaniz3@users.noreply.github.com>
+Date:   Sat May 13 10:03:17 2017 +0100
+
+    Merge pull request #2 from RadiumCore/Radium_1.4.6
+    
+    Radium 1.4.6
+
+commit 4fedecd867c4fd16065308dd637775de974ede6c
+Author: alaniz <alaniz@linuxmail.org>
+Date:   Sat May 13 09:48:01 2017 +0100
+
+    Bump version
+
+commit 28026048bf3910987df8f8312a423f6da99ee28b
+Author: alaniz <alaniz@linuxmail.org>
+Date:   Sat May 13 09:43:29 2017 +0100
+
+    Added banfororphans flag
+
+commit f4ea67f66def819bbb4c1c21d517ec81aac5914d
+Author: alaniz <alaniz@linuxmail.org>
+Date:   Sun May 7 11:13:17 2017 +0100
+
+    Remove old spreadfee logging
+
+commit 62d30baf42181bf3a9d83c4fb6c16215a780493d
+Author: alaniz <alaniz@linuxmail.org>
+Date:   Sun May 7 11:10:55 2017 +0100
+
+    Add redeemScript to addmultisigaddress RPC output
+
+commit 4a07d3e3d372276634bf9b734fa94b5e69a5c3a1
+Author: alaniz <alaniz@linuxmail.org>
+Date:   Sun May 7 11:08:48 2017 +0100
+
+    Fix %n logging error
+
+commit 4f27428f14bbb257f1415caae7a4a7d7e6952668
+Author: alaniz <alaniz@linuxmail.org>
+Date:   Sun May 7 11:07:35 2017 +0100
+
+    Added checkpoint
+
+commit e61dc9f5441648899fcb3f0ca7244a903c9b5f16
+Author: alaniz <alaniz@linuxmail.org>
+Date:   Fri Mar 24 11:41:53 2017 +0000
+
+    Fix FindAndDelete()
+
+commit ee99ccfceaf081a8822911ad05bb338eb047a59f
+Author: alaniz <alaniz@linuxmail.org>
+Date:   Fri Mar 24 11:38:19 2017 +0000
+
+    Update checkpoints
+
+commit 2980263b0ce321b60351ca9ee85bfb27cea52589
+Author: alaniz <alaniz@linuxmail.org>
+Date:   Fri Mar 24 11:36:28 2017 +0000
+
+    Clean up
+
+commit c24d38aebc0efbb7b70b53a70fc89fcb62b49a3b
+Author: alaniz <alaniz@linuxmail.org>
+Date:   Sun Feb 26 09:55:49 2017 +0000
+
+    Updated wallet graphics
+
+commit 3ad39860aec0d1b70300def6aa2b753b50478bef
+Author: alaniz <alaniz@linuxmail.org>
+Date:   Sat Feb 25 19:02:07 2017 +0000
+
+    Updating naming
+
+commit 748b8b1dcafcf88bc257cd04e21a7e6a67970394
+Author: alaniz <alaniz@linuxmail.org>
+Date:   Fri Jan 20 18:15:06 2017 +0000
+
+    Update seed nodes
+
+commit 6893e2ebc9669d3c460555c60813f63fac8d0f40
+Author: alaniz <alaniz@linuxmail.org>
+Date:   Fri Jan 20 18:12:08 2017 +0000
+
+    Update README.md
+
+commit 1eb452a82bdeaee99a07ecb8f6be6829e7b55ea3
+Author: alaniz <alaniz@linuxmail.org>
+Date:   Fri Jan 6 17:08:55 2017 +0000
+
+    Migration from ProjectRadium

@@ -1,0 +1,975 @@
+commit 243ec2781f8e524724ea391a88e0623e13fb9e28
+Author: quark-project <quark-project@users.noreply.github.com>
+Date:   Sat Oct 14 12:14:33 2017 +0200
+
+    0.10.6.1
+
+commit 5d2dee67feaddc033cdc603a9376f7e2b1d8b12a
+Merge: ac660c7 7b56e06
+Author: MaxGuevara <MaxGuevara@users.noreply.github.com>
+Date:   Sat Oct 14 11:41:12 2017 +0200
+
+    Merge pull request #28 from quark-project/POS
+    
+    POS
+
+commit 7b56e06b9b3ab8be28e5d4a19e66c0f7b65be0e1
+Author: MaxGuevara <MaxGuevara@users.noreply.github.com>
+Date:   Sat Oct 14 10:39:55 2017 +0200
+
+    Min stake age 30 days
+
+commit b112f02ae83ed31757b4128f7ba41c9f8e0e0242
+Author: MaxGuevara <MaxGuevara@users.noreply.github.com>
+Date:   Sat Oct 14 00:17:43 2017 +0200
+
+    Default testnet false
+
+commit 26532f809db69d00c4f9b34072a7de248081d53c
+Author: MaxGuevara <MaxGuevara@users.noreply.github.com>
+Date:   Sat Oct 14 00:14:29 2017 +0200
+
+    Set stake interest 3.5%
+
+commit 113272d35ac8ac8bf087e440e4714b6730f91bbd
+Author: MaxGuevara <MaxGuevara@users.noreply.github.com>
+Date:   Sat Oct 14 00:02:48 2017 +0200
+
+    Min stake age 7 days
+
+commit 24dc22a195d815490083f2e29aba0a24c4da91f9
+Author: MaxGuevara <MaxGuevara@users.noreply.github.com>
+Date:   Sat Oct 14 00:01:25 2017 +0200
+
+    Proposed POS fork block
+
+commit 5de9d7bca077556574157599b76e0829a8da9659
+Author: MaxGuevara <MaxGuevara@users.noreply.github.com>
+Date:   Fri Oct 13 23:21:29 2017 +0200
+
+    Set spork keys
+
+commit 451c8e191d43e95a48790bfdf05741891f6d3878
+Author: MaxGuevara <MaxGuevara@users.noreply.github.com>
+Date:   Fri Oct 13 22:51:40 2017 +0200
+
+    Protocol version 70004
+
+commit fc4093036768ba9a0bcfaea3ed6ae679fd4a75c7
+Author: MaxGuevara <MaxGuevara@users.noreply.github.com>
+Date:   Fri Oct 13 22:44:42 2017 +0200
+
+    Comment out unused code
+
+commit 8da2605182a2e72bbfb3a0ca4d60d5a9feadf852
+Author: MaxGuevara <MaxGuevara@users.noreply.github.com>
+Date:   Thu Oct 5 20:54:11 2017 +0200
+
+    Add makekeypair rpc call
+
+commit e9330cf8c0e731b1d7facf7f61159f0b152e2546
+Author: MaxGuevara <MaxGuevara@users.noreply.github.com>
+Date:   Thu Oct 5 18:35:51 2017 +0200
+
+    POS mining: handle error when trying to mine spent coins
+
+commit 6e303c36e3cca8c4757cf6e4b2a0e83747f3d914
+Merge: d9eeb03 6f31da2
+Author: MaxGuevara <MaxGuevara@users.noreply.github.com>
+Date:   Thu Oct 5 15:39:54 2017 +0200
+
+    Merge branch 'POS' of http://github.com/quark-project/quark into POS
+
+commit 6f31da2b2c0e923d53ce3c6ec5913275695e41f0
+Merge: 51abd2d 537d5bf
+Author: quark-project <quark-project@users.noreply.github.com>
+Date:   Thu Oct 5 15:39:42 2017 +0200
+
+    Merge pull request #27 from FortyHeads/fix_corrupted_database
+    
+    fix Corrupted block database error
+
+commit 537d5bf685a63eb2ec7823d607f74085d8579d25
+Author: FortyHeads <dev@fortyheads.com>
+Date:   Thu Oct 5 14:56:54 2017 +0300
+
+    fix Corrupted block database error
+
+commit d9eeb03abfa9ce5fdb4d8716fe67ebaa72de4cfb
+Merge: 457bc43 51abd2d
+Author: MaxGuevara <MaxGuevara@users.noreply.github.com>
+Date:   Wed Oct 4 03:45:52 2017 +0200
+
+    Merge branch 'POS' of http://github.com/quark-project/quark into POS
+
+commit 51abd2d900578f02b31942109a0f3c96ab0b6fd7
+Merge: 3e3431e 6768f8f
+Author: quark-project <quark-project@users.noreply.github.com>
+Date:   Wed Oct 4 03:36:23 2017 +0200
+
+    Merge pull request #26 from FortyHeads/fix-send-tab-balance
+    
+    Fix balance on send tab
+
+commit 6768f8f4f197a52ac54fdf302a5cc9f3051614df
+Author: FortyHeads <dev@fortyheads.com>
+Date:   Mon Oct 2 12:37:42 2017 +0300
+
+    Fix balance on send tab
+
+commit 457bc43c71e264eca8496f40e344c826aa14f6bb
+Merge: 701dd67 3e3431e
+Author: MaxGuevara <MaxGuevara@users.noreply.github.com>
+Date:   Fri Sep 29 16:22:11 2017 +0200
+
+    Merge branch 'POS' of http://github.com/quark-project/quark into POS
+
+commit 3e3431e5b3daecfe54595b647f77ff9f0fa32372
+Merge: 3fa8716 d29fa3b
+Author: MaxGuevara <MaxGuevara@users.noreply.github.com>
+Date:   Fri Sep 29 16:21:59 2017 +0200
+
+    Merge pull request #25 from FortyHeads/qrk-13-send-minted
+    
+    Fix CCoins coinstake field
+
+commit d29fa3b8a0d6ba471594eb5ee910a99126693075
+Author: FortyHeads <dev@fortyheads.com>
+Date:   Fri Sep 29 14:38:51 2017 +0300
+
+    Fix CCoins coinstake field
+
+commit 701dd6754ffb8a327fefd421ccbb94e162f636fe
+Author: MaxGuevara <MaxGuevara@users.noreply.github.com>
+Date:   Wed Sep 27 23:47:40 2017 +0200
+
+    Default testnet true
+
+commit 3fa87166388b6313ae06d39bfa1781686c8c7ae6
+Merge: 6f51655 ebc9ba2
+Author: MaxGuevara <MaxGuevara@users.noreply.github.com>
+Date:   Wed Sep 27 16:17:02 2017 +0200
+
+    Merge pull request #24 from FortyHeads/fix-negative-reward
+    
+    Fix negative stake reward
+
+commit 6f516554cf4dbd70626e2121fecb9d3b1652a29b
+Merge: 33b9794 558f65d
+Author: MaxGuevara <MaxGuevara@users.noreply.github.com>
+Date:   Wed Sep 27 16:15:21 2017 +0200
+
+    Merge pull request #23 from FortyHeads/qrk-11-fixes
+    
+    Refill keypool during staking
+
+commit 558f65d989c78ca4c6128237bb1274f9c0a49103
+Author: FortyHeads <dev@fortyheads.com>
+Date:   Thu Sep 21 16:03:44 2017 +0300
+
+    Refill keypool during staking
+
+commit ebc9ba216b25dca50d914e7816e3f5dea15f57db
+Author: FortyHeads <dev@fortyheads.com>
+Date:   Tue Aug 22 16:17:51 2017 +0300
+
+    Fix negative stake reward
+
+commit 33b9794fb374e74b0589a0ad0cd2106423f5777e
+Author: quark-project <quark-project@users.noreply.github.com>
+Date:   Sat Aug 5 20:56:18 2017 +0200
+
+    Change stake transaction display
+
+commit 1b75b060e5cdf6ef68308fbfcc8fc71f8a409611
+Author: quark-project <quark-project@users.noreply.github.com>
+Date:   Fri Aug 4 09:22:25 2017 +0200
+
+    Testnet seed
+
+commit ad2d2cdd90659391ef6ae22710c4556b1ee36b94
+Author: quark-project <quark-project@users.noreply.github.com>
+Date:   Fri Aug 4 09:21:12 2017 +0200
+
+    Defer MN on testnet
+
+commit 1b6f4951e88d3e2cab9d3e21d9589be96b34444b
+Author: quark-project <quark-project@users.noreply.github.com>
+Date:   Wed Aug 2 11:51:30 2017 +0200
+
+    Fix stake transaction record display
+
+commit f6fc9faed59861f87d29eb0807ab4b627801c696
+Author: quark-project <quark-project@users.noreply.github.com>
+Date:   Wed Aug 2 10:54:07 2017 +0200
+
+    Initial POW/POS and MN WIP
+
+commit ac660c79727ece1ee9681324d1a66ccc0df0f709
+Author: quark-project <quark-project@users.noreply.github.com>
+Date:   Wed May 3 10:21:37 2017 +0200
+
+    Remove obsolete warning
+
+commit 43c1eb96d4c9e3204b406d70f71d7c91c6839f76
+Author: quark-project <quark-project@users.noreply.github.com>
+Date:   Wed May 3 09:32:24 2017 +0200
+
+    0.10.4.5
+
+commit 62885c2cdc8329b0aff49f1c88cc8270490d8b46
+Merge: de4056f a24dbef
+Author: quark-project <quark-project@users.noreply.github.com>
+Date:   Wed May 3 09:28:09 2017 +0200
+
+    Merge pull request #3 from MaxGuevara/dev
+    
+    Checkpoints
+
+commit a24dbef09550c8c0a9c434e2e6dfc881cf813f2b
+Author: MaxGuevara <MaxGuevara@users.noreply.github.com>
+Date:   Mon May 1 14:20:37 2017 +0200
+
+    Checkpoints
+
+commit de4056ff640aa70099dce7ccb9a10336417dc86a
+Author: quark-project <quark-project@users.noreply.github.com>
+Date:   Fri Apr 21 23:48:31 2017 +0200
+
+    0.10.4.4
+
+commit 964a80bae51bb74d4d899f02339c9c8fced79165
+Author: quark-project <quark-project@users.noreply.github.com>
+Date:   Fri Apr 21 23:35:28 2017 +0200
+
+    Checkpoints
+
+commit 78d243054564fdc8c167a91bbaa942113018b991
+Author: quark-project <quark-project@users.noreply.github.com>
+Date:   Fri Apr 21 23:20:55 2017 +0200
+
+    Checkpoint
+
+commit ab97d2d8d527cdfeb33f0ee34c6f420304c6c66e
+Author: quark-project <quark-project@users.noreply.github.com>
+Date:   Fri Apr 21 22:35:33 2017 +0200
+
+    Change sync parameters
+
+commit ec45f294bd72847ba3e8491c6c5a0b01b1509c21
+Author: quark-project <quark-project@users.noreply.github.com>
+Date:   Thu Apr 20 23:33:40 2017 +0200
+
+    0.10.4.3
+
+commit e7f18fb4a2fbae23fe1d278e8aee20da286005df
+Author: quark-project <quark-project@users.noreply.github.com>
+Date:   Thu Apr 20 23:30:58 2017 +0200
+
+    Default mining to disabled
+
+commit c40ef4d4c169d4c3a12f81b851e1ee8131c80282
+Author: quark-project <quark-project@users.noreply.github.com>
+Date:   Thu Apr 20 23:28:13 2017 +0200
+
+    Disconnect 0.9 peers
+
+commit 98e61deab1caea5f182336af8e008cad4d9fe0b4
+Author: quark-project <quark-project@users.noreply.github.com>
+Date:   Thu Apr 20 23:09:30 2017 +0200
+
+    Checkpoint
+
+commit 2f62c37dc8e3d9c3fcaa0dc8f15eb4a21052d238
+Author: quark-project <quark-project@users.noreply.github.com>
+Date:   Thu Apr 20 22:56:19 2017 +0200
+
+    Checkpoint
+
+commit aa76c9d341b07123d213a13ee1eb0b87931d87ea
+Author: quark-project <quark-project@users.noreply.github.com>
+Date:   Thu Apr 20 22:01:08 2017 +0200
+
+    Fix difficulty calc for rpc display
+
+commit 5d67b9d4e30525a0ebfd0220e901d538c783c053
+Author: quark-project <quark-project@users.noreply.github.com>
+Date:   Sun Apr 9 14:01:11 2017 +0200
+
+    0.10.4.2
+
+commit ff4ae35d9dc128c680193b7dfd5620fa37a6f243
+Author: quark-project <quark-project@users.noreply.github.com>
+Date:   Sun Apr 9 13:59:49 2017 +0200
+
+    Start signalling BIP66 (block version=113)
+
+commit f802953c1b40a0bf2e9258b3f46e43577244e54b
+Author: quark-project <quark-project@users.noreply.github.com>
+Date:   Sun Apr 2 12:02:23 2017 +0200
+
+    0.10.4.1
+
+commit 86c96f349ccb0427e418a86c67908f7dadb0145a
+Author: quark-project <quark-project@users.noreply.github.com>
+Date:   Sun Apr 2 10:43:42 2017 +0200
+
+    Miner improvements
+
+commit 93f208dfdd7b930a769ea819228293b4d42c4aa1
+Author: quark-project <quark-project@users.noreply.github.com>
+Date:   Sun Mar 26 22:34:37 2017 +0200
+
+    Clear build time config file
+
+commit 7182c3968c5ff794fc347331c5ad17f3f2ba8bbf
+Merge: 8df43b3 adf26fe
+Author: quark-project <quark-project@users.noreply.github.com>
+Date:   Sun Mar 26 15:51:28 2017 +0200
+
+    Merge pull request #1 from MaxGuevara/v10
+    
+    0.10.4.0 upgrade
+
+commit adf26fe2c36a45b3d3f0a447cb29107f719060ce
+Author: MaxGuevara <MaxGuevara@users.noreply.github.com>
+Date:   Sun Mar 26 15:41:49 2017 +0200
+
+    Pre release
+
+commit b9e6704aa13739d9fdf0924561d3941b732363a9
+Author: MaxGuevara <MaxGuevara@users.noreply.github.com>
+Date:   Thu Mar 23 22:07:56 2017 +0200
+
+    NSIS images
+
+commit 24640d29efde1638dd1815acfa85f054f530126a
+Author: MaxGuevara <MaxGuevara@users.noreply.github.com>
+Date:   Thu Mar 23 22:05:16 2017 +0200
+
+    Mining options
+
+commit f2c9d5083f397b9d032f89f9140e81f74addeb0d
+Author: MaxGuevara <MaxGuevara@users.noreply.github.com>
+Date:   Wed Mar 22 23:06:21 2017 +0200
+
+    0.10.4.0 base
+
+commit 8362917b56073d73e8d29da697c06dfddc6b1d49
+Author: MaxGuevara <MaxGuevara@users.noreply.github.com>
+Date:   Wed Mar 22 22:59:12 2017 +0200
+
+    0.10.4.0 base
+
+commit 1ce0710b60893b14a0ae9e5c3999c8e517289f1f
+Author: MaxGuevara <MaxGuevara@users.noreply.github.com>
+Date:   Wed Mar 22 22:54:05 2017 +0200
+
+    0.10.4.0 base
+
+commit a055e547359af89b2943dcc8a6f596e2abcd1e9f
+Author: MaxGuevara <MaxGuevara@users.noreply.github.com>
+Date:   Wed Mar 22 22:49:15 2017 +0200
+
+    0.10.4.0 base
+
+commit ed0b77d0e56cb3fded2a1b9ee0f988d49e7e1b67
+Author: MaxGuevara <MaxGuevara@users.noreply.github.com>
+Date:   Wed Mar 22 22:45:47 2017 +0200
+
+    0.10.4.0 base
+
+commit f8d65b92590ba34859a10e17be32fc2850f38b88
+Author: MaxGuevara <MaxGuevara@users.noreply.github.com>
+Date:   Wed Mar 22 22:44:11 2017 +0200
+
+    0.10.4.0 base
+
+commit 8f7284b6bd9ac6f95c5619b120540c7c79384448
+Author: MaxGuevara <MaxGuevara@users.noreply.github.com>
+Date:   Wed Mar 22 22:40:39 2017 +0200
+
+    m4 files
+
+commit 91267deebfabfa9bf285e5ee0753315efc3c9577
+Author: MaxGuevara <MaxGuevara@users.noreply.github.com>
+Date:   Wed Mar 22 22:06:41 2017 +0200
+
+    0.10.4.0 base
+
+commit 8df43b3aad75c1f9ba4fa55a0c117c9437b99994
+Author: MaxGuevara <maxguevara@noreply.users.github.com>
+Date:   Tue Jun 14 19:46:57 2016 +0200
+
+    Update Readme
+
+commit 1f5245271679fa92c9f68d2afbd10208d7db8279
+Author: MaxGuevara <maxguevara@noreply.users.github.com>
+Date:   Tue Jun 14 19:45:17 2016 +0200
+
+    Windows setup changes
+
+commit 330476f5c395cc12944bf4d666b942fc251ec9d6
+Author: MaxGuevara <maxguevara@noreply.users.github.com>
+Date:   Tue Jun 14 19:25:17 2016 +0200
+
+    0.9.2.7
+
+commit 4a857d82799b6074a7be73e822ef0b176327e0c0
+Author: MaxGuevara <maxguevara@noreply.users.github.com>
+Date:   Tue Jun 14 19:11:37 2016 +0200
+
+    Checkpoint
+
+commit fb2f9ffdb22da9e40817cef6d0dde422ea10855c
+Author: MaxGuevara <maxguevara@noreply.users.github.com>
+Date:   Tue Jun 14 18:32:08 2016 +0200
+
+    Copyright year 2016
+
+commit a0de357088d73e2147718f79d0c1ef06843be7fc
+Author: MaxGuevara <MaxGuevara>
+Date:   Tue Oct 6 21:43:48 2015 +0200
+
+    0.9.2.6
+
+commit 84d40640b2c38a5819408f430ac1c083c7f8d444
+Author: MaxGuevara <MaxGuevara>
+Date:   Tue Oct 6 19:10:42 2015 +0200
+
+    Checkpoint
+
+commit dc4cbfde02dff758f06bb7fa3d7ef5a9464211d8
+Author: MaxGuevara <MaxGuevara>
+Date:   Fri Sep 11 22:16:32 2015 +0200
+
+    0.9.2.5
+
+commit 365efe13bbe6cd8b22d14f0c418e4ae4e81351fa
+Author: MaxGuevara <MaxGuevara>
+Date:   Fri Sep 11 22:05:18 2015 +0200
+
+    Checkpoint
+
+commit 2d1633e6cc5b2bfac571a0382932727bb930f8ad
+Author: MaxGuevara <MaxGuevara>
+Date:   Thu Sep 10 21:30:53 2015 +0200
+
+    Update seeds
+
+commit 451230fc9ca813c0f406648760d104598916e307
+Author: MaxGuevara <MaxGuevara>
+Date:   Sun May 31 12:15:00 2015 +0200
+
+    0.9.2.4 Checkpoint
+
+commit c37d20b299505d75fc25fd4deff9fd7c6e52e4e5
+Author: MaxGuevara <MaxGuevara>
+Date:   Sun May 31 11:02:39 2015 +0200
+
+    Update DNS seed nodes
+
+commit 774d722b95c4722568b9316d122dec86ad9cf703
+Author: MaxGuevara <MaxGuevara>
+Date:   Fri Jan 23 17:49:30 2015 +0200
+
+    Check pindexBestForkBase->phashBlock for NULL reference
+
+commit 8cf11c33759debb56126510814d6651e2591e515
+Author: MaxGuevara <MaxGuevara>
+Date:   Sun Jan 18 18:25:22 2015 +0200
+
+    0.9.2.3
+
+commit 4706fcd3095d0e7342863b6ce1eb518c8fa0d1c7
+Author: MaxGuevara <MaxGuevara>
+Date:   Sun Jan 18 17:58:38 2015 +0200
+
+    Fix GetMedianTime calc
+
+commit b944c5e9ad4cacf0d9765dd143f56f321b6e8f69
+Author: MaxGuevara <MaxGuevara>
+Date:   Sun Jan 18 17:55:52 2015 +0200
+
+    Checkpoint at fork point
+
+commit 3a65360c023053d85941735700d9523b5f49681b
+Author: MaxGuevara <MaxGuevara>
+Date:   Sun Jan 18 01:44:41 2015 +0200
+
+    Checkpoints
+
+commit eb8b591dd49995fe930e9a0a0cf72f534db5834e
+Author: MaxGuevara <MaxGuevara>
+Date:   Sun Jan 18 01:26:39 2015 +0200
+
+    Checkpoints
+
+commit 3dd643dd4b8807c599f32c6c7be8b6266bd706e3
+Author: MaxGuevara <MaxGuevara>
+Date:   Sat Jan 17 11:33:52 2015 +0200
+
+    v0.9.2.2
+
+commit 1dcd7d0b0703e0d99ff719130b57c5c69d7a1607
+Author: MaxGuevara <MaxGuevara>
+Date:   Sat Jan 17 11:24:59 2015 +0200
+
+    Improve robustness of DER recoding code
+
+commit 5e416533f264cd83f14bd433cd6daf6e836bd7fb
+Author: MaxGuevara <MaxGuevara>
+Date:   Sat Jan 17 11:20:30 2015 +0200
+
+    Copyright year 2015
+
+commit 4838bf512ab329eb573f50bf45638d6ba231aba0
+Author: MaxGuevara <MaxGuevara>
+Date:   Sat Jan 17 10:33:30 2015 +0200
+
+    consensus: guard against openssl's new strict DER checks
+
+commit 92ac46e72251a036e78bed6e6075b2c4a1bc5f11
+Author: MaxGuevara <MaxGuevara>
+Date:   Sat Jan 17 10:05:19 2015 +0200
+
+    Checkpoint
+
+commit 6ce9b5730377626d0f69311b93b96c221dedf8cf
+Merge: de28976 6efe91f
+Author: MaxGuevara <quark@vistomail.com>
+Date:   Sat Oct 25 18:20:10 2014 +0200
+
+    Merge pull request #11 from MaxGuevara/0.9.2.1
+    
+    v0.9.2.1
+
+commit 6efe91f833ed988ab114c225a3c6e998b2c3f5f3
+Author: MaxGuevara <MaxGuevara>
+Date:   Sat Oct 25 15:20:55 2014 +0200
+
+    v0.9.2.1
+
+commit de28976fd17f041729672168fb8ff64c2481da3d
+Author: MaxGuevara <MaxGuevara>
+Date:   Sat Aug 9 18:55:31 2014 +0200
+
+    v0.8.3.25
+
+commit ee77fec2deb8818eec101a0d48668c93af8a8804
+Author: MaxGuevara <MaxGuevara>
+Date:   Sat Aug 9 18:54:57 2014 +0200
+
+    Checkpoint
+
+commit 83d1ca67291f5da680e978daf5d5346e0ff9a3d8
+Merge: c45cf1e 73a1520
+Author: MaxGuevara <quark@vistomail.com>
+Date:   Sat Aug 2 08:59:13 2014 +0200
+
+    Merge pull request #10 from huanzhang12/master
+    
+    GetBlockValue() returns wrong values when nHeight >= 3870720
+
+commit 73a152066ecd759a6e018a5c1505b0fa0dea2a12
+Author: Huan Zhang <ecezhang@ucdavis.edu>
+Date:   Sun Jun 29 19:33:51 2014 -0700
+
+    Fix right shift in GetBlockValue() when nHeight is greater than 3870720
+    
+    The C++ right shift operation is undefined when the right operand is greater than
+    or equal to the length in bits of the promoted left operand.
+    On Intel x86 architecture, a right shift is translated into a "sar" or
+    "shrd" instruction. When (nHeight / 60480) is greater than or equal to 64,
+    it is observed that these right shift instructions will shift nSubsidy by
+    ((nHeight / 60480) mod 64). For example, at block 3870720 (=60480*64),
+    the original GetBlockValue() returns 2048*COINS instead of 1*COINS.
+    This patch fixed this issue and GetBlockValue() will return 1*COINS for
+    any block height greater than 665279.
+
+commit 4859b6a212697aeeedfb2523dfb77e9f7153e8d4
+Author: Huan Zhang <ecezhang@ucdavis.edu>
+Date:   Sun Jun 29 19:25:45 2014 -0700
+
+    Add an unit test for GetBlockValue()
+
+commit 45f1333f3f1ed7628f98d414e29e26da4c6ba15d
+Author: Huan Zhang <ecezhang@ucdavis.edu>
+Date:   Sun Jun 29 19:22:32 2014 -0700
+
+    Fixed compilation error for key_tests
+
+commit c45cf1e8fa8c715bf2a2f7d5baec6f3150f5e496
+Author: MaxGuevara <MaxGuevara>
+Date:   Fri Jun 6 20:32:13 2014 +0200
+
+    Client version
+
+commit 0e4a45421f5c01b04a09071531454e1ec9176b69
+Author: MaxGuevara <MaxGuevara>
+Date:   Fri Jun 6 20:23:37 2014 +0200
+
+    Checkpoint
+
+commit cb795d6424a3cd0654dae6badbe35615b2c93b6b
+Author: MaxGuevara <MaxGuevara>
+Date:   Sun May 11 16:08:08 2014 +0200
+
+    Client version
+
+commit 5116f4c1aa8cf4802a432c2373609d0ee5f068e7
+Author: MaxGuevara <MaxGuevara>
+Date:   Sun May 11 16:06:50 2014 +0200
+
+    Checkpoint
+
+commit e45c9bc880c380d5e310dc1fffba8db682fb399c
+Merge: 14a0f5f fe765aa
+Author: MaxGuevara <quark@vistomail.com>
+Date:   Sun May 11 15:12:16 2014 +0200
+
+    Merge pull request #4 from kallisti5/master
+    
+    Docs: Rebrand to Quarkcoin
+
+commit 14a0f5f836b385b9cad6499611f032ddfa27198a
+Merge: 70484be bc3980b
+Author: MaxGuevara <quark@vistomail.com>
+Date:   Sun May 11 15:11:22 2014 +0200
+
+    Merge pull request #5 from JeroenDeDauw/patch-1
+    
+    Fix links in README.md
+
+commit 70484bebc82eaab528f8ffa0cc337be651b3c2f5
+Merge: 3308e63 02267e6
+Author: MaxGuevara <quark@vistomail.com>
+Date:   Sun May 11 15:10:46 2014 +0200
+
+    Merge pull request #3 from jensenbox/patch-1
+    
+    Fix file references in README.md
+
+commit 3308e63b6b411703485cd8bfadbf60a607239fb7
+Author: MaxGuevara <MaxGuevara>
+Date:   Sun May 11 14:31:28 2014 +0200
+
+    robbak/crash_zero_size_peers.dat
+
+commit e31c200cb98a08152b5e8328c45366072661f039
+Author: MaxGuevara <MaxGuevara>
+Date:   Sun May 11 12:20:04 2014 +0200
+
+    fix invalid conversion error with MinGW 4.8.1 in net.cpp (Bitcoin commit 6c6255edb54bed780f0879c906dccf6cfa98b4db)
+
+commit b7395bd6c92fd631d5bb1883eed9219270ab184a
+Author: MaxGuevara <MaxGuevara>
+Date:   Tue Apr 8 18:07:43 2014 +0200
+
+    Update Chinese translation
+
+commit ee1eaddc7914e462abaa7e29297bb86c59c6ffda
+Author: MaxGuevara <MaxGuevara>
+Date:   Tue Apr 8 17:50:07 2014 +0200
+
+    Version for new wallet
+
+commit f7803fdc87caca8edfc2d28f3e250a0ce8a36a06
+Author: MaxGuevara <MaxGuevara>
+Date:   Tue Apr 8 17:44:52 2014 +0200
+
+    UPNP enabled
+
+commit 84e8f20fbe80bd87c5f9e65d780ce918d9270938
+Author: MaxGuevara <MaxGuevara>
+Date:   Tue Apr 8 17:38:24 2014 +0200
+
+    Update QR prefix to quark
+
+commit 6b9c2ccdf17409d9434333627ba2316d0d072f41
+Author: MaxGuevara <MaxGuevara>
+Date:   Tue Apr 8 15:37:56 2014 +0200
+
+    Checkpoint
+
+commit 78342a16990161c06127a15b21d5047b0105a5dd
+Author: MaxGuevara <MaxGuevara>
+Date:   Mon Mar 17 18:52:39 2014 +0200
+
+    Additional seed nodes
+
+commit 2895bdb66730be86f08d741e1555fb1c68a1ed47
+Author: MaxGuevara <MaxGuevara>
+Date:   Mon Mar 17 17:18:33 2014 +0200
+
+    QT wallet options to control solo mining
+
+commit 5a0faa540cd6b95ba0edf4ca64680bf6b1eb9f69
+Author: MaxGuevara <MaxGuevara>
+Date:   Tue Mar 11 19:02:22 2014 +0200
+
+    Copyright year
+
+commit 602d9cca36ab0c67cfaa7b0aff34680bf521aa5b
+Author: MaxGuevara <MaxGuevara>
+Date:   Tue Mar 11 18:53:29 2014 +0200
+
+    Checkpoint
+
+commit 88f9c0fa38f7240364179985c02fec51ef4fee2a
+Author: MaxGuevara <MaxGuevara>
+Date:   Tue Mar 11 17:16:38 2014 +0200
+
+    Additional DNS seeds
+
+commit bc3980b0ec85ff736d91cda29cc6d6db62dae423
+Author: Jeroen De Dauw <jeroendedauw@gmail.com>
+Date:   Sun Feb 9 18:45:25 2014 +0100
+
+    Fix links in README.md
+
+commit 6c526947c9a45b403025f437a989607cccf728ac
+Author: MaxGuevara <MaxGuevara>
+Date:   Sat Feb 8 19:32:39 2014 +0200
+
+    Checkpoint
+
+commit fe765aaee465f94d5956732d70ea322b9105b724
+Author: Alexander von Gluck IV <kallisti5@unixzen.com>
+Date:   Sun Jan 19 11:24:24 2014 -0600
+
+    Docs: Rebrand to Quarkcoin
+
+commit 02267e66ee66627b25be383afffdb271dd456a3c
+Author: Christian Jensen <christian@jensenbox.com>
+Date:   Thu Jan 16 11:23:29 2014 -0800
+
+    Fix file references in README.md
+
+commit 44544b1f024319436e436a327676daf4786989ee
+Author: MaxGuevara <MaxGuevara>
+Date:   Sat Jan 11 13:55:54 2014 +0200
+
+    Checkpoint
+
+commit 89b4fdf3c11dd096f8a5342ae9b52d575fc9afce
+Author: MaxGuevara <MaxGuevara>
+Date:   Mon Dec 23 11:16:16 2013 +0200
+
+    Windows icons
+
+commit 99025bd0c54c58a951e4f7d913be059f0a4b48f6
+Author: MaxGuevara <MaxGuevara>
+Date:   Mon Dec 23 10:29:40 2013 +0200
+
+    Bump build number
+
+commit c49b73192c0a825b4caa8b1c1785d6d1cf21ca89
+Author: MaxGuevara <MaxGuevara>
+Date:   Mon Dec 23 10:10:27 2013 +0200
+
+    Text changes for conf/pid files
+
+commit 3d9c6da8debd16a564af22668903f81beef99453
+Merge: 85b2a0c 20f503b
+Author: MaxGuevara <quark@vistomail.com>
+Date:   Mon Dec 23 00:02:35 2013 -0800
+
+    Merge pull request #2 from geocoin/master
+    
+    Quarkcoin to Quark transition in Qt
+
+commit 20f503b6d45fb8359d2a656982907688f6b51d4f
+Author: geocoin <cthulhu@theoldone.net>
+Date:   Sun Dec 22 13:53:16 2013 -0700
+
+    Quarkcoin to Quark transition in Qt
+
+commit 85b2a0cb69db9b4ba64b2968cb38c0bd449b535a
+Author: MaxGuevara <MaxGuevara>
+Date:   Sun Dec 22 11:18:10 2013 +0200
+
+    Readme
+
+commit 142893f9f931cdb89351d05bf88052d6477e2ac1
+Author: MaxGuevara <MaxGuevara>
+Date:   Sun Dec 22 11:13:22 2013 +0200
+
+    Alert keys
+
+commit 79c3190f111cd97cfa653c382417499c1614948c
+Author: MaxGuevara <MaxGuevara>
+Date:   Fri Dec 20 18:03:22 2013 +0200
+
+    Automatic checkpoints
+
+commit 5937f1706d89354f99539299ce98f80a92739a6b
+Author: MaxGuevara <MaxGuevara>
+Date:   Fri Dec 20 13:44:54 2013 +0200
+
+    Checkpoint
+
+commit ef38eaba29083f8f70d5e720aca6a53a9d2918f0
+Author: MaxGuevara <MaxGuevara>
+Date:   Wed Dec 18 14:46:08 2013 +0200
+
+    Checkpoint
+
+commit a0ef44689eb02727917880618e00756aba2e2375
+Author: MaxGuevara <MaxGuevara>
+Date:   Wed Dec 18 13:55:06 2013 +0200
+
+    Update alert keys. Add makekeypair, sendalert rpc
+
+commit 09714a0bb1300e43758cb2d552bd664b5c7b88a6
+Author: MaxGuevara <MaxGuevara>
+Date:   Tue Dec 17 18:29:24 2013 +0200
+
+    Checkpoint
+
+commit 511e7603a5e3557f1ce36da69e46e45b8487c050
+Author: MaxGuevara <MaxGuevara>
+Date:   Sun Dec 15 17:00:26 2013 +0200
+
+    Checkpoint
+
+commit 99d5593973b02df0eaeefc66ecb1299bbc823999
+Author: MaxGuevara <MaxGuevara>
+Date:   Tue Dec 10 11:42:54 2013 +0200
+
+    Checkpoint
+
+commit 169f42b88b08bdcdb0dc812e86c1aec7075311bd
+Author: MaxGuevara <MaxGuevara>
+Date:   Thu Dec 5 04:29:44 2013 +0200
+
+    Python tools rpc port changes
+
+commit 5fbe7c29c00835b61ea9abddf28275059ad24ed5
+Author: MaxGuevara <MaxGuevara>
+Date:   Thu Dec 5 04:21:58 2013 +0200
+
+    Installer changes
+
+commit 425a1e512f808b306537b2af0b29cfad068de5c9
+Author: MaxGuevara <MaxGuevara>
+Date:   Thu Dec 5 04:01:59 2013 +0200
+
+    DNS seeds
+
+commit 6454afabd8b4c437c9e7407990de5feb42a4c1a3
+Author: MaxGuevara <MaxGuevara>
+Date:   Tue Dec 3 17:08:52 2013 +0200
+
+    Checkpoint
+
+commit df250840980dd22d139f85bc700c77e10c7f4b1a
+Author: MaxGuevara <MaxGuevara>
+Date:   Tue Dec 3 16:29:02 2013 +0200
+
+    Additional seed nodes
+
+commit 63ade36217afd4cd2a1405e45960be559f989f06
+Author: MaxGuevara <MaxGuevara>
+Date:   Sat Nov 30 07:31:00 2013 +0200
+
+    Checkpoint
+
+commit 5033ce5b3d30174498b07cb44a0b2b850be58a0e
+Author: MaxGuevara <MaxGuevara>
+Date:   Thu Nov 28 15:05:58 2013 +0200
+
+    Checkpoint
+
+commit 07efea35f22a35239c330ad81d99981842ed8e1f
+Author: MaxGuevara <MaxGuevara>
+Date:   Thu Nov 21 23:33:51 2013 +0200
+
+    Checkpoint
+
+commit 382f1053db9e112cde7627039361cca7c3292ffd
+Author: MaxGuevara <MaxGuevara>
+Date:   Thu Oct 31 13:39:02 2013 +0200
+
+    Checkpoint
+
+commit cd157ceb9580b9a664b3fd10ff01b6dce2f12c95
+Author: MaxGuevara <MaxGuevara>
+Date:   Tue Aug 20 20:48:50 2013 +0200
+
+    Added checkpoint. Check large transactions
+
+commit 13d35c79612bd82decd6ec662b318c0256c3bd95
+Author: MaxGuevara <MaxGuevara>
+Date:   Thu Aug 15 23:21:38 2013 +0200
+
+    Fix init
+
+commit 47afad20c7e6405c8e06b0603b1bba0abfd47ba1
+Merge: 0742dc2 a7475e4
+Author: MaxGuevara <Max.Guevara.452@gmail.com>
+Date:   Thu Aug 15 13:51:10 2013 -0700
+
+    Merge pull request #1 from uncle-bob/master
+    
+    moved loop invariants out to some inititalizing code
+
+commit 0742dc2c01b8185e7c2f9f8dd2d9c7545f9f6604
+Author: MaxGuevara <MaxGuevara>
+Date:   Thu Aug 15 22:43:30 2013 +0200
+
+    Remove unused parameter in Hash9
+
+commit 37b94a3547be54cd395aa8e7a86844c6e66c37ef
+Author: MaxGuevara <MaxGuevara>
+Date:   Thu Aug 15 22:31:50 2013 +0200
+
+    Additional seed nodes
+
+commit a7475e45c3d17e8f02213dab02601cdb724b6924
+Author: justin goff <stonefoz@gmail.com>
+Date:   Thu Aug 15 13:03:31 2013 -0400
+
+    moved loop invarients out to some inititalizing code
+
+commit 597c6305685ecf2676aed97b7022817cde125770
+Author: MaxGuevara <MaxGuevara>
+Date:   Sun Aug 11 13:47:25 2013 +0200
+
+    New icons and graphics
+
+commit c34ed2b424069f9ba330941a07566d31c797ef8c
+Author: MaxGuevara <MaxGuevara>
+Date:   Sun Aug 11 13:07:19 2013 +0200
+
+    Text and translation fix
+
+commit c39af6778d313712938fc4c07d9a3a89c849a7e5
+Author: MaxGuevara <MaxGuevara>
+Date:   Sun Aug 4 17:59:07 2013 +0200
+
+    Checkpoint added
+
+commit 95297a5da4a251bf34b31c7c0ac47358748ce25c
+Author: MaxGuevara <MaxGuevara>
+Date:   Fri Aug 2 00:42:43 2013 +0200
+
+    Implement hash meter
+
+commit d9593692a09c6fe602f4276d752c323fe14aef9d
+Author: MaxGuevara <MaxGuevara>
+Date:   Sun Jul 21 19:36:46 2013 +0200
+
+    leveldb Makefile
+
+commit 506b294665eb61033cee7bf7404235a93db4e535
+Author: MaxGuevara <MaxGuevara>
+Date:   Sun Jul 21 17:56:46 2013 +0200
+
+    Initial quark checkin
+
+commit 1c0961810b65226bf74ba98e7c0a11ada8b7cd32
+Author: CatmanIX <catmanix@gmail.com>
+Date:   Sun Jun 23 21:12:30 2013 +0100
+
+    2013-06-23

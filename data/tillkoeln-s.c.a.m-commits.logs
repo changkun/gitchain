@@ -1,0 +1,34 @@
+commit aabab1605e9ed58695ea7a929618b99af0886b58
+Author: Tillkoeln <Tillkoeln>
+Date:   Wed Jul 13 10:42:54 2016 +0200
+
+    checkpoints
+    
+    Nodes
+    Bump to V1.3
+
+commit 4ef31e519ff49f90fe1c04d6a2763a54fcbbde36
+Author: Tillkoeln <Tillkoeln@mail.de>
+Date:   Tue Jul 5 15:40:50 2016 +0200
+
+    v1.2
+
+commit 74417ffbca6b0eebc209e68c3da07782d013bbe9
+Author: Tillkoeln <Tillkoeln@coin.com>
+Date:   Thu Jun 30 01:52:42 2016 +0200
+
+    Version 1.1
+    
+    Hardfork
+
+commit fdee89194d05b5bada105733b0e26d070a507894
+Author: StakersDev <StakersDev@coin.com>
+Date:   Sat Jun 18 01:18:20 2016 +0200
+
+    wtf
+
+commit 1421ae651062df2470e055393123b8526f05908b
+Author: Tillkoeln <Tillkoeln@coin.com>
+Date:   Sun May 29 21:15:08 2016 +0200
+
+    Hello World

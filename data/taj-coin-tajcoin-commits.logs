@@ -1,0 +1,38 @@
+commit 3624779870125b1e45e1375722af0115ef9ea3f9
+Merge: fb9fbe4 22b5b55
+Author: Crypto.si <cryptosi@users.noreply.github.com>
+Date:   Sun Mar 12 16:12:24 2017 +0100
+
+    Merge pull request #1 from I-n-d-e-r/master
+    
+    Build: C++11
+
+commit 22b5b554cc9d33ea21924ccd7806e1d634cd6188
+Author: Inder <dominik.opyd@gmail.com>
+Date:   Sun Mar 12 15:53:37 2017 +0100
+
+    Build: C++11
+
+commit fb9fbe48c10b80828fd30ed66a7c22edb35d12d3
+Author: krilson <kril@tuta.io>
+Date:   Tue Jan 24 10:05:36 2017 +0100
+
+    fix issue where getrawtransaction RPC call does not work
+
+commit 0e872ac30af3c3316b0bbb1af4a82851fa617cdd
+Author: kristian <kristian.ilijevski@gmail.com>
+Date:   Fri Nov 11 17:43:29 2016 +0100
+
+    change qt version
+
+commit b06e7bf29aca265433a21115fbf59feebf9361af
+Author: kristian <kristian.ilijevski@gmail.com>
+Date:   Fri Nov 11 17:35:22 2016 +0100
+
+    change file permission
+
+commit 28210d7de8d656d1b9b21be0f31c5215e02d5279
+Author: ARC <jure@crypto.si>
+Date:   Sat Jul 9 22:57:30 2016 +0200
+
+    Initial commit

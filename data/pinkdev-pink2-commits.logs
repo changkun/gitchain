@@ -1,0 +1,441 @@
+commit 879312aa09fc6e8df5faaae118e5d25b43b87df8
+Author: PinkDev <saidge@gmail.com>
+Date:   Wed Sep 27 11:10:40 2017 -0700
+
+    Update Translations
+
+commit 4b903fab295fe8c8e154421cb5cabb492ee4e6de
+Author: PinkDev <saidge@gmail.com>
+Date:   Wed Sep 27 11:10:31 2017 -0700
+
+    Check nodes for testnet
+
+commit f8b561e9523a2f43ae72bfeb491fe901d9e40a8f
+Merge: ffc3011 087db57
+Author: PinkDev <saidge@gmail.com>
+Date:   Wed Sep 27 10:55:15 2017 -0700
+
+    Merge branch 'master' of https://github.com/PinkDev/Pink2
+
+commit ffc30117f23919076e29ee7937fb3e63db351d52
+Author: PinkDev <saidge@gmail.com>
+Date:   Wed Sep 27 10:55:11 2017 -0700
+
+    Add Testnet Information
+
+commit 087db570d2fde440706a4e494446801252e20156
+Merge: 241f77a 1c1d17d
+Author: PinkDev <saidge@gmail.com>
+Date:   Sun Sep 17 02:28:27 2017 -0700
+
+    Merge pull request #10 from RileyXX/patch-1
+    
+    bitcoin_nl.ts
+
+commit 241f77a23a43ee7f869b1309b06538b82a306b1a
+Merge: 64aa951 822e673
+Author: PinkDev <saidge@gmail.com>
+Date:   Sun Sep 17 02:28:14 2017 -0700
+
+    Merge pull request #11 from RileyXX/patch-2
+    
+    bitcoin_es.ts
+
+commit 64aa9511874c7bb5d309c61c4fb9fd5491c8c80f
+Author: PinkDev <saidge@gmail.com>
+Date:   Sun Sep 3 12:49:20 2017 -0700
+
+    bugfix for block 1
+
+commit 102beedbb2f2c6707ed1f0fd039c1904abbbcd74
+Author: PinkDev <saidge@gmail.com>
+Date:   Wed Aug 30 12:56:52 2017 -0700
+
+    Fixed Reward Halving for Miners
+
+commit 03d5ec797f879da59c64c91bb120e37c71f20ac7
+Author: PinkDev <saidge@gmail.com>
+Date:   Mon Aug 28 21:10:05 2017 -0700
+
+    Cleanup Commented Code
+
+commit f3b31ee7fcecc4032dfc44ab682427ff0e3da398
+Author: PinkDev <saidge@gmail.com>
+Date:   Mon Aug 28 21:06:52 2017 -0700
+
+    Increment Version
+
+commit 4fd9ea0dc74bdb50a8b5bc1572ca40de7f4c02e2
+Author: PinkDev <saidge@gmail.com>
+Date:   Mon Aug 28 21:06:38 2017 -0700
+
+    Fix Help Cutoff
+
+commit f4f12470b6bc7f3c31e3543baf3dbcaf39771bb5
+Author: PinkDev <saidge@gmail.com>
+Date:   Mon Aug 28 20:47:04 2017 -0700
+
+    Frontend Bugfix
+
+commit 0a1a892b2105c261c11ee95a1b3eae0673ee1656
+Author: PinkDev <saidge@gmail.com>
+Date:   Mon Aug 28 20:42:01 2017 -0700
+
+    Comment removal.
+
+commit 2ddd5c90ed979a03d218c0b093b17fee2d28af94
+Author: PinkDev <saidge@gmail.com>
+Date:   Mon Aug 28 20:41:48 2017 -0700
+
+    Increase connection requirements for staking.
+
+commit 07a85a13a9b41fe66896e6dc7e253687aa4c73f1
+Author: PinkDev <saidge@gmail.com>
+Date:   Mon Aug 28 20:41:08 2017 -0700
+
+    Fix reward halving.
+
+commit ef2ab1cdff1f82c25b45374e7df16b6c7f06edb4
+Author: PinkDev <saidge@gmail.com>
+Date:   Mon Aug 28 20:40:30 2017 -0700
+
+    Adjust default stake timer frequency.
+
+commit 822e6735207fc62149d55437274aa9d7901cf2d2
+Author: RileyXX <RileyXX@users.noreply.github.com>
+Date:   Fri Jun 30 14:04:22 2017 +0200
+
+    Update bitcoin_es.ts
+
+commit 8d318bcab3231ae4c73583f16cd78a7216efa816
+Author: RileyXX <RileyXX@users.noreply.github.com>
+Date:   Sun Jun 25 19:28:29 2017 +0200
+
+    bitcoin_es.ts
+    
+    Spanish translation redone by @msp4rrow from slack.
+
+commit 1c1d17d68ffc4caf83c7d1a9f74398aeb21a472b
+Author: RileyXX <RileyXX@users.noreply.github.com>
+Date:   Sun Jun 25 16:40:20 2017 +0200
+
+    Update bitcoin_nl.ts
+    
+    Fixed multiple mistakes in words and sentences, and someone replaced gen with pink making alot of dutch words unreadable.
+
+commit c40123e9d90ace3fe11a06f39d8d51f2631c741f
+Author: PinkDev <saidge@gmail.com>
+Date:   Sat May 27 13:49:39 2017 -0700
+
+    Fix Bugged Chance to Stake
+    
+    Forgot to modify old code. Old code assumed 30 stakes per hour. Pinkcoin
+    has 10/hour during regular POS and 60/hour during FPOS.
+    
+    /blush
+
+commit 3bdcfc4631f5ce55025b701b3f5409dfd9e9aa09
+Author: PinkDev <saidge@gmail.com>
+Date:   Wed May 3 14:22:20 2017 -0700
+
+    Increment Version - 2.1.0.1
+    
+    Version Update includes small compiler fixes, update to side-staking
+    that allows for floating point percentages, and a small UI update.
+
+commit ddfd9f444966bd6f2a66e21d0b89ac59ba42587e
+Author: PinkDev <saidge@gmail.com>
+Date:   Wed May 3 14:19:42 2017 -0700
+
+    Basic UI Updates
+
+commit bddc341484540b095ee2d43961cacb65d93c2e14
+Author: PinkDev <saidge@gmail.com>
+Date:   Wed May 3 14:19:30 2017 -0700
+
+    Floating Point Side-Stake Percentages
+
+commit 8fadc0ef12279ab21ffcfc220949a03087452db9
+Author: PinkDev <saidge@gmail.com>
+Date:   Wed May 3 14:18:41 2017 -0700
+
+    Headless Build Update
+
+commit 3248d37f29fe53053b84227c2af5b40b222d43f9
+Author: PinkDev <saidge@gmail.com>
+Date:   Tue May 2 22:30:22 2017 -0700
+
+    Pinkcoin 2.1 Update
+    
+    Pinkcoin 2.1 Update
+    
+    New Features:
+    UI Upgrade (80%)
+    Side-Staking (Accessible from UI and RPC)
+    RPC Getnodes
+
+commit dd4d91d07c7bd201e3cb29653c3d77f140e9257f
+Merge: 42e12b0 c412d36
+Author: PinkDev <saidge@gmail.com>
+Date:   Fri Apr 28 13:32:41 2017 -0700
+
+    Merge pull request #7 from Al-WaySlate/patch-1
+    
+    Update bitcoin_nl.ts v.1
+
+commit c412d3604e8ffa0fea52edca212ea4f7f08aed58
+Author: Al_WaySlate <Al-WaySlate@users.noreply.github.com>
+Date:   Fri Apr 28 05:57:04 2017 +0200
+
+    Update 2 bitcoin_nl.ts
+    
+    All changes done for now! Removed the word “pink” where it should not be and replaced it with the appropriate verb ending , etc
+
+commit 2cf32eba69b3c2a3f597b21f44ac8c0ab8b96ab1
+Author: Al_WaySlate <Al-WaySlate@users.noreply.github.com>
+Date:   Thu Apr 27 06:18:12 2017 +0200
+
+    Update bitcoin_nl.ts v.1
+    
+    Cleaning up the translation into Dutch...Work in progress...
+
+commit 42e12b0076ea8967e30a063424939d930eff810a
+Merge: 891ac09 109a493
+Author: PinkDev <saidge@gmail.com>
+Date:   Wed Apr 12 12:57:52 2017 -0700
+
+    Merge pull request #3 from panupan/patch-1
+    
+    Fix dependency typo
+
+commit 109a493a2527bb48ae321e6f96fe74b28f9b0473
+Author: panupan <lionpeal@yahoo.com>
+Date:   Tue Apr 11 21:02:20 2017 -0400
+
+    Fix dependency typo
+    
+    Needed for Linux Qt build
+
+commit 891ac09d4fa27e64772831815d53d1607422fb34
+Merge: d772d93 309f8e3
+Author: PinkDev <saidge@gmail.com>
+Date:   Mon Apr 10 17:35:32 2017 -0700
+
+    Merge pull request #2 from panupan/master
+    
+    Enable QRCode support by default for Qt builds
+
+commit 309f8e35c5dc138ab6f41d9d8a1c1d56581c282b
+Merge: 4477d23 d772d93
+Author: PinkDev <saidge@gmail.com>
+Date:   Mon Apr 10 17:35:01 2017 -0700
+
+    Merge branch 'master' into master
+
+commit 4477d238915cd2eea01023f0c378f3afd91f93bc
+Author: Panupan Sriautharawong <lionpeal@yahoo.com>
+Date:   Mon Apr 10 20:32:54 2017 -0400
+
+    Bump version to 2.0.0.5
+
+commit d772d9395453ea9ea64d10ca6f8e0f734693ab77
+Author: PinkDev <saidge@gmail.com>
+Date:   Mon Apr 10 17:10:07 2017 -0700
+
+    Increment version to 2.0.0.5
+
+commit ffe3bf6fc19cc69d961fbc8575dd0c6aab092ff7
+Author: PinkDev <saidge@gmail.com>
+Date:   Mon Apr 10 17:09:54 2017 -0700
+
+    C99 PRId64 cleanup to reduce compiler warnings.
+
+commit 9ffc2286e25d62c0bb872076420baffce68e7452
+Author: PinkDev <saidge@gmail.com>
+Date:   Mon Apr 10 16:31:37 2017 -0700
+
+    Don't process message if SetPubKey fails.
+
+commit fec9caf579a3044975ff90431641f5ecf8f294cd
+Author: PinkDev <saidge@gmail.com>
+Date:   Mon Apr 10 15:50:29 2017 -0700
+
+    Increase Stake Combine Threshold to 1000
+
+commit 1664b81bc542f0d66afaa793cd14570fffbbcac0
+Author: PinkDev <saidge@gmail.com>
+Date:   Mon Apr 10 15:50:16 2017 -0700
+
+    Initialize Price Vars
+
+commit 05b913aa776e2e6edda491e40cad6db4ed7af87b
+Author: PinkDev <saidge@gmail.com>
+Date:   Mon Apr 10 15:48:52 2017 -0700
+
+    Update Icons
+
+commit 1e52c61088de2d48e5cb3d6705382d0c82c820d3
+Author: Panupan Sriautharawong <lionpeal@yahoo.com>
+Date:   Mon Apr 10 00:12:15 2017 -0400
+
+    Update Mac library paths to those installed via MacPorts
+    
+    Libraries installed via Homebrew have hardcoded paths that won't work when packaged for distribution.
+
+commit 04e77193a8eae1ebf1d58416388a66a88dac0a93
+Author: Panupan Sriautharawong <lionpeal@yahoo.com>
+Date:   Sun Apr 9 22:49:15 2017 -0400
+
+    Update Mac bundle identifier for codesigning
+
+commit d3b09f44e8ff95ef5555c302af6f8c3efb6fb0ad
+Author: Panupan Sriautharawong <lionpeal@yahoo.com>
+Date:   Sun Apr 9 19:22:20 2017 -0400
+
+    Enable QRCode support by default for Qt builds
+
+commit bce905756088aff43d948fa61dfad63e42d1c5a5
+Merge: e70e940 80e38c8
+Author: PinkDev <saidge@gmail.com>
+Date:   Sun Apr 9 10:26:15 2017 -0700
+
+    Merge pull request #1 from panupan/master
+    
+    Update Mac build configuration
+
+commit 80e38c8c8c8a76d178c198cc99cd469ad4d47002
+Author: Panupan Sriautharawong <lionpeal@yahoo.com>
+Date:   Sat Apr 8 17:37:18 2017 -0400
+
+    Add space before C99 macros
+    
+    Fixes 'C++11 requires a space between literal and identifier' compiler errors
+
+commit e5fbd748b715f7c80a94b1196eed891c40921543
+Author: Panupan Sriautharawong <lionpeal@yahoo.com>
+Date:   Sat Apr 8 15:48:25 2017 -0400
+
+    Update build settings for Mac
+
+commit e70e940153fb7454ba68f7411cec62113980cdc7
+Author: PinkDev <saidge@gmail.com>
+Date:   Fri Mar 24 11:58:41 2017 -0700
+
+    Increment Version
+
+commit fade696426c181c1e652f589d891b78ef888e38d
+Author: PinkDev <saidge@gmail.com>
+Date:   Fri Mar 24 11:58:29 2017 -0700
+
+    Bug Fix: POW Rewards now start at 17000.
+
+commit 26e7041aa7fc26b26ca56bf9d53f4201736aa36f
+Author: PinkDev <saidge@gmail.com>
+Date:   Thu Mar 23 23:22:37 2017 -0700
+
+    Version Update
+
+commit 02dd4b42b1fed8cc0511412ebe751448f1793dec
+Author: PinkDev <saidge@gmail.com>
+Date:   Thu Mar 23 23:22:30 2017 -0700
+
+    Staking Fixes
+
+commit ac772aaf42b8c371152312dde776635dfb84fe8b
+Author: PinkDev <saidge@gmail.com>
+Date:   Thu Mar 23 23:22:14 2017 -0700
+
+    Update Images
+
+commit aaa729fe589b5964ff46785bec16be982d12d617
+Author: PinkDev <saidge@gmail.com>
+Date:   Thu Mar 23 23:21:41 2017 -0700
+
+    Don't stake old 0 reward blocks
+
+commit 716394c0ba89a0e951f3807b3a3a03be7127711d
+Author: PinkDev <saidge@gmail.com>
+Date:   Thu Mar 23 23:20:57 2017 -0700
+
+    Fix buggy price-check code
+
+commit 37e751ff6c25d33f628966c7a9847fe96b5ece77
+Author: PinkDev <saidge@gmail.com>
+Date:   Thu Mar 23 23:20:37 2017 -0700
+
+    Change color scheme
+
+commit a4cfc6e68cb162fedcb2df50813370b444457723
+Author: PinkDev <saidge@gmail.com>
+Date:   Thu Mar 23 23:20:22 2017 -0700
+
+    Don't try to stake 0 reward blocks
+
+commit 357edf81db704d57774bfbdf28eadf7f5701a1a2
+Author: PinkDev <saidge@gmail.com>
+Date:   Fri Mar 10 10:44:53 2017 -0800
+
+    Allow 0 reward stakes up to block 16240
+
+commit 2ceb691ffd6763a037f274c4fcb321b9a7cdd160
+Author: PinkDev <saidge@gmail.com>
+Date:   Fri Mar 10 10:44:26 2017 -0800
+
+    Bugfix/Tracking code
+
+commit fd83f39d51bb28e4432b789eb611a93d98f421e4
+Author: PinkDev <saidge@gmail.com>
+Date:   Wed Mar 8 16:36:12 2017 -0800
+
+    Reduce Stake Genesis Limits
+    
+    Makes first few stakes come easier. Not an issue while running 0 reward
+    blocks.
+
+commit e80cbb60b6f93876311b0865b2aa4a53a53f0a09
+Author: PinkDev <saidge@gmail.com>
+Date:   Tue Mar 7 17:53:22 2017 -0800
+
+    Increment Build Version
+
+commit 5216c9ae9f54b6fd7457290cb411453c7a8655db
+Author: PinkDev <saidge@gmail.com>
+Date:   Tue Mar 7 17:53:13 2017 -0800
+
+    2 Weeks Lead Time
+
+commit 800c2cc113406f89f0b50d78598a0e71f49aa35c
+Author: PinkDev <saidge@gmail.com>
+Date:   Tue Mar 7 17:48:12 2017 -0800
+
+    Fix GUI bug when there is 0 network weight.
+
+commit 6f27394a78670c39dcfc1e1621944279a6ddb873
+Author: PinkDev <saidge@gmail.com>
+Date:   Tue Mar 7 17:47:37 2017 -0800
+
+    Flash Staking fixes and general Stake tweaks
+
+commit 396ea533a07f4b1dfc2a45d63d01f02cc0a4dae3
+Author: PinkDev <saidge@gmail.com>
+Date:   Tue Mar 7 17:46:11 2017 -0800
+
+    Fix GCC Warning
+
+commit e72a082a8667f0edf2293d29b0168e34536e36ad
+Author: PinkDev <saidge@gmail.com>
+Date:   Tue Mar 7 17:45:51 2017 -0800
+
+    Remove Test Code
+
+commit dcf435dd20c7f23d57494624e4c723a0b196ea1d
+Author: PinkDev <saidge@gmail.com>
+Date:   Tue Feb 28 22:59:20 2017 -0700
+
+    build_detect_platform
+
+commit 519f4a70bf70a79e34cf296d8b134ee1c710fe1c
+Author: PinkDev <saidge@gmail.com>
+Date:   Tue Feb 28 14:36:14 2017 -0800
+
+    Initial Commit

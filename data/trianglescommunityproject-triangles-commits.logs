@@ -1,0 +1,161 @@
+commit 51bd951eb8b282a9767b15698270a2e915f0f0e6
+Author: wurstgelee <postmaster@triangles.technology>
+Date:   Thu Jul 30 23:39:42 2015 +0200
+
+    Black Pharao Release Fix 4
+    
+    - fix serialize.h for Mac build
+
+commit 3c2830cc6f1a48a76bcf309e9756c08755c74173
+Author: wurstgelee <postmaster@triangles.technology>
+Date:   Wed Jul 29 14:31:29 2015 +0200
+
+    Black Pharao Release Fix 3
+    
+    - .pro file adjustments for Mac builds
+
+commit afd20621c25384c289ac5b83040a8e9028568065
+Author: wurstgelee <postmaster@triangles.technology>
+Date:   Tue Jul 28 15:59:06 2015 +0200
+
+    Black Pharao Release Fix 2
+    
+    - fixed Mac build
+    - removed unused ttf
+
+commit 7b5be5f44a1fb6e897e4243f0c88fdb6f52d0351
+Author: unknown <saga1de@ham00002.resco.local>
+Date:   Sun Jul 26 18:56:25 2015 +0200
+
+    Black Pharao Release Fix 1
+    
+    - fixed macdockiconhandler filename issues
+
+commit 2bbdc915ba1bb9d6e21e73cb093604d007800765
+Author: TrianglesCommunityProject <no@way.com>
+Date:   Thu Jul 23 10:06:42 2015 +0200
+
+    Black Pharao Update 1
+    
+    - added/fixed some Mac build instructions
+
+commit 627c13c0fc348cba0b8b19f412513b4ad9b28616
+Author: TrianglesCommunityProject <no@way.com>
+Date:   Wed Jul 22 23:00:36 2015 +0200
+
+    Black Pharao Release
+    
+    Version 4.2.1.0
+    - wallet makeover
+    - staking behaviour adjustments
+    - non mandatory update-
+    - no need for updating daemons (only recomended if used for staking)
+
+commit 69cc21394f7a088bce5734b2b4b1e5eda4b66a25
+Author: TrianglesCommunityProject <no@way.com>
+Date:   Mon Oct 6 19:51:31 2014 +0200
+
+    Pharao Release Fix 1
+    
+    Added missing triangles.icns for Mac builds.
+
+commit 69aedf2533d078245f641d191f1e1fd62a255529
+Author: TrianglesCommunityProject <no@way.com>
+Date:   Sun Oct 5 23:37:30 2014 +0200
+
+    Pharao Release
+    
+    Version 4.0.0.4
+    - refactored code
+    - migrated vom Qt4 to Qt5
+    - added secure messaging
+
+commit 215a52f3e6ae297087d72fe9245f097b95f01df3
+Author: TrianglesCommunityProject <no@way.com>
+Date:   Fri Aug 29 13:49:42 2014 +0200
+
+    Cheops Release Fix 2
+    
+    Adressing small node number network issues.
+
+commit a0158e66f22b226e10f875a4f7957f2fe6311452
+Author: TrianglesCommunityProject <no@way.com>
+Date:   Thu Aug 28 15:34:57 2014 +0200
+
+    Cheops Release Fix 1
+    
+    Version 3.4.2.0.
+    - reverted previous idiocy
+
+commit fbadfb5086d29019c4f29926747c99d60ed8a0fb
+Author: TrianglesCommunityProject <no@way.com>
+Date:   Wed Aug 27 16:38:26 2014 +0200
+
+    Cheops Release
+    
+    Version 3.4.1.0.
+    - changed parameters to prevent future blockchain deadlocks
+    - minor bugs fixed
+    - checkpoint added.
+
+commit caac12acb765fd602dc81ac2c34a759991d83a1b
+Author: TrianglesCommunityProject <no@way.com>
+Date:   Wed Aug 27 12:46:43 2014 +0200
+
+    Protocol version fix
+    
+    This change never made it into the original repository although both
+    v3.3.4.4 ("Illuminatus") Windows and Mac Wallets were compiled with it.
+
+commit 251db54c76df2cfc16af1c92ce4b0dd49676bcdf
+Author: TrianglesDev <julian@Julians-MacBook-Pro.local>
+Date:   Thu Jul 24 18:47:27 2014 -0700
+
+    you know why
+
+commit facfa064c3bfc88512f422b61fe04d881f6ce59b
+Author: TrianglesDev <julian@Julians-MacBook-Pro.local>
+Date:   Thu Jul 24 17:29:15 2014 -0700
+
+    updated hashSyncCheckpoint
+
+commit 7bd768eaa8555e660474360e922a348b665506e9
+Author: TrianglesDev <julian@Julians-MacBook-Pro.local>
+Date:   Thu Jul 24 17:25:58 2014 -0700
+
+    Checkpoint
+    
+    Added one more
+
+commit 42dcb01f9749ad880a462a40c328370afde3e4ac
+Author: TrianglesDev <julian@Julians-MacBook-Pro.local>
+Date:   Thu Jul 24 16:28:57 2014 -0700
+
+    Sync and Checkpoint fix
+    
+    Syncing the blockchain should not require client restarts anymore and
+    checkpointing updated. Staking has also been tweaked somewhat.
+
+commit ba6b557f39a093f064988b58f30204ead7fc087f
+Author: TrianglesDev <julian@Julians-MacBook-Pro.local>
+Date:   Mon Jul 21 20:07:07 2014 -0700
+
+    Version update
+
+commit 0a5f2a5cb504b57e820475c69fce8a8d4b1335b0
+Author: TrianglesDev <julian@Julians-MacBook-Pro.local>
+Date:   Sat Jul 19 13:32:10 2014 -0700
+
+    Added a few checkpoints
+
+commit 911282be61fba5ce6abf7d63b9ac74a5a42ae44e
+Author: TrianglesDev <julian@Julians-MacBook-Pro.local>
+Date:   Wed Jul 16 19:53:01 2014 -0700
+
+    txFees fix
+
+commit 64d03a409df5a6ed972d4dd149525d9872369fbe
+Author: TrianglesDev <julian@Julians-MacBook-Pro.local>
+Date:   Wed Jul 16 16:05:09 2014 -0700
+
+    Initial upload

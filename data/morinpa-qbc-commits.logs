@@ -1,0 +1,140 @@
+commit c1458094bbd7adcd3137f5027d00147f682ec0ef
+Author: morinpa <pamorin@gmail.com>
+Date:   Wed Jul 23 06:55:39 2014 -0400
+
+    seed stuff
+
+commit c4025c5a434db9ebb211aedb45bc25d361b3b4f5
+Author: morinpa <pamorin@gmail.com>
+Date:   Sat Jul 19 10:08:03 2014 -0400
+
+    dnsseeds
+
+commit 96b7a1f7ec0330be598100caf42b10144fb169aa
+Author: morinpa <pamorin@gmail.com>
+Date:   Sun Jul 13 22:20:01 2014 -0400
+
+    mac stuff
+
+commit 01f980ee2d7bc94b3b91b1d22cb8647416369668
+Author: morinpa <pamorin@gmail.com>
+Date:   Sun Jul 13 11:21:37 2014 -0400
+
+    stuff
+
+commit 1e189c425cb6e815ccd7208e7ca60176b705539b
+Author: morinpa <pamorin@gmail.com>
+Date:   Sun Jul 13 11:21:18 2014 -0400
+
+    tools for MAC
+
+commit 57671d91a69ba99ebd05a14e5e60a0e10b85e639
+Author: morinpa <pamorin@gmail.com>
+Date:   Sun Jul 6 22:13:02 2014 -0400
+
+    Delete build_config.mk
+    
+    is dynamically created. Should not be there.
+
+commit a239823e9f0fad99162bdcf687bfc84944e455d8
+Author: morinpa <pamorin@gmail.com>
+Date:   Sun Jul 6 20:30:00 2014 -0400
+
+    new seed
+    
+    new seed
+
+commit 33d32c7f13f5c201a5383df81d01b174bf76c702
+Author: morinpa <pamorin@gmail.com>
+Date:   Sat Jul 5 00:44:19 2014 -0400
+
+    making file executable
+    
+    file was missing chmod +x
+
+commit 969fbcb93cd4b8ce79eade556c5c432a79f64138
+Merge: da13532 7321a7c
+Author: morinpa <pamorin@gmail.com>
+Date:   Wed Jul 2 23:54:56 2014 -0400
+
+    Merge remote-tracking branch 'origin/master'
+    
+    Conflicts:
+            src/main.cpp
+
+commit da135325f73e7eb2fdcea136e25927964ef92f6b
+Author: morinpa <pamorin@gmail.com>
+Date:   Wed Jul 2 23:46:33 2014 -0400
+
+    new version
+
+commit f72174a65464aa2214a4f1eb577777b59fab1c1d
+Author: morinpa <pamorin@gmail.com>
+Date:   Wed Jul 2 23:45:27 2014 -0400
+
+    new files
+
+commit 114e3d8da2ebb18de140372652da7a0cf6ede29d
+Author: morinpa <pamorin@gmail.com>
+Date:   Wed Jul 2 23:44:15 2014 -0400
+
+    new web site
+
+commit cd356e7bd8cebc402b96655dedc2850de28df289
+Author: morinpa <pamorin@gmail.com>
+Date:   Wed Jul 2 23:43:51 2014 -0400
+
+    changed file name
+
+commit 7321a7ccd319e99026d69973924317a139f32cec
+Author: morinpa <pamorin@gmail.com>
+Date:   Mon Jun 30 22:49:03 2014 -0400
+
+    Revert "invalidating the premine"
+    
+    This reverts commit 7958693ed6433191ea04ee479ff6ac7669788d1b.
+
+commit 7958693ed6433191ea04ee479ff6ac7669788d1b
+Author: morinpa <pamorin@gmail.com>
+Date:   Tue Jun 17 22:47:11 2014 -0400
+
+    invalidating the premine
+    
+    Any transation from address QSSBe3pjZ88HTV6ifyzPsoc19fqneRSz5B after
+    block 15242 will be invalid
+
+commit 54634fb1719af3e0c4f4b80a40c8b14310d63200
+Author: JPGagnon <jgpagnon2005@hotmail.com>
+Date:   Sun Apr 20 18:12:50 2014 -0400
+
+    Add Harcoded Seednode while setting up dnsseednode
+
+commit bd2ecc5d67f56ddc83209e55ca6169b882474459
+Author: JPGagnon <jgpagnon2005@hotmail.com>
+Date:   Sun Apr 20 16:40:16 2014 -0400
+
+    And another at block 800
+
+commit ca87f07d1b43e9720f97339f533b05bfd97bc753
+Author: JPGagnon <jgpagnon2005@hotmail.com>
+Date:   Sun Apr 20 16:34:07 2014 -0400
+
+    Added another checkpoint @700
+
+commit 5e1713110f951e48c782115fbc092c4167bb033e
+Author: JPGagnon <jgpagnon2005@hotmail.com>
+Date:   Sun Apr 20 16:33:01 2014 -0400
+
+    Added another checkpoint @700
+
+commit a2d77312240b4ac5069cc9428eb6f70f2d27876c
+Author: JPGagnon <jgpagnon2005@hotmail.com>
+Date:   Sun Apr 20 15:56:05 2014 -0400
+
+    Add Checkpoint at block 405
+
+commit 5964e4dd85cfb80d9747b33cfe24449c4ccae091
+Author: JPGagnon <jgpagnon2005@hotmail.com>
+Date:   Sun Apr 20 15:42:24 2014 -0400
+
+    QBC Release V2 - Reset Github Repo

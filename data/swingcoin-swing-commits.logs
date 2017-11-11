@@ -1,0 +1,23 @@
+commit e2057472bb23e54cdf9e01cd803449bebed443ba
+Author: SwingCoin <SwingCoin@gmail.com>
+Date:   Sun Aug 30 19:14:28 2015 -0400
+
+    Update README.md
+
+commit a04bdc16aeeb7b6585a9b01bdf6fd31b4907c43b
+Author: SwingCoin <SwingCoin@gmail.com>
+Date:   Sun Aug 30 19:13:21 2015 -0400
+
+    Update build-unix.txt
+
+commit 57de8bc14ec3ebfe591c2a3a235b09f780696afd
+Author: GreedDev <bankingbigbits@gmail.com>
+Date:   Sun Aug 30 18:37:00 2015 -0400
+
+    Checkpoint Seed Coins
+
+commit 5bde09ce3098d9adcc3fd435daa4e17353d04061
+Author: GreedDev <bankingbigbits@gmail.com>
+Date:   Sun Aug 30 17:54:17 2015 -0400
+
+    Initial Upload

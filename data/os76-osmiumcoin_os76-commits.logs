@@ -1,0 +1,13 @@
+commit 1f61d83f36978b20c5047f685be9959040b98713
+Author: OSMIUMCOIN <os76@interia.eu>
+Date:   Mon Oct 19 23:04:40 2015 +0200
+
+    OSMIUMCOIN_SCRYPT_OS76
+    
+    OS76
+
+commit 08cde2872cbfb022cf0ea564d35fb4f2dc9bb5ee
+Author: OSMIUMCOIN <os76@interia.eu>
+Date:   Mon Oct 19 23:03:19 2015 +0200
+
+    :tada: Added .gitattributes & .gitignore files

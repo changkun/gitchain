@@ -1,0 +1,23 @@
+commit 8501b4d397e8e251def16c364d6d23f5471fae7f
+Author: teamupdev <teamupcoin@yandex.com>
+Date:   Mon Oct 17 17:01:32 2016 +0000
+
+    Update main.h
+
+commit 9742563cf6025207f0360b90b5f6377e94acb595
+Author: teamupdev <teamupcoin@yandex.com>
+Date:   Mon Oct 17 17:00:05 2016 +0000
+
+    Update main.cpp
+
+commit f56ca3537fb30e1cd36aba2a4813c2f6dfa01238
+Author: teamupdev <teamupcoin@yandex.com>
+Date:   Tue Oct 11 08:11:01 2016 -0400
+
+    zerocoin compile fix
+
+commit a902d50d2d1a647080c5636c7b6788c01eb16beb
+Author: teamupdev <teamupcoin@yandex.com>
+Date:   Tue Oct 11 05:11:43 2016 -0400
+
+    Initial Commit

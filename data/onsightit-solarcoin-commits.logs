@@ -1,0 +1,3781 @@
+commit 0de38d77fd3dbe3218ba8f63d3b77fff416476f2
+Author: onsightit <onsightit@gmail.com>
+Date:   Fri Nov 10 16:40:34 2017 -0700
+
+    makefile changes
+
+commit 3a65483846363af2cf7f841df4419dbc5d798a4a
+Author: OnsightIT <onsightit@gmail.co>
+Date:   Fri Nov 10 07:24:16 2017 -0700
+
+    debugging pos headers
+
+commit 1ba3a6a2ea4432937f7c5e3c5452269c736241ce
+Author: OnsightIT <onsightit@gmail.co>
+Date:   Wed Nov 8 17:22:26 2017 -0700
+
+    headers downloading
+
+commit f2e25601605950be7f757824851bdf36d088e721
+Author: OnsightIT <onsightit@gmail.co>
+Date:   Wed Nov 8 14:25:11 2017 -0700
+
+    new kernel / post link errors
+
+commit e43dd927c904476725d2df7fcfdf2d3f7d8cac9f
+Author: OnsightIT <onsightit@gmail.co>
+Date:   Wed Nov 8 10:13:50 2017 -0700
+
+    new kernel / post
+
+commit c5cd4d2c937c0446d3fd459b4c8fe649037a131e
+Author: onsightit <steve@onsightit.com>
+Date:   Mon Nov 6 06:16:55 2017 -0700
+
+    debugs
+
+commit 17073cc2679f734e740ebdf855d24214db2ba5a3
+Author: OnsightIT <onsightit@gmail.co>
+Date:   Mon Nov 6 06:04:27 2017 -0700
+
+    kibbles nBits debugging
+
+commit 5a060b6d6c95f063dc5769e621a18cd81719b30e
+Author: OnsightIT <onsightit@gmail.co>
+Date:   Sat Nov 4 09:40:49 2017 -0600
+
+    reorder tx templates. protocol versioning
+
+commit 98f453186e1dc190401c2bcaa2de2ec7f704e496
+Author: onsightit <steve@onsightit.com>
+Date:   Sat Nov 4 09:20:34 2017 -0600
+
+    header versioning
+
+commit 3a79e9463963eb8569531cf478ff4e4019e850e1
+Author: onsightit <onsightit@gmail.com>
+Date:   Fri Nov 3 17:06:54 2017 -0600
+
+    readd scrypt test
+
+commit 29a9f695faa94f193dc8a568e2ea25dbb3d3a323
+Author: onsightit <onsightit@gmail.com>
+Date:   Fri Nov 3 17:01:47 2017 -0600
+
+    remove obsolete files
+
+commit b6ae0c1ce74915f75fbc36d4c7341271b4f53e77
+Author: OnsightIT <onsightit@gmail.co>
+Date:   Thu Nov 2 16:32:46 2017 -0600
+
+    good v0.15.0.1 compile
+
+commit b9311e12c1faf90f83e207a529e65bf698913052
+Author: onsightit <onsightit@gmail.com>
+Date:   Thu Nov 2 16:17:28 2017 -0600
+
+    add test changes
+
+commit 79492d7cbf1efd4bc3c0360933ca02b430373ae4
+Author: onsightit <steve@onsightit.com>
+Date:   Thu Nov 2 13:41:41 2017 -0600
+
+    reinstate legacy debug flag
+
+commit 787169fcae00cdf26319f06f7effb965bd24a579
+Author: onsightit <steve@onsightit.com>
+Date:   Thu Nov 2 13:10:35 2017 -0600
+
+    compile warning fix
+
+commit 802b5be0a050417dafe9c8cf2550fea4c94830c1
+Author: onsightit <onsightit@gmail.com>
+Date:   Thu Nov 2 12:53:06 2017 -0600
+
+    fix regression
+
+commit a52e96ab2736cb5ec1a94d7e405ec9c022ce8776
+Author: onsightit <onsightit@gmail.com>
+Date:   Thu Nov 2 10:59:39 2017 -0600
+
+    fix regression
+
+commit cc747de5512dd6e17b8deb56e2e9e7db186cfb94
+Author: onsightit <onsightit@gmail.com>
+Date:   Thu Nov 2 10:57:04 2017 -0600
+
+    fix regression
+
+commit ce90def803871479820c92dbc2ba14c9187655b5
+Author: onsightit <onsightit@gmail.com>
+Date:   Thu Nov 2 10:33:51 2017 -0600
+
+    fix regression
+
+commit 3ab1ab97c8e8d0d622ba8e86b3a15655933588de
+Author: onsightit <onsightit@gmail.com>
+Date:   Thu Nov 2 10:19:34 2017 -0600
+
+    fix regression
+
+commit 60962f649d5a652708f74f2297042c3ef39e6c63
+Author: onsightit <onsightit@gmail.com>
+Date:   Thu Nov 2 09:51:12 2017 -0600
+
+    fix regression
+
+commit 3a043fa0bdff8bdc1459586eb77fa484f8f6d0c0
+Author: onsightit <onsightit@gmail.com>
+Date:   Thu Nov 2 09:09:42 2017 -0600
+
+    fix regression
+
+commit cb1051d43ad2a54dbb69a9aa2d74dbbb48de7e2e
+Author: onsightit <onsightit@gmail.com>
+Date:   Thu Nov 2 08:32:07 2017 -0600
+
+    0.15.0.1 (new build files)
+
+commit fb1f97460349fd4efeb2f9d7e11fe8322d3ab30f
+Author: onsightit <onsightit@gmail.com>
+Date:   Thu Nov 2 00:52:58 2017 -0600
+
+    0.15.0.1 (first pass)
+
+commit b556d0a14ffce656670fa225b304547f377aeda8
+Author: OnsightIT <onsightit@gmail.co>
+Date:   Wed Nov 1 08:54:47 2017 -0600
+
+    v3.14.99.0
+
+commit 9f5d7a40c5caef14efc1f1b45c8656a5016e9220
+Author: OnsightIT <onsightit@gmail.co>
+Date:   Sun Oct 22 09:48:47 2017 -0600
+
+    new solarcoin sources
+
+commit 88c688daa1357fe28d7cae7be61b74a154602958
+Merge: 4bfd17d c97373d
+Author: OnsightIT <onsightit@gmail.co>
+Date:   Sun Oct 22 09:44:29 2017 -0600
+
+    remove old sources
+
+commit 4bfd17d6e7db4aa12616c0eebdfd3c49619b49d8
+Author: OnsightIT <onsightit@gmail.co>
+Date:   Sun Oct 22 09:43:29 2017 -0600
+
+    remove old sources
+
+commit c97373dd89ada90da5add4312974763a86071ad2
+Author: onsightit <steve@onsightit.com>
+Date:   Wed Nov 23 11:34:53 2016 -0700
+
+    icons
+
+commit fe280425887b71161020b2b8a918f3fcb419eda6
+Author: onsightit <steve@onsightit.com>
+Date:   Wed Nov 23 11:32:56 2016 -0700
+
+    icons
+
+commit e9de710239468d529d72386cb2f527d2586f2eb5
+Author: onsightit <steve@onsightit.com>
+Date:   Wed Nov 23 11:27:12 2016 -0700
+
+    icons
+
+commit e05cda75739f93a64d9d80c39f5766c277c7b6c8
+Author: OnsightIT <onsightit@gmail.com>
+Date:   Sat Nov 19 12:06:12 2016 -0700
+
+    Mac signed code/installer
+
+commit 5f86430c48bcd1f4e29c6897547db6b581a4247e
+Author: OnsightIT <onsightit@gmail.com>
+Date:   Sat Nov 19 10:00:26 2016 -0700
+
+    sed
+
+commit 2b53ed283a708091c8f8ee6e5cac5f474227c830
+Author: OnsightIT <onsightit@gmail.com>
+Date:   Sat Nov 19 09:08:56 2016 -0700
+
+    new config
+
+commit b07717962390501e0cc1ae7fda866ff773a1a9aa
+Author: OnsightIT <onsightit@gmail.com>
+Date:   Sat Nov 19 07:30:53 2016 -0700
+
+    Mac signed code/installer
+
+commit 15bab0c75b94e51e284b8ed71d2118c00f784d10
+Author: OnsightIT <onsightit@gmail.com>
+Date:   Sat Nov 19 07:29:45 2016 -0700
+
+    Mac signed code/installer
+
+commit cf21870daf4a2196757c3f7a5cd4eda6f46b3f97
+Author: Steve Woods <sdwoods@Steves-Mac-2.local>
+Date:   Thu Nov 17 17:45:20 2016 -0700
+
+    MacOSX10.12 build scripts
+
+commit ef89c104ca6e7a0547703bcc1aa3ae19a6c9decf
+Author: onsightit <steve@onsightit.com>
+Date:   Sat Nov 12 22:58:01 2016 -0700
+
+    comment change
+
+commit b6bca263c38de149dfbf2c81429bc124a387aa92
+Author: onsightit <steve@onsightit.com>
+Date:   Sat Nov 12 22:34:00 2016 -0700
+
+    min tx fee of 0.0001
+
+commit b473b0a8d472c3d82741a98eec98fab1c0f0c30a
+Merge: 460190a f489b7e
+Author: Steve Woods <steve@onsightit.com>
+Date:   Sat Nov 12 21:44:11 2016 -0700
+
+    Merge branch 'master' of https://github.com/onsightit/solarcoin
+
+commit 460190a7203b7534f53a9e590b54edef0918f900
+Author: Steve Woods <steve@onsightit.com>
+Date:   Sat Nov 12 21:43:18 2016 -0700
+
+    linux build script
+
+commit f489b7e74b09eea22a57e3028af10ba3814c8f99
+Author: Steve Woods <onsightit@gmail.com>
+Date:   Sat Nov 12 21:36:13 2016 -0700
+
+    update mac script
+
+commit 6a4799a41c49cd6ea7a8face47b3de13649cf75c
+Author: onsightit <steve@onsightit.com>
+Date:   Sat Nov 12 21:24:58 2016 -0700
+
+    update win32 build script
+
+commit 136435ff324281d836c7089a6ca224841879a112
+Author: onsightit <steve@onsightit.com>
+Date:   Sat Nov 12 21:16:07 2016 -0700
+
+    reverts the transaction fee back to 0.001
+
+commit dccdf287e0d12c9986ce508094795060eb490ba2
+Author: onsightit <steve@onsightit.com>
+Date:   Sat Nov 12 11:16:24 2016 -0700
+
+    typo
+
+commit 6f09a2a59aa7bd5bd41c339677fba24b9226452f
+Author: onsightit <steve@onsightit.com>
+Date:   Sat Nov 12 10:57:17 2016 -0700
+
+    Added 4 new checkpoints
+
+commit fab8f0ac329e65018dcc87cd93f53b096e6c2857
+Author: onsightit <steve@onsightit.com>
+Date:   Sat Nov 12 10:34:06 2016 -0700
+
+    Version 2.1.7.1
+
+commit ba4bca19b5baf1992fb2b3426db9249e3bd5b74d
+Author: onsightit <steve@onsightit.com>
+Date:   Sat Nov 12 10:33:14 2016 -0700
+
+    Increase required node count for staking to prevent mini-forks.
+
+commit 0ba07147b83a15713a3ab09b61ccbf6df5142d37
+Author: onsightit <steve@onsightit.com>
+Date:   Thu Nov 10 10:28:46 2016 -0700
+
+    unitiaized bug
+
+commit 907a9cd603e50c38e843a915a2f687476f217d19
+Author: onsightit <steve@onsightit.com>
+Date:   Thu Nov 10 09:34:51 2016 -0700
+
+    2.1.7 protocol version 70005
+
+commit 35034774bb98f5a72a06dcd54ae200e2d4511348
+Author: onsightit <steve@onsightit.com>
+Date:   Thu Nov 10 06:10:10 2016 -0700
+
+    fix for forking issue
+
+commit 020bc9674032a8274ad5d1ec2e07271155c9d788
+Author: onsightit <steve@onsightit.com>
+Date:   Wed Oct 19 08:26:40 2016 -0600
+
+    2.1.6
+
+commit dab1e416c08db7e9e67e7a9662089cf247309023
+Author: onsightit <steve@onsightit.com>
+Date:   Wed Oct 19 07:37:25 2016 -0600
+
+    removed zerocoin
+
+commit 7646a298672f384850761fb5df4ba45e4df9e51b
+Author: onsightit <steve@onsightit.com>
+Date:   Wed Oct 5 18:52:45 2016 -0600
+
+    bug fix for min tx fee
+
+commit b7cb9e1c4a030425c439370aa3aca0bd8f056f03
+Author: onsightit <steve@onsightit.com>
+Date:   Thu Sep 29 14:52:14 2016 -0600
+
+    Claims page launches in external browser.
+
+commit 77a19da35a212fdc7ffa0c5dafd3dd620b7010bb
+Author: onsightit <steve@onsightit.com>
+Date:   Wed Sep 21 11:20:38 2016 -0600
+
+    fork for tx fee reduction
+
+commit 14471c72de81c25f83bdb045328e5e00fd6cf67e
+Author: onsightit <steve@onsightit.com>
+Date:   Tue Sep 20 12:21:21 2016 -0600
+
+    verbiage change
+
+commit 58a64917db2526bed056e67d5c1ad9e09e5f2cb2
+Author: onsightit <steve@onsightit.com>
+Date:   Tue Sep 20 12:15:24 2016 -0600
+
+    RTI importkeys, need to rescan later
+
+commit a21b635db203f126295aa518b2bca1c5ea36bf82
+Author: onsightit <steve@onsightit.com>
+Date:   Tue Sep 20 11:14:32 2016 -0600
+
+    makekeypair working now
+
+commit c55d66a2cca182ace414e5da8e79e3a273ebd7fa
+Author: onsightit <steve@onsightit.com>
+Date:   Mon Sep 19 16:58:05 2016 -0600
+
+    2.1.4
+
+commit 10ae77f938f3608f2ecb6ba89b195fbddbe30ebf
+Author: onsightit <steve@onsightit.com>
+Date:   Mon Sep 19 12:01:04 2016 -0600
+
+    enhanced makekeypair w/ address
+
+commit 02b373f67ceb911eafb7ae7f5df9758585ce48ba
+Author: onsightit <steve@onsightit.com>
+Date:   Tue Sep 6 12:06:42 2016 -0600
+
+    custom public key suffixes
+
+commit 7cf8f8adbbd21cb31e71c468d454f0ada47b93f4
+Author: onsightit <steve@onsightit.com>
+Date:   Tue Sep 6 12:04:12 2016 -0600
+
+    Totals bug fix
+
+commit b7a6a6021744fa013c2d89b4b5526bd5be163645
+Author: onsightit <steve@onsightit.com>
+Date:   Mon Sep 5 17:55:36 2016 -0600
+
+    auto update history total
+
+commit 976f3d4c88ebeb346c6e60eb1710d82d5d37344f
+Merge: aaa4b00 d0ee66a
+Author: onsightit <steve@onsightit.com>
+Date:   Mon Sep 5 09:19:43 2016 -0600
+
+    Merge branch 'master' of https://github.com/onsightit/solarcoin
+
+commit aaa4b00823134301813d0bf772bae69b613e225b
+Author: onsightit <steve@onsightit.com>
+Date:   Mon Sep 5 09:19:38 2016 -0600
+
+    duplicate removed
+
+commit d0ee66abbae78571910e5dd4481695eabea25f49
+Author: Steve Woods <onsightit@gmail.com>
+Date:   Sun Sep 4 11:51:57 2016 -0600
+
+    mac script
+
+commit c9bcf59b22d7150946ef2e2f6ec39579857111f9
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Sep 4 11:49:07 2016 -0600
+
+    linux script
+
+commit be301d91c4622f9c1ef78e377571de33192eea1b
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Sep 4 11:43:57 2016 -0600
+
+    add release scripts
+
+commit 09eadadef194731ef73a3759116cdc229667a266
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Sep 4 11:37:44 2016 -0600
+
+    Version 2.1.3 - Export keys and bug fixes
+
+commit 58b26734b70dd4b41abbe166342020f60084dc0f
+Author: onsightit <steve@onsightit.com>
+Date:   Mon Aug 15 20:38:37 2016 -0600
+
+    added getstakinginfo rpc command
+
+commit bcad74e945c1c6e5490b14c22cd285e2c39436bf
+Author: onsightit <steve@onsightit.com>
+Date:   Mon Aug 15 08:50:14 2016 -0600
+
+    better block rate reporting
+
+commit 57c8580ae8967d583bbd4a6c65db9dc11ac43db9
+Author: onsightit <steve@onsightit.com>
+Date:   Fri Aug 12 15:41:30 2016 -0600
+
+    Version 2.1.2 candidate
+
+commit 458066b9353b67af5605fe98861391221be23d31
+Author: onsightit <steve@onsightit.com>
+Date:   Fri Aug 12 11:05:53 2016 -0600
+
+    Added Import Keys menu option/dialog.
+
+commit 99fc82b35dfee74dbcdd9939f197e7144eba1b00
+Author: onsightit <steve@onsightit.com>
+Date:   Thu Aug 11 10:15:32 2016 -0600
+
+    resize txcomment only if needed
+
+commit 8dea2147e9549684a7f32bb7f7f74f025cc9f514
+Author: onsightit <steve@onsightit.com>
+Date:   Thu Aug 11 09:25:58 2016 -0600
+
+    more intuitive compares
+
+commit 2b2e191bb353e361efe6eb9d076de876dc8ff870
+Author: onsightit <steve@onsightit.com>
+Date:   Thu Aug 11 07:40:16 2016 -0600
+
+    rpc txcomment text changes
+
+commit 047419a52812cd1f84217a3c4dada4df7e55db2f
+Author: onsightit <steve@onsightit.com>
+Date:   Wed Aug 10 19:27:18 2016 -0600
+
+    rpc transaction text changes
+
+commit e4b0cffef90bb0433df225e469eee0f50f3811c6
+Merge: 85e2243 d885d44
+Author: onsightit <steve@onsightit.com>
+Date:   Wed Aug 10 18:44:45 2016 -0600
+
+    rpc transaction text changes
+
+commit 85e2243df45afa7aaaa25504f72410ff7fafa96f
+Author: onsightit <steve@onsightit.com>
+Date:   Wed Aug 10 18:38:18 2016 -0600
+
+    rpc transaction text changes
+
+commit d885d449f0347ec13d7d40be01439f7ed0e73e36
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Aug 7 18:54:09 2016 -0600
+
+    fix for rpc tx comments
+
+commit 8521d45e61be44dddb53237c8e45947d36be0996
+Author: onsightit <steve@onsightit.com>
+Date:   Sat Apr 30 09:18:36 2016 -0600
+
+    Adjusted fork height for 2.1.1
+
+commit cbf361095fe9f3fedb41d76d28043b8689a5156a
+Author: onsightit <steve@onsightit.com>
+Date:   Sat Apr 30 08:18:44 2016 -0600
+
+    RC 2.1.1
+
+commit e24b878666eb489649272a9d0282ea20fef6d681
+Author: onsightit <steve@onsightit.com>
+Date:   Sat Apr 30 07:17:34 2016 -0600
+
+    one more test
+
+commit 8a333908b4d9573454273ead13c31b7fadb20af4
+Author: onsightit <steve@onsightit.com>
+Date:   Sat Apr 30 06:45:15 2016 -0600
+
+    Mainnet 2.1.1 fork height 1167000
+
+commit d4964131e28fd3be075bf731f84f141583429619
+Author: onsightit <steve@onsightit.com>
+Date:   Fri Apr 29 10:25:55 2016 -0600
+
+    testnet
+
+commit aa0c754c4b660b13350e308a2b514eabd0efb63c
+Author: onsightit <steve@onsightit.com>
+Date:   Thu Apr 28 22:22:25 2016 -0600
+
+    testnet
+
+commit ba523a68f6abd93577ce01ba0e8bbc6283ad8142
+Author: onsightit <steve@onsightit.com>
+Date:   Thu Apr 28 21:42:29 2016 -0600
+
+    test
+
+commit 476f10c08f6af59fac75f41749df9a5fd5d06bb9
+Author: onsightit <steve@onsightit.com>
+Date:   Thu Apr 28 20:03:10 2016 -0600
+
+    testnet new fork height
+
+commit afc58c01d74e4365f74e372ddcd21330252ce607
+Author: onsightit <steve@onsightit.com>
+Date:   Thu Apr 28 09:53:45 2016 -0600
+
+    testnet fork
+
+commit 3cc696f75f446421ff611cc42fb835417017897c
+Author: onsightit <steve@onsightit.com>
+Date:   Wed Apr 27 07:39:49 2016 -0600
+
+    testnet new height
+
+commit 261fa6928e2f0fd39aef0154126b1d4015ae42be
+Author: onsightit <steve@onsightit.com>
+Date:   Mon Apr 25 11:29:55 2016 -0600
+
+    don't allow free txns in PoST
+
+commit b1ab3e3d69f5da3038f5e56b77394f5348238b73
+Author: onsightit <steve@onsightit.com>
+Date:   Mon Apr 25 08:16:19 2016 -0600
+
+    testnet backout
+
+commit e7a3cb2d1f269a99b4eadbaf9c443023d3448b30
+Author: onsightit <steve@onsightit.com>
+Date:   Mon Apr 25 08:08:57 2016 -0600
+
+    new testnet height
+
+commit e58ac371887404cff05d2f600930bdfb858224e6
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Apr 24 21:50:00 2016 -0600
+
+    testnet fork height change
+
+commit 48dc18ce626f867bbe466727bae460771ef6a305
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Apr 24 12:04:22 2016 -0600
+
+    testnet
+
+commit d3bec966ec8855334de9bf6ed3c15d54bfb258d4
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Apr 24 12:00:19 2016 -0600
+
+    testnet
+
+commit a355916eef3f548c3b6bc072fad8563f5f499ee7
+Author: onsightit <steve@onsightit.com>
+Date:   Fri Apr 15 08:52:59 2016 -0600
+
+    mainnet
+
+commit 815c77f198c49051cf6f1ba7cf6ad92d9e4d048f
+Author: onsightit <steve@onsightit.com>
+Date:   Mon Apr 11 10:15:30 2016 -0600
+
+    Revert "clean up protocol blocking"
+    
+    This reverts commit ae8e98d1b1d58b5ffb0946f423319b2dde8414a3.
+
+commit c2c6f049216e6128a55ea06c6b05f5713ab368da
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Apr 10 08:26:18 2016 -0600
+
+    testnet
+
+commit e16983f69f7470409033e4bc06b27ce652882a4d
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Apr 10 08:24:13 2016 -0600
+
+    Move 2M blocksize after fork
+
+commit 5d354892db8bad57ec3e6a9a650b38a99dfdc44c
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Apr 3 08:36:58 2016 -0600
+
+    New Fork Height 1134000
+
+commit f90282098efe01ba9c58522f3d3b691ac6cb735a
+Author: onsightit <steve@onsightit.com>
+Date:   Sat Apr 2 13:08:44 2016 -0600
+
+    Version 2.1.0
+
+commit 10b6f808f6a405579f1506c1d8154ad49285d341
+Author: onsightit <steve@onsightit.com>
+Date:   Sat Apr 2 09:20:40 2016 -0600
+
+    EULA
+
+commit 95f2d315c31fd206f85c9a2a6f0a0a53b34475d7
+Author: onsightit <steve@onsightit.com>
+Date:   Fri Apr 1 16:51:35 2016 -0600
+
+    2.0.9 fork at 1120000
+
+commit 0f1464800cae12566bc4ad79d81a823712042b43
+Author: onsightit <steve@onsightit.com>
+Date:   Tue Mar 29 09:15:22 2016 -0600
+
+    Version 2.0.9
+
+commit fc95bec27814371426f948e76a7cc70cafb028aa
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Mar 27 15:43:28 2016 -0600
+
+    new testnet height
+
+commit 64c403c190845787ae2dd9ede347c821feffba7d
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Mar 27 14:59:51 2016 -0600
+
+    testnet height
+
+commit 224545637734d46ff23e79290f21495b77612149
+Author: onsightit <steve@onsightit.com>
+Date:   Sat Mar 26 11:29:36 2016 -0600
+
+    lower test height
+
+commit 3800ad2a03289b4407d2f79efda805d4f62c9a57
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Mar 20 09:08:48 2016 -0600
+
+    2.0.8.9
+
+commit ae8e98d1b1d58b5ffb0946f423319b2dde8414a3
+Author: onsightit <steve@onsightit.com>
+Date:   Thu Oct 8 09:20:45 2015 -0600
+
+    clean up protocol blocking
+
+commit 916a0181e4ef52faf60c9495ae390d7d7d8d3fd4
+Author: onsightit <steve@onsightit.com>
+Date:   Wed Oct 7 11:16:06 2015 -0600
+
+    Version 2.0.8
+    
+    block  nodes sending excessive orphan blocks
+
+commit 48a1cdecb184d3d452633285d27aac96e75fb7cf
+Author: onsightit <steve@onsightit.com>
+Date:   Fri Oct 2 10:55:21 2015 -0600
+
+    real fix and new version 2.0.7
+
+commit 526e122252a0a87e6e40c169832bf35f0b42ab66
+Author: Steve Woods <steve@onsightit.com>
+Date:   Thu Oct 1 22:21:04 2015 -0600
+
+    better fix for block explorer
+
+commit 487529c21a428c706ebdccba8b59fbddb5a0a00b
+Author: onsightit <steve@onsightit.com>
+Date:   Thu Oct 1 16:32:22 2015 -0600
+
+    version 2.0.6
+
+commit 31478cdf4cc5b496b393d6bfef99d4f9af4b0109
+Author: onsightit <steve@onsightit.com>
+Date:   Thu Oct 1 16:29:19 2015 -0600
+
+    Fix  PoW txns between 835001 and LAST_POW_BLOCK
+
+commit bbc330951c519511e5948a003d2ede3541ea34dd
+Author: Steve Woods <onsightit@gmail.com>
+Date:   Mon Sep 28 23:34:46 2015 -0400
+
+    temp fix for getblock
+
+commit 9a768cd9cdd9f88b6bde2f99465d69ba87aedf4e
+Author: onsightit <steve@onsightit.com>
+Date:   Mon Sep 28 17:21:16 2015 -0600
+
+    rework pow blocking
+
+commit 4fbac1bae283c17df79dbf3e277d4516452b027b
+Author: onsightit <steve@onsightit.com>
+Date:   Mon Sep 28 17:01:10 2015 -0600
+
+    block 1.5 nodes after last pow block
+
+commit b904e05c186f0dd12c00436ff20a4dabff57dd6c
+Author: onsightit <steve@onsightit.com>
+Date:   Mon Sep 28 16:17:58 2015 -0600
+
+    new version
+
+commit 636947f8fccb417334a89438c70ec66141ac576b
+Author: onsightit <steve@onsightit.com>
+Date:   Mon Sep 28 16:17:07 2015 -0600
+
+    actual end-of-pow at 835213
+
+commit 733b4458bf47b5a69ff433c6e4a1d864b13d71a0
+Author: onsightit <steve@onsightit.com>
+Date:   Mon Sep 28 08:15:22 2015 -0600
+
+    no static for linux
+
+commit f99c3a7dcedbe88ea8ceeeea79225ab64d8e4254
+Author: onsightit <steve@onsightit.com>
+Date:   Mon Sep 28 07:51:07 2015 -0600
+
+    back on main
+
+commit 7242322aaefa9f676ed701bc388d5bb278355d55
+Author: Steve Woods <onsightit@gmail.com>
+Date:   Sun Sep 27 22:01:22 2015 -0600
+
+    mac stuff
+
+commit 603e4baeac97e38e214a7798a0ad1b2b2c457241
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Sep 27 20:18:36 2015 -0600
+
+    maturity tweaks
+
+commit 5348fe9d8e3691713c2be63d2f4f0891608b3e0b
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Sep 27 16:56:42 2015 -0600
+
+    version 2.0.4
+
+commit 5b18cc540c04e972cfb04f4b7c5f4d1b50135371
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Sep 27 16:31:33 2015 -0600
+
+    back on testnet
+
+commit 3b65da5e0f5ecc5c7e0776cb7b58b412145f5a14
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Sep 27 16:23:48 2015 -0600
+
+    bug fix
+
+commit af918c3bf11f2685fd1299c2bbc3bd0eade7b6eb
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Sep 27 16:08:08 2015 -0600
+
+    prevent forks on plan B
+
+commit 279d9469f7f10aba5c93484b84d2ec7a4b75492b
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Sep 27 14:53:03 2015 -0600
+
+    plan B
+
+commit d055bf17daa4fa7b5fbb65ae60eb84c04bf13dd1
+Author: Steve Woods <steve@onsightit.com>
+Date:   Sun Sep 27 09:46:45 2015 -0600
+
+    remove expensive info from getinfo
+
+commit eb7c6b9eb822595efd6c12b41314ecd9a49ad55c
+Author: onsightit <steve@onsightit.com>
+Date:   Sat Sep 26 13:29:10 2015 -0600
+
+    debug
+
+commit fd19e820c3e3045aedb48c0c5b9561a057a85e81
+Author: onsightit <steve@onsightit.com>
+Date:   Sat Sep 26 13:29:02 2015 -0600
+
+    change download location
+
+commit 698479156555577d2fc6f556d9604648179e8442
+Author: onsightit <steve@onsightit.com>
+Date:   Sat Sep 26 13:28:44 2015 -0600
+
+    remove 1.35 supply growth and simplify staking icon
+
+commit c99093b9b6310c5c9eee5556c93cc0e7a31c3bde
+Author: Steve Woods <onsightit@gmail.com>
+Date:   Fri Sep 25 16:54:44 2015 -0400
+
+    block protocols less than 70004 after end of pow
+
+commit 34f71555e28dd7d515490e0c091c01d98b47edae
+Author: onsightit <steve@onsightit.com>
+Date:   Fri Sep 25 07:36:26 2015 -0600
+
+    thread shutdown fix
+
+commit 1b0663788384d2387d597782ec6ea6581ff8617e
+Author: onsightit <steve@onsightit.com>
+Date:   Wed Sep 23 09:13:37 2015 -0600
+
+    revert
+
+commit fcce3a7663d7ea6855cdf5027afdd522d8694c87
+Author: onsightit <steve@onsightit.com>
+Date:   Tue Sep 22 20:19:16 2015 -0600
+
+    new version
+
+commit 92e774dea05d4f2c2a2c81f91c10069e3941163c
+Author: onsightit <steve@onsightit.com>
+Date:   Tue Sep 22 19:20:39 2015 -0600
+
+    new end of pow
+
+commit cb87198e2e3937d92460c68f00efcf70ec0ca92d
+Author: onsightit <steve@onsightit.com>
+Date:   Tue Sep 22 18:40:57 2015 -0600
+
+    new protocol version
+
+commit 10aff180fc92053d6f62887e498995cda2872627
+Author: onsightit <steve@onsightit.com>
+Date:   Tue Sep 22 15:59:42 2015 -0600
+
+    new end of pos and limit on timeWeight to 30 days
+
+commit a0f618c41bc0c8dc91d283ba74067633c9482d20
+Author: onsightit <steve@onsightit.com>
+Date:   Tue Sep 22 13:42:08 2015 -0600
+
+    revert coin age restriction
+
+commit 7eae0e8015eb5e8b84b7e8f55cbf5ea152e65867
+Author: onsightit <steve@onsightit.com>
+Date:   Tue Sep 22 12:45:10 2015 -0600
+
+    limit stake coins to one year old
+
+commit 5c82f5af074171fd98d6c9f8a26b96460b698498
+Author: onsightit <steve@onsightit.com>
+Date:   Tue Sep 22 11:57:23 2015 -0600
+
+    bump version
+
+commit ad896e0e9aa65a470bbbf649528a43211f192580
+Author: onsightit <steve@onsightit.com>
+Date:   Tue Sep 22 11:50:37 2015 -0600
+
+    cap interest rate
+
+commit 468997d8613b1367705592ca3edbca79e1e12bc9
+Author: onsightit <steve@onsightit.com>
+Date:   Mon Sep 21 09:00:37 2015 -0600
+
+    build merkle tree in template
+
+commit 618f97995b63be6adc18af67fcc9122c0c8f4b72
+Author: onsightit <steve@onsightit.com>
+Date:   Mon Sep 21 07:18:22 2015 -0600
+
+    revert mac pro
+
+commit 2a7a3add3a4e5dd1cd6d395901326e7e9651fadd
+Author: Steve Woods <onsightit@gmail.com>
+Date:   Sat Sep 19 09:45:14 2015 -0600
+
+    mac compile changes
+
+commit ea2b6ca35672a7346454146dc898a73bc2a1dc98
+Author: Steve Woods <onsightit@gmail.com>
+Date:   Sat Sep 19 09:41:22 2015 -0600
+
+    mac compile changes
+
+commit 1affcac9b3a13aab1942d45bd38130eda4d56149
+Author: onsightit <steve@onsightit.com>
+Date:   Sat Sep 19 09:36:50 2015 -0600
+
+    revert
+
+commit 5d17449c44b44a3cfba107b6f9cb0c9c98548997
+Merge: 2b77b9b ad43140
+Author: Red Pointer <redpoint404@gmail.com>
+Date:   Sat Sep 19 09:35:58 2015 -0600
+
+    Merge branch 'master' of https://github.com/onsightit/solarcoin
+
+commit 2b77b9bfe3d6efeee00e81190b7232aa9c91d984
+Author: Red Pointer <redpoint404@gmail.com>
+Date:   Sat Sep 19 09:35:41 2015 -0600
+
+    mac stuff
+
+commit ad43140b48a6bae5c24f0c6ad83f017a4e42c9f9
+Author: onsightit <steve@onsightit.com>
+Date:   Fri Sep 18 21:36:36 2015 -0600
+
+    revert
+
+commit 67367a68d564ebc62666698c1b5860c8443ebe22
+Author: onsightit <steve@onsightit.com>
+Date:   Fri Sep 18 21:35:37 2015 -0600
+
+    revert
+
+commit 13f8b1fbcdaecbd1b64c4a7485816d71373ac0b6
+Author: onsightit <steve@onsightit.com>
+Date:   Fri Sep 18 21:22:06 2015 -0600
+
+    use html to redirect
+
+commit 834d2acb69473b556bac9b8e6b443dc327137a96
+Author: onsightit <steve@onsightit.com>
+Date:   Fri Sep 18 21:10:00 2015 -0600
+
+    RC 2.0.2
+
+commit 1ac20cced0db31d52ae4dd7ea99be290a30fb4c2
+Author: onsightit <steve@onsightit.com>
+Date:   Mon Sep 14 16:57:59 2015 -0600
+
+    RC 2.0.1
+
+commit 504296986a73beedbe2b8998d6976f4b0e8eb8a9
+Author: onsightit <steve@onsightit.com>
+Date:   Mon Sep 14 16:14:22 2015 -0600
+
+    remove debug
+
+commit 980e62e56d281d2653f15282653658c6bc3bbd46
+Author: onsightit <steve@onsightit.com>
+Date:   Mon Sep 14 15:59:50 2015 -0600
+
+    restore mi.second
+
+commit afcbc0dd657c08a68c3383e8d6e346b63ca660db
+Author: onsightit <steve@onsightit.com>
+Date:   Mon Sep 14 15:50:01 2015 -0600
+
+    debug
+
+commit 421374a5b689025b358d5ada509cd1ce606d1b50
+Author: onsightit <steve@onsightit.com>
+Date:   Mon Sep 14 11:01:24 2015 -0600
+
+    catch empty tx request from 1.5 nodes
+
+commit 9df8e071eb504cab042b2ab346cb47fbb4419adc
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Sep 13 20:49:22 2015 -0600
+
+    back on testnet
+
+commit 67f4479ffc8084fc003a7074842ddc534705390c
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Sep 13 09:21:59 2015 -0600
+
+    2.0 RC
+
+commit 637667da8fa61322b15492eb5d4f2293cb2528e1
+Author: onsightit <steve@onsightit.com>
+Date:   Sat Sep 12 05:25:24 2015 -0600
+
+    bootstrap bug fix
+
+commit 3871aab0d97f53031b99338b98a553bb576c69a9
+Author: onsightit <steve@onsightit.com>
+Date:   Sat Sep 12 04:27:28 2015 -0600
+
+    re-enable blockchain reload
+
+commit 71b144cf11cc6e88bec025eb568d0137b080f2bf
+Author: onsightit <steve@onsightit.com>
+Date:   Sat Sep 12 03:52:15 2015 -0600
+
+    tweaks
+
+commit 08fba9630be85966e91a97daf0d1a94996306663
+Author: onsightit <steve@onsightit.com>
+Date:   Fri Sep 11 18:26:52 2015 -0600
+
+    2.0 RC
+
+commit 0c622a6292f2ebcbd6858c8d61b8f4d5ba2624b9
+Author: onsightit <steve@onsightit.com>
+Date:   Fri Sep 11 09:23:59 2015 -0600
+
+    bug fixes (cosmetic)
+
+commit b6a226ce582ae9dcdd2007f84513f3c9a22c5e03
+Author: onsightit <steve@onsightit.com>
+Date:   Thu Sep 10 21:45:08 2015 -0600
+
+    remove some debug
+
+commit 8d6d2b6f1a7980038de94f041424ce18121b1d56
+Author: onsightit <steve@onsightit.com>
+Date:   Thu Sep 10 16:39:36 2015 -0600
+
+    wallet upgrade fix
+
+commit 2fef5b74264805518bb253cbca9881f9f432e39e
+Author: onsightit <steve@onsightit.com>
+Date:   Wed Sep 9 16:35:56 2015 -0600
+
+    fix bug in reserve amount option
+
+commit 69302566dcf21ee09e059d74fcecd77233aa5102
+Author: onsightit <steve@onsightit.com>
+Date:   Wed Sep 9 11:09:38 2015 -0600
+
+    new end of pow
+
+commit 6be9b744ae069362905e214b0aaa20652a73ec45
+Author: onsightit <steve@onsightit.com>
+Date:   Wed Sep 9 10:07:40 2015 -0600
+
+    freak'n typos
+
+commit 6c43269743b6ecd85f65c1736216a1f6be9d4774
+Author: onsightit <steve@onsightit.com>
+Date:   Wed Sep 9 10:06:10 2015 -0600
+
+    wrong hash in map
+
+commit 70b9708607cdd88a505e404231ea4811ff5e878c
+Author: onsightit <steve@onsightit.com>
+Date:   Wed Sep 9 09:50:33 2015 -0600
+
+    need to build hashProofOfStake for orphans being reunited
+
+commit f7b4b3a027bcb7110fa913c9ad3aa0d18150d54d
+Author: onsightit <steve@onsightit.com>
+Date:   Wed Sep 9 09:28:43 2015 -0600
+
+    just orphan the block for now
+
+commit ecf17a8963df1ae27e9807dc5ea3ce435d84ac3c
+Author: onsightit <steve@onsightit.com>
+Date:   Wed Sep 9 09:09:55 2015 -0600
+
+    push next block instead of best
+
+commit 71af1b279163fbd436a8c0273a4157f2da6f4d43
+Author: onsightit <steve@onsightit.com>
+Date:   Wed Sep 9 08:33:44 2015 -0600
+
+    don't push hashBestchain
+
+commit 51129b896308ed54780fff430ad8c6bf8f0c24d7
+Author: onsightit <steve@onsightit.com>
+Date:   Wed Sep 9 08:02:40 2015 -0600
+
+    don't push hashBestchain. breaks clients downloading inventory
+
+commit d77d4ddf2591dc41796f7381760bc6967d943c45
+Author: onsightit <steve@onsightit.com>
+Date:   Wed Sep 9 08:01:32 2015 -0600
+
+    prevent large wallet staking
+
+commit 07be41c9a7602878240c309b889a045f94982844
+Author: onsightit <steve@onsightit.com>
+Date:   Mon Sep 7 15:06:11 2015 -0600
+
+    new test
+
+commit e1f0e5e3bd809854ab07c29b137cb97c826521e4
+Author: onsightit <steve@onsightit.com>
+Date:   Mon Sep 7 14:34:21 2015 -0600
+
+    increase max values in bitcoinamountfield
+
+commit ceee0c0bca4789e87721a14bbe4e0b20a0b42b93
+Author: onsightit <steve@onsightit.com>
+Date:   Mon Sep 7 07:40:22 2015 -0600
+
+    prevent large wallet stake/attack
+
+commit 2c5a9312ba4e8520d4ef14003213e9da92f060ec
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Sep 6 23:19:59 2015 -0600
+
+    wait for next testnet
+
+commit 6512c5b21e80493589f3629a4d2dbbe469a9aef4
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Sep 6 23:02:40 2015 -0600
+
+    more stats
+
+commit 601ab0f1f0052619056db2f84259ac833b4e0bd9
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Sep 6 09:18:18 2015 -0600
+
+    coinbase maturity + 10
+
+commit 8e85348b09bafe7408e7b44336e2839a5b6717b8
+Author: onsightit <steve@onsightit.com>
+Date:   Sat Sep 5 23:09:23 2015 -0600
+
+    debug cleanup
+
+commit 9fc8a5708721e3ed4950a490f6febe61453f76e0
+Author: onsightit <steve@onsightit.com>
+Date:   Sat Sep 5 23:00:54 2015 -0600
+
+    debug cleanup
+
+commit 761d047abf3e895f1f737dc261c4129c715d047f
+Author: onsightit <steve@onsightit.com>
+Date:   Sat Sep 5 21:14:08 2015 -0600
+
+    need a few more blocks
+
+commit 6cf97e90e57ee1e422a8f3bb5c8ae23840d172dc
+Author: onsightit <steve@onsightit.com>
+Date:   Sat Sep 5 14:17:40 2015 -0600
+
+    accurate mining rewards
+
+commit b87cf74f083c4ffddfca1b719d49fb6f7bb01a5d
+Author: onsightit <steve@onsightit.com>
+Date:   Sat Sep 5 13:19:13 2015 -0600
+
+    one more
+
+commit aaee85ecf77046f09ddcdda0d3ee5d1681f1a8e6
+Author: onsightit <steve@onsightit.com>
+Date:   Sat Sep 5 12:58:16 2015 -0600
+
+    compile error fix
+
+commit 2bc8fe3720f677ba6956036f59ecc2350b6c2e16
+Author: onsightit <steve@onsightit.com>
+Date:   Sat Sep 5 10:56:13 2015 -0600
+
+    testing
+
+commit 304f2e9b9f0a133add09a32745831f4aea662321
+Author: onsightit <steve@onsightit.com>
+Date:   Fri Sep 4 17:09:53 2015 -0600
+
+    new initial coin supply
+
+commit fd18d4746dd39616b141abaeab9deb328a188cab
+Author: onsightit <steve@onsightit.com>
+Date:   Fri Sep 4 09:44:17 2015 -0600
+
+    mirror production total supply
+
+commit d2c93fa25498369f73ca9581ebe9d4638839fa44
+Author: onsightit <steve@onsightit.com>
+Date:   Fri Sep 4 09:37:40 2015 -0600
+
+    new test
+
+commit ee6cefb7b4a89777aec5dab317b4812f89b515fd
+Author: onsightit <steve@onsightit.com>
+Date:   Thu Sep 3 19:05:43 2015 -0600
+
+    tweak
+
+commit 1648a2f3a232b730dc2194b6fb88bea2ab968f14
+Author: onsightit <steve@onsightit.com>
+Date:   Thu Sep 3 18:41:22 2015 -0600
+
+    catch down-time
+
+commit dfbdb6c54bdbe679671763e6166dde1cd76e3fc8
+Author: onsightit <steve@onsightit.com>
+Date:   Thu Sep 3 18:16:42 2015 -0600
+
+    more interval adjustments
+
+commit 776e8893c9339ffba5f2b0e2491e6c7a1e6a727f
+Author: onsightit <steve@onsightit.com>
+Date:   Thu Sep 3 17:21:34 2015 -0600
+
+    need multiplier
+
+commit 7d353d97aa4e7175254049837f990ebe31fc80fa
+Author: onsightit <steve@onsightit.com>
+Date:   Thu Sep 3 17:00:47 2015 -0600
+
+    start with lowest interval
+
+commit a09c8bb0d153f3aba734c92034c532a3ed1066ac
+Author: onsightit <steve@onsightit.com>
+Date:   Thu Sep 3 16:46:10 2015 -0600
+
+    final initial coin supply numbers with 97.495B out of circulation
+
+commit e2a447e52c113cbb4afe17b449510e9f4b951d85
+Author: onsightit <steve@onsightit.com>
+Date:   Thu Sep 3 16:19:42 2015 -0600
+
+    final initial coin supply numbers
+
+commit ed0a3b33256be5bf490ea3620320dfa025bc60e3
+Author: onsightit <steve@onsightit.com>
+Date:   Thu Sep 3 15:24:31 2015 -0600
+
+    start with a short interval
+
+commit 6140273e73cff2b4673ce89b7125a0bd64699f4a
+Author: onsightit <steve@onsightit.com>
+Date:   Thu Sep 3 11:09:36 2015 -0600
+
+    longer sample
+
+commit 973d5cb70e09e9d97d58ac9238be889af2a21d4f
+Author: onsightit <steve@onsightit.com>
+Date:   Thu Sep 3 09:13:40 2015 -0600
+
+    new test
+
+commit 93deec4142528f585bf90e2acd1ebbfa906c1531
+Author: onsightit <steve@onsightit.com>
+Date:   Thu Sep 3 08:24:27 2015 -0600
+
+    number based on chainz percentages
+
+commit 3ccb8f4475ffc296e4df0f56efab58f8d4c23168
+Author: onsightit <steve@onsightit.com>
+Date:   Thu Sep 3 08:01:36 2015 -0600
+
+    estimate production supply
+
+commit 8cdb00cbf6e9d029ad091315861ef676f7b01aea
+Author: onsightit <steve@onsightit.com>
+Date:   Thu Sep 3 07:32:24 2015 -0600
+
+    testing with coins in circulation
+
+commit eff32e62137e495c0495f05bae747c1905861e95
+Author: onsightit <steve@onsightit.com>
+Date:   Wed Sep 2 22:21:53 2015 -0600
+
+    testing interest rate
+
+commit 0feb1cbf7e04a8138034ccfce1568167e5e46424
+Author: onsightit <steve@onsightit.com>
+Date:   Wed Sep 2 17:30:53 2015 -0600
+
+    variable modifier interval
+
+commit 475aba31b19bd3bf8c5b8dfa889a4dd83fcaecad
+Author: onsightit <steve@onsightit.com>
+Date:   Wed Sep 2 06:25:44 2015 -0600
+
+    new test
+
+commit 88756d7ce9f644535de432dc8b7e12834d3e52df
+Author: onsightit <steve@onsightit.com>
+Date:   Wed Sep 2 06:16:14 2015 -0600
+
+    testing
+
+commit d51cc1678328adbf94cba2ce9994e795feede8a3
+Author: onsightit <steve@onsightit.com>
+Date:   Wed Sep 2 06:02:28 2015 -0600
+
+    shorter modifier interval
+
+commit d78210161d028f69163d3c3c1786580710e57640
+Author: onsightit <steve@onsightit.com>
+Date:   Tue Sep 1 22:29:48 2015 -0600
+
+    testing
+
+commit 77dced2558f32994bd63447ce8389d58ab2c21e4
+Author: onsightit <steve@onsightit.com>
+Date:   Tue Sep 1 22:19:02 2015 -0600
+
+    testing
+
+commit fa096a593b13c5c963e85e998b9527e43a93bd30
+Author: onsightit <steve@onsightit.com>
+Date:   Tue Sep 1 21:40:04 2015 -0600
+
+    testing
+
+commit cc907900fce4c527bfec8712c626c1b370ffd8f4
+Author: onsightit <steve@onsightit.com>
+Date:   Tue Sep 1 11:37:14 2015 -0600
+
+    new testnet
+
+commit ac234f1f4c7b6709ebde409105521f29becec06a
+Author: onsightit <steve@onsightit.com>
+Date:   Tue Sep 1 11:21:57 2015 -0600
+
+    testing
+
+commit 853ad80ba82da4db6db20b9b462cde752d7082f2
+Author: onsightit <steve@onsightit.com>
+Date:   Tue Sep 1 11:20:20 2015 -0600
+
+    testing
+
+commit c8911caf6413f1f3c7928d680022bb2bb3b4d6d0
+Author: onsightit <steve@onsightit.com>
+Date:   Tue Sep 1 10:12:28 2015 -0600
+
+    testing
+
+commit 8d8d06e065d0e13c6b9cd346c945a3d0c80c7569
+Author: onsightit <steve@onsightit.com>
+Date:   Tue Sep 1 10:02:39 2015 -0600
+
+    testing
+
+commit fe78709809840ac6bffe4b5713ccdde0544f3f79
+Author: onsightit <steve@onsightit.com>
+Date:   Tue Sep 1 09:58:16 2015 -0600
+
+    testing
+
+commit c44b89583e7ab69cf2f85c4bb480eba91b83f018
+Author: onsightit <steve@onsightit.com>
+Date:   Tue Sep 1 09:52:51 2015 -0600
+
+    testing
+
+commit 84d739cbedb9332e487c7d7295b5fa94e7ade997
+Author: onsightit <steve@onsightit.com>
+Date:   Tue Sep 1 09:46:07 2015 -0600
+
+    testing
+
+commit c549889d5206313ca39b2a9b1f0d0f64c8d9e764
+Author: onsightit <steve@onsightit.com>
+Date:   Tue Sep 1 09:34:20 2015 -0600
+
+    testing
+
+commit 33c02ccd2547320c451cc2d3e0b28d7f83061d20
+Author: onsightit <steve@onsightit.com>
+Date:   Tue Sep 1 09:34:01 2015 -0600
+
+    enforce staking with encrypted wallets
+
+commit 6e542229d8a5b5a815ebba137369fc854c636086
+Author: onsightit <steve@onsightit.com>
+Date:   Mon Aug 31 17:11:12 2015 -0600
+
+    new test
+
+commit 70be360a5674dcc1f3649a4820b39fd5dcab8504
+Author: onsightit <steve@onsightit.com>
+Date:   Mon Aug 31 11:53:46 2015 -0600
+
+    tweak
+
+commit ef1686cbc540e5c81f7e187a33de6409afeea66a
+Author: onsightit <steve@onsightit.com>
+Date:   Mon Aug 31 10:45:53 2015 -0600
+
+    testing
+
+commit 0587a33e7e13aeba14da6c4dd481e196b6f25bab
+Author: onsightit <steve@onsightit.com>
+Date:   Mon Aug 31 10:15:55 2015 -0600
+
+    shorter timespan on testnet
+
+commit 5b5e636bfab387b845f92a375a43ef1384116972
+Author: onsightit <steve@onsightit.com>
+Date:   Mon Aug 31 09:27:20 2015 -0600
+
+    new modifier height
+
+commit 6b6d5b1b9263cfd822e73cb417b69260cf176773
+Author: onsightit <steve@onsightit.com>
+Date:   Mon Aug 31 07:38:51 2015 -0600
+
+    extend PoW
+
+commit b9bf972b2802a9e8bdcd1d7302d431cfd05e4776
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Aug 30 22:49:29 2015 -0600
+
+    back to maturity
+
+commit 1b57c920fe34719f63bd4d59b875103fb66881ff
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Aug 30 22:47:14 2015 -0600
+
+    back to release
+
+commit bcac4b5a3d8cdd4a75756d7ff023229f1fdcd19e
+Merge: 79d38d7 78bbdcd
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Aug 30 22:45:09 2015 -0600
+
+    Merge branch 'master' of https://github.com/onsightit/solarcoin
+
+commit 79d38d7915d233da339c1c97ddc97b5c85aa84fe
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Aug 30 22:41:26 2015 -0600
+
+    lower testnet maturity
+
+commit 78bbdcd5aa207f350a373cc57a8fd589727af66a
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Aug 30 21:44:42 2015 -0600
+
+    bug fix
+
+commit d4bbb487e7c2af8e02a4cba706c65bf2e6d2cb4b
+Merge: 8aeb488 ed80a38
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Aug 30 21:31:05 2015 -0600
+
+    Merge branch 'master' of https://github.com/onsightit/solarcoin
+
+commit 8aeb48800e8d3daeac55a0832ab57b1327a4e707
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Aug 30 21:29:49 2015 -0600
+
+    debug
+
+commit ed80a38b7100bfff711aa790e7f2bb0233a4474c
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Aug 30 21:28:02 2015 -0600
+
+    bug fix
+
+commit 503adbf6fc1d9c0542d305e2bac0042da11416b5
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Aug 30 20:29:09 2015 -0600
+
+    longer testnet
+
+commit 1b472bf62e59c01e36d4e7b0fc7faf6fe11b480e
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Aug 30 17:43:32 2015 -0600
+
+    testing
+
+commit 00d5438a6ae35decd8cbec772fd7bf1e9395a91f
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Aug 30 17:41:37 2015 -0600
+
+    testing
+
+commit 4f0361330448a2f9da5aa1a4cbf8c4c713792b20
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Aug 30 17:38:20 2015 -0600
+
+    testing
+
+commit 3fe10f1fdadc12bbacc25555dbfcf41ce2e522eb
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Aug 30 17:24:01 2015 -0600
+
+    longer testnet
+
+commit 22aa1ca0b8f6410fe9ea1d5ca3e80bfdf4339a33
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Aug 30 16:21:02 2015 -0600
+
+    shorter testnet
+
+commit 534bd1ce7b1f0ee2bab81b5079865b7d4d24b78d
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Aug 30 15:48:49 2015 -0600
+
+    new testnet
+
+commit 9a2db19510a1646e7bda55e7a6237685a273b93a
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Aug 30 15:12:09 2015 -0600
+
+    testing
+
+commit d16548bf81caf7fff5d6c00d90038d5166120308
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Aug 30 15:04:07 2015 -0600
+
+    testing
+
+commit 8160faace2c20149224e1c3c8cd5f11f699840c9
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Aug 30 14:33:28 2015 -0600
+
+    testing
+
+commit fc0f854ca089b3ca37ab9c44b0af70cc986460a0
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Aug 30 14:13:27 2015 -0600
+
+    testing
+
+commit c6048a13a43375d058c7fef50c315a9885a3da70
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Aug 30 14:07:10 2015 -0600
+
+    testing
+
+commit bae504592c4219fa47ff8602a2051a438f9fd937
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Aug 30 13:23:15 2015 -0600
+
+    testing
+
+commit a7c2fd8fb471fdab1b196096e460216e8cb26389
+Author: onsightit <steve@onsightit.com>
+Date:   Fri Aug 28 15:15:05 2015 -0600
+
+    remove test code
+
+commit 5216511422bd1485f911a9cd6c23ae9378c16ef5
+Author: onsightit <steve@onsightit.com>
+Date:   Fri Aug 28 14:11:45 2015 -0600
+
+    revert
+
+commit 08f745beaef98b9364379975e405d77cb79db22d
+Author: onsightit <steve@onsightit.com>
+Date:   Fri Aug 28 14:08:17 2015 -0600
+
+    testing
+
+commit 5bd810209c0dc497d9ff89f5b87d77d13dfd06f1
+Author: onsightit <steve@onsightit.com>
+Date:   Fri Aug 28 14:05:17 2015 -0600
+
+    testing
+
+commit 444e11f0cd13d4436012561e931d277b66ef2389
+Author: onsightit <steve@onsightit.com>
+Date:   Fri Aug 28 13:09:28 2015 -0600
+
+    testing
+
+commit 66d492887b803a63d4ab85cae96b1296bdf4922d
+Author: onsightit <steve@onsightit.com>
+Date:   Fri Aug 28 10:44:45 2015 -0600
+
+    testing
+
+commit d739d33f2c2388b82e89b048ed6d6bf43f1137c9
+Author: onsightit <steve@onsightit.com>
+Date:   Fri Aug 28 10:20:06 2015 -0600
+
+    testing
+
+commit cd8e064b243efc9c8a7d212e3ce9ab259800d20d
+Author: onsightit <steve@onsightit.com>
+Date:   Fri Aug 28 08:45:19 2015 -0600
+
+    testing
+
+commit a309f9af24feec8c8baa127c6ebcf66cec18e4d5
+Author: onsightit <steve@onsightit.com>
+Date:   Fri Aug 28 08:38:49 2015 -0600
+
+    testing
+
+commit eded17fd5fec34125e55c3368ab42f2524e1ae39
+Author: onsightit <steve@onsightit.com>
+Date:   Fri Aug 28 08:29:48 2015 -0600
+
+    testing
+
+commit 451492146f0fb86925b28c5481c7ffc0acedd10a
+Author: onsightit <steve@onsightit.com>
+Date:   Fri Aug 28 08:19:20 2015 -0600
+
+    testing
+
+commit 48d2a6a8ba37d8215a42901b6531ea90733d3a69
+Author: onsightit <steve@onsightit.com>
+Date:   Thu Aug 27 16:25:46 2015 -0600
+
+    testing
+
+commit a2075ce0ecc2f188ee11c6124b3ede2da6822fce
+Author: onsightit <steve@onsightit.com>
+Date:   Thu Aug 27 15:54:12 2015 -0600
+
+    testing
+
+commit 95e8764ee365fdcec8554f4ac078ddeca2d1de18
+Author: onsightit <steve@onsightit.com>
+Date:   Thu Aug 27 15:46:43 2015 -0600
+
+    testing
+
+commit 2a98ccee60fcfd3dabe1edc2aa58f4a6062ae2c5
+Author: onsightit <steve@onsightit.com>
+Date:   Thu Aug 27 15:41:45 2015 -0600
+
+    testing
+
+commit ad70d0422d3e730c352129109fe0362259c26c03
+Author: onsightit <steve@onsightit.com>
+Date:   Thu Aug 27 15:33:08 2015 -0600
+
+    testing
+
+commit 837c0bf01b848b24e5d9994a89c52242fa01f009
+Author: onsightit <steve@onsightit.com>
+Date:   Thu Aug 27 15:07:07 2015 -0600
+
+    testing
+
+commit 4199f56ca7c63f0311e70f50513c3f7b49d01079
+Author: onsightit <steve@onsightit.com>
+Date:   Thu Aug 27 14:58:05 2015 -0600
+
+    testing update mapblockindex
+
+commit dd7baa37ed940a3a35daa4ca5c033fb047c2ea55
+Author: onsightit <steve@onsightit.com>
+Date:   Thu Aug 27 14:25:30 2015 -0600
+
+    testing
+
+commit 7d6e1df7e3fa92e640c89b1f137cbca438ca7f93
+Author: onsightit <steve@onsightit.com>
+Date:   Thu Aug 27 14:18:58 2015 -0600
+
+    testing
+
+commit 683434534a7ac0f0a7c4250908fddfa519739899
+Author: onsightit <steve@onsightit.com>
+Date:   Wed Aug 26 15:04:48 2015 -0600
+
+    ui tweak
+
+commit 41d3756e2cf6f3efeed03053fb87fa7397a2b745
+Author: onsightit <steve@onsightit.com>
+Date:   Wed Aug 26 11:30:53 2015 -0600
+
+    relay compatible txns to 1.5 wallets
+
+commit 5180af75db747dd5dd389307836a17fc6e7d030e
+Author: onsightit <steve@onsightit.com>
+Date:   Wed Aug 26 04:03:54 2015 -0600
+
+    revert and longer PoW period to disperse coinage better
+
+commit c8c934957e9d0c3bd15da0cb9283ebb798251608
+Author: onsightit <steve@onsightit.com>
+Date:   Tue Aug 25 19:53:34 2015 -0600
+
+    fine tune modifier interval for first blocks
+
+commit 7ea079e358e29ac5cd67d676badcccdd34f18f0e
+Author: onsightit <steve@onsightit.com>
+Date:   Tue Aug 25 19:10:03 2015 -0600
+
+    try 8 blocks for short modifier interval
+
+commit 27787d0b621a6acb902b2d9570b643c774aca4c6
+Author: onsightit <steve@onsightit.com>
+Date:   Tue Aug 25 16:32:31 2015 -0600
+
+    test short selection intervals
+
+commit 2212d505f642a1c2891d72f37478bf9f8e73143c
+Author: onsightit <steve@onsightit.com>
+Date:   Tue Aug 25 15:25:52 2015 -0600
+
+    tweak
+
+commit e43218fc791cda97a433883fc51f4c4ea8bdae52
+Author: onsightit <steve@onsightit.com>
+Date:   Tue Aug 25 15:10:21 2015 -0600
+
+    revert, but prevent bogus errors
+
+commit 9c11bda01ef36996f208a5147772ebf4fdca51c5
+Author: onsightit <steve@onsightit.com>
+Date:   Tue Aug 25 14:39:27 2015 -0600
+
+    new selection interval for first 64 block of PoST
+
+commit 8a1c91c9c43a61fe7f08ad5ba59ce8fff7292f7d
+Author: onsightit <steve@onsightit.com>
+Date:   Tue Aug 25 09:53:50 2015 -0600
+
+    test
+
+commit 247d84eba4ec970575677dca5c4636f72c1c7b77
+Author: onsightit <steve@onsightit.com>
+Date:   Tue Aug 25 03:30:24 2015 -0600
+
+    eliminate delay between PoW and PoST
+
+commit 388a9f627d28e95eb82f28865473d5142d604302
+Author: onsightit <steve@onsightit.com>
+Date:   Tue Aug 25 02:35:45 2015 -0600
+
+    revert
+    
+    need to wait on (nStakeModifierTime  < nStakeModifierSelectionInterval)
+    in kernel.cpp
+
+commit 233f46da3caba1e5943a3ad292bbcd9ee77e67c2
+Author: onsightit <steve@onsightit.com>
+Date:   Tue Aug 25 02:23:52 2015 -0600
+
+    testing
+
+commit 0f14d58b644f745cf16ecd2f81e9750d3429b4b5
+Author: onsightit <steve@onsightit.com>
+Date:   Tue Aug 25 00:30:35 2015 -0600
+
+    final testnet
+
+commit e580c441be3f711ec79e2ca5c8283973e1e73a27
+Author: onsightit <steve@onsightit.com>
+Date:   Mon Aug 24 23:16:25 2015 -0600
+
+    tweak
+
+commit 531f8c45e78a239e4bdf82fef659905147ed259c
+Author: onsightit <steve@onsightit.com>
+Date:   Mon Aug 24 18:08:33 2015 -0600
+
+    debug
+
+commit 68cd1774196817b7849793a0aaf28ae8ef39cdd5
+Author: onsightit <steve@onsightit.com>
+Date:   Mon Aug 24 16:42:18 2015 -0600
+
+    tweak
+
+commit 9a46a942394ee040890da904686ccfcdb5b0c1d5
+Author: onsightit <steve@onsightit.com>
+Date:   Mon Aug 24 16:33:20 2015 -0600
+
+    delete
+
+commit 031e0aec40859a036397fa1ec24934be8741b414
+Author: onsightit <steve@onsightit.com>
+Date:   Mon Aug 24 16:32:17 2015 -0600
+
+    UI tweaks
+
+commit 6a049d610d8eac651a96774f845b8accd8a431b0
+Author: onsightit <steve@onsightit.com>
+Date:   Mon Aug 24 15:38:18 2015 -0600
+
+    UI tweaks, new images
+
+commit ad83a0f1e5a19892dc33c26596aed59f3d0d3d22
+Author: onsightit <steve@onsightit.com>
+Date:   Mon Aug 24 07:29:36 2015 -0600
+
+    Inflation rate adjustment and code cleanup
+
+commit f19a7ff22b8f923264269aefa50908e307004062
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Aug 23 16:02:11 2015 -0600
+
+    proper interest rate for SLR
+
+commit d9f2fc452bb017d1fcbfa4d36b05daf99621ab42
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Aug 23 13:45:28 2015 -0600
+
+    remove debug
+
+commit 9f1540f83a76fac9f4edf9f5fb308ba95f15968d
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Aug 23 11:43:11 2015 -0600
+
+    wrong height
+
+commit d8ed89dc9fea2d539e616f1ff9190578e7ee67a5
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Aug 23 11:39:55 2015 -0600
+
+    more debug
+
+commit feaa25200ed1a4d261ab5bcebc294a471aafbfa8
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Aug 23 11:32:52 2015 -0600
+
+    more debug
+
+commit 2bb826ebce177b35b84f37462177d902f9d81d18
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Aug 23 11:27:55 2015 -0600
+
+    debug info
+
+commit 5be2914aa495be1afad6784df8c19b575e0c20e0
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Aug 23 11:07:31 2015 -0600
+
+    don't weight for selection the first PoST index
+
+commit cbb44ad8dba59e1d0afd151d9f3be8de59349b04
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Aug 23 10:37:44 2015 -0600
+
+    revert and more debug info
+
+commit b4f13c3c3d4544b7795998272f24addfba888bbe
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Aug 23 10:13:36 2015 -0600
+
+    code cleanup and testing stake modifier selection
+
+commit a7579f8a66518d9de8cd3bec118fab3fab56f8e3
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Aug 23 09:10:22 2015 -0600
+
+    testing (removed GetPoWKernelPS code)
+
+commit 4713d99437ff45b8085fdbb22f016608e6621959
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Aug 23 08:56:23 2015 -0600
+
+    testing
+
+commit 7f56a79ce98a56323bd70006af53e813c1b3ff9d
+Author: onsightit <steve@onsightit.com>
+Date:   Sat Aug 22 23:34:08 2015 -0600
+
+    need more blocks in testnet
+
+commit 59c6074df540a25a298978985597a57f4f659f93
+Author: onsightit <steve@onsightit.com>
+Date:   Sat Aug 22 22:36:03 2015 -0600
+
+    testing
+
+commit 2d2f1b6b387f82dfc346fdae263bc8b979e162f6
+Author: onsightit <steve@onsightit.com>
+Date:   Sat Aug 22 16:46:00 2015 -0600
+
+    revert
+
+commit 2469d68de280768adb2bbf01efcd11f3beb98834
+Author: onsightit <steve@onsightit.com>
+Date:   Sat Aug 22 16:36:32 2015 -0600
+
+    revert
+
+commit 79a01e10f98a6660c22803eb547739d437228d74
+Author: onsightit <steve@onsightit.com>
+Date:   Sat Aug 22 16:16:51 2015 -0600
+
+    missed a couple reverts
+
+commit 939891de5ef6032cbfe53468be9dc644abd79bf5
+Author: onsightit <steve@onsightit.com>
+Date:   Sat Aug 22 16:08:49 2015 -0600
+
+    testing
+
+commit 1cf2fe6722e9fac3695457b43d1f915341ee7ff4
+Author: onsightit <steve@onsightit.com>
+Date:   Sat Aug 22 15:58:14 2015 -0600
+
+    revert GetAverageStakeWeight
+
+commit 99529725059b9d99973c371c86ca0b6dd31d6703
+Author: onsightit <steve@onsightit.com>
+Date:   Sat Aug 22 15:45:24 2015 -0600
+
+    need the longer interval (original)
+
+commit c5cb820fef2ccb57ce033bfad5f99cb3c67d1f61
+Author: onsightit <steve@onsightit.com>
+Date:   Sat Aug 22 15:39:01 2015 -0600
+
+    relay tx fix for 1.5 wallets
+
+commit b4bba694ed2f7a098d1c36e98f962de8fb8f07ee
+Author: onsightit <steve@onsightit.com>
+Date:   Sat Aug 22 11:13:19 2015 -0600
+
+    compatibility for exchanging blocks/txns between 1.5 and 2.0
+
+commit 0295bd53eb7947b49ac8154b4149d906d0b864d8
+Author: onsightit <steve@onsightit.com>
+Date:   Fri Aug 21 16:42:00 2015 -0600
+
+    more modifier selection interval changes
+
+commit c347ae8f421f6c1b9e76a9ca9f1d39b1ab1090e3
+Author: onsightit <steve@onsightit.com>
+Date:   Fri Aug 21 16:32:58 2015 -0600
+
+    back to testnet version
+
+commit 2fde934617a60a736fba29ed416cca2357b8bf17
+Author: onsightit <steve@onsightit.com>
+Date:   Fri Aug 21 15:44:41 2015 -0600
+
+    a little more precise
+
+commit 17496ca929503a16191e2e4053e1a5f156df8f86
+Author: onsightit <steve@onsightit.com>
+Date:   Fri Aug 21 14:16:32 2015 -0600
+
+    need the smaller weight
+
+commit d4fbb436843b0cc760b153b8a16cc21e6c348057
+Author: onsightit <steve@onsightit.com>
+Date:   Fri Aug 21 12:07:29 2015 -0600
+
+    use post factor for difficulty
+
+commit 2fd8456c3043d320ece224dfb4a57e99636435bc
+Author: onsightit <steve@onsightit.com>
+Date:   Fri Aug 21 12:00:01 2015 -0600
+
+    new GetPoWKernelPS
+
+commit a708829fac309b32d9c6545248657d553f1fea7a
+Author: onsightit <steve@onsightit.com>
+Date:   Fri Aug 21 11:39:48 2015 -0600
+
+    enhanced GetPoWHashPS
+
+commit 7de3465771eeb516252eee31d2aa86ab20d390cf
+Author: onsightit <steve@onsightit.com>
+Date:   Fri Aug 21 11:19:02 2015 -0600
+
+    testing
+
+commit c667c9f40fbfe649a10b9498caaaef32be882e43
+Author: onsightit <steve@onsightit.com>
+Date:   Fri Aug 21 11:10:56 2015 -0600
+
+    turn off check for best height
+
+commit 62bc0e8f4b1603789a8a6fedc15c9549c44fd066
+Author: onsightit <steve@onsightit.com>
+Date:   Fri Aug 21 11:08:21 2015 -0600
+
+    revert and try another approach
+
+commit d0ef853cce49edc3f6dea97daf173ec1c5958ec0
+Author: onsightit <steve@onsightit.com>
+Date:   Fri Aug 21 10:44:01 2015 -0600
+
+    use current pindexPrev
+
+commit d20124ad27feb515e635542120bb3c9a3124c7c8
+Author: onsightit <steve@onsightit.com>
+Date:   Fri Aug 21 10:27:48 2015 -0600
+
+    Need network weight from PoW
+
+commit f396a5865582802d0de8836ac9347c3fc3142272
+Author: onsightit <steve@onsightit.com>
+Date:   Fri Aug 21 09:15:20 2015 -0600
+
+    grrrr
+
+commit 69f2ae4640a94d51c42ae0bcc5d41eec02a8ab65
+Author: onsightit <steve@onsightit.com>
+Date:   Fri Aug 21 09:09:34 2015 -0600
+
+    testing
+
+commit 5308dafb4d732fa4d30d960b1e0d4786da2f1039
+Author: onsightit <steve@onsightit.com>
+Date:   Fri Aug 21 08:31:04 2015 -0600
+
+    fix nStakesTime incorrectly adjusting reward
+
+commit 8ad10a34c2bfed09c7f8ecb4502329cedb583e9b
+Author: onsightit <steve@onsightit.com>
+Date:   Thu Aug 20 21:29:38 2015 -0600
+
+    debug
+
+commit 3cb94967b774301953b68a7ab2bdcbf49fd32752
+Author: onsightit <steve@onsightit.com>
+Date:   Thu Aug 20 20:46:09 2015 -0600
+
+    invalid
+
+commit 7d22973919873d4e8111d27630eecf22ff4d4152
+Author: onsightit <steve@onsightit.com>
+Date:   Thu Aug 20 20:07:58 2015 -0600
+
+    getinfo bug
+
+commit aae088d683d5868c2a7f3d90d7062a77d01afa31
+Author: onsightit <steve@onsightit.com>
+Date:   Thu Aug 20 19:30:15 2015 -0600
+
+    test
+
+commit b999380a1781d5534fd402824216120a74348a20
+Author: onsightit <steve@onsightit.com>
+Date:   Thu Aug 20 18:43:17 2015 -0600
+
+    shorter test time
+
+commit a095d1f8b5332fe218ca65aa28665d8a081df4d5
+Author: onsightit <steve@onsightit.com>
+Date:   Thu Aug 20 18:35:41 2015 -0600
+
+    use a one hour interval for testnet
+
+commit efa8fc44f3694c47f6b74513d1f3ce32677279bb
+Author: onsightit <steve@onsightit.com>
+Date:   Thu Aug 20 18:22:55 2015 -0600
+
+    test
+
+commit b30a325dfa3f525c53e7760342cc191ae52846f0
+Author: onsightit <steve@onsightit.com>
+Date:   Thu Aug 20 15:32:40 2015 -0600
+
+    revert
+
+commit 116c9cb36000166285ac06735d778a01747e0e74
+Author: onsightit <steve@onsightit.com>
+Date:   Thu Aug 20 15:14:17 2015 -0600
+
+    modifier test code
+
+commit 05501e8863fb5fc463b7ef9d25546fcb53665a3e
+Author: onsightit <steve@onsightit.com>
+Date:   Thu Aug 20 10:11:01 2015 -0600
+
+    stake modifier selection tightening
+
+commit b005d96b22498383400aa31a3c38328d124c22da
+Author: onsightit <steve@onsightit.com>
+Date:   Wed Aug 19 22:06:41 2015 -0600
+
+    set last pow generatedstakemodifier true others false
+
+commit 39fe3b447be629164f6933bb6fbf05efbe158469
+Author: onsightit <steve@onsightit.com>
+Date:   Wed Aug 19 16:07:12 2015 -0600
+
+    get the first modifier if pow
+
+commit a74dfe61c53b7fd5386b85dd643754c0c3937998
+Author: onsightit <steve@onsightit.com>
+Date:   Wed Aug 19 10:13:14 2015 -0600
+
+    simplified hashProofOfStake for PoW
+
+commit 95e09183f318ad23751fb032a415239545c5e955
+Author: onsightit <steve@onsightit.com>
+Date:   Tue Aug 18 22:09:41 2015 -0600
+
+    new stake modifier for pow
+
+commit 60168af612190817f4c49c72fdae52ab88e60f4d
+Author: onsightit <steve@onsightit.com>
+Date:   Tue Aug 18 21:31:33 2015 -0600
+
+    should be done in ProcessBlock
+
+commit 2aa1387bb24be5392cee0fac138ae2a65254e47e
+Author: onsightit <steve@onsightit.com>
+Date:   Tue Aug 18 21:27:37 2015 -0600
+
+    comment typos
+
+commit f725a12d066a6bcb45ca87da7c814f0fc8627be5
+Author: onsightit <steve@onsightit.com>
+Date:   Tue Aug 18 20:47:27 2015 -0600
+
+    revert some code now
+
+commit 87f5faee90035593a82e9651dd66926f7d688498
+Author: onsightit <steve@onsightit.com>
+Date:   Tue Aug 18 11:58:46 2015 -0600
+
+    catch switch from pow to pos for modifier
+
+commit 2a814775bb2e68462c186edeace223fab2376694
+Author: onsightit <steve@onsightit.com>
+Date:   Tue Aug 18 11:20:37 2015 -0600
+
+    Catch the switch from PoW to PoST indexes
+
+commit 92f5f93fa13b1cc0d6ac258946257496d1d74367
+Author: onsightit <steve@onsightit.com>
+Date:   Tue Aug 18 08:17:30 2015 -0600
+
+    need to advance pindex even if PoW index
+
+commit 0f8e25c1957f2eb5a65d8df0283eefd28d8e2fca
+Author: onsightit <steve@onsightit.com>
+Date:   Mon Aug 17 23:20:38 2015 -0600
+
+    Only use PoS indexes after PoW + 10 minutes
+
+commit ea244be1602ad4798633795855fd90f7610528fa
+Author: onsightit <steve@onsightit.com>
+Date:   Mon Aug 17 18:00:12 2015 -0600
+
+    skip pow in getkernelstakemodifier
+
+commit 788feef6407f29b42b80544fac7c3214d75ded81
+Author: onsightit <steve@onsightit.com>
+Date:   Mon Aug 17 17:44:09 2015 -0600
+
+    new hashProofOfStake for PoW part 2
+
+commit c2a7549a0797befa44bcca428c587aea976baf38
+Author: onsightit <steve@onsightit.com>
+Date:   Mon Aug 17 15:09:08 2015 -0600
+
+    new hashProofOfStake for PoW
+
+commit ef18c7a6de9ce98113e75ddad6844c2b2a868d1b
+Author: onsightit <steve@onsightit.com>
+Date:   Mon Aug 17 00:00:24 2015 -0600
+
+    Revert "possible solution to map hashProofOfStake for orphan PoW blocks"
+    
+    This reverts commit f7800c080b64c8106f0ebb1b19f2218c6ed809c5.
+
+commit baa51fadb03b0f28b70879b24ac0c6fcbfc8bccf
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Aug 16 23:59:58 2015 -0600
+
+    Revert "part 2 of creating proper hashProofOfStake for PoW"
+    
+    This reverts commit 883ea32eb2c80850c96e85539d62983dcd1fa9d4.
+
+commit 883ea32eb2c80850c96e85539d62983dcd1fa9d4
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Aug 16 14:31:58 2015 -0600
+
+    part 2 of creating proper hashProofOfStake for PoW
+
+commit f7800c080b64c8106f0ebb1b19f2218c6ed809c5
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Aug 16 13:54:35 2015 -0600
+
+    possible solution to map hashProofOfStake for orphan PoW blocks
+
+commit e0d9042f7e4572e2fbf1283479c133c188016a15
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Aug 16 09:00:12 2015 -0600
+
+    2.0 to 1.5 compatability
+    
+    We need to broadcast the 1.5 tx format before PoW ends.
+
+commit 188c63ab2571ebcf0da8fd09ed7f7592b69ccd19
+Author: onsightit <steve@onsightit.com>
+Date:   Sat Aug 15 18:03:28 2015 -0600
+
+    back on testnet
+
+commit 88975b0c3e34cf6cc13774fd049181dc320bc438
+Author: onsightit <steve@onsightit.com>
+Date:   Sat Aug 15 18:01:16 2015 -0600
+
+    all good
+
+commit 897539a4c9d2bdb1ec0b9d3e5ba6296e19ddaefc
+Author: onsightit <steve@onsightit.com>
+Date:   Sat Aug 15 17:41:07 2015 -0600
+
+    revert and don't rely on prev block for hashProofOfStake for PoW
+
+commit 0f580d3662fb7c0d12401084406b5407e44d3389
+Author: onsightit <steve@onsightit.com>
+Date:   Sat Aug 15 17:00:01 2015 -0600
+
+    oh my, that snuck in there. glad there's an orphanage
+
+commit 174c13fc37c1130061416694934127a4484a2939
+Author: onsightit <steve@onsightit.com>
+Date:   Sat Aug 15 14:30:47 2015 -0600
+
+    debug info for checkproofofstakepow
+
+commit 535b5fcf85c8cec08844cd0085a71b8f92626a62
+Author: onsightit <steve@onsightit.com>
+Date:   Sat Aug 15 14:29:35 2015 -0600
+
+    new rpc commands
+
+commit 75e9ce1279d932c1f2157d492235374fe4f06695
+Author: onsightit <steve@onsightit.com>
+Date:   Sat Aug 15 14:29:19 2015 -0600
+
+    Wallet upgrade changes and some debug cleanup
+
+commit 053e35dd6582d7f43f6ae44632edbde8a0e203fc
+Author: onsightit <steve@onsightit.com>
+Date:   Fri Aug 14 07:31:39 2015 -0600
+
+    tx desc change for testnet
+
+commit fa73d70a79837339f2b5443630b9299393dd157d
+Author: onsightit <steve@onsightit.com>
+Date:   Fri Aug 14 07:30:32 2015 -0600
+
+    remove debug msg
+
+commit 23b3b2da5fe06b1013db6865e7d579a654f95524
+Author: onsightit <steve@onsightit.com>
+Date:   Thu Aug 13 17:36:13 2015 -0600
+
+    adjust disk index depending on PoW or PoS block
+
+commit 161403407d2518e909297b2bbd28c3bc9d1edbcb
+Author: onsightit <steve@onsightit.com>
+Date:   Thu Aug 13 10:45:11 2015 -0600
+
+    readfromdisk error and prefer pos hashselection
+
+commit 7d6896f408c34725513235b5119c5224987566fc
+Author: onsightit <steve@onsightit.com>
+Date:   Thu Aug 13 10:41:43 2015 -0600
+
+    ui tweaks
+
+commit c57d18b8e509eabc6a877fb532ac0767f3f1960f
+Author: onsightit <steve@onsightit.com>
+Date:   Wed Aug 12 15:04:52 2015 -0600
+
+    don't flag pow indexes as proofofstake
+
+commit 3682762458d30b3e9395587cc1225149f82734a5
+Author: onsightit <steve@onsightit.com>
+Date:   Wed Aug 12 14:50:16 2015 -0600
+
+    if pow index just return the latest one
+
+commit a0cdff0097409c133a9424bc4568778b6018e26e
+Author: onsightit <steve@onsightit.com>
+Date:   Wed Aug 12 11:21:03 2015 -0600
+
+    use previous block for nStakeModifier
+
+commit 802418a9c3f6bf94a13c2b0762fbfa3375406172
+Author: onsightit <steve@onsightit.com>
+Date:   Wed Aug 12 11:19:21 2015 -0600
+
+    use previous block for nStakeModifier
+
+commit 2eda9ad7f651801afbc4687637dab5b6bf3d1df4
+Author: onsightit <steve@onsightit.com>
+Date:   Wed Aug 12 10:39:02 2015 -0600
+
+    use previous block for nStakeModifier
+
+commit 4a055c97d810fdca1a29df724dad0898af477ed3
+Author: onsightit <steve@onsightit.com>
+Date:   Tue Aug 11 16:52:35 2015 -0600
+
+    add prevOutStake to PoW indexes
+
+commit d1f0875ffff52c6ff4a0da621b5487f9a3a23759
+Author: onsightit <steve@onsightit.com>
+Date:   Mon Aug 10 14:18:22 2015 -0600
+
+    no checkproofofstakepow when mining
+
+commit 3a4ca18130ea0b6658955f0503c78993f8e65d51
+Author: onsightit <steve@onsightit.com>
+Date:   Mon Aug 10 14:05:53 2015 -0600
+
+    ignore times
+
+commit 034450f7a4fb7dccd3d8fd746449a4d8de9be459
+Author: onsightit <steve@onsightit.com>
+Date:   Mon Aug 10 13:45:31 2015 -0600
+
+    new stake modifier logic for PoW indexes
+
+commit 8b2e03f98d645f50fad208d306475b15f4caaa58
+Author: onsightit <steve@onsightit.com>
+Date:   Mon Aug 10 02:19:55 2015 -0600
+
+    one last bug
+
+commit e3d8e09174a5ee4fcfcbface68fb530a4e703177
+Author: onsightit <steve@onsightit.com>
+Date:   Mon Aug 10 01:38:16 2015 -0600
+
+    GA candidate
+
+commit f3ad9843b1ccd88e0c3104f80e60a4b8e9e74c5a
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Aug 9 23:04:17 2015 -0600
+
+    revert
+
+commit 66fcbe2b1a3957b56eef1eefe178c35e3ae29fef
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Aug 9 22:56:29 2015 -0600
+
+    integer overflow fix, max qint64 value is 9223372036854775807
+
+commit 083018802171590eee8b714b81a5a884f6e75fb1
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Aug 9 21:56:30 2015 -0600
+
+    memory error?
+
+commit 804a66edf4fcdec25dca2087b4d90470cdbefd79
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Aug 9 21:46:50 2015 -0600
+
+    new headers
+
+commit 72000c9cfe825051d018f3d19acca91a0300f5cc
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Aug 9 21:21:00 2015 -0600
+
+    prtotocol type bug fix
+
+commit bc7c39c51d358dd11bef15354fa91c3ea9e40009
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Aug 9 10:57:07 2015 -0600
+
+    some bug fixes, some hardening, and stake modifier testing
+
+commit eee37594a9e4cf8cd148d67a511726922bcef759
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Aug 9 08:30:26 2015 -0600
+
+    rti changes and removed old PoS code
+
+commit 3566bcee1e890314407642b82792c6d0721ff752
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Aug 9 07:22:57 2015 -0600
+
+    Disable Reload Blockchain in PoW
+
+commit efb79829999196fb7fff16c9ca8add2c646eb0cc
+Author: onsightit <steve@onsightit.com>
+Date:   Sat Aug 8 16:16:24 2015 -0600
+
+    too much gravity for testnet
+
+commit 7b32fb32e1ef6a82847698a1f1b5f26d72855467
+Author: onsightit <steve@onsightit.com>
+Date:   Sat Aug 8 15:46:02 2015 -0600
+
+    another testnet diff backed out
+
+commit ae7dc2c920a2cf3530329aa17f97897f3181829b
+Author: onsightit <steve@onsightit.com>
+Date:   Sat Aug 8 14:41:38 2015 -0600
+
+    testnet mining rewards now match mainnet
+
+commit 3f59688eed1c884ddca56618268fd8df0d1eec14
+Author: onsightit <steve@onsightit.com>
+Date:   Sat Aug 8 13:37:48 2015 -0600
+
+    one more try
+
+commit dd952c50f89b60bc88cbecc21bfca138ebcb3108
+Author: onsightit <steve@onsightit.com>
+Date:   Sat Aug 8 13:29:26 2015 -0600
+
+    I guess we should get the version first
+
+commit b5694f252cf4bd78a5ce01602c4d204943b48159
+Author: onsightit <steve@onsightit.com>
+Date:   Sat Aug 8 13:18:52 2015 -0600
+
+    try it in a more meaning full location
+
+commit 388582b02b665320fd05d708516a571490612aa3
+Author: onsightit <steve@onsightit.com>
+Date:   Sat Aug 8 13:05:54 2015 -0600
+
+    moved legacy protocol flag to the network thread
+
+commit c4576ed0c767107b069498cc5df572d8bebb1ff5
+Author: onsightit <steve@onsightit.com>
+Date:   Sat Aug 8 10:56:45 2015 -0600
+
+    better way to serialize to legacy nodes
+
+commit cbe653dc614ae2b7efbde0097342d057a6285ecb
+Author: onsightit <steve@onsightit.com>
+Date:   Sat Aug 8 09:14:06 2015 -0600
+
+    color tweaks
+
+commit 40b99fce0423ce4baca01ea4f0fa533947b8bc16
+Author: onsightit <steve@onsightit.com>
+Date:   Sat Aug 8 08:00:54 2015 -0600
+
+    color changes
+
+commit 30df265a0e36c702b2289b453ac1aa0fedb53438
+Author: onsightit <steve@onsightit.com>
+Date:   Sat Aug 8 07:40:42 2015 -0600
+
+    back on release
+
+commit 31a5088762118d3ba5426597b56a26c2af0cc78b
+Author: onsightit <steve@onsightit.com>
+Date:   Sat Aug 8 07:39:02 2015 -0600
+
+    back on testnet
+
+commit 88e3c45d66083517163a8cf94638264bed79a5e2
+Author: onsightit <steve@onsightit.com>
+Date:   Fri Aug 7 18:35:49 2015 -0600
+
+    with these, as well
+
+commit b5bc64a0bd2f64c6839c319775e38540bbc3cb38
+Author: onsightit <steve@onsightit.com>
+Date:   Fri Aug 7 18:32:41 2015 -0600
+
+    This seems good
+
+commit 625df7f8c1b327280f8cbe057af07545a78fbc1a
+Author: onsightit <steve@onsightit.com>
+Date:   Fri Aug 7 10:36:07 2015 -0600
+
+    need to roll-back nBestBlockTime since checking blocks in reverse order
+
+commit 61076e3b42db05e9364ce246b8236186b2c12144
+Author: onsightit <steve@onsightit.com>
+Date:   Fri Aug 7 10:34:15 2015 -0600
+
+    debug
+
+commit 09cd0ac8e2bf8472293b6479d997294274cc8579
+Author: onsightit <steve@onsightit.com>
+Date:   Thu Aug 6 16:17:21 2015 -0600
+
+    re-add images
+
+commit 7c8bb3d82049730f747180eb953b0d20fd4857c9
+Merge: 650c02f f252427
+Author: onsightit <steve@onsightit.com>
+Date:   Thu Aug 6 14:25:03 2015 -0600
+
+    Merge branch 'master' of https://github.com/onsightit/solarcoin
+
+commit 650c02fa8e67cd7f86fe37d8e46004e0d427fb9f
+Author: onsightit <steve@onsightit.com>
+Date:   Thu Aug 6 14:24:55 2015 -0600
+
+    new chat url
+
+commit f252427e1f820fb3fd92c16c1cd2757c0267e5bc
+Merge: b51e6cd e5dcf37
+Author: onsightit <steve@onsightit.com>
+Date:   Wed Aug 5 20:08:05 2015 -0600
+
+    Merge pull request #2 from nickgogerty/patch-3
+    
+    Delete headerAddressSmall.png
+
+commit b51e6cd3f45a4c871d243f377da99960fe514566
+Merge: 23a2fd1 3025a25
+Author: onsightit <steve@onsightit.com>
+Date:   Wed Aug 5 20:07:59 2015 -0600
+
+    Merge pull request #3 from nickgogerty/patch-4
+    
+    Delete headerBlockchain.png
+
+commit 23a2fd178617c4530e0e0554ea12ea563a6bec20
+Merge: 1463b12 79fdd31
+Author: onsightit <steve@onsightit.com>
+Date:   Wed Aug 5 20:07:53 2015 -0600
+
+    Merge pull request #4 from nickgogerty/patch-5
+    
+    Delete headerBlockchainSmall.png
+
+commit 1463b123c072f9a758817da09235a28efeede15d
+Merge: 5e150d7 07dbfab
+Author: onsightit <steve@onsightit.com>
+Date:   Wed Aug 5 20:07:48 2015 -0600
+
+    Merge pull request #5 from nickgogerty/patch-6
+    
+    Delete headerChat.png
+
+commit 5e150d7e1e17eeb415de78d2ecde41c0e362edb0
+Merge: 43224cc 3ad47c4
+Author: onsightit <steve@onsightit.com>
+Date:   Wed Aug 5 20:07:42 2015 -0600
+
+    Merge pull request #6 from nickgogerty/patch-7
+    
+    Delete headerChatSmall.png
+
+commit 43224cc6c2d8efa7bec6f90ac49db52ebb8ff342
+Merge: 64665cc 4f4f7e8
+Author: onsightit <steve@onsightit.com>
+Date:   Wed Aug 5 20:07:33 2015 -0600
+
+    Merge pull request #7 from nickgogerty/patch-8
+    
+    Delete headerForums.png
+
+commit 64665ccd4b61f441af4caebe6b2bcbf1b3910a46
+Merge: 655fbdd 280a4f6
+Author: onsightit <steve@onsightit.com>
+Date:   Wed Aug 5 20:07:28 2015 -0600
+
+    Merge pull request #8 from nickgogerty/patch-9
+    
+    Delete headerForumsSmall.png
+
+commit 655fbddbf33605630b9f2d131e684817091c3c97
+Merge: c06f5cf 0f84ffb
+Author: onsightit <steve@onsightit.com>
+Date:   Wed Aug 5 20:07:22 2015 -0600
+
+    Merge pull request #9 from nickgogerty/patch-10
+    
+    Delete headerGetSolarCoin.png
+
+commit c06f5cf2b214da676a1d3cc1ffd8bd1cd15e85bb
+Merge: 0b47c26 d5bd8f6
+Author: onsightit <steve@onsightit.com>
+Date:   Wed Aug 5 20:02:13 2015 -0600
+
+    Merge pull request #10 from nickgogerty/patch-11
+    
+    Delete headerGetSolarCoinSmall.png
+
+commit 0b47c26a87dded9f9925f58d4a878546d4b942d8
+Merge: af47e50 873dc4c
+Author: onsightit <steve@onsightit.com>
+Date:   Wed Aug 5 20:02:06 2015 -0600
+
+    Merge pull request #11 from nickgogerty/patch-12
+    
+    Delete headerHistory.png
+
+commit af47e5012a875b0da583628277880d3ce687c2dd
+Merge: 55fd1b3 de779ee
+Author: onsightit <steve@onsightit.com>
+Date:   Wed Aug 5 20:02:00 2015 -0600
+
+    Merge pull request #12 from nickgogerty/patch-13
+    
+    Delete headerHistorySmall.png
+
+commit 55fd1b3679f038b2f37127107dde0916788f4207
+Merge: f85a97b eff9cb2
+Author: onsightit <steve@onsightit.com>
+Date:   Wed Aug 5 20:01:53 2015 -0600
+
+    Merge pull request #13 from nickgogerty/patch-14
+    
+    Delete headerOverview.png
+
+commit f85a97b9e236844b73a1f8a7f925e9368551e1f9
+Merge: dd75bec 45bc6b2
+Author: onsightit <steve@onsightit.com>
+Date:   Wed Aug 5 20:01:47 2015 -0600
+
+    Merge pull request #14 from nickgogerty/patch-15
+    
+    Delete headerOverviewSmall.png
+
+commit dd75becfd4c86ee7fe2def8413e504419b83a0dd
+Merge: e9ed053 6f03d91
+Author: onsightit <steve@onsightit.com>
+Date:   Wed Aug 5 20:01:40 2015 -0600
+
+    Merge pull request #15 from nickgogerty/patch-16
+    
+    Delete headerReceive.png
+
+commit e9ed0531e6dd3be27045039d62bfb3434579b8f9
+Merge: 606e009 3ce6672
+Author: onsightit <steve@onsightit.com>
+Date:   Wed Aug 5 20:01:30 2015 -0600
+
+    Merge pull request #16 from nickgogerty/patch-17
+    
+    Delete headerReceiveSmall.png
+
+commit 606e009f21a0a5a47d15ffc6c01a24bd1466fc95
+Merge: 101c65c 2634603
+Author: onsightit <steve@onsightit.com>
+Date:   Wed Aug 5 20:01:22 2015 -0600
+
+    Merge pull request #17 from nickgogerty/patch-18
+    
+    Delete headerSend.png
+
+commit 101c65c0bb247b04bf9e55e34a0fbb0e231dfa99
+Merge: 03c9ae3 3276124
+Author: onsightit <steve@onsightit.com>
+Date:   Wed Aug 5 20:01:03 2015 -0600
+
+    Merge pull request #18 from nickgogerty/patch-19
+    
+    Delete headerSendSmall.png
+
+commit 03c9ae36c5fb4889748f9cde4eabcb21d208e66b
+Merge: f3fed9a 3dc5c35
+Author: onsightit <steve@onsightit.com>
+Date:   Wed Aug 5 20:00:51 2015 -0600
+
+    Merge pull request #19 from nickgogerty/patch-20
+    
+    Delete splash.png
+
+commit f3fed9adb44e9b9f17c43c0eafeed5dfda7176f3
+Merge: 1274b0c 7af31f2
+Author: onsightit <steve@onsightit.com>
+Date:   Wed Aug 5 19:59:09 2015 -0600
+
+    Merge pull request #1 from nickgogerty/patch-1
+    
+    Delete headerAbout.png
+
+commit 1274b0c85d0f031c6052476c43b9f16a99806d4c
+Author: onsightit <steve@onsightit.com>
+Date:   Wed Aug 5 16:54:18 2015 -0600
+
+    brain fart
+
+commit 5089eccf740a6335e854a0e25efec4d1e1cb0619
+Author: onsightit <steve@onsightit.com>
+Date:   Wed Aug 5 16:51:44 2015 -0600
+
+    found actual bug and changed txn nTime serialization back to not SER_HASH
+
+commit 0c6303d539c8d1fa78bcac5e8e83f1881f255066
+Author: onsightit <steve@onsightit.com>
+Date:   Wed Aug 5 11:37:31 2015 -0600
+
+    coinbase nTime nulled in serialization
+
+commit 9354817712fe71d561a9f2acfe3fc1ffec97eae9
+Author: onsightit <steve@onsightit.com>
+Date:   Wed Aug 5 10:27:29 2015 -0600
+
+    even better
+
+commit 3d07735277870de4c70b6338518f6a207a67933a
+Author: onsightit <steve@onsightit.com>
+Date:   Wed Aug 5 10:11:32 2015 -0600
+
+    better solution
+
+commit a033c94e0ece328efd75d7a08612063dac3fb855
+Author: onsightit <steve@onsightit.com>
+Date:   Wed Aug 5 09:48:55 2015 -0600
+
+    avoid genesis block
+
+commit 75e270af1573b13bd2fc187c319c97e52a18f35e
+Author: onsightit <steve@onsightit.com>
+Date:   Wed Aug 5 09:38:16 2015 -0600
+
+    avoid genesis block
+
+commit 704ab1aad705d83493f74c6dac0c57919c13bb64
+Author: onsightit <steve@onsightit.com>
+Date:   Wed Aug 5 09:16:11 2015 -0600
+
+    readfromdisk error fix
+
+commit 3dc5c35c620ab90be8465359f0d769020fae5ff0
+Author: nickgogerty <nickgogerty@users.noreply.github.com>
+Date:   Tue Aug 4 22:45:47 2015 -0400
+
+    Delete splash.png
+    
+    replace
+
+commit 3276124e74308dbaed13707a260de6ab96bc90d9
+Author: nickgogerty <nickgogerty@users.noreply.github.com>
+Date:   Tue Aug 4 22:23:16 2015 -0400
+
+    Delete headerSendSmall.png
+    
+    replace
+
+commit 2634603144e8fa09eb49f4e9de0b747045233098
+Author: nickgogerty <nickgogerty@users.noreply.github.com>
+Date:   Tue Aug 4 22:22:43 2015 -0400
+
+    Delete headerSend.png
+    
+    replace
+
+commit 3ce6672aa23a60b30f4bdb81e08c0730a80916b4
+Author: nickgogerty <nickgogerty@users.noreply.github.com>
+Date:   Tue Aug 4 22:22:00 2015 -0400
+
+    Delete headerReceiveSmall.png
+    
+    replace
+
+commit 6f03d9157d92c257d6bbcaedeab830e6267b970d
+Author: nickgogerty <nickgogerty@users.noreply.github.com>
+Date:   Tue Aug 4 22:21:12 2015 -0400
+
+    Delete headerReceive.png
+    
+    replace
+
+commit 45bc6b20f8d05000e3789bf205c33bcad7d39ebc
+Author: nickgogerty <nickgogerty@users.noreply.github.com>
+Date:   Tue Aug 4 22:20:19 2015 -0400
+
+    Delete headerOverviewSmall.png
+    
+    replace
+
+commit eff9cb2f32353725b52b1a177191c595b16c1e93
+Author: nickgogerty <nickgogerty@users.noreply.github.com>
+Date:   Tue Aug 4 22:19:35 2015 -0400
+
+    Delete headerOverview.png
+    
+    replace
+
+commit de779eebc9d9b45b1f6701702e09184211098149
+Author: nickgogerty <nickgogerty@users.noreply.github.com>
+Date:   Tue Aug 4 22:18:53 2015 -0400
+
+    Delete headerHistorySmall.png
+    
+    see
+
+commit 873dc4cce3ff1847c92c4a686b24decc87ea68c1
+Author: nickgogerty <nickgogerty@users.noreply.github.com>
+Date:   Tue Aug 4 22:18:05 2015 -0400
+
+    Delete headerHistory.png
+    
+    replace
+
+commit d5bd8f6db364e00d5e1280e228d3ef0c92e6503e
+Author: nickgogerty <nickgogerty@users.noreply.github.com>
+Date:   Tue Aug 4 22:17:25 2015 -0400
+
+    Delete headerGetSolarCoinSmall.png
+    
+    delete
+
+commit 0f84ffb00ff733ea8ce26f66a051e4e9fc8b518d
+Author: nickgogerty <nickgogerty@users.noreply.github.com>
+Date:   Tue Aug 4 22:16:33 2015 -0400
+
+    Delete headerGetSolarCoin.png
+    
+    see
+
+commit 280a4f634c2028f71be2acd623d3732db5e37253
+Author: nickgogerty <nickgogerty@users.noreply.github.com>
+Date:   Tue Aug 4 22:15:39 2015 -0400
+
+    Delete headerForumsSmall.png
+    
+    see
+
+commit 4f4f7e849600d21d6a244b3ab74c80693e6fca66
+Author: nickgogerty <nickgogerty@users.noreply.github.com>
+Date:   Tue Aug 4 22:14:44 2015 -0400
+
+    Delete headerForums.png
+    
+    see attached.
+
+commit 3ad47c47e82d9c45378b2f4367e64ecaf062f5e8
+Author: nickgogerty <nickgogerty@users.noreply.github.com>
+Date:   Tue Aug 4 22:13:39 2015 -0400
+
+    Delete headerChatSmall.png
+    
+    remove and replace
+
+commit 07dbfabf8d6437aa9f4aefbd190ecb307fffe9ee
+Author: nickgogerty <nickgogerty@users.noreply.github.com>
+Date:   Tue Aug 4 22:12:38 2015 -0400
+
+    Delete headerChat.png
+    
+    replace
+
+commit 79fdd31c9b777332c3fb462d02cf5ec11084aa02
+Author: nickgogerty <nickgogerty@users.noreply.github.com>
+Date:   Tue Aug 4 22:10:18 2015 -0400
+
+    Delete headerBlockchainSmall.png
+    
+    see attached change.
+
+commit 3025a254cd45429ba294e7e5de63c06a058dfa60
+Author: nickgogerty <nickgogerty@users.noreply.github.com>
+Date:   Tue Aug 4 22:07:24 2015 -0400
+
+    Delete headerBlockchain.png
+    
+    see new image.
+
+commit e5dcf37c8751bccea240d68460c818c7c0214372
+Author: nickgogerty <nickgogerty@users.noreply.github.com>
+Date:   Tue Aug 4 22:04:22 2015 -0400
+
+    Delete headerAddressSmall.png
+    
+    replacing something new
+
+commit 7af31f2f12722d19d9a067fb1c53368e9a883528
+Author: nickgogerty <nickgogerty@users.noreply.github.com>
+Date:   Tue Aug 4 21:53:26 2015 -0400
+
+    Delete headerAbout.png
+
+commit 69aff8e4a026e8883f931a2e8f87de8214bc39a1
+Author: onsightit <steve@onsightit.com>
+Date:   Tue Aug 4 16:40:04 2015 -0600
+
+    txn create fix
+
+commit c79b2f813a2e982c5959fb7abeed0b7e4788c85d
+Author: onsightit <steve@onsightit.com>
+Date:   Tue Aug 4 16:24:19 2015 -0600
+
+    block not indexed yet :(
+
+commit 81bbe027c8cf240e4762b8de3579657e19642346
+Author: onsightit <steve@onsightit.com>
+Date:   Tue Aug 4 15:41:55 2015 -0600
+
+    new hashProofOfStake for PoW
+
+commit 414e4785ee3b15144c11b03b51769dde0cdd4dda
+Author: onsightit <steve@onsightit.com>
+Date:   Tue Aug 4 13:58:54 2015 -0600
+
+    code hardening
+
+commit eaec52ea529aa0df203e0859d5fe29d8211f006b
+Author: onsightit <steve@onsightit.com>
+Date:   Mon Aug 3 14:15:46 2015 -0600
+
+    earning a bit too much interest
+
+commit e1098e8d933b1ad8e14a79322e508a62fd63ed78
+Author: onsightit <steve@onsightit.com>
+Date:   Mon Aug 3 10:04:37 2015 -0600
+
+    more stake modifier tweaks for PoW
+
+commit 6f3a6c05aeeebe762e3cee282add6c087e6ebd10
+Author: onsightit <steve@onsightit.com>
+Date:   Mon Aug 3 08:38:26 2015 -0600
+
+    all PoW blocks have stake modifier = 0
+
+commit 11d0e814e1453332b22a6eb232c63577b22ca351
+Author: onsightit <steve@onsightit.com>
+Date:   Mon Aug 3 07:32:58 2015 -0600
+
+    stakemodifier for PoW is 0
+
+commit 0ae33a7837277d6ad91f06f0372bfe4bb48c28d2
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Aug 2 23:41:08 2015 -0600
+
+    StakeModifier does not have to be valid in PoW
+
+commit 78a467bcf92530d3265c7d8856a917c32722d240
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Aug 2 23:29:16 2015 -0600
+
+    cleanup
+
+commit cf6376a88d6815e7c49ff3ce12490fa8b5979b2a
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Aug 2 20:58:34 2015 -0600
+
+    cleanup
+
+commit 2f981e5e0d0510f69a55acecd248f4277db65739
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Aug 2 20:12:20 2015 -0600
+
+    simplified
+
+commit 505fd6142d279f91ba51c0aa172f330b4c8e3491
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Aug 2 19:28:41 2015 -0600
+
+    debugging
+
+commit 9935aeff8423e9ba378c7d5b2477165e9773a4ef
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Aug 2 19:23:58 2015 -0600
+
+    debugging
+
+commit 242f6a9f17dfbb77e3f3d2e9fb77c3a1b0c5d5ed
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Aug 2 19:20:09 2015 -0600
+
+    debugging
+
+commit ec4e2300d47fc272c07c22d8e6089c1ae0c1185b
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Aug 2 17:36:38 2015 -0600
+
+    try true
+
+commit 171812395bd2ad1b9623da76a7c565f6c1806527
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Aug 2 17:33:50 2015 -0600
+
+    avoid the genesis block
+
+commit 625004bdfcda0f00fe6d70dfb84309aad8123cd5
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Aug 2 17:27:38 2015 -0600
+
+    debugging
+
+commit 42d118b8dd76ce0e3b998c953eac3a987f3b3a28
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Aug 2 17:15:12 2015 -0600
+
+    debugging
+
+commit 415fc0ba7cbc5f9154a27737f3400c9abef8a5e7
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Aug 2 17:05:32 2015 -0600
+
+    segv fix
+
+commit fc1d946b5a3d0f03418fd14800a07d40f167b572
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Aug 2 16:52:00 2015 -0600
+
+    almost there
+
+commit 7883453ed11bc2ad70a165e47173aa3b0c6d9cf5
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Aug 2 16:08:35 2015 -0600
+
+    forget reading the block from disk, this is either mined or sent to us.
+
+commit 4ab7b7922ade9a3c1c36d77f2ea5f242d5cdcce9
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Aug 2 15:13:28 2015 -0600
+
+    revert
+
+commit 3d743067ba1cef3586fdf4e10bde48837c9aef45
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Aug 2 15:08:04 2015 -0600
+
+    only if pfrom
+
+commit 77802c4d13333118377ba2179ccec59cf3f11a1d
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Aug 2 14:51:37 2015 -0600
+
+    hack to get hashProofOfStake into a PoW index
+
+commit f9690a1bd7fe3fd75070791d0c80501ff1ad6870
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Aug 2 13:06:50 2015 -0600
+
+    pindex changes to record stake values in PoW blocks
+
+commit 708239bb0d430ee487f9879db25e33f149041eef
+Author: onsightit <steve@onsightit.com>
+Date:   Sat Aug 1 12:28:18 2015 -0600
+
+    init new txn nTime
+
+commit 69793dde26545857bce866891da3ca44b15e8437
+Author: onsightit <steve@onsightit.com>
+Date:   Fri Jul 31 16:20:49 2015 -0600
+
+    debugging
+
+commit 2f3b1752c90b9a8979ba271a6453d3ffdcf5f7c1
+Author: onsightit <steve@onsightit.com>
+Date:   Fri Jul 31 15:44:24 2015 -0600
+
+    try this again
+
+commit 00a9bc47abda0ced2fe23692974e906ce28d84ea
+Author: onsightit <steve@onsightit.com>
+Date:   Fri Jul 31 15:36:44 2015 -0600
+
+    make txn time equal to best received
+
+commit 686572d917633d3d409b23fce7a1ff3195effebc
+Author: onsightit <steve@onsightit.com>
+Date:   Fri Jul 31 11:31:29 2015 -0600
+
+    new estimated txn time
+
+commit f87aa31fedcd17bdafb7cddfd4a62077d9bca712
+Author: onsightit <steve@onsightit.com>
+Date:   Fri Jul 31 10:45:05 2015 -0600
+
+    too far in future
+
+commit 502c3c34b7e9c71cf4c33d6c77fa9754d0e3443c
+Author: onsightit <steve@onsightit.com>
+Date:   Fri Jul 31 10:11:14 2015 -0600
+
+    support relative conf files
+
+commit 71b14b8c54fb4bd7cd774a2c7432ac5ef230760a
+Author: onsightit <steve@onsightit.com>
+Date:   Fri Jul 31 09:11:25 2015 -0600
+
+    cleanup debug comments
+
+commit 3c5438ac59a9e6bec774d56330b27e798d6845a3
+Author: onsightit <steve@onsightit.com>
+Date:   Fri Jul 31 08:29:21 2015 -0600
+
+    back on testnet with lower pow diff
+
+commit 53bdc47dae0a9071f85b16baa49953d1a8a686d7
+Author: onsightit <steve@onsightit.com>
+Date:   Fri Jul 31 08:06:06 2015 -0600
+
+    delete
+
+commit 2984217ce301da4af24b432ec87ccf7e55074830
+Author: onsightit <steve@onsightit.com>
+Date:   Fri Jul 31 07:50:50 2015 -0600
+
+    legacy txns get prev blocktime + spacing
+
+commit 0913ddaf4e9f7f405c7f17e12ee99790bd2aaba6
+Author: onsightit <steve@onsightit.com>
+Date:   Thu Jul 30 21:26:25 2015 -0600
+
+    new golden code to handle CTransaction serialization
+
+commit 7e0f7f4482fbfb84a86dd3e0088d8dbe823edee5
+Author: onsightit <steve@onsightit.com>
+Date:   Thu Jul 30 16:30:18 2015 -0600
+
+    back to one hour min stake age
+
+commit 996c02387fd68018f489d1dad091e2585fb31294
+Author: onsightit <steve@onsightit.com>
+Date:   Thu Jul 30 16:01:27 2015 -0600
+
+    new staking icons
+
+commit c28ab29e13c9a0e8a1a2767a5183e3f8746ab28d
+Author: onsightit <steve@onsightit.com>
+Date:   Thu Jul 30 14:55:33 2015 -0600
+
+    this update affects the icon only
+
+commit adcedf38b40cacc79da9df330de6bc43d5a5f077
+Author: onsightit <steve@onsightit.com>
+Date:   Thu Jul 30 14:41:09 2015 -0600
+
+    getting close to a reasonable pow weight
+
+commit b37898e25024f04f760290e5205744a9316e27e7
+Author: onsightit <steve@onsightit.com>
+Date:   Thu Jul 30 14:33:49 2015 -0600
+
+    lower pow weight
+
+commit df8eae5265aad691aff59438f65c4c3167681a5d
+Author: onsightit <steve@onsightit.com>
+Date:   Thu Jul 30 14:30:23 2015 -0600
+
+    higher pow weight
+
+commit 00ff805c8203bdf0085b01a5bd43d6a59848ae6c
+Author: onsightit <steve@onsightit.com>
+Date:   Thu Jul 30 14:26:18 2015 -0600
+
+    set pow difficulty
+
+commit 9e4860df166ce7afe13d97b613107e52a8376bf2
+Author: onsightit <steve@onsightit.com>
+Date:   Thu Jul 30 10:42:08 2015 -0600
+
+    no need for time bump now
+
+commit 1ce0f8a86071ee347e7c0a1bc2823b3fa2ac4d05
+Author: onsightit <steve@onsightit.com>
+Date:   Thu Jul 30 09:47:53 2015 -0600
+
+    reinstate new txn version
+
+commit 8272144ded062da88813e551ee06bd0fa2236b24
+Author: onsightit <steve@onsightit.com>
+Date:   Thu Jul 30 06:57:02 2015 -0600
+
+    back to using GET_SERHASH
+
+commit 437621f45a2d95624184ebf77486a125806e422e
+Author: onsightit <steve@onsightit.com>
+Date:   Wed Jul 29 23:03:22 2015 -0600
+
+    revert
+
+commit 4dcdb9699c7a32554ec1a679f5ab80dadfb0414d
+Author: onsightit <steve@onsightit.com>
+Date:   Wed Jul 29 22:27:20 2015 -0600
+
+    compile error fix
+
+commit 719c6fa5945e84ae9d1fe09f4ca721ea11b972e0
+Author: onsightit <steve@onsightit.com>
+Date:   Wed Jul 29 21:52:53 2015 -0600
+
+    egacy transactions that get initialized with current time if not in a block before LAST_POW_BLOCK
+
+commit 40db3bf641f3fd7c20ddd458e917561d7fdec249
+Author: onsightit <steve@onsightit.com>
+Date:   Wed Jul 29 17:32:40 2015 -0600
+
+    LEGACY_VERSION_2 txn timestamps set to zero
+
+commit 75ccae082fd3beee42c2c2ab1c262100b5adb08f
+Author: onsightit <steve@onsightit.com>
+Date:   Wed Jul 29 09:58:49 2015 -0600
+
+    getcredit for pow txns
+
+commit dd854d32c6071c2a933446355081543db6568d59
+Author: onsightit <steve@onsightit.com>
+Date:   Tue Jul 28 23:30:13 2015 -0600
+
+    ui tweak
+
+commit cb7fbe867759a563f65e5e539bbd4702fd2ca85c
+Author: onsightit <steve@onsightit.com>
+Date:   Tue Jul 28 23:13:20 2015 -0600
+
+    more nTime bug fixes
+
+commit 650cf26c132d5b27e2c6e54df877eee83c1f48ea
+Author: onsightit <steve@onsightit.com>
+Date:   Tue Jul 28 22:32:55 2015 -0600
+
+    pow to post ntime fix
+
+commit 9cb5e3d05738f74b7cbc599a3688348e57aaf30b
+Author: onsightit <steve@onsightit.com>
+Date:   Tue Jul 28 22:05:45 2015 -0600
+
+    bug?
+
+commit 105566b559ff40a0b70085fabe9ed870c992c873
+Author: onsightit <steve@onsightit.com>
+Date:   Tue Jul 28 16:17:21 2015 -0600
+
+    proper printfs
+
+commit 410b0e9d7ee19a67e03b3c10ab1ac42c9b4c1111
+Author: onsightit <steve@onsightit.com>
+Date:   Tue Jul 28 13:41:00 2015 -0600
+
+    fix segv on missing encryption lable
+
+commit 17c6da85727a5d1a1c1a2fb7ff99d51bbb812d9d
+Author: onsightit <steve@onsightit.com>
+Date:   Tue Jul 28 13:12:23 2015 -0600
+
+    encrypt wallet in testnet
+
+commit f57c49a604da29c639620daa3e9e2310bdd9cc1a
+Author: onsightit <steve@onsightit.com>
+Date:   Tue Jul 28 10:27:23 2015 -0600
+
+    need ntime in pow txns
+
+commit c16710496dc8923a02693f9d674787072213e0c8
+Author: onsightit <steve@onsightit.com>
+Date:   Tue Jul 28 09:02:38 2015 -0600
+
+    GetPoSKernelPS changes for PoST fork
+
+commit 8252368da3028ebabe422485e5011aee8f618064
+Author: onsightit <steve@onsightit.com>
+Date:   Mon Jul 27 22:21:17 2015 -0600
+
+    various bug fixes
+
+commit 7d56802bf2369f43508bc41afc63049e89d6040b
+Author: onsightit <steve@onsightit.com>
+Date:   Mon Jul 27 17:35:53 2015 -0600
+
+    back to testnet
+
+commit cf7aae9db016c8fa20a547d96e15b06d7ede045d
+Author: onsightit <steve@onsightit.com>
+Date:   Mon Jul 27 17:27:48 2015 -0600
+
+    compatibility with 1.5 txns and remove debug code
+
+commit b7dce116e3943830ed7a4edbe8cb7166029cac7d
+Author: onsightit <steve@onsightit.com>
+Date:   Mon Jul 27 15:36:56 2015 -0600
+
+    no coinbase timestamp in SLR
+
+commit 7de971b2a52a172a10d65eedaebf421efa60594c
+Author: onsightit <steve@onsightit.com>
+Date:   Mon Jul 27 14:56:46 2015 -0600
+
+    Removed debug code and refactored serialization
+
+commit 4041340c21593390969d53a996c91de556c5e1e9
+Author: onsightit <steve@onsightit.com>
+Date:   Mon Jul 27 09:12:10 2015 -0600
+
+    rm checkpoint
+
+commit f5247c906bc7174cbe64b951a0b4779ce4d508c8
+Author: onsightit <steve@onsightit.com>
+Date:   Mon Jul 27 01:17:08 2015 -0600
+
+    txn compare bug in pow blocks
+
+commit 3df915a39aeae30092c178f5fc5ca8a1bf39194d
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Jul 26 21:00:14 2015 -0600
+
+    added a testnet checkpoint
+
+commit 47a2287a24f4fe4983c7b57be4cdfa84669103bb
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Jul 26 20:39:15 2015 -0600
+
+    chmod
+
+commit 77b22bf9605e266ba5f5799aabb9be83b8f72cd1
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Jul 26 20:34:41 2015 -0600
+
+    oops
+
+commit 7a11e0610549568a7656470ccf6323a4cb9f1564
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Jul 26 20:23:31 2015 -0600
+
+    redo on the depth thing
+
+commit b440049780c4910d4b0f0b08b992a564a76f4c65
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Jul 26 15:39:17 2015 -0600
+
+    refactor code for legacy txn hashes
+
+commit ab8c46d2e3ba571911a8bf76bc13163398d38943
+Author: onsightit <steve@onsightit.com>
+Date:   Sat Jul 25 11:29:29 2015 -0600
+
+    hashSyncCheckpoint bug
+
+commit 60ecdb580dbbb619637a8e0f8a01a0979fc840ab
+Author: onsightit <steve@onsightit.com>
+Date:   Sat Jul 25 05:46:24 2015 -0600
+
+    min age 30
+
+commit 5972afcdb9ef99931f585f85e04c6b8eba4d5321
+Author: onsightit <steve@onsightit.com>
+Date:   Sat Jul 25 05:37:47 2015 -0600
+
+    new testnet block height, reward
+
+commit 1787d67912bfa89a35868915d6805b2e22f1954a
+Author: onsightit <steve@onsightit.com>
+Date:   Sat Jul 25 05:26:18 2015 -0600
+
+    re-revert
+
+commit d15985f20c96b6983b319d42b70ab7c9f8729369
+Author: onsightit <steve@onsightit.com>
+Date:   Sat Jul 25 04:51:57 2015 -0600
+
+    revert nTime
+
+commit 3f57d951ed5b68be4c0d7208921e0bd29f96d407
+Author: onsightit <steve@onsightit.com>
+Date:   Fri Jul 24 23:46:16 2015 -0600
+
+    transaction timestamp bug
+
+commit 49f97bd7d388991d1ada8db953d574fd124c7821
+Author: onsightit <steve@onsightit.com>
+Date:   Fri Jul 24 17:21:51 2015 -0600
+
+    end testnet pow at 500
+
+commit 761f59f12eed76cc52153106849765ad9ebaa721
+Author: onsightit <steve@onsightit.com>
+Date:   Fri Jul 24 16:17:54 2015 -0600
+
+    fix printfs
+
+commit 15ffbcd7f6cf6d0da06af811963a7e22a1fe244a
+Author: onsightit <steve@onsightit.com>
+Date:   Fri Jul 24 14:18:01 2015 -0600
+
+    no testnet gravity
+
+commit 861448fd12c3d44d9ec1c0536e6213c5e0d1a4c5
+Author: onsightit <steve@onsightit.com>
+Date:   Fri Jul 24 13:37:44 2015 -0600
+
+    no testnet gravity
+
+commit 4295c573f4045f59bc07144996326a2b827d5ac6
+Author: onsightit <steve@onsightit.com>
+Date:   Fri Jul 24 13:21:52 2015 -0600
+
+    no testnet gravity
+
+commit 94913cbd6910e3d8d50ed69583c90fef63e9be94
+Author: onsightit <steve@onsightit.com>
+Date:   Fri Jul 24 11:20:07 2015 -0600
+
+    min stake age = 15 minutes for tesnet
+
+commit b55d2edcfd48d0a8c0b29357428ffabfff9e8c6e
+Author: onsightit <steve@onsightit.com>
+Date:   Fri Jul 24 11:10:38 2015 -0600
+
+    lots of debug statements, LAST_POW_BLOCK adjustments
+
+commit ed3da9da6c06780efeee806d27efaa538adc6d49
+Author: onsightit <steve@onsightit.com>
+Date:   Thu Jul 23 20:29:08 2015 -0600
+
+    testnet pow limits
+
+commit f656685e36585e8dd6c2f3ccc2a727ae6e926f74
+Author: onsightit <steve@onsightit.com>
+Date:   Thu Jul 23 20:14:06 2015 -0600
+
+    testnet pow limits
+
+commit 00cef46b5e56fac07801ad7106ffdc5e4ca7253a
+Author: onsightit <steve@onsightit.com>
+Date:   Thu Jul 23 19:16:34 2015 -0600
+
+    testnet pow limits
+
+commit f5453761885897750569967599e0f1a92e16719c
+Author: onsightit <steve@onsightit.com>
+Date:   Thu Jul 23 18:58:46 2015 -0600
+
+    testnet pow limits
+
+commit ceb428a7bd152deb6d415e08d0a3650056850d45
+Author: onsightit <steve@onsightit.com>
+Date:   Thu Jul 23 18:16:22 2015 -0600
+
+    testnet pow limits
+
+commit bfc1d277841af1a8bba247be8716257684e67e97
+Author: onsightit <steve@onsightit.com>
+Date:   Thu Jul 23 17:41:03 2015 -0600
+
+    cancel bootstrap
+
+commit f1dfba6817e45e013e110e86ad6921a6d8a2f0b0
+Author: onsightit <steve@onsightit.com>
+Date:   Thu Jul 23 17:29:23 2015 -0600
+
+    testnet pow limits
+
+commit 2cbcf1086d2703ffabe154ad0628153471919e76
+Author: onsightit <steve@onsightit.com>
+Date:   Thu Jul 23 14:40:24 2015 -0600
+
+    back on mainnet and debug cleanup
+
+commit 79c0889be1da2f8c82e29d18906bc9f13a72dd5d
+Author: onsightit <steve@onsightit.com>
+Date:   Thu Jul 23 11:45:29 2015 -0600
+
+    testnet pow limits
+
+commit b40b96c3d05ec6337bd82f215f69a6dc3bcaed2f
+Author: onsightit <steve@onsightit.com>
+Date:   Thu Jul 23 10:38:57 2015 -0600
+
+    testnet pow limits
+
+commit 72765aa2b543d813c54336e2bf05c44af284708c
+Author: onsightit <steve@onsightit.com>
+Date:   Thu Jul 23 08:42:51 2015 -0600
+
+    testnet pow limits
+
+commit 3dd6c10831aea599147a3aaaebdc8bfc6d9b033d
+Author: onsightit <steve@onsightit.com>
+Date:   Thu Jul 23 08:38:26 2015 -0600
+
+    testnet pow limits
+
+commit 0d8c742a792ee2c69be021ee4fab15599c627e5c
+Merge: 554080e e0c89f0
+Author: onsightit <steve@onsightit.com>
+Date:   Thu Jul 23 08:00:24 2015 -0600
+
+    Merge branch 'master' of https://github.com/onsightit/solarcoin
+
+commit 554080e5ca5038947f4f1a5ef46f23902579d66a
+Author: onsightit <steve@onsightit.com>
+Date:   Thu Jul 23 07:59:43 2015 -0600
+
+    testnet pow limits
+
+commit e0c89f0a3369b0f10a53179ff81535afd73c3535
+Author: onsightit <steve@onsightit.com>
+Date:   Wed Jul 22 18:22:57 2015 -0600
+
+    new translations (still needs work)
+
+commit 92ef9396b92514e3846754ede79d06bc64cc478e
+Author: onsightit <steve@onsightit.com>
+Date:   Wed Jul 22 18:20:54 2015 -0600
+
+    testnet no gravity
+
+commit d567fa28e7752b411d326d3fab8e999e338f6a08
+Author: onsightit <steve@onsightit.com>
+Date:   Wed Jul 22 16:46:38 2015 -0600
+
+    testnet pow limits
+
+commit 029badec575bca3cd7b6e7bdd1ebff56e578c1ef
+Author: onsightit <steve@onsightit.com>
+Date:   Wed Jul 22 16:36:31 2015 -0600
+
+    testnet pow limits
+
+commit bdc36cd5674b2ce92ac41c187cc1a298439486d8
+Author: onsightit <steve@onsightit.com>
+Date:   Wed Jul 22 16:20:33 2015 -0600
+
+    bug fix
+
+commit a987fa536044a527dce8ebc30c81f77a3659794c
+Merge: eb6f6b3 742b7b6
+Author: onsightit <steve@onsightit.com>
+Date:   Wed Jul 22 14:35:32 2015 -0600
+
+    Merge branch 'master' of https://github.com/onsightit/solarcoin
+
+commit eb6f6b327db84bebaac29608ab73b92619ad7d51
+Author: onsightit <steve@onsightit.com>
+Date:   Wed Jul 22 14:35:27 2015 -0600
+
+    bug researching
+
+commit 742b7b6fd8b15c7349ea5eaba5e3856f7b67f9d2
+Author: onsightit <steve@onsightit.com>
+Date:   Wed Jul 22 14:33:32 2015 -0600
+
+    testnet changes
+
+commit 3096544108339dff2e01d1869ee4da574b1a3700
+Author: onsightit <steve@onsightit.com>
+Date:   Wed Jul 22 08:36:06 2015 -0600
+
+    ui tweaks
+
+commit cf9e72a6fdca7ba14d8c41298866ebeb73aa638d
+Merge: 7e42aab 3da006b
+Author: onsightit <steve@onsightit.com>
+Date:   Mon Jul 20 10:42:11 2015 -0600
+
+    Merge branch 'master' of https://github.com/onsightit/solarcoin
+
+commit 3da006b03adfae9a3c3489d5df79142c60f5f9cf
+Author: onsightit <steve@onsightit.com>
+Date:   Mon Jul 20 10:22:21 2015 -0600
+
+    boost required 1.54
+
+commit 7e42aab5e93e9b4c9107e8acee0ceacfff6e88d5
+Merge: 1ed4729 f1b43eb
+Author: onsightit <steve@onsightit.com>
+Date:   Mon Jul 20 07:49:45 2015 -0600
+
+    Merge branch 'master' of https://github.com/onsightit/solarcoin
+
+commit f1b43eb512524115dcc350060b128a33fc4e00c5
+Author: onsightit <steve@onsightit.com>
+Date:   Mon Jul 20 07:49:13 2015 -0600
+
+    ui tweaks
+
+commit 1ed4729025e89cc249068763ccc273e46eb7f819
+Merge: 1ee220c 2550c76
+Author: onsightit <steve@onsightit.com>
+Date:   Mon Jul 20 06:46:23 2015 -0600
+
+    Merge branch 'master' of https://github.com/onsightit/solarcoin
+
+commit 2550c7620182533525dfdd8b2aeea8e396095a89
+Author: onsightit <steve@onsightit.com>
+Date:   Mon Jul 20 06:45:42 2015 -0600
+
+    gitignore
+
+commit 1ee220cc6a7c1cd033bca85ceb811147c30d2ed9
+Merge: d426012 c591fc3
+Author: onsightit <steve@onsightit.com>
+Date:   Mon Jul 20 06:43:49 2015 -0600
+
+    Merge branch 'master' of https://github.com/onsightit/solarcoin
+
+commit c591fc3826f8341fda65294742bb5fc4083d6a1d
+Author: onsightit <steve@onsightit.com>
+Date:   Mon Jul 20 06:42:22 2015 -0600
+
+    ui tweaks
+
+commit 062ea5a796e06fef98e2d664e502a4e97da610c0
+Author: onsightit <steve@onsightit.com>
+Date:   Mon Jul 20 06:42:03 2015 -0600
+
+    removed client send restriction
+
+commit d426012974dcc7f6ce6c1524eabb58ce81cff3c6
+Merge: d5a1fae 4fa8479
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Jul 19 15:08:23 2015 -0600
+
+    Merge branch 'master' of https://github.com/onsightit/solarcoin
+
+commit d5a1faeeef8d7f83ae1ce702845b29ecf1c7fe9e
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Jul 19 15:08:11 2015 -0600
+
+    testnet configuration
+
+commit 4fa8479ec15e1e023f587b65b6db04b452f52655
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Jul 19 15:05:00 2015 -0600
+
+    connectivity to solarcoin.org
+
+commit 2fa1d9e8f9a643124dba201c59c95a9c55e54579
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Jul 19 14:01:45 2015 -0600
+
+    beta2 release
+
+commit 4de100f690f579c5fdb041cd05e79ba06a4186d8
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Jul 19 08:34:45 2015 -0600
+
+    testnet changes
+
+commit babfeab53633e72c76960f8fae27cb5b46753117
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Jul 19 08:02:59 2015 -0600
+
+    more bug fixes
+
+commit 097978ba2233e46de0b6c23110a974843825c9af
+Author: onsightit <steve@onsightit.com>
+Date:   Fri Jul 17 04:04:09 2015 -0600
+
+    remove protocol warning. added sync warning
+
+commit 97d0e42ae6d4cdd9aeb439166631ed239faf446f
+Author: onsightit <steve@onsightit.com>
+Date:   Fri Jul 17 03:44:03 2015 -0600
+
+    checkpoints and UI changes
+
+commit 1dd4aaa0a7d4c150ecc778de9f0cb736e53900e1
+Author: onsightit <steve@onsightit.com>
+Date:   Wed Jul 15 21:03:40 2015 -0600
+
+    block read/write fix
+
+commit d175f777323b2f5bfc56991b60db5d3df26bbbd6
+Author: onsightit <steve@onsightit.com>
+Date:   Wed Jul 15 20:17:55 2015 -0600
+
+    UI changes
+
+commit 5ba753d100db06defa7f846f8e05ddb93104fba8
+Author: onsightit <steve@onsightit.com>
+Date:   Wed Jul 15 14:58:25 2015 -0600
+
+    compute max bits and checkpointing
+
+commit 47c8210e11bea048e72fe50a140e1d9a5493edbc
+Author: onsightit <steve@onsightit.com>
+Date:   Wed Jul 15 02:06:18 2015 -0600
+
+    gui changes
+
+commit 4749b46b9aff12013fc09a5a0d0414af45ba18d7
+Author: onsightit <steve@onsightit.com>
+Date:   Wed Jul 15 01:13:07 2015 -0600
+
+    SolarCoin 2.0 beta
+
+commit 64b21e80b2715408ea1b1756c8bbbd09dde8c440
+Author: onsightit <steve@onsightit.com>
+Date:   Tue Jul 14 10:41:12 2015 -0600
+
+    new makefiles
+
+commit c5ec1e6e3093ab08a958ff2b4520ab73b92a7ddb
+Author: onsightit <steve@onsightit.com>
+Date:   Tue Jul 14 08:51:29 2015 -0600
+
+    new conf
+
+commit 5ee585bec064f66fc9b220fabad753248d25b0a4
+Merge: 89caaf3 a23c115
+Author: onsightit <steve@onsightit.com>
+Date:   Tue Jul 14 08:27:09 2015 -0600
+
+    Merge branch 'master' of https://github.com/onsightit/solarcoin
+
+commit 89caaf33524f229fec8a3896ebeeda4b3492b97f
+Author: onsightit <steve@onsightit.com>
+Date:   Tue Jul 14 08:26:39 2015 -0600
+
+    unsigned ints
+
+commit a23c11515f9f17d7427c10ffb531092a6040a748
+Author: onsightit <steve@onsightit.com>
+Date:   Tue Jul 14 08:24:21 2015 -0600
+
+    closer version
+
+commit b05d3aca0245cd8f0bb06cd6399d29ba4b246ba9
+Author: onsightit <steve@onsightit.com>
+Date:   Tue Jul 14 07:47:51 2015 -0600
+
+    refactored fLegacy
+
+commit a1fe5de20a6abc596af330d1b0e9508f2882059d
+Author: onsightit <steve@onsightit.com>
+Date:   Mon Jul 13 17:57:24 2015 -0600
+
+    nothing  yet...
+
+commit 58f5edd81d033a38d9fd6e4d553485cf103decf0
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Jul 12 23:07:36 2015 -0600
+
+    just one more bug. grrrr
+
+commit 71e09fadc02e1164f73a93b31a52c9f47cbef144
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Jul 12 16:58:08 2015 -0600
+
+    more debug
+
+commit 9691fd7fc3ff0ea206e19b1c487b69c9553aafb0
+Author: onsightit <steve@onsightit.com>
+Date:   Sun Jul 12 16:32:33 2015 -0600
+
+    lots of debug code
+
+commit 1b126fa11d608de9b775fd9d59fd3819c6e29e40
+Author: onsightit <steve@onsightit.com>
+Date:   Tue Jul 7 22:17:40 2015 -0600
+
+    getting close on processblock
+
+commit 541a899c1ef228ce6b0235e627e0d0abcf731191
+Author: onsightit <steve@onsightit.com>
+Date:   Tue Jul 7 20:31:20 2015 -0600
+
+    protocol/messaging changes
+
+commit b0580328cd146b29b9dc5324295143bc84151063
+Author: onsightit <steve@onsightit.com>
+Date:   Sat Jul 4 15:45:46 2015 -0600
+
+    protocol version change
+
+commit 9de0c08da63f1ce8c63a68e33ea2cb73731ecf39
+Author: onsightit <steve@onsightit.com>
+Date:   Sat Jul 4 07:03:37 2015 -0600
+
+    fork at last pow block
+
+commit ab8351081aaa7ebef179439b6b07431c86929359
+Author: onsightit <steve@onsightit.com>
+Date:   Sat Jul 4 07:03:15 2015 -0600
+
+    new headers
+
+commit b4858813ae75cd6d6de14dfc2e31499dd4384bb2
+Author: onsightit <steve@onsightit.com>
+Date:   Fri Jul 3 16:35:32 2015 -0600
+
+    everything works
+
+commit 528cd6d67917f485124b9a07f8b00b73d5f48c3a
+Author: onsightit <steve@onsightit.com>
+Date:   Fri Jul 3 09:03:11 2015 -0600
+
+    restored readwrite blockhash
+
+commit a68be3b8f77689e01f89f8e1ee05edc8ca3d62a0
+Author: onsightit <steve@onsightit.com>
+Date:   Fri Jul 3 08:08:44 2015 -0600
+
+    genesis hash!
+
+commit cae622fcdeaf4f77b8835625b5dc0471cbb18e65
+Author: onsightit <steve@onsightit.com>
+Date:   Thu Jul 2 20:05:08 2015 -0600
+
+    progress merkle is correct
+
+commit 81d875a419b363d25bff1fa2515538c44dbbbb36
+Author: onsightit <steve@onsightit.com>
+Date:   Tue Jun 30 16:22:42 2015 -0600
+
+    add logo to overview
+
+commit 2778c3d9d859f9868ece3803e5e44da37ca90c00
+Author: onsightit <steve@onsightit.com>
+Date:   Tue Jun 30 15:57:22 2015 -0600
+
+    removed unneeded overview page items
+
+commit c66b476904deb3bcc294c5090b0628add3c07cc5
+Author: onsightit <steve@onsightit.com>
+Date:   Tue Jun 30 14:50:42 2015 -0600
+
+    Initial SolarCoin with PoST and txn messaging

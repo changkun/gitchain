@@ -1,0 +1,225 @@
+commit 1dd1daab9550fd172115bdb65a79ee245bca164f
+Author: Tittiecoin - Naughty But Classy <info@tittiecoin.com>
+Date:   Sat Jan 21 21:11:20 2017 +0200
+
+    Update translation_process.md
+    
+    Added coin name
+
+commit 36388504d764dbe908031aa5d40eb1af0ada4e47
+Author: Raroun <Raroun@users.noreply.github.com>
+Date:   Wed Jan 18 15:12:36 2017 +0100
+
+    Update build-unix.txt
+
+commit cbf02357cabe9ab2e34d650d0d857819267d4ef9
+Author: Raroun <Raroun@users.noreply.github.com>
+Date:   Wed Jan 18 15:10:46 2017 +0100
+
+    Update build-unix.txt
+    
+    Updated build instructions for unix - how to get libdb4.8.
+
+commit 881723571fdf7d8bffc8d0fe84210b0ab75ed794
+Author: Tittiecoin - Naughty But Classy <info@tittiecoin.com>
+Date:   Wed Jan 18 01:45:49 2017 +0200
+
+    Update translation_process.md
+    
+    Updated to reflect TittieCoin Translation process
+
+commit 2e576a4cb8b68336e828521ceed28e39aeb7034b
+Author: Tittiecoin - Naughty But Classy <info@tittiecoin.com>
+Date:   Wed Jan 18 01:22:55 2017 +0200
+
+    Update README.md
+    
+    README.md updated
+
+commit 82285ae3c4e0f64d9d0f257caafab426080e55e3
+Author: raroun <raroun@tittiecoin.com>
+Date:   Sat Mar 14 13:37:13 2015 +0100
+
+    Added Debug Infos for V1.7
+
+commit 4e6e3bfd657f02684d1af4b9c356babe87aa9241
+Author: raroun <raroun@ubuntu>
+Date:   Sat Mar 14 02:30:05 2015 +0100
+
+    Updated Version Protocol - V1.7 is ready to release
+
+commit 9a041e9919c01a5c5237623218ae7bfeb7ce6c12
+Author: raroun <raroun@ubuntu>
+Date:   Sat Mar 14 02:29:38 2015 +0100
+
+    Fork Time is now 145000 - V1.7 is ready to release
+
+commit dadca4dc7cc36c69af76d96c1c90e310f494ea2a
+Author: Raroun <Raroun@users.noreply.github.com>
+Date:   Tue Mar 10 13:28:23 2015 +0100
+
+    Changed forkt to block 141500
+    
+    Fork changed to block 141500
+
+commit f4fde58c5892ee5dd7ae011d352eb3e1be80da92
+Author: Raroun <Raroun@users.noreply.github.com>
+Date:   Sun Mar 8 12:59:36 2015 +0100
+
+    Update INSTALL
+    
+    Small changes to name
+
+commit 9578aceeb8dc530d593d080dc119790276b99a07
+Author: raroun <raroun@ubuntu>
+Date:   Sun Mar 8 11:30:08 2015 +0100
+
+    Updated Linux build instructions to match TittieCoin
+
+commit 298fe1387dd584ddd6bea83f92f2116162808f2b
+Author: raroun <raroun@tittiecoin.com>
+Date:   Sun Mar 8 11:26:17 2015 +0100
+
+    Updated Mac OSX build instructions to match TittieCoin
+
+commit f88cfe1957000854df12f45d0cd033e03cc32612
+Author: raroun <raroun@tittiecoin.com>
+Date:   Sun Mar 8 11:25:26 2015 +0100
+
+    Updated Mac OSX build instructions to match TittieCoin
+
+commit 45bcf31c7d21935c2ed80a5ea41da1196ec03afc
+Author: raroun <raroun@tittiecoin.com>
+Date:   Sun Mar 8 11:13:37 2015 +0100
+
+    Updated Mac OSX build instructions to match TittieCoin
+
+commit cd91951f95b0b1e5fd332ab019e9e6222833a0f3
+Author: raroun <raroun@tittiecoin.com>
+Date:   Fri Mar 6 09:40:51 2015 +0100
+
+    Versions below 1.7 will be disconnected.
+
+commit 599432ac40a0c8b7cac7bb89fe20169a0fe007a3
+Author: raroun <raroun@tittiecoin.com>
+Date:   Fri Mar 6 09:28:35 2015 +0100
+
+    Reduced the amount of total coins to 2806003200
+
+commit bcf4c18cc7f611d8627a83f0514a59b44576014c
+Author: raroun <raroun@ubuntu>
+Date:   Fri Mar 6 09:26:15 2015 +0100
+
+    Block reward will be 138 after Block 139999
+
+commit 058fcfead098c17dbbc2a6047ee39b324a63c853
+Author: raroun <raroun@ubuntu>
+Date:   Tue Mar 3 21:28:14 2015 +0100
+
+    Revert "Due to huge changes, protocol version and minimum protocol version has been modified. Earlier versions will be disconnected."
+    
+    This reverts commit ad02e63b308975e83bcb75ee5c8644ffac662f7b.
+
+commit ad02e63b308975e83bcb75ee5c8644ffac662f7b
+Author: raroun <raroun@tittiecoin.com>
+Date:   Tue Mar 3 20:15:54 2015 +0100
+
+    Due to huge changes, protocol version and minimum protocol version has been modified. Earlier versions will be disconnected.
+
+commit 410e9b421fd4a8c2e41471e5cf7f5dac2044a3c1
+Author: raroun <raroun@tittiecoin.com>
+Date:   Tue Mar 3 16:31:43 2015 +0100
+
+    Changed Version to 1.7
+
+commit 24421855be8ffaff7d8cd82d9929635891eea978
+Author: raroun <raroun@ubuntu>
+Date:   Tue Mar 3 16:11:05 2015 +0100
+
+    Activated Dark Gravity Wave V3 algorithm, reduced coin reward , added comments, updated copyright
+
+commit e664782700f7e5155ee4b370109d5a1d4512648c
+Author: raroun <raroun@tittiecoin.com>
+Date:   Mon Mar 2 19:57:32 2015 +0100
+
+    Daemon starting message now contains version information.
+
+commit 5e2ca613bed4436661fb731b96c1e9087b32d980
+Author: tittiecoin <info@tittiecoin.com>
+Date:   Wed Feb 4 12:49:53 2015 +0100
+
+    Updated version to 1.6
+
+commit 064271767d34e19e276d339a84344a23bac47e61
+Author: tittiecoin <info@tittiecoin.com>
+Date:   Wed Feb 4 12:45:49 2015 +0100
+
+    Revert "DarkGravity v3 added, and block reward reduced"
+    
+    This reverts commit 8a1b4a3b39a870338776e1b0ea2a1f7da5147fb5.
+
+commit 8a1b4a3b39a870338776e1b0ea2a1f7da5147fb5
+Author: tittiecoin <info@tittiecoin.com>
+Date:   Fri Jan 9 23:48:59 2015 +0100
+
+    DarkGravity v3 added, and block reward reduced
+    
+    The fork will kick in at 2/2/2015 00:00:00 GMT
+
+commit d345242901dbf76a5bf9d2d86e9727b5636ae153
+Author: Tittiecoin <info@tittiecoin.com>
+Date:   Fri Dec 12 20:25:24 2014 +0100
+
+    Seednodes added
+
+commit 6955059f58d551ce0f82b3f484c71feab7306af8
+Author: Tittiecoin <info@tittiecoin.com>
+Date:   Fri Dec 12 20:23:37 2014 +0100
+
+    Update version.h
+
+commit 2571b71249422025b71cc71a2580fb6f5f6a09df
+Author: Tittiecoin <info@tittiecoin.com>
+Date:   Fri Dec 12 20:23:18 2014 +0100
+
+    Seednodes added
+
+commit e5ca65f3ad91590e16e0b95259e8e2a87db41017
+Author: Tittiecoin <info@tittiecoin.com>
+Date:   Thu Dec 11 23:17:25 2014 +0200
+
+    Update wallet.cpp
+    
+    Walletnotify added (Notify an external script when a wallet transaction comes in or is updated)
+
+commit 3f017f7dce5beece7c636d1037218e6180753d9e
+Author: Tittiecoin <info@tittiecoin.com>
+Date:   Thu Dec 11 23:15:01 2014 +0200
+
+    Update init.cpp
+    
+    Added walletnotify function (Execute command when a wallet transaction changes)
+
+commit c9bcd1e942261610c6c10b98a8c0aef6d1876f40
+Author: Tittiecoin <info@tittiecoin.com>
+Date:   Sun Sep 7 14:05:44 2014 +0100
+
+    Update COPYING
+
+commit aa63716ed2f12017ae7204575cfb04f60400f991
+Author: Tittiecoin <info@tittiecoin.com>
+Date:   Fri Aug 22 00:49:51 2014 +0100
+
+    Update COPYING
+
+commit 47d8d8f75e29516b39f7bb5afc204ce617c14151
+Author: Tittiecoin <info@tittiecoin.com>
+Date:   Fri Jul 11 12:23:32 2014 +0300
+
+    Small update to name
+
+commit 30bfc76ca3862379dcf180714e70743eead1b7d5
+Author: Tits! <T>
+Date:   Tue Jan 28 20:03:55 2014 -0500
+
+    Version 1

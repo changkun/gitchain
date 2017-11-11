@@ -1,0 +1,65 @@
+commit 0739ddb073dab6eb07463e851c289905858b6247
+Author: Mike <Mike@Mikes-Mac-Pro.local>
+Date:   Thu Sep 11 21:20:47 2014 -0400
+
+    Archiving OSX v2.0.0.1
+
+commit 623e0575dae7c0aea96e40f0b0298d4e38467695
+Author: Mike <Mike@Mikes-Mac-Pro.local>
+Date:   Thu Sep 11 21:10:07 2014 -0400
+
+    OSX v2.0.0.2 Build
+
+commit 5fe2d4dcbde9c5ac55059dce0306ef298e73fb02
+Author: MrData <mrdata@crypto2.net>
+Date:   Thu Sep 11 12:05:32 2014 -0400
+
+    Remove old version
+
+commit b12a0581abbc4f72f9dee18b90c018a8b1bd7c5c
+Author: MrData <mrdata@crypto2.net>
+Date:   Wed Sep 10 16:10:41 2014 -0400
+
+    Spots v2.0.0.2
+
+commit cc73221098f7b2f0e98bbc29abd5abb4b2bf18a1
+Author: MrData <mrdata@crypto2.net>
+Date:   Fri Jul 18 10:31:52 2014 -0400
+
+    Updated seed nodes
+
+commit b77f4fec1fea31a9c8d9c16c0352a5e296ac690c
+Author: Mike <Mike@Mikes-Mac-Pro.local>
+Date:   Wed Jul 9 06:02:13 2014 -0700
+
+    Fixes DB48 Dependency Issue
+
+commit 49c961acf257484bb7c14922b63b1ed40f594af8
+Author: Mike <Mike@Mikes-Mac-Pro.local>
+Date:   Tue Jul 8 19:58:37 2014 -0700
+
+    Added Mac DMG File
+
+commit afb21e13a7f60016075c33f289a036790682ad59
+Author: MrData <mrdata@crypto2.net>
+Date:   Thu Jul 3 19:31:15 2014 -0400
+
+    Graphical changes only
+
+commit 676cb059796eb8262220649c9c5834a9be4a7691
+Author: MrData <mrdata@crypto2.net>
+Date:   Wed May 21 19:05:42 2014 -0400
+
+    Build with Alerts re-enabled
+
+commit 7d9c948294b7e7e7ea175a2398a060e67132b859
+Author: MrData <mrdata@crypto2.net>
+Date:   Wed May 21 00:51:41 2014 -0400
+
+    Icon fix
+
+commit 4ac358f9e8ac19bb5b1a12621d9c2966072a37a8
+Author: MrData <mrdata@crypto2.net>
+Date:   Wed May 21 00:23:28 2014 -0400
+
+    Spots2 Windows Installer - 2.0.0.1 release

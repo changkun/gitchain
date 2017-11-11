@@ -1,0 +1,383 @@
+commit 014c8fc7b4bcaffd751a9895bc3f3a9aa14e1b04
+Author: Luka Vilar <luka.vilar@gmail.com>
+Date:   Sat Nov 4 01:36:22 2017 +0100
+
+    Version 1.9.2.1
+
+commit 986622e47964f943076c357ae8d2f30462275226
+Author: crypto5am <it5am@syndicateltd.net>
+Date:   Thu Oct 5 22:07:35 2017 +0300
+
+    fixing autogen.sh
+
+commit 0f5fd4b35b178514f9e27a1cd94b6c97d796d0fb
+Author: crypto5am <it5am@syndicateltd.net>
+Date:   Thu Oct 5 22:07:02 2017 +0300
+
+    edit readme
+
+commit 86006356a4bfa711121bfca38c42d8b3284ef5e2
+Author: crypto5am <it5am@syndicateltd.net>
+Date:   Thu Oct 5 20:09:35 2017 +0300
+
+    fixing small build issues
+
+commit fa3b3e4ae74c3c84b52953938a6738dcf7d54fae
+Author: crypto5am <it5am@syndicateltd.net>
+Date:   Thu Oct 5 01:12:01 2017 +0300
+
+    adding README.md
+
+commit 00c9db5b86570f21d5fa521d6cb5a566ad250ed7
+Author: crypto5am <it5am@syndicateltd.net>
+Date:   Wed Oct 4 21:46:42 2017 +0300
+
+    v1.9
+
+commit 9906496f1f2b3e97ca2916ea2c914fed44ff8183
+Author: crypto5am <it5am@syndicateltd.net>
+Date:   Wed Oct 4 18:42:05 2017 +0300
+
+    updating macdeployqtplus
+
+commit e4c94dce260638d90f82fc4fe4cdcc1c7dc5d22f
+Author: crypto5am <it5am@syndicateltd.net>
+Date:   Wed Oct 4 17:33:42 2017 +0300
+
+    setting up for v1.9
+
+commit d511ab1d4d2c1a38b081866804b28d4883821407
+Author: crypto5am <it5am@syndicateltd.net>
+Date:   Wed Oct 4 02:48:13 2017 +0300
+
+    updateing DNS seed
+
+commit 6d96d316cad1a4898bfbf175f0335dd9afd8a600
+Author: crypto5am <it5am@syndicateltd.net>
+Date:   Tue Oct 3 15:25:40 2017 +0300
+
+    added missing files
+
+commit 37cd8e2ecffd3405f82cb5b6e07d7dfeab1f9183
+Author: crypto5am <it5am@syndicateltd.net>
+Date:   Tue Oct 3 03:47:12 2017 +0300
+
+    Setting up new repo for new team
+
+commit 1a604f17e02b5b2b1e612163e1086cc87369a701
+Author: Syndicate <development@syndicatelabs.org>
+Date:   Wed Oct 26 17:05:45 2016 -0700
+
+    Revert "Updates"
+    
+    This reverts commit d8dfcd73b7ae3808c2d57bfce9f478cbf366e154.
+
+commit d8dfcd73b7ae3808c2d57bfce9f478cbf366e154
+Author: Syndicate <development@syndicatelabs.org>
+Date:   Wed Oct 26 17:04:58 2016 -0700
+
+    Updates
+    
+    Merge tabs into applications tab
+    Rename Syndicate-Qt
+    Reimplement previously removed pages as modelless
+    Implement a cheksum generator utilizing the following algorithms:
+    MD5
+    SHA1
+    SHA256
+    Removed web based block explorer
+    Configuration changed for static compile
+    Implement premodified version of the older block browser to allow static
+    compilation
+
+commit fe7ccda418ed19e1c4bd2a273499ddb0ca27bfd9
+Author: Syndicate <development@syndicatelabs.org>
+Date:   Sat Oct 1 10:38:00 2016 -0700
+
+    Replace seed
+    
+    Removed & replaced unreliable Vultr seeds.
+
+commit fd8c05d9ee7fbcb0ed5705945bfd8d5478dc29f9
+Author: Syndicate <development@syndicatelabs.org>
+Date:   Wed Sep 14 12:37:31 2016 -0700
+
+    MessageHeader correction
+
+commit aa56556b5f26cd9df6ba8da3dafaef31407b0abe
+Author: Syndicate <development@syndicatelabs.org>
+Date:   Wed Sep 7 12:49:53 2016 -0700
+
+    Waffle.io
+
+commit 334dbe6ba2c13d84d0cc4f449e2525f68e5cb32e
+Author: Syndicate <development@syndicatelabs.org>
+Date:   Wed Sep 7 12:45:56 2016 -0700
+
+    Waffle.io
+
+commit 46d978abb15baf46c7b474f29ae28b678769ffdb
+Merge: 0928529 d2e4b21
+Author: Syndicate <development@syndicatelabs.org>
+Date:   Wed Sep 7 12:42:47 2016 -0700
+
+    Merge pull request #4 from waffle-iron/master
+    
+    waffle.io Badge
+
+commit d2e4b21e5e24155a7c23bbfc3934662a7047a2f6
+Author: Making GitHub Delicious <iron@waffle.io>
+Date:   Wed Sep 7 13:42:24 2016 -0600
+
+    add waffle.io badge
+
+commit 092852974f43c32c5bb3754838eb882f6b66d21e
+Author: development@syndicatelabs.org <hardyahrhar11>
+Date:   Tue Jul 26 21:45:45 2016 -0700
+
+    Change default port
+
+commit 918fb39b90b82feae758a1adfa0ed380906ce82d
+Author: development@syndicatelabs.org <hardyahrhar11>
+Date:   Sat Jul 23 15:22:33 2016 -0700
+
+    Use allocators.cpp
+    
+    bitcoin/bitcoin@d8315d1
+    
+    bitcoin/bitcoin@0b8f47d
+    
+    Move all of the #ifdef WIN32 code and the #include of windows.h into
+    allocators.cpp & ensure allocators are always ready.
+
+commit 49a40cb1605385651466670c36331f2898d75bfc
+Author: development@syndicatelabs.org <hardyahrhar11>
+Date:   Sat Jul 23 11:47:28 2016 -0700
+
+    Revert "Revert "Bitcoin updates""
+    
+    This reverts commit f0c6dddc6a3b639ea33c011060ec51043868f25d.
+
+commit ad3c9b76cfe8b6e4a58b3c29bfa64ab33685660a
+Author: development@syndicatelabs.org <hardyahrhar11>
+Date:   Sat Jul 23 02:27:24 2016 -0700
+
+    Add dnsseed2*
+
+commit 9af776863f34c4bc79ffdb9c83b07389654b4362
+Author: development@syndicatelabs.org <hardyahrhar11>
+Date:   Sat Jul 23 02:25:40 2016 -0700
+
+    Revert "Add  dnsseed2"
+    
+    This reverts commit 56682c0e57319a13bb493d91d7aa2d115968c3c8.
+
+commit 56682c0e57319a13bb493d91d7aa2d115968c3c8
+Author: development@syndicatelabs.org <hardyahrhar11>
+Date:   Sat Jul 23 02:21:20 2016 -0700
+
+    Add  dnsseed2
+
+commit e16a985cd92bffa30f17be4562772bfc4fa884d6
+Author: development@syndicatelabs.org <hardyahrhar11>
+Date:   Fri Jul 22 23:09:43 2016 -0700
+
+    Seed updates & Checkpoint
+
+commit ee782c305ae5a78c548e7e7c384ea0d207be087a
+Merge: 434b84f c006482
+Author: Syndicate <development@syndicatelabs.org>
+Date:   Fri Jul 22 22:42:28 2016 -0700
+
+    Merge pull request #2 from marsmensch/feature/german_translation
+    
+    complete german locale
+
+commit c0064822b9ae177d692c5ee0bd411dc22cc7fcc5
+Author: Florian Maier <contact@marsmenschen.com>
+Date:   Wed Jul 13 10:10:23 2016 +0200
+
+    complete german locale
+
+commit 434b84f14110e9f722c47c1e0dd5e39d73539a98
+Merge: f0821af 4a65432
+Author: Syndicate <development@syndicatelabs.org>
+Date:   Mon Jul 11 10:23:25 2016 -0700
+
+    Merge pull request #1 from marsmensch/fix-boost-build-error
+    
+    Fix boost::get build error
+
+commit 4a654326a018f289c9399f19f81f48ad865bf569
+Author: Florian Maier <marsmensch@users.noreply.github.com>
+Date:   Mon Jul 11 12:48:54 2016 +0200
+
+    Fix boost::get build error
+    
+    see bitcoin#6113 for details
+
+commit f0821af7ad4c9e2bcaed9063af7e73bacdb7b923
+Author: development@syndicatelabs.org <hardyahrhar11>
+Date:   Sat Jul 9 15:47:23 2016 -0700
+
+    Graph color change
+
+commit 27c610e2309585b72947fe1cfba80c5fc643a55f
+Author: development@syndicatelabs.org <hardyahrhar11>
+Date:   Sat Jul 9 15:25:39 2016 -0700
+
+    Readme.md
+
+commit deed9b3d7c23adcaffa43ef06699c62fcca79702
+Author: development@syndicatelabs.org <hardyahrhar11>
+Date:   Sat Jul 9 15:16:53 2016 -0700
+
+    v1.0.0.6
+    
+    Post POW checkpoint at block 56100
+    DNS seeds
+    Few GUI tweaks
+
+commit 78fd05cc38f86d1014abfddc27f0fcad85f4d540
+Author: development@syndicatelabs.org <hardyahrhar11>
+Date:   Mon Jul 4 00:11:09 2016 -0700
+
+    Splash Update
+
+commit 9366c4ccc38f106dd64ffc93e9218ec6571c7222
+Author: development@syndicatelabs.org <hardyahrhar11>
+Date:   Mon Jul 4 00:07:27 2016 -0700
+
+    Fix #5
+
+commit 58bee3c1018061dcc3519f18b13b7cf4f0a0f1bb
+Author: development@syndicatelabs.org <hardyahrhar11>
+Date:   Sun Jul 3 23:41:08 2016 -0700
+
+    Revert + more fresh nodes
+
+commit c93b6fb98dc519d3323125c8ec51e3d1cc036d30
+Author: development@syndicatelabs.org <hardyahrhar11>
+Date:   Sat Jul 2 14:56:14 2016 -0700
+
+    Spacing
+
+commit c40c84d1c4beedc3ab69fae1d1a1ece6e499e97b
+Author: development@syndicatelabs.org <hardyahrhar11>
+Date:   Sat Jul 2 14:45:34 2016 -0700
+
+    v1.0.0.4
+    
+    6 Total hardcoded nodes
+    Additional checkpoint
+    New splash screen
+
+commit f0c6dddc6a3b639ea33c011060ec51043868f25d
+Author: development@syndicatelabs.org <hardyahrhar11>
+Date:   Sat Jul 2 13:51:13 2016 -0700
+
+    Revert "Bitcoin updates"
+    
+    This reverts commit df95f46a17df3ebb6c33440ffda047b4c00d9066.
+
+commit df95f46a17df3ebb6c33440ffda047b4c00d9066
+Author: development@syndicatelabs.org <hardyahrhar11>
+Date:   Sun Jun 26 13:54:33 2016 -0700
+
+    Bitcoin updates
+    
+    Add main-specific node state
+    sipa/bitcoin@b2864d2#diff-e8db9b851adc2422aadfffca88f14c91L187
+    
+    Per-peer block tracking, stalled block download detection, orphan pool
+    limiting
+    https://github.com/bitcoin/bitcoin/pull/3514/files
+    
+    Prepare block connection logic for headers-first
+    https://github.com/bitcoin/bitcoin/pull/3370/files
+
+commit 36708c422845b43c18db332cad1c55227a321112
+Author: development@syndicatelabs.org <hardyahrhar11>
+Date:   Sun Jun 26 11:23:42 2016 -0700
+
+    Update splash screen
+
+commit 024b6d1ea5d2fd4ba251808dadc036d20940a7ce
+Author: development@syndicatelabs.org <hardyahrhar11>
+Date:   Sat Jun 25 21:02:08 2016 -0700
+
+    More nodes
+    
+    Hardcoded more 4 more nodes for a total of 6.
+
+commit c60c59ffcebfad42b9cdb5715d47e2c20c9d4fde
+Author: development@syndicatelabs.org <hardyahrhar11>
+Date:   Wed Jun 22 22:45:38 2016 -0700
+
+    Checkpoint fix
+
+commit 1f1a7c260847e91159601d75f769f2f2b9846bf3
+Author: development@syndicatelabs.org <hardyahrhar11>
+Date:   Tue Jun 21 22:39:48 2016 -0700
+
+    v1.0.0.3
+    
+    Completely remove selection by coin age.
+    Don't process transactions we already have
+    Checkpoint at block 10,000
+
+commit 0afd855a58170af0c5d0a8194ad47e9bcf72255d
+Author: development@syndicatelabs.org <hardyahrhar11>
+Date:   Tue Jun 21 21:13:33 2016 -0700
+
+    LockedPageManager now used as instance & removed windows.h from allocators.h
+
+commit 7823566d37a81911bc538b95eec84f14417d89ab
+Author: development@syndicatelabs.org <hardyahrhar11>
+Date:   Tue Jun 21 20:14:15 2016 -0700
+
+    Correct instance in smessage.h
+
+commit 75a4f6ef310f882f19a85f56403a0624b08bea4c
+Author: development@syndicatelabs.org <hardyahrhar11>
+Date:   Tue Jun 21 20:07:30 2016 -0700
+
+    FixSpentCoins used to fix POS reward wallet corruption
+
+commit ba51526bfa38cfd09a85fab4341654376fa858a9
+Author: development@syndicatelabs.org <hardyahrhar11>
+Date:   Wed Jun 15 16:54:08 2016 -0700
+
+    Update client version
+    
+    Update client version to v1.0.0.1 for masternode display bug fix &
+    checkpoint at block 1000
+
+commit b26b27c15895686ad2ba52f08cfb1daf11ac049e
+Author: development@syndicatelabs.org <hardyahrhar11>
+Date:   Wed Jun 15 16:00:30 2016 -0700
+
+    Checkpoint at block 1000
+
+commit 32268c412360e496f247a53160cd6ac15dd8b47b
+Author: development@syndicatelabs.org <hardyahrhar11>
+Date:   Wed Jun 15 15:50:49 2016 -0700
+
+    Masternode tab display bug fix
+    
+    The masternode tab has been reverted to its original styling, its revamp
+    is still in progress.
+
+commit 36997a862405df0d735364aa8ab36e2931ee99c3
+Author: development@syndicatelabs.org <hardyahrhar11>
+Date:   Mon Jun 13 21:46:07 2016 -0700
+
+    1.0
+    
+    Initial upload
+
+commit 27d9b4e769eb4f69c400a6dc1b7f0de181e3e1db
+Author: development@syndicatelabs.org <hardyahrhar11>
+Date:   Mon Jun 13 21:37:59 2016 -0700
+
+    :circus_tent: Added .gitattributes & .gitignore files

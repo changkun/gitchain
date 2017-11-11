@@ -1,0 +1,89 @@
+commit 30a90f69ae819f16aad6c1d5945498e1992fde03
+Author: ubuntu <auviscara@toacoin.com>
+Date:   Thu Nov 9 00:19:04 2017 +0800
+
+    add node in net.cpp + gui changes
+
+commit 4eebc60f33db2abbe39bd99d1c995840088a0668
+Author: Alex4J <toacoin@gmail.com>
+Date:   Wed Jul 5 21:40:11 2017 +0200
+
+    mac fix icon
+
+commit e70becaa8a0f7da42110baa9edecb65aa70ba932
+Author: Alex4J <toacoin@gmail.com>
+Date:   Wed Jul 5 21:34:38 2017 +0200
+
+    fix mac icon
+
+commit 67574469c6fecfef7d199a82bfba97ff09637217
+Author: Alex4J <toacoin@gmail.com>
+Date:   Tue Jun 13 13:27:36 2017 +0200
+
+    mac release
+
+commit 2fbb2130d38d2dc5f5536c62e668677b138ffef2
+Author: Alex4J <toacoin@gmail.com>
+Date:   Sat Jun 10 11:49:00 2017 +0200
+
+    Adjustment
+
+commit 210961e17b05b692def189397634e3eb3a365dbb
+Author: Alex4J <toacoin@gmail.com>
+Date:   Sat Jun 10 11:48:24 2017 +0200
+
+    Adjustment
+
+commit 7d015150a2adc0702ea0356be53ed91004376b59
+Author: Alex4J <toacoin@gmail.com>
+Date:   Fri Jun 9 17:24:54 2017 +0200
+
+    Adjusting parameters
+
+commit 632fb3f895cd05b7cc57ad7fe3f9971c77b57737
+Author: Alex4J <toacoin@gmail.com>
+Date:   Thu Jun 1 12:10:52 2017 +0200
+
+    adjusting parameters
+
+commit 2daf1e12d0b3ed31b0473b657483af1d40cc2077
+Author: Alex4J <toacoin@gmail.com>
+Date:   Wed May 24 12:39:22 2017 +0200
+
+    Changing rules
+
+commit 11af9db86f75c5a018f0e8d0b9f55811e8b5903d
+Author: Alex4J <toacoin@gmail.com>
+Date:   Sun May 14 17:36:59 2017 +0200
+
+    fix typo
+
+commit ddbb6e31d1561bb7e13a9e35b96b36449235e8f9
+Author: toacoin <toacoin@gmail.com>
+Date:   Sun May 14 17:36:22 2017 +0200
+
+    Delete tao-qt.exe
+
+commit 6e8d456242e19f402a8209ca2c8cd5bd214c5066
+Author: Alex4J <toacoin@gmail.com>
+Date:   Sun May 14 13:00:37 2017 +0200
+
+    Windows release
+
+commit 7801a8ff5e0d702866da4fe7557ff0570e2dcd06
+Author: Alex4J <toacoin@gmail.com>
+Date:   Sun May 14 12:49:49 2017 +0200
+
+    typo fix
+
+commit 0763ed4fbf5728927f5830180e8efe9b5820d549
+Author: Alex4J <toacoin@gmail.com>
+Date:   Sun May 14 11:54:24 2017 +0200
+
+    Windows release
+
+commit 49367fbe5319d6fb91e365d9c87eaf29215bb161
+Author: Alex4J <toacoin@gmail.com>
+Date:   Sun May 14 10:44:28 2017 +0200
+
+    initial commit

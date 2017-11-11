@@ -1,0 +1,644 @@
+commit 397499c1e21494cfa62d705911925a32076946cd
+Author: PascalCoin <bpascalblockchain@gmail.com>
+Date:   Fri Oct 27 19:31:40 2017 +0200
+
+    Revert "Cleanup: remove old whitepaper"
+    
+    This reverts commit 41bf1c11317a2dda4b670a29d015d3f6eb5688e9.
+
+commit 50484dc10ae2c13ae8166e02808cf6818b90d0bd
+Author: PascalCoin <bpascalblockchain@gmail.com>
+Date:   Tue Oct 24 18:36:40 2017 +0200
+
+    Max node servers buffer and minor code changes
+    
+    Added new feature to keep server nodes buffer small, also added some
+    minor code changes to allow Delphi/Lazarus compilation
+
+commit c03e57c5e607d5a5e1a51c1dbb981a7368c18dd8
+Author: Herman Schoenfeld <herman@sphere10.com>
+Date:   Tue Oct 17 23:17:30 2017 +1000
+
+    Fix: bug when including signer account inside bulk operations
+
+commit 0c0170e1a85ed975a561fa1f6ed09ec1e943fa07
+Author: Herman Schoenfeld <herman@sphere10.com>
+Date:   Wed Aug 16 16:51:49 2017 +1000
+
+    Update: PIP summary page
+
+commit eaff04ad993f460379bb42a71a6a5c866c9a4a82
+Author: Herman Schoenfeld <herman@sphere10.com>
+Date:   Wed Aug 16 16:51:25 2017 +1000
+
+    Added: PIP-0008 Hook(s) to start external programs
+
+commit bdeb6506773c530ab8d6f398cb038f1ae28dfd5b
+Author: Herman Schoenfeld <herman@sphere10.com>
+Date:   Wed Aug 16 16:51:08 2017 +1000
+
+    Added: PIP-0007 New Wallet GUI
+
+commit 92bb47188254645807d1aaf7d719778b53a5bf8b
+Author: Herman Schoenfeld <herman@sphere10.com>
+Date:   Wed Aug 16 16:49:17 2017 +1000
+
+    Added: PIP-0006 Salvage orphaned transactions
+
+commit 990ac1a17e6b99d7493f6dd47249f38e1ebe52f9
+Author: Herman Schoenfeld <herman@sphere10.com>
+Date:   Wed Aug 16 16:48:37 2017 +1000
+
+    Added: PIP-0005 Stabalised difficulty algorithm
+
+commit 76b6b42e201f8d975185a4c1b8749ed7527b3e41
+Author: Herman Schoenfeld <herman@sphere10.com>
+Date:   Wed Aug 16 16:48:02 2017 +1000
+
+    Added: PIP-0004 Account Names and Types
+
+commit 4c50b0b6bc13288f073a9c15b7704dc83863d4b2
+Author: Herman Schoenfeld <herman@sphere10.com>
+Date:   Wed Aug 16 16:47:26 2017 +1000
+
+    Fix: correct typos in PIPs
+
+commit 36f1dac0eb776668720f9f65db1f14fbe5c3f55e
+Author: Herman Schoenfeld <herman@sphere10.com>
+Date:   Tue Aug 15 17:37:22 2017 +1000
+
+    Added: retrospective V2 PIPs & cleanup
+
+commit 41bf1c11317a2dda4b670a29d015d3f6eb5688e9
+Author: Herman Schoenfeld <herman@sphere10.com>
+Date:   Tue Aug 15 14:57:18 2017 +1000
+
+    Cleanup: remove old whitepaper
+
+commit 27772dd16f9bc309a178734f6b8e9bf74b15c568
+Author: Herman Schoenfeld <herman@sphere10.com>
+Date:   Sat Aug 12 21:48:53 2017 +1000
+
+    Fix: PIP-0001 text
+
+commit 00e39e0c4db1ad1e76bdf1aca2f7cb052d0af1e1
+Author: Herman Schoenfeld <herman@sphere10.com>
+Date:   Fri Aug 11 16:29:47 2017 +1000
+
+    Fix: typos & urls in PIP
+
+commit 818498dce1525a1c87c173d4c07c2410abd3d9fb
+Author: Herman Schoenfeld <herman@sphere10.com>
+Date:   Fri Aug 11 16:20:27 2017 +1000
+
+    Added: pascalcoin improvement proposals (PIP)
+
+commit 8de78e32e14ce920e280749d01e9b75d69f94e2e
+Author: Herman Schoenfeld <herman@sphere10.com>
+Date:   Thu Aug 10 18:34:11 2017 +1000
+
+    Fix: relay orphaned operations properly when disconnecting blocks
+
+commit fbce76a686775d214473d6a451cb036cb58e7999
+Author: Herman Schoenfeld <herman@sphere10.com>
+Date:   Thu Aug 10 09:54:55 2017 +1000
+
+    Fix: bug when adding 2 or more operations starting with 0x00
+
+commit 3905150fc8d5c3b3bd1bc41cf52dd4bffc5908cb
+Author: Herman Schoenfeld <herman@sphere10.com>
+Date:   Thu Aug 10 09:44:18 2017 +1000
+
+    Fix: race condition on n_operation on concurrent send scenario
+
+commit 69de1fc70c02effe80384814e39805a8bae09380
+Author: Pascal Coin <bpascalblockchain@gmail.com>
+Date:   Fri Jul 28 13:21:39 2017 +0200
+
+    Delete README .txt
+
+commit 68ac8ba519bf59541fc9009a0682abb8220cbba4
+Author: PascalCoin <bpascalblockchain@gmail.com>
+Date:   Thu Jul 27 19:25:47 2017 +0200
+
+    Build 2.1.2
+
+commit 49baa54c15efd89f56f0e6682a32203aa2bec417
+Author: PascalCoin <bpascalblockchain@gmail.com>
+Date:   Wed Jul 19 19:28:20 2017 +0200
+
+    Bug in UFileStorage.pas
+    
+    Bug when blockchain does not start from 0 block
+
+commit d1cb0a6c14d3ef202e70ef57962c69941b214ca6
+Author: PascalCoin <bpascalblockchain@gmail.com>
+Date:   Fri Jul 14 20:13:26 2017 +0200
+
+    Build 2.1
+
+commit 5174412ccd9558174da2dbe1da6f407284da0d25
+Author: Pascal Coin <bpascalblockchain@gmail.com>
+Date:   Thu Jun 29 14:06:02 2017 +0200
+
+    memory leak and minor changes
+
+commit f3eaa527c7bf342b56aff3d9cc86477aa5e3db61
+Author: Herman Schoenfeld <herman@sphere10.com>
+Date:   Thu Jun 29 16:07:26 2017 +1000
+
+    Fix: bulk change key operation now deals with fees correctly
+
+commit a33c7a5e0c9ea0990e2cbd986e462ff51aa02cef
+Author: Herman Schoenfeld <herman@sphere10.com>
+Date:   Tue Jun 27 20:57:43 2017 +1000
+
+    Added .gitignore to assist new developers
+
+commit 2d2ee5f98a72df6dc30feac4fd5581281526311f
+Merge: 30cc9ee 603b202
+Author: Pascal Coin <bpascalblockchain@gmail.com>
+Date:   Tue Jun 27 09:08:18 2017 +0200
+
+    Merge pull request #34 from Sphere10/master
+    
+    Important V2 info in README
+
+commit 603b202fac5766f30cbf666a70b6bdb154253cd8
+Author: Herman Schoenfeld <herman@sphere10.com>
+Date:   Tue Jun 27 16:14:09 2017 +1000
+
+    Important V2 info in README
+
+commit 30cc9ee3333cdb5a5a694a2ef573c690176a5127
+Author: Pascal Coin <bpascalblockchain@gmail.com>
+Date:   Fri Jun 23 09:02:14 2017 +0200
+
+    Correcting Phil email
+
+commit 262352cfb06842492d7e666cbd503f9b3b27578b
+Author: PascalCoin <bpascalblockchain@gmail.com>
+Date:   Fri Jun 23 00:56:03 2017 +0200
+
+    Build 2.0 Readme
+
+commit 25dff89b6c600d56c117af25519dd4046b2ccafc
+Author: PascalCoin <bpascalblockchain@gmail.com>
+Date:   Fri Jun 23 00:53:23 2017 +0200
+
+    Build 2.0
+
+commit a691f90239558384b0ff84e436eab02468f4ed7c
+Author: Pascal Coin <bpascalblockchain@gmail.com>
+Date:   Thu Jun 22 14:34:02 2017 +0200
+
+    Updated WhitePaper to v2.1
+
+commit a2feb938ed214563ce25b58186a5bb3bf89c09c7
+Author: Pascal Coin <bpascalblockchain@gmail.com>
+Date:   Tue May 30 01:40:39 2017 +0200
+
+    PascalCoin WhitePaper V2
+
+commit 0000c33018784335daf4b47f622b88a76971855c
+Author: PascalCoin <bpascalblockchain@gmail.com>
+Date:   Thu May 4 01:13:55 2017 +0200
+
+    Build 1.5.6
+
+commit 73e06e94474a5f0c09e8a4e4e0d01df59cc27cf8
+Author: PascalCoin <bpascalblockchain@gmail.com>
+Date:   Tue Apr 11 20:13:56 2017 +0200
+
+    Build 1.5.5
+    
+    Build 1.5.5
+
+commit d288b9763c4fb68071e27f3ec9da674ceeec1d0c
+Author: PascalCoin <bpascalblockchain@gmail.com>
+Date:   Wed Mar 15 01:19:56 2017 +0100
+
+    Build 1.5.4
+    
+    - Added Network Timestamp Adjustment (NAT) to calc valid timestamps
+    - Minimum 4 active connections to calc median used for NAT, otherwise
+    use local timestamp
+    - Based on IP's (to prevent a malicious IP timejacking, each IP is only
+    used once)
+    - Removed IP's and recalculated after disconnecting (to prevent
+    malicious node connecting/disconnecting for timejacking)
+    - New blocks will not be accepted if using future timestamp greater than
+    NAT timestamp + 15 seconds (also, mantaining current protocol rule >=
+    lastBlock.timestamp)
+    - Network protocol fixed to 5-5 (Nodes with version prior to 1.5 will
+    not be allowed)
+    - Added protection for non included operations on a block, to prevent
+    continuous sending. Only will resend operations once.
+    - Bug #27 fixed: Invalid timestamp on FPC
+    (https://github.com/PascalCoin/PascalCoin/issues/27)
+    - JSON-RPC
+    - Method "getconnections" added "timediff" to know timestamp diff of
+    node
+    - Method "payloaddecrypt" added "unenc_hexpayload" result value with
+    HEXASTRING of unencrypted payload
+    - Fixed some "Random Memory access violation errors" bugs found caused
+    by multithreading and disconnected nodes
+
+commit c07279ba4ebd6938ad3171f28c44712c1c93ec91
+Author: PascalCoin <bpascalblockchain@gmail.com>
+Date:   Mon Mar 6 23:18:05 2017 +0100
+
+    Build 1.5.3
+
+commit 0cbc58d2fbde3a60e87875bb05cdb1aa310664e7
+Author: PascalCoin <bpascalblockchain@gmail.com>
+Date:   Mon Mar 6 22:10:30 2017 +0100
+
+    Build 1.5.2.2
+    
+    Miner server with a 10 jobs buffer and sending job with new timestamp to
+    allow best practices
+
+commit 463f5527903991750231f644bfb3603aaa0513b1
+Author: PascalCoin <bpascalblockchain@gmail.com>
+Date:   Mon Mar 6 22:06:21 2017 +0100
+
+    Some logs changes
+    
+    Some minor logs changes
+
+commit 9e7ed4b97c22f921fe2778ed5623503d7274cb7d
+Author: PascalCoin <bpascalblockchain@gmail.com>
+Date:   Sun Mar 5 13:10:07 2017 +0100
+
+    Release 1.5.2.1
+
+commit eeee928201a06b46cca6dfb8f1efdb4d904aa3d8
+Author: PascalCoin <bpascalblockchain@gmail.com>
+Date:   Sun Mar 5 12:58:48 2017 +0100
+
+    Fixed issue #23
+    
+    https://github.com/PascalCoin/PascalCoin/issues/23
+
+commit be77fadc4e5beaac515134a1a22a233140f10c32
+Author: PascalCoin <bpascalblockchain@gmail.com>
+Date:   Fri Mar 3 01:11:54 2017 +0100
+
+    Build 1.5.2
+
+commit 1c3a250487c33ba4b200cd02995a1513230524ea
+Author: PascalCoin <bpascalblockchain@gmail.com>
+Date:   Mon Feb 20 19:49:33 2017 +0100
+
+    Build 1.5.1
+
+commit 1dd522e63b6e6b3245666a380c2bc1c887bf4e75
+Author: Pascal Coin <bpascalblockchain@gmail.com>
+Date:   Thu Feb 16 01:17:33 2017 +0100
+
+    Whitelist note
+
+commit ca3a61373776bef8166b38bec3635baafd53274a
+Author: Pascal Coin <bpascalblockchain@gmail.com>
+Date:   Thu Feb 16 01:17:06 2017 +0100
+
+    whitelist note
+
+commit fb88dd7b5d0db045dd93a5e5ca33fc1ff04da04f
+Author: Pascal Coin <bpascalblockchain@gmail.com>
+Date:   Thu Feb 16 00:48:23 2017 +0100
+
+    White list
+
+commit f0f367554ba079efddc0dbdb33650ad5156417ee
+Author: PascalCoin <bpascalblockchain@gmail.com>
+Date:   Thu Feb 16 00:01:31 2017 +0100
+
+    Build 1.5.0
+    
+    Build 1.5.0
+
+commit 9a125bb59aceea887395dc5eb40fbc403be8aefb
+Author: Pascal Coin <bpascalblockchain@gmail.com>
+Date:   Fri Feb 3 10:56:19 2017 +0100
+
+    Build 1.4
+
+commit 3d524357cbb45552c3aedc31a5ec756668f74c57
+Author: Pascal Coin <bpascalblockchain@gmail.com>
+Date:   Fri Feb 3 09:35:17 2017 +0100
+
+    minor fix
+
+commit b7a72b6a491ff791db5ec58a7f30dcb95ff0e561
+Author: PascalCoin <bpascalblockchain@gmail.com>
+Date:   Thu Feb 2 22:23:41 2017 +0100
+
+    Build 1.4.3
+
+commit 683a1945e2aa71a86cefbea0ce4987af8fe2bdfd
+Author: PascalCoin <bpascalblockchain@gmail.com>
+Date:   Mon Jan 23 19:17:25 2017 +0100
+
+    Build 1.4.2
+
+commit 7e77b5d16c5c0081e6c865d2ae4c1e765c473b54
+Author: PascalCoin <bpascalblockchain@gmail.com>
+Date:   Thu Jan 19 00:35:41 2017 +0100
+
+    Build 1.4.1 final with Miner Beta 0.1
+
+commit 400c8e35f85495de6b6a69c1b16640c1cf048d0f
+Author: PascalCoin <bpascalblockchain@gmail.com>
+Date:   Wed Jan 18 20:11:52 2017 +0100
+
+    Build 1.4.1
+    
+    Build 1.4.1
+
+commit 2e23d0090f7279ff09d662a3717d107774d616ba
+Author: PascalCoin <bpascalblockchain@gmail.com>
+Date:   Mon Jan 2 13:03:54 2017 +0100
+
+    Build 1.4.0 - initialization bug
+
+commit 8b6dfd0d65c15727f9dcde805034f69b6786869d
+Author: PascalCoin <bpascalblockchain@gmail.com>
+Date:   Fri Dec 30 13:12:10 2016 +0100
+
+    Build 1.4
+    
+    Build 1.4
+
+commit 201ae162bf12292eae68c93ce978a33568104c6b
+Author: Pascal Coin <bpascalblockchain@gmail.com>
+Date:   Mon Dec 19 18:36:14 2016 +0100
+
+    1.3.1
+
+commit a2b5f003d4d6027ae0389160ee42110217fba6d5
+Author: Pascal Coin <bpascalblockchain@gmail.com>
+Date:   Mon Dec 19 17:18:54 2016 +0100
+
+    issue with memory leak of JSON-RPC
+
+commit 3117ef0463ca492734ba2745cfd03bb45add2811
+Author: PascalCoin <bpascalblockchain@gmail.com>
+Date:   Thu Nov 24 23:25:20 2016 +0100
+
+    Build 1.3
+
+commit 3f37623e421dfc4180c132d7ace8d21c0e6319b5
+Author: PascalCoin <bpascalblockchain@gmail.com>
+Date:   Wed Nov 16 20:22:19 2016 +0100
+
+    Build 1.2
+
+commit 01eee30859fce5488db46a91a59e0c5ed04f7ea9
+Author: PascalCoin <bpascalblockchain@gmail.com>
+Date:   Wed Nov 9 15:00:55 2016 +0100
+
+    Build 1.1 minor change for daemons
+    
+    Minor changes for Linux daemons
+
+commit f371c4c11c2dcaa1b73c5610a86cba931959c16e
+Author: PascalCoin <bpascalblockchain@gmail.com>
+Date:   Fri Nov 4 02:04:04 2016 +0100
+
+    Build 1.1
+    
+    Build 1.1 with JSON-RPC server
+
+commit b67766cb01339f679d3c0709170aa9e18aa4a2f4
+Author: Pascal Coin <bpascalblockchain@gmail.com>
+Date:   Sat Oct 22 01:51:07 2016 +0200
+
+    Send "nonce" allways as a Signed 32 bits (Int32)
+
+commit a2293f9d2a36cb8d2cc778ee7f5f6c78fc0fb774
+Author: PascalCoin <bpascalblockchain@gmail.com>
+Date:   Fri Oct 21 17:57:27 2016 +0200
+
+    Build 1.0.9
+    
+    Correction of BUG-101
+
+commit bcd7105b251c93370a9b3471ccb1981f74e5639b
+Author: PascalCoin <bpascalblockchain@gmail.com>
+Date:   Fri Oct 21 02:25:00 2016 +0200
+
+    Correction about buffer payload ASCII valid chars
+
+commit 24459f1a7a330be5a3f647bf91ceb1786605bfb3
+Author: PascalCoin <bpascalblockchain@gmail.com>
+Date:   Fri Oct 21 02:14:02 2016 +0200
+
+    delete old files
+
+commit 57373424197486b7279dd578429fd003c71dbbbe
+Author: PascalCoin <bpascalblockchain@gmail.com>
+Date:   Fri Oct 21 01:35:19 2016 +0200
+
+    Build 1.0.8
+    
+    Cross compatible. Can compile with Delphi (Windows only) or with Lazarus
+    (Windows + Linux). See COMPILE_INSTRUCTIONS file
+
+commit eb1ee496b828e87586bed392b0ce4603854585f8
+Merge: d1f6463 befa7eb
+Author: Pascal Coin <bpascalblockchain@gmail.com>
+Date:   Wed Oct 12 14:07:08 2016 +0200
+
+    Merge pull request #11 from willowrose/dev1
+    
+    Server framework
+
+commit befa7eb0095eb042ca5cef285053cef29123a157
+Author: willowrose <willowrose@users.noreply.github.com>
+Date:   Mon Oct 10 23:54:11 2016 +0200
+
+    Server framework
+
+commit d1f6463ef1636eb9f29bd34d9a8076293284e758
+Author: PascalCoin <bpascalblockchain@gmail.com>
+Date:   Mon Oct 10 18:54:18 2016 +0200
+
+    Error detected in instructions
+    
+    Not a Double SHA512... is a double SHA256 !
+
+commit ee3e16e0fb10ab7b7741bbb4983a7fbbaa6cb05c
+Author: PascalCoin <bpascalblockchain@gmail.com>
+Date:   Mon Oct 10 17:03:48 2016 +0200
+
+    Build 1.0.7
+    
+    Introducint JSON-RPC for GPU mining
+
+commit d0530a4623860ddf49144a64fa3f69723768625d
+Author: PascalCoin <bpascalblockchain@gmail.com>
+Date:   Tue Oct 4 01:33:18 2016 +0200
+
+    Build 1.0.6
+
+commit 042c23227059a04542a7e20c1585cf15a0a0d677
+Author: PascalCoin <bpascalblockchain@gmail.com>
+Date:   Tue Sep 27 02:12:41 2016 +0200
+
+    Preparing 1.0.6
+    
+    Changes for preventing some memory leaks and also to be nearly compiled
+    with Lazarus
+
+commit 15a09985d07a9d353df53c258c2f5bdd00f7791b
+Author: PascalCoin <bpascalblockchain@gmail.com>
+Date:   Thu Sep 22 01:16:22 2016 +0200
+
+    Build 1.0.5
+
+commit 45ac3a647e684aa5d4ed5d5be5df89bcdaf2c1fc
+Author: PascalCoin <bpascalblockchain@gmail.com>
+Date:   Fri Sep 16 15:38:55 2016 +0200
+
+    Build 1.0.4 Final
+
+commit 668253070d208a8ece33247ff4c4aa6fd426a141
+Author: PascalCoin <bpascalblockchain@gmail.com>
+Date:   Fri Sep 16 09:21:17 2016 +0200
+
+    Build 1.0.4 Release Candidate 2
+
+commit 4bb19c2715350b8ac33c08e2960bc91ecf4ff3b6
+Merge: 4f438ef 63ee0de
+Author: PascalCoin <bpascalblockchain@gmail.com>
+Date:   Fri Sep 16 09:16:56 2016 +0200
+
+    Merge remote-tracking branch 'origin/master'
+    
+    # Conflicts:
+    #       Units/Forms/UFRMWallet.pas
+    #       Units/PascalCoin/UBlockChain.pas
+    #       Units/PascalCoin/ULog.pas
+    #       Units/PascalCoin/UNetProtocol.pas
+
+commit 4f438ef96cbb9c89242b3981385766205e6ea849
+Author: PascalCoin <bpascalblockchain@gmail.com>
+Date:   Fri Sep 16 09:12:52 2016 +0200
+
+    Build 1.0.4 Release Candidate
+
+commit 63ee0dedd70ef07d9f638131628525e5a1df6ae5
+Merge: 63c642b 69766b1
+Author: Pascal Coin <bpascalblockchain@gmail.com>
+Date:   Thu Sep 15 08:55:16 2016 +0200
+
+    Merge pull request #6 from willowrose/dev1
+    
+    Prevent Access Violation when FNetClients not assigned
+
+commit 69766b1ebf8d43aff215c34ecad045ef58dfd6aa
+Author: willowrose <willowrose@users.noreply.github.com>
+Date:   Thu Sep 15 00:38:35 2016 +0200
+
+    Prevent Access Violation when FNetClients not assigned
+
+commit 63c642b6ea7ea2f55994ac3dd8dcf1c3d58c3f5b
+Merge: 520c871 d7f2c0f
+Author: Pascal Coin <bpascalblockchain@gmail.com>
+Date:   Thu Sep 15 00:03:40 2016 +0200
+
+    Merge pull request #5 from willowrose/master
+    
+    Set freed variables to nil where variable scope is not local
+
+commit d7f2c0fcd159b0f163a57217e71277a48f2d9d49
+Author: willowrose <willowrose@users.noreply.github.com>
+Date:   Wed Sep 14 21:16:51 2016 +0200
+
+    Set freed variables to nil where variable scope is not local
+
+commit 520c871dc80c2289ed75ecae33d86ed7359af812
+Merge: 8262e00 74ccc0c
+Author: Pascal Coin <bpascalblockchain@gmail.com>
+Date:   Wed Sep 14 20:08:58 2016 +0200
+
+    Merge pull request #4 from willowrose/master
+    
+    Synchronize thread access to VCL
+
+commit 74ccc0c0ef76a4ef22624ebf91add0283d35fae8
+Author: willowrose <willowrose@users.noreply.github.com>
+Date:   Wed Sep 14 18:48:22 2016 +0200
+
+    Synchronize thread access to VCL
+
+commit 8262e00025274ae61b59a77aa76fb6364fcc2132
+Merge: d600a15 3b1996d
+Author: Pascal Coin <bpascalblockchain@gmail.com>
+Date:   Mon Sep 12 18:18:54 2016 +0200
+
+    Merge pull request #2 from willowrose/master
+    
+    Language text (small changes)
+
+commit 3b1996dc932bd043d58d43350c2ac9fc3be47f34
+Author: willowrose <willowrose@users.noreply.github.com>
+Date:   Thu Sep 8 21:47:00 2016 +0200
+
+    Language text (small changes)
+
+commit d600a159c66f9d6ae6f9dc49414baf166d606081
+Author: PascalCoin <bpascalblockchain@gmail.com>
+Date:   Thu Sep 8 16:52:00 2016 +0200
+
+    Build 1.0.3
+    
+    Source code of PascalCoin build 1.0.3
+
+commit 749a7114a90d44c9a923c3fa4ead4edcbc9e4904
+Author: PascalCoin <bpascalblockchain@gmail.com>
+Date:   Wed Aug 31 23:30:21 2016 +0200
+
+    Build 1.0.2
+    
+    See README.txt to know Build 1.0.2 changes
+
+commit 54ed81622eef86781a70e73bd4c52e586bf10b2e
+Author: PascalCoin <bpascalblockchain@gmail.com>
+Date:   Fri Aug 12 17:28:51 2016 +0200
+
+    Deleted old instaler
+
+commit d4c4f06e19467662dc1c72537f9745c742131c6d
+Author: PascalCoin <bpascalblockchain@gmail.com>
+Date:   Fri Aug 12 17:26:15 2016 +0200
+
+    Source code Build 1.0.1
+    
+    Source code of Pascal Coin Build 1.0.1 for Delphi 2010
+
+commit 81527fc1c13513d26849f10aa181fd600d8de695
+Author: PascalCoin <bpascalblockchain@gmail.com>
+Date:   Fri Aug 12 02:14:52 2016 +0200
+
+    Add files via upload
+
+commit c22184dd7a407c6646ab651494822071726ed36e
+Author: PascalCoin <bpascalblockchain@gmail.com>
+Date:   Fri Aug 12 01:56:55 2016 +0200
+
+    Add files via upload
+
+commit 026d8ebee61efd200aa775eb443eb734f6a75fdc
+Author: PascalCoin <bpascalblockchain@gmail.com>
+Date:   Wed Jul 13 13:47:25 2016 +0200
+
+    Add files via upload
+
+commit fc0a46a96d801fd52056f118ff80aceab6acebb9
+Author: PascalCoin <bpascalblockchain@gmail.com>
+Date:   Tue Jul 12 08:59:02 2016 +0200
+
+    Initial commit

@@ -1,0 +1,223 @@
+commit 7e4499eb2d1b46a343f2bb438648994fe3c18bba
+Author: PostCoinDevelopers <pandore-box@ya.ru>
+Date:   Tue Apr 25 12:51:10 2017 +0700
+
+    Update README.md
+
+commit 033caf5a92cd2850bd559a8f34cace12cad8d9c9
+Author: PostCoinDevelopers <pandore-box@ya.ru>
+Date:   Sat Apr 22 17:22:40 2017 +0700
+
+    Update README.md
+
+commit a69bcaba580621a6a45551a2716a17385d062bb0
+Author: PostCoinDevelopers <pandore-box@ya.ru>
+Date:   Tue Aug 30 17:38:01 2016 +0400
+
+    Update README.md
+
+commit 0cf51f59d5eaf67cb059c8c30db14c6aedee3bd6
+Author: PostCoinDevelopers <pandore-box@ya.ru>
+Date:   Tue Aug 30 17:37:25 2016 +0400
+
+    Update README.md
+
+commit 5aeca3868c85e20df03868b2440e59daa6be8906
+Author: PostCoinDevelopers <pandore-box@ya.ru>
+Date:   Tue Aug 30 17:36:35 2016 +0400
+
+    Update README.md
+
+commit b68ee2706ccd9d168049f1c015cc6e001b812de4
+Author: PostCoinDevelopers <pandore-box@ya.ru>
+Date:   Tue Aug 30 17:35:39 2016 +0400
+
+    Update README.md
+
+commit 40feba896842e07bb1e155c11ec4cdf1f1074c5e
+Author: PostCoinDevelopers <pandore-box@ya.ru>
+Date:   Tue Aug 30 17:32:31 2016 +0400
+
+    Update README.md
+
+commit 2a0c4014e0f26100d714ab75ab8f1275bdc6bb2f
+Author: PostCoinDevelopers <pandore-box@ya.ru>
+Date:   Thu Aug 18 11:45:20 2016 +0600
+
+    Update README.md
+
+commit 436e6417c09717e7990d2097f6c03451a481199c
+Author: PostCoinDevelopers <pandore-box@ya.ru>
+Date:   Thu Aug 18 11:40:57 2016 +0600
+
+    Update README.md
+
+commit 28d0fac6c70ff0a727e2f5afe4103de20d86ace3
+Author: genavarov <genavarov@gmail.com>
+Date:   Tue Aug 16 17:33:05 2016 +0300
+
+    Mac icon
+    
+    Icon for Mac
+
+commit 5ca986e471f0e944548a17c3040970a6a525b9e1
+Author: genavarov <genavarov@gmail.com>
+Date:   Tue Aug 16 07:03:17 2016 +0300
+
+    16.09 Conf reboot
+    
+    Conf reboot
+
+commit 49188f94fe213105b48fccc22e9c9ea0939cd90c
+Author: genavarov <genavarov@gmail.com>
+Date:   Tue Aug 16 02:00:09 2016 +0300
+
+    New Version 1.0.2.0
+    
+    Bump version 1.0.2.0
+
+commit 418c71508599b847509e4885bbe42e5a8b3d5d90
+Author: genavarov <genavarov@gmail.com>
+Date:   Tue Aug 16 01:09:30 2016 +0300
+
+    16.09.16
+    
+    Correct PostCoin-qt.pro
+
+commit 92a488eb6c10005faaf8e8053cdec221718b8cfe
+Author: genavarov <genavarov@gmail.com>
+Date:   Mon Aug 15 23:19:40 2016 +0300
+
+    Build add
+    
+    add build_config.mk
+
+commit d472707cdc82af2a5121d386109c036acf5bcccc
+Author: genavarov <genavarov@gmail.com>
+Date:   Mon Aug 15 22:28:46 2016 +0300
+
+    1.0.1.1
+    
+    Bump version 1.0.1.1
+
+commit f366ffd143371c0dd59f6bdcffd01a6a192cb69b
+Author: genavarov <genavarov@gmail.com>
+Date:   Mon Aug 15 22:01:19 2016 +0300
+
+    15.09.2200
+    
+    Change Nodes
+
+commit 3f5f96bce5b2572417e24954b0b5097523b98255
+Author: genavarov <genavarov@gmail.com>
+Date:   Mon Aug 15 02:08:28 2016 +0300
+
+    15.08.16
+    
+    add dnsnodes
+
+commit e16da9b226bb0f7df0449b708482d67d9c66a751
+Author: genavarov <genavarov@gmail.com>
+Date:   Sun Aug 14 22:02:10 2016 +0300
+
+    Check
+    
+    Check point and seeds
+
+commit 747d3726c65f178adcbfada754d2855ff3530b1a
+Author: genavarov <genavarov@gmail.com>
+Date:   Sun Aug 14 21:43:03 2016 +0300
+
+    README
+    
+    Add README
+
+commit 544ee16bdd8468f2026e8ae63e6cf37ab19ad4c7
+Author: genavarov <genavarov@gmail.com>
+Date:   Sun Aug 14 06:05:10 2016 +0300
+
+    14.09
+    
+    COPYNG
+
+commit 2664c60e9dd0b61e0d6bf36dfb773f9f252c138f
+Author: genavarov <genavarov@gmail.com>
+Date:   Sat Aug 13 14:48:25 2016 +0300
+
+    Gitian
+    
+    Add gitian builder
+
+commit fb2fc8453371ecaa2df46ef24b0aabc72c8c4285
+Author: genavarov <genavarov@gmail.com>
+Date:   Sat Aug 13 02:50:39 2016 +0300
+
+    Logo
+    
+    Back logo
+
+commit ef33490f90521613e342cf8a1c45f79c86f96536
+Author: genavarov <genavarov@gmail.com>
+Date:   Sat Aug 13 02:13:34 2016 +0300
+
+    12.09.16 master
+    
+    resave master
+
+commit 8f39e897c1171f3063d10a54b3fe1c0a8169c0fe
+Author: genavarov <genavarov@gmail.com>
+Date:   Sat Aug 13 01:54:17 2016 +0300
+
+    Install
+    
+    Install change
+
+commit a310bb8bfc72e3a6bcbc2d96990243659ccd49d0
+Author: genavarov <genavarov@gmail.com>
+Date:   Sat Aug 13 01:38:50 2016 +0300
+
+    12.09.16
+    
+    Update seeds
+
+commit a98600f9bfb57931b5b50f6f4fe0e85a294af15d
+Author: mammix2 <mammix2@hotmail.com>
+Date:   Sat Mar 19 20:09:46 2016 +0000
+
+    cleanup leveldb objects
+
+commit 44ec5938373a7f0b1e14b5af5fdb4af0f4a0cee5
+Author: devpostcoin <dev.postcoin@gmail.com>
+Date:   Fri Mar 18 01:08:05 2016 +0200
+
+    Update README.md
+
+commit 763663bedca27fafa9af08f8429f5d8599f35c09
+Author: devpostcoin <dev.postcoin@gmail.com>
+Date:   Fri Mar 18 01:07:52 2016 +0200
+
+    Update README.md
+
+commit f189d3071c36a4b853d8f3597ae83f42c1688ce4
+Author: devpostcoin <dev.postcoin@gmail.com>
+Date:   Fri Mar 18 01:07:10 2016 +0200
+
+    Update README.md
+
+commit 4a37d87f0e54e5db872e1cfa4ffc079616d256fe
+Author: devpostcoin <dev.postcoin@gmail.com>
+Date:   Fri Mar 18 01:06:33 2016 +0200
+
+    Update README.md
+
+commit db3488e483828bf27ff215eb0044dbb082e48f3c
+Author: devpostcoin <dev.postcoin@gmail.com>
+Date:   Fri Mar 18 01:05:07 2016 +0200
+
+    Create README.md
+
+commit 19247e8c6b5edc145d18d3ea2d5416a113e17f66
+Author: devpostcoin <dev.postcoin@gmail.com>
+Date:   Thu Mar 17 21:57:21 2016 +0000
+
+    Version 1.0

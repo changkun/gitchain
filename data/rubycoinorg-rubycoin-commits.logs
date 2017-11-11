@@ -1,0 +1,443 @@
+commit e7d25cb4ce0bdd73cc43cc858b6f00e6e3d0d8b8
+Author: FuzzyHobbit <fuzzyhobbit@gmx.com>
+Date:   Sun Nov 5 00:21:05 2017 -0400
+
+    Update documentation
+
+commit e8ddba8d34182de68cd2a20de6db0932ce1edfc8
+Author: Brian Hewitt <sir.durendal@gmail.com>
+Date:   Sat Nov 4 16:21:02 2017 -0600
+
+    Staking on a Raspberry Pi
+
+commit 2ce5f8de513b14af1fcd8cce2ed84dd0b3de05cc
+Author: FuzzyHobbit <fuzzyhobbit@gmx.com>
+Date:   Mon Oct 30 22:49:51 2017 -0400
+
+    Change maxorphanblocksmib to orphanblocks
+
+commit ec2611fd93c9afdb16d0b73e69845f26b3fe0447
+Author: FuzzyHobbit <fuzzyhobbit@gmx.com>
+Date:   Mon Oct 30 22:48:00 2017 -0400
+
+    Change datacarriersize to datacarrier
+
+commit 4f27348951ae5ff511ab3672e19c8e2e97815313
+Author: FuzzyHobbit <fuzzyhobbit@gmx.com>
+Date:   Mon Oct 30 22:40:00 2017 -0400
+
+    Allow nodes to define stake combine threshold
+
+commit d7cd4efbfd26d1e147f2fe20509b4dc070d0a425
+Author: FuzzyHobbit <fuzzyhobbit@gmx.com>
+Date:   Sun Oct 29 23:11:12 2017 -0400
+
+    Update build instructions
+
+commit 8c0a8c80fab61e9ce929a6096b82f3eb6a820212
+Author: FuzzyHobbit <fuzzyhobbit@gmx.com>
+Date:   Sun Oct 29 22:50:27 2017 -0400
+
+    Add tor seed node
+
+commit 06748cabd6928802aa2e31a730d1d65b45ccc416
+Author: FuzzyHobbit <fuzzyhobbit@gmx.com>
+Date:   Sun Oct 29 22:46:31 2017 -0400
+
+    Add hidden service documentation
+
+commit 7aec1ec6b5b36e158b310d1251af1dedea4e0224
+Author: FuzzyHobbit <fuzzyhobbit@gmx.com>
+Date:   Sun Oct 29 16:25:00 2017 -0400
+
+    Fix rounding description
+
+commit fa89681ae565f247b15e1e6da914efe078eb1a39
+Author: FuzzyHobbit <fuzzyhobbit@gmx.com>
+Date:   Sat Oct 28 17:59:24 2017 -0400
+
+    Add tor seed node
+
+commit 5b321e12dbaa9bf36becf001986ed68ff4ae30a0
+Author: FuzzyHobbit <fuzzyhobbit@gmx.com>
+Date:   Fri Oct 27 03:40:53 2017 -0400
+
+    Update translations
+
+commit 3f39cd720da7855c9b349894ff40e490a9be56e8
+Author: FuzzyHobbit <fuzzyhobbit@gmx.com>
+Date:   Fri Oct 27 00:15:45 2017 -0400
+
+    Remove disabled opcodes
+
+commit ade1d79ef4c33d875f36af469e162518e5fee1da
+Author: FuzzyHobbit <fuzzyhobbit@gmx.com>
+Date:   Thu Oct 26 20:16:12 2017 -0400
+
+    Allow nodes to define maximum data carrier size
+
+commit 73a314be9cadcd362249de40afb1ad25dd1131bb
+Author: FuzzyHobbit <fuzzyhobbit@gmx.com>
+Date:   Thu Oct 26 19:17:48 2017 -0400
+
+    Update copyright year
+
+commit f884bd6c71dcca24ca11411c9c80d64476dc64c1
+Author: FuzzyHobbit <fuzzyhobbit@gmx.com>
+Date:   Thu Oct 26 19:17:09 2017 -0400
+
+    Update build instructions
+
+commit e54ccd14286cc37ecdcbb094ca7c8b1ed36675e7
+Author: FuzzyHobbit <fuzzyhobbit@gmx.com>
+Date:   Sat Sep 23 14:23:21 2017 -0400
+
+    Disable UPnP by default
+
+commit 7c83d18696548d2b7ab3fa16bcc1db0547043a5c
+Author: FuzzyHobbit <fuzzyhobbit@gmx.com>
+Date:   Thu Aug 31 13:47:28 2017 -0400
+
+    Update seed nodes
+
+commit 0d94f1abe4077af13f8d4208c778d177c7f39da0
+Author: FuzzyHobbit <fuzzyhobbit@gmx.com>
+Date:   Mon Jul 17 19:02:30 2017 -0400
+
+    Add checkpoint
+
+commit a8e06501d54401c11985f30a3f2dcc94b9baac6f
+Author: FuzzyHobbit <fuzzyhobbit@gmx.com>
+Date:   Thu May 25 07:48:49 2017 -0400
+
+    Remove old protocol code
+
+commit 65ebbb01aceabf5a9bd10918d86d003084c11a3e
+Author: FuzzyHobbit <fuzzyhobbit@gmx.com>
+Date:   Wed May 10 03:33:21 2017 -0400
+
+    Update stake combine threshold
+
+commit 08b566930746517a80cc950812af10f2fe66f3d0
+Author: FuzzyHobbit <fuzzyhobbit@gmx.com>
+Date:   Mon Apr 3 16:04:33 2017 -0400
+
+    Add flags to mandatory script verification
+
+commit d0c0b6363ea91e7bfb67b095daacbb8bbba2848e
+Author: FuzzyHobbit <fuzzyhobbit@gmx.com>
+Date:   Mon Apr 3 15:51:20 2017 -0400
+
+    Don't leak height during inital sync
+
+commit 2b6cac8744dd042e22797f6a6bebccb11deb82eb
+Author: FuzzyHobbit <fuzzyhobbit@gmx.com>
+Date:   Mon Apr 3 15:37:00 2017 -0400
+
+    Remove safe mode with high priority alert
+
+commit e3423cb1ae9241661bd7c809d10a509a6bdc75e6
+Author: FuzzyHobbit <fuzzyhobbit@gmx.com>
+Date:   Sun Jul 17 18:16:56 2016 -0400
+
+    Fix boost-related compile error
+
+commit c7b42d5d763346bdb652b47a6aab01efe78afb77
+Author: FuzzyHobbit <fuzzyhobbit@gmx.com>
+Date:   Sat Feb 20 13:21:59 2016 -0500
+
+    Use largest finite value for MAX_MONEY
+
+commit a5243efeed2860aece93264eb9225a3fd6a50a59
+Author: FuzzyHobbit <fuzzyhobbit@gmx.com>
+Date:   Sat Feb 20 13:07:54 2016 -0500
+
+    v2.2.1.0
+
+commit 347546277338c6dd2072e73f770880c79273366a
+Author: FuzzyHobbit <fuzzyhobbit@gmx.com>
+Date:   Sat Feb 20 12:58:50 2016 -0500
+
+    Enforce low-S values in block signatures
+
+commit 97cd63480b82a8f6436d6cd0a43eaec1a475d527
+Author: FuzzyHobbit <fuzzyhobbit@gmx.com>
+Date:   Thu Jan 21 15:55:19 2016 -0500
+
+    Fix key parsing for salvage
+
+commit 73253be76586bd79cfffee510326319764e9b6d7
+Author: FuzzyHobbit <fuzzyhobbit@gmx.com>
+Date:   Sun Dec 27 17:34:35 2015 -0500
+
+    OP_NOP2 to OP_CHECKLOCKTIMEVERIFY
+
+commit 9447c4176739988e5fd45a6b73157baf0b66f8ea
+Author: FuzzyHobbit <fuzzyhobbit@gmx.com>
+Date:   Tue Dec 15 19:27:01 2015 -0500
+
+    Check for null data transaction
+
+commit 2aa720c58eedc7d06ad3bd93184d1b4e06a1a735
+Author: FuzzyHobbit <fuzzyhobbit@gmx.com>
+Date:   Thu Dec 10 20:01:39 2015 -0500
+
+    Remove coin selection by age
+
+commit 6ecbb077a575cdf7f144b01570240d412c8f0e84
+Author: FuzzyHobbit <fuzzyhobbit@gmx.com>
+Date:   Thu Dec 10 19:45:38 2015 -0500
+
+    Remove block signature re-serealization
+
+commit a627298e0ffd1e428fc831a6445d220bf909a56a
+Author: FuzzyHobbit <fuzzyhobbit@gmx.com>
+Date:   Wed Dec 9 19:25:30 2015 -0500
+
+    Limit memory used for orphans
+
+commit 36dfabb81579acc43b68cff55b5b4267e6fb5d3b
+Author: fuzzyhobbit <fuzzyhobbit@gmx.com>
+Date:   Thu Nov 12 20:02:08 2015 -0500
+
+    v2.2.0.1
+
+commit 843fda72f8e46ea5ab83c5e7dc09d98f0a6ac04f
+Author: fuzzyhobbit <fuzzyhobbit@gmx.com>
+Date:   Thu Nov 12 19:57:57 2015 -0500
+
+    Enforce protocol v3 nodes
+
+commit e171550575f5173d51440c1da301e66d9cacc9b2
+Author: fuzzyhobbit <fuzzyhobbit@gmx.com>
+Date:   Mon Nov 9 01:10:56 2015 -0500
+
+    Reduce font size for transaction table
+
+commit e2cb448b539d3b6c7c79fa164359314de7e0e53b
+Author: fuzzyhobbit <fuzzyhobbit@gmx.com>
+Date:   Mon Nov 2 21:28:18 2015 -0500
+
+    Increase column width for transaction amounts
+
+commit 0677a78ba55bf77ad0ff397c381b929feee52f7c
+Author: fuzzyhobbit <fuzzyhobbit@gmx.com>
+Date:   Sun Nov 1 20:01:19 2015 -0500
+
+    Increase logo size
+
+commit 116d824a6708422929c6224bb24eb67d1db4e428
+Author: fuzzyhobbit <fuzzyhobbit@gmx.com>
+Date:   Sat Oct 31 21:55:01 2015 -0400
+
+    Increase column width for receive addresses
+
+commit 04faa7e6959e790670d855f6d49cb617f72572ee
+Author: fuzzyhobbit <fuzzyhobbit@gmx.com>
+Date:   Fri Oct 30 18:47:55 2015 -0400
+
+    Update README
+
+commit 5929f4e47b69f38b3ab19d6979d6b0d24a097448
+Author: FuzzyHobbit <fuzzyhobbit@gmx.com>
+Date:   Wed Oct 28 17:21:05 2015 -0400
+
+    v2.2.0.0
+
+commit a71f275f0683dfd8c1acadf3a5cd88db5e5e429c
+Author: FuzzyHobbit <fuzzyhobbit@gmx.com>
+Date:   Wed Oct 28 13:12:51 2015 -0400
+
+    Move WSAStartup
+
+commit 7a35f1d6b60d4b05540597c3b807ca2dbf1e13fb
+Author: FuzzyHobbit <fuzzyhobbit@gmx.com>
+Date:   Wed Oct 28 11:17:22 2015 -0400
+
+    Remove relaying of checkpoints
+
+commit d6a6c63baf2a3a105d3689dcb7f973e3c948e0a3
+Author: FuzzyHobbit <fuzzyhobbit@gmx.com>
+Date:   Wed Oct 28 09:20:58 2015 -0400
+
+    Update GUI
+
+commit b762b100dc805afef8ea00918815c39bd4c4b365
+Author: FuzzyHobbit <fuzzyhobbit@gmx.com>
+Date:   Tue Oct 27 17:27:15 2015 -0400
+
+    Submitblock
+
+commit bebc539c3bb7eedde6f7f3f027f9a53ae7b925df
+Author: FuzzyHobbit <fuzzyhobbit@gmx.com>
+Date:   Tue Oct 27 17:11:56 2015 -0400
+
+    Require canonical block signature
+
+commit eba1af17d34cbf4276f1089122c204cb9233cce6
+Author: FuzzyHobbit <fuzzyhobbit@gmx.com>
+Date:   Tue Oct 27 17:07:25 2015 -0400
+
+    Static proof-of-stake reward
+
+commit b2ceda99fd4c5d04e1fe64718cf22b718f346045
+Author: FuzzyHobbit <fuzzyhobbit@gmx.com>
+Date:   Tue Oct 27 16:22:47 2015 -0400
+
+    Stake modifier v2
+
+commit dfe3595991364593b1f069bf7916fff591369d28
+Author: FuzzyHobbit <fuzzyhobbit@gmx.com>
+Date:   Tue Oct 27 14:13:26 2015 -0400
+
+    Remove centralized checkpointing
+
+commit 68625895ae0ad9aecdf2e4df3bc34957b34db40a
+Author: FuzzyHobbit <fuzzyhobbit@gmx.com>
+Date:   Tue Oct 27 13:25:36 2015 -0400
+
+    Enforce new script verification flags
+
+commit ac0d3efcd79b9a4afa6766d44cae9088a29cb316
+Author: FuzzyHobbit <fuzzyhobbit@gmx.com>
+Date:   Tue Oct 27 13:15:23 2015 -0400
+
+    Replace NOP2 with CHECKLOCKTIMEVERIFY
+
+commit b73ea8ba184d33c11d73ec06c41b1582e408589c
+Author: FuzzyHobbit <fuzzyhobbit@gmx.com>
+Date:   Tue Oct 27 12:58:14 2015 -0400
+
+    Compatibility with BIP66
+
+commit 1ce302b796125342097a5a423ef2d28709bfd921
+Author: FuzzyHobbit <fuzzyhobbit@gmx.com>
+Date:   Tue Oct 27 12:50:20 2015 -0400
+
+    Add non-spendable encoding for block signing key
+
+commit 2c05d9dc88149f517033e664cb3fce8f17a691b4
+Author: FuzzyHobbit <fuzzyhobbit@gmx.com>
+Date:   Tue Oct 27 12:45:32 2015 -0400
+
+    Make special marker non-spendable
+
+commit e9ee395108ebdbd4c2c66a60e01910455280954e
+Author: FuzzyHobbit <fuzzyhobbit@gmx.com>
+Date:   Tue Oct 27 12:42:03 2015 -0400
+
+    Limit difficulty adjustment per block
+
+commit 0e6cc2c5fe9c1a0f1490f5aa4ec0e5f69e6b6967
+Author: FuzzyHobbit <fuzzyhobbit@gmx.com>
+Date:   Tue Oct 27 12:03:27 2015 -0400
+
+    Replace stake min age with min confirmations
+
+commit 61b9ca151fddcf9c9409e83e274358f55319b9ae
+Author: FuzzyHobbit <fuzzyhobbit@gmx.com>
+Date:   Tue Oct 27 10:19:40 2015 -0400
+
+    Accept blocks with unknown version
+
+commit 82a25917277d574caec1f708b67cced932596e2b
+Author: FuzzyHobbit <fuzzyhobbit@gmx.com>
+Date:   Tue Oct 27 10:13:31 2015 -0400
+
+    Add switch for protocol v3
+
+commit 3f5668029553e1d87bf89be200233f4024733269
+Author: FuzzyHobbit <fuzzyhobbit@gmx.com>
+Date:   Tue Oct 27 09:38:50 2015 -0400
+
+    Fix static build with miniupnpc >= 1.9.20140610
+
+commit 0d5bbe7faef434648765e19956c4c8680a4503ab
+Author: FuzzyHobbit <fuzzyhobbit@gmx.com>
+Date:   Tue Oct 27 09:36:50 2015 -0400
+
+    Add support for miniupnpc API v14
+
+commit 3e5f87b5054b59ae235f0bfc4e08c2d2ff8df9c1
+Author: FuzzyHobbit <fuzzyhobbit@gmx.com>
+Date:   Tue Oct 27 09:32:35 2015 -0400
+
+    Improve addrman Select() performance when buckets are nearly empty
+
+commit d28751fbb4c29638d2d70701cfc0e729617464c0
+Author: FuzzyHobbit <fuzzyhobbit@gmx.com>
+Date:   Tue Oct 27 09:29:03 2015 -0400
+
+    Store no more than 200 timedata samples
+
+commit d33e9554bee8197e3d8e0c4121a732b1c6aed396
+Author: FuzzyHobbit <fuzzyhobbit@gmx.com>
+Date:   Tue Oct 27 09:26:08 2015 -0400
+
+    Add checkpoint
+
+commit ec4b1268f6108a2da33eaf2f50d838e505beb666
+Author: FuzzyHobbit <fuzzyhobbit@gmx.com>
+Date:   Tue Oct 27 09:08:01 2015 -0400
+
+    Don't check duplicate stake while importing
+
+commit e7f253a4cb94ae282fda785af81d7fcc8e484de6
+Author: FuzzyHobbit <fuzzyhobbit@gmx.com>
+Date:   Tue Oct 27 08:54:22 2015 -0400
+
+    Ignore blocks received while importing
+
+commit a66a32f6f907a638738c2c59939b9d3b72b42cd1
+Author: FuzzyHobbit <fuzzyhobbit@gmx.com>
+Date:   Sat Oct 24 05:09:28 2015 -0400
+
+    Fixed client versioning
+
+commit bd4a3e57f53f1d4caa2f0aa6ea27f86958c3454a
+Author: FuzzyHobbit <fuzzyhobbit@gmx.com>
+Date:   Thu Oct 22 09:48:53 2015 -0400
+
+    Disable UPnP by default
+
+commit 8e9eb7253423371934440c918fa1ad86bd36be23
+Author: FuzzyHobbit <fuzzyhobbit@gmx.com>
+Date:   Fri Oct 16 01:00:17 2015 -0400
+
+    Fix URI parsing
+
+commit 2b3faa2df45a132c1805e5aac1c2b957ed4fa1cf
+Author: FuzzyHobbit <fuzzyhobbit@gmx.com>
+Date:   Wed Oct 14 16:50:50 2015 -0400
+
+    Restore hex to getrawtransaction vout scriptPubkey
+
+commit e36b1e37c46cb222322b5f291cebddac55959d09
+Author: FuzzyHobbit <fuzzyhobbit@gmx.com>
+Date:   Wed Oct 14 16:46:34 2015 -0400
+
+    Updated node seeders
+
+commit 727b9488c67f350ad966a3ff2e483a107c3d0dbe
+Author: fuzzyhobbit <fuzzyhobbit@gmx.com>
+Date:   Sat Oct 3 22:08:45 2015 -0400
+
+    Improved OSX build instructions
+
+commit 9fcf4588ac5daf45d0236cbf0267cfc81445f8d7
+Author: FuzzyHobbit <fuzzyhobbit@gmx.com>
+Date:   Fri Sep 25 23:24:28 2015 -0400
+
+    Added node seeder
+
+commit 40208f04700940e95b7e2fe878db01f92cd24e89
+Author: FuzzyHobbit <fuzzyhobbit@gmx.com>
+Date:   Mon Sep 21 01:57:36 2015 -0400
+
+    Updated link
+
+commit f537ffac2c5d3ef8af3e2def4720bd2289de813b
+Author: fuzzyhobbit <fuzzyhobbit@gmx.com>
+Date:   Sun Aug 9 19:23:28 2015 -0400
+
+    v2.1.0.0

@@ -1,0 +1,5704 @@
+commit a49e36e07c39db68960ee300e0474f0f83462b67
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Jul 28 23:27:14 2017 -0400
+
+    remove save functions
+
+commit 55b0d5117d17db72e0602b6744fa28ad6c0ac168
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Jul 28 20:03:27 2017 -0400
+
+    fix for last commit
+
+commit ca3879cc61bfab921555918fc0bc5dc853a7886a
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Jul 28 20:00:34 2017 -0400
+
+    multisig fix
+
+commit 87a71054aa6c687f184149150582ee92b0abec1a
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Jul 22 13:22:31 2017 -0400
+
+    Revert "Per-peer block tracking, stalled block download detection, orphan pool limiting #3514"
+    
+    This reverts commit c5539829d1de6412953ef54938eaacd75d4fe504.
+    
+    Conflicts:
+            src/main.cpp
+
+commit 959037254ccaf5e5c83cb61c73a1e18e8506ae85
+Merge: b026a69 8bdc966
+Author: Alastair Clark <jjaauto@hotmail.com>
+Date:   Thu May 4 14:57:04 2017 -0400
+
+    Merge pull request #55 from syfares/master
+    
+    Fix for the freeze issue and CTRL+L
+
+commit 8bdc966f8c1387a3072dbbb184ed03a954848cf8
+Author: syfares <syfare@gmail.com>
+Date:   Thu May 4 19:27:45 2017 +0200
+
+    New update for compilation
+
+commit af96e544ab1a6ce51b49d3b4ffd59262849e8021
+Author: syfares <syfare@gmail.com>
+Date:   Tue May 2 23:55:26 2017 +0200
+
+    Update
+
+commit 1851698297fd61a59586363ee4bce46d515ba29b
+Author: syfares <syfare@gmail.com>
+Date:   Tue May 2 19:32:54 2017 +0200
+
+    Fix the freeze issue
+
+commit 4631106627551718c92cd2b5f2aa1777dac680da
+Author: syfares <syfare@gmail.com>
+Date:   Mon May 1 11:20:02 2017 +0200
+
+    Update masternodemanager.ui
+
+commit cb36534615cddae2ce8496429cb1f24c47e09049
+Author: syfares <syfare@gmail.com>
+Date:   Mon May 1 11:19:24 2017 +0200
+
+    Update masternodemanager.cpp
+
+commit d9fb2dfbe4850cc3027d3369dab0534255e1cfc2
+Author: syfares <syfare@gmail.com>
+Date:   Mon May 1 11:18:35 2017 +0200
+
+    Fix the freeze issue
+
+commit b026a69c1b76e229489853141b2184f92e05d683
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Apr 1 15:08:16 2017 -0400
+
+    false to true
+
+commit b08460a09b0e9897b4c8da88299d75651a7bbbba
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Apr 1 15:06:49 2017 -0400
+
+    IPV4/IPV6
+
+commit 0613e99faa77a13df3a204f78db45fcba0bc9570
+Merge: 9652a74 e06fb24
+Author: Alastair Clark <jjaauto@hotmail.com>
+Date:   Thu Mar 30 23:05:44 2017 -0400
+
+    Merge pull request #49 from transferdev/1.2.4
+    
+    1.2.4
+
+commit e06fb240625185abc1eefb32c07383caa5aeedf8
+Merge: 84b5dcc 9652a74
+Author: Alastair Clark <jjaauto@hotmail.com>
+Date:   Thu Mar 30 22:49:18 2017 -0400
+
+    Merge branch 'master' into 1.2.4
+
+commit 9652a74ddb12f87fc3ccaaaaf2e53e8a22ed5532
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Mar 30 22:21:10 2017 -0400
+
+    Fix transaction relaying and Increase network security
+
+commit 84b5dcc31e04ff891d6dca4840372f47858bb987
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Mar 30 17:14:20 2017 -0400
+
+    fix mac compile
+
+commit 98826037c62e5ed78be4e8b711afe3e997dad7e7
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Mar 30 14:29:32 2017 -0400
+
+    Test fixes for 1.2.4
+
+commit eea546264e07a9eb988645b04cd5333d58beb67a
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Sep 21 17:39:38 2016 -0400
+
+    Fix Merge 1.2.3.1
+
+commit 8641c18303d78fa7da9c881efec323e6a1fdce72
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Sep 21 17:15:47 2016 -0400
+
+    Fix Merge 1.2.3.1
+
+commit dcbd991420e6c73d332513e24881ae625b438685
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Sep 21 16:57:36 2016 -0400
+
+    Fix merge 1.2.3.1
+
+commit 1a8889555d297e4419ed355dc875125d17caeba0
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Sep 21 16:32:03 2016 -0400
+
+    fix travis
+
+commit 65cc125598b8cf4501f8a7698024d56115676ae5
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Sep 21 16:28:55 2016 -0400
+
+    fix travis
+
+commit 963e8af8667c2acf6c374292bc795b735bbdbc73
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Sep 21 16:21:56 2016 -0400
+
+    fix travis
+
+commit 941c5a08ce282e76b6148689d15c157127ffaf7b
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Sep 21 16:17:57 2016 -0400
+
+    fix travis
+
+commit c16a690f0d7fe8a4ce3ade53603647ccb349363b
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Sep 21 16:15:13 2016 -0400
+
+    fix travis
+
+commit aca79f3e9df0085293cd2031456ef2d6d3bf1097
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Sep 21 16:12:03 2016 -0400
+
+    fix travis
+
+commit 4c3e97e160116010bebde533f8e90aa8987af36d
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Sep 21 16:06:04 2016 -0400
+
+    Update clientversion.h
+
+commit 306ece45ffe0cbfcb5bfa274d95e586376a39631
+Merge: 6dbd1be 77c3a49
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Sep 21 15:40:25 2016 -0400
+
+    Merge pull request #45 from Infernoman/patch-1
+    
+    Change vNodes.empty() to vNodes.size() < 3
+
+commit 6dbd1be3536092e25e1af244d7b76feefaf2f6c3
+Merge: f708203 a86a977
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Sep 21 15:40:12 2016 -0400
+
+    Merge pull request #44 from Infernoman/patch-2
+    
+    add 2 more dns seeds
+
+commit f708203baca03753497333f4f425164c81a40750
+Merge: 8654ea3 ec1e27c
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Sep 21 15:34:19 2016 -0400
+
+    Merge 1.2.3.1
+
+commit 8654ea3194bf221f0dc63857fdc915ea4d4209f0
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Sep 21 13:15:59 2016 -0400
+
+    Retry immediately if initial download
+
+commit bbe8a74eb9a17ff566c6bb2d463555bf5756863a
+Merge: ba8950f 6b9351b
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Sep 21 13:09:49 2016 -0400
+
+    Merge pull request #43 from Infernoman/1.2.4
+    
+    Multisig UI
+
+commit a86a9776c682fcba91f85f6efc2fb2c306b28765
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Sep 21 12:44:54 2016 -0400
+
+    add 2 more dns seeds
+
+commit 77c3a49015db5cb926922b3e3b5e48ea0ce7815d
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Sep 21 11:41:12 2016 -0400
+
+    Change vNodes.empty() to vNodes.size() < 3
+    
+    Checking for vNodes.empty() or IsInitialBlockDownload() isn't enough of a check for the nodes. if the list isn't empty it skips the check for the size of the list. causing it to stake with less than 3 nodes.
+
+commit ec1e27cad3cbbe6fe5a1ba60f8398dbad2924e02
+Merge: 95ff0e2 b93dac0
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Sep 21 11:30:47 2016 -0400
+
+    Merge pull request #42 from io-eightyeight/master
+    
+    merge net changes
+
+commit b93dac0e94eec3f0e9c68bb36e10d885ab28a9ed
+Merge: 7aad185 08b5343
+Author: io-eightyeight <io-eightyeight@users.noreply.github.com>
+Date:   Fri Sep 16 23:25:08 2016 -0600
+
+    Merge pull request #2 from io-eightyeight/patches-06
+    
+    Patches 06
+
+commit 08b5343c2f4325387e1a3cc00aefc3fafe9518ef
+Author: io-eightyeight <io-eightyeight@users.noreply.github.com>
+Date:   Tue Aug 23 09:23:47 2016 +0000
+
+    Fix fRelayTxes
+
+commit a2c5cc41cd8f86abd5328d1cb64e537bfe04bac0
+Author: io-eightyeight <io-eightyeight@users.noreply.github.com>
+Date:   Tue Aug 23 06:53:38 2016 +0000
+
+    Fix SetMerkleBranch
+
+commit cd1d2c9bd1906d7ce975040a0228a2edc053bc87
+Author: io-eightyeight <io-eightyeight@users.noreply.github.com>
+Date:   Tue Aug 2 06:22:12 2016 +0000
+
+    net: dirty merge with 0.9
+
+commit d7a5bcd8d8c6d48b3f1b80bf5f3d4ab77009abb2
+Author: io-eightyeight <io-eightyeight@users.noreply.github.com>
+Date:   Mon Aug 1 18:58:13 2016 +0000
+
+    net: bug fixes
+    
+    - add missing includes
+    - default max connections to 125 (from 25)
+
+commit 7aad185fe99656519e7c3973a7827e8eecc9a858
+Merge: 0953ca0 ed7ecbc
+Author: io-eightyeight <io-eightyeight@users.noreply.github.com>
+Date:   Mon Aug 1 12:53:02 2016 -0600
+
+    Merge pull request #1 from io-eightyeight/patches-05
+    
+    Patches 05
+
+commit 95ff0e218183612afe41ef413b6c469d2f0e809a
+Merge: 0953ca0 ed7ecbc
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Aug 1 05:39:17 2016 -0400
+
+    Merge pull request #41 from io-eightyeight/patches-05
+    
+    Patches 05
+
+commit ed7ecbc9c6a00f3904430e4ed3f41b22d80939e4
+Author: io-eightyeight <io-eightyeight@users.noreply.github.com>
+Date:   Mon Aug 1 09:27:46 2016 +0000
+
+    version: 1.2.3.1
+
+commit 4d8b4e8e5cf5c27f56a7385dbe0f9a9b75c42ae4
+Author: io-eightyeight <io-eightyeight@users.noreply.github.com>
+Date:   Mon Aug 1 08:12:45 2016 +0000
+
+    build: add IPV6 definitions
+
+commit 0953ca07661b784ef813946dfddbf60da2d25117
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Jul 24 11:40:48 2016 -0400
+
+    Fix move command
+    
+    Move was adding 2 separate entries for debits, This can cause wallet.dat corruption as well as account balance issues depending on the OS.
+
+commit 6b9351bacd8d69e0ef3ff80ab84deaa1dc9c79f0
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun May 15 21:53:43 2016 -0400
+
+    Multisig UI
+
+commit ba8950fd52a34c27eec7a8cecf7ef8ae2d2a8dc0
+Merge: 3394f78 96058ba
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Apr 11 10:14:13 2016 -0400
+
+    Merge pull request #35 from Infernoman/1.2.4
+    
+    1.2.4 Ban/Peer table
+
+commit 96058ba3b1652bce728d5ef33372a93553b72acf
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Apr 10 05:07:19 2016 -0400
+
+    Prevent peer flooding inv request queue
+    
+    https://github.com/bitcoin/bitcoin/commit/1b5118bfa0d94dbc0f3d7803c3e68626b0a694ee
+    
+    Limit CNode::mapAskFor
+    Tighten resource constraints on CNode.
+    
+    https://github.com/bitcoin/bitcoin/commit/d4168c82bef0d86fd254a9d993906a09f5fd7fc0
+    
+    CAutoFile: Explicit Get() and remove unused methods
+
+commit 74dc899835d50267fe15597ed2fd990259638462
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Apr 10 03:15:07 2016 -0400
+
+    [Qt] allow banning and unbanning over UI->peers table
+    
+    https://github.com/bitcoin/bitcoin/pull/6315/files
+
+commit 61c90736161a83289cde2d65c0badb959956a03f
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Apr 10 02:28:26 2016 -0400
+
+    [Qt] disconnect peers from peers tab via context menu
+    
+    https://github.com/jonasschnelli/bitcoin/commit/51fc672f59f390ce4ddf05448b63bdf11e80563b
+    
+    Display time offset in the debug window's Peers tab
+    
+    https://github.com/jonasschnelli/bitcoin/commit/73caf47dfe9c398aac75b5f6bcd1e0a644479a46
+
+commit b08256023d415a7e1a483797dbc5abe2a1790b5a
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Apr 10 02:16:43 2016 -0400
+
+    [Qt] tweak new peers tab in console window
+    
+    https://github.com/jonasschnelli/bitcoin/commit/a5b2d9c82e985fa8df4457072b4fa30781f1d53a
+
+commit b936cc1d3a58cb56f67c4dbbf785202c72dc838d
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Apr 10 01:05:58 2016 -0400
+
+    Add IsNull() to class CAutoFile and remove operator !
+    
+    https://github.com/bitcoin/bitcoin/commit/fef24cab1a4a13a864783dfcd6613ce8100f990d
+    
+    implement uacomment config parameter which can add comments to user
+    agent as per BIP-0014
+    
+    https://github.com/bitcoin/bitcoin/commit/557f8eac7aa96059270a36358642fbce93ac0478
+    
+    limit total length of user agent comments
+    
+    https://github.com/bitcoin/bitcoin/commit/7b79cbd722d35b8113d5136b06d4a8e5fd569fc6
+
+commit bf6bd9f9db6b4eb51ec8180b2b9eeecaa5b4d1b1
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Apr 10 00:16:24 2016 -0400
+
+    use CBanEntry as object container for banned nodes
+    
+    https://github.com/bitcoin/bitcoin/commit/409bccfbf52b531b2a9d60ac2308f56223931a2e
+
+commit db92425b97ff1b0a041f903b19821430a7972f53
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Apr 9 23:52:39 2016 -0400
+
+    banlist.dat: store banlist on disk
+    
+    https://github.com/bitcoin/bitcoin/commit/f581d3d656cf269ea09ac6f130f4bd70b40a9e55
+    
+    CAddrDB/CBanDB: change filesize variables from int to uint64_t
+    
+    https://github.com/bitcoin/bitcoin/commit/dfa174c2957f2600f05bf0ee9dd17fe18fb54fd7
+
+commit a212da1388606eb11ad36afa0c695243ae55133b
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Apr 9 23:13:45 2016 -0400
+
+    Peer table tested and working.
+
+commit a36e0e6974ba1e7346819e29abdae3d6e7b1b838
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Apr 9 21:21:11 2016 -0400
+
+    Add setban/listbanned RPC commands
+    
+    https://github.com/bitcoin/bitcoin/pull/6158/files
+    also fix potential dead lock
+    
+    https://github.com/jonasschnelli/bitcoin/commit/b917555b04b501efe22990eedadc59ae8baa2519
+
+commit 146edd3a7358492eb053f18a051844483d45dd33
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Apr 9 20:52:57 2016 -0400
+
+    net: Add CSubNet class for subnet matching
+    
+    https://github.com/bitcoin/bitcoin/commit/e16be73753d870c5ce77094d3a402bbe8e3bf542
+
+commit 4e5c8d086dcd66a3eea800717144f7bc45170c21
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Apr 9 20:44:00 2016 -0400
+
+    Qt: Add GUI view of peer information. #4133
+    
+    https://github.com/jonasschnelli/bitcoin/commit/65f78a111ff52c2212cc0a423662e7a41d1206dd
+
+commit 3394f78188d1ec64de7c73c1d0ad69e05c1e0f10
+Merge: c149bb4 8998db2
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Apr 8 13:45:28 2016 -0700
+
+    Merge pull request #34 from transferdev/1.2.3
+    
+    1.2.3
+
+commit 8998db25694fbca7ad8e8258764990be6cb94975
+Merge: d6a6ec6 081f61f
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Apr 8 13:45:07 2016 -0700
+
+    Merge pull request #33 from Infernoman/1.2.3
+    
+    1.2.3
+
+commit 3d417d6cf2a2a8ac01ef0e4ba508e60422086c6a
+Merge: 483b670 081f61f
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Apr 8 08:48:52 2016 -0700
+
+    Merge pull request #32 from Infernoman/1.2.3
+    
+    1.2.3
+
+commit 483b67064f4433c5525a4b72e902c5079f57ae83
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Apr 8 08:48:24 2016 -0700
+
+    Revert "gitignore"
+    
+    This reverts commit 0372d7d24593b2d1004c7c796d3bc8aaa57a4b8e.
+
+commit 0372d7d24593b2d1004c7c796d3bc8aaa57a4b8e
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Apr 8 08:00:07 2016 -0700
+
+    gitignore
+
+commit 081f61f6db7d6018a727d6df02c7ac018566450e
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Apr 8 07:44:50 2016 -0700
+
+    Fix "Add time offset to getpeerinfo"
+
+commit af646898ccbfeb57d3b27ee5774231a2872b75a4
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Apr 8 06:43:16 2016 -0700
+
+    Fix "Add time offset to getpeerinfo"
+
+commit 19dadda18d20c8905a297da2dec2b91c132a7f3a
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Apr 8 06:35:51 2016 -0700
+
+    Revert "Revert "Add time offset to getpeerinfo output""
+    
+    This reverts commit a76e808043def3723907f4a6fbd5f69946b43085.
+
+commit 91a829bdd61faf4e77f826202bbcfcc96c6893a8
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Apr 8 06:32:59 2016 -0700
+
+    Remove donation addresses from GUI
+
+commit a76e808043def3723907f4a6fbd5f69946b43085
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Mar 26 02:27:16 2016 -0700
+
+    Revert "Add time offset to getpeerinfo output"
+    
+    This reverts commit 735f32eb2903b7d23078e945d9c2cbcdcf20c109.
+
+commit c149bb46a6d8be1c428e17f924ab8e02ca0d8676
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Apr 5 06:27:49 2016 -0400
+
+    Update README.md
+
+commit d744a6664385891ad594c53cfd8dcf6d129cdda6
+Merge: bb58667 d6a6ec6
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Apr 2 15:11:56 2016 -0400
+
+    Merge pull request #32 from transferdev/1.2.3
+    
+    1.2.3
+
+commit d6a6ec62fcd66da58930c73baa7e69a83041cfd8
+Merge: b55dc21 fd7aac9
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Mar 31 06:03:59 2016 -0700
+
+    Merge pull request #31 from Infernoman/1.2.3
+    
+    Revert to protocol version 61402.
+
+commit fd7aac9484249c25fd7b11392298d6ea969dedb2
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Mar 31 09:03:38 2016 -0400
+
+    Revert to protocol version 61402.
+    
+    61403 will require a complete network update because of the masternodes.
+
+commit fc029b32fa9954f461aa643dfa5a3c770f6b8d86
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Mar 26 01:20:17 2016 -0700
+
+    Fix linux build's
+
+commit 78e7d6b2552b9bfe7963640aed9e03e708518838
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Mar 26 00:07:45 2016 -0700
+
+    Removing un-needed include
+    
+    - remove an un-needed include for mswsock.h as we use winsock2.h anyway
+    
+    https://github.com/bitcoin/bitcoin/pull/2857/commits/dd833a4cd887bda58b8686a61287c342e9c56003
+
+commit 6709856ed881460457a03578934a035796da80a5
+Merge: fc2c820 3b73875
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Mar 26 00:05:44 2016 -0700
+
+    Merge upstream
+
+commit fc2c82001d24427876000853be8d04632ac449af
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Mar 25 23:58:00 2016 -0700
+
+    fix merge conflicts
+
+commit b55dc21cda71ded91152b7aebc3096c493570780
+Merge: 3b73875 fc029b3
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Mar 26 01:46:58 2016 -0400
+
+    Merge pull request #30 from Infernoman/1.2.3
+    
+    1.2.3
+
+commit 3b73875e9da620a4c7aaf9a856bdbc6b794ddde8
+Merge: 72b0a4c efbc885
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Mar 25 23:42:35 2016 -0400
+
+    Merge pull request #29 from io-eightyeight/emc-1.2.2.3
+    
+    phark-1.2.3-contrib
+
+commit 579812dc2b3d839f540cf4c265887c23e45e4eec
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Mar 24 03:38:45 2016 -0700
+
+    Fix compiler warnings.
+
+commit 1f56f2d187e5e7a8a12f97018b5d0bfeffaea635
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Mar 24 03:38:33 2016 -0700
+
+    Move core implementations to core.cpp
+
+commit 438bc1c96453e8d73e4c3269b80f5eb8eb2321b5
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Mar 24 03:38:06 2016 -0700
+
+    cleanup compat.h Windows stuff
+    
+    - remove an unneded include for mswsock.h as we use winsock2.h anyway
+    - move typedef u_int SOCKET; into the #ifndef WIN32 part
+    - remove typedef int socklen_t;  as this is defined in ws2tcpip.h
+    
+    https://github.com/bitcoin/bitcoin/pull/2857/commits/dd833a4cd887bda58b8686a61287c342e9c56003
+
+commit 2aa7d5664b88176c8a0f18f7b191f0f370804087
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Mar 24 01:42:08 2016 -0700
+
+    Remove duplicate files added in last commit.
+
+commit cf5eefe7e69c82d95b6f3097ed9293b12a220afc
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Mar 24 01:40:25 2016 -0700
+
+    Cleanup compiler warning.
+    
+    Fix compiler warnings for c++11
+
+commit a14b2cf4fa7d8c74027e993b60c5a4eb91ed30f7
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Mar 24 00:44:30 2016 -0700
+
+    Uses FixSpentCoins to fix PoS reward wallet corruption.
+    
+    http://github.com/SCDeveloper/DarkSilk-Release-Candidate/pull/88
+
+commit 3934619b813145f34e681d8275a4191266ecf883
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Mar 24 00:05:35 2016 -0700
+
+    Add support folder
+    
+    Add support folder
+    Add git ignore
+    update makefiles
+
+commit fa87a53cd091c830cfe10a932a530cd1276567ba
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Mar 23 23:35:54 2016 -0700
+
+    Fixes when compiling in c++11 mode
+    
+    https://github.com/bitcoin/bitcoin/pull/5509/commits
+
+commit 9fc764f8b414f6816bd7241a3ff9d2ab22a650d1
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Mar 6 13:03:36 2016 -0500
+
+    Revert "Add CBufferedFile"
+    
+    This reverts commit 8ab4db455025ac2ce7828cde5ec45796d461a007.
+
+commit a315018408f3a3de3dcc5f175e7719716f3a1e48
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Mar 6 12:59:27 2016 -0500
+
+    Fix smessage.h
+    
+    Broken in 948df5bbae65beea7f7def428fba1cb799b3fd00
+
+commit 8ab4db455025ac2ce7828cde5ec45796d461a007
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Mar 6 12:52:52 2016 -0500
+
+    Add CBufferedFile
+    
+    https://github.com/bitcoin/bitcoin/commit/b5d5f44c95b1010bd6fa53d0a87abd4d6389df8b
+
+commit 948df5bbae65beea7f7def428fba1cb799b3fd00
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Mar 6 12:43:15 2016 -0500
+
+    Changing LockedPageManager to use a managed instance
+    
+    https://github.com/bitcoin/bitcoin/commit/0b8f47dc531d3cbaf172a5e17f27524a40833dba
+    
+    This ensures the allocator is ready no matter when it's needed.
+
+commit 9e82ea0322e50bb9c89009fda06e08d66eb4a442
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Mar 6 12:35:41 2016 -0500
+
+    Remove include of windows.h from allocators.h
+    
+    https://github.com/bitcoin/bitcoin/commit/d8315d1650373e6609cfda921160fd51f6608a99
+    
+    Create an allocators.cpp, and move all of the #ifdef WIN32
+    code and the #include of windows.h into it.
+
+commit efbc88506dd4dc41d3d145b76bc45dbce11fe26b
+Author: phark <io-eightyeight@users.noreply.github.com>
+Date:   Sat Feb 20 20:13:21 2016 +0000
+
+    qt: fix rich text detection hang issue on very old qt versions
+    
+    This is a backport from upstream
+    https://github.com/bitcoin/bitcoin/commit/17b409b2e6c7d0585a8a5008bb8b522f7cf768b0
+
+commit 3a95899982061f8500abe797a257d60ebe1b0a4f
+Author: phark <io-eightyeight@users.noreply.github.com>
+Date:   Sat Feb 20 19:59:56 2016 +0000
+
+    doc: add SSL instructions
+
+commit 2e8e6159579e0c417994119fe402dcfba8a3d7ee
+Author: phark <io-eightyeight@users.noreply.github.com>
+Date:   Sat Feb 20 19:48:00 2016 +0000
+
+    rpc: disable SSLv3 (in favor of TLS)
+
+commit bbaa5c5a0f315fa297e2266cde15b7782f1da1db
+Author: phark <io-eightyeight@users.noreply.github.com>
+Date:   Sat Feb 20 06:02:09 2016 +0000
+
+    compat: fix errors/cleanup
+
+commit f884902282cbc227aecdafe2ac4c62bcc505efb3
+Author: phark <io-eightyeight@users.noreply.github.com>
+Date:   Sat Feb 20 05:33:23 2016 +0000
+
+    parameter interaction: disable upnp if -proxy set
+    
+    This is a backport from upstream
+    https://github.com/bitcoin/bitcoin/commit/8c35b6f3be218101630101806300cfd75be23f58
+
+commit aedf3c638304c95add91ef411adfb528881b44a1
+Author: phark <io-eightyeight@users.noreply.github.com>
+Date:   Fri Feb 19 06:55:27 2016 +0000
+
+    Set TCP_NODELAY on P2P sockets
+    
+    This is a backport from upstream
+    https://github.com/bitcoin/bitcoin/commit/95a50390e1052a0a501eb446f87d63f58d95b7e7
+
+commit e69e2dff38490a28625be57d55b1c95967fba199
+Author: phark <io-eightyeight@users.noreply.github.com>
+Date:   Mon Feb 15 03:43:22 2016 +0000
+
+    win32: use a more modern API call in FileCommit()
+    
+    This is a backport from upstream
+    https://github.com/bitcoin/bitcoin/commit/aab8fc58c6e6dc6e0a104170bd2aa10dc1af5dea
+
+commit 0cab0be5e09e1292612c1ec44834b44bd24d3337
+Author: phark <io-eightyeight@users.noreply.github.com>
+Date:   Mon Feb 15 03:37:50 2016 +0000
+
+    net: update miniupnpc
+    
+    Supports newest miniupnpc release (1.9.20151008) which fixes a
+    buffer overflow in the XML parser during initial network
+    discovery.
+    
+    http://talosintel.com/reports/TALOS-2015-0035/
+    
+    The commit fixing the vulnerability is:
+    https://github.com/miniupnp/miniupnp/commit/79cca974a4c2ab1199786732a67ff6d898051b78
+
+commit abd1aab95963e9ac45d5a3dc285ccaa29348495b
+Author: phark <io-eightyeight@users.noreply.github.com>
+Date:   Mon Feb 15 02:56:24 2016 +0000
+
+    build: missed rename in makefile.mingw
+
+commit 31475efe8a57822bd2afea0f3c96a80e93e2a554
+Author: phark <io-eightyeight@users.noreply.github.com>
+Date:   Sun Feb 14 23:21:59 2016 +0000
+
+    trim: remove redundant scrypt files/references
+
+commit 7fcc03c3059f18bb31e885b4c8ed8d555564ea76
+Author: phark <io-eightyeight@users.noreply.github.com>
+Date:   Sun Feb 14 22:06:50 2016 +0000
+
+    net: change max outbound connections to 12 (from 300)
+    
+    If more connections are required they should be configured
+    via the .conf file
+    
+    eg:
+    maxconnections=100
+
+commit fdfc7319ea68ffa89a70ac502b3c0c74c6e7ca8d
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Feb 26 22:59:20 2016 -0500
+
+    Remove coin selection by coin age
+    
+    https://github.com/rat4/blackcoin/commit/88d5f48174213d2b55e1d03e5aecff0019927d6e
+
+commit c9d0a87cceefccb6105e2b0491d684146e0c43b5
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Feb 26 22:53:35 2016 -0500
+
+    Watch only addresses in AvailableCoins
+
+commit 735f32eb2903b7d23078e945d9c2cbcdcf20c109
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Feb 26 22:52:10 2016 -0500
+
+    Add time offset to getpeerinfo output
+
+commit 72b0a4c71274cfd5281e566e615e5dc4eb126411
+Merge: 174535f 78c4c9e
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Feb 15 17:27:55 2016 -0500
+
+    Merge pull request #28 from Infernoman/1.2.3
+    
+    Update Client and protocol versions
+
+commit 78c4c9ede9576903b7e62f472e62af71b0bd584c
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Feb 15 17:27:26 2016 -0500
+
+    Update Client and protocol versions
+
+commit 174535f39bd3d74165d3da888e67d510f8a1de63
+Merge: fcdb562 162307c
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Feb 15 00:19:18 2016 -0500
+
+    Merge pull request #27 from Infernoman/1.2.3
+    
+    AC001
+
+commit 162307cec0dab791e72ff2cf559e67b3431c4bef
+Merge: d1318e1 fcdb562
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Feb 14 23:33:55 2016 -0500
+
+    Merge pull request #29 from transferdev/1.2.3
+    
+    SC001
+
+commit d1318e15f86b211b0f19113e129b7ea00992360a
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Feb 14 23:32:55 2016 -0500
+
+    fix merge issues
+
+commit 968e9d78170a4638c1a9942cbead1521f6dc87d7
+Merge: c553982 8713c70
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Feb 14 23:30:53 2016 -0500
+
+    Merge pull request #28 from Infernoman/master
+    
+    merge master
+
+commit 8713c706303468cefc03d1ab2da51e7df465f722
+Merge: de749b2 bb58667
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Feb 14 23:30:02 2016 -0500
+
+    Merge pull request #27 from transferdev/master
+    
+    merge upstream
+
+commit fcdb562641e514ad9622817c3a19c8abb089b9b8
+Merge: bb58667 8967476
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Feb 14 23:19:19 2016 -0500
+
+    Merge pull request #26 from io-eightyeight/sc-001
+    
+    SC001
+
+commit 89674765fe0c94028af9509c2be295a15478399a
+Author: phark <io-eightyeight@users.noreply.github.com>
+Date:   Mon Feb 15 03:43:22 2016 +0000
+
+    win32: use a more modern API call in FileCommit()
+    
+    This is a backport from upstream
+    https://github.com/bitcoin/bitcoin/commit/aab8fc58c6e6dc6e0a104170bd2aa10dc1af5dea
+
+commit 8c7ed31e4cf04f5de42173e510198ef3c27bf87c
+Author: phark <io-eightyeight@users.noreply.github.com>
+Date:   Mon Feb 15 03:37:50 2016 +0000
+
+    net: update miniupnpc
+    
+    Supports newest miniupnpc release (1.9.20151008) which fixes a
+    buffer overflow in the XML parser during initial network
+    discovery.
+    
+    http://talosintel.com/reports/TALOS-2015-0035/
+    
+    The commit fixing the vulnerability is:
+    https://github.com/miniupnp/miniupnp/commit/79cca974a4c2ab1199786732a67ff6d898051b78
+
+commit de749b2032d36ed0f9a5b110f29d694a4905f729
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Feb 14 22:20:09 2016 -0500
+
+    fix secp256k1 build hack
+
+commit 69cdd29113c0188a31f787eaaac07b80010b84fe
+Author: phark <io-eightyeight@users.noreply.github.com>
+Date:   Mon Feb 15 02:56:24 2016 +0000
+
+    build: missed rename in makefile.mingw
+
+commit 09803f33e6be64c7cc7d2beaf30cf76354f33b3a
+Merge: 0296330 569f0cf
+Author: io-eightyeight <io-eightyeight@users.noreply.github.com>
+Date:   Sun Feb 14 19:39:31 2016 -0700
+
+    Merge pull request #1 from io-eightyeight/trim-scrypt
+    
+    trim: remove redundant scrypt files/references
+
+commit 569f0cfa175f4cdbc6f7852e32b9812155dcaba2
+Author: phark <io-eightyeight@users.noreply.github.com>
+Date:   Sun Feb 14 23:21:59 2016 +0000
+
+    trim: remove redundant scrypt files/references
+
+commit 0296330c0fe46aff8461af1902e81972d098042d
+Author: phark <io-eightyeight@users.noreply.github.com>
+Date:   Sun Feb 14 22:06:50 2016 +0000
+
+    net: change max outbound connections to 12 (from 300)
+    
+    If more connections are required they should be configured
+    via the .conf file
+    
+    eg:
+    maxconnections=100
+
+commit c5539829d1de6412953ef54938eaacd75d4fe504
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Feb 13 18:22:09 2016 -0500
+
+    Per-peer block tracking, stalled block download detection, orphan pool limiting #3514
+    
+    This is a compilation of
+    Per-peer block tracking, stalled block download detection, orphan pool
+    limiting #3514
+    https://github.com/bitcoin/bitcoin/pull/3514/files
+    
+    and
+    
+    Prepare block connection logic for headers-first #3370
+    https://github.com/bitcoin/bitcoin/pull/3370/files
+    
+    This does not affect setbestchain. and only the requirements for #3514
+    were pulled.
+
+commit e339eec404c412d0151a7f6e9c74a5f9cb55f29e
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Feb 13 15:04:06 2016 -0500
+
+    Add main-specific node state
+    
+    https://github.com/sipa/bitcoin/commit/b2864d2fb35fa85e32c76e111f8900598e0bb69d#diff-e8db9b851adc2422aadfffca88f14c91L187
+
+commit e08cb49b465a109a7704156f9a5ed427d4d28461
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Feb 11 14:57:47 2016 -0500
+
+    Remove donation addresses from MM since they aren't working.
+
+commit f9e6a16315c9afc2d44436edad22700bd0cf926e
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Feb 9 14:42:33 2016 -0500
+
+    Fix removing of orphan transactions
+    
+    https://github.com/bitcoin/bitcoin/pull/5985/files
+
+commit 6a4e60b966f6e80a5ff7c7c9d8b36d66cc784f1e
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Feb 4 02:32:40 2016 -0500
+
+    Fix wallet.h for AddAccountingEntry
+
+commit ca2822e022d23b284ab2e62e6996aa1272c668c5
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Feb 2 17:06:07 2016 -0500
+
+    Apply Bitcoin patch for miniupnpc 1.9
+
+commit e2d599685c124c9ad77fe972a743229b5b3fe343
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Feb 1 19:00:47 2016 -0500
+
+    Don't process transaction's we already have.
+    
+    AddToWallet implies BindWallet
+
+commit e1dfd5ba8fae71c8ecd1122206141bfdcaa6691f
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Jan 31 21:58:09 2016 -0500
+
+    Queued transactions
+    
+    Only notify transaction changed when finished syncing
+
+commit 26eb04c5524c00bdef801a6fe9386e2ca5058828
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Jan 31 18:40:41 2016 -0500
+
+    Fix Watchonly: cs_main lock not held
+    
+    https://github.com/bitcoin/bitcoin/pull/4520
+
+commit f66d749d39965495934e8ac13c1738bacea61ebd
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Jan 31 17:54:54 2016 -0500
+
+    Store transaction list order in memory rather than compute it every need (Luke Dashjr)
+    
+    Store transaction list order in memory rather than compute it every need
+    (Luke Dashjr) #6851
+    
+    https://github.com/bitcoin/bitcoin/commit/616d61b20d56c0645412884df441eba781ec565d
+
+commit 36d664d5ea77852f88b3a393425c7a497d7559a6
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Jan 31 15:05:16 2016 -0500
+
+    CBitcoinAddress -> CTransfercoinAddress
+    
+    Sync improvements in main.cpp
+    in db cache size to 100 mb
+    decrease number of blocks to check on startup to 500
+    don't verify signatures while downloading blocks
+
+commit f949f1989ad10bb029a5be883d9d93c87ce44b91
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Jan 28 19:20:25 2016 -0500
+
+    Changes to accommodate Android QT
+    
+    if -forcednsseed isnt set. default to true
+    clipboard additions
+    add logo for trading page
+    remove palettes and format to richtext
+
+commit bb58667b027b42aff31d968392c8f7ea68b2b17c
+Merge: 3f97896 bdc1dd5
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Jan 27 12:10:20 2016 -0500
+
+    Merge pull request #24 from Infernoman/master
+    
+    Improve Trading dialog for Android
+
+commit bdc1dd52ef01c5561f01cc50bd5b40c63b8332ea
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Jan 27 11:56:20 2016 -0500
+
+    Clipboard
+
+commit a31e7177513a168de062a201e615dcc34e9645d0
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Jan 26 22:33:12 2016 -0500
+
+    Trading dialog updates.
+
+commit a31e7783f4f14f916c9c173b86cebe8c03357fdb
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Jan 26 19:59:14 2016 -0500
+
+    Combine Order book and Trading Dialogs
+    
+    add sum of btc to order book
+    add proper layouts
+
+commit 3f97896b7bd31591152c0048289bbad22b8c4d19
+Merge: 8090d19 2839d56
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Jan 26 14:19:34 2016 -0500
+
+    Merge pull request #23 from Infernoman/master
+    
+    Dns Masternodes
+
+commit 2839d56ecda0648d14fb6b10375623b23933f653
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Jan 26 13:41:44 2016 -0500
+
+    Remove subscribeToCoreSignals(); from qt/masternodemanager.cpp
+
+commit bf3f193179aa082ea850d654f0a43570907665cb
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Jan 26 13:25:17 2016 -0500
+
+    travis.ci
+
+commit 98834c51ed48ea895b80154d5cea1370bb24bcb1
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Jan 26 13:14:27 2016 -0500
+
+    update travis build for QT
+
+commit 56bc4cc432d5b2b672fa9e69227d81e87fcd90ad
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Jan 26 12:57:53 2016 -0500
+
+    Remove WalletUpdateSpent
+
+commit 2b76fc94362a21d56d7aa2a5bb61fa840905a993
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Jan 26 00:37:58 2016 -0500
+
+    Update blockbrowser.ui
+
+commit 21a010eb4c4a7cd88b63e8dc60e5dd2882d69bb5
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Jan 26 00:35:20 2016 -0500
+
+    Dns masternodes.
+    
+    Remove CWallet::WalletUpdateSpent
+    Update blockbrowser.ui
+    wtx.MarkDirty() instead of WalletUpdateSpent
+
+commit 8090d19db83aa5d0153fe44fe88697729cdb7b7b
+Merge: a795751 e7b30d9
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Jan 24 20:19:20 2016 -0500
+
+    Merge pull request #22 from Infernoman/master
+    
+    Update client version
+
+commit e7b30d915c96a145630d06c9d433deeacabbd21b
+Merge: b5e86ef 5a56d50
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Jan 24 20:18:32 2016 -0500
+
+    Merge branch 'master' of https://github.com/Infernoman/Transfercoin
+
+commit b5e86ef9ab4b0608e3d92f83d000a518a98fcd91
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Jan 24 20:18:27 2016 -0500
+
+    update clientversion
+
+commit a7957514944dc47f27265c8e15ecf5a3f68228e8
+Merge: 1db14c8 5a56d50
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Jan 24 20:17:39 2016 -0500
+
+    Merge pull request #21 from Infernoman/master
+    
+    Merge Infernoman's Master branch
+
+commit 5a56d507cbf2ddac0b052cf344e10dc8306a71a8
+Merge: cac1a9e 1db14c8
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Jan 24 19:42:43 2016 -0500
+
+    Merge pull request #26 from transferdev/master
+    
+    Merge HEAD
+
+commit cac1a9ec9061d125dbfb6199a785bf61c00ff54a
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Jan 24 17:44:10 2016 -0500
+
+    Finish removal of adrenaline node storage in wallet.dat
+
+commit 819d1a2ee554b63474c2543c9997bd012e6fca06
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Jan 23 20:49:18 2016 -0500
+
+    remove adrenaline node
+
+commit 2a6ca4a78956051569eacd9d69fd407ebcd7ae57
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Jan 23 20:48:57 2016 -0500
+
+    remove adrenaline node from wallet.dat
+    
+    DEFAULT_MAX_ORPHAN_BLOCKS -> 10000
+
+commit 2fa534bc01a6805be2b99244a79039dcfd12f080
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Jan 19 22:58:39 2016 -0500
+
+    Support for Multisig addresses; MN manager GUI update
+    
+    Masternode manager was updated to use the masternode.conf.
+    When a new masternode is added it's no longer required to restart the
+    wallet.
+    Removed: "edit, copyAddress, remove, stop, and stopAll"
+    edit, copyAddress and remove will be fixed and re added in the future.
+    getConfig -> Update
+    start and startAll buttons fixed.
+    "my masternodes" table updated.
+
+commit d52c7db7bc1535cffc1951336dd2ee5290f685bb
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Jan 17 13:05:48 2016 -0500
+
+    tor instructions
+
+commit 1db14c89bcda516e6bc3f748a7dd5852e4f52351
+Merge: 827caad eebd219
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Jan 14 13:23:29 2016 -0500
+
+    Merge pull request #20 from Infernoman/master
+    
+    secp256k1 build changes.
+
+commit 827caadcd3dacd44e800d9d40af2b764ba8bde68
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Jan 14 13:22:49 2016 -0500
+
+    Update transfer.pro
+
+commit eebd219cf60da2cdedf9eced605ca9d6c05e2db7
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Jan 14 13:20:20 2016 -0500
+
+    secp256k1 build changes.
+    
+    secp256k1 already including through absolute path. require libgmp for
+    OSX and LINUX
+
+commit a40f5116955dc2c4758d2ffafadbbe768b436766
+Merge: 35bdb47 74afe72
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Jan 14 13:05:15 2016 -0500
+
+    Merge pull request #19 from Infernoman/master
+    
+    !win32 to !windows
+
+commit 74afe721459fa1bc3d17d80683621d1a1d06f716
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Jan 14 13:04:59 2016 -0500
+
+    !win32 to !windows
+
+commit 35bdb47670f33d840eaaba38ce5a7d3b41d43d6c
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Jan 14 12:34:12 2016 -0500
+
+    tabs vs spaces.
+
+commit 0ec76b3a4d81744adc2c699a9ab5abbb8b88dcf7
+Merge: 8f34919 5fd625d
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Jan 14 12:32:50 2016 -0500
+
+    Merge pull request #18 from Infernoman/master
+    
+    gmp dependency for linux and osx
+
+commit 5fd625d1e34c453319db64c8c2442a995d4e4c4a
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Jan 14 12:32:30 2016 -0500
+
+    gmp dependency for linux and osx
+
+commit 8f34919cdfdf119584993fe64b4b6517ae77c169
+Merge: a9f5df3 ea8ad84
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Jan 13 19:41:10 2016 -0500
+
+    Merge pull request #17 from Infernoman/master
+    
+    FINAL bittrex fix
+
+commit ea8ad844ddad328828fdc4b08ea9fe3dfd24ecf1
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Jan 13 19:25:15 2016 -0500
+
+    FINAL bittrex fix
+
+commit a9f5df372be2fc71e06d5b6170148838aed72c10
+Merge: 51fd61e dec6741
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Jan 10 14:49:28 2016 -0500
+
+    Merge pull request #16 from Infernoman/master
+    
+    max orphan blocks to 2500
+
+commit dec674146a951ad7dadc99fc57c90443a37aff05
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Jan 10 14:48:27 2016 -0500
+
+    max orphan blocks to 2500
+
+commit 51fd61ee1e842207176e0a4087443f118b279a2a
+Merge: 38d1167 8626a89
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Jan 10 13:59:32 2016 -0500
+
+    Merge pull request #15 from Infernoman/master
+    
+    Bittrex fixes, Update docs, Build fixes
+
+commit 8626a89dba280c86700400e9e1fd6cef10bb1b29
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Jan 10 13:31:23 2016 -0500
+
+    update build docs and readme
+
+commit 6de42993754c32aef071bf2328e254a81dcba981
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Jan 10 13:27:37 2016 -0500
+
+    replace libgmp with libgmp3
+
+commit 6d9e49ec6db69be7819939aa41e1953ba21b1a89
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Jan 10 13:24:07 2016 -0500
+
+    capitalization issue
+
+commit 694ad7037c4b7708e3f058d9f08d48d17c737f64
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Jan 10 13:17:27 2016 -0500
+
+    revert boost to 1.55 for travis build
+
+commit a93078d002db99c8dd1e9d7c6cac6c015ae3ddba
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Jan 10 13:15:47 2016 -0500
+
+    update travis build
+
+commit 669ede3413818d878f30110e40ace945aad25034
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Jan 10 13:08:34 2016 -0500
+
+    update build-unix and readme
+
+commit 7e2d5b0d5f3cbac1cbab0b65e992424a2b1de38a
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Jan 10 12:54:23 2016 -0500
+
+    fpermissive
+
+commit cd2e1d3cef4358edb73eb9f5eaa8c3843a94bd73
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Jan 10 01:12:47 2016 -0500
+
+    fix for bittrex
+
+commit 1da0305cc6e876587af33593478a2d9cc9b5b2e7
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Jan 6 00:17:54 2016 -0500
+
+    Fix makefile.osx
+
+commit 6b43d41cde0dc8b808187db9e202f4915d55f2c7
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Jan 5 21:04:28 2016 -0500
+
+    remove class and include pubkey.h
+
+commit b7823d75a1fb270e284bf08c5224c787ae889350
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Jan 5 20:16:14 2016 -0500
+
+    fix for mac
+
+commit 375ec462e545d46f01a304abd3e1487c0379a291
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Jan 5 20:11:30 2016 -0500
+
+    Linux build fixes, Build secp256k1 with QT
+
+commit 38d11678772a7ed4ee49e14ba1eb4a213132fca6
+Merge: 83136fe c5cc67e
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Jan 3 00:22:00 2016 -0500
+
+    Merge pull request #14 from Infernoman/master
+    
+    Update makefile.unix for libgmp
+
+commit c5cc67e355b4eceff86b23e9df4ce7822afef4b9
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Jan 3 00:18:41 2016 -0500
+
+    Update makefile.unix for libgmp
+
+commit 83136febce1ac9deab57bef7b98ce2870b11afa6
+Merge: c9c9521 a06032d
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Jan 2 18:16:55 2016 -0500
+
+    Merge pull request #13 from Infernoman/master
+    
+    Switch to libsecp256k1-based ECDSA validation
+
+commit a06032dff0cf19135874737af190cdad72e46c6e
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Jan 2 16:08:05 2016 -0500
+
+    update client version
+
+commit e704b1280cb0f1238a0716cced1c7c7afeea4ad0
+Merge: c445ef3 7c2d893
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Jan 2 15:49:43 2016 -0500
+
+    Merge pull request #25 from Infernoman/secp256k1
+    
+    Secp256k1
+
+commit 7c2d8932931328fcb3736cea30dba696b2cc4e08
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Jan 2 11:39:52 2016 -0500
+
+    fix travis build
+
+commit 23a69d90dc2436832e86f0e2e31f2da95dc96a39
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Jan 2 10:24:02 2016 -0500
+
+    bittrex fix
+
+commit bbad9fb79416d22aba1dedd3f7c83aec6aea13a8
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Jan 1 19:47:55 2016 -0500
+
+    fix secp256k1
+
+commit 8480d799565ab046d2344b544c0e3bbbeb8a7974
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Jan 1 18:45:35 2016 -0500
+
+    Update makefiles and doc's for updated secp256k1
+
+commit 8b269354dfb698fb057898eef23ae34be7f2da22
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Dec 22 04:14:14 2015 -0500
+
+    Switch to libsecp256k1-based ECDSA validation and Update secp256k1
+
+commit a606f238c9c702380ab5cf0ab9f8f12620b7e8ad
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Dec 20 15:41:00 2015 -0500
+
+    Switch test case signing to RFC6979 extra entropy
+
+commit 6203707c757e8a3f84485f66b3eac2c676692442
+Merge: 4f92932 4daa8bf
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Dec 20 14:24:00 2015 -0500
+
+    Merge pull request #24 from Infernoman/master
+    
+    merge master
+
+commit 4f92932fdb6b7aeb191503edabd4ec60a9209412
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Dec 20 14:04:02 2015 -0500
+
+    remove IsSuperMajority
+    
+    Bip34 was already hardcoded into this core.  Removing the
+    IsSuperMajority check until a future date.
+
+commit 2d30cd99a153d7850ae2ec55733f50dd0f0181ec
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Dec 20 13:56:36 2015 -0500
+
+    remove bip30 check
+
+commit 4daa8bfdecc50bf2fb89fb3f7b5bf41f962b844b
+Merge: c445ef3 c9c9521
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Dec 19 14:29:11 2015 -0500
+
+    Merge pull request #23 from transferdev/master
+    
+    merge master
+
+commit c9c952104952dd379c7d410459ee9b08ce9bf765
+Merge: c852947 c445ef3
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Dec 19 14:28:43 2015 -0500
+
+    Merge pull request #12 from Infernoman/master
+    
+    Merge Infernoman's Master branch
+
+commit c852947cb2f817914d60c5fbf58fe785e9518bf1
+Merge: 5ea95f5 7461b48
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Dec 19 14:18:45 2015 -0500
+
+    Merge pull request #11 from Infernoman/transferdev/master
+    
+    Merge conflicts from infernoman
+
+commit 7461b4840912cd7264d94de78ceb5bddcacb9e8a
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Dec 19 13:58:38 2015 -0500
+
+    .pro and changelog
+
+commit 2b7404d535e01464a939a6dbf5506e446faee75f
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Dec 19 13:50:13 2015 -0500
+
+    Doc updates
+
+commit a981b3a3a28a6554fc11a3ac320c7e82174a6e75
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Dec 19 13:41:27 2015 -0500
+
+    Merge conflicts from infernoman
+
+commit 2835b86aa1eaaba62548b41696ce691945b4e61e
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Dec 19 13:38:14 2015 -0500
+
+    rfc6979
+
+commit e5b133fb1c148fe6efd9ff9273f55f435b39c7b6
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Dec 17 14:58:14 2015 -0500
+
+    secp256k1 working.
+
+commit f2f9c342f906d4a3b1bdff85f8f1e3417a85726a
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Dec 17 07:30:24 2015 -0500
+
+    boost: code movement only: split CECKey into separate files
+    
+    Update Smessage to use ecwrapper instead of eckey.
+
+commit c445ef379346306536c78f83fbaf6d5eb618a723
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Dec 17 00:10:20 2015 -0500
+
+    fix
+
+commit e089571d9eea94e6954ccc004d74d1c7a0d0eb14
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Dec 17 00:02:43 2015 -0500
+
+    fix
+
+commit 1d2d8ff643a3b8a396cb8640033eca3563ef2a24
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Dec 16 23:57:25 2015 -0500
+
+    1.0.2d is a security risk and wont build HMAC
+
+commit 198a3c64f1eaad54cf1b2aad22abf7e13507b0aa
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Dec 16 23:10:37 2015 -0500
+
+    compiler errors mac
+
+commit db3f720a0207c7ca185ba4d8500ce47934fb96ce
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Dec 16 23:09:50 2015 -0500
+
+    compiler errors mac
+
+commit 7584abf17108a6ad7b98b70e00c53645c41b8a31
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Dec 16 22:39:48 2015 -0500
+
+    missing includes
+
+commit d2060ba55c31bda4093bf2b05c24eee96b0ce70e
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Dec 16 22:37:09 2015 -0500
+
+    linux build fixes.
+
+commit 9cd0586f0e4dc5efb963fd93262495ca2e953c20
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Dec 16 22:02:09 2015 -0500
+
+    bitocinunits fixes
+
+commit 9730413866e5485b4fbcf04bdb6cd7119f762db5
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Dec 16 21:51:56 2015 -0500
+
+    fix for bitcoinunits.h
+
+commit 8fb6fda46517779a86171101027ccc3b66c06e93
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Dec 16 20:04:53 2015 -0500
+
+    Removed masternode-pos InstantX fixed
+
+commit e0dd50c75ffbd030c8f106f5a83af087a52c2cb3
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Dec 13 22:52:56 2015 -0500
+
+    missing includes, update guiutil.cpp
+
+commit 4e72b2cadb3004d643dc705d44fa6ff5e07e3ab4
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Dec 13 19:46:38 2015 -0500
+
+    more GUI changes
+    
+    ProgressBar
+    Watch only addresses
+    Watch only icons
+    Transaction table
+    Watch only rpc changes
+    RemoveWatchOnly
+    GetWatchOnlyStake
+    Dont select watch only coins for staking or for MinConfByCoinAge
+
+commit cd1747f46fa520c4562a2672a7fa95c074fc5aef
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Dec 11 05:43:47 2015 -0500
+
+    Watch only addresses
+    
+    Watch only addresses
+    ShowProgress
+    Update Overview page
+    Add Darksend transaction identifiers
+
+commit 6259a594173577831ebb907893ec911cdb24961f
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Dec 10 13:28:07 2015 -0500
+
+    Darksend fixes, Disable Smessage in LiteMode
+
+commit 98b687cfd61093c8c7ab542fe1ed5fa70f74f9d3
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Dec 10 00:29:45 2015 -0500
+
+    keypool size in LiteMode
+
+commit 118d57b40557b9bfa5def7b2fd192f1756fe3c7f
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Dec 8 05:12:03 2015 -0500
+
+    Find out why we cant use 4 bits here.
+    
+    Reset time on recreate collateral and reject insane fees
+    
+    Switch to txMinFee and change placement
+    
+    Darksend balance on RPC
+    
+    fixed 4 vs 6 bit
+    Name changes
+    
+    Lite mode updates. Disables Messaging GUI and Masternode GUI
+    
+    Changes for LiteMode and break; instead of return;
+    
+    BCConf changed to IXConf
+    bcconfirmations changed to ixconfirmations
+    
+    logging.
+    
+    fix logging
+    
+    fix
+    
+    comment out logging
+    
+    additions to createtransaction
+    
+    revert nFeeRet in CreateTransaction
+    
+    rpc darksend changes
+
+commit 553f57b76dc0aa25452a301a82ef0a6446a64c16
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Dec 7 16:13:43 2015 -0500
+
+    MSG_DSTX
+
+commit bcdc765ede4212065dc3297caaf52ba401f6725a
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Dec 7 11:08:36 2015 -0500
+
+    fixed
+
+commit cabcff898049de1ddbaf7a0531319399529fbd3b
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Dec 7 10:55:39 2015 -0500
+
+    fix spork again
+
+commit 99eaa942664599183c44da219712717158a79d5b
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Dec 7 10:43:29 2015 -0500
+
+    fix  IsSporkActive and GetSpork
+
+commit 613412f806b5a37fd43a676cbb967eaa5e94d0a5
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Dec 7 10:24:27 2015 -0500
+
+    Finishing up InstantX changes.
+
+commit a57727d4b9bbeac02bf01e9ef51bf9fbe1490b6f
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Dec 7 08:12:18 2015 -0500
+
+    Remove un needed hash from RelayTransactionLockReq
+
+commit d246df7fce217f8571df8edac2f379c0957a7f8a
+Merge: b096613 bdfb349
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Dec 7 07:17:31 2015 -0500
+
+    Merge pull request #22 from Infernoman/Backup
+    
+    Backup
+
+commit bdfb349db08492d1910704ddd229b1854f9825c2
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Dec 7 07:17:12 2015 -0500
+
+    fix for logging txlreq's
+
+commit c213c98724175ae289c206a53ab87a0ed14283df
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Dec 7 07:11:18 2015 -0500
+
+    think ive found it.
+
+commit b096613fc11836d716be958f7e919331186db226
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Dec 7 05:54:21 2015 -0500
+
+    InstantX changes 0.12.0
+
+commit 1e80b126726a9df9418a4261e178d77a0231fb37
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Dec 6 18:22:10 2015 -0500
+
+    fix sending large number of coins.
+
+commit d54310585b5e27571a92cf39139ce7d0aa08fdd9
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Dec 6 09:32:09 2015 -0500
+
+    cut queue in half
+
+commit 66d56c5514275da706f158a888e13a15c19b42cd
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Dec 6 08:09:51 2015 -0500
+
+    fix
+
+commit d537ca80b98dbb33b0389777ce5d0cf5d4ab70e8
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Dec 6 08:07:16 2015 -0500
+
+    fix relaystatus
+
+commit 60e31c17b8169e45f3788596b90220a5ad690c54
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Dec 5 00:00:53 2015 -0500
+
+    GUI + Darksend Updates 0.12.0
+    
+    switch to old process message
+    
+    darksend works.
+    
+    almost fixed. pmn->allowFreeTx still returning false
+    
+    fix darksend.h RelayCompletedTransaction
+    
+    qint64 -> CAmount
+    
+    allowFree -> ignoreFees in main.cpp and adjust for new
+    acceptToMemorypool.
+    Try to fix overview page not updating correctly
+    
+    overviewpage.cpp/.h to CAmounts
+    
+    hopefully fix tinyformat runtime error
+    
+    'LogPrint("darksend" ' -> 'LogPrintf( '
+    
+    revert darksend.cpp fix darksend.h
+    
+    update clientversion 1.2.2.0
+    
+    Darksend working. Balance displayed incorrectly.
+
+commit c20686779826bc23ac2b7d749d1e08d86cc0ebcd
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Dec 2 19:37:23 2015 -0500
+
+    update UI
+
+commit f6de8a7e0700ab693d001d0b66c5cfec36889b13
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Dec 2 19:06:28 2015 -0500
+
+    Trading tab updates.
+
+commit 4cc3dc8c56a72145aa2cd2ecbebbd49090d5ca9d
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Dec 2 18:58:42 2015 -0500
+
+    UI updates
+
+commit 8be6d9fd42998fdb2362d6c0dd4ed83ca4952d43
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Dec 2 02:38:41 2015 -0500
+
+    change sleep(); to MilliSleep();
+    
+    Bittrex api was taking a while to go through with sell orders, so I've
+    added a 5 second wait before the withdraw is initiated and 100 ms after
+    each sell
+    
+    Combat dust
+    
+    remove cryptostreampp leftover files
+    
+    Syncing improvement
+    
+    (pindexBest->nHeight >
+    Checkpoints::GetTotalBlocksEstimate())->pindexBest->nHeight
+    add includes for checkpoints and pindexbest(main.h)
+    Add BIP34 check in AcceptBlock
+    Add checkpoint at block 140000
+    
+    Hide ordertypes on tradingDialog
+    
+    Hide ordertypes on tradingDialog
+    On failed bitcoin withdraw, try again in 5 seconds and fail if needed
+
+commit 5ea95f55eba276e95e290e29abb27b166e5615d5
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Dec 2 13:25:54 2015 -0500
+
+    Update wallet.cpp
+
+commit 0443b01ca20cef88c03d5161df49b5648b2dda3e
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Nov 30 08:45:38 2015 -0500
+
+    Move DS pool status out of overview page
+    
+    Added "masternode status" command
+    
+    Autostart masternode upon startup
+    
+    Move DS pool status out of overview page
+    
+    GUI updates
+    
+    fHaveGUI && fDaemon re added
+    
+    CompareBigEndian in CKey::Check
+    
+    CPubKey::VerifyCompact Removed
+    
+    BitcoinGUI::error added
+    
+    AnonymizeOnlyUnlocked &&
+    NarrationTooLong handled in sendcoinsdialog switch
+    
+    add windows only QMAKE_CXXFLAGS_WARN_ON
+    
+    Simplify Save/Load. Fix mac startup crash
+    
+    Remove Cryptopp integration start using XOR
+    
+    Much faster and less complicated. Also works across all systems.
+
+commit 5ae5a3a17517f28a56fbb71e7508a6ae3f581991
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Nov 30 02:38:25 2015 -0500
+
+    Trading dialog on mac is FIXED!
+
+commit 9c21b4932c5c977eded3d5c34d0c4ee9fe9dec07
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Nov 28 07:14:36 2015 -0500
+
+    Gui Updates
+    
+    Update vAletrt pub/privkeys
+    
+    Add cryptostream for api key encryption
+    
+    Add removeSpaces in bitcoinunits.cpp
+    
+    Coin control fixes for Qt5
+    
+    move setClipboard to GUIUtil
+    
+    Add getMappedColumn -> coincontrol.h
+    
+    Add parentViewItemChanged which is currently unused
+    
+    Add timers into coincontrol
+    - also helps to let users know the wallet isnt frozen when following the
+    debug.log
+    
+    Api keys for Bittrex can be saved to a file which is in an encrypted
+    format using cryptostream
+    
+    2 new DisplayBalance functions to help speed up the trading dialogs
+    
+    on_SaveKeys_clicked() and on_LoadKeys_clicked() added to
+    tradingdialog.cpp
+    
+    Added a small wait time into cross sending
+    - Some users were experiencing insufficient funds when withdrawing.
+    - Caused by sell orders not going through quickly enough
+    - 50ms added to every trade. On the last trade this is increased to
+    100ms.
+    - 500 ms added before the withdraw.
+    
+    transactiontablemodel.updateWallet cleaned and updated
+    
+    getdifficulty, getsubsidy, and getinfo no longer return POW values
+    
+    masternodelist updated to include new commands
+
+commit 115d27820c723d5ac7a178e9e066ca47ef23701e
+Merge: 09ebcc7 19451e4
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Nov 25 05:29:32 2015 -0500
+
+    Merge pull request #10 from Infernoman/master
+    
+    Automatic backups + better build instructions for linux
+
+commit 19451e47b5f9c43b0f95f00c4c8c1e3f322cc810
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Nov 25 05:28:11 2015 -0500
+
+    update linux build instructions.
+
+commit 85264bbb0814364b96a3b556c3e04a8575535ea4
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Nov 23 19:22:17 2015 -0500
+
+    Automatic wallet backups
+    
+    Automatic wallet backups located in the data folder
+    novacoin -> transfer
+    Masternode manager changes
+    copyright updates to 2015
+    masternode votes last 30 days instead of 8 hours
+    Cpu exhaustion fix after disconnection/reconnection of internet
+
+commit 09ebcc727c1ce4e9dc5fec8bd13d896bd4bcd70b
+Merge: a23e991 f8dfde2
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Nov 23 18:47:30 2015 -0500
+
+    Merge pull request #9 from Infernoman/master
+    
+    Wallet comment fixes
+
+commit f8dfde25f9b57dba75c4ac205ea8c1dfc48986d3
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Nov 23 18:45:33 2015 -0500
+
+    Wallet comment fixes
+
+commit a23e9915787aec872aa27b8bdacd0acf459b4b2d
+Merge: 7030919 8b57a92
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Nov 21 19:37:32 2015 -0500
+
+    Merge pull request #8 from Infernoman/master
+    
+    Merge Infernoman's Master branch
+
+commit 8b57a92a4c16f4640c7de487cbfdae8db95da5fc
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Nov 21 03:48:41 2015 -0500
+
+    Partial masternode enforcement fixes.
+    
+    Return error instead of continuing to create new stake when no
+    masternode is found. This is not a fix. More like a sweaty bandaid ready
+    to fall off. Working to fix masternode enforcement in CheckBlock.
+    Masternode winners needs to be fixed first.
+    Change git commit id to match MIN_PEER_PROTO_VERSION
+
+commit 70309190127e18ee8a11f74130d09e5d89893aee
+Merge: 906805d ec16f30
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Nov 21 03:00:55 2015 -0500
+
+    Merge pull request #7 from chey/master
+    
+    Name fixes in macdeploy
+
+commit 4a628726fc3c830632f50e01a89e6c38810786a7
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Nov 20 09:51:36 2015 -0500
+
+    seednode and connection updates.
+    
+    MAX_OUTBOUND_CONNECTIONS = 300;
+    if nInbound >= nMaxOutbound{
+    close the socket.
+    }
+    Default connection limit staying at 25 which is actually raised by 16.
+    Since before it was using
+    25 - MAX_OUTBOUND_CONNECTIONS ( 16 )
+
+commit 8735fec7d511a58b5809c438239a04367b9c2d36
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Nov 19 06:38:33 2015 -0500
+
+    spaces not tabs
+
+commit 5e85578220447203e518d7f6a3c9947cb83b35ba
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Nov 19 05:37:51 2015 -0500
+
+    finish fixing openssl der checks.
+
+commit 904e53edaf98be505ca09781e439fa882c1f8fe9
+Merge: 7d43884 906805d
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Nov 19 01:53:10 2015 -0500
+
+    Merge pull request #18 from transferdev/master
+    
+    update from head fork
+
+commit 7d43884bd623875e9cf63b7e7f61d6be3cea5c67
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Nov 18 21:29:42 2015 -0500
+
+    cutoff old nodes
+
+commit ede86932f903d42dedd7194eecfdc4c51129b3e9
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Nov 18 19:45:01 2015 -0500
+
+    fix makefile.mingw
+    
+    replace spaces with tabs
+
+commit fb9ff243c34bea104d2e48cce655d9f8f66b7cbb
+Merge: 7702358 6da3d89
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Nov 18 18:17:02 2015 -0500
+
+    Merge pull request #17 from Infernoman/Working
+    
+    Merge working branch
+
+commit 6da3d89eabb0c33b0d1677955c8756464eed2a68
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Nov 17 14:32:46 2015 -0500
+
+    instantx spork and .osx changes
+
+commit 8d253844dd53a88847fda7e59478134efc3e0c6a
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Nov 15 01:20:51 2015 -0500
+
+    updating make files
+
+commit 24f029bd7c13a1ae040d0194043213413906e76d
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Nov 13 11:39:23 2015 -0500
+
+    instantx and darksend changes.
+
+commit e1b9b374773bb1ec78c955c5ac73a729d6d6797c
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Nov 12 18:37:57 2015 -0500
+
+    change readme
+
+commit b6c3f3d186bbee20a478ba8403c4ca32a5bf24c5
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Nov 12 18:19:57 2015 -0500
+
+    Changes to InstantX update readme
+
+commit 7318a502497ea887d427e1d8344966ad38542ccd
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Nov 11 03:24:26 2015 -0500
+
+    update .mingw makefile and .unix makefile
+
+commit 84f4124c9de2593b2824dc99c823d0d3d713d757
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Nov 11 02:34:57 2015 -0500
+
+    Openssl updates, Windows builds, update .pro file
+
+commit 908458c7e3423337ace39fc41a5f9ed36bcde9f0
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Nov 9 22:24:48 2015 -0500
+
+    Max amount for Cross-send
+
+commit 50d7e855b5923461a62f1d6358e4d95612a538fa
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Nov 9 20:59:32 2015 -0500
+
+    fix darksend checkbox. additions for instantx, remove narration
+
+commit 74a523fff647fea9f400cbda74931220d23fba1f
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Nov 9 19:01:54 2015 -0500
+
+    masternode-payments.cpp/h
+
+commit 467515ec49eeb726c07e9e051665d19ed94799bd
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Nov 7 13:54:16 2015 -0500
+
+    changes for stealth addresses
+
+commit 8155f1b813541fa1322475ba07ddcb433824b5df
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Nov 5 16:32:46 2015 -0500
+
+    change min fee
+
+commit e3f3af2bc3fd11a029c6f66954e7ce85a0ed3ce7
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Nov 5 16:23:11 2015 -0500
+
+    fix for dpriority in coincontrol
+
+commit 2e7e65369a240833f30c41cb58afc853493ad69e
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Nov 5 15:05:50 2015 -0500
+
+    update wallet.cpp wallet.h to closer match 0.11.2 dash
+
+commit 3a75f5db3dfbb27c9bbe4a6a66f02b904424d5dc
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Nov 5 14:32:46 2015 -0500
+
+    update change log
+
+commit 0a07076e675e950820508a289f8cc93537c6557c
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Nov 5 12:12:10 2015 -0500
+
+    password on withdraw or cross send
+
+commit 57dbe71e6bcce9678745b675f77500d1b81ba770
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Nov 5 12:19:43 2015 -0500
+
+    move ctransaction
+
+commit 6fcaeb08273a0a051981d4d5183671e205366ffc
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Nov 5 11:36:38 2015 -0500
+
+    Instructions
+
+commit f3b4fce3c7708f7d74490e6e417e150c154cc28a
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Nov 4 13:12:02 2015 -0500
+
+    mac assertion error's
+
+commit ca49a36ae7e058fbba8f842f6e007022952901fe
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Nov 3 01:56:03 2015 -0500
+
+    changes for conflicted state and hard fork block #
+
+commit 30c781d73c75c3bb64d696c48711a6b3a0282e3f
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Nov 1 01:06:41 2015 -0500
+
+    matching dash 0.11.2
+
+commit 2ce76831f326a1eafe304121650c0fc89921a645
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Oct 27 19:30:32 2015 -0400
+
+    darksend works, fixing tx fee's adding forks
+
+commit ec16f3025daededca6bf1b75d27aaebe562e04d7
+Author: Chey <chey@users.noreply.github.com>
+Date:   Mon Nov 2 22:06:16 2015 -0500
+
+    Update notes.txt
+
+commit 7328c8403eac54790155b7778ce1ed7b612b4fe9
+Author: Chey <chey@users.noreply.github.com>
+Date:   Mon Nov 2 22:05:21 2015 -0500
+
+    Update fancy.plist
+
+commit 7a65e556e5ec88a775075dfa3b6ad61c64c78eae
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 26 18:11:20 2015 -0400
+
+    fix for darksend
+
+commit 80dac00f9e6dc231c074a831d2610fd40a4334f8
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 26 17:35:38 2015 -0400
+
+    typo
+
+commit 87a9af89fd1bb37721b4d28b55fd63dac2893298
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 26 17:27:44 2015 -0400
+
+    fix mistake in wallet.cpp
+
+commit 32afa9d48a876c8c570f122d1265475e9a952548
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 26 17:11:15 2015 -0400
+
+    further changed to wallet.cpp from dash 0.11.2
+
+commit e4bc1d881cc995353a5242ee8c747a178bfe1076
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 26 16:43:30 2015 -0400
+
+    matching dash 0.11.2 wallet.cpp
+
+commit 083af88c7d91fb207c204447c4186fb57c370f9a
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 26 16:31:20 2015 -0400
+
+    PrepareDarksendDenominate changes
+
+commit 2b9f8644c0a6a7c0176c0eb8705796bb998ec6a7
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 26 15:49:22 2015 -0400
+
+    change max transactions in darksend pool to 1
+
+commit b5e8cd54dbfd4cd89a078d28e68cea43e3b7a5ca
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 26 14:42:59 2015 -0400
+
+    fix unix makefile
+
+commit 3de247285b1c5787eefcb7e3b88645e557d02320
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 26 14:32:30 2015 -0400
+
+    increase queue + signing timeout
+
+commit 8c8e59bd9ec3fc17cd7743ae65b356a49b599c08
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 26 14:09:54 2015 -0400
+
+    base58 changes. remove secp256k1 from key.cpp
+
+commit 00d9be27f43f329bbb62ef0ba53587647dd1eee3
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Oct 25 05:05:32 2015 -0400
+
+    Send + Break on MSG_FILTERED_BLOCK
+    
+    add missing line from protocol.cpp -> dash 0.11.2
+
+commit 96424909199eda225cc3f72f6c5073bad117c729
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Oct 25 02:50:31 2015 -0400
+
+    remove spam
+
+commit e96cccc59a89772e7d3e1cdb51b29a6b7e04832c
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Oct 25 02:34:06 2015 -0400
+
+    revert changes add fixes
+
+commit c0b30cbc660097c26da17e39c67bd389e24b24bd
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Oct 25 02:16:34 2015 -0400
+
+    fix mn -> pmn
+
+commit 47d9e79db1d8e5bbd82819e60657edb75c474cd5
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Oct 25 02:10:50 2015 -0400
+
+    activemasternode.cpp and .h inline with 0.11.2
+
+commit eeb4025075a9aceaf0157fb1c2317629dea669a3
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Oct 25 00:44:16 2015 -0400
+
+    rpcdarksend.cpp inline with dash 0.11.2
+
+commit 906805d3ec8fb3dfc3df994882c94772957b6657
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Oct 24 23:59:33 2015 -0400
+
+    mac assertion error fix
+
+commit 77023583dd24d1fb354f2b088689811c606b6c26
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Oct 24 23:17:07 2015 -0400
+
+    mac assertion error fix
+
+commit eaf0e8679eb7a0b08ad24afbb01c7d002164d528
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Oct 24 23:13:09 2015 -0400
+
+    update messages in rpcdarksend
+
+commit f20c3fbfe39310c44a501c41ae7f3fc2f9f5c6a2
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Oct 24 22:00:42 2015 -0400
+
+    change sporks update protocol.cpp
+
+commit 0ec6ce3ad74f45253d6ecf924c2ba60a8451e29c
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Oct 24 21:09:04 2015 -0400
+
+    change spork starting times.
+
+commit 7994a37efc2c771a2a9cbc572d623727ef72a601
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Oct 24 20:28:08 2015 -0400
+
+    found a fucked up spork
+
+commit 7084164790defb38594a963cf969e357765504a3
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Oct 24 19:16:58 2015 -0400
+
+    changes from dash 0.11.2
+    
+    AcceptableInputs txCollateral -> tx
+
+commit 16c4265279f9d21cecf04bcbaef7e22d4ffd022e
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Oct 24 17:23:31 2015 -0400
+
+    fix
+
+commit a8cc6c971d653e69ef77ce392689ee08076eb078
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Oct 24 13:13:38 2015 -0400
+
+    spork changes
+
+commit 6bce28ac8a60884ad8fdb37f77c11da6596dcb72
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Oct 24 13:13:07 2015 -0400
+
+    spork changes
+
+commit d88b0e0e7659d90569bbbede4a3a16d59bc66181
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Oct 24 12:55:16 2015 -0400
+
+    match darksilk
+
+commit 5412f8d8d19640a14e05457e3c938e443e01f74b
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Oct 24 12:36:12 2015 -0400
+
+    fix for sending?
+
+commit d3dceb8601fd57a6b873859501323ce9e8d9c0c4
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Oct 24 11:56:35 2015 -0400
+
+    fix for main.cpp
+
+commit 9ef19dfa3f067f202156d1aadb22d972a2ba243c
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Oct 24 02:44:11 2015 -0400
+
+    missing lines
+
+commit 7a0577795e6120a957672cd38d01ee784b843127
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Oct 24 02:07:30 2015 -0400
+
+    last one
+
+commit d3a8ebab034b805aaf5b7f44986d078efe387655
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Oct 24 02:03:33 2015 -0400
+
+    fixes
+
+commit 65250f09efb7f37aa03e9e81a6498082290b33c5
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Oct 24 01:54:02 2015 -0400
+
+    fix
+
+commit 7a361a07594920a66aecb689be88fcdf7abd1bcf
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Oct 24 01:53:01 2015 -0400
+
+    fix sporks
+
+commit 6868c0705c6bd29c62439087af6232251f2a36b9
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Oct 24 01:41:08 2015 -0400
+
+    hopefully fix sending
+
+commit ac1471e20ab49d8dcbcdb0336b071aa82e303d6a
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Oct 23 22:19:32 2015 -0400
+
+    fixes for darksend amounts
+
+commit ecc645e9ba65fcad7f74c83fafd20584e5a18341
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Oct 23 20:50:23 2015 -0400
+
+    fix
+
+commit 23d56d56ba6ba5bac840406661afc0b23f0198ae
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Oct 23 20:49:09 2015 -0400
+
+    fixes
+
+commit 475d75e0e5c62ae9e57b0c6274297f3fe32b9c32
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Oct 23 20:41:13 2015 -0400
+
+    fix
+
+commit aca8e226f5d29952558247a909002634fab31a7c
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Oct 23 20:39:36 2015 -0400
+
+    fixes
+
+commit c7a9d0c04bc01d0fe824e5416ab7318a503c51b1
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Oct 23 20:25:33 2015 -0400
+
+    fixes
+
+commit e48a933969a0bccb76445b7c6ea6a462c406f7b9
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Oct 23 20:16:08 2015 -0400
+
+    uint256 and bignum
+
+commit ec314dc7a2d0f2d80b9e2bb41b9d95ef1523fd90
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Oct 23 19:53:14 2015 -0400
+
+    fix
+
+commit ace3d6fbf4fd1271ae06fb0aa0d90915ab3bece6
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Oct 23 19:51:21 2015 -0400
+
+    fix
+
+commit a5f2f0358954f4054a627ebea0f8a10a055c6b64
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Oct 23 19:33:20 2015 -0400
+
+    fixes
+
+commit 5a3795c3dd2096f41c75582c118d5dc8cc989369
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Oct 23 18:38:55 2015 -0400
+
+    change acceptableInputs
+
+commit 1375dc512feacb6e80e110c52e52fe484d56f35f
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Oct 23 17:19:12 2015 -0400
+
+    fix
+
+commit 530f47621c481c3edb2891c46afa4931254b32c9
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Oct 23 17:14:22 2015 -0400
+
+    fix
+
+commit d2045f862a72bebea9fb58c6356494194f7d08a5
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Oct 23 17:09:25 2015 -0400
+
+    masternodeconfig files updated to dash 0.11.2
+
+commit f2e31ca29df3f3a67c574f5abcbf879ddd74085d
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Oct 23 07:43:49 2015 -0400
+
+    Revert "test fixes darksend"
+    
+    This reverts commit e85c06a7ce591c1018c126c533918c5e13eac88b.
+
+commit e85c06a7ce591c1018c126c533918c5e13eac88b
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Oct 23 07:32:14 2015 -0400
+
+    test fixes darksend
+
+commit 580cd0ae304b138af469d7f10e3e74497d513893
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Oct 23 06:27:57 2015 -0400
+
+    revert
+
+commit b76dd84b28848b9a7cb9a83fd74f631060e1f1f7
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Oct 23 06:24:33 2015 -0400
+
+    testfix
+
+commit e095900d02ba7cfa09708e7c5c723050686b6b6b
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Oct 23 06:23:52 2015 -0400
+
+    test fix
+
+commit 87982a4e22ba2ed8b1dcdec5059d9127ef1ec756
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Oct 23 06:21:43 2015 -0400
+
+    test
+
+commit 90bff9ca97cf74a6b2b304ef27bfa65ecafa02eb
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Oct 23 06:03:12 2015 -0400
+
+    revert ? find differences
+
+commit 64cda2661d9eeea7cc180d971967ae65c67abb27
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Oct 23 05:47:52 2015 -0400
+
+    fix logging
+
+commit f9209ce00657be14add4ce69e1a2065951f07609
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Oct 23 05:20:50 2015 -0400
+
+    test fix. find consequences
+
+commit 5deca0c6e6eac353871d0993bfc0b92877208d7c
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Oct 23 04:51:01 2015 -0400
+
+    fixes
+
+commit f4ae928847ca0b4045aaca87ec8cf3d259096546
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Oct 23 04:47:00 2015 -0400
+
+    includes
+
+commit f5dd6451e9f73770c107dbff5bc53d94c929bcb2
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Oct 23 04:27:50 2015 -0400
+
+    fix
+
+commit 6c6ba13ee5bc100e1b6c7b6d6a0bda1de2268e7b
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Oct 23 04:18:25 2015 -0400
+
+    needed for qt
+
+commit a117d58803a0657de6325e7da5b2d26c19ef4dab
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Oct 23 04:09:51 2015 -0400
+
+    all masternode and darksend files match dash 0.11.2
+
+commit 0d1d97a783937d473557e69a9fe64deaf289e614
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Oct 23 04:03:10 2015 -0400
+
+    match masternodeman.cpp fix masternode.h and init.cpp
+
+commit 6358970a4d715d38de45dd9bc5a65f34939212eb
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Oct 23 03:54:35 2015 -0400
+
+    fix
+
+commit f89296e80fd337c199f48bae7beb8d27fa08b6d5
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Oct 23 03:53:08 2015 -0400
+
+    fix
+
+commit 8b9ce97ee2ed9e9f3e1153566ebb85f2384efae1
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Oct 23 03:51:49 2015 -0400
+
+    fix
+
+commit 9d7a5582e77bda05d1266c8145deaa58dd392074
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Oct 23 03:45:07 2015 -0400
+
+    fix
+
+commit b45346197b6c77a8e283f9c624cdd754a7c58519
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Oct 23 03:43:22 2015 -0400
+
+    fix
+
+commit 0410845bca310217820b437d0464dbb237d7492b
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Oct 23 03:39:02 2015 -0400
+
+    fix
+
+commit 9c0ebc79cdf619d997c0cf87d1f67d6cc8592f4f
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Oct 23 03:37:34 2015 -0400
+
+    match dash 0.11.2 masternode.h
+
+commit 73e49ecc3048a31843e217f46934871d9869dda0
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Oct 23 03:35:01 2015 -0400
+
+    mastch dash 0.11.2 masternode.cpp
+
+commit 82d47c4c7528304954cfd137149fd7dd620aacdb
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Oct 23 03:22:59 2015 -0400
+
+    fix
+
+commit e401baec72fb1b9ae2bf5fac942f4dbeed4f2da7
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Oct 23 03:17:49 2015 -0400
+
+    fix
+
+commit 183d80ebeae0463fd4b1037e9cb13e9dbae0468a
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Oct 23 03:11:40 2015 -0400
+
+    match darksend.cpp > dash 0.11.2
+
+commit cbe5fcde08ee74ae37f0bba803b89dbf167f9c90
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Oct 23 02:56:57 2015 -0400
+
+    match dash 0.11.2 darksend.h
+
+commit 28deb12775255c4eb5f809cbea2f02d9117354ae
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Oct 23 02:42:04 2015 -0400
+
+    fix
+
+commit 7385ee218fb2723e91ccf6ae26c3d0288f4c5a95
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Oct 23 02:40:28 2015 -0400
+
+    fix
+
+commit d34777dca6789b7292d355b919c2fee599504a31
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Oct 23 02:36:17 2015 -0400
+
+    test ui fixes
+
+commit 29f4c257a5b602f716d36efc4d363efc3677b6f2
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Oct 23 02:31:10 2015 -0400
+
+    fix for ui
+
+commit 9a5c2c6090f42b22767cd566ba2f088c3eaa2173
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Oct 23 02:27:23 2015 -0400
+
+    fix for UI
+
+commit 30c0a989437ffd4c34b59f7dba4c62be7dade81c
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Oct 23 02:25:00 2015 -0400
+
+    fix
+
+commit 81f176a35670ae5e594fc36bf1e1c41af109aef3
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Oct 23 02:22:41 2015 -0400
+
+    test
+
+commit 7a728958716eae41c3936e5b9e9e3cd629623d28
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Oct 23 02:14:02 2015 -0400
+
+    Revert "test"
+    
+    This reverts commit cf95b657d77669deac80f598718c784510db7e71.
+
+commit cf95b657d77669deac80f598718c784510db7e71
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Oct 23 02:12:50 2015 -0400
+
+    test
+
+commit 4b88dbab6364b001a72f0c149ece144224d21309
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Oct 23 01:58:47 2015 -0400
+
+    Revert "test overviewpage"
+    
+    This reverts commit 4e8385634fe1968735ad9f169002a76c003a5eef.
+
+commit ea7b57018f7d6bd8f3db2c47ab64f157b04e150f
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Oct 23 01:58:34 2015 -0400
+
+    Revert "test fix"
+    
+    This reverts commit 0eb14eef49124bfd248317d982e763e4ff07d53c.
+
+commit 0eb14eef49124bfd248317d982e763e4ff07d53c
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Oct 23 01:56:29 2015 -0400
+
+    test fix
+
+commit 4e8385634fe1968735ad9f169002a76c003a5eef
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Oct 23 01:50:42 2015 -0400
+
+    test overviewpage
+
+commit d00ebcd0cc2774810df83ac9a9f46f7886c9d238
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Oct 23 01:21:02 2015 -0400
+
+    Removal of centrally broadcasted synchronized checkpoints
+
+commit b54748f7f1e55d859cd94864861138f14cccc45d
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Oct 23 01:06:15 2015 -0400
+
+    fix
+
+commit 1be75e6b7fc6923a4c042b77341003036851790f
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Oct 23 01:03:36 2015 -0400
+
+    fix
+
+commit a1226c0ea0009ec3384970285c219c75412a6392
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Oct 23 01:02:46 2015 -0400
+
+    fix
+
+commit 845ed39fc1aa4e169c7b73df20e3bd89e8100049
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Oct 23 01:00:51 2015 -0400
+
+    fix
+
+commit 460f2af32df617212d31048a7bb0eba3d66c6ef9
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Oct 23 00:59:25 2015 -0400
+
+    fixes
+
+commit 6dca1fa56658e373063509bd1db3951f0d1a11e7
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Oct 23 00:58:32 2015 -0400
+
+    fix
+
+commit aa30cad6c92a52317abfcf9fdaf9b7a39e4605e1
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Oct 23 00:57:57 2015 -0400
+
+    fix
+
+commit 40987d55ea877c8cc67d4c600f329fec7fee65d1
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Oct 23 00:56:57 2015 -0400
+
+    fix
+
+commit 2604872579cba2207122beb4c8bfcbab9457b448
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Oct 23 00:53:57 2015 -0400
+
+    fix
+
+commit 5c01aa35948dfd54df90c15aa46e2d3c31a57717
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Oct 23 00:35:01 2015 -0400
+
+    fix infection
+
+commit 3b81afd38167a88cdf9febda8497e111eeac64ed
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Oct 23 00:31:17 2015 -0400
+
+    Now in line with Dash 0.11.2.20
+
+commit c1e84aa38f02de8e581f13bf172c781facf95153
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Oct 22 23:25:08 2015 -0400
+
+    bump min version
+
+commit e9228bdd64627e6e52bd0440ac822ba469189bc5
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Oct 22 23:22:08 2015 -0400
+
+    add CompareValueOnlyMN
+
+commit d453da8b03e74a4ae9c2039c21c2d6218152f6ab
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Oct 22 23:18:28 2015 -0400
+
+    fix
+
+commit b321fcb7e0c5a3e6b1573e473995598926cd0e7b
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Oct 22 23:15:06 2015 -0400
+
+    fix
+
+commit 48dbe4b18384fe206c362e67c4284f28571fd838
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Oct 22 23:14:20 2015 -0400
+
+    fix
+
+commit ae1cb281353d896d5998d65f00d2e09194c35ca3
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Oct 22 23:08:38 2015 -0400
+
+    fix
+
+commit 7fdaf061b7f29a944b991d361cc20c2848897032
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Oct 22 23:00:05 2015 -0400
+
+    Stormnode/SandStorm/InstantX/Conf/Donation Updates
+
+commit 5de6c3206dd1a9652510797e5640bc54ffe04e12
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Oct 22 22:05:15 2015 -0400
+
+    Catching up
+
+commit f7df3d5d58302d793b4fea60501b786a2f8e3371
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Oct 22 20:44:31 2015 -0400
+
+    Gitian
+
+commit f8211ad4e1253e32cc340a7c36f5a3c2db766a18
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Oct 22 20:30:48 2015 -0400
+
+    fixes
+
+commit 459ac4a3b956f0fa6f86ed465671f84214534867
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Oct 22 20:29:10 2015 -0400
+
+    fixes
+
+commit 278f6406886ed7d935124d6834069cfc99580b78
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Oct 22 20:28:40 2015 -0400
+
+    fix
+
+commit bbae7d0ef6959e987266ed61a40fa6e165da1670
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Oct 22 20:26:55 2015 -0400
+
+    typo
+
+commit 511d340136b62e805ff50b2c898669a698bf4c26
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Oct 22 20:25:57 2015 -0400
+
+    fixes
+
+commit 2dea80937d9a30a0caa4c1493274fe5bc0ae93b6
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Oct 22 20:24:03 2015 -0400
+
+    fix
+
+commit 609db89e8be8fffd33f1ee9ff1146b789c79c62c
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Oct 22 20:22:11 2015 -0400
+
+    fix
+
+commit 8dadd13ff9c415741d3ed88f2beed7e67e078e76
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Oct 22 20:20:20 2015 -0400
+
+    Revert "fix"
+    
+    This reverts commit 9e4dca3d0cec2091b82e9db3b9f33ecf06951168.
+
+commit 9e4dca3d0cec2091b82e9db3b9f33ecf06951168
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Oct 22 20:17:56 2015 -0400
+
+    fix
+
+commit 557a8100161991ea1c93872ac02f548124499866
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Oct 22 17:15:05 2015 -0400
+
+    fix
+
+commit 535fa270ff13d0b43f71924ce6f17984ce826c86
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Oct 22 17:11:34 2015 -0400
+
+    fix
+
+commit 446c2df0e3eec922ece3eed6c8a6e4d27b3bbd18
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Oct 22 17:08:18 2015 -0400
+
+    fix
+
+commit 01164949a19e9f90844d1cff173af30079ec935f
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Oct 22 17:03:37 2015 -0400
+
+    fix
+
+commit 6bb73c44bb3bc120a0abcf28785439c536d59960
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Oct 22 17:02:53 2015 -0400
+
+    fix includes
+
+commit 3536cace06dc611d23a77a0c40cb3d4f66428d86
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Oct 22 16:57:54 2015 -0400
+
+    final fix
+
+commit 7d6be4456ddb72e6c1f6908252299239c80165e4
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Oct 22 16:56:33 2015 -0400
+
+    fix include
+
+commit 8aa3f2a14c3cdb4f0273fea311e81ea2f52c6e43
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Oct 22 16:44:44 2015 -0400
+
+    fix
+
+commit 183d292c4cb09b3dc6caef0f68f0d0919e380056
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Oct 22 16:38:57 2015 -0400
+
+    fix
+
+commit e6a9574636957680397a53723a8e09fd75641fba
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Oct 22 16:36:02 2015 -0400
+
+    fixes
+
+commit c4b3732d1df53fb8fa97032f03aebaed6e2d0d89
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Oct 22 16:34:32 2015 -0400
+
+    fix
+
+commit 0bd40c0ea3d56081d630664dff922a3ef6528529
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Oct 22 16:33:48 2015 -0400
+
+    fixes
+
+commit 90dfd6ba05a20487489cc37d59114a7c5aa32cbb
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Oct 22 16:32:06 2015 -0400
+
+    fixes
+
+commit 317e7e1a72ca17d55c7a076cff7cd212c5e350b9
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Oct 22 16:19:46 2015 -0400
+
+    fix
+
+commit a7c93820a84af4ee25a5a9f2a6e3857d758d4970
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Oct 22 16:13:12 2015 -0400
+
+    fixes
+
+commit b901b5ba25d8fca73b38b9bd4187e3814c9e489a
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Oct 22 15:38:43 2015 -0400
+
+    snse > mnse
+
+commit 7d88db92c58e7f10f2fac94f8594a3b99134049a
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Oct 22 15:37:03 2015 -0400
+
+    fixes
+
+commit d96a27c4a16898d2cab4999952c9511e5d38e7e5
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Oct 22 15:32:45 2015 -0400
+
+    stormnode > masternode
+
+commit 42f2f9db673bfc122a11075b79b17d286cb3ed68
+Merge: bd7cd2b eb4f34d
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Oct 22 15:29:00 2015 -0400
+
+    Merge remote-tracking branch 'origin/Working' into Working
+
+commit bd7cd2b7a739e32abf408b2ceefb92415b4e8311
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Oct 22 15:19:35 2015 -0400
+
+    catching up
+
+commit eb4f34d26d5e2ef91633e5598a1bd439886e43b7
+Merge: 65d2a7a 928615e
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Oct 22 13:18:17 2015 -0400
+
+    Merge pull request #16 from Infernoman/master
+    
+    Master
+
+commit 928615e3f2476f676d3b032bafd3f56f161169b8
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Oct 22 13:17:50 2015 -0400
+
+    add to changelog
+
+commit a3c599a26db995b98ac7945ecb2420dcd256c084
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Oct 22 01:30:25 2015 -0400
+
+    update client version
+
+commit 571acfa88131d099ecc55128ed41bc77f0c2971f
+Merge: e924a4f e8272bf
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Oct 21 06:23:37 2015 -0400
+
+    Merge pull request #15 from Infernoman/test
+    
+    fix masternode versions, only connect to 61402 + for darksend
+
+commit e8272bfb4378ab66ee3a70b2e8cbc83aaa555926
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Oct 21 06:22:27 2015 -0400
+
+    fix masternode versions, only connect to 61402 + for darksend
+
+commit e924a4fc5c1e0b67bb5ba35195bcae68a5e0cbb8
+Merge: 22d5cce c98cb79
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Oct 21 05:28:46 2015 -0400
+
+    Merge pull request #14 from Infernoman/test
+    
+    remove darksend_fee + UI fixes
+
+commit c98cb799bf721b7a52090bfd456f82cc8eb15b5c
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Oct 21 05:22:27 2015 -0400
+
+    darksend button isnt unchecked when set to false
+
+commit 01159c8029f41db6777c0ad3d8ea7e34d306fc0d
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Oct 21 05:20:42 2015 -0400
+
+    fix
+
+commit e2d796d3871ab1482c16673d6d0d726aad4fe6c5
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Oct 21 05:20:18 2015 -0400
+
+    fix
+
+commit b0c3e58ddfba48949929120fcdb2a4ed347c4753
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Oct 21 05:18:30 2015 -0400
+
+    fix
+
+commit 0c3726fe7ed275f15cfbd9a19ca81f2cc4665567
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Oct 21 05:16:53 2015 -0400
+
+    fix
+
+commit 35d09da44fa989c40937ab8de0a2b5665dd3e319
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Oct 21 05:13:09 2015 -0400
+
+    fix
+
+commit d3ceb1092a5a0aab639914015c3a15b6074e5ba7
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Oct 21 05:10:20 2015 -0400
+
+    fix
+
+commit 1b16309bd99c616365e124f3a373479009814561
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Oct 21 05:09:33 2015 -0400
+
+    fix
+
+commit dfeecf92761323a2d2affc4fa6e2159a7919b9db
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Oct 21 04:45:43 2015 -0400
+
+    fix
+
+commit 3d4202a219bbf85c72e74155efe2a047c7a8ba57
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Oct 21 04:43:26 2015 -0400
+
+    fix
+
+commit c341efc687c9bedb7c046b301d0abbb7c282a774
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Oct 21 04:39:59 2015 -0400
+
+    fix
+
+commit 51c6464ece11dea9ddee37003571d38539ee17aa
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Oct 21 04:37:17 2015 -0400
+
+    fix
+
+commit df586bfdc2315a8d11f2faf00b9b59c0a63ae350
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Oct 21 04:36:52 2015 -0400
+
+    fix
+
+commit 04ab19fb77ff0c5805376897699467eb9fbf25bc
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Oct 21 04:31:09 2015 -0400
+
+    fix
+
+commit 6c2f8d4209ee9c94497b397e644d379a448ae0d4
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Oct 21 04:27:37 2015 -0400
+
+    fixes
+
+commit c52a3d1c7506d2658dff56f831714891b45662e6
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Oct 21 04:15:17 2015 -0400
+
+    testfix
+
+commit ca1a1b355f6d0bc0621c6f2956825ddc9bd7ef15
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Oct 21 04:07:03 2015 -0400
+
+    fix
+
+commit 83001e0514d52ff7eb35b51341ba5f2753a8f26d
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Oct 21 03:54:13 2015 -0400
+
+    fix
+
+commit a68d449353807adc47fd44593d01f34b142cad71
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Oct 21 03:47:26 2015 -0400
+
+    fix
+
+commit 8358b186da97dbce1ac9a90b5c9f6f032b4bf629
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Oct 21 03:45:43 2015 -0400
+
+    fix
+
+commit dee942ae261f05085085511a75f1a7f18651568a
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Oct 21 03:40:02 2015 -0400
+
+    dakrsend fixes UI
+
+commit df2d4a2f11e2841da697755ed0f501bc893164f0
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Oct 21 03:06:12 2015 -0400
+
+    remove darksend_fee
+
+commit 22d5cce1e67c81d28f864c1bfa5fc878ce695ae3
+Merge: eb83b38 9ec4ad4
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Oct 21 02:57:05 2015 -0400
+
+    Merge pull request #13 from Infernoman/test
+    
+    fix logging error
+
+commit 9ec4ad4e92a70efa06dadc1d7c9e0755eaaeae5c
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Oct 21 02:54:49 2015 -0400
+
+    fix logging error
+
+commit eb83b388d8362487c7374774f43e2ec349c43b6a
+Merge: c9a81a7 f2c8f6f
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Oct 21 02:12:18 2015 -0400
+
+    Merge pull request #12 from Infernoman/test
+    
+    fix darksend fees
+
+commit f2c8f6fd98479cf71b73d53c221c25271f985cf2
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Oct 21 02:10:36 2015 -0400
+
+    fixes
+
+commit c9a81a7a6d86ac21873173a8bae9ab589688a21d
+Merge: 189448b 5b9b014
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Oct 21 01:57:53 2015 -0400
+
+    Merge pull request #11 from Infernoman/test
+    
+    Merge working branch
+
+commit 5b9b01435452acab0d2e7a65756b60d56750d1ce
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Oct 21 01:37:09 2015 -0400
+
+    fix
+
+commit 3007248a580093305c9a528da02ead5256023299
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Oct 21 01:34:32 2015 -0400
+
+    update relay rules
+
+commit 9e194e04725c1f5eaf4f1c82057cbdc08f8bda6d
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Oct 21 01:31:53 2015 -0400
+
+    Added input/output/sig trickle
+    
+    - Send a few inputs/output each cycle
+    - Mix other users inputs/outputs into relay each cycle
+    - Send signatures as a tickle, also mixed with other users signatures
+    - Fixed a bug with validating the final transaction
+
+commit 04ddd25d1e57ce565c05464f81f4e0134bd76955
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Oct 21 01:08:16 2015 -0400
+
+    fix
+
+commit fef49d69f75916f121f7787f7cd52d2a0dbf1859
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Oct 21 00:45:55 2015 -0400
+
+    Fix UI in stormnode and lite modes:
+    
+    - disable entire DS frame in stormnode mode and do not run timer
+    - hide DS and IX checkboxes in litemode
+
+commit c7389e1ef7f78c7beb2d02c186ac69a48a296246
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Oct 21 00:34:22 2015 -0400
+
+    fix
+
+commit fb94e07fc0568028e99abfd443e64f88dfa22513
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Oct 21 00:25:45 2015 -0400
+
+    save nDsqCount in mncache.dat
+
+commit 6f222a07e1f2d4a2ddb80cf1011bbbcd1ab7836c
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Oct 21 00:15:44 2015 -0400
+
+    rename masternodes.dat->mncache.dat / fix strings
+
+commit 53e9c49f7162fc7e483c7c58456e7d50f8ce1e93
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Oct 20 23:45:25 2015 -0400
+
+    fixes
+
+commit 78179d722a10d5d46b94237b56c643801f12e124
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Oct 20 23:42:04 2015 -0400
+
+    add darksend rounds and amount to options dialog
+
+commit 964425478967398e4d7c059b186d6b07c489dd96
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Oct 20 23:35:38 2015 -0400
+
+    fix
+
+commit 131fcade156a0d1300e40e55caecdc35f15e6c2c
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Oct 20 23:32:59 2015 -0400
+
+    fixes
+
+commit 65d2a7abc55b64f965a245b535d3e495843b8a85
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Oct 20 22:55:24 2015 -0400
+
+    update changelog
+
+commit 472137d5d73090476ac738ab7bbd716653113a31
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Oct 20 22:08:32 2015 -0400
+
+    fix console spam
+
+commit 7c22832304d11cc9c8a72822ff02cf83cdbe370f
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Oct 20 22:05:32 2015 -0400
+
+    fixed shared key usage
+
+commit fd9af459be5b48e64618cbe5abc4d81dff4dc942
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Oct 20 21:58:35 2015 -0400
+
+    Make masternodes.dat verification more specific
+
+commit 6a3cd47a2d07840fa26f9884cae01a2fe458a59e
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Oct 20 21:36:40 2015 -0400
+
+    fixes
+
+commit 3f566056dfbcb23b19bcaaed14eddb7a74c5c987
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Oct 20 21:28:55 2015 -0400
+
+    remove
+
+commit c160eaf85e9a51db6a8d8debcb5718a27e2b05e9
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Oct 20 21:28:41 2015 -0400
+
+    version additions and removals
+
+commit fe26acbc544d501b736910126f88ef743e9ec81e
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Oct 20 21:13:06 2015 -0400
+
+    fix
+
+commit 7cf293a8da004ad4b7303fc81139d281b03d9566
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Oct 20 21:09:42 2015 -0400
+
+    fix
+
+commit a3c60af3197a119d64f537b90ccd531a05509b67
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Oct 20 21:08:52 2015 -0400
+
+    fix
+
+commit b945136709166fb2f952ababf65cfc3862719cc9
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Oct 20 21:07:34 2015 -0400
+
+    fix
+
+commit 90e59d0dbdd71399ebc3b8159f65c4a46e4db553
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Oct 20 21:02:12 2015 -0400
+
+    fix
+
+commit ae314610f9e34a73fd8a9290c6c493bed930d576
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Oct 20 20:55:36 2015 -0400
+
+    fix
+
+commit 644e51a02d5851997998a431da7efc039a035ae8
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Oct 20 20:47:09 2015 -0400
+
+    revert
+
+commit f6f995790cb3b5209e035bd8295770be5546330a
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Oct 20 20:45:52 2015 -0400
+
+    fix
+
+commit 940a668f27f1fdd74837f18f5b8348edb9bf9d7b
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Oct 20 20:41:47 2015 -0400
+
+    fixes
+
+commit 3690dd34b0eaa43f5dd8315ddbb5c01580012cc0
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Oct 20 20:28:04 2015 -0400
+
+    pindexPrev->nHeight > pindexBest->nHeight
+
+commit 00fd1026806120f071b9e5fef2122bfc9ac4eed9
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Oct 20 20:26:11 2015 -0400
+
+    nHeight > pindexPrev->nHeight
+
+commit 82483dd6da95185b413ff9d20cc1c0b87012fb3b
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Oct 20 20:24:01 2015 -0400
+
+    remove chainactive
+
+commit 10f8522120a103595e819c08f88fa7c0b48379e6
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Oct 20 20:16:49 2015 -0400
+
+    fix windows build
+
+commit eea1cb72ccaeda94df806d0fa93b33e94642577e
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Oct 20 20:12:22 2015 -0400
+
+    makefile fixes
+
+commit 6f6d59813e9524e27de90308f40f36b3e47c496b
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Oct 20 20:10:26 2015 -0400
+
+    fix
+
+commit f2f820019be25a7db05391e731c7549220e13c36
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Oct 20 20:08:20 2015 -0400
+
+    fix
+
+commit af726ccf65f74fa37a6fdf497b1f3481aa60f235
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Oct 20 20:02:38 2015 -0400
+
+    Merged masternode blinding
+
+commit e2e657052b7b7a9e732f65f756ed9ea333c475ab
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Oct 20 17:25:09 2015 -0400
+
+    add spaces to IP only in full mode
+
+commit c227a1247b09fd4e511b44df593305c8cf300a39
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Oct 20 17:23:51 2015 -0400
+
+    remove "|" to make full mode a bit more compact
+
+commit de4474aa40c33bda7964fadc2ad1dfb90dcd56cd
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Oct 20 17:22:46 2015 -0400
+
+    add spaces to table-fy console view of "masternode list"
+
+commit 7e4e36b24e75c1440e720c9b43e315446f956663
+Merge: 024cff3 189448b
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Oct 20 17:20:41 2015 -0400
+
+    Merge pull request #10 from Infernoman/master
+    
+    merge master
+
+commit 189448b764b66af86794044f28266ae3483e7b42
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Oct 20 17:19:47 2015 -0400
+
+    fix filtering for "active" (was broken after IP filtering)
+
+commit c35adc8edb20d17315e1da808a9a5a22d2afa3ae
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Oct 20 15:48:54 2015 -0400
+
+    start using dust
+
+commit a567cc135666f03032f499e248810032dccd172b
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Oct 20 15:44:32 2015 -0400
+
+    remove include
+
+commit dd89ad88d673d651cffb06421b3943edc1285e37
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Oct 20 15:43:22 2015 -0400
+
+    comment out isdust
+
+commit 174ec8d990aac69b2b0e3f98699ea8ccf67d52d6
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Oct 20 15:39:24 2015 -0400
+
+    fix isdust
+
+commit a017f7a51b8b39d2317bbfcdd2f91a481db433ba
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Oct 20 15:36:02 2015 -0400
+
+    revert
+
+commit 4df0a9514014a0ba838e7b1470ec238336b17689
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Oct 20 15:35:35 2015 -0400
+
+    test fix
+
+commit 1550223c3eb0058b31db06e550bd905724437476
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Oct 20 15:33:03 2015 -0400
+
+    add external identifier
+
+commit ebeeed0f4f2fb584e81e4252d0fea2dcff8cb072
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Oct 20 15:31:06 2015 -0400
+
+    add isDust
+
+commit c1c1ab7438e0266106ded36f41265bd4a3eca581
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Oct 20 15:24:31 2015 -0400
+
+    change to static const
+
+commit 1882e393fcfa9a239fd00e11f2cd6bcd2c6f5f95
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Oct 20 15:17:46 2015 -0400
+
+    darksend and instantx
+
+commit 934cca494a4c7a61bcdd6986c118d365842ca0b9
+Merge: 6b40431 024cff3
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Oct 20 02:04:30 2015 -0400
+
+    Merge pull request #9 from Infernoman/Working
+    
+    Cross-send
+
+commit 024cff39b36f5cbdfa74e5a33e31961935aba75d
+Merge: e086a18 6b40431
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Oct 20 01:43:10 2015 -0400
+
+    Merge pull request #8 from Infernoman/master
+    
+    chmod
+
+commit e086a1879a351108e64c5fabae873cc43760188f
+Merge: 4c675ad f746efb
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Oct 20 01:41:28 2015 -0400
+
+    Merge pull request #7 from Infernoman/CM
+    
+    Cross-Send
+
+commit f746efb7da207125039b862b55fc3096519c10af
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Oct 20 01:20:50 2015 -0400
+
+    Cross-Send
+
+commit 6b40431b02f062ac956e81fc080622c4ffdedc39
+Merge: 665f0da 4c675ad
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Oct 20 01:09:07 2015 -0400
+
+    Merge pull request #6 from Infernoman/Working
+    
+    Merge working branch
+
+commit 4c675ade6f8b4f5e60022cab28732ee352792359
+Merge: 954ba73 dd10b3e
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Oct 20 00:46:01 2015 -0400
+
+    Merge pull request #5 from Infernoman/CM
+    
+    CMasternodeMan - masternode manager class
+
+commit dd10b3ef5816007be93b2097516ef9426411ad34
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Oct 20 00:23:49 2015 -0400
+
+    Revert "Add CCoins: pruned list of transaction outputs"
+    
+    This reverts commit 07400ec91a988fc2513927abdd730305a9dd09ff.
+
+commit bc2698771b0445ec0bb46c6a3b193e054467a8e3
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Oct 20 00:23:17 2015 -0400
+
+    use findblockbyheight instead of chainactive.
+
+commit 07400ec91a988fc2513927abdd730305a9dd09ff
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Oct 20 00:09:45 2015 -0400
+
+    Add CCoins: pruned list of transaction outputs
+    
+    The CCoins class represents a pruned set of transaction outputs from
+    a given transaction. It only retains information about its height in
+    the block chain, whether it was a coinbase transaction, and its
+    unspent outputs (script + amount).
+    
+    It has a custom serializer that has very low redundancy.
+
+commit 463afcb2eb10bdc2c72daf0dd5d6698ab300e606
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 23:08:26 2015 -0400
+
+    fix
+
+commit 0cfec703c9a0e6af5af90018b28cb7b1e110dc35
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 22:56:43 2015 -0400
+
+    prevent gaming sigTime too much on initial dsee
+
+commit 9648177fc0dbab9a6e6d0ef18ee91c3d2a8f1683
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 22:53:42 2015 -0400
+
+    find oldest legit masternode to pay / naming "now" -> "sigTime"
+
+commit ac76a8eb9147cee9ca710e82f33f6603c386d39c
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 22:46:32 2015 -0400
+
+    add logging for masternodes to debug level
+
+commit 47dcbeb8769e851d17244a0f2e090caf885da4fa
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 22:29:19 2015 -0400
+
+    remove unused
+
+commit c58dd16c53ad6d3ef1c5344e5403e7c2b062c70a
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 22:26:56 2015 -0400
+
+    fix
+
+commit 6e4490010f5fc076f3e7cd791ac08d1d465ba2d6
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 22:21:45 2015 -0400
+
+    fix
+
+commit 7ae626dc04e3f4d4200eff6e11c0ddb3e254b839
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 22:13:56 2015 -0400
+
+    removing spam when debugging
+
+commit cfc04b2967f4c43a7dc3cd7e6ac267794bbe7f48
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 22:04:38 2015 -0400
+
+    switch to dsegupdate
+
+commit 840a232043985a946fabbfa06ad117e4b3ee7331
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 21:55:12 2015 -0400
+
+    test fix
+
+commit 3a5048726905a891da2a33ac292383f7be5cc21d
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 21:37:41 2015 -0400
+
+    Revert "test fix"
+    
+    This reverts commit addc8f23e27fc7046d84e031a50c216fc8543845.
+
+commit addc8f23e27fc7046d84e031a50c216fc8543845
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 21:33:45 2015 -0400
+
+    test fix
+
+commit aa0060f27dd28f41e9c27b3dd968e363968c2c2d
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 21:28:53 2015 -0400
+
+    add logging
+
+commit d3b32adf3c557bac4f58511abd18ba5f5f8323e7
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 20:31:54 2015 -0400
+
+    lower version
+
+commit e6345ef3608f35395f494a1f3e9734e7cfadd959
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 20:15:41 2015 -0400
+
+    fix
+
+commit 5e9829e2e02a6b6ad89283680e1e9af3a178fadc
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 20:12:31 2015 -0400
+
+    start using new database
+
+commit 6e244b62e8b427070192aa747b81e9a111137277
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 19:56:47 2015 -0400
+
+    add masternode database
+
+commit 386ede5f3a4d8bf90c85c48893fdb61fc052af5e
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 19:42:16 2015 -0400
+
+    fix
+
+commit 987e599d1822b828605496d81963a6cd5cee2151
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 19:41:03 2015 -0400
+
+    add dsegupdate with workaround
+
+commit 0ee6b6ba977d3f9de9beedac39e2aa0ab617e8ec
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 19:31:35 2015 -0400
+
+    match
+
+commit 5a753a930a030b85386faa7c590bbe7cc0b5a9ba
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 19:31:02 2015 -0400
+
+    match
+
+commit 337c3a2590d1c6a3117cd9e3a48b8d963f12ac2a
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 19:29:54 2015 -0400
+
+    matching
+
+commit 1432c04de47b446e1feb730b292fd86897c8c051
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 19:28:48 2015 -0400
+
+    matching
+
+commit cd7b35f177bc372e8950f2196ecaa086d397fe85
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 19:27:45 2015 -0400
+
+    matching
+
+commit a5bfc9e610f02db0ba42968c7957125ca9d1d784
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 19:25:43 2015 -0400
+
+    matching
+
+commit ade5c0190a134d236bddbcd7b210cc3e6e46f812
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 19:20:55 2015 -0400
+
+    matching
+
+commit 01eb25cf15641528654d58f9374cb55a23a90b20
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 19:19:19 2015 -0400
+
+    matching
+
+commit 5d77c042dcfc8476b0ba3aa90ac0453bc7a8fb02
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 19:18:17 2015 -0400
+
+    matching
+
+commit 63a62bd1a7c9b64c3284e676f481865da423ff58
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 19:17:46 2015 -0400
+
+    matching
+
+commit b7006eb56e2f1c79b8f50cf4dea45429417e69e3
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 19:13:40 2015 -0400
+
+    matching
+
+commit 2634903336c494ee732b39b013a0c60703520b2d
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 19:07:17 2015 -0400
+
+    fix
+
+commit b38b228365d4415c8b39f53fd23680c3430abe5a
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 19:02:47 2015 -0400
+
+    proper declaration and init on pfmissinginputs
+
+commit bd29b48a8f82362e5e3346a36c9b1845e2e7f4b3
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 18:57:00 2015 -0400
+
+    cleanup compile
+
+commit 46a4e769270648aadb0deefa30045dab92cad951
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 18:24:43 2015 -0400
+
+    clear maps in mnodeman
+
+commit ae2ae1c22d3e0bbba3ebee704f137fdd7d7caa49
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 18:14:49 2015 -0400
+
+    matching
+
+commit 90791015019d14e1510e69fb72a36dee1a146c8c
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 18:11:18 2015 -0400
+
+    fix
+
+commit 95536924d931e2870d82e164059a4f6fa3a176f9
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 18:06:46 2015 -0400
+
+    workaround.
+
+commit 0709d71e4ee517ac32d96cf29e6db75101961e31
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 17:57:50 2015 -0400
+
+    check and remove expired masternodes on client start
+
+commit 23642335f32d07a4f127e0bdaba103729b1e4d0e
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 17:50:22 2015 -0400
+
+    static const
+
+commit 05dff66e226f741f178a06fcdb1d7ded16d720db
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 17:30:13 2015 -0400
+
+    matching
+
+commit df7a4ed3bfc2077134534b2de78651a75d1fa318
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 17:26:17 2015 -0400
+
+    Fix versions:
+    
+    - bump PROTOCOL_VERSION (new collaterals are incompatible with 70066)
+    - define MIN_POOL_PEER_PROTO_VERSION instead of confusing
+    darkSendPool.MIN_PEER_PROTO_VERSION / bump it too
+
+commit 62dbd78d0f527c566174f056525217ccf42ded2b
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 17:21:36 2015 -0400
+
+    matching
+
+commit 665f0dad606814426799b01f80618c292b08b6ac
+Author: SCDeveloper <silkcoindeveloper@gmail.com>
+Date:   Mon Oct 19 22:15:47 2015 +0100
+
+    Build Detect Platform CHMOD
+
+commit 0c4c61d80899510e95c7e112b19029b1deec677b
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 17:09:47 2015 -0400
+
+    Few fixes for processing extra messages:
+    
+    - call ProcessMessageMasternodePayments on ProcessBlock (lost after
+    moving mnodeman functionality)
+    - do not process extra functionality messages (DS, IX, spork) on initial
+    download / reindex
+
+commit 0bd9cf2e9ab041328042d581272123193514a999
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 17:02:58 2015 -0400
+
+    matching
+
+commit 6964c19e812a9a3559bf957d8417f420c81de1cd
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 16:57:57 2015 -0400
+
+    fix
+
+commit 1f46c9dcf38bf1b5d03a853e04f8a30e7b35a4b9
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 16:52:17 2015 -0400
+
+    allow searching masternode list by ip address
+
+commit 7621aceaf86f528a16549f6fc98863294601a381
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 16:43:03 2015 -0400
+
+    fix
+
+commit 8bbe60be1f94f412a968436deba6ae27ce3bbdd4
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 16:37:03 2015 -0400
+
+    fix DoAutomaticDenominating:
+    
+    - check for NULL (result of FindRandom, could happen if masternode list
+    is empty)
+    - assign submittedToMasternode only when all checks are passed
+    - naming consistency (mn --> pmn)
+
+commit 319e11d654ca617921c4dfaf310903c2f6223c12
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 16:31:35 2015 -0400
+
+    rpc: allow "darksend" only with ENABLE_WALLET
+
+commit d37133339b6c368887d971e83594fcee52613e24
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 16:28:31 2015 -0400
+
+    rpc fixes:
+    
+    - extended help on "masternode"
+    - enabled/both modes for "masternode count"
+    - extended output for "masternode current"
+    - update help on "getblocktemplate"
+
+commit cb9bf5320881e9573fa9fa21c8edfb2399edf61b
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 15:46:13 2015 -0400
+
+    fix
+
+commit beaa2d097edbb266933b61def1adbb4bda46d84a
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 15:45:00 2015 -0400
+
+    fix?
+
+commit 14d865a8cb7c6c21112e733c1f1727a228e1cb15
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 15:33:29 2015 -0400
+
+    qt fix?
+
+commit e134efe4ed0033d64d8585daea4268029c9772e8
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 11:59:16 2015 -0400
+
+    Revert "Change the way changes are handled:"
+    
+    This reverts commit 5fcf08a1aceba6d7b92fe40746da9534c9a40051.
+
+commit 904dbe6f4071d0256f13eaf02ce600e4fabe279e
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 11:59:04 2015 -0400
+
+    Revert "fix + changelog"
+    
+    This reverts commit f27729d704092845da1699cd931348cea904d6a7.
+
+commit 0b544f9724ffb8681f2a7d83f8b9955402029a13
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 11:58:33 2015 -0400
+
+    Revert "fix"
+    
+    This reverts commit a86dfb613267902074bd4c2733650c173a51498c.
+
+commit 7ef634261d22c2539cd50caa655b1af89d8bc053
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 11:58:30 2015 -0400
+
+    Revert "fix?"
+    
+    This reverts commit 3e13c41d90e10bd626aa2087429ebf395988c495.
+
+commit 9371d5d4ffac512daf4f778a81d5bd16d1880073
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 11:58:27 2015 -0400
+
+    Revert "fix"
+    
+    This reverts commit cc3ea2b2839f7bbfbba103e0a6b2710fda535b84.
+
+commit a448808e06950f2392f8b45749ca6b0a1141f6df
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 11:58:23 2015 -0400
+
+    Revert "fix"
+    
+    This reverts commit 8b8e99352f7223cf2e122d49f1e9bb9ecdcf456b.
+
+commit 44b4240216f9c81a54e1ba6dde227f74a9fffbc8
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 11:58:20 2015 -0400
+
+    Revert "fix"
+    
+    This reverts commit 278a7cc6a8bc4f5e61b9ccf336457cffd5a2c48d.
+
+commit ba0289afa09228b479b1f74d39b49528ddbee6e3
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 11:58:17 2015 -0400
+
+    Revert "fix"
+    
+    This reverts commit 862cfe2f46a3c351ec5d9176f5835dad71b2b0af.
+
+commit 470460bfa7d9249684bb66dbe52e24ab7245e1c4
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 11:58:14 2015 -0400
+
+    Revert "fix"
+    
+    This reverts commit b458d47b1395cfbc17f5c3643ed96a8445a5d571.
+
+commit f6a313248db12f777d83908a6a8d82bb94601748
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 11:57:56 2015 -0400
+
+    Revert "fix"
+    
+    This reverts commit fcc5dce4d927d53a84ba9e4d673af716c3f7d11d.
+
+commit f410112ab45e457dcc0d75b40aac4548c922cfd0
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 11:57:52 2015 -0400
+
+    Revert "rpc fixes + mn-donations"
+    
+    This reverts commit ff77a93870a7a079f2131a83a7a6c1e9ceb08d4e.
+
+commit 1249c6533b1cb426010d89e625c43a6c34af7a46
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 11:57:48 2015 -0400
+
+    Revert "revert donations"
+    
+    This reverts commit 60011d8f1f23268754293dc2f297a787429cd01b.
+
+commit 54c1cc6ca1bf476b0e96b4ba8b89f6ae2620497e
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 11:57:45 2015 -0400
+
+    Revert "allow searching masternode list by ip address"
+    
+    This reverts commit d69cd0691a0d60b276c3b46b8abb65ebaf8c3a9b.
+
+commit 4466bd3566bfe6eb5dc206a61ccbb476f876e3af
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 11:57:38 2015 -0400
+
+    Revert "Few fixes for processing extra messages:"
+    
+    This reverts commit 886dc3eeb4cf5145c6d63a8b2cf8fd29a2e66022.
+
+commit 6311add54e54b6fe76c61a434be560e2b015ef5c
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 11:57:33 2015 -0400
+
+    Revert "Fix crashes on remove from vector"
+    
+    This reverts commit 602a72948b41b36717c3092744bea4fb6dc72048.
+
+commit 1c871cb5d49708d494eab9edd025670a4f016785
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 11:57:30 2015 -0400
+
+    Revert "fix DoAutomaticDenominating:"
+    
+    This reverts commit 88accd623c6d87fe81ce562e01cea0d597182956.
+
+commit eccf5590c50ac4ec1565393dd4b9e93043f59461
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 11:57:27 2015 -0400
+
+    Revert "check and remove expired masternodes on client start"
+    
+    This reverts commit 7be7bc2a0ff89935d8a1f690aa9690dffb9f9403.
+
+commit 4a1035da97f0b70445d5b8b2e0ee7be6825fb12f
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 11:57:24 2015 -0400
+
+    Revert "clear maps in mnodeman"
+    
+    This reverts commit 98a75346a80c1dd451e53fbf4ebd5739c9006365.
+
+commit 1c207d6bf8f587a81f5713df4f274d2cebb9efba
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 11:57:21 2015 -0400
+
+    Revert "masternodeman.cpp"
+    
+    This reverts commit c977865fe4dc725f22a770854458c8828da45ada.
+
+commit e6a7ef287046d3bec47fe5a657e40bb61eafd411
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 11:57:17 2015 -0400
+
+    Revert "fix"
+    
+    This reverts commit d9c223311f26000367e5200d3cf1b8d866512510.
+
+commit 03a3bdea02048caac6fb26cd86cac463278c8735
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 11:57:02 2015 -0400
+
+    Revert "proto_bump_and_define"
+    
+    This reverts commit 56af59b85faa92f8df23d6e802d5a1a510db866b.
+
+commit 44d24cf3fa638cdaa418119f157a537d49c4d662
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 11:56:57 2015 -0400
+
+    Revert "adding locks"
+    
+    This reverts commit 706876831bccc304eb95a100a8ed6cf9c2a67174.
+
+commit 3cee170dc912a61161bf8045be1564c800be78d3
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 11:56:47 2015 -0400
+
+    Revert "change locks"
+    
+    This reverts commit 16e82ab919e12e5a0df6b529f02e4de99cc40be4.
+
+commit 1509c9238e28a605dafb701ece5bd2b6b625db6d
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 11:56:44 2015 -0400
+
+    Revert "revert"
+    
+    This reverts commit 34f1e495acf5f4ae244422d4de1c351fac1f4a54.
+
+commit 0a29a7cedcb2972259a3efe71665d385f8f79f60
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 11:56:40 2015 -0400
+
+    Revert "QT fixes"
+    
+    This reverts commit 8b18aa9acfa7012e54863750865c1334c246f9a7.
+
+commit 5c4024623ff6c65af9679c6f39c0c1f5572c5be6
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 11:56:32 2015 -0400
+
+    Revert "debug"
+    
+    This reverts commit 5a01a72db27fc27d7f79c4297a293da1ec784906.
+
+commit 3bdfaf99db543565bade91664aa45ecb114e0417
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 11:56:26 2015 -0400
+
+    Revert "fix"
+    
+    This reverts commit 3c80f736fad4e1a41e3effbb9068b691302287f1.
+
+commit e5d737694fb53376c5b12c2450cac074e79da53e
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 11:56:19 2015 -0400
+
+    Revert "spam"
+    
+    This reverts commit 8446d9d23ae7f2c9665c78444b91712717ab3f50.
+
+commit 8446d9d23ae7f2c9665c78444b91712717ab3f50
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 11:35:53 2015 -0400
+
+    spam
+
+commit 3c80f736fad4e1a41e3effbb9068b691302287f1
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 11:32:46 2015 -0400
+
+    fix
+
+commit 5a01a72db27fc27d7f79c4297a293da1ec784906
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 11:32:06 2015 -0400
+
+    debug
+
+commit 8b18aa9acfa7012e54863750865c1334c246f9a7
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 11:11:45 2015 -0400
+
+    QT fixes
+
+commit 34f1e495acf5f4ae244422d4de1c351fac1f4a54
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 01:18:53 2015 -0400
+
+    revert
+
+commit 16e82ab919e12e5a0df6b529f02e4de99cc40be4
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 01:14:45 2015 -0400
+
+    change locks
+
+commit 706876831bccc304eb95a100a8ed6cf9c2a67174
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 00:52:58 2015 -0400
+
+    adding locks
+
+commit 56af59b85faa92f8df23d6e802d5a1a510db866b
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 19 00:17:00 2015 -0400
+
+    proto_bump_and_define
+
+commit d9c223311f26000367e5200d3cf1b8d866512510
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Oct 18 23:59:01 2015 -0400
+
+    fix
+
+commit c977865fe4dc725f22a770854458c8828da45ada
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Oct 18 23:45:22 2015 -0400
+
+    masternodeman.cpp
+    
+    With persistant storage this restriction was way too hard and could lead
+    to dramatically shrinking/not updating masternode list after few
+    restarts with some timeouts
+
+commit 98a75346a80c1dd451e53fbf4ebd5739c9006365
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Oct 18 23:18:27 2015 -0400
+
+    clear maps in mnodeman
+
+commit 7be7bc2a0ff89935d8a1f690aa9690dffb9f9403
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Oct 18 23:17:12 2015 -0400
+
+    check and remove expired masternodes on client start
+
+commit 88accd623c6d87fe81ce562e01cea0d597182956
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Oct 18 23:07:05 2015 -0400
+
+    fix DoAutomaticDenominating:
+
+commit 602a72948b41b36717c3092744bea4fb6dc72048
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Oct 18 22:49:26 2015 -0400
+
+    Fix crashes on remove from vector
+    
+    Few more locks and slight iterators optimization
+
+commit 886dc3eeb4cf5145c6d63a8b2cf8fd29a2e66022
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Oct 18 22:39:30 2015 -0400
+
+    Few fixes for processing extra messages:
+    
+    - call ProcessMessageMasternodePayments on ProcessBlock (lost after
+    moving mnodeman functionality)
+    - do not process extra functionality messages (DS, IX, spork) on initial
+    download / reindex
+
+commit d69cd0691a0d60b276c3b46b8abb65ebaf8c3a9b
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Oct 18 22:36:31 2015 -0400
+
+    allow searching masternode list by ip address
+
+commit 60011d8f1f23268754293dc2f297a787429cd01b
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Oct 18 22:12:15 2015 -0400
+
+    revert donations
+
+commit ff77a93870a7a079f2131a83a7a6c1e9ceb08d4e
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Oct 18 21:48:16 2015 -0400
+
+    rpc fixes + mn-donations
+    
+    - extended help on "masternode"
+    - enabled/both modes for "masternode count"
+    - extended output for "masternode current"
+    - update help on "getblocktemplate"
+
+commit fcc5dce4d927d53a84ba9e4d673af716c3f7d11d
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Oct 18 21:22:43 2015 -0400
+
+    fix
+
+commit b458d47b1395cfbc17f5c3643ed96a8445a5d571
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Oct 18 21:20:58 2015 -0400
+
+    fix
+
+commit 862cfe2f46a3c351ec5d9176f5835dad71b2b0af
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Oct 18 21:20:05 2015 -0400
+
+    fix
+
+commit 278a7cc6a8bc4f5e61b9ccf336457cffd5a2c48d
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Oct 18 21:16:08 2015 -0400
+
+    fix
+
+commit 8b8e99352f7223cf2e122d49f1e9bb9ecdcf456b
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Oct 18 21:07:03 2015 -0400
+
+    fix
+
+commit cc3ea2b2839f7bbfbba103e0a6b2710fda535b84
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Oct 18 21:05:58 2015 -0400
+
+    fix
+
+commit 3e13c41d90e10bd626aa2087429ebf395988c495
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Oct 18 21:03:07 2015 -0400
+
+    fix?
+
+commit a86dfb613267902074bd4c2733650c173a51498c
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Oct 18 20:52:08 2015 -0400
+
+    fix
+
+commit f27729d704092845da1699cd931348cea904d6a7
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Oct 18 20:48:00 2015 -0400
+
+    fix + changelog
+
+commit 5fcf08a1aceba6d7b92fe40746da9534c9a40051
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Oct 18 20:33:53 2015 -0400
+
+    Change the way changes are handled:
+    
+    - do not keep track of a single time variable for whole structure change
+    - save to masternode.dat and clear on checks:
+    - who's asked for the masternode list and the last time
+    - who we asked for the masternode list and the last time (will help to
+    prevent dseg ban when restart wallet several times in short period of
+    time)
+    - which masternodes we've asked for
+    - do not use timeout for CheckAndRemove (played with that - doesn't make
+    sense actually)
+
+commit e86a6b3cfa54fda88d4c48b906698049cfd546d5
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Oct 18 20:11:12 2015 -0400
+
+    temporary fix
+
+commit 965286261f6848408ed6cc8239e43fe951066756
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Oct 18 19:34:41 2015 -0400
+
+    fixes
+
+commit 8a3fc46642f5de6e8de8fadd2c4392a38c72c888
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Oct 18 19:30:33 2015 -0400
+
+    fix old code
+
+commit 00f24bbcfe641d198504d64d8a7f552cbc2795c3
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Oct 18 19:21:54 2015 -0400
+
+    Added dstx support for free transactions
+
+commit 31cffad22c0f6755ab07fe38abbb96c99d70930a
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Oct 18 19:04:14 2015 -0400
+
+    better naming/readability (Find)
+
+commit d3b1a247518f8d27352e8ffc1e290820527dfd5f
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Oct 18 18:20:28 2015 -0400
+
+    add masternode count
+
+commit f5120c39e29874d42364f3e6736fe470834dfc4f
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Oct 18 17:41:57 2015 -0400
+
+    show active/total MNs on info tab / update it in separate timer
+
+commit dc2bfb03fa50ba56bb77dd4058200b373815a569
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Oct 18 17:11:43 2015 -0400
+
+    track lastTimeChanged for mnodeman
+
+commit ac5f434493301d499e909b1361b825f1b633431d
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Oct 18 15:39:32 2015 -0400
+
+    fix
+
+commit 9af6f0dbc4b6b3f86ddcd9169b24948eca6bb807
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Oct 18 15:38:28 2015 -0400
+
+    fix
+
+commit e7c8ab2873929131d40f8c5cbfc032929e4db047
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Oct 18 15:35:27 2015 -0400
+
+    ifx?
+
+commit 4013b6d0c3ee4deb322ea1077a300729ad328dfa
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Oct 18 13:37:31 2015 -0400
+
+    include masternode.h
+
+commit d9fe7634cde66404cfe6c3ea1345bff351d1b40e
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Oct 18 13:36:20 2015 -0400
+
+    revert
+
+commit 193076db41a9549666505c93d39b195cd27878a1
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Oct 18 13:33:39 2015 -0400
+
+    mn -> activeMasternode
+
+commit ff62691f47fe039e175fedae8367e915c28b6cd0
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Oct 18 13:31:16 2015 -0400
+
+    fix
+
+commit 1f19dbb3dba66827ee75626bc62e32cc251b51af
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Oct 18 13:29:34 2015 -0400
+
+    qt build fixes
+
+commit 19c5fc86924d03cbd5e327046e6d5a1c3d1b67b5
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Oct 18 13:22:17 2015 -0400
+
+    qt build fixes + cleanup
+
+commit 2588ca0000296532abd58ebedd5a12dfc00d2775
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Oct 18 13:15:34 2015 -0400
+
+    qt build fixes
+
+commit df97da98982e1222cbf162c75be1331c10b1350a
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Oct 18 13:14:23 2015 -0400
+
+    qt build fix
+
+commit d3ee77ca900d87c4380cca88dad2efbf08da5072
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Oct 18 12:02:02 2015 -0400
+
+    QT build fixes
+
+commit 19950302a46e78d1871df34d8285da697edddc8d
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Oct 18 11:08:49 2015 -0400
+
+    changes to pro file
+
+commit 92d3141861aded97000261217c35fdc1ac83aea2
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Oct 18 02:55:58 2015 -0400
+
+    fixes
+
+commit 5adf4b59c6081040f3a9519c52f18e2ce146aead
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Oct 18 02:41:32 2015 -0400
+
+    fixes
+
+commit 497ff483c56f3c76c5649b683827e2b654de09f5
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Oct 18 02:31:14 2015 -0400
+
+    fixes
+
+commit a1c463f633bb8f4478080397f9cceaad2d7d4358
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Oct 18 02:21:00 2015 -0400
+
+    make file changes
+
+commit c7cff5cb69ae02c227baf72ff660c2c9ee5a5d90
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Oct 18 02:17:44 2015 -0400
+
+    travis fix
+
+commit 04d10e706900046a8e1df328188a754480ea20b6
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Oct 18 02:13:46 2015 -0400
+
+    Travis.yml caching
+
+commit 310043b73cdaa0e338d7f273c0b76ee6e6464868
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Oct 18 02:07:27 2015 -0400
+
+    fix
+
+commit 376d957fc2b5e32088fd28fb2f2f06c3270f2299
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Oct 18 01:55:46 2015 -0400
+
+    fixes
+
+commit 1edacbdb9acd91f6482182d37eb8dc6d7a470fa6
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Oct 18 01:33:12 2015 -0400
+
+    fix
+
+commit 2ffe912146e1730b40b2b06cfb01187c354c167b
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Oct 18 01:17:26 2015 -0400
+
+    small fix
+
+commit bc48e013793ee0eef41a1cdf139f41c921b3801a
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Oct 18 01:08:21 2015 -0400
+
+    move list logic back to rpcdarkcsend +small fix
+
+commit fcd100354fda3b283b42854b0edd1e6e7fce7782
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Oct 18 01:01:08 2015 -0400
+
+    fix
+
+commit 605f9b2e9547372b38ac32cfac1aed9c46065e97
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Oct 18 00:59:50 2015 -0400
+
+    CMasternodeMan - masternode manager class - part4
+    
+    fixed rpc/count can return "enabled only"/list can be filtered
+    (everything should be ok)
+
+commit 846242fddab29c8c142c81b2e8915c1939e98e29
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Oct 18 00:56:26 2015 -0400
+
+    CMasternodeMan - masternode manager class - part3
+    
+    connect ProcessMessage from mnodeman(rpc still broken)
+
+commit b9c41a0c49b978754a619b415ff6668d306cae2c
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Oct 18 00:54:04 2015 -0400
+
+    CMasternodeMan - masternode manager class - part2 (still broken)
+
+commit 81dd9850f57422f61c8116265807a974f2482077
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Oct 18 00:33:32 2015 -0400
+
+    CMasternodeMan - masternode manager class - part1(broken)
+    
+    https://github.com/dashpay/dash/commit/adddff85a2762abd3c0de49d6eb617b0975577bf
+
+commit f19ec0e109e15afda3c06a868182427f98659c05
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Oct 17 23:44:34 2015 -0400
+
+    HasCollateralInputs should check only for at least 1 collateral (not 2)
+
+commit 954ba738ebad08cdeef1ea9bf6741099e918e27b
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Oct 17 23:41:20 2015 -0400
+
+    Fix priority calculation in CreateTransaction
+
+commit dba2a7ba60739765f7ad94ce31ddb80d39e124c9
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Oct 17 23:30:34 2015 -0400
+
+    Fix payee selectoin on CMasternodePayments::ProcessBlock
+
+commit cae10da1d595af8b9cf9d95b9ad3167218dbc2d0
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Oct 17 23:26:38 2015 -0400
+
+    Revert "reference node upgrades"
+    
+    This reverts commit bdbc4896a0da19a10ee98a40f80e1cc5385f0733.
+
+commit bdbc4896a0da19a10ee98a40f80e1cc5385f0733
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Oct 17 23:19:51 2015 -0400
+
+    reference node upgrades
+
+commit 6734937545e81aab66fff7c5962e75dbcaafecc4
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Oct 16 17:39:01 2015 -0400
+
+    rpc: Prevent easy memory exhaustion attack
+    
+    Allocate memory for POST message data only as bytes come in, instead of
+    all at once at the beginning.
+
+commit f706ac5f5c92701aa9d6cc3a278fe091edefe709
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Oct 14 16:28:54 2015 -0400
+
+    add secp libs folder makefile.unix
+
+commit 0ccbeb1f7dd88ecf06ac0625f4ff5a45ae8796ba
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Oct 14 16:21:26 2015 -0400
+
+    test compile
+
+commit 561f88cdafcaa8281e4b5c929b3ca039e7d723cc
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Oct 14 16:17:03 2015 -0400
+
+    shorten travic build time
+
+commit 1725fa14c6f426a3bf6f55933753c6facce37d58
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Oct 14 16:07:34 2015 -0400
+
+    include secp256k1 directories
+
+commit 7a2ae0834a3c1f750cb78d70d85d61e1b4abd196
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Oct 14 16:01:48 2015 -0400
+
+    fix
+
+commit dd2f71ec58ca35192631ec3f2af36c85fa11bf0a
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Oct 14 15:55:45 2015 -0400
+
+    fix
+
+commit 8075a1238be9b510fda74ca23932a7f62ed2cf4b
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Oct 14 15:52:07 2015 -0400
+
+    container test travis
+
+commit 55381690db76bdadb9039c908263372ffc80fb7d
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Oct 14 15:48:43 2015 -0400
+
+    travis updates
+
+commit 987780c43b1efe21dd1127ea80e5edb3955c1fbb
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Oct 14 15:29:03 2015 -0400
+
+    fix
+
+commit 7923ef4745d04d629fe61447c706b42e60208468
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Oct 14 15:26:12 2015 -0400
+
+    Update travis.yml Container based
+
+commit 99918cea672e159935878d3338ece6afdf0f4850
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Oct 14 15:03:06 2015 -0400
+
+    Solve performance problems by caching and fix probable security issue
+    
+    Add -mnconflock
+    Fix twice denominatedBalance calculations.
+
+commit f489d346727903720fe4ffc0d385012133f4df89
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Oct 14 14:46:12 2015 -0400
+
+    Guard against OpenSSL's new strict DER checks
+
+commit a0f300db7513088e495555b9c247bb79e78deee6
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Oct 14 14:30:39 2015 -0400
+
+    Sync fixes, CPU use, Darksend fixes
+
+commit 73937c45270813a51e4c23a436c366222104dcb2
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Oct 14 13:38:18 2015 -0400
+
+    Dns seed fix
+
+commit af779fd4d56a183a6f52834534eeb27448a1abc3
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Oct 14 13:26:53 2015 -0400
+
+    dns seed fix
+
+commit defa956f9b1b66a75939c4efffd7e4f86029c953
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Oct 14 13:12:26 2015 -0400
+
+    Scale up addrman + add changelog
+
+commit 86c37d1662dde77145217d4147eb61a9f73cda7a
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Oct 14 11:54:14 2015 -0400
+
+    fix
+
+commit 1fc2ffc229dcbafa268d9ea6c23f0f5bd04fae7d
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Oct 14 11:49:15 2015 -0400
+
+    DNSSeed Thread Fix
+
+commit aba9a075ed406e469b3e103c2f33a96ae7e5d306
+Merge: 26e79ff 0420f09
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Oct 14 11:05:59 2015 -0400
+
+    Merge pull request #3 from Infernoman/master
+    
+    PosV3 + removal of PosV1>2 fork
+
+commit 0420f09c3cf97b96d27bce3f9f02239332e1e9bb
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Oct 14 01:08:21 2015 -0400
+
+    update readme
+
+commit c1a2e4e29aed6957b75248c0d3c2de0cbb7ec656
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Oct 14 00:08:31 2015 -0400
+
+    dns seed typo
+
+commit bd245e7da664a1c9f72b92d9ddbb4ee18c1009d1
+Merge: cf44fe4 4c5b9c2
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Oct 13 23:21:29 2015 -0400
+
+    Merge branch 'master' of https://github.com/Infernoman/Transfercoin
+
+commit cf44fe4f7ad1238d0246ea94a14283cff2d5d6f4
+Merge: cba3603 26e79ff
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Oct 13 23:21:11 2015 -0400
+
+    Merge remote-tracking branch 'refs/remotes/transferdev/master'
+
+commit 4c5b9c2f2b70a760d177a101ab3a4ebb1d77a355
+Merge: cba3603 ea0d99b
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Oct 13 23:19:21 2015 -0400
+
+    Merge pull request #3 from Infernoman/testfork
+    
+    Fork #2 block 90 000
+
+commit ea0d99bcf977138cd36c981ee58c79958f20e349
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Oct 13 22:38:55 2015 -0400
+
+    no blocks from version 61401 and above
+
+commit 16de4bdda97e99c820b909a1fac91cba248c5f78
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Oct 13 22:31:13 2015 -0400
+
+    change forking block version and readme
+
+commit c6b5a268749a71243eb304735d465f781907a001
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Oct 13 21:30:51 2015 -0400
+
+    fix
+
+commit 2cfddfe01d7ae388d82bd7560ae61ffd993cc4bf
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Oct 13 21:29:06 2015 -0400
+
+    fix
+
+commit 676afe9cd37dd74f2096f199ad4466aa8acc43f4
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Oct 13 21:27:38 2015 -0400
+
+    fix
+
+commit 6109f81341f7e0baa129a83738a6cd0df6ca3b93
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Oct 13 21:25:24 2015 -0400
+
+    fix
+
+commit 4852763100aa6e14d293a5859300bbf1643d0194
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Oct 13 21:22:06 2015 -0400
+
+    cleanup
+
+commit 264b56c90923901da4b9b5ca5be0ad007d7a732e
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Oct 13 21:18:36 2015 -0400
+
+    fix
+
+commit a9c70b95a72adbfeecb67f651ec8137730d4da2a
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Oct 13 21:15:29 2015 -0400
+
+    removal of PosV1 hard fork
+
+commit 32f6acc9159209bbaf589c0b37f5b6e3a0b19cce
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Oct 13 20:29:28 2015 -0400
+
+    quick fix
+
+commit ed1eb45c79df2e4c98eadeb8f619dc51ba77e084
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Oct 13 20:23:28 2015 -0400
+
+    one more test
+
+commit f4a7a34544f287b293fa737466ff3716ecbaedfc
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Oct 13 20:00:12 2015 -0400
+
+    fixes
+
+commit 8befd1671a48bb9981f3ec1131c18e0651793e32
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Oct 13 19:14:43 2015 -0400
+
+    fixes
+
+commit b3d6d863b12adc5716db013518d4ad84ebf12099
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Oct 13 18:52:50 2015 -0400
+
+    update for post fork
+
+commit d0094eae25c2b4b39c62b5d46677798898d8b139
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Oct 13 18:03:03 2015 -0400
+
+    shorten time
+
+commit 92098e42d1c5b8836f3900061e95e90a2d3cd584
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Oct 13 17:54:59 2015 -0400
+
+    gitian windows  + nActualTime updates
+
+commit 9ec2e17bd351821400a4137b5cb8e1f60351e385
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Oct 13 15:40:38 2015 -0400
+
+    test
+
+commit e93d6787a7dcf8a8759bfac5ef51171dc134ca12
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Oct 13 13:53:22 2015 -0400
+
+    build fixes
+
+commit b698a0b5a1bbc713c9bae68f68dd00d30b377f24
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Oct 13 13:37:05 2015 -0400
+
+    upgrade client version
+    
+    client version
+    dns seeds
+    travis build
+
+commit 5b1c45d2ab1bb1ee9b2cb20305ce8e83f6de0c17
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Oct 13 12:20:55 2015 -0400
+
+    fix
+
+commit 7680339a496fdd338638dfaec842ccbbda0679f8
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Oct 13 11:33:21 2015 -0400
+
+    v2 stake modifier
+
+commit 02effd8bcefec2874600c17970d5400b5697310c
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Oct 13 11:25:49 2015 -0400
+
+    Revert "Demand canonical block sig from updated peers"
+    
+    This reverts commit 358c458e2b096e79adefd3d23ba030f66cbc5048.
+
+commit 358c458e2b096e79adefd3d23ba030f66cbc5048
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Oct 13 11:15:29 2015 -0400
+
+    Demand canonical block sig from updated peers
+
+commit 51f7d5d2301e8f59edded2ffd44e9e34b6f26f94
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Oct 13 11:04:26 2015 -0400
+
+    fixes for pre fork
+
+commit 13305a93f262f237c6b94357f7a319866b0233be
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Oct 13 10:37:30 2015 -0400
+
+    fixes
+
+commit 7692a0679ac51d9c75c97ea83fe16136f8026b69
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Tue Oct 13 10:31:31 2015 -0400
+
+    Decentralized checkpointing
+
+commit 1848535f955a41920a5d18f6c7ef65267c4021b6
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 12 21:08:42 2015 -0400
+
+    test
+
+commit 1b07dd1669fda46224c302aa60defd9bc4cff6e5
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 12 21:01:59 2015 -0400
+
+    Revert "Revert "fix""
+    
+    This reverts commit f85bfa37d725f11fe2d5e2955aba0b2dce47d7e0.
+
+commit f85bfa37d725f11fe2d5e2955aba0b2dce47d7e0
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 12 21:01:39 2015 -0400
+
+    Revert "fix"
+    
+    This reverts commit e41634b822076a2b3743d43eb5a9579488a4c0cf.
+
+commit 948e8b4eb905304cab5708c456971d8751399624
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 12 20:56:41 2015 -0400
+
+    fix
+
+commit 7dd0aa7e0b15ebff2d0a5a9a3fce188458a5e219
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 12 20:55:27 2015 -0400
+
+    fix
+
+commit 9a57065f05f7e39244d71f0717796d1c7067fe8d
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 12 20:53:23 2015 -0400
+
+    fix
+
+commit 96f36aa8d521674f5b710084391141ff6f7e7b3c
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 12 20:51:11 2015 -0400
+
+    fixes
+
+commit 6543ae69c0fac227f0150ddda217cb183efb81a2
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 12 20:44:43 2015 -0400
+
+    fix
+
+commit ab6fff827d71ce2c095ffd9ce0bea36faab5297b
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 12 20:41:49 2015 -0400
+
+    fixes
+
+commit 0f3b4efd52e56e9c24d1a938bd97547e3c9cf444
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 12 20:36:47 2015 -0400
+
+    revert
+
+commit e41634b822076a2b3743d43eb5a9579488a4c0cf
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 12 20:11:11 2015 -0400
+
+    fix
+
+commit 5bec06f17726315ab44a6cafc668f8824914b341
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 12 19:50:00 2015 -0400
+
+    fix
+
+commit 537e99249984c19a0ae5a09b4941a81d6568fdd2
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 12 19:34:10 2015 -0400
+
+    fix
+
+commit 39a7bf2158de3c6db0e722f67d4ae9242375769d
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Mon Oct 12 19:22:57 2015 -0400
+
+    changes for fork
+
+commit cba360377b8708779734d212ef05a2934b3a4785
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Oct 11 13:43:38 2015 -0400
+
+    Discourage fee sniping with nLockTime
+    
+    Discourage fee sniping with nLockTime
+    Correctly insert change in random position
+
+commit 26e79ffae8f04bdcfdd7b88a4e7b67cfa5e5080d
+Merge: 6ef1a37 244b569
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Oct 11 01:31:36 2015 -0400
+
+    Merge pull request #1 from Infernoman/master
+    
+    block explorer + fix for masternode.conf + in wallet trading
+
+commit 244b5696857ef9df22b32b3674b2f8ae0eda892c
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Oct 11 01:20:56 2015 -0400
+
+    Fix for open orders in trading tab
+    
+    fix for 8b56b3b4a60f2f5f5f22b77eb419ec18e8b577e9
+
+commit 8b56b3b4a60f2f5f5f22b77eb419ec18e8b577e9
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Oct 11 00:57:55 2015 -0400
+
+    Fix for Open orders in trading tab
+
+commit 59ab2bedea539eeff1fde92289f1cdbad7da46fc
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Oct 10 23:55:59 2015 -0400
+
+    ui fix
+
+commit 4f600087f53f905bde6a21a04915c03085f2c793
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Oct 10 23:51:03 2015 -0400
+
+    UI fixes
+
+commit a30029a79378770bdfecba9e34ed2d88fd821148
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Oct 10 23:47:34 2015 -0400
+
+    UI fixes
+
+commit 790d234a715e43442bb2b5fe3a722e652a804004
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Oct 10 23:45:25 2015 -0400
+
+    UI fixes
+
+commit 7e398334e0305d2b72a923540d159ea26ea76d17
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Oct 10 23:42:18 2015 -0400
+
+    UI fixes
+
+commit f32fd36fbca0b79088e69a163bda2c008a210bd6
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Oct 10 23:37:11 2015 -0400
+
+    fix
+
+commit cb92995a853f55a76ae2029ef26279fa96437fd1
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Oct 10 23:34:25 2015 -0400
+
+    fix UI
+
+commit a306d2b692be3bcfd416ad742147e33b45678f37
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Oct 10 23:18:23 2015 -0400
+
+    UI Cleanup
+
+commit 129865eb7f44da9bca50f2f32a7459351fc9c251
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Oct 10 22:41:54 2015 -0400
+
+    update UI
+
+commit efc4403fc6da82a68959a042b8fc024cf71c2203
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Oct 10 20:42:13 2015 -0400
+
+    boost 1.55 fix #7 travis
+
+commit 52bf037af9d70eabdfe4820b1bb675d53ee064b8
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Oct 10 20:39:21 2015 -0400
+
+    fix #6 travis revert container
+
+commit b9dd85f6088a4401258c8e02e713d94577e68afb
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Oct 10 20:37:24 2015 -0400
+
+    container based upgrade + fix #5 travis
+
+commit f235ab19335736305e8e6cc00609932d2db9729f
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Oct 10 20:34:54 2015 -0400
+
+    fix #4 travis
+
+commit 5583eea49000eac38e7f5d794b1d718389b54904
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Oct 10 20:30:30 2015 -0400
+
+    fix #3 travis
+
+commit 80d8194112e83d397a13f7e9040fa48de81eacf8
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Oct 10 20:26:24 2015 -0400
+
+    fix #2 travis
+
+commit e243d226145692c62386cb7f98a2a038a6a94422
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Oct 10 20:22:10 2015 -0400
+
+    fix #1 travis
+
+commit 74f21584286dba885c26b1b4cec1d8676d6c198c
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Oct 10 20:17:33 2015 -0400
+
+    qt5 dependencies travis
+
+commit c20a0c3ff07adbebe222efa6b06b69cee6405cf5
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Oct 10 20:12:36 2015 -0400
+
+    travis builds
+
+commit 301ff2c96dbae5426f8b7f00f582f85ce56b6221
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Oct 10 18:51:41 2015 -0400
+
+    sorting masternodes
+
+commit 74bc98f1a58ff5538c4ea67cf351e639f4954da1
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Oct 10 18:30:29 2015 -0400
+
+    fix UI
+
+commit c4acfd3c914ee11ac5b29f9d54728a93abf86bfe
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Oct 10 18:23:47 2015 -0400
+
+    Updating trading dialog
+
+commit 67af15482646d545861826a558eee69bfcfff957
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Oct 10 15:02:46 2015 -0400
+
+    Update version and git commit id of client for build
+
+commit b9993cd049389971c2680c691b5452e1691736de
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Oct 10 12:56:51 2015 -0400
+
+    Stake split/combine change
+    
+    Introduce GetStakeSplitThreshold()
+    Remove GetStakeSplitAge()
+    This will double the current split stake to 200 coins
+
+commit ae0c401b4fb61e97e40d9cb32e2b31525e8a4aef
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Oct 10 12:44:07 2015 -0400
+
+    Windows static build
+
+commit a272490e6febb9fc532f08b876cff3069c8537ef
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Oct 10 12:41:18 2015 -0400
+
+    Changed ProofOfStakeReward to use static const
+
+commit f5550079b27afe50e09dd636829791c1374ebb77
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Oct 10 12:37:41 2015 -0400
+
+    Reverted Makefile Changes
+
+commit e8f335e1712b5930ff530ebc882ad70fcf21d436
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Oct 10 12:32:53 2015 -0400
+
+    Removal of Dead Code
+
+commit c2f0f21510b5b5e3faee7cc4463276937d65c747
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Oct 10 12:17:34 2015 -0400
+
+    typo main.cpp
+    
+    fix for commit b5006a5f6feb51c280f5bb6d0a7e898e5723ac0c
+
+commit ad038790eeae5b87d7cfde5ada5b0fd46c9ffa88
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Oct 10 12:07:44 2015 -0400
+
+    Remove KeePass integration
+
+commit b5006a5f6feb51c280f5bb6d0a7e898e5723ac0c
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Oct 10 11:42:56 2015 -0400
+
+    Ignore getaddr messages on Outbound connections.
+    
+    The only time when a client sends a "getaddr" message is when he
+    esatblishes an Outbound connection (see ProcessMessage() in
+    src/main.cpp).  Another bitcoin client is expected to receive a
+    "getaddr" message only on Inbound connection. Ignoring "gettaddr"
+    requests on Outbound connections can resolve potential privacy issues
+    (and as was said such request normally do not happen anyway).
+
+commit a4756369c2cc3e0e24bf21eff1615755e64528f4
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Oct 10 11:25:48 2015 -0400
+
+    Restore hex to getrawtransaction vout scriptPubkey.
+    
+    This gets in the way of doing offline signing.
+    
+    (credit belongs to sipa for actually looking for the
+    cause in Blackcoin instead of just shrugging
+    and writing the scriptpubkey from the asm.)
+
+commit 45961cf29a329eb7ae948387816f23939e5baf0a
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Oct 10 11:14:09 2015 -0400
+
+    Fix typo
+
+commit 4e54eb939f1ddf78422ed9a429c30bbcf1e3752d
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Oct 10 11:12:21 2015 -0400
+
+    Fix issue where getrawtransaction RPC call does not work
+
+commit 47fdf8fd9799148b3e8b4a55a8b53e5d3ea71512
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Oct 10 11:07:48 2015 -0400
+
+    Fix boost::get usage with Boost 1.58 in rpcrawtransaction.cpp
+    
+    const CScriptID& hash = boost::get<const CScriptID&>(address);
+    
+    changed to
+    
+    const CScriptID& hash = boost::get<CScriptID>(address);
+
+commit 14c3a581421d7cf8e2fa5b55e13c304b12d05ecc
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Oct 10 10:59:36 2015 -0400
+
+    Ignore blocks received while importing
+
+commit c570c3e339f204dcb66adc1ba2e32d71413ea3a1
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sat Oct 10 10:58:51 2015 -0400
+
+    Don't check duplicate stake while importing
+
+commit f482087574bdd44cfb7c03a7ee22ad707883f949
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Oct 9 11:21:53 2015 -0400
+
+    Fix for building with Boost 1.5.8
+
+commit 7bb5058b0be4a32ccfaae59643823622ea9ea6fc
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Oct 9 01:29:05 2015 -0400
+
+    update makefile.osx
+
+commit fd47b5ae1bc7e6b8e7fe83f3a71737a60ac3a239
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Fri Oct 9 00:25:24 2015 -0400
+
+    MacOSX Fixes and GUI Fix
+
+commit 92dd56071b15270bdedecf9ea29197782fa6e460
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Oct 8 22:50:08 2015 -0400
+
+    show darksend features
+
+commit 97e9a9a05b99c0181763da7a3c2d732dde89463c
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Oct 8 15:09:37 2015 -0400
+
+    fix for linux qt build
+
+commit 19d2d3c5da390bcd4df83425434c54f1ddc7edcf
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Oct 8 13:54:21 2015 -0400
+
+    fix #1 for in wallet trading
+
+commit 82c25345fe7ca3527041ec1ce7a3d92c093a3ada
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Oct 8 13:51:35 2015 -0400
+
+    rename file
+
+commit 2654f15b332b71495b6b03781f14ab4b4c1ad392
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Oct 8 13:49:56 2015 -0400
+
+    Bittrex trading in wallet
+
+commit bcff08ab3cd3968e4a3428c8d3c38f2d6cd3cf34
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Oct 8 11:22:57 2015 -0400
+
+    osx build updates
+
+commit 0dc2816be7304cd9790c8fa2cf795601de1f54e6
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Oct 8 01:38:04 2015 -0400
+
+    Create placeholder
+
+commit 52aa45f3a1294524d447e5697ca18c931e1f8243
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Oct 8 01:35:40 2015 -0400
+
+    revert
+
+commit 4ca198f0e5ce38c5a794df2e4497cf64f639760a
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Oct 8 01:32:45 2015 -0400
+
+    fix fresh builds
+
+commit 0007296d6e8b1a38d0e900293e3c9b48d73627ef
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Oct 8 00:42:06 2015 -0400
+
+    test fix for doubles
+
+commit 30707a85720c342a78366100a67ff5dab49a8ef8
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Oct 8 00:30:46 2015 -0400
+
+    fix include for block explorer
+
+commit d2e15db7fa953fe36c230c01059003d45fbbf36c
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Oct 8 00:26:50 2015 -0400
+
+    fix #4 for masternode.conf
+
+commit eb38a3397ae40879cde68824cf10cb19407b777e
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Thu Oct 8 00:11:33 2015 -0400
+
+    fix #3 for masternode.conf
+
+commit 89094b5987b7efa8f8fcf6b3779abe4aee76f7c1
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Oct 7 23:50:22 2015 -0400
+
+    fix #2 masternode.conf
+
+commit d1e6d31ed29cae7aa28d2c3a10b57252252daf85
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Oct 7 23:21:29 2015 -0400
+
+    missing include
+
+commit d69448a0ee737578815fa69ad6d016f999def972
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Oct 7 23:15:40 2015 -0400
+
+    test fix #1 masternode.conf
+
+commit 64ef0a797bddb4cd01b6d9a805e1853221eaf7bc
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Oct 7 22:58:31 2015 -0400
+
+    Remove hashrate from explorer
+
+commit 25528c4ba94906c227113aa96dc4139f91c34a72
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Oct 7 22:12:14 2015 -0400
+
+    WAKE UP
+
+commit 8b74f895b311df549e458c3fa0a5d3dda44f946a
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Oct 7 21:54:07 2015 -0400
+
+    test #8
+
+commit d13bbd7e7fc4c75b40d40f7b2588ae6717280fc1
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Oct 7 21:36:14 2015 -0400
+
+    revert to original
+
+commit 52fd47a91f14ce421125773567fb73283af84249
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Oct 7 21:21:21 2015 -0400
+
+    #7
+    
+    add walletmodel.h
+
+commit 570b814f4a2cc37e4db6d414e3ab59e82c274e08
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Oct 7 21:03:13 2015 -0400
+
+    #6
+
+commit b29d25b0834b08e0d93e811e614ba5f26dc45dcc
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Oct 7 21:01:22 2015 -0400
+
+    text fix #5
+
+commit f79ffe092652578b6caa4d47cb21f2a64e9a9f3c
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Oct 7 20:53:20 2015 -0400
+
+    test fix #4
+
+commit b1e1641a8054b7e48f98d93bb2c396f3668e078b
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Oct 7 20:46:54 2015 -0400
+
+    test fix #3
+
+commit edf141988ef40f63d0133fcf764dc6d0e16579b3
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Oct 7 20:43:04 2015 -0400
+
+    text fix #2
+
+commit 57cf7226cfdb6dabd86707989e7778976d1cc8b3
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Oct 7 20:17:57 2015 -0400
+
+    fix
+
+commit d27fa3333752f54cd4b61e2d1592c6e6b07f8cae
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Oct 7 19:16:27 2015 -0400
+
+    blockbrowser.h
+
+commit 7397d83fa40987b47a59d660e4fedd3881d35447
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Oct 7 19:09:32 2015 -0400
+
+    add Block Explorer feature
+
+commit 6ef1a37d5ec5adcc934cd8c5fe4359f74d5ec303
+Author: transferdev <transferdev>
+Date:   Mon Sep 21 08:18:24 2015 +0000
+
+    Reduce reward and collateral
+
+commit b92d44b496933b189404fe78e700cc5930543127
+Author: transferdev <transferdev@gmail.com>
+Date:   Tue Aug 11 21:31:34 2015 +0200
+
+    last batch
+    
+    batch 14
+
+commit aeb75814ddcc8903d5c00bdae7a852633dc6f7bd
+Author: transferdev <transferdev@gmail.com>
+Date:   Tue Aug 11 21:06:50 2015 +0200
+
+    bacth 16
+    
+    16
+
+commit a2704bbfe085db8003116c5a3cea734f9072d692
+Author: transferdev <transferdev@gmail.com>
+Date:   Tue Aug 11 21:06:37 2015 +0200
+
+    batch 15
+    
+    15
+
+commit 675ff3f02d6c00b2ae3850b307fb3da4fbb0c01e
+Author: transferdev <transferdev@gmail.com>
+Date:   Tue Aug 11 21:06:12 2015 +0200
+
+    batch 13
+    
+    13
+
+commit a28f494fd4ef9506ce72c0516c5ed572e137ab53
+Author: transferdev <transferdev@gmail.com>
+Date:   Tue Aug 11 21:05:54 2015 +0200
+
+    batch 12
+    
+    12
+
+commit a5ffd59b4a34175371240ad6dcef5ac359398a3c
+Author: transferdev <transferdev@gmail.com>
+Date:   Tue Aug 11 21:04:59 2015 +0200
+
+    batch 10
+    
+    batch 10
+
+commit 3781ddce331c4125160c125f9dea5eebd2e48231
+Author: transferdev <transferdev@gmail.com>
+Date:   Tue Aug 11 21:03:34 2015 +0200
+
+    batch 09
+    
+    09
+
+commit c344f7e78c0902100ad342babc2baff1b250d295
+Author: transferdev <transferdev@gmail.com>
+Date:   Tue Aug 11 21:02:34 2015 +0200
+
+    batch 08
+    
+    08
+
+commit 93ee9d4cfe6b9f4b3d6e054a495b8b037fa49031
+Author: transferdev <transferdev@gmail.com>
+Date:   Tue Aug 11 21:01:30 2015 +0200
+
+    source
+    
+    04
+
+commit c0800f30ea46d2658017756e6acd67b2294ea2bf
+Author: transferdev <transferdev@gmail.com>
+Date:   Tue Aug 11 20:59:28 2015 +0200
+
+    source
+    
+    03
+
+commit e42a6aec21c48ed9f3aa68c0a866908e2fb6b71c
+Author: transferdev <transferdev@gmail.com>
+Date:   Tue Aug 11 20:58:03 2015 +0200
+
+    main source
+    
+    02
+
+commit 647a928e2c07e7d515cdca1306e68891ca5f5a3b
+Author: transferdev <transferdev@gmail.com>
+Date:   Tue Aug 11 20:57:17 2015 +0200
+
+    transfer coin source
+    
+    Main source
+
+commit 28d007757a9eceaf63909684035264f88ae77a25
+Author: transferdev <transferdev@gmail.com>
+Date:   Tue Aug 11 20:44:56 2015 +0200
+
+    test
+    
+    readme
+
+commit 508d20638cb36ccfe5ebc62eb92b1e51baea0d69
+Author: transferdev <transferdev@gmail.com>
+Date:   Tue Aug 11 20:32:14 2015 +0200
+
+    :neckbeard: Added .gitattributes

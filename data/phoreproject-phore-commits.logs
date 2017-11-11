@@ -1,0 +1,103 @@
+commit 84344af4ad428228c704a6897f848ee13ac844f3
+Author: phoreproject <31851726+phoreproject@users.noreply.github.com>
+Date:   Tue Oct 31 15:23:57 2017 +0000
+
+    BTC thread updated
+
+commit 15b45d94a0522740e333f17d3f1f19332570a9de
+Author: phoreproject <info@phore.io>
+Date:   Mon Oct 9 17:40:50 2017 +0100
+
+    Icon Updates
+
+commit b83004d5acd2550400392fc658abf5079153fa6e
+Author: phoreproject <info@phore.io>
+Date:   Sat Oct 7 22:35:50 2017 +0100
+
+    Icon Updates
+
+commit 240433cd7ce0a6eb507760a8bf498774708fb39e
+Author: phoreproject <info@phore.io>
+Date:   Sat Oct 7 21:30:04 2017 +0100
+
+    Image Splash Update
+
+commit 1a7fe6f6b6996e5693d3dbb8fa4af6db1400e057
+Author: phoreproject <info@phore.io>
+Date:   Sat Oct 7 21:23:43 2017 +0100
+
+    Icon Updates
+
+commit d25a1b5c186026a9ff5aacf3c0ea66947a143b90
+Author: phoreproject <info@phore.io>
+Date:   Thu Sep 28 21:05:42 2017 +0100
+
+    RPC update
+
+commit e0fc7765fdcf276ee2be9409974bd2c7125c8b58
+Author: phoreproject <info@phore.io>
+Date:   Mon Sep 25 14:35:14 2017 +0100
+
+    Update
+
+commit 76962278b86a012c993a1637b4c159ef91377271
+Author: phoreproject <info@phore.io>
+Date:   Mon Sep 25 14:10:00 2017 +0100
+
+    Port number updated
+
+commit 8286c2e687cc54666d825e87ae305e95eb436aa8
+Merge: 571a5e9 8080c68
+Author: phoreproject <info@phore.io>
+Date:   Wed Sep 20 17:36:22 2017 +0100
+
+    Merge branch 'master' of https://github.com/phoreproject/Phore
+
+commit 571a5e935b7b1286bfd23c26b1a4c95cf3f05151
+Author: phoreproject <info@phore.io>
+Date:   Wed Sep 20 17:35:40 2017 +0100
+
+    Checkpoints updated
+
+commit 8b75d55bc7cbcc662ec92d9f6a30955817ac9c91
+Author: phoreproject <info@phore.io>
+Date:   Wed Sep 20 17:16:47 2017 +0100
+
+    Update
+
+commit 8080c68a8154c7bd292eb9364f931653ca714b7d
+Author: phoreproject <31851726+phoreproject@users.noreply.github.com>
+Date:   Wed Sep 13 17:23:08 2017 +0100
+
+    Update README.md
+
+commit 348f4f67df6046e2cd43a0fb602facac5f7122c4
+Merge: 67d8aa6 2eccbea
+Author: phoreproject <info@phore.io>
+Date:   Tue Sep 12 17:57:51 2017 +0100
+
+    Merge branch 'master' of https://github.com/phoreproject/Phore
+
+commit 67d8aa6533733eb2bf92d90088200a7432f41224
+Author: phoreproject <info@phore.io>
+Date:   Tue Sep 12 17:57:14 2017 +0100
+
+    Update
+
+commit 2eccbea88f7302a0d61f468b564e76a066336602
+Author: phoreproject <31851726+phoreproject@users.noreply.github.com>
+Date:   Mon Sep 11 17:53:34 2017 +0100
+
+    Update README.md
+
+commit 5327b4d2e64adc05f244ba7033893e960c04e1de
+Author: phoreproject <31851726+phoreproject@users.noreply.github.com>
+Date:   Mon Sep 11 17:48:11 2017 +0100
+
+    Update README.md
+
+commit 02f2e1de48ab8db96789410aa98a555f80e5d9e1
+Author: phoreproject <info@phore.io>
+Date:   Mon Sep 11 17:43:56 2017 +0100
+
+    Add all my files

@@ -1,0 +1,14 @@
+commit 08aeec38ce2479efeecac30e64e3d02548abd4bf
+Author: Mark <markusromanus@gmail.com>
+Date:   Mon Oct 26 04:44:13 2015 -0400
+
+    update to v1.2.1 mandatory
+    
+    Reward halved at block 268840 and halved thereafter at Block 467200 and
+    every 2 years.
+
+commit e6f0f4fd79baa45ee6e5209d05ceea2542f591b9
+Author: root <len2.cryptcoins.net>
+Date:   Thu Jun 26 23:51:13 2014 -0400
+
+    release- 6/27/14

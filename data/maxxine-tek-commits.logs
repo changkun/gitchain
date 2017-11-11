@@ -1,0 +1,947 @@
+commit 94e314c47cc4cfcdfac1030f7510a22be237d564
+Merge: d01ebef 054db0e
+Author: maxxine <humcoins@yahoo.com>
+Date:   Thu Mar 24 08:19:15 2016 -0700
+
+    Merge pull request #18 from noise23/master
+    
+    Add checkpoint at 1522343, v2.4.1.0
+
+commit 054db0e7be29a56fc54eb14f69d4f017b7ef22ae
+Author: noise23 <admin@acidpool.com>
+Date:   Thu Mar 24 13:39:55 2016 +0200
+
+    Add checkpoint at 1522343, v2.4.1.0
+
+commit d01ebefe47671cd7eb6a843432326db96faf1cb7
+Merge: 97111e8 abc549c
+Author: maxxine <humcoins@yahoo.com>
+Date:   Thu Mar 17 18:04:49 2016 -0700
+
+    Merge pull request #17 from noise23/master
+    
+    v2.4
+
+commit abc549c56db243730a9ebf2bb2081fff3ccbd96f
+Author: noise23 <admin@acidpool.com>
+Date:   Fri Mar 18 00:12:21 2016 +0200
+
+    Aboutdialog copyright year
+
+commit 9e5f874089b14ee978476c5ad39e5832021336aa
+Author: noise23 <admin@acidpool.com>
+Date:   Thu Mar 17 23:49:21 2016 +0200
+
+    v2.4.0.0
+
+commit 2d44b8f536cfdaf5583abf536f7d81bc9159d28d
+Author: noise23 <admin@acidpool.com>
+Date:   Thu Mar 17 23:47:51 2016 +0200
+
+    Disconnect clients below 60009 on Apr 06
+
+commit d18ce413919d11615a0f162b7aca8d5e7892cbf3
+Author: noise23 <admin@acidpool.com>
+Date:   Thu Mar 17 23:37:39 2016 +0200
+
+    PROTOCOL_VERSION = 60009
+
+commit 53eb449617517f78b64f12f73339efe6045da231
+Author: noise23 <admin@acidpool.com>
+Date:   Thu Mar 17 23:33:14 2016 +0200
+
+    New checkpoint and alert keys
+
+commit 7bfe63c998905e08a7e99088788bf44739e4339f
+Author: noise23 <admin@acidpool.com>
+Date:   Thu Mar 17 23:23:07 2016 +0200
+
+    Change CombineThreshold to 100
+
+commit 30c4059dd14c70b7af02943c4a05d83f853c1a2b
+Author: noise23 <admin@acidpool.com>
+Date:   Wed Feb 17 01:16:33 2016 +0200
+
+    Combine threshold
+
+commit 97111e8ae17a8bf2de8ebc5ae4720e8e7abbfbc9
+Merge: 7d93a2a 1b63ed5
+Author: maxxine <humcoins@yahoo.com>
+Date:   Fri Feb 12 16:17:24 2016 -0800
+
+    Merge pull request #16 from noise23/master
+    
+    updates to v2.3.0.4
+
+commit 1b63ed5697a99c8febcc9842486a1c425cf12c73
+Author: noise23 <admin@acidpool.com>
+Date:   Sat Feb 13 02:06:28 2016 +0200
+
+    v2.3.0.4
+
+commit 35942ddfa3aa2dade6f781f2d60ccd2eb80876c7
+Author: noise23 <admin@acidpool.com>
+Date:   Sat Feb 13 01:38:06 2016 +0200
+
+    New logo icons
+
+commit 5ecda450ac8d94e9ffda3cf3c8f2b05cb30257e8
+Author: noise23 <admin@acidpool.com>
+Date:   Sat Feb 13 01:14:04 2016 +0200
+
+    New logo, change init message position
+
+commit b802fc2cabf3749ba865e3228d7fc2b4eef883d4
+Author: noise23 <admin@acidpool.com>
+Date:   Fri Feb 12 19:08:24 2016 +0200
+
+    Fix comparison between signed and unsigned
+
+commit 5d0b14240403b601ea85abbeee7a41d27197542e
+Author: noise23 <admin@acidpool.com>
+Date:   Sat Jan 23 16:55:34 2016 +0200
+
+    Prevent invalid memory access on crafted signature
+
+commit 7d93a2a40b1cd1ac46d9f22ee7db834e2ad263a1
+Merge: 357020e 0219add
+Author: maxxine <humcoins@yahoo.com>
+Date:   Mon Nov 30 16:04:23 2015 -0800
+
+    Merge pull request #15 from noise23/master
+    
+    Updates to v2.3.0.3
+
+commit 0219add648b3953e31852b31993269619f7c1887
+Author: noise23 <admin@acidpool.com>
+Date:   Tue Dec 1 01:06:15 2015 +0200
+
+    v2.3.0.3
+
+commit 8b68c8b1330b448c85ff3b7250d23e3e0881f3c8
+Author: noise23 <admin@acidpool.com>
+Date:   Tue Dec 1 01:03:20 2015 +0200
+
+    Add stakeinterest to getmininginfo RPC
+
+commit 3fc5291aa6cfde6982dafcfb2a8b3d36026fdc6d
+Author: noise23 <admin@acidpool.com>
+Date:   Tue Dec 1 00:55:24 2015 +0200
+
+    Fix IPV6
+
+commit b07ab3a521de9721f398556ebc79f24ed656c830
+Author: noise23 <admin@acidpool.com>
+Date:   Thu Nov 12 03:57:48 2015 +0200
+
+    v2.3.0.2
+
+commit 59be8b28ee10a0fabdf9143c2daba86966fc09d0
+Author: noise23 <admin@acidpool.com>
+Date:   Thu Nov 12 03:57:06 2015 +0200
+
+    Fix invalid signature with crafted length
+    
+    https://github.com/ppcoin/ppcoin/issues/100
+    
+    https://github.com/ppcoin/ppcoin/commit/9b40cd5b12b518a3a40d39016f30955a20ea0bf5
+
+commit a549b5ecf2935261b787c1a695ccf730ca321ade
+Author: noise23 <admin@acidpool.com>
+Date:   Tue Nov 3 23:04:13 2015 +0200
+
+    v2.3.0.1
+
+commit 4142476aee9f64308f79d831b9ccad827e326915
+Author: noise23 <admin@acidpool.com>
+Date:   Tue Nov 3 23:00:51 2015 +0200
+
+    NTP implementation
+
+commit 203a4c32e6dde80b6d394b2b4158b5717afd24d9
+Author: noise23 <admin@acidpool.com>
+Date:   Tue Nov 3 22:44:22 2015 +0200
+
+    Remove pszMainKey / pszTestKey from alert.h
+
+commit f00326505407f09da6325a009c4f92e69de33a5a
+Author: noise23 <admin@acidpool.com>
+Date:   Wed Oct 21 17:10:54 2015 +0300
+
+    Fix typo
+
+commit 357020e8fabf2d6e3382b8f366064fda97012c88
+Merge: 51049fc 17b2f7b
+Author: maxxine <humcoins@yahoo.com>
+Date:   Tue Sep 8 19:56:17 2015 -0700
+
+    Merge pull request #14 from noise23/master
+    
+    Copyright/comments edit, add Splitblock
+
+commit 17b2f7bc7e0671f7649f91ca7e9bf9deee50415a
+Author: noise23 <admin@acidpool.com>
+Date:   Wed Sep 9 04:46:15 2015 +0300
+
+    Add Splitblock
+
+commit 76a7c5c9a12500e6a99b43b3dd32da026421ea47
+Author: noise23 <admin@acidpool.com>
+Date:   Thu Aug 13 18:27:22 2015 +0300
+
+    Copyright/comments edit
+
+commit 51049fcc6ffd01644f837b4778b3836c8b26ac06
+Merge: 1bcfc7d 9a178e0
+Author: maxxine <humcoins@yahoo.com>
+Date:   Thu Jul 30 11:38:18 2015 -0700
+
+    Merge pull request #13 from noise23/master
+    
+    Updates to v2.3.0.0
+
+commit 9a178e035e6d7a4131d5f27bba7696afe4d0a48b
+Author: noise23 <admin@acidpool.com>
+Date:   Thu Jul 30 01:44:48 2015 +0300
+
+    v2.3.0.0
+
+commit 6536a76e337f76012d45c084eae20c17df8e4a8a
+Author: noise23 <admin@acidpool.com>
+Date:   Wed Jul 29 22:20:04 2015 +0300
+
+    Remove clientversion.h from .pro files
+
+commit cb0d11edcc61965accd7b630cd926fee048521d7
+Author: noise23 <admin@acidpool.com>
+Date:   Wed Jul 29 22:09:53 2015 +0300
+
+    Update version.cpp/h to fix windows build
+
+commit 9435dd641fd48f25948a2f278e5cfde1f3d00847
+Author: noise23 <admin@acidpool.com>
+Date:   Wed Jul 29 21:52:45 2015 +0300
+
+    Fix overviewpage number of transactions
+
+commit daae69dee7f680391a58bedf1b8f086df32b1e13
+Author: noise23 <admin@acidpool.com>
+Date:   Sat Jul 11 16:18:50 2015 +0300
+
+    v2.2.1.2
+
+commit 85607aa2dc59bc2bf0a031da96d2e5c94298bc40
+Author: noise23 <admin@acidpool.com>
+Date:   Sat Jul 11 16:18:03 2015 +0300
+
+    Allocate receive buffers in on the fly
+
+commit 3dc3b4f5e3c2b795f39de0797ced913ecf1ee2ec
+Author: noise23 <admin@acidpool.com>
+Date:   Sat Jul 11 16:17:30 2015 +0300
+
+    Use per-message send buffer, rather than per connection,
+    
+    P2P: improve RX/TX flow control,
+    P2P, cosmetic: break out buffer send(2) code into separate function
+
+commit 7a63abdab183c47ae7c43a7685c08281b73acaa5
+Author: noise23 <admin@acidpool.com>
+Date:   Sat Jul 11 15:26:57 2015 +0300
+
+    Move CLIENT_VERSION_ to version.h, delete clientversion.h
+
+commit c3c2ba0c6694adf5417d4fed482159fbed171a33
+Author: noise23 <admin@acidpool.com>
+Date:   Sat Jul 11 14:57:21 2015 +0300
+
+    Cleanup: delete bitcoin-qt.rc
+
+commit b8d5f4d01b3cd6178146dce337ef26c80b48919e
+Author: noise23 <admin@acidpool.com>
+Date:   Sat Jul 11 14:29:52 2015 +0300
+
+    Some fixes to CNetMessage processing
+    
+    * Change CNode::vRecvMsg to be a deque instead of a vector (less
+    copying)
+    * Make sure to acquire cs_vRecvMsg in CNode::CloseSocketDisconnect (as
+    it
+    may be called without that lock).
+
+commit e92905a2cb4c56929e773e8e7a00153514a39469
+Author: noise23 <admin@acidpool.com>
+Date:   Sat Jul 11 14:28:45 2015 +0300
+
+    P2P: parse network datastream into header/data components in socket thread
+    
+    Replaces CNode::vRecv buffer with a vector of CNetMessage's.  This
+    simplifies
+    ProcessMessages() and eliminates several redundant data copies.
+    
+    Overview:
+    
+    * socket thread now parses incoming message datastream into
+    header/data components, as encapsulated by CNetMessage
+    * socket thread adds each CNetMessage to a vector inside CNode
+    * message thread (ProcessMessages) iterates through CNode's CNetMessage
+    vector
+    
+    Message parsing is made more strict:
+    
+    * Socket is disconnected, if message larger than MAX_SIZE
+    or if CMessageHeader deserialization fails (latter is impossible?).
+    Previously, code would simply eat garbage data all day long.
+    * Socket is disconnected, if we fail to find pchMessageStart.
+    We do not search through garbage, to find pchMessageStart.  Each
+    message must begin precisely after the last message ends.
+    
+    ProcessMessages() always processes a complete message, and is more
+    efficient:
+    
+    * buffer is always precisely sized, using CDataStream::resize(),
+    rather than progressively sized in 64k chunks.  More efficient
+    for large messages like "block".
+    * whole-buffer memory copy eliminated (vRecv -> vMsg)
+    * other buffer-shifting memory copies eliminated (vRecv.insert,
+    vRecv.erase)
+
+commit d583e8dd7a4cd88c3a0cc6355455e072b826b57b
+Author: noise23 <admin@acidpool.com>
+Date:   Tue Jun 30 05:26:34 2015 +0300
+
+    v2.2.1.1
+
+commit 367561b3c1ffd9e3fbb28d80b7938ff4c9797d05
+Author: noise23 <admin@acidpool.com>
+Date:   Tue Jun 30 05:24:29 2015 +0300
+
+    Add Dump/Import functions, Add Export/Import wallet to GUI and RPC
+
+commit 84c8151a3e2e2bbc5bf811f4185c9f55a20b1685
+Author: noise23 <admin@acidpool.com>
+Date:   Tue Jun 30 05:22:28 2015 +0300
+
+    Add/Use CWalletScanState, CKeyMetadata, CAffectedKeysVisitor
+
+commit 680dad21ef58f364fd518ad51a6209290bd1f9f1
+Author: noise23 <admin@acidpool.com>
+Date:   Tue Jun 30 05:14:08 2015 +0300
+
+    Remove duplicate
+
+commit c52f0e23c0288e3f90eebebd30ef8c3a4881de5b
+Author: noise23 <admin@acidpool.com>
+Date:   Sat Jun 27 05:18:19 2015 +0300
+
+    Add Enable/Disable PoS mining option to GUI
+
+commit 44104ef1bde74a46a12bf7cd9391f06e16810336
+Author: noise23 <admin@acidpool.com>
+Date:   Sat Jun 27 05:16:49 2015 +0300
+
+    Proof-of-Stake Mining Controls Implemented
+    
+    -staking start-up switch enables/disables PoS generation;
+    getstaking RPC command displays current PoS generation status;
+    setstaking RPC command enables/disables PoS generation.
+
+commit f22851a2f4eece523c798052dc5391609d86842b
+Author: noise23 <admin@acidpool.com>
+Date:   Tue Jun 23 23:30:58 2015 +0300
+
+    Add total amount to overview page
+
+commit 60c843d581d776726d02d54cbd11d82cb46054a4
+Author: noise23 <admin@acidpool.com>
+Date:   Tue Jun 23 22:21:49 2015 +0300
+
+    Silence the warning: typedef ‘Char_type’ locally defined but not used [-Wunused-local-typedefs]
+
+commit daa8396c30bca5ddfd5a4d285b27ba88bc94f6c9
+Author: noise23 <admin@acidpool.com>
+Date:   Tue Jun 23 22:05:11 2015 +0300
+
+    Code cleanup
+
+commit ab7ae89aabb018af74b6d87fc972ddc38e7b0f13
+Author: noise23 <admin@acidpool.com>
+Date:   Tue Jun 23 22:01:52 2015 +0300
+
+    Don't mine/stake if less than 2 connections or our blockheight is lower than peers blockheight
+
+commit d6f2d750bd85529376d55aa8d480f9ca5040f965
+Author: noise23 <admin@acidpool.com>
+Date:   Tue Jun 23 21:12:08 2015 +0300
+
+    Increase split threshold: 2000 default, 15000 max
+
+commit 325b95eccb812ab7079264c1a8cc70315a60066c
+Author: noise23 <admin@acidpool.com>
+Date:   Tue Jun 23 20:47:52 2015 +0300
+
+    aboutdialog: update copyright year, remove tekcoin.com url
+
+commit f015f181a7851bb9aa318377c5110a63c08e4d2a
+Author: noise23 <admin@acidpool.com>
+Date:   Tue Jun 23 15:18:30 2015 +0300
+
+    Add .gitignore
+
+commit 996fcb44564c6ecc22fd934aaf9bfb7dc46b04fd
+Author: noise23 <admin@acidpool.com>
+Date:   Tue Jun 23 14:50:13 2015 +0300
+
+    Guard against openssl's new strict DER checks
+    
+    https://github.com/bitcoin/bitcoin/commit/f4134ee30100a3ba8a25e3f7ac6c4e0b39fb05a3
+    
+    https://github.com/bitcoin/bitcoin/commit/91e1332011ca647362f95f34ae6c530640bfef98
+    
+    https://github.com/bitcoin/bitcoin/commit/f19dded6e4bf6b5a345de899863310281846eb61
+
+commit 53eebf48dbccbab06eb54bb787949e7d05c16b39
+Author: noise23 <admin@acidpool.com>
+Date:   Sat Jun 20 18:48:14 2015 +0300
+
+    Add -wallet option to specify wallet file
+
+commit e06f056725ef9817257ae7daf6bfce5d4c32cc61
+Author: noise23 <admin@acidpool.com>
+Date:   Tue Jun 16 00:41:54 2015 +0300
+
+    Comment out wrong pnSeed
+
+commit 6ab511a88e67bcbf98c34dc326388c9f01ba62bf
+Author: noise23 <admin@acidpool.com>
+Date:   Tue Jun 16 00:37:58 2015 +0300
+
+    Add Unlock for PoS and Lock Wallet options to GUI
+
+commit 1bcfc7d7bf19d533792ccbb160915fd432184b89
+Merge: 0ce632c ed75e64
+Author: maxxine <humcoins@yahoo.com>
+Date:   Mon Dec 29 08:48:19 2014 -0800
+
+    Merge pull request #11 from noise23/master
+    
+    Disconnect clients below 60008, v.2.2.0.0
+
+commit ed75e6423854ab774c69dcaf7b0a43a56ddecce5
+Author: noise23 <admin@acidpool.com>
+Date:   Mon Dec 29 18:35:22 2014 +0200
+
+    Add nodes, new hardened checkpoint, v2.2.1.0
+
+commit 8d7b44d4880ad0857574c97ce70c42818cad5437
+Author: noise23 <admin@acidpool.com>
+Date:   Thu Dec 18 03:05:25 2014 +0200
+
+    Changes to stake miner and staking icon behavior
+    
+    Make sure we have a strong connection and synced before attempting
+    stake.
+
+commit 62ec290fd2898cd84f302a8123f0e34d6692355b
+Author: noise23 <admin@acidpool.com>
+Date:   Fri Dec 5 21:57:12 2014 +0200
+
+    Add new hard checkpoint
+
+commit 24a8fa329d631a8d6d38364c56c190413addddd2
+Author: noise23 <admin@acidpool.com>
+Date:   Thu Dec 4 04:10:36 2014 +0200
+
+    Disconnect clients below 60008, v.2.2.0.0
+
+commit 0ce632c28c18727eb6bb62681d8f4d3a1c708145
+Merge: 8b7259c 169a3fc
+Author: maxxine <humcoins@yahoo.com>
+Date:   Fri Nov 21 14:26:43 2014 -0800
+
+    Merge pull request #10 from noise23/master
+    
+    Wallet updates
+
+commit 169a3fcf80b2b819f850d95172ce1a64d81b7676
+Author: noise23 <admin@acidpool.com>
+Date:   Mon Nov 17 04:25:17 2014 +0200
+
+    6 recent transactions on overview page
+
+commit 694d4e277204f570ef22b3d3504c9a2f66058a7a
+Author: noise23 <admin@acidpool.com>
+Date:   Sun Nov 16 04:02:10 2014 +0200
+
+    'Show in block explorer' to transaction context menu
+    
+    version to2.1.1.2
+
+commit d4bee356b0c839408c230f62aab8002e4a0df389
+Author: noise23 <admin@acidpool.com>
+Date:   Sun Nov 16 03:21:47 2014 +0200
+
+    Add staking icon
+
+commit 39342bfdf4bb73ab34c40ced645a877449532fa5
+Author: noise23 <admin@acidpool.com>
+Date:   Sun Nov 16 00:45:54 2014 +0200
+
+    Update MessageBoxFlag buttons
+
+commit 8b7259cef1bc64048e8830d18fed9fb095376b67
+Merge: c37c672 7004ffe
+Author: maxxine <humcoins@yahoo.com>
+Date:   Fri Nov 14 07:31:29 2014 -0800
+
+    Merge pull request #9 from noise23/master
+    
+    Cut off peers below v2.0.0 , set version to 2.1.1.1
+
+commit 7004ffe32f2c06b65ce2709e38151fcb4fef267f
+Author: noise23 <admin@acidpool.com>
+Date:   Fri Nov 14 17:02:51 2014 +0200
+
+    Cut off peers below v2.0.0 , set version to 2.1.1.1
+
+commit e0d3ed8daaa0a2aa1aee40bb4b2f09ce0c138061
+Author: noise23 <admin@acidpool.com>
+Date:   Fri Nov 14 03:16:58 2014 +0200
+
+    makefile.bsd fix: add paths, remove ldl
+
+commit c37c672824e68ac677475032bd0865b872eb3cac
+Merge: d05554b b87a43a
+Author: maxxine <humcoins@yahoo.com>
+Date:   Wed Nov 12 13:15:13 2014 -0800
+
+    Merge pull request #8 from noise23/master
+    
+    wallet updates
+
+commit b87a43a99222d8a2c555e5c6d458467ef8556f78
+Author: noise23 <admin@acidpool.com>
+Date:   Wed Nov 12 17:29:12 2014 +0200
+
+    New checkpoint MasterPubKey, version to 2.1.1
+
+commit 4c0fa09fd91d0bb7619b808ccf3e171589bb437d
+Author: noise23 <admin@acidpool.com>
+Date:   Wed Nov 12 14:41:56 2014 +0200
+
+    Disable checkpoint age warning
+
+commit 2bc52af295c7ea5f74c8b85b7fe50b11cc80897e
+Author: noise23 <admin@acidpool.com>
+Date:   Wed Nov 12 00:21:26 2014 +0200
+
+    Alert pubkey fix
+
+commit 01798d0036b272fbd2888f5ba6bf7a2d7992f4f6
+Author: noise23 <admin@acidpool.com>
+Date:   Wed Nov 12 00:07:27 2014 +0200
+
+    Set default cppolicy to strict
+
+commit 77622a8f13f218cd008d7fa32adffdc58b0a087f
+Author: noise23 <admin@acidpool.com>
+Date:   Wed Nov 12 00:03:00 2014 +0200
+
+    Split MIN_PROTO_VERSION
+
+commit 93e3b0191eda5fb84ce52e8ae107e54258425d56
+Author: noise23 <admin@acidpool.com>
+Date:   Tue Nov 11 23:53:52 2014 +0200
+
+    New cp and alert pubkeys, protocol bump to 60008 , v2.1
+
+commit a970714ac008fc3e4cdab023797c8d80a6ff97a8
+Author: noise23 <admin@acidpool.com>
+Date:   Tue Nov 11 22:31:28 2014 +0200
+
+    Add copy txid to transactionview
+
+commit 29bb0e2a65cfb0053287ba3cfa17787bb42c26d3
+Author: noise23 <admin@acidpool.com>
+Date:   Tue Nov 11 22:10:43 2014 +0200
+
+    New block browser icon, clientversion.h to 2.0.1.0
+
+commit cc9b9541ea51435f74502a5f0b09529b0e854b9b
+Author: noise23 <admin@acidpool.com>
+Date:   Tue Nov 11 20:28:14 2014 +0200
+
+    Add block browser
+    
+    still needs some work with block Hash Rate / Network Stake Weight
+
+commit 6ccb8d88e59fbba9dec6389ac3e2063d65603dd4
+Author: noise23 <admin@acidpool.com>
+Date:   Tue Nov 11 18:36:37 2014 +0200
+
+    Add cppolicy, remove nosynccheckpoints
+    
+    default cppolicy set to advisory
+
+commit 86a52fd1179ab6f289d1d2a599deac5cd083ae03
+Author: noise23 <admin@acidpool.com>
+Date:   Fri Nov 7 03:24:56 2014 +0200
+
+    Add gitian-descriptors
+
+commit a35b8f3464645347a1274c00a7017616aa42d106
+Author: noise23 <admin@acidpool.com>
+Date:   Thu Nov 6 05:24:39 2014 +0200
+
+    Add PoS difficulty to rpc getinfo / getmininginfo
+
+commit 6c87d04c4d3b5abe8c70435ebaddc704b307ba70
+Author: noise23 <admin@acidpool.com>
+Date:   Thu Nov 6 04:58:01 2014 +0200
+
+    Add split threshold
+    
+    default 30, max 1010
+
+commit 66b243cd81ca870aa9a1e4b291b3b738d0d4c12f
+Author: noise23 <admin@acidpool.com>
+Date:   Wed Nov 5 04:18:10 2014 +0200
+
+    Add age to coin control
+
+commit bc3267cef189bff586adf2ecb43a98f643c10af7
+Author: noise23 <admin@acidpool.com>
+Date:   Wed Nov 5 02:45:20 2014 +0200
+
+    Add wallet menu
+
+commit a0319da1c25cd7d3b686e3064553044f236895e0
+Author: noise23 <admin@acidpool.com>
+Date:   Tue Nov 4 15:23:42 2014 +0200
+
+    Repairwallet will remove orphans
+
+commit 47720036751abbc76c83428c404054cc3b6f3055
+Author: noise23 <admin@acidpool.com>
+Date:   Tue Nov 4 15:11:51 2014 +0200
+
+    Change version suffix
+
+commit d05554be28ba89d4f7c4ac85310248748f0f36b7
+Merge: 2b8b25f c225c59
+Author: maxxine <humcoins@yahoo.com>
+Date:   Wed Aug 27 09:56:24 2014 -0700
+
+    Merge pull request #7 from chrisfranko/master
+    
+    fix stake 2
+
+commit c225c596e900defd4074626a973e391089b6bccb
+Author: Franko <chrisjfranko@gmail.com>
+Date:   Wed Aug 27 12:27:57 2014 -0400
+
+    fix stake 2
+    
+    should
+
+commit 2b8b25fdefee4e0218c888eebd8e22d1f4be6c50
+Merge: 8d62c12 f982fae
+Author: maxxine <humcoins@yahoo.com>
+Date:   Tue Aug 26 17:26:43 2014 -0700
+
+    Merge pull request #6 from chrisfranko/master
+    
+    fix
+
+commit f982faeb6a580d5f6030fc460b9e3dce1b8461b0
+Author: Franko <chrisjfranko@gmail.com>
+Date:   Tue Aug 26 20:07:07 2014 -0400
+
+    fix
+
+commit 8d62c1203d20fe9332777d4cbeb3b6f308ee6c05
+Author: maxxine <humcoins@yahoo.com>
+Date:   Sun Aug 24 19:43:35 2014 -0700
+
+    version # change
+
+commit 3b64c37199bfc22b4edba77bd80e9b629959f0d5
+Author: maxxine <humcoins@yahoo.com>
+Date:   Sun Aug 24 19:39:14 2014 -0700
+
+    Update clientversion.h
+
+commit 09cde44552b0a549015d2152fbe5f0f196a51623
+Author: maxxine <humcoins@yahoo.com>
+Date:   Sun Aug 24 19:38:09 2014 -0700
+
+    updated version #
+
+commit 391367d422bb79929a9abde22e231f731ca3c589
+Merge: 862eb53 5897ab5
+Author: maxxine <humcoins@yahoo.com>
+Date:   Thu Aug 21 21:10:53 2014 -0700
+
+    Merge pull request #5 from maxxine/TEKv2
+    
+    Tekv2
+
+commit 5897ab5a390ebe997df64ccf21585738f90d3b5e
+Author: maxxine <humcoins@yahoo.com>
+Date:   Thu Aug 21 18:55:12 2014 -0700
+
+    hardforkblock
+
+commit 2528c443ea74e378a789ad32a897feff67b3af4c
+Author: maxxine <humcoins@yahoo.com>
+Date:   Thu Aug 21 18:51:58 2014 -0700
+
+    fix
+
+commit 7918834ba9f0c3860090fcf5ce3f6c8f1b063959
+Author: maxxine <humcoins@yahoo.com>
+Date:   Thu Aug 21 18:29:48 2014 -0700
+
+    fix
+
+commit 404e7965ac5dbbcfa5dbc10b9ec8c4e67bb70881
+Author: maxxine <humcoins@yahoo.com>
+Date:   Thu Aug 21 17:20:10 2014 -0700
+
+    dupilicated if removed
+
+commit 97456329743961dbc8bea12bb4149c28c8554de1
+Author: maxxine <humcoins@yahoo.com>
+Date:   Wed Aug 20 20:22:42 2014 -0700
+
+    checkpoint
+
+commit 867119e8335eefb2c9c12c18522d13f75247e2ab
+Author: maxxine <humcoins@yahoo.com>
+Date:   Wed Aug 20 20:12:46 2014 -0700
+
+    checkpoint
+
+commit 06662a9bfecfb13687c3e2ba29ac5b0e4caf1506
+Author: maxxine <humcoins@yahoo.com>
+Date:   Wed Aug 20 20:11:20 2014 -0700
+
+    hardfork block
+
+commit a063ae0e06e45910aa860688f707d7080b01b68b
+Author: maxxine <humcoins@yahoo.com>
+Date:   Wed Aug 20 20:04:13 2014 -0700
+
+    v2 fixes
+
+commit 862eb53ebf57346c063c4a57844dcf51774c0d05
+Merge: 6a67103 a861cbf
+Author: maxxine <humcoins@yahoo.com>
+Date:   Wed Aug 6 18:11:39 2014 -0700
+
+    Merge pull request #4 from maxxine/revert-3-master
+    
+    Revert "Add netstakeweight to getmininginfo"
+
+commit a861cbf91733b6aba08520aee368d3ab50507a14
+Author: maxxine <humcoins@yahoo.com>
+Date:   Wed Aug 6 18:11:25 2014 -0700
+
+    Revert "Add netstakeweight to getmininginfo"
+
+commit 6a67103691504b80eafb90187891d3705551320d
+Author: maxxine <humcoins@yahoo.com>
+Date:   Mon Aug 4 20:39:21 2014 -0700
+
+    Update README.md
+
+commit 38a1b0d80f39352d38f7904e28d939b89631d672
+Author: maxxine <humcoins@yahoo.com>
+Date:   Mon Aug 4 20:38:54 2014 -0700
+
+    Update README.md
+
+commit dd9302fe1e9b5ea4fca4b8038befd991621fb0b2
+Merge: 133d11e c8067ed
+Author: maxxine <humcoins@yahoo.com>
+Date:   Sat Aug 2 22:34:38 2014 -0700
+
+    Merge pull request #3 from ofeefee/master
+    
+    Add netstakeweight to getmininginfo
+
+commit c8067ed05b52e0bc345f724e8866e711f46187b0
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Sat Aug 2 01:36:09 2014 -0500
+
+    Add netstakeweight to getmininginfo
+
+commit 133d11e0d40849f4a00df780348ebca5e93d288a
+Merge: 902ce25 25afd03
+Author: maxxine <humcoins@yahoo.com>
+Date:   Sat May 10 15:20:31 2014 -0700
+
+    Merge pull request #2 from argakiig/master
+    
+    Updates
+
+commit 25afd030534947e2b14633d8e7264e84dbeac4f6
+Author: argakiig <argakiig@gmail.com>
+Date:   Sat May 10 14:41:34 2014 -0700
+
+    Able to sync from block 0, updated ico to build properly.
+    tek-qt.pro uses the build environment I have setup.
+    added checkpoint on block 1 to make sure on correct chain
+    fixed ico to work properly
+    
+    Signed-off-by: argakiig <argakiig@gmail.com>
+
+commit dad7392c85689aaef5a84918fe540a91ac004e1a
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Thu May 8 14:35:08 2014 -0600
+
+    Recent Tx Width Change
+
+commit 4e16e4ecd7f4fa936be1fd310b002eede9166972
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Wed May 7 12:51:29 2014 -0600
+
+    v1.1 version.cpp & clientversion.h
+
+commit f96a5ad284314def7b7e32ae38e4ceff7a53f9c7
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Wed May 7 11:42:44 2014 -0600
+
+    Final v1.1 update
+
+commit d5532d321706550e87ff58f83c247f9fe4bd149c
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Tue May 6 19:07:57 2014 -0600
+
+    v1.1
+
+commit baa791bebf749e7cd2ad22fe878ddc12e95ab23c
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Tue May 6 19:07:30 2014 -0600
+
+    Minor Changes Getting Ready for v1.1
+
+commit 32d0b47b604f2f41ea4a2c543b14c0a4063c1e7a
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sun May 4 22:47:04 2014 -0600
+
+    Remove file
+
+commit c69f858c43d464356d2ec71f9d4b4afca40b6252
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sun May 4 21:59:40 2014 -0600
+
+    QT5 Update - All Builds Need QT5
+
+commit 689907b0bdd2a9ff5c011a1c167a6659713811f9
+Author: presstab <presstab1337@gmail.com>
+Date:   Fri May 2 15:41:43 2014 -0600
+
+    Fix Typo
+
+commit 6feedfbc08cfea19ca6532d591b9ae67467da273
+Author: presstab <presstab1337@gmail.com>
+Date:   Fri May 2 14:33:50 2014 -0600
+
+    Fix new unlock wallet button
+
+commit 2df3a90e4afc95998e16e541ab28c46de5758818
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Fri May 2 00:27:20 2014 -0600
+
+    v1.0.1
+
+commit eb06877c9e52fbca3a6a07c8027e2ac14b3415e5
+Author: presstab <presstab1337@gmail.com>
+Date:   Thu May 1 15:20:08 2014 -0600
+
+    Fix syntax for linux compile & column width CC
+
+commit 875d0a4622c20df1b87e6e0f78d24f9b293c414d
+Author: presstab <presstab1337@gmail.com>
+Date:   Thu May 1 12:31:10 2014 -0600
+
+    Argakiig Overview UI change
+
+commit 2508fd880b2794e41547167043523b0a4f57d223
+Author: presstab <presstab1337@gmail.com>
+Date:   Thu May 1 12:24:39 2014 -0600
+
+    Add unlock wallet on menu bar
+
+commit 9be40a500ea91383eb5f3538da68b2822eab8c41
+Author: presstab <presstab1337@gmail.com>
+Date:   Thu May 1 10:05:04 2014 -0600
+
+    Icon Changes & Added Release exe + static flag
+
+commit 081e56a2be5371f985cefef59a4dd351e5b2345f
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Wed Apr 30 23:39:45 2014 -0600
+
+    Add weight to coin control dialog
+
+commit 7ad8a2392484a8957f0c32a6e5db8e55a8101687
+Merge: 4e7099b 7faccfb
+Author: presstab <presstab1337@gmail.com>
+Date:   Wed Apr 30 21:13:57 2014 -0600
+
+    Merge pull request #1 from argakiig/master
+    
+    updates to GUI and tek-qt.pro for building with my library locations renamed tekcoin-qt.rc to match my tek-qt.pro
+
+commit 902ce254f56731762fcd07b31b8fbfff74757f45
+Merge: 4e7099b 7faccfb
+Author: maxxine <humcoins@yahoo.com>
+Date:   Wed Apr 30 19:30:12 2014 -0700
+
+    Merge pull request #1 from argakiig/master
+    
+    updates to GUI and tek-qt.pro for building with my library locations
+
+commit 7faccfb240c4593bc349b6bf54513196436381c6
+Author: argakiig <argakiig@gmail.com>
+Date:   Wed Apr 30 19:15:24 2014 -0700
+
+    updates to GUI and tek-qt.pro for building with my library locations
+
+commit 4e7099b13cd8905c27e3cce791493e04cd0c16d0
+Author: presstab <presstab1337@gmail.com>
+Date:   Wed Apr 30 16:19:51 2014 -0600
+
+    UI Changes
+
+commit c1c923c4e7f684619510dba391a4567704b4cfda
+Author: presstab <presstab1337@gmail.com>
+Date:   Wed Apr 30 16:01:14 2014 -0600
+
+    Coin Control Added - Tx Comment Removed
+
+commit 0448530a17f51f17a4eccfd5368f8adb1efb3998
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Tue Apr 29 14:43:01 2014 -0600
+
+    Remove Compiled Files
+
+commit ab3a8e61fa88ac2323a06622bda09b5a21677af2
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Tue Apr 29 14:34:53 2014 -0600
+
+    comment out net.cpp line to make compile work
+
+commit 2e2fbebb8e7709afe2b9153f8304d817fb5864c2
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Tue Apr 29 14:32:29 2014 -0600
+
+    qt.pro update
+
+commit 623bfcef54cf4137b17a8f89b8c0064d1ecc8654
+Author: John Doe <humcoins@yahoo.com>
+Date:   Thu Feb 20 19:44:27 2014 -0800
+
+    first

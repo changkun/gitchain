@@ -1,0 +1,2528 @@
+commit 8460eb3f625c7b9c3aadbda2728492702f290c74
+Merge: 880aaa9 6c66634
+Author: Adam <achamely@users.noreply.github.com>
+Date:   Mon Jan 23 11:32:15 2017 -0500
+
+    Merge pull request #317 from ripper234/patch-1
+    
+    Update README.md
+
+commit 6c666345160b0a5c57a85ce09444f4bfd4901ae7
+Author: Ron Gross <ron@mastercoin.org>
+Date:   Sat Jan 21 08:05:51 2017 +0200
+
+    Update README.md
+
+commit 880aaa9c801fc4096ee345fad02536e52058f49f
+Merge: a7585df 9978cc3
+Author: Adam <achamely@users.noreply.github.com>
+Date:   Tue Jun 30 19:28:18 2015 -0400
+
+    Merge pull request #311 from msgilligan/msgilligan-minor-fixes
+    
+    Fix typo, don’t overload the term ‘Ecosystem’
+
+commit 9978cc3984ae0b6e51216c4ae74042fc4097b993
+Author: Sean Gilligan <sean@msgilligan.com>
+Date:   Tue Jun 30 16:19:06 2015 -0700
+
+    Fix typo, don’t overload the term ‘Ecosystem’
+    
+    * referes -> refers
+    * replace usage of the word ‘ecosystem’ in the definition of OmniLayer,
+      because ‘ecosystem’ has a very specific meaning in this spec.
+
+commit a7585df2a2969db901ccede49c11a9dfec6f9303
+Merge: 2587af2 3695829
+Author: CraigSellars <CraigSellars@users.noreply.github.com>
+Date:   Sun Jun 28 22:21:57 2015 -0700
+
+    Merge pull request #309 from msgilligan/master
+    
+    Update Specification to remove references to “Master Protocol” and replace with "Omni Protocol” nomenclature
+
+commit 36958298e1d22b0be0d55354dde507c3a0091943
+Author: Sean Gilligan <sean@msgilligan.com>
+Date:   Sun Jun 28 22:19:17 2015 -0700
+
+    Finalize changes
+    
+    * Remove “in-progress” & set today’s date
+    * Replace fundraiser with crowdsale (per Craig)
+
+commit 7ab7be92c1f9e67a9ee74b783a911d9fbd3ca1f0
+Author: Sean Gilligan <sean@msgilligan.com>
+Date:   Fri Jun 26 09:16:42 2015 -0700
+
+    Since it’s historical, use “Mastercoin fundraiser”
+    
+    (also remove hyphen from fundraiser in two places)
+
+commit aee1b74367e9180800214e995bc774b817ec20d1
+Author: Sean Gilligan <sean@msgilligan.com>
+Date:   Tue Jun 23 15:37:17 2015 -0700
+
+    Remove extra blank lines.
+
+commit 1b13cc3bd0c8dddea2af34d63f815d8e4aea22b4
+Author: Sean Gilligan <sean@msgilligan.com>
+Date:   Tue Jun 23 13:32:47 2015 -0700
+
+    ‘Master Protocol’ -> ‘Omni Protocol’
+    
+    ‘Mastercoin’ -> ‘Omni’ and ‘Master’ -> ‘Omni’ in some places, too.
+
+commit eca260ec64c88d04d66f89ace2abb38201bc97e6
+Author: Sean Gilligan <sean@msgilligan.com>
+Date:   Sat Jun 13 18:54:19 2015 -0700
+
+    Omni rename: Title & Terminology
+    
+    (Once we have consensus on these changes, I’ll update the remainder
+    of the document)
+
+commit 2587af2cd57440ab74ceb6296d541d992b788406
+Merge: 208c9c0 5b70320
+Author: dacoinminster <jr.willett@gmail.com>
+Date:   Mon Feb 16 15:59:46 2015 -0800
+
+    Merge pull request #304 from dexX7/master-sto-block-number
+    
+    Set block number of "Send To Owners" transaction type
+
+commit 5b7032087b0b55618e2c51a5e702b39e84f2b37c
+Author: dexX7 <ugithub@bitwatch.co>
+Date:   Fri Feb 13 22:41:15 2015 +0100
+
+    Set block number of "Send To Owners" transaction type
+    
+    See:
+    https://github.com/mastercoin-MSC/mastercore/blob/v0.0.9/src/mastercore.h#L97
+
+commit 208c9c01920e3c13ac008807e20acd6f71a6db6b
+Merge: cb4af46 6d85497
+Author: dacoinminster <jr@cozi.com>
+Date:   Mon Dec 15 11:58:20 2014 -0800
+
+    Merge pull request #292 from dexX7/refine-cancel-everything
+    
+    Tx 21: refine sub-actions and the effect of "cancel-everything"
+
+commit 6d85497376d55e6ec3e3c444e95a31576b39bf8f
+Author: dexX7 <ugithub@bitwatch.co>
+Date:   Fri Dec 5 18:26:24 2014 +0100
+
+    Tx 21: refine sub-actions and the effect of "cancel-everything"
+
+commit cb4af46b0cf0121aae50a3179cb852688ae9f7fc
+Merge: 0625fb2 9968939
+Author: dacoinminster <jr@cozi.com>
+Date:   Tue Nov 25 09:50:50 2014 -0800
+
+    Merge pull request #257 from wanderingbort/change_issuer_on_record
+    
+    Per this being in live code.
+
+commit 0625fb28cf390a80a1331b3663185403d0f7da50
+Merge: a9ff8c3 1fdb8af
+Author: dacoinminster <jr@cozi.com>
+Date:   Fri Nov 7 16:54:30 2014 -0800
+
+    Merge pull request #289 from dacoinminster/tx21clarification
+    
+    tx21 (metadex) rounding clarification
+
+commit 1fdb8afe20d6f5bc6629e0646ea3ee9550daab65
+Author: J.R. Willett <jr.willett@gmail.com>
+Date:   Fri Nov 7 16:32:23 2014 -0800
+
+    typo
+
+commit a58e99bccf08c9a0b7339c3b12af433a7373418d
+Author: J.R. Willett <jr.willett@gmail.com>
+Date:   Fri Nov 7 16:28:58 2014 -0800
+
+    All orders are sell orders!
+    
+    This was already in the spec, but not clear enough, per chatroom.
+
+commit 7f0aeae6ddfb9a73144b5688f73c556c9e9311ba
+Author: J.R. Willett <jr.willett@gmail.com>
+Date:   Fri Nov 7 13:52:19 2014 -0800
+
+    Prices never move!!
+    
+    This was decided awhile back, but I couldn't find it in the spec.
+
+commit 7370a4a0908ec55b99609270ddfa17f45451c8e7
+Author: J.R. Willett <jr.willett@gmail.com>
+Date:   Fri Nov 7 13:20:54 2014 -0800
+
+    Fix markdown formatting
+
+commit a223178e458a53bffb8b9346467180a2b9adcb6b
+Author: J.R. Willett <jr.willett@gmail.com>
+Date:   Fri Nov 7 13:14:46 2014 -0800
+
+    Better clarification of rounding after dexx reminded me of earlier conversation in issue #170
+
+commit a9ff8c367169cc097894f7bd209de94e48136343
+Merge: a5f7d96 d9d94a7
+Author: dacoinminster <jr@cozi.com>
+Date:   Fri Nov 7 11:17:09 2014 -0800
+
+    Merge pull request #287 from dacoinminster/master
+    
+    Optionally restrict a token to a set of addresses
+
+commit 97e1e44c626d01333f6370e2d483412702eedaa0
+Author: J.R. Willett <jr.willett@gmail.com>
+Date:   Thu Nov 6 11:15:47 2014 -0800
+
+    tx21 (metadex) rounding clarification resulting from conversation with Marv
+
+commit d9d94a71d91fef922401f2405ea67f4500373308
+Author: J.R. Willett <jr.willett@gmail.com>
+Date:   Wed Nov 5 16:25:59 2014 -0800
+
+    Reverting whitespace-only changes
+
+commit e6c8c686232a7b4551521628fb835af35c78c32b
+Author: J.R. Willett <jr.willett@gmail.com>
+Date:   Wed Nov 5 14:55:24 2014 -0800
+
+    Actually need 21 bytes, not 20
+
+commit e466a23833ac91474ddc31c02a6ac298cf3aa920
+Author: J.R. Willett <jr.willett@gmail.com>
+Date:   Wed Nov 5 14:46:59 2014 -0800
+
+    Changes after talking to Zathras about this PR
+
+commit 027f3bf80a510f24b8ae033cac65a135518ee102
+Merge: f1af0a7 a5f7d96
+Author: J.R. Willett <jr.willett@gmail.com>
+Date:   Wed Nov 5 14:01:43 2014 -0800
+
+    Merge branch 'master' of https://github.com/mastercoin-MSC/spec
+
+commit f1af0a7095661a502e795769ff91b5956d51add8
+Author: J.R. Willett <jr.willett@gmail.com>
+Date:   Wed Nov 5 14:01:30 2014 -0800
+
+    First cut at restricting a token to a list of addresses
+
+commit a5f7d9612892c3feebb7776405b32ad3e17b7aa7
+Merge: 0fae4fa 4c7c281
+Author: dacoinminster <jr@cozi.com>
+Date:   Tue Nov 4 12:35:49 2014 -0800
+
+    Merge pull request #221 from zathras-crypto/mastercoin-1liner
+    
+    Match specw/code append/replace not yet supported.
+    
+    Appears uncontroversial. Merging.
+
+commit 0fae4fa202a0d63dc883f334f7e1c8f6878bbe1b
+Merge: 0b734c0 220f164
+Author: dacoinminster <jr@cozi.com>
+Date:   Tue Nov 4 12:32:41 2014 -0800
+
+    Merge pull request #279 from dexX7/enable-p2sh-and-managed-properties
+    
+    Set block number of P2SH and managed properties
+    
+    Appears to be uncontroversial. Merging.
+
+commit 0b734c03d681b01acdaa96e50022d00c57cfc540
+Merge: dbfbae3 f37c6f6
+Author: dacoinminster <jr@cozi.com>
+Date:   Fri Oct 31 08:50:15 2014 -0700
+
+    Merge pull request #276 from dacoinminster/master
+    
+    Per our meeting, this is ready to merge
+
+commit f37c6f66d3e551a1eb3472d92176d11ca2348ae5
+Author: J.R. Willett <jr.willett@gmail.com>
+Date:   Thu Oct 30 14:18:28 2014 -0700
+
+    Clarification from meeting
+
+commit 8b3787eddcd366c332a6b99ab4d4e1397dcd5473
+Author: J.R. Willett <jr.willett@gmail.com>
+Date:   Thu Oct 30 10:00:32 2014 -0700
+
+    Further changes based on pull request comments.
+
+commit 220f1644804e66a9800a74f1af54d46dc48fd09a
+Merge: 6c70be1 6a42b9d
+Author: dexX7 <dexX7@users.noreply.github.com>
+Date:   Wed Oct 29 00:17:08 2014 +0100
+
+    Merge pull request #1 from faizkhan00/blockfix
+    
+    missing zero fix
+
+commit 6a42b9d392158c91f36384a1a2ba785ea16065b8
+Author: Faiz Khan <faizkhan00@gmail.com>
+Date:   Tue Oct 28 18:14:45 2014 -0500
+
+    missing zero fix
+
+commit 6c70be1c7cfb621355b0394ad0402049413dcb32
+Author: dexX7 <ugithub@bitwatch.co>
+Date:   Tue Oct 28 21:54:27 2014 +0100
+
+    Set block number of P2SH and managed properties
+    
+    Those features are already live, see:
+    
+    https://github.com/mastercoin-MSC/mastercore/blob/mscore-0.0.8/src/mastercore.h#L97
+    https://github.com/mastercoin-MSC/mastercore/blob/mscore-0.0.8/src/mastercore.h#L98
+
+commit d7e59732f6c82352d8002a7bb16645616e5e0326
+Author: J.R. Willett <jr.willett@gmail.com>
+Date:   Wed Oct 22 14:36:29 2014 -0700
+
+    Further changes from chat, clarifying subtract
+
+commit 3210ffdc036c791473916917f61c61c864c8ee95
+Author: J.R. Willett <jr.willett@gmail.com>
+Date:   Wed Oct 22 14:34:58 2014 -0700
+
+    Changes from discussion of pull request: selling more than max available is invalid. Subtracting more coins than are for sale simply cancels everything
+
+commit c0bbe405d1a79373b162c74265000d1eabed098d
+Author: J.R. Willett <jr.willett@gmail.com>
+Date:   Wed Oct 22 14:02:55 2014 -0700
+
+    Changes to TX21 per issue #270
+
+commit dbfbae3a1c6487eb9ba204a34d9d2b25b0642b67
+Merge: fddf1d9 5192ea3
+Author: dacoinminster <jr@cozi.com>
+Date:   Wed Oct 22 13:31:56 2014 -0700
+
+    Merge pull request #267 from dacoinminster/master
+    
+    Pull request of commits and reverts of those commits to get my copy synced up with Master. There's probably a better way . . .
+    
+    (THIS MERGE HAS NO REAL CHANGES)
+
+commit 5192ea34f9babadf57e9b0e3fa372220567b713c
+Author: J.R. Willett <jr.willett@gmail.com>
+Date:   Wed Oct 22 13:27:26 2014 -0700
+
+    Revert "Adding notifications per issue #265"
+    
+    This reverts commit 743def2a640f8193bd71370133f2008bba03880a.
+
+commit 95bff681e6813472858aa573594f31f2ab4a2c5c
+Author: J.R. Willett <jr.willett@gmail.com>
+Date:   Wed Oct 22 13:27:15 2014 -0700
+
+    Revert "Fix silly copy/paste error (tx type should be 70, not 0)"
+    
+    This reverts commit 5e6a547c7e66c84a1854231b08080a7178586e6e.
+
+commit b4b93abdddcddceb8293a329e9420de5a86cbad0
+Author: J.R. Willett <jr.willett@gmail.com>
+Date:   Wed Oct 22 13:27:01 2014 -0700
+
+    Revert "Rewriting notifications based on pull request feedback."
+    
+    This reverts commit fba3c09198c4eeb97101454422a7047015e284ac.
+
+commit 8bb2a469bac184c0d2790c9d81fff38799aab6a8
+Author: J.R. Willett <jr.willett@gmail.com>
+Date:   Wed Oct 22 13:26:46 2014 -0700
+
+    Revert "whitespace"
+    
+    This reverts commit aef3095a2580c498b0c32ddaa0c6741512ebe901.
+
+commit 35ce43ac85fbd6cd4e2eab51bd81746c83a87eb1
+Merge: aef3095 fddf1d9
+Author: J.R. Willett <jr.willett@gmail.com>
+Date:   Fri Oct 10 12:12:03 2014 -0700
+
+    Merge branch 'master' of https://github.com/mastercoin-MSC/spec
+
+commit fddf1d9d65fa309361172cbc10a426c9992a45af
+Author: J.R. Willett <jr.willett@gmail.com>
+Date:   Fri Oct 10 12:10:58 2014 -0700
+
+    Clarification of restricted send per issue #272
+
+commit aef3095a2580c498b0c32ddaa0c6741512ebe901
+Author: J.R. Willett <jr.willett@gmail.com>
+Date:   Tue Oct 7 14:42:15 2014 -0700
+
+    whitespace
+
+commit fba3c09198c4eeb97101454422a7047015e284ac
+Author: J.R. Willett <jr.willett@gmail.com>
+Date:   Tue Oct 7 14:38:39 2014 -0700
+
+    Rewriting notifications based on pull request feedback.
+
+commit 5e6a547c7e66c84a1854231b08080a7178586e6e
+Author: J.R. Willett <jr.willett@gmail.com>
+Date:   Wed Oct 1 12:25:07 2014 -0700
+
+    Fix silly copy/paste error (tx type should be 70, not 0)
+
+commit 743def2a640f8193bd71370133f2008bba03880a
+Author: J.R. Willett <jr.willett@gmail.com>
+Date:   Wed Oct 1 11:41:39 2014 -0700
+
+    Adding notifications per issue #265
+
+commit 8e054e1b903e0102ae24296df401e51554e30e8c
+Author: J.R. Willett <jr.willett@gmail.com>
+Date:   Mon Sep 29 14:36:53 2014 -0700
+
+    Clarification for unix timestamps, per issue #263
+
+commit 9968939e4cce8901e89994423662058db827c271
+Author: wanderingbort <wanderingbort@yooser.com>
+Date:   Mon Sep 22 21:17:04 2014 -0500
+
+    fixed formatting
+
+commit bd3708f1711c6a2c21fba96936331381f10eb958
+Author: wanderingbort <wanderingbort@yooser.com>
+Date:   Mon Sep 22 21:10:30 2014 -0500
+
+    Add Change Issuer on Record
+
+commit cadbdce4f157b416ae1caf15ea811eb2512bf07b
+Author: J.R. Willett <jr.willett@gmail.com>
+Date:   Mon Sep 22 12:49:58 2014 -0700
+
+    Changes in response to Marv's comments in issue #254
+
+commit d2e83873f5bea2992a1f06672d358692de53be0b
+Merge: 031897b 6cfba33
+Author: dacoinminster <jr@cozi.com>
+Date:   Wed Sep 17 08:19:16 2014 -0700
+
+    Merge pull request #251 from dacoinminster/master
+    
+    Adding fees for some advanced features when MSC is not used
+
+commit 6cfba33ad53a6fc6e42d600508a306a1b606905b
+Author: J.R. Willett <jr.willett@gmail.com>
+Date:   Tue Sep 16 14:46:59 2014 -0700
+
+    Changes based on feedback of pull request #251
+
+commit ba4c4d9ea28b9b17fecabff009ac9e08269c9c6e
+Merge: ba67721 2b1a1cd
+Author: J.R. Willett <jr.willett@gmail.com>
+Date:   Thu Sep 11 17:01:55 2014 -0700
+
+    Merge branch 'master' of https://github.com/dacoinminster/spec
+    
+    Conflicts:
+            README.md
+
+commit ba67721278e1e74b7929d5d3b6d3033f2d5fe10e
+Author: J.R. Willett <jr.willett@gmail.com>
+Date:   Thu Sep 11 16:56:38 2014 -0700
+
+    Adding fees for some advanced features when MSC is not used
+
+commit 2b1a1cd9d552a160ef2ba90fab1f0a5eeb169053
+Author: J.R. Willett <jr.willett@gmail.com>
+Date:   Thu Sep 11 16:56:38 2014 -0700
+
+    Adding fees for some advanced features when MSC is not used
+
+commit 031897b819182db3a2aabd5d64fb101d01a35af2
+Merge: 95f6a66 18b92ab
+Author: dacoinminster <jr@cozi.com>
+Date:   Thu Sep 11 16:01:13 2014 -0700
+
+    Merge pull request #245 from dacoinminster/master
+    
+    Accurately reflect MSC-only for stage 1 metadex
+
+commit 95f6a6632af6f447d48a75875bb4a739f7ce7776
+Merge: 1911305 a7a8a70
+Author: Marv Schneider <marv@engine.co>
+Date:   Thu Sep 11 17:58:06 2014 -0400
+
+    Merge pull request #246 from wanderingbort/p2sh-support
+    
+    P2sh support
+
+commit 18b92ab6a538507706ed01b48889609623431a85
+Merge: ab46852 1911305
+Author: J.R. Willett <jr.willett@gmail.com>
+Date:   Thu Sep 11 14:34:35 2014 -0700
+
+    Merge branch 'master' of https://github.com/mastercoin-MSC/spec
+
+commit a7a8a70a27b307aab220d15faf4cbd88d03b1e31
+Author: Bart Wyatt <wanderingbort@yooser.com>
+Date:   Fri Aug 29 20:54:15 2014 -0500
+
+    Added language on handling ClassBs where the sender is a p2sh address.  OP_CHECKMULTISIG only supports public keys.  No public key hashes or script hashes are allowed.  As such the canonical Senders Address is the 1 of N necessary to redeem the output is not available to p2sh addresses.  As it was never explicitly required in the spec that this pubkey match the senders address, it is now explicitly mentioned that it can be any address the sender designates to be the output redeemer
+
+commit 978d5397a2eb49576ce6041c618a0dd72a73bce9
+Author: Bart Wyatt <wanderingbort@yooser.com>
+Date:   Thu Aug 28 22:43:05 2014 -0500
+
+    changes to represent validity of p2sh addresses as master protocol addresses
+
+commit 1911305fbdbb57e155c5cca8ddfea77930e642d0
+Merge: cc28555 d85f98f
+Author: CraigSellars <CraigSellars@users.noreply.github.com>
+Date:   Thu Aug 28 21:24:17 2014 -0500
+
+    Merge pull request #243 from wanderingbort/manual_issuances
+    
+    Manually issued Smart Property Tokens
+
+commit d85f98f41374ad991477fa4ec83d687951ef088e
+Author: wanderingbort <wanderingbort@yooser.com>
+Date:   Thu Aug 28 20:42:38 2014 -0500
+
+    Updates based on PR feedback
+    
+    clarified restrictions on grants/revokes
+    removed wallet references
+    made memo optional
+    added TBD for feature release block
+
+commit ab468526592e82baae767ebcc8a4cb2b27a67f50
+Author: J.R. Willett <jr.willett@gmail.com>
+Date:   Thu Aug 28 11:19:05 2014 -0700
+
+    Wordsmithing for Marv
+
+commit 71400943b71885cc2eccb0003b19d9f258759d0a
+Author: J.R. Willett <jr.willett@gmail.com>
+Date:   Tue Aug 26 17:26:20 2014 -0700
+
+    Further wordsmithing for dexx
+
+commit b0e0661e78a698de95517762e3bee8683bd32614
+Author: J.R. Willett <jr.willett@gmail.com>
+Date:   Mon Aug 25 13:41:31 2014 -0700
+
+    Wording changes in response to comments from dexx
+
+commit 6c205c1ad92dd3dfec9bb8e6b1f8524d508a7b35
+Author: J.R. Willett <jr.willett@gmail.com>
+Date:   Fri Aug 22 12:12:19 2014 -0700
+
+    Accurately reflect MSC-only for stage 1 metadex
+
+commit 9eb7b832c7fa9bc204eb6ac3b23001a1239cfe32
+Author: wanderingbort <wanderingbort@yooser.com>
+Date:   Tue Aug 12 21:36:21 2014 -0500
+
+    Updated examples and added transaction byte sizes
+
+commit d4d475dbee66dbc895904cfceb825ab3b5f9765a
+Author: wanderingbort <wanderingbort@yooser.com>
+Date:   Mon Aug 11 00:23:05 2014 -0500
+
+    first draft of managed smart property
+
+commit cc285555b469501231743df69dbf9375addbba51
+Merge: 9f6e930 a0293d3
+Author: Marv Schneider <marv@engine.co>
+Date:   Fri Aug 8 10:51:48 2014 -0400
+
+    Merge pull request #238 from marv-engine/tx21
+    
+    minor - fixed Close Crowdsale table formatting
+
+commit a0293d3be666331ed9af71500fa9e8959a604bc9
+Author: Marv Schneider <marv@engine.co>
+Date:   Fri Aug 8 10:50:14 2014 -0400
+
+    minor - fixed Close Crowdsale table formatting
+
+commit 9f6e930e9dcb9640600bf3276b71538698fe6109
+Merge: 9e00699 fd89efc
+Author: Marv Schneider <marv@engine.co>
+Date:   Fri Aug 8 10:38:37 2014 -0400
+
+    Merge pull request #165 from marv-engine/tx21
+    
+    Tx21 (Sell one currency for another MSC-based currency) description updated. Removed conflicts w/ help from @CurtisLacy.
+
+commit fd89efccec3868f198c1f34db351e1c8ef331a22
+Merge: cc61c59 9e00699
+Author: Marv Schneider <marv@engine.co>
+Date:   Fri Aug 8 10:19:31 2014 -0400
+
+    fixed conflicts before pushing tx21 to my repo
+    Merge branch 'master' of https://github.com/mastercoin-MSC/spec into HEAD
+    
+    Conflicts:
+            README.md
+
+commit cc61c5940f0ea3bfc2f3d725c0e975b011679984
+Merge: 787e92a 7b83458
+Author: Marv Schneider <marv@engine.co>
+Date:   Wed Aug 6 18:19:37 2014 -0400
+
+    Manual merge branch 'marv-engine-tx21'
+
+commit 7b8345869467e3e25652172b7c9de4d7a1305dfa
+Author: Marv Schneider <marv@engine.co>
+Date:   Wed Aug 6 18:16:05 2014 -0400
+
+    Updated 0.4.5.10 release date
+
+commit 2e3ca9b198ee983c94972d1701a3f3bfe35eef19
+Author: Marv Schneider <marv@engine.co>
+Date:   Tue Aug 5 19:27:30 2014 -0400
+
+    added liquidity bonus examples, fixed liquidity typo
+    
+    removed satoshi reference
+
+commit 9e0069940218be98a67f70796c3cc5bd9451ed6c
+Merge: 96132fb b24e757
+Author: Marv Schneider <marv@engine.co>
+Date:   Thu Jul 17 18:00:17 2014 -0400
+
+    Merge pull request #227 from marv-engine/clarify_tx3
+    
+    clarified tx3 a) Test MSC fee for Test ecosystem currencies, b) if sender is sole owner then invalid
+
+commit b24e757c012bc3e240b74a1f6add251a36bb7906
+Author: Marv Schneider <marv@engine.co>
+Date:   Thu Jul 17 17:36:27 2014 -0400
+
+    clarified tx3 Test MSC fee, sender sole owner invalid
+
+commit 96132fb7d4a85f348e11a1d6c0e791d65ec1eaed
+Merge: 416b497 7bcb7db
+Author: dacoinminster <jr@cozi.com>
+Date:   Tue Jul 15 09:03:25 2014 -0700
+
+    Merge pull request #217 from marv-engine/send_to_owners
+    
+    fleshed out Send to Owners (tx3) descriptioin
+
+commit 7bcb7db4f7bfbbdb6f248b696226b0dc693b1db5
+Author: Marv Schneider <marv@engine.co>
+Date:   Fri Jul 11 09:48:19 2014 -0400
+
+    Cleaned up Send to Owners after group review
+    
+    doesn't include doc-wide changing:
+    * currency to property
+    * coin to token
+
+commit baa37be865a7612bac414cb3f602a4232a2b60f0
+Author: Marv Schneider <marv@engine.co>
+Date:   Wed Jul 9 09:07:19 2014 -0400
+
+    added transfer fee for tx3 - Send to Owners
+
+commit 4c7c28164701e05d062ff93d65953df2f917284e
+Author: zathras-crypto <zathrasc@gmail.com>
+Date:   Fri Jul 4 16:57:54 2014 +1000
+
+    Match specw/code append/replace not yet supported
+
+commit eda9018c1960df7a9f9d60dab66a69935fbac7fe
+Author: Marv Schneider <marv@engine.co>
+Date:   Thu Jul 3 12:02:39 2014 -0400
+
+    removed obsolete paragraph about Send to Owners
+
+commit 74035719cb0ca720d28ddc4683653a40dcf37170
+Author: Marv Schneider <marv@engine.co>
+Date:   Mon Jun 30 13:14:19 2014 -0400
+
+    fleshed out Send to Owners (tx3) descriptioin
+    
+    * renamed from Send to All
+    * relocated from Future section
+    * added implementation note for distributing coins (per J.R.)
+
+commit 416b49728a2b971029f539abf14ab97df9ab6c79
+Author: Ron Gross <ron@mastercoin.org>
+Date:   Wed Jun 25 17:44:00 2014 +0300
+
+    Link to perf issue
+
+commit c20533e2b3e229b84739542446830c589859df23
+Author: Marv Schneider <marv@engine.co>
+Date:   Mon Jun 23 17:34:34 2014 -0400
+
+    clarified liquidity fee, rounding for tx21
+
+commit 1aeffd53eeb4663663ce82251da9d4a00a215579
+Author: Marv Schneider <marv@engine.co>
+Date:   Fri Jun 20 17:18:10 2014 -0400
+
+    another interim save
+
+commit d5feb18a9d68f2e3b892628e85b26476fb4488a9
+Author: Marv Schneider <marv@engine.co>
+Date:   Thu Jun 19 19:38:43 2014 -0400
+
+    intermediate clarification of tx21
+
+commit dcde1acb8b162fdb6ef767e354c272aacc831a3b
+Merge: 4b1160b af7a1c1
+Author: Marv Schneider <marv@engine.co>
+Date:   Wed Jun 18 17:51:05 2014 -0400
+
+    Merge pull request #211 from dacoinminster/master
+    
+    Clean up dividends language. Tx description still needs to be fleshed out.
+
+commit af7a1c1044fd69cb59091cbc47b274eb260c09bb
+Author: J.R. Willett <jr.willett@gmail.com>
+Date:   Wed Jun 18 14:08:36 2014 -0700
+
+    cleaned up "dividends" language to make sure it is clear there are lots of use cases for "send to all", and that we don't encourage illegal behavior!
+
+commit 4b1160ba1a1daa8fa0eb46fb738f09ff1ad2a1c5
+Merge: 8d59658 b4743ba
+Author: dacoinminster <jr@cozi.com>
+Date:   Fri Jun 13 13:28:48 2014 -0700
+
+    Merge pull request #203 from marv-engine/tx51_accepts_btc
+    
+    added calculation to crowdsale to not exceed max # of tokens issuable
+
+commit b4743bad5a1473857b0babe2254d1532eda2f0a3
+Author: Marv Schneider <marv@engine.co>
+Date:   Fri Jun 13 11:05:55 2014 -0400
+
+    Fixed crowdsale description for issuing max # of tokens
+
+commit 925fb95e213e8bacea9e3c2dfecd457f0d0d26ef
+Author: Marv Schneider <marv@engine.co>
+Date:   Thu Jun 12 20:06:08 2014 -0400
+
+    added calculation to crowdsale to not exceed max # of tokens issuable
+
+commit 8d5965872a663b8234b20d9b0ebbd4231670355f
+Merge: 6e2cb1e e4bba3b
+Author: dacoinminster <jr@cozi.com>
+Date:   Thu Jun 12 16:15:19 2014 -0700
+
+    Merge pull request #185 from marv-engine/tx51_accepts_btc
+    
+    Tx51 (crowdsale) version 1 accepts multiple currencies, including bitcoins
+
+commit e4bba3b59d303d47d73a8e21b8273afea122a0ff
+Author: Marv Schneider <marv@engine.co>
+Date:   Thu Jun 12 19:14:38 2014 -0400
+
+    a couple of tweaks from today's group review
+
+commit 6e2cb1eae9b7da888f96ebf060914cb9f5c9f44e
+Author: dacoinminster <jr@cozi.com>
+Date:   Wed Jun 11 17:12:24 2014 -0700
+
+    Update RoleBasedBounties.md
+
+commit 3e7f09661b587019d7553e7c5107cca2dbfd287c
+Author: dacoinminster <jr@cozi.com>
+Date:   Wed Jun 11 17:11:00 2014 -0700
+
+    Update RoleBasedBounties.md
+
+commit 151622a04b6fdadcacfc072e0d47f46b3ae63095
+Author: Ron Gross <ron@mastercoin.org>
+Date:   Wed Jun 11 23:14:24 2014 +0300
+
+    Link to burning post
+
+commit f319a5faad1e9ae5b552b57445ecd91c7cbbeb4a
+Author: Ron Gross <ron@mastercoin.org>
+Date:   Wed Jun 11 06:57:36 2014 +0300
+
+    Removed line about Peter
+
+commit 6238e7ef7a8d5c293f8d39c4c3305f342fd5d69e
+Author: Ron Gross <ron@mastercoin.org>
+Date:   Tue Jun 10 10:09:03 2014 +0300
+
+    fix formatting
+
+commit 0b1566e49e72bbc2491a1155e602577754809cef
+Author: Ron Gross <ron@mastercoin.org>
+Date:   Tue Jun 10 10:08:38 2014 +0300
+
+    Link to Appcoins doc
+
+commit ba3905f4f343cbb3b7b8a3b719ab731b6f8bc875
+Author: Ron Gross <ron@mastercoin.org>
+Date:   Tue Jun 10 10:07:56 2014 +0300
+
+    Encourage pull requests
+
+commit 9c6c3540a8a1148661e6708ae155336cc7de814b
+Author: Ron Gross <ron@mastercoin.org>
+Date:   Tue Jun 10 10:07:22 2014 +0300
+
+    Basic formatting
+
+commit 6c9a50e59945568d0dde2a0693b03c2d5b2ff1d2
+Author: Ron Gross <ron@mastercoin.org>
+Date:   Tue Jun 10 10:01:36 2014 +0300
+
+    Verbatim copy-paste from the doc
+    
+    https://docs.google.com/document/d/1X_Aofk7JDcEgvHyu2ZQ8_yCykylo-lI2CzDw2lWV0QQ/edit
+
+commit 6c736ab4001dacf8e822c3662da71a8319580f29
+Author: Marv Schneider <marv@engine.co>
+Date:   Sat Jun 7 09:45:19 2014 -0400
+
+    replaced all "tx" with "Transaction type" in the text
+
+commit c93b281aa17aac642c5b8a38bb10e44094197906
+Author: Marv Schneider <marv@engine.co>
+Date:   Fri Jun 6 11:23:07 2014 -0400
+
+    clarified Participating in a Crowdsale desc.
+    
+    tweaked the wording to account for a crowdsale accepting multiple currencies.
+
+commit db82eef90084e4af24e4563f3673d34256c74e84
+Author: Marv Schneider <marv@engine.co>
+Date:   Fri Jun 6 11:10:48 2014 -0400
+
+    Clarified which tx51 fields can be changed
+
+commit 1dad190d943ac5a10f92adb6540bd307bd068526
+Author: Marv Schneider <marv@engine.co>
+Date:   Thu Jun 5 19:22:13 2014 -0400
+
+    added multiple currency support to tx51; need answers to
+    
+    https://github.com/mastercoin-MSC/spec/pull/185#issuecomment-45281671
+    https://github.com/mastercoin-MSC/spec/pull/185#issuecomment-45284533
+
+commit 80345120cf114a6038fad8df4be2211e01eefddb
+Author: Marv Schneider <marv@engine.co>
+Date:   Thu Jun 5 16:17:50 2014 -0400
+
+    Reverted early bird bonus percentage to original description
+
+commit cddc1aa6c717d6c8d43de8362d8e08fe708cb47c
+Author: Marv Schneider <marv@engine.co>
+Date:   Tue Jun 3 20:08:18 2014 -0400
+
+    Intermediate update after group review
+    
+    still needs:
+    * .3% liquidity bonus
+    * rounding up for fractional quantities of indivisible coins
+
+commit 635e52e2bbe6a17d38cf4bfa190924648b90ca63
+Author: Marv Schneider <marv@engine.co>
+Date:   Mon Jun 2 17:41:12 2014 -0400
+
+    Tx51 (crowdsale) version 1 accepts bitcoins
+    
+    We need to specify the block number where tx51 version 1 will be turned on.
+    
+    * tx51 version 1 allows 0 (bitcoin) for Currency Identifier desired
+    * early bird bonus no longer tied to weeks
+    * number of tokens issued limited by max Number of Coins value
+    * Number of Coins now a signed 8-byte integer
+
+commit fe70aab848d57b9da8e143420529e02bad040a0c
+Author: Marv Schneider <marv@engine.co>
+Date:   Wed May 21 18:21:19 2014 -0400
+
+    clarified tx21 unit price calculation, and other clean-up
+    
+    Please give this a close read to make sure the whole tx21 description is correct.
+
+commit 4ad34e11dacf0abbcc1f1a3561859d9c8c6df023
+Author: Marv Schneider <marv@engine.co>
+Date:   Mon May 19 12:14:24 2014 -0400
+
+    added blocktime to the sort for matching tx21 orders
+
+commit bae58683a6ddfa0d682da12cb7a4929370cd575b
+Merge: 7c89791 c3197df
+Author: dacoinminster <jr@cozi.com>
+Date:   Fri May 16 14:32:06 2014 -0700
+
+    Merge pull request #160 from dacoinminster/c-level-changes
+    
+    C-level compensation changes
+
+commit 4a18ae2c37777c1567d3a84c3b3a3ef6e6cec4fd
+Author: Marv Schneider <marv@engine.co>
+Date:   Fri May 16 17:13:11 2014 -0400
+
+    clarified sort order for tx21 applying existing orders
+
+commit 168a6ed1c1b5cf552b72a12a2df94109cf828900
+Author: Marv Schneider <marv@engine.co>
+Date:   Thu May 15 16:50:07 2014 -0400
+
+    Tx21 description updated, plus other cleanup
+    
+    Version and doc history to be updated.
+
+commit eb2df5daaf0f39a5035780c3203718f5f6d2e797
+Author: Marv Schneider <marv@engine.co>
+Date:   Thu May 15 14:29:31 2014 -0400
+
+    The bulk of tx21 description updates
+
+commit c7545558bc0c9403054d4f9f5bada871f42d5c3c
+Author: Marv Schneider <marv@engine.co>
+Date:   Thu May 15 10:44:19 2014 -0400
+
+    more updates to tx21, more needed
+
+commit 9f170dab3efd13a64dd1bbed071299c83e78abb0
+Author: Marv Schneider <marv@engine.co>
+Date:   Wed May 14 13:19:45 2014 -0400
+
+    Start updating tx21 description
+
+commit 7c89791faaf7070ac5e9b8022b77fc57d7177bf7
+Merge: b3dd930 976938a
+Author: dacoinminster <jr@cozi.com>
+Date:   Tue May 13 11:40:50 2014 -0700
+
+    Merge pull request #159 from dacoinminster/master
+    
+    Couple minor text changes which I just noticed I never merged
+
+commit c3197dfec0caedd5b81810dc04974337001b33c3
+Author: J.R. Willett <jr.willett@gmail.com>
+Date:   Tue May 13 11:35:10 2014 -0700
+
+    Ron, Craig, and I have been discussing C-level compensation for some time, and this document is badly out-of-date.
+    
+    I believe these changes reflect the current compensation structure for C-level people.
+
+commit 976938afc0ca8842c932555a9a72713890edeb42
+Author: J.R. Willett <jr.willett@gmail.com>
+Date:   Tue May 13 11:32:26 2014 -0700
+
+    Revert "Ron, Craig, and I have been discussing C-level compensation for some time, and this document is badly out-of-date."
+    
+    This reverts commit ebbd5233dec6afb7ac651e42490e8127938c47e2.
+
+commit ebbd5233dec6afb7ac651e42490e8127938c47e2
+Author: J.R. Willett <jr.willett@gmail.com>
+Date:   Tue May 13 11:31:11 2014 -0700
+
+    Ron, Craig, and I have been discussing C-level compensation for some time, and this document is badly out-of-date.
+    
+    I believe these changes reflect the current compensation structure for C-level people.
+
+commit 0bdb5fc918512f1e1769d635bf71b256f2cbd50b
+Merge: 40d2410 f723cea
+Author: J.R. Willett <jr.willett@gmail.com>
+Date:   Tue May 13 11:17:11 2014 -0700
+
+    Merge branch 'master' of https://github.com/dacoinminster/spec
+
+commit 40d2410e9fb31ae3746cf1014c86dc79dcbeb02b
+Author: J.R. Willett <jr.willett@gmail.com>
+Date:   Tue May 13 11:15:30 2014 -0700
+
+    Reverting some changes I don't remember making, and which are now incorrect anyway
+
+commit f723cea4a0adbc15386623f07124dc26326fc72a
+Author: J.R. Willett <jr.willett@gmail.com>
+Date:   Tue May 13 11:15:30 2014 -0700
+
+    Reverting some changes I don't remember making, and which are now incorrect anyway
+
+commit cb207ea8d17fe5f5a3a5d15735d5a79d637e657d
+Merge: bca564d b3dd930
+Author: J.R. Willett <jr.willett@gmail.com>
+Date:   Tue May 13 11:09:52 2014 -0700
+
+    Merge branch 'master' of https://github.com/mastercoin-MSC/spec
+    
+    Conflicts:
+            README.md
+
+commit b3dd93090d6f4751202062b378381a792b7c2e14
+Merge: a3bccbb 56b9fc5
+Author: dacoinminster <jr@cozi.com>
+Date:   Thu May 8 15:40:29 2014 -0700
+
+    Merge pull request #149 from dexX7/lower-dust-requirements
+    
+    Adjust output value requirements
+
+commit 56b9fc5be31e58101a216b96c07111f895d92207
+Author: dexX7 <dexx@bitwatch.co>
+Date:   Thu May 8 23:16:05 2014 +0200
+
+    Adjust output value requirements
+    
+    To address #137 the requirements of output values above the "dust
+    threshold" are removed.
+    
+    Some general words to transaction processing may be added to address
+    topics like "transaction position within a block" or how fees and output
+    values are handled in general.
+
+commit a3bccbbbd6b3696c4e8564bfd3879a8c0edfab9f
+Merge: 55aeb28 4ce80b7
+Author: dacoinminster <jr@cozi.com>
+Date:   Wed May 7 16:27:32 2014 -0700
+
+    Merge pull request #128 from gidgreen/asset-issuance
+    
+    LGTM
+
+commit 55aeb282cecebc6bc645cbe43e0c5def37914e96
+Merge: cf517f3 5ff7b2e
+Author: dacoinminster <jr@cozi.com>
+Date:   Wed May 7 16:12:50 2014 -0700
+
+    Merge pull request #107 from ripper234/increase-spend-limit
+    
+    This was approved by the board
+
+commit cf517f3a9e5d339d3fee1be8bc8d9a8c2f6e1ee7
+Merge: b7c6411 1e7e87e
+Author: dacoinminster <jr@cozi.com>
+Date:   Wed May 7 10:35:47 2014 -0700
+
+    Merge pull request #148 from zathras-crypto/new_new_master
+    
+    140 Finalization - Invalid Inputs
+
+commit 1e7e87e0af743fd0927e5b81c72550c7c0571bf5
+Author: zathras-crypto <zathrasc@gmail.com>
+Date:   Wed May 7 14:20:04 2014 +1000
+
+    140 Finalization - Invalid Inputs
+    
+    Allowing invalid inputs to be filtered and the transaction to proceed
+    with decoding changes history in simulation, so will be reversed.  Any
+    input not pay-to-pubkeyhash will invalidate a Class B transaction.
+
+commit b7c6411be75c33cc1500ccdfbdc1115e389147cd
+Merge: bd91128 3c4fc23
+Author: dacoinminster <jr@cozi.com>
+Date:   Fri May 2 10:37:59 2014 -0700
+
+    Merge pull request #141 from marv-engine/when_a_crowdsale_closes
+    
+    clarified logic for crowdsale closing
+    
+    This matches my understanding. Thanks!
+
+commit bd911282ebbbfac632dc5311965c44e114f40e8d
+Merge: 7c8363e 93127ad
+Author: dacoinminster <jr@cozi.com>
+Date:   Fri May 2 10:00:47 2014 -0700
+
+    Merge pull request #140 from zathras-crypto/new_master
+    
+    Tighten up transaction decoding rules
+    
+    Looks good. Thanks Zathras.
+
+commit 3c4fc23da066bee4ef741e998a9b3196e4d31b22
+Author: Marv Schneider <marv@engine.co>
+Date:   Fri May 2 09:31:41 2014 -0400
+
+    clarified logic for crowdsale closing
+
+commit 93127ad89028c0d599b42c0df2415c17e571b4ad
+Author: zathras-crypto <zathrasc@gmail.com>
+Date:   Fri May 2 15:01:57 2014 +1000
+
+    Fix wording the blurs original change model
+
+commit c17f3c9263ea1bf711e4ccc746b4b6c80f443480
+Author: zathras-crypto <zathrasc@gmail.com>
+Date:   Fri May 2 13:37:58 2014 +1000
+
+    final nuts and bolts
+
+commit 2cd58f1c83599557d316a6b94621b3002b6353ff
+Author: zathras-crypto <zathrasc@gmail.com>
+Date:   Fri May 2 13:17:53 2014 +1000
+
+    0.4.5.7 - button up ambiguities in decoding
+
+commit 7c8363ebcc8a2d1372f6e5acb7fa29610cdc2935
+Merge: eb6a467 65fefd0
+Author: dacoinminster <jr@cozi.com>
+Date:   Mon Apr 21 11:32:56 2014 -0700
+
+    Merge pull request #129 from marv-engine/SP_fundsnotlocked_othercleanup
+    
+    Crowdsale funds are NOT locked; added SP validity conditions
+
+commit 65fefd00266f13a119ac4175f5005166642bef49
+Author: Marv Schneider <marv@engine.co>
+Date:   Sat Apr 19 08:41:20 2014 -0400
+
+    fixed SP Property Type validity req;
+    
+    also clarified when a crowdsale is "active", strings are Unicode in UTF-8
+
+commit 2ef1fb8546f8929c12f40323a0b2fb88d311e790
+Author: Marv Schneider <marv@engine.co>
+Date:   Fri Apr 18 11:06:55 2014 -0400
+
+    Crowdsale funds are NOT locked; added SP validity conditions
+
+commit 4ce80b710bbee1baf56b3ac57ae004e8623a3b3c
+Author: Gideon Greenspan <github@gidgreen.com>
+Date:   Wed Apr 16 22:13:34 2014 +0100
+
+    Following discussion with Flavien
+
+commit eb6a467920592cf9a71b097174782d8bf6ec0b1c
+Merge: fa06c58 0eb4af2
+Author: dacoinminster <jr@cozi.com>
+Date:   Tue Apr 15 15:33:45 2014 -0700
+
+    Merge pull request #122 from marv-engine/fix_number_of_coins_desc
+    
+    Added desc for indiv coins to Number of coins field
+
+commit 0eb4af29db04f0aca2b1e1b0ac7371c41ec746db
+Author: Marv Schneider <marv@engine.co>
+Date:   Tue Apr 15 12:06:32 2014 -0400
+
+    manual close doesn't affect early bird bonus calcs
+
+commit 695804836d61b3ace7f79e88f6b05aad28c6d468
+Author: Marv Schneider <marv@engine.co>
+Date:   Tue Apr 15 11:49:13 2014 -0400
+
+    added description of early-bird bonus calculation
+
+commit 6e54d102030020287a8ed1d8a50a2dbd1c84a978
+Author: Marv Schneider <marv@engine.co>
+Date:   Mon Apr 14 16:45:50 2014 -0400
+
+    corrected # of tokens credited to include early-bird bonus
+
+commit 8869661e0eb031cf04465e01669c4ff2dbb584c5
+Author: Marv Schneider <marv@engine.co>
+Date:   Mon Apr 14 09:55:37 2014 -0400
+
+    Added desc for indiv coins to Number of coins field
+
+commit fa06c583d8a53e5a2db1eada305ae1934dd7adbb
+Merge: 4295c5c ffae288
+Author: dacoinminster <jr@cozi.com>
+Date:   Thu Apr 10 11:54:09 2014 -0700
+
+    Merge pull request #119 from marv-engine/fix_sends_above_balance
+    
+    Corrected/clarified invalid Simple Send conditions
+    
+    I think we're all agreed on this - we're just matching what we already agreed to and what the code already does.
+
+commit ffae28812edbb9292b38374bca20867bb9b357a0
+Author: Marv Schneider <marv@engine.co>
+Date:   Wed Apr 9 19:30:09 2014 -0400
+
+    Corrected/clarified invalid Simple Send conditions
+    
+    Correction made: it's not valid to send more coins than are owned and available.
+    
+    Updated the doc version
+
+commit 4295c5c2cd84a6c74d5a358933442d02ae99d225
+Merge: b02799b a0a6323
+Author: dacoinminster <jr@cozi.com>
+Date:   Tue Apr 8 10:41:43 2014 -0700
+
+    Merge pull request #117 from chmac/patch-1
+    
+    Ecommerce feedback formula typo correction
+    
+    Per our skype discussion, we agreed this is a typo. Thanks!
+    
+    I've been thinking about further changes to this formula which I need to make. Hopefully soon.
+
+commit a0a6323812c9c965e89e3ef367f2c4db4e864248
+Author: Callum Macdonald <github.com@callum-macdonald.com>
+Date:   Tue Apr 8 10:50:04 2014 +0200
+
+    Ecommerce feedback formula typo correction
+
+commit b02799b8a64dd356d276bb7fea16190edae8ce95
+Merge: d8303ae c377cdd
+Author: CraigSellars <CraigSellars@users.noreply.github.com>
+Date:   Sun Apr 6 16:13:38 2014 -0400
+
+    Merge pull request #116 from CraigSellars/master
+    
+    Modified "fundraiser" to read "crowdsale"
+
+commit c377cdd1fa010ebbd4dbe7bed30b693f2ceace01
+Author: Craig Sellars <craig@mastercoin.org>
+Date:   Sun Apr 6 16:10:25 2014 -0400
+
+    Modified "fundraiser" to read "crowdsale"
+    
+    “fundraiser” does not accurately describe the purpose of this
+    transaction type, while “crowdsale” more accurately describes the
+    purpose and intent
+
+commit d8303ae1be5dbcafbf79969d4603e7fab3434565
+Merge: cb1d47f 007905b
+Author: dacoinminster <jr@cozi.com>
+Date:   Thu Apr 3 11:49:02 2014 -0700
+
+    Merge pull request #114 from marv-engine/smart_prop_fixes
+    
+    This looks good. Thanks!
+
+commit 007905b4b97a348b539aacc4f2d40dd80521366d
+Author: Marv Schneider <marv@engine.co>
+Date:   Thu Apr 3 13:32:42 2014 -0400
+
+    Correct "Close a Fundraiser Manually", tokens aren't locked in a fundraiser
+    
+    other cleanup/clarifications.
+
+commit cb1d47f29537f78ff812bb5441733e9c13c2f0cc
+Merge: a4f6d11 831a463
+Author: dacoinminster <jr@cozi.com>
+Date:   Wed Apr 2 11:58:53 2014 -0700
+
+    Merge pull request #97 from marv-engine/smart_prop_fixes
+    
+    Merge now, cleanup more later if needed :)
+
+commit a4f6d1160b7fb48b0c3e88fbf6598da3c1712088
+Merge: fb0cbf9 3adbe63
+Author: dacoinminster <jr@cozi.com>
+Date:   Wed Apr 2 09:19:26 2014 -0700
+
+    Merge pull request #110 from curtislacy/Fundraiser-Close
+    
+    I think this is the right direction to go. The pull request is pretty much exactly what I was going to write myself. I'm not closing debate on this if you guys want to discuss further, but I don't think we are likely to do an action byte either.
+
+commit 3adbe6364a78725e93fb894d8149f2cd9d5dc5e9
+Author: Curtis Lacy <curtis@engine.co>
+Date:   Tue Apr 1 11:43:21 2014 -0400
+
+    Added TX 53 to manually close a fundraiser.
+
+commit 5ff7b2e06d74c46751b5fbea151402866fc65d2f
+Author: Ron Gross <ron.gross@gmail.com>
+Date:   Sun Mar 30 18:30:41 2014 +0300
+
+    Increase limit for Ex Director spending from 10K USD to 15K USD
+
+commit 831a4632672ace249cc6025562f9d53be60ed41c
+Author: Marv Schneider <marv@engine.co>
+Date:   Fri Mar 28 16:48:42 2014 -0400
+
+    more clarity on replacing/appending SPs, currency id values
+
+commit 329bd816acd1ca6b8f2d0d8e410c8d3b95f266ca
+Author: Marv Schneider <marv@engine.co>
+Date:   Fri Mar 28 10:13:12 2014 -0400
+
+    Fixed typos, errors; clarified ecosystem & replace/append
+    
+    Still some questions pending, see issues #102, #103, #104.
+
+commit fb0cbf9c23ba15d58a5b42b47cbd88e24f83931d
+Merge: 26712d0 0b7ac5c
+Author: dacoinminster <jr@cozi.com>
+Date:   Thu Mar 27 11:30:54 2014 -0700
+
+    Merge pull request #68 from gidgreen/asset-issuance
+    
+    Per the very long discussion above, this is now ready for merging!
+
+commit e2ec8062055c6c89283ea58d70ce6b4573e7d499
+Author: Marv Schneider <marv@engine.co>
+Date:   Thu Mar 27 13:49:26 2014 -0400
+
+    Fix issuer share calculation error, clarify tx 22 behavior
+
+commit 1c94f5d37b6b24c147d6329dac4d1e941c412ec6
+Author: Marv Schneider <marv@engine.co>
+Date:   Wed Mar 26 19:14:03 2014 -0400
+
+    added "go live" block number for DEx
+
+commit 2705ce9e81bdb48e81d71f87007184a6b94f690b
+Author: Marv Schneider <marv@engine.co>
+Date:   Wed Mar 26 19:06:11 2014 -0400
+
+    Clarified aspects of smart property creation; other cleanup
+
+commit 26712d0b2f5aaefd80cb1d56cd577a72786ae647
+Author: Faiz Khan <faizkhan00@gmail.com>
+Date:   Wed Mar 26 11:28:54 2014 -0500
+
+    Update SP example
+    
+    1. [Property URL](#field-string-null-terminated)  = “tinyurl.com/kwejgoig\0” (21 bytes)
+    
+    this was listed as 22 bytes, but I count 21
+
+commit 0b7ac5c67a32902b575a2d14fe59c6a8a7dbc18f
+Author: Gideon Greenspan <github@gidgreen.com>
+Date:   Wed Mar 26 14:29:21 2014 +0200
+
+    Maximum lengths of some fields
+
+commit 3cc6f0c26a4ed5dbd987a8010d06050f69a49624
+Merge: b49eed4 1c562f1
+Author: dacoinminster <jr@cozi.com>
+Date:   Mon Mar 24 11:35:53 2014 -0700
+
+    Merge pull request #91 from dexX7/master
+    
+    Refine transaction class B definition
+    
+    Looks good
+
+commit 1c562f11c461db4db8236e37462e85b7b05e6379
+Author: dexX7 <dexx@bitwatch.co>
+Date:   Sat Mar 22 04:48:25 2014 +0100
+
+    Refine transaction class B definition
+    
+    Switched from an imperative to suggestive phrasing of transaction class
+    B requirements. Added enforced order of data packages.
+
+commit 252761a8c2875acbb83a5509128f0e03f6bf43d9
+Author: Gideon Greenspan <github@gidgreen.com>
+Date:   Thu Mar 20 06:50:36 2014 +0200
+
+    Converted to JSON, some extra fields
+
+commit 560f44ac9e32b8bfd7bc2a04f7d143e318356d21
+Author: Gideon Greenspan <github@gidgreen.com>
+Date:   Thu Mar 20 06:47:56 2014 +0200
+
+    Converted to JSON, some extra fields
+
+commit bca564d38872a81f5e1a43dca16d1f709e4ac6ce
+Author: dacoinminster <jr (dot) willett (at) gmail (dot) com>
+Date:   Wed Mar 19 14:53:39 2014 -0700
+
+    Fix for issue #83
+
+commit 64b2568656ec3782516da81d2b7eb760b3feeef5
+Author: dacoinminster <jr (dot) willett (at) gmail (dot) com>
+Date:   Tue Mar 18 12:31:15 2014 -0700
+
+    Update for issue #80
+
+commit aa0ea630e58387f778fa041a21706236c24330e2
+Author: dacoinminster <jr (dot) willett (at) gmail (dot) com>
+Date:   Mon Mar 17 17:01:44 2014 -0700
+
+    Fix for issue #79
+
+commit 85021a2efd935817e4fc25552a4f5c58faf6d956
+Merge: 2ad83a4 b49eed4
+Author: dacoinminster <jr (dot) willett (at) gmail (dot) com>
+Date:   Mon Mar 17 11:19:17 2014 -0700
+
+    Merge branch 'master' of https://github.com/mastercoin-MSC/spec
+
+commit 2ad83a40c0a92d95e99005c34ffae36f2449192d
+Author: dacoinminster <jr (dot) willett (at) gmail (dot) com>
+Date:   Mon Mar 17 11:18:16 2014 -0700
+
+    Revert "Dom pointed out we can remove complexity by removing the asset reserved for the issuer"
+    
+    This reverts commit 5cc48c635f6f03e51df3b5e1146e29ae4996ef4f.
+
+commit 0daab38357ab5c49a5913f20e1e5741f28a9f686
+Author: dacoinminster <jr (dot) willett (at) gmail (dot) com>
+Date:   Mon Mar 17 10:23:28 2014 -0700
+
+    Fix for issue #80
+
+commit 8c4a2564c7c502c2eb5c049b07bdd35b2496ecf9
+Author: Gideon Greenspan <github@gidgreen.com>
+Date:   Sat Mar 15 17:50:02 2014 +0200
+
+    Minor fixes and typos
+
+commit ac7c71a1459ddabb2651784e23b472d36f5b63fa
+Author: Gideon Greenspan <github@gidgreen.com>
+Date:   Sat Mar 15 16:34:23 2014 +0200
+
+    Interest, expiry, max sizes, allow redirection, XSS recommendation
+
+commit b49eed48704c092db6dc28cc8e85815e76a533f6
+Author: Ron Gross <ron.gross@gmail.com>
+Date:   Fri Mar 14 01:21:56 2014 +0200
+
+    minor
+
+commit f05133353d922c78f478a7f572b3489954aebb66
+Author: Ron Gross <ron.gross@gmail.com>
+Date:   Fri Mar 14 01:20:47 2014 +0200
+
+    Adjust appendix E - fees - to a 650 USD value for 1 BTC
+
+commit 71023f7a8b646175c4c9a96fa2266f0a9ea648a9
+Author: Gideon Greenspan <github@gidgreen.com>
+Date:   Thu Mar 13 10:53:39 2014 +0200
+
+    Simpler and microformats-based
+
+commit 0ca2697ca0d8b9ec9cfa9516a978bbb5405c0b23
+Author: Gideon Greenspan <github@gidgreen.com>
+Date:   Thu Mar 13 10:51:29 2014 +0200
+
+    Simpler and microformats-based
+
+commit 6bc1e01a67a70734477382d385f27ef5df47b23e
+Author: Gideon Greenspan <github@gidgreen.com>
+Date:   Thu Mar 13 10:37:58 2014 +0200
+
+    Simpler and microformats-based
+
+commit 6d466b6d1c5004c90aa8efe67c89eea14224e5a7
+Author: Gideon Greenspan <github@gidgreen.com>
+Date:   Thu Mar 13 10:32:24 2014 +0200
+
+    Simpler and microformats-based
+
+commit 1d34030a18bf5e878bbf14ee2dfbe8bb2cd4264b
+Author: Gideon Greenspan <github@gidgreen.com>
+Date:   Thu Mar 13 10:25:55 2014 +0200
+
+    Simpler and microformats-based
+
+commit 5cc48c635f6f03e51df3b5e1146e29ae4996ef4f
+Author: dacoinminster <jr (dot) willett (at) gmail (dot) com>
+Date:   Tue Mar 11 16:59:19 2014 -0700
+
+    Dom pointed out we can remove complexity by removing the asset reserved for the issuer
+    
+    They can always buy their asset with the kickstarter money they received.
+
+commit 7aeea6e56f4dac21a95311c1e691e5a0eda60560
+Merge: 04ff59c af61693
+Author: dacoinminster <jr (dot) willett (at) gmail (dot) com>
+Date:   Tue Mar 11 16:50:07 2014 -0700
+
+    Merge branch 'master' of https://github.com/mastercoin-MSC/spec
+
+commit 04ff59ce5cb6fe66af21b9b385e57b07270b5161
+Author: dacoinminster <jr (dot) willett (at) gmail (dot) com>
+Date:   Mon Mar 10 11:03:54 2014 -0700
+
+    Fix for issue #76 - simple sends exceeding the balance available are actually invalid.
+
+commit af61693f80acd16f57facc2e38b031089aab7fc9
+Merge: fe0184d 866afe2
+Author: Marv Schneider <marv@engine.co>
+Date:   Thu Mar 6 16:56:53 2014 -0500
+
+    Merge pull request #74 from dacoinminster/master
+    
+    Make explicit that bytes after a packet are ignored, and can have any va...
+
+commit 866afe253949d5abc32e3cdf6389c3b953ce1925
+Author: dacoinminster <jr (dot) willett (at) gmail (dot) com>
+Date:   Thu Mar 6 13:06:02 2014 -0800
+
+    Make explicit that bytes after a packet are ignored, and can have any value.
+
+commit fe0184dd315c1de19de48d29312f3d16cfeaa0d5
+Merge: 5a149a8 b7b8153
+Author: Ron Gross <ron.gross@gmail.com>
+Date:   Thu Mar 6 15:24:22 2014 +0200
+
+    Merge pull request #71 from zynis/master
+    
+    Fixed 2 Broken Internal Links
+
+commit b7b8153503d48d0f3f6012519d3d93a30951b347
+Author: Dominik <dominik.zynis@gmail.com>
+Date:   Thu Mar 6 14:17:11 2014 +0100
+
+    broken links fixed
+    
+    20: Sell Coins for Bitcoins (currency trade offer)
+    https://github.com/mastercoin-MSC/spec#sell-coins-for-bitcoins
+    
+    should be linked to
+    https://github.com/mastercoin-MSC/spec#sell-mastercoins-for-bitcoins
+    
+    likewise
+    
+    22: Purchase Coins with Bitcoins (accept currency trade offer)
+    https://github.com/mastercoin-MSC/spec#purchase-coins-with-bitcoins
+    
+    should be linked to
+    
+    https://github.com/mastercoin-MSC/spec#purchase-mastercoins-with-bitcoins
+
+commit 49f3621d5b944670e8a5261faba366d86d2638be
+Merge: 04d7dba 5a149a8
+Author: Dominik <dominik.zynis@gmail.com>
+Date:   Thu Mar 6 14:14:19 2014 +0100
+
+    Merge pull request #1 from mastercoin-MSC/master
+    
+    getting update
+
+commit 5a149a8babeb63c374bc3b1b2d256ab8316619e1
+Merge: 5add1ab a095e54
+Author: dacoinminster <jr@cozi.com>
+Date:   Wed Mar 5 13:15:55 2014 -0800
+
+    Merge pull request #70 from marv-engine/sell_offer_fix
+    
+    Reviewed. These clarifications were agreed to in email discussions.
+
+commit 5add1abb98cfad3963befd00d568c8f3f78cd1a3
+Merge: dfc3ec7 99e5ce2
+Author: Marv Schneider <marv@engine.co>
+Date:   Wed Mar 5 12:23:02 2014 -0500
+
+    Merge pull request #66 from dacoinminster/master
+    
+    Fix for issue #64 (ambiguous investments) and issue #67 (underpayment clarification)
+
+commit 99e5ce2978cfdaee609e45cae42c9018eab205b4
+Merge: 83d6c2a 2a39e86
+Author: dacoinminster <jr (dot) willett (at) gmail (dot) com>
+Date:   Wed Mar 5 09:12:24 2014 -0800
+
+    Fix for issue #67 - underpayment clarification
+
+commit 83d6c2a8823270b6c09fc3a31580cb3151915024
+Author: dacoinminster <jr (dot) willett (at) gmail (dot) com>
+Date:   Wed Mar 5 09:06:02 2014 -0800
+
+    Fix for issue #67 - underpayment clarification
+
+commit 2a39e86c35483b690adb6bcbd36f388163cd5ced
+Author: dacoinminster <jr (dot) willett (at) gmail (dot) com>
+Date:   Wed Mar 5 09:06:02 2014 -0800
+
+    Fix for issue #67 - underpayment clarification
+
+commit a095e54eaf3ed7bfa486e13268f47594717df8bc
+Author: Marv Schneider <marv@engine.co>
+Date:   Wed Mar 5 11:35:38 2014 -0500
+
+    Ignore certain fields when canceling a sell offer
+
+commit d7ebf50364447cad9b21b3cb576e34ebeef74c49
+Merge: edb3c85 dfc3ec7
+Author: Marv Schneider <marv@engine.co>
+Date:   Wed Mar 5 10:18:05 2014 -0500
+
+    Merge pull request #1 from mastercoin-MSC/master
+    
+    Get the latest from mastercoin-MSC:master
+
+commit b6df6cb66cd6611865d8c08071c5a5c9286d8618
+Author: Gideon Greenspan <github@gidgreen.com>
+Date:   Wed Mar 5 10:47:54 2014 +0200
+
+    Asset issuance proposal
+
+commit 6a5156b244b2bad0d9e330decf6f9f2a053249ee
+Author: dacoinminster <jr (dot) willett (at) gmail (dot) com>
+Date:   Tue Mar 4 14:59:18 2014 -0800
+
+    Fix for issue #64 (ambiguous investments)
+
+commit dfc3ec773c562476b3142b7592fb5f60de49b445
+Merge: 8edf49a bfdcbe4
+Author: dacoinminster <jr@cozi.com>
+Date:   Tue Mar 4 14:48:51 2014 -0800
+
+    Merge pull request #60 from dacoinminster/master
+    
+    We've decided (in the dev mailing list) to not allow the buyer to purcha...
+
+commit bfdcbe455bc64cdaecf992ddc5a639c98a982198
+Author: dacoinminster <jr (dot) willett (at) gmail (dot) com>
+Date:   Mon Mar 3 16:46:57 2014 -0800
+
+    We've decided (in the dev mailing list) to not allow the buyer to purchase more btc than they reserved.
+    
+    That is, overpayments are now simply lost bitcoins, rather than trying to write logic to determine if there are some unreserved coins for sale that the buyer could have in exchange for their overpayment.
+    
+    Keeping it simple!
+
+commit 8edf49aa207976ba611040b8100cd6972e555af5
+Merge: 398a426 edb3c85
+Author: dacoinminster <jr@cozi.com>
+Date:   Mon Mar 3 15:52:24 2014 -0800
+
+    Merge pull request #59 from marv-engine/sell_offer_fix
+    
+    clarified tx 20 behavior re: available balance vs reserved, committed, escrowed
+
+commit edb3c85391f89ff23428d032710bb3d3d10fa2c5
+Author: Marv Schneider <marv@engine.co>
+Date:   Mon Mar 3 15:13:22 2014 -0500
+
+    updated version to 0.4.5.1
+
+commit 897b4189462090b079217c9fa7be32421ae5e6da
+Author: Marv Schneider <marv@engine.co>
+Date:   Mon Mar 3 14:36:06 2014 -0500
+
+    clarified tx 20 behavior
+
+commit 398a426d8eecb281d085f4cf143de87bbed66d4d
+Merge: 6cca883 cd06955
+Author: dacoinminster <jr@cozi.com>
+Date:   Wed Feb 26 15:36:40 2014 -0800
+
+    Merge pull request #57 from dacoinminster/master
+    
+    We already approved this awhile back under PR #46, but that one couldn't be merged automatically, so I created this one.
+
+commit cd06955fe47e610030742a384f66af916da84958
+Merge: dadbbdb 6cca883
+Author: dacoinminster <jr (dot) willett (at) gmail (dot) com>
+Date:   Wed Feb 26 15:33:18 2014 -0800
+
+    Merge branch 'master' of https://github.com/mastercoin-MSC/spec
+
+commit dadbbdb54475aefd695090e9ed45f8c6c8f67149
+Author: dacoinminster <jr (dot) willett (at) gmail (dot) com>
+Date:   Wed Feb 26 15:32:48 2014 -0800
+
+    Changes from pull request #46 which need to be merged in
+
+commit 6cca8836db4af096743b5548963d0a2d6720559c
+Merge: 51270f5 0a02da5
+Author: Marv Schneider <marv@engine.co>
+Date:   Tue Feb 25 11:05:58 2014 -0500
+
+    Merge pull request #52 from dacoinminster/master
+    
+    Added smart property fundraisers, improvements to other future features
+
+commit 0a02da5862e4efbfd9dd9170b49b8bfa3a163641
+Author: dacoinminster <jr (dot) willett (at) gmail (dot) com>
+Date:   Mon Feb 24 15:33:12 2014 -0800
+
+    Adding a general purpose data field which can be used to store contract hash for a property (proof of existence)
+
+commit 8617b7114ec86ad85da29a8ecc3017f62b85d7a5
+Author: dacoinminster <jr (dot) willett (at) gmail (dot) com>
+Date:   Fri Feb 21 14:40:10 2014 -0800
+
+    More changes from Marv's comments
+
+commit 09ef8ae5e0c1ae40180622dcf875469c67f991ad
+Author: dacoinminster <jr (dot) willett (at) gmail (dot) com>
+Date:   Fri Feb 21 14:17:39 2014 -0800
+
+    More changes from Marv's comments
+
+commit a2c0144f3d08b7e7419de1d570ebd696f2370bd1
+Author: dacoinminster <jr (dot) willett (at) gmail (dot) com>
+Date:   Fri Feb 21 08:50:47 2014 -0800
+
+    More changes from Marv's comments
+
+commit bc7391d04448b2b0b93269a6800ffcb1c3ee715f
+Author: dacoinminster <jr (dot) willett (at) gmail (dot) com>
+Date:   Thu Feb 20 17:32:48 2014 -0800
+
+    Some of the changes needed after reading Marv's comments about my pull request
+
+commit 5821ca719e123fe110a6d4c5c177ef107f8926ce
+Author: dacoinminster <jr (dot) willett (at) gmail (dot) com>
+Date:   Thu Feb 20 10:54:11 2014 -0800
+
+    Better summary of how to handle version 0 sell offers
+
+commit dbc4f154fd53bc3e75a555b321cd17f5ce72b568
+Author: dacoinminster <jr (dot) willett (at) gmail (dot) com>
+Date:   Thu Feb 20 10:49:58 2014 -0800
+
+    How to handle transaction version numbers
+
+commit 793ba7e3b66ef91875292ceb20068485ec934c2d
+Author: dacoinminster <jr (dot) willett (at) gmail (dot) com>
+Date:   Wed Feb 19 17:26:13 2014 -0800
+
+    Added best practices for handling bitcoin reorgs
+
+commit 87d81aeabd157d1599e8dcc0c07fcec6dd258b2a
+Author: dacoinminster <jr (dot) willett (at) gmail (dot) com>
+Date:   Wed Feb 19 16:25:23 2014 -0800
+
+    Clarification requested by Marv
+
+commit e47ae67bfd1db42fa2213f53925c52ffdca7dab9
+Author: dacoinminster <jr (dot) willett (at) gmail (dot) com>
+Date:   Wed Feb 19 16:14:30 2014 -0800
+
+    Added smart property fundraisers, improvements to other future features
+    
+    Also various cleanup and clarifications
+
+commit 51270f55fc99ad1112ef22a7bddfcc8232a74fdb
+Merge: 5c6ac2b 3476170
+Author: dacoinminster <jr@cozi.com>
+Date:   Fri Feb 14 11:16:41 2014 -0800
+
+    Merge pull request #51 from marv-engine/doc_fmt_changes
+    
+    set doc version = 0.4, corrected dust threshold value, added tx version ...
+    
+    These are all uncontroversial changes that we already discussed and agreed upon
+
+commit 347617000b14b0793542deeba4eb92e5db2a49de
+Author: Marv Schneider <marv@engine.co>
+Date:   Fri Feb 14 13:36:23 2014 -0500
+
+    set doc version = 0.4, corrected dust threshold value, added tx version = 0 to future tx's, other minor clean-up
+
+commit 5c6ac2bc1146edbfafbf107d284be0609b46afb0
+Merge: 6860e7c e6bc7ae
+Author: dacoinminster <jr@cozi.com>
+Date:   Wed Feb 12 10:42:28 2014 -0800
+
+    Merge pull request #49 from marv-engine/doc_fmt_changes
+    
+    Added tx version field; minor clean-up.
+
+commit e6bc7ae0bac63a55ab6da68f2c8e38076c0874e5
+Author: Marv Schneider <marv@engine.co>
+Date:   Wed Feb 12 13:25:05 2014 -0500
+
+    clarified that tx 0 and 21 are still version 0; for tx 22, coins that aren't paid for go back into the Sell Offer.
+
+commit 1272d15e8a6c35dcae4c4c8a18a6cfc3c6f74596
+Author: Marv Schneider <marv@engine.co>
+Date:   Tue Feb 11 17:04:01 2014 -0500
+
+    Added tx version field; minor clean-up.
+
+commit 6860e7c939657930319e05d4c39799787731ec64
+Merge: d4b5e1e 3ca8b65
+Author: dacoinminster <jr@cozi.com>
+Date:   Mon Feb 10 15:08:08 2014 -0800
+
+    Merge pull request #48 from marv-engine/doc_fmt_changes
+    
+    added field defs, defined current tx's (0, 20, 21, 22, 50) separate from...
+    
+    All these changes have been agreed to some time ago, or are just cleanup or clarification
+
+commit 3ca8b6570485c135262ac275d134d8a05b34c747
+Author: Marv Schneider <marv@engine.co>
+Date:   Mon Feb 10 17:36:09 2014 -0500
+
+    doc formatting updates, clean-up.
+
+commit c155c108f9f4c0eb835e881ed9050cd253d561d3
+Author: Marv Schneider <marv@engine.co>
+Date:   Mon Feb 10 14:03:31 2014 -0500
+
+    added field defs, defined current tx's (0, 20, 21, 22, 50) separate from futures.
+
+commit d4b5e1ecddeab5dff688cb12e5a4589257fbb97d
+Merge: cff02f2 5f4add3
+Author: dacoinminster <jr@cozi.com>
+Date:   Mon Feb 10 09:40:52 2014 -0800
+
+    Merge pull request #47 from petertodd/clarify-pkt-credit
+    
+    Clarify my role
+
+commit 5f4add3ca3449e097965fe82dcb69407697a1830
+Author: Peter Todd <pete@petertodd.org>
+Date:   Sun Feb 9 19:31:46 2014 -0500
+
+    Clarify my role
+
+commit cff02f27700181a672ca8b0d450f3e965c3114c7
+Author: Ron Gross <ron.gross@gmail.com>
+Date:   Tue Feb 4 16:46:04 2014 +0200
+
+    Add 'data feed' as a synonim for data stream
+
+commit 2e6eda1e08e9d68908c0182e23670249cf5eb5ac
+Author: Ron Gross <ron.gross@gmail.com>
+Date:   Mon Jan 20 22:32:45 2014 +0200
+
+    6 month cliff for C-level bonus
+
+commit ad83a78e0065832df4c597d2e4f76233355fd8a7
+Merge: f176989 c8c610f
+Author: Maran <maran.hidskes@gmail.com>
+Date:   Mon Jan 20 04:59:48 2014 -0800
+
+    Merge pull request #36 from zathras-crypto/master
+    
+    Class A Rule Simplification
+
+commit f17698907d282a1a4ded40c573982b132e059d2d
+Merge: f724579 0e87eeb
+Author: Ron Gross <ron.gross@gmail.com>
+Date:   Mon Jan 20 04:15:28 2014 -0800
+
+    Merge pull request #35 from maran/DExVerification
+    
+    Updated verification API for DEx
+
+commit f72457950523818457e0aceffbd48f30273ef6b7
+Merge: bfba3bd 787e92a
+Author: dacoinminster <jr@cozi.com>
+Date:   Fri Jan 17 15:28:42 2014 -0800
+
+    Merge pull request #38 from marv-engine/master
+    
+    Wait two confirmations after payment before allowing a new sell order
+
+commit 787e92a9be554d0b43f18ebcc74396ef4bf6fa37
+Author: Marv Schneider <marv@engine.co>
+Date:   Fri Jan 17 18:15:13 2014 -0500
+
+    tx=20: wait two confirmations after payment before allowing a new sell offer
+
+commit c8c610f5eac17c9a851788224bae95df7af03139
+Author: zathras-crypto <zathrasc@gmail.com>
+Date:   Thu Jan 16 15:14:20 2014 +1100
+
+    Accomodate Tachikoma's point on human control
+    
+    Tachikoma raised a valid point noting that users have control over
+    outputs but not seqnums, thus the human controlled aspect (outputs)
+    should take precedence in conflicts.  Accepted & modified to accomodate.
+
+commit bfba3bdba5070023108f33acb3c18fd21e682195
+Merge: d1a9e78 260c0a2
+Author: Maran <maran.hidskes@gmail.com>
+Date:   Tue Jan 14 14:10:02 2014 -0800
+
+    Merge pull request #34 from maran/ExodusNotes
+    
+    Dev Mastercoin clarifications
+
+commit 0e87eeb4a1875033d3d486393545db1b50329176
+Author: Maran <maran.hidskes@gmail.com>
+Date:   Tue Jan 14 22:52:47 2014 +0100
+
+    Typo and clarification
+
+commit b9b5e0bf9209e85e5f2ce3f04e16fdb88b6bbce1
+Author: zathras-crypto <zathrasc@gmail.com>
+Date:   Tue Jan 14 18:21:00 2014 +1100
+
+    Clarified wording
+
+commit dcdc005eae7c1958605ac86f75163997cc7ebe24
+Author: zathras-crypto <zathrasc@gmail.com>
+Date:   Tue Jan 14 18:13:43 2014 +1100
+
+    Qualified that one of the two same valued outputs must be the data address & that the two same valued outputs are in addition to the Exodus output.
+
+commit 6553d6c40553e4ee6c3069f4e1820d9323ec557e
+Author: zathras-crypto <zathrasc@gmail.com>
+Date:   Tue Jan 14 15:02:19 2014 +1100
+
+    Class A Rule Simplification
+    
+    Class A is only intended to provide backwards compatibility & is not
+    used in any of the respective wallet implementations or for any features
+    other than basic simple send.  Thus the effort being expended on Class A
+    does not correlate with its utility to the project and this pull is
+    intended to put Class A to bed so we can move onto other more useful
+    work.
+
+commit d1a9e78936ec5f68e680e5b8cd80fd1dc3495dea
+Author: Ron Gross <ron.gross@gmail.com>
+Date:   Mon Jan 13 11:53:30 2014 +0200
+
+    C-level signup bonus
+
+commit 006061a6da64f0ce0a375962f744506fac30828c
+Merge: 5d143b1 2107e1d
+Author: Ron Gross <ron.gross@gmail.com>
+Date:   Sun Jan 12 01:32:36 2014 -0800
+
+    Merge pull request #31 from ripper234/c-level-bonus
+    
+    C level bonus
+
+commit 8c9d7fdf333a8ed6a202b2095c2bd2dcba773c4a
+Author: Maran <maran.hidskes@gmail.com>
+Date:   Sun Jan 12 01:03:53 2014 +0100
+
+    Updated verification API for DEx
+
+commit 260c0a20a22b9af39debd8ff11525bf99e2fa82e
+Author: Maran <maran.hidskes@gmail.com>
+Date:   Sat Jan 11 22:46:20 2014 +0100
+
+    Change a word
+
+commit 143bb8fab306e21a427504d509975d7a9f1fd3d4
+Author: Maran <maran.hidskes@gmail.com>
+Date:   Sat Jan 11 22:45:00 2014 +0100
+
+    Changed start of vesting date to be the official end block date
+
+commit 8e1c4df3c6bc94da9365ee0aca6f79be3d4c5aed
+Author: Maran <maran.hidskes@gmail.com>
+Date:   Sat Jan 11 19:51:33 2014 +0100
+
+    Dev Mastercoin clarifications
+
+commit 5d143b18f15857062d448625936c5d4718e7b1e8
+Merge: f4b31cf 544c1d9
+Author: Ron Gross <ron.gross@gmail.com>
+Date:   Thu Jan 9 15:27:42 2014 -0800
+
+    Merge pull request #28 from ripper234/executive-director-expenses
+    
+    Executive Director Expenses
+    
+    All boards members voted aye. Merging.
+
+commit 2107e1d3417b416febd1205b43399365856cf43e
+Author: Ron Gross <ron.gross@gmail.com>
+Date:   Thu Jan 9 16:32:27 2014 +0200
+
+    Try to fix list
+
+commit 1810108f22829d518a0360d3a3ff294580cfc54c
+Author: Ron Gross <ron.gross@gmail.com>
+Date:   Thu Jan 9 16:30:43 2014 +0200
+
+    C-level signup bonus
+
+commit f4b31cf42eeee60f7543334a4ac695502458b935
+Author: Ron Gross <ron.gross@gmail.com>
+Date:   Tue Jan 7 22:10:29 2014 +0200
+
+    minor
+
+commit 0886c070a24c5b22f2ba1347579c08f8aa05f905
+Author: Ron Gross <ron.gross@gmail.com>
+Date:   Tue Jan 7 22:10:09 2014 +0200
+
+    linebreak
+
+commit c91487606594528ce89788f4c2ad79bb0121fffb
+Author: Ron Gross <ron.gross@gmail.com>
+Date:   Tue Jan 7 22:09:45 2014 +0200
+
+    bold
+
+commit 9ed2011de77d6003e40eff2661cc8bbb6b066319
+Author: Ron Gross <ron.gross@gmail.com>
+Date:   Tue Jan 7 22:08:58 2014 +0200
+
+    Update version
+
+commit b506b1e29a58e859c60f9001095a3894bbb39e62
+Author: Ron Gross <ron.gross@gmail.com>
+Date:   Tue Jan 7 22:06:55 2014 +0200
+
+    Change payment scheudle from bi-weekly to monthly
+
+commit ae96c665c9520fe8a9e6e65d01932fde4b6d39e1
+Merge: b59a82a 7b1a0b7
+Author: dacoinminster <jr@cozi.com>
+Date:   Tue Jan 7 09:48:22 2014 -0800
+
+    Merge pull request #27 from ripper234/quorum
+    
+    This reflects what we agreed on in our recent board meeting
+
+commit b59a82ad928e2536c8bb5b3afa2f488cc1c343c7
+Merge: 5451612 8e766d3
+Author: Ron Gross <ron.gross@gmail.com>
+Date:   Tue Jan 7 16:14:23 2014 +0200
+
+    Merge branch 'master' of github.com:mastercoin-MSC/spec
+
+commit 5451612cc39df03b93b3cdd77f0f12913774284c
+Author: Ron Gross <ron.gross@gmail.com>
+Date:   Tue Jan 7 16:13:58 2014 +0200
+
+    Add document version
+
+commit 544c1d947ef3a7ec53ab872d736e9089b84b49de
+Author: Ron Gross <ron.gross@gmail.com>
+Date:   Tue Jan 7 15:52:43 2014 +0200
+
+    Executive Director Expenses
+
+commit 7b1a0b7414610589d3e259f6edbd41eb8a27afc1
+Author: Ron Gross <ron.gross@gmail.com>
+Date:   Tue Jan 7 15:41:50 2014 +0200
+
+    minor
+
+commit 1cacc1b3f4568e27f71752a8a68a4129d1fd4d15
+Author: Ron Gross <ron.gross@gmail.com>
+Date:   Tue Jan 7 15:41:04 2014 +0200
+
+    Add Quorum section
+
+commit 8e766d3415b78e9f316625eb9c9e5a592f2d4221
+Merge: f3955ad 3900684
+Author: Ron Gross <ron.gross@gmail.com>
+Date:   Tue Jan 7 05:13:26 2014 -0800
+
+    Merge pull request #25 from ripper234/hourly-bounties
+    
+    Merge Hourly bounties
+
+commit f3955adbf9f0d747bc37ddb2a8e473ef90d6f5b0
+Merge: 82e34cb 82fde96
+Author: Ron Gross <ron.gross@gmail.com>
+Date:   Tue Jan 7 05:02:26 2014 -0800
+
+    Merge pull request #24 from ripper234/increase-spending-limits
+    
+    Increase spending limits - approved by the board.
+
+commit 82e34cbec7c2986e9e4ae49e8bd75063808d2837
+Merge: c2d1b19 c14006a
+Author: Ron Gross <ron.gross@gmail.com>
+Date:   Tue Jan 7 14:52:12 2014 +0200
+
+    Merge Recurring expenses
+
+commit c2d1b19eb156f93414c91157c1a12319871672e0
+Merge: 80354b7 b49b842
+Author: Ron Gross <ron.gross@gmail.com>
+Date:   Tue Jan 7 14:49:59 2014 +0200
+
+    Merge Hire Process for RBBs
+
+commit 80354b7f1383530ea4d6138096076108a80a4e28
+Merge: b4b0ccf ca999b0
+Author: Ron Gross <ron.gross@gmail.com>
+Date:   Tue Jan 7 04:39:10 2014 -0800
+
+    Merge pull request #19 from ripper234/one-time-bounties
+    
+    One time bounties
+
+commit b4b0ccf6f5c1f62a80cfcf0d0f9315f805bf56aa
+Merge: e5057f6 0d094a3
+Author: Ron Gross <ron.gross@gmail.com>
+Date:   Mon Jan 6 17:47:09 2014 +0200
+
+    Merge pull request 5
+
+commit e5057f6cf48d7aae2bf910e0b134462f4159bf8a
+Merge: db2185a 2bbb180
+Author: Ron Gross <ron.gross@gmail.com>
+Date:   Mon Jan 6 07:42:56 2014 -0800
+
+    Merge pull request #14 from maran/pd
+    
+    Clarify p&d for Class A transactions
+
+commit db2185a52855065eb0210c04cd805de6c145af4a
+Merge: 4b6b5d1 1034a12
+Author: David Johnston <DavidJohnstonCEO@gmail.com>
+Date:   Fri Jan 3 14:07:25 2014 -0800
+
+    Merge pull request #26 from DavidJohnstonCEO/master
+    
+    Grammar Fixes in Terminology Section
+
+commit 1034a12486f99be5a3670b92d13c946595077d4f
+Author: David Johnston <DavidJohnstonCEO@gmail.com>
+Date:   Fri Jan 3 16:06:05 2014 -0600
+
+    Grammar Fixes in Terminology Section
+    
+    Already discussed. See details here.
+    
+    https://github.com/mastercoin-MSC/spec/pull/18
+
+commit 39006845b3c115d816c853e1c5f5f5e406df05da
+Author: Ron Gross <ron.gross@gmail.com>
+Date:   Thu Jan 2 14:52:17 2014 +0200
+
+    Hourly bounties
+
+commit b49b842bc9056774d9be726119f44cfcc466c6fc
+Author: Ron Gross <ron.gross@gmail.com>
+Date:   Thu Jan 2 04:04:44 2014 +0200
+
+    Remove 'recurring'
+
+commit 9135b544b1295e6aefc733feddd43d4b76ec595b
+Author: Ron Gross <ron.gross@gmail.com>
+Date:   Thu Jan 2 04:04:19 2014 +0200
+
+    Put monthly budget in a separate section
+
+commit a41ad63f9dc27615330b9f1c01cb18d1bb61a447
+Author: Ron Gross <ron.gross@gmail.com>
+Date:   Thu Jan 2 04:02:36 2014 +0200
+
+    Add monthly budget
+
+commit 82fde96ed067d2c398c7790a4e0cec96aaa1b120
+Author: Ron Gross <ron.gross@gmail.com>
+Date:   Wed Jan 1 18:09:58 2014 +0200
+
+    Increase spending limits
+
+commit 4b6b5d1f281826669356088dd28a3fdfbbde2a4a
+Merge: 935da4a 909b91e
+Author: David Johnston <DavidJohnstonCEO@gmail.com>
+Date:   Tue Dec 31 12:05:35 2013 -0800
+
+    Merge pull request #23 from DavidJohnstonCEO/master
+    
+    Master Protocol Term Update + Spelling Fixes
+
+commit 909b91e499d37db61b3556a061fb69f7decec586
+Author: David Johnston <DavidJohnstonCEO@gmail.com>
+Date:   Tue Dec 31 14:02:12 2013 -0600
+
+    Master Protocol Term Update + Spelling Fixes
+    
+    See lengthly discussion here: https://github.com/mastercoin-MSC/spec/pull/18
+
+commit 935da4a426f938dd4bdb27a7b069aaae33e9e47f
+Merge: 385f34f a352b94
+Author: Ron Gross <ron.gross@gmail.com>
+Date:   Mon Dec 30 06:33:02 2013 -0800
+
+    Merge pull request #2 from maran/verification-api
+    
+    Initial proposal for verification API
+
+commit ca999b08c9fb73b1f65acbb23bd1d41a3512dbe4
+Author: Ron Gross <ron.gross@gmail.com>
+Date:   Sun Dec 29 16:20:30 2013 +0200
+
+    One time bounties
+
+commit c14006a1a6df6ab77d0c77bdf4a5111c40191266
+Author: Ron Gross <ron.gross@gmail.com>
+Date:   Sun Dec 29 16:23:02 2013 +0200
+
+    Recurring expenses
+
+commit 208f77e4726a18220b09c13974dccc67db973917
+Author: Ron Gross <ron.gross@gmail.com>
+Date:   Sun Dec 29 15:53:38 2013 +0200
+
+    Hire process for RBBs
+
+commit 385f34f2caa48a6ff3e9b45b2cd8535b2ed0f673
+Author: Ron Gross <ron.gross@gmail.com>
+Date:   Sun Dec 29 15:47:07 2013 +0200
+
+    listify
+
+commit a278a0f7b2703182e161351a25f0d312db9deb7c
+Author: Ron Gross <ron.gross@gmail.com>
+Date:   Sun Dec 29 15:46:30 2013 +0200
+
+    Initial version
+
+commit 68a7eaabb108ef9f22d81f34383927e53ebdf779
+Author: Ron Gross <ron.gross@gmail.com>
+Date:   Sun Dec 29 14:34:36 2013 +0200
+
+    Fix number of seconds in a year
+
+commit e68ab8b29820f41622639d6501a41e1d4e3ceb28
+Merge: f32b5b4 e3ba9ac
+Author: David Johnston <DavidJohnstonCEO@gmail.com>
+Date:   Fri Dec 27 08:45:29 2013 -0800
+
+    Merge pull request #15 from simondlr/master
+    
+    Fixed formatting/indentation in 'new currency creation' section.
+
+commit f32b5b444f30b2784d0295cbb3b54aacedaeb07e
+Merge: f9320b6 0d30b6b
+Author: Ron Gross <ron.gross@gmail.com>
+Date:   Fri Dec 27 00:31:00 2013 -0800
+
+    Merge pull request #16 from curtislacy/RBBs-Get-Other-Bounties
+    
+    Changed RBB terms such that RBB recipients are eligible to receive other...
+
+commit 0d30b6b8b01051661ffeca03c4d838ee7c02f64a
+Author: Curtis Lacy <curtis@engine.co>
+Date:   Thu Dec 26 10:09:12 2013 -0500
+
+    Changed RBB terms such that RBB recipients are eligible to receive other bounties, but do not receive both their RBBs and other bounties in the same month.
+
+commit e3ba9ac8dcbeee61996cb7cde08e816b011d6fd8
+Author: Simon de la Rouviere <simon@delarouviere.com>
+Date:   Wed Dec 25 11:23:20 2013 +0200
+
+    Fixed formatting/indentation in 'new currency creation' section.
+
+commit f9320b6419e94f651b9daae2c9578a8cf4f4b84c
+Merge: 544243c 92119b3
+Author: Ron Gross <ron.gross@gmail.com>
+Date:   Mon Dec 23 07:29:52 2013 -0800
+
+    Merge pull request #13 from DavidJohnstonCEO/master
+    
+    Standard Dev MSC Distribution Rate Algorithm
+
+commit 2bbb18060b19c78071d9c95f37563976675ee092
+Author: Maran <maran.hidskes@gmail.com>
+Date:   Sun Dec 22 11:45:40 2013 +0100
+
+    Rewrote some text to make it so that p&d can always be used to try and decode Class A transactions
+
+commit 92119b37fde900b8d47c445c64ddf92ca138a9d3
+Author: David Johnston <DavidJohnstonCEO@gmail.com>
+Date:   Fri Dec 20 01:55:03 2013 -0600
+
+    Standard Dev MSC Distribution Rate Algorithm
+    
+    2. Standard Distribution Rate Algorithm: The distribution of "Dev MSC", mirrors the amount of Dev MSC generated each 30.41 days. Further more these Dev MSC are distributed in proportion to the amount of BTC won by participants in Mastercoin development bounties completed during that 30.41 day period. The intension being, that the Mastercoin Foundation will handle this distribution process temporarilly until its operation can be transferred to the Mastercoin community via the Distributed Bounty system and the Proof of Stake concensus mechanism. During the temporary period of the Mastercoin Foudnation distributing the Dev MSC 50% of the normal distribution rate shall apply. When the Mastercoin community begins handling the Distribution of the Dev MSC all undistributed Dev MSC from the pervious period shall be transferred to the Decentralized system and concensus must be reached on the standard distribution rate algorithm for the new period going forward.
+    
+    Simple Dev MSC Distribution Equation:  A / B = C * D = E
+    (A) Amount of awards an individual earns in BTC during a 30.41 day period, divided by,
+    (B) the total amount of BTC awarded during that 30.41 day period, equals
+    (C) his or her individual award percentage, times
+    (D) the total Dev MSC generated during that 30.41 day period, equals
+    (E) the amount of Dev MSC awarded to the individual in addition to his BTC awards during the 30.41 day period.
+    
+    Example #1 (using round numbers):
+    A (100 BTC) / B (1,000 BTC) = C (10%) * D (1,000 MSC) = E (100 MSC)
+    
+    There are 56,316 Dev MSC that will ever be generated.
+    28,158 Dev MSC will be generated the first year or 2,346 MSC each 30.41 day period.
+    So if a developer won 10% of the bounties during this 30.41 day period he or she would be distributed 234.6 Dev MSC.
+
+commit 544243cde7142f3f20c8c218c7e4f9c4b635d63f
+Merge: ddc7145 2341a37
+Author: dacoinminster <jr@cozi.com>
+Date:   Thu Dec 19 10:23:46 2013 -0800
+
+    Merge pull request #12 from DavidJohnstonCEO/master
+    
+    Per conversation in try #1
+
+commit 2341a3762eec02e273b7cea5b160a82d6601856a
+Author: David Johnston <DavidJohnstonCEO@gmail.com>
+Date:   Wed Dec 18 23:00:47 2013 -0600
+
+    Update README.md
+
+commit ea9a0469751cb72dce3c72862bf55227bf971f0b
+Author: David Johnston <DavidJohnstonCEO@gmail.com>
+Date:   Wed Dec 18 22:59:46 2013 -0600
+
+    Update README.md
+
+commit 4987575c08233536caddc0fc836cee8fad426de6
+Author: David Johnston <DavidJohnstonCEO@gmail.com>
+Date:   Wed Dec 18 22:58:44 2013 -0600
+
+    Update README.md
+
+commit ea6f1719795efb9a625a8bc600d1dd418273aabb
+Author: David Johnston <DavidJohnstonCEO@gmail.com>
+Date:   Wed Dec 18 22:54:57 2013 -0600
+
+    Update README.md
+
+commit 462e3d6de24f8132195a8eac73a1e6b08585d236
+Author: David Johnston <DavidJohnstonCEO@gmail.com>
+Date:   Wed Dec 18 22:54:01 2013 -0600
+
+    Update README.md
+
+commit f94d433ca309d2ceeadc6b84c381808c33316df6
+Author: David Johnston <DavidJohnstonCEO@gmail.com>
+Date:   Wed Dec 18 22:53:03 2013 -0600
+
+    Update README.md
+
+commit 570f46696475acfd4160c74b1a0822e4d9d22a39
+Author: David Johnston <DavidJohnstonCEO@gmail.com>
+Date:   Wed Dec 18 22:50:43 2013 -0600
+
+    Update README.md
+
+commit 3ddc0eddaf1996ff66931110bcd459fcfa293ef6
+Author: David Johnston <DavidJohnstonCEO@gmail.com>
+Date:   Wed Dec 18 22:48:33 2013 -0600
+
+    Update README.md
+
+commit d9342ce1de64feaa03b76c293b0a0c57e354a04c
+Author: David Johnston <DavidJohnstonCEO@gmail.com>
+Date:   Wed Dec 18 22:46:27 2013 -0600
+
+    Update README.md
+
+commit 2bbc405c20b18488d13c5fa0373e6c461b898069
+Author: David Johnston <DavidJohnstonCEO@gmail.com>
+Date:   Wed Dec 18 22:45:25 2013 -0600
+
+    Update README.md
+
+commit f3535e7d324366b977664cfd326042d99ffcc547
+Author: David Johnston <DavidJohnstonCEO@gmail.com>
+Date:   Wed Dec 18 22:44:11 2013 -0600
+
+    Update README.md
+
+commit 64f34ca08e3468ec607a25fa27884e36c7285984
+Author: David Johnston <DavidJohnstonCEO@gmail.com>
+Date:   Wed Dec 18 22:43:00 2013 -0600
+
+    Update README.md
+
+commit f66ac8e40e1b40394de1182f7356fe3dc88f3f4e
+Author: David Johnston <DavidJohnstonCEO@gmail.com>
+Date:   Wed Dec 18 22:42:25 2013 -0600
+
+    Re-number the protocol versions to reflect the "Beta Stage"
+    
+    Re-number the protocol versions to reflect the "Beta Stage" of the Mastercoin Specification / Implementations
+    It seems logical to inform new comers that the Mastercoin Protocol is currently in the Beta stage of its development. I propose we can easily accomplish this by simply re-numbering the versions of the protocol (both past and present) to version numbers below that of 1.0
+    For example version 0.1 version 0.19 and version 0.2 for past versions and 0.3 for the current version. This gives the protocol enough room for growth between now and when it does reach a 1.0 stage of development.
+
+commit ddc7145f76b4ac111f480e5ce3827030dd9838c6
+Merge: 04d7dba fc893bf
+Author: David Johnston <DavidJohnstonCEO@gmail.com>
+Date:   Sat Dec 14 10:42:06 2013 -0800
+
+    Merge pull request #9 from zynis/patch-1
+    
+    Rename Role Based Bounties.md to RoleBasedBounties.md
+
+commit fc893bfcbea219062195e9ac539ff51c1c8fa3e9
+Author: Dominik <dominik.zynis@gmail.com>
+Date:   Thu Dec 12 03:59:10 2013 +0100
+
+    Rename Role Based Bounties.md to RoleBasedBounties.md
+    
+    the link is breaking on mastercoinfoundation.org, I think it is due to the white space in the file name
+    
+    https://github.com/mastercoin-MSC/spec/blob/master/Role%2520Based%2520Bounties.md
+
+commit 04d7dba80a41b08ebe23425cd1e13c6f0e4e7e12
+Merge: a19fc87 43e0f4e
+Author: dacoinminster <jr@cozi.com>
+Date:   Thu Dec 5 10:02:06 2013 -0800
+
+    Merge pull request #6 from maran/ignore_mastercoin_for_purchase
+    
+    I think we've all agreed that this is the right thing to do
+
+commit a19fc875980a109ced8d23a8c66e1123ee10647f
+Merge: d18e311 c244294
+Author: dacoinminster <jr@cozi.com>
+Date:   Thu Dec 5 09:45:22 2013 -0800
+
+    Merge pull request #7 from maran/accept_block
+    
+    This is just so obviously the right thing to do, so I'm merging this right now. We can discuss the details of how we do this, but this is clearly the correct approach.
+
+commit c244294c277d298d71d2e1f739ef6b35ff15aa8d
+Author: Maran <maran.hidskes@gmail.com>
+Date:   Wed Dec 4 12:38:31 2013 +0100
+
+    Unlock feature on block
+
+commit d18e311403b86292df7793ff7114093b21e55509
+Author: Ron Gross <ron.gross@gmail.com>
+Date:   Sun Dec 1 19:45:36 2013 +0200
+
+    USD or BTC
+
+commit 060d713837775d6e04288ec3f56a54fc867197e9
+Author: Ron Gross <ron.gross@gmail.com>
+Date:   Sun Dec 1 07:58:04 2013 +0200
+
+    clarify
+
+commit dd53094c6f0a52ecaf8e6e8fb1837550676caed0
+Author: Ron Gross <ron.gross@gmail.com>
+Date:   Sun Dec 1 07:57:11 2013 +0200
+
+    order
+
+commit 67e8a1cd14c5aaac3085f0db19ba9403acf7c88f
+Author: Ron Gross <ron.gross@gmail.com>
+Date:   Sun Dec 1 07:56:15 2013 +0200
+
+    Cleanup
+
+commit b2c13fc81791e374db2ace5805c27438135ddb0a
+Author: Ron Gross <ron.gross@gmail.com>
+Date:   Sun Dec 1 07:55:05 2013 +0200
+
+    Fix
+
+commit c3720aed93aff66829a66806cd9e624863229328
+Author: Ron Gross <ron.gross@gmail.com>
+Date:   Sun Dec 1 07:54:42 2013 +0200
+
+    Link to the spreadsheet
+
+commit 6b0ca3e3c2a522bcdf3f124d5e5f5b9ea532fe5b
+Author: Ron Gross <ron.gross@gmail.com>
+Date:   Sun Dec 1 07:45:15 2013 +0200
+
+    The Future
+
+commit 9aa9c84e2aa57e0b9162e54316745629aad29cba
+Author: Ron Gross <ron.gross@gmail.com>
+Date:   Sun Dec 1 07:43:41 2013 +0200
+
+    Role Based Bounties spec
+
+commit 43e0f4ef81f4619bb2389cdfd7378564badd9d6f
+Author: Maran <maran.hidskes@gmail.com>
+Date:   Fri Nov 29 14:17:03 2013 +0100
+
+    Ignore Mastercoin data transactions for purchases
+
+commit 0d094a314f862efe51f4f39d0fb780aba1e97a85
+Author: Maran <maran.hidskes@gmail.com>
+Date:   Tue Nov 19 09:01:10 2013 +0100
+
+    More clarifications for purchase orders
+
+commit a7ab90e4d3a35875bd9fb408ad98677d7e7f46c1
+Author: Maran <maran.hidskes@gmail.com>
+Date:   Mon Nov 18 11:11:16 2013 +0100
+
+    Added intial selling/purhcase offer clarifications
+
+commit 59b363c35cab2302b207b354d88cd2caaaa892a6
+Merge: 2765745 7108122
+Author: dacoinminster <jr@cozi.com>
+Date:   Thu Nov 14 13:46:33 2013 -0800
+
+    Merge pull request #4 from maran/reserved_balance
+    
+    Per discussion on pull request 1
+
+commit 710812295983e51c135d407895053ba84cca55be
+Author: Maran <maran.hidskes@gmail.com>
+Date:   Thu Nov 14 22:40:39 2013 +0100
+
+    Added reserved balance clause
+
+commit 194af26b32c05aa184c08a8215db875301f0e0e8
+Merge: 289efb5 2765745
+Author: Maran <maran.hidskes@gmail.com>
+Date:   Thu Nov 14 22:37:32 2013 +0100
+
+    Merge https://github.com/mastercoin-MSC/spec
+
+commit 289efb568d7e2de8a942a3308105a4bb5f1d57d2
+Author: J.R. Willett <jr.willett@gmail.com>
+Date:   Mon Nov 11 09:04:14 2013 -0800
+
+    Fix images
+
+commit 39fe61bf690e0eb5ddcdce07044e0a2c9bc7983e
+Author: J.R. Willett <jr.willett@gmail.com>
+Date:   Mon Nov 11 08:52:15 2013 -0800
+
+    1.2
+
+commit 276574575f70133b85bc5b172f8a2a4a6019c7c5
+Merge: 09c42d2 f6e5e6a
+Author: dacoinminster <jr@cozi.com>
+Date:   Tue Nov 12 12:04:48 2013 -0800
+
+    Merge pull request #3 from dacoinminster/master
+    
+    1.2 Pull request
+    
+    Merging per comments from Ron and David. Thanks guys!
+
+commit f6e5e6a28848f50b26bb569249ebfcc963d32124
+Author: J.R. Willett <jr.willett@gmail.com>
+Date:   Mon Nov 11 09:04:14 2013 -0800
+
+    Fix images
+
+commit 812305b51eb8ab4ede34c13b9e0ec2198c306f50
+Author: J.R. Willett <jr.willett@gmail.com>
+Date:   Mon Nov 11 08:52:15 2013 -0800
+
+    1.2
+
+commit a352b94fce385fa3d43938fa775a6f7b629fac74
+Author: Maran <maran.hidskes@gmail.com>
+Date:   Mon Nov 11 15:12:47 2013 +0100
+
+    Change the URL to something easier
+
+commit 578e4ef15d11b70448f4a9675f1d5b68133edbe8
+Author: Maran <maran.hidskes@gmail.com>
+Date:   Sun Nov 10 17:18:49 2013 +0100
+
+    Initial proposal for verification API
+
+commit 09c42d20f7aa9824b23fbaaecdf14f0eb815d11e
+Author: Ron Gross <ron.gross@gmail.com>
+Date:   Fri Nov 8 02:52:48 2013 +0200
+
+    Add branch option
+
+commit 13270c58b193f97b3a408669e69449561c1e9bd6
+Author: Ron Gross <ron.gross@gmail.com>
+Date:   Fri Nov 8 02:49:34 2013 +0200
+
+    Add a process for changes in the whitepaper
+
+commit 41d38cb83ea5742d622e1b511b563d78459e42ad
+Author: Ron Gross <ron.gross@gmail.com>
+Date:   Fri Nov 8 02:38:57 2013 +0200
+
+    Another link fix attempt
+
+commit aa22563ddae9c404717063306210b5a7a2049081
+Author: Ron Gross <ron.gross@gmail.com>
+Date:   Fri Nov 8 02:38:06 2013 +0200
+
+    Fix brackets
+
+commit b75f7f651a9ceafe8391ba7e8baf90b682783a33
+Author: Ron Gross <ron.gross@gmail.com>
+Date:   Fri Nov 8 02:36:52 2013 +0200
+
+    Add link to mastercoin.org
+
+commit 6ff836c939bb2ffbaa752ce5992ac6e97a1bdff6
+Author: Ron Gross <ron.gross@gmail.com>
+Date:   Tue Nov 5 16:28:52 2013 +0200
+
+    Initial commit

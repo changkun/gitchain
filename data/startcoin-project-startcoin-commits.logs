@@ -1,0 +1,227 @@
+commit f452aabbe2bb147f7f8db8c30b51e691c4223690
+Merge: 155c590 2315528
+Author: Luke <lukem512@users.noreply.github.com>
+Date:   Tue Apr 26 15:22:50 2016 +0100
+
+    Merge pull request #12 from bluntworks/master
+    
+    Fix -reindex flag crashing startcoind
+
+commit 2315528b6a57b6eb740b2e9a14d1a404b4273791
+Author: blunt <dave@bluntworks>
+Date:   Sat Apr 23 17:55:07 2016 +0100
+
+    check for genisis block on reindex
+
+commit 1d491af77a66a6a2b028faab898679587c9e4169
+Author: blunt <dave@bluntworks>
+Date:   Tue Apr 19 12:37:25 2016 +0100
+
+    fix -reindex issue
+
+commit 155c5903b701f3a52eb1f5a51979c58a687044e2
+Author: Luke <lukem512@users.noreply.github.com>
+Date:   Wed Apr 1 10:01:55 2015 +0100
+
+    Update technical-details.md
+
+commit 0324de17a6bebb3a3c31046203e8b02d6d270d8b
+Author: Luke <lukem95@gmail.com>
+Date:   Mon Jul 21 12:23:59 2014 +0100
+
+    v2.0
+
+commit 00802d4314f8c27bff2537156f87a27825cc6680
+Merge: ffb26ec 0925e09
+Author: Luke <lukem512@users.noreply.github.com>
+Date:   Thu Jul 17 11:36:29 2014 +0100
+
+    Merge pull request #6 from startcoin-project/trans
+    
+    Trans
+
+commit 0925e0977789b018ac20eff0e078ed1eb5db61ee
+Author: Luke <lukem95@gmail.com>
+Date:   Wed Jul 9 13:45:27 2014 +0100
+
+    Bugfix: version alert only displayed after transition
+
+commit 3939f7bf7742975dd6bf50589aa6f6a3933a22fe
+Author: Luke <lukem95@gmail.com>
+Date:   Wed Jul 9 13:38:50 2014 +0100
+
+    Date updated
+
+commit ec3620736fd4a15db2d0505d750a3ba58eb0acb2
+Author: Luke <lukem95@gmail.com>
+Date:   Wed Jul 9 12:17:16 2014 +0100
+
+    Added v1.0 version to titles
+
+commit 770b1fcddab26005a28624dbf81457085f571fad
+Author: Luke <lukem95@gmail.com>
+Date:   Tue Jul 8 12:15:00 2014 +0100
+
+    Title change
+
+commit 4dbadf82ea0102d6eb178d5ac73d222240f092a1
+Author: Luke <lukem95@gmail.com>
+Date:   Tue Jul 8 11:11:17 2014 +0100
+
+    Version update
+
+commit 87c811c916023ae4865f86a37ee0b791c05c7197
+Author: Luke <lukem95@gmail.com>
+Date:   Tue Jul 8 11:08:58 2014 +0100
+
+    Transition code in place
+
+commit ffb26ec2c4aaf90e91499aa6abc6f0322de07f02
+Author: Luke <lukem512@users.noreply.github.com>
+Date:   Mon Jul 7 17:03:07 2014 +0100
+
+    Update README.md
+
+commit 9c0b771b7c3dcbdd78ab01f55ea2a919e2649a26
+Author: Luke <lukem_95@hotmail.com>
+Date:   Tue Jun 10 02:15:06 2014 +0100
+
+    Added NSIS installer script
+
+commit 9c91ef65e0496cc6746f2930ab1bdd768ae9320e
+Author: Luke <lukem95@gmail.com>
+Date:   Tue Jun 10 01:03:28 2014 +0100
+
+    Rebooted genesis block
+
+commit 419e0bd9ff72c8d3497aa8b7b88b3969487bf396
+Author: Luke <lukem95@gmail.com>
+Date:   Fri Apr 25 13:47:51 2014 +0100
+
+    Added testnet seed
+
+commit 1c31e8b78c77deb7fffa2322b8a465ce402b7e17
+Author: atomicjets <jscott@Jamie-Scotts-Mac.local>
+Date:   Sat Apr 19 11:49:52 2014 +0100
+
+    update filename
+
+commit 14ba6f0891e0837e1feaaec5010776ca81041598
+Author: atomicjets <jscott@Jamie-Scotts-Mac.local>
+Date:   Sat Apr 19 11:00:27 2014 +0100
+
+    Added homebrew
+
+commit 4198041cc479d4feca85d8e5d4014836a6888fa2
+Author: Lukem512 <lukem95@gmail.com>
+Date:   Mon Apr 14 18:04:45 2014 +0100
+
+    Added default list of seed nodes
+
+commit 84df36456eb2b6e01dc124f754657bbd0457cc55
+Author: Lukem512 <lukem95@gmail.com>
+Date:   Mon Apr 14 17:27:55 2014 +0100
+
+    Added seed nodes
+
+commit 6c37afab17383d1fee7ba309b14d0eccffed57ff
+Author: Lukem512 <lukem95@gmail.com>
+Date:   Mon Apr 14 17:17:04 2014 +0100
+
+    Updated QT copyright
+
+commit 7207e731cca00a26f7f35f37d39329ff87a511f7
+Author: Lukem512 <lukem95@gmail.com>
+Date:   Mon Apr 14 17:13:36 2014 +0100
+
+    Renamed for Windows build
+
+commit a50329ba05805d87ec7c6d27fc8b877c294294a7
+Author: Lukem512 <lukem95@gmail.com>
+Date:   Mon Apr 14 11:56:47 2014 +0100
+
+    Removed unused Gitian keys
+
+commit 79d96b3ba5fc185c6d8e8cd1d4b9a08188b7bf6a
+Author: Lukem512 <lukem95@gmail.com>
+Date:   Mon Apr 14 11:55:39 2014 +0100
+
+    Added branding images
+
+commit fa1e042e04e46e97b3c053320bdf7030403e400e
+Author: Lukem512 <lukem95@gmail.com>
+Date:   Sun Apr 13 10:11:05 2014 +0100
+
+    Reverted for neatness
+
+commit b2f307f4ec0cdb22da726f9de268587240b91f72
+Author: Lukem512 <lukem95@gmail.com>
+Date:   Sun Apr 13 10:05:03 2014 +0100
+
+    Premine exactly 50%
+
+commit 0845d33a8a22dfea69b986484859dbdc6abe17ea
+Author: Lukem512 <lukem95@gmail.com>
+Date:   Sun Apr 13 09:27:10 2014 +0100
+
+    Updated comment
+
+commit a431925bc5d57a4422cada6dcbd6f8b395b8190a
+Author: Lukem512 <lukem95@gmail.com>
+Date:   Sun Apr 13 09:26:32 2014 +0100
+
+    KGW TW fix
+
+commit 0011935798d4b82be69a199ae3b083ed84dae605
+Author: Lukem512 <lukem95@gmail.com>
+Date:   Tue Apr 1 15:04:53 2014 +0100
+
+    Hardcoded seed node URLs
+
+commit 45532d8690a29af4c23cc0fb775e7baec314c2a0
+Author: Lukem512 <lukem95@gmail.com>
+Date:   Tue Apr 1 14:59:40 2014 +0100
+
+    Removed binaries
+
+commit 1b1716e5a9b63f95f80bdee491e69c3c903a463c
+Author: Lukem512 <lukem95@gmail.com>
+Date:   Fri Mar 28 19:48:14 2014 +0000
+
+    Halve every 12 months
+
+commit 4d08a2674539861df2abfa6297928111fb2e4af4
+Author: Lukem512 <lukem95@gmail.com>
+Date:   Fri Mar 28 19:36:37 2014 +0000
+
+    Changed ports
+
+commit 8df78173a8564907fc3d3ce6f4626105e44d2597
+Author: Lukem512 <lukem95@gmail.com>
+Date:   Fri Mar 28 19:16:22 2014 +0000
+
+    Rebooted genesis blocks
+
+commit 1d29292c2066fdb6dfa58317b0968f638894653f
+Author: Lukem512 <lukem95@gmail.com>
+Date:   Fri Mar 28 18:13:16 2014 +0000
+
+    Coin count
+
+commit c6fe94bc3494bbfc251e2c2b168275b051e9e248
+Author: Lukem512 <lukem95@gmail.com>
+Date:   Fri Mar 28 18:11:51 2014 +0000
+
+    Coin count
+
+commit 9d3cda5fc7e316fa1956b322d30a3a7baacd1412
+Author: Lukem512 <lukem95@gmail.com>
+Date:   Tue Mar 25 22:58:51 2014 +0000
+
+    Initial commit, no distribution
+
+commit 47abee82d67b1b7c3ae0bcabc10c8e4a8d611953
+Author: atomicjets <jamie@atomicjets.com>
+Date:   Fri Mar 7 17:53:38 2014 +0000
+
+    first commit

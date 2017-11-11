@@ -1,0 +1,786 @@
+commit ec13587e8b786255ee737dd40161f3079e4aa6f2
+Merge: 2a75b15 d2b89be
+Author: masterdubs <contact@aprisme.be>
+Date:   Thu Oct 12 16:47:03 2017 +0200
+
+    Merge pull request #28 from pirl/dev
+    
+    binaries
+
+commit d2b89be6d2f7e995314d3532a046579b70571d6b
+Author: masterdubs <contact@masterdubs.io>
+Date:   Thu Oct 12 16:45:02 2017 +0200
+
+    binaries
+
+commit 2a75b15fda1c654eb3a8c287dff852511e0bd616
+Author: masterdubs <contact@aprisme.be>
+Date:   Wed Oct 11 10:13:30 2017 +0200
+
+    Update appveyor.yml
+    
+    fix mac crash
+
+commit c2e8a3eceae11dd08e6e2bf6804e4747d4ef4679
+Author: masterdubs <contact@aprisme.be>
+Date:   Wed Oct 11 10:04:55 2017 +0200
+
+    Update hid_enabled.go
+    
+    fix mac crash
+
+commit 1263085c7a98c7d24216bd61a127b489d82a989d
+Author: masterdubs <contact@aprisme.be>
+Date:   Wed Oct 11 09:55:12 2017 +0200
+
+    Update vendor to fix mac crach
+
+commit 1adf06382dddea6c475ad65a65b596d4e0c8504c
+Author: masterdubs <contact@aprisme.be>
+Date:   Sun Oct 1 03:36:45 2017 +0200
+
+    Update README.md
+
+commit 33ae35d109282861772e2e39d791d7e1c03d141e
+Author: masterdubs <contact@aprisme.be>
+Date:   Sun Oct 1 03:36:33 2017 +0200
+
+    Update README.md
+
+commit e58a0edb119104aecf95d32c55d86d94b3b13209
+Merge: c65b0a0 ceb3a76
+Author: masterdubs <contact@aprisme.be>
+Date:   Sat Sep 30 22:46:00 2017 +0200
+
+    Merge pull request #26 from pirl/dev
+    
+    readme
+
+commit ceb3a769a92f1fc095a165f7fd9a3f9e70c422fa
+Author: masterdubs <contact@masterdubs.io>
+Date:   Sat Sep 30 22:44:54 2017 +0200
+
+    readme
+
+commit c65b0a05c027ffbb6120f390491ff74e9cab053f
+Merge: 6efd8f4 73d325c
+Author: masterdubs <contact@aprisme.be>
+Date:   Sat Sep 30 22:25:54 2017 +0200
+
+    Merge pull request #25 from pirl/dev
+    
+    readme
+
+commit 73d325ce61f649868ac52e30e1607d2069db61d4
+Author: masterdubs <contact@masterdubs.io>
+Date:   Sat Sep 30 22:25:23 2017 +0200
+
+    readme
+
+commit 6efd8f40c90859c26e79f8c04c5e4a7d0e1648b0
+Merge: 7836aa2 792e7d8
+Author: masterdubs <contact@aprisme.be>
+Date:   Sat Sep 30 22:20:35 2017 +0200
+
+    Merge pull request #24 from pirl/dev
+    
+    Dev
+
+commit 792e7d827eac6c7d5751bbc8923ce39c368c9daa
+Author: masterdubs <contact@masterdubs.io>
+Date:   Sat Sep 30 22:16:34 2017 +0200
+
+    readme
+
+commit ce8f691c47c422242a372a4074cfe1c74945e6ec
+Author: masterdubs <contact@masterdubs.io>
+Date:   Sat Sep 30 22:16:11 2017 +0200
+
+    readme
+
+commit e3e7b9bb7aa88b6467d07fadaf52dcb8dcb780ac
+Author: masterdubs <contact@masterdubs.io>
+Date:   Sat Sep 30 22:12:12 2017 +0200
+
+    readme
+
+commit d105da3df9a5d82bbc6466f5e33c8f2061d47962
+Author: masterdubs <contact@masterdubs.io>
+Date:   Sat Sep 30 21:59:07 2017 +0200
+
+    readme
+
+commit 8b59327d1fa57bf70c96b5f4f98dd0407c8c216b
+Author: masterdubs <contact@masterdubs.io>
+Date:   Sat Sep 30 21:54:55 2017 +0200
+
+    readme
+
+commit 9145238f6fe2b459fa0098e36b2e8117753cef89
+Author: masterdubs <contact@masterdubs.io>
+Date:   Sat Sep 30 21:43:18 2017 +0200
+
+    readme
+
+commit 273a660c7ec6196bb1e79186c3e91dbcd3bf10bc
+Author: masterdubs <contact@masterdubs.io>
+Date:   Sat Sep 30 20:37:41 2017 +0200
+
+    docker
+
+commit afb871c4d4b43238ca9329437b56f12448450a53
+Author: masterdubs <contact@masterdubs.io>
+Date:   Sat Sep 30 20:36:44 2017 +0200
+
+    docker
+
+commit 7836aa2a18f81bf82ad5be17cf723572bf206b55
+Merge: 5d58dd1 2769b94
+Author: masterdubs <contact@aprisme.be>
+Date:   Sat Sep 30 09:46:53 2017 +0200
+
+    Merge pull request #23 from pirl/dev
+    
+    bootnodes singapore
+
+commit 2769b944ffa39eb8147c1950fb8f6a790aacce14
+Author: masterdubs <contact@masterdubs.io>
+Date:   Sat Sep 30 09:46:02 2017 +0200
+
+    bootnodes singapore
+
+commit 5d58dd111318806a8224bf862b40eacd7408fd79
+Merge: a0aba2d cfa6334
+Author: masterdubs <contact@aprisme.be>
+Date:   Sat Sep 30 09:35:19 2017 +0200
+
+    Merge pull request #22 from pirl/dev
+    
+    bootnodes
+
+commit cfa63344fecd0e5d8bda8146b91e33a571a3af42
+Author: masterdubs <contact@masterdubs.io>
+Date:   Sat Sep 30 09:30:05 2017 +0200
+
+    bootnodes
+
+commit a0aba2d5a2d9bf40d22147e74058880586bba680
+Merge: f0911b9 ba49c18
+Author: masterdubs <contact@aprisme.be>
+Date:   Sat Sep 30 00:57:48 2017 +0200
+
+    Merge pull request #21 from pirl/dev
+    
+    bootnodes
+
+commit ba49c18fb4588386c33cfa3c215e6f958c5186dc
+Author: masterdubs <contact@masterdubs.io>
+Date:   Sat Sep 30 00:57:21 2017 +0200
+
+    bootnodes
+
+commit 306e0b422602c99105bac1c6e44fb1e8c8b762ca
+Author: masterdubs <contact@masterdubs.io>
+Date:   Sat Sep 30 00:44:37 2017 +0200
+
+    bootnodes
+
+commit f0911b9d13606e908ac9c8d76ca0d2c7d06dc681
+Merge: 18445e3 426108e
+Author: masterdubs <contact@aprisme.be>
+Date:   Sat Sep 30 00:33:37 2017 +0200
+
+    Merge pull request #20 from pirl/dev
+    
+    bootnodes
+
+commit 426108e447bdbfb70be93d52537e04238f69c7e3
+Author: masterdubs <contact@masterdubs.io>
+Date:   Sat Sep 30 00:32:12 2017 +0200
+
+    bootnodes
+
+commit 18445e3c861013825d37bc4aac6468a25b51cc22
+Merge: b8e3549 a82fa5a
+Author: masterdubs <contact@aprisme.be>
+Date:   Fri Sep 29 14:09:49 2017 +0200
+
+    Merge pull request #19 from pirl/dev
+    
+    DurationLimit
+
+commit a82fa5ab0e9211a797bfd8a745df3fa5bf5dbdda
+Author: masterdubs <contact@masterdubs.io>
+Date:   Fri Sep 29 14:07:46 2017 +0200
+
+    DurationLimit
+
+commit b8e35499f931b1d124b9afde7e5d8560dbeb1217
+Merge: fdaebad 7ef146e
+Author: masterdubs <contact@aprisme.be>
+Date:   Fri Sep 29 07:56:46 2017 +0200
+
+    Merge pull request #18 from pirl/dev
+    
+    bootnode in CA
+
+commit 7ef146ea7f466a573a99a5735addadd7078af5e4
+Author: masterdubs <contact@masterdubs.io>
+Date:   Fri Sep 29 07:56:01 2017 +0200
+
+    bootnode
+
+commit fdaebadcf07cbeff74be412b48050365298ae33b
+Merge: c5c5758 530da96
+Author: masterdubs <contact@aprisme.be>
+Date:   Fri Sep 29 00:29:13 2017 +0200
+
+    Merge pull request #17 from pirl/dev
+    
+    Dev
+
+commit 530da96be9fa1e67b660990d6cb0998eabac958f
+Author: masterdubs <contact@masterdubs.io>
+Date:   Fri Sep 29 00:28:55 2017 +0200
+
+    difficulty
+
+commit 64e8a10492decb919972cef3c82999b5918150da
+Author: masterdubs <contact@masterdubs.io>
+Date:   Fri Sep 29 00:28:18 2017 +0200
+
+    bootnode
+
+commit c5c5758f4cd714604eb45c058796c2b5390871c7
+Merge: 6b4307c 5f4ffe6
+Author: masterdubs <contact@aprisme.be>
+Date:   Thu Sep 28 19:31:56 2017 +0200
+
+    Merge pull request #16 from pirl/dev
+    
+    Dev
+
+commit 5f4ffe64a43741d77afe527531fe1c13cb0b53b5
+Author: masterdubs <contact@masterdubs.io>
+Date:   Thu Sep 28 19:23:33 2017 +0200
+
+    reward
+
+commit 124e2f402d8f6a964f53c9f38ad6c808c9097955
+Author: masterdubs <contact@masterdubs.io>
+Date:   Thu Sep 28 19:22:55 2017 +0200
+
+    difficulty
+
+commit 6b4307cdee7e28288786fce857d9ab346d03a35e
+Merge: 88d1d43 8b33cf0
+Author: masterdubs <contact@aprisme.be>
+Date:   Thu Sep 28 09:48:04 2017 +0200
+
+    Merge pull request #15 from pirl/dev
+    
+    block hash, and network
+
+commit 8b33cf0bbdfae907d72c584c046bb856a365b0ce
+Author: masterdubs <contact@masterdubs.io>
+Date:   Thu Sep 28 09:43:12 2017 +0200
+
+    bootnode
+
+commit e1eaf1e275aa9878d2830ebf4ab7fd2af7ea3bc4
+Author: masterdubs <contact@masterdubs.io>
+Date:   Thu Sep 28 09:42:08 2017 +0200
+
+    bootnode
+
+commit 7ac27fb7ebd12afd7b843173eb8c519ea6d70bbd
+Author: masterdubs <contact@masterdubs.io>
+Date:   Thu Sep 28 09:41:24 2017 +0200
+
+    bootnode
+
+commit 062095e0d8d1984f681d2a326af95b5a51691907
+Author: masterdubs <contact@masterdubs.io>
+Date:   Thu Sep 28 09:17:51 2017 +0200
+
+    difficulty adjustement
+
+commit 49e073807f3ff429526313d831814f1c98c73ee6
+Author: masterdubs <contact@masterdubs.io>
+Date:   Thu Sep 28 08:20:24 2017 +0200
+
+    difficulty adjustement
+
+commit 4757f34f7a35021943a570b84d1011adbfd6c808
+Author: masterdubs <contact@masterdubs.io>
+Date:   Thu Sep 28 08:14:17 2017 +0200
+
+    dao
+
+commit 6c1b2562f40591d06e836e07e2a979c7de1d2b0c
+Author: masterdubs <contact@masterdubs.io>
+Date:   Wed Sep 27 21:54:14 2017 +0200
+
+    block hash
+
+commit 8adcff721af53b61effb79528d6734e4ff82fcc2
+Author: masterdubs <contact@masterdubs.io>
+Date:   Wed Sep 27 13:49:05 2017 +0200
+
+    block hash
+
+commit 88d1d431b52cefd8956b943c5551a70e9a3f592a
+Merge: 73b440d 02bbd60
+Author: masterdubs <contact@aprisme.be>
+Date:   Wed Sep 27 11:47:59 2017 +0200
+
+    Merge pull request #14 from pirl/dev
+    
+    bootnodes
+
+commit 02bbd602f67886a9be496ef2a3332f69b0f8dba9
+Author: masterdubs <contact@masterdubs.io>
+Date:   Wed Sep 27 11:47:24 2017 +0200
+
+    bootnodes
+
+commit 73b440df7dd8b645a07a3e0615be4a5fe020f32a
+Merge: 032b6b1 b41c3f8
+Author: masterdubs <contact@aprisme.be>
+Date:   Wed Sep 27 11:46:10 2017 +0200
+
+    Merge pull request #13 from pirl/dev
+    
+    update node reward
+
+commit b41c3f8e92dcfe7476d9fb43dfc89e6f62b9dac6
+Author: masterdubs <contact@masterdubs.io>
+Date:   Wed Sep 27 11:44:26 2017 +0200
+
+    bootnodes
+
+commit 69889f4f5738c4f6a380354ba91f8f47718d401c
+Author: masterdubs <contact@masterdubs.io>
+Date:   Wed Sep 27 10:02:20 2017 +0200
+
+    accounts
+
+commit 0589a891d5ee05f105bc7fbf364bffc12c7e677e
+Author: masterdubs <contact@masterdubs.io>
+Date:   Wed Sep 27 00:18:55 2017 +0200
+
+    reward
+
+commit ca5361a8ead35522fec56615a76deea3923a09e5
+Author: masterdubs <contact@masterdubs.io>
+Date:   Wed Sep 27 00:17:06 2017 +0200
+
+    reward
+
+commit 855faa98ab18d2a9acfc40e5038e14404f57fd27
+Author: masterdubs <contact@masterdubs.io>
+Date:   Tue Sep 26 19:27:34 2017 +0200
+
+    genesis
+
+commit ad7af132d0203dc042b0834574b811440d39905c
+Author: masterdubs <contact@masterdubs.io>
+Date:   Tue Sep 26 18:37:35 2017 +0200
+
+    genesis
+
+commit dabc39a8cca81fc6db4c8b2040a2a0222a1dbfe2
+Author: masterdubs <contact@masterdubs.io>
+Date:   Tue Sep 26 14:36:24 2017 +0200
+
+    genesis
+
+commit 9d0edf3a39e19a23730e07c3d3d94c6095652148
+Author: masterdubs <contact@masterdubs.io>
+Date:   Tue Sep 26 14:33:56 2017 +0200
+
+    bootnode
+
+commit a0b51c97e22be5b32909e6a29a23a649a64d5953
+Author: masterdubs <contact@masterdubs.io>
+Date:   Tue Sep 26 14:19:46 2017 +0200
+
+    bootnode
+
+commit b326405168e0af8279b1a3be5d6a72ef4dab5237
+Author: masterdubs <contact@masterdubs.io>
+Date:   Tue Sep 26 14:13:02 2017 +0200
+
+    bootnode
+
+commit 5a5530b58ee8cda82052e45c7328d313ee88ab02
+Author: masterdubs <contact@masterdubs.io>
+Date:   Tue Sep 26 14:11:33 2017 +0200
+
+    bootnode
+
+commit daa3e9ccf74dd2412cf798dfc8777bdadf2a717d
+Author: masterdubs <contact@masterdubs.io>
+Date:   Tue Sep 26 13:11:07 2017 +0200
+
+    bootnode
+
+commit 476bbb0e32a7b948fc51c4253f8d08870c4a68f5
+Author: masterdubs <contact@masterdubs.io>
+Date:   Tue Sep 26 11:25:08 2017 +0200
+
+    bootnode
+
+commit e001cc33495f7b81c3a69a13d0f5ba89af7108ab
+Author: masterdubs <contact@masterdubs.io>
+Date:   Tue Sep 26 11:00:28 2017 +0200
+
+    network id
+
+commit 83ddce4bdadce8411d3d339334ecae13eea861e0
+Author: masterdubs <contact@masterdubs.io>
+Date:   Tue Sep 26 10:47:15 2017 +0200
+
+    bootnode test
+
+commit b8cd1b969f13f3130c40deec9da7214d171078f9
+Author: masterdubs <contact@masterdubs.io>
+Date:   Tue Sep 26 10:45:46 2017 +0200
+
+    bootnode test
+
+commit 032b6b1bf960bb1694cee0d7d1d39ef6f33c8fe2
+Merge: 9a2020a 7a371a5
+Author: masterdubs <contact@aprisme.be>
+Date:   Tue Sep 26 10:25:10 2017 +0200
+
+    Merge pull request #12 from pirl/dev
+    
+    Dev
+
+commit 7a371a529d506d729d2d968d0d85183ea00542f2
+Author: masterdubs <contact@masterdubs.io>
+Date:   Tue Sep 26 09:30:13 2017 +0200
+
+    block reward
+
+commit 116b62f364690c107e7f979915dbb176cd32a4a0
+Author: masterdubs <contact@masterdubs.io>
+Date:   Tue Sep 26 09:29:26 2017 +0200
+
+    block reward
+
+commit 7285edee1e00766ce372446ab8da6866aa0ea556
+Author: masterdubs <contact@masterdubs.io>
+Date:   Tue Sep 26 09:26:56 2017 +0200
+
+    genesis
+
+commit bd7b96b60c752b2700ec826989de114ea199cd42
+Author: masterdubs <contact@masterdubs.io>
+Date:   Tue Sep 26 09:26:01 2017 +0200
+
+    block reward
+
+commit 57886fe4d833c4d9a6ffc0d07bcb692d6e58cc36
+Author: masterdubs <contact@masterdubs.io>
+Date:   Tue Sep 26 00:07:22 2017 +0200
+
+    node reward
+
+commit 12684c019273476a41264e1b6abadd64bf4902a6
+Author: masterdubs <contact@masterdubs.io>
+Date:   Mon Sep 25 23:49:27 2017 +0200
+
+    node reward
+
+commit 9a2020abafb6646801ba33a7082c02a73369a245
+Author: masterdubs <contact@masterdubs.io>
+Date:   Mon Sep 25 17:49:12 2017 +0200
+
+    test concensus
+
+commit f6a8f628154b8c70fd7e40907d94d150f74eea3a
+Author: masterdubs <contact@masterdubs.io>
+Date:   Mon Sep 25 17:43:55 2017 +0200
+
+    test concensus
+
+commit ab4c9977e22720827d18560efccc31c924702e58
+Author: masterdubs <contact@masterdubs.io>
+Date:   Mon Sep 25 17:42:53 2017 +0200
+
+    test concensus
+
+commit 207e6bea849bc3fddadfa3e0ca5df33246d9ffbc
+Author: masterdubs <contact@masterdubs.io>
+Date:   Mon Sep 25 17:41:42 2017 +0200
+
+    test concensus
+
+commit 0548b0bf76317ce875d33d327967260bf0e28a1e
+Author: masterdubs <contact@masterdubs.io>
+Date:   Mon Sep 25 17:35:25 2017 +0200
+
+    test concensus
+
+commit 6e4afc523a3cad34abe60e06221f9b0d2bd0b553
+Author: masterdubs <contact@masterdubs.io>
+Date:   Mon Sep 25 17:31:13 2017 +0200
+
+    test concensus
+
+commit 1e626fb0bda2bea4672953fb5f816a3ae324dc34
+Author: masterdubs <contact@masterdubs.io>
+Date:   Mon Sep 25 17:30:12 2017 +0200
+
+    test concensus
+
+commit 00d6595e006498314c60bfcf6a4e8156b09df2bc
+Author: masterdubs <contact@masterdubs.io>
+Date:   Mon Sep 25 17:27:09 2017 +0200
+
+    test concensus
+
+commit c6fd4381c5fe51ae78804451dc6694cea34e7627
+Author: masterdubs <contact@masterdubs.io>
+Date:   Mon Sep 25 16:52:19 2017 +0200
+
+    test concensus
+
+commit e5493ebca101b9573eef7dc865a3b9b967d0838a
+Author: masterdubs <contact@masterdubs.io>
+Date:   Mon Sep 25 16:50:51 2017 +0200
+
+    test concensus
+
+commit 33aa494f2a312e52c1241236d8af3a84d500d504
+Author: masterdubs <contact@masterdubs.io>
+Date:   Mon Sep 25 16:50:02 2017 +0200
+
+    test concensus
+
+commit 673bffe4d85c6aa0719ba76f117dd0a92f17f936
+Author: masterdubs <contact@masterdubs.io>
+Date:   Mon Sep 25 16:49:15 2017 +0200
+
+    test concensus
+
+commit 2760274a5f65478d99a4b505e8923dfa3743a200
+Author: masterdubs <contact@masterdubs.io>
+Date:   Mon Sep 25 16:48:32 2017 +0200
+
+    test concensus
+
+commit be489f01eaaee3c248f1e64c1f0af0ade5993627
+Author: masterdubs <contact@masterdubs.io>
+Date:   Mon Sep 25 16:47:21 2017 +0200
+
+    test concensus
+
+commit 4d2eace740ec741bdf59fb1b2e369eb561fedb24
+Author: masterdubs <contact@masterdubs.io>
+Date:   Mon Sep 25 16:45:39 2017 +0200
+
+    test concensus
+
+commit 35b85b7e8ab597cf9cfa0ad35c94a37d6f4ab0ef
+Author: masterdubs <contact@masterdubs.io>
+Date:   Mon Sep 25 16:44:12 2017 +0200
+
+    test concensus
+
+commit ecb79ee9069d28d17a5fc7727592f8e6224752cb
+Author: masterdubs <contact@masterdubs.io>
+Date:   Mon Sep 25 16:42:43 2017 +0200
+
+    test concensus
+
+commit 536c5d45620f1a2a06a822a367b38500912831e5
+Author: masterdubs <contact@masterdubs.io>
+Date:   Mon Sep 25 16:36:03 2017 +0200
+
+    test concensus
+
+commit 355f1efe4f56b533d2aead8687f7eb45ef998bd9
+Author: masterdubs <contact@masterdubs.io>
+Date:   Sun Sep 24 10:13:30 2017 +0200
+
+    remove unecessary folders
+
+commit 2fabf850b1aefcb3d31d7978572f33f5fae2517c
+Author: masterdubs <contact@masterdubs.io>
+Date:   Sun Sep 24 09:56:22 2017 +0200
+
+    update Dockerfile
+
+commit d6b5af51c36fc386b70ceff5d402df18779c69be
+Author: masterdubs <contact@aprisme.be>
+Date:   Wed Sep 6 22:16:20 2017 +0200
+
+    Update nsis.geth.nsi
+
+commit 62c6f2db23daf227fa25f12f18812161ccd683b6
+Author: masterdubs <contact@masterdubs.io>
+Date:   Wed Sep 6 12:22:13 2017 +0200
+
+    change ethereum/go-ethereum to pil/pirl
+
+commit a4ef68ffb6c82ce85325f18f6a78ed2efa14165f
+Author: masterdubs <contact@aprisme.be>
+Date:   Wed Sep 6 12:06:41 2017 +0200
+
+    Update env.sh
+
+commit 23fc269b2efd00b255096955eea8c96788c2cf65
+Author: masterdubs <contact@aprisme.be>
+Date:   Wed Sep 6 11:59:19 2017 +0200
+
+    Update bind.go
+
+commit b65b67476da83da62806feda45838f8511a32737
+Author: masterdubs <contact@aprisme.be>
+Date:   Wed Sep 6 11:56:10 2017 +0200
+
+    Update backend.go
+
+commit f7325df7469a0d2ba7042972e38775fcb14f26da
+Author: masterdubs <contact@aprisme.be>
+Date:   Wed Sep 6 11:54:42 2017 +0200
+
+    Update backend.go
+
+commit 4b67748e54f95507ad682fa3e90cc2ae7d5c3eed
+Author: masterdubs <contact@aprisme.be>
+Date:   Wed Sep 6 11:53:34 2017 +0200
+
+    Update gasprice.go
+
+commit de09ba681603c8444f6c3edd8da2976f67380c29
+Author: masterdubs <contact@aprisme.be>
+Date:   Wed Sep 6 11:52:58 2017 +0200
+
+    Update node.go
+
+commit 45ffd2569b305ecd139cd95a8b0ef680949fe9be
+Author: masterdubs <contact@aprisme.be>
+Date:   Wed Sep 6 11:52:21 2017 +0200
+
+    Update api.go
+
+commit 6eccdda4581368dcf8210ad402bc808ba0b0871a
+Author: masterdubs <contact@aprisme.be>
+Date:   Wed Sep 6 11:50:06 2017 +0200
+
+    change ethereum/go-ethereum to pirl/pirl
+
+commit 9dbd9c666e427e3b6e785c875b5c5d7f7be44faf
+Author: masterdubs <contact@masterdubs.io>
+Date:   Wed Sep 6 11:37:07 2017 +0200
+
+    change github repo from /ethereum/go-ethereum to pirl/pirl
+
+commit 181c4b979ee7f8c0450b15df1e6de79125399e9a
+Author: masterdubs <contact@aprisme.be>
+Date:   Wed Sep 6 11:10:09 2017 +0200
+
+    change ethereum/go-ethereum to pirl/pirl
+
+commit bc7c86db2862bdfd34ca2f5daacdc9a643b8a60d
+Author: masterdubs <contact@masterdubs.io>
+Date:   Mon Sep 4 21:52:10 2017 +0200
+
+    change console message
+
+commit 554e3338786c1d785c95a7a309347cb0beb91622
+Author: masterdubs <contact@masterdubs.io>
+Date:   Mon Sep 4 21:50:15 2017 +0200
+
+    pirl geth
+
+commit 8c49f089c70e637b72c32e72b03cf1d3719a6a75
+Author: masterdubs <contact@aprisme.be>
+Date:   Wed Aug 30 09:46:11 2017 +0200
+
+    update geth to pirl.ipc
+
+commit ff1e9a0e2f8f1ff07b9b71d64af90b8aa45651de
+Author: masterdubs <contact@aprisme.be>
+Date:   Wed Aug 30 09:43:56 2017 +0200
+
+    update geth to pirl.ipc
+
+commit 9621ee2310438e7afbea378ac85b5b282f9547e2
+Author: masterdubs <contact@aprisme.be>
+Date:   Wed Aug 30 09:41:35 2017 +0200
+
+    change ipc
+    
+    change geth.ipc to pirl.ipc
+
+commit d8a2c781079215c152de274d87401e4cb17f15a1
+Author: nicholas-xinhuang <nicholas.xinhuang@gmail.com>
+Date:   Wed Aug 30 06:42:12 2017 +0000
+
+    Fixed reward in64 overflow
+
+commit 89a4552d420d6e90856ca0ced513829db116b377
+Author: masterdubs <contact@aprisme.be>
+Date:   Wed Aug 30 02:07:48 2017 +0200
+
+    update rpc port to 6588 & 6589
+
+commit 179fa89b184b0d59069f739ab8f7d092b6735a42
+Author: masterdubs <contact@aprisme.be>
+Date:   Mon Aug 28 18:15:02 2017 +0200
+
+    update block reward to 12
+
+commit edc6decfb32939649cf1dcc6e8a0627efcf0d72c
+Author: masterdubs <admin@example.com>
+Date:   Mon Aug 28 16:05:45 2017 +0000
+
+    Update README.md
+
+commit 3889da6d8fee979892ccc550cd6e802b38e50e37
+Author: masterdubs <admin@example.com>
+Date:   Mon Aug 28 08:33:59 2017 +0000
+
+    Update consensus.go with block reward to 12
+    need to adjust diff
+
+commit b6051e3e6d6b2dc8937fb1ebb22d1ae17964272d
+Author: masterdubs <admin@example.com>
+Date:   Fri Aug 25 16:46:05 2017 +0000
+
+    update block time to 13 secondes
+
+commit a62f7ed2656c44cb41fbffb5dda41975d6d3292e
+Author: masterdubs <admin@example.com>
+Date:   Wed Aug 23 15:21:14 2017 +0000
+
+    Update README.md
+
+commit 6b3cf143a756d5b58252809f22aff4cb0cb8e879
+Author: masterdubs <admin@example.com>
+Date:   Wed Aug 23 17:20:35 2017 +0200
+
+    changing time
+
+commit da4fc73f6c64811d6dd27cb8eab5af5ed52d19ac
+Author: masterdubs <admin@example.com>
+Date:   Wed Aug 23 14:44:33 2017 +0000
+
+    Update fees.go change mining reward to 8
+
+commit 84985cb1daaaba8eed3da88b916d88939eec2519
+Author: masterdubs <admin@example.com>
+Date:   Mon Aug 21 17:56:39 2017 +0200
+
+    Change network ID
+
+commit 84407ac28d3dc66b09d326260589903e35525526
+Author: masterdubs <admin@example.com>
+Date:   Mon Aug 21 17:45:30 2017 +0200
+
+    Initial commit

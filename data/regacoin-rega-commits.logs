@@ -1,0 +1,11 @@
+commit 184603b0a362f323fa275b8abba3798847fa87fe
+Author: b0ltv0lk <b0lt@protonmail.com>
+Date:   Tue Nov 15 04:42:07 2016 +0100
+
+    REGA
+
+commit dd5ef89fd6631cd48732f59648b5108166afb697
+Author: b0ltv0lk <b0lt@protonmail.com>
+Date:   Tue Nov 15 04:38:03 2016 +0100
+
+    :tada: Added .gitattributes & .gitignore files

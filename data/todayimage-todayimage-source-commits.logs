@@ -1,0 +1,17 @@
+commit e0e46c68249e8d66fdf1b99053be76742b79f6db
+Author: todayimage <todayimage.net@gmail.com>
+Date:   Wed Sep 28 14:23:37 2016 +0500
+
+    Update net.cpp
+
+commit 6d6b8a04930a73a18e127289cb145a285f7f7d22
+Author: todayimage <todayimage.net@gmail.com>
+Date:   Sat Jul 30 01:47:04 2016 +0500
+
+    todaycoin
+
+commit ba352bef36888b243072d07dae298ae540aa09c7
+Author: todayimage <todayimage.net@gmail.com>
+Date:   Sat Jul 30 01:45:05 2016 +0500
+
+    :octocat: Added .gitattributes & .gitignore files

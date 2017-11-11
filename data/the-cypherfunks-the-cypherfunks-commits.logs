@@ -1,0 +1,291 @@
+commit fc10d8251268e6a983683e45582a2f48ab899a24
+Merge: d8428ee e9033cc
+Author: Simon de la Rouviere <simon@delarouviere.com>
+Date:   Sat Apr 26 10:12:38 2014 +0200
+
+    Merge branch 'master-1.1' of github.com:The-Cypherfunks/The-Cypherfunks into master-1.1
+
+commit d8428ee88af95b14146946591b8d5c461ffaf2a3
+Author: Simon de la Rouviere <simon@delarouviere.com>
+Date:   Sat Apr 26 10:11:39 2014 +0200
+
+    Added github remote for building windows wallets in gitian.
+
+commit e9033ccd719ce5116976bea88eecd4134319951c
+Merge: 93085be 0aa5ba5
+Author: Simon de la Rouviere <simon@delarouviere.com>
+Date:   Fri Apr 25 11:13:54 2014 +0200
+
+    Merge pull request #4 from The-Cypherfunks/pch_future_proof
+    
+    new pchMessageStart future proof
+
+commit 0aa5ba56ac4b87d63b527d7f4efd77b42b2a88f7
+Author: Simon de la Rouviere <simon@delarouviere.com>
+Date:   Thu Apr 24 17:17:48 2014 +0200
+
+    Added TestNet pchMessageStart changes
+
+commit 1a069bc43a3ffc3abc7e01e68d555e6772d145ba
+Author: Simon de la Rouviere <simon@delarouviere.com>
+Date:   Thu Apr 24 16:59:13 2014 +0200
+
+    Added in an additional pchMessageStart to eventually switch over to it from Litecoin's message start.
+
+commit 9f88dfb5b753b58828442ae2afb6a21b0a6a5a1c
+Author: Simon de la Rouviere <simon@delarouviere.com>
+Date:   Thu Apr 24 12:57:26 2014 +0200
+
+    Upped version number
+
+commit 93085be6cf2e05fdb82634c898c497d20cded3a8
+Author: Simon de la Rouviere <simon@delarouviere.com>
+Date:   Wed Apr 23 13:26:04 2014 +0200
+
+    Added makekeypair code (from Darkcoin) & added in new alert public key for Cypherfunks.
+
+commit c6aa48afd5e614333db9ae0d58a90f223047216d
+Author: Simon de la Rouviere <simon@delarouviere.com>
+Date:   Sat Apr 19 18:13:37 2014 +0200
+
+    Updated checkpoints.
+
+commit b818bf90dbf151fae71704f9c8e6d8ec9cc4f89f
+Merge: d18ef9b bcf713f
+Author: Simon de la Rouviere <simon@delarouviere.com>
+Date:   Wed Apr 9 15:05:20 2014 +0200
+
+    Merge pull request #3 from The-Cypherfunks/openssl-fix
+    
+    OpenSSL build/doc fixes for heartbleed bug.
+
+commit bcf713fe3588b870e5d6a389c13678b1fa2acb1b
+Author: Simon de la Rouviere <simon@delarouviere.com>
+Date:   Wed Apr 9 15:00:12 2014 +0200
+
+    OpenSSL build/doc fixes for heartbleed bug.
+
+commit d18ef9be01a6e938403e9fc933418be3f401d4cd
+Merge: 82556a0 b500bac
+Author: Simon de la Rouviere <simon@delarouviere.com>
+Date:   Sat Feb 22 15:44:15 2014 +0200
+
+    Merge pull request #2 from nieldlr/docs/readme-website-typo
+    
+    Fix typo in readme for website url
+
+commit b500bacedd4f2aa418ceaae7af9cf63b5d5a3c7e
+Author: Niel de la Rouviere <nieldlr@gmail.com>
+Date:   Sat Feb 22 14:51:24 2014 +0200
+
+    Fix typo in readme for website url
+
+commit 82556a0e656dc8395e4479d0ce8be8c27c82bab7
+Author: Simon de la Rouviere <simon@delarouviere.com>
+Date:   Fri Feb 21 15:01:56 2014 +0200
+
+    Some copy changes.
+
+commit f741f3ba51c6d3ebc69f0861ea3cc79152b2b178
+Author: Simon de la Rouviere <simon@delarouviere.com>
+Date:   Fri Feb 21 07:42:35 2014 +0200
+
+    Testing, testing. WE ARE ON. Genesis blocks created.
+
+commit 5ce784ccf446f6a64f3ccb3c59fb08e3c6ca1130
+Author: Simon de la Rouviere <simon@delarouviere.com>
+Date:   Fri Feb 21 00:19:26 2014 +0200
+
+    Removed litecoin branding and made some checkpointing changes.
+
+commit 967b9b7b3300c99226140251b1cafc7f32dabfe9
+Author: Simon de la Rouviere <simon@delarouviere.com>
+Date:   Thu Feb 20 17:48:34 2014 +0200
+
+    windows icons
+
+commit 38cf70bc1f6d3bdeb339e1807902cc439af79034
+Author: Simon de la Rouviere <simon@delarouviere.com>
+Date:   Wed Feb 19 11:42:27 2014 +0200
+
+    Added proper dns seeds for mainnet and testnet.
+
+commit 5e8b67dfcae5d8bbb332e14855b85c91207af418
+Author: Simon de la Rouviere <simon@delarouviere.com>
+Date:   Tue Feb 18 16:47:30 2014 +0200
+
+    New genesis block for testing.
+
+commit 0afcae4496a11d2ce8c9e3205a7581f64585138a
+Author: Simon de la Rouviere <simon@delarouviere.com>
+Date:   Mon Feb 17 22:44:26 2014 +0200
+
+    Set coinbase maturity to an hour.
+
+commit cdbf39c68335c49c78205d99ae75f55121301f65
+Author: Simon de la Rouviere <simon@delarouviere.com>
+Date:   Mon Feb 17 22:23:34 2014 +0200
+
+    Redid seed dns
+
+commit 6f62aa02aac0b2950794fcd46bac454b874131cd
+Author: Simon de la Rouviere <simon@delarouviere.com>
+Date:   Mon Feb 17 21:12:02 2014 +0200
+
+    Update checkpoint data.
+
+commit e46e9dfaeb5b4ac9acf45b5893f3d1ed3b1d9a49
+Author: Simon de la Rouviere <simon@delarouviere.com>
+Date:   Mon Feb 17 15:13:58 2014 +0200
+
+    About graphic
+
+commit 97381a5426e40bbd0534ba67807d7bc3a83f6e76
+Author: Simon de la Rouviere <simon@delarouviere.com>
+Date:   Sat Feb 15 14:59:36 2014 +0200
+
+    Several reskinning fixes.
+
+commit e17456fc4c39a92afc7a2cdc1beea10164c32acb
+Author: Simon de la Rouviere <simon@delarouviere.com>
+Date:   Fri Feb 14 11:45:03 2014 +0200
+
+    libstd and gcc for windows
+
+commit 98059797fe5a76f3227f5931f758e9475611b7b4
+Author: Simon de la Rouviere <simon@delarouviere.com>
+Date:   Fri Feb 14 11:32:38 2014 +0200
+
+    linker flag extra
+
+commit f6f335e6556f819987bc02e5b0288035fc360037
+Author: Simon de la Rouviere <simon@delarouviere.com>
+Date:   Fri Feb 14 09:52:51 2014 +0200
+
+    setup.nsi fixes
+
+commit 7fbf03d70d7654b0827953070e66abd811eaa03d
+Author: Simon de la Rouviere <simon@delarouviere.com>
+Date:   Thu Feb 13 22:26:22 2014 +0200
+
+    remove bitcoin-qt.pro. Confused qmake?
+
+commit 8a5b8971b2c535b34be65843ef6a2d591daf32e5
+Author: Simon de la Rouviere <simon@delarouviere.com>
+Date:   Sat Feb 8 19:15:21 2014 +0200
+
+    Added genesis block checkpoint hash.
+
+commit e5e254f7ad2ba0a462e646f603052d6e0a34d0c2
+Author: Simon de la Rouviere <simon@delarouviere.com>
+Date:   Sat Feb 8 17:26:45 2014 +0200
+
+    Remove pnp seeds. These are Bitcoin nodes.
+
+commit a65b2f94267c2b48b5c9f231a3487b83e741b1e9
+Author: Simon de la Rouviere <simon@delarouviere.com>
+Date:   Sat Feb 8 14:33:23 2014 +0200
+
+    Changed client version to 1. Caused minVersion to bug out.
+
+commit 3d0b38a82d7c0dfa08fece60e0b2d54a0c522c7f
+Author: Simon de la Rouviere <simon@delarouviere.com>
+Date:   Sat Feb 8 12:35:24 2014 +0200
+
+    Readjusted subsidy to account for small initial diff settling period.
+
+commit c899b26596747b4b668f1245d2239357f4a3ed2c
+Author: Simon de la Rouviere <simon@delarouviere.com>
+Date:   Fri Feb 7 13:13:17 2014 +0200
+
+    Versioning and Copyright changes.
+
+commit 4f9954c13a6a800c2ba6021497e46842020e0156
+Author: Simon de la Rouviere <simon@delarouviere.com>
+Date:   Fri Feb 7 12:16:21 2014 +0200
+
+    Some dust limits put in, MAX_MONEY changed and added initial README.
+
+commit 5acc960806725d28908dc65ecaaffda252f47528
+Author: Simon de la Rouviere <simon@delarouviere.com>
+Date:   Thu Feb 6 21:54:43 2014 +0200
+
+    Patched up deployment issues and changed port of mainnet (clashed with StalwartBucks TestNet port).
+
+commit 83527f8dc87b3dd04ff0785556eaa84f23023c5f
+Author: Simon de la Rouviere <simon@delarouviere.com>
+Date:   Wed Feb 5 11:19:37 2014 +0200
+
+    Main Net genesis block generation and dns seed.
+
+commit 6ec68e7db492d2da1d68205429d149b1327025b0
+Author: Simon de la Rouviere <simon@delarouviere.com>
+Date:   Tue Feb 4 16:43:11 2014 +0200
+
+    ProofOfWorkLimit target set just higher than a mac's CPU. Updated with new genesis block for testnet.
+
+commit 1575d007a83d5161495fb15208703a8c3a0363a1
+Author: Simon de la Rouviere <simon@delarouviere.com>
+Date:   Mon Feb 3 21:24:14 2014 +0200
+
+    Fix gravity well times past and lower proofofworklimit.
+
+commit 0c5e93009a11e36744474aa1b590dbfbf4dbf71b
+Author: Simon de la Rouviere <simon@delarouviere.com>
+Date:   Mon Feb 3 18:55:31 2014 +0200
+
+    Redid gravity well with new genesis block, changed rewards, and allow time for diff to settle.
+
+commit bfe65e3f14776d62502eded0b5fa3575246f0199
+Author: Simon de la Rouviere <simon@delarouviere.com>
+Date:   Mon Feb 3 16:02:03 2014 +0200
+
+    readjust gravity well
+
+commit 92a81edb71a9f71707159a194d579547c67a89ed
+Author: Simon de la Rouviere <simon@delarouviere.com>
+Date:   Mon Feb 3 14:09:18 2014 +0200
+
+    MUCH smaller proof of work limit.
+
+commit 6886c13aef6f4b4983a7a4af0614f2c3a36361fe
+Author: Simon de la Rouviere <simon@delarouviere.com>
+Date:   Mon Feb 3 12:24:03 2014 +0200
+
+    Redid genesis block for new min proof of work limit
+
+commit c41f3ce4377a17924d938c8fe93cf775b6ec82bf
+Author: Simon de la Rouviere <simon@delarouviere.com>
+Date:   Mon Feb 3 12:11:45 2014 +0200
+
+    Lower proofofworklimit
+
+commit 0f8a3ba1ba2ed9f783cd4102481daec77cab1873
+Author: Simon de la Rouviere <simon@delarouviere.com>
+Date:   Sun Feb 2 18:45:37 2014 +0200
+
+    Refactor past time in seconds.
+
+commit a3a79176d1083fa1da39668987850a5f1d9107db
+Author: Simon de la Rouviere <simon@delarouviere.com>
+Date:   Sun Feb 2 17:11:15 2014 +0200
+
+    Kimoto well and mac fixes from dogecoin.
+
+commit 13ce44dc6e542e20b1feecacb8bcc5bc4d993300
+Author: Simon de la Rouviere <simon@delarouviere.com>
+Date:   Thu Jan 30 12:07:57 2014 +0200
+
+    Fixed leveldb Makefile bug.
+
+commit a65c750d3aaf808e19511a21b414331a66dc3a5a
+Author: Simon de la Rouviere <simon@delarouviere.com>
+Date:   Thu Jan 30 10:18:06 2014 +0200
+
+    Whoops, forgot src in gitignore.
+
+commit d270d22c8b4007273e3fed22d83beca08c5b16f9
+Author: Simon de la Rouviere <simon@delarouviere.com>
+Date:   Tue Jan 28 17:34:30 2014 +0200
+
+    Testing, testing, 1, 2, 3. Is thing on?

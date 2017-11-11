@@ -1,0 +1,1379 @@
+commit 577743eeedd80ad3f44f58df35ed4b84a3db0c5a
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Tue Nov 7 14:49:45 2017 -0700
+
+    QT Translations
+
+commit c67578b99257ba058b0e19bd4074bb6ddf935854
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Tue Nov 7 14:48:28 2017 -0700
+
+    QT Cleanup
+
+commit 4c385511603b059ad27426f0c5b044c515609070
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Tue Nov 7 14:37:22 2017 -0700
+
+    Update Qt
+
+commit d5ab5affc5f819a5b45af984df82c60119d1ea90
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Sun Nov 5 22:43:44 2017 -0700
+
+    Memory Management in Stake Minter
+
+commit caf714dfb30676a3b25a242abd13944b4c9f0d12
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Sat Nov 4 13:03:22 2017 -0700
+
+    Update .gitignore
+
+commit 4e5b603568f9f21a98df6e4a2a8690c349dcf335
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Sat Nov 4 13:00:13 2017 -0700
+
+    Build Cleanup
+
+commit 24560eb428c246bc6228c9de854ac37656e02316
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Sat Nov 4 12:58:37 2017 -0700
+
+    Unified Time Updates
+
+commit 47c7a457a01fb646e12eafec26d97370d41e8974
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Sat Nov 4 12:52:26 2017 -0700
+
+    Build Cleanup
+
+commit e8188dd2df42b3da9e6c13893416cc78e0769d3f
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Sat Nov 4 12:51:06 2017 -0700
+
+    LLP Clock Regulator
+
+commit 53aed242b6a303a27a8836b93b94f801bcdf72ae
+Author: VidereLicet <colin@nexus.io>
+Date:   Sat Nov 4 12:45:51 2017 -0700
+
+    Windoze Debugging
+
+commit 3b8bdd719444d71af5f7fb42845e674c100a32cb
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Thu Nov 2 02:43:17 2017 -0700
+
+    Unified Time / Clock Regulator
+
+commit 94d080893dec144d74e4c9936600d4b13beadc23
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Thu Nov 2 00:09:33 2017 -0700
+
+    Build Cleanup
+
+commit c85ebd2c198ac1b5dc9a1d3594076beb9521d8de
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Thu Nov 2 00:09:06 2017 -0700
+
+    LLP Clock Regulator
+
+commit ca02de4aaf9a15f711c5eab6613e526b04b5d91c
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Wed Nov 1 22:14:02 2017 -0700
+
+    OSX cleanup
+
+commit 06cfee5a8d6c105660c83381a1b3604fb06da8c4
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Wed Nov 1 22:13:13 2017 -0700
+
+    OSX updates
+
+commit e600e2f500a5d04517d103bf46e9eebf25cde8c0
+Merge: 5402f7a d685617
+Author: Videlicet <colin@nexusoft.io>
+Date:   Wed Nov 1 20:26:00 2017 -0700
+
+    Merge pull request #41 from vrantanen/master
+    
+    Cosmetic changes to the documentation
+
+commit d685617751df4cedef9273b56534989845e3d388
+Author: Ville Rantanen <v.r@iki.fi>
+Date:   Wed Nov 1 23:01:23 2017 +0200
+
+    Cosmetic changes to the documentation
+
+commit 5402f7aa66b55c65718c7e25ec823f3005478cb4
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Tue Oct 31 22:41:16 2017 -0700
+
+    LLD Docs
+
+commit bfaf4e5013a6ccb0581db4b05f1650c7278f2a0e
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Tue Oct 31 22:39:12 2017 -0700
+
+    OSX Build Updates
+
+commit c8a45a63f9cea5825ee9652337c233caf61cf74f
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Tue Oct 31 17:17:45 2017 -0700
+
+    Max Outbound Args
+
+commit a1cb0316e23ee260c970bc4dbb04338bed10b2f9
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Tue Oct 31 11:58:33 2017 -0700
+
+    Copying / Readme
+
+commit badfaac9035cc4aad05bb051320c72f7e39c11ef
+Merge: e49ade0 cfe0a33
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Tue Oct 31 11:55:56 2017 -0700
+
+    Merge branch 'master' of https://github.com/Nexusoft/Nexus
+
+commit e49ade06b359424043f5e0e4bb74fa2533074dd7
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Tue Oct 31 11:55:30 2017 -0700
+
+    0.2.3 Readme
+
+commit cfe0a332a5cde6673a1f9ab34a97561381dd9ef9
+Merge: a29153e 04a45e3
+Author: Videlicet <colin@nexusoft.io>
+Date:   Mon Oct 30 21:57:41 2017 -0700
+
+    Merge pull request #39 from paulthetaffy/master
+    
+    Build error due to C++11 support not being enabled by default on some…
+
+commit 04a45e31b44c8f88c0e1d3c1da43360d4535ab10
+Author: paulthetaffy <paulscreen@gmail.com>
+Date:   Fri Oct 27 14:00:03 2017 +1100
+
+    Build error due to C++11 support not being enabled by default on some versions of g++
+
+commit a29153ede7b97e8d60b29536d40b076f0a909914
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Wed Oct 25 17:11:31 2017 -0700
+
+    Build Cleanup
+
+commit f34e190267e3e76f38c3ed71a17d1f2ba69ba778
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Wed Oct 25 17:11:10 2017 -0700
+
+    Update kernel.cpp
+
+commit ed2762062adc917d9686608d57c9984f7b6a5cac
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Wed Oct 25 13:16:04 2017 -0700
+
+    Core 0.2.3 Merge
+
+commit 2224ec32fa09e30fcd8ce8d54f3d8ea24d42313e
+Merge: a4805b9 444327f
+Author: Videlicet <colin@nexusoft.io>
+Date:   Wed Oct 4 21:44:02 2017 -0700
+
+    Merge pull request #38 from mercuryminer/patch-5
+    
+    Update unifiedtime.cpp
+
+commit 444327fb2518d54508191500289263c430ffa510
+Author: mercuryminer <mercury.matt@gmail.com>
+Date:   Tue Oct 3 22:11:43 2017 +1100
+
+    Update unifiedtime.cpp
+    
+    Randomize the time seed connection Iterator.
+
+commit a4805b9031699fa557c7587249b8f393d4ec9665
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Thu Jul 27 20:49:38 2017 -0700
+
+    Trust Key Expiration Verbose Log
+
+commit 72c6bc1d48d6d6b2f4f09849ca8dc1d5fa92de08
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Thu Jul 27 20:24:58 2017 -0700
+
+    Add RPC Commands
+
+commit e83aca967b4acfc828d5cf06dbacd15de6405ab0
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Wed Jul 26 01:29:21 2017 -0700
+
+    Remove Consistency History
+
+commit 4415782d3983c23fbbe65e8a0786d24b88655f78
+Merge: 28e9823 9261ee8
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Wed Jul 26 01:24:09 2017 -0700
+
+    Merge branch 'master' of https://github.com/Nexusoft/Nexus
+    
+    Merge Master
+
+commit 28e9823979d12dd437f6dd880c3b781b30f39108
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Wed Jul 26 01:23:35 2017 -0700
+
+    Cleanup
+
+commit 79eb0a49ce3b2153b7bc53280300ddd2cd004cab
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Wed Jul 26 01:22:49 2017 -0700
+
+    Trust Scores / Network Hash Rate
+
+commit 9261ee8521a5acc462cf4bb419b6a94e5b47e5c4
+Merge: 58460d8 86612fb
+Author: Videlicet <colin@nexusoft.io>
+Date:   Tue Jul 18 09:45:16 2017 -0700
+
+    Merge pull request #33 from mercuryminer/patch-3
+    
+    Update unifiedtime.cpp
+
+commit 86612fbf206cf64806ddd134de4856c6ef1371f7
+Author: mercuryminer <mercury.matt@gmail.com>
+Date:   Tue Jul 18 19:57:47 2017 +1000
+
+    Update unifiedtime.cpp
+
+commit 58460d8a6639e7a7aa080f4280b877df07572a16
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Mon Jul 17 20:28:39 2017 -0700
+
+    Update Documentation
+
+commit 9144bbeeb976ff0d1b5ba28be67289c86a5b9a0d
+Merge: e205db0 7e75492
+Author: Videlicet <colin@nexusoft.io>
+Date:   Thu Jul 13 10:28:47 2017 -0700
+
+    Merge pull request #32 from mercuryminer/patch-2
+    
+    Update unifiedtime.cpp
+
+commit 7e75492e05992f814078191fe37f0512ee0eed75
+Author: mercuryminer <mercury.matt@gmail.com>
+Date:   Fri Jul 14 00:13:56 2017 +1000
+
+    Update unifiedtime.cpp
+    
+    remove un-maintained seeds.
+
+commit e205db074fe137c05b8e3867ea6ef2b9e1668fbc
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Wed Jul 12 11:29:16 2017 -0700
+
+    Update Documentation
+
+commit 8e05e2047fb7911fdef3242b9fc745279d960cdc
+Merge: b4fbb9c 4cc8202
+Author: Videlicet <colin@nexusoft.io>
+Date:   Wed Jul 5 19:13:48 2017 -0700
+
+    Merge pull request #31 from mercuryminer/patch-1
+    
+    Update unifiedtime.cpp
+
+commit 4cc82024b71d0b6fd766bd7cbac98d704f5c2977
+Author: mercuryminer <mercury.matt@gmail.com>
+Date:   Wed Jul 5 22:00:14 2017 +1000
+
+    Update unifiedtime.cpp
+    
+    Increase dns entries to help load on network.
+
+commit b4fbb9c4440a3b0cba862745a10f4254d55ef61b
+Merge: 22b1103 61a0061
+Author: Videlicet <colin@nexusoft.io>
+Date:   Fri Jun 30 16:08:52 2017 -0700
+
+    Merge pull request #28 from dijonnaise/master
+    
+    Fixing an issue with the qmake arguments
+
+commit 61a006125d8340ef0204897fece6dbb6af1ba734
+Author: dijonnaise <dijonnaisedijonnaise@gmail.com>
+Date:   Fri Jun 9 13:26:55 2017 -0400
+
+    Fixing an issue with the qmake arguments regarding building with or without UPNP support. The comments in the code did not agree with the actual behavior.
+
+commit 22b1103702cfdfc0beee1271eece2e50b3e27d4d
+Merge: 3c266b7 2f6afdc
+Author: Bryan Gmyrek <bryangmyrek@gmail.com>
+Date:   Wed May 17 17:44:25 2017 -0700
+
+    Merge pull request #26 from Nexusoft/dev-docker
+    
+    Add Dockerfile.test to enable testing with Docker
+
+commit 2f6afdcc70facb91e0acdd61ada3985d5abde02c
+Author: Bryan Gmyrek <bryangmyrekcom@gmail.com>
+Date:   Mon May 15 18:19:46 2017 -0700
+
+    Add Dockerfile.test to enable testing with Docker
+
+commit 3c266b743a7ba2b1bf652d3d1e3c1a5935de5ecc
+Merge: d8a0c3e 1ed6702
+Author: Bryan Gmyrek <bryangmyrek@gmail.com>
+Date:   Sat May 13 10:18:05 2017 -0700
+
+    Merge pull request #24 from Nexusoft/dev-test
+    
+    Tweaks for public testnet
+
+commit 1ed670269f4d16c9f62e7435c259a1bb521be646
+Author: Bryan Gmyrek <bryangmyrekcom@gmail.com>
+Date:   Fri Apr 14 00:14:41 2017 -0700
+
+    update script
+
+commit 7813bd4ab9f7ae46a68424e4c579918977b508ba
+Author: Bryan Gmyrek <bryangmyrekcom@gmail.com>
+Date:   Fri Apr 14 00:10:22 2017 -0700
+
+    Add public test net script / example
+
+commit d8a0c3ecf4b376e6efb6a09600c8ba6dd51f302a
+Merge: 05a2614 8ce3470
+Author: Bryan Gmyrek <bryangmyrek@gmail.com>
+Date:   Thu Apr 13 15:46:09 2017 -0700
+
+    Merge pull request #25 from erasmospunk/rawtransactions
+    
+    Add rawtransaction RPC calls
+
+commit 8ce3470ec78cf3488ef15caad3834a21e9d0dafd
+Author: John L. Jegutanis <erasmospunk@gmail.com>
+Date:   Thu Apr 13 21:33:15 2017 +0200
+
+    Add rawtransaction RPC calls
+
+commit c30197d915a19cdeacbd2147ceb42dd7ad20b6d6
+Author: Bryan Gmyrek <bryangmyrekcom@gmail.com>
+Date:   Thu Apr 13 09:58:24 2017 -0700
+
+    add public testnet instructions
+
+commit 2623719d4f2477e259861fd3d2b155c86377f8bd
+Author: Bryan Gmyrek <bryangmyrekcom@gmail.com>
+Date:   Thu Apr 13 09:51:36 2017 -0700
+
+    update public testnet user scripts
+
+commit d8114c9aa214fc83752df2f9d4a01501cf596546
+Author: Bryan Gmyrek <bryangmyrekcom@gmail.com>
+Date:   Thu Apr 13 08:55:34 2017 -0700
+
+    fix testnet rpc port
+
+commit 781f519ca0aef8d6332080b7d675f2f17cee4276
+Author: Bryan Gmyrek <bryangmyrekcom@gmail.com>
+Date:   Thu Apr 13 08:55:02 2017 -0700
+
+    increase delay
+
+commit 490c0cb5d4a860c0eebf482747f23d6d70f8b63f
+Author: Bryan Gmyrek <bryangmyrekcom@gmail.com>
+Date:   Thu Apr 13 08:53:15 2017 -0700
+
+    update testnet seeds, use null terminator
+
+commit 05a26147f964c8dd219f7c8bbad0d7657216d4b9
+Merge: f17221b 06c9f43
+Author: Bryan Gmyrek <bryangmyrek@gmail.com>
+Date:   Wed Mar 22 08:44:36 2017 -0700
+
+    Merge pull request #20 from Nexusoft/dev-test
+    
+    Scripts to support testing locally, core tweaks
+
+commit 06c9f43e5ac17b21d8883dd3686ef57049237f48
+Author: Bryan Gmyrek <bryangmyrekcom@gmail.com>
+Date:   Fri Mar 17 23:07:16 2017 -0700
+
+    fix bootstrap recent.rar issue
+
+commit ceec57ccaf8971cd08a6b91630bf577be6198df4
+Author: Bryan Gmyrek <bryangmyrekcom@gmail.com>
+Date:   Fri Mar 17 07:42:59 2017 -0700
+
+    update readme
+
+commit 2a821aac25542faf751d423a15dfc9ddd1423457
+Author: Bryan Gmyrek <bryangmyrekcom@gmail.com>
+Date:   Fri Mar 17 07:22:05 2017 -0700
+
+    add helper scripts
+
+commit 3af285ec5fc2685c9a7e57c3a4121f0f6d9f9e4f
+Author: Bryan Gmyrek <bryangmyrekcom@gmail.com>
+Date:   Fri Mar 17 07:17:55 2017 -0700
+
+    core tweaks for tests
+
+commit 98e007ff7e2282d1d373eabaf6672e86ad470c7a
+Author: Bryan Gmyrek <bryangmyrekcom@gmail.com>
+Date:   Fri Mar 17 07:15:11 2017 -0700
+
+    support two nodes on localhost
+    
+    and fix path (thanks hashtobewild)
+
+commit a0c625854ccd9c5d22e001b01169e2b997ab9a10
+Author: Bryan Gmyrek <bryangmyrekcom@gmail.com>
+Date:   Tue Mar 14 09:33:57 2017 -0700
+
+    tweaks to smoke test script
+
+commit 57a051f0ed1f781270f313efc0ccee32ba4002fb
+Author: Bryan Gmyrek <bryangmyrekcom@gmail.com>
+Date:   Mon Mar 13 09:05:47 2017 -0700
+
+    Support local test mode for regression/smoke tests
+    
+    Add -istimeseeed flag.
+    Add -regtest flag. Sets lower difficulty, etc.
+    Add qa/smoke scripts to enable smoke testing on local machine.
+
+commit f17221b0e4345a8939eb73e080ee9e29320d652f
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Fri Feb 3 20:12:03 2017 -0700
+
+    Add RPC Command 'listtrustkeys'
+
+commit 8a5da43d40eac9974a5c70bd6ef891253c37ec62
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Fri Feb 3 15:27:48 2017 -0700
+
+    Update Release
+
+commit 2ae5b99563e1a0982ee0fc34f2da1b44f942c2b1
+Merge: fa9b3b6 f34d7dc
+Author: Videlicet <colin@nexusoft.io>
+Date:   Fri Feb 3 15:25:06 2017 -0700
+
+    Merge pull request #15 from Nexusoft/dev-qt
+    
+    Logo updates + add logo to the overview screen
+
+commit f34d7dc0c5514cb49672d2bd947b95f104dd3917
+Merge: 24adbf6 fa9b3b6
+Author: Bryan Gmyrek <bryangmyrekcom@gmail.com>
+Date:   Tue Jan 31 18:45:58 2017 -0700
+
+    Merge branch 'master' into dev-qt
+
+commit 24adbf6b48b97013111658fc20445a3bd1449be2
+Author: Bryan Gmyrek <bryangmyrekcom@gmail.com>
+Date:   Tue Jan 31 18:43:48 2017 -0700
+
+    use new logo on splash, icon, overview
+
+commit fa9b3b6c971701bf970bfde486e7bdfa06505f55
+Merge: 5e42953 eb55908
+Author: Videlicet <colin@nexusoft.io>
+Date:   Sun Jan 29 12:27:42 2017 -0700
+
+    Merge pull request #13 from hg5fm/master
+    
+    Fix LLD databases path
+
+commit 5e429531475a4867d00fd4f48e16173fbb6685b1
+Merge: 2f09fd4 0a5b26c
+Author: Videlicet <colin@nexusoft.io>
+Date:   Sun Jan 29 12:27:06 2017 -0700
+
+    Merge pull request #14 from efficienthash/master
+    
+    added another missing "," and incremented counter
+
+commit 0a5b26c1f9fe87aae60fe71f7127d8cd5512e58c
+Merge: 2f09fd4 2b001bc
+Author: efficienthash <efficienthash@gmail.com>
+Date:   Sun Jan 29 10:37:38 2017 +0100
+
+    Merge pull request #1 from efficienthash/fixed-typo
+    
+    Added another missing ","
+
+commit 2b001bce339d8ef4bc6a680cdfc0d8033a9dfd83
+Author: efficienthash <efficienthash@gmail.com>
+Date:   Sun Jan 29 10:37:00 2017 +0100
+
+    Added another missing ","
+
+commit 2f09fd4340cd8a8da7ec40212532bb4f0b78365a
+Merge: a61b139 160474a
+Author: Bryan Gmyrek <bryangmyrek@gmail.com>
+Date:   Sat Jan 28 23:12:35 2017 -0700
+
+    Merge pull request #12 from efficienthash/master
+    
+    fixes typo/count
+
+commit eb559087dadfe8f3dae1e35cbd807dd48018e592
+Author: Mumus <mumusbtc@outlook.com>
+Date:   Sat Jan 28 21:32:25 2017 +0200
+
+    Fix LLD databases path
+    - keychain and datachain should be kepth in the same data directory specified by the "-datadir" parameter
+
+commit 160474ada4358152e278657f3c2811db5e60b434
+Merge: a61b139 3036a7c
+Author: efficienthash <efficienthash@gmail.com>
+Date:   Sat Jan 28 19:23:08 2017 +0100
+
+    Merge pull request #1 from efficienthash/typo-fix
+    
+    Fixed Typos/Count
+
+commit 3036a7c0c45ca795f219f524ce49ecb917c87d4f
+Author: efficienthash <efficienthash@gmail.com>
+Date:   Sat Jan 28 19:22:39 2017 +0100
+
+    Fixed Typos/Count
+
+commit a61b1390ebffe12a6b3f660d45bee193b9382a2b
+Merge: 668cec8 d35aea2
+Author: Videlicet <colin@nexusoft.io>
+Date:   Sat Jan 28 02:44:02 2017 -0700
+
+    Merge pull request #11 from efficienthash/update_seenodes
+    
+    Seed Node Update
+
+commit d35aea2f92264ff6e38ec3e64c3219ce158e9577
+Author: efficienthash <efficienthash@gmail.com>
+Date:   Thu Jan 26 17:33:26 2017 +0100
+
+    Seed Node Update
+    
+    Added 13 new seenodes.
+    Reordered Seenodes, to remove a bit load from the
+    first nodes.
+
+commit 841e0bd89d8a7303129a081f063b13ceae46f950
+Author: Bryan Gmyrek <bryangmyrekcom@gmail.com>
+Date:   Wed Jan 25 17:20:01 2017 -0700
+
+    update splash image
+
+commit 668cec832811d60f3ca270eb1ceeff65eac42a13
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Mon Jan 23 20:18:06 2017 -0700
+
+    Repair Wallet Update
+
+commit 70ba7d402781c9c397eb3f57f38010751e7b4373
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Mon Jan 23 18:54:05 2017 -0700
+
+    Update RPC
+
+commit 428068c570a5354287dfadfae5d67c382f781c47
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Sun Jan 8 16:17:05 2017 -0700
+
+    Update Block Initialization
+
+commit a944e47a5baca622465dc91cd7a3af78e2f48da3
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Fri Jan 6 09:59:08 2017 -0700
+
+    Trust Update
+
+commit 513fdd01ac04dcfae752621acf58a454b1a82932
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Thu Jan 5 22:25:11 2017 -0700
+
+    Build Updates
+
+commit 3348975cdfe6603df0fde22bfd7aa9e74ed2b999
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Thu Jan 5 22:02:47 2017 -0700
+
+    RPC / Wallet / Messaging
+
+commit 7f0025e50430784db8c60c0e257c2d58c7ba4a33
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Fri Dec 23 18:29:17 2016 -0700
+
+    Trust and Messages Update
+
+commit 71643c1503c154e66f258b26767de734b5e9c891
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Tue Dec 20 19:30:15 2016 -0700
+
+    Build Updates
+
+commit 087b5e9ddb0b07dcf3f830533a86f1c7529b56de
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Mon Dec 19 21:58:45 2016 -0700
+
+    Debug Cleanup
+
+commit 1e927bcd315cf41a3ea8c4ea9564d3bac1f37288
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Mon Dec 19 21:56:26 2016 -0700
+
+    Remove Builds
+
+commit 90f28c21586bca7ca87643da21da2c7507cbb0d6
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Mon Dec 19 21:56:10 2016 -0700
+
+    Berklee Build Updates
+
+commit 2622a3f1d73efc4cd20992d5bb3a4e029b4e0d15
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Mon Dec 19 21:50:41 2016 -0700
+
+    Checkpoint / LLD Build Updates
+
+commit d13239a93a97d976b96f17b34314e1888e1988ed
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Mon Dec 19 20:35:47 2016 -0700
+
+    Update Readme
+
+commit 7112a6f289aac428ff927b1b77bf0b1528da0c58
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Mon Dec 19 20:33:07 2016 -0700
+
+    Remove Verbose Data
+
+commit 1f6712d9aacf3269f0cdfe0118e11a9983033bba
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Mon Dec 19 20:25:55 2016 -0700
+
+    LLD Build Options
+
+commit 3bda02f5cb07112fbfaabf08f50a6530fd834448
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Mon Dec 19 20:19:16 2016 -0700
+
+    Build, Kernel, and Network Updates
+
+commit 31eff96adc103accc4d829f431e7c98e68ea24c9
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Mon Dec 19 20:14:04 2016 -0700
+
+    Build, Kernel, and Network Updates
+
+commit ab9676a2b1641be1e790fb34b30065cfc8b21197
+Merge: 76739ed 86da546
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Mon Dec 19 17:51:11 2016 -0700
+
+    LLD Stable Merge Master
+
+commit 76739ede10efcefc1164a105edad062755d70361
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Sat Dec 17 19:56:30 2016 -0700
+
+    Update Age Minimums
+
+commit a93cfb6859e1239030d4a33e2ad5fb14d5894eec
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Sat Dec 17 19:11:33 2016 -0700
+
+    Kernel Updates
+
+commit 751b82341e6335289129009c99a888e7044ba02f
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Sat Dec 17 18:19:17 2016 -0700
+
+    DDOS Filters
+
+commit 51c10f407184469510a8b837cbb7afb47e8cb2e6
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Sat Oct 29 19:16:27 2016 -0700
+
+    Fix Documentation Typos
+
+commit 0ba074313338b63a9588b857d76455fee9f000cc
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Sat Oct 29 19:15:35 2016 -0700
+
+    Update Documentation HTML
+
+commit d3043d8bbfce5f2903de645794f20836b62e67b8
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Sat Oct 29 19:03:59 2016 -0700
+
+    Update Documentation
+
+commit b51c8d9b1f2ab2833528c225f466190c574571f2
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Sat Oct 29 16:55:40 2016 -0700
+
+    Remove Verbose Logging
+
+commit 9f4259ffd36592d0850b00dda8637da9443b3dbb
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Sat Oct 29 16:30:55 2016 -0700
+
+    Build Changes
+
+commit f4230099d948c1136bb4089397947ba77230ccc1
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Sat Oct 29 14:47:29 2016 -0700
+
+    Update Debugging
+
+commit c950697f24e50f6ef811c585250e3b13dfb9d07a
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Sat Oct 29 14:44:57 2016 -0700
+
+    Update Error Reporting
+
+commit 47881e27cb82d011ff22dd69cdec054783ed513b
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Tue Oct 18 11:12:24 2016 -0700
+
+    Use Lexical Cast
+
+commit 9b5315d1c99ea4c194badc6537aa25553cc1617b
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Tue Oct 18 10:17:52 2016 -0700
+
+    Update Compile
+
+commit 86da546733d56e1a294c35f6ebaa53e9c4b10d29
+Merge: db45621 f808f46
+Author: Videlicet <colin@nexusoft.io>
+Date:   Tue Oct 18 10:17:05 2016 -0700
+
+    Merge pull request #8 from pvmining/master
+    
+    help cleanup
+
+commit 4b5377a5dd23989c93e8b6e173d07449eb997494
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Fri Oct 14 18:19:40 2016 -0700
+
+    Update LLD Transactions
+
+commit f808f469f8205c33f7324bb57a941a4ac3c7fd94
+Author: pvmining <pvmining@users.noreply.github.com>
+Date:   Sun Oct 9 20:05:59 2016 +0200
+
+    help cleanup
+
+commit 28b90a40b6e44adcc4d139ac1bd7c602e6d9a88c
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Fri Oct 7 21:16:38 2016 -0700
+
+    Update Permissions
+
+commit e20ea09fcc2e09ce8d597fb62f30ea6ee6eb6e5f
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Fri Oct 7 20:33:45 2016 -0700
+
+    Update Initialization
+
+commit 7d776fb1341ccd668c09a08413912c6e31e9b78a
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Fri Oct 7 20:29:20 2016 -0700
+
+    Update Unified Time
+
+commit 2f67a7372d5c4a19d14be225097246100d385ea5
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Fri Oct 7 19:57:50 2016 -0700
+
+    Seed Node Update
+
+commit d79c88f17192377f8ec80b8e49bd326d6b5e7947
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Fri Oct 7 19:37:27 2016 -0700
+
+    Build Updates for Post Merge
+
+commit 29b10786bca95b20b1b0dc781c72b6cca61c09b4
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Fri Oct 7 19:22:21 2016 -0700
+
+    Merge Changes from Master
+
+commit 1678f660c329417c7559b56ee443baea1ab7cdda
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Fri Oct 7 18:58:51 2016 -0700
+
+    Update to DDOS
+
+commit db456210abc07ea6246c4085753b550b9558da6c
+Merge: 4e38115 ec13014
+Author: Videlicet <colin@nexusoft.io>
+Date:   Fri Oct 7 18:55:37 2016 -0700
+
+    Merge pull request #6 from mercuryminer/mercuryminer-update-dns-seed
+    
+    Mercuryminer update dns seed
+
+commit ec130142857c79baca0d908c75fa3d7763240cbf
+Author: mercuryminer <mercury.matt@gmail.com>
+Date:   Sat Oct 8 12:34:39 2016 +1100
+
+    Update unifiedtime.cpp
+
+commit 9a28873cedc7fdbc20640f0ddc9cabf76a3fdd8e
+Author: mercuryminer <mercury.matt@gmail.com>
+Date:   Sat Oct 8 12:13:13 2016 +1100
+
+    Update unifiedtime.cpp
+
+commit 1bec2bdcc59aecfbe4ca603a8d9daed4e245ba8e
+Author: mercuryminer <mercury.matt@gmail.com>
+Date:   Sat Oct 8 12:02:35 2016 +1100
+
+    Update unifiedtime.cpp
+
+commit 714363c2b2a03c8ec5a765a09d022171c5d2af1f
+Author: mercuryminer <mercury.matt@gmail.com>
+Date:   Sat Oct 8 11:45:50 2016 +1100
+
+    Update unifiedtime.cpp
+
+commit 4e3811567cc53c176c19fea009c58bf28aa8acf9
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Sun Oct 2 19:21:15 2016 -0700
+
+    Cleanup Build
+
+commit 64109281663906e54b369e7fba9749fe81d47a6e
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Sun Oct 2 19:21:03 2016 -0700
+
+    Update Qt
+
+commit b37a8f7aae5a855169cd1d040746d85f6d67ea3c
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Sun Oct 2 17:59:25 2016 -0700
+
+    Update Unified Time
+
+commit 48b9f140f888f01dd57dd6bd97cfe7343f62b791
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Sun Oct 2 15:38:49 2016 -0700
+
+    Seed node Trimming
+
+commit 23a13e996b413b83899252f8dfbcff00e5c90fe6
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Sun Oct 2 14:35:34 2016 -0700
+
+    Cleanup Builds
+
+commit 07767ba9e63b388033b70e3304c6959b3c472ba4
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Sun Oct 2 14:33:27 2016 -0700
+
+    Add Forking Command
+
+commit 2e01f3e1f66f4e481108834ec02ed32483d48cae
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Sat Oct 1 17:46:48 2016 -0700
+
+    Remove Waste
+
+commit 5fa8e54bb9f85660243963862c755099b89f245b
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Sat Oct 1 17:46:18 2016 -0700
+
+    Unified Time Updates
+
+commit 3873424b5e1ef63d751728bbeb1005bb14735555
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Sat Oct 1 16:28:16 2016 -0700
+
+    Update Gitignore
+
+commit 56367458672214cc5dc181636b069ea538ae66f5
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Sat Oct 1 16:27:08 2016 -0700
+
+    Unified Time Updates
+
+commit 59595b1a46988d1585d0ff9e4b42afd18f7bca4a
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Thu Sep 29 17:29:04 2016 -0700
+
+    DDOS Updates
+
+commit c3961a72377ba028ed93bcb3f638041ece900e51
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Wed Sep 28 19:39:13 2016 -0700
+
+    LLD Gitignore updates
+
+commit 811afaea5dcdb86fa3e25405fa097229f78bf271
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Wed Sep 28 19:38:13 2016 -0700
+
+    LLD Transaction Updates
+
+commit 11205053c24b117188cbe48fd82e7e3c45b59ed2
+Merge: 5aed855 a60cb2f
+Author: Videlicet <colin@nexusoft.io>
+Date:   Mon Sep 19 23:19:24 2016 -0700
+
+    Merge pull request #4 from paulthetaffy/master
+    
+    Minor wallet changes
+    Looks good paul, merging into master
+
+commit a60cb2fc44401da30ba54b110feff7733312c39a
+Author: paulthetaffy <paulscreen@gmail.com>
+Date:   Thu Sep 15 20:25:14 2016 +1000
+
+    Added trust / interest to getinfo RPC call
+
+commit b2af96dd6cca745d9d0fa4ef37df41c73ea9cd93
+Author: paulthetaffy <paulscreen@gmail.com>
+Date:   Thu Sep 15 20:24:31 2016 +1000
+
+    Prevent DDOS ban of localhost
+
+commit b33d425844cdf03ea3df948e9c2b871b3549db06
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Sat Sep 10 21:50:14 2016 -0700
+
+    Booting updates for LLD
+
+commit 940edb8e85cbe78f60ec537fe4b8f990bb7b5c67
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Sat Sep 10 21:34:19 2016 -0700
+
+    LLD Loading Updates
+
+commit 70d71243a0ee24b3e8cba7a518846b5ff96868b0
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Sat Sep 10 18:30:23 2016 -0700
+
+    Cleanup Builds
+
+commit fea40ae30913258ebc1930490cab89ffbd2c358b
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Sat Sep 10 18:29:03 2016 -0700
+
+    LLD Data Integrity Updates
+
+commit 5aed855663591bb54db2aa25b822e682c80dfca8
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Thu Sep 8 11:33:01 2016 -0700
+
+    Remove Bins
+
+commit 2ec1bc0b98f3cf1d003492441db93e1cd576a3ef
+Author: root <root@localhost.localdomain>
+Date:   Thu Sep 8 00:46:40 2016 -0700
+
+    Unix Specific Build Update
+
+commit 3abcafa9000f9079785751f9be4d81e55deebf6c
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Tue Aug 30 17:28:27 2016 -0700
+
+    Update LLD Transactions / Notes
+
+commit 7eb1c71f558aba5fe7f963e3c1ca9f179a9311a1
+Author: = <colin@nexusoft.io>
+Date:   Tue Aug 30 14:52:41 2016 -0700
+
+    LLD Transaction Updates
+
+commit 54e26e87dda872094cde6d34bb47fd2e9b35b8c0
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Tue Aug 30 11:22:30 2016 -0700
+
+    LLD Transactions / Verbose Logging
+
+commit b6f5be004b42b98e69c5d2b6a9ac85fb5794745b
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Sun Aug 28 16:44:25 2016 -0700
+
+    Update Transaction Notes
+
+commit 1f6a37c97354411b5d87e189997a5e1b315f4986
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Sun Aug 28 16:42:57 2016 -0700
+
+    Activate Security Checks
+
+commit 9acc56a5d05e18b1471aa011755842ab90b06f00
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Sun Aug 28 16:37:16 2016 -0700
+
+    Remove Verbose Logging
+
+commit 7ce3aa252aa68421cf1635a312600c3e9291c24f
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Sun Aug 28 16:35:12 2016 -0700
+
+    LLD Data Integrity Updates
+
+commit 80aff0339a3ac2f216e239a2ee8f0706a6f5b546
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Fri Aug 26 20:51:08 2016 -0700
+
+    QT build for LLD
+
+commit 875250b1fa852a56d3f876d9c80c62adb4d9fc16
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Fri Aug 26 20:47:16 2016 -0700
+
+    Makefile Updates for UNIX
+
+commit afebe14bcb52aac188dc3e87f1ce22f1a2977723
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Fri Aug 26 20:25:48 2016 -0700
+
+    Qt Updates for LLD
+
+commit c2f31f94ece339b96f5738cb190df854083dc04c
+Author: = <colin@nexusoft.io>
+Date:   Fri Aug 26 17:00:28 2016 -0700
+
+    CIndexDB LLD Instance to Replace CTxDB
+
+commit 58866a76a440989333b9318b554481c1a7d1b3b1
+Author: = <colin@nexusoft.io>
+Date:   Fri Aug 26 10:03:45 2016 -0700
+
+    Reduce Initialization Debugging
+
+commit cac3cad68d00b3cf7d161094445daf0c7c3d9c6f
+Author: = <colin@nexusoft.io>
+Date:   Fri Aug 26 10:02:03 2016 -0700
+
+    Reduce Debugging Noise
+
+commit 9ac9cf4ab7093e4defb1cea3479ac572abc82ef9
+Author: = <colin@nexusoft.io>
+Date:   Fri Aug 26 10:00:09 2016 -0700
+
+    Update LLD Keychains
+
+commit 399f2132e52e2f6cb0dbb8a92c9db23d4a2f7bd4
+Author: = <colin@nexusoft.io>
+Date:   Thu Aug 25 10:35:52 2016 -0700
+
+    LLD Sectors / Keychains
+
+commit 8de9b9028539f72e9e676ec8fd055b3fd5a8f6b6
+Author: = <colin@nexusoft.io>
+Date:   Thu Aug 25 10:35:19 2016 -0700
+
+    LLD Sectors / Keychains
+
+commit ba92dc94b71f13c89c41677e7553051721b6de52
+Author: = <colin@nexusoft.io>
+Date:   Thu Aug 25 10:27:23 2016 -0700
+
+    LLD Experimental
+
+commit b465c5a088bc7999657faad17ee5b0b7d366be25
+Author: = <colin@nexusoft.io>
+Date:   Wed Aug 24 10:15:19 2016 -0700
+
+    Update Readme
+
+commit a6e9645ba4966b22bc489b75f0b69c1fef0cb2b2
+Author: = <colin@nexusoft.io>
+Date:   Wed Aug 24 10:13:08 2016 -0700
+
+    Time Security Updates
+
+commit b5296438d00dbf81075cdcfbf1a9ae4cf95275d2
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Sun Aug 21 07:22:48 2016 -0700
+
+    LLP: Packet Checking / IP Filtering
+
+commit 8410f99d182947afba7cb473e7cb2e2d610da09d
+Author: = <colin@nexusoft.io>
+Date:   Wed Aug 17 20:01:35 2016 -0700
+
+    Remove Inline
+
+commit 82897555942314d0772e6cd4d0dd01976ff07161
+Author: = <colin@nexusoft.io>
+Date:   Wed Aug 17 19:55:47 2016 -0700
+
+    Debian Specific Updates
+
+commit 659bfc3568b973bb3e067beae31619110c611b82
+Author: = <colin@nexusoft.io>
+Date:   Wed Aug 17 19:52:24 2016 -0700
+
+    Unix Specific Updates
+
+commit e1f69485d5ea539882d22568c9889394988bea20
+Author: = <colin@nexusoft.io>
+Date:   Wed Aug 17 19:44:49 2016 -0700
+
+    Update Permissions
+
+commit 8f67cb54903e7f0eba7a3f54e04bdda810e03072
+Author: = <colin@nexusoft.io>
+Date:   Wed Aug 17 19:38:42 2016 -0700
+
+    Security Updates
+
+commit bd92409a7254d26be1445ac36f151e4651a79869
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Tue Aug 9 23:55:42 2016 -0700
+
+    Update Rescanning
+
+commit fce03cc884625f10933e95420f86eb5b65b88eee
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Tue Aug 9 23:34:50 2016 -0700
+
+    Update Wallets
+
+commit d37d0f8e03bdf7edd014e0973f4e87d1541e5311
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Tue Aug 9 22:39:09 2016 -0700
+
+    Update WalletDB
+
+commit b4da7b6ef6a650eb229cd5813d2b558f92d41101
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Tue Aug 9 20:12:57 2016 -0700
+
+    Update RPC
+
+commit a10bae0bf695e754271550c80cfcae10da33c595
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Tue Aug 9 20:08:25 2016 -0700
+
+    Update Database
+
+commit 35223593358c519ace32da4572a7c10c4c0554ba
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Tue Aug 9 20:05:00 2016 -0700
+
+    Update RPC
+
+commit 1985383a221d19b587076254f197ac0c782d2540
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Tue Aug 9 18:24:51 2016 -0700
+
+    Update RPC
+
+commit 8ec57db84f3d77e795e994d9178c6ce124ffc3d5
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Mon Aug 8 18:09:29 2016 -0700
+
+    Update RPC Commands
+
+commit d0b43706fcab7d0eb895db648c9355f5f2f949fe
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Mon Aug 8 14:30:11 2016 -0700
+
+    Update Makefile
+
+commit 8540688ae1ccea0f1cd007bb9041f933c71b6f8b
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Mon Aug 8 14:24:10 2016 -0700
+
+    Update Docs
+
+commit 5cb5e4cca862d8537b4283b98c937ae91e63cfb4
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Mon Aug 8 14:23:04 2016 -0700
+
+    Update Documentation
+
+commit afcb9facbdfbd5f9b84291e3659b468b2dc99793
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Mon Aug 8 14:20:12 2016 -0700
+
+    Update RPC
+
+commit 0ce8e11aeb366a3659b1cbed31e95c1196f0718d
+Author: = <colin@nexusoft.io>
+Date:   Tue Jun 21 14:30:44 2016 -0700
+
+    Windoze Specific Updates for 0.2.0.3
+
+commit d4c60e776d9ca08e42ca27a807331dd0ae62cfbb
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Tue Jun 21 13:32:32 2016 -0700
+
+    Linux Specific 0.2.0.3 Updates
+
+commit d1e1008a1c2847cc4e618e6584a30e774edbc2f6
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Tue Jun 21 12:22:34 2016 -0700
+
+    Update OSX Build Docs
+
+commit fd52c7d7bdcb5f254fdcbed9b4a19808b44385a4
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Tue Jun 21 12:21:16 2016 -0700
+
+    OSX Deployment Updates
+
+commit 14704609871699b22e4b3d33b37097fec7847d7d
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Sun Jun 19 19:05:56 2016 -0700
+
+    OSX Updates
+
+commit 60b709397f69f1a87ff732901f3f3546d257a057
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Thu Jun 9 17:32:15 2016 -0700
+
+    Update Build Date
+
+commit f5b846c879b6485bc1943f41838ee9d043dc6465
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Thu Jun 9 17:31:06 2016 -0700
+
+    Update QRC Files
+
+commit 2d5a92c7fad2c5601a43e99410826a4fb709567f
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Thu Jun 9 17:25:46 2016 -0700
+
+    Nexus.conf rename to nexus.conf
+
+commit 2268561d33778613fa598b6bdea316168099a0f2
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Thu Jun 9 17:17:31 2016 -0700
+
+    OSX Build Updates
+
+commit e12e9c7e9f4a014234d27490dfa89c83c37c8e0a
+Merge: 9a639e2 e9cf1a5
+Author: Videlicet <colin@nexusoft.io>
+Date:   Wed Jun 8 20:08:33 2016 -0700
+
+    Merge pull request #3 from dijonnaise/master
+    
+    Replaced "Nexus.conf" with "nexus.conf" globally.
+
+commit e9cf1a57dbc39097174a82efa76f8a7697abe498
+Author: dijonnaise <dijonnaisedijonnaise@gmail.com>
+Date:   Tue Jun 7 15:14:42 2016 -0400
+
+    Replaced "Nexus.conf" with "nexus.conf" globally.
+
+commit 9a639e295e77c5e6f869e7b75c887cba4e5d4845
+Author: = <colin@nexusoft.io>
+Date:   Fri Mar 18 03:42:32 2016 -0700
+
+    Update Readme
+
+commit d9a96d393204bf4df40ed3b893f6e8e1e03951ee
+Author: = <colin@nexusoft.io>
+Date:   Fri Mar 18 03:39:19 2016 -0700
+
+    Update Makefile
+
+commit ca59a05a45a8921934d7d879371aa96356718c04
+Author: = <colin@nexusoft.io>
+Date:   Fri Mar 18 03:35:57 2016 -0700
+
+    Update Docs
+
+commit 59282e6fd9421902912d61a142d5abec6090716b
+Author: = <colin@nexusoft.io>
+Date:   Fri Mar 18 03:35:01 2016 -0700
+
+    Update Docs
+
+commit 0136eae6386a9d3d99cd7464dd3c0166d809b77f
+Author: = <colin@nexusoft.io>
+Date:   Fri Mar 18 03:21:42 2016 -0700
+
+    Version 2.0.2 Commit
+
+commit 1f03254cac258c1f54037ccc4c6b82dbfb9db131
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Wed Mar 16 00:59:36 2016 -0700
+
+    Update Documentation
+
+commit 80336617869b6298ce3f91d61f7ee3918f91397c
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Tue Mar 15 17:51:45 2016 -0700
+
+    Remove Backups
+
+commit d39e9db1e405e39c09f84842d2d2665de5e8b21a
+Author: VidereLicet <videlicet8@gmail.com>
+Date:   Tue Mar 15 17:49:18 2016 -0700
+
+    Update Build
+
+commit 71972ab8f8419aa6f923fb4127708af11b6edce3
+Author: = <colin@nexusoft.io>
+Date:   Tue Mar 15 11:51:56 2016 -0700
+
+    Update Versions
+
+commit a5f0aa3dc2261c867e311b77d3c0fdee9e61b0c3
+Author: = <colin@nexusoft.io>
+Date:   Tue Mar 15 10:55:42 2016 -0700
+
+    Update Signals / Seeds
+
+commit 9d2d737d9a859de899e64e5234d806fe3e4990d9
+Author: = <colin@nexusoft.io>
+Date:   Fri Jan 29 15:49:47 2016 -0700
+
+    Update Boot
+
+commit e3088879194ad88ad87a9d28ff3a37d6bbb4bbfa
+Author: = <=videlicet8@gmail.com>
+Date:   Mon Dec 7 12:55:18 2015 -0700
+
+    Update Makefile
+
+commit 3f4e3cd73fdbeb43b597999190ee3ea17e58950a
+Author: = <=videlicet8@gmail.com>
+Date:   Mon Dec 7 05:05:10 2015 -0700
+
+    Header Guard Name Update
+
+commit 8b8242d180955208c803993f1cab8aa16a3b6232
+Author: = <=videlicet8@gmail.com>
+Date:   Mon Dec 7 05:02:05 2015 -0700
+
+    Readme Update
+
+commit 2998d0abbec83ae4ea596d8a0d92e55cace6c4a8
+Author: = <=videlicet8@gmail.com>
+Date:   Mon Dec 7 05:00:48 2015 -0700
+
+    Readme Update
+
+commit 87e19d2eee45d56df276ae62ad027cd9e24435c2
+Author: = <=videlicet8@gmail.com>
+Date:   Mon Dec 7 04:59:04 2015 -0700
+
+    LLP Update / Misc Changes
+
+commit ea9aa220b4e2d079ee9f18ea8f72ee61fa796015
+Author: = <=videlicet8@gmail.com>
+Date:   Fri Jul 31 08:57:59 2015 -0700
+
+    build folder
+
+commit 682227eeff811b72c284b4326b981e94c0beb00a
+Author: = <=videlicet8@gmail.com>
+Date:   Tue Jul 28 20:26:09 2015 -0700
+
+    inital commit

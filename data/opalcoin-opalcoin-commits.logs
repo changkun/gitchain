@@ -1,0 +1,4505 @@
+commit ae8e9b8cb2a2bf027d0d3d62bcec0715c4c5a437
+Author: CoolCash <coolcash@coolcashonline.net>
+Date:   Mon Aug 29 17:00:06 2016 -0500
+
+    Network stability updates
+    
+    Network stability updates
+
+commit 3d50cd1f9ab76c3f39b0e36c3d2dffd9f454ba50
+Author: Coolcash <spencer@coolcashonline.net>
+Date:   Tue Jun 30 15:50:22 2015 -0500
+
+    removed icc profiles from png
+    
+    removed icc profiles from png
+
+commit 4b677fe2a02ff3055fe8b2c2952cd6bf33a16035
+Author: Coolcash <spencer@coolcashonline.net>
+Date:   Tue Jun 30 14:48:27 2015 -0500
+
+    Boost 1.58 fix #2
+    
+    Boost 1.58 fix #2
+
+commit 8035e5f16b1c9f88fb79075fe995ba14c08abdd2
+Author: Coolcash <spencer@coolcashonline.net>
+Date:   Tue Jun 30 14:29:23 2015 -0500
+
+    Boost 1.58 fix
+    
+    Boost 1.58 fix
+
+commit 95ca5d825fc12987c15cac2dbdcc873143723b9d
+Author: procointeam <spencer@coolcashonline.net>
+Date:   Tue Jun 30 14:19:13 2015 -0500
+
+    Updated images for png error
+    
+    Updated images for png error
+
+commit 842e5f46c09ad7598fa2cef2dc12b92c60fc1afc
+Author: Whit Jack <whitj00@ymail.com>
+Date:   Sat Jun 6 12:26:39 2015 -0700
+
+    Build fix
+
+commit dfb0f557e6aa48a26110caf21e28ba1cdc71f102
+Author: Whit Jack <whitj00@ymail.com>
+Date:   Sat Jun 6 12:21:07 2015 -0700
+
+    Testing codeship
+
+commit a0285b75c69279b98152a89ff08bc39fd29f2b94
+Author: Whit Jack <whitj00@ymail.com>
+Date:   Thu May 7 21:25:30 2015 -0700
+
+    Check if opalcoin network has feelings (in getinfo)
+
+commit 6b4ad4b6581cc0680111e8ea3c4c196bf762d8c7
+Author: Whit Jack <whitj00@ymail.com>
+Date:   Wed May 6 20:17:18 2015 -0700
+
+    Add stuff
+
+commit c2b09c9c0f34bef3a78775fbf1df27c044166d92
+Author: Whit Jack <whitj00@ymail.com>
+Date:   Sat Apr 25 10:01:59 2015 -0700
+
+    BRew
+
+commit 9ec7c2a70df75709ab2825c4f7fb142e4023e7c9
+Author: Whit Jack <whitj00@ymail.com>
+Date:   Thu Apr 23 15:52:36 2015 -0700
+
+    Remove explorer
+
+commit 3f557d08dad8d769f03e8c87c306ba8881addc0e
+Author: Whit Jack <whitj00@ymail.com>
+Date:   Tue Mar 24 14:19:17 2015 -0700
+
+    Unneeded file# Please enter the commit message for your changes. Lines starting
+
+commit f58118d74216c46c3c21b969d23826ca78abf05e
+Author: Whit Jack <whitj00@ymail.com>
+Date:   Thu Mar 19 20:56:08 2015 -0700
+
+    LICENSE
+
+commit 4e1dc42c16ecc3d08686823d07ac8866557a589f
+Author: Whit Jack <whitj00@ymail.com>
+Date:   Thu Mar 19 20:55:24 2015 -0700
+
+    Setup script
+
+commit 6ad647131b3afff47db55d21d3f773bff266c61f
+Author: Whit Jack <whitj00@ymail.com>
+Date:   Thu Mar 19 20:51:00 2015 -0700
+
+    Contributing
+
+commit 80d1f5674baca62ccea6f7f24029b539ee3d3f62
+Author: Whit Jack <whitj00@ymail.com>
+Date:   Thu Mar 19 11:36:15 2015 -0700
+
+    Revert "Replace HexBits with strprintf"
+    
+    This reverts commit 55bca1d5e975467386ac49b2546c1c01f4dec062 [formerly da99c6b713712b4f352d647a3d753b9865ae641d].
+    
+    
+    Former-commit-id: cd7d487387609d84588b44c8448d157ef3d75f83
+
+commit 0a2da0ec28bacf78c1c6743313778c65e4c75af2
+Author: Whit Jackson <whit@Whits-MacBook-Pro.local>
+Date:   Tue Mar 17 10:31:15 2015 -0700
+
+    Remove Curl
+    
+    
+    Former-commit-id: 51420c095cc5154627eadd6282c8314cc9250a76
+
+commit dd2a90dc4878aff3bb2ab25e57714bf100c15d3e
+Author: Whit Jack <whitj00@ymail.com>
+Date:   Thu Mar 12 11:49:31 2015 -0700
+
+    Path
+    
+    
+    Former-commit-id: 0d9155c026eb73b9eed86eb934f98dd7b3e5f24c
+
+commit 04959fd8de8242c2424a5e2feb8f43fcb8d29735
+Author: Jonas Schnelli <jonas.schnelli@include7.ch>
+Date:   Thu May 2 18:55:25 2013 +0200
+
+    clear path cache after getting a proper config file (fixes #2605)
+    
+    Signed-off-by: Jonas Schnelli <jonas.schnelli@include7.ch>
+    
+    Conflicts:
+            src/util.cpp
+    
+    Former-commit-id: 02ac32580a88fe3113135440bab07d4eec208f0c
+
+commit 6d388f720bce2b5158171d825baa0c6022418c22
+Author: Eric Lombrozo <elombrozo@gmail.com>
+Date:   Sun Jan 6 04:30:00 2013 -0800
+
+    Get rid of db dependencies on main
+    
+    Conflicts:
+            src/db.cpp
+            src/wallet.h
+    
+    Conflicts:
+            src/wallet.h
+    
+    Former-commit-id: 4bee033629fadca5f0e859ca31ac10d6a48fa656
+
+commit b0420cfc6002b614b8adf74cdd3790bfd1d179eb
+Author: Jeff Garzik <jgarzik@exmulti.com>
+Date:   Mon Apr 8 22:02:57 2013 -0400
+
+    net.cpp: Do not change primary process name from (default) to "bitcoin-start"
+    
+    Discussed a bit on IRC.
+    
+    Conflicts:
+            src/net.cpp
+    
+    Conflicts:
+            src/net.cpp
+    
+    Former-commit-id: b81ad9fa090ef9f1cfef9289854b9c53952ede29
+
+commit 892615e54292809e2deef83b4df3f01678a614d1
+Author: Mike Hearn <hearn@google.com>
+Date:   Sat Jan 19 18:48:26 2013 +0100
+
+    Add a notfound message to getdata that is sent if any transactions that aren't in the relayable set are requested.
+    
+    Conflicts:
+            src/main.cpp
+    
+    Former-commit-id: 227155018aeff08ef97c1248fb3222e94c2afd51
+
+commit 379b56a27593d12808a49316022a47a7a97f2695
+Author: Pieter Wuille <pieter.wuille@gmail.com>
+Date:   Sat Oct 19 18:34:06 2013 +0200
+
+    Use boost signals for callbacks from main to wallet
+    
+    Conflicts:
+            src/main.cpp
+            src/main.h
+            src/rpcrawtransaction.cpp
+            src/wallet.cpp
+            src/wallet.h
+    
+    Conflicts:
+            src/main.h
+    
+    Former-commit-id: df0ca81582a7d2331eb1708472b7bbf9db3d9b15
+
+commit f7d7bd57776b33e222367e45ac3165599f717328
+Author: Pavel Vasin <pavel@vasin.nl>
+Date:   Wed Sep 17 22:42:07 2014 +0400
+
+    remove unused function IsFromMe
+    
+    
+    Former-commit-id: b2364bea3bec482ff1b16726cbbb1776bcc4aee2
+
+commit 0c2a00aa014c214b92f0ecd373457d3e1c928bba
+Author: Gavin Andresen <gavinandresen@gmail.com>
+Date:   Mon Jan 14 16:52:33 2013 -0500
+
+    Remove IsFromMe() check in CTxMemPool::accept()
+    
+    Fixes issue #2178 : attacker could penny-flood with invalid-signature
+    transactions to deduce which addresses belonged to your node.
+    
+    I'm committing this early for code review; I still need to write up
+    a test plan.
+    
+    Executive summary of fix: check all transactions received from the network
+    for penny-flood rate-limiting before adding to the memory pool. But do NOT
+    ratelimit transactions added to the memory pool:
+      - because of blockchain reorgs
+      - stored in the wallet and added at startup
+      - sent from the GUI or one of the send* RPC commands (CWallet::CommitTransaction)
+    
+    The limit-free-transactions code really should be a method on CNode, with
+    counters per-peer. But that is a bigger change for another day.
+    
+    Conflicts:
+            src/main.cpp
+            src/main.h
+            src/rpcrawtransaction.cpp
+    
+    Former-commit-id: aafb9c46c86a61e75fdb3b1be5a25d40fe066d25
+
+commit bef1ce3fc5df4608b329eda1faf52722037af1d9
+Author: Pieter Wuille <pieter.wuille@gmail.com>
+Date:   Sat Oct 19 17:30:11 2013 +0200
+
+    Remove broken PrintWallet functionality
+    
+    Conflicts:
+            src/wallet.cpp
+    
+    Former-commit-id: cf9f8a841e2efef5b9085df4461ebcab2a27405e
+
+commit e77aedbd622470d322123ad6417c1f5931e01952
+Author: Pieter Wuille <pieter.wuille@gmail.com>
+Date:   Sat Oct 19 17:21:49 2013 +0200
+
+    Do not treat fFromMe transaction differently when broadcasting
+    
+    Conflicts:
+            src/main.cpp
+    
+    Former-commit-id: 25ed3a9f3e3d118a2bb080b493766aa09aad6a5c
+
+commit 632d93160c25c28a9a1991f13dd792f9037779af
+Author: Eric Lombrozo <elombrozo@gmail.com>
+Date:   Wed Jun 5 20:21:41 2013 -0700
+
+    Using boost::signals2 to message main from net.cpp.
+    
+    Conflicts:
+            src/init.cpp
+            src/main.h
+    
+    Former-commit-id: c355a2640bfdcb99b7d204180589d5d603f95eca
+
+commit 1d5cf3873b3a138250db0abd9bdd2a47c4684b42
+Author: Eric Lombrozo <elombrozo@gmail.com>
+Date:   Mon Jan 7 08:07:51 2013 -0800
+
+    Removed net.cpp's dependency on init.h.
+    
+    Added explicit include of main.h in init.cpp, changed include of init.h to include of main.h in net.cpp.
+    
+    Added function registration for net.cpp in init.cpp's network initialization.
+    
+    Removed protocol.cpp's dependency on main.h.
+    
+    TODO: Remove main.h include in net.cpp.
+    
+    Conflicts:
+            src/init.cpp
+    
+    Conflicts:
+            src/net.cpp
+    
+    Former-commit-id: d8dfd371d52bddd2c32fd73340af2403d3e13255
+
+commit 5b5d11851d86aca85e32e9eba19bb318500f9536
+Author: Eric Lombrozo <elombrozo@gmail.com>
+Date:   Wed Jan 23 12:48:35 2013 -0800
+
+    Calling UnregisterAllWallets() instead of UnregisterWallet(pwalletMain) in init.cpp
+    
+    Conflicts:
+            src/main.h
+    
+    Former-commit-id: 643d485d49ec0b1e3a8a5187a9468d939875163b
+
+commit 4b048eac2564001c3a4e3ce2d2a39bd715031e9e
+Author: Eric Lombrozo <elombrozo@gmail.com>
+Date:   Wed Jan 23 12:32:20 2013 -0800
+
+    Added locks on the setpwalletRegistered functions in main.cpp and added an UnregisterAllWallets function.
+    
+    Conflicts:
+            src/main.cpp
+    
+    Former-commit-id: 01acd338cd8c96e179271ba757d683a408cbdcab
+
+commit a336efb342885ec82900862601bd4e39d6e87638
+Author: Pieter Wuille <pieter.wuille@gmail.com>
+Date:   Fri Jun 15 14:19:11 2012 +0200
+
+    Compact serialization for variable-length integers
+    
+    Variable-length integers: bytes are a MSB base-128 encoding of the number.
+    The high bit in each byte signifies whether another digit follows. To make
+    the encoding is one-to-one, one is subtracted from all but the last digit.
+    Thus, the byte sequence a[] with length len, where all but the last byte
+    has bit 128 set, encodes the number:
+    
+      (a[len-1] & 0x7F) + sum(i=1..len-1, 128^i*((a[len-i-1] & 0x7F)+1))
+    
+    Properties:
+    * Very small (0-127: 1 byte, 128-16511: 2 bytes, 16512-2113663: 3 bytes)
+    * Every integer has exactly one encoding
+    * Encoding does not depend on size of original integer type
+    
+    Former-commit-id: ee6f2a3d3f38b52e055e9ab39b509749d4ffb1db
+
+commit a6c64bceb8c6c67e277027e65244677c13af5c9f
+Author: Whit Jack <whitj00@ymail.com>
+Date:   Tue Mar 10 15:59:53 2015 -0700
+
+    unsigned int MurmurHash3(unsigned int nHashSeed, const std::vector<unsigned char>& vDataToHash);
+    
+    
+    Former-commit-id: 4ab800bd14822ddfdbcb9a7e525f61a97eef62d0
+
+commit 99a3dfe8567b1bedd7de71b9ea4f046f55153676
+Author: Pieter Wuille <pieter.wuille@gmail.com>
+Date:   Tue Dec 18 20:56:21 2012 +0100
+
+    Split off hash.h from util.h
+    
+    Conflicts:
+            src/util.h
+    
+    Conflicts:
+            src/hash.h
+            src/script.h
+    
+    Former-commit-id: 32f71895d8e38d03b02dcf0ce78991dc5453a5b2
+
+commit 47ad3011e5842b203c44d97f9a384515c2204191
+Author: Pavel Vasin <pavel@vasin.nl>
+Date:   Mon Sep 15 12:44:19 2014 +0400
+
+    move start of miner out of net.cpp's StartNode()
+    
+    The internal miner is closely bound to the wallet engine,
+    not the blockchain engine.
+    
+    
+    Former-commit-id: 774133d70890e344768269c349f211f83d3c0ee5
+
+commit 9f46af9c6173133733bed252b963feb06220d53e
+Author: Philip Kaufmann <phil.kaufmann@t-online.de>
+Date:   Fri Nov 9 12:50:59 2012 +0100
+
+    make CBase58Data class use zero_after_free_allocator
+    
+    - this way there is no need for an explicit destructor, who does the same
+      thing anyway
+    
+    
+    Former-commit-id: b5646d89f0b2bd375670aec3741b620544834984
+
+commit d6c63962b912785e31fcfcd396c5f72d17c14fcb
+Author: Philip Kaufmann <phil.kaufmann@t-online.de>
+Date:   Thu Nov 8 19:38:49 2012 +0100
+
+    don't use memset() in privacy/security relevant code parts
+    
+    As memset() can be optimized out by a compiler it should not be used in
+    privacy/security relevant code parts. OpenSSL provides the safe
+    OPENSSL_cleanse() function in crypto.h, which perfectly does the job of
+    clean and overwrite data.
+    
+    For details see: http://www.viva64.com/en/b/0178/
+    
+    - change memset() to OPENSSL_cleanse() where appropriate
+    - change a hard-coded number from netbase.cpp into a sizeof()
+    
+    Conflicts:
+            src/crypter.cpp
+            src/crypter.h
+    
+    Former-commit-id: faff7c693a494d767fd33784e2056711c03da28a
+
+commit 72d6bd4638bea5458c02c5ba4c3e2ac4ee93ed0b
+Author: Gavin Andresen <gavinandresen@gmail.com>
+Date:   Tue Sep 9 14:01:11 2014 -0400
+
+    Fix crashing bug caused by orphan(s) with duplicate prevout.hash
+    
+    
+    Former-commit-id: 8d754ead0b34d6ea72adc6eb935775df32937f27
+
+commit e7e2fdc99bf9cdcf7b000dea7e32e69d81dd3498
+Author: Wladimir J. van der Laan <laanwj@gmail.com>
+Date:   Mon Sep 8 17:37:26 2014 +0200
+
+    Avoid repeated lookups in mapOrphanTransactions and mapOrphanTransactionsByPrev
+    
+    
+    Former-commit-id: 6f15b68d2bc98150f6adb4372f42f3b352b01e86
+
+commit 2894f0eb871894343479a96556b44b5105594899
+Author: Wladimir J. van der Laan <laanwj@gmail.com>
+Date:   Mon Sep 8 12:20:50 2014 +0200
+
+    netbase: Use .data() instead of .c_str() on binary string
+    
+    `.c_str()` is only guaranteed to return the data up to the first NUL
+    character.
+    
+    
+    Former-commit-id: e9f3c22e13d276132a420b7e1763d7cc3dced7d6
+
+commit 27241c962b59dfd1aa1148bf6153cbd29d4cb19a
+Author: Peter Todd <pete@petertodd.org>
+Date:   Sun Sep 7 22:32:57 2014 -0400
+
+    Clarify 'compressed nor uncompressed' error message
+    
+    
+    Former-commit-id: 769c719abda90b60503192ad7af906044371f41a
+
+commit 2d77e8c06c1fc72559c29d0444c1f49a3f7c3e14
+Author: Cozz Lovan <cozzlovan@yahoo.com>
+Date:   Thu Aug 14 16:15:09 2014 +0200
+
+    [Wallet] Improve ReorderTransactions(..)
+    
+    
+    Former-commit-id: 42a7b87fcebcc35e8938695cdaba4e59d3afcb11
+
+commit 733bba234495e7cb478e81d97df1a3a7acec79b9
+Author: Cory Fields <theuni-nospam-@xbmc.org>
+Date:   Sun May 26 14:19:04 2013 -0400
+
+    build: kill off the QT_GUI define
+    
+    Conflicts:
+            blackcoin-qt.pro
+    
+    Conflicts:
+            opalcoin-qt.pro
+    
+    Former-commit-id: 9862c72ca6172f74a53851d176e62176a0a24825
+
+commit f78bc92cbd81d9fa60c2ba4978da2d7ee9902d33
+Author: Cory Fields <theuni-nospam-@xbmc.org>
+Date:   Sun May 26 14:18:33 2013 -0400
+
+    build: cosmetics after last commit
+    
+    Former-commit-id: 8bfbcafe36927758b2e0687fe6a7d5f10683fd1f
+
+commit ead18070cbee8807b4dca9818c86ab5a79dd51a8
+Author: Cory Fields <theuni-nospam-@xbmc.org>
+Date:   Sun May 26 14:17:18 2013 -0400
+
+    build: use runtime setting for wallet rather than QT_GUI define
+    
+    Former-commit-id: 471fc2468760c8222f89ccf067acbd30862d7069
+
+commit e775620011e38cb191f45727146161d80d90eaa3
+Author: Cory Fields <theuni-nospam-@xbmc.org>
+Date:   Sun May 26 14:10:38 2013 -0400
+
+    build: use runtime setting for displaying the help message rather than QT_GUI define
+    
+    Conflicts:
+            src/init.cpp
+    
+    Former-commit-id: 5b2009fbf4a3f484b55421815a5ed3e064ada4e9
+
+commit fc7a15f98ec1c5ba142802c13219aca3783b41cb
+Author: Pavel Vasin <pavel@vasin.nl>
+Date:   Fri Sep 12 12:28:55 2014 +0400
+
+    build: cosmetic: split usage string for easier formatting
+    
+    Conflicts:
+            src/init.cpp
+    
+    Former-commit-id: ed27eafc8207bbd43468bf6d3c1ac2e20d98a17c
+
+commit 880c0eb5e251e726a946b4301f04e9da59d33c52
+Author: Philip Kaufmann <phil.kaufmann@t-online.de>
+Date:   Sun Oct 6 14:18:55 2013 +0200
+
+    add missing Boost Thread join_all() call during shutdown
+    
+    - fixes #3037 by adding missing join_all() call and brings bitcoind
+      shutdown code in line with Bitcoin-Qt shutdown code
+    - added a comment for the if (!fRet) case
+    
+    Conflicts:
+            src/bitcoind.cpp
+    
+    Former-commit-id: 52898807d7684af2e34e43dce9e44db0e09431f9
+
+commit 9da50055de8c4b6505c4e47d78a5deaaddba3c7f
+Author: Cory Fields <theuni-nospam-@xbmc.org>
+Date:   Sun May 26 14:00:16 2013 -0400
+
+    build: add global var for whether or not the gui is enabled
+    
+    Conflicts:
+            src/main.cpp
+            src/main.h
+    
+    Former-commit-id: 45e70f0a1b6f8c790c782c452f05ab0b1ae0024c
+
+commit 841a41289e0102995df44fae6d120ad5111b076f
+Author: Cory Fields <theuni-nospam-@xbmc.org>
+Date:   Sun May 26 13:48:30 2013 -0400
+
+    build: split the non-gui startup routines into a new file
+    
+    This will allow each to have its own main(), meaning that we can build a common
+    base client and simply link in the correct startup object to create the
+    appropriate binary.
+    
+    Conflicts:
+            src/init.cpp
+            src/makefile.linux-mingw
+            src/makefile.mingw
+            src/makefile.osx
+            src/makefile.unix
+    
+    Conflicts:
+            src/init.cpp
+            src/makefile.bsd
+    
+    Former-commit-id: d96842fca6f180f1323ad0e7804275b4047ba806
+
+commit 9ce453d48c8e63b27e59013ab9ae5dbfceb99965
+Author: Philip Kaufmann <phil.kaufmann@t-online.de>
+Date:   Sat Oct 5 13:15:50 2013 +0200
+
+    Bitcoin-Qt: prevent stuck/unusable debug window on exit
+    
+    - when closing the client with an open debug window, that window could
+      become stuck/unsuable (it was still shown wherea the main window was
+      hidden already)
+    - fix this by hiding the debug window, when quitting the the client
+    
+    
+    Former-commit-id: 53855b2be3ae7f60c679d631201cbc2da7bfae65
+
+commit 88a6d74ad29335f96617bc5aa139d57d47092efc
+Author: Pieter Wuille <pieter.wuille@gmail.com>
+Date:   Mon Jun 24 00:23:28 2013 +0200
+
+    Dump addresses every 15 minutes instead of 10 seconds
+    
+    Conflicts:
+            src/net.cpp
+    
+    Former-commit-id: 9bf82f874e3f6a4eec1e8fd899ce15f7485dad3e
+
+commit 04c41dd7a2d1777236525d0aa44405f934ed8bdd
+Author: Gavin Andresen <gavinandresen@gmail.com>
+Date:   Tue May 7 10:47:00 2013 -0400
+
+    Use boost::asio::deadline_timer for walletpassphrase timeout
+    
+    New method in bitcoinrpc:  RunLater, that uses a map of deadline
+    timers to run a function later.
+    
+    Behavior of walletpassphrase is changed; before, calling
+    walletpassphrase again before the lock timeout passed
+    would result in: Error: Wallet is already unlocked.
+    
+    You would have to call lockwallet before walletpassphrase.
+    
+    Now: the last walletpassphrase with correct password
+    wins, and overrides any previous timeout.
+    
+    Fixes issue# 1961 which was caused by spawning too many threads.
+    
+    Test plan:
+    
+    Start with encrypted wallet, password 'foo'
+    NOTE:
+     python -c 'import time; print("%d"%time.time())'
+    ... will tell you current unix timestamp.
+    
+    Try:
+    
+    walletpassphrase foo 600
+    getinfo
+    EXPECT: unlocked_until is about 10 minutes in the future
+    
+    walletpassphrase foo 1
+    sleep 2
+    sendtoaddress mun74Bvba3B1PF2YkrF4NsgcJwHXXh12LF 11
+    EXPECT: Error: Please enter the wallet passphrase with walletpassphrase first.
+    
+    walletpassphrase foo 600
+    walletpassphrase foo 0
+    getinfo
+    EXPECT: wallet is locked (unlocked_until is 0)
+    
+    walletpassphrase foo 10
+    walletpassphrase foo 600
+    getinfo
+    EXPECT: wallet is unlocked until 10 minutes in future
+    
+    walletpassphrase foo 60
+    walletpassphrase bar 600
+    EXPECT: Error, incorrect passphrase
+    getinfo
+    EXPECT: wallet still scheduled to lock 60 seconds from first (successful) walletpassphrase
+    
+    Conflicts:
+            src/bitcoinrpc.cpp
+            src/rpcwallet.cpp
+    
+    Conflicts:
+            src/bitcoinrpc.cpp
+            src/rpcwallet.cpp
+            src/wallet.cpp
+    
+    Former-commit-id: 4b001872dabc4095df9625a9b0546aa1f4ef1dae
+
+commit 804d1c83bce8dbacf7c96042ecbcf91f629a6bd0
+Author: Cory Fields <theuni-nospam-@xbmc.org>
+Date:   Tue May 28 16:00:17 2013 -0400
+
+    build: prepare to move DetectShutdownThread
+    
+    Former-commit-id: 586ee02ef26ba1e3329304ba1baa3f7a811d277c
+
+commit 5d16c0949f4644c5da8e7f8c4fda8ebd8409a418
+Author: Gavin Andresen <gavinandresen@gmail.com>
+Date:   Sat Mar 23 18:14:12 2013 -0400
+
+    Have Qt poll for shutdown requested, the QT way.
+    
+    Conflicts:
+            src/qt/bitcoin.cpp
+            src/qt/bitcoingui.cpp
+            src/qt/bitcoingui.h
+    
+    Conflicts:
+            src/qt/bitcoingui.cpp
+    
+    Former-commit-id: 808d8222c6af917723aab0421c7eeadcfdcf003c
+
+commit 1f1d2ed10d9e5f872b8303deb6f9d7cfef7299b3
+Author: Matt Corallo <git@bluematt.me>
+Date:   Sun Mar 24 19:38:19 2013 -0400
+
+    (finally) Remove IRC Seed support now that lfnet is down.
+    
+    Conflicts:
+            blackcoin-qt.pro
+            doc/coding.txt
+            src/init.cpp
+            src/irc.cpp
+    
+    Conflicts:
+            src/init.cpp
+            src/irc.cpp
+            src/makefile.bsd
+    
+    Former-commit-id: 8433d45e7731ef3be9a165c1adcc222467f2f004
+
+commit e188f45dc7e1217739824ece83ba565144fd3b5d
+Author: Whit Jack <whitj00@ymail.com>
+Date:   Tue Mar 10 15:17:08 2015 -0700
+
+    Things
+    
+    
+    Former-commit-id: 7956ab9bdd6afc6197d06a03db41a3b014be7eae
+
+commit e22f903bc480e348ba34b2d9bcf567ee1e0783d8
+Author: Gavin Andresen <gavinandresen@gmail.com>
+Date:   Sat Mar 9 12:02:57 2013 -0500
+
+    Clean up shutdown process
+    
+    Conflicts:
+            src/init.cpp
+            src/init.h
+            src/main.cpp
+            src/net.cpp
+            src/net.h
+            src/txdb.cpp
+            src/util.cpp
+            src/util.h
+            src/walletdb.cpp
+    
+    Conflicts:
+            src/init.cpp
+            src/qt/qtipcserver.cpp
+    
+    Former-commit-id: f4c14cc5f9b2f03635ebd9ea6ddc458ca66184fd
+
+commit 7e8f76d0ada2e1c85b783ddf3af47b8fbf4257ae
+Author: Pavel Vasin <pavel@vasin.nl>
+Date:   Sun Sep 7 19:46:59 2014 +0400
+
+    port stake miner to boost::thread_group
+    
+    
+    Former-commit-id: 45bfb9329ddd1106de07a2f1bb429442143a1c80
+
+commit 640c74717153cad1b3cc2b9c77898b958bad8d3c
+Author: Whit Jack <whitj00@ymail.com>
+Date:   Tue Mar 10 15:13:30 2015 -0700
+
+    Things
+    
+    
+    Former-commit-id: 94f9a4806ba1644e74f891be1bf2583ce6877f1f
+
+commit 5f03ca3034657ee7a06e2cebaad15637778e5391
+Author: Gavin Andresen <gavinandresen@gmail.com>
+Date:   Wed Mar 6 22:31:26 2013 -0500
+
+    Port Thread* methods to boost::thread_group
+    
+    Conflicts:
+            src/bitcoinrpc.cpp
+            src/checkqueue.h
+            src/init.cpp
+            src/main.cpp
+            src/main.h
+            src/net.cpp
+            src/net.h
+            src/test/test_bitcoin.cpp
+    
+    Conflicts:
+            src/bitcoinrpc.cpp
+            src/init.cpp
+            src/net.cpp
+    
+    Former-commit-id: 712993d20ae36f5d82d7c2f8b23855aaaaa198e1
+
+commit f1eeddc0ee540d97447e612f0199bd5d0fb972c9
+Author: Gavin Andresen <gavinandresen@gmail.com>
+Date:   Fri Mar 8 20:19:17 2013 -0500
+
+    LoopForever and ThreadTrace helpers
+    
+    
+    Former-commit-id: 32f210e0a3b4a8071168634a9a8a15df66776534
+
+commit 0571f7b198dae9525163cf2eba697ff6e0a488c2
+Author: Gavin Andresen <gavinandresen@gmail.com>
+Date:   Wed Mar 6 22:16:05 2013 -0500
+
+    Shutdown cleanup prep-work
+    
+    Create a boost::thread_group object at the qt/bitcoind main-loop level
+    that will hold pointers to all the main-loop threads.
+    
+    This will replace the vnThreadsRunning[] array.
+    
+    For testing, ported the BitcoinMiner threads to use its
+    own boost::thread_group.
+    
+    Conflicts:
+            src/main.cpp
+    
+    Former-commit-id: c7a080a5bfe37b4e6d62c48dda18d0d81cff00ff
+
+commit 23c07e04476fd6cc3bc0737bf1ca238da21a8842
+Author: Jeff Garzik <jgarzik@exmulti.com>
+Date:   Sun Nov 4 17:16:46 2012 -0500
+
+    RPC: HTTP server uses its own ReadHTTPRequestLine()
+    rather than reusing ReadHTTPStatus() from the client mode.
+    
+    The following additional HTTP request validations are added, both in line with
+    existing HTTP client practice:
+    
+    1) HTTP method must be GET or POST.  Most clients use POST, some
+       use GET.  Either way, this continues to work.
+    2) HTTP URI must start with "/" character.
+       Normal URI is "/" (a 1-char string), so this is fine.
+    
+    
+    Former-commit-id: b5aef1eaf3c93793ae9755a8d29a286b2ab8d5d5
+
+commit 2ef7f1bf53c1ece75b9f8e0aac5a3290ac3e5b5d
+Author: Jeff Garzik <jgarzik@exmulti.com>
+Date:   Sun Nov 4 16:06:38 2012 -0500
+
+    RPC, cosmetic: push down ReadHTTPStatus() calls into ReadHTTP() callers
+    
+    ReadHTTPStatus() is currently overloaded:  In client mode, it properly parses
+    and receives an HTTP status line.  In server mode, it incorrectly parses the
+    HTTP request line as an HTTP status line.
+    
+    This server mode bug has never mattered, because the RPC server never
+    cared about the URI (path) provided in the HTTP request.  That will change in
+    the future, so go ahead and begin fixing the problem.
+    
+    This patch is cosmetic, and should result in NO behavior changes.
+    
+    Further renames:
+    ReadHTTPHeader -> ReadHTTPHeaders
+    ReadHTTP -> ReadHTTPMessage
+    
+    
+    Former-commit-id: d4409d191e919e3f63a25c8ec15ddc63bc16a5d5
+
+commit 952531b73c4ce6a003cd409989052aced8f9d1c8
+Author: Matt Corallo <git@bluematt.me>
+Date:   Wed Jan 23 11:48:17 2013 -0500
+
+    Add a getaddednodeinfo RPC.
+    
+    Conflicts:
+            src/bitcoinrpc.cpp
+            src/bitcoinrpc.h
+            src/rpcnet.cpp
+    
+    Former-commit-id: dbbc4f7938ef6f4b005ae225c7fb1042675d3672
+
+commit ae94cc4e27a04efa0d4e53a66eab38c36d9e351c
+Author: Matt Corallo <git@bluematt.me>
+Date:   Wed Jan 23 11:45:00 2013 -0500
+
+    Add addnode RPC command.
+    
+    Conflicts:
+            src/bitcoinrpc.cpp
+            src/bitcoinrpc.h
+            src/rpcnet.cpp
+    
+    Former-commit-id: bc4fead9950e82280eccb4856d484440fea47f8d
+
+commit 4aecd6cad4b57648fc4c611e0c8ef82a7e0eb1a1
+Author: Matt Corallo <matt@bluematt.me>
+Date:   Mon Jul 2 21:11:57 2012 +0200
+
+    Try more than the first address for a DNS -addnode.
+    
+    Conflicts:
+            src/net.cpp
+    
+    Former-commit-id: 0cff77d1c5e2dd826bb197c161d387368d3d009b
+
+commit cc34dd3b096e5f283fb72c19c965c621df76b402
+Author: Matt Corallo <matt@bluematt.me>
+Date:   Mon Jul 2 20:14:02 2012 +0200
+
+    Make ThreadOpenAddedConnections2 exit quicker if(GetNameProxy()).
+    
+    Conflicts:
+            src/net.cpp
+    
+    Former-commit-id: 219fe6c88ef8fa607a681dea70234d4da28c71be
+
+commit 0efaa4b4f293635274641baead085225b8d84f2e
+Author: Matt Corallo <matt@bluematt.me>
+Date:   Mon Jul 2 19:55:16 2012 +0200
+
+    Use a copy in place of mapMultiArgs["-addnode"].
+    
+    Also moves the DNS lookup of -addnode nodes into the repeated
+    loop, allowing -addnode to follow DNS changes.
+    
+    Conflicts:
+            src/net.cpp
+    
+    Former-commit-id: 99b5e112d4da16dd5fc38b6a00ef15e185f70904
+
+commit 1d2ba702dc6def167d9aae38b5f7dfd8431f2292
+Author: Wladimir J. van der Laan <laanwj@gmail.com>
+Date:   Wed Sep 3 12:20:47 2014 +0200
+
+    net: Remove MilliSleep from StopNode
+    
+    I don't understand why it would be there in the first place. This looks
+    like voodoo, not programming.
+    
+    Conflicts:
+            src/net.cpp
+    
+    Former-commit-id: d92d332e7f31949e62687c47c770d9ddfb0751df
+
+commit e132901f87b0fd6ad8bb7d529b5e35f2bee27932
+Author: phantomcircuit <patrick@cloudhashing.com>
+Date:   Fri Aug 29 18:21:18 2014 -0700
+
+    remove useless millisleep
+    
+    reduces time to service requests improving performance
+    
+    
+    Former-commit-id: 2ece637ab767659dc051a0ca9d9eb492f61c2d7d
+
+commit 97647af8b11f8946924e133325a4346130adeb3e
+Author: Wladimir J. van der Laan <laanwj@gmail.com>
+Date:   Thu Aug 28 17:14:22 2014 +0200
+
+    rpc: Compute number of confirmations of a block from block height
+    
+    Currently this uses a CMerkleTx, but that makes no sense as we
+    have the CBlockIndex available. As noted by @jgarzik.
+    
+    Conflicts:
+            src/rpcblockchain.cpp
+    
+    Former-commit-id: 47faa31980c36b7158be1679533159857ae6bba7
+
+commit 5a2b7264b8bf85e7b1f02ac95d5e739a005ab0b0
+Author: Jeff Garzik <jgarzik@bitpay.com>
+Date:   Tue Jul 29 10:53:38 2014 -0400
+
+    ui_interface: remove unused NotifyBlocksChanged signal
+    
+    Conflicts:
+            src/main.cpp
+            src/qt/clientmodel.cpp
+    
+    Former-commit-id: 805563bb81a3c897f11c4b80a50e56f4add1c890
+
+commit 95c0311d1ec7cd3c84a29d0568566b98c34b191d
+Author: Wladimir J. van der Laan <laanwj@gmail.com>
+Date:   Sat Mar 15 10:13:37 2014 +0100
+
+    qt: Show weeks as well as years behind for long timespans
+    
+    Closes #3811.
+    
+    Conflicts:
+            src/qt/locale/bitcoin_en.ts
+    
+    Former-commit-id: e38de62a2512505b528aeab12f0e6501bd6e0712
+
+commit 3a34eb171f4eb8c1a46415ceddeea519629ab0b6
+Author: Wladimir J. van der Laan <laanwj@gmail.com>
+Date:   Mon May 5 19:43:14 2014 +0200
+
+    Remove NumBlocksOfPeers
+    
+    Generally useless information. Only updates on connect time, not after
+    that. Peers can easily lie and the median filter is not effective in
+    preventing that.
+    
+    In the past it was used for progress display in the GUI but
+    `CheckPoints::guessVerificationProgress` provides a better way that is now used.
+    It was too easy to mislead it. Peers do lie about it in practice, see issue #4065.
+    
+    From the RPC, `getpeerinfo` gives the peer raw values, which are more
+    useful.
+    
+    Conflicts:
+            src/main.cpp
+            src/main.h
+            src/qt/bitcoingui.h
+            src/qt/clientmodel.cpp
+            src/qt/clientmodel.h
+            src/qt/forms/rpcconsole.ui
+            src/qt/rpcconsole.cpp
+    
+    Conflicts:
+            src/qt/clientmodel.h
+    
+    Former-commit-id: b921090b08df55339b8e30f9db5d08d5be95369a
+
+commit 7278f1ab7603879e274fb68044bba4224931654c
+Author: Wladimir J. van der Laan <laanwj@gmail.com>
+Date:   Sun Feb 10 19:01:30 2013 +0100
+
+    Change progress bar from block-based to time-based
+    
+    This is less confusing to most people, and doesn't rely on estimates
+    of the total number of blocks received from other nodes.
+    
+    Conflicts:
+            src/qt/bitcoingui.cpp
+    
+    Conflicts:
+            src/qt/bitcoingui.cpp
+    
+    Former-commit-id: 9d341ffbab66b52122f896cfe42fe9370e05643b
+
+commit 19e76acf7b154afaa2f7edd164aae28c498eedf4
+Author: Philip Kaufmann <phil.kaufmann@t-online.de>
+Date:   Thu Jan 3 22:13:24 2013 +0100
+
+    Bitcoin-Qt: never display own block count > estimated block count
+    
+    - some users reported it as weird, that the estimated block count could be
+      lower than our own nodes block number (which is indeed true and not good)
+    - this pull adds a new default behaviour, which displays our own block
+      number as estimated block number, if own >= est. block count
+    - the pull raises space for nodes block counts in cPeerBlockCounts to 8 to
+      be more accurate
+    - also removes a reduntant setNumBlocks() call in RPCConsole and moves
+      initialisation of numBlocksAtStartup in ClientModel, where it belongs
+    
+    
+    Former-commit-id: 897949c0da604d15ccdb9975655fe58ef29060ad
+
+commit d863f5f3e7a15ff9464df32cf496d9f41cd0cd95
+Author: Scott Ellis <sje397@gmail.com>
+Date:   Fri Aug 23 02:09:32 2013 +1000
+
+    Add network traffic graph
+    
+    Conflicts:
+            src/bitcoinrpc.cpp
+            src/bitcoinrpc.h
+            src/net.cpp
+            src/qt/Makefile.am
+            src/qt/clientmodel.h
+            src/rpcnet.cpp
+    
+    Conflicts:
+            src/net.cpp
+            src/net.h
+    
+    Former-commit-id: 3d49120977a06e933f9a9a5421b41e6a3354f5ce
+
+commit 56f98acf96d2661170db3406940865d1ccd49252
+Author: Pavel Vasin <rat4vier@gmail.com>
+Date:   Wed Jul 30 18:16:08 2014 +0400
+
+    remove CTransaction::IsNewerThan which is never used
+    
+    
+    Former-commit-id: 2989013abe092e03fdf7281505fd76ecc965e34b
+
+commit af14a779c55b66e4cc043b395bf64c8664484593
+Author: Gavin Andresen <gavinandresen@gmail.com>
+Date:   Mon Nov 11 13:42:51 2013 +1000
+
+    Remove dead transaction replacement code
+    
+    This dead code can be resurrected from git history if
+    transaction replacement is ever implemented. Keeping
+    dead code in the source is a bad idea, because it implies
+    it was tested and worked at some point, which is not true.
+    
+    Conflicts:
+            src/main.cpp
+    
+    Former-commit-id: 3589d2f9a9ea29f1ff21fa10dfa1e5dbebcb02a1
+
+commit 4d3fcc02e003b3b8c5efddc432737c6c67a641d3
+Author: Eric Lombrozo <elombrozo@gmail.com>
+Date:   Fri Jan 18 07:01:05 2013 -0800
+
+    Moved SyncWithWallets out of ProcessMessage and into CTxMemPool::accept() so that when adding multiple wallets they will be aware of each other's transactions.
+    
+    Conflicts:
+            src/main.cpp
+    
+    Former-commit-id: 06d3e2353ba9d7d4c87c8da7f79144bd6af51192
+
+commit d801cad08cef3b2532db2aef52d4735200aa8759
+Author: Pavel Vasin <rat4vier@gmail.com>
+Date:   Wed Jul 30 17:48:45 2014 +0400
+
+    refactor locking of CTxMemPool::addUnchecked()
+    
+    
+    Former-commit-id: 25a9ff907902202c6c8b8dbe09fdba6de471928f
+
+commit ac7f4f957824d62bf018c93b53ec6fea3734fe87
+Author: CryptoManiac <balthazar@yandex.ru>
+Date:   Tue Jul 15 22:05:52 2014 +0400
+
+    Remove enforcecanonical option, it's always active from now.
+    
+    Conflicts:
+            src/init.cpp
+            src/main.cpp
+    
+    Conflicts:
+            src/main.cpp
+    
+    Former-commit-id: ee39d7ecfce4a16447a0b82b8b49031fa3fdcb29
+
+commit af729cda8174784410c966e83ccb8ac30db99018
+Author: Philip Kaufmann <phil.kaufmann@t-online.de>
+Date:   Tue Jun 24 14:41:26 2014 +0200
+
+    add OpenSSL RAND_cleanup() on OpenSSL shutdown
+    
+    - to securely erase the memory used by the PNRG
+    - also rework 2 comments in OpenSSL init
+    
+    Conflicts:
+            src/util.cpp
+    
+    Former-commit-id: 7158529b5a772bb56a4558ee181923de7b70991e
+
+commit 78c9058fbc9f4b101d71f2b4f12ef34728972cdb
+Author: jtimon <jtimon@monetize.io>
+Date:   Fri Jun 27 13:28:08 2014 +0200
+
+    Replace HexBits with strprintf
+    
+    Conflicts:
+            src/bitcoinrpc.h
+            src/rpcserver.cpp
+    
+    Former-commit-id: da99c6b713712b4f352d647a3d753b9865ae641d
+
+commit 04aceac645200f1ea0142686009d73127abe9e10
+Author: Whit J <whitj00@users.noreply.github.com>
+Date:   Tue Jun 24 17:23:05 2014 -0700
+
+    Consistent lettering
+    
+    
+    Former-commit-id: bb1af85663fe752934de33ecdb4ca6b1eb6efde5
+
+commit b1d7d557aef4da544a2ae7505dbe4f18e95ef1fa
+Author: Philip Kaufmann <phil.kaufmann@t-online.de>
+Date:   Sun Jun 22 20:17:15 2014 +0200
+
+    replace 3 separate calls to WSAGetLastError() with 1
+    
+    
+    Former-commit-id: 47ab80d2b64c485e654d2e24df060e39518ea9b9
+
+commit e8760bcaa2940370178f9b964b49e4465f0cecc6
+Author: Pavel Vasin <rat4vier@gmail.com>
+Date:   Wed Jun 25 23:23:10 2014 +0400
+
+    don't relay tx with future timestamp
+    
+    
+    Former-commit-id: c508f260b0a05a5c9d9f581feed195c0c054ff60
+
+commit e210f0bd0551e3444c96e82856bab91a1012424d
+Author: Peter Todd <pete@petertodd.org>
+Date:   Sun Jan 26 21:50:15 2014 -0500
+
+    Fix off-by-one errors in use of IsFinalTx()
+    
+    Previously CreateNewBlock() didn't take into account the fact that
+    IsFinalTx() without any arguments tests if the transaction is considered
+    final in the *current* block, when both those functions really needed to
+    know if the transaction would be final in the *next* block.
+    
+    Additionally the UI had a similar misunderstanding.
+    
+    Also adds some basic tests to check that CreateNewBlock() is in fact
+    mining nLockTime-using transactions correctly.
+    
+    Thanks to Wladimir J. van der Laan for rebase.
+    
+    Conflicts:
+            src/main.cpp
+            src/miner.cpp
+            src/qt/transactiondesc.cpp
+            src/qt/transactionrecord.cpp
+            src/test/miner_tests.cpp
+    
+    Former-commit-id: 6eda2bc6f80888ad8275395c0f4c2054c6ed44ec
+
+commit a9e667c8c36ee313452fc654e14ccc9dcf99a38b
+Author: Peter Todd <pete@petertodd.org>
+Date:   Wed Jan 9 03:14:48 2013 -0500
+
+    Display tx nLockTime correctly when set to block #
+    
+    Previously when a transaction was set to lock at a specific block the
+    calculation was reversed, returning a negative number. This broke the UI
+    and caused it to display %n in place of the actual number.
+    
+    In addition the previous calculation would display "Open for 0 blocks"
+    when the block height was such that the next block created would
+    finalize the transaction. Inserted the word "more" and changed the
+    calculation so that the last message would be "Open for 1 more block" to
+    better match user expectations.
+    
+    Conflicts:
+            src/qt/transactionrecord.h
+    
+    Former-commit-id: 5d8aa523d7c69ed50ddfac87d74aef54e67e5379
+
+commit c59bbeb6362f847bce516a24336f78e6938b7c07
+Author: Whit Jack <whitj00@ymail.com>
+Date:   Tue Mar 10 10:01:38 2015 -0700
+
+    Thing
+    
+    
+    Former-commit-id: 61f042b2cf36152da0303f1e2363111588aa71f7
+
+commit 5d7dba239f70984c9af96b85081f6d25efb864ed
+Author: Pavel Vasin <rat4vier@gmail.com>
+Date:   Wed Jun 25 13:32:21 2014 +0400
+
+    refactor acception to mempool
+    
+    Conflicts:
+            src/main.cpp
+            src/main.h
+            src/rpcrawtransaction.cpp
+    
+    Former-commit-id: f36f372639d1a5fc83d75b778eb2961b5de86939
+
+commit df138fe9da7d85de5d16bfe763f4b869d19a7091
+Author: Whit Jack <whitj00@ymail.com>
+Date:   Tue Mar 10 09:55:11 2015 -0700
+
+    IsStandardTx(tx)
+    
+    
+    Former-commit-id: 3a6aed7367d2aeff45c08a31473a7a7e643813f9
+
+commit c9788006c45f21842b2b2bb37005715572cca5ac
+Author: Whit Jack <whitj00@ymail.com>
+Date:   Tue Mar 10 09:52:54 2015 -0700
+
+    IsStandardTx(tx)
+    
+    
+    Former-commit-id: 92d5c1456d1ac3bef31cde7a3abdf91fda04a1ff
+
+commit 53d80ed826b0df93d0d9f1ecdb18517ddd2d61c0
+Author: Pavel Vasin <rat4vier@gmail.com>
+Date:   Wed Jun 25 01:20:16 2014 +0400
+
+    move IsStandard and IsFinal out of CTransaction
+    
+    Conflicts:
+            src/main.cpp
+    
+    Former-commit-id: c82668993a7dd033a0824d74863e696207185651
+
+commit cf603825f9a3f48abc125549b7685b9769fc93f8
+Author: Gavin Andresen <gavinandresen@gmail.com>
+Date:   Mon Feb 4 16:56:26 2013 -0500
+
+    Make transactions larger than 100K non-standard
+    
+    Extremely large transactions with lots of inputs can cost the network
+    almost as much to process as they cost the sender in fees.
+    
+    We would never create transactions larger than 100K big; this change
+    makes transactions larger than 100K non-standard, so they are not
+    relayed/mined by default. This is most important for miners that might
+    create blocks larger than 250K big, who could be vulnerable to a
+    make-your-blocks-so-expensive-to-verify-they-get-orphaned attack.
+    
+    Conflicts:
+            src/main.h
+    
+    Former-commit-id: 6485c303c976f41b458050a0a9149a34ad8e7677
+
+commit 97a6929f9e800d23783cf5329e0dfc077f090a84
+Author: Gavin Andresen <gavinandresen@gmail.com>
+Date:   Sat Jan 26 14:38:40 2013 -0500
+
+    Treat non-final transactions as non-standard
+    
+    At least one service that accepted zero-confirmation transactions
+    was vulnerable because an attacker could send a transaction
+    with a lock time far in the future, and then have plenty of time in
+    which to get a double-spend mined (perhaps from a miner who wasn't
+    on the network when the first transaction was broadcast).
+    
+    That is a variation on the "Finney attack". We still don't
+    recommend anybody accept 0-confirmation transactions as final
+    payment for anything. This change keeps non-final transactions
+    from appearing in the wallet, and, assuming most of the network
+    accepts this change, will prevent them from being relayed until
+    they are final.
+    
+    
+    Former-commit-id: 0daa8d9fea07cf38ddaa83062788c2fb67a2b326
+
+commit 836a0aebac0b38673a6e57a14e2faa71689c0c13
+Author: Pieter Wuille <pieter.wuille@gmail.com>
+Date:   Sun Nov 4 12:48:45 2012 +0100
+
+    Remove -detachdb and stop's detach argument.
+    
+    As the only BDB database left is the wallet, and it is always
+    detached.
+    
+    Also remove IsChainFile() predicate and related chainfile-specific
+    logic.
+    
+    Conflicts:
+            src/bitcoinrpc.cpp
+            src/db.cpp
+            src/qt/bitcoinstrings.cpp
+    
+    Conflicts:
+            src/bitcoinrpc.cpp
+    
+    Former-commit-id: 14523bee9c2de78904d872d58be80ab7905fbe97
+
+commit 3705e3a49030957d68712f26bc69075c819efdab
+Author: Gregory Maxwell <greg@xiph.org>
+Date:   Fri Feb 15 15:27:57 2013 -0800
+
+    Internal RNG for approximateBestSubset to prevent degenerate behavior.
+    
+    This fixes test_bitcoin failures on openbsd reported by dhill on IRC.
+    
+      On some systems rand() is a simple LCG over 2^31 and so it produces
+    an even-odd sequence.  ApproximateBestSubset was only using the least
+    significant bit and so every run of the iterative solver would be the
+    same for some inputs, resulting in some pretty dumb decisions.
+    
+    Using something other than the least significant bit would paper over
+    the issue but who knows what other way a system's rand() might get us
+    here.  Instead we use an internal RNG with a period of something like
+    2^60 which is well behaved.  This also makes it possible to make the
+    selection deterministic for the tests, if we wanted to implement that.
+    
+    Conflicts:
+            src/test/util_tests.cpp
+    
+    Former-commit-id: 7c43029d88864774fd18d837d4255c99c3150ef8
+
+commit d6153a2cfa8ee9e4602a380869ab0273bafbd9cf
+Author: Philip Kaufmann <phil.kaufmann@t-online.de>
+Date:   Sun Jun 22 14:51:38 2014 +0200
+
+    remove unused CNode::Cleanup()
+    
+    Conflicts:
+            src/net.cpp
+    
+    Former-commit-id: a99e6f7f5aefc7d5374e6362869cf1169f2c6805
+
+commit 297b1ba0913ba6224e98ec26d5708b3b3c29dccc
+Author: Pieter Wuille <pieter.wuille@gmail.com>
+Date:   Sat Jun 21 17:00:38 2014 +0200
+
+    Allocate receive buffers in on the fly
+    
+    
+    Former-commit-id: 66780d2b4e873e5af46057188c2949a22578f589
+
+commit cf8bdd31d116709712201175c3f99eb23ca0f78d
+Author: Patrick Doetsch <creon@ativ>
+Date:   Tue Jun 24 01:03:49 2014 -0700
+
+    fix relock on sending coins when "for staking only" is activated
+    
+    Sets the checkbox in the askpassphrase dialog to the previous value of
+    fWalletUnlockStakingOnly resolving the issue that the wallet gets locked
+    after sending coins when "for staking only" is activated.
+    
+    
+    Former-commit-id: 7c4caea8724141f2a56d9ca6657a386330ca226d
+
+commit 54c74a9b6f76a914422dafaa6ba2e2c2b26adec2
+Author: Whit Jack <whitj00@ymail.com>
+Date:   Mon Mar 9 22:04:04 2015 -0700
+
+    Qtimer
+    
+    
+    Former-commit-id: 279d5a1bd3af6cc05b8d2d602d7fcdaea891eaa8
+
+commit 0ccc8b66b93cc124e8b14c25b7b0a887dcc91c31
+Author: Wladimir J. van der Laan <laanwj@gmail.com>
+Date:   Wed Apr 23 08:40:48 2014 +0200
+
+    qt: get required locks upfront in polling functions
+    
+    This avoids the GUI from getting stuck on
+    periodical polls if the core is holding the locks for a longer time -
+    for example, during a wallet rescan.
+    
+    Conflicts:
+            src/qt/transactiontablemodel.cpp
+            src/qt/walletmodel.cpp
+    
+    Conflicts:
+            src/qt/transactiontablemodel.cpp
+    
+    Former-commit-id: 00b03262f0187298dba766389e1e2f0271b86d16
+
+commit ec6f82dce1b1ae68f053ee270725b695be3fc146
+Author: Matt Corallo <git@bluematt.me>
+Date:   Tue Jul 23 17:51:28 2013 +0200
+
+    Fix multi-block reorg transaction resurrection
+    
+    Conflicts:
+            src/main.cpp
+    
+    Former-commit-id: 42d2e43629d152eded0a2054f5b67f1750c4b627
+
+commit af981c4747f59e043d2a922078e1e17b954b4aa3
+Author: Pieter Wuille <pieter.wuille@gmail.com>
+Date:   Sat Dec 1 00:41:27 2012 +0100
+
+    Only send reorged txn to mempool after checkpoint
+    
+    Conflicts:
+            src/main.cpp
+    
+    Former-commit-id: d7d7cf367cdd9e9548aa55bbd9beac636b313bee
+
+commit fa90b285f19d031b439d2e07719e887ea0648ab9
+Author: Gavin Andresen <gavinandresen@gmail.com>
+Date:   Wed Aug 7 12:21:34 2013 +1000
+
+    Reject non-canonically-encoded sizes
+    
+    The length of vectors, maps, sets, etc are serialized using
+    Write/ReadCompactSize -- which, unfortunately, do not use a
+    unique encoding.
+    
+    So deserializing and then re-serializing a transaction (for example)
+    can give you different bits than you started with. That doesn't
+    cause any problems that we are aware of, but it is exactly the type
+    of subtle mismatch that can lead to exploits.
+    
+    With this pull, reading a non-canonical CompactSize throws an
+    exception, which means nodes will ignore 'tx' or 'block' or
+    other messages that are not properly encoded.
+    
+    Please check my logic... but this change is safe with respect to
+    causing a network split. Old clients that receive
+    non-canonically-encoded transactions or blocks deserialize
+    them into CTransaction/CBlock structures in memory, and then
+    re-serialize them before relaying them to peers.
+    
+    And please check my logic with respect to causing a blockchain
+    split: there are no CompactSize fields in the block header, so
+    the block hash is always canonical. The merkle root in the block
+    header is computed on a vector<CTransaction>, so
+    any non-canonical encoding of the transactions in 'tx' or 'block'
+    messages is erased as they are read into memory by old clients,
+    and does not affect the block hash. And, as noted above, old
+    clients re-serialize (with canonical encoding) 'tx' and 'block'
+    messages before relaying to peers.
+    
+    Conflicts:
+            src/main.cpp
+            src/test/serialize_tests.cpp
+    
+    Former-commit-id: e097aff4548ee48c8c822015bc81729dd3a799d9
+
+commit b3930bf9f72b3c001e2ed6cc34b7403484da16e0
+Author: Philip Kaufmann <phil.kaufmann@t-online.de>
+Date:   Tue Jun 10 18:34:35 2014 +0200
+
+    remove unused UPnP code from main.h
+    
+    Conflicts:
+            src/main.h
+    
+    Conflicts:
+            src/main.h
+    
+    Former-commit-id: 985fb431d66e3da1d1fa57ded8ffe7e8349a510f
+
+commit bc9bf83645ef8c7d2623433afafcb5d344e317a8
+Author: Wladimir J. van der Laan <laanwj@gmail.com>
+Date:   Tue Jun 10 15:01:23 2014 +0200
+
+    Remove unused Print/PrintHex functions
+    
+    You can just use HexStr(script) or script.ToString() for debugging, no
+    need for these extra functions.
+    
+    Conflicts:
+            src/script.h
+            src/util.h
+    
+    Former-commit-id: cfdf9d3abf2e3fa78f2dabe19218b109a7b33922
+
+commit 77c9ed7f1265f93da02d85df7d5b5c5d48d6cc3b
+Author: Andrew Poelstra <asp11@sfu.ca>
+Date:   Mon Jun 2 16:21:03 2014 -0700
+
+    key.cpp: fail with a friendlier message on missing ssl EC support
+    
+    Previously if bitcoind is linked with an OpenSSL which is compiled
+    without EC support, this is seen as an assertion failure "pKey !=
+    NULL" at key.cpp:134, which occurs after several seconds. It is an
+    esoteric piece of knowledge to interpret this as "oops, I linked
+    with the wrong OpenSSL", and because of the delay it may not even
+    be noticed.
+    
+    The new output is
+    
+    : OpenSSL appears to lack support for elliptic curve cryptography. For
+    more information, visit
+    https://en.bitcoin.it/wiki/OpenSSL_and_EC_Libraries
+    : Initialization sanity check failed. Bitcoin Core is shutting down.
+    
+    which occurs immediately after attempted startup.
+    
+    This also blocks in an InitSanityCheck() function which currently only
+    checks for EC support but should eventually do more. See #4081.
+    
+    Conflicts:
+            src/init.cpp
+            src/key.h
+    
+    Former-commit-id: a5ce629b62e3ab732ad05b649ba1125a9cc5c696
+
+commit 2aca10cef14327d16ee50818c5eee31e4e7e66df
+Author: Wladimir J. van der Laan <laanwj@gmail.com>
+Date:   Thu Dec 19 09:58:06 2013 +0100
+
+    LoadWallet: acquire cs_wallet mutex before clearing setKeyPool
+    
+    Make the function mutex-aware, to prevent having to lock cs_wallet
+    at the call site in Init.
+    
+    
+    Former-commit-id: 706b2c7bbf29366e39bbf5bb812e479fc2553140
+
+commit 3b172f3bf635f187a92c3f66b3d75e4367e62015
+Author: Wladimir J. van der Laan <laanwj@gmail.com>
+Date:   Tue Apr 15 12:43:17 2014 +0200
+
+    Add AssertLockHeld for cs_main to ChainActive-using functions
+    
+    All functions that use ChainActive but do not aquire the cs_main
+    lock themselves, need to be called with the cs_main lock held.
+    
+    This commit adds assertions to all externally callable functions
+    that use chainActive or chainMostWork.
+    
+    This will flag usages when built with -DDEBUG_LOCKORDER.
+    
+    Conflicts:
+            src/main.cpp
+            src/qt/transactiondesc.cpp
+            src/qt/transactionrecord.cpp
+    
+    Conflicts:
+            src/main.cpp
+    
+    Former-commit-id: 13c74ed0c98efcf0c505cb6156dd86dd5202561c
+
+commit 6db85a8019f67bbad6800340fcd0e2c9f538c38b
+Author: Gavin Andresen <gavinandresen@gmail.com>
+Date:   Tue Feb 18 12:11:46 2014 -0500
+
+    Wallet locking fixes for -DDEBUG_LOCKORDER
+    
+    Compiling with -DDEBUG_LOCKORDER and running the qa/rpc-test/ regression
+    tests uncovered a couple of wallet methods that should (but didn't)
+    acquire the cs_wallet mutext.
+    
+    I also changed the AssertLockHeld() routine print to stderr and
+    abort, instead of printing to debug.log and then assert()'ing.
+    It is annoying to look in debug.log to find out which
+    AssertLockHeld is failing.
+    
+    Conflicts:
+            qa/rpc-tests/txnmall.sh
+            src/sync.cpp
+            src/wallet.cpp
+    
+    Conflicts:
+            src/wallet.cpp
+    
+    Former-commit-id: 47083c0435f52623ab8773cad65932b0c52d65e2
+
+commit 4dfa36ff24292078437edbb71b5fbafd8429c01b
+Author: Wladimir J. van der Laan <laanwj@gmail.com>
+Date:   Thu Dec 12 08:07:59 2013 +0100
+
+    Document cs_wallet lock and add AssertLockHeld
+    
+    Add locking assertions to wallet to all methods that
+    access internal fields and do not aquire the cs_wallet mutex.
+    
+    Conflicts:
+            src/wallet.cpp
+            src/wallet.h
+    
+    Conflicts:
+            src/wallet.cpp
+            src/wallet.h
+    
+    Former-commit-id: 69e769ac5638537c14bb6efccbba2fef60ba59f1
+
+commit 9538f67f2b7f054fa8155c60f8c5837d9d97f734
+Author: Wladimir J. van der Laan <laanwj@gmail.com>
+Date:   Thu Dec 19 09:09:51 2013 +0100
+
+    Use mutex pointer instead of name for AssertLockHeld
+    
+    This makes it useable for non-global locks such as the wallet and
+    keystore locks.
+    
+    Conflicts:
+            src/main.cpp
+            src/sync.cpp
+            src/sync.h
+    
+    Former-commit-id: 10809485b850d5a05c44fb968b309c6ec03be03e
+
+commit 0c6a83c9cfdd8dfafa67e778111ec9aa31df9bd1
+Author: Huang Le <4tarhl@gmail.com>
+Date:   Sat May 31 01:23:53 2014 +0800
+
+    Remove template matching params from GetOpName()
+    
+    Since they are not real opcodes, being reported as OP_UNKNOWN is less confusing for human-readable decoding.
+    
+    Signed-off-by: Huang Le <4tarhl@gmail.com>
+    
+    Conflicts:
+            src/script.cpp
+    
+    Former-commit-id: 09f48e8e5948ed5950ef2f76206d505402da318a
+
+commit 013d5aa592f7308f5039bbd6a7c807d8e6273213
+Author: Peter Todd <pete@petertodd.org>
+Date:   Thu Oct 24 04:52:16 2013 -0400
+
+    Show short scriptPubKeys correctly
+    
+    Previously bitcoin-qt's -debug transaction info was showing CTxOut([error])
+    
+    It is valid for a scriptPubKey to be any size, for example simply
+    OP_RETURN is valid and can be used to destroy a TXOUT to mining fees.
+    
+    Conflicts:
+            src/core.cpp
+    
+    Former-commit-id: f9c483dc4105750cb3536cf150530264d8498952
+
+commit a1ce64815fc94a90233ff8b63fbb7f961a40fa4e
+Author: Kamil Domanski <kdomanski@kdemail.net>
+Date:   Tue May 13 21:00:16 2014 +0200
+
+    remove LogException( ) which is never used
+    
+    Conflicts:
+            src/util.cpp
+            src/util.h
+    
+    Former-commit-id: 1116e103cfa3bfe070e32aebacb5295020b62280
+
+commit 34d4810a75e6adeae12342c14ef096faa507fecd
+Author: Kamil Domanski <kdomanski@kdemail.net>
+Date:   Tue May 13 21:41:51 2014 +0200
+
+    remove CPubKey::VerifyCompact( ) which is never used
+    
+    Conflicts:
+            src/key.cpp
+            src/key.h
+    
+    Former-commit-id: cad8fc5ef6ff1da4a6629fadf3905cada14b1e41
+
+commit 70adf497f83a564eb0c288f1bfe0947d039588df
+Author: Kamil Domanski <kdomanski@kdemail.net>
+Date:   Tue May 13 21:37:47 2014 +0200
+
+    remove GetMedianTime( ) which is never used
+    
+    Conflicts:
+            src/main.cpp
+            src/main.h
+    
+    Former-commit-id: 0938953861b422203a2a8c44c901ec9cbd43d817
+
+commit b3881b28bac93a0f5c5f290972ca4cec3fac5209
+Author: Kamil Domanski <kdomanski@kdemail.net>
+Date:   Tue May 13 21:02:17 2014 +0200
+
+    remove LookupHostNumeric( ) which is never used
+    
+    
+    Former-commit-id: 21de199606b4fe04f6d7f4223b5336121e3443f6
+
+commit a6cb01c2e49bfd42c2353d17ab1607a1ee658a9b
+Author: Federico Bond <federicobond@gmail.com>
+Date:   Fri May 23 13:58:12 2014 -0300
+
+    Fix warning when compiling in OS X
+    
+    Conflicts:
+            src/qt/notificator.cpp
+    
+    Conflicts:
+            src/qt/notificator.cpp
+    
+    Former-commit-id: 9e51594d6f323d29f9e06c2ae734319b57bd449c
+
+commit f377e73dfdedd978d7201091e2ffb98ab29e150f
+Author: Peter Todd <pete@petertodd.org>
+Date:   Mon Mar 10 22:43:15 2014 -0400
+
+    Check redeemScript size does not exceed 520 byte limit
+    
+    redeemScripts >520bytes can't be spent due to the
+    MAX_SCRIPT_ELEMENT_SIZE limit; previously the addmultisigaddress and
+    createmultisig RPC calls would let you violate that limit unknowingly.
+    
+    Also made the wallet code itself check the redeemScript prior to adding
+    it to the wallet, which in the (rare) instance that a user has added an
+    invalid oversized redeemScript to their wallet causes an error on
+    startup. The affected key isn't added to the wallet; other keys are
+    unaffected.
+    
+    Conflicts:
+            src/keystore.cpp
+            src/rpcmisc.cpp
+            src/rpcwallet.cpp
+    
+    Former-commit-id: 90f5f659e32cee1e8f6f68616f1a21d244eb7e26
+
+commit 5c1a734814bb6200800f7daa3e181d0b6ffa7ff7
+Author: Kamil Domanski <kdomanski@kdemail.net>
+Date:   Mon May 5 20:08:13 2014 +0200
+
+    switch from boost int types to <stdint.h>
+    
+    Conflicts:
+            src/rpcblockchain.cpp
+            src/rpcclient.cpp
+            src/rpcmining.cpp
+            src/rpcmisc.cpp
+            src/rpcnet.cpp
+            src/rpcrawtransaction.cpp
+            src/rpcwallet.cpp
+    
+    Conflicts:
+            src/bitcoinrpc.cpp
+            src/rpcnet.cpp
+            src/rpcwallet.cpp
+    
+    Former-commit-id: 8a68bf12345c8172103ba39fb787c5370f3e9699
+
+commit e38861ec021499046db3ae3c5a13c9b68940078d
+Author: Kamil Domanski <kdomanski@kdemail.net>
+Date:   Mon May 5 21:15:33 2014 +0200
+
+    json_spirit: #include <stdint.h>
+    
+    
+    Former-commit-id: 264a911a37b0cd074026846b8db10df1dd6e4f75
+
+commit c97f2cd4c2518e850f2901d1beb36e2ad4027b4b
+Author: Whit Jack <whitj00@ymail.com>
+Date:   Mon Mar 9 20:30:39 2015 -0700
+
+    New Year! :party:
+    
+    
+    Former-commit-id: a36260ed342d0c701f5e7a93cb6b25188c85c5b3
+
+commit 1a5dada2412189bb784959a903212b85a24b75d8
+Author: Whit Jack <whitj00@ymail.com>
+Date:   Mon Mar 9 20:28:55 2015 -0700
+
+    Remove duplicate file
+    
+    
+    Former-commit-id: 4fb73aaa8db523022738b3e380f992f87411cd1b
+
+commit 71cfa82bc3b1331abd50dd92bc6bd0ddff974123
+Author: Whit Jack <whitj00@ymail.com>
+Date:   Mon Mar 9 20:15:21 2015 -0700
+
+    Remove tip4commit
+    
+    
+    Former-commit-id: 708ab6b664962cb2ac532bb98867c069a9c46059
+
+commit 8dc2e400bb5aacbc0fb47ef9a731710ded805706
+Author: Whit Jack <whitj00@ymail.com>
+Date:   Sun Mar 8 14:48:46 2015 -0700
+
+    Tip4commit
+    
+    
+    Former-commit-id: 4ceaf6031cec6852179c3289d30414182c20204d
+
+commit 8da57d72590b8a6428bc1def94dd225bd4caa2d6
+Author: root <root@whitjack.me>
+Date:   Fri Mar 6 00:31:37 2015 -0500
+
+    Guard against openssl's new strict DER checks
+    New versions of OpenSSL will reject non-canonical DER signatures.
+    However,
+    it'll happily decode them. Decode then re-encode before verification in
+    order
+    to ensure that it is properly consumed.
+    
+    
+    Former-commit-id: e1a66e43a4e530b5a689f76a0ba201c70b5b5a1c
+
+commit f4b3063e273ccc31d2be347952dadac9f39bcd9e
+Author: root <root@whitjack.me>
+Date:   Wed Mar 4 13:07:08 2015 -0500
+
+    Fix semi
+    
+    
+    Former-commit-id: 6c3e67ebab40d95fe3b0ea7138c1652bb7f2b869
+
+commit 79bd7211d1ae4fcc13fd8551a2228d102d9dfd31
+Author: Whit Jack <whitj00@ymail.com>
+Date:   Tue Mar 3 11:26:29 2015 -0800
+
+    Implied 0
+    
+    
+    Former-commit-id: 58883a5fb230a7e0a6375bdaded427e0297a068a
+
+commit b1a6cb736de134c47173eddb6908da071b65aa35
+Author: Whit Jack <whitj00@ymail.com>
+Date:   Fri Feb 27 14:06:59 2015 -0800
+
+    Names
+    
+    
+    Former-commit-id: 3c4bb83697ee4428613c590ea26f0481827cdb89
+
+commit ecdf0065eb27fa9b142dc5cea89c8f4ac7327b4b
+Author: Whit Jack <whitj00@ymail.com>
+Date:   Fri Feb 27 11:12:59 2015 -0800
+
+    Exectute script on open
+    
+    
+    Former-commit-id: b2a125660d9f11f80ee60830b04bcb956a26fe65
+
+commit f88cda93633974ae7147041980939a0468d340f0
+Author: Whit Jack <whitj00@ymail.com>
+Date:   Sun Feb 22 08:02:17 2015 -0800
+
+    Fix for #25
+    
+    
+    Former-commit-id: 1f16a658058bcc267b2ca7267e073e2044c3dfd3
+
+commit 00b566c6814997833f3a5d6fa7985eac831460af
+Author: Whit Jack <whitj00@ymail.com>
+Date:   Fri Feb 13 14:22:01 2015 -0800
+
+    UI Changes
+    
+    
+    Former-commit-id: 9fffd83da631c4c4709e870d585c092359ff009e
+
+commit b440bf7a8d556e3db3ec173bb36382a635852c02
+Author: Whit J <whitj00@users.noreply.github.com>
+Date:   Thu Feb 12 09:19:05 2015 -0800
+
+    Multisigfixes
+    
+    
+    Former-commit-id: d888d6faa059408e4f19d8fafd717e8fceae7a6e
+
+commit 6c4d1ae82cf763aff3671f47adc89fb756b2a077
+Author: Whit Jack <whitj00@ymail.com>
+Date:   Mon Feb 9 22:13:03 2015 -0800
+
+    Remove unneeded file
+    
+    
+    Former-commit-id: 4010d66c020ac44167bf08b34319f6d2946cd353
+
+commit 0f879398983b94401cbaacfe97581c299abd98c9
+Author: Whit Jack <whitj00@ymail.com>
+Date:   Mon Feb 9 21:51:08 2015 -0800
+
+    Remove regex
+    
+    
+    Former-commit-id: 76d44d04b855cb2d00c6e8f783b39c7711510493
+
+commit 5ece9af51a0fc0788230f960542d224c8c67bf0f
+Merge: 223129b 7e4e8b4
+Author: Whit J <whitj00@users.noreply.github.com>
+Date:   Mon Feb 9 17:24:19 2015 -0800
+
+    Merge pull request #23 from OpalCoin/openalias
+    
+    Add alias system
+    
+    Former-commit-id: bbc610bce4e87417f3cb740ab5af67301857286a
+
+commit 7e4e8b4859cba210bbf3b299a635a6a93acb1fdc
+Author: Whit Jack <whitj00@ymail.com>
+Date:   Mon Feb 9 16:08:22 2015 -0800
+
+    Add alias system
+    
+    
+    Former-commit-id: 7b2623b3a402b2d9ba8abe07ace0c149bf0dcef3
+
+commit 223129b0a9df1137a9553b7e133b791ccd1f5d81
+Author: Whit Jack <whitj00@ymail.com>
+Date:   Sun Feb 8 18:24:09 2015 -0800
+
+    Update versioning
+    
+    
+    Former-commit-id: 7293b4b1c0fff8afb4c8a31073cbce532aeacdb0
+
+commit ce45f3ab7fd9f6a11ebddebe49cd6b090028add5
+Author: Whit Jack <whitj00@ymail.com>
+Date:   Sun Feb 8 18:14:26 2015 -0800
+
+    Donate
+    
+    
+    Former-commit-id: 4b3c5c4653eb8fa349bf118c880da6868f81f542
+
+commit dba75140537121d5f8a9f76da969874e2aa934c9
+Author: Whit Jack <whitj00@ymail.com>
+Date:   Sun Feb 8 18:12:28 2015 -0800
+
+    Donate to dev fund
+    
+    
+    Former-commit-id: e9e04b6b6d80bb86aaa391b01f1d9492aa57fd39
+
+commit 36af993ab680266517e3b8f286d65b0a5a3945fd
+Author: Gregory Maxwell <greg@xiph.org>
+Date:   Fri Feb 1 22:59:42 2013 -0500
+
+    Signrawtransaction shouldn't require redeemScript for non-p2sh txins.
+    
+    The redeemScript functionality broke plain offline signing, this
+    change makes it only look for that parameter when signing a p2sh
+    input.
+    
+    
+    Former-commit-id: cb42de597de8d42a7cc22d752a5cae9fec9e53ac
+
+commit fe8154690311a4ca8579e646414c0bf27f3950c1
+Author: Gavin Andresen <gavinandresen@gmail.com>
+Date:   Fri Sep 7 21:05:20 2012 -0400
+
+    Add redeemScript to listunspent output and signrawtransaction input
+    
+    signrawtransaction was unable to sign pay-to-script-hash inputs
+    when given the list of private keys to use. With this commit
+    you can provide the p2sh redemption script in the list of
+    inputs.
+    
+    Conflicts:
+            src/rpcrawtransaction.cpp
+            src/test/rpc_tests.cpp
+    
+    Former-commit-id: 3f667d8571d3e0b514d661a89bfa0d322269e958
+
+commit c4a377044eed9f9b198a2b95caf32012d9dce608
+Merge: 8378847 37703fb
+Author: Whit J <whitj00@users.noreply.github.com>
+Date:   Mon Feb 2 14:48:21 2015 -0800
+
+    Merge pull request #22 from OpalCoin/multisigfix-1
+    
+    Multisigfix
+    
+    Former-commit-id: 93136025ed9e7bb9294ef0385593b4444c2a730e
+
+commit 37703fb8f5a3b661cea35b59abe98f880b1979e5
+Author: Whit J <whitj00@users.noreply.github.com>
+Date:   Mon Feb 2 12:50:18 2015 -0800
+
+    Multisigfix
+    
+    Former-commit-id: 3c1936f15e8a0458f1d4ecfb0b6045dbaa569382
+
+commit 83788474c10a04b3b5dded23334c7f4ee10553e4
+Author: Whit Jack <whitj00@ymail.com>
+Date:   Sat Jan 17 11:46:20 2015 -0800
+
+    Poor travie
+    
+    
+    Former-commit-id: 1df5409825a2712455810e3c76a40ceef16ac654
+
+commit f1b5b864f57e9f1b6d9b76052349bcc527c81730
+Author: Whit Jack <whitj00@ymail.com>
+Date:   Sat Jan 17 11:24:07 2015 -0800
+
+    Add files
+    
+    
+    Former-commit-id: caeb0fcdf6e28b9f3bee4b3a889c3af6dee4a1c0
+
+commit b865dcafe28cd91e8594aa562d9cb9209228508f
+Author: Whit Jack <whitj00@ymail.com>
+Date:   Sat Jan 17 11:23:16 2015 -0800
+
+    FOrmatting changes
+    
+    
+    Former-commit-id: eb4951b2a803773d50f79e2e8394f75a6174ce74
+
+commit 13d2de5871787610130dc79893b1d6d1153b35c8
+Author: Whit Jack <whitj00@ymail.com>
+Date:   Sat Jan 17 11:22:04 2015 -0800
+
+    Add docs
+    
+    
+    Former-commit-id: ec77e58020be462e56a302798a3669fd7e20fdc7
+
+commit e82f4aa98117d6ef5b55d7ecf0696ce1ef24c2dd
+Author: Whit Jack <whitj00@ymail.com>
+Date:   Sat Jan 17 11:12:20 2015 -0800
+
+    Add Linux Build Guide
+    
+    
+    Former-commit-id: 7b57b435a3a2d886de0f562b141c6cf3526b2e8e
+
+commit 9ef0eb1c1102ededd1fc7eca838a225d1047a492
+Author: Whit Jack <whitj00@ymail.com>
+Date:   Thu Jan 15 12:48:59 2015 -0800
+
+    Build fixes
+    
+    
+    Former-commit-id: aeca3f5c1d3d8cca02e2de1691d4f855182d13fb
+
+commit b9a0d5639f42747f5ef7cb967b0529ba83d2dc58
+Merge: d5bd273 b8ab858
+Author: Whit Jack <whitj00@ymail.com>
+Date:   Thu Jan 15 12:42:54 2015 -0800
+
+    Merge branch 'master' of http://github.com/opalcoin/opalcoin
+    
+    Conflicts:
+            src/main.cpp
+    
+    Former-commit-id: 773b103b65b549943b72f972f235db0e846f5ea7
+
+commit b8ab858ffaf9ef5a59ec2307220b2e4a65a75b89
+Author: root <root@whitjack.me>
+Date:   Tue Jan 13 20:08:24 2015 -0500
+
+    THing
+    
+    
+    Former-commit-id: d00cde512602d940794d647b12176f9b5e5e9f37
+
+commit 98f31ab2d9963bdfb03ec424c41460bf861d806d
+Author: root <root@whitjack.me>
+Date:   Tue Jan 13 19:19:43 2015 -0500
+
+    THing
+    
+    
+    Former-commit-id: b6b69e606fff14a93916d72c4ae680ecc1059375
+
+commit d5bd2733959420607f5010b264f32b4b409aec10
+Author: Whit Jack <whitj00@ymail.com>
+Date:   Tue Jan 13 11:38:44 2015 -0800
+
+    Things
+    
+    
+    Former-commit-id: e2a394c5518dddcf2a127425e9cf14677e9453bc
+
+commit 6acb71f42675d247f27890d76307824c4addf900
+Author: Whit Jack <whitj00@ymail.com>
+Date:   Tue Jan 13 11:37:42 2015 -0800
+
+    THing
+    
+    
+    Former-commit-id: 4bf584d34dadd6278de22e87a6fa8499ceef18a7
+
+commit 9892c488290406789fac13f7bd8358534b1fdc22
+Author: Whit Jack <whitj00@ymail.com>
+Date:   Tue Jan 13 11:33:56 2015 -0800
+
+    Logprint
+    
+    
+    Former-commit-id: f32aed9d849869336a25983eea6920dad3d6d989
+
+commit 6b318ac86d6ada99b5a428eb5aefe18cf0928276
+Author: Whit J <whitj00@users.noreply.github.com>
+Date:   Tue Jan 13 11:30:29 2015 -0800
+
+    Update main.cpp
+    
+    Former-commit-id: ddbd81d112f180fb9c58c838f18f1cb885fd41d5
+
+commit 6e27e927b91e2091c5ee9730660868a25fc8cd4f
+Author: Whit Jack <whitj00@ymail.com>
+Date:   Mon Jan 12 19:49:18 2015 -0800
+
+    Getheaders
+    
+    THings
+    
+    
+    Former-commit-id: 884ca71c1703d35aa5069827b3b97cbb26c1fcec
+
+commit 234c2a461cc8aa87f7dc2cb23be1ae9e0cac5d4a
+Author: Whit Jack <whitj00@ymail.com>
+Date:   Sun Jan 11 16:05:53 2015 -0800
+
+    Intilization Order
+    
+    
+    Former-commit-id: 7adc8cc79afee311e653afa795a748be416bd5aa
+
+commit ba52661acf0c1bfae3154116da5cc810747aee01
+Author: Whit Jack <whitj00@ymail.com>
+Date:   Mon Jan 5 15:17:50 2015 -0800
+
+    UI
+    
+    
+    Former-commit-id: 95251fc78d4db3aac0ec4e30a6f3b9652de250f0
+
+commit 858f242ae3d4c5b3a5e49ca785ffa4109b35cdd2
+Author: Whit Jack <whitj00@ymail.com>
+Date:   Sun Jan 4 14:10:39 2015 -0800
+
+    Mac Support for Retina Displays
+    
+    
+    Former-commit-id: cde29f8a38e3600bef66bc28960c5f2a5a12f614
+
+commit ac7f79ce99761047fca9ccdbb69c068e2652b241
+Merge: 1b92c91 e766ad8
+Author: Whit J <whitj00@users.noreply.github.com>
+Date:   Sat Jan 3 21:07:59 2015 -0800
+
+    Merge pull request #21 from OpalCoin/supernetpage
+    
+    qt5
+    
+    Former-commit-id: c3259a3033237d0b774cf1d6e0d7973c9481bc4f
+
+commit e766ad87514874c59d172bfb776667b4e79d4de8
+Author: Whit Jack <whitj00@ymail.com>
+Date:   Sat Jan 3 20:51:11 2015 -0800
+
+    qt5
+    
+    
+    Former-commit-id: 2ba37ed7bc94fb07069285686f1a39a364236636
+
+commit 1b92c91010b92c8e0e2f20feb68b25ff5a1b7215
+Author: Whit Jack <whitj00@ymail.com>
+Date:   Sat Jan 3 12:37:10 2015 -0800
+
+    Serveur
+    
+    
+    Former-commit-id: f2442647f2c2dba460469ed2c19c7a0afa4a02e2
+
+commit 0f11c3a1829c8701b33fa4407475a87d55f5c296
+Merge: 820721c 471ae73
+Author: Whit J <whitj00@users.noreply.github.com>
+Date:   Sat Jan 3 11:40:26 2015 -0800
+
+    Merge pull request #20 from OpalCoin/supernetpage
+    
+    v1.3.1
+    
+    Former-commit-id: b411e27f281fbf5cf92e0d90c05671526b3c90bb
+
+commit 471ae730e718198e59ff58725ccd5ae363d6a20d
+Merge: 6875dfb 820721c
+Author: Whit Jack <whitj00@ymail.com>
+Date:   Sat Jan 3 11:39:41 2015 -0800
+
+    Merge branch 'master' of http://github.com/opalcoin/opalcoin into supernetpage
+    
+    
+    Former-commit-id: c0d764e4418467009e726775cf0ba1144e56d280
+
+commit 6875dfb5dcfbca5d1f9f92d761d2d98fc0c92ef5
+Author: Whit Jack <whitj00@ymail.com>
+Date:   Sat Jan 3 11:37:40 2015 -0800
+
+    v1.3.1
+    
+    
+    Former-commit-id: f55e99bd3f9a0b97aca8a183d886623eec05882e
+
+commit 820721c929ba7d638ab8e6468c64ee130717d998
+Merge: 52cf175 d023975
+Author: Whit J <whitj00@users.noreply.github.com>
+Date:   Sat Jan 3 11:37:21 2015 -0800
+
+    Merge pull request #19 from OpalCoin/supernetpage
+    
+    v1.3.1
+    
+    Former-commit-id: 7b6f7bf9907c905657ddf6566eba5d5d8ea3f176
+
+commit d023975a6e8b645e76e0a505d0c50c23d3e08da1
+Author: Whit Jack <whitj00@ymail.com>
+Date:   Sat Jan 3 11:34:49 2015 -0800
+
+    Add Chat Page
+    
+    
+    Former-commit-id: b98c2039487dc361e9c2c3a1f30b31f8555e37b5
+
+commit 732c73f1097ff221bf71a9f63cc00176e6f75512
+Author: Whit Jack <whitj00@ymail.com>
+Date:   Sat Jan 3 11:25:54 2015 -0800
+
+    Remove Chat
+    
+    
+    Former-commit-id: 8e71154074a0264526830ef5caddd1cd406fb73e
+
+commit 4176b3d1cfb67155e38f4825c5409a54aa6b3b51
+Author: Whit Jack <whitj00@ymail.com>
+Date:   Sat Jan 3 11:07:11 2015 -0800
+
+    SuperNET Page
+    
+    Makefile
+    
+    Files
+    
+    Includes
+    
+    Qmake
+    
+    
+    Former-commit-id: 88733aca685ca3c5a1077d4e94fcfa0ff2d10022
+
+commit 52cf175c328466de8b28517899e8efb878a6fc3a
+Author: Whit Jack <whitj00@ymail.com>
+Date:   Mon Dec 29 19:58:35 2014 -0800
+
+    Revert "Add libjl777"
+    
+    This reverts commit 2dc033cca4e856493326ee15d98345aa9dcdf416 [formerly 28092230f5fd40a5e6d97aad3ab2844a31436bf3].
+    
+    
+    Former-commit-id: b09518e6ba28618b70d040db3c94750b6d17905a
+
+commit 37ab023cb8d5d4bcc8694b04695a015cdabf6f0a
+Author: Whit J <whitj00@users.noreply.github.com>
+Date:   Wed Dec 17 20:50:24 2014 -0800
+
+    Update rpcmining.cpp
+    
+    Former-commit-id: d4d81dbead58b625873e75506f8342f30d5a2a69
+
+commit db9a1c9fc1947469e70dacb2bb0ee14c287335b0
+Author: longzai1988 <longzai88@gmail.com>
+Date:   Wed Sep 3 10:36:59 2014 +0800
+
+    Changed query string key "btcd" to "address"
+    
+    
+    Former-commit-id: 9af2dd9f0f682eed98909fa93de372c36d56c6fc
+
+commit 81b6144bab8aab2fa76166120e8d290cf5c9c38d
+Author: Whit Jack <whitj00@ymail.com>
+Date:   Sun Dec 14 09:48:51 2014 -0800
+
+    Update Version
+    
+    
+    Former-commit-id: 90828213651dcfa2e0ea3fc941971f38fd7051b9
+
+commit 81fc87bd1103c6ea5498a0651412e23d45fea223
+Author: root <root@whitjack.me>
+Date:   Sun Dec 14 12:14:14 2014 -0500
+
+    Max Checkpoint
+    
+    
+    Former-commit-id: 171a1b1b5456ce9f78e4b19c3a349ef3ff631af9
+
+commit 3d077f2b65ae16c72550b95a4d62e6c512b191b4
+Author: Whit Jack <whitj00@ymail.com>
+Date:   Sun Dec 14 08:57:22 2014 -0800
+
+    Fix Checkpoint Key
+    
+    
+    Former-commit-id: e676fea7954cbb26d3499cdc60bba8058d9e9a7c
+
+commit 42eff3898750d0c695df55bdb0166f895118e097
+Author: Whit Jack <whitj00@ymail.com>
+Date:   Fri Dec 12 13:03:34 2014 -0800
+
+    Add libjl777
+    
+    
+    Former-commit-id: 28092230f5fd40a5e6d97aad3ab2844a31436bf3
+
+commit f16c4674ba45e3abbd72dffcf5ffcdd05689033e
+Author: Whit Jack <whitj00@ymail.com>
+Date:   Fri Dec 12 12:01:05 2014 -0800
+
+    Fix QUrl
+    
+    
+    Former-commit-id: 821a10c713bf13c7d97a340e9d5b2ac1bd9b4010
+
+commit c312f2ca2e9e17eff18cf9f68c77869dce5dab6b
+Author: longzai1988 <longzai88@gmail.com>
+Date:   Tue Sep 2 14:38:39 2014 +0800
+
+    Added superNET support
+    
+    add button to enter superNET, once correct address is chosen, open up
+    local Nxt NRS core browser
+    
+    Conflicts:
+            BitcoinDark-qt.pro
+            src/qt/bitcoin.qrc
+            src/qt/bitcoingui.cpp
+    
+    Former-commit-id: afdff0cbbc3d9d53f43feeca32d8a3c1a192903d
+
+commit 5a39040804920d0d04bb15ebeae28e2fecf636e1
+Author: whitj00 <whitj00@ymail.com>
+Date:   Tue Nov 4 21:54:42 2014 -0800
+
+    New InOut Icon
+    
+    
+    Former-commit-id: 0841f45d677adfcaaf91ddd3409f686e916494d1
+
+commit e20b8c8277e8099412661fc99dc663c9d28fe668
+Author: whitj00 <whitj00@ymail.com>
+Date:   Tue Nov 4 21:27:54 2014 -0800
+
+    tx_input.png icon
+    
+    
+    Former-commit-id: 90ce3e0398457498fcca5971933b384a40f484ee
+
+commit 9a59d91db85f5429d8e0d2c42db23bb3c4c0e234
+Author: whitj00 <whitj00@ymail.com>
+Date:   Tue Nov 4 21:22:08 2014 -0800
+
+    Send Icon
+    
+    
+    Former-commit-id: f3fa2938f13ef2600d597f608ce9ef11fe164847
+
+commit bdcc5fff1ecd6e5e35700f383a65467506888161
+Author: whitj00 <whitj00@ymail.com>
+Date:   Tue Nov 4 20:46:23 2014 -0800
+
+    TX Mined Icon
+    
+    
+    Former-commit-id: a3fd9fe56be173672f74ce33c6b95c76a10d4a87
+
+commit f1dedc84249cfa83f9ead9c3b2b0d109eca9a8fb
+Author: whitj00 <whitj00@ymail.com>
+Date:   Mon Nov 3 17:57:31 2014 -0800
+
+    Remove link
+    
+    
+    Former-commit-id: e943ce3f4bc524732d061dfb9f4593064ef0c982
+
+commit 29d43877ee53eb13ff0b0f53bbb3cad38042ffdb
+Author: whitj00 <whitj00@ymail.com>
+Date:   Mon Nov 3 17:47:36 2014 -0800
+
+    Open Links
+    
+    
+    Former-commit-id: 547b5ffb70e01aa2db019d5399f28808d60e6703
+
+commit 480a72cbc6e857126477393869931a4163ad658e
+Author: whitj00 <whitj00@ymail.com>
+Date:   Mon Nov 3 17:13:19 2014 -0800
+
+    New Version 1.2.1
+    
+    
+    Former-commit-id: c10368bd40df88194c5619e68c90472f03e901df
+
+commit a44c6f7bf1c4b5b237d3c4ee5203664174eabf46
+Author: Whit J <whitj00@users.noreply.github.com>
+Date:   Mon Nov 3 10:42:40 2014 -0800
+
+    Update bitcoingui.cpp
+    
+    Former-commit-id: ee7414c529c9539ac016d801fe781cb2cf8a0440
+
+commit 21b9da86f79a5f80cbb02ec6f548e04078c73579
+Author: whitj00 <whitj00@ymail.com>
+Date:   Sun Nov 2 16:55:04 2014 -0800
+
+    Unidentified
+    
+    
+    Former-commit-id: f521177dcb076d504179d35dfc3f9ff4196327f3
+
+commit 8ad20a74db8ba42f2b110261764c568f49a6ba22
+Author: whitj00 <whitj00@ymail.com>
+Date:   Sun Nov 2 16:52:11 2014 -0800
+
+    Remove marker
+    
+    
+    Former-commit-id: ce750eeb9073fee3a134de3bc3b2a6561b50103e
+
+commit f19282ebe289d5b84ce1fadc10920c04a250c0de
+Author: whitj00 <whitj00@ymail.com>
+Date:   Sun Nov 2 16:40:39 2014 -0800
+
+    Remove f_paragraph, line_4, etc
+    
+    
+    Former-commit-id: 453207e668c497e1e29258dd97ad2fe7afb626eb
+
+commit ee10f1c8eb3a6b1e7ec580bbaeca364aa1885dde
+Author: whitj00 <whitj00@ymail.com>
+Date:   Sun Nov 2 15:27:51 2014 -0800
+
+    Qtimer
+    
+    
+    Former-commit-id: b13a3a0f1f41468ca19838b03de3d86ab5efe02c
+
+commit d3af0f064c8da166e51bec9d6010474222d66d35
+Author: whitj00 <whitj00@ymail.com>
+Date:   Fri Oct 24 17:14:38 2014 -0700
+
+    UI Done?
+    
+    
+    Former-commit-id: b0ce0de39bedb5fbedbd035345218b2d4a6d1cc9
+
+commit 5997bb7f80607ef39f5c1e03886f598c0fc674ee
+Author: whitj00 <whitj00@ymail.com>
+Date:   Fri Oct 24 17:05:47 2014 -0700
+
+    Size issue
+    
+    
+    Former-commit-id: 6b0eb625b01be5f9ff1513e6cc5d728fc4dafc94
+
+commit a5692af83c53cbe5b1d16c4359832ee223044dc9
+Author: whitj00 <whitj00@ymail.com>
+Date:   Tue Oct 21 12:45:02 2014 -0700
+
+    New Pretty GUI
+    
+    Reimplement click-to-pay links. Add OSX support.
+    
+    Switch to using Qt's QLocalServer/QLocalSocket to handle bitcoin
+    payment links (bitcoin:... URIs)
+    
+    Reason for switch: the boost::interprocess mechanism seemed flaky,
+    and doesn't mesh as well with "The Qt Way"
+    
+    qtipcserver.cpp/h is replaced by paymentserver.cpp/h
+    
+    Click-to-pay now also works on OSX, with a custom Info.plist
+    that registers Bitcoin-Qt as a handler for bitcoin: URLs and
+    an event listener on the main QApplication that handles
+    QFileOpenEvents (Qt translates 'url clicked' AppleEvents into
+    QFileOpenEvents automagically).
+    
+    
+    Former-commit-id: 11ad96530ac040b7435b3f4714df80647ed8cf13
+
+commit c5accfb1d95295f88380161c7185dae6ac56c44f
+Author: Whit J <whitj00@users.noreply.github.com>
+Date:   Tue Oct 21 10:55:57 2014 -0700
+
+    Update messagepage.cpp
+    
+    
+    Former-commit-id: 5ec8b7ebd1579fdfe636fe5490a4d5eb9f85a6a6
+
+commit d9fb7193f559fd5f1b4fd2ecfb7203f03a045ef5
+Author: SDCDev <sdcoin@sdcoin.co>
+Date:   Thu Jul 31 19:45:56 2014 +0200
+
+    Committing wallet unlocking for messages and correct message filtering
+    
+    Conflicts:
+            src/qt/bitcoingui.cpp
+            src/qt/messagepage.cpp
+            src/wallet.cpp
+    
+    Former-commit-id: e3b88d0a1f9b7e1850b6a3947725fb6dc355db15
+
+commit 6825cded2b52e910187e9ad54e05f7ec1e8b154d
+Author: whitj00 <whitj00@ymail.com>
+Date:   Sun Oct 19 21:34:56 2014 -0700
+
+    Travie
+    
+    
+    Former-commit-id: af25e25802bb696ab46b8381f0f3c5cead2cc604
+
+commit 91a9b7f5f4079012a05afe7cf5b355a3181b9844
+Author: whitj00 <whitj00@ymail.com>
+Date:   Sun Oct 19 21:34:07 2014 -0700
+
+    Notificator
+    
+    
+    Former-commit-id: 38841bc92703f96d2ae5885c042d1fa3d33edb5f
+
+commit 46891a681c108f18db562c8efc2bab689ae0caad
+Author: SDCDev <sdcoin@sdcoin.co>
+Date:   Mon Aug 25 03:35:02 2014 +0200
+
+    Committing Qt 5.3 Changes
+    
+    Conflicts:
+            opalcoin-qt.pro
+            src/clientversion.h
+    
+    Former-commit-id: 97c1da40896db02f669b4fdbb9c0e765dcb4e2e7
+
+commit 232823a5f739561a8bc0cabd7b7c5b56d7346a8d
+Author: SDCDev <sdcoin@sdcoin.co>
+Date:   Sun Aug 24 22:38:11 2014 +0200
+
+    Committing Qt5.3 Mac Notification changes
+    
+    Conflicts:
+            opalcoin-qt.pro
+    
+    Former-commit-id: 18e87a5da1e52a8b2d8b970946d42830cb90b089
+
+commit 90d32f58a1c9910fa93934872a68e87d4a067fd5
+Author: SDCDev <sdcoin@sdcoin.co>
+Date:   Sun Aug 24 22:28:00 2014 +0200
+
+    Qt 5.3 Mac Notifications
+    
+    Conflicts:
+            src/qt/macdockiconhandler.mm
+            src/qt/notificator.cpp
+    
+    Former-commit-id: 55427b2841c6cc4ea17e9edbb469d1aa307f35f5
+
+commit e704b5aaeefd08bcb5450c629a5d6186b9083e76
+Author: SDCDev <sdcoin@sdcoin.co>
+Date:   Thu Jul 31 02:02:52 2014 +0200
+
+    Committing fixes for sorting
+    
+    Conflicts:
+            src/qt/messagepage.cpp
+    
+    Former-commit-id: ce96447e84556b4066cb1673fb963ba863ab97e8
+
+commit b8582235c79d2f1f703a7ca7b9918b43f58fbe60
+Author: SDCDev <sdcoin@sdcoin.co>
+Date:   Thu Jul 31 00:27:09 2014 +0200
+
+    Committing scroll on incoming message
+    
+    
+    Former-commit-id: c1080f391de2730e137af62f90100058643e832d
+
+commit 7e7a4d16c10f073b005200df43ba7707fe1bc4dd
+Author: whitj00 <whitj00@ymail.com>
+Date:   Sun Oct 19 20:59:17 2014 -0700
+
+    Message Page
+    
+    
+    Former-commit-id: abc82bbdb88a7efe36ac4aa4e9195203aa1027d4
+
+commit 1e6ac1b3a5091567ec6d9a6d02d7f3b755f0db84
+Author: whitj00 <whitj00@ymail.com>
+Date:   Sun Oct 19 13:14:05 2014 -0700
+
+    Lite -> Opal
+    
+    
+    Former-commit-id: 8465fce03be5fca8a6e40eef00162f46aa99238c
+
+commit 8845ddcade4f9ae29f5bb3e2b04ad027ade98e70
+Author: whitj00 <whitj00@ymail.com>
+Date:   Sun Oct 19 15:09:53 2014 -0700
+
+    Hack?
+    
+    
+    Former-commit-id: c9cb2370f41c4af6a7e3c0454c377d0b6bdc71c3
+
+commit 15ded62ebbb89f2f8f11dde4497af1b51b58a32d
+Author: whitj00 <whitj00@ymail.com>
+Date:   Thu Oct 30 21:28:08 2014 -0700
+
+    UI
+    
+    
+    Former-commit-id: 08a4c1d4d9a259014299a1b999de86cc4fad3e29
+
+commit 07cbd378e6c6cbd102bd38d6d64bde763b851e1b
+Author: whitj00 <whitj00@ymail.com>
+Date:   Sun Oct 19 12:16:40 2014 -0700
+
+    Remove BG
+    
+    
+    Former-commit-id: 7917cd826c12048ee6e526b007028c36a9038c5d
+
+commit f1218808b9479dd110ab2eed85453cc20e88ee8b
+Author: Whit J <whitj00@users.noreply.github.com>
+Date:   Sat Oct 18 16:24:51 2014 -0700
+
+    Update README.md
+    
+    Former-commit-id: a4dcbf418872000345aecd85d71261a5fd5d8804
+
+commit 8ce2257854210d3e765c72a31e7d19b9c08dbda9
+Merge: 750a629 c2bbe03
+Author: Whit J <whitj00@users.noreply.github.com>
+Date:   Sat Oct 18 16:23:26 2014 -0700
+
+    Merge pull request #16 from Danz0r77/patch-1
+    
+    Update README
+    
+    Former-commit-id: a5fef828c41576753aae4d80e9cf833be6fb8fa5
+
+commit c2bbe03441ade39598451b8909f2875b20520419
+Author: Danz0r77 <daniel.tansey@outlook.com>
+Date:   Sat Oct 18 23:53:28 2014 +0100
+
+    Update README
+    
+    Former-commit-id: 9b9278a486df41331d5c59b914dad2d35b9f6d91
+
+commit 750a6291c8d6077f7c9c7c76e88cd583f95e125c
+Author: whitj00 <whitj00@ymail.com>
+Date:   Fri Oct 17 10:35:55 2014 -0700
+
+    Qt Stuff
+    
+    
+    Former-commit-id: 7668461996166e2407df5899bfef5c1a45ded413
+
+commit 1e28cb1982bb0fc2d1a1bab1dec9e0bb13740b84
+Author: whitj00 <whitj00@ymail.com>
+Date:   Fri Oct 17 10:19:16 2014 -0700
+
+    Icon
+    
+    
+    Former-commit-id: 9636c302c6632c2d0cdd2b6f9d8acff31180f1e8
+
+commit a09391544e283fe3c618c3cd0c7fc5eccbc1e623
+Author: whitj00 <whitj00@ymail.com>
+Date:   Fri Oct 17 10:11:30 2014 -0700
+
+    Qt Fixes
+    
+    
+    Former-commit-id: 9fac4fa2094b4665fa0f21a31af1ea0d8e226726
+
+commit 25c480f257c565541a1744f3bd2b484c18207e18
+Author: whitj00 <whitj00@ymail.com>
+Date:   Wed Oct 15 21:52:42 2014 -0700
+
+    Remove Exchange Activity
+    
+    
+    Former-commit-id: 7eeee7ac10ed3197e8300e81a3d40bb294c4d8fc
+
+commit 2338bd2eb448e55f23f8101b5a47076c76d29bcc
+Author: whitj00 <whitj00@ymail.com>
+Date:   Wed Oct 15 17:48:38 2014 -0700
+
+    Fix Stats Page
+    
+    
+    Former-commit-id: 0aa38d06c7e61327268cf2d8db177e0e78ede010
+
+commit 179c088f51c549ed71c58bc04370674ae824bb64
+Merge: ab1974c b61cb05
+Author: Whit J <whitj00@users.noreply.github.com>
+Date:   Sat Oct 11 13:41:27 2014 -0700
+
+    Merge pull request #15 from OpalCoin/stealth
+    
+    Merge Stealth into Master
+    
+    Former-commit-id: 26bcb76839bb041760ef400726918cfd4e1a7356
+
+commit b61cb05d29cf4f3bdcfc62640d44b453ed75a8ef
+Merge: bb5da34 ab1974c
+Author: Whit J <whitj00@users.noreply.github.com>
+Date:   Sat Oct 11 13:40:57 2014 -0700
+
+    Merge pull request #14 from OpalCoin/master
+    
+    Merge master into stealth
+    
+    Former-commit-id: 8033f0ec8e8fed954da4152408aec83a594f9a1a
+
+commit bb5da34f0fe7879024d51e21b1862387dfb35ca5
+Author: whitj00 <whitj00@ymail.com>
+Date:   Fri Oct 10 22:20:21 2014 -0700
+
+    Makefile
+    
+    
+    Former-commit-id: f133dedba5483b3e6f4155fdad26d3fa363c80aa
+
+commit 2f46b86cd24c48e91012789cc15a7de136a81889
+Author: whitj00 <whitj00@ymail.com>
+Date:   Sat Oct 4 15:45:50 2014 -0700
+
+    Stealth
+    
+    
+    Former-commit-id: 8f865e30dfb0e3de5b49ef7f16f8db17777c47b0
+
+commit faba4849379a993271dfdcd0b2d50ffd5e38600d
+Author: whitj00 <whitj00@ymail.com>
+Date:   Wed Oct 1 22:15:07 2014 -0700
+
+    Name
+    
+    
+    Former-commit-id: 3c488a1aafe4fd1b352e1b9bdd67794c2ad2d7c9
+
+commit 96ca64a0305b860914e991e4909df4ef9f23ff37
+Author: whitj00 <whitj00@ymail.com>
+Date:   Wed Oct 1 19:14:13 2014 -0700
+
+    Ya
+    
+    
+    Former-commit-id: 33118ee16a78badaa0b18bf1f06c036d959c7da0
+
+commit ab1974cc21c2406b303354fd1c306d7de50b4869
+Author: Whit J <whitj00@users.noreply.github.com>
+Date:   Tue Sep 30 21:14:11 2014 -0700
+
+    Update .travis.yml
+    
+    Former-commit-id: 5d517aa55016cf7c54d8a1043e9a056278ace64e
+
+commit 58f3b87727fffb4a7131aeeab47003664028b12b
+Author: Whit J <whitj00@users.noreply.github.com>
+Date:   Fri Sep 26 18:55:06 2014 -0700
+
+    Update COPYING
+    
+    Former-commit-id: 6231b0254cd713fcbe6e61347e8ec2c49a6ec9e1
+
+commit 6b4b5fd88f2c5409bf34e8dd1dc95d77afd20650
+Author: Whit J <whitj00@users.noreply.github.com>
+Date:   Fri Sep 26 18:54:08 2014 -0700
+
+    Update COPYING
+    
+    Former-commit-id: 8c9db9e457bd349642d40b5c6111a90aeefe39de
+
+commit 797eefea4608dbe3f7476a5a166405139a40edc1
+Author: Whit J <whitj00@users.noreply.github.com>
+Date:   Fri Sep 26 18:53:54 2014 -0700
+
+    Update COPYING
+    
+    Former-commit-id: 3e5eaf540f50ccebc293ec5ccf95c7c093051909
+
+commit 49ace3512b1dba6451e2d7ed07592d2f874c4008
+Author: Whit J <whitj00@users.noreply.github.com>
+Date:   Fri Sep 26 18:31:10 2014 -0700
+
+    Update COPYING
+    
+    Former-commit-id: 2fa961fc1431588d3c25afbf30dcbf0500c1ebb5
+
+commit 502db920a2c8d201ee413d674c6163fcdf79dd61
+Author: Whit J <whitj00@users.noreply.github.com>
+Date:   Fri Sep 26 18:30:46 2014 -0700
+
+    Update COPYING
+    
+    Former-commit-id: 2606fac60c40f2b2e839e685569f0d36a1b5ba3f
+
+commit 939a1f2dd385171d0a95e4b81b3a226c4d1d850c
+Author: whitj00 <whitj00@ymail.com>
+Date:   Fri Sep 26 16:49:18 2014 -0700
+
+    Fix
+    
+    
+    Former-commit-id: af46e82bc51a0efac4b75a2e613a69cb78e3457b
+
+commit 6d1549e1740c13a74176caccb995dcabca5ccd44
+Author: whitj00 <whitj00@ymail.com>
+Date:   Fri Sep 26 16:43:02 2014 -0700
+
+    Fix
+    
+    
+    Former-commit-id: ea5b46af1254cfe477dbe758e8a2a52254cb8c4e
+
+commit 2b7a30bdf592ae84ad3cf79c82c88b819e7d0ea3
+Author: whitj00 <whitj00@ymail.com>
+Date:   Fri Sep 26 10:45:48 2014 -0700
+
+    Fix
+    
+    
+    Former-commit-id: b40648e7a1ed969911379065c386d44c757f358b
+
+commit fdd0f00f0b75bdea90c68e96afc76238eca165d3
+Author: whitj00 <whitj00@ymail.com>
+Date:   Fri Sep 26 10:33:45 2014 -0700
+
+    Fix
+    
+    
+    Former-commit-id: 7b3f58eb45ee9ea925551b61f80fc2342fc7d9cb
+
+commit 966de17572619bc313f02e1b36cff1d533ba7c1c
+Author: whitj00 <whitj00@ymail.com>
+Date:   Fri Sep 26 10:26:30 2014 -0700
+
+    Fix
+    
+    
+    Former-commit-id: 1ae36e5fe840cf7b378f8cf487b53ae1a0eed63c
+
+commit 61f520507b1861b4c6c0241db8660fd1e5a21a79
+Author: Whit J <whitj00@users.noreply.github.com>
+Date:   Fri Sep 26 10:18:43 2014 -0700
+
+    Update smessage.cpp
+    
+    Former-commit-id: 40539cefadd5afe4d121248c066deaef756f3b2a
+
+commit aa1e44ff3cb3537a6095dc8b59a239dc7e731a0c
+Author: Whit J <whitj00@users.noreply.github.com>
+Date:   Fri Sep 26 10:15:38 2014 -0700
+
+    Update main.h
+    
+    Former-commit-id: 7fb01361db6da14768dc7148af4e5ebb917730d7
+
+commit dc7e942b0bb1f5d8a13739120fba9bf42850a3f6
+Author: Whit J <whitj00@users.noreply.github.com>
+Date:   Fri Sep 26 10:13:55 2014 -0700
+
+    Update miner.cpp
+    
+    Former-commit-id: e79b6dcf1d00afde4dc6bf87c47a808c2b0af12f
+
+commit 107fd674dddd467386574a6b82545a4a1fc34046
+Author: Whit J <whitj00@users.noreply.github.com>
+Date:   Fri Sep 26 10:13:33 2014 -0700
+
+    Update miner.cpp
+    
+    Former-commit-id: c23740788bf56813883c78a19321c2b8afe1abb7
+
+commit 46f41e379a5db7e79a737482d0029b6faf8ce1f7
+Author: Whit J <whitj00@users.noreply.github.com>
+Date:   Fri Sep 26 10:11:57 2014 -0700
+
+    Update main.cpp
+    
+    Former-commit-id: c0a36cb402fd293208b32e040d48e3e76bb0a28d
+
+commit bf6004032090c407d4c29b708c7e99043b060ee4
+Author: Whit J <whitj00@users.noreply.github.com>
+Date:   Fri Sep 26 10:09:59 2014 -0700
+
+    Update wallet.cpp
+    
+    Former-commit-id: 531ac5207ddb4772a1ab0d595b439eaa70e26412
+
+commit def0f4ca6a062b1569f62deb18135b5ed97e70e2
+Author: Whit J <whitj00@users.noreply.github.com>
+Date:   Fri Sep 26 09:44:42 2014 -0700
+
+    Update rpcwallet.cpp
+    
+    Former-commit-id: 706a7d471a7b84f15df95bb5e9d88d1c5a2e5300
+
+commit d48ac060da5a63a20b5714285d1974f31c367013
+Author: Whit J <whitj00@users.noreply.github.com>
+Date:   Fri Sep 26 09:43:31 2014 -0700
+
+    Update rpcwallet.cpp
+    
+    Former-commit-id: 350fb80722c6d95707908987480205455049660d
+
+commit db045d7d5fd081902fdc81765392ea76f87e849c
+Author: Whit J <whitj00@users.noreply.github.com>
+Date:   Fri Sep 26 09:42:37 2014 -0700
+
+    Update transactionrecord.cpp
+    
+    Former-commit-id: 5a958ab9e7860cf0d0671be51f71e2c83fa31f9a
+
+commit 879f44acbce212f60be0f5b914a5e8ac39777616
+Author: Whit J <whitj00@users.noreply.github.com>
+Date:   Fri Sep 26 09:41:05 2014 -0700
+
+    Update wallet.h
+    
+    Former-commit-id: a9b6fa373b0b4dad098812b1deda1f5618c52626
+
+commit 7d01ed83c6e7593913c937451ebcdb1201fcfddb
+Author: whitj00 <whitj00@ymail.com>
+Date:   Fri Sep 26 09:37:26 2014 -0700
+
+    Stealth
+    
+    
+    Former-commit-id: 0175b521e47d9c788a22f6c1241f2031a53ea455
+
+commit fba880a1c7499b07dfeb6b08b6bd6a7872339cc1
+Author: Matt Corallo <git@bluematt.me>
+Date:   Fri Jan 18 13:55:18 2013 -0500
+
+    Replace 520 constant with MAX_SCRIPT_ELEMENT_SIZE
+    
+    Conflicts:
+            src/main.cpp
+    
+    Former-commit-id: 006712574fbb265c25ff178e9d376a620e9f815c
+
+commit 54a2a8bf11164156cc271a765c7d18097e11a321
+Author: Whit J <whitj00@users.noreply.github.com>
+Date:   Fri Sep 26 09:30:23 2014 -0700
+
+    Update transactiondesc.cpp
+    
+    Former-commit-id: a62998a38ef7f4c89988746e611d5122dcdbbfb6
+
+commit ae2c287400cc4c1ee24e3fb066fa6f4ea1cb9a54
+Author: Whit J <whitj00@users.noreply.github.com>
+Date:   Fri Sep 26 09:23:58 2014 -0700
+
+    Update messagemodel.h
+    
+    Former-commit-id: 5481b3ee8a543e64c0716bf4f73b35f8621c49a7
+
+commit eb347c73ec9bf9798ef874618d88246315b748d6
+Author: Whit J <whitj00@users.noreply.github.com>
+Date:   Fri Sep 26 09:23:44 2014 -0700
+
+    Update messagemodel.h
+    
+    Former-commit-id: 258b80173f9dfde3d3b09c47b4a5aa9b3ff077ee
+
+commit 8304a66d0bfeafedf22e9cee60cf1266dd0be34b
+Author: Whit J <whitj00@users.noreply.github.com>
+Date:   Fri Sep 26 09:22:04 2014 -0700
+
+    Update keystore.cpp
+    
+    Former-commit-id: 1ae596f9f75dcde56f924b09f312bb0da4796a16
+
+commit 89f471fb34a2eb9c3f1773e53d4218d1f7f37102
+Author: Whit J <whitj00@users.noreply.github.com>
+Date:   Fri Sep 26 09:21:39 2014 -0700
+
+    Update keystore.h
+    
+    Former-commit-id: cbb6c628f6f83ba49554edaa18107c4ae85618ed
+
+commit b7d63663dd0476db068d5cd15275da96af0de43a
+Author: Whit J <whitj00@users.noreply.github.com>
+Date:   Fri Sep 26 09:13:29 2014 -0700
+
+    Update walletmodel.cpp
+    
+    Former-commit-id: d4c5a0eb9d50498de6272d8c12a1e16328d2e539
+
+commit 70e3b59dfced01c186aec7f9ec8f6c1f6438e935
+Author: whitj00 <whitj00@ymail.com>
+Date:   Thu Sep 25 22:37:56 2014 -0700
+
+    Stiff
+    
+    
+    Former-commit-id: b0f65fcae64d0f436817c9b19c815906a179e714
+
+commit 53c5337cec29f35b91091216a74b0959bcffb3cb
+Author: whitj00 <whitj00@ymail.com>
+Date:   Thu Sep 25 22:28:07 2014 -0700
+
+    D
+    
+    
+    Former-commit-id: 65a152bcd44ad9cf3c086d9f8f7974aa568dc436
+
+commit f55f0cc6af55b28eca265c9c46e5b39c6288bb8b
+Author: whitj00 <whitj00@ymail.com>
+Date:   Thu Sep 25 22:24:31 2014 -0700
+
+    Ya'
+    
+    
+    Former-commit-id: 87e25387d3b8f699849af3ebbc2ebe6b43f01bd6
+
+commit 029bd6ee5487d71e20b7e2e55fe09aec8a4d3c14
+Author: whitj00 <whitj00@ymail.com>
+Date:   Thu Sep 25 22:23:47 2014 -0700
+
+    Fix
+    
+    
+    Former-commit-id: f66b30918993f08d03477525486b91cda2ce44a7
+
+commit 5fcb9bdb2f3eb8a0a11d4b7f865a1f0941b57861
+Author: whitj00 <whitj00@ymail.com>
+Date:   Thu Sep 25 22:16:20 2014 -0700
+
+    Stuff'
+    
+    
+    Former-commit-id: 03878ebe1fdfe275f27696d9d854fec78e16a22a
+
+commit d6f2ee934290b9910b98eace2af2f8b65f88c3b7
+Author: whitj00 <whitj00@ymail.com>
+Date:   Thu Sep 25 22:09:03 2014 -0700
+
+    Stelth
+    
+    
+    Former-commit-id: 10ff1bb100df36ec62a986e58377a5fa2a8eb6b3
+
+commit e7d441d92ad55a5992910f7981e16baaf7d5f8c8
+Author: whitj00 <whitj00@ymail.com>
+Date:   Thu Sep 25 21:40:39 2014 -0700
+
+    Stash
+    
+    
+    Former-commit-id: 527e186827c56660f75aafdaf8f48f490f45113c
+
+commit 2f66e5e204a2b2b8c19b069a2780714a4bfdc98a
+Author: whitj00 <whitj00@ymail.com>
+Date:   Thu Sep 25 21:40:06 2014 -0700
+
+    Stelh
+    
+    
+    Former-commit-id: 638b59edc23454e5d92907148988abd3f3ab30dc
+
+commit bc4dfc9b7ea67e31cb91cfa462e58c85892f56ce
+Author: Pavel Vasin <rat4vier@gmail.com>
+Date:   Thu May 29 17:18:29 2014 +0400
+
+    Relay OP_RETURN TxOut as standard transaction type
+    
+    
+    Former-commit-id: 4df2dff91b39d8c829b4fecdbb4ed8c23e11041e
+
+commit 0d35645580f5c4ba962674e9abf9b81380e69cf7
+Merge: 6af91f6 b782d67
+Author: Whit J <whitj00@users.noreply.github.com>
+Date:   Thu Sep 18 16:25:55 2014 -0700
+
+    Merge pull request #8 from whitj00/new
+    
+    Merge Opacity
+    
+    Former-commit-id: 3ef43522d99bd3742ed43aa391ecfd0c58bf6552
+
+commit 6af91f60feb931d62846a04483bb6c2baddb176d
+Merge: 1dc68b9 2121983
+Author: Whit J <whitj00@users.noreply.github.com>
+Date:   Thu Sep 18 16:14:42 2014 -0700
+
+    Merge pull request #7 from OpalCoin/revert-6-revert-1-master
+    
+    Revert "Merge Opacity"
+    
+    Former-commit-id: e0fb406640fbaa75031e476054df2419d17a96f5
+
+commit 212198309b87d6e217efedd25642facfcc73e306
+Author: Whit J <whitj00@users.noreply.github.com>
+Date:   Thu Sep 18 16:14:32 2014 -0700
+
+    Revert "Merge Opacity"
+    
+    
+    Former-commit-id: 0c8ba92df0db963f2ad4e12c91df4d7b6e727d65
+
+commit 1dc68b9c3019d2ea148f3463141481ae3fb585b4
+Author: coolcash <spencer@coolcashonline.net>
+Date:   Thu Sep 18 10:53:26 2014 -0500
+
+    Makefile for leveldb
+    
+    Makefile for leveldb
+    
+    
+    Former-commit-id: 715bc6f94020e53c0ac9a8cf50cea88c5f922193
+
+commit 6d1eff6847dd35d3187f4b65a20b81ff3dfe02bc
+Merge: 3d33fbc e35b344
+Author: coolcash <spencer@coolcashonline.net>
+Date:   Thu Sep 18 10:08:04 2014 -0500
+
+    Merge pull request #6 from OpalCoin/revert-1-master
+    
+    Merge Opacity
+    
+    Former-commit-id: edd1a186c22465d68bf74eb44dc2f61e6df3e0bd
+
+commit e35b344337473e76c8bce2b56936f27e8cbc985a
+Author: coolcash <spencer@coolcashonline.net>
+Date:   Thu Sep 18 10:06:51 2014 -0500
+
+    Opacity updates
+    
+    
+    Former-commit-id: 6c7497db8466f8eb9a28dd43d42bceea2879a51d
+
+commit b782d6778b658ff1c5063f20af70e60f9bbd8e40
+Author: Whit J <whitj00@users.noreply.github.com>
+Date:   Wed Sep 17 22:09:33 2014 -0700
+
+    Update makefile.unix
+    
+    Former-commit-id: f51f3e9a720358cc30bef5e9510e9f70ea7b0a0d
+
+commit d89c49860f01b518209b7c2f3b19211b23f02785
+Author: Whit J <whitj00@users.noreply.github.com>
+Date:   Wed Sep 17 22:06:23 2014 -0700
+
+    Update makefile.unix
+    
+    Former-commit-id: ec522c010b268aac2ff7bb463c829b444fcdad4e
+
+commit 0fe4d827237da414990a1c232832cf817c936e08
+Merge: 462fbb9 bd8bf76
+Author: whitj00 <whitj00@ymail.com>
+Date:   Wed Sep 17 21:44:26 2014 -0700
+
+    Merge branch 'new' of http://github.com/whitj00/OpalCoin into new
+    
+    
+    Former-commit-id: b61fa318f90ff1b2f04ca58dc6bd64d41f9724ab
+
+commit 462fbb997abccbac67ca3b454686846658a5385a
+Author: whitj00 <whitj00@ymail.com>
+Date:   Wed Sep 17 21:43:57 2014 -0700
+
+    New Seeder
+    
+    
+    Former-commit-id: 27efd52ec135beef567e31a0cbc0b5505638679a
+
+commit bd8bf76d52fd34d220ba469d50f108a076924f6c
+Author: root <root@git.(none)>
+Date:   Thu Sep 18 00:02:01 2014 -0400
+
+    Gitian
+    
+    
+    Former-commit-id: 978f6f24d7024f08a9370a9ccf1216ec99978880
+
+commit d33e41943ede9e874955352e4bfe2ce3052377b5
+Author: whitj00 <whitj00@ymail.com>
+Date:   Wed Sep 17 19:26:50 2014 -0700
+
+    UI
+    
+    
+    Former-commit-id: d4177ec3137da7b90fcadd633da106d84500e6f4
+
+commit 3d37ec3504479c077fcbd85a4b652ab7bdc15904
+Author: whitj00 <whitj00@ymail.com>
+Date:   Wed Sep 17 19:20:07 2014 -0700
+
+    Declare'
+    
+    
+    Former-commit-id: 33867d10e2d936cec402f2efd2679f92f529dc6f
+
+commit e43647695c8421f753b8f12d1ae00ca7e9c4cd8c
+Author: whitj00 <whitj00@ymail.com>
+Date:   Wed Sep 17 19:17:48 2014 -0700
+
+    Permissions
+    
+    
+    Former-commit-id: ee0d5419ad287b271baf20405085ccc5ef12dfce
+
+commit 22b41761253588bed5838da1448b68ae2b0c3a10
+Author: Whit J <whitj00@users.noreply.github.com>
+Date:   Wed Sep 17 19:17:07 2014 -0700
+
+    Update messagepage.cpp
+    
+    Former-commit-id: 0946a6a67441f1b5d8aa78ba11d0625a7c63eec2
+
+commit e450689a5cb337253d75b124de62b35e7d2f023a
+Author: Whit J <whitj00@users.noreply.github.com>
+Date:   Wed Sep 17 19:15:23 2014 -0700
+
+    Update messagepage.cpp
+    
+    Former-commit-id: bbddc1063984c4754c44e1ff57c20253a58a50f2
+
+commit bf2c91d1e1d9ce99a588cf3feb84c2214b1895f5
+Author: Whit J <whitj00@users.noreply.github.com>
+Date:   Wed Sep 17 19:07:31 2014 -0700
+
+    Create Makefile
+    
+    Former-commit-id: a9a19cd81cf8a034fc40448b5cbd1455cdebbede
+
+commit c24550c8d772b9401f5f324bfe5a36b8d61e6f97
+Author: whitj00 <whitj00@ymail.com>
+Date:   Tue Sep 16 21:35:12 2014 -0700
+
+    yup
+    
+    
+    Former-commit-id: d2ac14393ff107912cf5f64cac0ab8dfeeda6f42
+
+commit 1e0dbec7f9665cfc9d82bc3269ab03cc5a718d45
+Author: Pavel Vasin <rat4vier@gmail.com>
+Date:   Wed Jun 11 15:50:05 2014 +0400
+
+    remove fClient
+    
+    Conflicts:
+            src/main.cpp
+            src/txdb-leveldb.cpp
+    
+    Former-commit-id: be5e25474de19d178a51e18ef5ade4a172f7705f
+
+commit 75826c1f0f4e603c1765a71e7177817eced4c332
+Author: whitj00 <whitj00@ymail.com>
+Date:   Tue Sep 16 21:12:59 2014 -0700
+
+    Pligins
+    
+    
+    Former-commit-id: 417efd0be362862fdcae8d61b6f2259a1f2e68a6
+
+commit 772781953ce59942677757aa91969725bc794563
+Author: whitj00 <whitj00@ymail.com>
+Date:   Tue Sep 16 20:49:35 2014 -0700
+
+    oop
+    
+    
+    Former-commit-id: fe603a5884f1f972097096233ac500d4588fdad6
+
+commit 97e6fe9e74ec80b10fea39e5c9dc56d5b32fee1b
+Author: whitj00 <whitj00@ymail.com>
+Date:   Tue Sep 16 20:43:36 2014 -0700
+
+    Moar
+    
+    
+    Former-commit-id: d5cf77008344011c1c350ce0b69488885c8ac0e5
+
+commit 8fc383e7542fb225b8994b4e9d900e4669691b60
+Author: whitj00 <whitj00@ymail.com>
+Date:   Tue Sep 16 18:05:03 2014 -0700
+
+    Compile
+    
+    
+    Former-commit-id: c16384b238afc0dcf9552788e3ccbfabd9af7722
+
+commit dd0de891e510bf7e1332b851dce9f7b49925047f
+Author: whitj00 <whitj00@ymail.com>
+Date:   Tue Sep 16 16:59:16 2014 -0700
+
+    Hey
+    
+    
+    Former-commit-id: fbb57a55954be0cfbf4fecc4a62bf8094fc31690
+
+commit 97144f4c73454d720d56d6e126429bc073448c18
+Author: whitj00 <whitj00@ymail.com>
+Date:   Tue Sep 16 16:58:11 2014 -0700
+
+    Hey
+    
+    
+    Former-commit-id: 88da4b1a8319f4df65f7e53406c5194794793128
+
+commit e4eacc0ebf11864e16c368ecbf53082d6770056b
+Author: SDCDev <sdcoin@sdcoin.co>
+Date:   Sat Jul 19 17:59:19 2014 +0200
+
+    committing previous net code
+    
+    
+    Former-commit-id: 8a288ca6e313c80c408d4ecf0464d01889d43202
+
+commit fea9c45f6487cca2978703dbbda44bb6efee15d6
+Author: Pieter Wuille <pieter.wuille@gmail.com>
+Date:   Sun Jul 6 16:06:46 2014 +0200
+
+    Use pong receive time rather than processing time
+    
+    Conflicts:
+            src/main.cpp
+    
+    Former-commit-id: 6bcc3bdbfcf5af8b6d2f2a3142be5e82587302c5
+
+commit fb95bdbdfab9bed365c51baff932c6f1bccfdcd5
+Author: Pieter Wuille <pieter.wuille@gmail.com>
+Date:   Tue Oct 15 00:34:20 2013 +0200
+
+    Ping automatically every 2 minutes (unconditionally)
+    
+    ... instead of after 30 minutes of no sending, for latency measurement
+    and keep-alive. Also, disconnect if no reply arrives within 20 minutes,
+    instead of 90 of inactivity (for peers supporting the 'pong' message).
+    
+    Conflicts:
+            src/net.cpp
+            src/net.h
+    
+    Former-commit-id: 5f7b8adbc46ac07d48ccb7cb4555cdb997bcf243
+
+commit ae802417f34d640ae2d8a93827e1389b0c6aee79
+Author: Josh Lehan <krellan@krellan.net>
+Date:   Thu Aug 22 04:34:33 2013 -0700
+
+    Added ping time measurement.
+    New RPC "ping" command to request ping.
+    Implemented "pong" message handler.
+    New "pingtime" field in getpeerinfo, to provide results to user.
+    New "pingwait" field, to show pings still in flight, to better see newly lagging peers.
+    
+    Conflicts:
+            src/bitcoinrpc.cpp
+            src/bitcoinrpc.h
+            src/main.cpp
+            src/net.cpp
+            src/net.h
+            src/rpcnet.cpp
+    
+    Conflicts:
+            src/main.cpp
+            src/net.h
+    
+    Former-commit-id: 95266ab921f0a1fe31fb9022c92989a63c40bbeb
+
+commit e3db6d5f5bcd454f97129e32d5681c1b2140e66d
+Author: Warren Togami <wtogami@gmail.com>
+Date:   Fri Oct 25 23:21:21 2013 -1000
+
+    Split MIN_PROTO_VERSION into INIT_PROTO_VERSION and MIN_PEER_PROTO_VERSION
+    
+    INIT_PROTO_VERSION is the initial version, after a succesful version/verack it is increased to a negotiated version.
+    MIN_PEER_PROTO_VERSION could be a different value to disconnect from peers older than a specified version.
+    
+    Conflicts:
+            src/main.cpp
+            src/net.h
+    
+    Conflicts:
+            src/net.h
+            src/version.h
+    
+    Former-commit-id: 9914c895b43796220ec26521d3536638c517ca86
+
+commit bea6901b03c0b39aafa315305fb201c1b659a40c
+Author: whitj00 <whitj00@ymail.com>
+Date:   Tue Sep 16 16:47:05 2014 -0700
+
+    redundant
+    
+    
+    Former-commit-id: 211fbd9dcd0576d7bfcde264416a555d1327c6be
+
+commit 2785b5e120364f566d1c6e99e1ad461d25f4a1ce
+Author: SDCDev <sdcoin@sdcoin.co>
+Date:   Sat Jul 19 17:59:19 2014 +0200
+
+    committing previous net code
+    
+    
+    Former-commit-id: 38285aa10d866d27c3d4d0be9a01c13b8f8399de
+
+commit 77f85a50b63fbdd4b21e18d145a88bec38c5d8a5
+Author: Pieter Wuille <pieter.wuille@gmail.com>
+Date:   Sun Jul 6 16:06:46 2014 +0200
+
+    Use pong receive time rather than processing time
+    
+    Conflicts:
+            src/main.cpp
+    
+    Former-commit-id: 6333d053c62509f436978dc91d7ad5871283cf51
+
+commit f1d924d4893a0f92bf4761196fa7badb66d90f76
+Author: Pieter Wuille <pieter.wuille@gmail.com>
+Date:   Tue Oct 15 00:34:20 2013 +0200
+
+    Ping automatically every 2 minutes (unconditionally)
+    
+    ... instead of after 30 minutes of no sending, for latency measurement
+    and keep-alive. Also, disconnect if no reply arrives within 20 minutes,
+    instead of 90 of inactivity (for peers supporting the 'pong' message).
+    
+    Conflicts:
+            src/net.cpp
+            src/net.h
+    
+    Conflicts:
+            src/net.cpp
+            src/net.h
+    
+    Former-commit-id: 52362af83ee7b35c95bcc303bed2a1614354858a
+
+commit d2eeca74c736c816970ce64e76e216436c057187
+Author: Josh Lehan <krellan@krellan.net>
+Date:   Thu Aug 22 04:34:33 2013 -0700
+
+    Added ping time measurement.
+    New RPC "ping" command to request ping.
+    Implemented "pong" message handler.
+    New "pingtime" field in getpeerinfo, to provide results to user.
+    New "pingwait" field, to show pings still in flight, to better see newly lagging peers.
+    
+    Conflicts:
+            src/bitcoinrpc.cpp
+            src/bitcoinrpc.h
+            src/main.cpp
+            src/net.cpp
+            src/net.h
+            src/rpcnet.cpp
+    
+    Conflicts:
+            src/main.cpp
+            src/net.h
+    
+    Former-commit-id: 69561aed5785c85075ad8c807216311489bbb33b
+
+commit 000bb2d8f83529ff68b5c19a2b9d514e06b14153
+Author: Pieter Wuille <sipa@ulyssis.org>
+Date:   Fri May 30 12:01:20 2014 +0200
+
+    Limit number of known addresses per peer
+    
+    Conflicts:
+            src/net.h
+    
+    Conflicts:
+            src/net.h
+    
+    Former-commit-id: 1f8da7dbb5c0b0e5e15ea76757fdf1d4dccd5a1c
+
+commit 2859bd8bc5440e19a0b5a4f5b782360651793ac2
+Author: Pieter Wuille <pieter.wuille@gmail.com>
+Date:   Sun Mar 24 16:52:24 2013 +0100
+
+    Use per-message send buffer, rather than per connection
+    
+    Conflicts:
+            src/main.cpp
+            src/net.h
+    
+    Conflicts:
+            src/main.cpp
+            src/net.cpp
+    
+    Former-commit-id: d028f1eb7ed745e0a15ed746c50ce0ef272f2cfc
+
+commit f4f4abdbf7a163dc569df8300d2dcfc699e47638
+Author: Jeff Garzik <jgarzik@exmulti.com>
+Date:   Thu Nov 15 18:20:26 2012 -0500
+
+    P2P: improve RX/TX flow control
+    
+    1) "optimistic write": Push each message to kernel socket buffer immediately.
+    
+    2) If there is write data at select time, that implies send() blocked
+       during optimistic write.  Drain write queue, before receiving
+       any more messages.
+    
+    This avoids needlessly queueing received data, if the remote peer
+    is not themselves receiving data.
+    
+    Result: write buffer (and thus memory usage) is kept small, DoS
+    potential is slightly lower, and TCP flow control signalling is
+    properly utilized.
+    
+    The kernel will queue data into the socket buffer, then signal the
+    remote peer to stop sending data, until we resume reading again.
+    
+    Conflicts:
+            src/net.cpp
+            src/net.h
+    
+    Former-commit-id: 4189f00993ebb0df4b228f5640867eb4e2c8c5dd
+
+commit 4c8e4a97745485a3ca0f57632ac6c3dc6974e530
+Author: Pieter Wuille <pieter.wuille@gmail.com>
+Date:   Fri Mar 1 01:41:28 2013 +0100
+
+    Some fixes to CNetMessage processing
+    
+    * Change CNode::vRecvMsg to be a deque instead of a vector (less copying)
+    * Make sure to acquire cs_vRecvMsg in CNode::CloseSocketDisconnect (as it
+      may be called without that lock).
+    
+    
+    Former-commit-id: 2a8da3549b50a906f66b9ba2510853958cbb591f
+
+commit 0b7fd8776284dac83fb1838e60f46833ce90a9b7
+Author: whitj00 <whitj00@ymail.com>
+Date:   Tue Sep 16 16:28:49 2014 -0700
+
+    f
+    
+    
+    Former-commit-id: d6c4ae98a78b73926d8dd42a3230ea663f520d67
+
+commit 312473b6646a0706e0faa4cbe5ca205a88f78d3f
+Author: Jeff Garzik <jgarzik@exmulti.com>
+Date:   Thu Nov 15 19:41:12 2012 -0500
+
+    P2P: parse network datastream into header/data components in socket thread
+    
+    Replaces CNode::vRecv buffer with a vector of CNetMessage's.  This simplifies
+    ProcessMessages() and eliminates several redundant data copies.
+    
+    Overview:
+    
+    * socket thread now parses incoming message datastream into
+      header/data components, as encapsulated by CNetMessage
+    * socket thread adds each CNetMessage to a vector inside CNode
+    * message thread (ProcessMessages) iterates through CNode's CNetMessage vector
+    
+    Message parsing is made more strict:
+    
+    * Socket is disconnected, if message larger than MAX_SIZE
+      or if CMessageHeader deserialization fails (latter is impossible?).
+      Previously, code would simply eat garbage data all day long.
+    * Socket is disconnected, if we fail to find pchMessageStart.
+      We do not search through garbage, to find pchMessageStart.  Each
+      message must begin precisely after the last message ends.
+    
+    ProcessMessages() always processes a complete message, and is more efficient:
+    
+    * buffer is always precisely sized, using CDataStream::resize(),
+      rather than progressively sized in 64k chunks.  More efficient
+      for large messages like "block".
+    * whole-buffer memory copy eliminated (vRecv -> vMsg)
+    * other buffer-shifting memory copies eliminated (vRecv.insert, vRecv.erase)
+    
+    Conflicts:
+            src/main.cpp
+            src/net.h
+    
+    Conflicts:
+            src/main.cpp
+            src/net.cpp
+            src/net.h
+    
+    Former-commit-id: e8ab51c965d3bd29a94446179eb2a4bb9b45fe0f
+
+commit cde120b6065c49e5031a3ade4fe08b03c7a57cc8
+Author: Pieter Wuille <pieter.wuille@gmail.com>
+Date:   Fri Mar 29 00:43:31 2013 +0100
+
+    Drop release times for CNode
+    
+    It seems there were two mechanisms for assessing whether a CNode
+    was still in use: a refcount and a release timestamp. The latter
+    seems to have been there for a long time, as a safety mechanism.
+    
+    However, this timer also keeps CNode objects alive for far longer
+    than necessary after disconnects, potentially opening up a DoS
+    window.
+    
+    This commit removes the timestamp-based mechanism, and replaces
+    it with an assert(nRefCount >= 0), to verify that the refcounting
+    is indeed correctly working.
+    
+    
+    Former-commit-id: 83bd2ec2d377a4aa32ce125e05919d5b62b44579
+
+commit 603b4b85d72f549ba35e893aabbd2b4e1b4bb1be
+Author: Pavel Vasin <rat4vier@gmail.com>
+Date:   Wed Jun 11 15:50:05 2014 +0400
+
+    remove fClient
+    
+    
+    Former-commit-id: fb609130e7b02fc8a86be39182ff926944ef8fca
+
+commit 9cf08c0e3d18b105b40d10a7808246fc0a892b49
+Author: whitj00 <whitj00@ymail.com>
+Date:   Tue Sep 16 16:23:05 2014 -0700
+
+    :)
+    
+    
+    Former-commit-id: 0503b690780b73f58298699c84fba4fff3967c7c
+
+commit f759f90bb047b8e6ef5f4a268c898e4141e621f8
+Author: SDCDev <sdcoin@sdcoin.co>
+Date:   Sat Jul 19 17:59:19 2014 +0200
+
+    committing previous net code
+    
+    
+    Former-commit-id: e543d3bf42236cfeefd8662c40ec940a610078bf
+
+commit f84df6bf5f53c4129c89e74621d649737f7919bd
+Author: whitj00 <whitj00@ymail.com>
+Date:   Tue Sep 16 12:09:42 2014 -0700
+
+    Qt
+    
+    
+    Former-commit-id: 130eaa936efcc0fff52debe8717e7245e44bd1f9
+
+commit 150b7d6d8c04ea980121bd92ee517d9e883a09ea
+Author: SDCDev <sdcoin@sdcoin.co>
+Date:   Sat Jul 19 17:59:19 2014 +0200
+
+    committing previous net code
+    
+    
+    Former-commit-id: b297ecadad003758790aac02de5ff55c033eacd5
+
+commit 1ee518a4dbdfdab68a3ed6daa0598d81134d6899
+Author: Pieter Wuille <pieter.wuille@gmail.com>
+Date:   Sun Jul 6 16:06:46 2014 +0200
+
+    Use pong receive time rather than processing time
+    
+    Conflicts:
+            src/main.cpp
+    
+    Former-commit-id: b80abe021d4969947540e674020f181d24b6db2e
+
+commit e25043ce213df39c0c86bf30109d9d991c68489c
+Author: Pieter Wuille <pieter.wuille@gmail.com>
+Date:   Tue Oct 15 00:34:20 2013 +0200
+
+    Ping automatically every 2 minutes (unconditionally)
+    
+    ... instead of after 30 minutes of no sending, for latency measurement
+    and keep-alive. Also, disconnect if no reply arrives within 20 minutes,
+    instead of 90 of inactivity (for peers supporting the 'pong' message).
+    
+    
+    Former-commit-id: 9cd5891006771181d98b72aa4e6190f8e6fd0622
+
+commit 7620e9bab510ccd0da677d08265ea097d605bd85
+Author: Josh Lehan <krellan@krellan.net>
+Date:   Thu Aug 22 04:34:33 2013 -0700
+
+    Added ping time measurement.
+    New RPC "ping" command to request ping.
+    Implemented "pong" message handler.
+    New "pingtime" field in getpeerinfo, to provide results to user.
+    New "pingwait" field, to show pings still in flight, to better see newly lagging peers.
+    
+    
+    Former-commit-id: 0b51f7548859f54b71511f71ba64b538497adc80
+
+commit 65ff5ee59b35dc892cebae58bbafdf50f397accf
+Author: Pieter Wuille <pieter.wuille@gmail.com>
+Date:   Tue Oct 15 00:34:20 2013 +0200
+
+    Yep
+    
+    
+    Former-commit-id: ddb60283a936a913314d4cbfdc2ab471811775e9
+
+commit 5b03d2573c34f36460dcf8ec4e967b4b65ef25ab
+Author: Pieter Wuille <pieter.wuille@gmail.com>
+Date:   Tue Oct 15 00:34:20 2013 +0200
+
+    Ya
+    
+    
+    Former-commit-id: b4ef9217bc8c27c5424cb460e98a5b01e51237f6
+
+commit e9b0c66e2f622a3070e553094b0222218fc0774f
+Author: Pieter Wuille <pieter.wuille@gmail.com>
+Date:   Tue Oct 15 00:34:20 2013 +0200
+
+    Ya
+    
+    
+    Former-commit-id: a9f344002ed3e599ac0da23e7b7fe82194c9c556
+
+commit 85c4fa8642893d9fea4404d49a8e9efbef41a4c1
+Author: Philip Kaufmann <phil.kaufmann@t-online.de>
+Date:   Sun Jun 22 14:51:38 2014 +0200
+
+    remove unused CNode::Cleanup()
+    
+    Conflicts:
+            src/net.cpp
+    
+    Former-commit-id: 402541b31781e7e762afef30c79ff8fc5f9fdc89
+
+commit 1a4cbe2c8eb586b4564e47ce4932a8397fe61c1f
+Author: Pieter Wuille <pieter.wuille@gmail.com>
+Date:   Sat Jun 21 17:00:38 2014 +0200
+
+    Allocate receive buffers in on the fly
+    
+    
+    Former-commit-id: 28b123191b981052952953a170751244924cc1a5
+
+commit 66dab95849031732bf8eed44477560b61655b9ac
+Author: Pieter Wuille <pieter.wuille@gmail.com>
+Date:   Sun Mar 24 16:52:24 2013 +0100
+
+    Use per-message send buffer, rather than per connection
+    
+    Conflicts:
+            src/main.cpp
+            src/net.h
+    
+    Former-commit-id: 8010956307beb0d7023268f701cbb4957b459b2b
+
+commit 65c2e074cf3ce440b66cd6faa6ad5d00ec34a76d
+Author: Jeff Garzik <jgarzik@exmulti.com>
+Date:   Thu Nov 15 18:20:26 2012 -0500
+
+    P2P: improve RX/TX flow control
+    
+    1) "optimistic write": Push each message to kernel socket buffer immediately.
+    
+    2) If there is write data at select time, that implies send() blocked
+       during optimistic write.  Drain write queue, before receiving
+       any more messages.
+    
+    This avoids needlessly queueing received data, if the remote peer
+    is not themselves receiving data.
+    
+    Result: write buffer (and thus memory usage) is kept small, DoS
+    potential is slightly lower, and TCP flow control signalling is
+    properly utilized.
+    
+    The kernel will queue data into the socket buffer, then signal the
+    remote peer to stop sending data, until we resume reading again.
+    
+    
+    Former-commit-id: 9965e72afccb81935f7b70539990de5c4e1d056b
+
+commit 8d5233c0261dc8d336360f55193e667336a9e6a9
+Author: Jeff Garzik <jgarzik@exmulti.com>
+Date:   Thu Nov 15 18:04:52 2012 -0500
+
+    P2P, cosmetic: break out buffer send(2) code into separate function
+    
+    
+    Former-commit-id: 6e67bd14925b4146c80db9bc1a978f077b15afaa
+
+commit 50e3fcd23513e3cb359b670095fc6d18a221cbb9
+Author: Pieter Wuille <pieter.wuille@gmail.com>
+Date:   Fri Mar 1 01:41:28 2013 +0100
+
+    Some fixes to CNetMessage processing
+    
+    * Change CNode::vRecvMsg to be a deque instead of a vector (less copying)
+    * Make sure to acquire cs_vRecvMsg in CNode::CloseSocketDisconnect (as it
+      may be called without that lock).
+    
+    
+    Former-commit-id: 411d9bdbea2d0cbac5fdb68f9bc964d75f5bcbda
+
+commit aba32276e0d7c535c990b8ead2e5ba339d5d2791
+Author: Jeff Garzik <jgarzik@exmulti.com>
+Date:   Thu Nov 15 19:41:12 2012 -0500
+
+    P2P: parse network datastream into header/data components in socket thread
+    
+    Replaces CNode::vRecv buffer with a vector of CNetMessage's.  This simplifies
+    ProcessMessages() and eliminates several redundant data copies.
+    
+    Overview:
+    
+    * socket thread now parses incoming message datastream into
+      header/data components, as encapsulated by CNetMessage
+    * socket thread adds each CNetMessage to a vector inside CNode
+    * message thread (ProcessMessages) iterates through CNode's CNetMessage vector
+    
+    Message parsing is made more strict:
+    
+    * Socket is disconnected, if message larger than MAX_SIZE
+      or if CMessageHeader deserialization fails (latter is impossible?).
+      Previously, code would simply eat garbage data all day long.
+    * Socket is disconnected, if we fail to find pchMessageStart.
+      We do not search through garbage, to find pchMessageStart.  Each
+      message must begin precisely after the last message ends.
+    
+    ProcessMessages() always processes a complete message, and is more efficient:
+    
+    * buffer is always precisely sized, using CDataStream::resize(),
+      rather than progressively sized in 64k chunks.  More efficient
+      for large messages like "block".
+    * whole-buffer memory copy eliminated (vRecv -> vMsg)
+    * other buffer-shifting memory copies eliminated (vRecv.insert, vRecv.erase)
+    
+    Conflicts:
+            src/main.cpp
+            src/net.h
+    
+    Former-commit-id: 70d0614263a34ebee4073ad60f8b750123aebe4e
+
+commit 388d28733da44a5db8cc7be04c95ff25f4ff6785
+Author: whitj00 <whitj00@ymail.com>
+Date:   Tue Sep 16 09:57:44 2014 -0700
+
+    COmpile mac
+    
+    
+    Former-commit-id: 4bbfa3f93298fbb8cd0f31697bb2491c9e79bd8b
+
+commit 44dfd3f4ded403c45e97960a438648251176b1ce
+Author: whitj00 <whitj00@ymail.com>
+Date:   Tue Sep 16 09:54:06 2014 -0700
+
+    Missing Icon
+    
+    
+    Former-commit-id: 0fd1c628f9a3d7b9c29698212c534c75bf9d615c
+
+commit f41ae33e3c7fbab92bf9b329159a47c25e8ac5af
+Author: coolcash <spencer@coolcashonline.net>
+Date:   Sun Sep 7 20:29:42 2014 -0500
+
+    New Logo Changes
+    
+    
+    Former-commit-id: 718a6fc0ce2694fff0fc47f14dd5f6bb8b7e1f22
+
+commit 014cd510962ed9b89ff34c614f59680e42054133
+Author: coolcash <spencer@coolcashonline.net>
+Date:   Thu Sep 11 09:18:00 2014 -0500
+
+    Update README.md
+    
+    
+    Former-commit-id: d21e36f6c1112e7cc8b27feef5fcc8dc4b41adc1
+
+commit cd5373dfbbe5c7d1abeb0f52400d63f530ead158
+Author: coolcash <spencer@coolcashonline.net>
+Date:   Thu Sep 11 09:13:41 2014 -0500
+
+    Update README.md
+    
+    
+    Former-commit-id: d4029ef8235d546413e6b92cb65343aac03c4227
+
+commit f271f73646e0e3e66bf41cbe7042670f94528694
+Author: coolcash <spencer@coolcashonline.net>
+Date:   Thu Sep 11 11:41:08 2014 -0500
+
+    for POD-CryptoAsian
+    
+    
+    Former-commit-id: b440c3a0f73464cc839d3b06d249712d87621647
+
+commit a8ab745b7d7fe6413e9d484555858ec539046855
+Author: whitj00 <whitj00@ymail.com>
+Date:   Tue Sep 16 09:14:27 2014 -0700
+
+    em
+    
+    
+    Former-commit-id: 704db45dd52d143b2610a6996df994d36aa30951
+
+commit 3d33fbc2bae3b5d3d0737c5df2119e1ac63b390a
+Author: Whit J <whitj00@users.noreply.github.com>
+Date:   Mon Sep 15 19:14:06 2014 -0700
+
+    Update .travis.yml
+    
+    Former-commit-id: ea877c81428c94376863f73ce8701854938694f4
+
+commit e766cbbaacc042bcff4d7cde9f1697efd94db3af
+Author: Whit J <whitj00@users.noreply.github.com>
+Date:   Mon Sep 15 18:52:31 2014 -0700
+
+    Add Automated Build Testing System
+    
+    Former-commit-id: 6c841a0a02a6d22f515864dfcb5371fcba762781
+
+commit 2c8bce89e337499556edc401c979115617d66fc5
+Author: coolcash <spencer@coolcashonline.net>
+Date:   Thu Sep 11 07:38:30 2014 -0500
+
+    Revert "Add Encrypted Messaging to Opalcoin"
+    
+    
+    Former-commit-id: 46ae93cd264cbdba591a338aad772c3761e447e6
+
+commit 6395bad64fae21d90520db94c164c2d1184ea0a5
+Merge: 9c6bf3d f3f8cf5
+Author: coolcash <spencer@coolcashonline.net>
+Date:   Tue Sep 9 06:56:22 2014 -0500
+
+    Merge pull request #1 from whitj00/master
+    
+    Add Encrypted Messaging to Opalcoin
+    
+    Former-commit-id: 555925f9b0325077800d08c216c2a3b896b1d5eb
+
+commit f3f8cf516435c51b35af49aace2e6593c8f913ad
+Author: whitj00 <whitj00@ymail.com>
+Date:   Mon Sep 8 20:52:41 2014 -0700
+
+    Fix Dock Icon
+    
+    
+    Former-commit-id: 61cdf813b6e806dc6e9b8b4380285d36d85e680a
+
+commit e622bad1ca739a74a447584f19a6ff1aae064c53
+Author: whitj00 <whitj00@ymail.com>
+Date:   Mon Sep 8 20:12:14 2014 -0700
+
+    Finally
+    
+    
+    Former-commit-id: 4475831c831819bdfb1807414c68aa496c02f19b
+
+commit 8dbc1a23df37b688d3acaf5d06a00ca11846831b
+Author: whitj00 <whitj00@ymail.com>
+Date:   Mon Sep 8 17:06:51 2014 -0700
+
+    oops
+    
+    
+    Former-commit-id: fb4bf6b3dca56e8ebc8d683ceb7e4a2c42762a56
+
+commit 45478b593dd0873fe4e38bd12d880ecd0a683ff7
+Author: whitj00 <whitj00@ymail.com>
+Date:   Mon Sep 8 16:48:43 2014 -0700
+
+    oops
+    
+    
+    Former-commit-id: 4f9b2e0a74c7c4c1171cce89489a1b614591e5db
+
+commit 9b870f9b497a8e5d5ecb0acf30a0267650aece54
+Author: whitj00 <whitj00@ymail.com>
+Date:   Mon Sep 8 16:47:30 2014 -0700
+
+    Declare messagemodel
+    
+    
+    Former-commit-id: 42acf8186f5441c3207fccc05d357d346296bd38
+
+commit 63efd398982859f80b1989fc05072f7aa3beb111
+Author: whitj00 <whitj00@ymail.com>
+Date:   Mon Sep 8 16:42:18 2014 -0700
+
+    This might do it
+    
+    
+    Former-commit-id: 7af9f145de2d55cf3c20ca8807906b694e2df247
+
+commit aeb5f1b3001cefeeb7a52056a0d8c2ff8c9ef72e
+Author: whitj00 <whitj00@ymail.com>
+Date:   Sun Sep 7 21:09:24 2014 -0700
+
+    Stuff
+    
+    
+    Former-commit-id: ccf938e366dfe97f29ef921bff54b71949b390b7
+
+commit 430a9e1c7df17dd094466622d399300c3f737ff4
+Author: whitj00 <whitj00@ymail.com>
+Date:   Sun Sep 7 20:32:21 2014 -0700
+
+    Braces
+    
+    
+    Former-commit-id: 21a82abaa4a35a47c86365f3590a24d96e376345
+
+commit 1182c022222337fe9a0a9380141ff7005bfcab59
+Author: Whit J <whitj00@users.noreply.github.com>
+Date:   Sun Sep 7 20:30:53 2014 -0700
+
+    Update opalcoin-qt.pro
+    
+    Former-commit-id: ec6d9793938137e829e78983287dc116cf714b5a
+
+commit 61c542f5ced7baadd8cac1383f88057f32269b8e
+Author: whitj00 <whitj00@ymail.com>
+Date:   Sun Sep 7 20:02:05 2014 -0700
+
+    Fix nested
+    
+    
+    Former-commit-id: 63951978741e7737c5cff4c21da056192ce74749
+
+commit 8be26c73c84714fe5cd18ed99a75d7d6f22d1917
+Author: whitj00 <whitj00@ymail.com>
+Date:   Sun Sep 7 20:00:24 2014 -0700
+
+    Fix nested
+    
+    
+    Former-commit-id: baf522e32a657fd7bac7e0afc6d59c1063381bac
+
+commit 7a73db5cbb9dd7d1ad3cc892627c77b1a3465ead
+Author: whitj00 <whitj00@ymail.com>
+Date:   Sun Sep 7 19:58:23 2014 -0700
+
+    Add Line Edit
+    
+    
+    Former-commit-id: ef39b8f357f3a6c4e865c2b9d33d3590c824f8d0
+
+commit f75fc619f26dda806112706a3f6f57aff820e4cf
+Author: whitj00 <whitj00@ymail.com>
+Date:   Sun Sep 7 19:57:49 2014 -0700
+
+    Add Line Edit
+    
+    
+    Former-commit-id: 723f01135068c9ac58bdeebe4b8e5d5a732b1f65
+
+commit f498bcaf3b69cf758c2ec9fdadd63aaac98bd765
+Author: Whit J <whitj00@users.noreply.github.com>
+Date:   Sun Sep 7 19:41:16 2014 -0700
+
+    Create sendmessagesdialog.ui
+    
+    Former-commit-id: ccde5869237ae87b4e7c9bd30ae2e0e948aa8c25
+
+commit daff8cc056c243470b41a1ffd580b0c9776f91f2
+Author: Whit J <whitj00@users.noreply.github.com>
+Date:   Sun Sep 7 19:39:45 2014 -0700
+
+    Create sendmessagesentry.ui
+    
+    Former-commit-id: 8fbd602191a2315f54579c7d593769482d10a3c0
+
+commit 7fe76c4ae49c39ad262d609c4ed24439d9f30fac
+Author: whitj00 <whitj00@ymail.com>
+Date:   Sun Sep 7 19:36:46 2014 -0700
+
+    Fix pro
+    
+    
+    Former-commit-id: 917a08cd02c387cd383f7ae99ef3a9a0ca84cb77
+
+commit 76b4619827ff9cf6bde92fe6541fc5e8cba85125
+Author: whitj00 <whitj00@ymail.com>
+Date:   Sun Sep 7 19:34:16 2014 -0700
+
+    Build Forms
+    
+    
+    Former-commit-id: fa22f1434232e25b5969fb730fdd697cdfc5db0f
+
+commit 5a6333d6a36a79eecd6f7dcd330d37c5b1dcd438
+Author: whitj00 <whitj00@ymail.com>
+Date:   Sun Sep 7 19:28:53 2014 -0700
+
+    Fix array (Mac)
+    
+    
+    Former-commit-id: 4a7a4dbfb690d2bfed5541973b05dde581c73571
+
+commit 2b0c0f1bac1dd829cb435ea3b473123933a49a61
+Author: whitj00 <whitj00@ymail.com>
+Date:   Sun Sep 7 19:22:00 2014 -0700
+
+    Add fNoSmsg
+    
+    
+    Former-commit-id: 9135e4a3feeb68f63ee74c74543b1beb512348e5
+
+commit 38b4f050e94f92fbe7d5795be0f629cee500407d
+Author: whitj00 <whitj00@ymail.com>
+Date:   Sun Sep 7 19:12:23 2014 -0700
+
+    Buffer
+    
+    
+    Former-commit-id: aec2db2a09ac1b96709b789bda179a009fa99703
+
+commit 7dae12762f71de5b59bf7c8e7b3ac7837d1bcd0b
+Merge: 2dabef9 9c6bf3d
+Author: whitj00 <whitj00@ymail.com>
+Date:   Sun Sep 7 19:09:41 2014 -0700
+
+    Merge
+    
+    Upstram
+    
+    
+    Former-commit-id: 36cf7cff2b6dbae3c71a67723c9f9afe4f766caa
+
+commit 2dabef934a776e69c0d2dc4a26327e65b8664abb
+Author: whitj00 <whitj00@ymail.com>
+Date:   Sun Sep 7 19:04:55 2014 -0700
+
+    Fix Class
+    
+    
+    Former-commit-id: add6a8d8c8ca1eb9c90bc1947b3705a7c565cf79
+
+commit 4e1ce3cfcca53eb92e5c8d6715bb392ac8ae4897
+Author: whitj00 <whitj00@ymail.com>
+Date:   Sun Sep 7 19:03:43 2014 -0700
+
+    Add eckey
+    
+    
+    Former-commit-id: 4907eab2f1a0ea57caa08725b3f899b9cf947dc8
+
+commit 7afac750bbd84387e852cb500a4fa537b8020636
+Author: whitj00 <whitj00@ymail.com>
+Date:   Sun Sep 7 18:55:32 2014 -0700
+
+    Add     SecMsgNode smsgData;
+    
+    
+    Former-commit-id: 338ce775149152eefeb6016363401ffe3b1db331
+
+commit b2e42af06cd209009a68251f9a15d83696738d54
+Author: whitj00 <whitj00@ymail.com>
+Date:   Sun Sep 7 18:52:47 2014 -0700
+
+    Add debug
+    
+    
+    Former-commit-id: f93da2f074d10501b1cf412ad47987b98f543c01
+
+commit e0e65f29293625aafc8c2959235f79e38528797a
+Author: whitj00 <whitj00@ymail.com>
+Date:   Sun Sep 7 18:48:35 2014 -0700
+
+    Add xxhash
+    
+    
+    Former-commit-id: 7b1ccdb71cede2e267674dc52d180de36f6f15da
+
+commit 4aeb6314d1719a3625edfc3ea77077c7d802f3ba
+Author: whitj00 <whitj00@ymail.com>
+Date:   Sun Sep 7 18:44:00 2014 -0700
+
+    Add lz4
+    
+    
+    Former-commit-id: 98bb41cdf9cd803b0a2ceeea50b8a966984c346a
+
+commit 15bc2a97ab93a05d734092a400004a3abf2f885e
+Author: whitj00 <whitj00@ymail.com>
+Date:   Sun Sep 7 18:39:51 2014 -0700
+
+    non-const uint256 begin() function being invoked on a const uint256 object
+    
+    
+    Former-commit-id: 05c430c02a5f29cbc78edc400ac9c9d2358297ff
+
+commit 791dfacae33dae019a102c82a5c68c5bd3b7b338
+Author: whitj00 <whitj00@ymail.com>
+Date:   Sun Sep 7 18:38:22 2014 -0700
+
+    Remove redundant insert method in serialize
+    
+    
+    Former-commit-id: 87cb53ceffe1e26d1070e501fc5271cdc3f2d4f5
+
+commit 3e1ed5502a59b70e64032c7e43c3fed9f49eb3ae
+Author: whitj00 <whitj00@ymail.com>
+Date:   Sun Sep 7 18:35:31 2014 -0700
+
+    Fix Mode
+    
+    
+    Former-commit-id: 1182696c7536e90054883c0697ec0af04deee008
+
+commit 7b1ac10b48e4881e3cbc066044cc9d9e0e445d39
+Author: Whit J <whitj00@users.noreply.github.com>
+Date:   Sun Sep 7 18:34:42 2014 -0700
+
+    Create Makefile
+    
+    Former-commit-id: d1fc3dbc5a50c8500272d637a7bd4381c210474a
+
+commit 46fd67822f799be3eb023fec13df36db8c713a78
+Author: whitj00 <whitj00@ymail.com>
+Date:   Sun Sep 7 18:32:41 2014 -0700
+
+    Fix Icon Build
+    
+    
+    Former-commit-id: 7f3ec3ffe870a6ffd377c11611512604ab83d651
+
+commit f423e6172d1e0b76520f5556e07e9abac47a1b02
+Author: whitj00 <whitj00@ymail.com>
+Date:   Sun Sep 7 18:31:13 2014 -0700
+
+    Icon
+    
+    
+    Former-commit-id: 2457c331145581b3a4980783143acd28de4f6db0
+
+commit 9c6bf3d4bbc3f436e3ec7ba41203e4123173bfaa
+Author: coolcash <spencer@coolcashonline.net>
+Date:   Sun Sep 7 20:29:42 2014 -0500
+
+    new logo
+    
+    interface tweaks and new logos
+    
+    
+    Former-commit-id: 55817a27f5b5bedfbf79a09e2eae6d0b0931f9ac
+
+commit 1c2e1bb4b2d6e4c2e037537f55fe7f653a313d15
+Author: Whit J <whitj00@users.noreply.github.com>
+Date:   Sun Sep 7 18:25:11 2014 -0700
+
+    Update main.cpp
+    
+    Former-commit-id: 75eba2e2094fc44f06634546eae495ff8768585a
+
+commit 54b2a08e3e46f573403c26c98270ae6ba983311e
+Author: Whit J <whitj00@users.noreply.github.com>
+Date:   Sun Sep 7 18:23:00 2014 -0700
+
+    Update rpcwallet.cpp
+    
+    Former-commit-id: 93ffce6e3bbd7e2a1c7b8a68077364f95e959bf7
+
+commit 91a010d3fa020292914fc6a0b7e7f6aac274c5e7
+Author: Whit J <whitj00@users.noreply.github.com>
+Date:   Sun Sep 7 18:22:33 2014 -0700
+
+    Update init.cpp
+    
+    Former-commit-id: 5424b3d1a33a9a8de37c66fa7d7f78f5c4e76516
+
+commit 6be11191acbf8968d8f59f6d37f5639e5d5f2a22
+Author: Whit J <whitj00@users.noreply.github.com>
+Date:   Sun Sep 7 18:20:33 2014 -0700
+
+    Update wallet.h
+    
+    Former-commit-id: 229d44f2673bd5454dfa29d87fd98c6037eeb94a
+
+commit 5868137e9100131d58d6f720abf5b78067137b1b
+Author: Whit J <whitj00@users.noreply.github.com>
+Date:   Sun Sep 7 18:19:56 2014 -0700
+
+    Update opalcoin-qt.pro
+    
+    Former-commit-id: cdb3ea681149cea958bff9a81a8d1701a223fa98
+
+commit d5dcc5cfd844d08d4a31e43a2a6205e00e8c9987
+Author: Whit J <whitj00@users.noreply.github.com>
+Date:   Sun Sep 7 18:18:20 2014 -0700
+
+    Update makefile.unix
+    
+    Former-commit-id: 2cb57e09d7251bc5b287fe2fb5938e008a23128b
+
+commit e1b9927b2b26ce773f2de04f92e1183b21112b52
+Author: Whit J <whitj00@users.noreply.github.com>
+Date:   Sun Sep 7 18:17:17 2014 -0700
+
+    Update makefile.osx
+    
+    Former-commit-id: 5088247708440b900f75daa0bf3c85fdcbd3f273
+
+commit 3386008bd194ba5bdff4220f743d216b8eddc6f6
+Author: Whit J <whitj00@users.noreply.github.com>
+Date:   Sun Sep 7 18:15:01 2014 -0700
+
+    Create messagepage.ui
+    
+    Former-commit-id: 439d78604feb8d3b612ea1ff172de85802caaf3c
+
+commit 61dfca39f1bef1ea8f1095f7873687061614e26e
+Author: Whit J <whitj00@users.noreply.github.com>
+Date:   Sun Sep 7 17:06:26 2014 -0700
+
+    Create sendmessagesentry.h
+    
+    Former-commit-id: 503a68ee2588842d18e66133c0a756594ab656d1
+
+commit 4137b76334cc9983900668e572270dc5c6141b16
+Author: Whit J <whitj00@users.noreply.github.com>
+Date:   Sun Sep 7 17:05:41 2014 -0700
+
+    Create sendmessagesentry.cpp
+    
+    Former-commit-id: f346098583545800c459087e677b62da5ecf43a6
+
+commit ac6c9434b11f4d48c895a7818d9aa11d324aa9ba
+Author: Whit J <whitj00@users.noreply.github.com>
+Date:   Sun Sep 7 17:01:04 2014 -0700
+
+    Create sendmessagesdialog.h
+    
+    Former-commit-id: 16eb6ba8db98e06ab424e6fc9b7fd7d295c2ab6b
+
+commit 460585af39af0fc40e519ca5b191595d21154fbe
+Author: Whit J <whitj00@users.noreply.github.com>
+Date:   Sun Sep 7 17:00:02 2014 -0700
+
+    Create sendmessagesdialog.cpp
+    
+    Former-commit-id: 2acbdc08fa97605dc1efc5edf44fd6f4fa62f851
+
+commit 2104243bc6cb77f221065b75cee35964fd872cca
+Author: Whit J <whitj00@users.noreply.github.com>
+Date:   Sun Sep 7 16:18:55 2014 -0700
+
+    Create messagepage.h
+    
+    Former-commit-id: 8581d770de302600dcd75194f4b055cff7a06cd9
+
+commit 7b7e840460c866a0ff8079276315413c6c12306c
+Author: Whit J <whitj00@users.noreply.github.com>
+Date:   Sun Sep 7 16:18:18 2014 -0700
+
+    Create messagepage.cpp
+    
+    Former-commit-id: 9006a31f4091952bd7d1aa53767d61da60f2c7ea
+
+commit 143d98302f3be21509c333085c57de6b0f78bc68
+Author: Whit J <whitj00@users.noreply.github.com>
+Date:   Sun Sep 7 16:16:22 2014 -0700
+
+    Create messagemodel.h
+    
+    Former-commit-id: 33e8d31b3280bef7f22d8f422761f16251782de1
+
+commit f78eebc5b3b54b39853ed0ec3d06809f4994579d
+Author: Whit J <whitj00@users.noreply.github.com>
+Date:   Sun Sep 7 16:14:20 2014 -0700
+
+    Create messagemodel.cpp
+    
+    Former-commit-id: 65b91f001ca3b47e8e501087e986b3310efd0878
+
+commit 53e69a4020b3516420b7367b1baf3deddafa91a2
+Author: Whit J <whitj00@users.noreply.github.com>
+Date:   Sun Sep 7 16:08:18 2014 -0700
+
+    Update bitcoinrpc.cpp
+    
+    Former-commit-id: 7a20e4061935eb7d29c374825140053c1a438c5d
+
+commit 91cda665fd126ba24dc73e39097349fbfe1dfc01
+Author: Whit J <whitj00@users.noreply.github.com>
+Date:   Sun Sep 7 15:59:38 2014 -0700
+
+    Update bitcoinrpc.h
+    
+    Former-commit-id: b97a0624b2f99eea2c8800f57d697976e0255450
+
+commit 1ef67d7d25102432585f7418b3209ea06dd8d89e
+Author: Whit J <whitj00@users.noreply.github.com>
+Date:   Sun Sep 7 15:52:47 2014 -0700
+
+    Create rpcsmessage.cpp
+    
+    Former-commit-id: 8186c6963525fb4bac42ecefda4fed1fc9056e74
+
+commit 265c467410a040cfabc064f4bfff25e29f642e9a
+Author: Whit J <whitj00@users.noreply.github.com>
+Date:   Sun Sep 7 15:44:28 2014 -0700
+
+    Add smessage
+    
+    Former-commit-id: 064d0058cc3701d08237b26a0283099a6a3f8ff1
+
+commit 04ada89f195db2cb0dcfe912414b4f77d6020b8d
+Author: Whit J <whitj00@users.noreply.github.com>
+Date:   Sun Sep 7 15:42:46 2014 -0700
+
+    Update smessage.cpp
+    
+    Former-commit-id: f46a40a1c111079a1574d50f2115b9d90f3a125e
+
+commit ad631fd88303da251376aa1af6f9d8c4914946a5
+Author: Whit J <whitj00@users.noreply.github.com>
+Date:   Sun Sep 7 15:36:58 2014 -0700
+
+    Create smessage.cpp
+    
+    Former-commit-id: a079c24f79ed9fee84c157e3da9226426f466cf5
+
+commit 872556c5d9733c509c459498710eb7c4b45ec271
+Author: coolcash <spencer@coolcashonline.net>
+Date:   Sun Aug 31 16:01:43 2014 -0500
+
+    fixed seed text issue
+    
+    
+    Former-commit-id: 598d2d01854e5451cb472da29f4bd442b8e0a7db
+
+commit 84f1d4f47fc9e91a8f56788955f2ae78546d450d
+Author: coolcash <spencer@coolcashonline.net>
+Date:   Sun Aug 31 13:48:45 2014 -0500
+
+    irc tab update
+    
+    
+    Former-commit-id: 3bd9b1d5836e308e3af42bf138db6cbc1db84d6c
+
+commit faa61d1ec0cb7f7dd40fe1665590968a07ce509d
+Author: coolcash <spencer@coolcashonline.net>
+Date:   Sun Aug 31 13:30:48 2014 -0500
+
+    more name changes
+    
+    
+    Former-commit-id: 98791ef9f8635c485593231adb8a352564b242a2
+
+commit d03f98acadc33967b0f9469caa9d66e5b19620b4
+Author: coolcash <spencer@coolcashonline.net>
+Date:   Sun Aug 31 13:23:59 2014 -0500
+
+    updates
+    
+    
+    Former-commit-id: 22d165f2d4eccf575d1d01f5ecc603f71b386d7c
+
+commit 23adcca8f37f90b58b2232cb28dda89104c98b19
+Author: coolcash <spencer@coolcashonline.net>
+Date:   Sun Aug 31 12:50:48 2014 -0500
+
+    updated default data directory
+    
+    
+    Former-commit-id: 40a0e345fca9c3ce0d18f10288015069f3437804
+
+commit 3fa2fbae19c729f3da0793ee9ec41d3324dfd850
+Author: coolcash <spencer@coolcashonline.net>
+Date:   Sun Aug 31 12:49:02 2014 -0500
+
+    Updated DNS seeds nodes and misc
+    
+    
+    Former-commit-id: e253222811071df7a53d8edd6db2b39931c6cb84
+
+commit 5f584e2fde8dfbfd707f832569b9298c38934b29
+Author: coolcash <spencer@coolcashonline.net>
+Date:   Fri Aug 29 10:39:43 2014 -0500
+
+    readme updates
+    
+    
+    Former-commit-id: 22837a7f98084aba9194ac83a71a93ec09a57525
+
+commit 662093dffb899e0b6eb4686aaa2ba762259af5c1
+Author: coolcash <spencer@coolcashonline.net>
+Date:   Fri Aug 29 10:35:08 2014 -0500
+
+    Initial Push
+    
+    
+    Former-commit-id: 09bb1bf68a3bebee9b3d96844a298aa2f1a40e83
+
+commit 731770ae4a31a392b0e56e951fea818aa0ceccc0
+Author: coolcash <spencer@coolcashonline.net>
+Date:   Fri Aug 29 10:20:03 2014 -0500
+
+    :lollipop: Added .gitattributes

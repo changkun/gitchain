@@ -1,0 +1,95 @@
+commit c2301645441eb97cb198e6ae1e1d886446e4bcee
+Author: Cinnicoin <Cinnicoin@users.noreply.github.com>
+Date:   Thu Oct 15 16:48:07 2015 +0300
+
+    Update version.h
+
+commit 10707058b2ae630fe4e133464c1dc4a20c84873e
+Author: Cinnicoin <Cinnicoin@users.noreply.github.com>
+Date:   Thu Oct 15 16:45:26 2015 +0300
+
+    Update chainparams.cpp
+
+commit 5a5bd3d2895e35ae1f2689437d89d2f66cabb71e
+Author: Cinnicoin <Cinnicoin@users.noreply.github.com>
+Date:   Thu Oct 15 16:43:42 2015 +0300
+
+    show version 1.1 in qt
+
+commit a87b8eb4e55abeee9642e135bdaae833fbadb406
+Author: Cinnicoin <Cinnicoin@users.noreply.github.com>
+Date:   Thu Oct 15 16:43:16 2015 +0300
+
+    version 1.1
+
+commit c31598bdf0f430a0dc483e8f3d79260d360f0e27
+Author: Cinnicoin <Cinnicoin@users.noreply.github.com>
+Date:   Thu Oct 15 16:41:40 2015 +0300
+
+    0.5 coin pos reward
+
+commit 0bada1688b36c4d6017065117e241916f5117a40
+Author: Cinnicoin <Cinnicoin@users.noreply.github.com>
+Date:   Thu Oct 15 16:35:13 2015 +0300
+
+    Update main.h
+
+commit 92688d9f0d3b0284d2698881381603a3c33ec57b
+Author: Cinnicoin <Cinnicoin@users.noreply.github.com>
+Date:   Thu Oct 15 16:28:26 2015 +0300
+
+    Update rpcmining.cpp
+
+commit eb96f4840eed6e37803c3623a1583d7cdeb6bdd5
+Author: Cinnicoin <Cinnicoin@users.noreply.github.com>
+Date:   Thu Oct 15 16:27:17 2015 +0300
+
+    Update wallet.cpp
+
+commit 270b7513278be7d240405d6cb45c12b5095052e0
+Author: Cinnicoin <Cinnicoin@users.noreply.github.com>
+Date:   Sat Jan 24 14:35:28 2015 +0200
+
+    Show StakeCoin copyright
+
+commit c5a3f0c62bb80a74b0ca03ce9b9db9bd1baf8760
+Author: Cinnicoin <Cinnicoin@users.noreply.github.com>
+Date:   Sat Jan 24 14:30:57 2015 +0200
+
+    Clean up chainparams
+
+commit dbd5e69ec0890122e78d85fd7e29a79167beab1a
+Author: Cinnicoin <Cinnicoin@users.noreply.github.com>
+Date:   Sat Jan 24 14:27:56 2015 +0200
+
+    Allow people to clone easier
+
+commit f6ce1300358af199671d5714dde8cce2ee4ac660
+Author: zeded <Cinnicoin@users.noreply.github.com>
+Date:   Sat Jan 24 14:05:08 2015 +0200
+
+    Commit rest of logo changes
+
+commit dc6b7bd2bffaefbf2076af679917232e79fc64ba
+Author: zeded <Cinnicoin@users.noreply.github.com>
+Date:   Fri Jan 23 15:35:26 2015 +0200
+
+    New splash and header
+
+commit 5ad6f1b6e167a6a57fb05d08af611dfc54c2d619
+Author: Cinnicoin <Cinnicoin@users.noreply.github.com>
+Date:   Tue Jan 20 01:26:20 2015 +0200
+
+    Added PPCoin copyright and updated license date
+
+commit 0e7898e3385515e9a24083c85382305c66ef04ec
+Author: Cinnicoin <Cinnicoin@users.noreply.github.com>
+Date:   Tue Jan 20 01:23:04 2015 +0200
+
+    Updated license date
+
+commit 6b86b05889b06ad32677ad42e50649156a554682
+Author: zeded <Cinnicoin@users.noreply.github.com>
+Date:   Sun Jan 11 21:49:57 2015 +0200
+
+    Initial Commit

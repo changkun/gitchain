@@ -1,0 +1,263 @@
+commit e201841aab47c4637c4d0d0119364df340462aba
+Author: frank123m <frank123m@gmail.com>
+Date:   Sun Jun 7 05:09:00 2015 +0800
+
+    Update main.cpp
+    
+    start from block 1 problem fixed.
+
+commit 20b9c78dc949e51ba6655e0a0e9c604b09b27159
+Author: frank123m <frank123m@gmail.com>
+Date:   Tue Mar 17 18:05:46 2015 +0800
+
+    POS Rate Change
+
+commit 6be3b37bb19713fdf3666326dc036c44bb19faf4
+Author: frank123m <frank123m@gmail.com>
+Date:   Mon Mar 16 18:50:40 2015 +0800
+
+    Update README.md
+
+commit a1b172d43c1ecd420a8314c81d64ab300814ba6c
+Author: frank123m <frank123m@gmail.com>
+Date:   Mon Mar 16 18:47:50 2015 +0800
+
+    Version Update
+
+commit 96c5bb290ddaf448a35eb1f577e51587b668271a
+Author: frank123m <frank123m@gmail.com>
+Date:   Mon Mar 16 18:39:11 2015 +0800
+
+    Image Update
+
+commit a1345b136098a4a971adf86eeb66ae24330016bb
+Author: frank123m <frank123m@gmail.com>
+Date:   Mon Mar 16 11:10:49 2015 +0800
+
+    Update SHACoin.conf
+
+commit a7373a3c2c5002e34e9a6837217307d431457d12
+Author: frank123m <frank123m@gmail.com>
+Date:   Fri Jun 6 21:05:44 2014 +0800
+
+    Update SHACoin.conf
+
+commit 31fa22a1740b51f3ea3eea0794856b652b52a7e8
+Author: frank123m <frank123m@gmail.com>
+Date:   Fri Jun 6 21:04:53 2014 +0800
+
+    Update README.md
+
+commit dba2a5e999b1ca946cb6589f3aed7247b6876a4e
+Merge: 3aa05ca 51f944b
+Author: frank123m <frank123m@gmail.com>
+Date:   Thu Jun 5 17:46:57 2014 +0800
+
+    Merge pull request #2 from f0o/master
+    
+    Fixed minor things
+
+commit 51f944b33516a47a92fcb1db8512bb8071e34414
+Author: f0o <f0o@devilcode.org>
+Date:   Thu Jun 5 11:41:12 2014 +0200
+
+    Fixed src/net.h for better protocol migration
+    Fixed chmod for src/leveldb/build_detect_platform
+
+commit 3aa05caedef8912833f7bad9706197c781bc1eac
+Author: frank123m <frank123m@gmail.com>
+Date:   Wed Jun 4 07:47:23 2014 +0800
+
+    about image small
+
+commit 367bfaebd44e906c787b0c7b4eddafe58eee0068
+Author: frank123m <frank123m@gmail.com>
+Date:   Wed Jun 4 06:32:36 2014 +0800
+
+    about image
+
+commit 71b2774bd747279e5323edf0d5a074ba458c1d05
+Author: frank123m <frank123m@gmail.com>
+Date:   Tue Jun 3 18:41:24 2014 +0800
+
+    Update version.h
+
+commit 8cd3df56933ef1b5eca94f8d3668b4e304660613
+Author: frank123m <frank123m@gmail.com>
+Date:   Tue Jun 3 18:37:36 2014 +0800
+
+    Update net.h
+
+commit 1728de7b44ff39e58fe187bb9ad284d9ab4f8d3e
+Author: frank123m <frank123m@gmail.com>
+Date:   Tue Jun 3 11:24:03 2014 +0800
+
+    Update clientversion.h
+
+commit b7e975c86bc20840c72ded41eba0eb33142b19bf
+Author: frank123m <frank123m@gmail.com>
+Date:   Tue Jun 3 11:23:08 2014 +0800
+
+    Update setup.nsi
+
+commit 46bd021eb94d489b06eb885c76c20ef3c84b3459
+Author: frank123m <frank123m@gmail.com>
+Date:   Tue Jun 3 10:43:08 2014 +0800
+
+    Update version.h
+
+commit 708ce74fa3f91c537a40d6360682b959f6b83aaa
+Author: frank123m <frank123m@gmail.com>
+Date:   Tue Jun 3 10:38:08 2014 +0800
+
+    Update SHACoin.conf
+
+commit 242ac2eeda6e6b7109c1ecd33b0d2e4cf514982c
+Author: frank123m <frank123m@gmail.com>
+Date:   Tue Jun 3 10:34:37 2014 +0800
+
+    Update net.h
+
+commit 5fbf0b6fe24c0dedb02fca2e0d8c79bfc537f55f
+Author: frank123m <frank123m@gmail.com>
+Date:   Mon Jun 2 00:28:17 2014 +0800
+
+    Update net.h
+
+commit b4ff6e80bed5b564eab30dc8fa015fffe759b2c7
+Author: frank123m <frank123m@gmail.com>
+Date:   Sun Jun 1 23:58:36 2014 +0800
+
+    Update SHACoin-qt.pro
+
+commit cf8858a333136b1ce69dddd35bb188ad20126300
+Author: frank123m <frank123m@gmail.com>
+Date:   Sun Jun 1 23:52:15 2014 +0800
+
+    Update main.cpp
+
+commit e374204220f4325d8fbb00d8e09af542f4e25eb6
+Author: frank123m <frank123m@gmail.com>
+Date:   Sun Jun 1 23:40:17 2014 +0800
+
+    Update version.h
+
+commit 8397f710788992dfd05ebc6b2f14b4cdb8fb675d
+Author: frank123m <frank123m@gmail.com>
+Date:   Sun Jun 1 23:37:44 2014 +0800
+
+    Update net.h
+
+commit 93868a02e404378be3abf1eeb6ec0d86ef77c9ad
+Author: frank123m <frank123m@gmail.com>
+Date:   Sun Jun 1 23:00:44 2014 +0800
+
+    Update version.h
+
+commit 2360537ab375a7e6e22f9caf7c8e3fb43be4e737
+Author: frank123m <frank123m@gmail.com>
+Date:   Sun Jun 1 20:13:26 2014 +0800
+
+    Update README.md
+
+commit fe11f4e79eff9e536a9097d0f8aca529bb6c2559
+Author: frank123m <frank123m@gmail.com>
+Date:   Sun Jun 1 18:32:00 2014 +0800
+
+    Update main.cpp
+
+commit 33fbeae117ede2ea0f5153890edd0305f6b6876e
+Author: frank123m <frank123m@gmail.com>
+Date:   Sat May 31 00:22:57 2014 +0800
+
+    Update README.md
+
+commit f7471a7d3403ae79b32abd625ac979d68152cc3a
+Author: frank123m <frank123m@gmail.com>
+Date:   Sat May 31 00:15:10 2014 +0800
+
+    Update main.cpp
+
+commit 682f6d379f2cd764e25119b49fcdd3861bb1ee77
+Author: frank123m <frank123m@gmail.com>
+Date:   Fri May 30 23:48:06 2014 +0800
+
+    Update main.cpp
+
+commit 255c3134503f31e70c4f41622049dd38d7da446f
+Author: frank123m <frank123m@gmail.com>
+Date:   Fri May 30 22:22:00 2014 +0800
+
+    Update main.cpp
+
+commit 6eba4047b0a36df89e6bc7b3bd9fae386ce1c0df
+Author: frank123m <frank123m@gmail.com>
+Date:   Fri May 30 22:05:44 2014 +0800
+
+    Update main.cpp
+
+commit da3ed6083074435319c609ff4627613ec5f24eda
+Author: frank123m <frank123m@gmail.com>
+Date:   Fri May 30 21:13:38 2014 +0800
+
+    Update README.md
+
+commit 427f36c60901f1ff51a57766b4a673e015bf4266
+Author: frank123m <frank123m@gmail.com>
+Date:   Fri May 30 20:28:48 2014 +0800
+
+    Update aboutdialog.ui
+
+commit 2085d2a481b18a97f4eb93adbcb245fe5ea9d142
+Author: frank123m <frank123m@gmail.com>
+Date:   Fri May 30 19:53:26 2014 +0800
+
+    Update SHACoin-qt.pro
+
+commit 80e0c5824108a68012c48b2ea3dc4e2640c0dfc8
+Author: frank123m <frank123m@gmail.com>
+Date:   Fri May 30 05:56:26 2014 +0800
+
+    Update README.md
+
+commit 35981726f1c805ce781a1b344e5ac107c794846c
+Author: frank123m <frank123m@gmail.com>
+Date:   Fri May 30 03:00:42 2014 +0800
+
+    Update README.md
+
+commit 135f323f61b3b61b7ab3a8f2a95d33ec418294dc
+Author: frank123m <frank123m@gmail.com>
+Date:   Fri May 30 02:53:34 2014 +0800
+
+    Update README.md
+
+commit bf7ce2ee22a0ce5d9370c542079436a0201ae6df
+Author: frank123m <frank123m@gmail.com>
+Date:   Fri May 30 02:53:03 2014 +0800
+
+    Update README.md
+
+commit b19824f6f99f4fc820c0831161dbec190d0bca12
+Author: frank123m <frank123m@gmail.com>
+Date:   Fri May 30 02:52:24 2014 +0800
+
+    Update README.md
+
+commit 9772433a43b8b2db3493fe995ccb5d37088a8f24
+Author: frank123m <frank123m@gmail.com>
+Date:   Fri May 30 02:51:51 2014 +0800
+
+    Update README.md
+
+commit 8dbe80315553e1752e5a6f27a839ee86ab8f258c
+Author: frank123m <frank123m@gmail.com>
+Date:   Fri May 30 02:50:31 2014 +0800
+
+    Update README.md
+
+commit 2f2ebfbaae63cb3563abe9e28dc7100cf7672a24
+Author: frank123m <frank123m@gmail.com>
+Date:   Fri May 30 02:00:55 2014 +0800
+
+    first commit

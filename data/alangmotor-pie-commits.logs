@@ -1,0 +1,91 @@
+commit 0fe84ba682d355cb5bf0f847e14c65b8cc72951f
+Author: flintsoft <bjoern.flintrop@gmx.de>
+Date:   Wed Sep 6 17:44:10 2017 +0200
+
+    changed version number from 1.0.0.2 to 1.0.0.3 to reflect the current wallet version
+
+commit f5575a009c28913e0f8c7026db066a8bdb5625f6
+Author: flintsoft <bjoern.flintrop@gmx.de>
+Date:   Wed Sep 6 17:42:59 2017 +0200
+
+    changed max default connections from 125 to 500
+
+commit 3b8352cdb70e5037c4d97ec2a0bc0420da11f15c
+Author: alangmotor <aciksaiko87@gmail.com>
+Date:   Wed Aug 16 20:21:49 2017 +0545
+
+    Update README.md
+
+commit 004c9cee6e2b8dbc283c89e12b8543bc0d1c047e
+Author: Björn Flintrop <frieda@MacBook-Pro.local>
+Date:   Fri Jul 21 16:53:05 2017 +0200
+
+    disabled two lines which caused incompability
+
+commit 81dcfe9097c0e4f04aa5cd404bb8319c78fa44e1
+Author: alangmotor <aciksaiko87@gmail.com>
+Date:   Tue Jul 18 15:50:02 2017 +0800
+
+    Hard-capping added
+    
+    Fixed Bugs and Issues
+
+commit fdc03cbeec7675355177e704b8ee34cf9256e66e
+Author: Björn Flintrop <frieda@MacBook-Pro.fritz.box>
+Date:   Sat Apr 8 19:35:13 2017 +0200
+
+    added 6 reliable root nodes
+
+commit 17f3d704dd5e602c4ddca0973f06e028c041e7a5
+Author: PieCoinTech <piecoin@mail.com>
+Date:   Wed Feb 8 14:23:36 2017 -0500
+
+    Add files via upload
+
+commit 3bd71c3180962eb028780a73847b898090393682
+Author: PieCoinTech <piecoin@mail.com>
+Date:   Wed Feb 8 14:21:37 2017 -0500
+
+    Delete PieCoin.ico
+
+commit 947ff0904228414267312df68ff986eca16acc49
+Merge: fd63046 7978872
+Author: PieCoinTech <piecoin@mail.com>
+Date:   Thu Dec 29 21:34:43 2016 -0500
+
+    Merge pull request #3 from I-n-d-e-r/master
+    
+    Fix Issue #1 – make fails with boost 1.58
+
+commit 7978872eb6dfa6c05b9c552ba8aa58bbe1e6c867
+Author: Inder <dominik.opyd@gmail.com>
+Date:   Tue Dec 20 14:55:51 2016 +0100
+
+    Fix Issue #1 – make fails with boost 1.58
+
+commit fd63046c5e359c6974bf670fd7102fc5aeda6e10
+Merge: 7c3b601 755fc28
+Author: PieCoinTech <piecoin@mail.com>
+Date:   Mon Dec 19 18:51:16 2016 -0500
+
+    Merge pull request #2 from I-n-d-e-r/master
+    
+    Linux Build - Fix && Linux Wallet
+
+commit 755fc28d5787bb0bbe406ffea199335cf10f6674
+Author: Inder <dominik.opyd@gmail.com>
+Date:   Sat Dec 17 20:45:44 2016 +0100
+
+    Miniupnpc – support api version 14
+
+commit f9e9a443f39fd86b616b695b7a7ae98d7288d5bb
+Author: Inder <dominik.opyd@gmail.com>
+Date:   Sat Dec 17 20:30:32 2016 +0100
+
+    C++11 – fix build
+
+commit 7c3b60144dafe041e78726040421fb380f9537f2
+Author: PieCoinTech <piecoin@mail.com>
+Date:   Mon Oct 31 12:33:38 2016 -0400
+
+    First Commit

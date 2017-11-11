@@ -1,0 +1,116 @@
+commit 8dc3450122c48c01fa9742d09d79cdbe06d3745a
+Author: PosEx <PosEx>
+Date:   Fri Jun 10 20:14:18 2016 +0100
+
+    Client Update V2.5
+    
+    PosEx client update to V2.5
+
+commit 2703c24f68f0a612ca8c958539d84020c837f72a
+Author: PosEx <PosEx>
+Date:   Fri Jun 10 14:04:08 2016 +0100
+
+    Checkpoint Added
+    
+    Checkpoint Added for easier syncing
+
+commit 962a7f11121db07de002694f988750032b6d4ff4
+Author: PosEx <PosEx>
+Date:   Mon May 30 21:21:42 2016 +0100
+
+    info into main.h
+    
+    Added info into main.h for better understanding
+
+commit 0dd3d233ace3b13c39dd78bb9242677c1844312c
+Author: PosEx <PosEx>
+Date:   Sun May 29 23:14:25 2016 +0100
+
+    PosEx Update V2.3.1.0 Beast
+    
+    Update to PosEx wallet V2.3
+
+commit 122ff50154d21223a454763e0b1cfbb3d40a4094
+Author: PosEx <PosEx>
+Date:   Thu Mar 31 19:15:40 2016 +0100
+
+    PosEx Update V2.1.1.0 Beast
+    
+    PosEx Update V2.1.1.0 Beast
+
+commit 52d67045152042a0092ea44a8aa24d8012f1058d
+Author: PosEx <PosEx>
+Date:   Tue Mar 29 15:50:52 2016 +0100
+
+    Adding Secp256k1
+    
+    Will begin adding in Secp256k1 into Posex source code to better improve
+    security
+
+commit 5fe5b0294384d86407c8b549377e8723b5947fd9
+Author: PosEx <PosEx>
+Date:   Sun Mar 27 20:02:24 2016 +0100
+
+    Checkpoint added
+    
+    another checkpoint added
+
+commit be02a71271c3ab9b5a989a9df5bffff32bc7233d
+Author: PosEx <PosEx>
+Date:   Sun Mar 27 19:02:24 2016 +0100
+
+    Checkpoints Added
+    
+    More checkpoints added
+
+commit 48a28241db8c2826d6b2ccfd31d666dd40acc950
+Author: PosEx <PosEx>
+Date:   Sun Mar 27 14:18:43 2016 +0100
+
+    More Checkpoints added
+    
+    More checkpoints added for better syncing
+
+commit 543b27fbb4bd5e99e335ef397dd553af946edefd
+Author: PosEx <PosEx>
+Date:   Sun Mar 27 13:43:14 2016 +0100
+
+    Nodes Added
+    
+    Nodes Added for easier syncing and a healthier network
+
+commit dd1ea321c126f3b08c845cad48523b4379eb2daf
+Author: PosEx <PosEx>
+Date:   Sun Mar 27 13:31:14 2016 +0100
+
+    checkpoint added
+    
+    checkpoint added to help better sync
+
+commit 5857a376809714a1ee8dd2945b6808e28b58ce9f
+Author: PosEx <PosEx>
+Date:   Sat Mar 26 20:05:03 2016 +0000
+
+    Updates
+    
+    New pos rewards, lower coin age day & new version
+
+commit 82e41dfa987fd3eea69fbc7cee70dd1e4f70f2c4
+Author: PosEx <PosEx>
+Date:   Thu Mar 24 15:24:16 2016 +0000
+
+    Code Fix
+    
+    Code has been fixed by Bitcointalk user Nightz
+
+commit 822ade577b501960ce470c2e85235132b5f51ece
+Author: PosEx <makaveli12@live.com>
+Date:   Thu Feb 18 22:09:39 2016 +0000
+
+    Update V1.3
+
+commit dcb83325dd149da48c56765251c267f17f52f98a
+Author: PosEx <PosEx>
+Date:   Fri Feb 12 19:33:22 2016 +0000
+
+    First Commit of code

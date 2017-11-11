@@ -1,0 +1,3759 @@
+commit 93fca8a4240ce89b0394a71a334a751678c0d2a9
+Author: Jamison Phillips <jamisoncphillips@gmail.com>
+Date:   Wed Aug 30 14:11:34 2017 -0400
+
+    fixed merge error
+
+commit 2989da198c392945321f5f8dd59abc1980d03053
+Merge: 742b7b9 9f8a67d
+Author: Jamison Phillips <jamisoncphillips@gmail.com>
+Date:   Wed Aug 30 13:44:04 2017 -0400
+
+    fixed merge conflicts
+
+commit 9f8a67de9a9409ac549bed2dfe8c83818646118c
+Author: Jamison Phillips <jamisoncphillips@gmail.com>
+Date:   Fri Aug 25 12:06:44 2017 -0400
+
+    applied build fixes for newer gcc from cryptonote vkobel:fix-arch-compile-errors
+
+commit 742b7b942d646ca39396d606c8f19eb132f3593d
+Merge: 9bc5692 5e68fe6
+Author: Jamison Phillips <jamisoncphillips@gmail.com>
+Date:   Mon Aug 21 15:51:52 2017 -0400
+
+    fixed merge conflicts
+
+commit 5e68fe66c0bfa15e57d58615cd99195c77eb1ed2
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Thu Jul 20 16:05:13 2017 -0400
+
+    Updated checkpoint 100 blocks past multiplier window
+
+commit 933ffb4fa2fa86e854b737da1fd6b2317f293ccf
+Merge: be578ec a95be68
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Mon Jul 17 16:14:58 2017 -0400
+
+    Merge pull request #2 from Vetro7/add-license-2
+    
+    MIT LICENSE
+
+commit a95be680224de75ecaf529c2a53661516ace90a7
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Mon Jul 17 16:14:33 2017 -0400
+
+    MIT LICENSE
+
+commit be578ec67815829d5d2360e3f4d885d01dc0a884
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Mon Jul 17 16:13:10 2017 -0400
+
+    Replace with MIT LICENSE
+
+commit 1f108ca2c0193ecdabd53acb0b52e2f01ba1bd7e
+Author: Jamison Phillips <jamisoncphillips@gmail.com>
+Date:   Mon Jul 17 10:10:16 2017 -0400
+
+    added build-static option to MakeFile
+
+commit 71f572d86ae747779ecc40853502551261cfcf92
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Jul 14 22:46:12 2017 -0400
+
+    Updated Royalties specific build instructions
+
+commit 4d047a3868c42abc1dd3e035b531428f7e9c112b
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Wed Jul 12 19:00:11 2017 -0400
+
+    Initial commit
+
+commit 7bcc99d65d340112a9ce580215b82cf764b91058
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Wed Jul 12 18:58:30 2017 -0400
+
+    Initial commit
+
+commit 9bc569258db489f5e27d5ca73714bfdf112ad2db
+Author: Jamison Phillips <jamisoncphillips@gmail.com>
+Date:   Tue Jul 11 22:34:16 2017 -0400
+
+    chg wallet spendable age to 10 and new parameter
+
+commit c7b5bbb9fd1a1543040fc2a8096c41cba5446367
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Tue Jul 11 04:10:49 2017 -0400
+
+    Initial commit
+
+commit 72946d93d209ad1dd3b642c395653f166d8060e7
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Tue Jul 11 04:05:52 2017 -0400
+
+    Delete CTestTestfile.cmake
+
+commit 29f3b0087aa3da8ed67c205259f8fff831914829
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Tue Jul 11 04:05:41 2017 -0400
+
+    Delete Makefile
+
+commit e78fa7911357ce837c7b8f70839d4980aa92c2d7
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Tue Jul 11 04:02:37 2017 -0400
+
+    Delete Makefile
+
+commit b7e3c233a06dc18c6ed20743c61be12ffdc11e89
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Tue Jul 11 03:59:22 2017 -0400
+
+    Delete performance_tests
+
+commit 383d332dbfd301126e2ce4b2b62e6bea2e7f3a64
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Tue Jul 11 03:59:16 2017 -0400
+
+    Delete integration_tests
+
+commit 7aa2f47fbfd1ab4d57fe530c5433301e86e213a5
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Tue Jul 11 03:59:08 2017 -0400
+
+    Delete hash_tests
+
+commit f4edb800a563c818b652f71c2d8f22db08b10985
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Tue Jul 11 03:58:59 2017 -0400
+
+    Delete difficulty_tests
+
+commit 28109d30af2ae4c5d8ac37d58f7d2b6bbc5acbd4
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Tue Jul 11 03:58:51 2017 -0400
+
+    Delete crypto_tests
+
+commit a89caf8cea077ca30ff7956b6cc3f0e181b3a7ea
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Tue Jul 11 03:58:35 2017 -0400
+
+    Delete Makefile
+
+commit b69d35cba7343dc299197624d9eae7581dcfa5cb
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Tue Jul 11 03:58:19 2017 -0400
+
+    Delete CTestTestfile.cmake
+
+commit 963b6c9f3129930d1d30725fd71e28a65d3adf67
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Tue Jul 11 03:54:47 2017 -0400
+
+    Delete CTestTestfile.cmake
+
+commit 3be7c9da633557c66496c2de9e252cd43354b2a1
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Tue Jul 11 03:53:16 2017 -0400
+
+    Delete CTestTestfile.cmake
+
+commit e487f7c38183421c52620623c89f2f685d895cb8
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Tue Jul 11 03:50:12 2017 -0400
+
+    Delete CTestTestfile.cmake
+
+commit 5009321348de42365f564495605cd8e769551c60
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Tue Jul 11 03:49:52 2017 -0400
+
+    Delete Makefile
+
+commit cd54258a3093f8048ca72d94ab94b0b4d665dbba
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Tue Jul 11 03:49:08 2017 -0400
+
+    Delete CTestTestfile.cmake
+
+commit 6d35012bf3db67614855f4223dab4dadd8cf03e7
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Tue Jul 11 03:48:54 2017 -0400
+
+    Delete Makefile
+
+commit 22fe0c2e82e9fbfa5424a432c9efb425c43da169
+Author: Jamison Phillips <jamisoncphillips@gmail.com>
+Date:   Tue Jul 11 03:47:08 2017 -0400
+
+    fixed capitalization preventing mac build
+
+commit 628b53fb615cbd8cf14c33389f2bc54dfb2fb281
+Author: Jamison Phillips <jamisoncphillips@gmail.com>
+Date:   Tue Jul 11 03:43:13 2017 -0400
+
+    clean up build junk
+
+commit 94058a05792e7e3e0027e92c10c0ecdbee67aec7
+Author: Jamison Phillips <jamisoncphillips@gmail.com>
+Date:   Tue Jul 11 03:32:08 2017 -0400
+
+    removed build junk, fixed ignore list
+
+commit 5f4a8c8e125a378885b48e3370465d799f441f18
+Author: Jamison Phillips <jamisoncphillips@gmail.com>
+Date:   Tue Jul 11 03:20:05 2017 -0400
+
+    removed nbproject folder
+
+commit de717fd21cf014727aabc028c8705403f4ca0552
+Author: Jamison Phillips <jamisoncphillips@gmail.com>
+Date:   Tue Jul 11 03:11:48 2017 -0400
+
+    removed calculateInterest caller param
+
+commit 274e7781a22b6350ad4995859a5a53be5c9bed3b
+Author: Jamison Phillips <jamisoncphillips@gmail.com>
+Date:   Tue Jul 11 03:09:11 2017 -0400
+
+    removed extra comment
+
+commit 85ea4239234f3f9474567e6e9c510d485c036d1d
+Author: Jamison Phillips <jamisoncphillips@gmail.com>
+Date:   Tue Jul 11 03:02:56 2017 -0400
+
+    removed CMakeFiles from tests
+
+commit d2270841470eef13f55945d75822677321314824
+Merge: 307ef8a 292ac62
+Author: Jamison Phillips <jamisoncphillips@gmail.com>
+Date:   Tue Jul 11 02:51:27 2017 -0400
+
+    Merge branch 'master' of https://github.com/Vetro7/Royalties into HEAD
+
+commit 307ef8a7a9e4511058286a7bdad5375bbf0fbede
+Author: Jamison Phillips <jamisoncphillips@gmail.com>
+Date:   Tue Jul 11 02:49:45 2017 -0400
+
+    removed extraneous comments
+
+commit c4bd812621639f829751cb319748b759ed1474a0
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Tue Jul 11 02:40:41 2017 -0400
+
+    Initial commit
+
+commit 292ac621196f4c6c657941e4df36ea94c600838e
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Tue Jul 11 02:32:05 2017 -0400
+
+    Update CryptoNoteConfig.h
+
+commit 59977acea3df0817ab0fed3dfddf3138d6de1167
+Author: Jamison Phillips <jamisoncphillips@gmail.com>
+Date:   Tue Jul 11 00:20:25 2017 -0400
+
+    cleaned up, altered config for testing
+
+commit 99c0c43543babed94bd40189a29a40387f22982b
+Author: Jamison Phillips <jamisoncphillips@gmail.com>
+Date:   Tue Jul 11 00:14:00 2017 -0400
+
+    debugged all unit tests
+
+commit 34722f3e5a2261877d96191e8bb2305f8d2f41df
+Author: Jamison Phillips <jamisoncphillips@gmail.com>
+Date:   Mon Jul 10 19:59:22 2017 -0400
+
+    missed TestGenerator update
+
+commit 257eb8aea8521c6262001a09e6bfb09d71418734
+Author: Jamison Phillips <jamisoncphillips@gmail.com>
+Date:   Mon Jul 10 19:58:37 2017 -0400
+
+    debugged most unit tests, fixed fee calc off when amount_in - amount_out approx'ly min_fee
+
+commit 28d5d34a0d4b308bae385987afb8dc2329b0bc10
+Author: Jamison Phillips <jamisoncphillips@gmail.com>
+Date:   Thu Jul 6 13:58:04 2017 -0400
+
+    modified tests to work with interest window
+
+commit 0d3b544d5aff603812939c6fc765eb793d26850b
+Author: Jamison Phillips <jamisoncphillips@gmail.com>
+Date:   Thu Jul 6 10:35:48 2017 -0400
+
+    fixed bug in getTransactionFee(const Transaction&,uint32_t)
+
+commit b70b18b574e44e83b5ec7588f38d5020d09dabf3
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Mon Jul 3 13:52:12 2017 -0400
+
+    Update CryptoNoteConfig.h
+
+commit 9ad566ee87dd137fb51382e851eb33651d077218
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Mon Jul 3 13:22:41 2017 -0400
+
+    removed "..."
+
+commit 3e5f7b919781185d7a435c4d6f4b1a2c446e59f8
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Mon Jul 3 13:22:00 2017 -0400
+
+    Update CryptoNoteConfig.h
+
+commit eeb046459edcc670da537dd110fc3f7efdd3d528
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Jul 1 19:04:06 2017 -0400
+
+    release numbers
+
+commit dd617bb14b5d80a7091a87965fa8c6f1ccac7dc8
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Jul 1 14:38:21 2017 -0400
+
+    Seed update
+
+commit 15c2fdbb7eff4b0e361b0f865ecbe80ae15d3f92
+Merge: 3dda239 0d0c54f
+Author: Jamison Phillips <jamisoncphillips@gmail.com>
+Date:   Sat Jul 1 13:58:40 2017 -0400
+
+    Merge branch 'master' of https://github.com/Vetro7/Royalties
+
+commit 3dda23984b5acb298a655d01e4cd9e851552e19c
+Author: Jamison Phillips <jamisoncphillips@gmail.com>
+Date:   Sat Jul 1 13:58:13 2017 -0400
+
+    added extra logging if DEBUG
+
+commit 0d0c54f413faaab61f4aae7e597fe29f69a4eecb
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Jun 30 17:18:12 2017 -0400
+
+    new
+
+commit 21eced03917d2c738da4aca621157a8a3647520f
+Author: Jamison Phillips <jamisoncphillips@gmail.com>
+Date:   Fri Jun 30 11:23:48 2017 -0400
+
+    cast version number in debug logging
+
+commit 1fd56ea9e40d0f3cf726ab9e210b429621b9bddd
+Author: Jamison Phillips <jamisoncphillips@gmail.com>
+Date:   Thu Jun 29 23:56:12 2017 -0400
+
+    added debug info for handshake
+
+commit 2849539e8c8f050312dd46ec238ece1b7d799656
+Author: Jamison Phillips <jamisoncphillips@gmail.com>
+Date:   Thu Jun 29 23:29:42 2017 -0400
+
+    fixed block height not set in when checking interest
+
+commit 34cbfde0fd1f2eff0b034ab3151f6aad651a3cf8
+Author: Jamison Phillips <jamisoncphillips@gmail.com>
+Date:   Tue Jun 27 17:35:12 2017 -0400
+
+    probably fixed blockheight bug in rebuildCache
+
+commit 78dc1451dce944879d45a0fdefd7662158731670
+Author: Jamison Phillips <jamisoncphillips@gmail.com>
+Date:   Tue Jun 27 13:18:35 2017 -0400
+
+    fixed interest height mode when adding trans with misassumed height
+
+commit d75de7883d802aeb711acbb06ef3103d381a534b
+Merge: 5b20da6 79f1c7e
+Author: Jamison Phillips <jamisoncphillips@gmail.com>
+Date:   Tue Jun 27 05:19:07 2017 -0400
+
+    Merge branch 'master' of https://github.com/Vetro7/Royalties
+
+commit 5b20da6153456c99b89aa6eb70832eb0e3104c7c
+Author: Jamison Phillips <jamisoncphillips@gmail.com>
+Date:   Tue Jun 27 05:18:43 2017 -0400
+
+    made trans fee same in onTransactionUpdated
+
+commit 840a66b02e0ed8c29283c096d5d44adc8431075e
+Author: Jamison Phillips <jamisoncphillips@gmail.com>
+Date:   Tue Jun 27 05:12:23 2017 -0400
+
+    fixed negative fee in pushBlock
+
+commit 79f1c7ef9b29e211c92b9c3500072578d98f2353
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Tue Jun 27 05:00:08 2017 -0400
+
+    Delete Currency.h.autosave
+
+commit 6a60fcb3ef591bd96d5084a79d286fbf45113d99
+Author: Jamison Phillips <jamisoncphillips@gmail.com>
+Date:   Tue Jun 27 02:50:35 2017 -0400
+
+    fixed typo in WalletGreen.cpp
+
+commit 7d07137549c981c2dbc5cfeddb4d0cd8f62b596a
+Author: Jamison Phillips <jamisoncphillips@gmail.com>
+Date:   Tue Jun 27 02:23:59 2017 -0400
+
+    fixed typo in validateSaveAndSendTransaction
+
+commit c36fc44e3430ee8a6f0da9bac0bfdbd8819e5623
+Merge: 28e3509 8d187b3
+Author: Jamison Phillips <jamisoncphillips@gmail.com>
+Date:   Tue Jun 27 02:01:59 2017 -0400
+
+    merge
+
+commit 28e3509549cfc7a3c55b70b7ffb3b6f96060f7af
+Author: Jamison Phillips <jamisoncphillips@gmail.com>
+Date:   Tue Jun 27 01:59:52 2017 -0400
+
+    updated fees to be min when inputs < outputs
+
+commit 8d187b3160166c481cd8d3a053792ec35ab296a0
+Merge: c110d20 f8b7d3f
+Author: Jamison Phillips <jamisoncphillips@gmail.com>
+Date:   Fri Jun 23 15:15:08 2017 -0400
+
+    Merge branch 'master' of https://github.com/Vetro7/Royalties
+
+commit c110d20341b2db3ea1d5a442d54f0763fc222b10
+Author: Jamison Phillips <jamisoncphillips@gmail.com>
+Date:   Fri Jun 23 15:14:15 2017 -0400
+
+    fixed calcInterest default parameter
+
+commit f8b7d3fc80b022b838d16283f17c4a995877e81e
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Jun 23 14:59:36 2017 -0400
+
+    test
+
+commit 0d2408c4129734982d787f7897eb4de5aa8ee925
+Author: Jamison Phillips <jamisoncphillips@gmail.com>
+Date:   Fri Jun 23 14:04:53 2017 -0400
+
+    transaction fee is MIN_FEE if have deposits spent; fixes kludge from prev commit
+
+commit d9754d7c85739a6757fd36a0030fe5f94c9d2851
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Jun 23 09:57:57 2017 -0400
+
+    max to original and window lowered for testing
+
+commit 09122ad8a10439056657ba06f9aaa2a4a3789823
+Author: Jamison Phillips <jamisoncphillips@gmail.com>
+Date:   Wed Jun 21 16:13:42 2017 -0400
+
+    corrected height in multiSig send
+
+commit 8d667cd78eaa310b67c692714662bc95910cd980
+Author: Jamison Phillips <jamisoncphillips@gmail.com>
+Date:   Mon Jun 19 14:55:40 2017 -0400
+
+    merged config
+
+commit 629f856729d5a123e09b01d848db2463222b88fd
+Merge: 78b1d37 3e4aa4b
+Author: Jamison Phillips <jamisoncphillips@gmail.com>
+Date:   Mon Jun 19 14:53:34 2017 -0400
+
+    Merge branch 'master' of https://github.com/Vetro7/Royalties
+
+commit 78b1d372d77131a7d29407af8695346ba524b6a7
+Author: Jamison Phillips <jamisoncphillips@gmail.com>
+Date:   Sat Jun 17 20:15:46 2017 -0400
+
+    corrected onTransactionUpdate for new calculateInterest fx
+
+commit 3e4aa4b97332f979a8d6f84d3a1e8b2780d46264
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Jun 17 19:40:05 2017 -0400
+
+    testing
+
+commit 005f2ec60ba800415337e033c0851caf17062090
+Merge: b9eaad0 8d229e0
+Author: Jamison Phillips <jamisoncphillips@gmail.com>
+Date:   Sat Jun 17 19:12:08 2017 -0400
+
+    fixed merge conflict in TransactionPool.cpp
+
+commit b9eaad0ba02fe317bf5b4786e45fde52a4f4a66b
+Author: Jamison Phillips <jamisoncphillips@gmail.com>
+Date:   Sat Jun 17 19:04:57 2017 -0400
+
+    added change interest at block height, altered core
+
+commit 8d229e0c67e263263170f23463348b05fa3d25e3
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Fri Jun 16 01:02:01 2017 -0700
+
+    Messages/Deposits 2.0
+
+commit 9cde1b16bd329788dc10d6854570dc67540c24de
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Mon Jun 12 16:40:48 2017 -0400
+
+    testing
+
+commit 1784266ad87d9ac5ffe2429a4ba5962a94cb2ca8
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Mon Jun 12 16:32:10 2017 -0400
+
+    Create CryptoNoteConfig.h
+
+commit 45e7719ba1417b2f25958c337570cd18221db706
+Merge: fdace77 d7f4704
+Author: Jamison Phillips <jamisoncphillips@gmail.com>
+Date:   Mon Jun 12 15:21:08 2017 -0400
+
+    merged hex update
+
+commit fdace7751da3cb034d543f445b87d6171aaf1b39
+Author: Jamison Phillips <jamisoncphillips@gmail.com>
+Date:   Mon Jun 12 15:17:54 2017 -0400
+
+    added GENESIS_TIMESTAMP setting, changed hex
+
+commit d7f47045c68cd4aabb26d11d9052977bdc19b44b
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Tue Jun 6 11:41:22 2017 -0400
+
+    Update CryptoNoteConfig.h
+
+commit ae8253cd622162eb7429d19bb154cdd86fc2757c
+Author: Jamison Phillips <jamisoncphillips@gmail.com>
+Date:   Mon Jun 5 15:39:30 2017 -0400
+
+    corrected variable name in baseRewardFunction
+
+commit 78dd467487032ce9582b989f31b51efed5353b75
+Author: Jamison Phillips <jamisoncphillips@gmail.com>
+Date:   Mon Jun 5 15:35:48 2017 -0400
+
+    added ICO_REWARD to baseReward function
+
+commit 225c2aa81dd42d871efe269cebcd5d09705684cf
+Merge: cffa867 7ee0d1c
+Author: Jamison Phillips <jamisoncphillips@gmail.com>
+Date:   Mon Jun 5 13:39:13 2017 -0400
+
+    fixed merge conflict with PREMINE rename
+
+commit cffa86758fc8acb1e10df131302829504f8cc8f9
+Author: Jamison Phillips <jamisoncphillips@gmail.com>
+Date:   Mon Jun 5 13:37:13 2017 -0400
+
+    renamed PREMINE_BLOCK_REWARD to ICO_REWARD
+
+commit 7ee0d1ce644babe8146b3096baca81cadf751c6b
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Mon Jun 5 13:33:05 2017 -0400
+
+    Update CryptoNoteConfig.h
+
+commit b61d12358249d39d7851e04b715f6ca946937e29
+Author: Jamison Phillips <jamisoncphillips@gmail.com>
+Date:   Mon Jun 5 13:28:28 2017 -0400
+
+    changed block reward (increases by 10x each year for 10 years) and interest (flat 1.25% per month)
+
+commit 901b56683e93d6610421584e228c6cb2dd65bbd6
+Author: Jamison Phillips <jamisoncphillips@gmail.com>
+Date:   Mon Jun 5 12:13:57 2017 -0400
+
+    Fixed flaws in the build process
+
+commit e8549ad2c56415ae6c1add704026eed0f335d219
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Sun Jun 4 19:02:52 2017 -0700
+
+    Return block difficulty via RPC block list
+
+commit 4bcb00cdbf54c214e084ea6c625d33aa5c8017e2
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sun Jun 4 21:21:59 2017 -0400
+
+    Update version.h.in
+
+commit 4496eb3eada4015bd885ea816dfc810182de1d5e
+Merge: 67b752e 5098b53
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Thu Jun 1 13:11:55 2017 -0700
+
+    Merge branch 'master' of https://github.com/Vetro7/Royalties
+
+commit 67b752eb46d032d7b3015b345bba2400243618b4
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Thu Jun 1 13:11:11 2017 -0700
+
+    Fixes for Scalarmultikey
+
+commit 5098b53e3e64c2b4eb112634e3e103e1ffb8b7a3
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Tue May 30 09:47:55 2017 -0400
+
+    Update CryptoNoteConfig.h
+
+commit aa57bf529a9e56bd29e29f18b98b3768465514a8
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Tue May 16 01:05:47 2017 -0700
+
+    Backport TX mempool RPC handler from Bytecoin 2.x
+
+commit 2e7a8b85af7432b3bae6cc343097d73c747c59e7
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Tue May 16 01:50:27 2017 -0400
+
+    XDN file delete
+
+commit caa99ea09c6a4f697b4108adb47d462d0cda77c9
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Tue May 16 01:46:17 2017 -0400
+
+    iostream added
+
+commit cbed96cec9fa682507064181c71441968509c41e
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Mon May 15 02:13:59 2017 -0400
+
+    Set the parameters for testing
+    
+    - Coinbase tx hex set to sync with test seeds node
+    - Min reward even with start reward until the new function is written, so coinbase Tx passes (this will go back to 10000 once its the Max)
+    - New diff window based of many test simulations
+
+commit 11bfd8c5a727d9666b104c4f774660816b731d9b
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Thu May 11 05:36:15 2017 -0400
+
+    Premine as height 1 reward
+
+commit 9a29fedcbd9e385da938b1cb69b1356c2adfe17b
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Thu May 11 04:19:51 2017 -0400
+
+    permine out
+
+commit 676829d3508a4b188916063085796dd311a24033
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Thu May 11 04:00:17 2017 -0400
+
+    permine out
+
+commit b748c78b1afd3429a27f3730655f898a03993b89
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Thu May 11 03:44:38 2017 -0400
+
+    Update ReleaseNotes.txt
+
+commit fb2796c9dacf18251fa600e1dc99454ea64e150a
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Thu May 11 03:31:55 2017 -0400
+
+    permine out
+
+commit d65c6d0d93e74c1785c7b56d8f2a419cad93acaf
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Thu May 11 03:29:12 2017 -0400
+
+    permine out
+
+commit 68061dd2ca7626499bde1650d685a9a6922e28a0
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Thu May 11 03:27:34 2017 -0400
+
+    permine out
+
+commit 03ef59e647fa93a88428c555eab5fff3e1832bb7
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Thu May 11 03:24:01 2017 -0400
+
+    permine out
+
+commit 5834fd3bc0ea0af988ac5f9490bcbca452c43abc
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Thu May 11 03:20:53 2017 -0400
+
+    permine out
+
+commit 9f4d169aaa34f144fae0d66c370a978af1ae8bd0
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Thu May 11 02:17:31 2017 -0400
+
+    premine
+
+commit fa763062fee499b0667be3b0ba8ecbe0d70ca30b
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Thu May 11 02:13:31 2017 -0400
+
+    premine
+
+commit 5aec2d1f9ba43a93fb7904cdf588efb64aa15f25
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Thu May 11 02:06:15 2017 -0400
+
+    permine
+
+commit cd5cb15f3792d7ccc657330003d8486fd8e49cf5
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Wed May 10 21:17:28 2017 -0400
+
+    permine
+
+commit ce27f875b4db7da0ab603873f6dd1e2d525a2c68
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Wed May 10 21:15:37 2017 -0400
+
+    permine
+
+commit 91638e45fe061ddfa3984ba851d33af59c7722c9
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Wed May 10 21:09:02 2017 -0400
+
+    premine
+
+commit 58e1d6f3dfaf2825a6fc37c5d57a3824ff60b166
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Wed May 10 21:04:32 2017 -0400
+
+    premine
+
+commit 7bee63f9304a1b9f048a7cfacf44b65930c6b026
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Wed May 10 21:00:08 2017 -0400
+
+    Ready for mainnet
+
+commit 304d3908aea38951a6cf18f6bbe0ea60eaeb57d6
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Tue May 9 04:07:23 2017 -0400
+
+    fix for test
+
+commit 10eae69af5e14a2e951b55cdd55cdf635ef36e79
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Tue May 9 04:03:08 2017 -0400
+
+    fix for test
+
+commit 32779983ba97822cf857301f3efcdcd3d712d663
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Tue May 9 02:13:42 2017 -0400
+
+    fix dir
+
+commit 12440a6a0aa1ae59a9770b92ae6d5d08ee7b24cd
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Tue May 9 01:57:03 2017 -0400
+
+    fix permine and ports
+
+commit 627441ee04a0314bdbad64b53964f7d8cd1c774e
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Tue May 9 01:44:51 2017 -0400
+
+    fix premine
+
+commit cde6df81de7eb0bd81f81add44ede86417e168b5
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Tue May 9 01:42:12 2017 -0400
+
+    fix premine
+
+commit 876006c3e87f3b057bd8eecab287b010b435a8d1
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Tue May 9 01:34:14 2017 -0400
+
+    premine fix
+
+commit 3d488880ec4a18a0c7f468042e6936c54ba8cac7
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Tue May 9 01:29:39 2017 -0400
+
+    Update Currency.h
+
+commit 425a1502c4bd96b79d9af15d77d89b98a8546e55
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Tue May 9 01:22:36 2017 -0400
+
+    Update Currency.h
+
+commit af86c7da6aba4c0f0a63ec5d5304d2cdd0cde644
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Tue May 9 01:17:32 2017 -0400
+
+    Update Currency.h
+
+commit 874d15aed9142b5453f2d55e364635197a92ab68
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Wed May 3 15:26:15 2017 -0400
+
+    Update CryptoNoteConfig.h
+
+commit e1e250f5ab6e312825c802bc4b8b48c68f45e6c5
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Wed May 3 13:46:09 2017 -0400
+
+    lowered premine
+
+commit e74c95b5cd493e690d0d949949ac3df9bf1ebf6d
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sun Apr 23 13:12:02 2017 -0400
+
+    fee and dust dropped to help with mining payouts
+
+commit 5392d519ab3fea373b58f907bfe894a76b8511bd
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 17:36:38 2017 -0400
+
+    Update P2pNetworks.h
+
+commit 211b8d543470d9ed3ec9fd85d30e3b249288c93a
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 17:35:02 2017 -0400
+
+    Update CMakeLists.txt
+
+commit f747f69125745779c26d2f231d7dcf85d5fc5232
+Merge: 6e515b8 af289cd
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:40:43 2017 -0400
+
+    Merge pull request #1 from Vetro7/test
+    
+    Copyright update
+
+commit af289cdf3cf5ca61d11e6a9bd39fa4e76cbb7d5d
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:36:23 2017 -0400
+
+    Update Daemon.cpp
+
+commit 278858d52edf65c433a7565564bc449fa2656652
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:33:02 2017 -0400
+
+    Update CMakeLists.txt
+
+commit e2dd8f373a3e661c892ba73ad29549eb1258d01d
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:26:41 2017 -0400
+
+    Update CryptoNoteConfig.h
+
+commit e320043087d8918b87e8366f5878e6bd974f8b27
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:26:18 2017 -0400
+
+    Update tree-hash.c
+
+commit 2b38bcf9b253d9369ab45c23520ccbf61951415c
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:26:06 2017 -0400
+
+    Update slow-hash.inl
+
+commit 75833c1bf758d68ffae9e921c6d12a30cb886734
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:25:54 2017 -0400
+
+    Update slow-hash.cpp
+
+commit 873dbadd03cd90c83cdb21c55a018eb549d4b892
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:25:40 2017 -0400
+
+    Update slow-hash.c
+
+commit 6b1bcd5a1624ecd19c9d4bc43a0c040af293d57c
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:25:19 2017 -0400
+
+    Update random.h
+
+commit b93b61b8f9c71146d32aa023074cd4d055240b45
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:25:06 2017 -0400
+
+    Update random.c
+
+commit 3b8e99803b9852629a9c11ffb54ef46418a9627f
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:24:28 2017 -0400
+
+    Update initializer.h
+
+commit a9a8b4063400cba6657940a20a1b93ac580d24af
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:24:16 2017 -0400
+
+    Update hash.h
+
+commit b249a51c40a6fce71a3334721c08f7c0d1e07a43
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:24:04 2017 -0400
+
+    Update hash.c
+
+commit 7c13393da7cbcd771b9d518f2906e78d61a8c517
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:23:55 2017 -0400
+
+    Update hash-ops.h
+
+commit d541d177d8223a92d7a89fb3f146f5a625abb18f
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:23:42 2017 -0400
+
+    Update hash-extra-skein.c
+
+commit e07d25d2bb953295bf97fb7205de20a7dfc4034e
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:23:31 2017 -0400
+
+    Update hash-extra-jh.c
+
+commit 9622c47b66d53e3d06c91c7403939c1075674b63
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:23:20 2017 -0400
+
+    Update hash-extra-groestl.c
+
+commit 3291c026a072524e01de82f765bbb88a883042a1
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:23:04 2017 -0400
+
+    Update hash-extra-blake.c
+
+commit 74ff7ab91b2f18b16d7b384bf6fbbc76c9208f17
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:22:43 2017 -0400
+
+    Update generic-ops.h
+
+commit 7fc34d17818f8f4d924878ea3dd779ad157dfbad
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:22:33 2017 -0400
+
+    Update crypto.h
+
+commit a933ddec4be332830bb70a5dfec27836feb67271
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:22:22 2017 -0400
+
+    Update crypto.cpp
+
+commit bb6d93755cc20e5cd80e59c95878e2a00bfc2fd2
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:21:52 2017 -0400
+
+    Update crypto-ops.c
+
+commit cfb1a698ba4a5fa52130c27676650face25e5fa5
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:21:40 2017 -0400
+
+    Update crypto-ops-data.c
+
+commit 67a1b7e5666034560127f1daa6428f5ddef3207a
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:21:16 2017 -0400
+
+    Update chacha.h
+
+commit ad3d5d9198ae1794e3b43e90c61696b29b28dcb1
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:20:16 2017 -0400
+
+    Update WalletUtils.h
+
+commit fee48f52ee3b666eb1e3b85727410017a766e63e
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:20:06 2017 -0400
+
+    Update WalletUserTransactionsCache.h
+
+commit 359907883877564641240f7b4b08f30ca655dfe9
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:19:52 2017 -0400
+
+    Update WalletUserTransactionsCache.cpp
+
+commit 132e0cf050f75f414df6890c5eacd8e2f0b092e3
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:19:40 2017 -0400
+
+    Update WalletUnconfirmedTransactions.h
+
+commit 9c4a166c2d8e844e95d83e758cec174c6437357b
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:19:29 2017 -0400
+
+    Update WalletUnconfirmedTransactions.cpp
+
+commit 05953ab9e053bf51d357f4a3f95bd100f831d467
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:19:15 2017 -0400
+
+    Update WalletTransactionSender.h
+
+commit 34a4ff11ec5d62c7a84be7cfeb253fe017bbaa74
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:19:06 2017 -0400
+
+    Update WalletTransactionSender.cpp
+
+commit 6fd36bd9b0fc5d7c87a464cdafae78c3cdd1e71b
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:18:55 2017 -0400
+
+    Update WalletSendTransactionContext.h
+
+commit 1b046ab1e5060e936ccf0d2f490bce37206a24f9
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:18:46 2017 -0400
+
+    Update WalletRequest.h
+
+commit 589c8a622c2b91def8a8dd6cb9412d774cfa2ced
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:18:37 2017 -0400
+
+    Update WalletLegacySerializer.h
+
+commit dd775d9d999974b0d546c08e9a4dea5e0f846b60
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:18:27 2017 -0400
+
+    Update WalletLegacySerializer.cpp
+
+commit 90cf935bcbf92765abbf612ddb7ba0a8c50c15e2
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:18:17 2017 -0400
+
+    Update WalletLegacySerialization.h
+
+commit 792cc020db45c4cf0802bac2183ae3638bf3b5f1
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:18:05 2017 -0400
+
+    Update WalletLegacySerialization.cpp
+
+commit 0a548c192b27124435a4dab3dc8f127fdb00c38d
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:17:55 2017 -0400
+
+    Update WalletLegacyEvent.h
+
+commit cf8dd0305b2f3e123bfe89e0302674e7b0da0e48
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:17:46 2017 -0400
+
+    Update WalletLegacy.h
+
+commit dfaa65331c4f5c1415f2d83a36154c2466771695
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:17:34 2017 -0400
+
+    Update WalletLegacy.cpp
+
+commit db72bdcc0bfa47d451dd48dc1e93e9d5c58ea568
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:17:25 2017 -0400
+
+    Update WalletHelper.h
+
+commit 0320d89f9a6e2e86e969d5fd9b9d57c225bdec8e
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:17:11 2017 -0400
+
+    Update WalletHelper.cpp
+
+commit 4010e66337a4d863ea81ae737bff1969d362aa30
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:17:00 2017 -0400
+
+    Update WalletDepositInfo.h
+
+commit 7a1f15e293eec52eca7aac9a6696c388801ecd60
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:16:49 2017 -0400
+
+    Update KeysStorage.h
+
+commit a192a29d47722b2a40336750f69d8c30857bef7e
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:16:38 2017 -0400
+
+    Update KeysStorage.cpp
+
+commit bddf5ec44f70564dc4cb9bf13ef45979a95fe871
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:16:24 2017 -0400
+
+    Update WalletUtils.h
+
+commit fee9d9e105970f3c1a12cf1ebb513cceb1601999
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:16:12 2017 -0400
+
+    Update WalletUtils.cpp
+
+commit baeb2177fe5b6c8f982a01fd8a11ef6354a020be
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:15:59 2017 -0400
+
+    Update WalletSerialization.h
+
+commit e2e783c3a5aea2f312528919cb332f0cf15a98f9
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:15:49 2017 -0400
+
+    Update WalletSerialization.cpp
+
+commit c181ddd932ba285bae85c57bd17fae8de903f444
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:15:39 2017 -0400
+
+    Update WalletRpcServerErrorCodes.h
+
+commit ce1b685a27ab0366d27df1389a28dc27965cb42e
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:15:29 2017 -0400
+
+    Update WalletRpcServerCommandsDefinitions.h
+
+commit 519f38132512571550c11397267615002c2e1737
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:15:18 2017 -0400
+
+    Update WalletRpcServer.h
+
+commit 39e93e69c1322236d81a210abd4922dd2023b513
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:15:08 2017 -0400
+
+    Update WalletRpcServer.cpp
+
+commit 4de6a130383da9d34ac1ad37761e8d3218a9d38e
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:14:58 2017 -0400
+
+    Update WalletIndices.h
+
+commit d56d17a85ceda8247cf8514e268ced44df316f45
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:14:46 2017 -0400
+
+    Update WalletGreen.h
+
+commit 80a273c53e2bf149e02d30286f08d4172b081267
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:14:35 2017 -0400
+
+    Update WalletGreen.cpp
+
+commit 490193e25800a69416edde6eb9ae661f898a7e20
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:14:22 2017 -0400
+
+    Update WalletErrors.h
+
+commit 55119a162e2df8ca09737c09b9b92e2b93187c7d
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:14:13 2017 -0400
+
+    Update WalletErrors.cpp
+
+commit 3169d9d9ecca0a81395e4e5f3fa0d7f9d1ddc6e8
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:14:03 2017 -0400
+
+    Update WalletAsyncContextCounter.h
+
+commit fab125ec1a4e88a87c9615f00910b05e87ca89d6
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:13:53 2017 -0400
+
+    Update WalletAsyncContextCounter.cpp
+
+commit 3ffc34c223532cb8ecbb6663b4b6bd239a7b8485
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:13:43 2017 -0400
+
+    Update LegacyKeysImporter.h
+
+commit 832741cc7fa68992a4573e82e1ea2e8ef54eba8f
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:13:35 2017 -0400
+
+    Update LegacyKeysImporter.cpp
+
+commit 1fb8a78dd39ee3c55ca26fdd21a2cb328fca3a71
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:13:25 2017 -0400
+
+    Update IFusionManager.h
+
+commit b07196bff522d56bcb6d3dfe8c928e663365c3a9
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:13:02 2017 -0400
+
+    Update TypeHelpers.h
+
+commit db71e11fdc009e23ed44bf3b4b71c25aa48c1bd7
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:12:52 2017 -0400
+
+    Update TransfersSynchronizer.h
+
+commit e0d5df3c86465c5d2b674993aecd3070a21e3a40
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:12:40 2017 -0400
+
+    Update TransfersSynchronizer.cpp
+
+commit 1bcb2187304346f9fe34afa874aec5e01cd47b3e
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:12:29 2017 -0400
+
+    Update TransfersSubscription.h
+
+commit 3375c04f04104c865dbc47898945cb2c2c549a31
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:12:16 2017 -0400
+
+    Update TransfersSubscription.cpp
+
+commit bcbe493b87a22e0af72cc24841d150860d34daf3
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:12:06 2017 -0400
+
+    Update TransfersContainer.h
+
+commit b68353d4079bfa273b59fac9b2f5180d2b0d4247
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:11:55 2017 -0400
+
+    Update TransfersContainer.cpp
+
+commit bc227563e7502ad0aa4e2e13785f3ffa85fb7d02
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:11:41 2017 -0400
+
+    Update TransfersConsumer.h
+
+commit 2e316a443ebef8d81256fe4c39676f32ce7fac11
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:11:29 2017 -0400
+
+    Update TransfersConsumer.cpp
+
+commit a2e66e62456d5c479ce96fc0d55d83bd86c9db6b
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:11:18 2017 -0400
+
+    Update SynchronizationState.h
+
+commit 14b7c3f2abf503324605b2b9fd0ee2d0a138697e
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:11:07 2017 -0400
+
+    Update SynchronizationState.cpp
+
+commit ed04a8598cdf3b2cf4132fe78eed6757ec0583b5
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:09:51 2017 -0400
+
+    Update IObservableImpl.h
+
+commit 390d83a4909016c79f5d6271587f363978d29f67
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:09:39 2017 -0400
+
+    Update IBlockchainSynchronizer.h
+
+commit 3db5c48ecc94c9e0bc90b9778bfe1acd2c77e3cb
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:09:29 2017 -0400
+
+    Update CommonTypes.h
+
+commit 9f60d71e660f4607b80190a67b344477fefcb3fc
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:09:18 2017 -0400
+
+    Update BlockchainSynchronizer.h
+
+commit 420af4c258f33a5a08e36acd99be5c2427d0a226
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:09:02 2017 -0400
+
+    Update BlockchainSynchronizer.cpp
+
+commit cc926e772fab522f49f453af4300ce26eea9b0a6
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:08:47 2017 -0400
+
+    Update TcpStream.h
+
+commit 7df872994f1ed59410d8462e75d72901a5f5349e
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:08:38 2017 -0400
+
+    Update TcpStream.cpp
+
+commit a8b235ae50d0b66c54cbe6be72e2bfd25962150a
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:08:28 2017 -0400
+
+    Update RemoteEventLock.h
+
+commit 7adf8bcf5f679c94f7da7d5e0219fc3ffb56ef53
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:08:18 2017 -0400
+
+    Update RemoteEventLock.cpp
+
+commit bda650684d491ce676241e69b7654389db9d3e40
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:08:08 2017 -0400
+
+    Update RemoteContext.h
+
+commit 5a9bf88af65e285b5ea76d173cbb7989b3625294
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:07:58 2017 -0400
+
+    Update OperationTimeout.h
+
+commit 420b3d3bacdd6ef2779d51135a602ec0b6945b75
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:07:50 2017 -0400
+
+    Update Ipv4Address.h
+
+commit 5fd272aa6075d561344428bb265550b2e97026a4
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:07:40 2017 -0400
+
+    Update Ipv4Address.cpp
+
+commit 441226d0be5e47545059d5b34a78a2eb5daceff2
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:07:30 2017 -0400
+
+    Update InterruptedException.h
+
+commit 5020e07619ae6aa6be6768dfe8ef25e7f2bf421c
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:07:18 2017 -0400
+
+    Update InterruptedException.cpp
+
+commit ffa8a6e8fd7354626d46b0b8fff970d6aa232e17
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:07:04 2017 -0400
+
+    Update EventLock.h
+
+commit 6d2938647f8b6eb5837b425637816246f4866650
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:06:54 2017 -0400
+
+    Update EventLock.cpp
+
+commit 1d761f1dbb01f493ca799c2847d0c36243143041
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:06:42 2017 -0400
+
+    Update Event.h
+
+commit 4f31975444277193eeb0eb59d6760c0169e5004d
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:06:31 2017 -0400
+
+    Update Event.cpp
+
+commit d1e967d1740b00f7d94262aa68e87a0d371d4545
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:06:21 2017 -0400
+
+    Update ContextGroupTimeout.h
+
+commit 46b87c9745d3f306bb310285d1ba5a59ac472602
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:06:09 2017 -0400
+
+    Update ContextGroupTimeout.cpp
+
+commit 31ea69d61b56eeb30b50aab3b3c19db99ff1af3d
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:05:54 2017 -0400
+
+    Update ContextGroup.h
+
+commit 7a3a852d728949fe3465d1a50ebb99a9cd7d7b85
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:05:43 2017 -0400
+
+    Update ContextGroup.cpp
+
+commit 79d7973b86cbd3868f74cf11921026f1c0bfc4a8
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:05:33 2017 -0400
+
+    Update Context.h
+
+commit c0048da7afd51a64f5c6380b3661049c19cea4d7
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:05:20 2017 -0400
+
+    Update SimpleWallet.h
+
+commit 4935e3b0614810fc50b75d064f8f3181a18e8af5
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:05:08 2017 -0400
+
+    Update SimpleWallet.cpp
+
+commit 56b504dcb83690abed2cf443622fbd79662b1b9d
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:04:56 2017 -0400
+
+    Update PasswordContainer.h
+
+commit 510ab8d8dbac17877e90031388f6926660bc389d
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:04:46 2017 -0400
+
+    Update PasswordContainer.cpp
+
+commit c7dcfabc35223699e820f943d3385232f7fd4f6e
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:04:26 2017 -0400
+
+    Update SerializationTools.h
+
+commit a1fe1eed838f5e9b926cd2916bfa1d3a3d41aa71
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:04:16 2017 -0400
+
+    Update SerializationOverloads.h
+
+commit 32a05edbf656187344585e84277d1f551a17e5b0
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:04:04 2017 -0400
+
+    Update SerializationOverloads.cpp
+
+commit 9506c82a3eaa7b06a0268a96d69fc026a0635a56
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:03:53 2017 -0400
+
+    Update MemoryStream.h
+
+commit c1383119ea6973e02b34ae45a77f42d021102a69
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:03:44 2017 -0400
+
+    Update MemoryStream.cpp
+
+commit 19eac136c70ee4fb33e48111f4be322d4f6b8d36
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:03:34 2017 -0400
+
+    Update KVBinaryOutputStreamSerializer.h
+
+commit 18306ef290c51ae797337faf16d72ad3492f4a19
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:03:21 2017 -0400
+
+    Update KVBinaryOutputStreamSerializer.cpp
+
+commit 1e662cf17d5ee1e81b8bb567431e247560367e74
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:03:05 2017 -0400
+
+    Update KVBinaryInputStreamSerializer.h
+
+commit 9cc5bb9c0123634a888f68a7472027d7c0599467
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:02:55 2017 -0400
+
+    Update KVBinaryInputStreamSerializer.cpp
+
+commit a1ac673ade6a1c82dfeec99af1a69315ec6e9818
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:02:44 2017 -0400
+
+    Update KVBinaryCommon.h
+
+commit a4aebc34cda7b2204b82182df58a884e5b3b5c0a
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:02:30 2017 -0400
+
+    Update JsonOutputStreamSerializer.h
+
+commit 41ff36ccc6e7e23b74c054736e8653827130f959
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:02:20 2017 -0400
+
+    Update JsonOutputStreamSerializer.cpp
+
+commit 758eb2bde4031c49a25f01797c790c1bf08808d0
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:02:10 2017 -0400
+
+    Update JsonInputValueSerializer.h
+
+commit 6d1f2ecaf095a0a1dab934f521d72dd71157f4fe
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:01:59 2017 -0400
+
+    Update JsonInputValueSerializer.cpp
+
+commit 949dfe9221ff90f2e70565151dda5a5e112dd01e
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:01:49 2017 -0400
+
+    Update JsonInputStreamSerializer.h
+
+commit 8f9350dab4163f4737acadcb1ffb06ec0c1acb5e
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:01:33 2017 -0400
+
+    Update JsonInputStreamSerializer.cpp
+
+commit 24ebb772833ab24b46bae0be97377d2733d3a838
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:01:23 2017 -0400
+
+    Update IStream.h
+
+commit f6638cad477ccf44d6037d3d0e8f80b148e17672
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:01:11 2017 -0400
+
+    Update ISerializer.h
+
+commit d4d9734a40f19e13a9dc3e346340ce45a86e7655
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Sat Apr 22 00:00:14 2017 -0400
+
+    Update BinarySerializationTools.h
+
+commit 03e9ee713e7ff4f82e3eecd63d3c07474827ffc6
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:59:32 2017 -0400
+
+    Update BinaryOutputStreamSerializer.h
+
+commit 4ff743f18cf3ec1a1fcb4d5dd2b750c8cbe46975
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:59:00 2017 -0400
+
+    Update BinaryOutputStreamSerializer.cpp
+
+commit e14835174cd3110e2da2e39e8c001ec8edc5dd0d
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:58:49 2017 -0400
+
+    Update BinaryInputStreamSerializer.h
+
+commit e3c6c9e5e18517d5c66d0107ab6054f177b965a9
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:58:40 2017 -0400
+
+    Update BinaryInputStreamSerializer.cpp
+
+commit bd454bea98eea30d67b188d89596f46d79206239
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:58:20 2017 -0400
+
+    Update RpcServerConfig.h
+
+commit 79856cd0b2e57ce34d1838de7beab01978e08662
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:58:10 2017 -0400
+
+    Update RpcServerConfig.cpp
+
+commit 9f57dd37d94af53b33daec671fa5fec09788237f
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:58:00 2017 -0400
+
+    Update RpcServer.h
+
+commit e7c5cf8a9ef6a1c81a11020d6c15e85e64ec3c6b
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:57:47 2017 -0400
+
+    Update RpcServer.cpp
+
+commit e576a453ac333e298424cb635959253fe045e3d6
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:57:35 2017 -0400
+
+    Update RpcServer - copy.cpp
+
+commit 4fa09ad501e93d1121c5c2b292e253ed9dc8ac63
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:57:24 2017 -0400
+
+    Update JsonRpc.h
+
+commit 91b4b04917e6324c986ed1c07dea122aea7a20ad
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:57:13 2017 -0400
+
+    Update JsonRpc.cpp
+
+commit a0c0fce4057e3670405858bf98c56b843bdaaacf
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:57:03 2017 -0400
+
+    Update HttpServer.h
+
+commit c67bca56cb102659350ce1632f0f35d1995e6450
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:56:52 2017 -0400
+
+    Update HttpServer.cpp
+
+commit 8bd6d14360d93854a4dca3edd8fc466ef05b4a72
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:56:38 2017 -0400
+
+    Update HttpClient.h
+
+commit bb617bd8de6e1b61ca35c8ce92f723751fe21b95
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:56:19 2017 -0400
+
+    Update HttpClient.cpp
+
+commit e19cd7937db965d1e2d50df9825550f5fc282084
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:55:58 2017 -0400
+
+    Update CoreRpcServerErrorCodes.h
+
+commit 283da050345ac129f21f6507f63b68b298acd60e
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:55:37 2017 -0400
+
+    Update CoreRpcServerCommandsDefinitions.h
+
+commit 217b80570659aa9d3391599d6a5097d3418826fa
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:55:18 2017 -0400
+
+    Update stdbool.h
+
+commit 5458fc4721d9fa49024bb4d40fceb303fe6f247a
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:55:08 2017 -0400
+
+    Update alloca.h
+
+commit 2b1f4cc30c21c946fc16139b2de98beddab0018b
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:54:55 2017 -0400
+
+    Update param.h
+
+commit 046f618bf940bf9c585f89a750716423e3edaed8
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:54:41 2017 -0400
+
+    Update alloca.h
+
+commit c384028ddebe259fb27ec8cfa7acc9a99f702171
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:54:24 2017 -0400
+
+    Update Timer.h
+
+commit 789eacd75179305f24daecb8b103b4ccf770a918
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:54:12 2017 -0400
+
+    Update Timer.cpp
+
+commit bdb3c27e30a154be9cd5432e1f76554574be0098
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:53:57 2017 -0400
+
+    Update TcpListener.h
+
+commit 236f6c58dcc45c7b7f4c937fad4212dff130e00c
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:53:44 2017 -0400
+
+    Update TcpListener.cpp
+
+commit 3f9ad83c504231fa2889eea35b4d7bcf9ee6cfdb
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:53:33 2017 -0400
+
+    Update TcpConnector.h
+
+commit 76835bd24df41fb2d921182a8622b606c8433156
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:53:21 2017 -0400
+
+    Update TcpConnector.cpp
+
+commit c4806dbefee6466cee7c2b3e3f9ab22094bb3a60
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:53:07 2017 -0400
+
+    Update TcpConnection.h
+
+commit b01773d8500bc9fe020add089e22661d7ac228ab
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:52:57 2017 -0400
+
+    Update TcpConnection.cpp
+
+commit f7bce06f781996af7df6f5db03cd1bf65c5cd141
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:52:46 2017 -0400
+
+    Update Ipv4Resolver.h
+
+commit 39dfce9ceb1647f45566fe0a14ad6dfd7ee5c754
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:52:36 2017 -0400
+
+    Update Ipv4Resolver.cpp
+
+commit 859ce7829a6c88d30200cff19e7064fd6b24ecf4
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:52:22 2017 -0400
+
+    Update Future.h
+
+commit f613e9143c03fbe6d53f2c467af2b2822137defe
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:52:12 2017 -0400
+
+    Update ErrorMessage.h
+
+commit 3db8013a0b5231033f519bcc176553977a78903c
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:52:03 2017 -0400
+
+    Update ErrorMessage.cpp
+
+commit bac7224d58e90798bbaa87073ffacc05d88f333d
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:51:40 2017 -0400
+
+    Update Dispatcher.h
+
+commit c8f483ead680eca7152706b892e5203dc7492d91
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:51:27 2017 -0400
+
+    Update Dispatcher.cpp
+
+commit b67aa978cd199eae00612fcd4fd914be5365c0f0
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:50:42 2017 -0400
+
+    Update Timer.h
+
+commit 8efa948832471a7f61963d196cc3041f2be3b96b
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:50:30 2017 -0400
+
+    Update Timer.cpp
+
+commit e369d916b3a468d236bccdec0128800d180d064f
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:50:20 2017 -0400
+
+    Update TcpListener.h
+
+commit 3916f4822b7b88943e13e1a1bbdf6aca6ba04996
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:50:09 2017 -0400
+
+    Update TcpListener.cpp
+
+commit 27091a961c7638f291d4a0e552fde346325b86d3
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:49:57 2017 -0400
+
+    Update TcpConnector.h
+
+commit 933d76f07c444ea8fd29a4f89214c75e15dd64b3
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:49:44 2017 -0400
+
+    Update TcpConnector.cpp
+
+commit c46f8c0acabec9a45c5049bfaeb9cb5763758711
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:49:29 2017 -0400
+
+    Update TcpConnection.h
+
+commit 2b25fefcbe2fc4cf78534c4cacc001bc7b8e3562
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:49:18 2017 -0400
+
+    Update TcpConnection.cpp
+
+commit bbf554d87cc6125757496255df0a41e5ad2554a5
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:49:07 2017 -0400
+
+    Update Ipv4Resolver.h
+
+commit c08dad778d93226b7084f328e2974c7012fe0811
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:48:46 2017 -0400
+
+    Update Ipv4Resolver.cpp
+
+commit 6668611dd43b0263c1b327bdee329ca343d6e287
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:48:31 2017 -0400
+
+    Update Future.h
+
+commit 3cbd02114f0438362acfcc0e0029663c4e880e06
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:48:20 2017 -0400
+
+    Update ErrorMessage.h
+
+commit 38b8b8558b9e8072623d651a7cabb2869d91357c
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:48:09 2017 -0400
+
+    Update ErrorMessage.cpp
+
+commit d000094b7d02f634e23932d955ad7bf82c6f6ab1
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:47:55 2017 -0400
+
+    Update Dispatcher.h
+
+commit 62a2404e355a32266282c1c8a90eac3b6c42af54
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:47:44 2017 -0400
+
+    Update Dispatcher.cpp
+
+commit 0ee6aed0309263b567bef733b7acdbe9e9b567f2
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:47:32 2017 -0400
+
+    Update Context.h
+
+commit 8b41166b98d4f5f8d97b56220d50d070d2052798
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:47:22 2017 -0400
+
+    Update Context.c
+
+commit 2a824eac3d5f4760852822a76ca0b33a3331a86d
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:47:03 2017 -0400
+
+    Update Timer.h
+
+commit 7c23cab5726abc0833abe73509442859dc821e09
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:46:49 2017 -0400
+
+    Update Timer.cpp
+
+commit bbaff1c6e800edf19cd6a2e030e8c8d064f2bb43
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:46:38 2017 -0400
+
+    Update TcpListener.h
+
+commit fdb093162ab62041558d0bbbc8cb69a5e8ec8cbb
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:46:26 2017 -0400
+
+    Update TcpListener.cpp
+
+commit 2bd334eb689a4a5b615e8be63d87282679fefac9
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:46:14 2017 -0400
+
+    Update TcpConnector.h
+
+commit f1e0e3ac2143d7d7e81fb141f1f4522dbc67c614
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:46:01 2017 -0400
+
+    Update TcpConnector.cpp
+
+commit 04ce69418c091de82bbf437fc0cf1c664f01d088
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:45:50 2017 -0400
+
+    Update TcpConnection.h
+
+commit c5872a4245835788dc3c13b773af7e3fc10d7ef6
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:45:37 2017 -0400
+
+    Update TcpConnection.cpp
+
+commit 56645ae0a82eff929bd702af45283fbbff0418bf
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:45:26 2017 -0400
+
+    Update Ipv4Resolver.h
+
+commit dad07a0dd74425f7c2cc71a50f5331f5cc3c3bbb
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:45:10 2017 -0400
+
+    Update Ipv4Resolver.cpp
+
+commit 96af4fecee7fd9bf73f232cf9ce3081e282202c0
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:45:00 2017 -0400
+
+    Update Future.h
+
+commit 91488af51a4dbdaa20d737392a6b795c91492258
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:44:48 2017 -0400
+
+    Update ErrorMessage.h
+
+commit b0be0525867ff804a3576c218a6690ded1c373fa
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:44:39 2017 -0400
+
+    Update ErrorMessage.cpp
+
+commit 738ef986ebc25bde5ec10277050a7987737d4470
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:44:28 2017 -0400
+
+    Update Dispatcher.h
+
+commit 91456abf2fa9e9e1bf40e3a24d14c7315a0825db
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:44:17 2017 -0400
+
+    Update Dispatcher.cpp
+
+commit d98aaf6b5a3e9017494c559962b8f3a1c898afab
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:43:34 2017 -0400
+
+    Update main.cpp
+
+commit 40ce9de5cfa861240aafe519f660dad3fa5d0497
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:43:19 2017 -0400
+
+    Update RpcNodeConfiguration.h
+
+commit 4c214d9146c83a036886fcd11031cd8e67b139b2
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:43:10 2017 -0400
+
+    Update RpcNodeConfiguration.cpp
+
+commit b020560420dc2b1b0dc0a880e18a35342cf22f3f
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:43:00 2017 -0400
+
+    Update PaymentServiceConfiguration.h
+
+commit bb8e6f4a5ae0f575db6ece81f0405123961d02f0
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:42:49 2017 -0400
+
+    Update PaymentServiceConfiguration.cpp
+
+commit abf5c4f09013eab8613531a42c14a60ec1f152dc
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:42:37 2017 -0400
+
+    Update PaymentGateService.h
+
+commit 57a81ba3c2463d05f072aae3a75b9cfcf9b03ae9
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:42:26 2017 -0400
+
+    Update PaymentGateService.cpp
+
+commit bd4b0f70c6b70692f9b7bb2edcf0ea62e827c08d
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:42:15 2017 -0400
+
+    Update ConfigurationManager.h
+
+commit 636d8f1003c0e97bbb627d0be672a49a681d7669
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:42:03 2017 -0400
+
+    Update ConfigurationManager.cpp
+
+commit 9fb4378e93dd935af425606d947a46f88b4caf45
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:41:44 2017 -0400
+
+    Update WalletServiceErrorCategory.h
+
+commit 8c37f0b9730b68e77815d0482fb6290752459aa7
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:41:33 2017 -0400
+
+    Update WalletServiceErrorCategory.cpp
+
+commit 58c3cb8b3a5544914c189abc2a81521ba4c46b07
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:41:22 2017 -0400
+
+    Update WalletService.h
+
+commit 1eb488010fc27605b508994e68c89a968a15f3a6
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:41:11 2017 -0400
+
+    Update WalletService.cpp
+
+commit df7c3de6ce08888cf2898e09e6b3a65e0bf0072c
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:41:01 2017 -0400
+
+    Update WalletFactory.h
+
+commit 7539594ca902aa4e29254adb6e987480489c0e57
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:40:49 2017 -0400
+
+    Update WalletFactory.cpp
+
+commit 9acaa438d11b644d60528898f6e0968208f8c83f
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:40:37 2017 -0400
+
+    Update PaymentServiceJsonRpcServer.h
+
+commit 5da2fbd877a2f549d97f63c7c2af5aa5ddebb9c5
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:40:27 2017 -0400
+
+    Update PaymentServiceJsonRpcServer.cpp
+
+commit 030a9640dc2189ca76744327cfef05741d07b6bd
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:40:15 2017 -0400
+
+    Update PaymentServiceJsonRpcMessages.h
+
+commit 2a303b54dea08155397adff41df3fbfec6e659bd
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:40:02 2017 -0400
+
+    Update PaymentServiceJsonRpcMessages.cpp
+
+commit d2cd4e7d0c1d583bc93ae9cedfdffad417a3d896
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:39:50 2017 -0400
+
+    Update NodeFactory.h
+
+commit af11fe64d345e6e3bbd56e80f24f25486b282669
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:39:40 2017 -0400
+
+    Update NodeFactory.cpp
+
+commit 08bb232122649bf5da3ca3de49c35aa2e403cbc6
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:01:52 2017 -0400
+
+    Update PeerListManager.h
+
+commit aac7b36d5c7bb5948d92fe6edfe29bc6243a9562
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:01:38 2017 -0400
+
+    Update PeerListManager.cpp
+
+commit 1af5bd6037084ea9ef8c17d36cc84dfc3b5d815b
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:01:27 2017 -0400
+
+    Update P2pProtocolTypes.h
+
+commit 3503d9388fb68b58c5882640f4e5eb75c650e58d
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:01:15 2017 -0400
+
+    Update P2pProtocolDefinitions.h
+
+commit 16b9af67e8030404201585c621b3b44bb9053f7c
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:01:04 2017 -0400
+
+    Update P2pNodeConfig.h
+
+commit 09af138dc438265f05e33a66819a23dbb471bd28
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:00:52 2017 -0400
+
+    Update P2pNodeConfig.cpp
+
+commit 3aad93472400de0542a9883ad287524dc1679920
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:00:34 2017 -0400
+
+    Update P2pNode.h
+
+commit 0da0471e55a642c2f08693ce4b9d6d158fa1665b
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:00:21 2017 -0400
+
+    Update P2pNode.cpp
+
+commit 56c9d915b815c028d69d420c0aa79464dfdec337
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 23:00:08 2017 -0400
+
+    Update P2pNetworks.h
+
+commit 7cea28f6597f4efa6d981516c1618f6a4899de2f
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:59:57 2017 -0400
+
+    Update P2pInterfaces.h
+
+commit 8fd095b068a9bb07c3b4cc9008efb57d71ca6da5
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:59:46 2017 -0400
+
+    Update P2pInterfaces.cpp
+
+commit b8a8f580c5de1372e2ef6b258e81efcbcde94762
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:59:35 2017 -0400
+
+    Update P2pContextOwner.h
+
+commit 9a71c037cbadfb927ec5ed1d24a53df6e8d5bab1
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:59:22 2017 -0400
+
+    Update P2pContextOwner.cpp
+
+commit 24f05f8796bee4b835b4942a6b1118500d886d2a
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:59:12 2017 -0400
+
+    Update P2pContext.h
+
+commit 2a67853b135c9451a2f52b1d4d1bec7f8bd192fd
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:58:59 2017 -0400
+
+    Update P2pContext.cpp
+
+commit 8a16d676caf8f8814502d04ceb8185f39eff3344
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:58:49 2017 -0400
+
+    Update P2pConnectionProxy.h
+
+commit 41a5a49f6b60c44b91df426b5721989f61db47b1
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:58:38 2017 -0400
+
+    Update P2pConnectionProxy.cpp
+
+commit 372f995f3a4a3c89127887c5808371807ea781bb
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:58:22 2017 -0400
+
+    Update NetNodeConfig.h
+
+commit 310a382e8f9c2476f4e4799e2cc9ec93e4c04cdb
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:58:10 2017 -0400
+
+    Update NetNodeConfig.cpp
+
+commit 071a6a2279978f62719be49200d0444fc8bd28db
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:57:59 2017 -0400
+
+    Update NetNodeCommon.h
+
+commit 7de0e7c1fc27d856689933cff0dd2b9c9d7f16de
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:57:49 2017 -0400
+
+    Update NetNode.h
+
+commit 5e40572c33b90c706cc0af6008c11d4d4ff893ac
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:57:36 2017 -0400
+
+    Update NetNode.cpp
+
+commit 1a9db27675d3db4ea060b3e939b31c81464e7562
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:57:25 2017 -0400
+
+    Update LevinProtocol.h
+
+commit 4fbc1ce1173f5fe942f6c13eee24b5cd45cb50d1
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:57:13 2017 -0400
+
+    Update LevinProtocol.cpp
+
+commit 829fab1e25ea1090b831ef994e62569613e10edf
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:57:03 2017 -0400
+
+    Update IP2pNodeInternal.h
+
+commit f075f439b1e12fea33c4bfb963415d1b45958b14
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:56:48 2017 -0400
+
+    Update IP2pNodeInternal.cpp
+
+commit 2f8db6d762495644d88f2c33808f3a317612d71d
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:56:37 2017 -0400
+
+    Update ConnectionContext.h
+
+commit b1dce532e7fbc6a111c807eaf19d3787b376d548
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:54:51 2017 -0400
+
+    Update NodeRpcProxy.h
+
+commit 33a4fa42d9d47e7f2d584e78e9f53cc7210da783
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:54:11 2017 -0400
+
+    Update NodeRpcProxy.cpp
+
+commit 34aad9a31150f129862ad821696abc1eb2b08668
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:54:01 2017 -0400
+
+    Update NodeErrors.h
+
+commit 74578bcbf29ab8f8fe2c096a17b983769ddc0db3
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:53:44 2017 -0400
+
+    Update NodeErrors.cpp
+
+commit f310b264aa6bd5e968a4c4656814bb38f4025cbb
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:53:30 2017 -0400
+
+    Update main.cpp
+
+commit 79715494717b21367d2bb7ca71484823cb439510
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:53:18 2017 -0400
+
+    Update MiningConfig.h
+
+commit 6158c845f0edcc2325117f461e347d147cf10cb8
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:53:07 2017 -0400
+
+    Update MiningConfig.cpp
+
+commit 560cbda931e9927f4c02001b85f6905b6136a622
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:52:56 2017 -0400
+
+    Update MinerManager.h
+
+commit 0bc3db4f8a727b7f0774ba6480493114dbc90d4c
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:52:46 2017 -0400
+
+    Update MinerManager.cpp
+
+commit 076f8be65a389a0b567081c48e54b32c0a8da417
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:52:33 2017 -0400
+
+    Update MinerEvent.h
+
+commit f693d8fa3b2a048682593aaa3cb886fd49902d1e
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:52:23 2017 -0400
+
+    Update Miner.h
+
+commit 7344e1ce71d5bc89248bd822fcb8ab167d244a8e
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:52:11 2017 -0400
+
+    Update Miner.cpp
+
+commit 3b234591223814b2ad5e0eff024f1688cb03d652
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:52:02 2017 -0400
+
+    Update BlockchainMonitor.h
+
+commit 286bb66de54879907b69b6fd8616051e39a1284f
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:51:49 2017 -0400
+
+    Update BlockchainMonitor.cpp
+
+commit 9d40a8cd03ae920a28e3f4e9d1f2b4151abc6305
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:51:08 2017 -0400
+
+    Update StreamLogger.h
+
+commit 7f0b2622f9760f33c665bd99f757f63e3f079ed7
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:50:57 2017 -0400
+
+    Update StreamLogger.cpp
+
+commit 7e5c547f9e94e0389cf0b7cc578c1f4ab88c0e8b
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:50:47 2017 -0400
+
+    Update LoggerRef.h
+
+commit 0cffc35a2f96792b79b246a62d43a529a64bbc87
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:50:33 2017 -0400
+
+    Update LoggerRef.cpp
+
+commit b55716b6e20f1a9cad9c0b05cd79d17af027050f
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:50:21 2017 -0400
+
+    Update LoggerMessage.h
+
+commit 3de9616dce9030b62193bb16a17386db6aae2df9
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:50:03 2017 -0400
+
+    Update LoggerMessage.cpp
+
+commit afa8443d1686f8d303372e5fc9f2b36a2d815773
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:49:52 2017 -0400
+
+    Update LoggerManager.h
+
+commit a783473e1b6ea6bf3f940ab987624c90fd114b42
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:49:39 2017 -0400
+
+    Update LoggerManager.cpp
+
+commit 4823c2aaca66181f134dc073a5589f5e1d0aa52c
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:49:26 2017 -0400
+
+    Update LoggerGroup.h
+
+commit a91c86c4805120faa4fad345e87e1d0306416c1a
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:49:15 2017 -0400
+
+    Update LoggerGroup.cpp
+
+commit 54f9cf27373e77e62ec45a8bdf0ef88e3b91bb27
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:49:02 2017 -0400
+
+    Update ILogger.h
+
+commit 29c9865396f797480b9a627c155eb7ca7e123d42
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:48:35 2017 -0400
+
+    Update ILogger.cpp
+
+commit 991250ef931bf85f22d766c7e721dd90a43b1335
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:48:24 2017 -0400
+
+    Update FileLogger.h
+
+commit 0f4254e265d5a35dd4f5bfd54ae009e3f9cee7fc
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:48:14 2017 -0400
+
+    Update FileLogger.cpp
+
+commit d73349fe0ee5ccf97ae311436bc5ae9b86c7c2d9
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:48:04 2017 -0400
+
+    Update ConsoleLogger.h
+
+commit 98fa1f214503a1e38bff499ffa6253c2ad7b20c4
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:47:54 2017 -0400
+
+    Update ConsoleLogger.cpp
+
+commit 36b56c932c04c84e4f875608fee765ad1393a90f
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:47:43 2017 -0400
+
+    Update CommonLogger.h
+
+commit f66362d9636cbf60825e7c28154663aaab0d311c
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:47:32 2017 -0400
+
+    Update CommonLogger.cpp
+
+commit 85091e94ca041f2e4be4058ac4c270bb92209fa4
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:47:13 2017 -0400
+
+    Update JsonRpcServer.h
+
+commit a3150ea37db91c023e58539048fb30779eb84d5a
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:47:03 2017 -0400
+
+    Update JsonRpcServer.cpp
+
+commit a78e83fee9704c942af7d460098d7e64d24f40bb
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:46:39 2017 -0400
+
+    Update InProcessNodeErrors.h
+
+commit 8850822fd11728acbea01c4e80150bc012db4f1e
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:46:28 2017 -0400
+
+    Update InProcessNodeErrors.cpp
+
+commit 0d8dbbec83fddc501f70b1558e30b5d4444f6675
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:46:15 2017 -0400
+
+    Update InProcessNode.h
+
+commit 50297b28f2859a0ddc29d745e649c7a9c28a985a
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:46:04 2017 -0400
+
+    Update InProcessNode.cpp
+
+commit 199a1517a7e4dbd199d3774eb60a4005a6a1bef1
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:45:35 2017 -0400
+
+    Update HttpResponse.h
+
+commit ab4b8f34bb04116ab110313882da70e827dae155
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:45:24 2017 -0400
+
+    Update HttpResponse.cpp
+
+commit a7a771b8202248b222f0219ff882a0504dfa7123
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:45:14 2017 -0400
+
+    Update HttpRequest.h
+
+commit 1442f27e7cc17be46e79692687c3ce024abb5461
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:45:02 2017 -0400
+
+    Update HttpRequest.cpp
+
+commit 110567ee03d3b5b472aa5038fc8ead8af650da66
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:44:31 2017 -0400
+
+    Update HttpParserErrorCodes.h
+
+commit 7789d0c2e40d1dd07d8c270845a2e0984b9adaaf
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:44:20 2017 -0400
+
+    Update HttpParserErrorCodes.cpp
+
+commit e61239e6aef6a71f7e47cf63e58f7ead82121aff
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:43:38 2017 -0400
+
+    Update HttpParser.h
+
+commit 8a1adf9a860eea397b7edfe01467a76cc2bafbd5
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:43:27 2017 -0400
+
+    Update HttpParser.cpp
+
+commit 2826d37786ad21154c64d5aebd483c5ce15e07e4
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:43:09 2017 -0400
+
+    Update DaemonCommandsHandler.h
+
+commit 0f6ae736ce0dae037651241e6637a7c09ece00ed
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:42:57 2017 -0400
+
+    Update DaemonCommandsHandler.cpp
+
+commit fd8be27d1317b41164e4c527186c5efdd289184f
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:42:46 2017 -0400
+
+    Update Daemon.cpp
+
+commit c095da7c7cce12172e336328b345229ba0b8d8e8
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:42:31 2017 -0400
+
+    Update ICryptoNoteProtocolQuery.h
+
+commit baa30029ef802fd647fa8350cc7b26c3ee0552c6
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:42:21 2017 -0400
+
+    Update ICryptoNoteProtocolObserver.h
+
+commit 55ae3a8b644d6d1ed1a4eb00dda2fa2af0c0a70f
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:42:11 2017 -0400
+
+    Update CryptoNoteProtocolHandlerCommon.h
+
+commit da1bf5525eda5b12aa21aa17af3b42415b4beb1e
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:41:44 2017 -0400
+
+    Update CryptoNoteProtocolHandler.h
+
+commit 5b82b7ee8a75c756acf06a49bddbb3e2016580e5
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:41:35 2017 -0400
+
+    Update CryptoNoteProtocolHandler.cpp
+
+commit d7c56ebbeedeaedcb5d94e027cee2b7557f32311
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:41:24 2017 -0400
+
+    Update CryptoNoteProtocolDefinitions.h
+
+commit 1d70c21e46df39e3f35333def1d0effab3322b1d
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:41:09 2017 -0400
+
+    Update VerificationContext.h
+
+commit 515265db42a7f28f36b88c7c0fe513ed5a353aad
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:40:58 2017 -0400
+
+    Update UpgradeDetector.h
+
+commit f0d98aa8de81df57e5a042c0bb930a185f29b271
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:40:45 2017 -0400
+
+    Update UpgradeDetector.cpp
+
+commit 39affa13650714c38fac46ad5f3afb087e75293d
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:40:28 2017 -0400
+
+    Update TransactionUtils.h
+
+commit 9eb40cda68274ce0f6677e8f920d764cbb772ce3
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:40:17 2017 -0400
+
+    Update TransactionUtils.cpp
+
+commit bb5075b72d32a7bf1f5eec208fd09d5f4c5d37c2
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:34:44 2017 -0400
+
+    Update TransactionPrefixImpl.cpp
+
+commit c8901fa0d42a4d78c1c9d90836e3c9e39fd9ed9c
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:34:28 2017 -0400
+
+    Update TransactionPool.h
+
+commit fdeb97966ab1923796159ed988f7d99a1283c1b5
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:34:14 2017 -0400
+
+    Update TransactionPool.cpp
+
+commit f5ec2416743882663e33800d90baa64f7058f953
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:34:01 2017 -0400
+
+    Update TransactionExtra.h
+
+commit 7f4a813a716aee8d6b89f6ed9add1a07a5da33ce
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:33:46 2017 -0400
+
+    Update TransactionExtra.cpp
+
+commit c06992d546ca926d1b62966dba4471b48f3e898d
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:33:35 2017 -0400
+
+    Update TransactionApiExtra.h
+
+commit cc84ae61a45e5816253770034cc6c9712b1769d7
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:33:24 2017 -0400
+
+    Update TransactionApi.h
+
+commit d7024815655c2dcac71bb63f161987b24d8bba8f
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:33:11 2017 -0400
+
+    Update Transaction.cpp
+
+commit 2ed8e30ccef4584adec33945c0d679124353ba8d
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:32:59 2017 -0400
+
+    Update SwappedVector.h
+
+commit 6cfa73012567793b7dad612a5720c754d624f9c3
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:32:40 2017 -0400
+
+    Update SwappedVector.cpp
+
+commit 2894af3a1534995f47a316e4fb5f32169ffcbc04
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:32:28 2017 -0400
+
+    Update SwappedMap.h
+
+commit a1f3d2441db01b59425b07178c37d5812d35424b
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:32:13 2017 -0400
+
+    Update SwappedMap.cpp
+
+commit 66304358a0ec38552cfb54e8e4c66aced1145881
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:32:01 2017 -0400
+
+    Update OnceInInterval.h
+
+commit 290813ec25b09b53f3408ba62ab4220e60262be2
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:31:45 2017 -0400
+
+    Update MinerConfig.h
+
+commit ac67ced9f5778eba9bc9eaf42b9c53a63dcf1ece
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:31:32 2017 -0400
+
+    Update MinerConfig.cpp
+
+commit 648bba53f3f08c25716d056a49d031da70a7f0d3
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:31:21 2017 -0400
+
+    Update Miner.h
+
+commit abc98ad9b22f4018d2802d4c09a3ee719085aefa
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:31:08 2017 -0400
+
+    Update Miner.cpp
+
+commit 1a993e806ac2233bacd45ee3a04b03c9ba720223
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:30:56 2017 -0400
+
+    Update MessageQueue.h
+
+commit 182a44cc5ba16c5aa3fbf2e4f0dd74b9ced8b804
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:30:42 2017 -0400
+
+    Update IntrusiveLinkedList.h
+
+commit e0d3e2d30152214b7ff618f8ed2aa975d1d3c92e
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:30:26 2017 -0400
+
+    Update ITxPoolObserver.h
+
+commit 20b85aba2fc6c2a381d51f08ddf9de3725959264
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:30:13 2017 -0400
+
+    Update ITransactionValidator.h
+
+commit b62cdcf5ef3e9771390034fa17f4ce868c6f66f5
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:30:00 2017 -0400
+
+    Update ITimeProvider.h
+
+commit 0ecb0d2a1051dea1a01fc1d6ea3ca859db7c8842
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:29:47 2017 -0400
+
+    Update ITimeProvider.cpp
+
+commit 5d8e2dd1ef1b30097344ab770265bb016cced820
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:29:35 2017 -0400
+
+    Update IMinerHandler.h
+
+commit a4d24f445ab5d23998fcb2f680cec8d35adca1ac
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:29:22 2017 -0400
+
+    Update ICoreObserver.h
+
+commit f4e359545d63984d1da9259aa30d917e611bc12d
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:29:09 2017 -0400
+
+    Update ICore.h
+
+commit ed13c67c27d5fa0104d923bd0cdf7004c8359a10
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:28:57 2017 -0400
+
+    Update IBlockchainStorageObserver.h
+
+commit 44e38364214e0580e0761d29632d8933fd7d9a2c
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:28:46 2017 -0400
+
+    Update IBlock.h
+
+commit e0cac6d31c2c748f119d983f6b46d802f0d71fee
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:28:32 2017 -0400
+
+    Update IBlock.cpp
+
+commit c4af00f3ea52b3c296543809871a7ba8884664ce
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:28:20 2017 -0400
+
+    Update Difficulty.h
+
+commit b33ecc8b4706c74c434c3a9fc050b64c65ef9eba
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:28:08 2017 -0400
+
+    Update Difficulty.cpp
+
+commit 35d203202e2641ae6b14e9a762b710a7b7920b73
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:27:55 2017 -0400
+
+    Update DepositIndex.h
+
+commit b218293f65717459bd8312c63f35ae6c605edac8
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:27:42 2017 -0400
+
+    Update DepositIndex.cpp
+
+commit b163aed0a6af7e5c4b78e52866d2ac632ab592a8
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:27:29 2017 -0400
+
+    Update Currency.h
+
+commit b728942bd920cbfd5cfc8505ed9f99a0f046e1a7
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:27:18 2017 -0400
+
+    Update Currency.cpp
+
+commit 689ebfa2a706aa2a673b83879684830515dad5ec
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:27:06 2017 -0400
+
+    Update CryptoNoteTools.h
+
+commit 2960bc87312ff736f0ee03f09d8badc2a49b7c9f
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:26:53 2017 -0400
+
+    Update CryptoNoteTools.cpp
+
+commit 3072dc8c4a64bfdf7538da58e703d88476441778
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:26:42 2017 -0400
+
+    Update CryptoNoteStatInfo.h
+
+commit 40fd586b4eea180fb8ed5ae18ab12faa4d96867d
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:26:27 2017 -0400
+
+    Update CryptoNoteSerialization.h
+
+commit d07b79822cc9cfe5be7fec831832c2c9343a96db
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:26:16 2017 -0400
+
+    Update CryptoNoteSerialization.cpp
+
+commit d0752ac840a1429dc312cc70c297626a373d2978
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:26:02 2017 -0400
+
+    Update CryptoNoteFormatUtils.h
+
+commit 158dd4c92d4c8d15e738ead3edb2cf41df7299cf
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:25:50 2017 -0400
+
+    Update CryptoNoteFormatUtils.cpp
+
+commit f23573ef1aaa55c1580c4c8d8491a7713de13714
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:25:17 2017 -0400
+
+    Update CryptoNoteBasicImpl.h
+
+commit a444a7f8a5eb27f985988b27cb1ae40a0a52fb21
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:24:56 2017 -0400
+
+    Update CryptoNoteBasicImpl.cpp
+
+commit 8865d7451cfc6c79751da184f22725cacc1d3a34
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:24:24 2017 -0400
+
+    Update CryptoNoteBasic.h
+
+commit a8c8c0f7cf672b4dced6e0fd4c0219c2430c857b
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:24:08 2017 -0400
+
+    Update CryptoNoteBasic.cpp
+
+commit acd83f717a43535392149bda9893fe8bd77920eb
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:23:57 2017 -0400
+
+    Update CoreConfig.h
+
+commit 2b98560a2f5a339a968c2acbed8c8ad08221df58
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:23:44 2017 -0400
+
+    Update CoreConfig.cpp
+
+commit 997e828d1207e71dc18f7dfc1f604de26de3d79f
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:23:27 2017 -0400
+
+    Update Core.h
+
+commit e8e5ca7193e52e85106d23d26f12b9edf9095c5a
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:23:15 2017 -0400
+
+    Update Core.cpp
+
+commit 5b0fa05958608fb9446056603aaa8164545076b0
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:23:03 2017 -0400
+
+    Update Checkpoints.h
+
+commit b4e4cc9b026485151e223d14eaad35273e12530a
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:22:53 2017 -0400
+
+    Update Checkpoints.cpp
+
+commit f61f896ab1eedf4c8eabe164d28da76abc7ec1b2
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:22:34 2017 -0400
+
+    Update BlockchainMessages.h
+
+commit 6e1787196b0c1c1c0d7e0288faabc97d9bc42bd7
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:22:17 2017 -0400
+
+    Update BlockchainMessages.cpp
+
+commit 2f7698a34cc8b35bd5858a43af52d92b25efe7e6
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:19:49 2017 -0400
+
+    Update BlockchainIndices.h
+
+commit d2cb50bca2e0e89ce38cca5ff215ea7431675fd1
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:19:37 2017 -0400
+
+    Update BlockchainIndices.cpp
+
+commit 8c7a4ccb30ddc82d93057dfcba61de54d94816f0
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:18:44 2017 -0400
+
+    Update Blockchain.h
+
+commit 827dd7ae0c135abfcbbd578d193d44bf650b84ba
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:18:34 2017 -0400
+
+    Update Blockchain.cpp
+
+commit 15d5ccc9a627a0f2aa94b48418181fe1c055c2c7
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:18:23 2017 -0400
+
+    Update BlockIndex.h
+
+commit b47952e7564f96433890e2c7dba3d209635e4bb9
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:18:11 2017 -0400
+
+    Update BlockIndex.cpp
+
+commit 3178246f5e0a01202261b072dd37ad9c35630e14
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:17:29 2017 -0400
+
+    Update Account.h
+
+commit 1062e3834205a5c6a230d32a8f3cc07e092c7c3a
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:17:16 2017 -0400
+
+    Update Account.cpp
+
+commit b55096be4ad03845755f6f8240cc2696bb11e260
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:15:57 2017 -0400
+
+    Update ConnectivityTool.cpp
+
+commit 0c19d9d853526a483b392274672a39124fc4d9fa
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:15:36 2017 -0400
+
+    Update static_assert.h
+
+commit 6255b466f4b804b5c8d0513ae9867df829e5db18
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:15:24 2017 -0400
+
+    Update pod-class.h
+
+commit 78164de89e2bf0b1a84e2addeef0fdc52c3d1179
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:14:59 2017 -0400
+
+    Update int-util.h
+
+commit f8ddb7af99a31402228c2631557a1bc84a318a99
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:14:43 2017 -0400
+
+    Update VectorOutputStream.h
+
+commit 7229360d8d1e69e4f24ad262ee3daed80886fb1e
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:14:26 2017 -0400
+
+    Update VectorOutputStream.cpp
+
+commit 97d2e2bd2c439852c1eb0e05cd6910209fc07620
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:14:06 2017 -0400
+
+    Update Varint.h
+
+commit 0ba3bc694c56f58378ff16428d147e897b33070f
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:13:50 2017 -0400
+
+    Update Util.h
+
+commit e337c869b2bbbf134dbe56be10d35471ffdec57c
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:13:38 2017 -0400
+
+    Update Util.cpp
+
+commit 19872fbc3decde965416da69510dbeeb033a05ec
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:13:21 2017 -0400
+
+    Update StringView.h
+
+commit 23b481e8dc25307ec87c62a19a06795fa76dc98c
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:13:07 2017 -0400
+
+    Update StringView.cpp
+
+commit 3ff7598bacf8242a4a7043e7f2d9bf756c8579f0
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:12:57 2017 -0400
+
+    Update StringTools.h
+
+commit 00a4263dcb90f582136bcb48951ed5659f83bc48
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:12:44 2017 -0400
+
+    Update StringTools.cpp
+
+commit 4a5b97e53eacca66e12aadfc6299819864373fb1
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:12:32 2017 -0400
+
+    Update StringOutputStream.h
+
+commit 4d019a3213957dd4390917d2c068360cdd96a9db
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:12:14 2017 -0400
+
+    Update StringOutputStream.cpp
+
+commit d094550524e8c0c664a7b217ba21b8710e3c30e1
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:11:58 2017 -0400
+
+    Update StringInputStream.h
+
+commit e2414bc52af2977b0bf7f6cfd90b638897dd80c0
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:11:44 2017 -0400
+
+    Update StringInputStream.cpp
+
+commit 39fac12629ae8447c0f6c24fc8fb23e8cbe0bb22
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:11:28 2017 -0400
+
+    Update StringBuffer.h
+
+commit b3f6c6c55e97df3bc9394262b9307557b5f92e84
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:11:09 2017 -0400
+
+    Update StreamTools.h
+
+commit 20dbe60409278dd8d13f6918e0877eff726cfb1b
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:10:54 2017 -0400
+
+    Update StreamTools.cpp
+
+commit 9ab0658e5db7ec511a054bbc07ddb43b2cf8743e
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:07:44 2017 -0400
+
+    Update StdOutputStream.h
+
+commit 6cf2ee5e55c84ff805786091abe3d4ffac26ffa0
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:07:33 2017 -0400
+
+    Update StdOutputStream.cpp
+
+commit 246702a8cc3879376f564392e82a2899587d8f33
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:07:22 2017 -0400
+
+    Update StdInputStream.h
+
+commit 37ee76cfd2bee09b653b86d0b766360b0ccfcbdc
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:07:09 2017 -0400
+
+    Update StdInputStream.cpp
+
+commit b48d77f51a739d95ddbead772a6204b5b410aa7a
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:06:57 2017 -0400
+
+    Update SignalHandler.h
+
+commit 87be1bf3606e85ffefc6ba0a801c1f05ef638075
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:06:32 2017 -0400
+
+    Update SignalHandler.cpp
+
+commit 8df993c639ed2f695d67e7a5f3e6afe0fdf956f6
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:06:19 2017 -0400
+
+    Update ShuffleGenerator.h
+
+commit ef8a1415c581c2a3cf37c2f28a9975dc6b156efb
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:06:05 2017 -0400
+
+    Update ScopeExit.h
+
+commit bc6914e833a8048030129026aa593c84fe289964
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:05:51 2017 -0400
+
+    Update ScopeExit.cpp
+
+commit 4925366f0f176a77330059312be100aef1c0cee3
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:05:38 2017 -0400
+
+    Update PathTools.h
+
+commit c413163f8581bbf1a201ae077d1f4f70ab1c17d9
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:05:22 2017 -0400
+
+    Update PathTools.cpp
+
+commit 423ef5198fc848ec621021a2a43d5269b8df8fce
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:05:07 2017 -0400
+
+    Update ObserverManager.h
+
+commit c13fc6bfd86c803491bc871096840b7232454e5d
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:04:50 2017 -0400
+
+    Update MemoryInputStream.h
+
+commit 192bbc0082c3e36567dfc9d1d49f4887957db6fb
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:04:36 2017 -0400
+
+    Update MemoryInputStream.cpp
+
+commit c2013fb2f5bb92fd1cd837f33047657c8df494ed
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:04:22 2017 -0400
+
+    Update Math.h
+
+commit a6c239057749ea648137a41104d0063096166978
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:04:10 2017 -0400
+
+    Update Math.cpp
+
+commit d8ae51938c3e0617a8b7fe07328781c0ed43b528
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:03:40 2017 -0400
+
+    Update JsonValue.h
+
+commit cfde7c263e77c0edb7a5b7f33c49baff01dbc256
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:03:27 2017 -0400
+
+    Update JsonValue.cpp
+
+commit ef2f56ad6a91f05140af1e974c3efc5c138e4785
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:03:08 2017 -0400
+
+    Update IOutputStream.h
+
+commit acc0092dd8800379a07c674c9e76cf89b68e9c48
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:02:53 2017 -0400
+
+    Update IOutputStream.cpp
+
+commit 14fdcd68e2ade7b2d45cdb56ec239824b243eb7c
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:02:38 2017 -0400
+
+    Update IInputStream.h
+
+commit de7679d8e9239bb1c3215ae2a29cf334c27df800
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:02:24 2017 -0400
+
+    Update IInputStream.cpp
+
+commit 6e4ff897af851f59328783c6ea94d59aaba0e569
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:00:16 2017 -0400
+
+    Update ConsoleTools.h
+
+commit e23b947fdbc56dbd591101afa065999cb2e1ea72
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 22:00:04 2017 -0400
+
+    Update ConsoleTools.cpp
+
+commit 326582a893b8f169c78501ce09f4ba2f6d3321da
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 21:59:49 2017 -0400
+
+    Update ConsoleHandler.h
+
+commit 32929911e404a2f918ee0618f72e1cd314f277d3
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 21:59:34 2017 -0400
+
+    Update ConsoleHandler.cpp
+
+commit 3465cd825baf28c6999fc64521fc1619e345b9b1
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 21:59:22 2017 -0400
+
+    Update CommandLine.h
+
+commit 3c3bf994a08b5fc3730a1c0b439609661ce05b2c
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 21:59:10 2017 -0400
+
+    Update CommandLine.cpp
+
+commit f0c464d42f06a10855d1b94b1d71606311843015
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 21:58:55 2017 -0400
+
+    Update BlockingQueue.h
+
+commit 6b4fd59f8ceb2353c48da26e17c685f8eeaa5893
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 21:58:41 2017 -0400
+
+    Update BlockingQueue.cpp
+
+commit d02d7427f9923b9fc6270663c272f44632786305
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 21:58:30 2017 -0400
+
+    Update Base58.h
+
+commit 6b31e3caf4da36c0710389fcb2bf09a6e93ae340
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 21:58:13 2017 -0400
+
+    Update Base58.cpp
+
+commit cecf2b468626182addaaa9ee60af83befe15238f
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 21:57:59 2017 -0400
+
+    Update ArrayView.h
+
+commit 79d4c6d79b22ca2106bfdb32fd3706ef3e7a98f1
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 21:57:44 2017 -0400
+
+    Update ArrayRef.h
+
+commit 628c031f61a2e2be50d50deb2cfc586b807df68c
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 01:49:57 2017 -0400
+
+    Update BlockchainExplorerErrors.h
+
+commit 4a14ba0cb82638b011d2b0c84176a888516a6eaf
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 01:49:46 2017 -0400
+
+    Update BlockchainExplorerErrors.cpp
+
+commit 52c37cc1b2e7e8e5865b7b4ce440600b98b0984d
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 01:49:32 2017 -0400
+
+    Update BlockchainExplorerDataBuilder.h
+
+commit 4cf2d906d77211b67e298edbc8077ce37ebc849a
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 01:49:20 2017 -0400
+
+    Update BlockchainExplorerDataBuilder.cpp
+
+commit f0510d6c2569e0b12e8dfa15f606098bd1856a0d
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 01:49:07 2017 -0400
+
+    Update BlockchainExplorer.h
+
+commit 61846c4e4abe94f701ca22a8199df3263747af26
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 01:48:48 2017 -0400
+
+    Update BlockchainExplorer.cpp
+
+commit 46d794feb6d155ff642d7b1c4478d67a0dd8464b
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 01:47:41 2017 -0400
+
+    Update IWalletLegacy.h
+
+commit 5a942657e23cfbf0e90294160dceb15b9a67671f
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 01:47:28 2017 -0400
+
+    Update IWallet.h
+
+commit 618d10a78c9c2b63ee8e6742f0b6a85ca0f93b8e
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 01:47:14 2017 -0400
+
+    Update ITransfersSynchronizer.h
+
+commit 7d504e263cdfcedda3065951fa9b9fd6e610cf04
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 01:47:01 2017 -0400
+
+    Update ITransfersContainer.h
+
+commit 89a8bdf8388665d76da974afc6766bce604b3498
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 01:46:47 2017 -0400
+
+    Update ITransaction.h
+
+commit 2fd7d27b54ebc2dbad8986ecef54463d2c104c9d
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 01:46:07 2017 -0400
+
+    Update IStreamSerializable.h
+
+commit b346eeda999a30136d123709359752a32a2bdf4c
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 01:45:47 2017 -0400
+
+    Update IObservable.h
+
+commit ac3b8fe9b7c94eaf25c1866a6d3c3477db279b6b
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 01:45:34 2017 -0400
+
+    Update INode.h
+
+commit a0ea08fbe3c579fad0472791415068831f5aa439
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 01:45:22 2017 -0400
+
+    Update IBlockchainExplorer.h
+
+commit a3fb58a5d7cc4d6ffb2f12a1c41656422a7ed6c9
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 01:45:08 2017 -0400
+
+    Update CryptoTypes.h
+
+commit 8d1fcfdb3561c03c4af9bd9bed3bddd013b05362
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 01:44:55 2017 -0400
+
+    Update CryptoNote.h
+
+commit 53ef3f63986225210e8b0dbae4c525247da9b201
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 01:44:30 2017 -0400
+
+    Update BlockchainExplorerData.h
+
+commit 3492be499b09002d2baaf7b7451eefcd8c009b26
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 01:39:23 2017 -0400
+
+    Update SignalHandler.h
+
+commit 8245d7adf1c0b97af4c6753866ed3a09fa5693b5
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 01:38:54 2017 -0400
+
+    Update SignalHandler.cpp
+
+commit 99294eef92149e610a9057b5b2e77e01a8804242
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 01:38:36 2017 -0400
+
+    Update ShuffleGenerator.h
+
+commit 9a2764c1e6b692ce1a7067cbe6f3df9b353d8cb0
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 01:38:17 2017 -0400
+
+    Update ScopeExit.h
+
+commit 584bb1226cfe4b8a0f2dc47c01465a21fddd87b7
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 01:37:50 2017 -0400
+
+    Update ScopeExit.cpp
+
+commit d3c0a6dc0e85f404994166952e2b1e41fc498541
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 01:37:38 2017 -0400
+
+    Update PathTools.h
+
+commit 2f519e0d9ea757367a7dae1eefe16851c15af17b
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 01:37:01 2017 -0400
+
+    Update PathTools.cpp
+
+commit 09455d85145970bb797981ccb3498420ba89cbb3
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 01:35:56 2017 -0400
+
+    Update ObserverManager.h
+
+commit ad9abb5057bc0a6e92d700e512c1c006d7d5135e
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 01:35:35 2017 -0400
+
+    Update MemoryInputStream.h
+
+commit 0095411805690b676a85cc5cef15f1cfd83fd9cb
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 01:35:19 2017 -0400
+
+    Update MemoryInputStream.cpp
+
+commit 0dc0827c43e9dccd59fb3cf0d8869fa8a639a7fb
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 01:35:05 2017 -0400
+
+    Update Math.h
+
+commit 4707fbdec802cd781b64328cb1fb1b3d3c00bb37
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 01:34:26 2017 -0400
+
+    Update Math.cpp
+
+commit b40fcb0ff49aa0b3caf351f63455d14013e0b252
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 01:34:11 2017 -0400
+
+    Update JsonValue.h
+
+commit 98edac089ea10d95f7cf53d487ce9513055435ad
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 01:33:58 2017 -0400
+
+    Update JsonValue.cpp
+
+commit c5b1d758177314962f3d21b73993908982519a78
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 01:33:46 2017 -0400
+
+    Update IOutputStream.h
+
+commit f556f7875f0778cefbcda3eadb4adb4112dd56f6
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 01:33:32 2017 -0400
+
+    Update IOutputStream.cpp
+
+commit bd76617fffc656f4dd09beb149e04d62843fd13c
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 01:32:49 2017 -0400
+
+    Update IInputStream.h
+
+commit 0ee361b2bca9889f9d9475c4aa93b3313b6dae1f
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 01:32:06 2017 -0400
+
+    Update IInputStream.cpp
+
+commit 9c330342de717a89ccf47cc5351d7658416d3c67
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 01:31:46 2017 -0400
+
+    Update ConsoleTools.h
+
+commit cbafb8a4345bb696d91d7d3e22afdab36619a71d
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 01:31:25 2017 -0400
+
+    Update ConsoleTools.cpp
+
+commit 457fe48339ab868f32de48b40c2834ca60db1385
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 01:28:45 2017 -0400
+
+    Update ConsoleHandler.h
+
+commit 8b9d28ea9a34b2b10ab5df5748324fbc2a593d55
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 01:28:23 2017 -0400
+
+    Update ConsoleHandler.cpp
+
+commit 717729cd55424ed965e45f00b64effe1908af32b
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 01:28:11 2017 -0400
+
+    Update CommandLine.h
+
+commit 5ba94cb1ff507a0b8d9d4c9d0e90b9679dd4d241
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 01:27:54 2017 -0400
+
+    Update CommandLine.cpp
+
+commit ba496f2059cdecede91d74cfff748a341ebc6edd
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 01:27:41 2017 -0400
+
+    Update BlockingQueue.h
+
+commit b8e1c2c0cf079ddf0347dd438eb98828ef6a7fe4
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 01:27:23 2017 -0400
+
+    Update BlockingQueue.cpp
+
+commit 18b380bfa92625caf5bb6bde7933545821598e79
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 01:26:49 2017 -0400
+
+    Update Base58.h
+
+commit 5557773a9b9aa96d68037b57c8e02536a270a31d
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 01:26:34 2017 -0400
+
+    Update Base58.cpp
+
+commit 674ec435499527c03e527198eb942a8ef831c952
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 01:26:21 2017 -0400
+
+    Update ArrayView.h
+
+commit 673e753a7a6ee62222d707ea4128f6a158715d91
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 01:25:54 2017 -0400
+
+    Update ArrayRef.h
+
+commit acea5598d4d3171c72b1959bd6ca3727e983011a
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 01:25:28 2017 -0400
+
+    Update BlockchainExplorerErrors.h
+
+commit 413d635f71f3c373eb70d8d0203b1afc02184260
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 01:25:15 2017 -0400
+
+    Update BlockchainExplorerErrors.cpp
+
+commit 33497cb9028a55102e0174b7868ebb148cd41e92
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 01:24:56 2017 -0400
+
+    Update BlockchainExplorerDataBuilder.h
+
+commit 8f58a0c94131f1b4c9c7f870a14166930cf1db5f
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 01:24:40 2017 -0400
+
+    Update BlockchainExplorerDataBuilder.cpp
+
+commit 8e490e1b21bd74dd641f9199a17987a36b544dfa
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 01:24:29 2017 -0400
+
+    Update BlockchainExplorer.h
+
+commit 9c80cf6cdec1858d46b41ff79d964d9deabaa0a2
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 01:23:39 2017 -0400
+
+    Update BlockchainExplorer.cpp
+
+commit 6130acd49cb499b3bbf5982adbb759f2c9a61e04
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 01:22:25 2017 -0400
+
+    Update IWalletLegacy.h
+
+commit 01b1e0bbe3e3d2e33e3b4c72196867519bfd2124
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 01:22:07 2017 -0400
+
+    Update IWallet.h
+
+commit 60c19edf693fc86427b623c187a8f3cae6ea39af
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 01:21:52 2017 -0400
+
+    Update ITransfersSynchronizer.h
+
+commit 97cdeb57160ff234bd56b7472200fde8c0bbac00
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 01:21:39 2017 -0400
+
+    Update ITransfersContainer.h
+
+commit 48ef918cf14c55d167a2017ffd9c52c9e14cd27f
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 01:21:23 2017 -0400
+
+    Update ITransaction.h
+
+commit 7b5a2c1fbaaf61a5c170b338a18f180f922482ca
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 01:21:04 2017 -0400
+
+    Update IStreamSerializable.h
+
+commit 777f6a47047febc4a2aba2140f46bddafac2830e
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 01:20:44 2017 -0400
+
+    Update IObservable.h
+
+commit 0676903e4c33b096b0120275ee6ddcf09a46d4b4
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 01:20:26 2017 -0400
+
+    Update INode.h
+
+commit 90ea4d41fad1267cd71f58a0ef65a865e3976c0a
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 01:17:06 2017 -0400
+
+    Update IBlockchainExplorer.h
+
+commit 7f5a71de44d29772ae84e8ecd318cc23d27f0b92
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 01:13:42 2017 -0400
+
+    Update CryptoTypes.h
+
+commit e7c7fbf3606a3b1bf9a25b34e9d08494433fdc3e
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 01:11:26 2017 -0400
+
+    Update CryptoNote.h
+
+commit 8026ec0bce27a5c11bc6d48624d3cf6d1b0607f7
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 01:10:30 2017 -0400
+
+    Update BlockchainExplorerData.h
+
+commit 0c533a6c1b71d6e7fd9b32d7de66270eff2255ea
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 00:59:45 2017 -0400
+
+    Update README.md
+
+commit 6e515b86861618c693214bee8db6f079c466a119
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Fri Apr 21 00:52:17 2017 -0400
+
+    Update about.txt
+
+commit 73505dc25b55530720854c4ef52d5488dd6d841e
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Wed Apr 19 16:57:46 2017 -0400
+
+    premine
+
+commit f8a592d2d553ffb64ce54d67fba2d34611b79cb8
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Wed Apr 19 16:55:51 2017 -0400
+
+    premine
+
+commit f21bef254258f80ac3c37559629522384f4c65cc
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Wed Apr 19 16:48:02 2017 -0400
+
+    premine
+
+commit 532b89331c0f2d21c9db31c996b284a481113cdd
+Author: Vetro7 <ericvesprini@yahoo.com>
+Date:   Wed Apr 19 16:38:46 2017 -0400
+
+    Changing over
+
+commit 939d94d59b28474310c6c792e4dc7b259942e3f9
+Author: lulworm <lulworm@gmail.com>
+Date:   Sun Mar 26 11:20:14 2017 +0000
+
+    Updated seed nodes.
+
+commit 40f38da465dfa6a3980fc8bd3a3de53256c326a1
+Author: lulworm <lulworm@gmail.com>
+Date:   Mon May 16 13:23:47 2016 +0000
+
+    Update CryptoNoteConfig.h
+
+commit f391be652ae6c3a4067e6e4f3d0d3ba87d463e73
+Author: Nasser Sagoe <Nasser Sagoe>
+Date:   Mon May 16 02:35:35 2016 +0000
+
+    name change
+
+commit a0205923611d231cfd790e1fa841f0cc4a04aca6
+Author: Nasser Sagoe <Nasser Sagoe>
+Date:   Mon May 16 02:19:23 2016 +0000
+
+    First commit

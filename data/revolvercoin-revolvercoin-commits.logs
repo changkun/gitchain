@@ -1,0 +1,23 @@
+commit 05098f04e56afe6f4e72a7a2ecc514a8a38c499d
+Author: RevolverCoin <andy.sevens.777@gmail.com>
+Date:   Fri Aug 5 10:54:26 2016 -0400
+
+    Updated latest checkpoints
+
+commit 0cd09e7537e489bc33f2a8954f835eee715712ec
+Author: RevolverCoin <andy.sevens.777@gmail.com>
+Date:   Thu Aug 4 14:33:14 2016 -0400
+
+    Fixed execute permissions
+
+commit e2729df9627fe1f77df6c6fe347d9c1497a8133f
+Author: RevolverCoin <andy.sevens.777@gmail.com>
+Date:   Sat May 28 14:16:41 2016 +0300
+
+    RevolverCoin initial commit
+
+commit 3e054df1ef0aed3e7b8696124eb52d68a87644cf
+Author: RevolverCoin <andy.sevens.777@gmail.com>
+Date:   Sat May 28 13:16:18 2016 +0300
+
+    Initial commit

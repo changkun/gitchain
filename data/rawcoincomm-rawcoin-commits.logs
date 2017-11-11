@@ -1,0 +1,41 @@
+commit b2d2dba6e219e28ccb328c88b33e414af8c60402
+Author: rawcoincomm <rawcointakeover@gmail.com>
+Date:   Sat Aug 16 09:22:34 2014 +0100
+
+    Delete RawCoin-qt.pro.user
+
+commit f480849082a88a460a5c91255472bbc078e7fa63
+Author: rawcoincomm <rawcointakeover@gmail.com>
+Date:   Sat Aug 16 09:21:08 2014 +0100
+
+    rollback the fork
+
+commit 6892b7e83a70733f9766dcc61f6f02a1a813f87e
+Author: rawcoincomm <rawcointakeover@gmail.com>
+Date:   Sat Aug 16 09:11:33 2014 +0100
+
+    cleaned some files
+
+commit 8ab8bdcf3419fce998175683a710dbf9fe061415
+Author: rawcoincomm <rawcointakeover@gmail.com>
+Date:   Fri Aug 15 02:19:33 2014 +0100
+
+    fork@69000
+
+commit 79825a77df386f9add68584c1fac7c85437c0957
+Author: rawcoincomm <rawcointakeover@gmail.com>
+Date:   Thu Aug 7 18:57:03 2014 +0100
+
+    Update README.md
+
+commit bae9469ac57374a194fb6b7e87e778f2ebdfdc62
+Author: rawcoincomm <rawcointakeover@gmail.com>
+Date:   Thu Aug 7 18:56:18 2014 +0100
+
+    Delete RawCoin-qt.pro.user
+
+commit 9f3d7fd28b8417583d44d98dbc0127ae80ec99fd
+Author: rawcoincomm <rawcointakeover@gmail.com>
+Date:   Thu Aug 7 18:54:17 2014 +0100
+
+    first commit

@@ -1,0 +1,263 @@
+commit d9e145e56944224ecc858960dc725b3705d6a611
+Author: Tillkoeln <Till_Noske@msn.com>
+Date:   Sat Sep 9 00:42:20 2017 +0200
+
+    Install QT
+
+commit fabb561bce01c68a7cc00aaec3840305d55545c9
+Author: TillKoeln <Till_Noske@msn.com>
+Date:   Fri Jun 16 01:39:18 2017 +0200
+
+    Updated Nodes
+
+commit eafb7bd2554a93fc5ffa8f1105d19846644981c8
+Author: TillKoeln <Till_Noske@msn.com>
+Date:   Fri Jun 16 01:12:23 2017 +0200
+
+    VERSION = 0.9.1
+    
+    Clean up & removed old files.
+    updated standalone Windows GUI Wallet
+
+commit db62157dc56be9111827d5b2ecb599faa7774707
+Author: Tillkoeln <Till_Noske@msn.com>
+Date:   Fri Mar 31 17:24:57 2017 +0200
+
+    Update README.md
+
+commit 68964aa4a2404ec772597188d3410069923f7b84
+Author: Tillkoeln <Till_Noske@msn.com>
+Date:   Fri Mar 31 12:43:39 2017 +0200
+
+    Update README.md
+
+commit baba3b079b5ea4275e57111b61f3016564c1eb59
+Author: Tillkoeln <Till_Noske@msn.com>
+Date:   Fri Mar 31 12:38:42 2017 +0200
+
+    Update README.md
+
+commit cd7de96bb39189f94a1ff469201eb506268d953f
+Author: Tillkoeln <Till_Noske@msn.com>
+Date:   Fri Mar 31 12:38:19 2017 +0200
+
+    Update README.md
+
+commit 52f6fc06ea5e8e7cfc841377ca3b796754f16ee0
+Author: Tillkoeln <Till_Noske@msn.com>
+Date:   Fri Mar 31 12:29:27 2017 +0200
+
+    Update README.md
+
+commit 02b49a9a23a0f3d4a74f92d4ef221c16772312e8
+Author: Tillkoeln <Till_Noske@msn.com>
+Date:   Sun Mar 26 06:55:40 2017 +0200
+
+    Update README.md
+
+commit 77851b38d949f27685f3137a67da01105321173d
+Author: Tillkoeln <Till_Noske@msn.com>
+Date:   Sun Mar 26 05:40:19 2017 +0200
+
+    client 0.0.7 Screenshots
+
+commit d5b8a2aa7f6addaafd92045405573767fc189f06
+Author: Tillkoeln <Till_Noske@msn.com>
+Date:   Sun Mar 26 03:47:02 2017 +0200
+
+    latest screenshots
+
+commit 84e28b1643ce2eea77f4b757a1decff0d0c8470f
+Author: PiesenRenis <PiesenRenis@msn.com>
+Date:   Fri Mar 24 09:13:52 2017 +0100
+
+    x
+
+commit d6f6d1a7408f939ea66c426e8521e1b10f81b002
+Author: TillKoeln <Till_Noske@msn.com>
+Date:   Thu Mar 16 00:17:12 2017 +0100
+
+    x
+
+commit d4f21efb1d0a8a3d98ab72be8e95b81800380cb4
+Author: TillKoeln <Till_Noske@msn.com>
+Date:   Thu Mar 16 00:14:18 2017 +0100
+
+    x
+
+commit cb45b74c2a933e56e4464dfd0510267a07df140a
+Author: TillKoeln <Till_Noske@msn.com>
+Date:   Thu Mar 16 00:11:00 2017 +0100
+
+    x
+
+commit e75c2ac0357d0ea62391d1dc7cfd5d3540ce0926
+Author: TillKoeln <Till_Noske@msn.com>
+Date:   Wed Mar 15 22:21:28 2017 +0100
+
+    xx
+
+commit b87ef1d36d73c7c08502fc5e6269b59128f33309
+Author: TillKoeln <Till_Noske@msn.com>
+Date:   Wed Mar 15 22:17:49 2017 +0100
+
+    x
+
+commit 899ebc66b881929025db9e61f312b777f39c51b3
+Merge: 2f1c35c ee911f3
+Author: TillKoeln <Till_Noske@msn.com>
+Date:   Wed Mar 15 22:14:25 2017 +0100
+
+    Merge branch 'master' of https://github.com/Tillkoeln/x
+
+commit 2f1c35c0bf71a84ebb4394d8d939624125270fca
+Author: TillKoeln <Till_Noske@msn.com>
+Date:   Wed Mar 15 22:13:46 2017 +0100
+
+    x
+
+commit ee911f377b8d75cbba1bf9054f77477e0cdb18db
+Author: Tillkoeln <Till_Noske@msn.com>
+Date:   Wed Mar 8 18:57:44 2017 +0100
+
+    Update README.md
+
+commit 42220b5973deb8df811b917348381033ae816f60
+Author: Tillkoeln <Till_Noske@msn.com>
+Date:   Sat Mar 4 16:45:43 2017 +0100
+
+    Update README.md
+
+commit 2b28cb66de374cb33d7352117b9369d1c7b51a4c
+Author: Tillkoeln <Till_Noske@msn.com>
+Date:   Sat Mar 4 16:44:58 2017 +0100
+
+    small changes, please use the latest client
+    
+    small changes, please use the latest client
+
+commit e24a020921e069ce76a3aabe602d7c87094592c3
+Author: Tillkoeln <Till_Noske@msn.com>
+Date:   Sat Mar 4 01:35:47 2017 +0100
+
+    Update Status-Overview
+
+commit d7005c7a3b3679df3c5f31ca6b129db61c125ab1
+Author: Tillkoeln <Till_Noske@msn.com>
+Date:   Sat Mar 4 01:35:21 2017 +0100
+
+    Update README.md
+
+commit 27ff6903f487203b552a474fc3b5bebd99c6baa4
+Author: Tillkoeln <Till_Noske@msn.com>
+Date:   Fri Mar 3 02:20:36 2017 +0100
+
+    Speed up staking by caching transaction ID hashes.
+    
+    Speed up staking by caching transaction ID hashes.
+
+commit 8dc2750bc8814dc1ebd4b50242b5b94b08a2c54e
+Author: Tillkoeln <Till_Noske@msn.com>
+Date:   Fri Mar 3 02:14:58 2017 +0100
+
+    Update main.h
+    
+    Speed up staking by caching transaction ID hashes
+
+commit 37192cb7403c06e6051f7d8e840d99b48db2a190
+Author: Tillkoeln <Till_Noske@msn.com>
+Date:   Fri Mar 3 02:12:06 2017 +0100
+
+    Create wallet.cpp
+
+commit e6a838abbc6faa9edeefd4e094f7bf8bde0daf60
+Author: Tillkoeln <Till_Noske@msn.com>
+Date:   Fri Mar 3 02:11:12 2017 +0100
+
+    Create main.h
+
+commit e1c2a795165b93b5f7423d07c5c7219afc3fe746
+Author: Tillkoeln <Till_Noske@msn.com>
+Date:   Fri Mar 3 02:08:23 2017 +0100
+
+    Delete src
+
+commit f9fa6e6a9ce5af7d3bad981c70cc8d8c78441690
+Author: Tillkoeln <Till_Noske@msn.com>
+Date:   Fri Mar 3 02:08:05 2017 +0100
+
+    Create src
+
+commit 13635064057c7d41136189c9ae0cbec68fd50eed
+Author: Tillkoeln <Till_Noske@msn.com>
+Date:   Fri Mar 3 01:56:39 2017 +0100
+
+    Create README
+
+commit 8e2dd9ff7b850f01f7ad2619dca1dfd19d8f6386
+Author: Tillkoeln <Till_Noske@msn.com>
+Date:   Thu Mar 2 17:17:49 2017 +0100
+
+    Update README.md
+
+commit 7b3aa4b1731dce7f37b72a81fd58800aa137e422
+Author: Tillkoeln <Till_Noske@msn.com>
+Date:   Thu Mar 2 17:17:30 2017 +0100
+
+    Update README.md
+
+commit 2276df9dc0d25e242a64322c7e00bba720a02bae
+Author: Tillkoeln <Till_Noske@msn.com>
+Date:   Thu Mar 2 17:17:01 2017 +0100
+
+    Create Status-Overview
+    
+    curent status
+
+commit 6e7bedce1dfd148ddc8b49989f562e8d9f06cdb4
+Author: TillKoeln <Till_Noske@msn.com>
+Date:   Tue Feb 28 19:31:00 2017 +0100
+
+    How to build the Compile enviroment on Windows
+
+commit 90243e6fac405de6d1e4bf48006d60d1cf6a2241
+Author: TillKoeln <Till_Noske@msn.com>
+Date:   Tue Feb 28 19:01:29 2017 +0100
+
+    Move Whitepaper
+
+commit 9910d89a280846b20265f3f06a89e37b078a5974
+Author: Tillkoeln <Till_Noske@msn.com>
+Date:   Sat Feb 11 08:58:28 2017 +0100
+
+    Create README.md
+
+commit 4c4a49f9b9c3608739003d05e04dd617a1a8b7e7
+Author: Tillkoeln <Till_Noske@msn.com>
+Date:   Sat Feb 11 08:06:15 2017 +0100
+
+    Add files via upload
+
+commit ed527f4013e547e08f6f8903d7bcf51cd879a30d
+Author: Tillkoeln <Till_Noske@msn.com>
+Date:   Sat Feb 11 07:50:41 2017 +0100
+
+    Add files via upload
+
+commit a004996d1eab4f265356d888425d488d4dde9838
+Author: Tillkoeln <Till_Noske@msn.com>
+Date:   Sat Feb 11 06:22:12 2017 +0100
+
+    Update Project-X
+
+commit 6a977e95653bbdaa3b1b9838107e292e9e5f4116
+Author: Tillkoeln <Till_Noske@msn.com>
+Date:   Sat Feb 11 04:22:20 2017 +0100
+
+    Create Project-X
+
+commit 93e5936e9f26c7061c6c8106beae277870e9c917
+Author: 2017 <2017>
+Date:   Wed Feb 8 18:06:35 2017 +0100
+
+    up

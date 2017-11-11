@@ -1,0 +1,162 @@
+commit f9960f08ab024fccd1e1d4ad6d2f6c78d5907040
+Author: RussiaCoin RC V1.1 <RussiaCoinDotInfo@users.noreply.github.com>
+Date:   Sat Jun 24 18:51:53 2017 +1000
+
+    Ver 1.2.0.1
+    
+    Change CLIENT_VERSION_MINOR from zero to two
+
+commit e40de6073f22513d68976b648156f75a3c633060
+Author: RussiaCoin RC V1.1 <RussiaCoinDotInfo@users.noreply.github.com>
+Date:   Sat Jun 24 18:07:21 2017 +1000
+
+    Ver 1.2.0.1
+    
+    DISPLAY_VERSION_MINOR zero to two
+
+commit 203a5c9cc79e114b02404be0631e226494142985
+Author: RussiaCoin RC V1.1 <RussiaCoinDotInfo@users.noreply.github.com>
+Date:   Sat Jun 24 17:53:47 2017 +1000
+
+    Ver 1.2.0.1
+    
+    change "expensive" to "wealth"
+
+commit dd6fa4279555357cb053b309921621f093fefde0
+Author: RussiaCoin RC V1.1 <RussiaCoinDotInfo@users.noreply.github.com>
+Date:   Sat Jun 24 17:37:50 2017 +1000
+
+    Ver 1.2.0.1
+    
+    Typo in text
+
+commit f05bcbb9887e66e0c4fffdb7b35d7b5b367d656c
+Author: RussiaCoin RC V1.1 <RussiaCoinDotInfo@users.noreply.github.com>
+Date:   Sat Jun 24 17:36:47 2017 +1000
+
+    Version 1.2.0.1
+    
+    Typo in text
+
+commit d554bbbbb901733340ed1b1f5f3db77c8c63f824
+Author: RussiaCoin RC V1.1 <RussiaCoinDotInfo@users.noreply.github.com>
+Date:   Sat Jun 24 17:29:52 2017 +1000
+
+    Ver 1.2.0.1
+    
+    Updated copyright 2014 -2018
+
+commit 5c328378e4ecd1d9fcf6a505caf83c6019036ddb
+Author: RussiaCoin RC V1.1 <RussiaCoinDotInfo@users.noreply.github.com>
+Date:   Sat Jun 24 17:27:12 2017 +1000
+
+    Ver 1.2.0.1
+    
+    Updated Copyright 2014-2018
+
+commit 53de3ed9d9778d91091f24fd877f40415e7edcca
+Author: RussiaCoin RC V1.1 <RussiaCoinDotInfo@users.noreply.github.com>
+Date:   Sat Jun 24 17:24:33 2017 +1000
+
+    Ver 1.2.0.1
+    
+    Spelling mistake ;)
+
+commit 656779a1fe275921893dc0cfd9b8b8cc84fa7e16
+Author: RussiaCoin RC V1.1 <RussiaCoinDotInfo@users.noreply.github.com>
+Date:   Sat Jun 24 17:21:07 2017 +1000
+
+    Ver 1.2.0.1
+    
+    Time Zone fix-up
+
+commit 17de2c38d866d19a3e8e1d9a2819a7c9a4cf782b
+Author: RussiaCoin RC V1.1 <RussiaCoinDotInfo@users.noreply.github.com>
+Date:   Sat Jun 24 17:16:40 2017 +1000
+
+    Ver 1.2.0.1
+    
+    Spelling correction ;)
+
+commit edb6ed276ec92b2f4a4654ce76de2b8329172727
+Author: RussiaCoin RC V1.1 <RussiaCoinDotInfo@users.noreply.github.com>
+Date:   Sat Jun 24 17:15:42 2017 +1000
+
+    Ver 1.2.0.1
+    
+    Correct spelling mistake ;)
+
+commit 946b1e22f737def5d9aa8755e77f4948b327286c
+Author: RussiaCoin RC V1.1 <RussiaCoinDotInfo@users.noreply.github.com>
+Date:   Sat Jun 24 13:02:44 2017 +1000
+
+    Ver 1.2.0.1
+    
+    Update copyright 2014-2018
+
+commit 56b757806c0434b4282bdc6ee515cfe3613c474c
+Author: RussiaCoin RC V1.1 <RussiaCoinDotInfo@users.noreply.github.com>
+Date:   Sat Jun 24 12:55:44 2017 +1000
+
+    Ver 1.2.0.1
+    
+    Added 2014-2018 copyright details
+
+commit c726ed42a1c5556958394ec9582d104796ee0828
+Author: RussiaCoin RC V1.1 <RussiaCoinDotInfo@users.noreply.github.com>
+Date:   Sat Jun 24 12:52:03 2017 +1000
+
+    Ver 1.2.0.1
+    
+    Fixed spelling mistake ;)
+
+commit d1cd6ed2c271448d66f2b5f91a35368077dd08fe
+Author: RussiaCoin RC V1.1 <RussiaCoinDotInfo@users.noreply.github.com>
+Date:   Sat Jun 24 11:54:36 2017 +1000
+
+    Ver 1.2.0.1
+    
+    Spelling mistake ;)
+
+commit 99ecc573443ff1009fa99c56cf54500fc6ac4b6d
+Author: RussiaCoin RC V1.1 <RussiaCoinDotInfo@users.noreply.github.com>
+Date:   Sat Jun 24 11:14:12 2017 +1000
+
+    Update README
+    
+    Update version number
+
+commit e77f61b50ddfee2020548d9d6309823006ce0f55
+Author: RussiaCoin RC V1.1 <RussiaCoinDotInfo@users.noreply.github.com>
+Date:   Sat Jun 24 11:06:30 2017 +1000
+
+    Update README_windows.txt
+    
+    addnode=76.74.177.199 and website http://www.RussiaCoin.Info/ updates
+
+commit 7944270c5e5f9de6b179d7400f5bfc25b0883e32
+Author: RussiaCoin RC V1.1 <RussiaCoinDotInfo@users.noreply.github.com>
+Date:   Sat Jun 24 10:56:04 2017 +1000
+
+    Update README.md
+    
+    Added information about the Version 1.2 update (add node etc), website and social media
+
+commit bcbdb9b4b62c6a68d9d660f371041eb5d6a6dc6a
+Author: lavajumper <lavajumper@lavajumper.com>
+Date:   Wed May 31 18:23:07 2017 -0400
+
+    removing 'bliat' references where possible
+
+commit bfca243a84dd3acdc05d8c318f84603cc6534a64
+Author: lavajumper <lavajumper@lavajumper.com>
+Date:   Fri Oct 28 15:51:01 2016 -0400
+
+    Fix chain download issue.
+    Fix staking during catchup issue.
+
+commit 8f1cb0cc5c1bf9b9ae0a2c7234dcc8354394fbc1
+Author: nik0lay <mac@sparta.(none)>
+Date:   Mon Jun 9 02:07:05 2014 +0200
+
+    RC v1.0.0.1 release

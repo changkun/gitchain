@@ -1,0 +1,1636 @@
+commit ca1edcf550dcda8aa4f52aad44fb8173632956c8
+Author: noise23 <admin@acidpool.com>
+Date:   Tue May 23 00:57:16 2017 +0300
+
+    Optimize bootstrapping
+
+commit a9fd2a25efc40fea65bee7faae22bfc77c94d82f
+Author: noise23 <admin@acidpool.com>
+Date:   Wed May 17 02:37:33 2017 +0300
+
+    Build fix
+
+commit 4ca08fea8b6f324937f942cbc7af545496c4a88a
+Author: noise23 <admin@acidpool.com>
+Date:   Tue May 16 01:22:05 2017 +0300
+
+    Update copyright year to 2017
+
+commit 1e86bf634194a4ad3373a35ace7202bd719f5c7b
+Author: noise23 <admin@acidpool.com>
+Date:   Tue May 16 00:18:38 2017 +0300
+
+    Add checkpoint at 1008090, v.1.0.1.0
+
+commit e068f58816dbcac1dc60a33c377abfdde096a1c9
+Author: noise23 <admin@acidpool.com>
+Date:   Tue May 16 00:02:00 2017 +0300
+
+    Fix Linux GUI bug
+
+commit 780ff9032e7e639aa56d84289aa196f4940cc4a6
+Author: noise23 <admin@acidpool.com>
+Date:   Mon Mar 7 02:48:12 2016 +0200
+
+    Fix mingw build
+
+commit 390b1f59d05db0f5fa11f9ac6b2126aea7b87e04
+Author: noise23 <admin@acidpool.com>
+Date:   Sat Mar 5 01:53:24 2016 +0200
+
+    v1.0
+
+commit 6168de252df3e2590f4bfc4fbc05b888f55f003f
+Author: noise23 <admin@acidpool.com>
+Date:   Thu Mar 3 02:20:35 2016 +0200
+
+    New checkpoints and alert keys
+
+commit 07f352c583ffcc5012777b4ba02b721e1126fc2e
+Author: noise23 <admin@acidpool.com>
+Date:   Sat Jan 23 16:56:27 2016 +0200
+
+    Prevent invalid memory access on crafted signature
+
+commit 078c498dbb60fbc3cc9b0506aad6c52860583ed5
+Author: noise23 <admin@acidpool.com>
+Date:   Sun Jan 10 18:10:48 2016 +0200
+
+    Update copyright year
+
+commit 7a013be46275ac2e2572f79b970bb1a6674d870b
+Author: noise23 <admin@acidpool.com>
+Date:   Sun Jan 10 18:03:25 2016 +0200
+
+    Increase splitthreshold limit 300 default 10000 max
+
+commit 77f78f49ff4b6a608899987765a1fe5c8a7e7e6a
+Author: noise23 <admin@acidpool.com>
+Date:   Fri Dec 11 16:35:30 2015 +0200
+
+    Increase splitthreshold limit 200 default 2000 max
+
+commit 84aeeea14ac8af2b86d05b697b05d43aa965bb66
+Merge: db5a733 b110b97
+Author: noise23 <noise23@users.noreply.github.com>
+Date:   Tue Nov 17 04:44:31 2015 +0200
+
+    Merge pull request #2 from lightsplasher/master
+    
+    Added a total to transaction view
+
+commit b110b970e4f6b0578d458f2490429cb56c9aece7
+Author: Lightsplasher <bert@lightsplasher.com>
+Date:   Sun Nov 15 21:23:30 2015 -0800
+
+    Added a total to transaction view
+
+commit db5a73350b3a3c6b8604c2f2831411ff2753b55b
+Author: noise23 <admin@acidpool.com>
+Date:   Thu Nov 12 03:51:25 2015 +0200
+
+    v0.9.9.0
+
+commit 5bfeab6ff17fa0c73308222929411c22f8925ee4
+Author: noise23 <admin@acidpool.com>
+Date:   Thu Nov 12 03:49:45 2015 +0200
+
+    Fix invalid signature with crafted length
+    
+    https://github.com/ppcoin/ppcoin/issues/100
+    
+    https://github.com/ppcoin/ppcoin/commit/9b40cd5b12b518a3a40d39016f30955a20ea0bf5
+
+commit e4712dc878afd8bc1ed19b8f632700dc6eea9124
+Author: noise23 <admin@acidpool.com>
+Date:   Tue Oct 20 15:53:34 2015 +0300
+
+    Change pnSeed
+
+commit 3479143b54a60b502e15d14e2d67d1c602e6b818
+Author: noise23 <admin@acidpool.com>
+Date:   Mon Oct 19 04:32:24 2015 +0300
+
+    Stake Report GUI
+
+commit 870c9651c003a7ba35418c1c45d1a2b089a3a52a
+Author: noise23 <admin@acidpool.com>
+Date:   Fri Oct 16 05:37:53 2015 +0300
+
+    Add Information menu
+    
+    add General Info and Network Traffic Graph to information menu
+
+commit 3ab92d3764f435afe295c825f1fd1d9c596e3b84
+Author: noise23 <admin@acidpool.com>
+Date:   Fri Oct 16 04:17:19 2015 +0300
+
+    Show Console tab when debug window menu/button clicked
+
+commit 84afe1793a0df6984c9051763dbdc71968e57b15
+Author: noise23 <admin@acidpool.com>
+Date:   Thu Oct 15 02:03:33 2015 +0300
+
+    getstakereport RPC
+    
+    Show the stake's earning by period: 24h, 7, 30, 365 days, and last 30
+    day.
+
+commit 552d98c7d21820eb451ecc4b80a0ae1389e270f9
+Author: noise23 <admin@acidpool.com>
+Date:   Fri Oct 9 22:17:37 2015 +0300
+
+    Increase split threshold to default 80 max 800
+
+commit c35c6ea931a82cb083d5140c3d391a5fe24e870c
+Author: noise23 <admin@acidpool.com>
+Date:   Fri Oct 9 20:06:16 2015 +0300
+
+    v0.9.8.9
+
+commit 2a66dcd790e3ca9eb685256672da3d1f592b9dc2
+Author: noise23 <admin@acidpool.com>
+Date:   Fri Oct 9 20:04:41 2015 +0300
+
+    Remove Fast Stake for now
+
+commit e818371c77c89adef489c5594b8ebf3790a173a3
+Author: noise23 <admin@acidpool.com>
+Date:   Tue Oct 6 21:44:08 2015 +0300
+
+    Remove stake autosplit based on date
+
+commit 5514547e56d73583bad60afeab446c72aacc8538
+Author: noise23 <admin@acidpool.com>
+Date:   Sat Sep 26 00:12:06 2015 +0300
+
+    chatwindow.ui - fix build warning
+
+commit 8b6183bd2b6302c679076f62e44bf876a9bf0d6f
+Author: noise23 <admin@acidpool.com>
+Date:   Fri Sep 25 20:13:36 2015 +0300
+
+    Add hardened checkpoint at 444444
+
+commit 13b836ddfd81f4c9575b62089cf8302b379675be
+Author: noise23 <admin@acidpool.com>
+Date:   Thu Sep 24 19:48:20 2015 +0300
+
+    New checkpointing policy
+    
+    Checkpoint by block height rather than block time;
+    -checkpointdepth start-up switch implemented for depth control.
+
+commit 48b843420dea02587bcac4ea4da18e57e5f47b93
+Author: noise23 <admin@acidpool.com>
+Date:   Thu Sep 24 13:29:55 2015 +0300
+
+    Fix OSX build
+
+commit 666360bb6cd0859c89264b31cff3721a01d90569
+Author: noise23 <admin@acidpool.com>
+Date:   Sun Sep 20 05:07:35 2015 +0300
+
+    v0.9.8.8
+
+commit 529db19a9f25533f6f9f2c447d6f3a8edf9c40f3
+Author: noise23 <admin@acidpool.com>
+Date:   Sun Sep 20 05:06:13 2015 +0300
+
+    Add blockhash to index for faster start
+    
+    Not compatible with older database, requires blockchain re-download or
+    bootstrap.
+
+commit 8f72901d6506a44dfdcc5b9319433535f8a20bb9
+Author: noise23 <admin@acidpool.com>
+Date:   Sun Sep 20 04:00:37 2015 +0300
+
+    v0.9.8.7
+
+commit 65648baa3de7b242646bf8c07a9c9de2038a4b53
+Author: noise23 <admin@acidpool.com>
+Date:   Sun Sep 20 03:27:08 2015 +0300
+
+    GUI fix stake/payment to yourself address/label display
+
+commit 7c054307a230ba9e8b07fb7a777c348a538089d9
+Author: noise23 <admin@acidpool.com>
+Date:   Sun Sep 20 02:09:22 2015 +0300
+
+    Changes to use Fast Stake
+
+commit 8b89f1a52d1c97b7e963194bbd63faf3e6af2618
+Author: noise23 <admin@acidpool.com>
+Date:   Sun Sep 20 02:06:38 2015 +0300
+
+    Replace nMaxClockDrift with Future/PastDrift
+
+commit c4bb1bb3800d928c9b270384b8083205f2c6682f
+Author: noise23 <admin@acidpool.com>
+Date:   Sat Sep 19 21:03:49 2015 +0300
+
+    Remove RelayMessage use RelayTransaction
+
+commit aba2b4033d23cd3a44004f7a09ae47d7781afb98
+Author: noise23 <admin@acidpool.com>
+Date:   Sat Sep 19 21:02:42 2015 +0300
+
+    Add RelayTransaction
+
+commit 9170d22314c152b1baa55a3ebfced7b1e97d2d31
+Author: noise23 <admin@acidpool.com>
+Date:   Sat Sep 19 03:36:45 2015 +0300
+
+    Update copyright, v0.9.8.6
+
+commit 50a04dbf36c709c5d0c9592fb19058d007668e93
+Author: noise23 <admin@acidpool.com>
+Date:   Sat Sep 19 02:43:05 2015 +0300
+
+    Add miner.cpp/h
+    
+    Move miner code from main.cpp to separate file
+
+commit 9c92d19ad25f00a12b3fee728afbf6e833017e4c
+Author: noise23 <admin@acidpool.com>
+Date:   Sat Sep 19 01:33:21 2015 +0300
+
+    RPC: add blocktrust field into block dump
+
+commit 1af42f11c57f3a91b150963e4a04da8e88bfb5e0
+Author: noise23 <admin@acidpool.com>
+Date:   Sat Sep 19 01:28:08 2015 +0300
+
+    Fix coinbase out-of-bounds check
+
+commit 385087673715f1bc684fe256718c9f7f1054d86a
+Author: noise23 <admin@acidpool.com>
+Date:   Sat Sep 19 01:22:32 2015 +0300
+
+    Use CheckStake Function
+
+commit 572ab772f379e56fc540e67eb41d1f10926fd1da
+Author: noise23 <admin@acidpool.com>
+Date:   Sat Sep 19 01:15:44 2015 +0300
+
+    Add CheckStake Function
+
+commit b98c53948fbbc2522096b5033f0e2e23cd2b48bf
+Author: noise23 <admin@acidpool.com>
+Date:   Sat Sep 19 01:08:03 2015 +0300
+
+    No need to reservekey for stake
+
+commit 9a9346c73d854c6a5d03ae8f49bf4ffd5e1d627a
+Author: noise23 <admin@acidpool.com>
+Date:   Sat Sep 19 01:01:29 2015 +0300
+
+    Add targetProofOfStake to kernel functions
+
+commit 1bf34478297b1ef2b02df4d6b4fa30568dc317ac
+Author: noise23 <admin@acidpool.com>
+Date:   Sat Sep 19 00:21:18 2015 +0300
+
+    Call GetHash() once where applicable
+
+commit 74398e9366a682c926eb0b2ceb5290a178d0be2b
+Author: noise23 <admin@acidpool.com>
+Date:   Sat Sep 19 00:04:38 2015 +0300
+
+    Mitigate Timing Attacks On Basic RPC Authorization
+    
+    https://github.com/bitcoin/bitcoin/pull/2886
+    http://rdist.root.org/2010/01/07/timing-independent-array-comparison/
+
+commit 8053c150d7543357966b5ae4a143d1250d2a8a4d
+Author: noise23 <admin@acidpool.com>
+Date:   Fri Sep 18 22:27:15 2015 +0300
+
+    Remove legacy block schema version checking
+
+commit d6a09bbfb3d03abcdb4433d0ec782f8010b4f36e
+Author: noise23 <admin@acidpool.com>
+Date:   Fri Sep 18 22:11:56 2015 +0300
+
+    Enable DB Log Flags
+
+commit 44e99b0c8b53e3057a039d88cc83f0eb48f0e92c
+Author: noise23 <admin@acidpool.com>
+Date:   Fri Sep 18 21:55:59 2015 +0300
+
+    Fix memory exhaustion
+    
+    Truncate messages to the size of the tx in them
+
+commit b10d2dc16b72228459e46f338638c69f725bcf60
+Author: noise23 <admin@acidpool.com>
+Date:   Fri Sep 18 18:58:19 2015 +0300
+
+    Prevent orphan statusbar messages
+
+commit 74cd6ac8216d01a91023a8e69d0a6ddd4b8f1a30
+Author: noise23 <admin@acidpool.com>
+Date:   Fri Sep 18 18:55:45 2015 +0300
+
+    Update Fee Message
+
+commit bdc8c86ba89107d7193c58caf3a952a2cc6093f9
+Author: noise23 <admin@acidpool.com>
+Date:   Fri Sep 18 18:44:37 2015 +0300
+
+    Change bitcoinamountfield header to correct name
+
+commit d515ed4586c265093f25108a4d48be126d85ec43
+Author: noise23 <admin@acidpool.com>
+Date:   Fri Sep 18 18:40:24 2015 +0300
+
+    Sign Message is constant
+
+commit 7eb2dbf16a7e6c13b594f8ba0e13277b711e6ced
+Author: noise23 <admin@acidpool.com>
+Date:   Fri Sep 18 18:34:30 2015 +0300
+
+    Change how vchData is cleared
+
+commit 91a355c746d58489704504bbe0fe63d94d984b2e
+Author: noise23 <admin@acidpool.com>
+Date:   Fri Sep 18 18:13:18 2015 +0300
+
+    askpassphrase bug fix
+
+commit 0dad48de6d67c9c010c0d2340a82d203534a7a28
+Author: noise23 <admin@acidpool.com>
+Date:   Fri Sep 18 18:07:12 2015 +0300
+
+    Use openssl_cleanse instead of memset for crit mem spaces
+
+commit bf12f7a2379fca5fc9f21f8e4d8916c215af3bbf
+Author: noise23 <admin@acidpool.com>
+Date:   Fri Sep 18 02:08:54 2015 +0300
+
+    Coin control return change
+
+commit 29125a1c202eeab63f6e2ccc220da8ae5255ae49
+Author: noise23 <admin@acidpool.com>
+Date:   Wed Jul 29 23:48:44 2015 +0300
+
+    Splitblock GUI update
+
+commit c129d38811da7d0380032908217cf7dc8c6fa412
+Author: noise23 <admin@acidpool.com>
+Date:   Wed Jul 29 19:29:59 2015 +0300
+
+    v0.9.8.5
+
+commit f0271959d2586abeae950ff367620d79f462f4df
+Author: noise23 <admin@acidpool.com>
+Date:   Wed Jul 29 19:04:40 2015 +0300
+
+    IP address change for ip.truckcoin.net
+
+commit 0a3b08fcdf5c5289144cef513a955b5590bc1001
+Author: noise23 <admin@acidpool.com>
+Date:   Fri Jul 24 01:50:50 2015 +0300
+
+    Enable IRC peer discovery
+
+commit a1a2266a5a7e8c880fc0e72341333243e5c3047c
+Author: noise23 <admin@acidpool.com>
+Date:   Sat Jul 11 16:58:35 2015 +0300
+
+    v0.9.8.4
+
+commit b5e7153e26ed268a4d86056a54efa2b9d231249e
+Author: noise23 <admin@acidpool.com>
+Date:   Sat Jul 11 16:58:03 2015 +0300
+
+    Allocate receive buffers in on the fly
+
+commit 77c0b113ba86a47495479af6a3734100c11d91e2
+Author: noise23 <admin@acidpool.com>
+Date:   Sat Jul 11 16:57:38 2015 +0300
+
+    Use per-message send buffer, rather than per connection,
+    
+    P2P: improve RX/TX flow control,
+    P2P, cosmetic: break out buffer send(2) code into separate function
+
+commit 89c085571b33b1c53ca10a1ffd1374e9ae96c37a
+Author: noise23 <admin@acidpool.com>
+Date:   Sat Jul 11 04:31:04 2015 +0300
+
+    Add stylesheet 2
+
+commit 721e306d0934f2f44da2b18632a1d918f19700b4
+Author: noise23 <admin@acidpool.com>
+Date:   Sat Jul 11 03:42:15 2015 +0300
+
+    GUI: Add stylesheet
+
+commit 1eeb8f720f1335a04e7aba1e3ddada07501edf3c
+Author: noise23 <admin@acidpool.com>
+Date:   Tue Jul 7 23:29:21 2015 +0300
+
+    v0.9.8.3
+
+commit ed832c4f1152385090ed1ba28e9e21de487be0ad
+Author: noise23 <admin@acidpool.com>
+Date:   Tue Jul 7 21:13:33 2015 +0300
+
+    Some fixes to CNetMessage processing
+    
+    * Change CNode::vRecvMsg to be a deque instead of a vector (less
+    copying)
+    * Make sure to acquire cs_vRecvMsg in CNode::CloseSocketDisconnect (as
+    it
+    may be called without that lock).
+
+commit 16878fb5fd96f2490a8552cc0880bcaba429fa42
+Author: noise23 <admin@acidpool.com>
+Date:   Tue Jul 7 20:54:12 2015 +0300
+
+    P2P: parse network datastream into header/data components in socket thread
+    
+    Replaces CNode::vRecv buffer with a vector of CNetMessage's.  This
+    simplifies
+    ProcessMessages() and eliminates several redundant data copies.
+    
+    Overview:
+    
+    * socket thread now parses incoming message datastream into
+    header/data components, as encapsulated by CNetMessage
+    * socket thread adds each CNetMessage to a vector inside CNode
+    * message thread (ProcessMessages) iterates through CNode's CNetMessage
+    vector
+    
+    Message parsing is made more strict:
+    
+    * Socket is disconnected, if message larger than MAX_SIZE
+    or if CMessageHeader deserialization fails (latter is impossible?).
+    Previously, code would simply eat garbage data all day long.
+    * Socket is disconnected, if we fail to find pchMessageStart.
+    We do not search through garbage, to find pchMessageStart.  Each
+    message must begin precisely after the last message ends.
+    
+    ProcessMessages() always processes a complete message, and is more
+    efficient:
+    
+    * buffer is always precisely sized, using CDataStream::resize(),
+    rather than progressively sized in 64k chunks.  More efficient
+    for large messages like "block".
+    * whole-buffer memory copy eliminated (vRecv -> vMsg)
+    * other buffer-shifting memory copies eliminated (vRecv.insert,
+    vRecv.erase)
+
+commit e3993d8393158a18007363a13c675c47052fcc40
+Author: noise23 <admin@acidpool.com>
+Date:   Tue Jul 7 16:26:49 2015 +0300
+
+    Use hashBestChain not hashHighBlock
+
+commit 25e480bd5c5420d977b0bd40cea4893a60b6b5a6
+Author: noise23 <admin@acidpool.com>
+Date:   Sat Jun 27 14:59:17 2015 +0300
+
+    v0.9.8.2
+
+commit 4dd6a7b92b9759c9346ccefc7252f152fddc1d91
+Author: noise23 <admin@acidpool.com>
+Date:   Sat Jun 27 04:29:20 2015 +0300
+
+    Add Enable/Disable PoS mining option to GUI
+
+commit db1e2e8d0dc96c22b2d239bcc4c010742e59d146
+Author: noise23 <admin@acidpool.com>
+Date:   Sat Jun 27 04:26:26 2015 +0300
+
+    Expand -staking switch: add setstaking and getstaking RPC commands
+
+commit 975e0b0e6c51bfde4ccdc8de5c54638ea10e4ec8
+Author: noise23 <admin@acidpool.com>
+Date:   Wed Jun 24 03:51:30 2015 +0300
+
+    Coin control code cleanup
+
+commit 7b22c4b6551c20d57cbad0a22933487639178efe
+Author: noise23 <admin@acidpool.com>
+Date:   Wed Jun 24 03:09:21 2015 +0300
+
+    Coin control filter combo box UI reorganize 2
+
+commit 5b17194ec4a460da3eaa66cf27f4d07840f39483
+Author: noise23 <admin@acidpool.com>
+Date:   Wed Jun 24 00:21:12 2015 +0300
+
+    Coin control filter combo box UI reorganize
+
+commit 487b4b15bbb3f6e761d7ac5f4e72f334c1bdc12b
+Author: noise23 <admin@acidpool.com>
+Date:   Tue Jun 23 22:20:38 2015 +0300
+
+    Silence compiler warning: typedef ‘Char_type’ locally defined but not used [-Wunused-local-typedefs]
+
+commit f18d7ff1a057d4c80a84b9222e3d25ec7068b34e
+Author: noise23 <admin@acidpool.com>
+Date:   Tue Jun 23 22:16:47 2015 +0300
+
+    Remove dead showmyip.com, add ip.truckcoin.net
+
+commit f0caa4d42638931c6fe5a522179dfdb857cd6131
+Author: noise23 <admin@acidpool.com>
+Date:   Tue Jun 23 22:13:53 2015 +0300
+
+    Don't mine/stake if less than 2 connections or our blockheight is lower than peers blockheight
+
+commit 4466fd02b1d9436cb9033781a549bbfb969264e5
+Author: noise23 <admin@acidpool.com>
+Date:   Thu Jun 4 14:48:59 2015 +0300
+
+    bitcoin -> truckcoin
+
+commit cc59230a324dc4f57fbeff5e2400bd259ea055be
+Author: noise23 <admin@acidpool.com>
+Date:   Sat May 2 14:49:40 2015 +0300
+
+    0.9.8.1 version bump
+
+commit 28701c74d5d32221a53349a8ad09a20f206a782f
+Author: noise23 <admin@acidpool.com>
+Date:   Sat May 2 14:01:40 2015 +0300
+
+    Fix memory leak
+    
+    https://github.com/Tranz5/HoboNickels/commit/e4d372b8107248cdcc48597b2508289c4536dec1
+
+commit 5ef859329c5af1ed41cd1c2a6a0c54e18a14c87a
+Author: noise23 <admin@acidpool.com>
+Date:   Sat May 2 13:52:04 2015 +0300
+
+    Guard against openssl's new strict DER checks
+    
+    https://github.com/bitcoin/bitcoin/commit/f4134ee30100a3ba8a25e3f7ac6c4e0b39fb05a3
+    
+    https://github.com/bitcoin/bitcoin/commit/91e1332011ca647362f95f34ae6c530640bfef98
+    
+    https://github.com/bitcoin/bitcoin/commit/f19dded6e4bf6b5a345de899863310281846eb61
+
+commit d05be20a0cafad122244d5b5535beef510952923
+Author: noise23 <admin@acidpool.com>
+Date:   Sat May 2 13:36:21 2015 +0300
+
+    CAlert: only mark misbehaving if signature is bad
+
+commit e8c78c7f05bdbbc067d22b9eaa85ceb2dd4e7e83
+Author: noise23 <admin@acidpool.com>
+Date:   Sat May 2 13:28:14 2015 +0300
+
+    Add SplitBlock
+
+commit 2e277ef098d5b37aa29d13d7f70c0fa338145436
+Author: noise23 <admin@acidpool.com>
+Date:   Tue Dec 23 19:51:28 2014 +0200
+
+    Hardfork2: back to flat 200% pos. v0.9.8.0 p. 75002
+    
+    switch on Thursday, 08 Jan 2015 20:23:23 GMT
+
+commit 7d587b92ec8b7b0c8e8910b7e029e161d529f788
+Author: noise23 <admin@acidpool.com>
+Date:   Tue Dec 23 16:59:15 2014 +0200
+
+    MIN_PEER_PROTO_VERSION post-fork cleanup, copyright year
+
+commit ee3de3f94b8653f68ad46a755ca1d0851707a290
+Author: noise23 <admin@acidpool.com>
+Date:   Thu Dec 18 02:50:17 2014 +0200
+
+    Changes to stake miner and staking icon behavior
+    
+    Make sure we have a strong connection and synced before attempting
+    stake.
+
+commit 3e9b15a7f0d35cf3e0e61055227a818d2c2cf98b
+Author: noise23 <admin@acidpool.com>
+Date:   Fri Nov 28 19:00:45 2014 +0200
+
+    v.0.9.7.2
+
+commit e3763c81862b8a6c06bc42352efbbd2bc944c190
+Author: noise23 <admin@acidpool.com>
+Date:   Fri Nov 28 17:25:11 2014 +0200
+
+    Overview page balance update fix
+
+commit fe6f1b078243aede22ca45e7c81fc1218a9a1658
+Author: noise23 <admin@acidpool.com>
+Date:   Thu Nov 20 19:34:07 2014 +0200
+
+    Version 0.9.7.1
+
+commit 1e8251969d1d192d68d4d02e1f1546fcea63ebed
+Author: noise23 <admin@acidpool.com>
+Date:   Thu Nov 20 19:30:44 2014 +0200
+
+    Add money supply to block explorer
+
+commit 413de93403a48cb3fe895c077618098eaf993ac1
+Author: noise23 <admin@acidpool.com>
+Date:   Thu Nov 20 18:52:40 2014 +0200
+
+    Add -wallet option to specify wallet file
+
+commit 6fb71046a2ff277f9c0bb45f0c87abd2e9580876
+Author: noise23 <admin@acidpool.com>
+Date:   Thu Nov 20 01:35:59 2014 +0200
+
+    nSubsidyLimit 200, protocol version 75001, v0.9.7.0
+
+commit 9a02d25c0aab57b9bb398990ded8be0c3b4748ba
+Author: noise23 <admin@acidpool.com>
+Date:   Thu Nov 20 01:20:07 2014 +0200
+
+    Add new hard checkpoint, update hashHighBlock
+
+commit 21c8ddac5fd50ce7aefcb768ed24cd76a441c82d
+Author: noise23 <admin@acidpool.com>
+Date:   Wed Nov 19 23:58:21 2014 +0200
+
+    Hardfork p2: min peer proto version 75000 at fork
+    
+    disconnect HYP peers at 72000
+
+commit 52088072f645c2d5c583b45480cd46854820da18
+Author: noise23 <admin@acidpool.com>
+Date:   Wed Nov 19 20:15:43 2014 +0200
+
+    Hardfork p1: add inflation control + nSubsidyLimit
+    
+    version to 0.9.6.6
+
+commit cfa5df543af52cfdaf797304cdff57e5200a11c1
+Author: noise23 <admin@acidpool.com>
+Date:   Wed Nov 19 02:35:42 2014 +0200
+
+    Qt5 Compatible 3 - serveur.h fix
+
+commit 7f59756cf1438b8c7feeeff4030abb3636febeab
+Author: noise23 <admin@acidpool.com>
+Date:   Tue Nov 18 19:37:27 2014 +0200
+
+    Add stakeinterest to getmininginfo
+
+commit 34563e470db9e154c82db049de6b88ef03ed5735
+Author: noise23 <admin@acidpool.com>
+Date:   Mon Nov 17 12:16:31 2014 +0200
+
+    Update overview page image
+
+commit 3e955907d9c2fe55c45aa7a188dc4c6160eefdd5
+Author: noise23 <admin@acidpool.com>
+Date:   Mon Nov 17 04:15:33 2014 +0200
+
+    Total amount to wallet overview, remove immature
+
+commit 6a15b38e5ec7b94129d692f0fd810c0361c0ffb4
+Author: noise23 <admin@acidpool.com>
+Date:   Sun Nov 16 21:34:50 2014 +0200
+
+    NOBLKS_VERSION 71010-73000 (HYP interference fix)
+    
+    version to 0.9.6.3
+
+commit 9da6638e91857d7a10e2ba1f11a74d04441597ae
+Author: noise23 <admin@acidpool.com>
+Date:   Sun Nov 16 17:42:08 2014 +0200
+
+    Qt5 Compatible 2
+
+commit 3371c7630efa321490207c73f063ebe4dfe90610
+Author: noise23 <admin@acidpool.com>
+Date:   Sun Nov 16 16:35:30 2014 +0200
+
+    Qt5 Compatible
+
+commit 0f5b62f93b93d98bb1eb2b51c52282d989121e72
+Author: noise23 <admin@acidpool.com>
+Date:   Tue Nov 11 04:42:21 2014 +0200
+
+    Add split threshold to gui
+    
+    version to 0.9.6.2
+
+commit c2986b2b3d2e7f57ba5a8952f67afeb2f73d245c
+Author: noise23 <admin@acidpool.com>
+Date:   Fri Nov 7 04:47:21 2014 +0200
+
+    Add "unlock wallet" option to wallet menu.
+
+commit 1dbc7f5618afb18b0211a71747a3a09a62cf6931
+Author: noise23 <admin@acidpool.com>
+Date:   Fri Nov 7 03:19:48 2014 +0200
+
+    blockbrowser.cpp gitian build error fix
+    
+    "variable ‘CTxDB txdb’ has initializer but incomplete type" error fix
+
+commit 6b576d1ba0d2816706b0def0620a5dadfa040a42
+Author: noise23 <admin@acidpool.com>
+Date:   Thu Nov 6 13:48:46 2014 +0200
+
+    Version to 0.9.6.1
+    
+    split threshold def to 30, max to 300
+    minor code corrections
+
+commit a61eae4eee4d44bc5e91c2c03dc2320f9b09857c
+Author: noise23 <admin@acidpool.com>
+Date:   Tue Nov 4 04:10:49 2014 +0200
+
+    Add stake block split threshold
+    
+    Default min. block amount set to 50, can be increased up to 400 by
+    -splitthreshold startup option.
+    Add split threshold info to rpc getinfo.
+
+commit 98559ac4385ea83989bddd7a72acb51f8fe1d422
+Author: noise23 <admin@acidpool.com>
+Date:   Sat Oct 18 04:39:18 2014 +0300
+
+    Add -staking option to disable minting
+    
+    staking=0 will disable pos minting
+
+commit be62fb6cf7ac667e25582578ab988f7d542eab51
+Author: noise23 <admin@acidpool.com>
+Date:   Sat Oct 18 01:29:24 2014 +0300
+
+    Gitian deps update to openssl-1.0.1j
+
+commit 35db5c4a94d5414c073ed9d50311e06b5f077319
+Author: noise23 <admin@acidpool.com>
+Date:   Fri Oct 17 01:43:21 2014 +0300
+
+    Add nodes
+
+commit 018504a2ff17abe0bba9fad731eed7c54792f3d1
+Author: noise23 <admin@acidpool.com>
+Date:   Thu Oct 16 04:09:49 2014 +0300
+
+    Bump version to 0.9.6.0
+
+commit 3ccdb3fb5ad5fde26efcead43ef494be55a5216a
+Author: noise23 <admin@acidpool.com>
+Date:   Thu Oct 16 04:05:06 2014 +0300
+
+    add OpenSSL RAND_cleanup() on OpenSSL shutdown
+
+commit 35f6d8fa262c972bf952edb395bef3db7b6945d1
+Author: noise23 <admin@acidpool.com>
+Date:   Thu Oct 16 03:48:46 2014 +0300
+
+    Safely shutdown TRK during windows shutdown
+
+commit 19efa752bb3725592e92b2a2adfa8fb31feddb07
+Author: noise23 <admin@acidpool.com>
+Date:   Thu Oct 16 03:05:37 2014 +0300
+
+    Add close button to block explorer
+
+commit 07d5c9e6b65e3ed3a3fa1571bbb1ceb3011ab55b
+Author: noise23 <admin@acidpool.com>
+Date:   Thu Oct 16 02:29:44 2014 +0300
+
+    "Show in block explorer" to transaction context menu
+
+commit 27432638b6d6e54d5e4c4b796c5ac9f4b90e1ab4
+Author: noise23 <admin@acidpool.com>
+Date:   Thu Oct 16 01:21:47 2014 +0300
+
+    Make Block Explorer function as standalone window
+
+commit c428fde1185fe0e8a93e3caf4f4834968bf4a821
+Author: noise23 <admin@acidpool.com>
+Date:   Wed Oct 15 03:51:30 2014 +0300
+
+    Block explorer fixes and improvements
+
+commit 4cc195806eb597c66f9dc5bfe88023acb6c0b920
+Author: noise23 <admin@acidpool.com>
+Date:   Tue Oct 14 22:13:30 2014 +0300
+
+    Coin control dates from blockchain
+    
+    This fixes the problem of bad dates when importing a privkey.  When
+    importing a privkey out.tx txtime will be the time of import. So coin
+    control data will be incorrect.
+
+commit e38235ba3af2b834b814938b30742f9d4bceb4d7
+Author: noise23 <admin@acidpool.com>
+Date:   Tue Oct 14 15:24:31 2014 +0300
+
+    Initial blockchain download fixes and improvements.
+
+commit a629596a0433f44a196d8a9d005f634dc41c31e3
+Author: noise23 <admin@acidpool.com>
+Date:   Tue Oct 14 03:59:43 2014 +0300
+
+    Fix CC age column sorting
+
+commit 0840b8066e0730368961020c70663cf6045008c0
+Author: noise23 <admin@acidpool.com>
+Date:   Mon Oct 13 20:25:26 2014 +0300
+
+    Set MIN_PEER_PROTO_VERSION to 71004, up to v0.9.5.3
+    
+    All clients below v0.9.5.0 are obsolete now.
+
+commit cc2c07010141879ca89c844270a011ddf1cb1e6c
+Author: noise23 <admin@acidpool.com>
+Date:   Mon Oct 13 20:18:42 2014 +0300
+
+    Split MIN_PROTO_VERSION
+
+commit 62844f71b3b57a702e2ebfb26934f0ddbc315913
+Author: noise23 <admin@acidpool.com>
+Date:   Mon Sep 15 23:42:13 2014 +0300
+
+    netbase: Use .data() instead of .c_str() on binary string
+    
+    `.c_str()` is only guaranteed to return the data up to the first NUL
+    character.
+
+commit cf497506b98355afda952bc172fe89b23ad33ada
+Author: noise23 <admin@acidpool.com>
+Date:   Mon Sep 15 20:03:17 2014 +0300
+
+    Add new dns seed2
+
+commit aaf308dd766f4bf08bd255bb32211f5b3a3670d9
+Author: noise23 <admin@acidpool.com>
+Date:   Thu Sep 11 20:12:58 2014 +0300
+
+    Coin control filter performance fix
+
+commit 830efc40dba6eb7ea40c8ee52131ca1909b8b1b9
+Author: noise23 <admin@acidpool.com>
+Date:   Thu Sep 11 01:48:36 2014 +0300
+
+    Add coin control filter combo box
+
+commit 26402248dfadccd69f82f6e9f54801878349aa34
+Author: noise23 <admin@acidpool.com>
+Date:   Thu Sep 4 13:43:51 2014 +0300
+
+    getinfo - added PoS diff, removed PoW diff
+
+commit 1ef002f51d070f96d16ea4093111a0d6e868ecad
+Author: noise23 <admin@acidpool.com>
+Date:   Thu Sep 4 13:42:15 2014 +0300
+
+    Fixed overviewpage.ui label#
+
+commit f15a7a0099ece3a325e72f9fa6b233b88c2cdfe7
+Author: noise23 <admin@acidpool.com>
+Date:   Thu Sep 4 05:53:49 2014 +0300
+
+    fixed typo
+
+commit 8bd26d4d159ab72219cfff1e77c824d636e0ddd4
+Author: noise23 <admin@acidpool.com>
+Date:   Thu Sep 4 05:08:04 2014 +0300
+
+    v0.9.5.1
+
+commit f06e89779a40a438b6b4142ef5391a9e9135f4a8
+Author: noise23 <admin@acidpool.com>
+Date:   Thu Sep 4 04:13:25 2014 +0300
+
+    Default transaction sorting by date
+
+commit 92f9c86b5fb41334d63d58f86b9aa51cd0938527
+Author: noise23 <admin@acidpool.com>
+Date:   Wed Sep 3 21:04:37 2014 +0300
+
+    Console font colors
+
+commit 33a7be3cc28e4c9a6a7aad2d1d3be92caaf0051c
+Author: noise23 <admin@acidpool.com>
+Date:   Wed Sep 3 20:06:52 2014 +0300
+
+    Added show/hide Irc button option
+
+commit ce59b996bdedf816b1a5aa87df7e66f2e878b9ae
+Author: noise23 <admin@acidpool.com>
+Date:   Sun Aug 31 17:12:31 2014 +0300
+
+    getmininginfo - added PoS diff, removed PoW diff
+
+commit 9e2f2ed8af9becb744a7cedf0cc5dbc8e48f79b6
+Author: noise23 <admin@acidpool.com>
+Date:   Sun Aug 31 16:48:08 2014 +0300
+
+    Add %reward to getstaketx
+
+commit 30065ba7986c8f9270f88552f01ff0d96418a0cf
+Author: noise23 <admin@acidpool.com>
+Date:   Sat Aug 30 15:12:08 2014 +0300
+
+    Add getstaketx RPC
+
+commit 02da214b7245ebe40d8d50ae1527b1899ad83024
+Author: noise23 <admin@acidpool.com>
+Date:   Sat Aug 30 15:10:51 2014 +0300
+
+    Add copy txid to transactionview
+
+commit 926dfe4aed86650b5a38f3c52799fb03fa3ebcb2
+Author: noise23 <admin@acidpool.com>
+Date:   Sat Aug 30 04:30:51 2014 +0300
+
+    Drop workaround for bitcoin v0.1.5
+
+commit 3119883dceb1d5816183c5942600a2adb2849329
+Author: noise23 <admin@acidpool.com>
+Date:   Fri Aug 29 15:59:07 2014 +0300
+
+    Disabled checkpoint age warning
+
+commit 3232972e4ac186577be498c3676d268f34b1c862
+Author: noise23 <admin@acidpool.com>
+Date:   Fri Aug 29 15:15:19 2014 +0300
+
+    Coin control columns fix
+
+commit b75f5cc85d10884afd4a1ae3d417729f0f56ba19
+Author: noise23 <admin@acidpool.com>
+Date:   Fri Aug 29 04:20:45 2014 +0300
+
+    New overviewpage logo, version bump to 0.9.5.0
+
+commit 73f3c39c1cc94986ee3eae9ade715de26f4d95e7
+Author: noise23 <admin@acidpool.com>
+Date:   Fri Aug 29 00:21:18 2014 +0300
+
+    Set default cppolicy to strict
+
+commit 65636382089eca20ab2220a41d2be3a737770dff
+Author: noise23 <admin@acidpool.com>
+Date:   Thu Aug 28 23:08:33 2014 +0300
+
+    Fix peer info nBlockRequested
+
+commit fa3541ed1423f6026ad3cefc40276428360f783f
+Author: noise23 <admin@acidpool.com>
+Date:   Thu Aug 28 23:02:15 2014 +0300
+
+    -logtimestamps turned on by default
+
+commit ae113f967d32ed0e0c3853ad38f45c25b6d65594
+Author: noise23 <admin@acidpool.com>
+Date:   Thu Aug 28 22:36:02 2014 +0300
+
+    Add more information about peer to getpeerinfo
+
+commit 62fae3e3377837644737bebc4212a1bf37cde6f6
+Author: noise23 <admin@acidpool.com>
+Date:   Thu Aug 28 22:11:07 2014 +0300
+
+    DoS protection: Don't announce non-peer CNodes
+    
+    Don't announce non-peer CNodes, Treat non-empty coinbase in PoS blocks
+    as DoS attempt
+
+commit af8a80e65b4300622a4d42019c62f449da264d79
+Author: noise23 <admin@acidpool.com>
+Date:   Thu Aug 28 21:51:07 2014 +0300
+
+    Fix Memory bugs
+
+commit 38391e9854734330d6c9699e5cebbaeb019dc4f8
+Author: noise23 <admin@acidpool.com>
+Date:   Thu Aug 28 21:37:43 2014 +0300
+
+    Several small corrections
+
+commit 40f833e8c8be115fc9936254abb83af22c21e6a6
+Author: noise23 <admin@acidpool.com>
+Date:   Thu Aug 28 18:40:48 2014 +0300
+
+    Add cppolicy, Advisory. Remove nosynccheckpoints
+    
+    Add cppolicy, set default to Advisory. Remove nosynccheckpoints
+
+commit 83d823b6834860cadc4502e51e7a8b20c55c6f33
+Author: noise23 <admin@acidpool.com>
+Date:   Thu Aug 28 16:12:19 2014 +0300
+
+    Changes to numBlocks
+
+commit 2a6cb744db0cfdda359f67f13354b0ea74a8ccd8
+Author: noise23 <admin@acidpool.com>
+Date:   Thu Aug 28 15:48:36 2014 +0300
+
+    Separate trayIcon and trayIconMenu
+
+commit 83b6b01025e9fbe3b4a1593e5e809edfefb1544c
+Author: noise23 <admin@acidpool.com>
+Date:   Thu Aug 28 15:29:26 2014 +0300
+
+    Change notificator to use message
+
+commit 97cd7b50b2c4e394e549c2323491332c7792eaca
+Author: noise23 <admin@acidpool.com>
+Date:   Thu Aug 28 02:41:23 2014 +0300
+
+    New checkpoint/alert PubKeys, protocol ver 71004
+
+commit ece74a45829bb7abad53ae1966e844a97111cc9c
+Author: noise23 <admin@acidpool.com>
+Date:   Thu Aug 28 02:29:14 2014 +0300
+
+    Add network traffic graph
+    
+    Add network traffic graph, getnettotals RPC
+
+commit 36e1ea8124d9a4ee476893d73a7a07674baae805
+Author: noise23 <admin@acidpool.com>
+Date:   Wed Aug 27 22:31:19 2014 +0300
+
+    Move display ver to client ver and bump to v0.9.4.5
+
+commit 991a3e0aba24087bc554507f900e77bc675afebd
+Author: noise23 <admin@acidpool.com>
+Date:   Wed Aug 27 22:02:18 2014 +0300
+
+    Fix send alert rpc
+
+commit 528ed0c264db826c4ac8bf553d022b1f2cdaf764
+Author: noise23 <admin@acidpool.com>
+Date:   Wed Aug 27 21:49:36 2014 +0300
+
+    Better labeling for transactions
+
+commit b19e3371172dac9c5c6ba2c531cee455fb6a1b35
+Author: noise23 <admin@acidpool.com>
+Date:   Wed Aug 27 21:44:15 2014 +0300
+
+    Move Sign/Verify message to wallet menu
+
+commit ec72ab64d579a00722634d314c671030cde24828
+Author: noise23 <admin@acidpool.com>
+Date:   Wed Aug 27 21:25:49 2014 +0300
+
+    Add check-repair wallet to wallet menu
+
+commit 0d8a5bb0b439ab7ac65cd33e799ac3ccbf76c3d5
+Author: noise23 <admin@acidpool.com>
+Date:   Wed Aug 27 17:13:56 2014 +0300
+
+    Click on lock icon will unlock wallet for minting
+
+commit ec68cd83299bfc887024d1575f5db56aea0ac5eb
+Author: noise23 <admin@acidpool.com>
+Date:   Wed Aug 27 16:22:45 2014 +0300
+
+    Add lock to wallet menu
+
+commit 86624c025d3826cbc60ee2786788c4ce4cf8d47e
+Author: noise23 <admin@acidpool.com>
+Date:   Wed Aug 27 15:46:31 2014 +0300
+
+    Small fixes and code cleanup
+
+commit df57f72366525e66f38635ca4ba86bafbdf358e4
+Author: noise23 <admin@acidpool.com>
+Date:   Wed Aug 27 14:59:51 2014 +0300
+
+    Add unlock for PoS to wallet menu
+    
+    Move fWalletUnlockMintOnly into CWallet , Extend fWalletUnlockMintOnly
+    to GUI , Add UnlockForMint Mode , Add Unlock for PoS to wallet menu
+
+commit 0d5ddac179c867b8963e11f92f00b66c95902498
+Author: noise23 <admin@acidpool.com>
+Date:   Wed Aug 27 00:15:58 2014 +0300
+
+    Added wallet menu
+    
+    move encryptWalletAction , changePassphraseAction ,
+    lockWalletToggleAction from settings to wallet menu
+
+commit 9d69c33b87b59a78e73fc5633d55df18ed34d134
+Author: noise23 <admin@acidpool.com>
+Date:   Tue Aug 26 23:05:53 2014 +0300
+
+    Weight and age added to coin control
+
+commit 98f8c85d61245239213d42425be54065ea3a6102
+Author: noise23 <admin@acidpool.com>
+Date:   Tue Aug 26 04:25:43 2014 +0300
+
+    Win32 descriptors updated to qt-4.86 openssl-1.0.1i
+    
+    Gitian win32 descriptors updated to qt-4.86 openssl-1.0.1i
+    libpng-1.6.12.tar.gz
+    Fixed some typos.
+
+commit e0929ad0d2fc02b9fa4cff77eef26081d108ed7f
+Author: noise23 <noise23@users.noreply.github.com>
+Date:   Mon Aug 25 04:23:20 2014 +0300
+
+    Update Truckcoin.pro
+
+commit 42455426d69b2a68eb4e31f1aa9995a12b943765
+Author: noise23 <noise23@users.noreply.github.com>
+Date:   Mon Aug 25 04:20:35 2014 +0300
+
+    Update gitian-win32.yml
+
+commit 63e8aaf99b455297eed73279d21dbb49c9b35cc6
+Author: noise23 <admin@acidpool.com>
+Date:   Sat Aug 23 16:29:11 2014 +0300
+
+    Added built-in IRC and web links
+
+commit 2c5df2c844ac0c56666b94469f91e8b37be329a8
+Author: noise23 <admin@acidpool.com>
+Date:   Mon Aug 18 02:31:38 2014 +0300
+
+    Replace dead showmyip.com
+
+commit 4f77b5891bec70aab6d5696d58c5d4a6df970da3
+Author: noise23 <admin@acidpool.com>
+Date:   Sun Aug 17 23:55:29 2014 +0300
+
+    Added checkpoints, version bump to 0.9.4.1
+
+commit a0891767a66ce36ab467959898cc0cfe4d893476
+Author: noise23 <admin@acidpool.com>
+Date:   Sun Aug 17 21:25:19 2014 +0300
+
+    Added block explorer
+
+commit 1ff385dfedc62e7350bf8ed8567787b54ca5b1ef
+Author: noise23 <admin@acidpool.com>
+Date:   Sun Aug 17 13:28:24 2014 +0300
+
+    Coin name corrections in printf
+
+commit f19b95eccb9b558caf7989e0fa1f02c3cd9a2413
+Author: noise23 <admin@acidpool.com>
+Date:   Fri Aug 15 22:55:40 2014 +0300
+
+    Remove redundant insert method in serialize
+    
+    bitcoin #3162
+
+commit 16445b9390e9463ecdce9a411f2de7e41ea6c9dc
+Author: noise23 <admin@acidpool.com>
+Date:   Fri Aug 15 22:35:19 2014 +0300
+
+    Comments for constants
+
+commit c043f33fb954c237fee88098aebc32125abe1e27
+Author: noise23 <admin@acidpool.com>
+Date:   Fri Aug 15 21:59:55 2014 +0300
+
+    repairwallet will remove orphans
+
+commit b1881da6526fb39604f88e199e63f5c00ecfffb4
+Author: noise23 <admin@acidpool.com>
+Date:   Fri Aug 15 19:27:03 2014 +0300
+
+    Checkblock optimization, comments cleanup
+
+commit 453f08b72ad159ca8e702a284a8cae282a6908a6
+Author: noise23 <admin@acidpool.com>
+Date:   Thu Aug 14 21:40:15 2014 +0300
+
+    Fix build on Debian 7 wheezy
+
+commit 0b64469cb9a31ef6edf58329006028353c85aff4
+Author: noise23 <admin@acidpool.com>
+Date:   Thu Aug 14 18:57:25 2014 +0300
+
+    New OS X icns icon
+
+commit 841c04c8332263c929403e420476a07e3a9cdb78
+Author: noise23 <admin@acidpool.com>
+Date:   Thu Aug 14 18:39:08 2014 +0300
+
+    OSX: Make use of notification center to display notifications
+
+commit 2fdf75b9cb37f4a9c77117c64b2c6a48e0fb6e1a
+Author: noise23 <admin@acidpool.com>
+Date:   Wed Aug 13 22:41:11 2014 +0300
+
+    Version bump to 0.9.3.4
+
+commit 3b5830d7b3e7b36979b3f8789f6facb5deb72dbf
+Author: noise23 <admin@acidpool.com>
+Date:   Wed Aug 13 22:35:49 2014 +0300
+
+    Add Console button to toolbar
+
+commit f89d6703d2daf736eb786841688bd4e080927aac
+Author: noise23 <admin@acidpool.com>
+Date:   Wed Aug 13 21:51:08 2014 +0300
+
+    Add Export/Import wallet to GUI
+
+commit 13a309146faa9c6f9baf8a7a6c10dcbd457d3535
+Author: noise23 <admin@acidpool.com>
+Date:   Wed Aug 13 21:03:39 2014 +0300
+
+    dumpwallet importwallet added to rpc commands
+
+commit 7d36cfadf6021c3c6b22e78c5c1f603631c85e37
+Author: noise23 <admin@acidpool.com>
+Date:   Wed Aug 13 20:37:31 2014 +0300
+
+    OpenSSL ver info gui indent fix
+
+commit 4ed46d85edc75723fef67d026beaef6a6b995865
+Author: noise23 <admin@acidpool.com>
+Date:   Wed Aug 13 20:33:31 2014 +0300
+
+    Add Dump/Import Functions
+    
+    extra boost functions to support them
+
+commit ebb35e7750ee3b8047d0e05a8b79b40d5414cc47
+Author: noise23 <admin@acidpool.com>
+Date:   Wed Aug 13 20:10:04 2014 +0300
+
+    Use CWalletScanState, CKeyMetadata, CAffectedKeysVisitor
+    
+    Use CWalletScanState, CKeyMetadata, CAffectedKeysVisitor
+
+commit 8787a661f6b36fd05edb290578ee7bb6832dd4b8
+Author: noise23 <admin@acidpool.com>
+Date:   Wed Aug 13 19:34:35 2014 +0300
+
+    Add CAffectedKeysVisitor
+
+commit eb00edc71ea66fd7ca8bc47e289b16f8e873f517
+Author: noise23 <admin@acidpool.com>
+Date:   Wed Aug 13 18:15:16 2014 +0300
+
+    Add CWalletScanState , CKeyMetadata
+
+commit b6c1ab1fa7121a048929e7f65b03099be8597128
+Author: noise23 <admin@acidpool.com>
+Date:   Wed Aug 13 05:18:01 2014 +0300
+
+    Name corrections
+
+commit f3d180109f5e959bcc7d566ee863411414d86940
+Author: noise23 <admin@acidpool.com>
+Date:   Wed Aug 13 05:00:10 2014 +0300
+
+    Change gui error box to gui message box
+
+commit ef5153942054e52bbce9602e5f3b26944ea9cb8f
+Author: noise23 <admin@acidpool.com>
+Date:   Wed Aug 13 03:14:05 2014 +0300
+
+    Update message box buttons
+
+commit 3b55972ed51e94edafbb7b2b07119658bbc1e4a7
+Author: noise23 <admin@acidpool.com>
+Date:   Wed Aug 13 00:46:42 2014 +0300
+
+    New copy-paste icons
+
+commit 69d63c2a302cbfe9e77f9b44c1370cf83a3d2467
+Author: noise23 <admin@acidpool.com>
+Date:   Wed Aug 13 00:20:43 2014 +0300
+
+    New icons
+
+commit 0ab34283e9e00dcec25db707c7fd0c4e380861e3
+Author: noise23 <admin@acidpool.com>
+Date:   Tue Aug 12 21:42:36 2014 +0300
+
+    Do not return nodes older than specified lifespan
+    
+    -addrlifespan is 7 days by default
+
+commit 992be6900ecf6cdf1e3c56b3bd9d65e522fc7db3
+Author: noise23 <noise23@users.noreply.github.com>
+Date:   Mon Aug 11 21:31:59 2014 +0300
+
+    Changed console window style
+    
+    Styled console window to classic "white on black" terminal style
+
+commit 9f419d9371e102626075a61a97677d9d3123a39f
+Author: noise23 <noise23@users.noreply.github.com>
+Date:   Mon Aug 11 16:29:31 2014 +0300
+
+    Update bitcoingui.cpp
+
+commit cd98aa2f38e3b391af21c023065be54c60a85c61
+Author: noise23 <noise23@users.noreply.github.com>
+Date:   Fri Aug 8 19:49:22 2014 +0300
+
+    Update .gitignore
+
+commit a37154c5766af957d68151a1a549551772b3dcde
+Author: noise23 <noise23@users.noreply.github.com>
+Date:   Fri Aug 8 19:41:04 2014 +0300
+
+    Update .gitignore
+
+commit 6a398544385a333c5b9f303b728df26cdaa785db
+Author: noise23 <noise23@users.noreply.github.com>
+Date:   Fri Aug 8 19:36:28 2014 +0300
+
+    Update .gitignore
+
+commit e2e4d6b2b938f639a6be0415d833016bb9d52e14
+Author: noise23 <noise23@users.noreply.github.com>
+Date:   Fri Aug 8 19:33:25 2014 +0300
+
+    Update .gitignore
+
+commit 817f8b8e07f33b34dcf4fa872361d4f8f07284d1
+Author: noise23 <admin@acidpool.com>
+Date:   Fri Aug 8 18:56:46 2014 +0300
+
+    added version to window title
+
+commit c11f99e8f9659e3e34f55f3cb1293f05f2828261
+Author: noise23 <noise23@users.noreply.github.com>
+Date:   Fri Aug 8 17:10:17 2014 +0300
+
+    set version to 0.9.3.1
+
+commit 44d1316116823a31f83583dc11eeca31ebaed39b
+Author: noise23 <noise23@users.noreply.github.com>
+Date:   Fri Aug 8 17:08:41 2014 +0300
+
+    set version to 0.9.3.1
+
+commit a5cbea73dc4309b271185506f2672206c37ebf77
+Author: noise23 <admin@acidpool.com>
+Date:   Fri Aug 8 16:51:10 2014 +0300
+
+    new splash screen
+
+commit 8af3d6d8b6aa25cae168ae06af0052c0282d05a8
+Author: noise23 <noise23@users.noreply.github.com>
+Date:   Fri Aug 8 05:11:09 2014 +0300
+
+    Update bitcoingui.cpp
+
+commit 8eaf6ef0acb543b69f8d6c7835295845401e0cba
+Author: noise23 <noise23@users.noreply.github.com>
+Date:   Fri Aug 8 01:56:26 2014 +0300
+
+    fix syncing icon
+    
+    thanks to presstab
+
+commit c70122e444c73abb73deea77deb3207e3fbf22e8
+Author: noise23 <admin@acidpool.com>
+Date:   Thu Aug 7 20:47:30 2014 +0300
+
+    Added static libs, etc.
+
+commit 6352747a602fe01b7b63edc3842ba445f5620a1d
+Author: noise23 <noise23@users.noreply.github.com>
+Date:   Thu Aug 7 22:38:49 2014 +0300
+
+    Update gitian-win32.yml
+
+commit 859cf36d257924f75fef4da9c281f9706ddbe5ca
+Author: noise23 <noise23@users.noreply.github.com>
+Date:   Thu Aug 7 22:17:04 2014 +0300
+
+    Update makefile.linux-mingw
+
+commit 6e7a9f9a607c9e94197f4bb5323ca29ebde0d519
+Author: noise23 <noise23@users.noreply.github.com>
+Date:   Thu Aug 7 22:16:44 2014 +0300
+
+    Update makefile.linux-mingw
+
+commit 9b2c343b33b94b4478913d8eae854efdfee031ef
+Author: noise23 <noise23@users.noreply.github.com>
+Date:   Thu Aug 7 22:09:37 2014 +0300
+
+    Update makefile.linux-mingw
+
+commit 3ea73888769e47519170506fecc601b69e90ec60
+Author: noise23 <noise23@users.noreply.github.com>
+Date:   Thu Aug 7 22:01:49 2014 +0300
+
+    Update makefile.linux-mingw
+
+commit 900eb1776072c787a765f57a31362e02faa04bcd
+Author: noise23 <noise23@users.noreply.github.com>
+Date:   Thu Aug 7 21:47:22 2014 +0300
+
+    Update makefile.linux-mingw
+
+commit 58c0f1e4ffa7b26ce25ab6c14e68aad572a00518
+Author: noise23 <noise23@users.noreply.github.com>
+Date:   Thu Aug 7 21:33:29 2014 +0300
+
+    Update makefile.linux-mingw
+
+commit d0cf8d8d2c023d9a8494c3b5a177c1a636e7bfda
+Author: noise23 <noise23@users.noreply.github.com>
+Date:   Thu Aug 7 21:01:16 2014 +0300
+
+    Edit makefile.linux-mingw f new gitian descriptors
+
+commit 9c83eb7272b77d6cf1059620d110a3b4fa4fbfac
+Author: noise23 <admin@acidpool.com>
+Date:   Thu Aug 7 16:08:48 2014 +0300
+
+    Updated gitian descriptors
+
+commit 9d2389c26b12b81892df1863538266c1bb7b4067
+Author: noise23 <admin@acidpool.com>
+Date:   Thu Aug 7 16:06:45 2014 +0300
+
+    Fixed icon filename
+
+commit 5648fc4159f6c6d8673262c117c36c684b92e034
+Author: noise23 <admin@acidpool.com>
+Date:   Wed Aug 6 20:23:49 2014 +0300
+
+    Add website to about box, some minor corrections
+
+commit c0ce3717dce80273a6f12c22632ec2fe789c773a
+Author: noise23 <admin@acidpool.com>
+Date:   Wed Aug 6 20:23:04 2014 +0300
+
+    Set coin control default view to list mode
+
+commit 8d4f058cc8a51d99bca9d6f184e1e8520be0eab8
+Author: noise23 <admin@acidpool.com>
+Date:   Wed Aug 6 15:52:14 2014 +0300
+
+    Added dns seed, new pnSeed, disabled irc peers by default
+
+commit e96b5b7ed129610e0f342be31c77833859e359bf
+Author: noise23 <noise23@users.noreply.github.com>
+Date:   Sun Aug 3 03:30:44 2014 +0300
+
+    min stake age from 9.1 to 8.8 days
+
+commit ad3dfada8c9bf9c284c009b6b9d9493784c56ec4
+Author: noise23 <admin@acidpool.com>
+Date:   Fri Aug 1 17:52:20 2014 +0300
+
+    Fixed makefile.bsd
+
+commit 4278a837e013fcb828a45fba443d57ab1d4c6e7d
+Author: noise23 <admin@acidpool.com>
+Date:   Fri Aug 1 16:52:12 2014 +0300
+
+    Changed default rpc user to truckcoinrpc
+
+commit eb9af71f93ee7042f29506c75942155c4a959843
+Author: noise23 <admin@acidpool.com>
+Date:   Fri Aug 1 04:58:51 2014 +0300
+
+    Better icons
+
+commit 13cb161515b8f14d6c7f40371f5d6698871004f2
+Author: noise23 <admin@acidpool.com>
+Date:   Wed Jul 30 05:27:48 2014 +0300
+
+    New icons
+
+commit 5b409ba599e775f1e5318bb9abaaf57a0d022250
+Author: noise23 <admin@acidpool.com>
+Date:   Wed Jul 30 05:25:27 2014 +0300
+
+    Garbage files cleanup
+
+commit 1c1e05954547224dc946cab2295ea10f62818db3
+Author: noise23 <admin@acidpool.com>
+Date:   Wed Jul 30 05:17:14 2014 +0300
+
+    New logo images
+
+commit 20f48c83544d0e882305554325583656806848a6
+Author: noise23 <noise23@users.noreply.github.com>
+Date:   Tue Jul 29 02:24:58 2014 +0300
+
+    Changed CLIENT_VERSION_SUFFIX
+
+commit d9119d9c1aca9019d92cddd5e16aa32e3830b4e1
+Author: noise23 <noise23@users.noreply.github.com>
+Date:   Tue Jul 29 00:42:04 2014 +0300
+
+    Update version number to 0.9.2.1
+
+commit e8d83a0f66d385488ade69cb6103e1cb789aace1
+Author: noise23 <noise23@users.noreply.github.com>
+Date:   Tue Jul 29 00:41:23 2014 +0300
+
+    Update version number to 0.9.2.1
+
+commit 14cab86dc827f5f8697c1aa95595c850855de0ce
+Author: noise23 <noise23@users.noreply.github.com>
+Date:   Tue Jul 29 00:20:20 2014 +0300
+
+    Update README.md
+
+commit 0ad4d70221718ebd89dc7e702c49cd2c3a99cb67
+Author: noise23 <noise23@users.noreply.github.com>
+Date:   Tue Jul 29 00:19:33 2014 +0300
+
+    Update README.md
+
+commit a457f7a6ffacf0d4836c551ae48091cc93a29386
+Author: presstab <presstab1337@gmail.com>
+Date:   Mon Jul 14 11:39:50 2014 -0600
+
+    Fix GUI stake calcs
+
+commit 8c927c15482a320e1b2673b5c98aa1525e7d6002
+Author: presstab <presstab1337@gmail.com>
+Date:   Mon Jul 14 11:35:27 2014 -0600
+
+    Remove Time Req On Syncing Icon
+
+commit 124ae8d9cb6a4a9648902b640f72e5535f04a6f4
+Author: Truck Coin <truckcoin@gmail.com>
+Date:   Thu Jun 5 13:58:15 2014 -0500
+
+    removing setMainWindow as method does not exist
+
+commit f14bade7ec63a7cb807a8fd78dd378c84b6a1aab
+Author: Truck Coin <truckcoin@gmail.com>
+Date:   Tue Jun 3 10:56:55 2014 -0500
+
+    adding pnSeed
+
+commit 24f98059c151d47d4739a28140ab356bb7ac4da0
+Merge: 116e777 ef640ee
+Author: Truck Coin <truckcoin@gmail.com>
+Date:   Tue Jun 3 10:31:51 2014 -0500
+
+    Merge branch 'master' of https://github.com/truckit/Truckcoin
+
+commit 116e77736c5a96bd9add6f697467cb429561cfbb
+Author: Truck Coin <truckcoin@gmail.com>
+Date:   Tue Jun 3 10:31:16 2014 -0500
+
+    commenting out windows build info
+
+commit ef640ee8fa1b0de51dabd4c1aecd00aeb3fa869f
+Merge: 4ce7b4a b5bb5a9
+Author: Truck Coin <truckcoin@gmail.com>
+Date:   Tue Jun 3 10:20:16 2014 -0500
+
+    Merge branch 'master' of https://github.com/truckit/Truckcoin
+
+commit 4ce7b4ae05ca1fbaf54ca6d5495fcd4d162276d2
+Author: Truck Coin <truckcoin@gmail.com>
+Date:   Tue Jun 3 10:19:55 2014 -0500
+
+    adding icons
+
+commit b5bb5a964f9bf42bad2103ef842870b5bc0133db
+Author: Truck Coin <truckcoin@gmail.com>
+Date:   Tue Jun 3 09:34:38 2014 -0500
+
+    adding new icon
+
+commit 195e3e5ec6300682e9715228e1570ee5deaebdf0
+Author: Truck Coin <truckcoin@gmail.com>
+Date:   Tue Jun 3 09:04:38 2014 -0500
+
+    updating checkpoints
+
+commit 62240c033e3ce680f9ef928432ad8e13260c1fc3
+Author: Truck Coin <truckcoin@gmail.com>
+Date:   Mon Jun 2 22:45:18 2014 -0500
+
+    removing build files and updating gitignore
+
+commit 5fda3a6dca08d20c338537f529f4bdc3d5382c69
+Author: Truck Coin <truckcoin@gmail.com>
+Date:   Mon Jun 2 22:44:20 2014 -0500
+
+    adding gitignore file
+
+commit d6119b40ebc91111cfbb8fba68829f49bbdc7dcb
+Author: Truck Coin <truckcoin@gmail.com>
+Date:   Fri May 30 16:43:45 2014 -0500
+
+    removing binaries
+
+commit 33879987f06574e7e23bb765c89769c9c0a1f360
+Author: Truck Coin <truckcoin@gmail.com>
+Date:   Fri May 30 16:39:48 2014 -0500
+
+    first commit

@@ -1,0 +1,47 @@
+commit c1a26a3841b41825577d1647211e1e25d7d83443
+Author: AltcoinSteps <altcoinsteps@gmail.com>
+Date:   Wed May 25 09:33:33 2016 +0200
+
+    Fix
+
+commit 9edbb74e79c6b8e38932feefa0ef079f8f76eaa6
+Author: AltcoinSteps <altcoinsteps@gmail.com>
+Date:   Sun May 22 14:06:34 2016 +0200
+
+    changed block time to 1 minute and POS reward to 2.5 STEPS
+
+commit f9ab65120ff6b5516fd213d61c2b4091e9fc8a24
+Author: STEPS <altcoinsteps@gmail.com>
+Date:   Tue Sep 29 14:31:25 2015 +0200
+
+    logo update
+
+commit 413e66db065f552d4af8c4844baebbac9bedd863
+Author: AltcoinSteps <altcoinsteps@gmail.com>
+Date:   Sun Sep 20 13:33:19 2015 +0200
+
+    version update
+
+commit bb6dc7cb32ce90cc3b35521ee95c270fb1b69f9f
+Author: AltcoinSteps <altcoinsteps@gmail.com>
+Date:   Sun Sep 20 13:32:40 2015 +0200
+
+    version update
+
+commit 96e4636a8f93355fe2785f46a4b7e5cd53223b67
+Author: AltcoinSteps <altcoinsteps@gmail.com>
+Date:   Sun Sep 20 13:32:09 2015 +0200
+
+    minor fix
+
+commit 48ed8bbe13c23f6c63e0b7bfd1a2fb77f3f3a3e0
+Author: AltcoinSteps <altcoinsteps@gmail.com>
+Date:   Sun Sep 20 13:31:16 2015 +0200
+
+    minor fix
+
+commit 73a99aeeeec5fda99951330105ae4a81da600f34
+Author: STEPS <altcoinsteps@gmail.com>
+Date:   Thu Sep 17 01:21:17 2015 +0200
+
+    First Commit

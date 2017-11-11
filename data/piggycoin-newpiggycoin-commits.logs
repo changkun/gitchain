@@ -1,0 +1,606 @@
+commit 42f56fc5c070d09cde092422017c139a594b4b3b
+Merge: 2b139ad bb90d0e
+Author: piggycoin <piggycoinproject@gmail.com>
+Date:   Sun Nov 29 22:43:38 2015 -0800
+
+    Merge pull request #11 from neurocis/master
+    
+    Fix for DER & crafted sigs, uPNP fix, plus nStakeCombine enhancements.
+
+commit bb90d0e2b92da3e29ae8bb092fb5a8fa73d8db0d
+Author: neurocis <neurocis@neurocis.me>
+Date:   Sun Nov 29 22:38:31 2015 -0800
+
+    Bump nStakeCombineThreshold to 64K coins.
+
+commit 70649ad5d21ac2c08e176ab4bc42aa434d2b658f
+Author: neurocis <neurocis@neurocis.me>
+Date:   Thu Nov 12 17:16:02 2015 -0800
+
+    Remove doubling of nStakeCombineThreshold when evaluating for splitting
+    UTXOs on stake.
+
+commit b91e1f10e2292be0d26b19cb9a5b6040b41289d5
+Author: neurocis <neurocis@neurocis.me>
+Date:   Wed Nov 11 22:11:41 2015 -0800
+
+    Updated nStakeCombineThreshold, Added splitting threshold.
+
+commit 0775d9cb0f862612acdc90130733c49451212c61
+Author: neurocis <neurocis@neurocis.me>
+Date:   Tue Nov 10 21:55:05 2015 -0800
+
+    Update to version 1.2.3.0.
+
+commit ab24b408fe9dd5585ea6f2e415ca9eb89bfa713a
+Author: neurocis <neurocis@neurocis.me>
+Date:   Tue Nov 10 21:21:48 2015 -0800
+
+    Change Fervor update URL to http from https.
+
+commit 3b10298fb81d9023913401a2e51370d4f4c2f69d
+Author: neurocis <neurocis@neurocis.me>
+Date:   Tue Nov 10 21:01:49 2015 -0800
+
+    Update README.md errors and compile w/no uPNP.
+
+commit 88c012e7032d2f7bc64030f5a68c4f235de194bd
+Author: neurocis <neurocis@neurocis.me>
+Date:   Tue Nov 10 20:07:07 2015 -0800
+
+    Fix invalid signature with crafted length.
+
+commit ce544a5f66bab3fbc2e43b7201152b7fa6ac3b59
+Author: neurocis <neurocis@neurocis.me>
+Date:   Tue Nov 10 20:05:19 2015 -0800
+
+    Import Bitcoin fix for OpenSSL 1.0.1k handling of DER signatures.
+
+commit 7d1dc65ba8cf8ff9467e1de7fcdbf53443d032d3
+Author: neurocis <neurocis@gmail.com>
+Date:   Tue Sep 8 22:00:01 2015 -0700
+
+    Added scriptpubkeyhex .conf directive.
+    When 1 tx.vout.scriptPubKey.hex is included in Tx JSON output. Default is to exclude.
+
+commit 2b139ad9878837bccc6bcef314b0059a85658aa7
+Merge: a891fd6 ffb0961
+Author: piggycoin <piggycoinproject@gmail.com>
+Date:   Sat Jul 18 12:47:55 2015 -0700
+
+    Merge pull request #10 from neurocis/master
+    
+    PiggyStakes 1.2.2.1 (Hey Mac-arena)
+
+commit ffb0961a82556c84c1a715fb032d97de1c0b4afa
+Author: neurocis <neurocis@gmail.com>
+Date:   Sat Jul 18 12:40:08 2015 -0700
+
+    RC1 - Update checkpoints.cpp, Appcast.xml.
+
+commit bfa12ae4e5dc64ff3891654072a17a2d545c0add
+Author: neurocis <neurocis@gmail.com>
+Date:   Wed Jul 8 18:24:52 2015 -0700
+
+    Update remaining files which hold version info to 1.2.2.1.
+
+commit b4f55833e561e072f6bfaaf585eac86e68d5ddb1
+Merge: a891fd6 bc7e108
+Author: Leigh Phillips <neurocis@neurocis.me>
+Date:   Wed Jul 8 17:56:37 2015 -0700
+
+    Merge pull request #1 from MystPhysX/master
+    
+    Fixed all elements in the Mac wallet being too far to the right.
+
+commit bc7e108f29228fee0f7caab942c7eb64dd970425
+Author: MystPhysX <mystphysx@gmail.com>
+Date:   Sun Jun 21 22:20:35 2015 +0530
+
+    Update bitcoingui.cpp
+
+commit 690d06f7dd39ed4a48d2f29380f36631aac64190
+Author: MystPhysX <mystphysx@gmail.com>
+Date:   Sun Jun 21 22:18:57 2015 +0530
+
+    Update newpiggycoin-qt.pro
+
+commit a891fd6b81df4c10c6383ac2ee88e183f62134e5
+Merge: 3eeb98a 23de1bd
+Author: piggycoin <piggycoinproject@gmail.com>
+Date:   Fri May 1 22:54:28 2015 -0700
+
+    Merge pull request #8 from kruug/patch-2
+    
+    Update bitcoingui.cpp
+
+commit 3eeb98a24c7c5e11dde9a65e569eb0c69cb6e616
+Merge: 2cf0774 94b82d1
+Author: piggycoin <piggycoinproject@gmail.com>
+Date:   Fri May 1 22:53:48 2015 -0700
+
+    Merge pull request #7 from kruug/patch-1
+    
+    Update fervor reference
+
+commit 23de1bd6fba93612494af84447077e39e585bf0d
+Author: Viktor Kruug <kruug@users.noreply.github.com>
+Date:   Thu Apr 30 08:36:37 2015 -0500
+
+    Update bitcoingui.cpp
+
+commit 94b82d17e2fe18223ffb9c530c7d315c8219d23f
+Author: Viktor Kruug <kruug@users.noreply.github.com>
+Date:   Thu Apr 30 08:33:41 2015 -0500
+
+    Update fervor reference
+    
+    Changed case to match the folder case.
+
+commit 2cf077420aeecf9e93ff465b876268cc6d185d71
+Merge: 7fe25c0 b40b065
+Author: piggycoin <piggycoinproject@gmail.com>
+Date:   Sun Apr 26 21:51:52 2015 -0700
+
+    Merge pull request #6 from neurocis/master
+    
+    V1.2.2.0 Release
+
+commit b40b06524976990fc5f04f0310a4bfcdd2a5e580
+Author: neurocis <neurocis@gmail.com>
+Date:   Fri Apr 24 22:33:39 2015 -0700
+
+    Publish updated release notes.
+
+commit 6732965424c21f8aea6a17e8a2eda9e8c352995c
+Author: neurocis <neurocis@gmail.com>
+Date:   Fri Apr 24 22:32:29 2015 -0700
+
+    Implement fervor update notifications.
+
+commit 08b00dcc2cef4f5cdec70fdbc8e4bbe59659824e
+Author: neurocis <neurocis@gmail.com>
+Date:   Fri Apr 24 19:10:55 2015 -0700
+
+    Push Appcast for fervor testing.
+
+commit d1f6bb50b393eccb876ba4e35e3fa55ed82950eb
+Author: neurocis <neurocis@gmail.com>
+Date:   Fri Apr 24 19:05:59 2015 -0700
+
+    Updates to easywinbuilder methods.
+
+commit 5afb97390b5ae7f65f68e4095cd585c0b7287dfa
+Author: neurocis <neurocis@gmail.com>
+Date:   Fri Apr 24 19:05:25 2015 -0700
+
+    Update makefile.mingw to current deps.
+
+commit f9e851d64878bafbddde1a2de981ded31ac4b522
+Author: neurocis <neurocis@gmail.com>
+Date:   Fri Apr 24 19:04:45 2015 -0700
+
+    Update checkpoints.
+
+commit f2a2027634d3d571972ba943e30b48d12b740437
+Author: neurocis <neurocis@gmail.com>
+Date:   Fri Apr 24 19:04:24 2015 -0700
+
+    Update link in chat window to go to news instead of foundation.
+
+commit 6326930a7ff94d169910aeb396c260163851d56e
+Author: neurocis <neurocis@gmail.com>
+Date:   Wed Mar 25 17:38:03 2015 -0700
+
+    Shelve time drift changes for future hard fork.
+    Fix spelling error.
+
+commit 79a71f55166391de62d95d4ab12416fbdd080b6c
+Author: neurocis <neurocis@gmail.com>
+Date:   Mon Mar 23 23:54:26 2015 -0700
+
+    Make ban more "polite".
+    Fix BAN and NOBLKS logic to agree with functional description.
+
+commit a7bac40c58752fc445c42dfbfd8801c6c94286b1
+Author: neurocis <neurocis@gmail.com>
+Date:   Sun Mar 22 00:45:34 2015 -0700
+
+    Update version to 1.2.2.0
+
+commit ae4ab897e9ee486e9fb8664a2a3dd7a4881af9d7
+Author: neurocis <neurocis@gmail.com>
+Date:   Sun Mar 22 00:45:14 2015 -0700
+
+    Lower acceptable Drift from +/-20 mins to -7/+8 mins.
+
+commit a00424ba21e2ffe29736452f847c66dfb3bc1c6f
+Author: neurocis <neurocis@gmail.com>
+Date:   Sun Mar 22 00:43:17 2015 -0700
+
+    Ban peers w/protocol 6014 or less.
+    Do not accept block requests from peers w/protocol 60002-60014.
+    Update protocol version to 60200 from 60101.
+
+commit 3682ffcb766aa4d11712e2b298b0159ae85b8566
+Author: neurocis <neurocis@gmail.com>
+Date:   Sun Mar 22 00:39:47 2015 -0700
+
+    Enable multithreaded EasyWinBuilder (-j make directive)
+
+commit 7fe25c0f6128f44dbcafa3a34222f570b44a4759
+Merge: 82898fa 3f0f278
+Author: piggycoin <piggycoinproject@gmail.com>
+Date:   Sat Mar 21 17:42:46 2015 -0700
+
+    Merge pull request #5 from neurocis/master
+    
+    Release PiggyStakes 1.2.1.1 (RC1 tests passed) - Merge approved.
+
+commit 3f0f2785ebcc41c3af4be36da3ce7ca4ad619da1
+Author: neurocis <neurocis@gmail.com>
+Date:   Wed Mar 18 14:15:20 2015 -0700
+
+    Add ReleaseNotes.txt
+    Update version to 1.2.1.1.
+    Update copyright.
+    Remove old XxXcoin references.
+    Update makefiles.
+    Minur bugfixes (mostly UI).
+
+commit b301d7f8bdd5c0ee142627f27969414eae4d139f
+Author: neurocis <neurocis@gmail.com>
+Date:   Wed Mar 18 13:56:13 2015 -0700
+
+    Reject blocks which stake less than 50% of entitled reward (pre v1.2 stakes will be rejected).
+
+commit 05f629be7df8434c34dd655ce42693903e882cd7
+Author: neurocis <neurocis@gmail.com>
+Date:   Wed Mar 18 13:55:44 2015 -0700
+
+    Adjust nStakeCombineThreshold to 48,000p (combine small UTXOs, was 1,000p).
+    Adjust nStakeSplitAge to 12hrs (split if stake less than 12hrs old, decreases stake splitting, was 24hrs).
+
+commit 595ee811751cdb0df8458c8831e2374c5c5bb7e7
+Author: neurocis <neurocis@gmail.com>
+Date:   Wed Mar 18 13:54:55 2015 -0700
+
+    Update protocol version to 60101 was 60014 (begin version-protocol alignment and prep for future fork cut-off).
+
+commit 60537b4f8f7d608a6a47ce8274dd0a687f1a4634
+Author: neurocis <neurocis@gmail.com>
+Date:   Wed Mar 18 13:53:35 2015 -0700
+
+    Update checkpoints.
+
+commit 9c849ad7e2a2ccdecca44429e262c82dd8ca1dd4
+Author: neurocis <neurocis@gmail.com>
+Date:   Wed Mar 18 13:52:50 2015 -0700
+
+    Updated LevelDB from 1.15 to 1.18 (current bitcoin 0.10 standard).
+
+commit 82898fa382e6c45ac7f8e17122b630277591252e
+Merge: 7602dee 4c3e8ce
+Author: piggycoin <piggycoinproject@gmail.com>
+Date:   Thu Feb 26 12:42:20 2015 -0800
+
+    Merge pull request #4 from neurocis/master
+    
+    v1.2.0.0 Final Release
+
+commit 4c3e8ced14ce689933c8dc4293e9ae918de57b3e
+Author: neurocis <neurocis@gmail.com>
+Date:   Wed Feb 25 23:29:03 2015 -0800
+
+    Push final list of pnSeed(s).
+    Spec win32-g++-4.6 for win32 qmake (was win32-g++).
+
+commit aec1939a1b8863c14a0f4d8318be2745f9c1661d
+Author: neurocis <neurocis@gmail.com>
+Date:   Wed Feb 25 21:06:35 2015 -0800
+
+    Push another npSeed.
+
+commit b51eac8c8b87e3787d99fc8fb3501c76d0ef8146
+Author: neurocis <neurocis@gmail.com>
+Date:   Wed Feb 25 20:59:10 2015 -0800
+
+    Add DNS-Seeds.
+
+commit e88bac727ea03f51af3a9c115a5459c6397727b3
+Author: neurocis <neurocis@gmail.com>
+Date:   Wed Feb 25 20:49:48 2015 -0800
+
+    Test single seed node pnSeed conversion format.
+
+commit 2d695b326e9a2b090183eaa6a34927df74db0498
+Author: neurocis <neurocis@gmail.com>
+Date:   Wed Feb 25 20:27:04 2015 -0800
+
+    Add checkpoint @ ~400k block height.
+
+commit 244bd146447b2d5a1a6b0a4985e9cbb531d4126b
+Author: neurocis <neurocis@gmail.com>
+Date:   Tue Feb 24 01:02:34 2015 -0800
+
+    Add EasyWinBuilder. Updated MakeFiles and Build Documentation.
+
+commit 7602deec4db05d8488c6640735ca3af2906bda7e
+Merge: d25985d f49868d
+Author: piggycoin <piggycoinproject@gmail.com>
+Date:   Mon Feb 9 16:03:07 2015 -0800
+
+    Merge pull request #3 from neurocis/master
+    
+    Update to PiggyStakes 1.2.0.0
+
+commit f49868d2e715aa1edb0611bed15ad589bc313ff1
+Author: neurocis <neurocis@gmail.com>
+Date:   Sun Feb 8 21:58:33 2015 -0800
+
+    Version 1.2.0.0
+    - Fix daemon build - dependant upon directory existing.
+
+commit 94be2b491653f26cde291e8bfe71d426d47fa486
+Author: neurocis <neurocis@gmail.com>
+Date:   Sun Feb 8 20:20:25 2015 -0800
+
+    Version 1.2.0
+    - Fix unescaped ampersand in aboutdialog.ui
+
+commit b227310aaec1a64357592158b3d3586d6541d271
+Author: neurocis <neurocis@gmail.com>
+Date:   Sun Feb 8 20:12:37 2015 -0800
+
+    Version 1.2.0 minor changes.
+    - Update to Qt 5.3.2
+    - Update copyright
+    - Cleanup unused variables
+
+commit 19f03f4d87a3ba52a008c49d20b89b9f3f33edf2
+Author: neurocis <neurocis@gmail.com>
+Date:   Sat Feb 7 22:31:05 2015 -0800
+
+    PiggyStakes 1.2.0 initial commit (tested)
+    - Fix to 3% at block 415,000.
+    - Checkpointing.
+    - StakeMaxAge set to 9 months.
+
+commit d25985d0a6d70e2761349be98f47a396195dea3b
+Merge: bc8c6b5 20b8d5b
+Author: piggycoin <piggycoinproject@gmail.com>
+Date:   Sun Jul 27 15:25:17 2014 +0100
+
+    Merge pull request #2 from kruug/master
+    
+    Working code repository
+
+commit 20b8d5b41ef1c8f8ef6035ea1e9a53cf9440552e
+Author: kruug <kruug@kruug.org>
+Date:   Fri Jul 25 16:44:43 2014 -0500
+
+    Cleaning up gitian stuff
+
+commit dbabb567f5e8b39faba4131c670cc4eb13d6b54e
+Author: kruug <kruug@kruug.org>
+Date:   Fri Jul 25 10:19:25 2014 -0500
+
+    Gitian fixes
+
+commit 61763a8cc41497ab37691f8d8e09cd4e2dc88cd8
+Merge: 766f46d a49b506
+Author: kruug <kruug@kruug.org>
+Date:   Fri Jul 25 08:46:17 2014 -0500
+
+    Merge branch 'master' of https://github.com/kruug/newpiggycoin
+
+commit 766f46d15ecac23add4a5c7b385482b7137a28d1
+Author: kruug <kruug@kruug.org>
+Date:   Fri Jul 25 08:45:28 2014 -0500
+
+    Add pkg.m4 for gitian
+
+commit a49b506600b44a9b0d0e1c9b72d1b6fb62c6a679
+Author: Viktor Kruug <kruug@users.noreply.github.com>
+Date:   Fri Jul 25 08:40:17 2014 -0500
+
+    Update README.md
+
+commit 9e54cf8ee6dbd23dd5291f2e7ad22027ae0c9a20
+Author: kruug <kruug@kruug.org>
+Date:   Fri Jul 25 08:37:12 2014 -0500
+
+    More gitian stuff
+
+commit bf9f3c84864b633fd5623b6e043a68a87b7d4b9b
+Author: kruug <kruug@kruug.org>
+Date:   Thu Jul 24 16:26:09 2014 -0500
+
+    Updated release-process.md
+
+commit 2ad231219c6c4d580ee86cf1ff6908fa2d2251d3
+Author: kruug <kruug@kruug.org>
+Date:   Thu Jul 24 16:17:00 2014 -0500
+
+    Correct permissions
+
+commit 135d6b2ca5bd32cf4be0804b112b1ae7cca099b4
+Author: kruug <kruug@kruug.org>
+Date:   Thu Jul 24 16:11:25 2014 -0500
+
+    Added autogen
+
+commit c6fc41e39f87f636527f63205af902fdc19d7447
+Author: debian <debian@debian>
+Date:   Thu Jul 24 15:40:46 2014 -0500
+
+    Started gitian building
+
+commit b6d261e371873523d844f87b5ec10620d9b5c227
+Author: Viktor Kruug <kruug@users.noreply.github.com>
+Date:   Wed Jul 23 22:38:36 2014 -0500
+
+    Update release-process.txt
+
+commit 0d97e6e88f92d5b5d0478569ba84f28decedb118
+Author: Viktor Kruug <kruug@users.noreply.github.com>
+Date:   Wed Jul 23 22:34:20 2014 -0500
+
+    Update release-process.txt
+
+commit 6e38f66ac077eba8128069ff9efd6b66e6d178f9
+Author: Viktor Kruug <kruug@users.noreply.github.com>
+Date:   Wed Jul 23 14:55:48 2014 -0500
+
+    Updated qt-everywhere version.
+
+commit b1b4026725953e513cb32d51c127bfcd7928a501
+Author: Viktor Kruug <kruug@users.noreply.github.com>
+Date:   Wed Jul 23 14:47:33 2014 -0500
+
+    Updated libpng version.
+
+commit cbe12f29a34edd6aa1bc501326d80442515564d7
+Author: Viktor Kruug <kruug@users.noreply.github.com>
+Date:   Wed Jul 23 14:42:48 2014 -0500
+
+    Updated zlib version
+
+commit 6b008727e39a9401755aeb69e1187d100b1147ae
+Author: kruug <kruug@kruug.org>
+Date:   Wed Jul 23 14:12:51 2014 -0500
+
+    Update boost test to PiggyCoin for a name
+
+commit b8fdcee5aed311a3823457398e2a50cd7a81b968
+Author: kruug <kruug@kruug.org>
+Date:   Wed Jul 23 13:59:29 2014 -0500
+
+    Updated documentation for newpiggycoin
+
+commit 97398526e4e04513f154c3ff258c813e5dda46fc
+Author: kruug <kruug@kruug.org>
+Date:   Wed Jul 23 13:32:10 2014 -0500
+
+    Remove novacoin references in setup.nsi
+
+commit 5c7b415b224ac5e8129e5385a7e3d725ddc575d0
+Author: Viktor Kruug <kruug@users.noreply.github.com>
+Date:   Wed Jul 23 11:26:26 2014 -0500
+
+    Update README.md
+
+commit 44f4ba545d6f6d83e487366a92deeb3419630f26
+Author: Viktor Kruug <kruug@users.noreply.github.com>
+Date:   Wed Jul 23 11:24:32 2014 -0500
+
+    Changed project name to PiggyCoin, updated version
+
+commit e7128ad4333340a63cfacca4d1a56d603d55cb88
+Author: Viktor Kruug <kruug@users.noreply.github.com>
+Date:   Wed Jul 23 11:21:29 2014 -0500
+
+    Changed references to newpiggycoin
+
+commit d93656106ff2e94b23cf8ba634df823bddb21bf1
+Author: Viktor Kruug <kruug@users.noreply.github.com>
+Date:   Wed Jul 23 09:09:24 2014 -0500
+
+    Update README.md
+
+commit 65ad84927b372e5f5706c92c3a6ca48b929de57f
+Author: Viktor Kruug <kruug@users.noreply.github.com>
+Date:   Wed Jul 23 09:09:10 2014 -0500
+
+    Update README.md
+
+commit 43c21ff94ca96f61f8d0e32ed4f97d4363b9b387
+Author: Viktor Kruug <kruug@users.noreply.github.com>
+Date:   Wed Jul 23 08:48:35 2014 -0500
+
+    Update README.md
+
+commit 79c915a2a620b40eda750a692e0e51d83ff4cf9a
+Author: Viktor Kruug <kruug@users.noreply.github.com>
+Date:   Wed Jul 23 08:46:48 2014 -0500
+
+    Update README.md
+
+commit 4190e0c7f586168c454b15c03204fb7a1eefdb28
+Author: Viktor Kruug <kruug@users.noreply.github.com>
+Date:   Tue Jul 22 23:53:26 2014 -0500
+
+    Fix formatting
+
+commit 80590cb84205400446118b78ab231c8f9aab45f9
+Author: Viktor Kruug <kruug@users.noreply.github.com>
+Date:   Tue Jul 22 20:53:47 2014 -0500
+
+    Delete .COPYING.swp
+    
+    Unecessary dotfile.
+
+commit 3e3dc2170f5af449c4c19eb02632cfed3fe08901
+Author: Kruug <kruug@mail.kruug.org>
+Date:   Tue Jul 22 20:50:06 2014 -0500
+
+    Fix README.md
+    Remove unecessary files
+
+commit f3f38657d3ca4d7f17104a304dbf25b033aac70f
+Author: Kruug <kruug@mail.kruug.org>
+Date:   Tue Jul 22 20:26:14 2014 -0500
+
+    Fixed type-cast issue
+    Added missing icons
+
+commit bc8c6b5ddfcdb6367b572a5185e6634a1512a962
+Author: Your Name <jvalente96@gmail.com>
+Date:   Fri Jun 27 20:15:39 2014 +0400
+
+    image fix
+
+commit dc8a6c7c63e65bd06def7fff56a95f5ca4c95213
+Author: piggycoin <piggycoinproject@gmail.com>
+Date:   Fri Jun 27 17:10:59 2014 +0100
+
+    Delete lock_open.png
+
+commit 9eb35f3dfc95843106ffa428ae922b25e903fd97
+Author: piggycoin <piggycoinproject@gmail.com>
+Date:   Fri Jun 27 17:10:53 2014 +0100
+
+    Delete lock_closed.png
+
+commit 31d80ea6dfe16bd708dbee79b00c1c0bae0757ca
+Merge: c68aa23 45c1314
+Author: piggycoin <piggycoinproject@gmail.com>
+Date:   Fri Jun 20 16:18:14 2014 +0400
+
+    Merge pull request #1 from Galaxy2004/patch-1
+    
+    Update compile_readme.txt
+
+commit 45c1314f54016911440a86c9508765a550c069af
+Author: Galaxy2004 <mehmet24@hotmail.com>
+Date:   Fri Jun 20 13:40:41 2014 +0300
+
+    Update compile_readme.txt
+
+commit c68aa2304b175d3221539c6bda138ab9d4128d2f
+Author: Your Name <jvalente96@gmail.com>
+Date:   Thu Jun 19 04:40:21 2014 +0400
+
+    1.1.5
+
+commit 6f6bdf1d385bf78b5514b11e35e9d3dc935bfe69
+Author: Your Name <jvalente96@gmail.com>
+Date:   Mon Jun 16 20:18:19 2014 +0100
+
+    in-wallet explorer
+
+commit 85914c80d8166744ef0f10d8156af61a5eee5fb7
+Author: Your Name <jvalente96@gmail.com>
+Date:   Sat Jun 14 22:11:18 2014 +0100
+
+    lets try again

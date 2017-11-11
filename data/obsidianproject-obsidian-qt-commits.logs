@@ -1,0 +1,133 @@
+commit 67bc0140df0f2122fc883973c9b1797520ffd0a0
+Author: netsfx <pivxinfo@gmail.com>
+Date:   Fri Nov 10 22:22:48 2017 +0100
+
+    Update README.md
+
+commit 68a0a8031f3763a74e0091cc518bdf27c9875e7a
+Author: netsfx <pivxinfo@gmail.com>
+Date:   Fri Nov 10 22:21:40 2017 +0100
+
+    Update README.md
+
+commit 657e41acd384f178e4d984f96451ca3616961abf
+Author: netsfx <blackstone@obsidianplatform.com>
+Date:   Mon Sep 25 02:39:56 2017 +0200
+
+    Target macOS 10.10
+
+commit c977102a7b6fbff18b399b955c5f270dced6d471
+Author: netsfx <netsfx@github.com>
+Date:   Sun Sep 24 23:05:44 2017 +0200
+
+    Add seed node
+
+commit 774667f511284230a4c86702993e17931271fa46
+Author: netsfx <netsfx@github.com>
+Date:   Thu Sep 21 20:47:28 2017 +0200
+
+    Update seed nodes
+
+commit 9e9026a85173987d4488010ded0bca6ca81db420
+Merge: 536821b 9bed759
+Author: netsfx <pivxinfo@gmail.com>
+Date:   Thu Sep 21 11:51:22 2017 +0200
+
+    Merge pull request #35 from jacobzlogar/config_init
+    
+    Build script updates
+
+commit 9bed759efaf8d35dfe3efa27e22e45d9a0ea9bf9
+Author: jacob zlogar <jacob.zlogar@gmail.com>
+Date:   Wed Sep 20 23:15:01 2017 -0400
+
+    add newline, hide terminal password input with fancy snippet found here:https://stackoverflow.com/questions/4316730/linux-scripting-hiding-user-input-on-terminal
+
+commit 0dc2d25d360442723e6056fca0fa588bcf81bcd4
+Author: jacob zlogar <jacob.zlogar@gmail.com>
+Date:   Wed Sep 20 23:06:55 2017 -0400
+
+    add init bash script function to generate config file
+
+commit 536821bf3b87e63442242b83cbb792e17edc11e4
+Merge: d819be1 4c9693b
+Author: netsfx <pivxinfo@gmail.com>
+Date:   Wed Sep 20 23:45:38 2017 +0200
+
+    Merge pull request #34 from lestshad/master
+    
+    Updating build scripts for proper linux builds
+
+commit 4c9693b6acb32e27d70037d31a1bd2fb75845076
+Author: Shad Lest <shad@obsidianplatform.com>
+Date:   Wed Sep 20 14:13:41 2017 -0700
+
+    Updating build scripts for proper linux builds
+
+commit d819be1f047eae52829576d417f88b1075047984
+Merge: 049d046 fd41f36
+Author: netsfx <pivxinfo@gmail.com>
+Date:   Tue Sep 19 19:38:34 2017 +0200
+
+    Merge pull request #33 from asessa/master
+    
+    Removed last x13hash references
+
+commit fd41f36ebd1ddc56ad1f0ebeaf17e4cbbfedf70a
+Author: Andrea Sessa <andrea.sessa@gmail.com>
+Date:   Tue Sep 19 16:24:55 2017 +0200
+
+    Remove x13hash (now using libsodium)
+
+commit 9bd93520fbc8aecb916923af2587e0eae6570cc2
+Author: Andrea Sessa <andrea.sessa@gmail.com>
+Date:   Tue Sep 19 16:22:01 2017 +0200
+
+    Fix leveldb folder permissions
+
+commit 049d04626d256f1b289b30bdc21394c1199f3fa1
+Merge: 16b9f6a 6b76202
+Author: netsfx <pivxinfo@gmail.com>
+Date:   Tue Sep 19 15:48:55 2017 +0200
+
+    Merge pull request #32 from asessa/patch-1
+    
+    Exclude x13hash from gitignore
+
+commit 6b76202a97542f6270377fd91f174b56cfa4832f
+Author: Andrea Sessa <andrea.sessa@gmail.com>
+Date:   Tue Sep 19 13:58:05 2017 +0200
+
+    Exclude x13hash from gitignore
+    
+    x13hash is required to build the wallet, .gitignore must exclude that directory
+
+commit 16b9f6a65062b6a6b2a21abfe5b229b4e631ac23
+Author: netsfx <netsfx@github.com>
+Date:   Sun Sep 17 22:54:17 2017 +0200
+
+    Initial source check-in.
+
+commit 5ba64f2872d449392c31b31b4137e0d9e223a27f
+Author: netsfx <pivxinfo@gmail.com>
+Date:   Wed Aug 30 18:04:13 2017 +0200
+
+    Update README.md
+
+commit bcbf6091e20a287615c16b29b3f571569464a1a3
+Author: netsfx <pivxinfo@gmail.com>
+Date:   Wed Aug 30 18:02:17 2017 +0200
+
+    Update README.md
+
+commit 29a018774ad1c0879cab026fe4239878a91e9c30
+Author: netsfx <pivxinfo@gmail.com>
+Date:   Wed Aug 30 17:50:49 2017 +0200
+
+    Update README.md
+
+commit 97aee5d390d580804faea4597939f9356ec77075
+Author: netsfx <pivxinfo@gmail.com>
+Date:   Wed Aug 30 17:41:41 2017 +0200
+
+    Initial commit

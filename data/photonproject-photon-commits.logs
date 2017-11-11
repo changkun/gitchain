@@ -1,0 +1,501 @@
+commit c6e459db6f54842eb7f9d19524528703192bc4ed
+Author: cinnamon_carter <cinnamoncoin@users.noreply.github.com>
+Date:   Sun Jun 4 08:02:17 2017 +0000
+
+    Update checkpoints.cpp
+    
+    typo
+
+commit e0815f5a294a3fcf73585dc96867539bf5b4192e
+Author: cinnamon_carter <cinnamoncoin@users.noreply.github.com>
+Date:   Sun Jun 4 07:11:17 2017 +0000
+
+    Update checkpoints.cpp
+    
+    add recent check point
+
+commit 06525c5f640136165102e1e7bf56e9eab4978665
+Author: BlueDragon747 <bluedragon747@gmail.com>
+Date:   Mon Oct 24 15:05:34 2016 +0100
+
+    set to match OP example conf
+    
+    range issue really needs to be <65000 set to match example conf "rpcport=8984"
+
+commit 8a8d4af341f99bbc14ab82c1f9c9bbb678460a01
+Author: cinnamon_carter <cinnamoncoin@users.noreply.github.com>
+Date:   Sat Jan 23 23:17:33 2016 +0000
+
+    update COPYRIGHT_YEAR to 2016
+
+commit 2f10beca59449cec3a4592a92e90e088f314abac
+Author: cinnamon_carter <cinnamoncoin@users.noreply.github.com>
+Date:   Mon Dec 14 08:08:37 2015 +0000
+
+    Update checkpoints.cpp
+
+commit fb6f1fad91fbf7c1ce712ce8386818a847eac544
+Author: BlueDragon747 <bluedragon747@gmail.com>
+Date:   Sun Dec 13 16:08:15 2015 +0000
+
+    update
+
+commit 8b33b46898546c9659efb522fa26b092dc3860e7
+Author: BlueDragon747 <bluedragon747@gmail.com>
+Date:   Sun Dec 13 15:40:08 2015 +0000
+
+    updates
+    
+    updates and fix for invalid signatures with crafted length
+
+commit d314656acf4379d6d5a935de0d16931bd5fa5a8a
+Merge: a509b7f 940c68d
+Author: cinnamoncoin <cinnamon.carter@aol.com>
+Date:   Thu Sep 3 08:50:56 2015 +0000
+
+    Merge branch 'master' of https://github.com/photonproject/photon
+
+commit a509b7f18587b75bd8936a7d626772de424045ea
+Author: photonproject <dokrotnose@gmail.com>
+Date:   Thu Aug 20 00:35:50 2015 +0000
+
+    change boost to standard from standard and debug
+
+commit 940c68d0b645bc49c52cbfc556d14dd9dc980282
+Author: photonproject <dokrotnose@gmail.com>
+Date:   Thu Aug 20 00:35:50 2015 +0000
+
+    change boost to standard from standard and debug
+
+commit c3041d4bca2fcf4c845fbe87f2e30c97aa77d473
+Author: cinnamon_carter <cinnamoncoin@users.noreply.github.com>
+Date:   Sat Aug 15 01:08:47 2015 +0000
+
+    additional seed node
+    
+    additional seed node added also see here for others https://bitcointalk.org/index.php?topic=478136.msg5274141#msg5274141
+
+commit 031ecb63c283ca903a700cc9acb9dd1e08079c5c
+Author: cinnamon_carter <cinnamoncoin@users.noreply.github.com>
+Date:   Thu Aug 13 07:02:13 2015 -0400
+
+    chkpt added
+
+commit d86ce87e1838382c90e3b4dd7cd3b0402d68e800
+Author: BlueDragon747 <bluedragon747@gmail.com>
+Date:   Wed Aug 12 14:43:07 2015 +0100
+
+    update
+
+commit f8354b9a83fcf527d05ed01411198b3544453965
+Author: cinnamon_carter <cinnamoncoin@users.noreply.github.com>
+Date:   Fri Jul 10 17:04:58 2015 +0000
+
+    cosmetic corrections
+
+commit 4d7a248f2db3991017c95c4b2d7c36aef8c79dad
+Author: cinnamon_carter <cinnamoncoin@users.noreply.github.com>
+Date:   Fri Jul 10 16:50:05 2015 +0000
+
+    updated checkpoint
+
+commit 97f4b86689fe4931227ad90f251cdf65f48ef761
+Author: cinnamon_carter <cinnamoncoin@users.noreply.github.com>
+Date:   Sat Jun 13 03:47:47 2015 -0400
+
+    provide vald photon sample address
+    
+    BXgB67NbzKf4CP3TXhQumTsyEJa3eGrZ56
+
+commit 1255ba20d9899a77ab0f5f20d19f4f6a449502cd
+Author: cinnamon_carter <cinnamoncoin@users.noreply.github.com>
+Date:   Sat Jun 13 03:40:23 2015 -0400
+
+    add valid photon address to gui
+    
+    add valid photon address to gui
+
+commit d04650b7f59549585c2ef39c7996dd699454af2d
+Author: cinnamon_carter <cinnamoncoin@users.noreply.github.com>
+Date:   Mon Jun 1 03:22:32 2015 +0000
+
+    correct date
+
+commit a320777c51bc87bb50ce067208ac98e535a43e44
+Author: cinnamon_carter <cinnamoncoin@users.noreply.github.com>
+Date:   Wed May 20 07:40:52 2015 +0000
+
+    Update Photon-qt.pro
+    
+    corrections for uniformity in building
+
+commit 37074e9532307aa30915e33dd7abe233e7868800
+Author: cinnamon_carter <cinnamoncoin@users.noreply.github.com>
+Date:   Wed May 20 07:31:11 2015 +0000
+
+    Update README.md
+    
+    added items currently in development and suggestion to visit blakecoin.org
+
+commit 2d7f158a39194d32e0aab1bbed5074268455a3f9
+Author: cinnamon_carter <cinnamoncoin@users.noreply.github.com>
+Date:   Tue Apr 14 08:53:25 2015 +0000
+
+    cosmetic change to client
+    
+    put valid photon address in place vs. old source code
+
+commit 10c7bdbf4d4f4b79d835aa3a04b145e650850adc
+Author: cinnamon_carter <cinnamoncoin@users.noreply.github.com>
+Date:   Tue Apr 14 08:51:11 2015 +0000
+
+    correct sample addresses
+    
+    cosmetic change out of old bitcoin source code long forgotten
+
+commit e3a15e4a6461bf7512c563018553ed2f60397334
+Author: cinnamon_carter <cinnamoncoin@users.noreply.github.com>
+Date:   Tue Apr 14 03:20:16 2015 +0000
+
+    correct error to compile photond
+
+commit fc0e18e832efb698482cb393f0ea02ae2d5d0710
+Author: cinnamoncoin <cinnamon.carter@aol.com>
+Date:   Mon Apr 13 01:37:51 2015 +0000
+
+    minor changes
+    
+    added checkpoint, upgraded to build with open ssl 1.0.2a , corrected
+    year in wallet qt area
+
+commit b45aa0ad257599d81018bb0a1fbeedc609d442dd
+Author: cinnamon_carter <cinnamoncoin@users.noreply.github.com>
+Date:   Sat Mar 7 18:15:42 2015 +0000
+
+    update unix make file with default UPNP=1
+
+commit 8a08f2009960c6e6a3ba71b5ca336763dcbe6e5f
+Author: cinnamoncoin <cinnamon.carter@aol.com>
+Date:   Sun Feb 15 22:06:32 2015 +0000
+
+    gitian corrctions
+    
+    gitian corrctions
+
+commit 2a496b7bf2a2cffd8bc4f96b936e99493496f7c0
+Author: cinnamoncoin <cinnamon.carter@aol.com>
+Date:   Sat Feb 7 11:15:07 2015 +0000
+
+    Revert "updates"
+    
+    This reverts commit 75cef19b9cc34aabb30766d3cc37cb5b01c8d813.
+
+commit 8419c25e235ef3f5d6fc959a8296acd6dd383687
+Author: cinnamoncoin <cinnamon.carter@aol.com>
+Date:   Sat Feb 7 11:14:54 2015 +0000
+
+    Revert "change qt everywhere version"
+    
+    This reverts commit 0d64962816740ead67dc1253d34c800c526e9942.
+
+commit 0d64962816740ead67dc1253d34c800c526e9942
+Author: cinnamon_carter <cinnamoncoin@users.noreply.github.com>
+Date:   Sat Feb 7 10:52:11 2015 +0000
+
+    change qt everywhere version
+
+commit 75cef19b9cc34aabb30766d3cc37cb5b01c8d813
+Author: cinnamoncoin <cinnamon.carter@aol.com>
+Date:   Sat Feb 7 07:48:27 2015 +0000
+
+    updates
+    
+    updates
+
+commit d9bfafd71dd04815438d6c75ec079416b7e34bc8
+Author: cinnamoncoin <cinnamon.carter@aol.com>
+Date:   Mon Jan 19 13:49:37 2015 +0000
+
+    update to 2015,new checkpoint, client name fix
+    
+    updated year to 2015, client name on rpc console was still Blake,
+    finally I remembered to fix it, added recent checkpoint block 143027
+
+commit 6735e8cf97e23f5de55ce4a6e61c14cd0e3a70ba
+Author: BlueDragon747 <bluedragon747@gmail.com>
+Date:   Tue Dec 2 08:34:03 2014 +0000
+
+    Recognize project as C++ not incorrectly as TypeScript
+
+commit dc29b8b512b9449708bc0388f5874814e8a03c64
+Author: BlueDragon747 <bluedragon747@gmail.com>
+Date:   Tue Dec 2 01:23:29 2014 +0000
+
+    Linux qt fix
+
+commit 7fd257ce068149e1fad1586ed6c8aaaaed1f759b
+Author: BlueDragon747 <bluedragon747@gmail.com>
+Date:   Sun Nov 30 07:31:07 2014 +0000
+
+    Update
+
+commit bb2c099f87bbf429b490b94cd39162c679a7b347
+Author: BlueDragon747 <bluedragon747@gmail.com>
+Date:   Sun Nov 30 03:44:21 2014 +0000
+
+    CoinControl Added
+
+commit 38ae51167e808977be80752a789d18276aedd349
+Author: cinnamoncoin <cinnamon.carter@aol.com>
+Date:   Mon Nov 10 01:50:45 2014 +0000
+
+    update version of level db
+    
+    now in line with latest blake coin source and updated level db for
+    better indexing, once you go to this version you should not go back
+
+commit 8acf8315aa32acf390d6303c8a8131d85e5ad65e
+Author: cinnamoncoin <cinnamon.carter@aol.com>
+Date:   Sun Oct 26 23:42:20 2014 +0000
+
+    change to 'Photon'
+    
+    when pulling up a qr code it previously said bitcoin this has now been
+    corrected
+
+commit 82ed31dbbdb1c97e1abe3038c9b95ef170476d9d
+Author: cinnamoncoin <cinnamon.carter@aol.com>
+Date:   Wed Oct 22 03:52:30 2014 +0000
+
+    correct pro file for open ssl 1.0.1j
+    
+    correct pro file for open ssl 1.0.1j
+
+commit b6603d422dc2508018ac852545fee8019604069c
+Author: cinnamoncoin <cinnamon.carter@aol.com>
+Date:   Fri Oct 17 02:49:15 2014 +0000
+
+    updated checkpoint + open ssl 1.0.1j
+    
+    updated checkpoint + open ssl 1.0.1j
+
+commit 3731b1a4b448fec0dab921e9db948e760abdb9db
+Author: cinnamoncoin <cinnamon.carter@aol.com>
+Date:   Wed Oct 15 05:29:22 2014 +0000
+
+    update makefile to open ssl1.0.1i
+    
+    update makefile to open ssl1.0.1i
+
+commit 4a5566acd502081b613ab55ab37242a4cdca6869
+Author: photonproject <dokrotnose@gmail.com>
+Date:   Wed Oct 15 04:24:15 2014 +0000
+
+    build_config.mk
+
+commit b240f37d9d0e147715f01ff197790dbb0169bcf8
+Author: cinnamoncoin <cinnamon.carter@aol.com>
+Date:   Wed Oct 8 05:46:49 2014 +0000
+
+    correction to mac icon
+    
+    correction to mac icon
+
+commit 5dc45a314a60cc706a2cf30e349a978a1d8c67ac
+Merge: 2a39002 51940f2
+Author: photonproject <dokrotnose@gmail.com>
+Date:   Sat Aug 30 21:03:56 2014 +0000
+
+    Merge pull request #5 from Hartland/master
+    
+    Fix message signing
+
+commit 51940f28a4e286b950ca5bae0852656d235e263b
+Author: hartland <robert@hartlandpc.com>
+Date:   Fri Aug 29 09:53:25 2014 -0500
+
+    Fix message signing
+
+commit 2a3900247b8b70c7920115f6a9b33bf131610514
+Author: cinnamoncoin <cinnamon.carter@aol.com>
+Date:   Sun Aug 17 18:07:39 2014 +0000
+
+    rpc console command fix
+    
+    corrects the crashing of rpc console with getblocktemplate getwork
+    getwork2 and other commands
+
+commit c1b74bd059e6bca801633b04f9bc930cdc318573
+Author: cinnamoncoin <cinnamon.carter@aol.com>
+Date:   Sat Aug 16 05:37:42 2014 +0000
+
+    typing error correction
+    
+    typing error correction
+
+commit 5f77355078001050ddc2ca60ca9ca418af309be9
+Author: cinnamoncoin <cinnamon.carter@aol.com>
+Date:   Sat Aug 16 05:32:34 2014 +0000
+
+    update checkpoint - fix mingw makefile error
+    
+    update checkpoint - fix mingw makefile error
+
+commit 71ee1a70fb15f73284d052d2ce915d085ddb9aed
+Author: cinnamoncoin <cinnamon.carter@aol.com>
+Date:   Thu Jul 10 03:29:19 2014 +0000
+
+    tweak pro file
+    
+    tweak pro file
+
+commit 856c3143d81f2e9762d8bc952ef09d16d3ce14e4
+Author: cinnamoncoin <cinnamon.carter@aol.com>
+Date:   Wed Jul 2 02:44:15 2014 +0000
+
+    qr code support added
+    
+    qr code support added
+
+commit 5d8cc1ec7e7c6784a6180dccbac25108abf10c3f
+Author: cinnamoncarter <cinnamon.carter@aol.com>
+Date:   Sun Jun 15 01:56:43 2014 +0000
+
+    updated seed nodes & checkpoints
+    
+    june 15 2014 added seed node support for those who want to connect
+    without a conf file and added recent checkpoint
+
+commit 42e5fa1178107442e68a38acfb76ab8df7f5a69a
+Merge: 6937d06 7e013f5
+Author: photonproject <dokrotnose@gmail.com>
+Date:   Sat May 3 06:15:32 2014 +0000
+
+    Merge pull request #4 from Ignatius-OTC/patch-1
+    
+    Create Makefile
+
+commit 7e013f5a6a99b754e9b1fb5ad412123c24ff1bb4
+Author: Ignatius-OTC <iggs@terranhub.com>
+Date:   Fri May 2 22:23:00 2014 -0400
+
+    Create Makefile
+
+commit 6937d06ef5efa7706cec59a38ab1889fac7f2d40
+Author: cinnamoncarter <cinnamon.carter@aol.com>
+Date:   Thu May 1 07:08:22 2014 +0000
+
+    MANDATORY UPDATE FOR MERGED MINING
+    
+    MANDATORY UPDATE FOR MERGED MINING BLAKE COIN AND PHOTON -- CHECKPOINT
+    ADDED ---
+
+commit da1c0ffb05be86c8bdd7cd6bff8766fa542fd6ac
+Merge: 44259ad 1aec2c1
+Author: photonproject <dokrotnose@gmail.com>
+Date:   Thu May 1 02:14:57 2014 +0000
+
+    Merge pull request #3 from BlueDragon747/master
+    
+    fixes auxpow start and rpc error
+
+commit 1aec2c1bc2a3516d8526df8c7aead0edf1bc47d9
+Author: BlueDragon747 <bluedragon747@gmail.com>
+Date:   Wed Apr 30 18:13:26 2014 +0100
+
+    boost 1.55 and openssl 1.0.1g
+
+commit 28e079f615eeb0baeadf8f37807fa456214c01b5
+Author: BlueDragon747 <bluedragon747@gmail.com>
+Date:   Wed Apr 30 18:11:40 2014 +0100
+
+    boost 1.55 and openssl 1.0.1g
+
+commit 5c89358e4f7f616b9d30269301b83ab9cca12c0e
+Author: BlueDragon747 <bluedragon747@gmail.com>
+Date:   Wed Apr 30 18:03:57 2014 +0100
+
+    fix rpc error
+
+commit a743e987002e9b6b176ce06c437b519dded58629
+Author: BlueDragon747 <bluedragon747@gmail.com>
+Date:   Wed Apr 30 18:02:21 2014 +0100
+
+    fix auxpow start
+
+commit 44259ada03c6f0398a0179c629c3d6bd7b30bc08
+Author: cinnamoncarter <cinnamon.carter@aol.com>
+Date:   Mon Apr 21 23:17:03 2014 +0000
+
+    the auxpow update
+    
+    checkpoint added and other little goodies to enable merged mining with
+    Blake Coin
+
+commit 090da8ba4ff6698f5b91642418c6158718cce8b6
+Author: cinnamoncarter <cinnamon.carter@aol.com>
+Date:   Mon Mar 24 04:19:55 2014 +0000
+
+    correction
+
+commit 39b2213883c003e35b066a0898b5d89f544b7f5a
+Author: cinnamoncarter <cinnamon.carter@aol.com>
+Date:   Mon Mar 24 04:16:36 2014 +0000
+
+    correction
+
+commit 5990836dd0da5634cb5f9587ad4943f11c780a1a
+Author: cinnamoncarter <cinnamon.carter@aol.com>
+Date:   Mon Mar 24 03:29:49 2014 +0000
+
+    Checkpoints added
+    
+    Checkpoint added to source , new win qt available March 23 2014
+
+commit f857354cb5358fcf0c9fbe0571d9ea2a5076fd24
+Author: cinnamoncarter <cinnamon.carter@aol.com>
+Date:   Sun Mar 2 00:57:01 2014 +0000
+
+    update
+    
+    changed p2p port to 35556 for windows users, checkpoints added
+
+commit bfc624c93bd74bb2b0b26a1e4c342a25a0f37fb1
+Author: cinnamoncarter <cinnamon.carter@aol.com>
+Date:   Thu Feb 27 04:12:49 2014 +0000
+
+    read me correction
+    
+    read me correction
+
+commit 9760d6d812955aae7aaef1d39fad59c2354c3bf3
+Author: cinnamoncarter <cinnamon.carter@aol.com>
+Date:   Thu Feb 27 04:06:26 2014 +0000
+
+    checkpoint
+    
+    checkpoint added
+
+commit e05b9991d5c5b66a0edf0884a124b44244859276
+Author: cinnamoncarter <cinnamon.carter@aol.com>
+Date:   Fri Feb 21 09:02:32 2014 +0000
+
+    Revert "read me"
+    
+    This reverts commit e40bc4a8aa15e60ce52452ac534ae5d9d4f6e85b.
+
+commit e40bc4a8aa15e60ce52452ac534ae5d9d4f6e85b
+Author: cinnamoncarter <cinnamon.carter@aol.com>
+Date:   Fri Feb 21 05:01:15 2014 +0000
+
+    read me
+    
+    correction to read me file to block subsidy
+
+commit 4832777a6f820e93a0340e5e043a9f71e5ae8f7e
+Author: cinnamoncarter <cinnamon.carter@aol.com>
+Date:   Fri Feb 21 01:57:30 2014 +0000
+
+    photon
+    
+    Photon is a cryptocurrency designed with the blake 256 algorithm
