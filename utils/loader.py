@@ -1,6 +1,7 @@
 import os
 import json
 from numpy import genfromtxt
+import pandas as pd
 
 
 class Loader(object):
@@ -13,7 +14,8 @@ class Loader(object):
             with open(self.db, 'r') as f:
                 return json.load(f)
         elif self.type == 'csv':
-            return genfromtxt(self.db, delimiter=',', dtype="|U")
+            # return genfromtxt(self.db, delimiter=',', dtype="|U", quotechar='"')
+            return pd.read_csv(self.db, delimiter=',', dtype='|U', quotechar='"').fillna('').values
         elif self.type == 'txt':
             with open(self.db, 'r') as f:
                 return f.readlines()

@@ -37,6 +37,9 @@ class RepoSpider(object):
         self.repo_url = f'https://api.github.com/repos/{owner}/{repo_name}'
         self.contri_url = f'https://api.github.com/repos/{owner}/{repo_name}/contributors'
         self.auth = (username, password)
+        self.headers = {
+            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36'}
+
         self.db = os.path.join(os.path.dirname(
             __file__), f'../data/{owner}-{repo_name}.json')
 
@@ -55,8 +58,11 @@ class RepoSpider(object):
             return
         print('creeping: ', self.repo_url)
         # 1. fetch all repo informations
-        repo_response = requests.get(url=self.repo_url, auth=self.auth)
+        repo_response = requests.get(
+            url=self.repo_url, auth=self.auth, headers=self.headers)
+        print(repo_response)
         repo_infos = json.loads(repo_response.text)
+        print(repo_infos)
         if clone:
             os.system(
                 f"git clone {repo_infos['clone_url']} temp/{self.repo_name}")
