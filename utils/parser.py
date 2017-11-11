@@ -1,11 +1,12 @@
 import re
 import os
-from loader import Loader
+from utils.loader import Loader
 
 
 class Parser(object):
     def __init__(self, relative_path):
         self.file = os.path.join(os.path.dirname(__file__), relative_path)
+        self.dates = []
 
     def count_commits(self):
         loader = Loader(self.file, type='txt')
@@ -14,9 +15,11 @@ class Parser(object):
         for line in data:
             if re.match('^(commit )', line):
                 count += 1
+            if re.match('^(Date: )', line):
+                self.dates.append(line.replace("Date:", "").strip())
             else:
                 continue
-        return count
+        return count, self.dates
 
 
 def main():
