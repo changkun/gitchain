@@ -1,0 +1,89 @@
+commit 1f4524076128fe2301a38ea46b852c65aeb6f5f9
+Author: Spidersbox <Spider@Spidersbox.com>
+Date:   Sat Sep 9 22:36:22 2017 -0700
+
+    fixed unlock wallet for stake only. added zapwallettxes, check/repair wallet.
+
+commit 1b032e8d0252cc0a5ef5ae563c7945fa2203f70e
+Author: Spidersbox <Spider@Spidersbox.com>
+Date:   Tue Aug 15 18:29:57 2017 -0700
+
+    fixed typo
+
+commit 1995662640bffff7a65b984c58927f6d22b6b53d
+Author: Spidersbox <Spider@Spidersbox.com>
+Date:   Tue Aug 15 16:27:51 2017 -0700
+
+    Reset PoW block to 217,000 and blocked non LCP wallets
+
+commit 56737b0387c9476422e86eaf548f1ebcbe4c1790
+Author: Spider <spider@Spiders-iMac.local>
+Date:   Sun Aug 6 14:21:39 2017 -0700
+
+    .align 64 -> .align 16
+
+commit ca098f182de94fa5f4a3f43493787bf13d3e73fe
+Author: Spider <spider@Spiders-iMac.local>
+Date:   Sun Aug 6 14:10:10 2017 -0700
+
+    edits for macOS
+
+commit ff9b473bf6677bce11379bb72b49497f3238a3b2
+Author: Spider <spider@Spiders-iMac.local>
+Date:   Sun Aug 6 12:40:28 2017 -0700
+
+    edit for mac wallet (src/serialize.h:827:10: error: class member cannot be redeclared)
+
+commit 3a45a0ad6d2de84b8f7e659a246d963428ad520c
+Author: Spidersbox <Spider@Spidersbox.com>
+Date:   Sun Aug 6 00:41:13 2017 -0700
+
+    corrected fat-finger error  :)
+
+commit 5fc8bf9f77d763c55204b3055b22d7e60645d289
+Author: Spidersbox <Spider@Spidersbox.com>
+Date:   Sat Aug 5 22:19:30 2017 -0700
+
+    Update README.md
+
+commit 194857f4592ad7659e25218be2be32f1fc7d2d17
+Author: Spidersbox <Spider@Spidersbox.com>
+Date:   Sat Aug 5 21:34:23 2017 -0700
+
+    merge version 3
+
+commit c85fdea7e528c28bcd7f24a37db1b60aedd0c4f8
+Author: Spidersbox <Spider@Spidersbox.com>
+Date:   Tue Aug 1 12:17:27 2017 -0700
+
+    update readme
+
+commit 49946fef22725d2ac4059edd4e90f93f003451f5
+Author: Spidersbox <Spider@Spidersbox.com>
+Date:   Tue Aug 1 12:08:03 2017 -0700
+
+    first commit
+
+commit e67f43f4f2e4243534abef2e674a89f0bdf92d70
+Author: Spidersbox <Spider@Spidersbox.com>
+Date:   Fri Jul 14 00:36:16 2017 -0700
+
+    removed checkpoint warning, cleaned up version info and splash screen
+
+commit 82e7167f77aa6d59f6ac1920183e5ddf674324df
+Author: Spidersbox <Spider@Spidersbox.com>
+Date:   Sat Jul 1 21:58:18 2017 -0700
+
+    added staking icon
+
+commit 1ca0662432297e6ece40fe55e89e48bb58e95c4f
+Author: Spidersbox <Spider@Spidersbox.com>
+Date:   Wed Jun 28 23:38:16 2017 -0700
+
+    changed xlc to lpc. enabled dns seeding. added link to logo
+
+commit 3b04dc98bda97e0a345020c9ee2851eee61a85b4
+Author: XLC <XLC>
+Date:   Wed May 14 14:09:38 2014 +0500
+
+    Uploaded

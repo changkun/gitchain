@@ -1,0 +1,901 @@
+commit 41bce12f982b7270b05f49418c1acf10371fff91
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Thu Jun 15 15:35:42 2017 -0400
+
+    Fix sizing issue
+    
+    Give buttons a minimum height
+
+commit e7465d0c541d8c274040c2acffdfdf5dfb94aaec
+Merge: 56870cf 0859c61
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Sun May 14 16:24:37 2017 -0400
+
+    Merge pull request #18 from CryptoCanary/patch-1
+    
+    Update askpassphrasedialog.cpp
+
+commit 0859c61d0a800dfb09743b40dfa87e04e44829df
+Author: Steven Saxton <ssaxton@kent.edu>
+Date:   Sun May 14 16:22:47 2017 -0400
+
+    Update askpassphrasedialog.cpp
+
+commit 56870cfa46edd76fa1794bef585fb8beb06b66d5
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Wed Mar 15 00:19:27 2017 -0400
+
+    New checkpoint modifierchecksum for v1.6
+
+commit b832a174836d87eafc1e9f644ed8d90edccbd32f
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Wed Mar 15 00:15:23 2017 -0400
+
+    New checkpoint for v1.6
+
+commit 542e40a7442be4e36d3d212dbca0d97ae45ea1bb
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Tue Mar 14 23:46:48 2017 -0400
+
+    rm .gitattributes to preserve :EVER
+
+commit 40befd3f29a7daaa63ea5ab99cb02648d811cdfa
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Tue Mar 14 20:55:23 2017 -0400
+
+    Version 1.6.0.1 rollup
+
+commit 04202a462d601acf49b5d71ff473269bf598e608
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Thu Mar 2 11:06:24 2017 -0500
+
+    default S4C notification to false
+    
+    Will be used in further implementation in the future.
+
+commit 4d1b46adb084d3e5dc6f4e36e6408bccee9364d9
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Thu Mar 2 09:17:06 2017 -0500
+
+    Not show verify btn when displaying rec. addys
+    
+    It makes no sense to have the verify button show when listing one's own receiving addresses.
+
+commit 666c5b197c662181d63dfd2f04c0e80dee1ea154
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Wed Feb 22 15:01:02 2017 -0500
+
+    Fix error: reference to ‘array’ is ambiguous
+
+commit 5e682dc287d3b29c01fdd98929caefa4caea72cc
+Merge: 3b86e96 56d2def
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Sat Feb 18 01:39:17 2017 -0500
+
+    Merge pull request #17 from NorthernWhitePine/master
+    
+    Update build version to v1.5.0.1 and Copyright to 2017
+
+commit 56d2def553fa7c419cb60c65d70e956fdf58be7d
+Author: White Pine <NorthernWhitePine@blkid.net>
+Date:   Sat Feb 18 00:21:40 2017 -0600
+
+    Update build version to v1.5.0.1 and Copyright to 2017
+
+commit 3b86e96734acf6ed7c047b5f6dcb80d7ed179e85
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Fri Feb 17 19:30:56 2017 -0500
+
+    Update README.md
+
+commit 6212fbb0bff506f4453972246be83a7f15a4b758
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Fri Feb 17 18:49:28 2017 -0500
+
+    revision bump, v1.5.0.1
+
+commit 38d50021fdad7beed18531e08d636398bff6e2f3
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Fri Feb 17 18:46:50 2017 -0500
+
+    revision bump
+
+commit 02d952d2d3e183b7ebf1a9b86586112d6c383c06
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Fri Feb 17 18:36:52 2017 -0500
+
+    Re-enable charity staking
+
+commit aea3a1f8c7cf84d96e4b2fe85e87ceddf87a434d
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Fri Feb 17 17:35:00 2017 -0500
+
+    Disable charity staking temporarily
+
+commit a5a61471ff9d53beb10422ebc52aed2851d5b38d
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Fri Feb 17 14:13:05 2017 -0500
+
+    Update main.cpp
+
+commit d1134ea84ed1e523174a8d022dffe00cde9f9606
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Fri Feb 17 14:05:37 2017 -0500
+
+    3 minute nTargetSpacing into hardfork
+
+commit 0552da26d55092830bca072ef146198e921477ce
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Fri Feb 17 11:26:05 2017 -0500
+
+    Remove more Typola font
+
+commit 8efbd5327a75d71489229f21455015015b1d027b
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Fri Feb 17 11:14:37 2017 -0500
+
+    Charity dialog
+
+commit 2b46d86b72b80313b904ac6d9cddab518fbafdc8
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Fri Feb 17 10:58:32 2017 -0500
+
+    Abount window font
+
+commit 414e3d7fd64b5d2437162ac9070d7cda298c996b
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Fri Feb 17 10:54:46 2017 -0500
+
+    Remove typola
+
+commit d820fa5fde52de58439c21d72ea323ec46fc29ce
+Merge: 659e0a3 7c2ee46
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Fri Feb 17 09:31:21 2017 -0500
+
+    Merge pull request #16 from NorthernWhitePine/master
+    
+    Remove unintentional whitespace
+
+commit 7c2ee46b16a0cb03b8c30b5d430be866546aa74f
+Author: White Pine <NorthernWhitePine@blkid.net>
+Date:   Fri Feb 17 08:29:24 2017 -0600
+
+    Remove unintentional whitespace
+
+commit 659e0a3c185dd040693b02d200edc7021f423f37
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Fri Feb 17 06:04:46 2017 -0500
+
+    Add text
+
+commit 16eb62a944637fa027d8f7f46941b1a877bd705a
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Fri Feb 17 05:32:04 2017 -0500
+
+    Prevent "(.0001 EGC)" from appearing on two lines on charity ui
+
+commit 2c88abd70c568766f02b389a32583204fd0be57f
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Fri Feb 17 05:10:58 2017 -0500
+
+    Text corections and asthetic improvements
+
+commit f9b2792b8bf4c00fa6362751e8b234f41186e412
+Merge: e4e5938 9e506df
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Fri Feb 17 02:50:05 2017 -0500
+
+    Merge pull request #15 from NorthernWhitePine/master
+    
+    Introducing .gitignore and .gitattributes
+
+commit 9e506df54edd249cd20db3c738fe587694adf603
+Author: White Pine <NorthernWhitePine@blkid.net>
+Date:   Fri Feb 17 01:45:53 2017 -0600
+
+    Added a Logrotate example
+
+commit 7ff8cbf190a87258d2fa508a5a3cfd08b46a051a
+Author: White Pine <NorthernWhitePine@blkid.net>
+Date:   Fri Feb 17 01:40:08 2017 -0600
+
+    Introducing .gitignore and .gitattributes
+
+commit e4e59380b571087649a390df33dc4f82dcfb7414
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Fri Feb 17 02:31:54 2017 -0500
+
+    Stake for charity
+
+commit 279cc90cfdbdb6b0fd5bc497fdf23b6c674a0953
+Merge: 5f7689a 1d3ea52
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Fri Feb 17 01:57:12 2017 -0500
+
+    Merge remote-tracking branch 'origin/master'
+    Stake for charity
+
+commit 5f7689aff51276d42d38cd7263b3d5ad42ff83a4
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Fri Feb 17 01:55:47 2017 -0500
+
+    Stake for charity
+
+commit 1d3ea528227d1319c5b57287d11aa2ad84012e48
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Thu Feb 16 11:22:53 2017 -0500
+
+    Remove unused legacy function
+
+commit 7abec8be62d21e33fab86275d469e3dbcd386f61
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Thu Feb 16 11:00:25 2017 -0500
+
+    Pre-hardfork checkpoint modifierchecksum
+
+commit 4006cf18d1bf67ee6e5b09d9aec54f7b5ff5babe
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Thu Feb 16 10:43:03 2017 -0500
+
+    Checkpoint prior hardfork
+
+commit 6832e33d95f212a4baf3ddfe9d17daa17f4478a8
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Thu Feb 16 08:53:36 2017 -0500
+
+    Protocol version upgrade
+
+commit ac68dcf484ccc19e0b59b822d30a56c696bd3edc
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Thu Feb 16 08:47:39 2017 -0500
+
+    Hardfork to make new mininum PoS difficulty
+    
+    ... after block 892000
+
+commit 92aab4b780ce78a636843b8a91e4dc0868dac8f3
+Merge: a3ad057 e002dfd
+Author: White Pine <NorthernWhitePine@blkid.net>
+Date:   Wed Feb 15 13:53:18 2017 -0600
+
+    Restore commit history and merge conflicts
+
+commit e002dfdf48a8af4e058b036cca98085d7ba5f325
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Wed Feb 15 01:35:49 2017 -0500
+
+    Version 1.5 initial
+
+commit a3ad05725b442117c156663e079ec3ce2e6aee6f
+Merge: f66dc62 fbda701
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Wed Feb 1 03:14:38 2017 -0500
+
+    Merge pull request #13 from CryptoCanary/patch-2
+    
+    Monthly checkpoint at 865663
+
+commit f66dc622cd985fdf5b0be02c7f312c03cf5daa37
+Merge: 420703d 34c7ad2
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Wed Feb 1 03:13:48 2017 -0500
+
+    Merge pull request #14 from CryptoCanary/patch-3
+    
+    Monthly checkpoint modifierchecksum
+
+commit 34c7ad24388bba422a0ee1cb6e1f15b41e981f6c
+Author: Steven Saxton <ssaxton@kent.edu>
+Date:   Wed Feb 1 03:09:46 2017 -0500
+
+    Monthly checkpoint modifierchecksum
+    
+    And the year, since I am in here.
+
+commit fbda701d709462349bcfbdc2287d76757cfa9e89
+Author: Steven Saxton <ssaxton@kent.edu>
+Date:   Wed Feb 1 03:05:10 2017 -0500
+
+    Monthly checkpoint at 865663
+    
+    Also update copyright year, since I am in here.
+
+commit 420703ddd4e1190039d23c2b6bdfe71ce19932ff
+Merge: bf506f7 1e333b8
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Mon Jan 23 02:32:25 2017 -0500
+
+    Merge pull request #12 from NorthernWhitePine/master
+    
+    Ancestral Satoshi client IP seed addresses unset.
+
+commit 1e333b85b43729980865a06eb20800fa8c7d49cc
+Author: White Pine <NorthernWhitePine@blkid.net>
+Date:   Fri Jan 20 14:28:59 2017 -0600
+
+    Ancestral Satoshi client IP seed addresses unset.
+
+commit bf506f7bcdec2d9c556d4dc6f8de2ff96f3a3207
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Thu Jan 5 21:28:32 2017 -0500
+
+    Update README
+
+commit 8e1ebea55e0fc80262345ffdceb4afcecef6915d
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Tue Jan 3 20:04:08 2017 -0500
+
+    Copyright year update
+
+commit b15169911a23a314559940d56da2cc13f242e108
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Tue Jan 3 18:02:36 2017 -0500
+
+    Update README.md
+
+commit 8dc5a5c3d39a6b33fedf04198c0ea42d86fd38c0
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Tue Jan 3 17:34:59 2017 -0500
+
+    update openssl deps for windows build
+    
+    openssl 1.0.1j updated to 1.0.2a for windows build
+
+commit 99b01ef1dba81f3d6ade1207d12b9ff7837d528e
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Mon Jan 2 19:17:24 2017 -0500
+
+    copyright year
+
+commit 68701ada9087331ac081c7077b0b13ae03bff4c7
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Mon Jan 2 19:15:21 2017 -0500
+
+    minor version bump
+
+commit 6ea12640af73bb43b99df89e5c847e36024a1652
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Mon Jan 2 19:08:54 2017 -0500
+
+    minor version bump
+
+commit cc8594c847ac35d5641ca9e2c4928a5d4a890e54
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Mon Jan 2 18:58:46 2017 -0500
+
+    minor version bump and copyright year
+
+commit ed7336fbd51ca368e9c218c085ac408636d8a512
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Mon Jan 2 18:56:04 2017 -0500
+
+    alert keys update
+
+commit 0cbd3f6e9aeb326944e41920e3c39aa166ac1636
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Mon Jan 2 18:38:19 2017 -0500
+
+    bring all seednodes under evergreencoin.org dns
+
+commit 9d0dc2e3d17a79642202d80af19b81fe382ea2f2
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Sat Dec 24 00:25:03 2016 -0500
+
+    modifierchecksum for new checkpoint at height 804006
+
+commit c8647136f335ce0c2d217056b16c338d15064b62
+Merge: 538ffe4 f9abc9a
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Sat Dec 24 00:20:54 2016 -0500
+
+    Merge pull request #11 from NorthernWhitePine/master
+    
+    sync-checkpoint at height 804006
+
+commit f9abc9a7b3cac17f6198b7d33473007b645efe58
+Author: White Pine <NorthernWhitePine@blkid.net>
+Date:   Fri Dec 23 23:07:35 2016 -0600
+
+    Monthly checkpoint from sync-checkpoint at height 804006 emitted on 12/24/16 03:56:22
+
+commit 538ffe4574fdb12b259fbfabb630cee0ce6189c9
+Merge: e66d478 b9fe6ed
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Sun Dec 4 06:21:18 2016 -0500
+
+    Merge pull request #10 from CryptoCanary/patch-1
+    
+    Add Hinidi translation
+
+commit b9fe6ed9ff2c9d4acee8d8ed838dc7dee349b820
+Author: Steven Saxton <ssaxton@kent.edu>
+Date:   Sun Dec 4 06:16:56 2016 -0500
+
+    Add Hinidi translation
+
+commit e66d4782c229b0ca301e17a2f859c54ea43850da
+Merge: c54f6f9 33d56ce
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Thu Nov 10 22:20:01 2016 -0500
+
+    Merge pull request #9 from NorthernWhitePine/master
+    
+    Security Patch for Position Independent Executable Builds Plus Bonus
+
+commit 33d56ce87a13348a8cd5a3ca860e13f7999600c6
+Author: White Pine <NorthernWhitePine@blkid.net>
+Date:   Thu Nov 10 21:06:46 2016 -0600
+
+    Security Patch for Position Independent Executable Builds, Contrib Code Customizations Specific to EverGreenCoin, Documentation and Version Bump to v1.4.1.0
+
+commit c54f6f9951b354366664670aa84785046d7ce68e
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Wed Nov 9 22:54:22 2016 -0500
+
+    Update COPYING
+
+commit 213dc63cf915a5bbc1b1fd723692342a1e5f42c5
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Wed Nov 9 22:52:53 2016 -0500
+
+    Version bump
+
+commit df286235d86305919b60827290aed84eee98d6d4
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Wed Nov 9 22:50:50 2016 -0500
+
+    Update README
+
+commit 2719e021af4aa7e942f6df3f1aced8c956b82721
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Wed Nov 9 22:47:51 2016 -0500
+
+    Update README.md
+
+commit 4a96718e9ed39bbb02169031e7fd491423ab0871
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Wed Nov 9 22:34:09 2016 -0500
+
+    Version minor bump
+
+commit 575bda28a853820ce849d6563df438d60ee3e3f9
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Wed Nov 9 19:15:31 2016 -0500
+
+    New checkpoint modifierchecksum added
+    
+    For new checkpoint at 732854. See c14a8a2 commit to checkpoints.cpp
+
+commit c14a8a2562f2480324a9602fcaed0c3e22b5e298
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Wed Nov 9 19:09:07 2016 -0500
+
+    Add checkpoint at 732854 (Nov 9, 2016 18:26:52)
+    
+    EGC Foundation PoS block
+
+commit 596926767e04813535bbd4bb22797c7f20fa6b99
+Merge: f437d93 60d6f2d
+Author: chrysophylax chrysanthes chrysanthos <chrysophylax69@users.noreply.github.com>
+Date:   Wed Nov 9 21:27:54 2016 +1000
+
+    Merge pull request #8 from chrysophylax69/master
+    
+    update all cwi seednodes ... #crysx
+
+commit 60d6f2d87933ee303e9c9717b8d2346a4cdabba3
+Author: chrysophylax chrysanthes chrysanthos <chrysophylax69@users.noreply.github.com>
+Date:   Wed Nov 9 21:25:30 2016 +1000
+
+    update all cwi seednodes ... #crysx
+    
+    update all cwi seednodes ... #crysx
+
+commit f437d93d76d5e437bc6aec57e460e1fb0d8b5d53
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Tue Sep 20 20:26:06 2016 -0400
+
+    another comment update
+
+commit 776bb3f5a2ff28443e3587f20be50903d1473583
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Tue Sep 20 20:23:40 2016 -0400
+
+    update comment
+
+commit 2824a985bea940ec16b7dee5e100efb2d50ed566
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Tue Sep 20 15:24:09 2016 -0400
+
+    Update README
+
+commit 0248d68b8770da0c845aba8057c6fdb44450c710
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Mon Sep 19 00:51:13 2016 -0400
+
+    dependency update
+
+commit 10bceb3f59d4910837c2703e8eda4f02ba4cb053
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Thu Sep 15 18:48:43 2016 -0400
+
+    Update README.md
+
+commit 4e8990166b8fbaed5ca8dc9e037cba4ab73ded66
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Wed Sep 7 03:29:42 2016 -0400
+
+    Update LICENSE
+
+commit aa697cdd869acce653ecb7da78ce3f431ceb8e88
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Sun Sep 4 20:55:54 2016 -0400
+
+    Update README.md
+
+commit 75704f550cd46e372a37507f8eac7bc732fec38d
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Sun Sep 4 20:53:06 2016 -0400
+
+    Update README.md
+
+commit ea82f8eb0ffb1ca31728d39a52e88601c2b194d8
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Thu Jun 16 17:20:38 2016 -0400
+
+    Update version.h
+    
+    lock out old versions as of v1.3
+
+commit 90b292f0380298848995031ffba4372217c56ed8
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Thu Jun 16 16:01:22 2016 -0400
+
+    Update README.md
+    
+    v1.3
+
+commit a86f413345915ea5a1068946aad08466a0b46d30
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Thu Jun 16 15:48:11 2016 -0400
+
+    Update aboutdialog.ui
+    
+    v1.3
+
+commit da38512329602293f598bf0972a3b7148fed6540
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Thu Jun 16 15:30:25 2016 -0400
+
+    Update checkpoints.cpp
+    
+    new checkpoint v1.3
+
+commit 9ee2dcdc49dcf45f20660a17e4333d52bd137db9
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Thu Jun 16 15:28:30 2016 -0400
+
+    Update kernel.cpp
+    
+    New checkpoint stake modifier v1.3
+
+commit 5b8dabd639f957bd17dd5bfcb355c6b35c8389ce
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Thu Jun 16 15:10:44 2016 -0400
+
+    Update EverGreenCoin-qt.pro
+    
+    v1.3
+
+commit 41a6a2e770f1f9afa83fdbd0675eb897dcb2b877
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Thu Jun 16 15:09:51 2016 -0400
+
+    Update clientversion.h
+    
+    v1.3
+
+commit 3deeaa1714b19aee8be02cb2f5dfe93e3ee67dcc
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Thu Jun 16 14:56:40 2016 -0400
+
+    Update main.cpp
+    
+    Hard fork for longer block times at block 450000
+
+commit d076fc3b12a1980a8776e74e85e491cb71e6179a
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Tue Jun 14 00:59:09 2016 -0400
+
+    Update README.md
+    
+    details, details.
+
+commit d174515d322bcba8e8f57c4d62c9f83792af2c9d
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Wed Jun 1 14:10:20 2016 -0400
+
+    Update README
+    
+    version 1.2.1
+
+commit c0c2841a5c8b2f31e3d1d7044bdfa881de725100
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Wed Jun 1 12:42:26 2016 -0400
+
+    Update README.md
+    
+    version 1.2.1
+
+commit de485c753104ea62a4e4ca383a733d9f29783249
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Wed Jun 1 10:12:06 2016 -0400
+
+    Update EverGreenCoin-qt.pro
+    
+    version 1.2.1
+
+commit fe0a585086d4099dc53c6c9d1092038cbcc24ee3
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Wed Jun 1 10:10:58 2016 -0400
+
+    Update EverGreenCoin-qt.pro
+    
+    veersion 1.2.1
+
+commit 0fa180c022e2a8665fb69a721f1196e91e2d4189
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Wed Jun 1 10:10:01 2016 -0400
+
+    Update clientversion.h
+    
+    version 1.2.1
+
+commit 55473630355f8c4bb471256ea40bb0c9fbfc1580
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Wed Jun 1 09:57:10 2016 -0400
+
+    Update key.cpp
+    
+    BIP66
+
+commit 4b765f022e1c6b065e9e813efe4d9b5c217740d1
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Wed Jun 1 01:20:28 2016 -0400
+
+    Update README.md
+    
+    Version 1.2
+
+commit 032d395ad48e587cf48234b8b86bbd831177056a
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Wed Jun 1 01:18:26 2016 -0400
+
+    Update overviewpage.cpp
+    
+    Version 1.2
+
+commit 706c4b5e88c6a7ccbfc0ab23ba98afc4e4892251
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Wed Jun 1 00:41:35 2016 -0400
+
+    Update EverGreenCoin-qt.pro
+    
+    Version 1.2
+
+commit 0e972abe6d95d0d6f20b65bc1ede7146b618eff3
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Wed Jun 1 00:39:30 2016 -0400
+
+    Update clientversion.h
+    
+    Version 1.2
+
+commit cdb4b309aabb000146a6d28b194e0cf8ceb6258d
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Wed Jun 1 00:09:41 2016 -0400
+
+    Update kernel.cpp
+    
+    stake modifiers checkpoints updated
+
+commit 6384f87062b86939d24357db40db456a94433425
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Tue May 31 23:55:31 2016 -0400
+
+    Update checkpoints.cpp
+    
+    new checkpoint
+
+commit 164522197d3546816b9c91b0c061dbb7a1d8edef
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Thu May 26 16:05:02 2016 -0400
+
+    Update net.cpp
+    
+    All DNS seeds. 2nd EGC.org seed added, totaling 7.
+
+commit 7ff336f18f7e21a975f38a2625ba86d6cd13fc96
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Thu May 26 16:01:19 2016 -0400
+
+    Update checkpoints.cpp
+    
+    New checkpoints added.
+
+commit 076d60d07b13ffb50ecc3f94449a606051e8da7e
+Merge: 3b7cf56 a1ee2e7
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Thu May 5 10:29:28 2016 -0400
+
+    Merge pull request #6 from chrysophylax69/master
+    
+    updated additional seeds ... #crysx
+
+commit a1ee2e7d38340f7aad8a5521470a9eb20fded77e
+Author: chrysophylax <chrysophylax69@users.noreply.github.com>
+Date:   Thu May 5 23:39:06 2016 +0930
+
+    updated additional seednodes ... #crysx
+    
+    added the additional seednodes ( egc-seed4 and egc-seed5 ) to the granitecoin.com network ... #crysx
+
+commit cb3b4a92c855199c66736f3b591f498d21d98bf1
+Merge: 5aaf435 3b7cf56
+Author: chrysophylax <chrysophylax69@users.noreply.github.com>
+Date:   Thu May 5 13:01:55 2016 +0000
+
+    Merge pull request #1 from EverGreenCoinDev/master
+    
+    update from original ...
+
+commit 3b7cf565db66d347e83846b5fdba5d58af1c6be1
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Wed Apr 6 17:30:38 2016 -0400
+
+    Update README
+
+commit 616514217b59db5ebd9ddd478f177713610a0a2b
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Wed Apr 6 17:29:10 2016 -0400
+
+    Update readme-qt.rst
+
+commit af1a58fc513a556dc3c1b8a08d02fd9302da7d90
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Wed Apr 6 17:23:23 2016 -0400
+
+    Update README
+
+commit 1f53769feca6797b9090aba3a821288cb66ceec0
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Tue Mar 29 09:18:38 2016 -0400
+
+    Update rpcmining.cpp
+    
+    Add payee (foundation) and payee_amount (devCoin) to getblocktemplate output
+
+commit 314619fa78bd727d30d7941ce95dd70dbdb68ec9
+Author: BERN box <evergreencoindev@gmail.com>
+Date:   Wed Feb 17 03:02:27 2016 -0800
+
+    icons
+
+commit d9f1f7eb180ce5b265cd085a258be2445f3fd0e9
+Merge: 8c2b7b0 4804533
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Wed Feb 17 04:30:31 2016 -0500
+
+    Merge pull request #5 from mammix2/patch-1
+    
+    st13runtime_error on luanch fix
+
+commit 480453321ff20586389b3f9d3fa408ad55577deb
+Author: M 2 <mammix2@users.noreply.github.com>
+Date:   Wed Feb 17 09:26:42 2016 +0000
+
+    st13runtime_error on luanch fix
+
+commit 8c2b7b0f5874351a573e03cd86dfef8b07cecff0
+Author: BERN box <evergreencoindev@gmail.com>
+Date:   Tue Feb 16 19:28:16 2016 -0800
+
+    version 1.1.2
+
+commit be3cd3f97feb10b98a7ecc125a62634db754b4c5
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Sat Jan 30 21:53:22 2016 -0500
+
+    Update README.md
+
+commit 912402aa1ad47bbc11750ec33f04de1088d2344a
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Sat Jan 30 21:52:47 2016 -0500
+
+    Update README.md
+
+commit 334539a63f1f8701ce17cf827dc33702e6c38dc4
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Sat Jan 30 00:28:09 2016 -0500
+
+    Testnet nNonce fix
+
+commit 94bea1d26308783ec14c1941b50a09746cc986a0
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Sun Jan 24 11:26:24 2016 -0500
+
+    Fix typo in ninobrooks 'clean:'
+
+commit f2073d3c1e36d0d29f95bbee64cfa92b353a853a
+Merge: f5e9998 2f8287d
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Sun Jan 24 11:21:48 2016 -0500
+
+    Merge pull request #3 from RoastBeefSandwichCo/master
+    
+    On Unix, enable PIC (PIE alternative), fix makefile clean target.
+
+commit 2f8287d8470b86b70f7ad30c2151c95eca876e77
+Author: Sid X Brooks <sid@localhost.localdomain>
+Date:   Sun Jan 24 01:57:39 2016 -0600
+
+    On Unix, enable PIC (PIE alternative), fix makefile clean target.
+    PIC sets flag fPIC required for PIE-compatible shared libs
+    http://linux.die.net/man/1/g++
+    See doc/build-unix.txt for why this is necessary
+    Also updates to doc re Debian PIE/stack check
+    http://unix.stackexchange.com/a/89214
+    PIC sets flag fPIC required for PIE-compatible shared libs
+    makefile.unix clean now removes leveldb objects
+
+commit f5e99988245a0bdc9ca50e29b376bf7c7dbac5c0
+Merge: 9ef9fb8 bb6ebd6
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Sat Jan 23 06:53:49 2016 -0500
+
+    Merge pull request #1 from ninobrooks/patch-1
+    
+    add missing dependency libminiupnpc-dev
+
+commit bb6ebd664625d3df3e304523e8297fcedc18ec20
+Author: ninobrooks <ninobrooks@gmail.com>
+Date:   Sat Jan 23 02:42:04 2016 -0600
+
+    add missing dependency libminiupnpc-dev
+
+commit 9ef9fb828a984de441ab1425e216e8f133743043
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Wed Jan 20 11:31:49 2016 -0500
+
+    Version 1.1.1
+
+commit 23cb8fccc462f0bcb51cfd4b0c5966e344f57bb2
+Author: EverGreenCoin <EverGreenCoinDev@gmail.com>
+Date:   Wed Jan 20 11:30:54 2016 -0500
+
+    Version 1.1.1
+
+commit 486fde4d1f9777a2cf3cffb4338bd93c88385cc8
+Author: EverGreenCoinDev <EverGreenCoinDev@gmail.com>
+Date:   Mon Jan 18 17:59:33 2016 -0500
+
+    Version 1.1.1
+
+commit 5aaf435e39274417451f2213c7f75f7de4aa9aad
+Author: EverGreenCoinDev <EverGreenCoinDev@gmail.com>
+Date:   Thu Jan 14 16:57:04 2016 -0500
+
+    Version 1.1
+
+commit 30f9b31e97c59ad2a5a5907695b671994c3ba418
+Author: EverGreenCoinDev <EverGreenCoinDev@gmail.com>
+Date:   Thu Jan 14 14:15:31 2016 -0500
+
+    Version 1.1
+
+commit 5e9d3f8196235ba78c3380e3bef287c3eb0610b1
+Author: EverGreenCoinDev <EverGreenCoinDev@gmail.com>
+Date:   Fri Dec 25 03:41:44 2015 -0500
+
+    Launched!

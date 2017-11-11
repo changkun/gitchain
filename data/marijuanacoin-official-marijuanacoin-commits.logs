@@ -1,0 +1,43 @@
+commit b9542d20da0a886b1aea18921ed0c795aa21ab16
+Author: marijuanacoin-official <info@marijuanacoin.net>
+Date:   Sat Jun 10 18:53:17 2017 +0200
+
+    forgot some gui stuff - re-bump v1.0.0.2
+
+commit 270b2231e3524dba631aa102ade186ca030f9b75
+Author: marijuanacoin-official <info@marijuanacoin.net>
+Date:   Sat Jun 10 15:42:53 2017 +0200
+
+    version 1.0.0.2 - protocol 60052
+
+commit 265fb74892abd92ee969ea051fe8e549f100c02d
+Author: marijuanacoin-official <info@marijuanacoin.net>
+Date:   Sat Jun 10 15:23:26 2017 +0200
+
+    update keys and checkpoint
+
+commit ab27c515139d0dfa3252becced24d59dbfb26fd2
+Author: marijuanacoin-official <info@marijuanacoin.net>
+Date:   Sat Jun 10 13:53:50 2017 +0200
+
+    update seeds
+
+commit e44db7e222cb496382f2291ea5dfc237a0e60199
+Author: Marijuanacoin <marijuanacoin-official@users.noreply.github.com>
+Date:   Fri Jun 9 22:18:40 2017 +0200
+
+    Fix coincontrol treeview
+
+commit a9cf05fd96b61faf354943f32340dfd4fc0ab1e2
+Author: Marijuanacoin <marijuanacoin-official@users.noreply.github.com>
+Date:   Sat May 20 17:00:15 2017 +0200
+
+    Update README.md
+    
+    Takeover
+
+commit d51ed7913b9a144d7f1ec0ac03c6ff7212f51de6
+Author: MarijuanacoinMAR <marijuanacoin@gmail.com>
+Date:   Fri Jan 20 03:27:41 2017 +0100
+
+    marijuanacoin

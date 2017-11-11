@@ -1,0 +1,239 @@
+commit 8a712353c3d40699923b87af9292a60cf683f000
+Author: krilson <kril@tuta.io>
+Date:   Tue Jan 24 09:40:21 2017 +0100
+
+    fix issue where getrawtransaction RPC call does not work
+
+commit 77ee18b845cf42b0d7fef30152734a733fedc07d
+Author: kristian <kristian.ilijevski@gmail.com>
+Date:   Mon Dec 19 12:59:19 2016 +0100
+
+    remove unused kernel code
+
+commit 977fa4fa0e28333de35c47c7252a4c00b4b431f8
+Author: kristian <kristian.ilijevski@gmail.com>
+Date:   Sat Dec 17 17:09:52 2016 +0100
+
+    block 291111 - drift fork
+
+commit 015e05b87c607a1eedebfcca2014a2a0e8486e5b
+Author: kristian <kristian.ilijevski@gmail.com>
+Date:   Tue Nov 29 18:55:21 2016 +0100
+
+    revert back
+
+commit 0a24997d63578038d904acf5abb34156f4eb6fce
+Author: kristian <kristian.ilijevski@gmail.com>
+Date:   Mon Nov 28 21:03:03 2016 +0100
+
+    add another checkpoint
+
+commit ce08ae7bbf82420b38734ad9cc273b6b7f02e510
+Author: kristian <kristian.ilijevski@gmail.com>
+Date:   Mon Nov 28 21:00:01 2016 +0100
+
+    update seed domains, from .pw to new .net domain
+
+commit b9af924c53da826fc38a8b5d16ca75bdc987c97c
+Author: kristian <kristian.ilijevski@gmail.com>
+Date:   Mon Nov 28 20:43:12 2016 +0100
+
+    remove unused ppc coin kernel code
+
+commit 90acff7fcbe4f745e65b8b0203c86b9476cb6fe3
+Author: kristian <kristian.ilijevski@gmail.com>
+Date:   Mon Nov 28 20:40:46 2016 +0100
+
+    change some BLK references to NEVA
+
+commit 582d55421dcf4fb7a3de0d22f2a61e6dc5cd7796
+Author: kristian <kristian.ilijevski@gmail.com>
+Date:   Mon Nov 28 20:39:33 2016 +0100
+
+    bump version
+
+commit 727382be74e0bc19de6d320fa45821d2d5b3f3b2
+Author: kristian <kristian.ilijevski@gmail.com>
+Date:   Mon Nov 28 20:39:07 2016 +0100
+
+    bump protocol version
+
+commit c90d074f737f0fe49b1279da78eae6b78a545b6b
+Author: kristian <kristian.ilijevski@gmail.com>
+Date:   Mon Nov 28 20:38:33 2016 +0100
+
+    increase future drift
+
+commit 1682b659127d856b60b291f71907dcfbdc73d7ee
+Author: kristian <kristian.ilijevski@gmail.com>
+Date:   Sat Oct 22 20:23:56 2016 +0200
+
+    remove reference to alert.o in makefiles
+
+commit 201d2d39afe74d0301b0aab6b46395f508aa0274
+Author: kristian <kristian.ilijevski@gmail.com>
+Date:   Sat Oct 22 16:31:07 2016 +0200
+
+    add new seed nodes & checkpoints
+
+commit bb50c3ca5abe796478fa9d2903e7869b5ff0c7f4
+Author: kristian <kristian.ilijevski@gmail.com>
+Date:   Sun Oct 16 23:56:29 2016 +0200
+
+    disconnect from nodes older than 65005 protocol
+
+commit a1e48fa187d35fc536344f65b3112df9db34f293
+Author: kristian <kristian.ilijevski@gmail.com>
+Date:   Sun Oct 16 16:24:47 2016 +0200
+
+    remove mining button
+
+commit 39bf76225a0f25d5722138cd5a8244f9f31cf325
+Author: kristian <kristian.ilijevski@gmail.com>
+Date:   Sun Oct 16 16:05:40 2016 +0200
+
+    remove alertnotify
+
+commit c7c2110d21a699d6eba58e5b189006d122c74ec5
+Author: kristian <kristian.ilijevski@gmail.com>
+Date:   Sun Jul 10 17:06:03 2016 +0200
+
+    stake fix
+
+commit 7eabe4327ad4f3487318d34aa761b77803d43876
+Author: kristian <kristian.ilijevski@gmail.com>
+Date:   Sun Jun 19 14:11:45 2016 +0200
+
+    fix staking, again
+
+commit 8223849a500cb03b3109c32b68be3f6b86b88704
+Author: kristian <kristian.ilijevski@gmail.com>
+Date:   Sat Apr 30 12:26:22 2016 +0200
+
+    add checkpoint
+
+commit 2e68765f5df71240a04865b06ff930c5c02ae50d
+Author: kristian <kristian.ilijevski@gmail.com>
+Date:   Sat Apr 30 12:08:05 2016 +0200
+
+    fix staking info
+
+commit 56ca12e8adfb3cc7517f750b5257ccaedc6ac15f
+Author: kristian <kristian.ilijevski@gmail.com>
+Date:   Wed Apr 27 23:19:04 2016 +0200
+
+    revert target spacing
+
+commit ab64d5005623009b5ebad02778761b870e0ecfea
+Author: kristian <kristian.ilijevski@gmail.com>
+Date:   Wed Apr 27 22:52:48 2016 +0200
+
+    protocolv2
+
+commit 25fbd2add3a53965e2984a879da9cb66fa5ac37e
+Author: kristian <kristian.ilijevski@gmail.com>
+Date:   Wed Apr 27 11:18:57 2016 +0200
+
+    GetPastTimeLimit
+
+commit 51ab9a908b21946c8d0804d5deea4d5a02a2fb02
+Author: kristian <kristian.ilijevski@gmail.com>
+Date:   Wed Apr 27 10:25:23 2016 +0200
+
+    rename protocol
+
+commit a33b59f9b23c9b63373de9693e58fb70b1b25060
+Author: kristian <kristian.ilijevski@gmail.com>
+Date:   Wed Apr 27 10:05:07 2016 +0200
+
+    fix typo
+
+commit 887d81eb3bb0dc70175449c2dd57400dda955741
+Author: kristian <kristian.ilijevski@gmail.com>
+Date:   Wed Apr 27 09:59:53 2016 +0200
+
+    PoS fixes at block 100000
+
+commit 80e3920e779d812fdd03e6408aa63324510c836a
+Author: kristian <kristian.ilijevski@gmail.com>
+Date:   Wed Apr 27 09:57:37 2016 +0200
+
+    PoS fixes at block 80000
+
+commit 18557b2325023aae96813600c573fc66fde320fe
+Author: kristian <kristian.ilijevski@gmail.com>
+Date:   Wed Apr 27 09:53:56 2016 +0200
+
+    PoS fixes at block 70000
+
+commit 24caac25e7486bacda09930d936da4f9430cdfc4
+Author: kristian <kristian.ilijevski@gmail.com>
+Date:   Wed Apr 27 09:51:26 2016 +0200
+
+    .gitignore
+
+commit 206da4ecb637b4e63d530f8ceff968a92d0677d4
+Author: kristian <kristian.ilijevski@gmail.com>
+Date:   Fri Apr 1 22:51:08 2016 +0200
+
+    enable upnp by default
+
+commit 970a0c07f882d7045d4cd116a2399d2c1ae65038
+Author: kristian <kristian.ilijevski@gmail.com>
+Date:   Fri Apr 1 17:20:59 2016 +0200
+
+    report unlocked for staking only in daemon
+
+commit 109b60d93b5fcc9e238ab2ed32e3e02032f7d26a
+Author: kristian <kristian.ilijevski@gmail.com>
+Date:   Mon Mar 14 20:28:31 2016 +0100
+
+    add disconnectnode RPC command
+
+commit 68bb114cd442d4c5843b393fb00d1bb9eb7e1373
+Author: kristian <kristian.ilijevski@gmail.com>
+Date:   Tue Mar 8 21:30:28 2016 +0100
+
+    20000 network diff fork
+
+commit 72a0de54cc60b1a81f3cd11e55c0476998457e48
+Author: kristian <kristian.ilijevski@gmail.com>
+Date:   Tue Mar 8 21:29:59 2016 +0100
+
+    20000 network diff fork
+
+commit dc9a8a749a4a89a6e3ba28b753a077dbd1c2b7ac
+Author: kristian <kristian.ilijevski@gmail.com>
+Date:   Tue Mar 8 19:16:18 2016 +0100
+
+    fix lock wallet when wallet is unlocked
+
+commit d474a395f761ca6c9c9bfee050da7cd981de636a
+Author: kristian <kristian.ilijevski@gmail.com>
+Date:   Sun Mar 6 17:44:51 2016 +0100
+
+    rm
+
+commit 4f59767be9c9f69ccf0b64684bb5fe6b51711b37
+Author: kristian <kristian.ilijevski@gmail.com>
+Date:   Sun Mar 6 17:44:21 2016 +0100
+
+    rm
+
+commit 8be13e65e7cc6602456dee2ab08132f556652134
+Author: kristian <kristian.ilijevski@gmail.com>
+Date:   Sun Mar 6 17:40:05 2016 +0100
+
+    update readme
+
+commit 883f32c9ae057b72ce5382788d97f03e7dc9dae4
+Author: kristian <kristian.ilijevski@gmail.com>
+Date:   Sun Mar 6 17:38:25 2016 +0100
+
+    update readme
+
+commit 79b88c513db685282858a3bcbf102e47a7756069
+Author: kristian <kristian.ilijevski@gmail.com>
+Date:   Sun Mar 6 17:36:44 2016 +0100
+
+    initial commit

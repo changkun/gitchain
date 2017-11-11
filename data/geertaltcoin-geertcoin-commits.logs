@@ -1,0 +1,37 @@
+commit 8035b278dc70b17f6fd705f10bc27afaf6ad0b45
+Author: Geert AltCoin <geert_coin@tutanota.com>
+Date:   Wed Feb 15 16:51:28 2017 -0800
+
+    throw error at correct max coin amount
+
+commit bc6d1e97692f199134ccf543f628429bf7562eb0
+Author: Geert AltCoin <geert_coin@tutanota.com>
+Date:   Mon Feb 13 18:07:35 2017 -0800
+
+    Update README.md
+
+commit 1d8200db4fa488383d8f7a0a84173b5abc3745aa
+Author: Geert AltCoin <geert_coin@tutanota.com>
+Date:   Mon Feb 13 18:06:29 2017 -0800
+
+    Update README.md
+
+commit bde68e3e01f09b00238e1133a2a21e26b136b980
+Author: GeertAltCoin <geert_coin@tutanota.com>
+Date:   Mon Feb 13 17:59:36 2017 -0800
+
+    upload binary
+
+commit 084a813028fb7ed9b58e862ba733564532edfbf1
+Author: GeertAltCoin <geert_coin@tutanota.com>
+Date:   Mon Feb 13 17:51:26 2017 -0800
+
+    Geertcoin Cryptocurrency
+    
+    first commit
+
+commit ac0601c3d76c6fd319027bc60479d4f899ca9de3
+Author: GeertAltCoin <geert_coin@tutanota.com>
+Date:   Mon Feb 13 17:49:16 2017 -0800
+
+    :circus_tent: Added .gitattributes & .gitignore files

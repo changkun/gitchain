@@ -1,0 +1,1865 @@
+commit e571ec528c66ccad6c692500d2ac011e130b09a0
+Author: joelao95 <joelao98@gmail.com>
+Date:   Thu Sep 14 22:39:32 2017 -0400
+
+    Update node servers
+
+commit 210aeaf353fcc3d1fd562054af2a7a99fb1945e2
+Author: joelao95 <joelao98@gmail.com>
+Date:   Thu Sep 14 21:36:25 2017 -0400
+
+    Update block checking messages
+
+commit 29fdc2bc0ea0d666a9c19bb2e51954f96fac8283
+Author: joelao95 <joelao98@gmail.com>
+Date:   Thu Sep 14 21:10:14 2017 -0400
+
+    Bump version 1.4.4.1
+
+commit 959a9d6f0ac6d60ea17a92f33dc90d9c5a95b905
+Author: joelao95 <joelao98@gmail.com>
+Date:   Thu Sep 14 21:07:33 2017 -0400
+
+    Update PoW block time
+
+commit d9b4eab7f98a435dc4044c90794adce9e8fa97f5
+Author: joelao95 <joelao98@gmail.com>
+Date:   Wed Sep 13 23:53:41 2017 -0400
+
+    Update routine mismatch
+
+commit 10395ede0b3a68e5aa95f524d0f3550ed918fb52
+Author: joelao95 <joelao98@gmail.com>
+Date:   Wed Sep 13 23:46:22 2017 -0400
+
+    Update hardfork height
+
+commit cd15d5626256642f7d4b333602cbea12ba9f81cf
+Author: joelao95 <joelao98@gmail.com>
+Date:   Wed Sep 13 23:19:22 2017 -0400
+
+    Update checkpoint master keys
+
+commit 300bb409ee17473144cbf76c90818336fb0dcf8d
+Author: joelao95 <joelao98@gmail.com>
+Date:   Wed Sep 13 22:15:55 2017 -0400
+
+    Change specs for hardforks
+
+commit dcf1fcc656ce0492f6a042e6d3d6fc1155fa53c0
+Author: joelao95 <joelao98@gmail.com>
+Date:   Wed Sep 13 21:47:06 2017 -0400
+
+    Change PoW/PoS block on-hold time
+
+commit 2276b92ba5e789d8b98341f780d4bd84dd096f61
+Author: joelao95 <joelao98@gmail.com>
+Date:   Wed Sep 13 21:33:50 2017 -0400
+
+    Version 1.4.4
+
+commit cfc3e311395997c1e6b487fcbb8ad8422d4f0078
+Author: joelao95 <joelao98@gmail.com>
+Date:   Wed Sep 13 21:33:01 2017 -0400
+
+    Embedded PoW/PoS blocks checking
+
+commit fb5c1536ce00ed68aa55f79f325cb4ceead8a1fa
+Author: joelao95 <joelao98@gmail.com>
+Date:   Wed Sep 13 21:31:37 2017 -0400
+
+    Blockdata file reindex
+
+commit 523d2c5670ebd56f449090500265c6da744f5cdd
+Author: joelao95 <joelao98@gmail.com>
+Date:   Wed Sep 13 21:31:04 2017 -0400
+
+    Change difficulty adjustment
+
+commit 066b3823b71f05d61e84976ef347c66ce3d7f4f7
+Author: joelao95 <joelao98@gmail.com>
+Date:   Wed Sep 13 21:29:13 2017 -0400
+
+    Add Sync Checkpoints
+
+commit 36f0a377bbc79464eb7bc20ce2914404e631c949
+Author: joelao95 <joelao98@gmail.com>
+Date:   Wed Sep 13 21:17:03 2017 -0400
+
+    Minimum protocol 71062
+
+commit 22535048b8bdd4b4573296f6cc04f80b236546de
+Author: cgm <joelao98@gmail.com>
+Date:   Sun Sep 10 23:20:17 2017 -0400
+
+    Protocol ver 71062
+
+commit 78b85601c26bd868a88196322e6afbec2f734255
+Author: cgm <joelao98@gmail.com>
+Date:   Sun Sep 10 23:18:16 2017 -0400
+
+    Fix sync issue
+
+commit b59a55258412106aae75b2e0ab161ed88dbae186
+Author: joelao95 <joelao98@gmail.com>
+Date:   Thu Aug 24 20:18:56 2017 -0400
+
+    v1.4.3 to fix chain issue
+
+commit 955038013b787badbc9e44f234639e7ac153e5c9
+Author: joelao95 <joelao98@gmail.com>
+Date:   Sun Aug 20 08:43:27 2017 -0400
+
+    Add checkpoints
+
+commit 4a423e4be96911448553469776e6c113182f7f79
+Merge: 277560723 a7dd8fd35
+Author: Joe Lao <joelao95@users.noreply.github.com>
+Date:   Fri Aug 18 23:53:19 2017 -0400
+
+    Merge pull request #19 from PeterL73/ThreadName-Fix
+    
+    change threadnames to magi-*
+
+commit a7dd8fd35b8c67268bd82057bf89ecda8414a0d3
+Author: PeterL73 <peter.leeneman+github@gmail.com>
+Date:   Fri Aug 18 11:14:11 2017 +0200
+
+    change threadnames to magi-*
+
+commit 2775607235e91921ebbd3955195cfc25b77ca794
+Author: Joe Lao <joelao95@users.noreply.github.com>
+Date:   Fri Aug 18 10:11:10 2017 -0400
+
+    Move to version 5
+
+commit 3b89339f243db7bbb209a2842b1ba0e1738dcc53
+Author: Joe Lao <joelao95@users.noreply.github.com>
+Date:   Fri Aug 18 10:06:51 2017 -0400
+
+    Move to version 5
+
+commit 39a8b31b3852f71a4392e8a42219ad0784fd9530
+Author: joelao95 <joelao98@gmail.com>
+Date:   Fri Aug 18 02:29:40 2017 -0400
+
+    Checkpoints
+
+commit edae113b7b48757da8648f5d3602b2c7843f85b4
+Author: joelao95 <joelao98@gmail.com>
+Date:   Fri Aug 18 00:56:19 2017 -0400
+
+    Change min coin age
+
+commit 254df29b86b646e1c6bf61658a3c8c9d92e718f5
+Author: joelao95 <joelao98@gmail.com>
+Date:   Thu Aug 17 21:18:24 2017 -0400
+
+    Fix compiling
+
+commit 623cfeab0645f9216388cb0327ff8e10ae90cc40
+Author: joelao95 <joelao98@gmail.com>
+Date:   Thu Aug 17 02:46:51 2017 -0400
+
+    Default staking disabled
+
+commit f6387f8c77392cb4af1fc730fe6e1f1d14f8539b
+Author: joelao95 <joelao98@gmail.com>
+Date:   Thu Aug 17 02:44:10 2017 -0400
+
+    Update checkpoints
+
+commit 8d3aa31be1ce4ee75926c8c4bffca848f9883eaf
+Author: joelao95 <joelao98@gmail.com>
+Date:   Thu Aug 17 02:29:22 2017 -0400
+
+    Block & version check
+
+commit c1c2ca213f0d6c08332c97441157b38397edbcf7
+Author: joelao95 <joelao98@gmail.com>
+Date:   Thu Aug 17 01:35:13 2017 -0400
+
+    Coinbase Maturity Block
+
+commit 6ca2c990717f8ab1bd8e89c7ea6bd3dbc736c3cd
+Author: joelao95 <joelao98@gmail.com>
+Date:   Thu Aug 17 01:27:08 2017 -0400
+
+    Increase Coinbase Maturity
+
+commit 5addb552e679a6bb99fd890bfc671d0a5deda667
+Author: joelao95 <joelao98@gmail.com>
+Date:   Tue Aug 15 21:44:22 2017 -0400
+
+    Update version
+
+commit 93a438a943e088e2e4fa666bedfd9f689ecc3797
+Author: joelao95 <joelao98@gmail.com>
+Date:   Sun Aug 13 18:02:42 2017 -0400
+
+    Fix chain splitting
+
+commit a430d185091350c5c5b7447b5de76653af521d07
+Merge: 79c72e60f abc24b4eb
+Author: Joe Lao <joelao95@users.noreply.github.com>
+Date:   Sat May 6 17:25:53 2017 -0400
+
+    Merge pull request #16 from erikssonk/master
+    
+    Added support for IPv4 / IPv6 showing in RPC getinfo
+
+commit 79c72e60f4cce48f04a9ba82f828a6b6b53cc359
+Merge: 7c0673fa2 d2606f275
+Author: Joe Lao <joelao95@users.noreply.github.com>
+Date:   Sat Apr 29 20:06:56 2017 -0400
+
+    Merge pull request #15 from flok99/patch-2
+    
+    Update build-unix.md
+
+commit 7c0673fa2c325b5b4838bad4761655e43dcb87f0
+Merge: 8ff13887c 8a99b6303
+Author: Joe Lao <joelao95@users.noreply.github.com>
+Date:   Sat Apr 29 20:03:53 2017 -0400
+
+    Merge pull request #14 from rotzbouf/master
+    
+    fixing compile error
+
+commit abc24b4eb688725e3792ed3ae840e83db96844a7
+Author: Kenneth Eriksson <eriksson.r.k@gmail.com>
+Date:   Tue Mar 28 08:00:00 2017 +0200
+
+    Added support for IPv4 / IPv6 showing in RPC getinfo
+
+commit 8a99b6303b1bd9da7e9472490b7aefc9d90ee1a3
+Merge: ba654c143 ce3118d39
+Author: rotzbouf <rotzbouf@gmail.com>
+Date:   Fri Mar 10 11:07:12 2017 +0100
+
+    Merge pull request #3 from rotzbouf/rotzbouf-miniupnp1.9
+    
+    Adding support for miniupnpc 1.9
+
+commit ce3118d39a0194d4dab9f782d6982ff554222a60
+Author: rotzbouf <rotzbouf@gmail.com>
+Date:   Fri Mar 10 11:06:19 2017 +0100
+
+    Adding support for miniupnpc 1.9
+
+commit d2606f27513cb5b6f926aad0bf8404ec9a0e18f3
+Author: Folkert van Heusden <folkert@vanheusden.com>
+Date:   Wed Mar 8 18:54:02 2017 +0100
+
+    Update build-unix.md
+    
+    apparently openssl 1.1.x is not compatible (bignum problems)
+
+commit ba654c14313ce648e9f43ecd5d654ebc68f039fb
+Merge: 8ff13887c 2e1ddae9a
+Author: rotzbouf <rotzbouf@gmail.com>
+Date:   Thu Feb 23 20:27:03 2017 +0100
+
+    Merge pull request #2 from rotzbouf/rotzbouf-patch-1
+    
+    Update net.cpp
+
+commit 2e1ddae9a2d5165b74de4de01adfe72feacdff43
+Author: rotzbouf <rotzbouf@gmail.com>
+Date:   Thu Feb 23 16:04:17 2017 +0100
+
+    Update net.cpp
+    
+    Fixing compile error: src/net.cpp:60:1: error: reference to ‘array’ is ambiguous
+    
+    Referencing issue #13: https://github.com/magi-project/magi/issues/13
+
+commit 8ff13887c27d6562bfdee36dcd88a00e4042c40c
+Author: Joe Lao <joelao95@users.noreply.github.com>
+Date:   Thu Feb 16 23:16:32 2017 -0500
+
+    Update makefile.unix
+
+commit 48f30cbd625e562840a3c58adbb8bb6b9bc5d9e7
+Author: Joe Lao <joelao95@users.noreply.github.com>
+Date:   Thu Feb 9 22:38:09 2017 -0500
+
+    Update m-wallet.pro
+
+commit ee0719f59ea6333bce94361e7683d7fe3731600f
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Thu Feb 9 22:18:24 2017 -0500
+
+    Update nodes & menu and coin info
+
+commit e1f17bc97cf29b65c60f159865991aeaf67e7ca4
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Thu Feb 9 22:18:00 2017 -0500
+
+    Update nodes & menu and coin info
+
+commit 849f33d9fd9cc9a1a3683947aeb5677a3d3368fd
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Sun Feb 5 19:59:40 2017 -0500
+
+    Add descriptions for mPoW and mPoS
+
+commit 8a206703f8715b6049b2f56dd2a2c096685c6984
+Author: Joe Lao <joelao95@users.noreply.github.com>
+Date:   Wed Feb 1 00:22:03 2017 -0500
+
+    Update m-wallet.pro
+
+commit aad114522f08cea61db4144f0c3f86e2ca1b2740
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Tue Jan 31 23:00:22 2017 -0500
+
+    Update path for compiling
+
+commit 7f8ea9d8e795d31c9337b5de8f01d2036faa12db
+Author: Joe Lao <joelao95@users.noreply.github.com>
+Date:   Mon Jan 30 21:38:18 2017 -0500
+
+    Update makefile.osx
+
+commit b07598d6bbd307a2e7a13b6de5ffd6b156aa92fd
+Author: Joe Lao <joelao95@users.noreply.github.com>
+Date:   Mon Jan 30 21:30:25 2017 -0500
+
+    Update makefile.osx
+
+commit 69442e06562ee6cb2008a799faf190cfd79b3bf2
+Author: Joe Lao <joelao95@users.noreply.github.com>
+Date:   Mon Jan 30 20:34:14 2017 -0500
+
+    Update makefile.osx
+
+commit fd196141740798768eae37eae5b8f0863efd8358
+Author: Joe Lao <joelao95@users.noreply.github.com>
+Date:   Sun Jan 29 23:17:20 2017 -0500
+
+    Update .gitignore
+
+commit 147134ea7c3601b44919dd2eea8e2f62fb84cc44
+Author: Joe Lao <joelao95@users.noreply.github.com>
+Date:   Sun Jan 29 21:46:43 2017 -0500
+
+    Update README.md
+
+commit 742616906c111d2e0faec03d3d5016d39205657b
+Author: Joe Lao <joelao95@users.noreply.github.com>
+Date:   Sun Jan 29 21:45:35 2017 -0500
+
+    Update COPYING
+
+commit be7ec87719b79e5bad6b8de820b75e0ba7dcb390
+Author: Joe Lao <joelao95@users.noreply.github.com>
+Date:   Sun Jan 29 21:43:38 2017 -0500
+
+    Update README.md
+
+commit 0a74a6ca869f48df2933e64dec0f8ff103324a51
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Sun Jan 29 13:54:21 2017 -0500
+
+    Fixed daemon build on FreeBSD
+
+commit 2475c7b786a8da17d8c17d177b9301d546814485
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Sat Jan 28 22:39:39 2017 -0500
+
+    Adjusted overview appearance for Windows
+
+commit 0c835719e37a01893e2fd4dfc22a3e9b69833b3a
+Author: Joe Lao <joelao95@users.noreply.github.com>
+Date:   Sat Jan 28 15:28:16 2017 -0500
+
+    Update .gitignore
+
+commit c44e9adfdfb21ead586b0e90a48352fae5108f9b
+Author: Joe Lao <joelao95@users.noreply.github.com>
+Date:   Fri Jan 27 19:45:16 2017 -0500
+
+    Update .gitignore
+
+commit 1377baee1c66a6045afe5cd837408e48ed1a1026
+Author: Joe Lao <joelao95@users.noreply.github.com>
+Date:   Fri Jan 27 19:43:05 2017 -0500
+
+    Update .gitignore
+
+commit d5f203da87477832ce1f3e8eade42dcf586eda10
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Fri Jan 27 19:00:05 2017 -0500
+
+    Qt5.2 style for Win
+
+commit 65d1b55d18348b7bc91c0d5e1136928e5bfdb321
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Fri Jan 27 18:54:46 2017 -0500
+
+    Fixed compiling magi-qt.rc
+
+commit 522a4bb014d8ba7cb327fbecc151c62a6e221e88
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Sat Jan 21 22:13:43 2017 -0500
+
+    Remove duplicates
+
+commit 1b8b0f935ae4e150f361a2bef44d894c644c3f05
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Sat Jan 21 22:01:27 2017 -0500
+
+    Boost suffix fix
+
+commit 5ca0c84d183b1b4f3e4c4339989c47383f21f48d
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Sat Jan 21 22:00:24 2017 -0500
+
+    Changed toolbar height
+
+commit f4911f6df63f39b703df6a325dea9340dab97a8d
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Sat Jan 21 21:41:20 2017 -0500
+
+    Correct path for linux compiling
+
+commit 6d9aebd09bfb54785acbbd4990069d541e8a244d
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Sat Jan 21 21:39:55 2017 -0500
+
+    Update include path for linux compiling
+
+commit 1ca74e00edf5bd99022ec8d15c61b3fea912be19
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Sat Jan 21 21:14:11 2017 -0500
+
+    Fix daemon compiling on OS X
+
+commit 4dc75fd1ac3e01f7f963a4da726691ae82e175ba
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Sat Jan 21 19:09:58 2017 -0500
+
+    Update logo
+
+commit aabb7bcd20dd8c162d74f3ce83473ea75af5d656
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Sat Jan 21 18:58:20 2017 -0500
+
+    Static daemon compiling on linux
+
+commit 10105cf0f237d4c2bdf80adbe0054df023d4af89
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Sat Jan 21 17:28:44 2017 -0500
+
+    Fix daemon compiling
+
+commit 9995bd6c96921722684f03a4ba6f6a83d1156036
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Sat Jan 21 16:39:46 2017 -0500
+
+    Fix traymenu OS X & About menu
+
+commit 95b628699416485fd3487eac53e8d0029dee1a1a
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Sat Jan 21 15:25:28 2017 -0500
+
+    Fix menubar on OS X
+
+commit b57ac85dd05e6a4f2d2fa592ca17db66313d9189
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Sat Jan 21 14:40:54 2017 -0500
+
+    Toolbar & Overview tailored further
+
+commit 8c22d2bf97ca839981fd3f829ed2f6d645814348
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Sat Jan 21 00:29:25 2017 -0500
+
+    Adapt size under OS X
+
+commit 6baf0b30ba197dfb63623fe2f97657099f681796
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Fri Jan 20 22:53:36 2017 -0500
+
+    Make toolbar fit to frame space
+
+commit a374b1adacaad0f4c4f3dfa31da00e4d3b0a751e
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Fri Jan 20 21:56:33 2017 -0500
+
+    Adjust to proper dimension for main window
+
+commit 6b32a33acea6fcdd36a8f82c02bdfc62061161b4
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Wed Jan 18 00:32:16 2017 -0500
+
+    Adjusted looks on OS X
+
+commit a7cee7baa9dd50eeffc0db0115a25fe139c43148
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Mon Jan 16 23:56:21 2017 -0500
+
+    Tailored a bit About info
+
+commit b6ec1aa65a1486e8cb3b852fc1731a0a30c07383
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Mon Jan 16 23:13:09 2017 -0500
+
+    Tweak overview look
+
+commit 701e927dde3ca39b34dffd226402ced92f506159
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Mon Jan 16 21:09:43 2017 -0500
+
+    ORG name to Magi
+
+commit 47f06510aa57cfe5db1402fd380087f4fb98eadf
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Mon Jan 16 01:07:00 2017 -0500
+
+    Add more About info
+
+commit 35fe93727b8d3b7d8737306f045a9772acaa25c9
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Sun Jan 15 15:44:51 2017 -0500
+
+    Change Mint menu text for clarity
+
+commit f82603e4b0935d8b9ffdff14b608681bc6d8b9f5
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Sun Jan 15 15:38:23 2017 -0500
+
+    Add how-to-PoS-mint menu
+
+commit d6f063c2f385f8b06f4a488857f28658b31984bb
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Sun Jan 15 14:49:35 2017 -0500
+
+    Exclude NotAccepted transactions from Total
+
+commit b5102909e0e202d652143076191e13beb96457b2
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Sun Jan 15 13:03:12 2017 -0500
+
+    Adapt length of dropdown menu
+
+commit 627cc1ba7398374b6c0dc215736998b79a844dfa
+Author: Joe Lao <joelao95@users.noreply.github.com>
+Date:   Sun Jan 15 12:32:28 2017 -0500
+
+    Update .gitignore
+
+commit e66190c6742c2ec56fde9652d748fb52be2a8f99
+Author: Joe Lao <joelao95@users.noreply.github.com>
+Date:   Sun Jan 15 12:31:34 2017 -0500
+
+    Delete Makefile.Debug
+
+commit 08a37cbbf6fe58a8cde0524bf43baa04969ff82a
+Author: Joe Lao <joelao95@users.noreply.github.com>
+Date:   Sun Jan 15 12:30:55 2017 -0500
+
+    Update .gitignore
+
+commit a3cc4fc473fd98c734143d122fb6d0d4f64db198
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Sun Jan 15 12:12:58 2017 -0500
+
+    Update testnet qt-wallet name
+
+commit b37987081572e1bf41d8d8f133cccbe307f14078
+Author: Joe Lao <joelao95@users.noreply.github.com>
+Date:   Sun Jan 15 12:07:27 2017 -0500
+
+    Switch to m-wallet
+
+commit 347f224501597cfca1cf0778c3d7549c7edcceee
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Sun Jan 15 11:56:54 2017 -0500
+
+    Switch to m-wallet
+
+commit 2aec1a8fa1d3c79ba4362a3f363563be80d5d988
+Author: Joe Lao <joelao95@users.noreply.github.com>
+Date:   Sun Jan 15 11:50:29 2017 -0500
+
+    Update .gitignore
+
+commit 2a7d4e301dc81381863747eba642107506902619
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Sun Jan 15 02:07:07 2017 -0500
+
+    Misc updates in overviewpage
+
+commit d9d9c15186ae71d5b69a399b54c8e53a387ca9bd
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Sun Jan 15 02:04:07 2017 -0500
+
+    Misc updates in overviewpage
+
+commit 5c6ec53668c8cd670f4187d28ef71a512f3d0463
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Sun Jan 15 01:37:27 2017 -0500
+
+    Cleanup About menu
+
+commit a7e6feff6032e20385f66dbdad5f84b3180d8cd7
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Sun Jan 15 00:32:17 2017 -0500
+
+    m-core version v1.3.1
+
+commit 9b4e615eda19f706b8f070b25940adfc6e56b181
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Sun Jan 15 00:14:43 2017 -0500
+
+    Add BerkeleyDB version
+
+commit d80976fe74d56c547571c8ae63033fa4c58b8378
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Sat Jan 14 23:07:50 2017 -0500
+
+    Change About Message
+
+commit 14aeef11d76fef7b8e935403d2dcfa0a18acd495
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Sat Jan 14 21:36:37 2017 -0500
+
+    Misc updates
+
+commit 19f5c27fda7ce3bedabc4fb8d1a7e21b7d15d6e7
+Merge: 23e1b9e07 f6f7bd4ad
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Sat Jan 14 18:08:36 2017 -0500
+
+    Update
+
+commit 23e1b9e07a697031b88fbb471ee1c7ea9fd3ffa6
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Sat Jan 14 17:26:27 2017 -0500
+
+    Fix update spinner
+
+commit 023877df1b1f5933ff914f9625c00a740d253aee
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Fri Jan 13 20:19:57 2017 -0500
+
+    Sort out statusbar
+
+commit 31bb76ddc82c1a56312933963cdcaa48c51e8efb
+Author: Joe Lao <joelao95@users.noreply.github.com>
+Date:   Wed Jan 11 22:44:55 2017 -0500
+
+    Update .gitignore
+
+commit f06e2d3c11b84d25f80341db59cfab46cfdf5697
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Sun Jan 8 23:37:21 2017 -0500
+
+    Tweak OSX looks
+
+commit b8a4bf621e41453fcea572adf6066bf90751c71e
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Sun Jan 8 22:58:57 2017 -0500
+
+    Set style sheet for OSX
+
+commit a8585ac033c38d07e71b97f1e2c9e73514c1a14f
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Sun Jan 8 20:41:23 2017 -0500
+
+    Change to release mode
+
+commit 873a1fe87fa9c33a5030be46fa2712bb94739d03
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Sun Jan 8 20:28:01 2017 -0500
+
+    Update icons & improve Qt appearance
+
+commit feb9eea519d791932b8858dfa746e62cb9271401
+Author: Joe Lao <joelao95@users.noreply.github.com>
+Date:   Wed Jan 4 23:11:41 2017 -0500
+
+    Delete magi-qt.pro.user.3.2-pre1
+
+commit 985e93dc88f3234a63ff925b0b4d3da9b4836836
+Author: Joe Lao <joelao95@users.noreply.github.com>
+Date:   Wed Jan 4 23:10:58 2017 -0500
+
+    Update .gitignore
+
+commit f55afef7fb94af1e91a6b6343a3b9eb41a223fc4
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Wed Jan 4 23:04:09 2017 -0500
+
+    Fix price check
+
+commit 24196078933f68653214a75375b0301c5a548ddf
+Author: Joe Lao <joelao95@users.noreply.github.com>
+Date:   Mon Jan 2 11:45:12 2017 -0500
+
+    Update .gitignore
+
+commit 54de6eed9fe2936fae5872ff658588ddf223edaa
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Tue Jun 28 21:49:36 2016 -0400
+
+    FreeBSD build
+
+commit ccb8a361229d22cb4c02ef6a8d4c9cbe39453cde
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Tue Jun 21 22:47:15 2016 -0400
+
+    Update logo
+
+commit e5534ae1e99b177c1021dee5660871769f667012
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Tue Jun 21 07:47:11 2016 -0400
+
+    Test version check & improve Qt5.2 look
+
+commit fdb9fecbc3ba2727d10ac877989c4d243756545c
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Sun Jun 19 19:38:25 2016 -0400
+
+    Minor updates on Qt
+
+commit 1db5d7fc10198debb959c8b4cf21db5982c5a3c2
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Sun Jun 19 18:09:23 2016 -0400
+
+    Fix on Qt & daemon compiling issues
+
+commit b115e45cbd91a16e9482e99b4202a9a957f9caa7
+Author: Joe Lao <joelao95@users.noreply.github.com>
+Date:   Sun Jun 19 13:48:24 2016 -0400
+
+    Update .gitignore
+
+commit 0c0f5a3282618bf9eab21d3b676b52938f646895
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Sun Jun 19 13:35:02 2016 -0400
+
+    Update Qt compilation
+
+commit 7084b6ce5b3bd0eb521960c8e27d62bc62ebbbec
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Sun Jun 19 13:24:04 2016 -0400
+
+    Ready to push out 1.3.0rc
+
+commit 97609d7bff048a27b70d00bcd530036d2bfdb1d6
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Sun Jun 19 13:12:56 2016 -0400
+
+    Improved GUI & icons updates
+
+commit 87831dd39d295fef14203553b2a6475ec2ab955e
+Author: Joe Lao <joelao95@users.noreply.github.com>
+Date:   Thu Jun 16 21:19:35 2016 -0400
+
+    Add files via upload
+
+commit 7955bde0b9ca7faf82ed4fa5782aa47919b5d775
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Thu Jun 16 20:31:05 2016 -0400
+
+    GUI overviewpage style
+
+commit 7decf8504cf01781a02d4d338a946965d7c3b7e4
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Wed Jun 15 22:59:13 2016 -0400
+
+    Optimize price checking & Qt interface
+
+commit 4a59b75f1a45357c7ef36963083cbba59ef0ae94
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Mon Jun 13 22:22:32 2016 -0400
+
+    Changed icons
+
+commit 72fa6a2924c99bce2aa1459e134e14d5537cf3f7
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Sun Jun 12 20:59:43 2016 -0400
+
+    Handle likely exception in price checking
+
+commit 642fc0228d501db80915b66d42c23fb484ea6945
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Sun Jun 12 19:13:04 2016 -0400
+
+    Added price checking
+
+commit e35b43920b30812c4478280e3af8bcacc169b06f
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Sun Jun 12 13:58:07 2016 -0400
+
+    Automatic version check including a/b/rc
+
+commit 68da4264b40ded143a3f3100bfed62eada674bfb
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Sun Jun 12 02:07:22 2016 -0400
+
+    Changed client update info
+
+commit ab0aa5e20ea45976ac7f8263d92d06aa94edb4b1
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Sun Jun 12 02:02:38 2016 -0400
+
+    Checking client update every 12hours
+
+commit 3f71c8f9b6636a35cb8b91d95673725618f89731
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Sun Jun 12 02:01:13 2016 -0400
+
+    Handle checking various versions including rc
+
+commit 65dbd59283d9fae4da0d23744a1f08091299ca50
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Sun Jun 12 00:12:12 2016 -0400
+
+    Fix version check inaccessible error
+
+commit 4086b096bb9c08b535f4c1f6b50ab88fdfba9bac
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Sat Jun 11 21:05:38 2016 -0400
+
+    Enhancing version checking, addressing error (merge pull request #10 by feldenthorne)
+
+commit f6f7bd4ad51cfb0f67d2dce2360d91b435348610
+Merge: 1d6e3492a 1bf863b98
+Author: Joe Lao <joelao95@users.noreply.github.com>
+Date:   Sat Jun 11 11:24:47 2016 -0400
+
+    Merge pull request #10 from feldenthorne/version-check
+    
+    Enhancing version checking, addressing error
+
+commit 3aa2278a5b93b6716f4b42863e126f62f25f672f
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Fri Jun 10 21:36:38 2016 -0400
+
+    Added a total to transaction view (merge pull request #11 by lightsplasher)
+
+commit 1d6e3492aca5eb4b4f750975e5fd972fc1345393
+Merge: 5608f1111 5b2e876b1
+Author: Joe Lao <joelao95@users.noreply.github.com>
+Date:   Thu Jun 9 21:23:08 2016 -0400
+
+    Merge pull request #11 from lightsplasher/master
+    
+    Added a total to transaction view
+
+commit de1da18e0c9215b887fd4903512404cfb6e1a8f1
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Tue Jun 7 23:20:52 2016 -0400
+
+    Add stake combining & splitting settings
+
+commit 65a21dc46b2cd6044f2a7ec61c9091fe2d43e223
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Sun Jun 5 00:35:55 2016 -0400
+
+    Update version
+
+commit fd7d4cb2478b973a6659b2b87fa835ad9aadaad8
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Sat Jun 4 18:08:37 2016 -0400
+
+    Minor updates on block process & checkpoints
+
+commit 8d02469b1a186ba31ccf9035e382c9cdf3cb8d79
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Sat Jun 4 17:45:04 2016 -0400
+
+    Minor updates on block process & checkpoints
+
+commit a4743e22415693b6ac5aaf419c4e44af648d60dc
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Sat Jun 4 13:33:01 2016 -0400
+
+    PoS check
+
+commit 459cd3c6c65fb334c663c0d9d54861564b20836f
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Thu Jun 2 22:45:50 2016 -0400
+
+    Merge 1.18
+
+commit 53347b3ea59fbf4193af96ec2e96f11f6de30a4d
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Thu Jun 2 22:19:47 2016 -0400
+
+    Change to MilliSleep()
+
+commit a959a7a53206e62b4b7b6b3d89168960e2b3c95b
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Tue May 31 21:06:03 2016 -0400
+
+    Cleanup unncecessary db close
+
+commit 113a270d744e4f615c06f3ea2bdfa32e78bb8d28
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Mon May 30 20:53:07 2016 -0400
+
+    Migrate to LevelDB; handle checkpoints warning
+
+commit 400e507755cd56fb54f807543230e8556103b282
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Wed May 25 22:40:26 2016 -0400
+
+    Back to original builds of magid
+
+commit 582696fddb13aa6c8e3914795cd5ee7f80b96727
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Wed May 25 22:38:18 2016 -0400
+
+    Static builds into ignore list
+
+commit a4c2938fa1257dd5b36adc3a09284380b00995d0
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Wed May 25 22:29:01 2016 -0400
+
+    Faster retrieval of blocks from disk by storing block hash
+
+commit 5608f1111abad00f9741efaacb0fc0f232065055
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Mon May 23 20:55:26 2016 -0400
+
+    Test builds to be ignored
+
+commit 2bbe1ed61e6d93eaa91501d5036913d72112a2fc
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Sun May 22 17:45:58 2016 -0400
+
+    del add-qt
+
+commit f1d8582ed022af4bbe28f74918b1617c0b7cc6fb
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Sun May 22 17:44:25 2016 -0400
+
+    del add-qt
+
+commit 5e13cbb64265cfcf1ae87eccc9a4ab34bc3d25cd
+Merge: d4b43ac6b 6a0d39c7e
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Sun May 22 16:29:21 2016 -0400
+
+    Merge branch 'master' of https://github.com/magi-project/magi
+
+commit d4b43ac6beeb181ea58de7c88e5c5174e336de0f
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Sun May 22 16:28:04 2016 -0400
+
+    Cleanup the notes and formatting
+
+commit 6a0d39c7ec7698da9e844c3fd615d863cda589b2
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Sat Oct 31 19:44:16 2015 -0400
+
+    Cleanup the notes and formatting
+
+commit 74a1481bda2a70a6217888b6c2f437f7d0b65932
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Sat Oct 31 19:20:39 2015 -0400
+
+    Update build notes
+
+commit b2e40436a03e0f6fad8af234e623fa24ae7daf70
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Sat Oct 31 18:48:32 2015 -0400
+
+    Update build notes
+
+commit 8e075fd161893c010a80767d1579d09d1c2b83d7
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Sat Oct 31 18:40:24 2015 -0400
+
+    Update dependency
+
+commit 16681f83a08157d777650e83d4446809807a9305
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Sat Oct 31 17:33:12 2015 -0400
+
+    Update dependency
+
+commit 5b2e876b1c8688f82715318831b126b954ba2b71
+Author: Lightsplasher <bert@lightsplasher.com>
+Date:   Fri Oct 23 22:00:49 2015 -0700
+
+    Added a total to transaction view
+
+commit b9ad5cc63e25fc16e03800d91ea745f30bca7ca5
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Fri Oct 23 10:32:45 2015 -0400
+
+    Add linux dependency
+
+commit 1bf863b9840f40598968b861f2898a7f5966bd00
+Author: Robert Zimmerman <feldenthorne@users.sf.net>
+Date:   Mon Oct 19 22:17:06 2015 -0700
+
+    Enhancing version checking, addressing error
+    
+    Version checking robustness has been improved by adding several more comparisons. This
+    fixes a possible error that should theoretically never show up in practice: if the
+    client version number (1.2.3.0, for example) had any digits lower than the externally
+    hosted version.txt file (0.4.3.1, for example), the client would issue an update alert.
+    This commit adds nested comparisons with each more significant version number
+    to alleviate this issue and conform to expected behavior.
+    
+    Additionally, it has come to my attention that the Magi version file hosted at
+    http://coinmagi.org/files/magi-release/version.txt is inaccessible to the client due to
+    the site's mod_security filtering rules. Instead of receiving a version string, the
+    client receives the following:
+    ```
+    <html>
+    <head><title>Not Acceptable!</title></head>
+    <body>
+    <h1>Not Acceptable!</h1>
+    <p>An appropriate representation of the requested
+    resource could not be found on this server.
+    This error was generated by Mod_Security.</p>
+    </body>
+    </html>
+    ```
+    
+    Unfortunately, this error will persist unless the htaccess file on the server is
+    modified or until a more permissive host is used for the version file.
+
+commit 664a53e2264375617c052bf4b7b54a12d8472a7b
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Sun Oct 18 15:19:54 2015 -0400
+
+    Merge requests by lightsplasher adding total balance
+
+commit 371f484dcee33cf8ec3e9ac05927f659ce0691d6
+Merge: 6efe780fb cc7db91cc
+Author: Joe Lao <joelao95@users.noreply.github.com>
+Date:   Sun Oct 18 15:14:16 2015 -0400
+
+    Merge pull request #9 from lightsplasher/master
+    
+    added total balance
+
+commit cc7db91cce249b6c947725336c16590a1fc3c414
+Author: Lightsplasher <bert@lightsplasher.com>
+Date:   Wed Oct 7 22:31:13 2015 -0700
+
+    added total balance
+
+commit 6efe780fbbf77ab26e1b32752738e706d1930f71
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Tue Sep 15 21:09:43 2015 -0400
+
+    Update check points
+
+commit 0e2ba51862b10fb85d4e3dd85a0fc115c2bf4b77
+Merge: 9cda0f8b0 8ef0a1e5b
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Tue Sep 15 20:50:45 2015 -0400
+
+    Merge branch 'master' of https://github.com/magi-project/magi
+
+commit 9cda0f8b0e79592ba7f719573af7bb4f7812267b
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Tue Sep 15 20:50:05 2015 -0400
+
+    Change version check URL
+
+commit 63f2ac9de30f47fbca02d0e23fda3f8f683d991d
+Merge: 622779eff 0cdbcfb67
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Tue Sep 15 20:49:31 2015 -0400
+
+    Merge pull request #6 from feldenthorne/armv7l_official
+    
+    Fixing CPU detection for Qt, adding armv6l build support
+
+commit 8ef0a1e5b6307a9c69f58f1b73cfe8265c5ed7da
+Merge: 622779eff 0cdbcfb67
+Author: CoinMagi <coinmagicorp@gmail.com>
+Date:   Tue Sep 15 20:21:21 2015 -0400
+
+    Merge pull request #6 from feldenthorne/armv7l_official
+    
+    Fixing CPU detection for Qt, adding armv6l build support
+
+commit 622779eff18563b8af7a08fc8d707ca046ac442f
+Merge: b84376a68 f0a9df516
+Author: CoinMagi <coinmagicorp@gmail.com>
+Date:   Tue Sep 15 20:14:19 2015 -0400
+
+    Merge pull request #8 from feldenthorne/version-check
+    
+    Adding timer-based check for wallet updates
+
+commit 0cdbcfb67c15abf9a393bae1fe639065c8e13f76
+Merge: 4f6136ad0 b84376a68
+Author: Robert Zimmerman <feldenthorne@users.sf.net>
+Date:   Mon May 18 21:11:00 2015 -0700
+
+    Merge https://github.com/magi-project/magi into armv7l_official
+    
+    This merges changes made to the official source that explicitly
+    set the BDB version to 4.8.
+
+commit f0a9df5160e7e5cbc81b9d5627df4a3b258fcbbe
+Merge: 631650e9a b84376a68
+Author: Robert Zimmerman <feldenthorne@users.sf.net>
+Date:   Mon May 18 20:39:28 2015 -0700
+
+    Merge https://github.com/magi-project/magi into version-check
+    
+    This merges changes made to the official source that explicitly
+    set the BDB version to 4.8.
+
+commit b84376a6827da9b22004fa1f6e49a4fa5027fdb3
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Mon May 18 21:34:36 2015 -0400
+
+    Update version
+
+commit 4f610de3df636f5a53afd190e029db464ffe7007
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Mon May 18 21:26:01 2015 -0400
+
+    Update version
+
+commit 73074bb93e8c949d06d8987311ddefd71581b2a9
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Mon May 18 21:25:23 2015 -0400
+
+    Update comments
+
+commit 418f3900c274728d052e94512e817f0c70a41426
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Mon May 18 21:20:42 2015 -0400
+
+    Update version
+
+commit 4566a47ef1d7e1b8e4c299c4cc31d8f2a169df1b
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Mon May 18 21:14:25 2015 -0400
+
+    Update COPYING
+
+commit ebc732718f0b85dc7fb0d2ad64fa0624eb5fae4a
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Mon May 18 19:02:36 2015 -0400
+
+    Update release notes
+
+commit 284fc86e7a3812d2d1d377f6f3a4cc089a364513
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Mon May 18 19:01:58 2015 -0400
+
+    Update release notes
+
+commit c123a25942cc394670b8cc73af75313666c9fd34
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Mon May 18 18:57:24 2015 -0400
+
+    Add release notes
+
+commit 9c622ecbce60ee9a9af005edce1f8637b510a1dd
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Mon May 18 00:25:56 2015 -0400
+
+    Update checkpoints
+
+commit f57f489af9f708052a0b3fc75cc25b57c788f9e2
+Merge: 956b2999c f1af2b0dc
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Mon May 18 00:11:06 2015 -0400
+
+    Merge branch 'master' of https://github.com/magi-project/magi
+
+commit 956b2999c2b7669b2a5b1df9697f0029d3b49673
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Mon May 18 00:09:01 2015 -0400
+
+    Update to v1.2.1.3
+
+commit a37edc66c8c5adfd44b974cb575f130df9f62933
+Merge: 86f6535a1 46f2e8da9
+Author: joelao95 <ylao.bsd@gmail.com>
+Date:   Mon May 18 00:07:41 2015 -0400
+
+    Merge pull request #5 from feldenthorne/armv7l_official
+    
+    armv7l build support
+
+commit 631650e9a43b18b5b34cbb24e5eb027d5d8c0b69
+Author: Robert Zimmerman <feldenthorne@users.sf.net>
+Date:   Tue Apr 28 01:22:34 2015 -0700
+
+    Feature: check for updated binaries
+    
+    A file on a remote server (version.txt for example) that contains
+    the newest wallet information is retrieved, then the string in
+    that file is parsed and compared with the internal wallet version,
+    which is defined in src/version.h. If any integer in the remote
+    version is larger than the corresponding internal integer, a
+    clickable label is displayed in the GUI overview page, prompting
+    the user to download the new wallet version. This check occurs
+    once per day, as commited.
+    
+    ---
+    Notes:
+    
+    The remote version.txt must contain only a string of the form:
+    MAJOR_VERSION.MINOR_VERSION.REVISION.BUILD (e.g. 1.2.1.2) with no
+    leading or trailing spaces.
+    
+    The URLs for the remote version.txt file and the suggested
+    download location URL are defined in src/qt/updatecheck.h. The
+    Update time interval is also defined in src/qt/updatecheck.h.
+    
+    The UpdateCheck class is used in the OverviewPage class
+    (src/qt/overviewpage.cpp) along with a little extra logic to
+    achieve this functionality.
+
+commit 4f6136ad077d40453af99ce7bd943c6a7baed88e
+Author: Robert Zimmerman <feldenthorne@users.sf.net>
+Date:   Mon Apr 6 15:47:23 2015 -0700
+
+    Updating runtime dependencies in Unix build readme
+    
+    The build instructions were updated previously, but the
+    dependencies were missed in the list above them. This updates
+    dependencies accordingly.
+
+commit ce3a8c2a1a488913aa09f9d7666c2c54670a3535
+Author: Robert Zimmerman <feldenthorne@users.sf.net>
+Date:   Mon Apr 6 15:22:30 2015 -0700
+
+    Updating documentation to reflect actual dependencies
+    
+    As noted in https://github.com/magi-project/magi/issues/7, the
+    build documentation was out of date. This is partly because it was
+    never included, but also because Debian 8 (Jessie) removes all
+    lingering libdb4.8 packages
+    (https://launchpad.net/debian/jessie/+source/db4.8/+changelog).
+
+commit 2b448aa4d07e250643a804dbaf304e93f66d7255
+Merge: 790db574e f1af2b0dc
+Author: Robert Zimmerman <feldenthorne@users.sf.net>
+Date:   Sun Mar 22 15:01:00 2015 -0700
+
+    Merge https://github.com/magi-project/magi into armv7l_official
+
+commit 790db574e4f2007c5360f52e1af039df4cb1fcab
+Author: Robert Zimmerman <feldenthorne@users.sf.net>
+Date:   Sun Mar 22 02:49:56 2015 -0700
+
+    Adding support for armv6l daemon builds
+    
+    With the addition of another xCPUARCH parameter check for armv6l,
+    we enable the daemon/headless wallet build in spirit. In truth,
+    it was already possible given that xCPUARCH is passed in as a
+    define, but it makes building less confusing for people that
+    don't know what they're doing.
+    
+    The relevant documentation has been updated for armv6l as well.
+
+commit 414c9826f102b700f5b2d82161c6851e989f2b77
+Author: Robert Zimmerman <feldenthorne@users.sf.net>
+Date:   Sun Mar 22 02:48:51 2015 -0700
+
+    Updating Qt build readme to include armv6l
+
+commit b9b46b40420c60d051ba4202a0f7d651876f41ee
+Author: Robert Zimmerman <feldenthorne@users.sf.net>
+Date:   Sun Mar 22 01:29:39 2015 -0700
+
+    Fixing Qt detection of CPU architecture, adding armv6l detection
+    
+    Previously, compilation worked for all architectures at the
+    expense of the use of SSE2 instructions. The offending line
+    (where $$QMAKE_HOST.arch is checked) always returned true. This
+    is because $$QMAKE_HOST.arch was not read properly before the
+    equals() check, making the check return false. It was then not-ed
+    and returned true. Thus support for ARM was achieved because of
+    two errors cancelling eachother out, but negatively impacting
+    non-ARM processor performance.
+    
+    This patch explicitly defines QMAKE_XCPUARCH = $$QMAKE_HOST.arch
+    before the equals check, removes the not on the equals() check,
+    and adds in a check for armv6l architecture CPUs as well.
+
+commit f1af2b0dc72f4f2251bd040744681cfe60c6a84c
+Merge: 86f6535a1 46f2e8da9
+Author: CoinMagi <coinmagicorp@gmail.com>
+Date:   Fri Mar 13 22:44:54 2015 -0400
+
+    Merge pull request #5 from feldenthorne/armv7l_official
+    
+    armv7l build support
+
+commit 46f2e8da968e8c2d4998d6d7116b549f1c681528
+Author: Robert Zimmerman <feldenthorne@users.sf.net>
+Date:   Mon Mar 9 23:54:41 2015 -0700
+
+    Fixed headless build documentation
+
+commit 35796f7030b2428d0b04a8730ab6de18b2333290
+Author: Robert Zimmerman <feldenthorne@users.sf.net>
+Date:   Mon Mar 9 21:58:09 2015 -0700
+
+    Removed thumb instruction mode for RPi2 compatibility
+
+commit ad8574708ff93d38a0649a4ab5a4829982762ef4
+Author: Robert Zimmerman <feldenthorne@users.sf.net>
+Date:   Sun Feb 22 15:03:28 2015 -0800
+
+    Merging armv7 documentation
+
+commit 6e730912df68ebd83cb489b57615baf9ea396bc6
+Author: Robert Zimmerman <feldenthorne@users.sf.net>
+Date:   Sun Feb 22 14:42:18 2015 -0800
+
+    Reverting to official Readme
+
+commit c83d6232bf6d81017d86d7bc63161361f9800f91
+Author: Robert Zimmerman <feldenthorne@users.sf.net>
+Date:   Sat Feb 21 04:08:58 2015 -0800
+
+    Merged makefile.arm and makefile.unix
+
+commit 41370cf0670e49ce0bb9d11d84fa9a5c828e4bde
+Author: Robert Zimmerman <feldenthorne@users.sf.net>
+Date:   Fri Feb 20 16:42:49 2015 -0800
+
+    Fixed spelling
+
+commit e4568275240d4129e7c4dec6579dd5598ba0628c
+Author: Robert Zimmerman <feldenthorne@users.sf.net>
+Date:   Fri Feb 20 14:21:38 2015 -0800
+
+    Updated documention for armv7l
+
+commit 883e03bfb34c0ecbf0f666ba6d62d54621022a9c
+Author: Robert Zimmerman <feldenthorne@users.sf.net>
+Date:   Fri Feb 20 14:20:12 2015 -0800
+
+    Added a makefile for headless armv7l builds
+
+commit 1317bc710eae0b0f12b4c842ef55c50a971f3aae
+Author: Robert Zimmerman <feldenthorne@users.sf.net>
+Date:   Fri Feb 20 14:19:07 2015 -0800
+
+    Updated the Qt makefile for armv7l builds
+
+commit 86f6535a139145e2ad7651543159f523beafb451
+Author: CoinMagi <coinmagicorp@gmail.com>
+Date:   Sun Feb 1 01:46:00 2015 -0500
+
+    Add requirement libgmp3
+
+commit ed4d9f3bac00edd71ff0514113b0255422d32040
+Author: Joe-Lao <joelao98@gmail.com>
+Date:   Tue Jan 20 23:21:25 2015 -0500
+
+    Update trans-info
+
+commit 8ea850a05a6f313c10958ce6f219ed20d449f1ad
+Author: Joe-Lao <joelao98@gmail.com>
+Date:   Tue Jan 20 23:10:50 2015 -0500
+
+    Update trans-info
+
+commit 9489d6d17e208db6af541fe6a4628750f8a490ff
+Author: Joe-Lao <joelao98@gmail.com>
+Date:   Tue Jan 20 23:05:52 2015 -0500
+
+    v1.2.1.2
+
+commit 95012c963f7c7533f084cf52e737bbd1ce6e466d
+Author: Joe-Lao <joelao98@gmail.com>
+Date:   Tue Jan 20 23:00:37 2015 -0500
+
+    Update trans-info
+
+commit 3e7b25ce06ab4d53eadab20d7a874224c0537c73
+Author: Joe-Lao <joelao98@gmail.com>
+Date:   Sat Jan 10 22:09:47 2015 -0500
+
+    Magi v1.2.1.1
+
+commit f6a9192b7bc26f907cbf5d179358e85f90caab04
+Author: Joe-Lao <joelao98@gmail.com>
+Date:   Thu Jan 8 22:37:54 2015 -0500
+
+    Magi v1.2.1.1
+
+commit 8f2c152eb95388a58398e513b4a985f5a6364ba9
+Author: Joe-Lao <joelao98@gmail.com>
+Date:   Thu Jan 8 22:32:33 2015 -0500
+
+    Magi v1.2.1.1
+
+commit 7288f5b401e289073ff5ff5bc0829b49bface6f3
+Author: Joe-Lao <joelao98@gmail.com>
+Date:   Thu Jan 8 22:00:57 2015 -0500
+
+    Magi v1.2.1.1
+
+commit 9132f9a47de29a5c1028ef8d1c56070050549db7
+Author: Joe-Lao <joelao98@gmail.com>
+Date:   Thu Jan 8 21:59:51 2015 -0500
+
+    Magi v1.2.1.1
+
+commit 2e9d989de9c46f8cb806dca3ab545caa89b3a483
+Author: Joe-Lao <joelao98@gmail.com>
+Date:   Thu Jan 8 21:50:49 2015 -0500
+
+    Magi v1.2.1.1
+
+commit 55b705e083660ed247b93b7e5043ff2aa54baab9
+Author: Joe-Lao <joelao98@gmail.com>
+Date:   Thu Jan 8 21:46:21 2015 -0500
+
+    Magi v1.2.1.1
+
+commit c2dada0161128f49b38159e4d868f495900db985
+Merge: ada15c390 f004814a3
+Author: Joe-Lao <joelao98@gmail.com>
+Date:   Wed Jan 7 23:21:16 2015 -0500
+
+    Merge branch 'master' of https://github.com/magi-project/magi
+
+commit ada15c390de6806dc8e1b302cb5cb406aad98eaf
+Author: Joe-Lao <joelao98@gmail.com>
+Date:   Wed Jan 7 23:20:22 2015 -0500
+
+    Fix for macosx compiling
+
+commit f004814a3cbef1f37f83504bdd8ccdbf38c93e3d
+Author: Joe-Lao <joelao98@gmail.com>
+Date:   Wed Jan 7 14:26:17 2015 -0500
+
+    Update getmininginfo
+
+commit 0f2e321efda21ec8bf61bc03a2d0d73628715ea0
+Author: Joe-Lao <joelao98@gmail.com>
+Date:   Wed Jan 7 14:16:02 2015 -0500
+
+    Update getmininginfo
+
+commit eb0cf44c1e157636f972228b87ebf1187c637476
+Author: Joe-Lao <joelao98@gmail.com>
+Date:   Wed Jan 7 14:12:03 2015 -0500
+
+    Update getmininginfo
+
+commit 55b893dac75a48a6c1857b87a8a97503a777f684
+Author: Joe-Lao <joelao98@gmail.com>
+Date:   Mon Jan 5 23:33:07 2015 -0500
+
+    Update API: getaddresses, listreceivedbyaddress
+
+commit f7969fbc86d9c7cab52a8eff54a6cbe6ee4766be
+Author: Joe-Lao <joelao98@gmail.com>
+Date:   Mon Jan 5 20:20:34 2015 -0500
+
+    Clean up
+
+commit a9e856bd66ca4e3ab8b3980464a88eb2caf6b302
+Author: Joe-Lao <joelao98@gmail.com>
+Date:   Mon Jan 5 20:19:26 2015 -0500
+
+    Fix API: sendalert
+
+commit 68ae135cf04631d391d4a42b6e0e75084093a47d
+Author: Joe-Lao <joelao98@gmail.com>
+Date:   Mon Jan 5 14:30:08 2015 -0500
+
+    Update keys
+
+commit 1878fddf911b671b664b3d467a70cbdc0c71d5b1
+Author: Joe-Lao <joelao98@gmail.com>
+Date:   Sun Jan 4 16:57:03 2015 -0500
+
+    Gui fix for Qt5 compiling
+
+commit 8fbe6f10bec7d39272d2b7682ed3c4ececcab2c6
+Author: Joe-Lao <joelao98@gmail.com>
+Date:   Thu Jan 1 22:25:54 2015 -0500
+
+    Fix API: getdifficulty
+
+commit 8012a29184113b8613a65e488e0e1e0b4d0bc7fa
+Author: Joe-Lao <joelao98@gmail.com>
+Date:   Wed Dec 31 23:57:32 2014 -0500
+
+    Update checkpoints
+
+commit 44e83e52e5686267cc4599331d3589e72da7b182
+Author: Joe-Lao <joelao98@gmail.com>
+Date:   Wed Dec 31 01:00:00 2014 -0500
+
+    Misc
+
+commit ff19f66722e6c5fb0e4bd510bda68eef6b5366a3
+Author: Joe-Lao <joelao98@gmail.com>
+Date:   Wed Dec 31 00:31:40 2014 -0500
+
+    Update getmininginfo
+
+commit bdc3f4ea2b8448a7e2dc561c8988dbb675f9e549
+Author: Joe-Lao <joelao98@gmail.com>
+Date:   Wed Dec 31 00:07:02 2014 -0500
+
+    Update version v1.2.0.1
+
+commit 8cbea70fcb85520a4d32d9a88a1fa8f4eee0f4a0
+Author: Joe-Lao <joelao98@gmail.com>
+Date:   Tue Dec 30 23:47:36 2014 -0500
+
+    PoW-II-V2 fork
+
+commit 16fdab6f264c0a5410ef2c46fbef3d6054ce2b93
+Author: Joe-Lao <joelao98@gmail.com>
+Date:   Tue Dec 30 23:43:44 2014 -0500
+
+    PoS-II-V2 fork
+
+commit 73774e067279dfe41bf81cf198a24506f8cf95a2
+Author: Joe-Lao <joelao98@gmail.com>
+Date:   Tue Dec 30 23:38:31 2014 -0500
+
+    Correct money supply
+
+commit 207b42cefa19bb9e75c318ef5c82dec4c47f5537
+Author: Joe-Lao <joelao98@gmail.com>
+Date:   Tue Dec 30 23:20:00 2014 -0500
+
+    Correct GUI coin maturity
+
+commit 31dd826e3fb5a324be9785715b1d532ace0c4999
+Author: Joe-Lao <joelao98@gmail.com>
+Date:   Tue Dec 30 23:06:53 2014 -0500
+
+    GUI PoS weight updating issue
+
+commit 97237a2ff1bb9ba3d9daf0efc0e75506e6964359
+Author: Joe-Lao <joelao98@gmail.com>
+Date:   Tue Dec 30 23:03:36 2014 -0500
+
+    Add coin info
+
+commit afcec4ff724579f113d2e874d91eb98191d77e07
+Author: Joe-Lao <joelao98@gmail.com>
+Date:   Tue Dec 30 22:57:37 2014 -0500
+
+    Correct money supply
+
+commit 1b91398e2f7d0cd8b99bf4843dabb0d5198e6f0e
+Author: Joe-Lao <joelao98@gmail.com>
+Date:   Sun Dec 28 19:29:28 2014 -0500
+
+    Testnet PosII-V2
+
+commit 9df1737ba4aa4de7bd2f641ba732e95d313307c2
+Author: Joe-Lao <joelao98@gmail.com>
+Date:   Sun Dec 28 18:33:45 2014 -0500
+
+    Testnet PosII-V2
+
+commit 1f775e54e385cac3019d214850884fecb926aabd
+Author: Joe-Lao <joelao98@gmail.com>
+Date:   Sun Dec 28 17:34:08 2014 -0500
+
+    PoSII-V2
+
+commit def9bac7383d424f8400f774b8ed6042b88fc866
+Author: Joe-Lao <joelao98@gmail.com>
+Date:   Sun Dec 28 17:19:57 2014 -0500
+
+    Update gui
+
+commit edec349b4491e88063ecb2725dc90224d18f3eba
+Author: Joe-Lao <joelao98@gmail.com>
+Date:   Sun Dec 28 17:11:57 2014 -0500
+
+    PoWII & PoSII V2 fork
+
+commit 25141f40a3e171f9e852f42407b706f4617b1a3a
+Author: Joe-Lao <joelao98@gmail.com>
+Date:   Sun Dec 28 01:37:35 2014 -0500
+
+    PoSII-V2
+
+commit bd43215604bc2ba091626a4715d3d8769aa46366
+Author: Joe-Lao <joelao98@gmail.com>
+Date:   Sat Dec 27 02:13:59 2014 -0500
+
+    Add API: mining calculator, stake weight & Update wallet PoS info
+
+commit ba8bb56ba705bcf9ef95a9e745a28e2592e84eb8
+Author: Joe-Lao <joelao98@gmail.com>
+Date:   Fri Dec 26 16:06:36 2014 -0500
+
+    Coinage checking
+
+commit 90d3c37643dea5850a7fabb63ff66338d9562d04
+Author: Joe-Lao <joelao98@gmail.com>
+Date:   Thu Dec 25 00:12:14 2014 -0500
+
+    Remove print info
+
+commit c73695b6e616eb86c5b142cb7792ea2bab258664
+Author: Joe-Lao <joelao98@gmail.com>
+Date:   Wed Dec 24 23:56:54 2014 -0500
+
+    Fix PoS
+
+commit 4c9195aef017d2fd28c187d4da5c80fae6ffcee6
+Author: Joe-Lao <joelao98@gmail.com>
+Date:   Wed Dec 24 22:52:48 2014 -0500
+
+    Fix diff
+
+commit 44f1819f30eb316ef79eb51324c931cdef1d4e36
+Author: Joe-Lao <joelao98@gmail.com>
+Date:   Wed Dec 24 22:31:01 2014 -0500
+
+    Fix diff
+
+commit 04d956367427a40174a52b0fee6e2e48ab12f811
+Author: Joe-Lao <joelao98@gmail.com>
+Date:   Wed Dec 24 22:21:23 2014 -0500
+
+    Fix diff
+
+commit b131c55301a9279c11b1449f69c730871b07b785
+Author: Joe-Lao <joelao98@gmail.com>
+Date:   Wed Dec 24 15:15:56 2014 -0500
+
+    Fix PoS
+
+commit 886f1c4833110df3e1a9651a211d71e9856ad927
+Author: Joe-Lao <joelao98@gmail.com>
+Date:   Wed Dec 24 01:18:17 2014 -0500
+
+    Update PoW stabilizing and block reward V2 in testnet
+
+commit 2b185a0ada00a61d0080ed23a6afc6e96fea449b
+Author: Joe-Lao <joelao98@gmail.com>
+Date:   Fri Dec 12 23:58:03 2014 -0500
+
+    Fix networkhashps
+
+commit abbe1403cac57031e2c3a6c1e66d937de5ddb3d7
+Author: Joe-Lao <joelao98@gmail.com>
+Date:   Tue Dec 9 22:36:59 2014 -0500
+
+    Update API
+
+commit 81e120f5f387919a93491cdbc7b739d1b8cf3f46
+Author: Joe-Lao <joelao98@gmail.com>
+Date:   Sun Nov 30 00:21:17 2014 -0500
+
+    Update nodes
+
+commit 9a8c9c07e2c59e6c95f499024f67f1d64b4b4fe2
+Author: Joe-Lao <joelao98@gmail.com>
+Date:   Sat Nov 29 22:55:21 2014 -0500
+
+    Update API
+
+commit 50091835181258f05854d3eb7686b1ae22474f70
+Author: Joe-Lao <joelao98@gmail.com>
+Date:   Fri Nov 28 01:10:51 2014 -0500
+
+    Update API
+
+commit 9a84f80dcc2e58042deffbdcbe2bc7e9cbcda7df
+Author: Joe-Lao <joelao98@gmail.com>
+Date:   Fri Nov 28 00:38:29 2014 -0500
+
+    Update API
+
+commit e0860b1691f28739c737bf5edd2ba3503b5a4259
+Author: Joe-Lao <joelao98@gmail.com>
+Date:   Thu Nov 27 23:58:26 2014 -0500
+
+    Update API
+
+commit 60ec5366d2fd689392b44eb0da62bd1becd79fd1
+Author: Joe-Lao <joelao98@gmail.com>
+Date:   Thu Nov 27 23:41:58 2014 -0500
+
+    Update API
+
+commit 4003fc53bfd36dce2ac561a289be8e4dea3d44d0
+Author: Joe-Lao <joelao98@gmail.com>
+Date:   Thu Nov 27 23:39:44 2014 -0500
+
+    Update API
+
+commit b68ee345d0ad3e1b9cce0d453e39bfd4a2ff7cb9
+Author: Joe-Lao <joelao98@gmail.com>
+Date:   Sat Nov 22 17:40:10 2014 -0500
+
+    Update nodes
+
+commit cb63f80ca0e2a09562d0423bd323974327f22b73
+Author: Joe-Lao <joelao98@gmail.com>
+Date:   Sat Nov 22 17:28:05 2014 -0500
+
+    Update nodes
+
+commit 96c38994ce7b82779e1671952cd56bba898a8106
+Author: Joe-Lao <joelao98@gmail.com>
+Date:   Tue Nov 4 12:14:54 2014 -0500
+
+    Add Coins Source Verification
+
+commit 213f5f2cc2b87f9c19780679054bb6acce4101ab
+Author: Joe-Lao <joelao98@gmail.com>
+Date:   Thu Oct 30 22:19:52 2014 -0400
+
+    Update background image
+
+commit 29b81518f10394c5a56fadee6a7e3837a16d0d07
+Author: Joe-Lao <joelao98@gmail.com>
+Date:   Wed Oct 29 10:41:00 2014 -0400
+
+    Update checkpoints
+
+commit 7d7cbfeac7685b9f9ad2f2e2c1ce95a5368e31b3
+Author: Joe-Lao <joelao98@gmail.com>
+Date:   Wed Oct 29 10:31:28 2014 -0400
+
+    Update checkpoints
+
+commit 0bf4aad6badb974fcaffd6cfd11ade23ca25b6ff
+Author: Joe-Lao <joelao98@gmail.com>
+Date:   Wed Oct 29 10:23:43 2014 -0400
+
+    Update nodes
+
+commit 479701994cf127ab15de1c6e6c51227b66e0e18e
+Author: Joe-Lao <joelao98@gmail.com>
+Date:   Wed Oct 29 10:16:27 2014 -0400
+
+    Update
+
+commit e1c6804331e11191cb631fe8114ca2eabb147dc4
+Author: Joe-Lao <joelao98@gmail.com>
+Date:   Wed Oct 29 10:07:29 2014 -0400
+
+    Update checkpoints
+
+commit 2c5d4e39374e00ff70a163ab447f7f64be42b41b
+Merge: 3dccca0b8 931f452db
+Author: Joe-Lao <joelao98@gmail.com>
+Date:   Sun Oct 26 01:32:48 2014 -0400
+
+    Merge branch 'master' of https://github.com/magi-project/magi
+
+commit 3dccca0b88cf5467e29f8fe4b5561356e37b3a5e
+Author: Joe-Lao <joelao98@gmail.com>
+Date:   Sun Oct 26 01:32:09 2014 -0400
+
+    Testnet diff switchover
+
+commit 931f452db7cdf44afd110d93c423c706ff65fb5f
+Author: jlbtc9 <jlbtc9@gmail.com>
+Date:   Sat Oct 25 22:39:36 2014 -0400
+
+    Testnet diff switchover
+
+commit 2c3ea0b7a9f11083e1999e78c640f6d2383de15b
+Author: jlbtc9 <jlbtc9@gmail.com>
+Date:   Sat Oct 25 18:01:27 2014 -0400
+
+    Testnet diff switchover
+
+commit e7a8f547954bd6137841d9d2a63bc7054fa0dfa0
+Author: Joe-Lao <joelao98@gmail.com>
+Date:   Thu Oct 23 23:16:58 2014 -0400
+
+    Update to v1.1.0.1
+
+commit 02e2015d08796c48d6d779e01e77487762cec079
+Author: Joe-Lao <joelao98@gmail.com>
+Date:   Thu Oct 23 23:16:34 2014 -0400
+
+    Update to v1.1.0.0
+
+commit 15e3dc002c8de42881f8ca03a2ca09a8e9558b67
+Author: Joe-Lao <joelao98@gmail.com>
+Date:   Thu Oct 23 22:57:31 2014 -0400
+
+    Mainnet M7M-v2, MQW hardfork
+
+commit 1017013bad4d08f67733296e182025e16b6416ba
+Author: Joe-Lao <joelao98@gmail.com>
+Date:   Thu Oct 23 00:37:40 2014 -0400
+
+    New difficulty adjustment MQW
+
+commit 9dfe693e73523c1981dab9c5d3b2478a4b754776
+Author: Joe-Lao <joelao98@gmail.com>
+Date:   Fri Oct 17 18:23:02 2014 -0400
+
+    Testnet M7M-v2 hardfork
+
+commit 3ad1e5b1855cc96ce3855cea70af13a539410a90
+Author: Joe-Lao <joelao98@gmail.com>
+Date:   Fri Oct 17 01:08:28 2014 -0400
+
+    Testnet M7M-v2 hardfork
+
+commit 304086c21fc6dcb181f1b78a309afbcd18e9a9c4
+Author: Joe-Lao <joelao98@gmail.com>
+Date:   Fri Oct 17 01:04:50 2014 -0400
+
+    Testnet M7M-v2 hardfork
+
+commit debc53885fce468cbbd456a87e2ed012234f03d7
+Author: Joe-Lao <joelao98@gmail.com>
+Date:   Sat Sep 20 22:27:22 2014 -0400
+
+    Testnet rpcport
+
+commit e5fc847097ee933e9ee42e627b074d41dd939780
+Author: Joe-Lao <joelao98@gmail.com>
+Date:   Sat Sep 20 21:38:29 2014 -0400
+
+    Adjust block reward
+
+commit e617034ae1bc145db71f085a2f8efb07d005c508
+Author: Joe-Lao <joelao98@gmail.com>
+Date:   Sat Sep 20 03:08:53 2014 -0400
+
+    Clean up
+
+commit 9fff8b90f033bf7da488f9cc8279b1142b17929a
+Author: Joe-Lao <joelao98@gmail.com>
+Date:   Sat Sep 20 02:58:46 2014 -0400
+
+    Update version
+
+commit 5c9eaef1f2356db773750feb1db32463aeb01dad
+Author: Joe-Lao <joelao98@gmail.com>
+Date:   Sat Sep 20 02:57:54 2014 -0400
+
+    Clean up
+
+commit e9c87ff4f9de5ddf44d4375b265d075c378fc6ed
+Author: Joe-Lao <joelao98@gmail.com>
+Date:   Sat Sep 20 02:54:15 2014 -0400
+
+    Adjust block reward
+
+commit e43c35f14305107fe948e2a9119bef04c946e680
+Author: Joe-Lao <joelao98@gmail.com>
+Date:   Mon Sep 15 17:06:04 2014 -0400
+
+    Initial commit

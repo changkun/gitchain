@@ -1,0 +1,21 @@
+commit 96fb3815dd50f7ea8eb8e6ce324ee8b83e96dd2e
+Author: FireFlyCoin <admin@fireflycoin.com>
+Date:   Thu Nov 21 17:13:34 2013 -0600
+
+    Second Release Version 0.9.1
+    
+    Fixed the taskbar logo.
+    Fixed the difficulty.
+    Hardcoded the DNS node.
+
+commit 8833ecd559adefdfb9af23bc77b20d67bc5bb69e
+Author: FireFlyCoin <admin@fireflycoin.com>
+Date:   Sat Oct 26 11:07:33 2013 -0500
+
+    Update README.md
+
+commit b4ea93318543e607e4f074c903c1d42bdcbcc266
+Author: FireFlyCoin <admin@fireflycoin.com>
+Date:   Sat Oct 26 01:07:51 2013 -0500
+
+    First Release Version 0.9.0

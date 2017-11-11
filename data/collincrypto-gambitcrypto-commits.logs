@@ -1,0 +1,87 @@
+commit 9c816f7579d5c9d296dc17d608bde04d7725fa0c
+Author: oxidian <tha_foxy_one@yahoo.com>
+Date:   Thu Jul 16 20:05:09 2015 -0700
+
+    Increase Version to 1.1
+
+commit db744056ade7f8484e9c992bcd5903a7a0af294b
+Author: oxidian <tha_foxy_one@yahoo.com>
+Date:   Thu Jul 16 20:04:55 2015 -0700
+
+    Make Mineable until block 75000
+    
+    Allow small amount of POW in case a chain push becomes necessary.
+
+commit 381539007308f813fa516389c48deb17bb92d001
+Author: oxidian <tha_foxy_one@yahoo.com>
+Date:   Thu Jul 16 20:03:14 2015 -0700
+
+    Reduce Maturity to 120 Blocks (2 hours)
+
+commit de866f58ce7780f703035409be241bc8ffd0a9a4
+Author: Julian Yap <jyap808@users.noreply.github.com>
+Date:   Wed Jul 15 18:52:17 2015 -1000
+
+    Update gambit-qt.pro
+
+commit d97ab31b515ddb183c30ee90cc2e5178ee1d82a0
+Author: Julian Yap <jyap808@users.noreply.github.com>
+Date:   Wed Jul 15 11:22:12 2015 -1000
+
+    Update gambit-qt.pro
+
+commit 4da565e0a8831dfa461f81f2f76ace8f4fade060
+Author: Julian Yap <jyap808@users.noreply.github.com>
+Date:   Wed Jul 15 11:09:17 2015 -1000
+
+    Uncomment building of leveldb
+
+commit 3fc4c3d59059d8b3b3e8500e99cec4e5a42dc430
+Author: Julian Yap <julianokyap@gmail.com>
+Date:   Wed Jul 15 10:08:04 2015 -1000
+
+    Fix file permission
+
+commit 922787c1e1311638ccfec31539d16cc7eacd6c3d
+Author: Julian Yap <jyap808@users.noreply.github.com>
+Date:   Wed Jul 15 09:04:56 2015 -1000
+
+    Reduce nStakeCombineThreshold to 50 to account for burned coins
+
+commit 4a420f9bc66c03d9323f6352a4aae198175e8ee5
+Author: collinlahay <raithe@gmail.com>
+Date:   Tue May 19 22:27:13 2015 -0500
+
+    Update wallet.cpp
+
+commit 289ae5a3f516b011e03d086762188af25725a141
+Author: collinlahay <raithe@gmail.com>
+Date:   Tue May 19 19:27:13 2015 -0500
+
+    Update wallet.cpp
+
+commit acbb55778d28e26765ce58483f26c31e6adc66b7
+Author: collinlahay <raithe@gmail.com>
+Date:   Tue May 19 19:26:55 2015 -0500
+
+    Update wallet.cpp
+
+commit 94f6823e8f7fd31ac77e6d14adb21105bc3d2633
+Author: collinlahay <raithe@gmail.com>
+Date:   Tue May 19 19:24:47 2015 -0500
+
+    Update main.h
+    
+    added 5000 more empty PoW blocks
+
+commit 989911fa98050fad2d57a2758699ed2438d78a4d
+Author: collinlahay <raithe@gmail.com>
+Date:   Mon Apr 13 19:15:15 2015 -0500
+
+    Gambit
+
+commit 0e8b766475fc29cdc8c402b3cb3f6ae24af1150a
+Author: collinlahay <raithe@gmail.com>
+Date:   Mon Apr 13 19:12:58 2015 -0500
+
+    :space_invader: Added .gitattributes & .gitignore files

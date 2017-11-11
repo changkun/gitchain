@@ -1,0 +1,40 @@
+commit 3a2f3759d4d4d74acb375a6ed4d9f238d2ab8e1c
+Author: gameleague <gameleaguedev@gmail.com>
+Date:   Thu Jul 17 00:28:53 2014 +0800
+
+    Version 1.1.3.0
+    1.update to the latest SSL version
+    2.fix a bug which make catch up slowly
+
+commit 7cbe626742af46308d9faad7f37aed4f66ff304d
+Author: gameleague <gameleaguedev@gmail.com>
+Date:   Tue Jul 15 18:52:35 2014 +0800
+
+    delete checkpoint 79215
+
+commit 52f93526e078854d6ed825578ce9c3124b848c01
+Author: gameleague <gameleaguedev@gmail.com>
+Date:   Mon Jul 14 21:54:16 2014 +0800
+
+    version 1.1.2.0
+    1.add checkpoint 79215
+    2.add nodes
+
+commit 8dd64feb1f8e621a07dac782ca868254c084ecff
+Author: gameleague <gameleaguedev@gmail.com>
+Date:   Sun Jul 13 02:12:10 2014 +0800
+
+    1.change abbreviation from GLC to GML
+    2.add checkpoint for checking our block chain info.
+
+commit 3dd3713edb3e1af385ff88597c6a9d1b4a4ed5db
+Author: gameleague <gameleaguedev@gmail.com>
+Date:   Mon May 5 02:37:41 2014 +0800
+
+    first commit
+
+commit 218302f21a7213bfa4b0f51430e38e9c3340be81
+Author: gameleague <gameleaguedev@gmail.com>
+Date:   Mon May 5 02:14:32 2014 +0800
+
+    first commit

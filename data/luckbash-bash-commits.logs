@@ -1,0 +1,91 @@
+commit 24e9b84def26a872caf549796a72aa0e47bf8ba9
+Author: LuckBash <bitneter@gmail.com>
+Date:   Mon Aug 14 07:43:15 2017 +0800
+
+    Version 2.0.1.7 07.23
+
+commit 975f7af12307b58f1bf0035ee9d7af2ebfde1d2c
+Author: LuckBash <bitneter@gmail.com>
+Date:   Sat Jul 8 07:11:15 2017 +0800
+
+    Version 2.0.1.7 07.06
+    
+    Fixed QPoS bugs
+
+commit 52ecfc824f2de25aa88d98c73666f9b0319a4d41
+Author: LuckBash <bitneter@gmail.com>
+Date:   Sun Jun 25 22:24:00 2017 +0800
+
+    Version 2.0.1.7 06.24 with QPoS original algorithm
+
+commit 9a7a3d4f8d5dcfc2a9ba28afcfb3f4768d49b4d1
+Author: LuckBash <bitneter@gmail.com>
+Date:   Wed May 17 18:46:59 2017 +0800
+
+    Version 2.0.1.7 05.16
+
+commit bffa1ffac32a206c84de5e3ec8811eadc442d259
+Author: LuckBash <bitneter@gmail.com>
+Date:   Thu May 4 00:59:02 2017 +0800
+
+    Version 2.0.1.7 05.03
+
+commit 3d1081bc42c60832c94568fc1c12a829a5c93fb9
+Author: LuckBash <bitneter@gmail.com>
+Date:   Tue Mar 21 16:35:12 2017 +0800
+
+    Version 2.0.1.7 03.21
+
+commit c049ccd8c489cbca79e3789c52c3990ebfe6e2ef
+Author: LuckBash <bitneter@gmail.com>
+Date:   Tue Mar 21 15:42:16 2017 +0800
+
+    Version 2.0.1.7 03.21
+
+commit 9fa2a9224b54fbd69fdf0963d272dac169426efa
+Author: LuckBash <bitneter@gmail.com>
+Date:   Tue Dec 20 16:55:12 2016 +0800
+
+    Version 2.0.1.6 12.20
+
+commit 4ed13c33b37fa3b9db9febb2dc87e466462b4a57
+Author: LuckBash <bitneter@gmail.com>
+Date:   Sun Dec 18 15:00:11 2016 +0800
+
+    Add other burned address
+
+commit 420b32cd89498942619111b5cd62550c62a2779c
+Author: LuckBash <bitneter@gmail.com>
+Date:   Tue Dec 13 14:25:08 2016 +0800
+
+    Version 2.0.1.6 12.12
+
+commit cc436cab0ce818ae306b0012676a3857a1ae456d
+Author: LuckBash <bitneter@gmail.com>
+Date:   Tue Dec 6 14:05:51 2016 +0800
+
+    Solve blockchain sync problem caused by mininum tx fee changed
+
+commit 39491b38a1550b9790d7073dc6e6120bc8754d75
+Author: LuckBash <bitneter@gmail.com>
+Date:   Sat Dec 3 20:05:42 2016 +0800
+
+    Version 2.0.1.6 12.02
+
+commit 7a1e9bc4760433d457d441a4315c638e43059747
+Author: LuckBash <bitneter@gmail.com>
+Date:   Sun Nov 20 19:14:41 2016 +0800
+
+    LuckChain version 2.0.1.6 11.20
+
+commit 15d0c875470b04a33f2ecc47a9d7ba7fa4bef4a9
+Author: LuckBash <bitneter@gmail.com>
+Date:   Thu Nov 10 23:36:30 2016 +0800
+
+    Fix add game record bugs
+
+commit 020329abd6fe45ebce9f6a63bd33778ecb5fe576
+Author: LuckBash <bitneter@gmail.com>
+Date:   Fri Oct 28 22:36:00 2016 +0800
+
+    First public, ver 2.0.1.6

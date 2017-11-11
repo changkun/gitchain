@@ -1,0 +1,583 @@
+commit aaf9716d568ea01fd9474d109cf83f3ae1eb3a42
+Author: madross <jamieovls11@gmail.com>
+Date:   Wed Nov 8 02:24:37 2017 +0000
+
+    wasn't meant to be here
+
+commit bd8b4ab5e6ed41fecffd79fff3e2762275a10277
+Author: madross <jamieovls11@gmail.com>
+Date:   Sat Nov 4 12:52:05 2017 +0000
+
+    bump version v.1.5.1.0
+
+commit 08df70b386d18b34edb760c277b535cccbbab190
+Author: madross <jamieovls11@gmail.com>
+Date:   Sat Nov 4 12:50:59 2017 +0000
+
+    bump version to v.1.5.1.0
+
+commit b43590e636127f2483025b2e448ee75cca11309b
+Author: madross <jamieovls11@gmail.com>
+Date:   Sat Nov 4 12:50:12 2017 +0000
+
+    Update clientversion.h
+
+commit 3d4ad8c1210afcb54563d87cbaa429a145a2a591
+Author: madross <jamieovls11@gmail.com>
+Date:   Fri Nov 3 16:21:08 2017 +0000
+
+    update client to produce its own .conf upon start
+
+commit ee9ad5867b26ef907c887bd86439a044ef8c2769
+Author: madross <jamieovls11@gmail.com>
+Date:   Fri Nov 3 16:19:25 2017 +0000
+
+    update node ip fixing no connection issue
+
+commit 37a2121fa7f930dfdc228f8e8eb99abc7d50661c
+Merge: 8e9ce6e 8744231
+Author: madross <jamieovls11@gmail.com>
+Date:   Mon Sep 11 15:02:38 2017 +0100
+
+    Merge pull request #5 from presstab/master
+    
+    Fix null value being fed into GetProofOfWorkReward() in PoW Miner code.
+
+commit 87442319ac6ab498f2186392565884215e7b83ef
+Author: presstab <presstab1337@gmail.com>
+Date:   Mon Sep 11 07:52:47 2017 -0600
+
+    Fix null value being fed into GetProofOfWorkReward() in PoW Miner code.
+
+commit 8e9ce6e15324930f648342e130be1b7760a4686a
+Merge: 7a3f708 4176db6
+Author: madross <jamieovls11@gmail.com>
+Date:   Tue Aug 22 14:43:01 2017 +0100
+
+    Merge pull request #4 from MystPhysX/master
+    
+    Fixed compilation errors
+
+commit 4176db645eb718c2482991688ac022c1407a706f
+Author: MystPhysX <mystphysx@gmail.com>
+Date:   Tue Aug 22 18:58:56 2017 +0530
+
+    Fixed compilation errors
+    
+    C isn't really aware of C++ structures so this changes is needed in order for the program to compile.
+
+commit 7a3f708466436868d6da527853a177d72a661fd5
+Author: madross <jamieovls11@gmail.com>
+Date:   Mon Aug 21 17:03:39 2017 +0100
+
+    Update README.md
+
+commit 832526c5b9446e00a6f429ef6ac791c3589d906d
+Merge: a187cc1 6f79b9f
+Author: madross <jamieovls11@gmail.com>
+Date:   Mon Aug 21 16:51:23 2017 +0100
+
+    Merge pull request #3 from presstab/master
+    
+    IncaKoin 2017 Protocol Update
+
+commit 6f79b9fe4a2f68df9dbc2593b24ed788cfc43117
+Author: presstab <presstab1337@gmail.com>
+Date:   Mon Aug 21 07:55:33 2017 -0600
+
+    Bump version to 1.5.0.0
+
+commit f1e0af74332f2f34a3ba7042ece326cb5a8e17ae
+Author: presstab <presstab1337@gmail.com>
+Date:   Mon Aug 21 07:46:01 2017 -0600
+
+    IncaKoin 2017 Protocol Update
+    
+    Protocol Activation Time: 1505075400 UTC time - (GMT): Sunday, September 10, 2017 8:30:00 PM
+    Change Log:
+    - New checkpoint server public key
+    - checkpoints.cpp now expects WIF for checkpoint private key
+    - Internal wallet stake weight calculation is increased by 100 times. This will make stakes have a much higher chance of staking, and allow the PoS difficulty to not be pegged to the lower b$
+    - Block maturity is changed to 1000 blocks
+    - Maximum reorganization depth is 50 blocks. Blocks deeper than 50 will not be seen as a valid entry point for reorganizing the blockchain.
+    - Chain trust score calculation for PoW blocks will no longer be a score of 1. They will instead be a similar calculation to PoS trust score, but with decreasing score for each PoW block tha$
+    - PoW block reward is changed to 100 coins.
+
+commit a187cc117b28d05a6c88faf1f68f64c614d38817
+Author: madross <jamieovls11@gmail.com>
+Date:   Tue Jul 25 15:28:18 2017 +0100
+
+    Update checkpoints.cpp
+
+commit b9f1dbf2e84804c5d18f7d9769ca588c3cd74c0a
+Author: madross <jamieovls11@gmail.com>
+Date:   Sat Jul 22 18:12:20 2017 +0100
+
+    checkpoints updated to 1900000
+    
+    updated checkpoints to 1900000
+
+commit f2d165ecb6e02ae7889f6afbca6315a9597986b9
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Sun Aug 21 00:30:40 2016 -0700
+
+    Version 1.4.1.0 Release
+
+commit 3b076dd51617ec9afa7b875ffc1f678f4e3e976a
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Sun Aug 21 00:24:17 2016 -0700
+
+    [Qt] Add a timer to update the staking icon and weights
+    
+    To ensure the staking icon is updated in a timely manner, add a
+    timer to the process that will update it as needed.
+    
+    Previous behavior seemed inconsistant, where the icon's state
+    wasn't being updated after changes to the wallet's locking status
+    or when the wallet ran out of mature inputs to stake with.
+
+commit 5685f03beb0cb09b854389b9fb96636af9b39ffb
+Merge: 63b960a 126bb36
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Sat Aug 20 23:48:30 2016 -0700
+
+    Merge #2: Remove unnecessary or improperly formatted whitespace
+    
+    126bb36 Remove unnecessary or improperly formatted whitespace (Fuzzbawls)
+
+commit 63b960abf9264c09da9fa204bbad028dc334946a
+Merge: e50abfd d644c98
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Sat Aug 20 17:54:00 2016 -0700
+
+    Merge #1: Fix staking minimum age requirements
+    
+    d644c98 Update .gitignore file (Fuzzbawls)
+    1d8bd90 Show warning when running a non-release version (Fuzzbawls)
+    01f5dca Update build files (makefiles/pro) (Fuzzbawls)
+    f15302c Ensure the empty obj path is included (Fuzzbawls)
+    be83dad Update Win/Mac deployment        scripts (Fuzzbawls)
+    e4a6ca4 Update genbuild.sh and version macros (Fuzzbawls)
+    f6a3d9d Fix more instances of "INCA" being used instead of "NKA" (Fuzzbawls)
+    5c03f53 Remove ignored defaultcodec tag from translation sources (Fuzzbawls)
+    5adb0ec Remove generated Qt translation binary files (Fuzzbawls)
+    2664533 Correct port numbers listed in help (Fuzzbawls)
+    3fd45e1 Remove arbitrary constants for ports (Fuzzbawls)
+    78c6b4a Correct the unit name back to "NKA" (Fuzzbawls)
+    11f4784 Use correct fork time for client version disconnects (Fuzzbawls)
+    25fca70 Fix staking minimum age detection (Fuzzbawls)
+
+commit 126bb3621443500c76747e5e1b5bb83f4aa9fbd6
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Sat Aug 20 17:52:25 2016 -0700
+
+    Remove unnecessary or improperly formatted whitespace
+    
+    Code conventions call for 4 spaces instead of tabs in all
+    header/source files. This is a massive cleanup to enforce
+    those conventions throughout the entire source tree.
+
+commit d644c9826018036685214c016da14fa824e0de32
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Fri Aug 19 17:32:08 2016 -0700
+
+    Update .gitignore file
+    
+    Trying to maintain a comprehensive list of ALL the various toolchain and
+    IDE specific files is a bit much. Dropping down to the basics here to keep
+    things simple.
+
+commit 1d8bd90c23b40decee55787180e11931d4b20497
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Fri Aug 19 17:25:10 2016 -0700
+
+    Show warning when running a non-release version
+    
+    - Add macro `CLIENT_VERSION_IS_RELEASE` to clientversion.h
+    - When running a non-release (the above macro is `false`):
+      - In UI, show an orange warning bar at the top. This will be used for other
+        warnings (and alerts) as well, instead of the status bar.
+      - For `IncaKoind`, show the warning in the "errors" field in `getinfo`
+        response.
+
+commit 01f5dcaccacca2f39e3ba34f71399cfc7e6b075e
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Fri Aug 19 14:51:18 2016 -0700
+
+    Update build files (makefiles/pro)
+    
+    Contains updates/changes to support newer library versions and
+    some more up-to-date compiler conventions.
+    
+    Does NOT contain any version bump
+
+commit f15302c94729a2a65bac7a77f55aaa34e358705c
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Wed Aug 17 00:26:13 2016 -0700
+
+    Ensure the empty obj path is included
+    
+    The obj path is empty before a build, but should be included in
+    the source tree to avoid needing manual creation.
+
+commit be83dad3fa011c81fd0cee4efa481476504fa026
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Wed Aug 17 00:24:50 2016 -0700
+
+    Update Win/Mac deployment        scripts
+    
+    File permissions for the Mac deployment script needed fixing.
+    Windows deployment script needed some minor adjustments
+    in the description and the URL handler.
+
+commit e4a6ca4793b5d5547118641cab91a8581c3ba1eb
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Wed Aug 17 00:20:54 2016 -0700
+
+    Update genbuild.sh and version macros
+    
+    Allows for a MUCH smarter and more accurate versioning format.
+    Includes the "dirty" suffix macro that indicates files have been modified
+    after fetching from git.
+
+commit f6a3d9dee3379d814504192cf8597bcd27a9e38f
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Tue Aug 16 21:05:22 2016 -0700
+
+    Fix more instances of "INCA" being used instead of "NKA"
+    
+    See 78c6b4a505ddec9bc6c5eae0212a3ab3c023c1b1 for details
+
+commit 5c03f531741b63b22e6ff9cf79e4c22a73da72ea
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Tue Aug 16 20:52:41 2016 -0700
+
+    Remove ignored defaultcodec tag from translation sources
+    
+    The <defaultcodec> tag is depreciated and ignored by qmake now,
+    resulting in a warning message being generated for each instance.
+    Suppress these warnings by removing the unnecessary tag entirely.
+
+commit 5adb0ec6cddad69fd75988e632ee3f3be9c364b5
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Tue Aug 16 20:50:06 2016 -0700
+
+    Remove generated Qt translation binary files
+    
+    These files are generated at build time by qmake and should not
+    be included in the source tree.
+
+commit 26645335d9ee30138181183fb4238e0796b31a5a
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Tue Aug 16 16:43:10 2016 -0700
+
+    Correct port numbers listed in help
+    
+    Update the displayed help text to reflect the correct port numbers
+    that IncaKoin uses.
+
+commit 3fd45e19631639f0da2003e06a9c247b24ce78a6
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Tue Aug 16 16:41:48 2016 -0700
+
+    Remove arbitrary constants for ports
+    
+    Defining constants for the various ports is unnecessary as the logic
+    checks are very straight forward and it breaks continuity with BTC's
+    codebase.
+
+commit 78c6b4a505ddec9bc6c5eae0212a3ab3c023c1b1
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Tue Aug 16 16:39:03 2016 -0700
+
+    Correct the unit name back to "NKA"
+    
+    "INCA" is not the unit name for IncaKoin that any service or exchange uses.
+    If this is a change that is to be pushed through in the future, then more dedication
+    and follow through needs to happen with 3rd party services.
+
+commit 11f47845635731ea6815429d68082608fd1d01ef
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Tue Aug 16 16:35:59 2016 -0700
+
+    Use correct fork time for client version disconnects
+    
+    nForkTime was used for the initial hard fork, but we need to check against
+    nStakeFixForkTime to reach client version compatibility with the second hard fork.
+
+commit 25fca7085a7bac25bab1f89258632d97b6768827
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Tue Aug 16 16:25:30 2016 -0700
+
+    Fix staking minimum age detection
+    
+    nBlockTime is not a reliable source for determining when a generated block was created, as it is often '0'.
+    This fix adds extra logic to guard against this by using GetAdjustedTime() as a fallback option.
+    
+    Additional debugging output has also been written that can be enabled with the `-debug` or `debug=1`
+    runtime options.
+
+commit e50abfd3b0d08d8ed404fd01c1f7237a1617d5c3
+Author: madross <jamieovls11@gmail.com>
+Date:   Thu Jul 7 01:47:04 2016 +0100
+
+    Update main.cpp
+
+commit a5126ad50d3035054a68f0ae46bf4ac7d751b762
+Author: madross <jamieovls11@gmail.com>
+Date:   Thu Jul 7 01:45:23 2016 +0100
+
+    Update version.h
+
+commit 93f857aa16446566b2112b273fc2f0c13a44fede
+Author: madross <jamieovls11@gmail.com>
+Date:   Mon Jun 27 20:32:28 2016 +0100
+
+    Update checkpoints.cpp
+
+commit d5ef1f40f84867486df68d0c408a889395835d1a
+Author: madross <jamieovls11@gmail.com>
+Date:   Mon Jun 27 20:28:41 2016 +0100
+
+    Update checkpoints.cpp
+
+commit 03b56bebbef86771d6914ae2b67ec043399b816a
+Author: madross <jamieovls11@gmail.com>
+Date:   Mon Jun 27 20:23:19 2016 +0100
+
+    Update checkpoints.cpp
+
+commit 2bc1533d79e6b89d6edb951e8fb5c7dc7ff9b0e7
+Author: madross <jamieovls11@gmail.com>
+Date:   Mon Jun 27 20:00:27 2016 +0100
+
+    Delete main.cpp
+
+commit 3e72de447268dc9a6221dd5e73ca390357e9c11f
+Author: madross <jamieovls11@gmail.com>
+Date:   Mon Jun 27 20:00:10 2016 +0100
+
+    Delete clientversion.h
+
+commit 6dfb763356ba1406b0ec58769af5ec308b65fc44
+Author: madross <jamieovls11@gmail.com>
+Date:   Mon Jun 27 19:59:57 2016 +0100
+
+    Delete version.cpp
+
+commit 71ec060040b99289a2c586d570dc4914057cd1f4
+Author: madross <jamieovls11@gmail.com>
+Date:   Mon Jun 27 19:59:42 2016 +0100
+
+    Delete version.h
+
+commit 53d27559f33d965714e5966a98ceddc1daff4fb2
+Author: madross <jamieovls11@gmail.com>
+Date:   Mon Jun 27 19:59:15 2016 +0100
+
+    pos calculation correction
+
+commit e7212293aa4c267d14a9220029a2f5386bad37a3
+Author: madross <jamieovls11@gmail.com>
+Date:   Mon Jun 27 19:45:14 2016 +0100
+
+    pos calculation correction
+
+commit 620f699e67f82b28f1b06dee727bb043c266d32c
+Author: elbandi <bandispam@gmail.com>
+Date:   Wed May 4 01:53:20 2016 +0200
+
+    Allow disable stake thread
+
+commit e174425c255d79ed81827436f064781a7edd3cf3
+Author: elbandi <bandispam@gmail.com>
+Date:   Wed May 4 01:48:08 2016 +0200
+
+    Display stake info at status icon
+
+commit f9bbd32984e47b19b4f9a6bd2fe2357a51480864
+Author: elbandi <bandispam@gmail.com>
+Date:   Wed May 4 01:43:26 2016 +0200
+
+    Add lock/unlock menuitem and toolbar item
+
+commit d8e58ba0dace197fb44b2dfcede3ba4298f595ba
+Author: elbandi <bandispam@gmail.com>
+Date:   Wed May 4 01:40:37 2016 +0200
+
+    Add unlock for staking feature to askpassphrase dialog
+
+commit 04a1e72d7c537ec2e1c9f54caa6c9b62af86295a
+Author: elbandi <bandispam@gmail.com>
+Date:   Tue May 3 00:29:07 2016 +0000
+
+    Fix typos in pro file
+
+commit 7ce50d3b7c85f04fba9aab0cc24131435c2f9aed
+Author: madross <jamieovls11@gmail.com>
+Date:   Tue Feb 2 15:46:44 2016 +0000
+
+    Update README.md
+
+commit 0f95d99a3d13fb106f42c08412f18523db21fc40
+Merge: 783f950 7165657
+Author: madross <jamieovls11@gmail.com>
+Date:   Mon Feb 1 23:34:45 2016 +0000
+
+    Merge pull request #1 from Fuzzbawls/master
+    
+    Further hard fork and security/bug fixes
+
+commit 716565735ec4f787301080cc09f465028b3c0914
+Merge: ab8f26b 6cf8bc6
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Mon Feb 1 15:32:32 2016 -0800
+
+    Merge pull request #2 from Fuzzbawls/no-irc
+    
+    Merge branch no-irc
+
+commit 6cf8bc6aab218a3b2add00ab7ba7b68e21394e53
+Merge: 2cdefa2 ab8f26b
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Mon Feb 1 00:29:06 2016 -0800
+
+    Merge pull request #1 from Fuzzbawls/master
+    
+    Apply Mac OSX fixes to no-irc branch
+
+commit ab8f26b85cf3cfe409f418f1c6de626e29bbf278
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Mon Feb 1 00:26:35 2016 -0800
+
+    Fix MacOSX dock icon menu
+
+commit 7cf0b0026a533d098e91cceccca675705bd997a4
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Mon Feb 1 00:26:00 2016 -0800
+
+    Mac OS X 10.8 native notification center support.
+
+commit 0d714a5b5af05459a9fbc4f229966c34bd3df1b6
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Mon Feb 1 00:24:29 2016 -0800
+
+    Makefile/.pro Mac updates
+
+commit 2cdefa2ccdca3e4b292c621fafabc15b64fa8937
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Sun Jan 31 22:07:58 2016 -0800
+
+    Add more static nodes.
+    
+    Enable searching for peers via DNS by default.
+    Also setup a placeholder DNS Seeder (currently inactive).
+
+commit 5e6d1ac1df90a8adcb67e651883d43d5fc9c8d97
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Sun Jan 31 21:47:10 2016 -0800
+
+    Removed old IRC code.
+    
+    Using IRC to fetch peers is antiquated at best, and a security risk.
+    Use proper seednodes or, better still, DNS Seeders for peer discovery.
+
+commit 68e364052367460123e5dc76bd74cec78ef008d3
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Sun Jan 31 21:29:44 2016 -0800
+
+    Bump version in .pro file
+
+commit ee128af4206bb43d1e9154bfba69b22903051bc7
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Sun Jan 31 21:22:55 2016 -0800
+
+    Disconnect old clients after Hardfork time.
+    
+    Old clients are no longer allowed to connect to the main network after 5/5/2016 and will be disconnected.
+    This reduces the overhead on valid nodes by eliminating the need for verification of data that will ultimately prove to be invalid.
+
+commit d380ad800eafef9cb97f5e117b4a6a3f1d1898d5
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Sun Jan 31 21:19:55 2016 -0800
+
+    Upstream patches for OpenSSL and signature verification.
+    
+    PPC Commit(s):
+    8759f9cec2d5ed26c5ef074fa20ca9db63c091e7
+    9b40cd5b12b518a3a40d39016f30955a20ea0bf5
+    a97d1577057ae6623505560e836ca03f7ca5d3aa
+
+commit 377a7b347120b2c174e0fa49368b7741d7ce3b03
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Sun Jan 31 21:19:08 2016 -0800
+
+    Fix getbalance returning incorrect values for accounts
+
+commit 065aa15bd50ab665f7f0b52709939ccccee1ccbe
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Sun Jan 31 21:18:16 2016 -0800
+
+    Use standard difficulty results in RPC output
+
+commit 0258a14333a9d62f956592154049e952a88f0dff
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Sun Jan 31 21:15:28 2016 -0800
+
+    Miniupnpc 1.9 (API version 14) compatibility
+
+commit 783f950ec2a1b6fc9464a891649948cb70e27a06
+Author: madross <jamieovls11@gmail.com>
+Date:   Sun Jan 31 23:42:14 2016 +0000
+
+    Update version.h
+
+commit 770872aec3a0100fa2966710f13aefc1518c61bb
+Author: madross <jamieovls11@gmail.com>
+Date:   Sun Jan 31 23:40:45 2016 +0000
+
+    Update aboutdialog.ui
+
+commit 85635cf33a081dab907d75e7410ae9f817fa5db6
+Author: madross <jamieovls11@gmail.com>
+Date:   Sun Jan 31 17:43:39 2016 +0000
+
+    Update README.md
+    
+    pos information updates
+
+commit 8dce7fc92056c8d28bf3909e0492fbc079bab26d
+Author: madross <jamieovls11@gmail.com>
+Date:   Sun Jan 31 17:26:06 2016 +0000
+
+    POS changes Applied
+
+commit 5ba57a7d0e884e57227beb78909428f03b4938a2
+Author: madross <jamieovls11@gmail.com>
+Date:   Thu Jan 21 14:08:55 2016 +0000
+
+    Corrected error a member noticed
+
+commit e2849abd1ff127ff8f45f8b21abbb4cf8536ab03
+Author: madross <jamieovls11@gmail.com>
+Date:   Thu Jan 21 14:06:42 2016 +0000
+
+    updated website link
+
+commit afe2bf48022c8b08ef5bcdcd42643a9db42ee68a
+Author: madross <jamieovls11@gmail.com>
+Date:   Mon Sep 7 22:53:33 2015 +0100
+
+    updated checkpoints
+
+commit e0a6e376689693e1002f87a4a9253634f2b3224f
+Author: madross <jamieovls11@gmail.com>
+Date:   Mon Sep 7 22:47:52 2015 +0100
+
+    Update checkpoints.cpp
+
+commit 59e79df91311e4dfc4a2ed4ee2c6284664ec6489
+Author: madross <jamieovls11@gmail.com>
+Date:   Mon Sep 7 16:21:18 2015 +0100
+
+    First commit

@@ -1,0 +1,59 @@
+commit 49d0a06ee5999766a209d62ae58fc0707167cb12
+Author: coin2016 <you@example.com>
+Date:   Mon Feb 22 02:42:56 2016 +0100
+
+    remove copyright from splashscreen
+
+commit b88ad58875b090db2d000f3d9f3d049ceee0a91c
+Author: coin2016 <you@example.com>
+Date:   Mon Feb 22 02:01:41 2016 +0100
+
+    update graphics
+
+commit 6ecf6154b3d5eb023187a841ba274f4e6d8add94
+Author: Your Name <you@example.com>
+Date:   Sat Feb 13 19:34:55 2016 +0100
+
+    Clean leveldb folder
+
+commit d7d0e7f5481521a1bc6bf156f9a74c45e8a92ff6
+Author: Your Name <you@example.com>
+Date:   Sat Feb 13 19:34:27 2016 +0100
+
+    remove MMXVId
+
+commit 6303d34029e8dbf23d67ca888986bd5023f305dc
+Author: Your Name <you@example.com>
+Date:   Thu Feb 11 20:55:50 2016 +0100
+
+    Decrease rewards to 1 MMXVI starting with block 120 000
+
+commit d8278ac5a61a89c3bf045b7883b4b9a86e876304
+Author: Your Name <you@example.com>
+Date:   Tue Jan 19 14:35:13 2016 +0100
+
+    track money supply
+
+commit 26ab7ff29468140d514d44492b7027d14c2f92cd
+Author: Your Name <you@example.com>
+Date:   Tue Jan 19 14:33:13 2016 +0100
+
+    Right bitshift above 64 is undefined. Lower rewards.
+
+commit 0f214c57418955736799135606c2dfee795cf3b0
+Author: Your Name <you@example.com>
+Date:   Sun Jan 10 02:31:11 2016 +0100
+
+    Track coinsupply. Requires database rebuild.
+
+commit f1db05bb212b4ba69796081b9e9f0f472e10c90c
+Author: Your Name <you@example.com>
+Date:   Fri Jan 8 20:35:04 2016 +0100
+
+    optimize Linux makefile
+
+commit e4da2a51f6b3c9b13398532b58b4a63354ad2abc
+Author: Your Name <you@example.com>
+Date:   Tue Jan 5 00:10:52 2016 +0100
+
+    first commit

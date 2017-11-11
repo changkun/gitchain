@@ -1,0 +1,269 @@
+commit 292b0bbf8dbada49cd6293a45a7a7945263d7303
+Author: sakr <sakr@noreply>
+Date:   Fri Feb 12 21:40:24 2016 +0000
+
+    1.0.1.3
+
+commit 6f4448c7f51d50c1f51e71e938e150eda14655d8
+Author: FuelCoinTwo <FuelCoinDirector@gmail.com>
+Date:   Wed Feb 10 22:12:42 2016 +0100
+
+    Update main.cpp
+
+commit d1a7f7afe2d1fb3d41ea710497d5227da46c23e8
+Author: FuelCoinTwo <FuelCoinDirector@gmail.com>
+Date:   Wed Feb 10 22:12:06 2016 +0100
+
+    Update bitcoinrpc.cpp
+
+commit e2ec1e23a7cf83ab6a1093c9173507d0d661cbc8
+Author: FuelCoinTwo <FuelCoinDirector@gmail.com>
+Date:   Wed Feb 10 22:11:01 2016 +0100
+
+    Update rpcconsole.cpp
+
+commit 706854e4ad4b6642b2382f857b58d0c603057f32
+Author: FuelCoinTwo <FuelCoinDirector@gmail.com>
+Date:   Wed Feb 10 22:10:14 2016 +0100
+
+    Update net.cpp
+
+commit 0f453f52b204cc45bc4d6c37444325e1a54189ed
+Author: FuelCoinTwo <FuelCoinDirector@gmail.com>
+Date:   Wed Feb 10 22:08:22 2016 +0100
+
+    Update askpassphrasedialog.cpp
+
+commit 433e03622986b83bfab77a7e30e624d14279afca
+Author: FuelCoinTwo <FuelCoinDirector@gmail.com>
+Date:   Wed Feb 10 22:07:41 2016 +0100
+
+    Update rpcrawtransaction.cpp
+
+commit 29bce4563595dc356b8456faf7fb29e23c9c0ac7
+Author: FuelCoinTwo <FuelCoinDirector@gmail.com>
+Date:   Wed Feb 10 22:06:41 2016 +0100
+
+    Update sendcoinsdialog.cpp
+
+commit aea456affe3d6d6ee4eaff62c6cd65c7d7efb907
+Author: FuelCoinTwo <FuelCoinDirector@gmail.com>
+Date:   Wed Feb 10 22:05:28 2016 +0100
+
+    Update rpcwallet.cpp
+
+commit 2027ea274c291066656461c6d73afcd742d20470
+Author: FuelCoinTwo <FuelCoinDirector@gmail.com>
+Date:   Wed Feb 10 22:02:58 2016 +0100
+
+    Update rpcdump.cpp
+
+commit bf66c2e70f3e9d5670d0f9f9dc22d5375590d457
+Author: FuelCoinTwo <FuelCoinDirector@gmail.com>
+Date:   Wed Feb 10 22:02:00 2016 +0100
+
+    Update optionsdialog.cpp
+
+commit d3c3bde18cb7f44542829549f340a1741049a599
+Author: FuelCoinTwo <FuelCoinDirector@gmail.com>
+Date:   Wed Feb 10 21:52:56 2016 +0100
+
+    Update signverifymessagedialog.ui
+
+commit d3a4ae3817fcf616e7ea7fe414ba340b67547a30
+Author: FuelCoinTwo <FuelCoinDirector@gmail.com>
+Date:   Wed Feb 10 21:52:06 2016 +0100
+
+    Update overviewpage.ui
+
+commit 322c5dabb880b0a19aa51b21541820386be4eee3
+Author: FuelCoinTwo <FuelCoinDirector@gmail.com>
+Date:   Wed Feb 10 21:51:24 2016 +0100
+
+    Update sendcoinsentry.cpp
+
+commit 0683ee228b576e8562bad0b93db2fa7ffdc083d0
+Author: FuelCoinTwo <FuelCoinDirector@gmail.com>
+Date:   Wed Feb 10 21:50:30 2016 +0100
+
+    Update qtipcserver.cpp
+
+commit 4c75d74e8697f5d4a6479ec3718728db914a9d09
+Author: FuelCoinTwo <FuelCoinDirector@gmail.com>
+Date:   Wed Feb 10 21:48:40 2016 +0100
+
+    Update qrcodedialog.cpp
+
+commit f4c88e44e2de9425244e454ed77cbbd27728c353
+Author: FuelCoinTwo <FuelCoinDirector@gmail.com>
+Date:   Wed Feb 10 21:48:07 2016 +0100
+
+    Update guiutil.h
+
+commit 500ed1babfa89efe9205ab422280c79d211e41f9
+Author: FuelCoinTwo <FuelCoinDirector@gmail.com>
+Date:   Wed Feb 10 21:47:33 2016 +0100
+
+    Update makefile.osx
+
+commit ec9660263213424d683ba4ec578bb1ff367b0812
+Author: FuelCoinTwo <FuelCoinDirector@gmail.com>
+Date:   Wed Feb 10 21:46:32 2016 +0100
+
+    Update bitcoingui.cpp
+
+commit 2b68139cd0b59bb882bdd71edcc20f9471eb61bb
+Author: FuelCoinTwo <FuelCoinDirector@gmail.com>
+Date:   Wed Feb 10 21:45:09 2016 +0100
+
+    Update bitcoin.qrc
+
+commit 076bd23cefbc4af62f8ce6ef6e617d620b8957d0
+Author: FuelCoinTwo <FuelCoinDirector@gmail.com>
+Date:   Wed Feb 10 21:44:13 2016 +0100
+
+    Update util.cpp
+
+commit 18245cdbe677df8efc9e43145b7cbe00bf4ccde4
+Author: FuelCoinTwo <FuelCoinDirector@gmail.com>
+Date:   Wed Feb 10 21:41:25 2016 +0100
+
+    Update rpcconsole.ui
+
+commit e770de575b649e1e97859956001518f033077055
+Author: FuelCoinTwo <FuelCoinDirector@gmail.com>
+Date:   Wed Feb 10 21:40:34 2016 +0100
+
+    Update editaddressdialog.cpp
+
+commit 3ebc056daf64c189d0f4a808cc1e93bbec942a04
+Author: FuelCoinTwo <FuelCoinDirector@gmail.com>
+Date:   Wed Feb 10 21:39:52 2016 +0100
+
+    Update signverifymessagedialog.cpp
+
+commit 3d97930571fba7c5f0905bb524dc8fc12becf0a0
+Author: FuelCoinTwo <FuelCoinDirector@gmail.com>
+Date:   Wed Feb 10 21:38:33 2016 +0100
+
+    Update bitcoin.cpp
+
+commit 8c43b26d783596b538a3598cc440d9d29074d274
+Author: FuelCoinTwo <FuelCoinDirector@gmail.com>
+Date:   Wed Feb 10 21:37:14 2016 +0100
+
+    Update rpcmining.cpp
+
+commit c8787945084f7af30d7c507ae77f248aab1612af
+Author: FuelCoinTwo <FuelCoinDirector@gmail.com>
+Date:   Wed Feb 10 21:35:37 2016 +0100
+
+    Update init.cpp
+
+commit 7412040a83837a77f9531260c94f2679deffcda2
+Author: FuelCoinTwo <FuelCoinDirector@gmail.com>
+Date:   Wed Feb 10 21:32:47 2016 +0100
+
+    Update optionsdialog.ui
+
+commit 96097b9507467afa4e7a0fc81fe6beb61ea84c99
+Author: FuelCoinTwo <FuelCoinDirector@gmail.com>
+Date:   Wed Feb 10 21:31:47 2016 +0100
+
+    Update bitcoinstrings.cpp
+
+commit 50ecb3fa8e0989e4aac6a1888d8dc51fba9c7c78
+Author: FuelCoinTwo <FuelCoinDirector@gmail.com>
+Date:   Wed Feb 10 21:26:55 2016 +0100
+
+    Update guiutil.cpp
+
+commit e62b601f42e452aaea0da4045e64cd05a03c2be1
+Author: FuelCoinTwo <FuelCoinDirector@gmail.com>
+Date:   Wed Feb 10 21:25:31 2016 +0100
+
+    Update addressbookpage.ui
+
+commit 79e9303938824961b1fe0aefa0484c5bedb08e56
+Author: FuelCoinTwo <FuelCoinDirector@gmail.com>
+Date:   Wed Feb 10 21:24:53 2016 +0100
+
+    Update aboutdialog.ui
+
+commit a48f868336131ff656af4a3b32eb092e5469d08f
+Author: FuelCoinTwo <FuelCoinDirector@gmail.com>
+Date:   Wed Feb 10 21:23:36 2016 +0100
+
+    Update README_windows.txt
+
+commit 104327faf74f8e0e6a8cc88015091b44fae4e6c4
+Author: FuelCoinTwo <FuelCoinDirector@gmail.com>
+Date:   Wed Feb 10 21:23:11 2016 +0100
+
+    Update README
+
+commit 64a2018749764011bf0454d2ef7298d25c67563a
+Author: FuelCoinTwo <FuelCoinDirector@gmail.com>
+Date:   Wed Feb 10 21:22:22 2016 +0100
+
+    Update readme-qt.rst
+
+commit 55eea3e3db10fbbeb4bdac53a623a41377051cc2
+Author: FuelCoinTwo <FuelCoinDirector@gmail.com>
+Date:   Wed Feb 10 21:19:51 2016 +0100
+
+    Update bitcoin-qt.rc
+
+commit bcd7313c1fc3b3aa50c4b1b33e9ba0ddf5d10d64
+Author: FuelCoinTwo <FuelCoinDirector@gmail.com>
+Date:   Wed Feb 10 21:14:38 2016 +0100
+
+    Update net.cpp
+
+commit dc339d512411c57df5d9ab974b56371047df2bba
+Author: FuelCoinTwo <FuelCoinDirector@gmail.com>
+Date:   Sat Feb 6 13:28:17 2016 +0100
+
+    Update COPYING
+
+commit 3cee1f58a7394d15f1c5fff296fd7e7f77e5f428
+Author: FuelCoinTwo <FuelCoinDirector@gmail.com>
+Date:   Sat Feb 6 13:27:35 2016 +0100
+
+    Update INSTALL
+
+commit faba7f1cf29f7d1b8f6bb09ece67f8f93dac5a9f
+Author: FuelCoinTwo <FuelCoinDirector@gmail.com>
+Date:   Sat Feb 6 13:26:11 2016 +0100
+
+    Update README.md
+
+commit e9953f06cc99bf9e61da24440b541856b2f4cfb2
+Author: FC2FUEL <IAN@SEMBRODEVELOPMENT.COM>
+Date:   Sun Aug 10 21:20:57 2014 -0400
+
+    other
+
+commit cfc0aeea7fd80e7480617074bde15a85a34d30e8
+Author: FC2FUEL <IAN@SEMBRODEVELOPMENT.COM>
+Date:   Sun Aug 10 21:16:09 2014 -0400
+
+    src
+
+commit 99f5c2a2a8f082df07a3b2e0cc2a1d0da1684adf
+Author: FC2FUEL <IAN@SEMBRODEVELOPMENT.COM>
+Date:   Sun Aug 10 21:14:46 2014 -0400
+
+    share
+
+commit 54f1e5776d0aa25beaf5157699f9a929702b25be
+Author: FC2FUEL <IAN@SEMBRODEVELOPMENT.COM>
+Date:   Sun Aug 10 21:13:09 2014 -0400
+
+    doc
+
+commit 4e4cc577c48d7cf246d837d320f5d7ff8f5e50c6
+Author: FC2FUEL <IAN@SEMBRODEVELOPMENT.COM>
+Date:   Sun Aug 10 21:12:40 2014 -0400
+
+    :octocat: Added .gitattributes & .gitignore files

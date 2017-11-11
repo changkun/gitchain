@@ -1,0 +1,53 @@
+commit 1d33bc7929315748d40f07f17269bef433ac5b47
+Merge: a2d6fa1 5c8428e
+Author: LinX Project <contact@mylinx.io>
+Date:   Fri Oct 20 14:02:34 2017 +0100
+
+    Merge pull request #4 from danlinx/master
+    
+    Branding, copyright and other textual only changes
+
+commit 5c8428ec6cf02e1f858161a16b4733ae833108f7
+Author: danlinx <dev@mylinx.io>
+Date:   Wed Oct 18 02:16:36 2017 +0100
+
+    Readme Layout Spacing
+
+commit e76faabaf5710c4706c83e233c0652df1281dfe0
+Author: danlinx <dev@mylinx.io>
+Date:   Tue Oct 17 18:45:30 2017 +0100
+
+    Branding, copyright and other textual only changes
+
+commit a2d6fa13ccee9986ea54a190795c01bdc0527031
+Merge: 3fe6394 e7243d0
+Author: LinX Project <contact@mylinx.io>
+Date:   Sun Oct 8 21:04:31 2017 +0100
+
+    Merge pull request #1 from mammix2/master
+    
+    OSX build updates
+
+commit e7243d0cd3eeb16cdbe64c47af77dd8a93a9789f
+Author: mammix2 <mammix2@hotmail.com>
+Date:   Thu Aug 10 21:09:13 2017 +0100
+
+    GUI constraints for all platforms
+
+commit 95dacc48e93af41795279905a76d2ea1fa548bd7
+Author: mammix2 <mammix2@hotmail.com>
+Date:   Thu Aug 10 21:04:46 2017 +0100
+
+    64bit build recipe and updates for Qt 5.8
+
+commit f50f9ef362a7f2e7ca966eeaa1757d834d810b7d
+Author: mammix2 <mammix2@hotmail.com>
+Date:   Tue Aug 8 10:47:57 2017 +0100
+
+    OSX build updates
+
+commit 3fe6394fd237a6dc66c690fb6a7b23242e46b430
+Author: linX-project <contact@mylinx.io>
+Date:   Thu Jun 1 17:52:17 2017 +0100
+
+    first

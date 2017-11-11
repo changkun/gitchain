@@ -1,0 +1,201 @@
+commit 6ff7e5780fd6bb8da02444fbb7fb8b3da8000005
+Author: mergecoin-project <546041135@qq.com>
+Date:   Tue Jul 4 00:52:53 2017 +0800
+
+    fix wallet sync
+    
+    sorry for sync
+
+commit bd0fbd7bcabdfe7445bab29938d5c516f3bc3877
+Author: mergecoin-project <546041135@qq.com>
+Date:   Tue Jul 4 00:50:59 2017 +0800
+
+    find a way to fix sync
+    
+    masternode list check later
+
+commit 25e28bfc0cbafc0c62a9c52de3c3e3ed5b8f9292
+Author: asof <asof@users.noreply.github.com>
+Date:   Mon Jun 26 13:32:00 2017 +0800
+
+    wallet.cpp:L3582: Should be nReward, not blockValue.
+
+commit a9377ac270566721826e2675552f52322a67c795
+Author: asof <asof@users.noreply.github.com>
+Date:   Mon Jun 26 12:28:20 2017 +0800
+
+    POS payments should be (blockValue-masternodePaymentShouldMax).
+
+commit 4532565cc87abae80596c13f5cbdaf5f1230b3d4
+Author: mergecoin-project <546041135@qq.com>
+Date:   Sat Jun 24 19:02:15 2017 +0800
+
+    fix rpc subversion get from localhost
+    
+    fix rpc subversion get from localhost
+
+commit 16d68d0907da765ee6694528bb6e90ed2eb0ca83
+Author: asof <asof@users.noreply.github.com>
+Date:   Sat Jun 24 18:59:11 2017 +0800
+
+    After debug, set to ban a node which disobey the 2.1.7 (V3) protocol, but only DoS(1, ...).
+
+commit ae6895c2afc6e8f2a1ce1a917e04d65bfc19b693
+Author: mergecoin-project <546041135@qq.com>
+Date:   Sat Jun 24 18:55:40 2017 +0800
+
+    addnode DNSSeed
+    
+    addnode DNSSeed
+
+commit e6e3ce28df187d4a86723426649e85febb802e96
+Author: asof <asof@users.noreply.github.com>
+Date:   Fri Jun 23 20:50:07 2017 +0800
+
+    Should use GetMidMasternodesUntilPrev() not GetMidMasternodes() ConnectBlock().
+
+commit 713efc471729030d8f055e72ade4125749a49849
+Author: asof <asof@users.noreply.github.com>
+Date:   Fri Jun 23 19:46:49 2017 +0800
+
+    Added checkpoints at block 1000, 2000, 5000 and 179600.
+
+commit 6e65f37175b615de7ce5907bc024a2716514695a
+Author: asof <asof@users.noreply.github.com>
+Date:   Thu Jun 22 03:38:00 2017 +0800
+
+    "pindex" uninitialized in instantx.cpp, fixed but don't know whether the fix is right.
+
+commit febe11f061f92a9899912e6b5ae35c2d939d48d2
+Author: asof <asof@users.noreply.github.com>
+Date:   Thu Jun 22 02:37:44 2017 +0800
+
+    Don't ban a node which obey GetPastTimeLimitV2() but disobey V3.
+
+commit 540aceed451a613c7b4a017b5f2d6f04110a1ffc
+Author: asof <asof@users.noreply.github.com>
+Date:   Wed Jun 21 19:47:50 2017 +0800
+
+    Apply FutureDriftV3() after reach the fork height (block 200000, set in main.h). (FutureDriftV3(nTime) = nTime + 30 s)
+
+commit 9ddbbcf6bc7141c0ef4f440705c2a78b957c991a
+Author: asof <asof@users.noreply.github.com>
+Date:   Wed Jun 21 00:43:55 2017 +0800
+
+    Wrong use of GetInputAge(vin), fixed by record masternode payee information in the highest 21 bit of nNonce in the block header.
+
+commit 636d2a568bd5dad99f48d39d573431eb7f71bee8
+Author: asof <asof@users.noreply.github.com>
+Date:   Sun Jun 18 01:42:17 2017 +0800
+
+    Should fixed the bug that POS miner and Masternode holder can get more than designed.
+
+commit c5dbbab59d449e25e1379f0c31756ed60042ea95
+Author: mergecoin-project <546041135@qq.com>
+Date:   Thu May 18 20:42:20 2017 +0800
+
+    Update main.cpp
+
+commit 25527fd6875b57027e4bf29921bec89814da0a97
+Author: mergecoin-project <546041135@qq.com>
+Date:   Thu May 18 19:13:24 2017 +0800
+
+    Update main.cpp
+
+commit fec65f2364181120e10b73a217ca5c007bc0f155
+Author: mergecoin-project <546041135@qq.com>
+Date:   Thu May 18 14:54:27 2017 +0800
+
+    fix FutureDrift
+
+commit 3690ac0036fb9f9bcb64b35c4083bbf395772c25
+Author: mergecoin-project <546041135@qq.com>
+Date:   Wed May 17 22:19:46 2017 +0800
+
+    Update proofs.cpp
+
+commit d4c989403fc1bcac377db8a1ab56a95635cc4a44
+Author: mergecoin-project <546041135@qq.com>
+Date:   Wed May 17 22:15:50 2017 +0800
+
+    Bump 2.1.6.0
+    
+    update client version
+
+commit a3db150bad715335f6a7c675ca8f3757f0187716
+Author: mergecoin-project <546041135@qq.com>
+Date:   Sun May 7 22:09:16 2017 +0800
+
+    fix for darksend
+
+commit 4396b3fc52e1531ae7710505675442539b88a767
+Author: mergecoin-project <546041135@qq.com>
+Date:   Sun May 7 22:01:55 2017 +0800
+
+    Update optionsmodel.cpp
+    
+    fix for darksend
+
+commit 321fa902e073a30a5decd27b7c185a2f6b831b9c
+Author: mergecoin-project <546041135@qq.com>
+Date:   Sun May 7 21:59:37 2017 +0800
+
+    Update darksendconfig.cpp
+    
+    fix for darksend
+
+commit 61080432a3506685ec5fe5277da15c9dab5a387d
+Author: mergecoin-project <546041135@qq.com>
+Date:   Sat Apr 1 12:25:46 2017 +0800
+
+    Update README.md
+
+commit 752d202df9fe9050c21bce309cbcf64fe86d6950
+Author: mergecoin-project <546041135@qq.com>
+Date:   Sat Apr 1 12:24:20 2017 +0800
+
+    Update chainparams.cpp
+    
+    Last pow block 20000
+
+commit efa12e3d4ff628fb09be5b1ccc1acdade5a73083
+Author: mergecoin-project <546041135@qq.com>
+Date:   Sat Apr 1 10:33:26 2017 +0800
+
+    Update clientversion.h
+
+commit a2c91ef16b80da8eb6c5b5bf55aa92cc0bb9c2a7
+Author: mergecoin-project <546041135@qq.com>
+Date:   Sat Apr 1 10:31:36 2017 +0800
+
+    Update aboutdialog.ui
+
+commit 1a63758c194ff2274caca068f768e7890f01caa8
+Author: mergecoin-project <546041135@qq.com>
+Date:   Fri Mar 31 14:20:08 2017 +0800
+
+    add darksend
+    
+    darksend
+
+commit 38d872d8dce43bf9dac071532b569ff65e1f775d
+Author: mergecoin-project <546041135@qq.com>
+Date:   Fri Mar 31 14:13:18 2017 +0800
+
+    update MN reward
+    
+    change 20% to 80%
+
+commit cc1713001ca09f44430632201342bf55468c801f
+Author: mergecoin-project <546041135@qq.com>
+Date:   Sun Mar 26 11:24:43 2017 +0800
+
+    Mergecoin
+    
+    P2P crypto-currency with dashpay and blackcoin hybrid feature
+
+commit 6738ff25a66a8d57983ff6e2f23c4b7cd2afa5b3
+Author: mergecoin-project <546041135@qq.com>
+Date:   Sun Mar 26 11:17:05 2017 +0800
+
+    :tada: Added .gitattributes & .gitignore files

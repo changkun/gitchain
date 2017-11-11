@@ -1,0 +1,91 @@
+commit 998a78f785b73c038e31a1a78e625e9184930136
+Author: Eternity Group <coin.eternity@gmail.com>
+Date:   Wed Oct 25 15:42:20 2017 +0300
+
+    Evolution
+
+commit b400e61870c2ff1fabf4a2c3667d54c208045dd3
+Author: Eternity Group <coin.eternity@gmail.com>
+Date:   Sat Oct 21 02:03:08 2017 +0300
+
+    Evolution Payments
+
+commit 04a59b07b9e7790c0abea915edbe4064ab64988a
+Author: Eternity Group <coin.eternity@gmail.com>
+Date:   Wed Oct 18 03:27:18 2017 +0300
+
+    rpcmining
+
+commit 630998ac06c0c4aa5f1a385b35f3749f4881d602
+Author: Eternity Group <coin.eternity@gmail.com>
+Date:   Mon Oct 16 16:23:18 2017 +0300
+
+    Add files via upload
+    
+    Gitignore
+
+commit c7568bcf687da8192ff527a6ac64443f735e8479
+Author: eternity-group <coin.eternity@gmail.com>
+Date:   Mon Oct 16 16:21:06 2017 +0300
+
+    Gitignore
+
+commit e321a0f0325d3c8120a5a810c274ff6c828c1fe6
+Author: eternity-group <coin.eternity@gmail.com>
+Date:   Mon Oct 16 00:23:29 2017 +0300
+
+    eternity-0.12.1.5
+
+commit 53f8d53d7ea336f126e64b3718443b61ac0f72fa
+Author: eternity-group <coin.eternity@gmail.com>
+Date:   Thu Dec 1 19:23:34 2016 +0300
+
+    version
+
+commit 8274719efacd70255416eaf4a61262176ee26d74
+Author: eternity-group <coin.eternity@gmail.com>
+Date:   Thu Dec 1 19:19:44 2016 +0300
+
+    MapCheckpoints
+
+commit 35a08b753728bc484c1065dcb14036247b3a316f
+Author: Eternity Group <coin.eternity@gmail.com>
+Date:   Mon Nov 7 02:23:22 2016 +0300
+
+    Update chainparams.cpp
+
+commit 2cd8414743d2734c0cc6231aa06e99535276e50f
+Author: Eternity Group <coin.eternity@gmail.com>
+Date:   Wed Oct 19 13:28:52 2016 +0300
+
+    Checkpoints
+
+commit 79cf63bc2083e7a968446fb47de11be3a26c3c82
+Author: nikkon82 <nikolaykonshin@gmail.com>
+Date:   Tue Sep 20 11:38:00 2016 +0500
+
+    update translate
+
+commit 4b8f551b4fe95c8ffc6fa09c561bdff9d928526a
+Author: nikkon82 <nikolaykonshin@gmail.com>
+Date:   Mon Sep 19 16:24:23 2016 +0500
+
+    update translate
+
+commit 79c4e978a6631be146d7eea7579a2d56060d7c59
+Author: eternity-group <coin.eternity@gmail.com>
+Date:   Mon Sep 19 11:24:58 2016 +0300
+
+    Seeds
+
+commit c7595ef3eae21a913f859ec184e8d414fb009d07
+Author: nikkon82 <nikolaykonshin@gmail.com>
+Date:   Mon Sep 19 11:55:13 2016 +0500
+
+    Update translate
+
+commit 5a3f89ea7bcca705be6b21ef5d16cc70d37fd902
+Author: root <root@debian.home>
+Date:   Mon Sep 19 06:37:56 2016 +0300
+
+    source code

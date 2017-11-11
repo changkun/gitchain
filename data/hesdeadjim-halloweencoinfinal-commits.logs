@@ -1,0 +1,59 @@
+commit a2a58731d96fecaf0ae2bfaead1b1fec27fb0279
+Author: CryptoCoderz <CryptoCoderz@gmail.com>
+Date:   Sun Apr 9 05:52:33 2017 -0700
+
+    Halloweencoin v1.0.6.0 Release
+    
+    Changelog
+    
+    - Cleaned up much of the source
+    - Upgraded leveldb src and other portions
+    - Implemented VRX retargetting system
+    - Reduced block time via softfork on block 910k
+    - Updated images and prepped for 2017 theme updates
+    - Updated protocol versioning
+    - Updated client versioning
+    - Added checkpoints and general security updates
+
+commit da3ccf6006ce641ce475add57a7d69d616c0e81a
+Author: CryptoCoderz <CryptoCoderz@gmail.com>
+Date:   Tue Mar 21 12:16:18 2017 -0700
+
+    Halloweencoin v1.0.5.0 Update
+    
+    Changelog
+    
+    - Rebuilt with latest dependencies
+    - Added self-generating config file
+    - Changed seednodes to current seeds
+
+commit 6685c4258a78c5fe1b5f89d473d1bfee9931657c
+Merge: 838b745 e4c641d
+Author: hallodev <halloweencoin@gmail.com>
+Date:   Fri Sep 30 11:54:29 2016 -0400
+
+    Merge branch 'master' of https://github.com/hallodev/Halloween
+
+commit e4c641da37b01739796a8d2b41a6e94d38c68029
+Author: hallodev <halloweencoin@gmail.com>
+Date:   Fri Sep 30 15:41:12 2016 +0000
+
+    Delete README.md
+
+commit 838b74575ffbbc4ae85c7445d5d0eb21e90dcba4
+Author: hallodev <halloweencoin@gmail.com>
+Date:   Fri Sep 30 11:36:07 2016 -0400
+
+    Initial commit
+
+commit a3122b878605faf4d23f5cbd8d953cda5f82c051
+Author: hallodev <halloweencoin@gmail.com>
+Date:   Fri Sep 30 02:54:17 2016 +0000
+
+    Create README.md
+
+commit 8cff22cf7198ed32dd002fcddc9e4883a37bda18
+Author: hallodev <halloweencoin@gmail.com>
+Date:   Sat Sep 24 00:09:30 2016 -0400
+
+    Initial commit

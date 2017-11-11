@@ -1,0 +1,124 @@
+commit cb9ab5cc0842387ba1f51b60e448ad2e435c479b
+Author: infinitecoin <dev@infiniteco.in>
+Date:   Thu May 1 17:48:16 2014 -0500
+
+    1.8.8
+
+commit 4b32adeadfc11f0629e289d8dfe2875f575a66d9
+Author: infinitecoin <dev@infiniteco.in>
+Date:   Fri Apr 11 01:31:31 2014 -0500
+
+    Upgrade to openssl-1.0.1g
+    Update version number
+
+commit f819136532feb67c21364a92a76145f9a82bcf85
+Author: infinitecoin <dev@infiniteco.in>
+Date:   Sun Feb 9 14:54:40 2014 -0600
+
+    1.8.6
+
+commit bbf28d8ae6d66ffa044ebaea619032f1aa6c3c6f
+Author: infinitecoin <dev@infiniteco.in>
+Date:   Wed Dec 4 19:23:40 2013 -0600
+
+    Updated to 1.8.5
+    
+    Fixed Sync Issue
+    Updated gitian build support
+    Updated osx build support
+
+commit 73127e3bd18eecc20a9b05e73deaeb6392b32173
+Author: infinitecoin <infinitecoin982365@yahoo.com>
+Date:   Mon Sep 30 16:49:53 2013 -0700
+
+            modified:   src/main.cpp
+
+commit 1df2a1a77af79c24cd4afbe8f306046fcad2bf5a
+Author: infinitecoin <infinitecoin982365@yahoo.com>
+Date:   Mon Sep 30 16:47:14 2013 -0700
+
+            modified:   src/checkpoints.cpp
+            modified:   src/main.cpp
+            modified:   src/main.h
+            modified:   src/version.h
+
+commit 7ba1cdd32aa6026ea24b72a6f1fce6fc58dafb93
+Author: infinitecoin <infinitecoin982365@yahoo.com>
+Date:   Fri Sep 20 23:09:44 2013 -0700
+
+            modified:   src/main.cpp
+
+commit 75edcad1994670bd11c899ba7f327a03c5f27421
+Author: infinitecoin <infinitecoin982365@yahoo.com>
+Date:   Fri Sep 20 23:04:18 2013 -0700
+
+            modified:   src/main.cpp
+            modified:   src/main.h
+            modified:   src/version.h
+
+commit b8bce8910adf326f01b080da6446c5bfc325d1fe
+Author: infinitecoin <infinitecoin92369@yahoo.com>
+Date:   Sun Sep 15 14:59:20 2013 -0700
+
+            modified:   src/version.h
+
+commit 11b88cd7d210062ebb065158ef07e6197e177daf
+Author: infinitecoin <infinitecoin92369@yahoo.com>
+Date:   Sun Sep 15 08:31:34 2013 -0700
+
+            modified:   src/main.h
+
+commit 2f187ec14325c49150b07658f4a2292bb25c513b
+Author: infinitecoin <infinitecoin92369@yahoo.com>
+Date:   Thu Sep 12 22:40:56 2013 -0700
+
+            modified:   src/main.h
+            modified:   src/version.cpp
+            modified:   src/version.h
+
+commit ce1ef744a6eaaeff98f0fde55c65adb3e8e0c5f2
+Author: infinitecoin <infinitecoin92369@yahoo.com>
+Date:   Thu Sep 12 21:51:25 2013 -0700
+
+            modified:   src/checkpoints.cpp
+            modified:   src/main.cpp
+            modified:   src/main.h
+
+commit 7333d79b8d1f5695f851baa28bfa3b34024bfe5b
+Author: infinitecoin <infinitecoin83264@yahoo.com>
+Date:   Wed Aug 28 02:35:40 2013 -0700
+
+            modified:   src/checkpoints.cpp
+            modified:   src/main.cpp
+            modified:   src/main.h
+            modified:   src/qt/bitcoin.cpp
+            modified:   src/wallet.cpp
+
+commit 60a618233f98c6efccfda0152a2e2e2727fba6a1
+Author: infinitecoin <infinitecoin9264264@yahoo.com>
+Date:   Tue Jul 30 23:38:55 2013 -0700
+
+            modified:   src/checkpoints.cpp
+            modified:   src/main.cpp
+            modified:   src/main.h
+            modified:   src/qt/bitcoin.cpp
+            modified:   src/qt/bitcoinunits.cpp
+            modified:   src/wallet.cpp
+
+commit db15ab27a435741fb3c6e7339d3b515a05ec25e4
+Author: infinitecoin <fisheater777@yahoo.com>
+Date:   Thu Jul 4 14:32:42 2013 -0700
+
+            modified:   src/bitcoinrpc.cpp
+            modified:   src/checkpoints.cpp
+            modified:   src/main.cpp
+    1. added more checkpoints
+    2. fixed daemon send money limit to 84 mil issue. Now any amount < 90.6
+    billions (max IFC coins) are allowed
+    3. got rid the Litecoin alert messages.
+
+commit f591118a9ecd1f8eb7d2714ae4157af32553057a
+Author: infinitecoin <infinitecoin96316@yahoo.com>
+Date:   Sat Jun 29 19:21:21 2013 -0700
+
+    infinitecoin

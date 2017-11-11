@@ -1,0 +1,31 @@
+commit a87618b8903f452f0c879fa409324c93d8eb2100
+Author: multialgo <multialgo>
+Date:   Thu Aug 21 05:37:00 2014 -0400
+
+    Alg weighting from block 15000
+
+commit b88fa0150948f69fc853f44d1127a5beb6e98ab7
+Author: multialgo <multialgo>
+Date:   Thu Aug 14 06:43:17 2014 -0400
+
+    Additional diff fix for the new clients
+
+commit b2e37f0ce1eceb6450d29f9c52614169a8084582
+Author: multialgo <multialgo>
+Date:   Wed Aug 13 19:58:28 2014 -0400
+
+    Reverting diff fix for the time being
+    
+    This reverts commit f7385f7dc69921bfa9b6b6d55b7df8b73a5b0fa7.
+
+commit f7385f7dc69921bfa9b6b6d55b7df8b73a5b0fa7
+Author: multialgo <multialgo>
+Date:   Wed Aug 13 19:40:55 2014 -0400
+
+    Fix for diff calculation
+
+commit 691e60d15339e0064169d3500063b036cb30df47
+Author: multialgo <multialgo>
+Date:   Wed Aug 13 17:16:25 2014 -0400
+
+    First coin release

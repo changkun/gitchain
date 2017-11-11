@@ -1,0 +1,91 @@
+commit d184849b4a3a8bd6d41c10d42fd8a3d1ab14913b
+Author: Netko <it@netko.it>
+Date:   Thu Mar 16 16:02:30 2017 +0100
+
+    Update version.cpp
+
+commit 5f15896c2136a973b9328bd304d4686d28564a54
+Author: Netko <it@netko.it>
+Date:   Thu Mar 9 18:15:32 2017 +0100
+
+    Update README.md
+    
+    another readme fix
+
+commit 9d2f5cf1aef5ffde86030f36274e4ce296d54bfe
+Author: krilson <kril@tuta.io>
+Date:   Thu Mar 9 18:12:56 2017 +0100
+
+    add missing zero to pos subsidy block height switch 90000 -> 900000
+
+commit 25b6b92dc412da7282db8372db21cba8cd1b3821
+Author: netkotech <it@netko.it>
+Date:   Wed Mar 1 21:04:46 2017 +0100
+
+    Update makefile.unix
+
+commit cf4159192a32aff5b2d13db57b1809ae5419c506
+Author: netkotech <it@netko.it>
+Date:   Wed Mar 1 20:37:01 2017 +0100
+
+    Update makefile.unix
+
+commit 59ebb5f6a166f6c7fadda6b74f96437af172cbf4
+Author: netkotech <it@netko.it>
+Date:   Wed Mar 1 20:28:24 2017 +0100
+
+    Update kernel.cpp
+
+commit 8eaef356ac66b2f89dd4ee73f8108f1b816638e4
+Author: netkotech <it@netko.it>
+Date:   Wed Mar 1 20:27:12 2017 +0100
+
+    Update kernel.cpp
+
+commit 8ca6e1597bdc048f01a6421d07101a1f2b524645
+Author: netkotech <it@netko.it>
+Date:   Wed Mar 1 20:13:20 2017 +0100
+
+    Update kernel.cpp
+
+commit 0a19647669f3745de1b4eaf189586303614865d1
+Author: netkotech <it@netko.it>
+Date:   Wed Mar 1 20:12:42 2017 +0100
+
+    Update kernel.cpp
+
+commit 9cc67cd2e11b1f50b53fa77c7c2901fbc76a6f78
+Author: netkotech <it@netko.it>
+Date:   Wed Mar 1 20:10:52 2017 +0100
+
+    Update miner.cpp
+
+commit fb94da733aaf1c9294267934e9557ae561136ca7
+Author: netkotech <it@netko.it>
+Date:   Wed Mar 1 20:09:18 2017 +0100
+
+    Update kernel.cpp
+
+commit 0672393c0bed9e8667c44d668b731907f11e9629
+Author: netkotech <it@netko.it>
+Date:   Wed Mar 1 20:05:37 2017 +0100
+
+    Update main.h
+
+commit cfe6fa86aa862d0213ebc65696cedc11f234d69c
+Author: netkotech <it@netko.it>
+Date:   Wed Mar 1 19:59:59 2017 +0100
+
+    Update hash.h
+
+commit b2a217571d8a437989b769bcd7da61795be6d862
+Author: netkotech <it@netko.it>
+Date:   Wed Mar 1 19:18:14 2017 +0100
+
+    Update README.md
+
+commit f28222d24bc1962c87c20594fdaf3f39848c77ac
+Author: netkotech <it@netko.it>
+Date:   Wed Mar 1 19:15:09 2017 +0100
+
+    netko

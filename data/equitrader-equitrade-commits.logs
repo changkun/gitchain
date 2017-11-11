@@ -1,0 +1,127 @@
+commit ebd64943804a668a4ce84f70a85797cbc9cf8551
+Author: BackToEQT <30781973+equitrader@users.noreply.github.com>
+Date:   Fri Nov 10 20:59:10 2017 +0530
+
+    Update building novacoin-qt for android under Windows.txt
+
+commit 0596822561ca33f2ba8ed793fdf5dac084dd45dd
+Author: BackToEQT <30781973+equitrader@users.noreply.github.com>
+Date:   Fri Nov 10 20:58:24 2017 +0530
+
+    Update .gitignore
+
+commit d2d3d49153b50d58d31ffc078b8abbaa58b478b2
+Author: BackToEQT <30781973+equitrader@users.noreply.github.com>
+Date:   Fri Nov 10 20:57:56 2017 +0530
+
+    Update .gitattributes
+
+commit c2eb2f51ddc37e1448be3b1525970186a0912e92
+Author: BackToEQT <30781973+equitrader@users.noreply.github.com>
+Date:   Fri Nov 10 20:57:45 2017 +0530
+
+    Update .gitattributes
+
+commit 7f1a344edc25b61ad63966c4d94486af676a0704
+Author: BackToEQT <30781973+equitrader@users.noreply.github.com>
+Date:   Sun Nov 5 21:06:28 2017 +0530
+
+    Update and rename README to CASREAD
+
+commit 07a9b47120dbc8179b9c4f642c1580a262cb228e
+Author: BackToEQT <30781973+equitrader@users.noreply.github.com>
+Date:   Sun Nov 5 21:05:43 2017 +0530
+
+    Added websites
+
+commit 2bd25dc731874e0d3f032e9eb67a6d32aac098b2
+Author: BackToEQT <30781973+equitrader@users.noreply.github.com>
+Date:   Mon Oct 30 23:20:00 2017 +0530
+
+    Update README.md
+
+commit 84b7865449a0a0d04153f97d4a60d96189d32b2c
+Author: BackToEQT <30781973+equitrader@users.noreply.github.com>
+Date:   Tue Oct 10 08:57:50 2017 +0530
+
+    Update README
+
+commit d7328ec521c6e8b714cdb2402a11e0046e83f443
+Author: BackToEQT <30781973+equitrader@users.noreply.github.com>
+Date:   Thu Sep 21 18:28:37 2017 +0530
+
+    Update README.md
+
+commit 8f32101369758335634d66793af77bbd63c0f15e
+Author: BackToEQT <30781973+equitrader@users.noreply.github.com>
+Date:   Mon Sep 11 19:38:14 2017 +0530
+
+    Add files via upload
+
+commit d76455488894030db54388ec9511251a41d55979
+Author: BackToEQT <30781973+equitrader@users.noreply.github.com>
+Date:   Sun Sep 10 10:05:57 2017 +0530
+
+    New Chain Update
+
+commit d7efdea5a57e5087e446941bbabc5103c4bec15c
+Author: BackToEQT <30781973+equitrader@users.noreply.github.com>
+Date:   Sat Sep 9 17:54:32 2017 +0530
+
+    Update COPYING
+
+commit 55377540597e65aa66fc9c64915757ebcf886a10
+Author: BackToEQT <30781973+equitrader@users.noreply.github.com>
+Date:   Sat Sep 2 22:41:56 2017 +0530
+
+    Update README
+
+commit a543a9875b34b3f4fd5ae556661046f0fe1030c9
+Author: BackToEQT <30781973+equitrader@users.noreply.github.com>
+Date:   Wed Aug 30 20:07:22 2017 +0530
+
+    Update README.md
+
+commit 7c473a8c5ef1ca8f039dd3d00b4b7ba749e1b0cf
+Author: BackToEQT <30781973+equitrader@users.noreply.github.com>
+Date:   Wed Aug 23 23:12:40 2017 +0800
+
+    Update
+
+commit d1e7a22512da1c69619c1d90afb0f98543a15a45
+Author: BackToEQT <30781973+equitrader@users.noreply.github.com>
+Date:   Tue Aug 22 18:26:51 2017 +0800
+
+    Update README.md
+
+commit 7887820d6558c1b2895d79292fc253a925de8342
+Author: BackToEQT <30781973+equitrader@users.noreply.github.com>
+Date:   Tue Aug 22 18:26:18 2017 +0800
+
+    Update walletunlock.py
+
+commit 359d4413dfa3e94a3052913626fa32fbace7f5c2
+Author: BackToEQT <30781973+equitrader@users.noreply.github.com>
+Date:   Tue Aug 22 18:25:05 2017 +0800
+
+    Update README.md
+
+commit f3fac60fbc5cf4a1cc1e3b4d4bde2c3cdd01f1f2
+Author: BackToEQT <30781973+equitrader@users.noreply.github.com>
+Date:   Tue Aug 22 18:23:43 2017 +0800
+
+    Update README.md
+
+commit d307d920e159d71b5e6eacbcb898faf4612715ac
+Author: droxdev <30412153+droxdev@users.noreply.github.com>
+Date:   Tue Aug 22 00:19:30 2017 +0100
+
+    .
+    
+    .
+
+commit 793c91e16c9e9b27d60df5b07c47a382077e7d8b
+Author: droxdev <30412153+droxdev@users.noreply.github.com>
+Date:   Tue Aug 22 00:17:49 2017 +0100
+
+    Initial commit

@@ -1,0 +1,520 @@
+commit 4c335242c208860a45c9a8bf0532fa5c73795d20
+Author: Marciano Valverde <marcianovc@gmail.com>
+Date:   Wed Sep 27 18:02:00 2017 -0300
+
+    Disable temporarily velocity system, new version protocol
+
+commit 2844256780902b991b82edd64b869037a3466e18
+Author: Marciano Valverde <marcianovc@gmail.com>
+Date:   Mon Sep 25 15:41:18 2017 -0300
+
+    Fix Corrected Velocity timestamp
+
+commit 1b99248c140296f21dd9fe9b5a2f4da2ff7d30f4
+Author: Marciano Valverde <marcianovc@gmail.com>
+Date:   Sun Sep 24 23:23:07 2017 -0300
+
+    Fix velocity time, version 2.6.2.5
+
+commit dde5a729c56bc3ceced8351e2b3011cfd0dbf425
+Author: Marciano Valverde <marcianovc@gmail.com>
+Date:   Fri Sep 22 17:47:11 2017 -0300
+
+    update change log
+
+commit 53b9f407dc7135b99a4a463e8d8945c51fabe38a
+Author: Marciano Valverde <marcianovc@gmail.com>
+Date:   Fri Sep 22 17:29:22 2017 -0300
+
+    fix rpc masternode status
+
+commit 1f22bf608ef59d606a9bc20751789314642ec42d
+Author: Marciano Valverde <marcianovc@gmail.com>
+Date:   Mon Sep 11 13:50:16 2017 -0300
+
+    Fix retarget/Rehabilitate velocity on block 22500
+
+commit 07725d33149a823fe910fb71ff860ec50f543bee
+Merge: 8fa0e79 c13e419
+Author: Marciano Valverde <marcianovc@gmail.com>
+Date:   Fri Aug 25 16:20:56 2017 -0300
+
+    Merge branch 'master' of https://github.com/martexcoin/martexcoin
+
+commit 8fa0e7903cd144530a110f84dddc7f53bc7cdd0f
+Author: Marciano Valverde <marcianovc@gmail.com>
+Date:   Tue Aug 22 14:39:17 2017 -0300
+
+    Rebranding: Darksend/InstantX changed to AnonSend/FastTx
+
+commit c13e4199f43806fceb12c65316f6b25f7978dc16
+Author: Marciano Valverde <marcianovc@gmail.com>
+Date:   Tue Aug 22 14:39:17 2017 -0300
+
+    Rebranding: Darksend/InstantX changed to AnonSend/FastTx
+
+commit 34ecc03292a68a1129356f3c9beba15d142e5cd6
+Author: Marciano Valverde <marcianovc@gmail.com>
+Date:   Wed Aug 16 15:59:32 2017 -0300
+
+    fix, release 2.6.2.3
+
+commit 6a2cfc9ffaabd444a5f448768044677c2b044616
+Author: Marciano Valverde <marcianovc@gmail.com>
+Date:   Thu Aug 3 08:12:10 2017 -0300
+
+    correct masternode reward
+
+commit c7749ed02221b32a8cc32b26e79d814cfb1024f5
+Author: Marciano Valverde <marcianovc@gmail.com>
+Date:   Wed Aug 2 08:58:41 2017 -0300
+
+    PoS correct reward, blockspacing correct, version to 2.6.2.2
+
+commit a0104c72d5a4e4a042a31161b7478a6e0ea5889c
+Author: Marciano Valverde <marcianovc@gmail.com>
+Date:   Fri Jul 28 15:58:24 2017 -0300
+
+    Allow infinite unlock, fix overview page balances when receiving, add "Output index" in transaction details
+
+commit 5cc230925ff0da4b946ec8e5da5626e4d3c286c8
+Author: Marciano Valverde <marcianovc@gmail.com>
+Date:   Thu Jul 27 17:09:14 2017 -0300
+
+    clear orphans
+
+commit 65a7aaccef0378c3a7821c9b3839a4224bf8ef60
+Author: Marciano Valverde <marcianovc@gmail.com>
+Date:   Thu Jul 27 11:48:43 2017 -0300
+
+    masternode reward label
+
+commit 5df5f5d14056e38f889d4f52f3841317504dd51d
+Author: Marciano Valverde <marcianovc@gmail.com>
+Date:   Thu Jul 27 11:40:59 2017 -0300
+
+    corrigido label txid na listagem de transacoes
+
+commit 72a6f25e365fa918cbdabac1db60345eabb58ed8
+Author: Marciano Valverde <marcianovc@gmail.com>
+Date:   Tue Jul 25 15:29:24 2017 -0300
+
+    Change orphan block text to prevent user panic
+
+commit 090c96711b248938d38dc76b55e4786791f005d2
+Author: Marciano Valverde <marcianovc@gmail.com>
+Date:   Thu Jul 20 17:30:17 2017 -0300
+
+    update create .conf
+
+commit 61f8f90a0962e0d556444d3886387db425b0f3ff
+Author: Marciano Valverde <marcianovc@gmail.com>
+Date:   Mon Jul 17 13:51:25 2017 -0300
+
+    2.6.2.1
+
+commit fc823a5c795dc6e807bd484128d1acc6c21e8bc2
+Author: Marciano Valverde <marcianovc@gmail.com>
+Date:   Tue Jun 20 17:17:02 2017 -0300
+
+    Revert "2.6.0.0"
+    
+    This reverts commit 0aa7088e84f1d3d59b5c49787c9ab54c2db07d9d.
+
+commit 50f8745a86a5199b3a707f06b10a868f29774e98
+Author: Marciano Valverde <marcianovc@gmail.com>
+Date:   Tue Jun 20 17:10:41 2017 -0300
+
+    Revert "2.6.0.0"
+    
+    This reverts commit 42e380fc1788d61998ee9d25a2aa4bfa57f55e79.
+
+commit fb0eaa24e263b5f8210007539e46d39ec93325ba
+Author: Marciano Valverde <marcianovc@gmail.com>
+Date:   Tue Jun 20 17:10:26 2017 -0300
+
+    Revert "fix"
+    
+    This reverts commit aa2c3c4122a3814b68d3452dca760b8152cfe955.
+
+commit b61ba5228141d68d8f54f3bf13be703ac09e791b
+Author: Marciano Valverde <marcianovc@gmail.com>
+Date:   Tue Jun 20 17:10:06 2017 -0300
+
+    Revert "Revert to protocol version 620161, version 6201701 will require a complete network update because of the masternodes."
+    
+    This reverts commit d3ff8cbb35c3e3a27cfee315941b178e051ba40e.
+
+commit a738fe62acb12d22e41be3373b0a5723a79b4207
+Author: Marciano Valverde <marcianovc@gmail.com>
+Date:   Tue Jun 20 17:08:56 2017 -0300
+
+    Revert "Masternode payments start 1497139200 Junho 11, 2017, 00:00:00 GMT"
+    
+    This reverts commit 1db2586f37efbb9aea2af58deec4e329730b3673.
+
+commit 1db2586f37efbb9aea2af58deec4e329730b3673
+Author: Marciano Valverde <marcianovc@gmail.com>
+Date:   Mon Jun 19 16:36:01 2017 -0300
+
+    Masternode payments start 1497139200 Junho 11, 2017, 00:00:00 GMT
+
+commit d3ff8cbb35c3e3a27cfee315941b178e051ba40e
+Author: Marciano Valverde <marcianovc@gmail.com>
+Date:   Sat Jun 17 22:32:39 2017 -0300
+
+    Revert to protocol version 620161, version 6201701 will require a complete network update because of the masternodes.
+
+commit aa2c3c4122a3814b68d3452dca760b8152cfe955
+Author: Marciano Valverde <marcianovc@gmail.com>
+Date:   Wed Jun 14 10:04:31 2017 -0300
+
+    fix
+
+commit 42e380fc1788d61998ee9d25a2aa4bfa57f55e79
+Author: Marciano Valverde <marcianovc@gmail.com>
+Date:   Sun Jun 11 13:00:35 2017 -0300
+
+    2.6.0.0
+
+commit 0aa7088e84f1d3d59b5c49787c9ab54c2db07d9d
+Author: Marciano Valverde <marcianovc@gmail.com>
+Date:   Sun Jun 11 12:58:43 2017 -0300
+
+    2.6.0.0
+
+commit a22e97575ccb752d10a8ceb83536ae70551ec296
+Author: Marciano Valverde <marcianovc@gmail.com>
+Date:   Fri May 19 08:15:38 2017 -0300
+
+    fix
+
+commit 1b056aa12aa0b2d5fb04a0ca7bac432bc4cf4be8
+Author: Marciano Valverde <marcianovc@gmail.com>
+Date:   Fri May 12 15:37:47 2017 -0300
+
+    fix
+
+commit 11f756a67f07cc4fafd047a2036bdcd3b47da227
+Author: Marciano Valverde <marcianovc@gmail.com>
+Date:   Thu May 4 15:00:33 2017 -0300
+
+    accept PoW block in testnet
+
+commit c8b84620359ffdd24bf63a4ac885db9b52c8ce34
+Author: Marciano Valverde <marcianovc@gmail.com>
+Date:   Wed Apr 19 13:08:49 2017 -0300
+
+    Ban forked peers who are stuck in a getblocks loop.
+
+commit f1041b1c3e995340c29d216ec436ea0fe81e2aa4
+Author: Marciano Valverde <marcianovc@gmail.com>
+Date:   Tue Apr 18 15:16:43 2017 -0300
+
+    fix
+
+commit 9646b58ea2b8930c20ab77b5634b921599acbf97
+Author: Marciano Valverde <marcianovc@gmail.com>
+Date:   Mon Apr 17 17:26:26 2017 -0300
+
+    fix
+
+commit a0b2cfbe9e8a1a65733defb605dcb5199ba6ddbb
+Author: Marciano Valverde <marcianovc@gmail.com>
+Date:   Fri Apr 7 10:23:35 2017 -0300
+
+    fix label endereco na aba transacoes
+
+commit 77e2afc7258d13fd139b0a0dbfb90279c14fe71f
+Author: Marciano Valverde <marcianovc@gmail.com>
+Date:   Fri Mar 10 18:11:51 2017 -0300
+
+    update
+
+commit de341ff7985f89b8a3a1b52fef439869eeec7711
+Author: Marciano Valverde <marcianovc@gmail.com>
+Date:   Thu Mar 2 12:00:46 2017 -0300
+
+    fix
+
+commit 89a12f6086f9b01b78ee84707e00eb989dfdf627
+Author: Marciano Valverde <marcianovc@gmail.com>
+Date:   Thu Feb 9 12:01:58 2017 -0200
+
+    add setban/listbanned/clearbanned RPC commands
+
+commit eadb97ec09c3dc4527e173a5c654d21fc0855be2
+Author: Marciano Valverde <marcianovc@gmail.com>
+Date:   Wed Feb 8 16:36:52 2017 -0200
+
+    fix
+
+commit fe6a780b13bd9e3f056e6a1e443468fbe7d659a0
+Author: Marciano Valverde <marcianovc@gmail.com>
+Date:   Wed Feb 8 16:09:04 2017 -0200
+
+    fix
+
+commit 44b17b92c7f00d05e30cc1b4b130490378ebbbc2
+Author: Marciano Valverde <marcianovc@gmail.com>
+Date:   Wed Feb 8 14:35:52 2017 -0200
+
+    fix
+
+commit 0971c5187d5160c2eca29f64de1d8fbd22acb4d8
+Author: Marciano Valverde <marcianovc@gmail.com>
+Date:   Wed Jan 25 08:35:53 2017 -0200
+
+    teste zerocoin
+
+commit 969260b64cd028c4292288feb036504b2c7f540a
+Author: Marciano Valverde <marcianovc@gmail.com>
+Date:   Wed Jan 18 14:54:51 2017 -0200
+
+    Separate implementations of CHECKLOCKTIMEVERIFY and CHECKSEQUENCEVERIFY.
+
+commit b42d3faa1e4005e5c4ea5db8f0e55b7a787f9d68
+Author: Marciano Valverde <marcianovc@gmail.com>
+Date:   Wed Jan 18 12:07:19 2017 -0200
+
+    Add raw transaction hex to gettransaction wallet RPC call
+
+commit 28c79950c740a29afcf29b3014658d42707520ea
+Author: Marciano Valverde <marcianovc@gmail.com>
+Date:   Wed Jan 18 11:33:00 2017 -0200
+
+    add getwalletinfo RPC call with wallet transaction count
+
+commit b42e73b315c5c3b4b2dbc50fb831bded9f8b34d4
+Author: Marciano Valverde <marcianovc@gmail.com>
+Date:   Tue Jan 17 12:11:28 2017 -0200
+
+    (finally) Remove IRC Seed support now that lfnet is down.
+
+commit 2f62f04f0d80283422c2d30ab63e8cc4698aed42
+Author: Marciano Valverde <marcianovc@gmail.com>
+Date:   Tue Jan 10 18:05:20 2017 -0200
+
+    .
+
+commit 8d92a7d7d61b51e4a6098fcd84ba95051380e94b
+Author: Marciano Valverde <marcianovc@gmail.com>
+Date:   Tue Jan 10 16:42:16 2017 -0200
+
+    update
+
+commit 85b56ee780fa1bc67c9ea5ebfdbf595fbd70170a
+Author: Marciano Valverde <marcianovc@gmail.com>
+Date:   Thu Oct 20 11:15:40 2016 -0200
+
+    fix minimizing qt app
+
+commit 9a4885835fecfafa1a256739e796734dbfe0ece7
+Author: Marciano Valverde <marcianovc@gmail.com>
+Date:   Thu Oct 20 09:40:54 2016 -0200
+
+    The RPC Console should be a QWidget to make window more independent
+
+commit 163096419b561514041a6d98a699644c0c80f8d6
+Author: Marciano Valverde <marcianovc@gmail.com>
+Date:   Thu Oct 13 11:48:00 2016 -0300
+
+    Fix
+
+commit 230db78f163beb7812fe9689b03192eb46ded051
+Author: Marciano Valverde <marcianovc@gmail.com>
+Date:   Tue Oct 11 18:15:24 2016 -0300
+
+    Suport Address Index
+
+commit b5eae3b1da6499e95e347043319d0d056b3bbbec
+Author: Marciano Valverde <marcianovc@gmail.com>
+Date:   Tue Oct 11 16:10:32 2016 -0300
+
+    Set correct prefix for URI, This sets the martexcoin:// prefix for URI handling and QR Code generation
+
+commit 13212f42480980fdb56fdb471566d82f8158e44d
+Author: Marciano Valverde <marcianovc@gmail.com>
+Date:   Tue Oct 11 15:52:03 2016 -0300
+
+    Set correct prefix for URI, This sets the martexcoin:// prefix for URI handling and QR Code generation
+
+commit 57dbce2ee8f30031e88cb33fbd00ca847700cd2a
+Author: Marciano Valverde <marcianovc@gmail.com>
+Date:   Mon Oct 3 09:23:10 2016 -0300
+
+    Disable OP_CHECKSEQUENCEVERIFY for now, since the BIP68 is not implemented.
+
+commit 806117317c08a6f9a6210d4faee5e3ee04d70bec
+Author: Marciano Valverde <marcianovc@gmail.com>
+Date:   Fri Sep 30 18:04:11 2016 -0300
+
+    Add OP_CHECKSEQUENCEVERIFY support
+
+commit 8521853c0e56e171074a332e61c1c0a5a94fccfd
+Author: Marciano Valverde <marcianovc@gmail.com>
+Date:   Fri Sep 30 17:39:36 2016 -0300
+
+    Add OP_CHECKLOCKTIMEVERIFY support
+
+commit 75acf747dfbd5ecc4a4dee059736333e91cc3965
+Author: Marciano Valverde <marcianovc@gmail.com>
+Date:   Fri Sep 30 15:12:16 2016 -0300
+
+    Implement additional script verification flags
+
+commit 7839d2cbaf754298b96a5ce95bb42ea4c9cae9b2
+Author: Marciano Valverde <marcianovc@gmail.com>
+Date:   Fri Sep 30 10:36:57 2016 -0300
+
+    -acceptnonstdtxn option to skip "non-standard transaction" checks
+
+commit 4c18902d11e5982efcd592707ced7c0038a06ff4
+Author: Marciano Valverde <marcianovc@gmail.com>
+Date:   Fri Sep 30 10:20:36 2016 -0300
+
+    OP_RETURN habilitado
+
+commit 9cab254b13fac73d3c017fb1d1d45541acc614b1
+Author: Marciano Valverde <marcianovc@gmail.com>
+Date:   Thu Sep 29 18:10:41 2016 -0300
+
+    Prevent mempool memory exhaustion attack
+
+commit eeefbd3fdb7e1669e02f49c457091311cd756e61
+Author: Marciano Valverde <marcianovc@gmail.com>
+Date:   Thu Sep 29 17:48:44 2016 -0300
+
+    This commit reusing the RpcCall getstakereport, show a modeless dialog with stake's earning of last 24h, 7, 30, 365 days, ever updated.
+
+commit 6ddabccd6664f561d01d93995a24e7d934174f25
+Author: Marciano Valverde <marcianovc@gmail.com>
+Date:   Thu Sep 29 16:35:39 2016 -0300
+
+    Add RpcCall getstakereport, it show the stake's earning by period: 24h, 7, 30, 365 days, and last 30 day.
+
+commit f1f8352ad5c1526cb1e6bfc40923c5d15d25ac62
+Author: Marciano Valverde <marcianovc@gmail.com>
+Date:   Thu Sep 29 14:59:39 2016 -0300
+
+    atualizado readme
+
+commit c4afbecdcbbc2a1d469dccab918ff758f5043e58
+Author: Marciano Valverde da Costa <marcianovc@users.noreply.github.com>
+Date:   Mon Jun 20 14:50:05 2016 -0300
+
+    criacao do .conf automatico
+
+commit 5ca1f634557a67097381a37a61d84bbd34568eba
+Author: Marciano Valverde da Costa <marcianovc@users.noreply.github.com>
+Date:   Mon Jun 20 14:49:34 2016 -0300
+
+    criacao do .conf automatico
+
+commit 9173d0845f2582ac97808592ca548b9b23d7a0ef
+Author: Marciano Valverde da Costa <marcianovc@users.noreply.github.com>
+Date:   Mon Jun 20 14:49:11 2016 -0300
+
+    criacao do .conf automatico
+
+commit a8fff97c49bbab14a7e232f65b6b391577d471e1
+Author: Marciano Valverde da Costa <marcianovc@users.noreply.github.com>
+Date:   Mon Jun 20 14:48:23 2016 -0300
+
+    Update util.cpp
+
+commit ac201a0ae152f5b560bd8dcbec682ceb73de4cb9
+Author: Marciano Valverde da Costa <marcianovc@users.noreply.github.com>
+Date:   Tue May 31 13:19:19 2016 -0300
+
+    Update README.md
+
+commit 0141729523edd11a2a3bb09fdad19a4c28b7ae57
+Author: Marciano Valverde <marcianovc@gmail.com>
+Date:   Sun May 29 18:43:28 2016 -0300
+
+    criacao do .conf automatico
+
+commit 19427c40a01d436acdce07505c9aeec8ed9575b5
+Author: Marciano Valverde <marcianovc@gmail.com>
+Date:   Sun May 29 18:38:56 2016 -0300
+
+    criacao do .conf automatico
+
+commit 1abbc3407b8209bcc3ca6a77ef154f766a91929a
+Author: Marciano Valverde <marcianovc@gmail.com>
+Date:   Fri May 27 16:46:36 2016 -0300
+
+    e2m implementado
+
+commit 83561ad751615c37e4ddf805476045f296d6ce9f
+Author: Marciano Valverde <marcianovc@gmail.com>
+Date:   Tue Apr 12 16:53:43 2016 +0000
+
+    incluido comando addnode no RPC e atualizacao de sincronismo
+
+commit bcc2a078cd5efa4407ab3ffdd846a5660d02a9ce
+Author: Marciano Valverde da Costa <marcianovc@users.noreply.github.com>
+Date:   Mon Feb 29 16:51:06 2016 -0300
+
+    Update MartexCoin-qt.pro
+
+commit d73dfac926cdbea102f55a3d1ab08c4a8dbfc995
+Author: Marciano Valverde da Costa <marcianovc@users.noreply.github.com>
+Date:   Mon Feb 29 16:50:43 2016 -0300
+
+    Update clientversion.h
+
+commit 716644aa5fbce858cf4adbe74c99978727f2d9f4
+Author: Marciano Valverde <marcianovc@gmail.com>
+Date:   Sat Feb 27 14:15:15 2016 -0300
+
+    update 2.5.3.0
+
+commit 08871947d63563eda5774140f9d66d8e60700e9d
+Author: MarteXcoin <martexcoin@martexcoin.org>
+Date:   Thu Feb 25 13:25:39 2016 -0300
+
+    removidos arquivos temporarios
+
+commit c91f30efdd3d51b0bc2aa826f8d2df7dcc209900
+Author: MarteXcoin <martexcoin@martexcoin.org>
+Date:   Thu Feb 25 13:24:27 2016 -0300
+
+    removidos arquivos temporarios
+
+commit 330ca23797a8e8752584d6efc85e625e2e66e161
+Author: MarteXcoin <martexcoin@martexcoin.org>
+Date:   Thu Feb 25 13:20:55 2016 -0300
+
+    atualizado painel de estatisticas
+
+commit b9d2fe2d0177bf5f42544d317d368d42a7746c97
+Author: MarteXcoin <martexcoin@martexcoin.org>
+Date:   Wed Feb 24 10:25:49 2016 -0300
+
+    V2.5.3.0
+
+commit 00afafbf8a9e03e522f6191f2fc9dc847db2a594
+Author: MarteXcoin <martexcoin@martexcoin.org>
+Date:   Wed Feb 17 10:56:35 2016 -0200
+
+    v2.5.2 - removido arquivos compilados
+
+commit 76d856745a42b42936a00598daf0142dce3b261f
+Author: MarteXcoin <martexcoin@martexcoin.org>
+Date:   Wed Feb 17 10:39:39 2016 -0200
+
+    v2.5.2 - reduzido numero de confirmacoes para 3, e maturacao para 5
+
+commit 3118f5f637cfb54e030f8642bd403603a90fb2b0
+Author: Marciano Valverde da Costa <marcianovc@users.noreply.github.com>
+Date:   Sun Jan 10 20:36:08 2016 -0200
+
+    Create README.md
+
+commit e0ad766382a9823bbc39abd9c6601f82448a7fc7
+Author: MartexCoin <marcianovc@gmail.com>
+Date:   Mon Feb 9 12:10:32 2015 -0200
+
+    v2.5.1

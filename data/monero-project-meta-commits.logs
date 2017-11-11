@@ -1,0 +1,403 @@
+commit 1cd0981459996d00fa43c818063d58e1f8c966e5
+Author: luigi1111 <luigi1111w@gmail.com>
+Date:   Tue Sep 26 09:35:46 2017 -0500
+
+    Create original-post
+
+commit f7fbc75d972a75862633e3437999249c13e64e45
+Merge: f4095aa 163eb1d
+Author: luigi1111 <luigi1111w@gmail.com>
+Date:   Thu Sep 14 12:15:45 2017 -0400
+
+    Merge pull request #106 from danrmiller/submodule
+    
+    clone recursively because PR# 2133 adds a submodule for libunbound
+
+commit f4095aaee41d21765e5f79a02fe15437148a6029
+Merge: fd7325b 33fd336
+Author: Riccardo Spagni <ric@spagni.net>
+Date:   Sat Sep 9 07:56:47 2017 -0700
+
+    Merge pull request #116 from anonimal/VRP
+    
+    The Monero Project: create single-policy VRP
+
+commit 33fd336d69c3250e1fd64506c96d0f46093d3689
+Author: anonimal <anonimal@i2pmail.org>
+Date:   Thu Sep 7 02:29:30 2017 +0000
+
+    The Monero Project: create single-policy VRP
+    
+    We currently have policies on a per-repo basis. A single-policy VRP
+    eases maintainability while minimizing confusion for researchers.
+
+commit 163eb1dade4c9992946e422626538eb667a679eb
+Author: Dan Miller <dan.r.miller@gmail.com>
+Date:   Sun Aug 13 13:14:18 2017 -0700
+
+    clone recursively because PR# 2133 adds a submodule for libunbound
+
+commit fd7325bd8169d76ce5fe88f48d7c4c06836c85e7
+Author: Riccardo Spagni <ric@spagni.net>
+Date:   Tue Aug 8 10:06:44 2017 +0200
+
+    alphabetical ordering of galactic bodies
+
+commit 2ca14aee87de5ae53fb1d808b2bb1721a2604b09
+Merge: 8fe936f 2a53b4a
+Author: Riccardo Spagni <ric@spagni.net>
+Date:   Tue Aug 8 10:00:45 2017 +0200
+
+    Merge branch 'master' of https://github.com/monero-project/meta
+
+commit 8fe936f85a70bcb7a0fc589e3171aab2d3793d97
+Author: Riccardo Spagni <ric@spagni.net>
+Date:   Tue Aug 8 09:58:59 2017 +0200
+
+    add naming convention doc
+
+commit 2a53b4af718d72c2b8be200c630792098fe73be4
+Merge: dd86099 eecc40a
+Author: Riccardo Spagni <ric@spagni.net>
+Date:   Tue Aug 8 09:34:52 2017 +0200
+
+    Merge pull request #95 from danrmiller/kovri
+    
+    Buildstep for kovri documentation
+
+commit eecc40ad73f34fefd954f54291df18b2b413659f
+Author: Dan Miller <dan.r.miller@gmail.com>
+Date:   Tue Jul 18 15:30:21 2017 -0700
+
+    build doxygen documentation in nightly kovri static job
+
+commit 5555e2306ae66da57bd8b435bbb88b828fd840bc
+Author: anonimal <anonimal@i2pmail.org>
+Date:   Tue Jul 18 01:48:16 2017 +0000
+
+    Buildbot: update file extension for Windows installer
+
+commit e67e808fdfdcb0fc5dade485b93a4c079e0f48f4
+Author: anonimal <anonimal@i2pmail.org>
+Date:   Tue Jul 18 01:44:17 2017 +0000
+
+    Buildbot: update path of kovri installer
+
+commit dd86099420b3b1f07be4f4a196dc6a0cca9290aa
+Merge: 7519fea 2f44592
+Author: luigi1111 <luigi1111w@gmail.com>
+Date:   Mon Jun 12 15:58:49 2017 -0500
+
+    Merge pull request #56 from danrmiller/kovri-packaging
+    
+    static builds and packaging for kovri
+
+commit 2f44592d5b9cadee4a555d24ae1978ced5afc357
+Merge: 2da454e 7519fea
+Author: Dan Miller <dan.r.miller@gmail.com>
+Date:   Sat Jun 10 20:41:08 2017 -0700
+
+    Merge branch 'master' into kovri-packaging
+
+commit 2da454ea684465110434570c964bc8b09bcc8171
+Author: Dan Miller <dan.r.miller@gmail.com>
+Date:   Sat Jun 10 20:33:17 2017 -0700
+
+    kovri static builds
+
+commit b42fd1b2bdab2f56d5b195d2bb74a4045aef93dd
+Author: Gingeropolous <Gingeropolous@users.noreply.github.com>
+Date:   Wed Apr 19 15:48:29 2017 -0400
+
+    Create FFS document that spells out everything
+    
+    explicitly.
+    
+    remove merge artifacts
+
+commit 4c1c9bf325f358ff75e9998cdb0fae12c3f6ef9f
+Author: anonimal <anonimal@i2pmail.org>
+Date:   Wed Apr 19 02:34:53 2017 +0000
+
+    Kovri: remove installer (moved to Kovri repo)
+    
+    This was moved to the Kovri repo in monero-project/kovri#583
+
+commit cccf136a3007adb2eeb6770e2a1d45306a460673
+Author: Dan Miller <danrmiller@users.noreply.github.com>
+Date:   Mon Mar 13 09:00:09 2017 -0700
+
+    remove kovri benchmarks
+
+commit 793f233cb1d99844cd93d0aa2cbed5ac213182bb
+Author: Dan Miller <dan.r.miller@gmail.com>
+Date:   Thu Mar 9 17:46:53 2017 -0800
+
+    add dragonflybsd builders
+
+commit 7519fea632b523b0ec69cae1944895ab1f70278d
+Merge: 9970732 2f61a5d
+Author: luigi1111 <luigi1111w@gmail.com>
+Date:   Wed Apr 19 17:04:55 2017 -0500
+
+    Merge pull request #66 from Gingeropolous/patch-1
+    
+    Create FFS document that spells out everything
+
+commit 9970732cbdd4a3aa575210181bd0f5b9bb967eaa
+Merge: 505119a 7b60513
+Author: luigi1111 <luigi1111w@gmail.com>
+Date:   Wed Apr 19 17:04:10 2017 -0500
+
+    Merge pull request #65 from anonimal/kovri
+    
+    Kovri: remove installer (moved to Kovri repo)
+
+commit 505119afefae9ed0a1b816f291a3272c32ab7e63
+Merge: d8d73a4 2ea9b78
+Author: luigi1111 <luigi1111w@gmail.com>
+Date:   Wed Apr 19 17:02:37 2017 -0500
+
+    Merge pull request #55 from danrmiller/rm-kovri-benchmarks
+    
+    remove kovri benchmarks
+
+commit d8d73a4a455f2887478d72db0413611d9bc69021
+Merge: 39b77b4 1fc1f83
+Author: luigi1111 <luigi1111w@gmail.com>
+Date:   Wed Apr 19 17:02:21 2017 -0500
+
+    Merge pull request #53 from danrmiller/dragonfly
+    
+    add dragonflybsd builders
+
+commit 2f61a5d684d801abb3fb53b7438a1c4107ccce1a
+Author: Gingeropolous <Gingeropolous@users.noreply.github.com>
+Date:   Wed Apr 19 15:48:29 2017 -0400
+
+    Create FFS document that spells out everything
+    
+    explicitly.
+
+commit 7b6051311a55e5dd57671db1f403f56b72b29b18
+Author: anonimal <anonimal@i2pmail.org>
+Date:   Wed Apr 19 02:34:53 2017 +0000
+
+    Kovri: remove installer (moved to Kovri repo)
+    
+    This was moved to the Kovri repo in monero-project/kovri#583
+
+commit 022547e4603b9aa64a4cceb63bac6838cde88b5e
+Author: Dan Miller <danrmiller@users.noreply.github.com>
+Date:   Mon Mar 13 15:34:16 2017 -0700
+
+    static builds and packaging for kovri
+    
+    add schedulers for kovri static builds
+
+commit 2ea9b784397566ef64e75b7f7b11c388f3a39aca
+Author: Dan Miller <danrmiller@users.noreply.github.com>
+Date:   Mon Mar 13 09:00:09 2017 -0700
+
+    remove kovri benchmarks
+
+commit 1fc1f8338421e1fa4f5dd3c520e44d659224eb3b
+Author: Dan Miller <dan.r.miller@gmail.com>
+Date:   Thu Mar 9 17:46:53 2017 -0800
+
+    add dragonflybsd builders
+
+commit 39b77b4683a5e8c1652de6215cd478aafd63e2e0
+Merge: 6be204f a3c4fd1
+Author: luigi1111 <luigi1111w@gmail.com>
+Date:   Thu Jan 19 09:58:53 2017 -0600
+
+    Merge pull request #40 from danrmiller/core-timeout
+    
+    remove a timeout from CoreFactory for building gui
+
+commit a3c4fd14f16a3702bec877d4352efe05bcb371a7
+Author: pigeons <pigeons>
+Date:   Mon Jan 16 21:18:20 2017 -0800
+
+    remove a timeout from CoreFactory for building gui
+
+commit 6be204f3c588111738eec38f114a2c74fdbfa232
+Merge: c2c16bc f4c63ff
+Author: luigi1111 <luigi1111w@gmail.com>
+Date:   Mon Jan 9 17:59:30 2017 -0600
+
+    Merge pull request #37 from danrmiller/benchmark-timeout
+    
+    remove timeout from kovri benchmark step. Resolves #34
+
+commit c2c16bc890a7ea4737d8bb348d77a6d288508503
+Merge: 690bce4 0d844b2
+Author: luigi1111 <luigi1111w@gmail.com>
+Date:   Mon Jan 9 17:59:15 2017 -0600
+
+    Merge pull request #33 from danrmiller/fileisimportant
+    
+    Only build when code files change. Resolves #11
+
+commit f4c63ff865b1ddbfd6badc93680176f209a2aa96
+Author: pigeons <pigeons>
+Date:   Tue Jan 3 11:21:47 2017 -0800
+
+    remove timeout from kovri benchmark step. Resolves #34
+
+commit 690bce4aece0f6eb9a7249fe5407cc7e7ffff0c6
+Merge: 93fa0c4 52462a8
+Author: luigi1111 <luigi1111w@gmail.com>
+Date:   Mon Jan 2 14:56:46 2017 -0600
+
+    Merge pull request #36 from anonimal/makeself
+    
+    Kovri: commit first install script for makeself
+
+commit 93fa0c4237cf65e7e86b2de6789180c28368442b
+Merge: dfd0d09 2c7928e
+Author: luigi1111 <luigi1111w@gmail.com>
+Date:   Mon Jan 2 14:54:39 2017 -0600
+
+    Merge pull request #32 from danrmiller/kovri-tests
+    
+    run tests and benchmarks
+
+commit dfd0d09c5f7ed2bacc5ac88a6293ddfc2e237cf7
+Merge: b39f0a5 9ee0e20
+Author: luigi1111 <luigi1111w@gmail.com>
+Date:   Mon Jan 2 14:54:16 2017 -0600
+
+    Merge pull request #28 from danrmiller/bb-binaries
+    
+    upload binaries
+
+commit 52462a826f9e04a3b75e7cf4458355e6986e284f
+Author: anonimal <anonimal@i2pmail.org>
+Date:   Sun Jan 1 23:14:20 2017 +0000
+
+    Kovri: fix data path for OSX + broaden sanity test
+    
+    References monero-project/kovri#362
+
+commit 26125efbab17f6b33cfa781b9ef4ed5fd2474b4c
+Author: anonimal <anonimal@i2pmail.org>
+Date:   Sun Jan 1 22:49:13 2017 +0000
+
+    Kovri: commit first install script for makeself
+    
+    References monero-project/kovri#362
+
+commit 0d844b21fddbadb5b01b9b4bf5e2f7eae590ae02
+Merge: 25d79b2 dbcebd5
+Author: pigeons <pigeons>
+Date:   Sun Jan 1 11:26:04 2017 -0800
+
+    ignore changes to .conf, change elif to if for matching CMakeLists.txt
+
+commit 25d79b26c2653d8f6dbe55a6da3187e403809909
+Author: pigeons <pigeons>
+Date:   Thu Dec 29 01:51:16 2016 -0800
+
+    Only build when code files change. Resolves #11
+    
+    change elif to if for matching CMakeLists.txt
+    
+    ignore changes to .conf files
+
+commit dbcebd59a31cd00b379f0cc2e706f182b2d6c09f
+Author: pigeons <pigeons>
+Date:   Sun Jan 1 11:04:08 2017 -0800
+
+    change elif to if for matching CMakeLists.txt
+
+commit b0746cbc9f1b6ad17a750fceaf4f4f3b59148c61
+Author: pigeons <pigeons>
+Date:   Thu Dec 29 01:51:16 2016 -0800
+
+    Only build when code files change. Resolves #11
+
+commit 2c7928ebbb136e933b4c5b89d07bc6f40069bc16
+Author: Pigeons <pigeons@yuggoth.sysevolve.bit>
+Date:   Thu Dec 22 21:52:28 2016 -0800
+
+    run tests and benchmarks
+
+commit 9ee0e20b85b6cf37cb1ce37165f0e209c554a0d8
+Author: Dan Miller <dan.r.miller@gmail.com>
+Date:   Tue Dec 20 22:09:01 2016 -0800
+
+    change name of mac binary, add deploy step to ubuntu
+
+commit afb8213b6645dc11f69b3177426a26dba4905f2e
+Author: Dan Miller <dan.r.miller@gmail.com>
+Date:   Thu Dec 15 19:27:25 2016 -0800
+
+    upload binaries
+
+commit b39f0a5cc6b1b2923d8319586eb570f5578dad2e
+Merge: 2f81272 28f035d
+Author: Riccardo Spagni <ric@spagni.net>
+Date:   Sun Dec 11 12:17:44 2016 +0200
+
+    Merge pull request #22 from danrmiller/ignore-dnstest
+    
+    ignore DNSResolver and AddressFromURL tests where isp alters dns
+
+commit 28f035d7d2bfc647b2ae65fb83aa1fb5ff6dbb8c
+Author: Dan Miller <dan.r.miller@gmail.com>
+Date:   Wed Dec 7 19:06:07 2016 -0800
+
+    ignore DNSResolver and AddressFromURL tests where isp alters dns
+
+commit 2f81272c3c74506756c51c2b04e4a483255b651b
+Merge: 81b01f8 02c6c21
+Author: luigi1111 <luigi1111w@gmail.com>
+Date:   Mon Dec 5 09:10:27 2016 -0600
+
+    Merge pull request #20 from danrmiller/buildbot
+    
+    buildbot master config
+
+commit 02c6c2101d29f66ded9fde8e645d76a7450a7bc5
+Author: Dan Miller <dan.r.miller@gmail.com>
+Date:   Sun Dec 4 14:04:17 2016 -0800
+
+    add binary uploads
+
+commit c7f026d4f762a4d3999f93f69da6f53ea6d97274
+Author: Dan Miller <dan.r.miller@gmail.com>
+Date:   Sat Dec 3 20:21:46 2016 -0800
+
+    don't run DNSResolver.IPv4Failure unit test when isp interferes
+
+commit bbf3d41ca809b2e443499ed52e83ef3913be8671
+Author: Dan Miller <dan.r.miller@gmail.com>
+Date:   Fri Dec 2 23:27:11 2016 -0800
+
+    checkin coveralls command after excluding tests and deps
+
+commit 952f56a82adb323473dd09ee937c06fc044bd79f
+Author: Dan Miller <dan.r.miller@gmail.com>
+Date:   Wed Nov 30 09:12:00 2016 -0800
+
+    zip all files in release/bin for upload per Jaquee
+
+commit 45260f1139a6e07fcb4313c727443c3e490feb5a
+Author: Dan Miller <dan.r.miller@gmail.com>
+Date:   Tue Nov 29 19:18:55 2016 -0800
+
+    buildbot master config
+
+commit 81b01f8a4ea2ecfbb6004fad3ffecd7209203711
+Author: luigi1111 <luigi1111w@gmail.com>
+Date:   Mon Oct 17 13:52:56 2016 -0500
+
+    add stuff to readme
+
+commit d4db70e05153826370fc3f51fd0b9305e03929e7
+Author: The Monero Project <monero-project@users.noreply.github.com>
+Date:   Sat Oct 15 16:38:52 2016 +0200
+
+    Initial commit

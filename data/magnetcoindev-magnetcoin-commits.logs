@@ -1,0 +1,41 @@
+commit 2e6b33c240a460631599bf04473909857c62da3f
+Author: magnetcoindev <magnatcoin@gmail.com>
+Date:   Mon Jul 10 21:16:57 2017 +0300
+
+    Revisited README.md
+
+commit 00cf7399448cc89c02cfd8895a8441b105f07eec
+Author: magnetcoindev <magnatcoin@gmail.com>
+Date:   Mon Jul 10 20:58:03 2017 +0300
+
+    Mentioned libminiupnpc in build-unix.txt
+
+commit d2e7d8f258453746317241d2478f9b1d23f92ca1
+Author: magnetcoindev <magnatcoin@gmail.com>
+Date:   Mon Jun 5 09:38:03 2017 +0300
+
+    Additional steps for leveldb compilation (unix)
+
+commit 79deaf1918fbb1879123b29b08d0e4435b8c77e0
+Author: magnetcoindev <magnatcoin@gmail.com>
+Date:   Tue May 16 14:23:23 2017 +0300
+
+    Update README.md
+
+commit 7553fb7500b0a349eaad68a6405669d68885ca33
+Author: magnetcoindev <sergeynors@gmail.com>
+Date:   Thu May 11 15:38:16 2017 +0300
+
+    Update README.md
+
+commit 2a53a7aac340b5f73ca6c41fbae5b785b111407b
+Author: sergeynors <sergeynors@gmail.com>
+Date:   Wed Apr 26 23:06:57 2017 +1000
+
+    Upload files
+
+commit 4cae98295ec80e65bdb2ceb4a066ea2b6013fa7f
+Author: sergeynors <sergeynors@hotmail.com>
+Date:   Wed Apr 26 23:03:07 2017 +1000
+
+    MagnetCoin

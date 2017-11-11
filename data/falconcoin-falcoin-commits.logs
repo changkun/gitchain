@@ -1,0 +1,35 @@
+commit 4969562ec3146c510edd88611373ebc52df42e72
+Author: FalconCoin <falconcoin@scryptmail.com>
+Date:   Tue May 16 02:35:07 2017 +0530
+
+    Falcoin running final
+
+commit 07db5c3487f9a35160d27ce043c6f058c7771cdc
+Author: FalconCoin <falconcoin@scryptmail.com>
+Date:   Mon May 15 08:52:23 2017 +0530
+
+    FalCoin fix screw up
+
+commit a5731c00cb917206d713134aff45f21ddb43d3b2
+Author: FalconCoin <falconcoin@scryptmail.com>
+Date:   Mon May 15 07:04:50 2017 +0530
+
+    Fixed new reward str
+
+commit 3407276f8cedb2bbfd99cc716ad13f152b9f97df
+Author: FalconCoin <falconcoin@scryptmail.com>
+Date:   Mon May 15 06:51:11 2017 +0530
+
+    Fixing seed
+
+commit 8e40b0617daa4939386768712db2a0f1528848ea
+Author: FalconCoin <falconcoin@scryptmail.com>
+Date:   Fri May 5 14:13:44 2017 +0530
+
+    FalCoin
+
+commit 8ed57b091f85c385238a2be572c340f71a0b2f2b
+Author: FalconCoin <falconcoin@scryptmail.com>
+Date:   Fri May 5 13:41:17 2017 +0530
+
+    FalCoin reforked

@@ -1,0 +1,25 @@
+commit 308f8b3b1ab652d7feab794a6132b6b639f334a6
+Author: BigUP Life <pumpslove@yahoo.com>
+Date:   Wed Apr 19 12:15:54 2017 -0400
+
+    Update main.h
+    
+    Significant inflation rate reduction added to base source code. Stake rate from 100%/year to 5%/year
+    
+    It is up to the community to update their wallets, compile new binaries, etc. Then, if everyone (or the majority) switches to the new version, the supply will become more manageable
+    
+    This is the first of a few actions that should hopefully motivate people to do things differently
+
+commit 85daa4970d3782b44cc871ae4474f17cbc698cc5
+Author: BigUP Life <pumpslove@yahoo.com>
+Date:   Wed Apr 27 15:50:15 2016 -0400
+
+    Update chainparams.cpp
+    
+    Added several seed node IP addresses and also named node
+
+commit 8d2ea2d869603aeeee12e45c6a6b996778da694c
+Author: BigUps <bigup2016@yandex.com>
+Date:   Fri Feb 19 11:15:01 2016 -0500
+
+    First commit

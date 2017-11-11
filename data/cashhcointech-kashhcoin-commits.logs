@@ -1,0 +1,93 @@
+commit 6788db1e3f5f3a8dd4af69fac87f261dae2a5a9d
+Author: Arjun Mishra <arjun@penny.partners>
+Date:   Wed Mar 8 17:18:56 2017 +0530
+
+    Updated Wallet
+
+commit 14bea75b310a8f27bdde52a5e014adb25f0aa796
+Author: Fringer <arjun@penny.partners>
+Date:   Mon Jan 23 11:34:24 2017 +0530
+
+    Testnet Ports
+
+commit 1a15976d5df5ca474141fa206eace6d62c3bce75
+Author: Fringer <arjun@penny.partners>
+Date:   Mon Jan 23 10:00:12 2017 +0530
+
+    Update seed node list - maintainence
+    
+    Maintainence Update
+
+commit 255bec4a60fe2a374b810ed2b9a2f08ef53029be
+Author: Fringer <arjun@penny.partners>
+Date:   Mon Jan 23 09:49:07 2017 +0530
+
+    Delete kashhcoind
+
+commit b47cbeba7a8764302f0139c2cdecd5451f1ce880
+Author: Fringer <arjun@penny.partners>
+Date:   Mon Jan 23 09:12:44 2017 +0530
+
+    Update Checkpoint.cpp
+    
+    Maintainence Update!
+
+commit 075fd0a94f67c959820032c5f501e72678f01fa7
+Author: Arjun Mishra <arjun@penny.partners>
+Date:   Mon Jan 16 22:06:29 2017 +0530
+
+    Key Pool resetting
+
+commit d59cc85f727f3f9256833f7915f20a5e3797c210
+Author: Fringer <arjun@penny.partners>
+Date:   Mon Jan 16 17:24:32 2017 +0530
+
+    POW Cutoff Increased to 20000
+
+commit 1abd77f81fbda0d6ff0c3efbae5ee87086eacf07
+Author: Arjun Mishra <arjun@penny.partners>
+Date:   Sat Jan 14 20:11:07 2017 +0530
+
+    Temp shift up
+
+commit 33a0e56ec1336a09a4e82aed2ea5ec74d1ab8af4
+Author: kashh <cashhcointech@gmail.com>
+Date:   Sun Jan 8 05:18:11 2017 +0530
+
+    Public Source Code Removed.. Please request for it!
+
+commit 78c7dfab75e1c499124ee558163d9e370faf26e3
+Author: kashh <cashhcointech@gmail.com>
+Date:   Sun Jan 8 02:52:15 2017 +0530
+
+    Corrections
+
+commit 6e19122d8d8846cc1d6f251e021144ee3d6c3425
+Author: kashh <cashhcointech@gmail.com>
+Date:   Thu Jan 5 22:25:36 2017 +0530
+
+    port shift to 62617
+
+commit 7bacabd3066e10cec859502ee0132621b19e2db1
+Author: Arjun Mishra <arjun@penny.partners>
+Date:   Thu Jan 5 16:05:44 2017 +0530
+
+    Qt finished
+
+commit 05dde21d66fa8dfe892a987743c6804380f1f121
+Author: Arjun Mishra <arjun@penny.partners>
+Date:   Thu Jan 5 02:43:56 2017 +0530
+
+    Finisher Qt-Fixed
+
+commit 355e4a21eca54d50db26ef891afbf68fef6c2514
+Author: root <root@s107-180-71-154.secureserver.net>
+Date:   Wed Jan 4 11:56:31 2017 -0700
+
+    Some changes unnecessary
+
+commit 55886e6c5c92f986375b7f748a3a4c970edddf8d
+Author: Arjun Mishra <arjun@penny.partners>
+Date:   Wed Jan 4 23:55:01 2017 +0530
+
+    kashhcoin.git

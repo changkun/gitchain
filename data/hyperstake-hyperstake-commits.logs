@@ -1,0 +1,4089 @@
+commit 3d3c87069b9a9012add763ed0141c4f35f0a9bd2
+Merge: fbcec72 19130f4
+Author: presstab <presstab1337@gmail.com>
+Date:   Fri Sep 15 15:55:13 2017 -0600
+
+    Merge pull request #54 from presstab/master
+    
+    Add BIP38 encrypt/decrypt tools.
+
+commit 19130f4ee1b467f4bc0fe39647b463a3e4b8b847
+Author: presstab <presstab1337@gmail.com>
+Date:   Fri Sep 15 15:44:18 2017 -0600
+
+    Add BIP38 encrypt/decrypt tools.
+
+commit fbcec720b8152635b90a3de4ebe5d5c37d139c05
+Merge: 747274c 8ee602f
+Author: presstab <presstab1337@gmail.com>
+Date:   Fri Jun 30 14:01:12 2017 -0600
+
+    Merge pull request #53 from presstab/master
+    
+    Merge
+
+commit 8ee602fdc3dc00a40d79123f250496d2fb13c757
+Author: presstab <presstab1337@gmail.com>
+Date:   Fri Jun 30 14:00:24 2017 -0600
+
+    remove temporary block code
+
+commit 9e0ecbce39ef3698d9243d2957b146006457b67c
+Author: presstab <presstab1337@gmail.com>
+Date:   Fri Jun 30 13:52:11 2017 -0600
+
+    bump to v1.1.4
+
+commit c251c40d39b2718ceaaa640b1cd6d624e2c24efc
+Author: presstab <presstab1337@gmail.com>
+Date:   Fri Jun 30 13:36:56 2017 -0600
+
+    Adjust coin control weight display to be simpler, adjust stake time estimate to be less
+
+commit ef1b1ded38bde4291d56346aec4f60b01d394a77
+Author: presstab <presstab1337@gmail.com>
+Date:   Thu Jun 29 10:13:19 2017 -0600
+
+    Update calcDialog to suggest sizes based off of network stats
+
+commit 747274c3efcf8bf1aebda47c9e06268290053c1b
+Merge: 7bf0bb1 9ba8d81
+Author: presstab <presstab1337@gmail.com>
+Date:   Tue Jun 27 17:58:02 2017 -0600
+
+    Merge pull request #52 from joen/patch-1
+    
+    Update README.md
+
+commit 9ba8d81eca425695a80499bacbfb938ddf8ec7bc
+Author: joen <joen@users.noreply.github.com>
+Date:   Mon Jun 26 13:20:03 2017 +0200
+
+    Update README.md
+
+commit beb7dee76c5e334bd034c42f62416a6f60d07a64
+Author: presstab <presstab1337@gmail.com>
+Date:   Mon Jun 19 16:54:03 2017 -0600
+
+    GetWeightSpent() GetAverageWeightOverPeriod()
+
+commit 7bf0bb1edd6b67cffa3ead52dc820d8ce5b0e116
+Merge: 22a8457 228f946
+Author: presstab <presstab1337@gmail.com>
+Date:   Mon Jun 19 15:13:16 2017 -0600
+
+    Merge pull request #51 from presstab/master
+    
+    reduce staking resource consumption, add getstakingstatus
+
+commit 228f946d553b13bbbe183d306184e7ffb5da2690
+Author: presstab <presstab1337@gmail.com>
+Date:   Mon Jun 19 11:18:56 2017 -0600
+
+    reduce staking resource consumption, add getstakingstatus
+
+commit 22a8457c78c712dd07764bf50f6bf4e56a0b91fe
+Merge: c8a8109 59b3e4d
+Author: presstab <presstab1337@gmail.com>
+Date:   Mon Jun 12 21:32:37 2017 -0600
+
+    Merge pull request #50 from presstab/master
+    
+    merge
+
+commit 59b3e4d18f5c44c40eb312303d74df60ca356f39
+Author: presstab <presstab1337@gmail.com>
+Date:   Mon Jun 12 17:39:41 2017 -0600
+
+    Update readme to include build instructions
+
+commit 6fdea9fd69321849d2be140b0285b22d9393c0f6
+Author: presstab <presstab1337@gmail.com>
+Date:   Mon Jun 12 10:00:51 2017 -0600
+
+    change bitwise negate to negative
+
+commit c8a8109684bbdf721f1ae17a9e3a61e34ee623ca
+Merge: 2151d9e 7ee0cb8
+Author: presstab <presstab1337@gmail.com>
+Date:   Thu Jun 8 09:35:05 2017 -0600
+
+    Merge pull request #49 from presstab/master
+    
+    Merge efficiency refactorings
+
+commit 7ee0cb89e46683fa5f40853bd7f89db1e444cb43
+Author: presstab <presstab1337@gmail.com>
+Date:   Wed Jun 7 22:38:54 2017 -0600
+
+    Do not rehash block on load if the block hash is stored
+
+commit e1895f602f5aba714dec75c0909b5d80d8196f08
+Author: presstab <presstab1337@gmail.com>
+Date:   Wed Jun 7 17:02:54 2017 -0600
+
+    refactor GetStakeWeight() and add GetTimeToNextMaturity()
+
+commit aa86ef5d51e6b37745940acc6e1df030f51b6dac
+Author: presstab <presstab1337@gmail.com>
+Date:   Wed Jun 7 13:32:26 2017 -0600
+
+    Store wallet's total weight from hash calculation
+    
+    Reduce the rendundancy of calculating weight multiple times. Just keep
+    track of the weight calculated when hashing the UTXOs.
+
+commit 7125d31276c8e7e575931322106b8326cc8c4b3e
+Author: presstab <presstab1337@gmail.com>
+Date:   Tue Jun 6 15:33:06 2017 -0600
+
+    [RPC] do not allow ccsend while wallet is unlocked for minting
+
+commit 2151d9e55f21b9dba5187c64aa7e6ae249113cc3
+Merge: 5be4b00 c48133e
+Author: presstab <presstab1337@gmail.com>
+Date:   Tue Jun 6 11:10:09 2017 -0600
+
+    Merge pull request #48 from presstab/master
+    
+    Remove checkpoint server
+
+commit c48133ecb9ae748bb2fc41dacc56c3f534b27828
+Author: presstab <presstab1337@gmail.com>
+Date:   Tue May 23 17:51:10 2017 -0600
+
+    Remove checkpoint server
+
+commit 5be4b0009c7fdf2a58dd05b7607e0a7ab24693eb
+Author: presstab <presstab1337@gmail.com>
+Date:   Fri Jul 1 13:57:18 2016 -0600
+
+    bump to v1.1.3
+
+commit 1b54f92e0889338ff35172befaba28b5ebadf6c0
+Merge: 2f5ffd2 c1c6615
+Author: presstab <presstab1337@gmail.com>
+Date:   Fri Jul 1 09:40:21 2016 -0600
+
+    Merge pull request #41 from davidlatapie/patch-1
+    
+    Update build-osx.md
+
+commit c1c661596a54906c3ffce86f310862f547230cb0
+Author: David <david@latapie.name>
+Date:   Fri Jul 1 11:39:54 2016 +0200
+
+    Update build-osx.md
+    
+    New URL for berkeley-db
+
+commit 2f5ffd2ea3988317962cdd7007f248fab878d0b9
+Merge: fbac29d 43c6ef3
+Author: presstab <presstab1337@gmail.com>
+Date:   Sun May 29 09:46:31 2016 -0600
+
+    Merge pull request #40 from billotronic/master
+    
+    Autogen.sh requires aclocal from this package
+
+commit 43c6ef3fc25c200a7aa25d559241d158e29cbc73
+Author: billotronic <billotronic@hush.com>
+Date:   Sat May 28 06:53:20 2016 -0500
+
+    Autogen.sh requires aclocal from this package
+
+commit fbac29dea406f07fc39c14399660d9a6abc07ad0
+Author: presstab <presstab1337@gmail.com>
+Date:   Fri Apr 15 11:52:52 2016 -0600
+
+    Prevent socket leak in ThreadSocketHandler.
+    
+    https://github.com/bitcoin/bitcoin/commit/d20791b0e524bb1834ec7776acf0dec84c24861b
+
+commit 0a341960e15c74576ea7b7c647aa87124e0107a8
+Author: presstab <presstab1337@gmail.com>
+Date:   Fri Apr 15 11:48:49 2016 -0600
+
+    Correct some proxy related socket leaks.
+    
+    https://github.com/bitcoin/bitcoin/commit/0bd05b53b155bc28b6e5dfd967cafaafb44a439f
+
+commit 685a4242c0cc68b3ba8ff3c03ce714e1205b9248
+Author: presstab <presstab1337@gmail.com>
+Date:   Fri Apr 15 11:40:09 2016 -0600
+
+    Don't poll showmyip.com, it doesn't exist anymore
+    
+    This leaves us with only one candidate, checkip.dyndns.org.
+    GetMyExternalIP should be phased out as soon as possible.
+    
+    https://github.com/bitcoin/bitcoin/commit/5332b0a429f42c49c4b70e71870f2202c0cfa844
+
+commit dda9d609214321a7a58dd59fe827b452d63f6922
+Author: presstab <presstab1337@gmail.com>
+Date:   Fri Apr 15 11:37:26 2016 -0600
+
+    Avoid querying DNS seeds, if we have open connections.
+    
+    https://github.com/bitcoin/bitcoin/commit/026b9dfd6e833b4484e73d0b0311e16f3751deed
+
+commit 241fd8881888965a4082c49000a815af82da65a0
+Author: presstab <presstab1337@gmail.com>
+Date:   Fri Apr 15 11:34:12 2016 -0600
+
+    Prevent Transmission of Empty tx
+
+commit 68c75985b99482e1f75b03dee65826931614d837
+Author: presstab <presstab1337@gmail.com>
+Date:   Mon Feb 22 23:13:37 2016 -0700
+
+    speed up coincontroldialog
+
+commit 96320663a625231bf70311202395a121561bb1ac
+Author: presstab <presstab1337@gmail.com>
+Date:   Mon Feb 22 13:11:52 2016 -0700
+
+    add missing line
+
+commit bc997819537997b1aa51bc1e0d097f114d828414
+Author: presstab <presstab1337@gmail.com>
+Date:   Sun Feb 21 21:10:05 2016 -0700
+
+    optimize bootstrapping
+
+commit e25e6a126c4426a91861569ddb5e8bbbd3674910
+Author: presstab <presstab1337@gmail.com>
+Date:   Sun Feb 21 11:00:52 2016 -0700
+
+    add block hash to index (WARNING requires resync!!)
+
+commit 5623a1b880831cc46df439efb8af0745a522380e
+Author: presstab <presstab1337@gmail.com>
+Date:   Sun Feb 21 10:49:00 2016 -0700
+
+    reduce QT resource consumption by calling for less updates
+
+commit db537bed2cfcb87aab3038453c302ea298e4c98b
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sat Jan 23 16:24:50 2016 -0700
+
+    replace MNT reference
+
+commit 204cab67aa9601da366ccab750b1c5a710b8f218
+Merge: b1884a2 c91f0b9
+Author: presstab <presstab1337@gmail.com>
+Date:   Wed Jan 13 11:21:50 2016 -0700
+
+    Merge pull request #38 from presstab/master
+    
+    allow spending of unconfirmed inputs if they are your own
+
+commit c91f0b944353430afa969a7d1d7da0d03f0dda66
+Author: presstab <presstab1337@gmail.com>
+Date:   Wed Jan 13 11:20:24 2016 -0700
+
+    allow spending of unconfirmed inputs if they are your own
+
+commit b1884a2b104dcce531c3221fd94a1e99dae8f49e
+Author: presstab <presstab1337@gmail.com>
+Date:   Fri Jan 1 10:45:57 2016 -0700
+
+    Update build-unix.md
+
+commit f3f9ec62dff01c362df8744ce774cfc7908b7406
+Merge: fb34a3a 67d3be3
+Author: presstab <presstab1337@gmail.com>
+Date:   Thu Dec 3 13:23:05 2015 -0700
+
+    Merge pull request #36 from presstab/master
+    
+    v1.1.2
+
+commit 67d3be37dfa70aa8dd07e7c7f9967631390a184b
+Author: presstab <presstab1337@gmail.com>
+Date:   Thu Dec 3 13:21:37 2015 -0700
+
+    v1.1.2
+
+commit fb34a3abbc98a8a0be251ca299478dd41d8e109a
+Merge: df5137d 562d979
+Author: presstab <presstab1337@gmail.com>
+Date:   Thu Dec 3 11:36:24 2015 -0700
+
+    Merge pull request #35 from presstab/master
+    
+    Fix invalid signature with crafted length
+
+commit 562d9796c829965e635ce759c216cf226cfed76b
+Author: presstab <presstab1337@gmail.com>
+Date:   Thu Dec 3 11:34:57 2015 -0700
+
+    bump to v1.1.2
+
+commit e9299f3500c23cc0189aca1904d53949f9471af9
+Author: presstab <presstab1337@gmail.com>
+Date:   Thu Dec 3 11:21:12 2015 -0700
+
+    update hard checkpoints
+
+commit 03aac2013d0505b5e6d69561e956439e4f968ad4
+Author: presstab <presstab1337@gmail.com>
+Date:   Thu Dec 3 11:11:43 2015 -0700
+
+    Fix invalid signature with crafted length
+    
+    https://github.com/ppcoin/ppcoin/commit/4f3f5d877e57cdd2fc34a09c9db2323e7d7e2563
+    
+    https://github.com/ppcoin/ppcoin/commit/06d2cba29957f720ba9e368cc46502485352ce3d
+    
+    https://github.com/ppcoin/ppcoin/issues/100
+    
+    https://bitcointalk.org/index.php?topic=678849.msg13134930#msg13134930
+
+commit df5137d9a28a52a949ff89251cd85331aa22a5eb
+Merge: 9246e03 7659874
+Author: presstab <presstab1337@gmail.com>
+Date:   Mon Nov 30 16:19:47 2015 -0700
+
+    Merge pull request #34 from presstab/master
+    
+    fill in information about hashsettings combinedust
+
+commit 7659874fc3a204b87f558b747923d5c3ee458e33
+Author: presstab <presstab1337@gmail.com>
+Date:   Mon Nov 30 16:17:31 2015 -0700
+
+    fill in information about hashsettings combinedust
+
+commit 9246e037cfbda1b77662308b51ff7d8a0e7bcad7
+Merge: 8c68e7f 3aa19b9
+Author: presstab <presstab1337@gmail.com>
+Date:   Mon Nov 30 09:26:44 2015 -0700
+
+    Merge pull request #33 from presstab/master
+    
+    Use GetProofOfStakeReward() to calc reward for stake split calcs
+
+commit 3aa19b9c8b0ca600fed64a6fe94bfc4946bb0b3b
+Author: presstab <presstab1337@gmail.com>
+Date:   Mon Nov 30 09:25:22 2015 -0700
+
+    Use GetProofOfStakeReward() to calc reward for stake split calcs
+
+commit d6cf70fed69879f4b1719a76c0d346694de50281
+Merge: 83065d8 8c68e7f
+Author: presstab <presstab1337@gmail.com>
+Date:   Mon Nov 30 09:06:06 2015 -0700
+
+    Merge pull request #1 from hyperstake/master
+    
+    Catch up to master
+
+commit 8c68e7f2bd9ef5e5406db299f9b07db4f6b897b2
+Author: presstab <presstab1337@gmail.com>
+Date:   Fri Nov 6 16:10:48 2015 -0700
+
+    add ability to turn off dust collector in coinstake
+
+commit e0ef0526f387266ee03e46e8aa421d3fcb4f3da9
+Merge: 9fe865e d108bea
+Author: presstab <presstab1337@gmail.com>
+Date:   Fri Nov 6 11:54:04 2015 -0700
+
+    Merge pull request #32 from perl5577/patch-1
+    
+    add support for miniupnpc api version 14
+
+commit d108bea9d1977b4afff0d3ac7de1625f4803671e
+Author: perl5577 <perl@onishin.org>
+Date:   Wed Nov 4 19:29:03 2015 +0100
+
+    add support for miniupnpc api version 14
+    
+    Need for archlinux
+
+commit 9fe865e0e1d1c31bef5eaacd34f2f72fabba74d4
+Merge: dbb7b9f e0a2f20
+Author: presstab <presstab1337@gmail.com>
+Date:   Tue Nov 3 09:03:22 2015 -0700
+
+    Merge pull request #31 from lightsplasher/master
+    
+    Changed date labels to hidden, added text selectable to total
+
+commit e0a2f20231fbc25d2397d767f5c33c1fe54f92e3
+Author: Lightsplasher <bert@lightsplasher.com>
+Date:   Mon Nov 2 21:52:41 2015 -0800
+
+    Changed date labels to hidden, added text selectable to total
+
+commit dbb7b9f64a1c09bb554c8139717c645a64ce6f4b
+Author: presstab <presstab1337@gmail.com>
+Date:   Mon Nov 2 16:24:33 2015 -0700
+
+    Keep stake coins set in memory instead of iterating every time we hash
+
+commit 3ddb73a1ffc2f90fd50832c04fe907a301192941
+Author: presstab <presstab1337@gmail.com>
+Date:   Mon Nov 2 16:13:42 2015 -0700
+
+    Do not query MintableCoins() as frequently
+
+commit 7e95a3fad27d182db2251b29abd735bb932ddb1e
+Author: presstab <presstab1337@gmail.com>
+Date:   Mon Oct 26 16:27:36 2015 -0600
+
+    another correction to cclistcoins potential stake
+
+commit 97b38471e7e0c1044e92ba986fd1f9640fa4a7a1
+Author: presstab <presstab1337@gmail.com>
+Date:   Mon Oct 26 13:37:23 2015 -0600
+
+    fix cclistcoins potential stake calculation
+
+commit 3da92b71ff31ab2be3e5a73b8de311b3f48938c0
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Thu Oct 15 23:50:25 2015 -0600
+
+    gettxfee RPC call
+
+commit 0dde1761cd80ecd48abb7b8cf9a73b215970c704
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Mon Oct 12 23:12:43 2015 -0600
+
+    remove bug causing stake to split if MultiSend enabled
+
+commit 806e1cadfaf3291153331adf5d9e4140e5a70119
+Author: presstab <presstab1337@gmail.com>
+Date:   Mon Oct 5 15:29:45 2015 -0600
+
+    make sure staking address shows up on transaction record
+
+commit 44f7febc9b549a1fc6ad7e9c52f2ba05509482a7
+Author: presstab <presstab1337@gmail.com>
+Date:   Mon Oct 5 15:20:02 2015 -0600
+
+    MultiSend in CoinStake Transaction
+    
+    Thanks to dooglus work on Clams with different coinstake output
+    addresses
+    https://github.com/nochowderforyou/clams/commit/73ee56e3d416c06ed92c34ce8f5a1d2886475945
+
+commit 6661c75c85cf16ba3d429baab8732150e9f1d43d
+Author: billotronic <billotronic@hush.com>
+Date:   Sat Aug 8 16:44:16 2015 -0500
+
+    updated qt5 dependencies
+
+commit 3d77b35403729174de7cca0c43d51f090a7197c6
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Thu Jul 30 21:58:47 2015 -0600
+
+    add default return on a void function
+
+commit 83065d8ead2c23a69f80e2b672ba3686e87acde7
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Thu Jul 30 18:44:01 2015 -0600
+
+    distinguish between IsConfirmed & IsConfirmedInMainChain
+
+commit 24b9867a8f260ed59713bf2860139b61134d0820
+Author: presstab <presstab1337@gmail.com>
+Date:   Thu Jul 23 16:08:57 2015 -0600
+
+    Revert "add privkeydump security warnings"
+    
+    This reverts commit 6037fde980a0d4fd881b725322159c20ab40dcb9.
+
+commit 255236386c78f9c01269b72386794309ed84c4c7
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Wed Jul 22 23:01:00 2015 -0600
+
+    remove old IRC code
+
+commit 8ddfc511516a0fa0ed799e3aa2b3d26a40795dfe
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Wed Jul 22 22:56:38 2015 -0600
+
+    Revert "remove old IRC code"
+    
+    This reverts commit a181daa4592f3a3c6215cd2346c15f353e6a5140.
+
+commit a181daa4592f3a3c6215cd2346c15f353e6a5140
+Author: noise23 <admin@acidpool.com>
+Date:   Wed Jun 24 00:21:12 2015 +0300
+
+    remove old IRC code
+
+commit b97b0cfb142f5746ea1cdbfd425b52ae621f7366
+Author: billotronic <billotronic@hush.com>
+Date:   Mon Jun 29 18:58:16 2015 -0500
+
+    bump build 1.1.1.3
+
+commit ffc6d88759bd7814830946892159cb86200951ba
+Author: billotronic <billotronic@hush.com>
+Date:   Mon Jun 29 17:57:43 2015 -0500
+
+    bump build 1.1.1.3
+
+commit df4acb1567c0addd1b2000f72c1b8e0a01900f0c
+Author: billotronic <billotronic@hush.com>
+Date:   Mon Jun 29 17:57:28 2015 -0500
+
+    bump build 1.1.1.3
+
+commit 3b253ac048b99f462a5ea181df3db037eac84d54
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Thu Jun 25 22:29:13 2015 -0600
+
+    hashsettings RPC
+    
+    hashsettings <drift/interval><seconds>
+    ex: 'hashsettings drift' will return the current drift settings
+    ex: 'hashsettings interval' will return the current interval settings
+    ex: hashsettings drift 45
+    ex: hashsettings interval 20
+    ex: 'hashsettings default' returns the settings to default
+    
+    hashdrift is how many second into the future your wallet will stake in
+    one hashing burst. Interval is how often your client will search for new
+    hashes. If you set your hashdrift to 45, then your client will create 45
+    unique proof of stake hashes, the only thing changing the hash result is
+    the timestamp included, thus you hash 45 seconds into the future.\n"
+    "Each hash is an attempt to meet the staking target. If you don't hit
+    the staking target, your client will pause staking for the set interval.
+    If the interval is 22 seconds, the wallet will create 45 hashes, wait 22
+    seconds, then create 45 hashes. Approximately 23 of those hashes will be
+    identical as the previous rounds hashes.
+
+commit e6de12097c4aaf585b271f02c7e2b80e74e313a8
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Thu Jun 25 17:16:00 2015 -0600
+
+    Revert "Change max outbound connections to 125"
+    
+    This reverts commit 355e80b4abe55f58b019b314c080059ca53a7116.
+
+commit 355e80b4abe55f58b019b314c080059ca53a7116
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Wed Jun 24 23:58:48 2015 -0600
+
+    Change max outbound connections to 125
+
+commit b37c1dc36eb7b75b26fba3ff11a9c61d4a2af314
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Wed Jun 24 23:48:36 2015 -0600
+
+    fix address book button for multisend GUI
+
+commit f683a2ea2e354af473ffb8808658726ea66336b5
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Wed Jun 24 18:38:35 2015 -0600
+
+    calcdialog.cpp remove extra includes
+
+commit 8a92f0185b4ef9887e92f1b94ea8d8db726e7a93
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Wed Jun 24 18:30:30 2015 -0600
+
+    dont allow user to enter hashdrift higher than 60 seconds
+
+commit 3bc241197742ee904dc1c435eb64f96ad5028a17
+Author: presstab <presstab1337@gmail.com>
+Date:   Wed Jun 24 16:23:02 2015 -0600
+
+    hashdrift default 45 sec, user rpc command
+
+commit d85d790d36d31af4fda2ab3dff7b10605f7c5f78
+Author: presstab <presstab1337@gmail.com>
+Date:   Fri Jun 19 11:51:34 2015 -0600
+
+    fix weight calc in cclistcoins RPC
+
+commit 5605ef365634decedf3140a975a5f2ee736f7cd3
+Merge: 02f5aac d7c9d12
+Author: presstab <presstab1337@gmail.com>
+Date:   Wed Jun 17 15:42:08 2015 -0600
+
+    Merge pull request #29 from billotronic/master
+    
+    Update Makefile.am
+
+commit 02f5aac0c8f2e210ea1556e1d3c927f8d3914ce4
+Author: presstab <presstab1337@gmail.com>
+Date:   Mon Jun 8 08:48:56 2015 -0600
+
+    replace seednode
+
+commit d7c9d12db47a5e09976ddccdced5ad41eda4247c
+Author: billotronic <billotronic@hush.com>
+Date:   Sat Jun 6 16:52:08 2015 -0500
+
+    Update Makefile.am
+
+commit 9a3ffa36c9f685d950d100374d347b7f7d4d0b70
+Merge: 9f274a7 d326167
+Author: billotronic <billotronic@hush.com>
+Date:   Tue Jun 2 07:37:06 2015 -0700
+
+    Merge pull request #27 from robvanmieghem/master
+    
+    Package the themes in the osx application bundle
+
+commit d326167db55a492dcf4ebc52a87656db54409faa
+Author: Rob Van Mieghem <rob@vanmieghemcloud.com>
+Date:   Tue Jun 2 15:15:47 2015 +0200
+
+    Package the themes in the osx application bundle
+
+commit 9f274a7c072e420a18e2be041d9c9bfe30074f1d
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Thu May 28 22:57:25 2015 -0600
+
+    bump build v1.1.1.2
+
+commit 9df23863d7c0e54da5851f1330b955014bcaaacc
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Thu May 28 22:57:13 2015 -0600
+
+    remove checkpoint server errors
+    
+    HYP has no checkpoint server
+
+commit 7795511686b0998be717358cbd778549e8092415
+Author: presstab <presstab1337@gmail.com>
+Date:   Fri May 22 15:10:18 2015 -0600
+
+    fix mintable coins
+
+commit 4a85d89489e1a9d4414b875a569f68d00b6983a9
+Author: presstab <presstab1337@gmail.com>
+Date:   Fri May 22 14:31:04 2015 -0600
+
+    bump build # v1.1.1.1
+
+commit f90e82796ceb6cf04fa4ef61d9398ed3b994bd55
+Author: presstab <presstab1337@gmail.com>
+Date:   Fri May 22 14:25:19 2015 -0600
+
+    fix grabbing wrong age for coin selection
+
+commit 258b605d88e0c6c0206032135e4542b0ecafe9c3
+Author: presstab <presstab1337@gmail.com>
+Date:   Wed May 20 17:45:50 2015 -0600
+
+    charitydialog linux 2
+
+commit 00c0270f1c1c66e8268313b80989a8382994c581
+Author: presstab <presstab1337@gmail.com>
+Date:   Wed May 20 17:34:32 2015 -0600
+
+    adjust charitydialog spacing for linux
+
+commit bf61c87416cb34e2c7a2326a91a60a47c343fece
+Author: presstab <presstab1337@gmail.com>
+Date:   Wed May 20 17:16:00 2015 -0600
+
+    v 1.1.1.0
+
+commit 56f5b04c748915908e8cf531d6ed538ad5d83a28
+Author: presstab <presstab1337@gmail.com>
+Date:   Wed May 20 17:04:03 2015 -0600
+
+    MultiSend GUI part II
+
+commit b9e680486b11864568957318a631c469a68ff5c2
+Author: presstab <presstab1337@gmail.com>
+Date:   Wed May 20 11:37:44 2015 -0600
+
+    check for reservebalance CWallet::MintableCoins()
+
+commit 005b3015f1196336569b04f192862db50572d1a3
+Author: presstab <presstab1337@gmail.com>
+Date:   Wed May 20 11:27:05 2015 -0600
+
+    add on_changeaddressbookbutton_clicked()
+    
+    make it compilable until it is completely removed
+
+commit 41693feb31637314db0edfa8670c04f3d3cce066
+Author: presstab <presstab1337@gmail.com>
+Date:   Wed May 20 11:14:40 2015 -0600
+
+    multisend GUI part 1
+    
+    Still need to redesign the dialog to have a clear multisend vector
+    button, and get rid of stake for charity text as well as min, max, and
+    changeaddress fields
+
+commit 58894ba439e68d7a1418a169857cba38ec9c4bb7
+Author: presstab <presstab1337@gmail.com>
+Date:   Wed Apr 15 15:32:44 2015 -0600
+
+    remove printf error from kernel to prevent log growth
+
+commit 84b4374f4f9c93197e8791cd071675beba713e04
+Author: presstab <presstab1337@gmail.com>
+Date:   Wed Apr 15 15:32:07 2015 -0600
+
+    Double check for mintable coins
+
+commit c84de1ff89d1f1dc70654be2712d105ad121d6bf
+Merge: 8dd1fec bdee341
+Author: hyperstake <presstab1336@gmail.com>
+Date:   Thu Mar 19 13:36:09 2015 -0600
+
+    Merge pull request #21 from robvanmieghem/master
+    
+    Gitian build
+
+commit bdee3411ecc303890d45b6756c2adda4519aed3a
+Author: Rob Van Mieghem <rob@vanmieghemcloud.com>
+Date:   Wed Mar 18 11:57:15 2015 +0100
+
+    Added missing movies to the makefile
+
+commit 57f21a3bc2a1082e4e0e2e8c90928d26068e0ae5
+Author: Rob Van Mieghem <rob@vanmieghemcloud.com>
+Date:   Wed Mar 18 11:09:10 2015 +0100
+
+    Added missing s4c.png to the makefile
+
+commit 64893e639514174b1c3d088ba868ce0b7e6bc38c
+Author: Rob Van Mieghem <rob@vanmieghemcloud.com>
+Date:   Wed Mar 18 10:07:02 2015 +0100
+
+    Added missing mining_inactive.png to the makefile
+
+commit 606469f3a024bbeb93cc2f57532c70fbaf46bbc9
+Author: Rob Van Mieghem <rob@vanmieghemcloud.com>
+Date:   Wed Mar 18 09:28:45 2015 +0100
+
+    Added missing info.png to the makefile
+
+commit c4d5fba0840a48e6e66fa554bc50b05013fd5a1e
+Author: Rob Van Mieghem <rob@vanmieghemcloud.com>
+Date:   Wed Mar 18 08:26:48 2015 +0100
+
+    Added missing blexp.png to the makefile
+
+commit 26ecf4c9d3105a5876c1efee055b7de50e738378
+Author: Rob Van Mieghem <rob@vanmieghemcloud.com>
+Date:   Tue Mar 17 22:27:12 2015 +0100
+
+    Add mining.png to the makefile
+
+commit 703accb1d6e5f18729bdae8a73fcd1670737fe54
+Author: Rob Van Mieghem <rob@vanmieghemcloud.com>
+Date:   Mon Mar 16 12:15:25 2015 +0100
+
+    Revert "remove obsolete uritests"
+    
+    This reverts commit 0606e9acfb845c49dcca479112867925950e3dcd.
+
+commit c5384d9d48f9b479225868111d26844376779d01
+Author: Rob Van Mieghem <rob@vanmieghemcloud.com>
+Date:   Mon Mar 16 12:15:17 2015 +0100
+
+    Revert "And remove from the makefile"
+    
+    This reverts commit 796d675e387cf8f51d4e1a462212c4306ccccdd3.
+
+commit 796d675e387cf8f51d4e1a462212c4306ccccdd3
+Author: Rob Van Mieghem <rob@vanmieghemcloud.com>
+Date:   Mon Mar 16 09:10:37 2015 +0100
+
+    And remove from the makefile
+
+commit 0606e9acfb845c49dcca479112867925950e3dcd
+Author: Rob Van Mieghem <rob@vanmieghemcloud.com>
+Date:   Mon Mar 16 08:11:25 2015 +0100
+
+    remove obsolete uritests
+
+commit d4295f8a43411140f7f0a4fda4d51f384f439493
+Author: Rob Van Mieghem <rob@vanmieghemcloud.com>
+Date:   Sun Mar 15 19:23:28 2015 +0100
+
+    apparently qcomboboxfiltercoins is not used
+
+commit 511e252bb1f47775b5422ef08a53c7bc4e67fa06
+Author: Rob Van Mieghem <rob@vanmieghemcloud.com>
+Date:   Sun Mar 15 16:28:30 2015 +0100
+
+    added missing aes_helper.c to makefile
+
+commit c47f19c8e54bdbb987d3c3b609d84576b972be75
+Author: Rob Van Mieghem <rob@vanmieghemcloud.com>
+Date:   Sun Mar 15 12:59:26 2015 +0100
+
+    added missing hashblock.h to makefile
+
+commit 5c421e0b5a6dd72b7fe9f084faef1c2e52d7dfad
+Author: Rob Van Mieghem <rob@vanmieghemcloud.com>
+Date:   Sun Mar 15 11:50:39 2015 +0100
+
+    Added missing scrypt_mine.h to makefile
+
+commit 97b81fbaef0264fa06f9113d9ecd52d5a2020c1c
+Author: Rob Van Mieghem <rob@vanmieghemcloud.com>
+Date:   Sun Mar 15 10:55:40 2015 +0100
+
+    Added missing sph_types.h to makefile
+
+commit 51dbeb67ddadd0d3c7f79e5328f107a005e1116d
+Author: Rob Van Mieghem <rob@vanmieghemcloud.com>
+Date:   Sun Mar 15 09:57:09 2015 +0100
+
+    remove leftover strlcpy copyright
+
+commit d1c5488ce74a6e81136b3555c763635fc673f737
+Author: Wladimir J. van der Laan <laanwj@gmail.com>
+Date:   Tue Oct 2 21:36:39 2012 +0200
+
+    get rid of strlcpy.h
+    
+    Don't use hand-rolled string manipulation routine with a fixed
+    buffer, instead make use of c++ strings and boost.
+    
+    bitcoin commit: https://github.com/bitcoin/bitcoin/commit/6032e4f4e7c1892a4e3f0a1a2007e4cd0fe99937
+
+commit 0b50aba8f87bad8e0f22d50016a1c3c3b065a892
+Author: Rob Van Mieghem <rob@vanmieghemcloud.com>
+Date:   Sun Mar 15 07:00:28 2015 +0100
+
+    remove references to src/leveldb in make dist
+
+commit 7bfcec13ba12b4304c87245332ce5cedd830f873
+Author: Rob Van Mieghem <rob@vanmieghemcloud.com>
+Date:   Sun Mar 15 06:46:31 2015 +0100
+
+    Remove unexisting sources used in dist target
+
+commit 21aa0bb8b844508a27761966765a0bf5c8c371a4
+Author: Rob Van Mieghem <rob@vanmieghemcloud.com>
+Date:   Sun Mar 15 05:49:00 2015 +0100
+
+    older depends set
+
+commit 1d45fd80074b1b12cf08a1c32da4ab81241e757e
+Author: Rob Van Mieghem <rob@vanmieghemcloud.com>
+Date:   Sat Mar 14 09:16:53 2015 +0100
+
+    And from the native_cctools dependencies
+
+commit 227bf2a659f44f37e974bb5c0751d8d30d042867
+Author: Rob Van Mieghem <rob@vanmieghemcloud.com>
+Date:   Fri Mar 13 21:17:50 2015 +0100
+
+    and from the darwin native packages list
+
+commit 86cfd3e4ca8604b651d6a08187d70dbed194220e
+Author: Rob Van Mieghem <rob@vanmieghemcloud.com>
+Date:   Fri Mar 13 18:43:08 2015 +0100
+
+    remove troubled libs from contrib/depends
+
+commit f06a7491a1c0017a6982dfb227f22d05bed2c716
+Author: Rob Van Mieghem <rob@vanmieghemcloud.com>
+Date:   Fri Mar 13 16:58:20 2015 +0100
+
+    Added depends makefile
+
+commit a80766aa33a0042a185be4ca201419b9a8b0666d
+Author: Rob Van Mieghem <rob@vanmieghemcloud.com>
+Date:   Fri Mar 13 15:29:45 2015 +0100
+
+    Updated contrib/depends
+
+commit f29506953270dcf065b031c9b6788ad432f4dd84
+Author: Rob Van Mieghem <robvanmieghem@gmail.com>
+Date:   Fri Mar 13 14:39:15 2015 +0100
+
+    still remaining sdk10.9 reference
+
+commit 2d3d9381fc22e1b4725363707a27a7cae92f4c4b
+Author: Rob Van Mieghem <robvanmieghem@gmail.com>
+Date:   Fri Mar 13 14:27:45 2015 +0100
+
+    use osx sdk 10.7
+
+commit 11b642a227ace938aee65600ef4e479ee72df173
+Author: Rob Van Mieghem <rob@vanmieghemcloud.com>
+Date:   Fri Mar 13 09:14:31 2015 +0100
+
+    Adapted the gitian build descriptors
+
+commit 0358c381a850ffee92b1d661065ae745c2ffc80b
+Author: Rob Van Mieghem <rob@vanmieghemcloud.com>
+Date:   Fri Mar 13 08:12:15 2015 +0100
+
+    documentation for the gitian building
+
+commit 8dd1fecff0759294d082499dde8c83931dabbae5
+Merge: 8786eb4 3ac3790
+Author: hyperstake <presstab1336@gmail.com>
+Date:   Thu Mar 12 14:02:23 2015 -0600
+
+    Merge pull request #19 from robvanmieghem/master
+    
+    Update the osx and unix build documentation
+
+commit 3ac3790cf350786421f5564e6b1b1f11de9e6780
+Author: Rob Van Mieghem <rob@vanmieghemcloud.com>
+Date:   Thu Mar 12 18:46:46 2015 +0100
+
+    Update the osx and unix build documentation
+
+commit 8786eb4884135c7477175c7b69701680ffc5fdc8
+Author: presstab <presstab1337@gmail.com>
+Date:   Tue Mar 10 14:41:44 2015 -0600
+
+    Revert "Don't use -dbcache for BDB anymore"
+    
+    This reverts commit d0e90449a62e3d6e921794ea987d4c30a385380b.
+
+commit 8124ad900f3d942f987a21351ffa12dc5446f745
+Author: presstab <presstab1337@gmail.com>
+Date:   Tue Mar 10 14:28:17 2015 -0600
+
+    Make explicitly requested salvage operations keep going
+    
+    https://github.com/bitcoin/bitcoin/commit/14c9d116be476d08dd18f2e9f4a8ed251a6bbf79
+
+commit d0e90449a62e3d6e921794ea987d4c30a385380b
+Author: presstab <presstab1337@gmail.com>
+Date:   Tue Mar 10 14:24:06 2015 -0600
+
+    Don't use -dbcache for BDB anymore
+    
+    https://github.com/bitcoin/bitcoin/commit/2e3c76bf9857f5ac2814df9fd6b9b5b7a7eff88a
+
+commit dd0aa2cb8769a56d66e364cf8202fd0ba03e0af0
+Author: presstab <presstab1337@gmail.com>
+Date:   Tue Mar 10 13:13:34 2015 -0600
+
+    ETRKEPTION typo
+
+commit 2815c2de45c8170f30febcac252a2f3f327d40fc
+Author: presstab <presstab1337@gmail.com>
+Date:   Tue Mar 10 11:30:25 2015 -0600
+
+    Some fixes to CNetMessage processing
+    
+    https://github.com/litecoin-project/litecoin/commit/967f24590b43f0f84148f669d886b40fe45aa978?diff=unified
+
+commit 26e5706c14409f5d3419cfc0fc3d58f47b48cf9b
+Author: presstab <presstab1337@gmail.com>
+Date:   Tue Mar 10 10:59:47 2015 -0600
+
+    P2P: parse network datastream into header/data components in socket
+    
+    https://github.com/litecoin-project/litecoin/commit/607dbfdeaf7ec053d959c47c125d60c0b7e7216a
+
+commit 43fcf1d5b6813039afa3ebc951c2d0aafbde886f
+Merge: bbc11bf 7d7b4ad
+Author: hyperstake <presstab1336@gmail.com>
+Date:   Sat Mar 7 09:02:10 2015 -0700
+
+    Merge pull request #17 from robvanmieghem/master
+    
+    osx: fix the app creation and brand the dmg installer
+
+commit 7d7b4ad2a329af62d776b610ef3e6e6f1868d7c6
+Author: Rob Van Mieghem <rob@vanmieghemcloud.com>
+Date:   Sat Mar 7 09:57:18 2015 +0100
+
+    Hyperstake branding for the osx installer
+
+commit 0b9dc55d65dfe846f41a6ab54194aad2ec046054
+Author: Rob Van Mieghem <rob@vanmieghemcloud.com>
+Date:   Sat Mar 7 06:58:18 2015 +0100
+
+    Fix make deploy, Hyperstake-Qt.app and .dmg creation
+
+commit bbc11bff20466d3e51394ddaae4ff79f4cf98eb0
+Author: presstab <presstab1337@gmail.com>
+Date:   Wed Mar 4 13:35:18 2015 -0700
+
+    getinfo RPC make staking status more accurate
+
+commit 4302b5d5f656e76781fbefe37584cc6caeacd52e
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Thu Feb 26 20:30:58 2015 -0700
+
+    add more input info to TxToJSON
+
+commit d1a10d40bc4aa72d7d6cf30409709d65acd3767f
+Author: presstab <presstab1337@gmail.com>
+Date:   Thu Feb 26 14:28:44 2015 -0700
+
+    clear maps so they don't use too much memory
+
+commit 396a8ceb2e540661926e04253a8b789295527a58
+Merge: 08974f9 f8a6d3e
+Author: hyperstake <presstab1336@gmail.com>
+Date:   Wed Feb 25 09:39:44 2015 -0700
+
+    Merge pull request #15 from robvanmieghem/master
+    
+    Implement testnet UI differences using networkstyle
+
+commit f8a6d3e8955c18f6c7a27e4b1b7c065661e1a530
+Author: RobVanMieghem <rob@vanmieghemcloud.com>
+Date:   Wed Feb 25 14:32:09 2015 +0100
+
+    Added new files to .pro
+
+commit 87df88c21e3e66b50c0e4297ef9daa3767da57fc
+Author: RobVanMieghem <rob@vanmieghemcloud.com>
+Date:   Wed Feb 25 14:14:46 2015 +0100
+
+    Remove last references to testnet icons
+
+commit 7168f34822310fda783ddaf3d70daa2cbccb8af5
+Author: RobVanMieghem <rob@vanmieghemcloud.com>
+Date:   Wed Feb 25 13:21:41 2015 +0100
+
+    Implement the UI appearance using networkstyle
+
+commit 1aa9f83aa0506b62080537f15b303dfbfa7a53cd
+Author: RobVanMieghem <rob@vanmieghemcloud.com>
+Date:   Mon Feb 23 21:00:30 2015 +0100
+
+    remove regtest net since it is not known in hyperstake
+
+commit dd156d6bc0dfc0db8624b639b56006df11626c2d
+Author: RobVanMieghem <rob@vanmieghemcloud.com>
+Date:   Mon Feb 23 20:47:50 2015 +0100
+
+    Added bitcoin networkstyle.cpp/h
+
+commit 08974f993edb2f210ec093af55f54e2fea1e8d2b
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sat Feb 21 17:03:35 2015 -0700
+
+    add mint and moneysupply to listblocks RPC
+
+commit b6b647a0086bcb5ed202977f4258b3be71691551
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sat Feb 21 17:03:09 2015 -0700
+
+    make sure there is no 0 value in coin control
+
+commit d24ac9236682f399a4a1399341cec7e92a4beeb0
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sat Feb 21 15:37:31 2015 -0700
+
+    listblocks rpc
+
+commit e1200991da72a5141f61fccb0f34040c9d9a20a8
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sat Feb 21 14:55:18 2015 -0700
+
+    coincontroldialog use double instead of uint64
+
+commit f1d532c46ce52849b33f6e53217062f8ae259d2d
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sat Feb 21 14:49:36 2015 -0700
+
+    fix bitcoingui argument count
+
+commit 07d802364dfcccd0c2e0fa03abbb11a1f1f917ce
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sat Feb 21 12:50:19 2015 -0700
+
+    use int64_t for time rpc listblocks
+
+commit 76bc3c9ed395d95bc5b7f29cf0d77c4b9ce0948e
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sat Feb 21 11:44:21 2015 -0700
+
+    listblocks RPC
+
+commit a3306483263d61c2c48c62057bd43545cf1d0124
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Fri Feb 20 19:19:34 2015 -0700
+
+    add wallet lock and staking info to getinfo RPC
+
+commit 7af37e3be80c8b559c96f160093b40057e034154
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Fri Feb 20 18:43:00 2015 -0700
+
+    organize getstakeweight()
+
+commit bdfdf363a179609281e0a5bfbc55c2766f017038
+Author: presstab <presstab1337@gmail.com>
+Date:   Fri Feb 20 15:03:23 2015 -0700
+
+    fix more testnet weight calcs
+
+commit 28e204a017fe489ef95380b9971d1e9b743d1fa1
+Author: presstab <presstab1337@gmail.com>
+Date:   Fri Feb 20 14:43:01 2015 -0700
+
+    fix getweight rpc for testnet
+
+commit de67233dd2a68c516d14cea315584c2f4dbbea13
+Merge: 97d0362 ebe705f
+Author: hyperstake <presstab1336@gmail.com>
+Date:   Fri Feb 20 14:30:28 2015 -0700
+
+    Merge pull request #14 from robvanmieghem/master
+    
+    Re-enable hardening by default, fix qt compilation by creating position independent code
+
+commit ebe705f32b52f8e297921bcb80dbea84a2e59d41
+Author: RobVanMieghem <rob@vanmieghemcloud.com>
+Date:   Mon Feb 16 15:17:35 2015 +0100
+
+    For now use -fPIC/-pic for position independent code, linker fails for hyperstaked when using -pie
+
+commit f5ca7e31f5503caacb31779ababed75989735a30
+Author: RobVanMieghem <rob@vanmieghemcloud.com>
+Date:   Mon Feb 16 15:15:09 2015 +0100
+
+    Revert "HYP code is incompatible with hardening, for now disable it by default"
+    
+    This reverts commit 21ea6c7792315dc359f28e633aafe4f45d1f448d.
+
+commit 97d03629475cae476c8e74966dcbaf067b6ab8d5
+Author: presstab <presstab1337@gmail.com>
+Date:   Fri Feb 20 10:00:26 2015 -0700
+
+    initialize modifier interval properly
+
+commit 62cd6ce0f39319b3f0d4ea91e46480c62b9dd2ed
+Author: presstab <presstab1337@gmail.com>
+Date:   Thu Feb 19 15:24:41 2015 -0700
+
+    update testnet modifier settings
+
+commit cceb758deaa0158e464a78aca177cf6a686f5258
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Wed Feb 18 22:29:36 2015 -0700
+
+    remove uneeded things on kernel.cpp
+
+commit bd9771b14c9e59b92401a364c23831cd7a811ced
+Author: presstab <presstab1337@gmail.com>
+Date:   Wed Feb 18 19:29:13 2015 -0700
+
+    Add Test Net
+
+commit c6dc6a063dd15c5068c2c648cbe7809be483d046
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Mon Feb 16 14:37:17 2015 -0700
+
+    Build v1.1.0.2
+
+commit 9ed2c9cdc40d796d2dc5ec5e28030b3ffdfb3b6f
+Merge: a839674 4789844
+Author: hyperstake <presstab1336@gmail.com>
+Date:   Mon Feb 16 13:29:31 2015 -0700
+
+    Merge pull request #13 from robvanmieghem/fixdatadir
+    
+    Fix datadir command line parameter
+
+commit 4789844cfe7ac80469b754c44ca6c6dd2cf58458
+Author: RobVanMieghem <rob@vanmieghemcloud.com>
+Date:   Mon Feb 16 21:22:48 2015 +0100
+
+    Fix datadir command line parameter
+
+commit a839674b1c2828c4597cdcbfb937d4eb3fe9713e
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Mon Feb 16 10:40:34 2015 -0700
+
+    CAlert: only mark misbehaving if signature is bad
+
+commit 6bed18d9e88aac92434430192d7dfda3f789e271
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sun Feb 15 23:25:19 2015 -0700
+
+    v1.1.0.1
+
+commit e1a6d5dd4f824a446ea7123e4a65267f4dfd8535
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sun Feb 15 21:54:02 2015 -0700
+
+    strictincoming RPC: Stricter enforcement of incoming data
+
+commit 5eef7c71e82b9817e01dda7a019eeab3e338926b
+Merge: aaa16b1 1c210c4
+Author: hyperstake <presstab1336@gmail.com>
+Date:   Sun Feb 15 17:15:20 2015 -0700
+
+    Merge pull request #11 from robvanmieghem/master
+    
+    Replace qtipcserver.cpp/h with the newer osx compatible paymentserver.cpp/h implementation
+
+commit 1c210c4622b83346db0e8479351b94314d7568d4
+Merge: 6b79f15 aaa16b1
+Author: RobVanMieghem <rob@vanmieghemcloud.com>
+Date:   Mon Feb 16 00:41:09 2015 +0100
+
+    Merge commit 'aaa16b12a6c7c4b89f5b9e26295205445ac5f04e'
+    
+    * commit 'aaa16b12a6c7c4b89f5b9e26295205445ac5f04e':
+      remove boolarg
+
+commit 6b79f15acbbfaa4f4480da7ca32cb329fb906e7f
+Author: RobVanMieghem <rob@vanmieghemcloud.com>
+Date:   Mon Feb 16 00:40:47 2015 +0100
+
+    Don't include the Info.plist in the qt project file
+
+commit aaa16b12a6c7c4b89f5b9e26295205445ac5f04e
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sun Feb 15 16:37:40 2015 -0700
+
+    remove boolarg
+
+commit c0a2c04b08ff6d3fa83c7b0921050ac850c08d2f
+Merge: 1a936d9 e465811
+Author: RobVanMieghem <rob@vanmieghemcloud.com>
+Date:   Mon Feb 16 00:05:39 2015 +0100
+
+    Merge commit 'e465811c527d95a1f035955dcc58bf6f0157860a'
+    
+    * commit 'e465811c527d95a1f035955dcc58bf6f0157860a':
+      Alert ID < 200 not valid
+      More Alert Key
+      Strict Protocol & Alert Key changes
+
+commit e465811c527d95a1f035955dcc58bf6f0157860a
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sun Feb 15 14:42:56 2015 -0700
+
+    Alert ID < 200 not valid
+
+commit 5aa0f9b332ea45d01539ca0a115ed85a445978d3
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sun Feb 15 14:25:31 2015 -0700
+
+    More Alert Key
+
+commit 78e5e3cbed5f4c935584a236112c5992fe1b8e61
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sun Feb 15 14:24:58 2015 -0700
+
+    Strict Protocol & Alert Key changes
+    
+    Strict Protocol you will only connect to peers of same protocol. Access
+    Strict Protocol via conf or rpc.
+
+commit 1a936d90ec242dc1764a347921b25bcb07afb938
+Author: Rob Van Mieghem <rob@vanmieghemcloud.com>
+Date:   Sun Feb 15 18:21:58 2015 +0100
+
+    Add the paymentserver files to the qtcreator project file
+
+commit a66c7d58f5c2b3024b3e26875dbe62b4cfde8965
+Author: RobVanMieghem <rob@vanmieghemcloud.com>
+Date:   Sun Feb 15 16:46:28 2015 +0100
+
+    Replace qtipcserver with an early version of paymentserver.
+    
+    Provides osx compatibility and makes the build work without qmake.
+    qtipcserver was not modified and configured for hyperstake correctly anyway.
+
+commit f264bd8063692eebce33640b3a2da0d4ec77ce21
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sat Feb 14 19:45:12 2015 -0700
+
+    Update Versioning
+
+commit 69b154fc7498677565c74f4d6423606b6e5ce53c
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sat Feb 14 17:38:27 2015 -0700
+
+    Alert Key & Protocol #
+
+commit 028748738bb82bf67fb4ca6e6e6ecae39e10c4be
+Merge: 5da1a10 706061f
+Author: hyperstake <presstab1336@gmail.com>
+Date:   Sat Feb 14 15:05:52 2015 -0700
+
+    Merge pull request #10 from robvanmieghem/master
+    
+    Fix qt creator project
+
+commit 706061ff9f3ad3403b7c52aaaa6339ce792e9e59
+Merge: 6a952ba 5da1a10
+Author: RobVanMieghem <rob@vanmieghemcloud.com>
+Date:   Sat Feb 14 21:47:21 2015 +0100
+
+    Merge commit '5da1a10b40b2c4a22376803702eec45065cc3cf0'
+    
+    * commit '5da1a10b40b2c4a22376803702eec45065cc3cf0':
+      checkpoint correct fork
+
+commit 6a952baf0f4dbbfaedb905d7d9a57dc922a42668
+Author: Rob Van Mieghem <rob@vanmieghemcloud.com>
+Date:   Sat Feb 14 20:56:47 2015 +0100
+
+    Fix qt project
+
+commit 5da1a10b40b2c4a22376803702eec45065cc3cf0
+Merge: 3f81832 fb83d1e
+Author: presstab <presstab1337@gmail.com>
+Date:   Fri Feb 13 15:36:16 2015 -0700
+
+    Merge branch 'master' of https://github.com/hyperstake/HyperStake
+
+commit 3f818328d1cac500419201ca2cf4a55dff5bf6dd
+Author: presstab <presstab1337@gmail.com>
+Date:   Fri Feb 13 15:35:59 2015 -0700
+
+    checkpoint correct fork
+
+commit fb83d1e254a87d4241eac3eb6dd761c3ed73bc6b
+Merge: c4b5456 21ea6c7
+Author: hyperstake <presstab1336@gmail.com>
+Date:   Fri Feb 13 07:14:22 2015 -0700
+
+    Merge pull request #9 from robvanmieghem/master
+    
+    Fix hyperstaked compilation
+
+commit 21ea6c7792315dc359f28e633aafe4f45d1f448d
+Author: RobVanMieghem <rob@vanmieghemcloud.com>
+Date:   Fri Feb 13 08:49:09 2015 +0100
+
+    HYP code is incompatible with hardening, for now disable it by default
+
+commit 44b52228a42c52a13b739e986e2a8f03047f8e5c
+Author: RobVanMieghem <rob@vanmieghemcloud.com>
+Date:   Fri Feb 13 08:37:09 2015 +0100
+
+    Add removed files to gitignore
+
+commit be48e31ad2b87d0a7a643c14e637ac2bb80f4ca7
+Author: RobVanMieghem <rob@vanmieghemcloud.com>
+Date:   Fri Feb 13 08:34:07 2015 +0100
+
+    Remove some files generated by the buildsystem from source control
+
+commit 9d555371eedaa5ea05dbf2b17861290dbc699b80
+Author: RobVanMieghem <rob@vanmieghemcloud.com>
+Date:   Fri Feb 13 08:31:09 2015 +0100
+
+    Remove duplicate versionformat functions
+
+commit c4b54563744b1b70946d36c9e34f6271ba9fd5a0
+Merge: e998e8e 6aa991b
+Author: presstab <presstab1337@gmail.com>
+Date:   Thu Feb 12 20:01:29 2015 -0700
+
+    Merge branch 'master' of https://github.com/hyperstake/HyperStake
+
+commit e998e8e9aa3f9e6cae7d02b3028890818e3788b2
+Author: presstab <presstab1337@gmail.com>
+Date:   Thu Feb 12 20:01:09 2015 -0700
+
+    v1.1 Fork
+    
+    Forking at 1423836000; // Fri, 13 Feb 2015 14:00:00 GMT
+    to reign in timedrift to 60 seconds.
+
+commit 6aa991b27224d5dd4c205c4206f16fa41223a5a7
+Merge: be434ee 342ba8d
+Author: hyperstake <presstab1336@gmail.com>
+Date:   Thu Feb 12 20:00:07 2015 -0700
+
+    Merge pull request #8 from robvanmieghem/master
+    
+    Notificationcenter integration for mac osx
+
+commit 342ba8db389a7499e065c3760ffe30ef4242180e
+Author: RobVanMieghem <rob@vanmieghemcloud.com>
+Date:   Thu Feb 12 19:05:42 2015 +0100
+
+    Make notifications work for mac osx by porting bitcoin notificationhandler code
+
+commit be434ee4d37d3f8f54820d7cd8c2c1215515d757
+Author: presstab <presstab1337@gmail.com>
+Date:   Thu Feb 12 09:34:51 2015 -0700
+
+    modification to nHashDrift calcs
+
+commit c71b7a335cac48c4535d3ef805860d29297f8637
+Author: presstab <presstab1337@gmail.com>
+Date:   Wed Feb 11 15:02:28 2015 -0700
+
+    Sort Transactions by Date
+
+commit fb5d745f32dc97cb07d1db405492e8261ef7fbf2
+Author: presstab <presstab1337@gmail.com>
+Date:   Wed Feb 11 13:40:31 2015 -0700
+
+    version.cpp update
+
+commit 6c29b2cd4479a6afcf6f5a71cf8423a24663164f
+Author: presstab <presstab1337@gmail.com>
+Date:   Wed Feb 11 13:29:00 2015 -0700
+
+    v1.0.9.3-BETA
+
+commit 0be54e2f46bdbc226b5bf15049723324a2bbb28a
+Author: presstab <presstab1337@gmail.com>
+Date:   Wed Feb 11 13:27:08 2015 -0700
+
+    more checkpoints
+
+commit fcfc490f32893477d42127fe0871c2fede2180ab
+Author: presstab <presstab1337@gmail.com>
+Date:   Wed Feb 11 13:25:15 2015 -0700
+
+    liteStake & stake code revisions
+    
+    I redesigned the hashing iteration in a few ways.
+    
+    Code Reorginization - Instead of iterating the hashing in wallet.cpp, it
+    is iterated in kernel.cpp inside of checkstakekernelhash, this allows
+    the iteration to not need to initialize the variables for every
+    iteration. This is also true for the stake modifier, which was
+    previously
+    calculated for each iteration.
+    
+    liteStake - Previously the staking process would continuosly rehash the
+    same hashes over and over, needlessly taking up valuable CPU power.
+    I have added a std::map that tracks the block height and the last time
+    the wallet hashed on this height. Depending on your staking settings,
+    the wallet will not begin a new round of hashing until after a certain
+    amount of time has passed, or a new block is accepted. This time delay
+    can be found in main.cpp bitcoinminer(). This means that there will be
+    1-5 seconds of heavier CPU use once every few minutes, compared to
+    continued heavy CPU use.
+    
+    Staking Modes - This allows the user to decide how much time they want
+    to hash into the future and past. HYP has a max time drift of 15
+    minutes.
+    The aggressive mode allows the user to hash 10 minutes into the future
+    and 10 into the past. This will affect the chains timing a bit, and also
+    might make difficulty more volatile in the short run. In my opinion it
+    is more dangerous to allow a creative coder to do these same accepted
+    practices without letting general users do the same.
+
+commit 5d84f8662d14d9e7a5dc70285e19efd115efef80
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sun Feb 8 21:45:51 2015 -0700
+
+    Fix getweight rpc
+
+commit 6e35aaed2f3711fd5d76e981dba6803668927a9f
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sun Feb 8 21:30:37 2015 -0700
+
+    Replace clam references from autotools update
+
+commit 4736913972e4a182439180a8104a5b1dd40a8155
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sun Feb 8 21:26:34 2015 -0700
+
+    Update Version
+
+commit 8bbbd3b672e5f71affdb6a9d1a4c0384242ed4a4
+Merge: 6bd0f1c 6926c76
+Author: hyperstake <presstab1336@gmail.com>
+Date:   Sun Feb 8 21:15:59 2015 -0700
+
+    Merge pull request #7 from robvanmieghem/master
+    
+    Autotools build
+
+commit 6926c76e467218533c8d6c39212a431e8c846059
+Author: RobVanMieghem <rob@vanmieghemcloud.com>
+Date:   Sun Feb 8 23:36:11 2015 +0100
+
+    Ammend last commit (irc usage parameter)
+
+commit 7bb585d615334a523ccac234a6bbacbdc14b7766
+Merge: 39535bb 6bd0f1c
+Author: RobVanMieghem <rob@vanmieghemcloud.com>
+Date:   Sun Feb 8 23:34:54 2015 +0100
+
+    Merge commit '6bd0f1cae5c830ea4649879b4ebc46a26df6d582'
+    
+    * commit '6bd0f1cae5c830ea4649879b4ebc46a26df6d582':
+      change getWeight & multisend RPC
+      no free tx fees
+      more efficient stake selection
+      remove pnseed
+      turn off irc node discovery by default
+      fix mingw makefile
+      Mark keypool as used if del rec address
+      cclistcoins RPC add potential stake
+      multisend display formatting
+      potentialstake RPC
+    
+    Conflicts:
+            src/init.cpp
+            src/makefile.mingw
+
+commit 39535bb6d863723b07dec22df7efeeda1e8fc00b
+Author: RobVanMieghem <rob@vanmieghemcloud.com>
+Date:   Sun Feb 8 23:19:44 2015 +0100
+
+    Eliminate the need for QT_GUI define
+
+commit 1857c0ee73736950c8cdcb165c46fe094f1229b4
+Author: RobVanMieghem <rob@vanmieghemcloud.com>
+Date:   Sun Feb 8 20:40:32 2015 +0100
+
+    Fix locale references
+
+commit dda4002934cb2942bda41b907892037d5666cc6f
+Author: RobVanMieghem <rob@vanmieghemcloud.com>
+Date:   Sun Feb 8 18:21:09 2015 +0100
+
+    Add missing source files to the makefile
+
+commit 99c491252ba6544ca1ea7b9f56290a9f56b26bfd
+Author: RobVanMieghem <rob@vanmieghemcloud.com>
+Date:   Fri Feb 6 18:22:15 2015 +0100
+
+    Split the non gui start routines in a seperate file
+
+commit 6bd0f1cae5c830ea4649879b4ebc46a26df6d582
+Author: presstab <presstab1337@gmail.com>
+Date:   Thu Feb 5 09:47:26 2015 -0700
+
+    change getWeight & multisend RPC
+
+commit 3dd8204425949a94ead9e7ea48ffc7184304f4ab
+Author: RobVanMieghem <rob@vanmieghemcloud.com>
+Date:   Wed Feb 4 07:00:13 2015 +0100
+
+    Autotool and fix some includes and definitions
+
+commit 418ca53eab292f51fda41bc830f0a835cfc6b284
+Author: presstab <presstab1337@gmail.com>
+Date:   Wed Feb 4 16:39:58 2015 -0700
+
+    no free tx fees
+
+commit 49f7c076b5ba89d081ce24411f4df80e10688435
+Author: presstab <presstab1337@gmail.com>
+Date:   Wed Feb 4 14:44:23 2015 -0700
+
+    more efficient stake selection
+
+commit bd98a89a445f7bb8fe96fb3fee7eb1f46c16710c
+Author: presstab <presstab1337@gmail.com>
+Date:   Wed Feb 4 09:49:15 2015 -0700
+
+    remove pnseed
+
+commit bcfa3a340690a1d360b50407ceedfbef5a59eb6b
+Author: presstab <presstab1337@gmail.com>
+Date:   Wed Feb 4 09:48:17 2015 -0700
+
+    turn off irc node discovery by default
+
+commit 8450370ba7adee1a5b456f1034c824582c684e1d
+Author: presstab <presstab1337@gmail.com>
+Date:   Wed Feb 4 09:43:03 2015 -0700
+
+    fix mingw makefile
+
+commit b1af2904317e0d60d4bb5803470dfb4372875fae
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sun Feb 1 14:23:02 2015 -0700
+
+    Mark keypool as used if del rec address
+
+commit ddb325e8fd53d844d49917ce376f08f4986f526a
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sun Feb 1 13:40:31 2015 -0700
+
+    cclistcoins RPC add potential stake
+
+commit 6c1e957cc70559fa8b3420fdafdffce96335ad88
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sun Feb 1 13:10:38 2015 -0700
+
+    multisend display formatting
+
+commit 1586f0cbef46f61243a17c6405462a84f648aea0
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sun Feb 1 12:58:54 2015 -0700
+
+    potentialstake RPC
+
+commit 131b3a53065efa1d1e2666027b8551e04c5e584f
+Author: presstab <presstab1337@gmail.com>
+Date:   Fri Jan 30 15:30:37 2015 -0700
+
+    fill in payment to self info
+
+commit 80f11356a859e9fb58488066fd3ffdf20edb240e
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Thu Jan 29 18:10:22 2015 -0700
+
+    getconfs RPC
+    
+    returns only the number of confirmations for the transaction id
+
+commit eabeed120358edc9e0c941b4853d90381f231591
+Author: presstab <presstab1337@gmail.com>
+Date:   Thu Jan 29 12:52:34 2015 -0700
+
+    Display stored address label for stake display
+
+commit 1be9d61f16bde46682892a9b8c548712ba299844
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Tue Jan 27 21:29:03 2015 -0700
+
+    getweight RPC
+
+commit 8f657b809e2d0ac7e9c47d4f1fb54598b810f910
+Author: presstab <presstab1337@gmail.com>
+Date:   Tue Jan 27 10:04:51 2015 -0700
+
+    longer update time for less GUI lag
+
+commit 1053066aac061629bd29ce7224d18aac3c69d1bf
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Mon Jan 26 19:55:36 2015 -0700
+
+    adjust weight calc and add orig size to tx view
+
+commit 528a4d5cfca7f77c52a5bae33eb5cd6c6af26243
+Author: presstab <presstab1337@gmail.com>
+Date:   Mon Jan 26 16:52:48 2015 -0700
+
+    add weight and uncapped to tx tooltip
+
+commit d44bc52ae40e17d2927bfc4fecc02cdbb3194031
+Author: presstab <presstab1337@gmail.com>
+Date:   Mon Jan 26 16:31:11 2015 -0700
+
+    Show stake addresses in transactionrecord
+
+commit e8633bd8f3cf1b937a9bb1324431f03837a94de6
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sat Jan 24 13:04:31 2015 -0700
+
+    out of order DB erase
+
+commit b846d520e6979ec49137ee2b2256581bd0a7f4e0
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sat Jan 24 12:23:00 2015 -0700
+
+    fix multisend crash
+
+commit fb8020926f3041cfaab0fb7ae99561b596ac2d9c
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sat Jan 24 10:23:22 2015 -0700
+
+    v 1.0.9.1 beta
+
+commit a7a741e566977df673d3d1923191837f7c8cad59
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Fri Jan 23 18:21:27 2015 -0700
+
+    remove stake autosplit based on date
+
+commit 0de331bba1c50b1c2cb02e13e2c78a781d74d7b6
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Fri Jan 23 17:53:54 2015 -0700
+
+    multisend make sure splitblock is false
+
+commit 52e44b8f89fc5026f1b98f3035d388835c854d30
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Fri Jan 23 17:44:34 2015 -0700
+
+    dont use dust with block splitter
+
+commit 8dfa57124059507c2b990066f92db1da313aa45e
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Fri Jan 23 17:02:26 2015 -0700
+
+    fix multisend help display
+
+commit 079db26dcb53425c40508c134bbfde151b012d31
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Fri Jan 23 16:49:49 2015 -0700
+
+    multisend disable address
+    
+    disables an address from sending a multisend transaction after staking
+
+commit a48dc0eabd06e74b74cf99f06ef6e1c97c1153fd
+Author: presstab <presstab1337@gmail.com>
+Date:   Thu Jan 22 14:07:41 2015 -0700
+
+    multisend change param 2 to string
+
+commit 2333f36f42fcd838a64e482ad31b3786c5080281
+Author: presstab <presstab1337@gmail.com>
+Date:   Wed Jan 21 10:39:58 2015 -0700
+
+    multisend - can only use each address 1 time
+
+commit 80fa4090fde01f2e32cc2fba97692d56a8921739
+Author: presstab <presstab1337@gmail.com>
+Date:   Wed Jan 21 10:03:16 2015 -0700
+
+    organize RPC wallet
+
+commit f4543f7509508d7585c043626d76e7ec87be8d4c
+Author: presstab <presstab1337@gmail.com>
+Date:   Wed Jan 21 09:55:13 2015 -0700
+
+    multisend printaddresses
+
+commit 991ba304800f7869eac608cfb581fc95c21d1c9f
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Mon Jan 19 16:22:01 2015 -0700
+
+    Fix MultiSend Enable/Disable
+
+commit 97e490ec738114035b0c732ee7383badd076d36f
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sun Jan 18 23:12:18 2015 -0700
+
+    Add MultiSend settings to walletdb
+
+commit 34c238bd728c360b26428a41ab3cda0b5519b679
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sun Jan 18 21:18:44 2015 -0700
+
+    clean wallet.h
+
+commit 06a0b938fb69bc55ecfd0fbd961ffb0060f89b88
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sat Jan 17 11:27:25 2015 -0700
+
+    multisend not send 2 times for split stakes
+
+commit dfcb740c6e5a26afc34a0cf32f6abf07534f28b1
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sat Jan 17 10:47:19 2015 -0700
+
+    v1.0.9 Beta
+
+commit 4b9d293b51ba7e8f82c77f85eaf1308d6bdd2504
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sat Jan 17 10:36:53 2015 -0700
+
+    MultiSend RPC
+    
+    Remove Stake For Charity and Replace it with MultiSend
+
+commit 6c39f14c3972fac74a184401bd39c8bd7dfb2ac0
+Author: presstab <presstab1337@gmail.com>
+Date:   Wed Jan 14 13:27:32 2015 -0700
+
+    updated makefile.mingw
+
+commit 74ea131c65c0ff2bcd24e86a323518129c4ca2c3
+Author: presstab <presstab1337@gmail.com>
+Date:   Mon Jan 12 13:25:40 2015 -0700
+
+    cclist - make weight an integer
+
+commit 26c069e25daaf7a7b091843c208e62709e6bba7a
+Author: presstab <presstab1337@gmail.com>
+Date:   Mon Jan 12 11:07:13 2015 -0700
+
+    Address book default to receive add if splitblock
+    
+    https://github.com/ofeefee/fluttercoin/commit/19c92ba286420e4f4eafeab162101ab16563e296
+
+commit 0937fbf186bb5d6bc0d31ab0eddf4592f36bfbdb
+Author: presstab <presstab1337@gmail.com>
+Date:   Mon Jan 12 10:21:02 2015 -0700
+
+    Silence useless warning in src/json/json_spirit_writer_template.h
+    
+    https://github.com/bitcoin/bitcoin/commit/e564297156b9103c5af85f6b444df0bdc2476397
+
+commit a9e6659b2a2d5500ce4cc864736e56c1083043d3
+Author: presstab <presstab1337@gmail.com>
+Date:   Mon Jan 12 10:10:34 2015 -0700
+
+    Fix CKey mem leaks
+    
+    https://github.com/bitcoin/bitcoin/commit/27e35bf84079ebb37ea6b756ad01ea9ed2bdad5f
+    
+    https://github.com/bitcoin/bitcoin/commit/6f21e7317e86cac4f26234116513fa153111032a
+
+commit 9cdb1371d97e2943bd2d482e0e6c9d34007b63aa
+Author: presstab <presstab1337@gmail.com>
+Date:   Mon Jan 12 10:08:01 2015 -0700
+
+    guard against openssl's new strict DER checks
+    
+    https://github.com/bitcoin/bitcoin/commit/f4134ee30100a3ba8a25e3f7ac6c4e0b39fb05a3
+    
+    https://github.com/bitcoin/bitcoin/commit/91e1332011ca647362f95f34ae6c530640bfef98
+    
+    https://github.com/bitcoin/bitcoin/commit/f19dded6e4bf6b5a345de899863310281846eb61
+
+commit fd00560f27522eef841621646f41f5749db788ef
+Author: presstab <presstab1337@gmail.com>
+Date:   Mon Jan 12 09:43:39 2015 -0700
+
+    Add weight to cclistcoins
+
+commit 17067225440aaa0a705ab7803b240c6d9f8f3ad8
+Author: presstab <presstab1337@gmail.com>
+Date:   Thu Jan 8 15:02:34 2015 -0700
+
+    use original getbalance for rpc call getbalance
+
+commit d4ea120b36bef4e7804d41d160449c61ce1bd213
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Thu Jan 8 00:05:01 2015 -0700
+
+    Revert "add comma's to number formatting"
+    
+    This reverts commit abbb31de9ea65826ca4822bece5834e30fa52df2.
+
+commit 3f5f4581c9326b0502c3ec943cfb4509c9f1eaa7
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Thu Jan 8 00:04:51 2015 -0700
+
+    Revert "format unit with "," for non-english locale"
+    
+    This reverts commit e71dd0de95bcc426a7210e92105ad477ea5864d5.
+
+commit dec5c24dfa6208f8eb4f41f6215ad86dbeb24734
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Thu Jan 8 00:04:45 2015 -0700
+
+    Revert "add thai to locale"
+    
+    This reverts commit a2cae7922ed4e574bd4950b70cc92c13be3106a9.
+
+commit a2cae7922ed4e574bd4950b70cc92c13be3106a9
+Author: presstab <presstab1337@gmail.com>
+Date:   Wed Jan 7 13:37:15 2015 -0700
+
+    add thai to locale
+    
+    As far as I see, only english and thai format numbers with a decimal
+    separating units for fractions
+    http://docs.oracle.com/cd/E19455-01/806-0169/overview-9/index.html
+
+commit e71dd0de95bcc426a7210e92105ad477ea5864d5
+Author: presstab <presstab1337@gmail.com>
+Date:   Wed Jan 7 11:09:25 2015 -0700
+
+    format unit with "," for non-english locale
+
+commit abbb31de9ea65826ca4822bece5834e30fa52df2
+Author: presstab <presstab1337@gmail.com>
+Date:   Tue Jan 6 13:39:39 2015 -0700
+
+    add comma's to number formatting
+
+commit 8ab93cef7916883a2d4852bbcdfd9b3419d51a98
+Author: presstab <presstab1337@gmail.com>
+Date:   Sun Jan 4 13:27:06 2015 -0700
+
+    disablestake rpc error
+
+commit 68a5b305e5d5adebc74ad81a477bd81660874468
+Author: presstab <presstab1337@gmail.com>
+Date:   Sun Jan 4 13:18:36 2015 -0700
+
+    disablestake rpc error
+
+commit c9a1322400961c2905eef31f8c24cafd084b4d29
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Fri Jan 2 20:51:57 2015 -0700
+
+    if using splitblock, fee is 0.001
+    
+    This makes it so you won't be charged less than the expected fee, and
+    also adds a very small premium to these transactions.
+    
+    This is optional and can be changed by anyone that builds their own
+    wallet.
+
+commit 7ea17ac9fbb443f53233f05926afe7de9da24dde
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Fri Jan 2 16:45:55 2015 -0700
+
+    Use coin control for s4c
+
+commit ebe98561cd49d7b4de3603c8a948abc232e042d2
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sat Dec 20 13:32:14 2014 -0700
+
+    check balance before moving accounts
+
+commit 869366fbd91508e35d0e8c1c06eb4323a67628ad
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Thu Dec 11 17:39:17 2014 -0700
+
+    Fix mem leak
+    
+    https://github.com/Tranz5/HoboNickels/commit/e4d372b8107248cdcc48597b2508289c4536dec1
+
+commit 829288cd68740f14ca3c4fc3afbd4c5deef92665
+Author: presstab <presstab1337@gmail.com>
+Date:   Thu Dec 11 16:39:45 2014 -0700
+
+    use hashBestChain not hashHighBlock, no synccheck
+
+commit 63dcd685006495bf592ce69dd2ee4cbe5c6dc7ca
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Tue Dec 9 00:07:18 2014 -0700
+
+    initialize x11 array properly
+
+commit 7701d601f97228b7696cdb7bf5c8f1516e2ebc0c
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sun Dec 7 13:21:52 2014 -0700
+
+    disablestake (diff & weight)
+
+commit 229140ac56e8ee26db8336e7142afa084a61e314
+Merge: e703a48 f5580e3
+Author: hyperstake <presstab1336@gmail.com>
+Date:   Sun Dec 7 12:43:17 2014 -0700
+
+    Merge pull request #3 from moneromooo/tx-info-1000
+    
+    transactiontablemodel: add approximate amount of capped HYP for stakes
+
+commit f5580e3cde31dc7eb7fa9d606dc64ad62caaeddb
+Author: moneromooo <moneromooo@users.noreply.github.com>
+Date:   Sun Dec 7 14:36:37 2014 +0000
+
+    transactiontablemodel: add approximate amount of capped HYP for stakes
+
+commit e703a4853f68c4423b8c6bf05aaeae6139a89ff3
+Merge: 563a4ba 3eb7419
+Author: hyperstake <presstab1336@gmail.com>
+Date:   Sat Dec 6 11:25:14 2014 -0700
+
+    Merge pull request #2 from moneromooo/tx-info
+    
+    transactiontablemodel: add stake rate and time in the help text
+
+commit 3eb7419e85262a79add2782ab3f864b366cba589
+Author: moneromooo <moneromooo@users.noreply.github.com>
+Date:   Sat Dec 6 13:07:39 2014 +0000
+
+    transactiontablemodel: add stake rate and time in the help text
+
+commit 563a4bad7b3f17576977dca14334e62b7397464a
+Merge: 9c280eb 8b43d40
+Author: hyperstake <presstab1336@gmail.com>
+Date:   Fri Dec 5 14:37:13 2014 -0700
+
+    Merge pull request #1 from presstab/master
+    
+    disablestake RPC
+
+commit 8b43d4047a44c56860f1b696c9040cf030facb13
+Author: presstab <presstab1337@gmail.com>
+Date:   Fri Dec 5 14:29:46 2014 -0700
+
+    disablestake RPC
+
+commit 9c280eb8f0cdde47c507f63414e75f0e8d219d7c
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Wed Nov 26 20:56:41 2014 -0700
+
+    rpc ccsend
+
+commit 8efb855d92172dce35ae70d3013cdbd3960481bb
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Tue Nov 25 19:22:35 2014 -0700
+
+    attempt to fix coin control dialog deselect
+
+commit d894b86d6dc398cf8caba1298fedfb5d66fe5741
+Author: presstab <presstab1337@gmail.com>
+Date:   Tue Nov 25 15:45:14 2014 -0700
+
+    fix getstakesplitthreshold typo
+
+commit f168da137507f08eeb4a44258aacfc920baf478d
+Author: presstab <presstab1337@gmail.com>
+Date:   Mon Nov 24 09:20:21 2014 -0700
+
+    rpcwallet minor formatting change
+
+commit 6328e44dcad396d033fec72789e6c4cac3ebc06b
+Author: presstab <presstab1337@gmail.com>
+Date:   Mon Nov 24 09:18:20 2014 -0700
+
+    CC set returnchange false on setnull()
+
+commit 0de90d8649290a47cd8303b4268a63cfbeb6dff0
+Merge: dcbe9f4 79660fe
+Author: presstab <presstab1337@gmail.com>
+Date:   Mon Nov 24 09:02:30 2014 -0700
+
+    Merge pull request #46 from ssta/master
+    
+    Couple of minor tweaks to cc commands
+
+commit 79660fefa04d4ca296605047240659b8a990166b
+Author: Stephen Stafford <clothcat@gmail.com>
+Date:   Mon Nov 24 15:56:08 2014 +0000
+
+    Couple of minor tweaks to cc commands
+
+commit dcbe9f4e701cb810329f727a00048e4f0153bdf0
+Merge: a7d847b cff7bb0
+Author: presstab <presstab1337@gmail.com>
+Date:   Mon Nov 24 08:46:47 2014 -0700
+
+    Merge pull request #45 from ssta/master
+    
+    more cc tweaking
+
+commit cff7bb0b5c4edd68faa9ef1509912c571b9c6615
+Author: Stephen Stafford <clothcat@gmail.com>
+Date:   Mon Nov 24 15:32:50 2014 +0000
+
+    Add ccreset to reset the coin control params (I don't think it resets fReturnChange, but not sure what to default that to anyways)
+
+commit 1c164cb4b1fb4641c8a758c08a144dc750af18b1
+Author: Stephen Stafford <clothcat@gmail.com>
+Date:   Mon Nov 24 15:23:58 2014 +0000
+
+    Add cccustomchange - appears to work, but can't tell for sure until coincontrol is added to the send commands
+
+commit 5d9eafeba356899aec16d0a605fbd01d9cf15bf3
+Author: Stephen Stafford <clothcat@gmail.com>
+Date:   Mon Nov 24 12:42:44 2014 +0000
+
+    Attempt to add ccreturnchange.  It may or may not work as it appears that ccselect isn't working right now.
+
+commit 37d9cdbbd67a0394196d282726a4df5d87bac7fd
+Author: Stephen Stafford <clothcat@gmail.com>
+Date:   Mon Nov 24 12:14:34 2014 +0000
+
+    Make cclistselected return an array of hashes to avoid json key clashes
+
+commit a7d847b821c726088fea2d07b42536bb122c51f4
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sun Nov 23 23:12:51 2014 -0700
+
+    RPC cclistcoins, ccselect, cclistselected
+    
+    still more to add before coin control will be fully functional for the
+    daemon.
+
+commit 54a78fffcc76c739c9449c382a85e97708ac4d32
+Merge: aeb2dec ab6532b
+Author: presstab <presstab1337@gmail.com>
+Date:   Sun Nov 23 16:04:14 2014 -0700
+
+    Merge pull request #44 from ssta/master
+    
+    add blockIndex to the output of listcoins RPC command.
+
+commit ab6532b83d630730e86ac916eefad9a282e19568
+Merge: 570f918 aeb2dec
+Author: Stephen Stafford <clothcat@gmail.com>
+Date:   Sun Nov 23 22:46:03 2014 +0000
+
+    Merge remote-tracking branch 'upstream/master'
+
+commit 570f918059b5ac2b6b0b0f60371e2cc174007a6c
+Author: Stephen Stafford <clothcat@gmail.com>
+Date:   Sun Nov 23 22:37:40 2014 +0000
+
+    add blockIndex to the output of listcoins RPC command.
+
+commit aeb2dec6cb6a571e635480792293d8b98db8af14
+Merge: 448528e e636d84
+Author: presstab <presstab1337@gmail.com>
+Date:   Sat Nov 22 18:24:36 2014 -0700
+
+    Merge pull request #43 from ssta/master
+    
+    Update HyperStake-qt.pro
+
+commit e636d84aa0cce942949bcf4881f2dbaf7263d010
+Author: Stephen Stafford <clothcat@gmail.com>
+Date:   Sun Nov 23 00:22:25 2014 +0000
+
+    Update HyperStake-qt.pro
+    
+    Limit the SSE_SUPPORT check to 0 or 1 as the later test for the value only checks for 1 and not for non-zero.  Tested and confirmed to work by iDunk
+
+commit 448528e40d0e3e0a9e7b8aa6de7c8f797458e95b
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sat Nov 22 15:41:39 2014 -0700
+
+    version 1.0.7.3
+
+commit 0e08589ceee0e53cc9a08fd341d0ce8611016a2b
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sat Nov 22 15:40:38 2014 -0700
+
+    wider range for noblocks
+
+commit 40ad73c89ba5437edf571d1512f6cb8858c47bf6
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sat Nov 22 15:11:14 2014 -0700
+
+    remove extra spaces
+
+commit 005e86c04008c187cbf81842c0f36e9514c00ac8
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sat Nov 22 14:46:08 2014 -0700
+
+    update listcoins
+
+commit 67b8fbe1f3203452ab44032f02a627389ab7ee74
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sat Nov 22 12:59:28 2014 -0700
+
+    listcoins RPC
+
+commit 59bcdc49150ae577d367303a6b7d2745cd2217c8
+Author: presstab <presstab1337@gmail.com>
+Date:   Wed Nov 19 10:12:28 2014 -0700
+
+    don't allow returnchange and customchange at same time
+
+commit c96420970c3a47c1f289a9b1951d583044cbd3cf
+Author: presstab <presstab1337@gmail.com>
+Date:   Wed Nov 19 09:19:55 2014 -0700
+
+    error msg only when splitbox is checked
+
+commit 0c17304142dbfb77400075d75ef9699ca8d3a149
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Tue Nov 18 21:05:35 2014 -0700
+
+    stakesplitthreshold is written to wallet.dat
+
+commit 4cd5f2ae6f496038627f7e342961136080990dfc
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Tue Nov 18 19:38:58 2014 -0700
+
+    add error messages if blocksplitter doesnt meet req
+
+commit 47c5c8715296872b91986ab7d100adbc37850a22
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Tue Nov 18 19:14:47 2014 -0700
+
+    add 10 minute grace period to repairwallet
+    
+    without the grace period transactions that are waiting to be confirmed
+    will be flagged
+
+commit 1a20362632412b26ab5a598ae2b04e3c39005bef
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Tue Nov 18 18:31:40 2014 -0700
+
+    rescanfromblock RPC call
+    
+    will rescan for missed transactions after a certain block height
+
+commit 76fca01e83bd72e19ae6c84115cb327c0814c5a8
+Author: presstab <presstab1337@gmail.com>
+Date:   Tue Nov 18 16:07:39 2014 -0700
+
+    repair bad tx's in repairwallet
+    
+    add code to fixspentcoins to check for coins that are not final and not
+    confirmed, and allow them to be deleted by repairwallet.
+    
+    This commit also changes IsConfirmed() to not automatically assume that
+    if it is in our db then it is confirmed.
+
+commit 6bfe1dde2992801ee82204690218c82ad816b70d
+Author: presstab <presstab1337@gmail.com>
+Date:   Tue Nov 18 13:55:40 2014 -0700
+
+    block splitter bool in wallet.cpp
+
+commit 03987fe4ed972cbf743b7d437e5d02fd6be67425
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sun Nov 16 13:37:59 2014 -0700
+
+    mitigate TRK connections
+
+commit 1a76f5151b8329a51dfc43ea4bcc4c2902dc8cf7
+Merge: 4349d45 c0dde07
+Author: presstab <presstab1337@gmail.com>
+Date:   Sat Nov 15 16:35:28 2014 -0700
+
+    Merge pull request #41 from moneromooo/remove-some-pow-stuff
+    
+    Remove some pow related things
+
+commit c0dde07ab21666916708cc78f13757eb6add28cd
+Author: moneromooo <moneromooo@users.noreply.github.com>
+Date:   Sat Nov 15 12:06:24 2014 +0000
+
+    Remove some pow related things
+    
+    PoW difficulty is meaningless, and confusing
+
+commit 4349d45f3e3eaedd31d47e4164ddf16c84f9b2cb
+Author: presstab <presstab1337@gmail.com>
+Date:   Fri Nov 14 11:41:59 2014 -0700
+
+    stake prediction accuracy, and use display weight
+    
+    Prediction of stake time gets complicated. Technically stake weight
+    begins to grow positive at 8 hours, but because of the stake modifier it
+    will not actually be eligible to stake until 8.8 days.  For display
+    purposes, this means weight should be 0 until 8.8 days. For stake
+    prediction times, this also means weight should be 0 until 8.8 days, but
+    after 8.8 it should be calculated using 8 hours as the point of time
+    that weight began to grow.
+    
+    All stake time predictions are now synced. Since weight now accumulates
+    since 8 hours (although not displayed), the need to add an extra day of
+    weight to initial predictions is no longer needed and is removed.
+
+commit 2f8e1971845f772538e41e5ebcb2ef7e18b88fb1
+Author: presstab <presstab1337@gmail.com>
+Date:   Thu Nov 13 09:18:13 2014 -0700
+
+    v1.0.7.2
+
+commit 92401ff3b500af2f61ece258e11f4c2dfd059c18
+Author: presstab <presstab1337@gmail.com>
+Date:   Thu Nov 13 09:06:58 2014 -0700
+
+    Revert "Update checkpoints"
+    
+    This reverts commit 7ab1b67c484f761be436709419be1265ca6b7d34.
+
+commit 6037fde980a0d4fd881b725322159c20ab40dcb9
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Tue Nov 11 13:22:33 2014 -0700
+
+    add privkeydump security warnings
+
+commit 2af5e78822365aeb2389dffa338b5e528b8526bf
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Tue Nov 11 13:07:51 2014 -0700
+
+    check splitBlockCheckBox state each send
+
+commit d58f16899f7e9754db83e356f2450dbead268779
+Merge: be83e6f f665ef2
+Author: presstab <presstab1337@gmail.com>
+Date:   Tue Nov 11 12:45:16 2014 -0700
+
+    Merge pull request #40 from moneromooo/setstakesplitthreshold-crash
+    
+    rpcwallet: fix crash when calling setstakesplitthreshold without paramet...
+
+commit f665ef225ca22c5a96bf26e09de110048dfb590c
+Author: moneromooo <moneromooo@users.noreply.github.com>
+Date:   Tue Nov 11 08:38:55 2014 +0000
+
+    rpcwallet: fix crash when calling setstakesplitthreshold without parameters
+
+commit be83e6f9eea5f2a08bd80b50925f1eee1242f053
+Author: presstab <presstab1337@gmail.com>
+Date:   Mon Nov 10 11:36:44 2014 -0700
+
+    show actual splitstakthreshold on confirmation
+
+commit 7ab1b67c484f761be436709419be1265ca6b7d34
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sun Nov 9 20:38:43 2014 -0700
+
+    Update checkpoints
+
+commit 7d6cb0428de53ded886500483c2fd3173527fc0e
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sun Nov 9 17:40:02 2014 -0700
+
+    max outbound connections to 25
+
+commit 6d069554e56f370e5fef16f7675b043287fe1ccd
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sun Nov 9 17:39:31 2014 -0700
+
+    reduce nLimit to 1000 to prevent bad alloc
+
+commit c1b4ebd9153dc72f66886bc8308a09605753a822
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sun Nov 9 15:10:13 2014 -0700
+
+    Fix DNS seeding
+
+commit 33529f1f5833870d0f5d8d49e539a2a4d68a8ea7
+Author: presstab <presstab1337@gmail.com>
+Date:   Sat Nov 8 16:58:12 2014 -0700
+
+    setstakesplitthreshold RPC call (default 1000)
+
+commit 09436304a87e15c04c45a560a3a541557d50a9d9
+Merge: bdab106 c90dbd9
+Author: presstab <presstab1337@gmail.com>
+Date:   Thu Nov 6 13:23:04 2014 -0700
+
+    Merge pull request #39 from zeewolfik/master
+    
+    Fixes of translations and splashscreen on Qt5
+
+commit c90dbd98ef6d1e16ed7be5790558f6a099f60022
+Merge: 6e758af bdab106
+Author: ZeeWolf <zeewolf16@gmail.com>
+Date:   Thu Nov 6 19:09:54 2014 +0100
+
+    Merge remote-tracking branch 'upstream/master'
+
+commit 6e758af9a7cbac7a5db4c3c6ed1fd8a24e185340
+Author: ZeeWolf <zeewolf16@gmail.com>
+Date:   Thu Nov 6 19:06:50 2014 +0100
+
+    I18N fixes, splashscreen on Qt5 working again, removal of unused files
+
+commit bdab10661c2f2c3908791cdd83a7a35eeba13827
+Author: presstab <presstab1337@gmail.com>
+Date:   Thu Nov 6 08:50:06 2014 -0700
+
+    adjust time prediction accuracy
+
+commit 363aa8edade6fae5c396acb7d94d509efa52a372
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Wed Nov 5 22:39:34 2014 -0700
+
+    HYP shown twice
+
+commit 8649ebfae8ff44ad2fe452aa75082e04e016c6b7
+Merge: e412467 3d8f548
+Author: presstab <presstab1337@gmail.com>
+Date:   Wed Nov 5 11:22:26 2014 -0700
+
+    Merge pull request #38 from zeewolfik/master
+    
+    Themes switching improvements
+
+commit e41246727eac0f04207a39219780398d00b6ede0
+Author: presstab <presstab1337@gmail.com>
+Date:   Wed Nov 5 11:16:30 2014 -0700
+
+    Version 1.0.7.1
+
+commit 3d8f5483ebface61e3c8e037a79eba99e12e2a13
+Merge: b83cb95 42bd4af
+Author: ZeeWolf <zeewolf16@gmail.com>
+Date:   Wed Nov 5 19:16:11 2014 +0100
+
+    Merge branch 'master' of https://github.com/zeewolfik/HyperStake
+
+commit b83cb957e4b9edb7c8536a33f416f99651bb5f3a
+Author: ZeeWolf <zeewolf16@gmail.com>
+Date:   Mon Nov 3 20:50:40 2014 +0100
+
+    Themes switching change
+    
+    - When new theme is loaded, first Default theme is applied (to reset
+    internal qproperty-* styles) - no need to include reset in all themes
+    anymore
+    - use of shorter variable $theme-dir which is equivalent of
+      $themes-dir/<ThemeName>
+
+commit 88da72a04b8cfb34675820fdc7b83fa18fa2e3e9
+Author: presstab <presstab1337@gmail.com>
+Date:   Wed Nov 5 10:19:39 2014 -0700
+
+    coin control weight accuracy adjustment
+
+commit e60e810bdc14c652edb697670b4af1c5bdbb54a9
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Tue Nov 4 20:38:08 2014 -0700
+
+    splitblock convert to double then to int
+
+commit cf619c10d469207887faf25fa75011dad840dbb3
+Author: presstab <presstab1337@gmail.com>
+Date:   Tue Nov 4 14:19:44 2014 -0700
+
+    add block splitter dust info to confirmation dialog
+
+commit d9d6c9685f4d89bcb3dba1b306e43bf541812cb3
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Mon Nov 3 21:36:18 2014 -0700
+
+    format units on confirm message, fix block split
+
+commit 0aaa9f4100026bdad251fc6b7d79f88c8d4f068e
+Author: presstab <presstab1337@gmail.com>
+Date:   Mon Nov 3 16:52:51 2014 -0700
+
+    change fee to match fee dialog
+
+commit a05c07409bbf8e58fcfc730ab6d5fea1171b9d15
+Author: presstab <presstab1337@gmail.com>
+Date:   Mon Nov 3 14:33:32 2014 -0700
+
+    update calculation for stake split threshold
+
+commit ac72daf4a75190b537dd0bc64e6effb98c17239a
+Author: presstab <presstab1337@gmail.com>
+Date:   Mon Nov 3 14:33:09 2014 -0700
+
+    attempt to fix transaction fee problems
+
+commit 42bd4afcbb0f5db6d6b69297b8bb2f5c632a8c67
+Author: ZeeWolf <zeewolf16@gmail.com>
+Date:   Mon Nov 3 20:50:40 2014 +0100
+
+    Themes switching change
+    
+    - When new theme is loaded, first Default theme is applied (to reset
+    internal qproperty-* styles) - no need to include reset in all themes
+    anymore
+    - use of shorter variable $theme-dir which is equivalent of
+      $themes-dir/<ThemeName>
+
+commit 221834b47712159a7ec683dbd0dda5c0befb0f0a
+Author: presstab <presstab1337@gmail.com>
+Date:   Sun Nov 2 12:21:20 2014 -0700
+
+    Version 1.0.7
+
+commit 1cbcb317896c16addfcfb57c896aa79f60d863fd
+Author: presstab <presstab1337@gmail.com>
+Date:   Sun Nov 2 12:16:51 2014 -0700
+
+    add new checkpoint
+
+commit f0002705e774c7fab3b2fbf6854a716c63bec67d
+Author: presstab <presstab1337@gmail.com>
+Date:   Sun Nov 2 12:02:43 2014 -0700
+
+    block size label defaults to 0
+
+commit cdda890f2d28a6020eabf92d499823ef1f8b6d3d
+Merge: 0c54069 c17030f
+Author: presstab <presstab1337@gmail.com>
+Date:   Sun Nov 2 11:38:48 2014 -0700
+
+    Merge pull request #37 from moneromooo/export-bg
+    
+    blue light theme: make disabled toolbar entries' text dark grey
+
+commit 0c5406966debf700db01abf18be66a5b9da790d8
+Author: presstab <presstab1337@gmail.com>
+Date:   Sun Nov 2 11:38:18 2014 -0700
+
+    add block size label
+
+commit c17030f50fd6c1f074f9c4dc9437cda15bc4655e
+Author: moneromooo <moneromooo@users.noreply.github.com>
+Date:   Sun Nov 2 18:07:16 2014 +0000
+
+    blue light theme: make disabled toolbar entries' text dark grey
+
+commit 7607983c4c47d2ceb5ff85974563f199d23dfeb7
+Author: presstab <presstab1337@gmail.com>
+Date:   Sun Nov 2 10:10:15 2014 -0700
+
+    add split block summary to confirmation message
+
+commit ea7118ae1ca1e6ea998cea314fbeaf2d02f0e958
+Merge: ff39d48 b124638
+Author: presstab <presstab1337@gmail.com>
+Date:   Sun Nov 2 09:17:24 2014 -0700
+
+    Merge pull request #36 from moneromooo/bluelights-warning
+    
+    blue lights theme: fix delete keys warning being hard to read
+
+commit b1246389839268e2d49f2b0c489b7e1c96293a43
+Author: moneromooo <moneromooo@users.noreply.github.com>
+Date:   Sun Nov 2 11:34:44 2014 +0000
+
+    blue lights theme: fix delete keys warning being hard to read
+
+commit ff39d48baef134c34ce48885991c933b8b89b6bd
+Merge: 2b06eba 7d2eedd
+Author: presstab <presstab1337@gmail.com>
+Date:   Sat Nov 1 14:23:05 2014 -0600
+
+    Merge pull request #35 from moneromooo/default-theme
+    
+    themes: reset "annoying" properties in default theme too
+
+commit 7d2eedd522b6da212b531f4d5ddf2831ba903764
+Author: moneromooo <moneromooo@users.noreply.github.com>
+Date:   Sat Nov 1 20:19:57 2014 +0000
+
+    themes: reset "annoying" properties in default theme too
+
+commit 2b06ebacedb66c63c1e8eae3344bc9ab81a4bca5
+Merge: 622c175 1d046f4
+Author: presstab <presstab1337@gmail.com>
+Date:   Sat Nov 1 13:56:42 2014 -0600
+
+    Merge pull request #34 from moneromooo/theme-reset
+    
+    themes: reset a couple properties that Qt doesn't reset automatically
+
+commit 1d046f44f3a82f63437c5b9fa0e29804216ecada
+Author: moneromooo <moneromooo@users.noreply.github.com>
+Date:   Sat Nov 1 19:54:26 2014 +0000
+
+    themes: reset a couple properties that Qt doesn't reset automatically
+
+commit 622c175b3e3ab5a985ce9ce573d0369de9bd88ee
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sat Nov 1 13:32:06 2014 -0600
+
+    fix stakeforcharity
+
+commit df2a79fe7e7d888c5f02627fdefa3f27bc1b26ae
+Merge: 18ca43b 464eac1
+Author: presstab <presstab1337@gmail.com>
+Date:   Sat Nov 1 12:56:14 2014 -0600
+
+    Merge pull request #33 from moneromooo/blue-lights
+    
+    themes: new blue lights theme
+
+commit 464eac1586c90a71126d508d3c956d98cf86db0c
+Author: moneromooo <moneromooo@users.noreply.github.com>
+Date:   Sat Nov 1 18:46:07 2014 +0000
+
+    themes: new blue lights theme
+
+commit 18ca43b0a5da596cb796191f32fbdf4ce2e85e18
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Thu Oct 30 22:44:07 2014 -0600
+
+    make each split block a little bit different
+    
+    theory behind this is to change the PoS block hashing a bit. looking at
+    the coinstake split tx, they are never the same size either. Haven't
+    confirmed whether this is necessary or not.
+
+commit 3f6e9a66e77316df876d0997042f1a2f0362ecf0
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Thu Oct 30 20:03:47 2014 -0600
+
+    prevent s4c sending twice
+    
+    Tranz HBN -
+    https://github.com/Tranz5/HoboNickels/commit/6984a4f429bd3ae94282e6875fa47fd4f2727459
+
+commit 4ceb6b10013f687cdf480cb28ba2e372920d25e4
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Thu Oct 30 19:40:15 2014 -0600
+
+    weight
+
+commit e7a839a4307620561a1feb73c610580ca4a32510
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Thu Oct 30 19:38:03 2014 -0600
+
+    fix weight calc
+
+commit e7101632b16d2e0a0d1924aba1de768766a68fd1
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Thu Oct 30 19:35:34 2014 -0600
+
+    add weight to getstaketx
+
+commit 0cee5408eafd1477b94cce5a259cd153ba32b359
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Thu Oct 30 19:15:28 2014 -0600
+
+    fix unlockformint checkstate
+
+commit b0da7bbc6187e0b6476f632a1ec2331640917b35
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Thu Oct 30 19:03:14 2014 -0600
+
+    add tooltips to sendcoinsdialog
+
+commit 4f174b1351c307d359c4a0118a4f2b48cd2c0630
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Thu Oct 30 18:52:41 2014 -0600
+
+    dont allow blocks to split to outside address
+
+commit d7a8f0d56d4e1d9620ade9097d214dc717d4a694
+Author: presstab <presstab1337@gmail.com>
+Date:   Thu Oct 30 15:08:54 2014 -0600
+
+    Fix split threshold calculation
+
+commit 3da175dddb6bede33cf2d68bfdc73c35dcd82d6b
+Author: presstab <presstab1337@gmail.com>
+Date:   Thu Oct 30 10:12:09 2014 -0600
+
+    Do not split stake if blocks will be less than 1k
+
+commit e4fe8953471f2a98e74ee2c71f8badb93296affc
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Wed Oct 29 21:56:59 2014 -0600
+
+    fix transaction fee in coin control
+
+commit b7c2d29914710b019f39ae6413faa49542ad0638
+Author: presstab <presstab1337@gmail.com>
+Date:   Wed Oct 29 16:41:21 2014 -0600
+
+    Add split stake to GUI
+    
+    need to add calculator next to the line edit to show what size each
+    block will be. The formatting wasn't working well for me, so will add it
+    later.
+
+commit 5e01a1f0795610db866057e3589118c0b2d89955
+Merge: 1991c63 a55650a
+Author: presstab <presstab1337@gmail.com>
+Date:   Tue Oct 28 15:12:18 2014 -0600
+
+    Merge pull request #32 from moneromooo/celestial
+    
+    celestial: fix notification styling
+
+commit a55650ae098b440edd976d657eaf6bb5caa92e08
+Author: moneromooo <moneromooo@users.noreply.github.com>
+Date:   Tue Oct 28 21:06:37 2014 +0000
+
+    celestial: fix notification styling
+
+commit 1991c6339f59a030fa467765e950e714b3b10826
+Merge: 9500bfd 0fc1f4c
+Author: presstab <presstab1337@gmail.com>
+Date:   Mon Oct 27 11:22:44 2014 -0600
+
+    Merge pull request #31 from zeewolfik/master
+    
+    Environment detection improvments in Qt makefile
+
+commit 0fc1f4c4b590edda643951ebc6adba6b60e970db
+Merge: f992dc2 9500bfd
+Author: ZeeWolf <zeewolf16@gmail.com>
+Date:   Mon Oct 27 18:15:01 2014 +0100
+
+    Merge remote-tracking branch 'upstream/master'
+
+commit f992dc2ccf19d0d88509d9c07dcdba906d828c58
+Author: zeewolfik <zeewolf16@gmail.com>
+Date:   Mon Oct 27 14:52:59 2014 +0000
+
+    Platform detection fixes in Qt makefile
+
+commit 9500bfd1828859aef4852138a3e227455bbfc289
+Merge: 1b03cb5 0d43f01
+Author: presstab <presstab1337@gmail.com>
+Date:   Sun Oct 26 10:11:10 2014 -0600
+
+    Merge pull request #29 from moneromooo/ccwidth
+    
+    coincontrol: widen the window a bit
+
+commit 1b03cb5562cdd7aa1d778a9781fa95d1cf12d5b6
+Merge: 7ce97cb 183eaec
+Author: presstab <presstab1337@gmail.com>
+Date:   Sun Oct 26 10:10:24 2014 -0600
+
+    Merge pull request #28 from moneromooo/celestial-scrollbar
+    
+    celestial theme: fix invisible scrollbar handle
+
+commit 0d43f01883102f768fbcc0c9e8b64c00f00e13d7
+Author: moneromooo <moneromooo@users.noreply.github.com>
+Date:   Sun Oct 26 10:48:40 2014 +0000
+
+    coincontrol: widen the window a bit
+    
+    It avoids the horizontal scrollbar now that a new column was added
+
+commit 183eaeccff5bf9b52af0478f09a0deb91a5b93eb
+Author: moneromooo <moneromooo@users.noreply.github.com>
+Date:   Sun Oct 26 10:09:37 2014 +0000
+
+    celestial theme: fix invisible scrollbar handle
+
+commit 7ce97cb59103930b9185bbe648433ef2a2f6a6a3
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sat Oct 25 17:52:57 2014 -0600
+
+    return change to sender not enabled by default
+    
+    Enabled via GUI checkbox on sendcoinsdialogg
+
+commit 538effaf46ad317b3415316481241e7d7e1eeda9
+Merge: fbd15fe f23e0fb
+Author: ZeeWolf <zeewolf16@gmail.com>
+Date:   Fri Oct 24 19:11:08 2014 +0200
+
+    Merge remote-tracking branch 'upstream/master'
+
+commit fbd15fe7321a053b6e738c0d31886486b88ae0d5
+Author: ZeeWolf <zeewolf16@gmail.com>
+Date:   Fri Oct 24 19:06:17 2014 +0200
+
+    Even better SSE2 detection
+    
+    - Detection in .pro based on CPU flags (linux, macos)
+
+commit f23e0fb9c3c682496bc0a0bd9092f3923d8ee906
+Merge: 8d95024 2996881
+Author: presstab <presstab1337@gmail.com>
+Date:   Fri Oct 24 10:47:06 2014 -0600
+
+    Merge pull request #26 from ShrykeZ/master
+    
+    ThemePack
+
+commit 2996881ec1a76bfcceeab7a597d7e94f0807349a
+Author: ShrykeZ <shryke@lolz.eu>
+Date:   Fri Oct 24 17:37:46 2014 +0100
+
+    ThemePack
+    
+    Celestial Theme
+    Magma Theme
+
+commit 8d9502496b47f75b23f6c53c19007db43c9d1954
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Thu Oct 23 22:47:30 2014 -0600
+
+    export difficulty to csv RPC
+
+commit 393bf70e48f6136314fed87b0f577d0db0ffaa96
+Author: presstab <presstab1337@gmail.com>
+Date:   Tue Oct 21 08:53:54 2014 -0600
+
+    1.0.6.6 BETA
+
+commit c6643eb0391ab101655a5de315bd861e13931949
+Author: presstab <presstab1337@gmail.com>
+Date:   Tue Oct 21 08:50:54 2014 -0600
+
+    change nlimit & hashhighblock
+
+commit d25594d279c66ce337bce66c1b2dc0e7091ac7a7
+Merge: 1810ecd 4998fbb
+Author: presstab <presstab1337@gmail.com>
+Date:   Mon Oct 20 16:32:30 2014 -0600
+
+    Merge pull request #24 from zeewolfik/master
+    
+    RaspberryPi conditional (auto) sse2 flag removal + shorter tabs labels + cleanups
+
+commit 1810ecd87e427f45c743c9ddd02b868e0cb0b55d
+Author: presstab <presstab1337@gmail.com>
+Date:   Mon Oct 20 16:04:34 2014 -0600
+
+    send change to one of sending addresses
+    
+    this needs more logic added, see line 1312
+
+commit 6e9dd9d282933a85ba175c0600a29fcb98f41036
+Author: presstab <presstab1337@gmail.com>
+Date:   Mon Oct 20 14:17:10 2014 -0600
+
+    Clean up potential stake code
+
+commit 4998fbb2a265e5e8be3b34ce81f0c39a9018d2c4
+Merge: 5947518 6f364be
+Author: ZeeWolf <zeewolf16@gmail.com>
+Date:   Mon Oct 20 19:53:28 2014 +0200
+
+    Merge branch 'master' of https://github.com/zeewolfik/HyperStake
+    
+    Conflicts:
+            HyperStake-qt.pro
+            src/makefile.unix
+
+commit 59475182c1780c85d8db61f5dfdecd03c6d77437
+Author: ZeeWolf <zeewolf16@gmail.com>
+Date:   Mon Oct 20 19:46:53 2014 +0200
+
+    Fix empty Themes dir + cleanups in makefile
+
+commit d5bdac465a2cfe9cba3d41a90c6e9ff8fd1eb2f2
+Author: ZeeWolf <zeewolf16@gmail.com>
+Date:   Sun Oct 19 11:07:59 2014 +0200
+
+    Better SSE2 detection in makefile
+    
+    - detection of sse2 based on cpu flags
+    - removal of HyperStake-qt-linux.pro as it's the same as HyperStake-qt.pro
+      now
+
+commit 82c54668d83ea169c33ec1c2bbca5212348bec3f
+Author: ZeeWolf <zeewolf16@gmail.com>
+Date:   Thu Oct 16 20:23:10 2014 +0200
+
+    RaspberryPi sse2 flag removal condition
+
+commit 068bb9bae9550ff19096e2920430256c12f5d753
+Author: ZeeWolf <zeewolf16@gmail.com>
+Date:   Thu Oct 16 19:43:58 2014 +0200
+
+    Shorter tabs labels
+
+commit a0119dfd3447221b7fba972aa6d31a1f16efcdce
+Merge: 2402cf8 499f89f
+Author: presstab <presstab1337@gmail.com>
+Date:   Mon Oct 20 08:49:53 2014 -0600
+
+    Merge pull request #23 from moneromooo/sort1000
+    
+    coincontrol: fix sorting of 1000 estimated stake
+
+commit 499f89fb13ae1bda626ece2069d88949ba5f1483
+Author: moneromooo <moneromooo@users.noreply.github.com>
+Date:   Mon Oct 20 09:26:30 2014 +0100
+
+    coincontrol: fix sorting of 1000 estimated stake
+
+commit 2402cf8da2b69cd049523d39c705fb7597585661
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sun Oct 19 22:10:49 2014 -0600
+
+    Add stake time estimate to CC & reduce decimals
+
+commit bd179e299baf63e450f47ad83dadd3f554630f4f
+Merge: 7e3b671 bb566dd
+Author: presstab <presstab1337@gmail.com>
+Date:   Sun Oct 19 19:40:20 2014 -0600
+
+    Merge pull request #22 from billotronic/master
+    
+    updated docs
+
+commit 7e3b671cbe9c7058fbcfcddf33c2a3a190af4844
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sun Oct 19 15:52:54 2014 -0600
+
+    stake estimate is a range
+
+commit bb566dd68762e2f3beabc42097f2acae2cf8bdb8
+Author: billotronic <billotronic@hush.com>
+Date:   Sun Oct 19 15:46:13 2014 -0500
+
+    updated docs
+
+commit c2d4ee559a071ebc44976524a3a64e545be91985
+Merge: d0c30e4 4e0259f
+Author: presstab <presstab1337@gmail.com>
+Date:   Sun Oct 19 12:24:39 2014 -0600
+
+    Merge pull request #21 from moneromooo/minted
+    
+    transactionview: remove Mined from the transaction selection list
+
+commit d0c30e4f405ecfba1acbce7b6b7366b6814e2853
+Merge: 2328010 4b692fa
+Author: presstab <presstab1337@gmail.com>
+Date:   Sun Oct 19 12:24:28 2014 -0600
+
+    Merge pull request #20 from moneromooo/weight-text
+    
+    coincontroldialog: adapt the weight adjectives to typical weights
+
+commit 4e0259f679dc84ba64c840563a34837635aa8d15
+Author: moneromooo <moneromooo@users.noreply.github.com>
+Date:   Sun Oct 19 18:46:42 2014 +0100
+
+    transactionview: remove Mined from the transaction selection list
+    
+    Hyperstake does not mine coins, only mints, so this type was useless.
+
+commit 4b692fa9e90bac4718629cdc666e6c97071b949b
+Author: moneromooo <moneromooo@users.noreply.github.com>
+Date:   Sun Oct 19 18:30:09 2014 +0100
+
+    coincontroldialog: adapt the weight adjectives to typical weights
+    
+    We have more blocks per second that bitcoin, and larger amount of
+    coins per output, so pretty much all blocks end up with "highest"
+    in short order. Move the goalposts by 100 so more of the range of
+    adjectives get used, so they become actually purpoesful.
+
+commit 232801003f6114062e5e741a69ae4d8589f60a65
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sat Oct 18 16:56:02 2014 -0600
+
+    Add Stake Calculator
+
+commit 6f364be24bce4f527c677589195e3602f81c91b1
+Merge: b9b88f4 29e965c
+Author: ZeeWolf <zeewolf16@gmail.com>
+Date:   Thu Oct 16 20:24:31 2014 +0200
+
+    Merge remote-tracking branch 'upstream/master'
+
+commit b9b88f412400a7efffd0325a3f6dca5846abd491
+Author: ZeeWolf <zeewolf16@gmail.com>
+Date:   Thu Oct 16 20:23:10 2014 +0200
+
+    RaspberryPi sse2 flag removal condition
+
+commit 5175782595a1f5a828be6f94f1448aa834712f69
+Author: ZeeWolf <zeewolf16@gmail.com>
+Date:   Thu Oct 16 19:43:58 2014 +0200
+
+    Shorter tabs labels
+
+commit 29e965ce628ec9f709d8ca99e97feab37388f329
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Tue Oct 14 23:02:24 2014 -0600
+
+    Add Custom Change Address to S4C
+
+commit 62a3c8c27044dd74ccbc5a9e4f3026a3ac46c2f8
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Mon Oct 13 19:54:43 2014 -0600
+
+    minted instead of mined
+
+commit e47a4a4b1e5935e3544db180f84435ae7d51cdbf
+Merge: b392c6d 22b0a96
+Author: presstab <presstab1337@gmail.com>
+Date:   Sun Oct 12 10:35:03 2014 -0600
+
+    Merge pull request #19 from moneromooo/blexp-icon
+    
+    gui: change the block explorer icon for a new style one
+
+commit 22b0a96a65e50d7b7f493a9da3a2650b588aadfb
+Author: moneromooo <moneromooo@users.noreply.github.com>
+Date:   Sun Oct 12 12:33:49 2014 +0100
+
+    gui: change the block explorer icon for a new style one
+
+commit b392c6d834f990ce7ca5e676234e16c182d7edb8
+Merge: ac8fafa 18aacb5
+Author: presstab <presstab1337@gmail.com>
+Date:   Sat Oct 11 09:11:46 2014 -0600
+
+    Merge pull request #18 from moneromooo/s4c-icon
+    
+    gui: change the S4C icon to a new style icon
+
+commit 18aacb5febc9765b433472e8414bef9b6549f97a
+Author: moneromooo <moneromooo@users.noreply.github.com>
+Date:   Sat Oct 11 15:12:41 2014 +0100
+
+    gui: change the S4C icon to a new style icon
+
+commit ac8fafa11df9a49769b4280ddcf1b43b1099bc25
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Thu Oct 9 23:33:44 2014 -0600
+
+    Qt5 Compatible
+    
+    if mac compile does not work, change src/qt/macdockiconhandler.mm
+
+commit bedf964ae402f935fb47185132b72debc76ef3b4
+Author: presstab <presstab1337@gmail.com>
+Date:   Thu Oct 9 16:39:41 2014 -0600
+
+    coin control dates from blockchain
+    
+    This fixes the problem of bad dates when importing a privkey.  When
+    importing a privkey out.tx txtime will be the time of import. So coin
+    control data will be incorrect.
+
+commit c9bdde30e9318851e8b2f2c84573b5632a17b1f9
+Merge: da7433c 7864857
+Author: presstab <presstab1337@gmail.com>
+Date:   Thu Oct 9 15:18:56 2014 -0600
+
+    Merge pull request #17 from zeewolfik/master
+    
+    PoloniexDay theme + screenshots in readme.md + extra install step in qmake (themes)
+
+commit 78648579623b1fff0c5508d7a41c7314db7c9eb7
+Author: ZeeWolf <zeewolf16@gmail.com>
+Date:   Thu Oct 9 23:04:10 2014 +0200
+
+    PoloniexDay theme
+    
+    - new theme
+    - make install will now install themes to release directory (helpful in Qt
+      Creator)
+
+commit 9e0a24c7615981ea8154f5abfd2aab2cc12a81ca
+Merge: 8ee4f31 14fe44d
+Author: ZeeWolf <zeewolf16@gmail.com>
+Date:   Wed Oct 8 19:54:33 2014 +0200
+
+    Merge branch 'master' of https://github.com/zeewolfik/HyperStake
+
+commit 8ee4f31446036c1f99e011cf0972fa122c5a0b9e
+Author: zeewolfik <zeewolf16@gmail.com>
+Date:   Mon Oct 6 19:08:36 2014 +0200
+
+    Themes screenshots added to README.md
+
+commit ae9493e809c96fd32a77af527c06792bc8b00ae1
+Author: ZeeWolf <zeewolf16@gmail.com>
+Date:   Mon Oct 6 19:07:09 2014 +0200
+
+    Themes screenshots - thumbnails
+
+commit da7433c9a9d2ee405e0a5d5ac1234f2f61f50a7a
+Author: presstab <presstab1337@gmail.com>
+Date:   Wed Oct 8 09:04:26 2014 -0600
+
+    comment out coin control info until later
+
+commit 88970982e31bd286befca071bf183465c518d1b0
+Author: presstab <presstab1337@gmail.com>
+Date:   Mon Oct 6 14:17:41 2014 -0600
+
+    Fix unlock problems
+
+commit 14fe44d1c19faa8b6ad658d3c8b13980a6eba6dd
+Author: zeewolfik <zeewolf16@gmail.com>
+Date:   Mon Oct 6 19:08:36 2014 +0200
+
+    Themes screenshots added to README.md
+
+commit e32457e85bc4c5a9f6fb107c3d3bb0f95a834914
+Author: ZeeWolf <zeewolf16@gmail.com>
+Date:   Mon Oct 6 19:07:09 2014 +0200
+
+    Themes screenshots - thumbnails
+
+commit d91220a2c463c3dc8f4f89dfbd746a7e3224e672
+Merge: 359dd32 07b3bed
+Author: presstab <presstab1337@gmail.com>
+Date:   Mon Oct 6 11:06:25 2014 -0600
+
+    Merge pull request #16 from zeewolfik/master
+    
+    PoloniexNight theme + hardcode styles (not all) removal + coincontrol dialog timezone fix
+
+commit 07b3beddc6df301ef9c366f3f1dae1d26db99025
+Author: ZeeWolf <zeewolf16@gmail.com>
+Date:   Mon Oct 6 19:02:53 2014 +0200
+
+    Themes screenshots
+
+commit 2ff87d1fd7b31969854b17d1cbfc61f917ca8fbe
+Merge: 000abf8 359dd32
+Author: ZeeWolf <zeewolf16@gmail.com>
+Date:   Mon Oct 6 18:42:25 2014 +0200
+
+    Merge remote-tracking branch 'upstream/master'
+
+commit 000abf87cc9595af706c38c74111bfadae4a4f7d
+Author: ZeeWolf <zeewolf16@gmail.com>
+Date:   Mon Oct 6 18:32:11 2014 +0200
+
+    Template system modifications + PoloniexNight theme
+    
+    - Default theme is now explicitely declared as directory (hardcoded styles
+    from *.cpp are moved there)
+    - $theme-dir var points to current theme ($themes-dir still points to
+      themes main directory)
+    - More things styled (e.g. ComboBoxes, Nofiticator window in Linux, and
+      many more)
+    - vars in vars are not allowed now (problems with order)
+    - PoloniexNight theme added
+
+commit 359dd32a7178df8530444923ce10db5b096e187b
+Merge: 0feb1d1 482a8c4
+Author: presstab <presstab1337@gmail.com>
+Date:   Fri Oct 3 11:43:49 2014 -0600
+
+    Merge pull request #15 from eagleflies/master
+    
+    Changing target for initial blockchain download to 99999. This is increa...
+
+commit 0feb1d164876244ddb681f06f02e197a6c07b938
+Author: presstab <presstab1337@gmail.com>
+Date:   Wed Oct 1 11:26:44 2014 -0600
+
+    Version 1.0.6.5 BETA
+
+commit 2cb9afdd72c7c2509b555a407e0fdf5e3979448c
+Author: presstab <presstab1337@gmail.com>
+Date:   Wed Oct 1 10:54:52 2014 -0600
+
+    Remove checkbox from askpassphrasedialog
+
+commit f395378620e72834648e7af2582e667cab340bf8
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sun Sep 28 21:26:16 2014 -0600
+
+    Add coin control info to walletmodel
+
+commit ef22f79794488e8acac6db9db41ba7c797ec4b53
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sun Sep 28 11:20:18 2014 -0600
+
+    remove dd
+
+commit 482a8c4a8907c71863faa43e4d401cf5ab462511
+Author: myeagleflies <myeagleflies@gmail.com>
+Date:   Sat Sep 27 22:11:03 2014 +0200
+
+    Changing target for initial blockchain download to 99999. This is increase from 21000. This way
+    client will get quickly there and will have fewer number of blocks to obtain using slower methods.
+
+commit c42035bb4562a0f6ea7792ff399af4aab2526430
+Author: presstab <presstab1337@gmail.com>
+Date:   Fri Sep 26 14:56:55 2014 -0600
+
+    use int64 and raise nLimit
+
+commit 803c385ba4d09ef8fe698d2bcf5f20f4df863b6b
+Merge: b67f790 8c5a356
+Author: presstab <presstab1337@gmail.com>
+Date:   Fri Sep 26 11:41:50 2014 -0600
+
+    Merge pull request #14 from eagleflies/master
+    
+    Fix for stuck blockchain at blocks 21000, 21500 and 22000.
+
+commit 8c5a356601a60bb1937e2619420383f0701a2df1
+Author: myeagleflies <myeagleflies@gmail.com>
+Date:   Fri Sep 26 16:06:46 2014 +0200
+
+    part 2 of [Fix for stuck blockchain download at blocks 21000, 21500 and 22000]. Issuing getblocks() command also after seeing an error during ProcessBlock().
+
+commit 0dbbee34930d4e3663461f18ecec7af56d3d69c0
+Author: myeagleflies <myeagleflies@gmail.com>
+Date:   Fri Sep 26 14:48:38 2014 +0200
+
+    Fix for stuck blockchain download at blocks 21000, 21500 and 22000. Now getblocks() message is issued after connection to new node if waited longer than MAX_TIME_SINCE_BEST_BLOCK seconds.
+
+commit b67f79050d59808d517291d9d1effcbb1bba62a8
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Wed Sep 24 23:52:41 2014 -0600
+
+    unselect blocks already selected
+
+commit 520e75461bc86f609ce0f799824be64b08db6f5f
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Wed Sep 24 20:08:46 2014 -0600
+
+    unlockformint
+
+commit a34c33861eda8c04d581f0b328e8b65d0b0824aa
+Merge: c0488ba f84ab5c
+Author: presstab <presstab1337@gmail.com>
+Date:   Wed Sep 24 15:57:27 2014 -0600
+
+    Merge pull request #13 from moneromooo/column-width
+    
+    coincontroldialog: increase some column widths to match content
+
+commit f84ab5ceabd1e5dbe9bb517e0e18dc19e2d32e52
+Author: moneromooo <moneromooo@users.noreply.github.com>
+Date:   Wed Sep 24 21:52:53 2014 +0100
+
+    coincontroldialog: increase some column widths to match content
+    
+    At least on one Linux machine, age, potential stake and date were
+    too narrow to display all data without being ellipsized.
+
+commit c0488bad6ada1bece191e8be9dcfa942ae63c644
+Merge: f9f0a3f 2bc723f
+Author: presstab <presstab1337@gmail.com>
+Date:   Tue Sep 23 14:45:24 2014 -0600
+
+    Merge pull request #12 from moneromooo/minting-off
+    
+    icons: properly turn minting anim off when not minting
+
+commit 2bc723f7c388227f55c159d2b2b5b155a577ccb5
+Author: moneromooo <moneromooo@users.noreply.github.com>
+Date:   Tue Sep 23 21:41:01 2014 +0100
+
+    icons: properly turn minting anim off when not minting
+
+commit f9f0a3f1006f2d20c11cf110691457bbf58cb229
+Merge: 4cd8115 cd7246b
+Author: presstab <presstab1337@gmail.com>
+Date:   Mon Sep 22 23:51:35 2014 -0600
+
+    Merge pull request #11 from zeewolfik/master
+    
+    Fixed paths in QSS
+
+commit cd7246baa05a24016278d85f45376fdf34c0be38
+Merge: 678f20a 4cd8115
+Author: ZeeWolf <zeewolf16@gmail.com>
+Date:   Mon Sep 22 11:37:11 2014 -0700
+
+    Merge remote-tracking branch 'upstream/master'
+
+commit 678f20a70ed9c917870a51c2d1dba7121472488d
+Author: ZeeWolf <zeewolf16@gmail.com>
+Date:   Mon Sep 22 11:32:47 2014 -0700
+
+    Variables with themes path in QSS
+
+commit 4cd8115b9c1b2e385c4684fd88aa94e205d31d48
+Merge: 41fe7c9 b54cec8
+Author: presstab <presstab1337@gmail.com>
+Date:   Mon Sep 22 11:52:52 2014 -0600
+
+    Merge pull request #10 from zeewolfik/master
+    
+    Fix for resources paths in QSS
+
+commit b54cec839eddd06d2d8a9dc5b88d98abf3493775
+Merge: cbf2afc 41fe7c9
+Author: ZeeWolf <zeewolf16@gmail.com>
+Date:   Mon Sep 22 10:48:42 2014 -0700
+
+    Merge remote-tracking branch 'upstream/master'
+
+commit cbf2afcbab03cab44a935985a6da40931c7c9ef1
+Author: ZeeWolf <zeewolf16@gmail.com>
+Date:   Mon Sep 22 10:48:33 2014 -0700
+
+    Change relative paths in QSS to variable
+
+commit 41fe7c9803f5ade2d2ad3e8f0f88ecfbbf95edf2
+Author: presstab <presstab1337@gmail.com>
+Date:   Mon Sep 22 10:46:51 2014 -0600
+
+    version 1.0.6
+
+commit 0c6e713bf0ffede322ae3c6af7eeef5b247d1436
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sun Sep 21 22:36:28 2014 -0600
+
+    fix s4c tooltip
+
+commit 768cf3469cba71caa8b15f69f28a54b751f0176e
+Merge: b4e123e 43db245
+Author: presstab <presstab1337@gmail.com>
+Date:   Sun Sep 21 18:09:05 2014 -0600
+
+    Merge pull request #9 from moneromooo/minting-anim
+    
+    Minting anim
+
+commit 43db2451a400ee0de439c14b97d45dd39a21a1db
+Author: moneromooo <moneromooo@users.noreply.github.com>
+Date:   Mon Sep 22 00:43:46 2014 +0100
+
+    icons: replace the mined tx icon with a new style icon
+
+commit b37518431d710c9fe9f623fc976261b15cb32807
+Author: moneromooo <moneromooo@users.noreply.github.com>
+Date:   Mon Sep 22 00:08:40 2014 +0100
+
+    icons: make the minting icon animated
+
+commit b4e123e2756e401f073c63001c0f08bcc8465d06
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sun Sep 21 12:35:41 2014 -0600
+
+    estimate time accuracy adjustment
+
+commit 15fa632dfecb18c331103ffac9ba81aef3fc64f8
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sun Sep 21 11:42:57 2014 -0600
+
+    fix S4C notificator
+
+commit 867a7dbc1b68a4d07dd886bc8dd646ecdceb18c9
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sun Sep 21 10:37:04 2014 -0600
+
+    flag to change sending notification for S4C
+    
+    for some reason not flagging when the address is registered in the
+    address book, only when the address is unregisterd.  More work to be
+    done.
+
+commit b54c2172609474710a08bb5aaecd926e22b38d6c
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sun Sep 21 10:23:17 2014 -0600
+
+    update gitignore
+
+commit f384351bda8839f838c04d43c1e15382826fa893
+Merge: ec2946e 87eec85
+Author: presstab <presstab1337@gmail.com>
+Date:   Sun Sep 21 10:18:55 2014 -0600
+
+    Merge pull request #8 from moneromooo/address-label
+    
+    transactiontablemodel: change "Address" header to "Address/Label"
+
+commit 87eec85ca8e5c64b2ca415ce81f09b3c30219a95
+Author: moneromooo <moneromooo@users.noreply.github.com>
+Date:   Sun Sep 21 10:03:35 2014 +0100
+
+    transactiontablemodel: change "Address" header to "Address/Label"
+    
+    Since it can also hold labels, and at least person was confused
+    by copying address not coping the label that was displayed.
+
+commit ec2946e423fc03081668cce588269e936c8a2160
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sat Sep 20 20:45:14 2014 -0600
+
+    remove walletmodel.h
+
+commit 19f38c3bddc0127e003cc3b402085bde8e15fe58
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sat Sep 20 14:07:47 2014 -0600
+
+    refine estimate time
+
+commit 4d8e6a4ea2fb78d74c83c8ae127ffb14f0e86329
+Merge: 14e7b88 d9b5829
+Author: presstab <presstab1337@gmail.com>
+Date:   Sat Sep 20 12:58:47 2014 -0600
+
+    Merge pull request #7 from zeewolfik/master
+    
+    Themes
+
+commit d9b5829237f2f4ebd411aedf69bf737e07956d6d
+Merge: 9d2b9b7 14e7b88
+Author: ZeeWolf <zeewolf16@gmail.com>
+Date:   Sat Sep 20 11:55:29 2014 -0700
+
+    Merge remote-tracking branch 'upstream/master'
+
+commit 9d2b9b7a24b05afee864d9dd13c0c501192642bc
+Author: ZeeWolf <zeewolf16@gmail.com>
+Date:   Sat Sep 20 11:53:04 2014 -0700
+
+    Reloading currently selected theme with $ key
+
+commit 1465a0f722c3a5089eed8e9c8229ce6fc358ab02
+Author: ZeeWolf <zeewolf16@gmail.com>
+Date:   Sat Sep 20 10:02:54 2014 -0700
+
+    Missing arrow-down image
+
+commit 14e7b887d631c7096e4a157e9b026b05760bb7f1
+Merge: b3268e2 f4a3214
+Author: presstab <presstab1337@gmail.com>
+Date:   Sat Sep 20 10:49:56 2014 -0600
+
+    Merge pull request #6 from moneromooo/icons
+    
+    Icons
+
+commit f4a321457a59df5792acfeeeb798fd718f474009
+Author: moneromooo <moneromooo@users.noreply.github.com>
+Date:   Sat Sep 20 11:55:29 2014 +0100
+
+    icons: replace the save icon with the new style one
+
+commit 47b31157958da43000d3a3fe4b46e919b1861eb6
+Author: moneromooo <moneromooo@users.noreply.github.com>
+Date:   Sat Sep 20 11:44:23 2014 +0100
+
+    gui: replace the "loading" animated icon with the new style one
+
+commit 4fe6ccca1a8ebdacb17768994286dc9910fbd0a1
+Author: moneromooo <moneromooo@users.noreply.github.com>
+Date:   Sat Sep 20 11:32:03 2014 +0100
+
+    icons: replace the synced icon with the "new style" one
+
+commit 509e041a838c0ff867832480fd501976c749b1a9
+Author: moneromooo <moneromooo@users.noreply.github.com>
+Date:   Sat Sep 20 10:50:03 2014 +0100
+
+    guiconstants: enlarge the bottom right icons
+    
+    They look better that way
+
+commit b51239cc78909572f3455382d129e25497bca727
+Author: billotronic <billotronic@hush.com>
+Date:   Thu Sep 18 13:22:36 2014 -0500
+
+    Replaced OSX Icon
+    
+    Removed Truckcoin icns with Hyperstake logo
+
+commit 277b21e0f9780f03209205b82762d797853e2cce
+Author: ZeeWolf <zeewolf16@gmail.com>
+Date:   Thu Sep 18 15:22:09 2014 -0700
+
+    Stylesheet update
+
+commit ef9684204391ee0aab89e061fa2d7bad3373af8e
+Author: ZeeWolf <zeewolf16@gmail.com>
+Date:   Thu Sep 18 14:35:28 2014 -0700
+
+    Wallet themes switching system + HyperBlue theme
+
+commit b3268e2288b15581f382d41427f9da1c7c344f83
+Merge: 52c2b4c 7581228
+Author: presstab <presstab1337@gmail.com>
+Date:   Thu Sep 18 14:24:41 2014 -0600
+
+    Merge pull request #5 from billotronic/master
+    
+    Replaced OSX Icon
+
+commit 758122894466f1be57b735445504a8044c7b17a7
+Author: billotronic <billotronic@hush.com>
+Date:   Thu Sep 18 13:22:36 2014 -0500
+
+    Replaced OSX Icon
+    
+    Removed Truckcoin icns with Hyperstake logo
+
+commit 52c2b4c196469ba1e71423cc86f53eeb1c16caa3
+Author: presstab <presstab1337@gmail.com>
+Date:   Thu Sep 18 09:09:53 2014 -0600
+
+    S4C cleanup
+
+commit 275439481cd437de912278d8df2fae0c3f88b8eb
+Merge: 4d0132b b6b564c
+Author: presstab <presstab1337@gmail.com>
+Date:   Wed Sep 17 13:55:38 2014 -0600
+
+    Merge pull request #4 from billotronic/master
+    
+    Changes for OSX Compile
+
+commit b6b564c8e572c8caf7a3c77386ae92a6942b2e24
+Author: billotronic <billotronic@hush.com>
+Date:   Wed Sep 17 12:10:47 2014 -0500
+
+    Changes for OSX Compile
+
+commit 4d0132bbfc12176efe917f27ccc2bb75fd604ee7
+Author: presstab <presstab1337@gmail.com>
+Date:   Tue Sep 16 11:00:27 2014 -0600
+
+    fix typos
+
+commit 9c729b8d6775e6c867686d876d80cc30758d6839
+Author: presstab <presstab1337@gmail.com>
+Date:   Tue Sep 16 10:59:05 2014 -0600
+
+    fix highlighting of S4C tab
+
+commit 093fe6e4afee55a1b62b7586d2e712c9e21f1a20
+Author: presstab <presstab1337@gmail.com>
+Date:   Tue Sep 16 10:22:29 2014 -0600
+
+    update linux.pro
+
+commit bb7aa318d4e479b6e64b3be9612fe09a275f4107
+Merge: 7e78203 e34fe07
+Author: presstab <presstab1337@gmail.com>
+Date:   Tue Sep 16 08:49:00 2014 -0600
+
+    Merge pull request #3 from moneromooo/peer-count
+    
+    bitcoingui: fix network weight, etc, not updating when many peers are la...
+
+commit 7e78203fc7356e83c64ba6f04b20e6035a73e3cf
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Mon Sep 15 21:32:38 2014 -0600
+
+    refine stake time estimate
+
+commit e34fe0798306ad8aac6ef53e849377d15788cbe9
+Author: Your Name <you@example.com>
+Date:   Mon Sep 15 23:29:45 2014 +0100
+
+    bitcoingui: fix network weight, etc, not updating when many peers are lagging
+    
+    If the median of the peers' block count is less than our block count,
+    things like network weight, etc, will not be updated. If we are connected
+    with slow to update peers, this can mean those update very seldom.
+    We now update those values when we're equal or above the median value.
+
+commit 67b6b85e4c4a8dd7557ea3e20f79ef79feb4607e
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sun Sep 14 20:42:01 2014 -0600
+
+    comment out partial features
+
+commit c5ce7bef82472bb91bcc86673796674bdcb2ec90
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sun Sep 14 20:21:28 2014 -0600
+
+    fix typos
+
+commit 6d2dfb0a328c63220460c67a31bba5190c34f1d5
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sun Sep 14 16:54:23 2014 -0600
+
+    add block explorer as DNS seed
+
+commit f9523155cf9ff05ed56ac1128949e7564228e4fe
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sun Sep 14 14:09:58 2014 -0600
+
+    add new hard checkpoint
+
+commit 95d1cc707f232a0f2397424d5705b399aa7ef290
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sun Sep 14 13:46:48 2014 -0600
+
+    include inttypes.h
+
+commit 9a017fb12d8d03e0e9793f19047afd5182d8685d
+Merge: 43f4df3 619d258
+Author: presstab <presstab1337@gmail.com>
+Date:   Sun Sep 14 13:36:17 2014 -0600
+
+    Merge pull request #2 from moneromooo/total-amount
+    
+    transactionview: add a "total amount" widget
+
+commit 619d258d3c2a5f0ae515adcf55fabd94a45f42fe
+Author: Your Name <you@example.com>
+Date:   Sun Sep 14 20:07:13 2014 +0100
+
+    transactionview: add a "total amount" widget
+    
+    This is useful to get the total amount of the subset of transactions
+    currently selected in the table below (eg, total of all stakes in
+    the last week, etc).
+
+commit 43f4df3fc3c59b5b7e81b8f17fc19fb7994b7f8a
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sun Sep 14 01:42:07 2014 -0600
+
+    allow receiving address to be deleted - GUI & RPC
+
+commit 6971b1f16378fd0ee521c4b79910b4e3efcad85b
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sat Sep 13 14:51:26 2014 -0600
+
+    potential stake max reward for CC
+
+commit 050d4247574b0559a1c08ab859473bb4e8a2048e
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sat Sep 13 14:34:29 2014 -0600
+
+    Fix Coin Control to update after filter
+
+commit 65e1c9ec618450d495f370f5947af896ea04a2f8
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sat Sep 13 14:00:06 2014 -0600
+
+    update address page
+
+commit af50323d921bc7a8ecfed5214584dd6efaaa58db
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sat Sep 13 12:12:33 2014 -0600
+
+    S4C persistent (Tranz/HBN) + block explorer
+
+commit c1d7eae72489f61ae54924b857c87b6b8859caa0
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Fri Sep 12 00:30:08 2014 -0600
+
+    Revert "s4c and block browser"
+    
+    This reverts commit 049bd7f5b5705b744f712dd3e4cb6b6f07bd6ced.
+
+commit 049bd7f5b5705b744f712dd3e4cb6b6f07bd6ced
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Thu Sep 11 20:37:09 2014 -0600
+
+    s4c and block browser
+
+commit 30dabf7e90840245c83afa72546924b4272b2093
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sat Sep 6 13:11:12 2014 -0600
+
+    change getinfo to show PoS diff
+
+commit 5c9b0aa12bddea759793111f3bdcf7b83f4b2b1f
+Author: presstab <presstab1337@gmail.com>
+Date:   Tue Sep 2 14:50:31 2014 -0600
+
+    readme typo
+
+commit 7d65deda7d2112ce85f08fa0289650460f69a460
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sun Aug 31 16:14:04 2014 -0600
+
+    add potential stake sum for treeview
+
+commit 55a0b8f1a0b9f8672c3dc49fb3f69c66543b9b24
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sun Aug 31 15:37:26 2014 -0600
+
+    change  .pro to win32{}
+
+commit 993befc880518b47721095eb9425a795b2c1b940
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sat Aug 30 14:56:29 2014 -0600
+
+    Version 1.0.5
+
+commit 08a48735f53a022f072295fab8714f1d9a826bbc
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sat Aug 30 14:56:17 2014 -0600
+
+    Icons
+
+commit 57d66293a3b5549997c7b362498b33a3fe43c8c9
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sat Aug 30 13:57:53 2014 -0600
+
+    Web Images
+
+commit b63ed70c2452c997afb8bef26b458d9bb36f6193
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sat Aug 30 13:57:42 2014 -0600
+
+    CC column formatting
+
+commit 205edd9258630aaab3a8a06e84053027f63ba22e
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sat Aug 30 13:24:59 2014 -0600
+
+    add potential stake to CC & fix sorting
+
+commit 2fc76bca193dc74c7a1ebc5e21b797f61ca8956e
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Fri Aug 29 20:29:44 2014 -0600
+
+    Add Potential Stake Value
+
+commit 97a702afcc6aa55655f188b2e7df1bf30592a237
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Fri Aug 29 18:13:58 2014 -0600
+
+    Add debug window to toolbar
+
+commit 60b53e5d1eda7aeef748018ef4e16f3c518d6662
+Author: presstab <presstab1337@gmail.com>
+Date:   Fri Aug 29 16:29:55 2014 -0600
+
+    Add Coin Control Filter Combo Box
+
+commit 8119728f4fa61a18c995d4ca053339d2e7013276
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Thu Aug 28 23:32:04 2014 -0600
+
+    add %reward to getstaketx
+
+commit 3d79f41be356ede7829d6884216ce317f3b61893
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Thu Aug 28 23:03:44 2014 -0600
+
+    Coin Control Select Blocks Less Than X
+
+commit ce5964515e2f9a2188c6ea01753d07cf1150522b
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Tue Aug 26 20:32:58 2014 -0600
+
+    Stylesheet colors
+
+commit 57dd90236f9d42a755218864bada871b0158d634
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sat Aug 23 22:05:16 2014 -0600
+
+    Add web images
+
+commit 0a92149e10654b6bac0a0625ad27e9e05e040141
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sat Aug 23 15:02:23 2014 -0600
+
+    add maximize window to coincontroldialog
+
+commit fb81c0709c3e28ae7e82b7acafe6b8245c03e719
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sat Aug 23 14:57:57 2014 -0600
+
+    icon changes round 1
+
+commit f1b03bbe72c5490b001ecf93e857372fa19c6f1c
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sat Aug 23 13:43:35 2014 -0600
+
+    initial gui changes
+
+commit 1bd291027dc2e38a6f1b62554e8c659c85fc7799
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sat Aug 23 11:38:11 2014 -0600
+
+    change getmininginfo to include PoS diff
+
+commit a0dca72c02513fc7a858cadfbaf180b87d2d41df
+Author: presstab <presstab1337@gmail.com>
+Date:   Wed Aug 13 15:26:50 2014 -0600
+
+    Fix S4C notification
+
+commit 5f8f7c9f668061d294b941ac2e4faf7aec75e5a4
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sun Aug 10 12:01:27 2014 -0600
+
+    Add Age Column to CoinControlDialog (moneromooo)
+
+commit 10596b7d24ae5cee01b3adfcf4bbb0df025c888e
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sun Aug 3 10:58:50 2014 -0600
+
+    add copy txid to transactionview
+
+commit d293b07d9d958a5f68571e43904627aff80e6abb
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sun Aug 3 09:27:23 2014 -0600
+
+    linux .pro static
+
+commit b4e71cb2a2ee1de0fe7f4bfe653ecf6a51db9404
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sun Aug 3 09:26:33 2014 -0600
+
+    getstaketx use uint64_t
+
+commit ba807c5ee9e828dd3e913f3d958cad3a7ccaaf0b
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sat Aug 2 17:36:33 2014 -0600
+
+    fix timer causing startup fail for slow machines
+
+commit a3bea7fe9475abe474bd786985834917f8aff234
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sat Aug 2 15:21:20 2014 -0600
+
+    Version 1.0.4
+
+commit 795b0ed2f2570de098e2206a32be917064f6bc43
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sat Aug 2 15:20:05 2014 -0600
+
+    tweak icons
+
+commit d72d20057bc299159115fbbc8f7c33711dbb181d
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sat Aug 2 13:50:44 2014 -0600
+
+    format getstaketx text
+
+commit 9e14f4ae85a67173ed91e38bdc8a21c47296884a
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sat Aug 2 13:44:39 2014 -0600
+
+    getstaketx RPC
+
+commit a2871b256275655d38695fbdbdc12196a006a575
+Author: presstab <presstab1337@gmail.com>
+Date:   Fri Aug 1 09:06:58 2014 -0600
+
+    Icon & Update to Timer
+
+commit 15a2ccfdcd3df3ed9038c50b75ea9516a4cc0cbf
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Thu Jul 31 23:36:58 2014 -0600
+
+    Fix icon updating
+
+commit a54b0e91f89591607f074846f69a97eaea77dcb2
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Thu Jul 31 22:49:17 2014 -0600
+
+    Update charitydialog to fit address
+
+commit 3be8fe95c7ad8f91e75ffb8d3087291dfd1991d9
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Thu Jul 31 22:36:24 2014 -0600
+
+    Add Disable S4C Button & update 30 secs
+
+commit af3fc03858642431a98670f26dfcedad32d5bf2e
+Author: presstab <presstab1337@gmail.com>
+Date:   Thu Jul 31 15:09:20 2014 -0600
+
+    reduce stake prediction
+
+commit 3afd1b322c513b59bac8bc66120339249fb12ea0
+Author: presstab <presstab1337@gmail.com>
+Date:   Thu Jul 31 14:55:59 2014 -0600
+
+    Add S4C to Minting Notificator
+
+commit 3dc8a0faaddbb9c714a1ae052c6e57aea132221c
+Merge: 04ac726 15266a3
+Author: presstab <presstab1337@gmail.com>
+Date:   Wed Jul 30 14:43:18 2014 -0600
+
+    Merge pull request #1 from Tranz5/master
+    
+    QT: Sort Trans by Date
+
+commit 15266a3e4e365cb9a88ac104b36bdd243a724c55
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Wed Jul 30 00:47:50 2014 -0400
+
+    QT: Sort Trans by Date
+
+commit 04ac726333324af51a169c80df665dbce9d6bb36
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Mon Jul 28 18:11:55 2014 -0600
+
+    Show 0 hours to maturity with no confirmed blocks
+
+commit 2ae0d430ec085aad09707ff37841877bed012cdc
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Mon Jul 28 00:24:59 2014 -0600
+
+    Hours Until Next Maturity to Notificator
+
+commit 4acd219aa410311d59959cc54be223195942ce2f
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sun Jul 27 23:22:07 2014 -0600
+
+    Update linux .pro
+
+commit 0da134ddf6e34c761985b885717330e6d08b7854
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sun Jul 27 21:49:09 2014 -0600
+
+    Add msgBox errors to S4C GUI
+
+commit f59424693fed05ebfca29b3004e8ca1d023fcfcb
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sun Jul 27 19:35:43 2014 -0600
+
+    Stake For Charity GUI
+
+commit 2b832689d2fccb2253c989b116c4e439cb485982
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sat Jul 26 16:10:12 2014 -0600
+
+    Stake For Charity on RPC
+
+commit d5db83a1f22521769e9db737bca8420762e20126
+Author: presstab <presstab1337@gmail.com>
+Date:   Fri Jul 25 13:56:14 2014 -0600
+
+    Unlock Wallet Button
+
+commit e754320e027eca9d98541dc7483c407e54c150a1
+Author: presstab <presstab1337@gmail.com>
+Date:   Mon Jul 21 09:12:05 2014 -0600
+
+    v1.0.3 release
+
+commit c8b7c56974066ae668b46c0908bf19afd68e0c26
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sat Jul 19 17:03:29 2014 -0600
+
+    Comment out splitblock for now
+
+commit 21b48a890bb3d25cfc5b8e20006ea27947b12109
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sat Jul 19 10:40:37 2014 -0600
+
+    New Logos
+
+commit 6b4b9013bfc55c9d477fc5e255e962681f65acc0
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sat Jul 19 09:43:06 2014 -0600
+
+    nonfunctional splitblock
+
+commit c6b7daba9e15edfa5af8b99fce144b1a67770b6a
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Thu Jul 17 22:23:16 2014 -0600
+
+    network weight on all minting notifications
+
+commit 65b2f13e13bb7f034715778c4203831eb7d2ae74
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Wed Jul 16 20:38:43 2014 -0600
+
+    Check Wallet & Repair Wallet GUI
+
+commit 3acfd383024bd04dfe30d5e3c9d1db31627129e8
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Wed Jul 16 18:40:09 2014 -0600
+
+    Remove Orphan Transactions & fix debug icon
+
+commit 11bf552d3d0289c2f35108067beee2d78b283600
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Tue Jul 15 20:42:03 2014 -0600
+
+    Fix moneysupply rpc
+
+commit 66d61f4565da542afbcce5b2633b7c9a4d7bdc93
+Author: presstab <presstab1337@gmail.com>
+Date:   Tue Jul 15 10:08:30 2014 -0600
+
+    Update Readme
+
+commit 06a8943a301499ab0ddd95fdfdb6a5340387f912
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sun Jul 13 22:07:59 2014 -0600
+
+    Add getmoneysupply rpc command + DNS seed
+
+commit 0a43134e2e2027e492d65ce71a4c9f7ece2945c8
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sat Jul 12 21:40:26 2014 -0600
+
+    v1.0.2
+
+commit f9f80630c33b7f5f1b2c8e4951a44b3a02e6a5b0
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sat Jul 12 11:49:17 2014 -0600
+
+    Port fix
+
+commit b32c97554a98ece6943fa9289f199b8e6052e96c
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sat Jul 12 09:55:31 2014 -0600
+
+    Version 1.0.1
+
+commit 59952bc1e286b9b88c79ed4343d4eee72270f9bf
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Thu Jul 10 18:56:01 2014 -0600
+
+    Copyright fix
+
+commit 4fbebb9f06ebebe34db4c327211afc17431e0fe3
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Thu Jul 10 00:17:46 2014 -0600
+
+    RPC port to 18777
+
+commit bd9830a2850a7379346520215e04946160b90136
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Thu Jul 10 00:14:22 2014 -0600
+
+    Weight to CC + GUI enhance
+
+commit e4365d48922f37ac72dca72d69fe64e20f9fa5f6
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Wed Jul 9 18:34:48 2014 -0600
+
+    Fix wallet minting icon and calcs
+
+commit a1eaf0ed18bd6a3d28a8da9bcbb2fe3b3f9f3f19
+Author: presstab <presstab1337@gmail.com>
+Date:   Tue Jul 8 18:01:56 2014 -0600
+
+    fix syncing icon
+
+commit bbd7fe6858d31ea899ff62c9269160a41fda661a
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Tue Jul 8 00:38:47 2014 -0600
+
+    365 projection not ready
+
+commit 15d1114efdf57361faa2a9ee5330f4f689303ca6
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Tue Jul 8 00:37:16 2014 -0600
+
+    moneysupply rpc command
+
+commit 7b0646113322ca42a059510ccc8fcdd17a68b966
+Author: presstab <presstab1337@gmail.com>
+Date:   Mon Jul 7 11:45:35 2014 -0600
+
+    Update daemon from truckcoind to hyperstaked
+
+commit 64ee818cc70cc6315b84d41dda5fdc54ec24495c
+Author: presstab <presstab1337@gmail.com>
+Date:   Mon Jul 7 11:19:15 2014 -0600
+
+    Version Change - Reduced Coinbase Maturity
+
+commit 80c3f6525ef0ce80cce3aad37b7f98188b6ec484
+Author: presstab <presstab1337@gmail.com>
+Date:   Mon Jul 7 10:59:02 2014 -0600
+
+    Add Automatic Node Connections
+
+commit a9bad5320a600a32fc6ad993f05350bdd4f7dab2
+Author: presstab <presstab1337@gmail.com>
+Date:   Mon Jul 7 10:45:34 2014 -0600
+
+    Default Datadir -> HyperStake
+
+commit 993f4cb54c768de9e28a99f642179282844eb567
+Author: presstab <presstab1337@gmail.com>
+Date:   Mon Jul 7 10:29:54 2014 -0600
+
+    More Truckcoin -> HyperStake
+
+commit e6d3c71ca3d48b24439db605831740da5b8f982a
+Author: presstab <presstab1337@gmail.com>
+Date:   Mon Jul 7 10:17:12 2014 -0600
+
+    More Truckcoin -> HyperStake
+
+commit d3465078fa473f62e4eb3276e2e9da6e06419ab5
+Author: presstab <presstab1337@gmail.com>
+Date:   Mon Jul 7 09:37:10 2014 -0600
+
+    Truckcoin -> HyperStake
+    
+    Quick name changes
+
+commit 3e5d9a934e7a3163578c69bb19245a5fea9308f5
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sun Jul 6 23:50:00 2014 -0600
+
+    static build
+
+commit 7c3eb90d7fb96dbad20b3dab1a8710424f05918a
+Author: presstab <presstab1337@gmail.com>
+Date:   Sun Jul 6 22:14:53 2014 -0600
+
+    Checkpoint Fork Block
+
+commit 32982d69cb77704334fad1412bce03bb3a5eb635
+Author: presstab <presstab1337@gmail.com>
+Date:   Sun Jul 6 21:25:45 2014 -0600
+
+    Mimick CAP fork
+
+commit 8b87135281ca008a1c4839a12d2d77a799a0bae3
+Author: presstab <presstab1337@gmail.com>
+Date:   Sun Jul 6 17:43:34 2014 -0600
+
+    Updated Version Requirements
+
+commit 12aa27ab4d7738a3b8346d7394023441ef2c9d27
+Author: presstab <presstab1337@gmail.com>
+Date:   Sun Jul 6 17:36:22 2014 -0600
+
+    linux .pro
+
+commit 6a85b592a0545bf223694984d1f3e0209eada084
+Author: presstab <presstab1337@gmail.com>
+Date:   Sun Jul 6 13:21:18 2014 -0600
+
+    Makefiles
+
+commit dad5893cafc1f0b63641247d3e3ac801fd9e9059
+Author: presstab <presstab1337@gmail.com>
+Date:   Sun Jul 6 13:17:04 2014 -0600
+
+    Remove TRK checkpoint key & alert key
+
+commit 6e288d587301818ea579af706b048f99a6d885ce
+Author: presstab <presstab1337@gmail.com>
+Date:   Sun Jul 6 13:11:48 2014 -0600
+
+    First Fork Commit
+    
+    Still uses truckcoin data directory
+    Still has various references to trk
+    still has trk seeds coded in

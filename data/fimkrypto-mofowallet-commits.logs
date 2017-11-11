@@ -1,0 +1,5510 @@
+commit fac8c91099ca1845d3304914a39809080c3895e4
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Thu Jul 21 13:08:35 2016 +0200
+
+    compile script debug toggle
+
+commit 5185b81df29a47708a717c0777e95ffc7962cbb3
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Thu Jul 21 13:08:00 2016 +0200
+
+    Changelog
+
+commit 010a11a09046a478a933480bb27d36e098ad8a60
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Thu Jul 21 13:07:43 2016 +0200
+
+    Explanatory comment
+
+commit 18966c78630167a12700b2ff05cf4cecc2978823
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Thu Jul 21 13:07:15 2016 +0200
+
+    Fix testnet switcher logic
+
+commit 2160991dc60a13038be51cd8f582e5e5c71547aa
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Thu Jul 21 13:06:25 2016 +0200
+
+    Buf fix, precission error
+
+commit 9b738d7328d8ac1115dd0bb39b13afc313711144
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Thu Jul 21 13:05:43 2016 +0200
+
+    Ignore this
+
+commit a7e4d78baac08549c0aeed4f7ef6574b7031af0a
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Thu Mar 3 14:22:02 2016 +0100
+
+    Updating the merchant url spec
+
+commit f047dc589ae5e565784482fdf76037d3e50ee4a7
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Thu Mar 3 12:19:41 2016 +0100
+
+    Type
+
+commit c4287decd0123efc890a28ef8ba56d2e4beaf1a4
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Thu Mar 3 12:16:17 2016 +0100
+
+    Add back to merchant button
+
+commit 94c8bf6a99542638a3565b200aded2a679411061
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Thu Mar 3 11:43:58 2016 +0100
+
+    Include sender and amount variables in status url
+
+commit 84d20d142f597bf05cb3a2d564309a9e713cfd6d
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Thu Mar 3 11:31:33 2016 +0100
+
+    Add redirect and status url support for merchant terminal
+
+commit 2a69a0f5e98a443e63e2b34bbce9ee0cc05fd58f
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Thu Mar 3 10:37:45 2016 +0100
+
+    Pull in merchant url fixes, removed async in favor of existing promises
+
+commit b50447d23b7a1922802d328848b7398d53dd77a2
+Merge: 51de1f2 3a4e2a8
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Thu Mar 3 10:15:00 2016 +0100
+
+    Merge commit '3a4e2a8fbe67c0cdf57ff9124548cebb05db4d2e' into merge-igor
+
+commit 51de1f252ce4f1e826df43bd83e106ef8e0e4246
+Merge: fa500c2 2fdab9e
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Thu Mar 3 10:14:21 2016 +0100
+
+    Merge commit '2fdab9efecfc647500a4ef2d9132cf034f44e70e' into merge-igor
+
+commit fa500c2287b8657bab79dedd8b2b732ad4fe1a01
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Thu Mar 3 09:59:41 2016 +0100
+
+    Bump
+
+commit aa302903284a663799bc6720db3c4d38adc1ea0d
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Thu Mar 3 09:57:56 2016 +0100
+
+    Do away with unused imagemin dependencies
+
+commit bb39e94ae09aeaa079438cee85648894a80d874a
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Thu Mar 3 09:57:21 2016 +0100
+
+    Winicon changes for building on 64 bit linux
+
+commit 6f0ce12253d134317ac50ac11a45e7f8770302b8
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Thu Mar 3 09:56:49 2016 +0100
+
+    Testnet is on cloud.mofowallet.org now
+
+commit dbedc18eebf4f26a5894ca958d38ddcf34b59985
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Thu Mar 3 09:56:22 2016 +0100
+
+    Bug fix for sorting orders
+
+commit 060b42bc6110e3a11fa9d0fce6acf1f2f198b789
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Thu Mar 3 09:56:11 2016 +0100
+
+    Bug fix for sorting orders
+
+commit 30353faaa6e988aea7a1475bf72f7477e20d1629
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Thu Mar 3 09:55:30 2016 +0100
+
+    Reload messenger on logout/login
+
+commit 94376b13f8a809b860fde994bff7f73b05945cbc
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Thu Mar 3 09:54:57 2016 +0100
+
+    Show email part of new account dialog
+
+commit 3a65ad9eb656c7696627c160714313009416136c
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Thu Mar 3 09:54:21 2016 +0100
+
+    Typo bug fix
+
+commit d329c795ff52279399947941ec9dbf0454bf8261
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Thu Mar 3 09:54:02 2016 +0100
+
+    Messenger fixes
+
+commit 0f0a4b4cbf87958179d97041c8623eae765fcf3e
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Thu Mar 3 09:53:39 2016 +0100
+
+    No longer auto open on grunt serve and move to port 9001
+
+commit 3a4e2a8fbe67c0cdf57ff9124548cebb05db4d2e
+Author: Igor Argentovsky <welcome.novamedia@gmail.com>
+Date:   Wed Feb 24 17:16:32 2016 +0300
+
+    some code fixes and Merchant URL to support asset payments
+
+commit 2fdab9efecfc647500a4ef2d9132cf034f44e70e
+Author: Igor Argentovsky <welcome.novamedia@gmail.com>
+Date:   Mon Feb 22 23:18:59 2016 +0300
+
+    minor ui fixes for transaction modal and merchant terminal
+
+commit dcd4b7258327ddfdfbcbf943ae9c0ceda63f9835
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Fri Feb 5 13:54:21 2016 +0100
+
+    remove file
+
+commit 9e55d9667c3accb4fb1c74a53d3ab04e3541bd50
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Fri Feb 5 13:52:37 2016 +0100
+
+    0.6.1 changelog
+
+commit 90d3b25c81ce319ccfd9f7c95f6474f5d942c43f
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Fri Feb 5 13:52:10 2016 +0100
+
+    User balance did not update
+
+commit b0f88278906511227c3ff56e003510c70320fcc8
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Fri Feb 5 13:50:04 2016 +0100
+
+    Make namespaced alias columns sortable
+
+commit 5cb25fc7b988bff78b65b651120c93b1d4cfe2c3
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Fri Feb 5 13:49:49 2016 +0100
+
+    Fixed merchant terminal
+
+commit 8b56498c39d6852846595510c060cbae2c89bdde
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Fri Feb 5 13:49:18 2016 +0100
+
+    Disable email accounts in signup dialog
+
+commit 4eb925d3807eccb482b190f3421d62fc669c6bc7
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Fri Feb 5 13:48:31 2016 +0100
+
+    Make namespaced alias columns sortable
+
+commit b3cf581402b6dce8258369cb20ba842619a1f1fa
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Fri Feb 5 13:47:44 2016 +0100
+
+    Version bump
+
+commit 9663905c8fdfa21576d77e68292c0cdbc31b2f53
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Thu Feb 4 12:30:46 2016 +0100
+
+    Marketplace listings, hide delisted and no longer in stock
+
+commit 9bdcc21d2190662418254b30513ace320412c567
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Thu Jan 21 12:37:17 2016 +0100
+
+    Return executeTransaction promise
+
+commit 841bb4075379b4af1b7a32ba76ac75afe8035535
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Thu Jan 21 12:36:35 2016 +0100
+
+    Fix merchant terminal
+
+commit 94865cf919ddd74ae866c6c9738570c7a9dcc1b0
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Jan 19 12:08:03 2016 +0100
+
+    Fix bug, balance did not update
+
+commit fc070205d962971d49adf1486719205b85bbcabd
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Jan 19 11:57:55 2016 +0100
+
+    changelog
+
+commit 09d1a501ff51884e321b17362dbded77381b0e6a
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Jan 19 11:49:01 2016 +0100
+
+    HTTP API uses [name]Email for all account returning calls
+
+commit 424cabbae4c39364b528899ac5ad3bb22fc31203
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Jan 19 11:47:32 2016 +0100
+
+    Brand name change
+
+commit 44e980c8d4da2f3f3d85d6739bbb809b383029ac
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Jan 19 11:47:17 2016 +0100
+
+    Include the license text
+
+commit 4d780992691d515b2d19ab3b4652eeebb284f1cd
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Jan 19 11:46:36 2016 +0100
+
+    update changelog
+
+commit 7271d3defa2a4d59e206042e99f175e3d51749b0
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Jan 19 11:46:10 2016 +0100
+
+    speach-balloon-span class + whitespace removed
+
+commit 7ce266f7c083d63ba1e120adc5b95c8258b68614
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Jan 19 11:45:20 2016 +0100
+
+    Gracefully handle missing socket
+
+commit 45478a324bce21022970bc4f3b9d4e70f0218ff2
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Jan 19 11:03:01 2016 +0100
+
+    Add link to messenger in rendered transaction
+
+commit 28a0bc92b5f232163902d1aa1ec2425ff35d3523
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Jan 19 11:02:17 2016 +0100
+
+    Always retrieve server version
+
+commit 934ff14d9fb4fde32cdd5462ac557a249045bf5c
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Jan 19 11:01:54 2016 +0100
+
+    Fix gossip service, unread status and wrong allowed stored
+
+commit 663c457c27570c7250968fd480d4c25f598a61a9
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Jan 19 11:00:45 2016 +0100
+
+    Use class
+
+commit 43aad8b23d299b1d42de7750e52c6527fea6c676
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Jan 19 11:00:23 2016 +0100
+
+    Fix bug, firefox thinks "watch" property is a duplicate
+
+commit 259522ba06eba2baa77f28148421c1550b836199
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Jan 19 10:59:17 2016 +0100
+
+    Fix bug, cannot search for FIM-XX addresses
+
+commit 2c227ae40153ddaaa3e36e4ceca117798cd86ed5
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Jan 19 10:57:40 2016 +0100
+
+    Fix bug, chat message ordering and retrieval
+
+commit 7ac13d273c2529aa49b56748bb96973e403120c4
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Jan 19 10:56:07 2016 +0100
+
+    Use accountEmail from API
+
+commit 76189569a8b18cb01d395ce5ad0d144289ab4fef
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Jan 19 10:55:46 2016 +0100
+
+    Use accountEmail from API
+
+commit ab9f8a431119524fdd6bb9f041f5528731dd9a6f
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Jan 19 10:55:16 2016 +0100
+
+    Complete Express server integration
+
+commit 5da361122a035258707047b0e04e91b88af31d73
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Jan 19 10:54:42 2016 +0100
+
+    Auto switch to https, go to start on signout
+
+commit dcc48c1168ab0875cbd0453456976e7c1aa25569
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Jan 19 10:53:49 2016 +0100
+
+    Use accountEmail from API
+
+commit 647dadbe60827f5b802fd70f11dee65ba3248cc8
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Jan 19 10:53:06 2016 +0100
+
+    Link contacts directly to messenger
+
+commit ec1eb87892d9c4c2f1dc22737779862b2cd7c6e3
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Jan 19 10:52:33 2016 +0100
+
+    Email identifier support for search
+
+commit f833dcbc766b2102e1b8440459d1a244f61960d9
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Jan 19 10:51:58 2016 +0100
+
+    Collect styles in class
+
+commit 8848d7d9a98797ad58bf5ed628d30c497ecabfc6
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Jan 19 10:51:16 2016 +0100
+
+    Menu rearrange, email identifier support
+
+commit 89fd90594462410026dce406b03daf9a3fca7140
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Jan 19 10:50:08 2016 +0100
+
+    About box label
+
+commit 29ba7f5be764164db34b0c5b9e2b53c6536f8fcc
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Jan 19 10:49:39 2016 +0100
+
+    Version bump
+
+commit 79524ecb9c9fb131d5ee82b5d05e13d524a32792
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Jan 19 10:49:15 2016 +0100
+
+    Messenger toolbar icon - unread status
+
+commit da4f8ea28f5e25927c9ec1c530d63e93c4b74fec
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Jan 19 10:10:30 2016 +0100
+
+    Update translations
+
+commit 5a85e0296c8ac4452af60b74b46fecba01ece325
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Jan 5 09:43:15 2016 +0100
+
+    MIT license
+
+commit fe1e05b25d92f0f1c1aa32f0031d43224dfebe9f
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Jan 4 20:14:06 2016 +0100
+
+    Add ignores
+
+commit 71e9f8a9e3c5937c3537ae39e6a7bd803a96c726
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Jan 4 20:13:20 2016 +0100
+
+    Remove translation helper
+
+commit eec4f89307eae360ee981703d4a67e311f2b19d0
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Jan 4 20:12:43 2016 +0100
+
+    Copyright headers
+
+commit 4683aefec12005d5d5364659a6946224265cad9f
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Jan 4 20:12:03 2016 +0100
+
+    Copyright addition, trailing whitespace removal
+
+commit 6dec3a469967c22c7a1f0a96bb6ee4399bd06620
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Jan 4 20:11:12 2016 +0100
+
+    Copyright header
+
+commit b88ce709e54ff6a2e9bb210e7408290410079c58
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Jan 4 20:06:46 2016 +0100
+
+    Remove trailing whitespaces
+
+commit 2ac07dd6e53ab01a5e48cada65bcbad22573c8ba
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Jan 4 20:06:07 2016 +0100
+
+    New changelog
+
+commit 30248b584b6d50bda1c55e8bcb56740ef454e335
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Jan 4 20:02:57 2016 +0100
+
+    Updating mode.js
+
+commit b86a029e25f895c2f1930bbe5110b4e8522109a0
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Jan 4 20:02:07 2016 +0100
+
+    Add ignores
+
+commit 905ca4b051b96e54a0506402fb34180e1f87dfe5
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Jan 4 20:01:45 2016 +0100
+
+    Bunp version
+
+commit 4f5ecbe95c3564e19c2c3fc1630d27c34eb54594
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Jan 4 20:01:28 2016 +0100
+
+    Update fi translation
+
+commit 18048a2dd90a2b251aac3ca1b1945f9795b8f132
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Jan 4 19:59:33 2016 +0100
+
+    Stop building with nxt on-board
+
+commit ae53dc98a38dc90656a7e467ad159635821269e2
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Jan 4 19:58:48 2016 +0100
+
+    changelog 0.4.11e
+
+commit e42d541d3d4805c82f7fc6c3b7e8ab773bd4a9c4
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Jan 4 19:58:14 2016 +0100
+
+    Compile for lompsa.com
+
+commit 7bc49f6a20249832170794687d3344f6c699a499
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sun Jan 3 15:14:25 2016 +0100
+
+    Update bootstrap version
+
+commit 377afa0f9e40e23bf6a91d724cf4631ffbb5a8df
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sun Jan 3 15:13:54 2016 +0100
+
+    Undo hardcoded font color
+
+commit 507f91f5de38afe5c476d6f132d87e8f2a90386f
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sun Jan 3 15:13:04 2016 +0100
+
+    Updating asset transaction dialogs to use field plugins
+
+commit 0ed117ee4f9e97963f2396fb288894679e7e287d
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sun Jan 3 15:10:16 2016 +0100
+
+    Add unformatting to chart data properties
+
+commit 918be6110e7f32c553db891eca714fca4e4b91a1
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sun Jan 3 15:07:20 2016 +0100
+
+    Use noCAPTCHA public lib
+
+commit fb5a68a6c6769958e78cbf3db187076338b55511
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sun Jan 3 15:06:35 2016 +0100
+
+    Use noCAPTCHA public lib
+
+commit ec1d812cced8315debedad0487f7cc92c19a9162
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sun Jan 3 15:05:57 2016 +0100
+
+    Change field formatting in trades provider
+
+commit 8bba843f402760546ea3000b436e8b598e355ab4
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sun Jan 3 15:04:33 2016 +0100
+
+    Add support to load from files/blobs
+
+commit b63cae24ec7f76930c0789707c12438fae4f62cd
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sun Jan 3 15:01:35 2016 +0100
+
+    Use HTTP API instead of RPC
+
+commit 242c647f5a4f071c0568005f1bd713ab6981ab2a
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sun Jan 3 14:58:15 2016 +0100
+
+    Start using UserService
+
+commit cbaeacb7d40c532c54999ee8d42014640669bb95
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sun Jan 3 14:57:24 2016 +0100
+
+    Login wizard partial
+
+commit bd984610f1f879ea674f61853a086586e461f2a3
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sun Jan 3 14:56:21 2016 +0100
+
+    Add change animation css
+
+commit 82f86a01fcfbb898e3a81811de457d1da88c2317
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sun Jan 3 14:55:33 2016 +0100
+
+    Format results
+
+commit 7aa8174cba216c5e04c70feec12b6506451dbb23
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sun Jan 3 14:45:31 2016 +0100
+
+    Provider for obtaining account asset balance
+
+commit 840a8670aff598f3fb8dd7bc9e5526126f867cc7
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sun Jan 3 14:01:34 2016 +0100
+
+    Gossip go-online prompt in trader demo
+
+commit 96e9c97eebee2b3f9186e04722acfc17dc171018
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sun Jan 3 14:00:37 2016 +0100
+
+    Add some totals fields and make colored account aware
+
+commit 9e24523bd1cb3e67426b493b462250a15aef6727
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sun Jan 3 13:57:46 2016 +0100
+
+    Display label instead of name
+
+commit 1bfde0a9a9b5341cd75c16566bb49f25f778312e
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sun Jan 3 13:57:00 2016 +0100
+
+    Hide filter controls when in trade demo mode
+
+commit 4f8ea00bb79a17a4d97cf2881c90d7a0b1bd6090
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sun Jan 3 13:56:23 2016 +0100
+
+    Add change observer support
+
+commit f705d86b1c26a2e0116f57683b8297b075fa5ecd
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sun Jan 3 13:55:31 2016 +0100
+
+    Debug statements
+
+commit 77f6f7244381d0b6a278ae65a1b6ea66ca5fa282
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sun Jan 3 13:54:36 2016 +0100
+
+    Image
+
+commit 3dbb677671b3b18ff87e202ceb9a31f766bbf850
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sun Jan 3 13:51:51 2016 +0100
+
+    Add total field to order providers
+
+commit 5fb9af5b30997a75120f57f8636db1a4f7dda1b5
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sun Jan 3 13:49:53 2016 +0100
+
+    Auto format to two decimals when in trade demo
+
+commit f2485c466de3818a30c2fc8f555a216302ffbbc1
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sun Jan 3 13:46:26 2016 +0100
+
+    Export symbol on search view $scope
+
+commit 1d3acb408a6a1a9cc06608000ec17f09af5a27dc
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sun Jan 3 13:45:39 2016 +0100
+
+    Wrap in anonymous function closure, add debounce method
+
+commit e099997bdeec45ba9e942660c200cfb0b4b2bc55
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sun Jan 3 13:44:33 2016 +0100
+
+    Add field plugins support
+
+commit 7fa3257bd471456166d6016dac42faa1b4543995
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sun Jan 3 13:43:11 2016 +0100
+
+    Standard field type definitions
+
+commit 3a3cd1a432f0cd640c700ce3bf1d30b880e6cb7c
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sun Jan 3 13:13:18 2016 +0100
+
+    Make asset provider aware of account color
+
+commit 7f0749edfd84a7f0ba3e4ecb91d27edd28da034b
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sun Jan 3 13:12:34 2016 +0100
+
+    Use field plugins for payments dialogs
+
+commit 4a43cc5d43c260eeed457df9d2d45fa8eba7178a
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sun Jan 3 13:11:33 2016 +0100
+
+    Add ignore/bypass cache parameter for asset info provider
+
+commit d2fb5b6c1cbdfd14856c2cbaf7f52bbb1a246077
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Jan 2 17:18:34 2016 +0100
+
+    Account identifier transaction plugin
+
+commit 16881c30cc58d61a6d3db641701f9a1716b0811f
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Jan 2 17:17:41 2016 +0100
+
+    Use field plugins in transaction modal partial
+
+commit ee745bcdc824da137ed9a268e2fef132fcdf9d50
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Jan 2 17:16:24 2016 +0100
+
+    Fee service for dynamically determining fees (uncompleted)
+
+commit c4fe43a32c9a526714a5e6c2bee9f566d062d84c
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Jan 2 17:15:35 2016 +0100
+
+    Field plugin support
+
+commit 6e60fb3e4882cc7240a1c067cf1bd5aa4cf43f88
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Jan 2 17:15:02 2016 +0100
+
+    Use field plugins for namespaced-alias dialog
+
+commit 9bf7de348ed08595c01e62a8e606a92efe29ce1e
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Jan 2 17:14:04 2016 +0100
+
+    Account color auto-complete provider
+
+commit a4d11e8f327fc538b006a867fc54a458014eb59b
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Jan 2 17:12:44 2016 +0100
+
+    Account color auto-complete template
+
+commit 001b84854d0b2486ecb7b4998d95a79a8bb35bab
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Jan 2 17:12:02 2016 +0100
+
+    Images
+
+commit 6ab590d26e00d5c2a80bb6bf81c0dc52e7461ebc
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Jan 2 17:11:23 2016 +0100
+
+    monospace for buttons
+
+commit 6471071d33a14839b9b8b9ba4bfbef7a91786f90
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Jan 2 16:18:37 2016 +0100
+
+    Add "is_connected" property to websocket wrapper
+
+commit cf0cd0cdabbadc6072bd0a2bd196777b3d8db0fc
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Jan 2 16:16:30 2016 +0100
+
+    Translations
+
+commit 6da247aee1df6da1e77283f7451fc465b9a8a888
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Jan 2 16:15:16 2016 +0100
+
+    Remove old login dialog
+
+commit 17c6d884e645bf6d32b5c24490ae09e8fe9f1e83
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Oct 26 13:45:13 2015 +0100
+
+    In memory wallet now uses separate slot for test net keys
+
+commit fe0ab19e8a2eb1db547a76bb209c53b3a9afa398
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Oct 26 13:43:49 2015 +0100
+
+    Account search was not working for FIMK
+
+commit c28976384542b78a6dc7bd14678a7a6beb01d96b
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Oct 26 13:43:11 2015 +0100
+
+    Adding asset autocomplete provider
+
+commit 9d8e3a835cfb78e1ce472b13f3b79f7b395fe826
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Oct 26 13:42:29 2015 +0100
+
+    Guard against null-pointer
+
+commit 74e917841af70acfeec054c41e7d899995085835
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Oct 26 13:42:00 2015 +0100
+
+    Reusing OrderEntryProvider now in transaction plugin
+
+commit 149a3b75d18bb69f7221c4bb9d95cb2c8a35ee62
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Oct 26 13:40:06 2015 +0100
+
+    Add support for NXT
+
+commit f2a021ed0aa31de62beb0d80d8bcdfd20a2b558b
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Oct 26 13:38:02 2015 +0100
+
+    Phase out sending sender account to transaction dialogs
+
+commit b5f78a3f6d7a8fbe5f52d1864b87be292eab4e2f
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Oct 26 13:30:46 2015 +0100
+
+    Changes to master controller
+    
+    Using localStorage "lompsa.testnet" with a value of "true" or "false"
+    (both strings) to determine if we are on testnet or not.
+    Moving followUser and unFollowUser to $rootScope
+
+commit a8a6dd461bf560d5163e84dcc7497513d6294873
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Oct 26 13:28:29 2015 +0100
+
+    Refactoring accounts controller
+    
+    Now uses providers from the goods store project to display
+    goods data for accounts.
+    Three new sections: "listing","solditems","pastorders"
+    Did away with most of the controller functions, instead we
+    now rely on a single function "executeTransaction" which
+    in turn calls "plugins.get(transaction).get(id).execute(arg);"
+
+commit 6e97ceb1f2d35d6678b6553fc6ef74c2721f1ac8
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Oct 26 13:25:23 2015 +0100
+
+    Big refactoring required for assets transaction dialog
+    
+    This all has to do with the new recipient and asset autocomplete
+    fields.
+    Overall cleanup, module was kind of a mess
+
+commit abbc3314dd85ebd53b9398ed0ee714f71493f2d6
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Oct 26 13:23:15 2015 +0100
+
+    Lookup account-info on init
+
+commit db1a9cb688e670a503286405b13bc928e7e2c4ad
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Oct 26 13:21:47 2015 +0100
+
+    Changes on generic transaction dialog
+    
+    Initialize AccountAutocompleteProvider
+    Initialize AssetAutocompleteProvider
+    Show error message when socket is not connected, uses
+    new socket.is_connected indicator
+    Enable recipient and asset autocomplete, remove old static
+    text boxes.
+    Comment out public key button (does nothing)
+
+commit 7604284a1dcc2b1b988476f7f7e4497a3cd51db4
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Oct 26 13:13:33 2015 +0100
+
+    Add autocomplete support to name textbox in messenger
+
+commit a60efb996dd4b14ba0bf598e8de3368287c6b42e
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Oct 26 13:12:26 2015 +0100
+
+    Account autocomplete search template
+
+commit 8825a922cf748a177141e4184c55a597eeabfaa2
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Oct 26 13:11:31 2015 +0100
+
+    nxt icon
+
+commit 8471045d8be4da4bb6f18e8e0ff7b8122a6cb978
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Oct 26 13:11:09 2015 +0100
+
+    New translations
+
+commit e5bb9573c0dc3248e06fd2ba4dbfd8b40501f04b
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Oct 26 12:41:06 2015 +0100
+
+    Remove trailing spaces
+
+commit 511873e6333bd5328027048bee44e53069791a41
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Oct 26 12:40:35 2015 +0100
+
+    Moving login-to functionality to modal dialog (js)
+
+commit 6af8acb3bc512c81d4b6b924ba8e9c5fbaf82440
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Oct 26 12:40:19 2015 +0100
+
+    Moving login-to functionality to modal dialog
+
+commit d7a83ace6abbfac02d148ac1f893871caf255199
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Oct 26 12:39:30 2015 +0100
+
+    Add remove option to account list on dashboard
+
+commit 2cc6c681b0be4770e00cf4d999cb088394da8acd
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Oct 26 12:38:54 2015 +0100
+
+    Hide references to NXT when we run in single engine mode
+
+commit 38226bbaa62ac185b3ea893f1ccd4afee4141f7c
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Oct 26 12:38:13 2015 +0100
+
+    Asset autocomplete result template
+
+commit 0070647335145572d9a3b668ac24b9ba84423d29
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Oct 26 12:37:40 2015 +0100
+
+    Upgraded account view main menu
+    
+    Did away with all the route-active directives
+    All the transactions are now started through "executeTransaction" function
+    Login is handled by modal instead of loging-to.html view
+    New sections:
+      - listing (lists users for sale goods)
+      - pastorders (similar to version in goods controller)
+      - solditems (similar to version in goods controller)
+
+commit 97f39d897fb409a5b00c208ed4312d5e255b6a2b
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Oct 26 12:33:01 2015 +0100
+
+    First draft for account-identifier-modal
+
+commit ec59d393e1d9a0ed86d9a3600ab245c0a1c70d95
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Oct 26 12:09:05 2015 +0100
+
+    Various new script includes
+    
+    Had to move init_lompsa.js to the part that is included in grunt build
+    Signin button no longer points to login-to.html but to modal open function
+
+commit 3ebd7c7b6c31d814d62bed6dbb42bbd082d0ffb5
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Wed Oct 21 23:22:57 2015 +0200
+
+    Remove trailing spaces
+
+commit 0dd52a673f455780fa3fc48ad0aee57a6f8f11e4
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Wed Oct 21 23:13:05 2015 +0200
+
+    Add onclose support to transaction plugins
+
+commit b29dd596c6cc046933042d3e556b14d89a715171
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Wed Oct 21 23:12:21 2015 +0200
+
+    Account identifier transaction dialogs
+
+commit 2651167ee13e01b8b8f9f2667148a48721d9d214
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Wed Oct 21 23:11:21 2015 +0200
+
+    Add new transaction support to accounts view
+
+commit 230d0c3c87f7eaee83913a6603b3da521e6719b8
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Wed Oct 21 23:10:47 2015 +0200
+
+    Enabling auto complete for messenger view
+
+commit f34cb8f94e801a700735c0a19b4232bccef813ad
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Wed Oct 21 23:09:51 2015 +0200
+
+    AccountAutocompletProvider, uses searchAccountIdentifiers api
+
+commit 82efa3b7dfb25b30cedaefe143cffd19b8aa1e0d
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Wed Oct 21 23:08:01 2015 +0200
+
+    Add transaction to renderer and client signature verifier
+
+commit 78a3f915046570a42783a97aa3f792b79fe587fe
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Wed Oct 21 23:03:49 2015 +0200
+
+    Script includes
+
+commit 8063057de0b4492f92e391c2a1dfdadff4f6b290
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Wed Oct 21 23:03:18 2015 +0200
+
+    Add transaction type renderer to en.json
+
+commit a72d296d31424290fc09c9d1a56cbadc807fd567
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Oct 20 17:15:56 2015 +0200
+
+    Include acctount identifier transaction plugin script
+
+commit 885c0462b3db2d6093d8eb6df9b9f1af0f5ce834
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Oct 20 17:15:19 2015 +0200
+
+    Add acctount identifier transaction support to accounts controller
+
+commit 0cdea1c1a9da2c6f97eb8f95b3153aafdb80c2b7
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Oct 20 17:14:44 2015 +0200
+
+    Add account identifier transaction plugin
+
+commit bf36a22899c1e3d9f015aad0f444619eb6de51d0
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Oct 20 17:13:53 2015 +0200
+
+    Fix typo
+
+commit f66a3f1e07e9c67493fa4e90d92b3c58b15b6986
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Oct 20 17:13:28 2015 +0200
+
+    Add setAccountIdentifier transaction type support to nxt service
+
+commit 2597a1fa133dbed14319b01b1d40c864fd17aeab
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Oct 20 15:24:44 2015 +0200
+
+    Move MarketPlace link to (always visible) More menu
+
+commit fa9a73c495fb92efcaad50ab87b2b9f3f5508cc7
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Oct 20 14:58:46 2015 +0200
+
+    Show unread message indicator in title
+
+commit 8f4b3eb3928c8c06f6051a41f901382f83b64c36
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Oct 20 14:53:31 2015 +0200
+
+    Always disable dualEngine when on testnet
+
+commit 7015b0fae40d2374c2a69636ba83703ceb09c594
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Oct 20 14:53:03 2015 +0200
+
+    Show logged in user in title
+
+commit 579fee8863b378ec1af3b2ded17130ece8ced571
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Oct 19 21:55:05 2015 +0200
+
+    Enable "grunt build-uncompressed" task
+
+commit 4527c5d475501be6de3b7e2f53de35bc4b332e8c
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Oct 19 15:49:56 2015 +0200
+
+    Remove unused variable
+
+commit 346eebf69cfd0a0bf50218b162fe54c07b346b1e
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Oct 19 15:49:22 2015 +0200
+
+    Remove comment
+
+commit c87899b15d833b2c8914c588cb721ecc289b4819
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Oct 19 15:48:54 2015 +0200
+
+    Remove useminPrepare from uncompressed build
+
+commit 825ad01af79de68bf2a909ac3439b46dace4e7d4
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Thu Oct 15 17:01:10 2015 +0200
+
+    Use separate wallet for test-net
+
+commit 7aacb12021e405b52d3d2cef55eb1352d80488de
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Thu Oct 15 16:55:44 2015 +0200
+
+    Remove private asset flag
+
+commit 81efc528305d7ed71a38c425e9258354e7990826
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Thu Oct 15 16:52:36 2015 +0200
+
+    Remove private asset flag
+
+commit c595b02224b25fbb349c2f62d3b21cd0f54e3f45
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Thu Oct 15 16:45:25 2015 +0200
+
+    Move script to own file + TESTNET switcher buttons
+
+commit 41b2ae64d2d531af02ef03a7d0230f06f95adc43
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Thu Oct 15 13:04:56 2015 +0200
+
+    Always log websocket connection error
+
+commit 9e9b16ae93ed77828677c3de725ab922b973e5b0
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Wed Oct 14 18:52:58 2015 +0200
+
+    Update changelog
+
+commit df9efa5f0481cd152b2d71ec689e60554bff6531
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Wed Oct 14 18:51:10 2015 +0200
+
+    Update default mode.js
+
+commit d5215cd3f463b479807617cf7e5745b9ce895539
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Wed Oct 14 18:49:36 2015 +0200
+
+    Update default mode.js
+
+commit ad0ec8f97e3ce7aab0308410e8a1437568a3371c
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Wed Oct 14 18:47:15 2015 +0200
+
+    Update changelog
+
+commit b48f15f9ebec11cdb1778541a4f964533f7058b6
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Wed Oct 14 18:46:53 2015 +0200
+
+    Use nwjs provided clipboard service when run in node-webkit runtime
+
+commit 924c627a1626437e5ab5fdbe5cf5cd6ace6bd484
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Wed Oct 14 18:46:18 2015 +0200
+
+    Use nwjs provided clipboard service when run in node-webkit runtime
+
+commit 7ce24ed971f9428935d569d813e2d510a3818756
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Wed Oct 14 18:45:12 2015 +0200
+
+    Add date column to dashboard view
+
+commit d3a116b6e5a0fd3b0ac2cc2b18923c19161cf768
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Wed Oct 14 18:39:25 2015 +0200
+
+    Passphrase word lists did not load when run in node-webkit runtime
+
+commit 713aec1861edfa96d9a0e5f02c5d990f53427a86
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Wed Oct 14 16:45:56 2015 +0200
+
+    Make mode.js aware of test net
+
+commit 87002a7ff9cd8d62424a38b7b5372c15d00e9f37
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Wed Oct 14 16:41:31 2015 +0200
+
+    Bump version
+
+commit bf932dfb3cc028f71dc88b2bb0a10156b7eff287
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Wed Oct 14 16:25:28 2015 +0200
+
+    Coin image
+
+commit a98508261a2e765fb3f36ae66abd449410d34727
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Wed Oct 14 16:25:04 2015 +0200
+
+    format code
+
+commit 5b25c90cc2cf66f7dc45aa94a4c61705468c661b
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Wed Oct 14 16:23:43 2015 +0200
+
+    New favicon
+
+commit 824f9430ef933b2ee07b7016b19452ed6f29d019
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Wed Oct 14 16:23:34 2015 +0200
+
+    Windows app icon
+
+commit 8a0289a94fe095f887994c24bc4544d740e847cc
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Wed Oct 14 16:23:30 2015 +0200
+
+    Mac app icon
+
+commit 9966b9a481dc732fc19b27f903bcea4c63d81282
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Wed Oct 14 16:21:28 2015 +0200
+
+    Code cleanup
+
+commit ae969e440579bc26ea9a6efd3c86804ac3fcbb35
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Wed Oct 14 16:06:26 2015 +0200
+
+    Update build script. Away with amstockcharts, include ZeroClipboard.swf
+
+commit f9c9a385028be39684c3297e02c35910922669bb
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Wed Oct 14 16:05:31 2015 +0200
+
+    Verify each public key against the provided account id
+
+commit 965f54feeb6b3bc7d77f030fd75efd4909abb1e4
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Wed Oct 14 16:03:32 2015 +0200
+
+    Provider should not crash on not having a public key for an account
+
+commit 271262187c378fb74f0ad4b496237f0657a7e715
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Wed Oct 14 15:23:35 2015 +0200
+
+    Force use remote socket
+
+commit 09967777dc1ae85b0588cde5cd3fa509e6d44d63
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Wed Oct 14 15:22:15 2015 +0200
+
+    Update favicon ref
+
+commit 1a5aa6ac5492ab12a844af204ec3a1a785cb32ab
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Wed Oct 14 15:20:53 2015 +0200
+
+    Make localhost client aware of testnet
+
+commit 68c2b1b9a670bbe7cf5a4ede23c8d5bb1300ba6a
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Wed Oct 14 15:20:09 2015 +0200
+
+    Renaming build-scripts to lompsa
+
+commit 90b1797e9c561f76a0749e8c7841f60a33662fae
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Wed Oct 14 15:18:57 2015 +0200
+
+    Update changelog
+
+commit 2ebd3f6476f75aec651c4a938e9533299f7a1751
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Wed Oct 14 15:18:10 2015 +0200
+
+    Only phisically store the public-key if we not already have it
+
+commit 5bba00fbdf063fe5c1beb6cfc782c1b06dab7e97
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Wed Oct 14 15:17:00 2015 +0200
+
+    Add property "remoteSocket" to AbstractEngine
+
+commit 6b74abec9f2ef08e31bca24f156f28aefed88b84
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Wed Oct 14 15:04:35 2015 +0200
+
+    Add force_remote (trumps force_local) option to MofoSocket
+
+commit f24873d5b904f09c3c892172a268fb2673898cba
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Wed Oct 14 15:01:10 2015 +0200
+
+    Renaming to lompsa
+
+commit 47fc5c5678f17cd7c763b06923e6f6a5d66ea2da
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Wed Oct 14 15:00:53 2015 +0200
+
+    Display "is typing" in chat as baloon
+
+commit 7d9fa249af36e0c0bb8e361a196d742c26d0511c
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Wed Oct 14 15:00:03 2015 +0200
+
+    Renaming to lompsa
+
+commit c7f89fc424db8be4e0a89b6efcd6e9c1f2896fc5
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Wed Oct 14 14:58:15 2015 +0200
+
+    Enable nwjs winIco and macIcns in build setup
+
+commit baa900c652ceb72ae86b49fa0a5df3416b708993
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Wed Oct 14 14:57:36 2015 +0200
+
+    Add description for setting up nwjs winIco dependencies
+
+commit 53cf449e1dfea8e29a203c8c7e5abf2f648c3b1c
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Fri Oct 9 21:24:57 2015 +0200
+
+    Dont use replacemnts in "<img src" use ng-src instead
+
+commit 1137907fcc287bc3a4998e2275948fe2b4671316
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Fri Oct 9 20:21:42 2015 +0200
+
+    Remove breadcrumbs from server
+
+commit acd0ff585acd16e36a4390c581a72ce24b6802bf
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Fri Oct 9 20:20:58 2015 +0200
+
+    Remove breadcrumbs from search
+
+commit dc0d914ff84852a3ac6b275bba3536313bf5aaef
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Fri Oct 9 20:20:10 2015 +0200
+
+    Remove breadcrumbs from home
+
+commit 4b8a4f0705d34bf7a54eceaf5f382f0b9e527d09
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Fri Oct 9 20:18:57 2015 +0200
+
+    Remove breadcrumbs from assets
+
+commit f2332c73ad3139a0a8fef143e0af2e1dcde8afbc
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Fri Oct 9 20:17:50 2015 +0200
+
+    Remove breadcrumbs from activity
+
+commit 77d2e9f4962f1b14390d0e0fe481d105b8e6aa1d
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Fri Oct 9 20:17:22 2015 +0200
+
+    Remove breadcrumbs from activity
+
+commit 2d521482e3d0151dc8b30afb181405fa234a6778
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Fri Oct 9 20:16:21 2015 +0200
+
+    Remove breadcrumbs from accounts
+
+commit ed37e1c6da3d5ffa8bf5d444e694fb4fc8c7e161
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Fri Oct 9 20:11:39 2015 +0200
+
+    Preparing use of getAliasesLike for alias search
+
+commit 2a6d77838dfe92ec1461d8a6dd8554ec9f0d0b01
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Fri Oct 9 20:10:06 2015 +0200
+
+    Allow cart items to have count zero
+
+commit 9d11aaab2dfa2e0d31224c0ff2beeba829523412
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Fri Oct 9 20:09:45 2015 +0200
+
+    Allow cart items to have count zero
+
+commit 952395f06376c58990f5dba56eb02db5f81f0d16
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Fri Oct 9 20:08:42 2015 +0200
+
+    Remove pdf.dll from windows builds
+
+commit bab9cf66498b88a98e6333180459cd9bdd0940b4
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Fri Oct 9 13:43:47 2015 +0200
+
+    Restore auto forwarder to secure domain
+
+commit a47edf5cf23f97ef834da6202715c4e74f31dd18
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Fri Oct 9 13:25:29 2015 +0200
+
+    Updating mode.js
+
+commit 308e2c8f53b242b4cf87b85184b2b7391a3505b8
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Fri Oct 9 13:24:32 2015 +0200
+
+    Preparing merchant terminal payment success feedback (incomplete)
+
+commit 98e3b57786f84a6ce0457d1be54cbb290dc5cac7
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Fri Oct 9 13:23:51 2015 +0200
+
+    Updating 0.4.9 changelog
+
+commit 4aa6fb49e496cc2de17234291fcb6a5ad1abb3a1
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Fri Oct 9 13:23:21 2015 +0200
+
+    Add label to amount column in goods store cart overview
+
+commit 1c6739057a895bea707e078f1fcf99b6f93a6b36
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Fri Oct 9 11:26:10 2015 +0200
+
+    Temporarily disable auto-forward to mofowallet.com domain
+
+commit 636c8eb0a019f4d591b4656510fa33a13a28f17a
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Fri Oct 9 11:10:23 2015 +0200
+
+    Re-enable display of goods image in details provider
+
+commit baaf25b8d804eab3715e5b6753e70c9498ea1003
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Oct 6 20:23:55 2015 +0200
+
+    Merchant terminal now works with new login system. Misses confirmation message still
+
+commit 3c05c4a71422cd692eb1757b9fdffbd6423662c1
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Oct 6 13:09:48 2015 +0200
+
+    Always kill all $intervals on $scope destruction
+
+commit 096015b484cfa9c764517d439e7c93f01e55afbd
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Oct 6 13:03:30 2015 +0200
+
+    Enable "is typing" feedback. Add message remove confirm
+
+commit 11c7e7de302d0abb462427eea0d9b388d5125f31
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Oct 6 10:51:11 2015 +0200
+
+    Put marketplace buttons in slidable/responsive side menu
+
+commit 500ece830ac6bd67ac5d4d6bd470a558f36bb240
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Oct 6 10:47:52 2015 +0200
+
+    Remove commented out code
+
+commit bb0000e38a18f73a2cad60d101c268c3926e8eb1
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Oct 5 21:46:32 2015 +0200
+
+    Marketplace search results are made "clickable"
+
+commit f8173d5411a3cb3f68dc5b47c6f8fce337ad8080
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Oct 5 21:22:44 2015 +0200
+
+    For now simply strike-trhough delisted goods
+
+commit 587012e556581bb0beaa0d4385c52a38332cbf6e
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Oct 5 21:21:51 2015 +0200
+
+    Make all-goods-provider aware of blockchain events
+
+commit 7d83d1d0e2e2114c0c0e54ba4fb2e531b5b5be62
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Oct 5 21:21:14 2015 +0200
+
+    Remove unused argument
+
+commit 218414a63435cf9218a6389de91ae22d4634afaf
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Oct 5 21:20:42 2015 +0200
+
+    Trim tags in listing good transaction
+
+commit cff67f09bfc2117d3ac59c0a228e72cb28f57828
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Oct 5 21:19:55 2015 +0200
+
+    Adjusting padding (start.html)
+
+commit f89fe9ca4a41c9854328211a6250c592d1f6a919
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Oct 5 21:19:18 2015 +0200
+
+    Make goods view aware of delisted goods (partial)
+
+commit e490702319013bd9d628046e82dd80d20daeb9c3
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Oct 5 21:18:00 2015 +0200
+
+    Add bootstrap font to build
+
+commit 2e608fa641bed87113b158dea20e0937eef3c373
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Oct 5 16:21:11 2015 +0200
+
+    Remove unused code, we are using @href to point to views
+
+commit ec88fc02934f1641af11df2ea4a0cfda01e9e492
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Oct 5 16:20:21 2015 +0200
+
+    Include all bootstrap fonts in build
+
+commit e42a0cc0a1970b90df8240569feaa77fbfc80cb6
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Oct 5 15:36:11 2015 +0200
+
+    Remove parseImage and parseDescription filters (parse on the provider)
+
+commit 8f25dc187f277f4199be465cb5dc9e04fc90f71f
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Oct 5 15:35:05 2015 +0200
+
+    Remove parseImage and parseDescription filters
+
+commit 8ce22773751eeccfbf5465bf0a69ea6ff863a70e
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Oct 5 15:34:12 2015 +0200
+
+    Use L logo instead of FIMK logo
+
+commit ed09f7356f9883a1909d2f972a925ed86268eb5e
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Oct 5 15:31:42 2015 +0200
+
+    FIMK coin logo image
+
+commit 2f33fea1b882892ef5f12124b810a6edf1f5df7b
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Oct 5 13:52:04 2015 +0200
+
+    Ignore app/styles/main.css
+
+commit ae158e4fa448c55d703145160a6d4e10886c0f19
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Oct 5 13:50:46 2015 +0200
+
+    Ignore app/styles/main.css
+
+commit c6d5240d9faa3aa18058f0da7910826ff8d52e52
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Oct 5 13:47:28 2015 +0200
+
+    Make shopping-cart service use IndexedDB so we can observe it for changes
+
+commit 302a5b8833c948847c34d0b3449617924bf0c158
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Oct 5 13:46:49 2015 +0200
+
+    Add GOODS and GOODS_NAME support to main renderer
+
+commit 4e1f6888f4cdc298a70843a5fae8a7a2a17087e2
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Oct 5 13:46:04 2015 +0200
+
+    Prevent null pointer exception
+
+commit 7d3e172352e452a995b5439066c0c340306b5c7a
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Oct 5 13:45:31 2015 +0200
+
+    Remove extra whitespace
+
+commit 78a5cb346c87afde8ec568ab4733b94394459c68
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Oct 5 13:44:53 2015 +0200
+
+    Restore introduced bug to old working version (GossipChatMessagesProvider.loadMore)
+
+commit 750dc8baf99346feab79ae148af2cc0155a6d3ba
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Oct 5 13:43:26 2015 +0200
+
+    Not use "entities" in provider that returns singleton
+
+commit e003b8e0ea85cba215996d6dc85f96031e438ced
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Oct 5 13:42:32 2015 +0200
+
+    Rename priceFIMK field to priceNXT
+
+commit ab52b8be80da5849a35fc4d3ed108a0951c2d3dc
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Oct 5 13:41:37 2015 +0200
+
+    Add support for search by "tag" to AllGoodsProvider
+
+commit e78681d19a96d34e946f4dd89c00f1bf51f8c369
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Oct 5 13:40:51 2015 +0200
+
+    Update user contributed translations email address
+
+commit 321969ae77f819be3e767cd7ae8f0d6b2deccc8e
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Oct 5 13:40:12 2015 +0200
+
+    Update logo on start page and re-arrange login buttons
+
+commit 8fec2e27cff4636a8a68c4b04162c0a86f76df81
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Oct 5 13:39:30 2015 +0200
+
+    Removing breadcrumbs from home view
+
+commit b7857bad5bb6d607c32759048406698aaa9440a1
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Oct 5 13:39:01 2015 +0200
+
+    Introducing the cart table
+
+commit b5227d4b9fa132b2cbbce66a6c686f5bfcb6f104
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Oct 5 13:38:10 2015 +0200
+
+    Introducing the CartModel db class (auto-wraps all from db.cart table)
+
+commit 1178268ba8a032c584514f01df9efbd7e539a798
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Oct 5 13:37:16 2015 +0200
+
+    Enable follow-up action and new dice-word words
+
+commit 5a37a4d80381ca730e37135199b147fb73ffba58
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Oct 5 13:36:37 2015 +0200
+
+    Reenable purchase callback
+
+commit cd146c685527366063485b22a460aaa487bd9b22
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Oct 5 13:35:16 2015 +0200
+
+    Completing review of goods controller
+
+commit 67c28dc09e4b18762d50b163d96a7a2c2336b1db
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Oct 5 13:34:55 2015 +0200
+
+    Completing review of goods transactions
+
+commit b84097d2dc9c9600fee667d84b683ce9cdb01b80
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Oct 5 13:34:06 2015 +0200
+
+    Completing review of goods view
+
+commit 95a0fafc51b8713642a6eaca0514280ac921ee59
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Oct 5 13:33:06 2015 +0200
+
+    Removing breadcrumbs from assets view
+
+commit 7bb7feb0c5796e61bb115ce61bbface9a95991ff
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Oct 5 13:32:50 2015 +0200
+
+    Removing breadcrumbs from activity view
+
+commit 70cf734a6d46a88d9f6af4bc62bcdd9613821052
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Oct 5 13:32:33 2015 +0200
+
+    Removing breadcrumbs from accounts view
+
+commit c0e1c01259349e6a21233ca262e05e9314dfa4f6
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Oct 5 13:30:54 2015 +0200
+
+    Nice new logo (index.html)
+
+commit 3461e8cb40181c65ff168d9958c6befe3e57ab26
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Oct 5 13:30:22 2015 +0200
+
+    Nice new logo
+
+commit 16a8ccd1fdfccb793187dd7b35d536883402e53b
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Oct 5 13:28:58 2015 +0200
+
+    Update english dicewords
+
+commit b1ea6bbf5bb4b3e672217029c1bdd8e4a0aee5fe
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Oct 5 12:46:45 2015 +0200
+
+    Update google supported language files
+
+commit 8b1d79710297123a655a784f045552fc41a0d558
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Oct 5 12:45:39 2015 +0200
+
+    Update language files
+
+commit cd07067cdaef552264f3a5ce0bbf6242bd5642b4
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sun Oct 4 14:06:20 2015 +0200
+
+    Remove unused comment
+
+commit c3a2427c1a2a3291040f3c2d9943ee68ff331f34
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Oct 3 16:45:31 2015 +0200
+
+    Review and changes for goods view
+
+commit 97a849564d5b4b6a0ee38859923937f2cad5039a
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Oct 3 16:26:33 2015 +0200
+
+    Marketplace button in menubar
+
+commit ced78f558e74583ec9c0070ba321ba3057edb306
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Oct 3 15:53:50 2015 +0200
+
+    Forgot to include $rootScope DI
+
+commit c472000c3892e43ad1d1e1e3ea62beb20dc6a76c
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Oct 3 12:46:52 2015 +0200
+
+    Rename priceFIMK to priceNXT
+
+commit 81095f971ffa2753a692265090582567e97c2b7c
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Oct 3 12:46:16 2015 +0200
+
+    Rename priceFIMK to priceNXT
+
+commit 01fcb0788be1990c96e8261e858779e521b6a23a
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Oct 3 11:50:19 2015 +0200
+
+    Remove unused view
+
+commit 2ddf9e9af27ea03c571c7cb5a3592dc76d253c87
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Fri Oct 2 16:03:42 2015 +0200
+
+    Wallet plugin was removed
+
+commit 2e3e19e4e2fd450452739626d2c800d0be2ac0c7
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Fri Oct 2 15:17:48 2015 +0200
+
+    Remove extra space colum
+
+commit fa30ee0a9760c1264a7be553a2c9d815fec7f6a4
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Fri Oct 2 13:57:06 2015 +0200
+
+    Use translation instead of hard coding word
+
+commit e88269f0287c8dc65eee84479054bdd72ffed376
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Fri Oct 2 13:52:17 2015 +0200
+
+    Remove unused tags
+
+commit 6c0e35a40095dcf3413788dde296570a8e595411
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Fri Oct 2 13:50:16 2015 +0200
+
+    Do away with extra space in front of HTML attribute values
+
+commit 3b28b57280de65f3500c59f4a7f17e9685d8329b
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Fri Oct 2 13:45:56 2015 +0200
+
+    No need for special NXT tag
+
+commit 01d91a0a023900f85253d089f39046c10b8ce099
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Fri Oct 2 13:31:14 2015 +0200
+
+    Remove merge .orig files from index
+
+commit e317cbd30aeece0aa10f0539db8784bf7cfad0ad
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Fri Oct 2 13:29:45 2015 +0200
+
+    Stop tracking the announcements
+
+commit f83a1cfdd9f0d2787af1c5aadc660280baf2984c
+Merge: d3ac74f 35eeb89
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Fri Oct 2 13:23:33 2015 +0200
+
+    Merge remote-tracking branch 'ali/master' into goods-store
+    
+    Conflicts:
+            app/index.html
+
+commit d3ac74fc438ce2d4cf143717e79d88330f8d2b0f
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Thu Oct 1 12:39:42 2015 +0200
+
+    Add $rootScope dependency to server-service.js (was missing - BUG)
+
+commit 76c1d435d81bd952ed1d4a565aa3c98991837c8b
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Thu Oct 1 12:38:33 2015 +0200
+
+    Version bump
+
+commit 35eeb895138b17e92075ce2ab53641418408e798
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Tue Sep 29 18:21:50 2015 +0530
+
+    add and delete goods using unconfirmed transaction
+
+commit b936bf2edcafc927b8c43f0c78084a754c0946fe
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Tue Sep 29 14:39:43 2015 +0530
+
+    removed request type and renamed all-goods-provider
+
+commit 67e56a454628f4786160be776e6d48e93b7f7613
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Tue Sep 29 11:39:06 2015 +0530
+
+    variables in camelCase issue fixed
+
+commit 73682d610da88f066d26434f5f8e21a7ebccf7f4
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Mon Sep 28 17:54:11 2015 +0530
+
+    decrypt message by gossip-service
+
+commit 43ebc6acb211ee0f00f926e7b16758bda85e415a
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Mon Sep 28 15:40:01 2015 +0530
+
+    small change
+
+commit ed9edf7dc78d840f2251d1175ed9ccf2627de440
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Mon Sep 28 15:39:09 2015 +0530
+
+    priceFIMK to priceNQT issue fixed
+
+commit 4d6746331334b61b42ba25f1a641b8dfb3799e1f
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Mon Sep 28 14:07:31 2015 +0530
+
+    account balance provider deleted
+
+commit 944c9be13f5e399aebb636ed422f04f85eb85751
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Mon Sep 28 13:53:48 2015 +0530
+
+    buyer and seller using symbol
+
+commit afda9fc2fcaea7141f2b1ea87549e1df1fdebe8f
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Mon Sep 28 13:49:27 2015 +0530
+
+    price FIM and price NXT using symbol
+
+commit 3852f6ed86fb7256ceffc35e13d92013731899d7
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Sep 28 10:14:36 2015 +0200
+
+    Danish dice words
+
+commit da25264eae5260158cebba0d725f5f36c7e8a11d
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Sep 28 10:14:00 2015 +0200
+
+    Add dice words to the build scripts
+
+commit 4bbdcf58b23edc5cc554ab36bb4baa0ac720f695
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Sep 28 10:13:32 2015 +0200
+
+    Changelog additions
+
+commit 55ccdeee5491791bcff7b12dc4cf68daf5ef02e9
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Sep 28 10:13:03 2015 +0200
+
+    Use dicewords for passphrase generation
+
+commit 10fdbc6dc9bd4c8907261cda263f2b349c9f833d
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Sep 28 10:12:26 2015 +0200
+
+    Code cleanup removing old account selection
+
+commit a0c768fe6baf0d5d0fd5e14f91ef489f887ec4fb
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Sep 28 10:12:15 2015 +0200
+
+    Code cleanup removing old account selection
+
+commit aa30deac6c01ca1a1d02d316f675120edf6571ef
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Sep 28 10:11:46 2015 +0200
+
+    Code cleanup removing script includes
+
+commit d725dbd8c8e0454aad71ba695b6c25cc0fb0a246
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Sep 28 10:11:07 2015 +0200
+
+    Add dice words to build script
+
+commit 68ecf51f6e6dc9a6357713d18a06e758c81fd452
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Sep 28 09:59:42 2015 +0200
+
+    Dice words service, loads and caches dice word sets per language
+
+commit b28670bf5bae642ad1bb36ab17bc1e38823bbaba
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Sep 28 09:58:31 2015 +0200
+
+    Removing old modals
+
+commit 950a24815e9cc2a52fbd2d45df687eca4671a157
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Sep 28 09:57:51 2015 +0200
+
+    Update dutch dice words
+
+commit b100dc64aa7ea067f25592eb15b084531d3225e0
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Sep 28 09:57:40 2015 +0200
+
+    Update japanese dice words
+
+commit 9e9be88487a6a434c416128e05a1298d7bd18941
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Mon Sep 28 12:50:36 2015 +0530
+
+    css to main.less issue fixed
+
+commit e6a2395bc5ef5a366baf22dbe649ff916c1db186
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sun Sep 27 16:21:02 2015 +0200
+
+    Dice words Swedish
+
+commit f920347e335839c6a3b723d43cf1e52b062c4c1e
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sun Sep 27 16:21:02 2015 +0200
+
+    Dice words Polish
+
+commit c1ffdf7784e13d8435463e799c48710059613728
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sun Sep 27 16:21:02 2015 +0200
+
+    Dice words Dutch
+
+commit bb6fd9ead3132545674ec04ccb3c3c7ef95ad55e
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sun Sep 27 16:21:02 2015 +0200
+
+    Dice words Japanese
+
+commit 48e0ade9784ffe17e5afeb027e916136e3825182
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sun Sep 27 16:21:02 2015 +0200
+
+    Dice words Italian
+
+commit 82c4c28cd9ea8f03ce848a5e9f689617693fac84
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sun Sep 27 16:21:02 2015 +0200
+
+    Dice words French
+
+commit d930e032613f82a444e938a3aa2b1fc8baf30475
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sun Sep 27 16:21:02 2015 +0200
+
+    Dice words Finnish
+
+commit e588b9d4d39f9ce68221bc130d39b50dc25b6cc0
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sun Sep 27 16:21:02 2015 +0200
+
+    Dice words English
+
+commit 41466a29df8a3bcab8c2ba132777e7928cdd3556
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sun Sep 27 16:21:02 2015 +0200
+
+    Dice words German
+
+commit e119b29dee279c21cd5654a6c58cb5cddf3894fc
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sun Sep 27 16:08:39 2015 +0200
+
+    Removing services/wallet-service.js
+
+commit 7a610ea9489e14f2a94af343e034856bebb3ce6d
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sun Sep 27 16:08:37 2015 +0200
+
+    Removing controllers/wallet.js
+
+commit 55d3e1ce00194d1259987bf5cb8a3f93f1cce6f1
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sun Sep 27 16:08:37 2015 +0200
+
+    Removing select-decryption-account.js
+
+commit cb8a84fc88b8cb501870cd5faa84c1cf7b0990f0
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sun Sep 27 16:08:36 2015 +0200
+
+    Removing secretphrase-modal.js
+
+commit ff18f601ceba92296fa331c2754bf9800b777492
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sun Sep 27 16:08:36 2015 +0200
+
+    Removing plugins/wallet
+
+commit 8b827601a010c7f0848e12f8607f084865cd22d2
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sun Sep 27 16:08:36 2015 +0200
+
+    Removing wallet.html
+
+commit 7a2e6eee61cfd96790638a745d5313a13663dd82
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sun Sep 27 16:08:36 2015 +0200
+
+    Removing select-decryption-account.html
+
+commit 88cfb866a6f7d2fe7628b2268a1cc30716b4e1a4
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sun Sep 27 16:08:36 2015 +0200
+
+    Removing secretphrase-modal.html
+
+commit d5004093e13e809f3a146e4de9e02949a051e75f
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sun Sep 27 15:42:25 2015 +0200
+
+    Remove unused code
+
+commit 706c29f1a7fd283e104419beaf5b097c8550707a
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sun Sep 27 15:16:11 2015 +0200
+
+    Clean up unused modal
+
+commit e1b30912d9c5e888661205668975487ae1b68f74
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sun Sep 27 13:20:38 2015 +0200
+
+    Clean up unused modal
+
+commit 63be2619fb5f025880fe20237853a3a95a0a010b
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Fri Sep 25 18:38:18 2015 +0530
+
+    hide unread icon after 5 seconds if on same page
+
+commit e4f4810278baa243a9441f9ae7e9e78d24ab8d83
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Fri Sep 25 17:59:45 2015 +0530
+
+    date issue fixed
+
+commit 38eb19da91de71181aa5a82d379497346adb95a0
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Fri Sep 25 14:16:46 2015 +0200
+
+    Do away with amstockchart package
+
+commit ab6de6ecd1347be4c1844ac859cfdc4253bc4825
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Fri Sep 25 14:16:27 2015 +0200
+
+    Do away with amstockchart package
+
+commit bb49e0436242880e6a7c55c0591a91520aee839e
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Fri Sep 25 14:12:48 2015 +0200
+
+    Changelog update
+
+commit 5171eef3b39c66d9644ca8718737147761eeab45
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Fri Sep 25 14:12:25 2015 +0200
+
+    Change price chart line thickness (CSS)
+
+commit 115378c719eef29d21a2d8e8263cf6c784a782f6
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Fri Sep 25 13:52:17 2015 +0200
+
+    Changing chart provider to handle new chart data format returned from server
+
+commit 9ff5f78dd7eea7325ea2a324180f5029b03f0d03
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Fri Sep 25 13:51:06 2015 +0200
+
+    Price chart cleanup, did away with the percent axis
+
+commit fa7b9618c8695e06eee4b62cc1791a590bb083d2
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Fri Sep 25 13:46:07 2015 +0200
+
+    Add select window buttons to asset pricechart - options: hour, day, week
+
+commit b07620b2d361893816ab2d0460650d9efe2d828a
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Wed Sep 23 18:04:31 2015 +0530
+
+    more arrow issue fixed
+
+commit f43f6ea68af0ac3b43f01bc32b68fd1b568960a6
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Wed Sep 23 16:11:31 2015 +0530
+
+    30px away from other party's wall
+
+commit 2d26a0c4abff3ab00ca7af3d1473f3a48508a89e
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Wed Sep 23 15:59:35 2015 +0530
+
+    red spot when message is unread and remove spot when message received issue fixed
+
+commit 5391c75704bede0ad3bcb87f3d2d4601a6b9450b
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Wed Sep 23 13:33:30 2015 +0530
+
+    replaced green V sign for online contact with green spot/ball
+
+commit 5125f481fc9afbd50c6431b173dccfb54dc76723
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Wed Sep 16 15:40:13 2015 +0530
+
+    price fimk and price nxt as per account signed in
+
+commit b48584271976f06f0a79a5d29f31450fe3168e3d
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Wed Sep 16 14:15:23 2015 +0530
+
+    hide buttons for visitor browser
+
+commit 51f7ef80490f4b9a1e8498dfe414942ee85c2ff3
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Tue Sep 15 17:58:02 2015 +0530
+
+    sold items page string converted to variable
+
+commit 7d71028740bc404c4fd9793451050c5c676438e3
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Tue Sep 15 17:39:19 2015 +0530
+
+    past orders page string converted to variable
+
+commit 9f75754b32a2705d11066092a535297de7f5ffe9
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Tue Sep 15 17:26:21 2015 +0530
+
+    all items, own items, good details and cart page strings converted to variables
+
+commit a7cae16a970f3e6338239f0b6ec5f1efb5c3fc12
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Mon Sep 14 18:37:48 2015 +0530
+
+    misc
+
+commit f3468cf9780824d28953ffd5c64f32ff17fa6fbf
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Mon Sep 14 18:36:46 2015 +0530
+
+    order status on mouseover
+
+commit 7360cbe975d5f10281441dbeb2d40089beab91dd
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Mon Sep 14 18:31:07 2015 +0530
+
+    rebate string to refund
+
+commit 8651264842ff4fd5f701e29d08d51407b1441086
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Thu Sep 10 16:15:36 2015 +0530
+
+    change
+
+commit 6f31c3de5b74e8cb53c712c4f27c1cb982973d3c
+Merge: 960086d 26de403
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Thu Sep 10 16:02:31 2015 +0530
+
+    merged
+
+commit 960086d8dc19a42a23ee26c006946363c5c42609
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Thu Sep 10 15:29:28 2015 +0530
+
+    decrypt message in sold items
+
+commit 838d3c00b606d274f3c80c7e0b67886ad1f337f9
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Wed Sep 9 19:03:55 2015 +0530
+
+    past order items hover and message provider
+
+commit c20be43f4d41eba445b083a96b79d2a6469c957c
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Wed Sep 9 15:54:42 2015 +0530
+
+    seller account in brackets if name is not present
+
+commit a8985c1809674c23ea8e4b3a9a2ba1c0fcfc5c9a
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Wed Sep 9 13:41:20 2015 +0530
+
+    price field disabled in place order
+
+commit db01bf0cc964a4c3764160308e2f560a05625512
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Wed Sep 9 13:29:41 2015 +0530
+
+    pending status replaced with purchase time
+
+commit 4eac0acc1fb075a1bcf7167c79c00c3dcaeb3ea0
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Wed Sep 9 13:19:06 2015 +0530
+
+    view listing to view own listing, note message disabled, rebate dialogue description changed, seller name and account added in items description
+
+commit c6814ff949c1ebcd4b346bf539c4a7e3d045ccdf
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Wed Sep 9 12:34:32 2015 +0530
+
+    note to private note and becomes default
+
+commit 23c840f8968b1ee29d273360c3db2f722fcbb59c
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Tue Sep 8 16:11:11 2015 +0530
+
+    send private or encrypted msg to seller
+
+commit a9bf21057b46a486530114ab8a70136f29a6dc83
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Mon Sep 7 18:36:34 2015 +0530
+
+    send message to seller after purchase item
+
+commit f64f8af5419b5ef48a14e2188175cccd8b60363b
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Mon Sep 7 13:01:40 2015 +0530
+
+    unique key for past orders and sold items
+
+commit 89074c935023bb252c061d5af3fc1551612afd76
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Sat Sep 5 16:31:19 2015 +0530
+
+    rebate button
+
+commit d4516c2b61226e6428ed527b95179d3d6e1afda5
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Sat Sep 5 12:27:57 2015 +0530
+
+    confirm delivery
+
+commit d45dfec2e14ddce2aeeff45c80f927113eb8a026
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Fri Sep 4 19:09:45 2015 +0530
+
+    sold items provider
+
+commit 770e396b715dc6b0ff5f7c1dac2b863ebe68ad86
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Thu Sep 3 12:30:25 2015 +0530
+
+    delete item issue fixed
+
+commit 16367adb78b690a57367a0af3a57e43b7d0edeee
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Thu Sep 3 12:09:24 2015 +0530
+
+    devious item string to delete item and id added to dialogue box
+
+commit 2ab31484f5cbc119f1deb4e3f17938e9c00db126
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Thu Sep 3 11:57:19 2015 +0530
+
+    delete button displayed in owned items
+
+commit 893c3555c6b518caa2c78b9d20744c6d1800da93
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Wed Sep 2 12:45:01 2015 +0530
+
+    use strict string removed from goods.js
+
+commit f5573f1276ebcc82ca26783f0aeb2650eeb4311e
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Fri Aug 28 14:47:27 2015 -0700
+
+    error during placing order if not having  enough balance
+
+commit 9b2788bc0354f8c4557867f3e6a1642de98c00b6
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Fri Aug 28 12:13:40 2015 -0700
+
+    price fimk instead of price nqt in dialogue box
+
+commit 78000886b23b3e097202c74fefded4fb27bb7a66
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Fri Aug 28 12:13:14 2015 -0700
+
+    price fimk instead of price nqt in dialogue box
+
+commit 288f5d35f36d8fe3fe4a0b294b6737ca679d75bf
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Fri Aug 28 11:38:47 2015 -0700
+
+    price to price fimk issue fixed
+
+commit 71385603b2eac794d07decaceb3e8adfd7e53b29
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Fri Aug 28 11:33:19 2015 -0700
+
+    devious item to purchase item issue fixed
+
+commit b75491a9fbe1064b21608ed28a7545fd391d25b1
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Fri Aug 28 11:19:30 2015 -0700
+
+    items string on left panel changes to Marketplace
+
+commit 5d8989019abbf7f08110d25cacbdb0a39a3e336b
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Wed Aug 26 17:55:56 2015 -0700
+
+    payment completed on success
+
+commit 09bb21544df677bc0d646e40242cdbac2bde40c8
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Wed Aug 26 17:21:08 2015 -0700
+
+    total price in cart page
+
+commit 219a1a2796583f08f59bda2cb4292b639c3986f7
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Wed Aug 26 16:37:34 2015 -0700
+
+    show FIMK price instead of PriceNQT issue fixed
+
+commit 9cd4bfc2bb4acb804af1d763cd389dd1ebcdad58
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Wed Aug 26 16:13:56 2015 -0700
+
+    account id msg functionality added in past orders
+
+commit 6ed115b2d86ac79f6c3465c139655b0bf33ae284
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Wed Aug 26 15:24:22 2015 -0700
+
+    replaced load more assets with load more products
+
+commit 3d39ec44f53b17aafa7931ed982bfc7927ab0528
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Wed Aug 26 15:21:42 2015 -0700
+
+    item name and price field added in cart payment dialogue
+
+commit 4406c48374adfe537250f16d111453f54910d65f
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Wed Aug 26 15:15:46 2015 -0700
+
+    deliverydeadline header and value invisible issue fixed
+
+commit 47996b235a2a38fdae71261dc0037a9d63db2fa6
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Wed Aug 26 15:13:29 2015 -0700
+
+    replaced purchased a DGS good header
+
+commit 9e0fb497bdb92e0fed1de2f63bced51ecd3cd21d
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Wed Aug 26 14:51:21 2015 -0700
+
+    cart becomes empty without placing an order issue fixed
+
+commit be1c12e2b04ad1c10e83ef9fc1dab2e8ea0e38e3
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Wed Aug 26 14:45:36 2015 -0700
+
+    replaced DGS string with Marketplace
+
+commit 0e78e3bcbab1948c1f3bb96ed6e0da9e97d272c5
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Wed Aug 26 14:42:48 2015 -0700
+
+    replaced goods string with items
+
+commit 4ef751b0461054b4f89d26036a21253b6afd9c3c
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Wed Aug 26 14:35:39 2015 -0700
+
+    added seller to the list og goods
+
+commit 60368d0a291e731abbf7e0bf6c2db6f4ebda2a35
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Wed Aug 26 14:10:12 2015 -0700
+
+    post request on callback after purchase
+
+commit af28fbd40bfa7ffa148fad6fd7df8551af39618e
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Tue Aug 25 12:27:00 2015 -0700
+
+    added view listing and search for all goods functionality
+
+commit 1f9c28a58f76fc8d2ee9bc6857541c75a3a05a6e
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Sat Aug 22 15:11:28 2015 +0530
+
+    a.index value changed
+
+commit 6a6f7b784a4ca7e41cc92c3db8cd158c76176c3a
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Sat Aug 22 13:17:50 2015 +0530
+
+    a.index value changed
+
+commit 155251a8c993b993022a434ddbd8bd7413d67c4e
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Sat Aug 22 12:47:19 2015 +0530
+
+    goods details provider edited
+
+commit 594178de3fbe3b0e549ec2d1665dcb9959d42e6b
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Sat Aug 22 11:53:38 2015 +0530
+
+    past-orders.html removed
+
+commit 8fbf4ed5a6bb0d660a7b8221dc0e61f756e273ef
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Sat Aug 22 11:53:16 2015 +0530
+
+    goods-details.html removed
+
+commit 2e6fbacfc828c12c478dbcf92f7e5d5dbc60bc49
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Sat Aug 22 11:52:51 2015 +0530
+
+    cart.html removed
+
+commit e438e3fbb1bf448963895f0c27472243df805819
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Sat Aug 22 11:51:24 2015 +0530
+
+    removed goods routing from app.js
+
+commit 8ca49b218568187481c15205abd0a974d61785f9
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Thu Aug 20 13:19:10 2015 +0530
+
+    goods-details.js deleted from index.html as well
+
+commit 80fb15ec6160280b3cb733c2de66b2857c57f3a8
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Thu Aug 20 13:18:37 2015 +0530
+
+    search-goods.js deleted from index.html as well
+
+commit bf63e485b41f63653764dbc8d2c1edfca6ced151
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Thu Aug 20 13:18:09 2015 +0530
+
+    past-orders.js deleted from index.html as well
+
+commit 9ebb49dc6ff8c90866c1c5897bd81b8f585466b7
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Thu Aug 20 13:17:28 2015 +0530
+
+    cart.js deleted from index.html as well
+
+commit 8aeb6b193987a6a9315236f9b69b1dc86f52db2d
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Thu Aug 20 13:12:30 2015 +0530
+
+    goods.html cleaned
+
+commit 52279e0fbfd798a80dc6130c0de458a3601709ed
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Thu Aug 20 13:09:52 2015 +0530
+
+    past goods provider cleaned
+
+commit 187239f364221019c2e957baecf203d01b53eae5
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Thu Aug 20 13:08:44 2015 +0530
+
+    goods details provider cleaned
+
+commit 0c6f3fba1b024d12b1f98b6da34bdd98fa9f8060
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Thu Aug 20 13:04:33 2015 +0530
+
+    goods details provider
+
+commit d89ab3aeca82188a06492ccafc0f537a7b32c93b
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Thu Aug 20 11:38:04 2015 +0530
+
+    past orders provider
+
+commit 6b29ddb2ff25321c9680114f5cf309e37ca3ddb5
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Tue Aug 18 20:13:20 2015 +0530
+
+    past orders view and past orders controller are not separate now
+
+commit c04eb501b982caf840c1cf5c1d910ff3b1b119fd
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Tue Aug 18 20:02:25 2015 +0530
+
+    cart view and cart controller are not separate now
+
+commit b586d0e540d40d50d1881949d4213e2ba2320d98
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Tue Aug 18 19:48:07 2015 +0530
+
+    details view and details controller are not separate
+
+commit 1fc0b713f52a23a613e33cce86609b033efd584e
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Tue Aug 18 17:50:11 2015 +0530
+
+    all goods with filters and autoscroll
+
+commit 0064bbd0b09fd92e2268007cf4528cc4a109eebd
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Tue Aug 18 17:06:21 2015 +0530
+
+    all goods with pagination
+
+commit f7c8324fced47ce66ca4d6174f0f26ec81d45738
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Tue Aug 18 14:52:49 2015 +0530
+
+    indentation fixed
+
+commit cb943cfa7a70baca8a2f7e84e983c3a4757b737c
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Tue Aug 18 13:41:56 2015 +0530
+
+    removed unwanted services factory from controllers
+
+commit c26291a3a6a9db3973a64ba53e5f24597e4b30e6
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Tue Aug 18 13:02:06 2015 +0530
+
+    url issue
+
+commit 917885387321c6885957b347b433a1c981aa9677
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Fri Aug 14 18:27:18 2015 +0530
+
+    image upload
+
+commit 67183369b3cf95fd508cdc42cb601bb1f58cfdc6
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Thu Aug 13 18:28:05 2015 +0530
+
+    search goods page responsive
+
+commit 850f410c3c5fdad746a94e43f83eca94e1d3b442
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Thu Aug 13 18:12:27 2015 +0530
+
+    past orders page responsive
+
+commit 98a386d2af8cd039fce4cb146f3ccebcdd943e61
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Thu Aug 13 18:07:11 2015 +0530
+
+    add to cart page responsive
+
+commit b94db25cb0b0ecb9a7cbfba3feb1595d2b6e09b3
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Thu Aug 13 17:53:17 2015 +0530
+
+    goods details page responsive
+
+commit c8b1d36570e42af807f46a2ed0f1b7b2c3c5efa6
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Thu Aug 13 17:42:34 2015 +0530
+
+    goods page responsive
+
+commit bbcc435e185968c10b96a2a92da9981881616b66
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Wed Aug 12 20:06:58 2015 +0530
+
+    delete Goods implemented
+
+commit 25defece8dba624ae9c49bdec65d7938cb054641
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Wed Aug 12 19:58:22 2015 +0530
+
+    add Goods implemented
+
+commit fc697e676e95fea72e5580964a8cb8085267226a
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Wed Aug 12 19:37:03 2015 +0530
+
+    past order implemented
+
+commit 637465b84e016714ec87d4ddb6dbe8ef147fc57d
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Wed Aug 12 19:33:57 2015 +0530
+
+    place order implemented
+
+commit bc2f08286404ad27f6206c3ce244a6b78343f74c
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Wed Aug 12 16:53:24 2015 +0530
+
+    css cleaned
+
+commit ad3b15c096075206a91f97f7118702b27ffe9241
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Wed Aug 12 15:03:49 2015 +0530
+
+    past orders
+
+commit 430f9cb223b70eaee845760d130fb829a08105cc
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Wed Aug 12 15:00:13 2015 +0530
+
+    filter by tags in search goods
+
+commit dbc1d81b0f2e536649989fcdd2988872ca6faf17
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Wed Aug 12 14:56:54 2015 +0530
+
+    search goods
+
+commit c9d87c7194dac6a07f56974e82a1ded466be1a7a
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Wed Aug 12 14:44:29 2015 +0530
+
+    remove Goods from Cart and Place Order
+
+commit b6ea90a257311e4fe630ccfb7a05bb48ff6c979a
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Wed Aug 12 14:40:33 2015 +0530
+
+    add goods to Shopping Cart
+
+commit 81b661a8bff6cfaf26c01ec41683112488055c40
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Wed Aug 12 14:34:59 2015 +0530
+
+    goods details
+
+commit c74098753a1c74487ad3ae49a0cba2546a23e5e3
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Wed Aug 12 14:23:38 2015 +0530
+
+    delete good
+
+commit 4631c75a9262379d7751c978bd9dd4cea9a02fbf
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Wed Aug 12 14:14:47 2015 +0530
+
+    add goods
+
+commit 89e8ed616c6c5a350ee5a89d2db9057448cc60d4
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Wed Aug 12 13:48:42 2015 +0530
+
+    displaying all goods
+
+commit b6d059a1b11f33f13918fef632a73dc54571848c
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Wed Aug 12 13:18:21 2015 +0530
+
+    test commit
+
+commit 26de403d92de4f6825f57ae6153c142147320711
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Tue Sep 8 16:11:11 2015 +0530
+
+    send private or encrypted msg to seller
+
+commit abcd838c52371266e0a04087c5a8aa07c776d425
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Mon Sep 7 18:36:34 2015 +0530
+
+    send message to seller after purchase item
+
+commit cedf54d3a5aed1312d24888196d38ff0ae822a49
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Mon Sep 7 13:01:40 2015 +0530
+
+    unique key for past orders and sold items
+
+commit 8032e357d4515c13a61fa8a00498a3589cf03fdf
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Sat Sep 5 16:31:19 2015 +0530
+
+    rebate button
+
+commit 8f1172711ed0abbbcf0ab64577a502874b56fa0a
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Sat Sep 5 12:27:57 2015 +0530
+
+    confirm delivery
+
+commit 0e93dd05ffd420f7a55277e11773436290c13eb7
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Fri Sep 4 17:09:36 2015 +0200
+
+    Add changelog
+
+commit e9072410049bf046e8b11688478570a540ab64f8
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Fri Sep 4 17:09:12 2015 +0200
+
+    totalAmount - keep for now
+
+commit 86080ea32a6c5ff6e42cb49dafdc0e916445e964
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Fri Sep 4 17:08:43 2015 +0200
+
+    Fixing typos
+
+commit 3faf9a8e08339706e988ba05825b35a6928e820d
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Fri Sep 4 17:08:15 2015 +0200
+
+    UserDataProvider displays logged in user balance
+
+commit ce528d1d566edeae28fbd4864e5f38ac629f62d8
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Fri Sep 4 17:08:04 2015 +0200
+
+    UserDataProvider displays logged in user balance
+
+commit 07617a53b5c74882e35357563e63b66e471c0d29
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Fri Sep 4 17:07:55 2015 +0200
+
+    UserDataProvider displays logged in user balance
+
+commit 7bf8e4ad21e23c0befe5b5a56244ab76dba850de
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Fri Sep 4 17:06:57 2015 +0200
+
+    About dialog controller
+
+commit 515cd799c2e654ec612e5990e54cf1ac6d304541
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Fri Sep 4 17:06:44 2015 +0200
+
+    About dialog view
+
+commit 7d938e6199a45bb8937ccb7960f22f917abd60f3
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Fri Sep 4 16:53:33 2015 +0200
+
+    BUILD_TIMESTAMP
+
+commit ea623e11c2cd75713a0d340cd720590e35bc8581
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Fri Sep 4 16:52:20 2015 +0200
+
+    New UserDataProvider and about dialog
+
+commit 09e1f25e175f293c1a40396196c02d7cfd6d7f53
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Fri Sep 4 16:51:39 2015 +0200
+
+    0.4.8 announcement
+
+commit 286ad54a0f0921d1b36cbbd87543b3830282749f
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Fri Sep 4 19:09:45 2015 +0530
+
+    sold items provider
+
+commit fb1006058c3fafd399079f200907dcd58176b82d
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Fri Sep 4 13:34:08 2015 +0200
+
+    Adding translations
+
+commit 883a818f7441e2819d6ac2ace9afcd0077d89e31
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Thu Sep 3 12:30:25 2015 +0530
+
+    delete item issue fixed
+
+commit 717e87cd1cefe3bac16aa855b245fd93f2881109
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Thu Sep 3 12:09:24 2015 +0530
+
+    devious item string to delete item and id added to dialogue box
+
+commit 2c2f35d096b8bedfcabdd1f1a7708c0745d1243f
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Thu Sep 3 11:57:19 2015 +0530
+
+    delete button displayed in owned items
+
+commit eadce1eda9bce8fd4a969a52f80618ae2cbb7810
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Wed Sep 2 16:24:17 2015 +0530
+
+    Update mofo
+
+commit 1a4768066bfe353c9487277330728375e6e37b1d
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Wed Sep 2 12:45:01 2015 +0530
+
+    use strict string removed from goods.js
+
+commit 67f9729be9ff6aaafa0cf5dfcecf10310d768b70
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Fri Aug 28 14:47:27 2015 -0700
+
+    error during placing order if not having  enough balance
+
+commit 1844997528660e9d43e3365cacb8f28d5bf05e45
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Fri Aug 28 12:13:40 2015 -0700
+
+    price fimk instead of price nqt in dialogue box
+
+commit c4fc5971361826cc9a80c1c284a2157d6d70a081
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Fri Aug 28 12:13:14 2015 -0700
+
+    price fimk instead of price nqt in dialogue box
+
+commit a6ff10ba0deba6a2c5221c782e3cacfe553c9b6c
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Fri Aug 28 11:38:47 2015 -0700
+
+    price to price fimk issue fixed
+
+commit c310430deebe81b754f0318bb82d05f0d1c43fb0
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Fri Aug 28 11:33:19 2015 -0700
+
+    devious item to purchase item issue fixed
+
+commit a514850c17d3a87224006612840086dc02770920
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Fri Aug 28 11:19:30 2015 -0700
+
+    items string on left panel changes to Marketplace
+
+commit 9a7e23402cde03ed383add3c6e3c41f345152146
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Wed Aug 26 17:55:56 2015 -0700
+
+    payment completed on success
+
+commit e087bb24c93e56bfd01ac53469cdd687f8fb8d02
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Wed Aug 26 17:21:08 2015 -0700
+
+    total price in cart page
+
+commit 0654021806f0b70b42bc00450be654c22e29e40c
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Wed Aug 26 16:37:34 2015 -0700
+
+    show FIMK price instead of PriceNQT issue fixed
+
+commit e011e7f94bd303d8fa8b554d9ed6406cc1f10dae
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Wed Aug 26 16:13:56 2015 -0700
+
+    account id msg functionality added in past orders
+
+commit d34ffa259bb25a3b02cdeffe1ecbd37030012f2b
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Wed Aug 26 15:24:22 2015 -0700
+
+    replaced load more assets with load more products
+
+commit cb8088acbbd20927383e86b470ed88d854b5fd2f
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Wed Aug 26 15:21:42 2015 -0700
+
+    item name and price field added in cart payment dialogue
+
+commit bb0ad4da1f6a3c5076a315cd4a9afaa96f051b62
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Wed Aug 26 15:15:46 2015 -0700
+
+    deliverydeadline header and value invisible issue fixed
+
+commit 99777ca9b549cc9dfcd3fc7cd575e1c5874929b7
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Wed Aug 26 15:13:29 2015 -0700
+
+    replaced purchased a DGS good header
+
+commit 8b3f4723011a22846a90d5c5651971d50addfcd6
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Wed Aug 26 14:51:21 2015 -0700
+
+    cart becomes empty without placing an order issue fixed
+
+commit 712be8d5dc7e785af4fe3d09c7cd56a86eea5c12
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Wed Aug 26 14:45:36 2015 -0700
+
+    replaced DGS string with Marketplace
+
+commit 0ed771729fd394e91e7c22405fa2cf9701265e30
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Wed Aug 26 14:42:48 2015 -0700
+
+    replaced goods string with items
+
+commit bcdf40d1115b62e564fc4a76d5baaed36fb2154c
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Wed Aug 26 14:35:39 2015 -0700
+
+    added seller to the list og goods
+
+commit c4c677ccbc711feabe1ed0b090bfa3d1fca3f03f
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Wed Aug 26 14:10:12 2015 -0700
+
+    post request on callback after purchase
+
+commit 3dadfe7e9d6585eb4a13fec4392c0de9ddc15d08
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Tue Aug 25 12:27:00 2015 -0700
+
+    added view listing and search for all goods functionality
+
+commit 201029a387102413f3a350a0d2a4b6ebbd04e347
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Sat Aug 22 15:11:28 2015 +0530
+
+    a.index value changed
+
+commit 89f47dfee7bdc81729afd6ed8a463a4eeb886bf1
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Sat Aug 22 13:17:50 2015 +0530
+
+    a.index value changed
+
+commit 6275e266c06c3ed30169c1390f9a29f02d05cdc6
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Sat Aug 22 12:47:19 2015 +0530
+
+    goods details provider edited
+
+commit 32e645c9a1058be2f2257ee1139f59492f45542c
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Sat Aug 22 11:53:38 2015 +0530
+
+    past-orders.html removed
+
+commit 91fa5a69b7bad09f6f22805047c27e19bccbdd0f
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Sat Aug 22 11:53:16 2015 +0530
+
+    goods-details.html removed
+
+commit 6df014cf9c150c9258216eab58db34e1bccb96e0
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Sat Aug 22 11:52:51 2015 +0530
+
+    cart.html removed
+
+commit 1889ce1913fbcbfd9d50ce0ced2f354cf6f0b2ae
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Sat Aug 22 11:51:24 2015 +0530
+
+    removed goods routing from app.js
+
+commit 3fae8053cb627064468acd660e053fe4834e34c0
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Thu Aug 20 13:19:10 2015 +0530
+
+    goods-details.js deleted from index.html as well
+
+commit ad3f677e6f325c4faecdb6ff6feb1b2e797c36bc
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Thu Aug 20 13:18:37 2015 +0530
+
+    search-goods.js deleted from index.html as well
+
+commit 90158c06a4e4ca4279a543bfb42011c9facf9359
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Thu Aug 20 13:18:09 2015 +0530
+
+    past-orders.js deleted from index.html as well
+
+commit 0a702e655138d5fb51a602163f6c3a927c06348b
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Thu Aug 20 13:17:28 2015 +0530
+
+    cart.js deleted from index.html as well
+
+commit 5ebc3dea22f06289de1844c6fa4b755c63166d93
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Thu Aug 20 13:12:30 2015 +0530
+
+    goods.html cleaned
+
+commit 6a0b8715c4a3874829202db50e3683bf71e219cf
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Thu Aug 20 13:09:52 2015 +0530
+
+    past goods provider cleaned
+
+commit ae12e7e7f0012712ab3c9ba5749359fe734088f4
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Thu Aug 20 13:08:44 2015 +0530
+
+    goods details provider cleaned
+
+commit 78964a755a3c4395556eddc9a4b36149a71b87d5
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Thu Aug 20 13:04:33 2015 +0530
+
+    goods details provider
+
+commit 6171c3f28b891d95bad07d82477413d2d7e6cd57
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Thu Aug 20 11:38:04 2015 +0530
+
+    past orders provider
+
+commit 3bac061435c80601af6d6bd6b3a61826a889188a
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Tue Aug 18 20:13:20 2015 +0530
+
+    past orders view and past orders controller are not separate now
+
+commit 08fcd9cbbaddae114e9ff4f266a8a2a8e61b2ea2
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Tue Aug 18 20:02:25 2015 +0530
+
+    cart view and cart controller are not separate now
+
+commit 45657a22ed8af88f94316a041633732c0692182d
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Tue Aug 18 19:48:07 2015 +0530
+
+    details view and details controller are not separate
+
+commit 37ee0b2c52a28cb2dde8bea22dfcb008afee4731
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Tue Aug 18 17:50:11 2015 +0530
+
+    all goods with filters and autoscroll
+
+commit 3d0d6eac6277f8be893d67e2cc6e93efc9db8f8a
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Tue Aug 18 17:06:21 2015 +0530
+
+    all goods with pagination
+
+commit d38cf979c61dcd77d0fa100c76585be4fa1e8790
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Tue Aug 18 14:52:49 2015 +0530
+
+    indentation fixed
+
+commit 3eb46edb4ba6b38c2e22e285f37ecf7d33368780
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Tue Aug 18 13:41:56 2015 +0530
+
+    removed unwanted services factory from controllers
+
+commit 82ba3bbcf7b1989e4081c7cc4faead6c9d08d81f
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Tue Aug 18 13:02:06 2015 +0530
+
+    url issue
+
+commit 60138a78367f7f144c80cb4c8894deb593e32b78
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Fri Aug 14 18:27:18 2015 +0530
+
+    image upload
+
+commit 6ed4a5895879e5c7093b4d41efccd5f50a8e2bda
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Thu Aug 13 18:28:05 2015 +0530
+
+    search goods page responsive
+
+commit 3f1315dae30f13501c1bc8f0f455354538f0465b
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Thu Aug 13 18:12:27 2015 +0530
+
+    past orders page responsive
+
+commit 46980f88d9e896fa2cf2dc130c4954d1864bc017
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Thu Aug 13 18:07:11 2015 +0530
+
+    add to cart page responsive
+
+commit d31dc3779919a11c296556b022a6f21acb42d085
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Thu Aug 13 17:53:17 2015 +0530
+
+    goods details page responsive
+
+commit cdb9d72d4ba63a35fcdbc53b6f4d4c9eaf7abc7a
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Thu Aug 13 17:42:34 2015 +0530
+
+    goods page responsive
+
+commit 641b125db30b7e56cb42c1b42873b686f446c92e
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Wed Aug 12 20:06:58 2015 +0530
+
+    delete Goods implemented
+
+commit 29015e505e6b4f8c8afb34f08d724053be800973
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Wed Aug 12 19:58:22 2015 +0530
+
+    add Goods implemented
+
+commit c9654909f10f982ccbe4debb57b7bb1ec468d685
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Wed Aug 12 19:37:03 2015 +0530
+
+    past order implemented
+
+commit 862035ce6826e9f023b0a92782014d1fd790b7cf
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Wed Aug 12 19:33:57 2015 +0530
+
+    place order implemented
+
+commit 3fc42cc92c25b00702701ecc5caa1e18d524abb7
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Wed Aug 12 16:53:24 2015 +0530
+
+    css cleaned
+
+commit ed5a1437ea3440d7f2367b9c752804d1b3e0a311
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Wed Aug 12 15:03:49 2015 +0530
+
+    past orders
+
+commit 0364a0ae12fb19e6b352feb13c86d56429c5cc0e
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Wed Aug 12 15:00:13 2015 +0530
+
+    filter by tags in search goods
+
+commit 643e2ebc328ee3684bcbba3de9b173ba589fd575
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Wed Aug 12 14:56:54 2015 +0530
+
+    search goods
+
+commit d7c9c0e617ccf1ef2d3b9cc72955d86206816485
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Wed Aug 12 14:44:29 2015 +0530
+
+    remove Goods from Cart and Place Order
+
+commit c0cc5598cbeaaa1ca9583b50b904e899c25faa1f
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Wed Aug 12 14:40:33 2015 +0530
+
+    add goods to Shopping Cart
+
+commit a383e5692e6a934b25258a640a5da26cc24121a9
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Wed Aug 12 14:34:59 2015 +0530
+
+    goods details
+
+commit 3b18a7738fd7a68b2210ab1d45de264b411114e0
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Wed Aug 12 14:23:38 2015 +0530
+
+    delete good
+
+commit 83ecbc4847abf3f8e2837f7f2137d9249fc94e24
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Wed Aug 12 14:14:47 2015 +0530
+
+    add goods
+
+commit b34bd9893826e82ee403ce0af414b6a8dd599596
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Wed Aug 12 13:48:42 2015 +0530
+
+    displaying all goods
+
+commit a807451d5df29084bd54ea235933c037d81bff8f
+Author: Ali Asgher <aliasgherlakkadshaw@gmail.com>
+Date:   Wed Aug 12 13:18:21 2015 +0530
+
+    test commit
+
+commit e5a7db321ff990bb44efe65d3c0a9a620c313f36
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Sep 1 12:45:07 2015 +0200
+
+    Do not auto-add self as chat contact
+
+commit 6903318ceacf41754bde9c631d0a821bd74271e5
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Sep 1 12:38:29 2015 +0200
+
+    0.4.8 changelog
+
+commit 915aeefa4f537cb0bf70b136a1373a71528a7a89
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Sep 1 12:38:01 2015 +0200
+
+    Re-enable sending blockchain messages in chat
+
+commit cdfd90e6b01cc906b3ca8f75b4f6cb8e082fb93d
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Sep 1 12:02:48 2015 +0200
+
+    Add 0.4.8 changelog
+
+commit a5a25429080bb489e520f6ce5922afc2da12df8f
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Sep 1 12:02:23 2015 +0200
+
+    See if we can use Function.bind and other es5 features more often
+
+commit 2dda7b5cd55fb147311f4419a9a3099c3a59d9c7
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Sep 1 12:01:39 2015 +0200
+
+    0.4.7 announcement
+
+commit b01b0756a12e9b0fe7f2adfbee5907ba090f931e
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Sep 1 12:00:24 2015 +0200
+
+    Fix chat speech balloon alignment (css)
+
+commit 1a875d2d965f27aa255abeeda924581bdabc9125
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Sep 1 11:58:13 2015 +0200
+
+    Major probably final refactoring of gossip client code
+
+commit 28d75b74410cfe50b463c52dee07d6c76960873e
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Sep 1 11:57:58 2015 +0200
+
+    Major probably final refactoring of gossip client code
+
+commit 1f8c0d884ade6b9ad8bc56b9533ce13fee91d3bf
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Sep 1 11:57:45 2015 +0200
+
+    Major probably final refactoring of gossip client code
+
+commit c816f612f70a7a59393e69872a183419e49f19c7
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Sep 1 11:57:24 2015 +0200
+
+    Major probably final refactoring of gossip client code
+
+commit 65c93e288aa089b3510bb1f5a30d70b9bb2bfc9b
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Sep 1 11:57:12 2015 +0200
+
+    Major probably final refactoring of gossip client code
+
+commit ec78a3a8f774d926cf464604b6d4c8cf934ecb2e
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Sep 1 11:54:49 2015 +0200
+
+    No need to trust that HTML
+
+commit 6a581dc2d4abf992671944a663b1eff2918293cb
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Sep 1 11:54:00 2015 +0200
+
+    Add IS_TYPING support and remove send button
+
+commit c32fa55c2abd0df51459c52cf5bf276bb5f8f68d
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Sep 1 11:53:05 2015 +0200
+
+    Version bump to 0.4.8
+
+commit 677f74aec32930294675ca06ab6f509fdf765521
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Sep 1 11:52:31 2015 +0200
+
+    Hit ENTER to send chat message
+
+commit 4edd27696f27354dd434a512baa97ec5206abf6c
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Sep 1 11:52:05 2015 +0200
+
+    Hit ENTER to send chat message
+
+commit 396a3478f86cd933314d0b26bd88f3649fd61b06
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Thu Aug 27 21:41:18 2015 +0200
+
+    changelog edit
+
+commit eeedf691dd04827677b202f4358ad37a36b729e1
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Thu Aug 27 21:41:02 2015 +0200
+
+    bump version
+
+commit a72c5f059b77a54def5037e115dea319f7839e06
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Thu Aug 27 21:36:54 2015 +0200
+
+    lompsa.png
+
+commit 94a67383ea899761bc504c15bef31f6fb3ad2109
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Thu Aug 27 21:36:23 2015 +0200
+
+    Add Gossip service
+
+commit 88907282e68f4cfc07eeeb3427b937c4eb0abe07
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Thu Aug 27 21:35:55 2015 +0200
+
+    changelog
+
+commit 404a9e4f0a263b8b87223c02e34833e820ab6acd
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Thu Aug 27 21:35:37 2015 +0200
+
+    Add (to be) youtube service
+
+commit 76eab28faf85dd344e4cdfedc1a6f0aca5f485ec
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Thu Aug 27 21:35:05 2015 +0200
+
+    Add publicKeyService
+
+commit 683054dad73dc1725c4dfaed9e586fbdd771fa15
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Thu Aug 27 21:34:26 2015 +0200
+
+    Long due clean up - (constants in nxt.js)
+
+commit b1b8f31aa37331f83492536f5ef30ca35694b82e
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Thu Aug 27 21:33:45 2015 +0200
+
+    Add debug dump function to MofoSocket instances
+
+commit d69b29c8b40ae4e418602c3d6c7a4e563162fd77
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Thu Aug 27 21:32:13 2015 +0200
+
+    remove comment
+
+commit c4173f076879c27211154149b6ed38ff703d5587
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Thu Aug 27 21:31:46 2015 +0200
+
+    typo
+
+commit 6216644ca07d65fc4e94b5b992a623e6729831c6
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Thu Aug 27 21:31:25 2015 +0200
+
+    Adding new interval method to all indexed providers
+
+commit 6605e028b062ec5a96d1f57e91a86f81fd72c02f
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Thu Aug 27 21:30:34 2015 +0200
+
+    format
+
+commit 6f95b333db504c7c9a24ddc61f6fbd3b9f62394a
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Thu Aug 27 21:13:43 2015 +0200
+
+    Adding gossip/chat to indexedDB
+
+commit 2ccf912e8e9a14e3694f1c41757fa46f01e74b72
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Thu Aug 27 21:13:03 2015 +0200
+
+    Remove use of nxt.constants()
+
+commit abbc66285693055b03dbd42aa1861299ea979180
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Thu Aug 27 21:11:56 2015 +0200
+
+    mergded chat providers
+
+commit b8bdbe1a1c7e8a3783f0760cd30337a0e3265704
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Thu Aug 27 21:11:51 2015 +0200
+
+    mergded chat providers
+
+commit 0c49ab2eeaa4eda3aa42e82bbdf44fdae01848c1
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Thu Aug 27 21:11:06 2015 +0200
+
+    do away since gossip and blockcain messages are merged
+
+commit 0841488d7eae7425debb01a4651657064143e263
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Thu Aug 27 21:09:49 2015 +0200
+
+    space edit
+
+commit dd4fd5d6f993d3f32a89171dfaafb2dd3df74ada
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Thu Aug 27 20:39:42 2015 +0200
+
+    GossipModel (indexed db Dexie model)
+
+commit 49f4345ebc168dd59b9c4802efa65c1a070173b7
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Thu Aug 27 20:39:27 2015 +0200
+
+    ChatModel (indexed db Dexie model)
+
+commit 005683b439eec675d867de7e608c47b6d1a1fba1
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Thu Aug 27 20:38:43 2015 +0200
+
+    new announcement
+
+commit 151987fa1be681b85f7c2e7f3c386030d5193895
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Thu Aug 27 20:38:16 2015 +0200
+
+    Updating node-webkit to the new "nw"
+
+commit 9e7681d53fef32ded3167f606a083bf18749edc1
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Thu Aug 27 20:37:53 2015 +0200
+
+    Re-make the chat section to use "gossip" protocol
+
+commit df39f46d54c464a60f508da1a7f842786a0a976b
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Thu Aug 27 20:30:44 2015 +0200
+
+    Re-make the chat section to use "gossip" protocol
+
+commit b899c2ca0ba5e5cb85ca65f78115f1f980561117
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Thu Aug 27 20:30:34 2015 +0200
+
+    Re-make the chat section to use "gossip" protocol
+
+commit a319be668ce8ecfc2a3dbabe4f2253ff1fe35922
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Thu Aug 27 20:29:56 2015 +0200
+
+    Updating node-webkit to the new "nw"
+
+commit 9008f2388f205d83e688a5213d064f268ae2d5fe
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Thu Aug 27 20:28:31 2015 +0200
+
+    Updating node-webkit to the new "nw"
+
+commit 6db433e37cbcd5d27a66dd48fcd100b6491327cc
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Thu Aug 27 20:27:45 2015 +0200
+
+    Get rid of pesky error in console while on browser
+
+commit 5e292eaafb6fa71cc62e68fe82bcfd4993b8cd20
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Thu Aug 27 20:27:05 2015 +0200
+
+    Add peek() to Iterator lib util
+
+commit a34affcd70ccd375bde4a117907310039ed3924d
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Thu Aug 27 20:26:16 2015 +0200
+
+    Blockchain downloader desktop version fix
+
+commit 39c190f6f1a45dd8a2d384062a0a0b62d9425354
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Thu Aug 27 20:25:35 2015 +0200
+
+    remove transient message support (permanently probably)
+
+commit e96ccb921cd22c779c885663583954a2adb2296c
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Thu Aug 27 20:24:39 2015 +0200
+
+    remove breadcrumb from search view
+
+commit d16404c1fc68d1e88c1022f77f789e58e34fddbb
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Thu Aug 27 20:15:53 2015 +0200
+
+    Fixing login controller
+
+commit 93e28bc766a8e7be6914ff421f87ec24535d4a3b
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Thu Aug 27 20:15:34 2015 +0200
+
+    Fixing login view
+
+commit 5f2c92c92da4fd66723fdb3cac1a901d814131d8
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Thu Aug 27 20:03:32 2015 +0200
+
+    clean up script includes
+
+commit 5294844285d14fe9c9b8af464a966e94ff41df7d
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Thu Aug 27 19:42:55 2015 +0200
+
+    remove underscore lib
+
+commit 3c8d4d3bbef8d8d0bdeafa693336f4f92963f39b
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Thu Aug 27 10:27:04 2015 +0200
+
+    Move Dexie to the bower group
+
+commit ccb16676f691d102ccb4dc873629abb008901c5e
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Thu Aug 27 10:26:34 2015 +0200
+
+    Move Dexie to the bower group
+
+commit e9cb7212579fab7c0d7b0e0bfb12f3675609f3d0
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Fri Aug 14 12:52:19 2015 +0200
+
+    Set CURRENT_ACCOUNT in mode.js to auto login (debug)
+
+commit 9dbd10ccbdd9dc3273af2c2c4caa997c08f64412
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Fri Aug 14 12:50:48 2015 +0200
+
+    i18n for messenger.html
+
+commit a87d846c9af892edeeb9beee2dafea9e82a8cd7b
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Fri Aug 14 12:23:17 2015 +0200
+
+    Add direct link to account create/login
+
+commit 55459850235ba708e9a05e185fc681282dcdffe8
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Fri Aug 14 12:01:47 2015 +0200
+
+    Angular translate requires sanitize strategy
+
+commit bcbf4e4ba3de2d0f22c6832ad16dd1c4a9bb498d
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Fri Aug 14 12:01:09 2015 +0200
+
+    Add sign in / create account buttons to start screen
+
+commit 091f864a47fb6fb05b4b31f9ce86f4555c8e16cb
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Fri Aug 14 11:59:55 2015 +0200
+
+    Add debugger helper to mofo-socket
+
+commit 9a4f76779a72a41c4dab64b5d6703a4f9d37fc89
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Fri Aug 14 11:59:15 2015 +0200
+
+    Add sign support to nxt.util
+
+commit 97e89cb92b38c54da09a62e5b8e9481a8cbadde7
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Fri Aug 14 11:58:40 2015 +0200
+
+    Add gossip support, chat-list-provider
+
+commit 5c7b52f17469f0aa97a5993b091675213fe54cfa
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Fri Aug 14 11:48:47 2015 +0200
+
+    Enable gossip feature in messenger controller
+
+commit 02398a5275b043d32454b08509288b63ed428cb6
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Fri Aug 14 11:48:09 2015 +0200
+
+    Enable gossip feature in messenger view
+
+commit 2fb90158280764f09fb7ec9baa5f30cbebb8cc1b
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Fri Aug 14 11:47:29 2015 +0200
+
+    Disable FIMK faucet integration
+
+commit 66d667dae9ce539c608d1e3d0ef145ed8d432b84
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Fri Aug 14 11:46:57 2015 +0200
+
+    Add sign in button to account view
+
+commit bcc179a80f869e47c8893d5f9e07588372a28628
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Fri Aug 14 11:39:30 2015 +0200
+
+    Main/top menu changes
+
+commit 7202c36a73ffd41a2b7680627a565c670b28ff10
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Wed Aug 12 17:26:10 2015 +0200
+
+    Not needed -- since websockets
+
+commit a63eb865a08729184bdfd638b465c024b5c8d097
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Wed Aug 12 17:11:10 2015 +0200
+
+    Not needed -- since websockets
+
+commit 74bf956f6be739faae04b7bf428b63b59124635d
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Aug 11 17:26:58 2015 +0200
+
+    Improving initial build and dev setup
+
+commit e087d72e58e398d3ec61370d83c1f34031ebeb44
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Aug 11 17:26:28 2015 +0200
+
+    Improving initial build and dev setup
+
+commit 2b0127b884a859585cb527c8363cc0b13da3cd01
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Aug 11 17:26:19 2015 +0200
+
+    Improving initial build and dev setup
+
+commit d06496de0736dd1392f8617456aa379fdbaf8395
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Aug 11 17:26:01 2015 +0200
+
+    Improving initial build and dev setup
+
+commit 0ee8d82f22f6c71dd2cc6d611ead0ac6e52fe42f
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Aug 11 17:25:26 2015 +0200
+
+    Improving initial build and dev setup
+
+commit 3a7bf60faa174147601e79d8cde16b38e89f7abb
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Aug 11 15:04:31 2015 +0200
+
+    Add mode.js to git
+
+commit c92d4310bfb5a6e386fe5426a56c85c9d92b794f
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Aug 11 15:04:18 2015 +0200
+
+    Add mode.js to git
+
+commit 778afccbabb14f9f0c60bbb2ac913cdffe069a9d
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Aug 11 10:57:41 2015 +0200
+
+    Version bump
+
+commit ed856150bac8eaf3ce6f51a387dc8c49ee72c4d5
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Aug 11 10:55:53 2015 +0200
+
+    Remove unlock link from transaction renderer
+
+commit 29d115a554ce5fe2e7cf9c2b67d89486064a219d
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Aug 11 10:55:26 2015 +0200
+
+    Various login-to controller fixes
+
+commit e85f1731aab025f851d601ed22abc94a639068aa
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Aug 11 10:54:42 2015 +0200
+
+    Various login-to view fixes
+
+commit d4167781ac1b62b3907816e7762ddcae785e1c4f
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Aug 11 10:53:47 2015 +0200
+
+    Remove inbox option from home controller
+
+commit 4fe3e9bf8a279817149c2a65e03a5ffbd4532f40
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Aug 11 10:53:34 2015 +0200
+
+    Remove inbox option from home view
+
+commit 2e35d36d02f6b0dd253a85a17576763d8b05afec
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Aug 11 10:49:57 2015 +0200
+
+    Remove wallet from settings menu
+
+commit 2d2c1fdc0eeeeb71021e0f4cb0d769df69b91211
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Thu Aug 6 10:52:05 2015 +0200
+
+    Key service fixes
+
+commit 1e428ce4104e7bd6b3cb6b934627ec92209d2ffa
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Thu Aug 6 10:51:41 2015 +0200
+
+    Use local var, not global!
+
+commit f624e1122cb79635d442847a2d1a6e1827d3a7ee
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Thu Aug 6 10:50:49 2015 +0200
+
+    Improve wallet handling
+
+commit 699e19ab26573c567b8b09ef5ee7283a5f3f842c
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Thu Aug 6 10:49:34 2015 +0200
+
+    Improve wallet handling
+
+commit 25ab9b7e37703baa8e165239312ee9772e9fe07c
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Thu Aug 6 10:48:42 2015 +0200
+
+    Move home button in mobile menu
+
+commit 6458f50fa79857b11be2de55013d0ca1d8c1de0d
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Aug 3 14:34:42 2015 +0200
+
+    Prevent user secret phrase with trailing space to be trimmed
+
+commit d7ff5132fe5de8e2a5fde87a8eed390d7eff148d
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 16:06:46 2015 +0200
+
+    Updating compile scripts
+
+commit 2a6927f084671ec195c5d6340727be0d5745b0d3
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 16:06:43 2015 +0200
+
+    Updating compile scripts
+
+commit 6fe03b02d6b2c099820024282b0f40adc5c2b42c
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 16:06:04 2015 +0200
+
+    Updating compile scripts
+
+commit e90a5985f974a6627071338088887d6ff751026d
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 16:06:01 2015 +0200
+
+    Updating compile scripts
+
+commit 1ec2497fb95015491ab62ce3e31d12bbadb6695d
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 16:05:54 2015 +0200
+
+    Updating compile scripts
+
+commit 4dfe6fc36e906a08db244c43f9ab99ecde4f9ef9
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 16:05:33 2015 +0200
+
+    Cleanig up dependencies
+
+commit 56d064b0742127758f35bcaa6930c1c6db827d1c
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 16:05:03 2015 +0200
+
+    Stylesheet for chat ui updates
+
+commit 465bfcbdd963c8321090634e2ca800d8e25403da
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 16:03:15 2015 +0200
+
+    Committing this now but it will be replaced
+
+commit f61a88f5e9a355b7af255dac09123272cc127c24
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 16:01:04 2015 +0200
+
+    Adding code source
+
+commit b62324d6bafb61229b275ffaf4fedc9e3ee854d2
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 16:00:29 2015 +0200
+
+    Auto flush cache on language change
+
+commit 0cb7e9ea6e0289f74b986b6727684f64098b2c68
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 15:59:48 2015 +0200
+
+    Various combined fixes to nxt.js
+
+commit 462feed9196163edcf7cc1809bad354d2caa228b
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 15:58:48 2015 +0200
+
+    Adding some new APIs
+
+commit 88789d0688536a6d7be465474c6273d1027d2fcb
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 15:58:02 2015 +0200
+
+    Introducing the key-service will replace the old wallet impl
+
+commit 9fccd520574566fc7ed4683c1316d75e66295eba
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 15:57:23 2015 +0200
+
+    Bug fix indexed-entity-provider
+
+commit 8f5ed703db5d04418fda08c2e087c42844ac897f
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 15:56:47 2015 +0200
+
+    Clean up db service
+
+commit 0eace0c08d2f74891797dedb4aaa547ca8a9905b
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 15:56:14 2015 +0200
+
+    Changes because of upgrade to Dexie
+
+commit 4362991a6b732b3cb0511d217f48755cde855109
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 15:47:39 2015 +0200
+
+    Updating Trades provider
+
+commit b3ebb390ea36f1710372d6d496ca03a5e8f527e9
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 15:47:25 2015 +0200
+
+    Updating Private accounts provider
+
+commit 5c0e0631bd18b2d046b1444cb6bb7cdaece893bf
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 15:47:09 2015 +0200
+
+    Updating Order entry provider
+
+commit 758a62a06a2ec1c009d71545777ca6d2bbe83076
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 15:46:53 2015 +0200
+
+    Updating My order provider
+
+commit c00ae8e03da369415a599f6ae0722fea920faf19
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 15:46:44 2015 +0200
+
+    Updating My bid order provider
+
+commit ca38c33c2f45a136c0833155d432ca87668b0fc1
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 15:46:33 2015 +0200
+
+    Updating My ask order provider
+
+commit afb036f17cfc285f806027a29816df9149fbf024
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 15:19:37 2015 +0200
+
+    Updating Charts provider
+
+commit 485f24a8ed019f72a55cd2bed2bfa08dd3bb198b
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 15:19:14 2015 +0200
+
+    Updating Chart data provider
+
+commit 670d9edd281121c5bf2454011f237cc279d29622
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 15:18:56 2015 +0200
+
+    Updating Asset info provider
+
+commit c9d9c30da317193e67bc3313156c9e28c3fc1503
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 15:18:39 2015 +0200
+
+    Updating Asset detail provider
+
+commit dba5685b158e3859648d7815910610b6308a0d67
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 15:18:22 2015 +0200
+
+    Updating Bid order provider
+
+commit d0db71c92225a95682680db231df84ec78be94cb
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 15:18:10 2015 +0200
+
+    Updating Ask order provider
+
+commit 70f3ab7b95d1e1d973a34dec38d29367aff8c28f
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 15:13:34 2015 +0200
+
+    Updating Server Console provider
+
+commit 228c6f90212de34b89451160641ac8972aba0672
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 15:13:21 2015 +0200
+
+    Updating Search provider
+
+commit b85e98571cb04a48fafedaa74d5a0c35d473b197
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 15:13:07 2015 +0200
+
+    Updating Recent Transactions provider
+
+commit 7e6e49cdb6ec49a49281ebdaf46de8c91fa07c2e
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 15:12:53 2015 +0200
+
+    Updating Peer provider
+
+commit 471b442196bf662d00736039d522efec6152faa7
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 15:12:42 2015 +0200
+
+    Updating Payments provider
+
+commit c5f3163b77b0304bcb4664745871f59b675791e2
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 15:12:27 2015 +0200
+
+    Updating Messages provider
+
+commit 45b2ee05f6b8e19bb10b6526b384efab562d21bb
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 15:12:08 2015 +0200
+
+    Updating Chat Messages provider
+
+commit 008d6d9f01c114b06e7946be7de03636c4db77e9
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 15:11:55 2015 +0200
+
+    Updating Chat List provider
+
+commit 6e6c4eb5061f44ae6d1c2e29120075849e6b3780
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 15:11:37 2015 +0200
+
+    Updating Balance provider
+
+commit 7e2d0e961c8703abb7dd59d1d07bf5304a7a7e8a
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 15:11:24 2015 +0200
+
+    Updating All Assets provider
+
+commit 91a4e85230f19e53770397e392a615fd41cb4035
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 15:11:08 2015 +0200
+
+    Updating Activity provider
+
+commit 118f0fd60ce17c3393d289eb170445e4a891d6cc
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 15:10:56 2015 +0200
+
+    Updating Account provider
+
+commit 39c7a17affdaa951f4801d6e79236c1dbde4a82e
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 14:59:20 2015 +0200
+
+    Multiple updates to master controller
+
+commit 5be8a08af2d13515b17b6d90e39d88e3ed3cc93e
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 14:58:48 2015 +0200
+
+    Change wording in wallet plugin (temporary)
+
+commit 282b93a32fb59a8579ad57257fffdb2009573f68
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 14:58:10 2015 +0200
+
+    Updating secret phrase modal
+
+commit edfef402f4e71722cd71d6ed063c2bf7d6df1380
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 14:48:11 2015 +0200
+
+    Removing slidemenu
+
+commit 49f9bc31f7567e4dca05565bd532a203fe572e3c
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 14:47:38 2015 +0200
+
+    0.4.5 changelog
+
+commit af54c0f376be5b73c0f29b58511d88146ba4dbdb
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 14:45:17 2015 +0200
+
+    Price chart styles
+
+commit 1bf1133b628d0ebf3d05480c0cea2c19e66779a0
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 14:45:05 2015 +0200
+
+    Emoji styles
+
+commit ad069124b70013314575648d39c6bb5f5ad226a8
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 14:03:38 2015 +0200
+
+    Move translate plugin to vendor/repo
+
+commit c791ebb837811b39850e4735b749fbe292d3e506
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 14:03:22 2015 +0200
+
+    Move translate plugin to vendor/repo
+
+commit 16f1e1701845cc43e2b755a88e8bcd6ee97f3c75
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 14:00:46 2015 +0200
+
+    Updating account model
+
+commit 948009d0c232a66d743aaa7c5eab7fbf4e689543
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 14:00:17 2015 +0200
+
+    Introcing price-chart directive
+
+commit fb96c2869568bf11e80839f8fe262e2d5b34550a
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 13:57:24 2015 +0200
+
+    Introcing techan lib
+
+commit c746b1d3277b2d12e80510df12c4646b4db9d696
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 13:57:07 2015 +0200
+
+    Updated Dexie lib
+
+commit f889b8e08ef5716694863f9ca46b9ca0e4aa85e3
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 13:56:40 2015 +0200
+
+    Added scrollglue directive
+
+commit 58db569a10eefa45a4d7a604f54a36ada4c5ca75
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 13:55:56 2015 +0200
+
+    Customizing the translate plugin
+
+commit 4c0fbf2aad70609a71a1e977c7591806036dde07
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 13:30:58 2015 +0200
+
+    Add menu-close directive
+
+commit b0c066f1c2904cd566ebfc5ade427b042e10c675
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 13:29:42 2015 +0200
+
+    Add ng-clip lib
+
+commit 98f8de247e2cf5c4a57728424d9de3ae85c5699b
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 13:28:38 2015 +0200
+
+    Updating transaction UI subsystem to work with Sign In pattern
+
+commit a97bc361b25906336b558638e43b3bdabaabdcd9
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 13:20:49 2015 +0200
+
+    Updating welcome controller
+
+commit 2719864235597d3f1f870860d6dfe8b8d1612df9
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 13:20:37 2015 +0200
+
+    Updating welcome view
+
+commit f52b6bc1e0c2c8755738b327cf8b3d313a176065
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 13:20:11 2015 +0200
+
+    Updating wallet controller
+
+commit f86338bc62fb7d5fbe6c3ef898a9012d67e26ab1
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 13:19:57 2015 +0200
+
+    Updating wallet view
+
+commit 907134ee54e8c3bc3483cc0a8dd4fd1994af49c8
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 13:19:06 2015 +0200
+
+    Updating accounts controller
+
+commit b5e6d2d5286d70873d772abaac3d4c54a97b2e48
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 13:18:54 2015 +0200
+
+    Updating accounts view
+
+commit 9ded7b33287b3d21a1a67b9b97da0f2e761f5397
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 13:18:24 2015 +0200
+
+    0.4.5 announcement
+
+commit 64c49db173a94763aeeadbf68b30ac0bf5bc277c
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 12:15:54 2015 +0200
+
+    Removing old status plugins
+
+commit 7b8166851a9361a844ae6ffe0765c94f1616ce67
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 12:14:36 2015 +0200
+
+    Updating language controller
+
+commit e2b5b32aa7793ef6da1aad6af99b83b18cc3c6fe
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 12:14:21 2015 +0200
+
+    Updating language view
+
+commit 69e6aa5089212fa400484266abe415569727fc5c
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 12:10:34 2015 +0200
+
+    Make google the default theme
+
+commit 95f94ee2868e6e937f648f55cf7db6f28dfbc4a2
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 12:09:03 2015 +0200
+
+    Updating translation controller
+
+commit c1f820a8f15d34ae99f539967bf0e9baab929329
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 12:07:35 2015 +0200
+
+    Updating translation view
+
+commit d4e615b24345a39d839f6ea6e33562ba5d8d9eb6
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 12:06:49 2015 +0200
+
+    Updating start controller
+
+commit 7af017979c8c1dffbba5fe4f1bc6a8e8cce2acbc
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 12:06:26 2015 +0200
+
+    Updating start view
+
+commit 639252a063eb3a58734bdda5e0c65721a4f59494
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 12:05:40 2015 +0200
+
+    Updating server service
+
+commit 26a9a65c7be902a6170d10e3954f928d220453bc
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 12:05:20 2015 +0200
+
+    Updating server controller
+
+commit 3e53a2e74bc2f626a0b76f827c6277a4b12741eb
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 12:04:58 2015 +0200
+
+    Updating server view
+
+commit dab4f7b352878a438f23f78d75a4063193f07849
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 12:03:14 2015 +0200
+
+    Updating search view
+
+commit f550967dfe446a6e5f1cbfa89d022df7f83832e1
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 12:01:39 2015 +0200
+
+    Removing register view
+
+commit 9b569a18bd378c37da63747013c9fd0fb2b80a2a
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 11:59:43 2015 +0200
+
+    Introducing messenger controller
+
+commit 4b67640ca01bfe97af6e95be81a6a92002a0a002
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 11:59:12 2015 +0200
+
+    Introducing messenger view
+
+commit a1d1ad48eaee0d1ada68f3fede379aaff1bdaff0
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 11:58:47 2015 +0200
+
+    Introducing login controller
+
+commit cfd0368a0777e63453d094a6a559d3d1ec4e90de
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 11:58:34 2015 +0200
+
+    Introducing login view
+
+commit 37fe5a576f4c2c83dec50be5e46f042b3f931d8c
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 11:58:07 2015 +0200
+
+    Introducing login-to controller
+
+commit fc4fe6b32480bf28334d8f9d81baf2b00b5c9d50
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 11:57:52 2015 +0200
+
+    Introducing login-to view
+
+commit e936c84b4e00f928bf6e12e49f7449230d3bf53f
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 11:57:24 2015 +0200
+
+    Updating home view
+
+commit 760eb5cbbfa3c8c63542a0702f83182191972fc5
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 11:56:52 2015 +0200
+
+    Updating assets view
+
+commit d2b559f6d186e25e8fa2f13c2349babcd7b25997
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 11:56:27 2015 +0200
+
+    Updating activity view
+
+commit f616c043a49d56e972cf70e33a250ec7c75e80d5
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 11:54:55 2015 +0200
+
+    Updating index.html
+
+commit 6883351c1f23b992c760bda06f2ce42ec2b9e03d
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 11:53:42 2015 +0200
+
+    Emoji service
+
+commit c8d712d16f1ab11d00beee2a56ed5d8f2cd93040
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 11:53:18 2015 +0200
+
+    Add emoji images
+
+commit ad03599722f2b1fa57adf6f0c3c3e9aa7fe28e22
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 11:52:52 2015 +0200
+
+    Update build file
+
+commit 165f785ca9f615378de4e80e00b45ec43a2b6552
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 11:52:03 2015 +0200
+
+    Update version
+
+commit 0fe3190c6007dcf1d5aed3f76ea94f59656e16a7
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 11:51:46 2015 +0200
+
+    Add zeroclipboard.swf fallback
+
+commit 136267ec536312b49bdfb075f36b7ae110cc644c
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Aug 1 11:51:08 2015 +0200
+
+    Update languages
+
+commit 9aae9da20503099db129f2d6428be358d6b500f0
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Wed Apr 29 12:54:13 2015 +0200
+
+    Forging feedback fix for 0.4.4
+
+commit 93f3aa2d0325bfa9f045f3efe32a1c014069217a
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 16:22:04 2015 +0200
+
+    Updated node-webkit packages
+
+commit 4c5460cbcc911f8a3d3dcc1bb7a8ac3b1b65c964
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 16:21:46 2015 +0200
+
+    Updated nodejs packages
+
+commit e806176f896921a6a98b978d9c1efa295e32d290
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 16:21:19 2015 +0200
+
+    0.4.3 announcement
+
+commit 77ab6fd67aca2ba257edcbb08bf5ba3cc942759d
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 16:20:55 2015 +0200
+
+    Compiler for server edition
+
+commit 1a8c1a6f1e275fcbef8191a12b6abd15554b690c
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 16:20:31 2015 +0200
+
+    Updated the mofowallet compile script
+
+commit 36ba16dd0eb9a63da7d116cf261ef12fc65f7ec8
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 16:19:57 2015 +0200
+
+    Translator script helper files
+
+commit 19c951f4d82f6365b50d57eb007d66c8429753fb
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 16:19:29 2015 +0200
+
+    Script to update mofowallet.com
+
+commit fa91c03718f20a3cdf056e03954be80cecd400df
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 16:16:05 2015 +0200
+
+    Introducing the providers
+
+commit ef6e0fd63d3cf1b2208fa6aee3508cd21cf40f83
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 16:11:45 2015 +0200
+
+    Introducing the providers
+
+commit c4bb07b36b2794ec9f6072890f637d064f6d2c61
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 16:11:39 2015 +0200
+
+    Introducing the providers
+
+commit b996f6ee2c76230981c0093dcd231ef445fa4f2b
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 16:11:30 2015 +0200
+
+    Introducing the providers
+
+commit 216dfac9c5fa5b0c7ee2b2462c7d668a5eba378d
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 16:11:25 2015 +0200
+
+    Introducing the providers
+
+commit dd1f25002db79054f5ae044cb6ef28c87301da5f
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 16:11:14 2015 +0200
+
+    Introducing the providers
+
+commit 3fec32a925e3f47f621986332769ba7622bb2de2
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 16:11:09 2015 +0200
+
+    Introducing the providers
+
+commit 7bc5fe7a7d7d130819a4aa4e7a466fa315acc4c8
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 16:11:04 2015 +0200
+
+    Introducing the providers
+
+commit 419542120b10202ac41a9f0557b234c8327b84ce
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 16:10:54 2015 +0200
+
+    Introducing the providers
+
+commit b8e938000bc1d08e404e49c5f7caa938889996a9
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 16:10:47 2015 +0200
+
+    Introducing the providers
+
+commit 77113719041f8424720c5f20b2dfbb4eb69d5e21
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 16:10:40 2015 +0200
+
+    Introducing the providers
+
+commit a29db2edc040df537bf56f76cc5fe26ec112718e
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 16:10:35 2015 +0200
+
+    Introducing the providers
+
+commit b5d3b223bb1de935dadd88e0e119679dab4eb222
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 16:10:29 2015 +0200
+
+    Introducing the providers
+
+commit 3c61a9079e06c7d07e8a2616fc4739d00b75f52c
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 16:10:24 2015 +0200
+
+    Introducing the providers
+
+commit b9eadec86eb098a0721ebfbf04bd9941ba2532cc
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 16:10:18 2015 +0200
+
+    Introducing the providers
+
+commit efa142e07cbb08541ad4c13cfde70aa6fd04876e
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 16:10:11 2015 +0200
+
+    Introducing the providers
+
+commit b01a58bbd9c9001a69c21cd72023564a5a880eb9
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 16:10:00 2015 +0200
+
+    Introducing the providers
+
+commit 7d9c30d75dbd4e6631d92777f86ecb2b0ef11b91
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 16:09:55 2015 +0200
+
+    Introducing the providers
+
+commit 2727806c6175c7e27187c48961f0121df92e45cb
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 16:09:47 2015 +0200
+
+    Introducing the providers
+
+commit 19f7aabc128ca844f2c3a7b5edc13301a69acdf8
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 16:09:40 2015 +0200
+
+    Introducing the providers
+
+commit fcf434f3484e82db2aec29018a2f42166fbe38e1
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 16:09:35 2015 +0200
+
+    Introducing the providers
+
+commit 75c94539283cd71756959633af0c1c09e82dc376
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 16:09:29 2015 +0200
+
+    Introducing the providers
+
+commit 3ad165d9a3151a9bdf518603c8d3f79a73b7eec4
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 16:09:23 2015 +0200
+
+    Introducing the providers
+
+commit 65d1b849da20b9e4da3b58559de051664e5d1d5c
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 16:09:14 2015 +0200
+
+    Introducing the providers
+
+commit f8f467bf8619aeda9218a7acfd1a4320cb8af18b
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 16:09:05 2015 +0200
+
+    Introducing the providers
+
+commit 9b47abdf031bc5b7938b9c3157f7dae0dd17d64b
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 16:08:58 2015 +0200
+
+    Introducing the providers
+
+commit 820729bdc160123dd173142e0b1d5dd9ec4482d3
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 16:08:52 2015 +0200
+
+    Introducing the providers
+
+commit 1b261d4e37639c86dc80b7f28ee24cdd3981ef4c
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 16:08:37 2015 +0200
+
+    Introducing the providers
+
+commit bdf97853d34fdfdb7fad53d0ce398a89167c3aaa
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 16:08:31 2015 +0200
+
+    Introducing the providers
+
+commit 3effdf0fd348e6166efd275b487d810a6414c0a0
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 16:08:21 2015 +0200
+
+    Introducing the providers
+
+commit 46128e7dd446bf2555030dcb7d1fe7708ec038e2
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 16:08:12 2015 +0200
+
+    Introducing the providers
+
+commit ae7d6df0966242e3c405c7aa39a65b847a124c7c
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 16:08:06 2015 +0200
+
+    Introducing the providers
+
+commit 8dafa5d88d8a2b9c1819c1c17f66de1e20aabb3f
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 16:08:00 2015 +0200
+
+    Introducing the providers
+
+commit 18fcda0846f794d3198bf6ca19d5e18902433597
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 16:07:54 2015 +0200
+
+    Introducing the providers
+
+commit 63719f383d6ab9226d51819dbf1ded38f41d2844
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 15:50:21 2015 +0200
+
+    Update master index.html
+
+commit f8e79f9c539119efdd3001ab8b9b018f1b479999
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 15:50:00 2015 +0200
+
+    Update master app.js
+
+commit e7b8d652a182d0527ea7b63bbd80f3c0b7c41cf7
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 15:49:31 2015 +0200
+
+    Remove this file
+
+commit 8a89c93e8d6e6592112dfcd4ff2c9824bbb38f85
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 15:49:19 2015 +0200
+
+    Updated Dexie
+
+commit 03f90715672434c731d5b2071621764a38520426
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 15:47:40 2015 +0200
+
+    Transaction public-key
+
+commit 302531ef138fe829ec674695123cd4ecf5ef063a
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 15:47:27 2015 +0200
+
+    Transaction poll
+
+commit c7115a136f27083bea84fb29a48a1688f7d14333
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 15:47:13 2015 +0200
+
+    Transaction payment
+
+commit e18ab706ca0043ae3a800fc7a7a22d025e05e82e
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 15:46:59 2015 +0200
+
+    Transaction namespaced-alias
+
+commit cd8410e43601d8dfca73f2f9ad8e182985ef4638
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 15:46:45 2015 +0200
+
+    Transaction message
+
+commit 6d677aa02835773abd82b1002724e33408525686
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 15:46:32 2015 +0200
+
+    Transaction lease-balance
+
+commit 02ac2d94c7d85d69bdcef99e23fee9a5b678f83f
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 15:46:15 2015 +0200
+
+    Transaction goods
+
+commit d6fbb5bff5a215b188b4a6116d9aeb2d513884b6
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 15:45:56 2015 +0200
+
+    Transaction forging
+
+commit 190d5d9266b4e93b4e5094f5a7efd66ef0cc1d24
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 15:45:45 2015 +0200
+
+    Transaction dgs
+
+commit aefe7a6390dab20b78dee92c4740857afc7819f0
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 15:45:33 2015 +0200
+
+    Transaction currency
+
+commit aa730420376bf5cf920457a7c31db60f867380d1
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 15:45:21 2015 +0200
+
+    Transaction assets
+
+commit 9aaad954e7a65e3d0e1aa21ce8f07987353d7489
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 15:45:09 2015 +0200
+
+    Transaction alias
+
+commit beb44d5898d29f95fe9da0c9d02290eaaad4f925
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 15:44:58 2015 +0200
+
+    Transaction account-info
+
+commit fc23cd1018433ae76252fbefda24689863e23bff
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 15:44:17 2015 +0200
+
+    Introducing the new transaction UI generator
+
+commit 8d1a6b56034c1475337be1dd8d4a2070350b376a
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 15:43:29 2015 +0200
+
+    Left over from removing jquery
+
+commit c916f79e0bce993146817bd2645daab0ca222829
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 15:42:48 2015 +0200
+
+    Welcome dialog UI
+
+commit 29caff4c546f2d2a6ec97123a55dc8dc760a66e2
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 15:42:29 2015 +0200
+
+    Merchant terminal UI
+
+commit 5dc1b11b0044159026c96cf831cf13a8d628c71a
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 15:42:14 2015 +0200
+
+    Language selector UI
+
+commit d0c6ea846e9163277771da53b27113e2b618563d
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 15:41:48 2015 +0200
+
+    Updates to inspector plugin
+
+commit b625ffe15fb7985549a4b2c8bebef8bc69b5971f
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 15:41:37 2015 +0200
+
+    Updates to authenticate plugin
+
+commit a1b4598a3dfdcdf3d51c5c1e4723d36e237149cb
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 15:40:19 2015 +0200
+
+    Updates to nxt-engine and fim-engine plugins
+
+commit 98ab30fe477f72b8be7028a921ea574dda65b19a
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 15:39:51 2015 +0200
+
+    Updates to settings plugin
+
+commit 29acd8d922c39b133d4648b948bc8fe16490834d
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 15:39:18 2015 +0200
+
+    Updates to themes plugin
+
+commit 23996dc7a676409194a90910d3947a922717f72f
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 15:39:02 2015 +0200
+
+    Modified the accounts model
+
+commit 8b9dd1e608335ab420939e0769649b07a01248b5
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 15:38:30 2015 +0200
+
+    Updates to contacts plugin
+
+commit fc59a7583b8bc8dfee0e1e574ee251b8535f9c75
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 15:37:48 2015 +0200
+
+    Updates to wallet plugin
+
+commit 1ae6497d23977bc43292ec8bc1ba6d19eb30fd60
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 15:13:45 2015 +0200
+
+    Introducing select-on-click directive
+
+commit d6e999fd3e58c5f987c78573f55a80f5c0c368d0
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 15:13:26 2015 +0200
+
+    Introducing route-active directive
+
+commit a06f0213067c993b84fbd764ad4539e36f8ce459
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 15:13:00 2015 +0200
+
+    Updating money directive
+
+commit 3a9b5fe2c44feb1f32d96f28e39ef80f3509a045
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 15:12:43 2015 +0200
+
+    Introducing file-select directive
+
+commit 483bf5b20d5fdfb9a43ad58cffb23a6af12c2a3f
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 15:12:19 2015 +0200
+
+    Introducing welcome/start modal
+
+commit 15a62e6407bbbacb42281c58c24bab562b862213
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 15:11:59 2015 +0200
+
+    Introducing merchant terminal
+
+commit 0d26df97d40a91006d98973e9ffbb6af46bcce97
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 15:11:40 2015 +0200
+
+    Introducing language selector modal
+
+commit c28f470e1600b529329048d3c0da3cfdf14790d4
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 15:11:16 2015 +0200
+
+    Updating app controller
+
+commit 69e4c3138daceac7ad31d4709843b41dc5c8a9e4
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 15:10:36 2015 +0200
+
+    Updating nw integration, disabling minimize to tray for now
+
+commit 95ce3c67d637b2ad7752121b497d41b11b481aec
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 15:07:57 2015 +0200
+
+    Introducing infinite scroll lib
+
+commit 13d16cd67cf3ddd1f3d13f4822b5cb96fb02795f
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 14:47:30 2015 +0200
+
+    Introducing timeago service
+
+commit de86f1d2a366a7a83b54f992d55f11c0e3d580c2
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 14:47:05 2015 +0200
+
+    Various updates to settings-service.js
+
+commit 90b9bcfde82222ceba0ee093dd42c9c613fd608d
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 14:46:48 2015 +0200
+
+    Various updates to server-service.js
+
+commit 37695eeb64e685e3cdc834e4151a000e4240f56c
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 14:46:28 2015 +0200
+
+    We dont actually use the request-service anymore
+
+commit 36319974620301005a938a0d69cd632fb9a16c73
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 14:45:47 2015 +0200
+
+    Various updates to nxt.util.js
+
+commit 99b1cbf80b90b17f61abd2780fcc62f4ba6b384e
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 14:45:26 2015 +0200
+
+    Major makeover of nxt.js
+
+commit b902e4921e4f555c3f7e7919a59bb02f2d399add
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 14:45:00 2015 +0200
+
+    Introducing websocket wrapper
+
+commit f4755a68bddd49b314eb6104d58e5d12dc2c639d
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 14:44:41 2015 +0200
+
+    Introducing indexed entity provider
+
+commit 0ea9a3c2a683f5c8e36784a0849ea8be7d1d446f
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 14:44:27 2015 +0200
+
+    Introducing entity provider
+
+commit c0c11288f31c0ee53f10a2c4b8269c8d5a49be7d
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 14:44:10 2015 +0200
+
+    Updating db service
+
+commit fbd70b271706d7ddbbf83879540fbb7ea1fa3f7d
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 14:43:50 2015 +0200
+
+    Introducing accounts service
+
+commit 22ca6afc9c63ca45c74e34d95b38685968d59559
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 14:42:47 2015 +0200
+
+    0.4.3 changelog
+
+commit f3b1ab791b23e469caaebb1bfe5cbbdbc128ab2b
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 14:42:40 2015 +0200
+
+    0.4.2 changelog
+
+commit b7c751c624d00735dbade59575c2b7504f3aa515
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 14:42:34 2015 +0200
+
+    0.4.1 changelog
+
+commit a9b8679dff752ec60e4a3c5ec25e35b7792f4aec
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 14:42:27 2015 +0200
+
+    0.4.0 changelog
+
+commit 78ede3104ec81fe1ba602c8733c6a8a58fb02dc5
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 14:41:42 2015 +0200
+
+    Removing obsolete services
+
+commit e5dc7b7aa0a27fe0e4ebfe3c7e5cef13ffa66dd0
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 14:41:26 2015 +0200
+
+    Update license
+
+commit 044ed7f1b63a87216d02d2d0cf89be7fa26c24ec
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 14:39:28 2015 +0200
+
+    Removing obsolete scripts
+
+commit c42b8430173b6f0c72e8f66f186064bb393a257a
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 14:39:22 2015 +0200
+
+    Removing obsolete scripts
+
+commit 1e79ca8c73b1a3100a4a1a21e5adc36645022546
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 14:39:02 2015 +0200
+
+    Removing obsolete services
+
+commit bb90df7922a2bdfc98f22bb4beb48f9655c9d169
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 14:38:54 2015 +0200
+
+    Removing obsolete services
+
+commit a4ad82392059803afaaa3ddfc2aa5691eed67e3b
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 14:38:44 2015 +0200
+
+    Removing obsolete services
+
+commit 625e15d79ef739053b50cf5c65ea2e180a123f48
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 14:38:39 2015 +0200
+
+    Removing obsolete services
+
+commit 2fed7078037d9d7f3edc6dfb513403c4883e1699
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 14:38:29 2015 +0200
+
+    Removing obsolete services
+
+commit d4985a9defcf8ed2a53cf065677aebcc4532b3d0
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 14:38:13 2015 +0200
+
+    Removing obsolete models
+
+commit 07b192800573ff17d34a450d34b1628190411ef4
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 14:38:06 2015 +0200
+
+    Removing obsolete models
+
+commit f94fba5a2dab20b5bb6d539c5dca67fdcee2a81d
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 14:37:40 2015 +0200
+
+    Removing obsolete scripts
+
+commit 2fcce4d64079006a29b76c8f91a005f83d68d604
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 14:37:22 2015 +0200
+
+    Removing obsolete scripts
+
+commit 1333d801ef06dba90798e7d582336fbb554c7c40
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 14:37:13 2015 +0200
+
+    Removing obsolete scripts
+
+commit b8577856f0163663b476108a42ab75e12cc6fff9
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 14:37:08 2015 +0200
+
+    Removing obsolete scripts
+
+commit cde3554f92ff3f5ab180d3f1cff759ac8c32021f
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 14:36:59 2015 +0200
+
+    Removing obsolete scripts
+
+commit f91127ae7cccb344b82b999605cb21a209c7b58f
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 14:36:51 2015 +0200
+
+    Removing obsolete scripts
+
+commit 7a879b7142b796a7681f347f9214cdbe51540fe2
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 14:36:48 2015 +0200
+
+    Removing obsolete scripts
+
+commit bc032b4e665560fffab3e3de359a32973eac257b
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 14:36:38 2015 +0200
+
+    Removing obsolete scripts
+
+commit 9f04f88c7781413052c426d789550e1b58d57473
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 14:36:30 2015 +0200
+
+    Removing obsolete scripts
+
+commit 23f8aba8fdf20f12f534e50676f07684bd81347d
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 14:36:21 2015 +0200
+
+    Removing obsolete scripts
+
+commit ccfa6a14845caf64a4191d55c23674be6122f526
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 14:36:03 2015 +0200
+
+    Removing obsolete scripts
+
+commit ce7e7c30bba9548fc725bba7c626348fbe50e93e
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 14:35:10 2015 +0200
+
+    Removing moved plugins
+
+commit e3cc82ede18a07dab47b2568b7847716cb9d9b15
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 14:35:03 2015 +0200
+
+    Removing moved plugins
+
+commit 46e29b19f3ca2da650d1608459f2689c0bf243f3
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 14:34:53 2015 +0200
+
+    Removing moved plugins
+
+commit 59026077035c72c7677be7ca0dafee4a642be2d4
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 14:34:40 2015 +0200
+
+    Removing moved plugins
+
+commit 01c3ff4f1b0e5eabd0324231e52e030694ac8711
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 14:34:21 2015 +0200
+
+    Removing moved plugins
+
+commit 888d08bd70ba39d0abcb08a7925399e01a7f2df2
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 14:34:03 2015 +0200
+
+    Removing moved plugins
+
+commit 985d60ab732a3b674f1b7dcccb12ac995ad1ac73
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 14:33:56 2015 +0200
+
+    Removing moved plugins
+
+commit 081c9a7186cae9223141706161d3b79d32590a50
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 14:33:48 2015 +0200
+
+    Removing moved plugins
+
+commit 529a0666d3d7292ab5cf359bd67164444652239b
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 14:33:39 2015 +0200
+
+    Removing moved plugins
+
+commit ce96ac201bd2e0dc003c3b7fcb5cb5d536b77bf9
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 14:33:33 2015 +0200
+
+    Removing moved plugins
+
+commit 19915e4601c38859bf6cca095eda7dac62dd4bab
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 14:33:26 2015 +0200
+
+    Removing moved plugins
+
+commit e3c1eb83cd55a7dec6aa77b9e4e83f26948bff0f
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 14:33:22 2015 +0200
+
+    Removing moved plugins
+
+commit 3df56cff949e551a7e6de2136bf242fb346045b3
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 14:33:15 2015 +0200
+
+    Removing moved plugins
+
+commit 7ebb1740c68b8892c76df08a9e71eff92448ba2a
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 14:25:23 2015 +0200
+
+    Updating start controller
+
+commit 5c024f0b0ba6aafec926692335ae24bb1e179c1e
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 14:25:13 2015 +0200
+
+    Updating start controller
+
+commit 3b100996788bcc6a8caf303237b36b1dc07caa2e
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 14:24:57 2015 +0200
+
+    Updating startServerModal
+
+commit 7e14c48db15307f683bd2d21dfa2d8782bb27878
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 14:24:42 2015 +0200
+
+    Updating startServerModal
+
+commit ae385ba30b63df382f64920e4978fe925b8f4090
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 14:24:00 2015 +0200
+
+    Updating secretPhraseModal
+
+commit 3bdf9ee795e8ac6cfe2ca92d357e06ef48ead4d9
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 14:23:49 2015 +0200
+
+    Updating secretPhraseModal
+
+commit 8774526d642328f3d18d50b5ee107547ee57d945
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 14:22:52 2015 +0200
+
+    Updating Translation controller
+
+commit f6bac78c4dae29a5166d684f8d9185dbbf1e0fbd
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 14:22:36 2015 +0200
+
+    Updating Translation controller UI
+
+commit 9bea5f69ba332b113d8b5047a28e6e840c0d5995
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 14:22:16 2015 +0200
+
+    Updating Search controller
+
+commit c153b9628e6cfb708599b035efe4f86d905c317e
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 14:22:03 2015 +0200
+
+    Updating Search controller UI
+
+commit 5ac5a6177a76c3fae07a2d2a92aa426595491ff1
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 14:21:44 2015 +0200
+
+    Updating home controller
+
+commit 716c98f196c6f4ec7f0a1190aa95df922ef57e57
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 14:21:02 2015 +0200
+
+    Updating Home controller UI
+
+commit 0a2fffe1c4dd3c6f416077579a8bc06f513f4bb8
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 14:19:03 2015 +0200
+
+    Completing styling
+
+commit 90028a93f8934b53874c9c9840d5dfaf4ecf160a
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 14:09:13 2015 +0200
+
+    Removed docs
+
+commit d2521e0a242e647de0e15388f85af250d34c450e
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 14:08:44 2015 +0200
+
+    Introducing the VERSION file used in the build system
+
+commit cd4c07200dc8ef9d3996e51890c3c97344f89166
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 14:05:27 2015 +0200
+
+    Clean up alerts
+
+commit 2ec69bf1514a19bf0f06dfb9c915bc936290d6b8
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 14:04:48 2015 +0200
+
+    Clean up server plugin
+
+commit a9ad749a6398597ac6de371e17e258515b2e7dbb
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 14:03:51 2015 +0200
+
+    Clean up assets plugin
+
+commit bdd23f9b2c03026a79bf3cd9b921e4dae93d0f6e
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 14:03:21 2015 +0200
+
+    Clean up activity plugin
+
+commit e51e2fe74c80a36302fcbaaefa4aba64f2687d68
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 14:02:50 2015 +0200
+
+    Clean up accounts plugin
+
+commit bdc7114b7952921e6004e92c9ac0a2bcb1e43448
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 14:01:32 2015 +0200
+
+    Cleaning up images dir
+
+commit d126d4134463bf21a87021d7fd5c1f9a7df1ca8b
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 14:00:33 2015 +0200
+
+    Update .gitignore
+
+commit 9b75fb0a289d4b3dd969fd29439fff020b204697
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 13:55:24 2015 +0200
+
+    Various changes (over time) to buildscript
+
+commit c0eb149305eaa9affb8e3dd8f848915405e60c0d
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 13:54:02 2015 +0200
+
+    Initial announcements
+
+commit 0ee16ff9797d176caa9e3ed2ca170c59d399a2ed
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Apr 28 13:53:39 2015 +0200
+
+    Initial i18n
+
+commit 9c5f5fd3cd34d5bdd0d61caab8b308d913743e57
+Merge: 6769790 f02b5cf
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Jan 6 13:07:57 2015 +0100
+
+    Merge branch 'master' of github-as-fimkrypto:fimkrypto/mofowallet
+    
+    Conflicts:
+            app/index.html
+
+commit 676979023609d857f5b8621f921ad3980ac16455
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Jan 6 13:02:54 2015 +0100
+
+    Broken build
+
+commit 1507d72fd87299a0ed07e251aaccb79b9772a1c1
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Jan 6 12:59:57 2015 +0100
+
+    Trade model - uses new initializer
+
+commit 0324a8c1bf3d151ed0b1e99f9a35496b27bd2f72
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Jan 6 12:59:09 2015 +0100
+
+    Introduce activity plugin
+
+commit b8d90064a39439d4bb15b1a082691591e5b87dfb
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Jan 6 12:57:37 2015 +0100
+
+    CSS changes
+
+commit fb753253aac5a601692ea8a9b9e21ea144c2fcb9
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Jan 6 12:57:02 2015 +0100
+
+    Fixed long standing bug in settings initializer system
+
+commit f90917cbb66b5403c7a236f10b6d00c406a9c18f
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Jan 6 12:56:20 2015 +0100
+
+    Add mofo API functions
+
+commit 687a7b1511c45ffdae8ba7d02164c6ecd4eb65f0
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Jan 6 12:55:37 2015 +0100
+
+    Update trades table
+
+commit 4bf29f452cee515719d4fa12a49cede4697ea66f
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Jan 6 12:55:03 2015 +0100
+
+    Fix settings intializer race condition
+
+commit ee84bb988948e11ffb88fb7fe27d90b8db3af6c8
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Jan 6 12:53:58 2015 +0100
+
+    Add setting to force use of localHost
+
+commit f02b5cf806e291f50471684da7beb48a12ac12fc
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Jan 6 12:41:17 2015 +0100
+
+    Fix broken build
+
+commit 561218e296fdbc5aacaac578497ed4aa40e31569
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Dec 29 15:47:40 2014 +0100
+
+    Completing case 42 and other smaller fixes
+
+commit 9199af048094d53ec9b0d118ef29c14d650ae4bd
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Dec 29 15:46:55 2014 +0100
+
+    Completing case 42 and other smaller fixes
+
+commit 7f1b6785376b4caa4c87551f982d1a07fb09bb2a
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Wed Dec 17 16:50:30 2014 +0100
+
+    Completed 0.3.6
+
+commit 33372791882e35c91eba0679909e05cc428d4e64
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sun Dec 14 21:05:26 2014 +0100
+
+    Completing 0.3.5 release
+
+commit 2264a4e608367c66fe0c8d0d1aeac1a0cb36f835
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sun Dec 14 16:46:38 2014 +0100
+
+    Fixed public handling in mass pay plugin
+
+commit 34177223c4afe3fb9941ad493c13ce3f4f436180
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sun Dec 14 14:59:02 2014 +0100
+
+    See bugzid 7. Completing 0.3.5 with revamped masspay plugin
+
+commit d4530302c4a8b80d559b1cffa593a0e75cc37683
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Dec 9 17:04:03 2014 +0100
+
+    See bugzid: 17. Masspay plugin payments db table. Adds masspay_payments table and MasspayPluginPayment model.
+
+commit ae723f95a88bc9f689a1a7ffbfc05ee143747a68
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Dec 9 16:46:06 2014 +0100
+
+    See bugzid: 16. Masspay plugin select file. Includes new modal and test.
+
+commit cd9a51470f3806876d8009552aad7109a8daea66
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Dec 9 15:47:29 2014 +0100
+
+    See bugzid: 8. Masspay plugin select account. Includes new modal and test.
+
+commit 7d2f7785ddfa2f449a8f966cbbcbddbf3952a8ef
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Tue Dec 9 10:37:41 2014 +0100
+
+    See bugzid:6. Testing fogbugz integration. Longer description
+
+commit 4d455545303038d304eeeb66d1684c32017f3e93
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Dec 1 01:09:15 2014 +0100
+
+    Completing release 0.3.4
+
+commit 52a38647704c72a60673851d6ee6447157b7dbe8
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Dec 1 01:04:36 2014 +0100
+
+    Completing release 0.3.4
+
+commit 3b3a838a0ec5d91dfb33d4810f882dcacdf9bad0
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Dec 1 01:04:25 2014 +0100
+
+    Show indicator button for authenticated FIMK accounts
+
+commit c2d66fa688717fb6011993435c4f48984c01e45e
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Mon Dec 1 01:04:12 2014 +0100
+
+    Show indicator button for authenticated FIMK accounts
+
+commit 4a5344600ef8252bbece6e1d2bbb2a1b14ec2afb
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sun Nov 30 23:56:19 2014 +0100
+
+    Completing release 0.3.4
+
+commit 77437c3f7ec7555a20abbd9ef3b6dba77b13b6fd
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sun Nov 30 23:52:00 2014 +0100
+
+    Fix unlock messages requiring wallet file only
+
+commit 0c44b5814d570969fe892b47d1739adf05ec3f4c
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sun Nov 30 23:45:58 2014 +0100
+
+    Explain public node settings window
+
+commit bf9fa9ab8b63fec94f1739220d76ae3d81ca4182
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sun Nov 30 23:29:19 2014 +0100
+
+    Completing authentication plugin - added debug info to UI
+
+commit 1986ea96a9fca97730f12d966f9eb6a3fec8cf3c
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Wed Nov 26 23:06:01 2014 +0100
+
+    Completed 0.3.3
+
+commit ab8c7cb2f2d497e1c34328bfecf5390c83f81067
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Wed Nov 26 20:27:49 2014 +0100
+
+    Completed 0.3.3
+
+commit ea514f78af12dcfbf558271629e38f13aeed2bda
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Wed Nov 26 20:23:23 2014 +0100
+
+    Add strong authentication plugin
+
+commit 07ea2ae7ed5b9f3e849fbe24b719e05201eed46d
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Wed Nov 26 20:11:05 2014 +0100
+
+    Add startup service
+
+commit a117f804f2271d977687f34ba8a5fecfce65a862
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Wed Nov 26 20:09:44 2014 +0100
+
+    Add requests service
+
+commit db8f140b0223b5fc15d37bdef501e972f2a6fa7d
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Wed Nov 26 20:08:49 2014 +0100
+
+    Add transaction download service
+
+commit 56caaefeaa054faffc9a98b24b050b594685cbeb
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Wed Nov 26 20:06:22 2014 +0100
+
+    Add auto collapse directive
+
+commit ccca219b38ed04f8ed0a719904a7c7d38b337892
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Wed Nov 26 20:05:06 2014 +0100
+
+    Add assets plugin
+
+commit 373b0e3880ede20dd68a8f663deb9a145dee5000
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Wed Nov 26 20:04:44 2014 +0100
+
+    Add assets plugin
+
+commit 48aeb3fe8beade5689238053dc44639daa3aae21
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Wed Nov 26 20:03:56 2014 +0100
+
+    Add amcharts package
+
+commit 0a01402869aca4d5c3fbb8e8825a47fabb139d71
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Sat Nov 1 01:04:56 2014 +0100
+
+    Switch public nodes + some minor fixes
+
+commit 2517e697b0b06a4eb0b85cf1aa70bf0e5890c178
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Fri Oct 31 11:57:44 2014 +0100
+
+    Add MIT license
+
+commit 70b82b2e08639c9ef690ceebd9115896453cce36
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Fri Oct 31 11:11:08 2014 +0100
+
+    Add readme
+
+commit 6eca03686f590b3e8023084302155515a920aa01
+Author: Dirk <incentivetoken@gmail.com>
+Date:   Fri Oct 31 11:06:56 2014 +0100
+
+    Initial commit

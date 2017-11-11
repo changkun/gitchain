@@ -1,0 +1,99 @@
+commit bae63be5a2deeb3fde53c10730dd664d64518f27
+Author: Unknown <lokytech@gmail.com>
+Date:   Mon Nov 6 13:27:46 2017 +0100
+
+    v3.4.0.0
+    
+    Pow reward + AlertKey + cut from < 3.3
+
+commit 8e2ab653803c8d19e6d40cc16a9b208ed5302d9f
+Author: Unknown <lokytech@gmail.com>
+Date:   Mon Nov 6 10:45:25 2017 +0100
+
+    v3.3.0.0
+
+commit f36b8fbe5b770a3840059db654ae68a821766fea
+Author: Unknown <lokytech@gmail.com>
+Date:   Mon Nov 6 10:39:31 2017 +0100
+
+    Removed LastPOWBlock
+
+commit 0af5911079d1eec3fcc5e00b8a85ecadb2ab366d
+Author: Unknown <lokytech@gmail.com>
+Date:   Sun Nov 5 23:43:40 2017 +0100
+
+    Keep communication with 60025
+
+commit d4d3cdd95b1250b2179136ad9f70fdc874199bef
+Author: Unknown <lokytech@gmail.com>
+Date:   Sun Nov 5 23:31:20 2017 +0100
+
+    v3.2.0.0
+
+commit 793aa40e3267ad38439d0314109ee8e9af6199ce
+Author: Unknown <lokytech@gmail.com>
+Date:   Sun Nov 5 23:29:04 2017 +0100
+
+    Protocol upgrade for Harfork
+    
+    Prevent old node to connect to v3
+
+commit 743518519e438d76d304c1c69bd9b3597fdbaa0b
+Author: Unknown <lokytech@gmail.com>
+Date:   Sun Nov 5 22:56:39 2017 +0100
+
+    Seed of Life 2
+    
+    2 seed now
+
+commit dccd908767852241ed21c232b6caf303ac23ddd5
+Author: Unknown <lokytech@gmail.com>
+Date:   Sun Nov 5 22:52:52 2017 +0100
+
+    Seed of Life
+    
+    Change of the seednode
+
+commit ef0dc208ed434ba65a650a5e0c94cbd7823a9a0f
+Author: Unknown <lokytech@gmail.com>
+Date:   Sun Nov 5 01:16:43 2017 +0100
+
+    Never 2 without 3
+    
+    Bug fix 3 ...
+
+commit ecb3ce94e4c3ba01c9de55643246c93d636fdd5c
+Author: Unknown <lokytech@gmail.com>
+Date:   Sun Nov 5 01:13:18 2017 +0100
+
+    Bug fix 2 ...
+
+commit 2096463da739e86dfd292a5955edcd368899becb
+Author: Unknown <lokytech@gmail.com>
+Date:   Sun Nov 5 01:12:04 2017 +0100
+
+    Bug fix
+
+commit 013f22e714d6b5622b004a46301f26faa6d53ac0
+Author: Unknown <lokytech@gmail.com>
+Date:   Sun Nov 5 01:07:03 2017 +0100
+
+    V3.0.0.0
+    
+    Switch to POW/POS
+    Rewards readjusted
+    Blocktime 45s
+
+commit f95108c81eef5746ea45f79b1be633b35ec1c95e
+Author: Force <forcecoindev@gmail.com>
+Date:   Fri Oct 27 02:58:33 2017 -0700
+
+    source
+    
+    Force coin source
+
+commit 177169a45384db06d87cb7721fbfda75c8725cdc
+Author: Force <forcecoindev@gmail.com>
+Date:   Thu Oct 26 15:14:48 2017 -0700
+
+    Initial commit

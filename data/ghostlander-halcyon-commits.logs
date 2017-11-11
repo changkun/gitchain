@@ -1,0 +1,53 @@
+commit 0b377677e9237bcf97136aa288408d87f985c80c
+Author: John Doering <ghostlander@gmail.com>
+Date:   Wed May 17 22:22:23 2017 +0000
+
+    miniUPnPc API v15+ Compatibility
+
+commit 8916630409d5c682ce7a97532a801408031a6d16
+Author: John Doering <ghostlander@gmail.com>
+Date:   Mon Sep 14 16:22:41 2015 +0300
+
+    NeoScrypt Updated
+
+commit 07bffb6086ccd01db61cd7b3db0649b8bb8a73c4
+Author: John Doering <ghostlander@gmail.com>
+Date:   Mon Sep 14 16:16:16 2015 +0300
+
+    A Minor Fix
+
+commit fc10468754dee7928af2305ebb98deaf101f152c
+Author: John Doering <ghostlander@gmail.com>
+Date:   Mon Sep 14 00:30:19 2015 +0300
+
+    checkwallet and repairwallet RPC Improved
+
+commit df6edad542810c9f7da3c8b67454fe633598c6b2
+Author: John Doering <ghostlander@gmail.com>
+Date:   Sat Dec 27 22:06:53 2014 +0300
+
+    X15 Hashing Refactored
+
+commit 902962c5d5713c0c2a8d44483f0bd2ca4e323766
+Author: John Doering <ghostlander@gmail.com>
+Date:   Wed Dec 24 22:31:43 2014 +0200
+
+    v1.1.0.2: Stake Rewards Corrected
+
+commit 71f24b62a32d55f5972199dfd5775e0a6766e01b
+Author: Ghostlander <ghostlander@gmail.com>
+Date:   Mon Dec 22 17:20:57 2014 +0200
+
+    v1.1.0.1: Block Hasher Corrected
+
+commit 1494d3296eb88bed5a0dda13e5bda91c55ec2e52
+Author: Ghostlander <ghostlander@gmail.com>
+Date:   Mon Dec 22 17:19:33 2014 +0200
+
+    Minor Typos Fixed
+
+commit 2256ff553bda403bb75048bb8f85678fed16bd64
+Author: Ghostlander <ghostlander@gmail.com>
+Date:   Tue Dec 16 20:11:19 2014 +0200
+
+    v1.1.0.0: Hard Fork to NeoScrypt

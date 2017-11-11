@@ -1,0 +1,1194 @@
+commit 866074c0bb021baca68f08cec2ab92e675051e5d
+Author: hexxcointakeover <hexx.fix@post.com>
+Date:   Wed Mar 29 15:43:47 2017 +0300
+
+    checkpoint
+
+commit 91b53d675603535b5cab0ec91eb6e6a21f3a1558
+Author: hexxcointakeover <hexx.fix@post.com>
+Date:   Fri Mar 17 08:57:53 2017 +0200
+
+    update readme
+
+commit 49ce0cf58a0277e60161e59d8b1243675e2b05e9
+Author: hexxcointakeover <hexx.fix@post.com>
+Date:   Wed Mar 15 17:28:15 2017 +0200
+
+    Getwork fix for cpuminer
+
+commit 691fad99555ea3748a2fe4483b051680c7705b3a
+Author: hexxcointakeover <hexx.fix@post.com>
+Date:   Sat Mar 11 15:30:18 2017 +0200
+
+    CWE-401 (Memory Leak)
+
+commit ec422817515ec0b64c557c648018a19c5a8d700b
+Author: hexxcointakeover <hexx.fix@post.com>
+Date:   Sat Mar 11 13:40:18 2017 +0200
+
+    checkpoints
+
+commit 88d4c3175d518746698f0bb0a7bf633d448142b4
+Author: hexxcointakeover <hexx.fix@post.com>
+Date:   Mon Mar 6 17:16:30 2017 +0200
+
+    oops..
+
+commit 12ef7e3574e9fb6a680c6d01bf5ce784f4f11273
+Author: hexxcointakeover <hexx.fix@post.com>
+Date:   Sat Mar 4 14:13:49 2017 +0200
+
+    clean
+
+commit 8976836858dbec7809b599a2429585ceaff47ff3
+Author: hexxcointakeover <hexx.fix@post.com>
+Date:   Thu Mar 2 15:31:16 2017 +0200
+
+    move changes in private
+
+commit 664cfcb9795d7048d85cbd139296c77cd2c7416c
+Author: hexxcointakeover <hexx.fix@post.com>
+Date:   Thu Mar 2 14:37:21 2017 +0200
+
+    Revert "Revert "Don't store or send blocks forked before last checkpoint""
+    
+    This reverts commit 199d12379e8873ce0cbdbabf5475534a0678ec3f.
+
+commit f771de659995e067ae20368a36bcfcce34fa4e02
+Author: hexxcointakeover <hexx.fix@post.com>
+Date:   Thu Mar 2 14:37:17 2017 +0200
+
+    Revert "Revert "version 9""
+    
+    This reverts commit 5fce29115cf6def54396452ad4c1f7d76b55a862.
+
+commit 199d12379e8873ce0cbdbabf5475534a0678ec3f
+Author: hexxcointakeover <hexx.fix@post.com>
+Date:   Thu Mar 2 14:31:43 2017 +0200
+
+    Revert "Don't store or send blocks forked before last checkpoint"
+    
+    This reverts commit 557a0de5f042f6a6118a1f60f42c27453be87987.
+
+commit 5fce29115cf6def54396452ad4c1f7d76b55a862
+Author: hexxcointakeover <hexx.fix@post.com>
+Date:   Thu Mar 2 14:31:38 2017 +0200
+
+    Revert "version 9"
+    
+    This reverts commit 1255d5037e6f719af10d7309cf5fb8fa58ab4820.
+
+commit 1255d5037e6f719af10d7309cf5fb8fa58ab4820
+Author: hexxcointakeover <hexx.fix@post.com>
+Date:   Thu Mar 2 13:29:31 2017 +0200
+
+    version 9
+
+commit 557a0de5f042f6a6118a1f60f42c27453be87987
+Author: hexxcointakeover <hexx.fix@post.com>
+Date:   Thu Mar 2 13:26:16 2017 +0200
+
+    Don't store or send blocks forked before last checkpoint
+
+commit 318f2a39d6a053dbdef8a4747afe7617d04e6214
+Author: hexxcointakeover <hexx.fix@post.com>
+Date:   Wed Mar 1 19:50:04 2017 +0200
+
+    block old version
+
+commit 12b603024e3b8eb30e09ac2be2b7852211a7c90b
+Author: hexxcointakeover <hexx.fix@post.com>
+Date:   Wed Mar 1 13:51:59 2017 +0200
+
+    checkpoint
+
+commit 44d1bba8a1af5fe975c55e639ad81e0ea922a66c
+Author: hexxcointakeover <hexx.fix@post.com>
+Date:   Wed Mar 1 13:04:16 2017 +0200
+
+    checkpoint
+
+commit 4663044fe51c86965849fdf3f4ead783701731f4
+Author: hexxcointakeover <hexx.fix@post.com>
+Date:   Wed Mar 1 11:56:23 2017 +0200
+
+    clean
+
+commit 7e5a475b32ab3f00a4c6ddba28218dbe81a4be36
+Author: hexxcointakeover <hexx.fix@post.com>
+Date:   Sun Feb 26 19:36:22 2017 +0200
+
+    clean
+
+commit 0d4440b3abccba077d555962d237f9a4a965c97a
+Author: hexxcointakeover <hexx.fix@post.com>
+Date:   Sun Feb 26 19:14:55 2017 +0200
+
+    make it easy to compare
+
+commit 329354dd9532a4d9e9345d5aee142f3ac065cb11
+Author: hexxcointakeover <hexx.fix@post.com>
+Date:   Sun Feb 26 19:14:08 2017 +0200
+
+    qt
+
+commit bcad78d8a2874d31c03068bcc8e43728cd09fcc9
+Author: hexxcointakeover <hexx.fix@post.com>
+Date:   Sun Feb 26 19:13:15 2017 +0200
+
+    folders
+
+commit 4176ba0985c96b29087e98fd0b0a867087a7d93d
+Author: hexxcointakeover <hexx.fix@post.com>
+Date:   Sun Feb 26 19:11:35 2017 +0200
+
+    clean
+
+commit ca0bb3cabe300c204749731e3a7c3e7fa1f24c71
+Merge: 81a6678 a614887
+Author: Nopslide <poramininso.m@gmail.com>
+Date:   Sat Feb 18 17:20:16 2017 -0800
+
+    Merge pull request #73 from zcoinofficial/dev
+    
+    Merge Dev
+
+commit a6148876ae016f2627b8047611cdfe1e23a2a5af
+Author: nopslide <poramin.insom@gmail.com>
+Date:   Sat Feb 18 11:35:07 2017 -0800
+
+    fixed spending zerocoin bug and fork at block 22000
+
+commit 0359bcb2ead7feac5a3a5f6c6581b1b54cda8dd1
+Author: nopslide <poramin.insom@gmail.com>
+Date:   Sat Feb 18 11:33:04 2017 -0800
+
+    fixed spending zerocoin bug and fork at block 22000
+
+commit 7765285aa301536c88216a9c729adf581bc6742e
+Merge: 5ba9152 81a6678
+Author: Nopslide <poramininso.m@gmail.com>
+Date:   Sat Feb 18 11:00:11 2017 -0800
+
+    Merge pull request #72 from zcoinofficial/master
+    
+    Merge back to Dev branch
+
+commit 81a667867b5d84893e4c225a8d73eddd78ac16c2
+Merge: 33796c8 b20c177
+Author: aizensou <aizen0sou@gmail.com>
+Date:   Sat Feb 18 02:47:34 2017 +0100
+
+    Merge pull request #70 from aizensou/master
+    
+    Urgent fix for pool owners to prevent malicious zerospend txs
+
+commit b20c177032de3c4bfae62b5ada768a5dc2b4fa67
+Author: aizen <aizen0sou@gmail.com>
+Date:   Sat Feb 18 02:46:51 2017 +0100
+
+    Urgent fix for pool owners to prevent malicious zerospend txs
+
+commit 33796c839f7d4df4fb89c2775ec971982cfc8996
+Author: nopslide <poramin.insom@gmail.com>
+Date:   Thu Feb 16 05:07:08 2017 -0800
+
+    fixed wrong denominator
+
+commit 584e1c60617d59b3b250a71f622ff135e172d750
+Merge: b6631fe 039e8b1
+Author: aizensou <aizen0sou@gmail.com>
+Date:   Mon Feb 13 15:56:59 2017 +0100
+
+    Merge pull request #67 from aizensou/master
+    
+    Fix minting GUI bug
+
+commit 039e8b193ce974fde3f5c06e54cb2ae394ca9283
+Author: aizen <aizen0sou@gmail.com>
+Date:   Mon Feb 13 15:55:36 2017 +0100
+
+    Change wallet number accordingly and fix copyright for splash images.
+
+commit c46af25895fb4b1720b0740db617cef5d40201d0
+Merge: 102938e b6631fe
+Author: aizen <aizen0sou@gmail.com>
+Date:   Mon Feb 13 15:50:04 2017 +0100
+
+    Merge branch 'master' of https://github.com/zcoinofficial/zcoin
+
+commit 102938e8e51d49d78102c7edf6b1cda6d57718ad
+Author: aizen <aizen0sou@gmail.com>
+Date:   Mon Feb 13 15:36:10 2017 +0100
+
+    Fix validation on minting zerocoin tx for GUI
+
+commit b6631fefa2c804037b250a8659664e9210988edc
+Author: nopslide <poramin.insom@gmail.com>
+Date:   Sat Feb 11 03:30:46 2017 -0800
+
+    add checkpoint at block 20580 and remove old version node
+
+commit 1f8bf1be3d8481e3157236ec5b414d56a60d8f84
+Author: nopslide <poramin.insom@gmail.com>
+Date:   Sat Feb 11 03:04:22 2017 -0800
+
+    add checkpoint at block 20580 and remove old version node
+
+commit 4cf3d679456f4ffca23b7b09a5f484a71a4fc3f6
+Author: nopslide <poramin.insom@gmail.com>
+Date:   Sat Feb 11 02:52:57 2017 -0800
+
+    add checkpoint at block 20580 and remove old version node
+
+commit ed17e051f8152679fb3232920c36102e7735f4f0
+Merge: 0d0da58 eaee42e
+Author: aizensou <aizen0sou@gmail.com>
+Date:   Wed Feb 8 02:29:10 2017 +0100
+
+    Merge pull request #58 from aizensou/master
+    
+    Diff retarget at HF block because of much faster hashrates
+
+commit eaee42e2af4c2a9088625b8764ebc24756a1146d
+Author: aizen <aizen0sou@gmail.com>
+Date:   Wed Feb 8 02:16:34 2017 +0100
+
+    Increase retarget factor to 20000
+
+commit 158312f608e706ec9b0245f626fc34e3927bf090
+Author: aizen <aizen0sou@gmail.com>
+Date:   Wed Feb 8 01:44:15 2017 +0100
+
+    For testnet: final HF simulation test
+
+commit 361413e1ea51e20aba222d37ec18f78a51d00b8a
+Author: aizen <aizen0sou@gmail.com>
+Date:   Wed Feb 8 01:08:39 2017 +0100
+
+    For testnet: fix wrong operation CBigNum
+
+commit ca6828be9abaf6b416ef9675ef42dffb78abe8a2
+Author: aizen <aizen0sou@gmail.com>
+Date:   Wed Feb 8 00:46:48 2017 +0100
+
+    For testnet: change HF block for faster test
+
+commit d80fc0e971301feb645dfdf568e198c28d3f8fe2
+Author: aizen <aizen0sou@gmail.com>
+Date:   Wed Feb 8 00:15:23 2017 +0100
+
+    For testnet: more simulation test
+
+commit 4c4b0aac0b46a880b31c7b14ad77d2a902548425
+Author: aizen <aizen0sou@gmail.com>
+Date:   Tue Feb 7 16:54:58 2017 +0100
+
+    Remove debug log
+
+commit 24c9c6d42acd0b2b7de9b17544a26a106ccd1dff
+Author: aizen <aizen0sou@gmail.com>
+Date:   Tue Feb 7 16:49:12 2017 +0100
+
+    Fix wrong diff retarget block for hardfork
+
+commit c35b400991c77becc338b2488712a5f7a5a1d9be
+Author: aizen <aizen0sou@gmail.com>
+Date:   Tue Feb 7 16:33:28 2017 +0100
+
+    For testnet: lower hardfork block to speed up testing time
+
+commit c73179dc4740218d55959a82b0be040821221837
+Author: aizen <aizen0sou@gmail.com>
+Date:   Tue Feb 7 16:19:19 2017 +0100
+
+    For testnet: reduce matrix row for faster PoW
+
+commit 53ab7b649a6ad4fb07220ae8c5f4b1141adbc7d4
+Author: aizen <aizen0sou@gmail.com>
+Date:   Tue Feb 7 16:06:14 2017 +0100
+
+    Manually increase diff at Lyra2Z hardfork
+
+commit c2340ca4bf0b4d597fff1d23e545936db73223cd
+Author: aizen <aizen0sou@gmail.com>
+Date:   Tue Feb 7 15:08:38 2017 +0100
+
+    For testnet: new condition
+
+commit 49553e9919ff862aeb9e582a15185d8bef2e6a57
+Author: aizen <aizen0sou@gmail.com>
+Date:   Tue Feb 7 13:54:45 2017 +0100
+
+    Change minimum diff retarget to adapt with better hashrates. Change condition on testnet.
+
+commit 0d0da58feb08d351e3d868ef3bf807fd8be91662
+Merge: 85e0d66 b0f1f60
+Author: aizensou <aizen0sou@gmail.com>
+Date:   Tue Feb 7 02:13:25 2017 +0100
+
+    Merge pull request #57 from zcoinofficial/Lyra2Z
+    
+    Final Lyra2Z
+
+commit b0f1f60e6e0a79af6449a4a64dc69873df688f65
+Merge: 35011fb e5cfb6e
+Author: aizensou <aizen0sou@gmail.com>
+Date:   Tue Feb 7 02:11:36 2017 +0100
+
+    Merge pull request #56 from aizensou/Lyra2Z
+    
+    Final Lyra2Z
+
+commit e5cfb6e1f2cdbc141cd7296d13cd036eea7a0610
+Author: aizen <aizen0sou@gmail.com>
+Date:   Tue Feb 7 01:51:11 2017 +0100
+
+    Change Lyra2 parameter for better performance of GPUs. Fix reindex bug stuck on block 670. Simulation for current hardfork on testnet.
+
+commit 4559e1e3a2d01f502309103bc2e8efd83003c98b
+Merge: feb30a4 5ba9152
+Author: aizen <aizen0sou@gmail.com>
+Date:   Tue Feb 7 01:18:05 2017 +0100
+
+    Change Lyra2 parameter for better performance of GPUs. Fix reindex bug stuck on block 670. Simulation for current hardfork on testnet.
+
+commit 5ba91526714552f02370f44d68009231c2ef5125
+Author: nopslide <poramin.insom@gmail.com>
+Date:   Sun Feb 5 04:35:29 2017 -0800
+
+    fixed stuck at block 670 with reindex option
+
+commit e14ee71b454132a8973a247f4fed4f1417d666a8
+Merge: 01b40d5 85e0d66
+Author: Nopslide <poramininso.m@gmail.com>
+Date:   Sun Feb 5 05:52:10 2017 -0500
+
+    Merge pull request #55 from zcoinofficial/master
+    
+    Merge back to dev
+
+commit feb30a4dec722d5bce989e0840b9c50ed4affec5
+Author: aizen <aizen0sou@gmail.com>
+Date:   Sun Feb 5 01:16:37 2017 +0100
+
+    Fix getwork with wrong header size
+
+commit d8d9b5814c5522686636c911e68654340fef58a3
+Author: aizen <aizen0sou@gmail.com>
+Date:   Sat Feb 4 23:47:34 2017 +0100
+
+    For testnet: fix incorrect proof of work error
+
+commit efa8964eb193683db58d58482b8bcd9200622693
+Author: aizen <aizen0sou@gmail.com>
+Date:   Sat Feb 4 22:12:34 2017 +0100
+
+    For testnet: disable retarget diff and remove solo mining logs
+
+commit c1ff4afc1253d7fd7cfdfea040f2fa3a30084bac
+Author: aizen <aizen0sou@gmail.com>
+Date:   Sat Feb 4 00:26:30 2017 +0100
+
+    For testnet: fix checkpoint and retarget diff
+
+commit 85e0d663f4cd2502fa05496093ba0f840a76a76c
+Merge: 35011fb 6f09f98
+Author: aizensou <aizen0sou@gmail.com>
+Date:   Fri Feb 3 17:36:36 2017 +0100
+
+    Merge pull request #52 from aizensou/master
+    
+    Fix disconnecting from old clients
+
+commit 6f09f98559fbfd9f64d185f3c476a171a5c49477
+Author: aizen <aizen0sou@gmail.com>
+Date:   Fri Feb 3 17:34:36 2017 +0100
+
+    Doesn't disconnect from old nodes
+
+commit cfc0fbdc2e1156be0126b27f780fbe785f5d78a5
+Merge: faa1914 35011fb
+Author: aizensou <aizen0sou@gmail.com>
+Date:   Fri Feb 3 16:14:58 2017 +0100
+
+    Merge pull request #1 from zcoinofficial/master
+    
+    Lyra2Z + sync fix
+
+commit 35011fba2f2c964dc900c78a5f6d61a6a3633bf5
+Merge: faa1914 db79dd7
+Author: aizensou <aizen0sou@gmail.com>
+Date:   Fri Feb 3 16:07:22 2017 +0100
+
+    Merge pull request #51 from aizensou/Lyra2Z
+    
+    Lyra2Z
+
+commit db79dd7467918c65998ff55fd21393a837765874
+Author: aizen <aizen0sou@gmail.com>
+Date:   Fri Feb 3 16:03:51 2017 +0100
+
+    Merge from dev branch
+
+commit 99927ccb7309d172108c5287ca0603eadee06ac1
+Merge: be7d96e 01b40d5
+Author: aizen <aizen0sou@gmail.com>
+Date:   Fri Feb 3 15:59:52 2017 +0100
+
+    Fix testnet and move hardfork to block 20500. Change main domain to zcoin.io.
+
+commit 01b40d53107009623eca9a49932fbd4357a855f2
+Merge: 928fbd6 bc944f6
+Author: nopslide <poramin.insom@gmail.com>
+Date:   Fri Feb 3 00:44:33 2017 -0800
+
+    Merge branch 'dev' of https://github.com/zcoinofficial/zcoin into dev
+
+commit bc944f694383216d10253199997e8f7c9632b5fd
+Merge: 579977c faa1914
+Author: Nopslide <poramininso.m@gmail.com>
+Date:   Fri Feb 3 15:43:34 2017 +0700
+
+    Merge pull request #50 from zcoinofficial/master
+    
+    Merge back to dev
+
+commit 928fbd67573bb0088128d2e3c3bbaa302632eb10
+Author: nopslide <poramin.insom@gmail.com>
+Date:   Fri Feb 3 00:37:30 2017 -0800
+
+    fix synced node
+
+commit 5f444843249a2ede641e6776aadee38fffa836ab
+Author: nopslide <poramin.insom@gmail.com>
+Date:   Fri Feb 3 00:34:14 2017 -0800
+
+    fix synced node
+
+commit be7d96eef80305fb0ae3a2c2d08ad3f85046aff2
+Author: aizen <aizen0sou@gmail.com>
+Date:   Fri Feb 3 01:22:38 2017 +0100
+
+    Fix testnet and move hardfork to block 20500. Change main domain to zcoin.io.
+
+commit faa1914e3565becd012e4327a45c41033ff420e1
+Author: reubenyap <reuben.yap@gmail.com>
+Date:   Tue Jan 31 21:14:43 2017 +0800
+
+    Update README.md
+
+commit e99a1fc4efb595f224ef047e33cf0e37e8e23270
+Author: aizen <aizen0sou@gmail.com>
+Date:   Mon Jan 30 12:55:42 2017 +0100
+
+    Fix scratchpad missing (redudant)
+
+commit b9b437a6276374877839a23de5e045d34bdbf797
+Author: aizen <aizen0sou@gmail.com>
+Date:   Mon Jan 30 11:31:20 2017 +0100
+
+    Add testnet
+
+commit 98e8acdd3932da4241f8706dbfd5849576ea379e
+Author: aizen <aizen0sou@gmail.com>
+Date:   Mon Jan 30 03:11:53 2017 +0100
+
+    Hardfork to Lyra2Z at block 20000
+
+commit 8dac3729570f3adef6a7cdea3c1898638d5c25d4
+Merge: 2d5ccff 6036756
+Author: aizensou <aizen0sou@gmail.com>
+Date:   Sun Jan 22 15:29:43 2017 +0100
+
+    Merge pull request #47 from aizensou/master
+    
+    Mint and spend Zerocoin GUI and diverse minor fixes
+
+commit 6036756983dc0302d256d77447330b8f3595b8af
+Author: aizen <aizen0sou@gmail.com>
+Date:   Sun Jan 22 15:27:09 2017 +0100
+
+    Mint and spend Zerocoin GUI and diverse minor fixes
+
+commit 2d5ccff1836451894ce5598e33be0ec5ce496688
+Merge: 6452e96 d9a2f81
+Author: Nopslide <poramininso.m@gmail.com>
+Date:   Sat Jan 7 18:50:59 2017 -0800
+
+    Merge pull request #44 from aizensou/master
+    
+    Merging for version 0.1.8
+
+commit d9a2f8139faf4b510e7944dffae00014ab26eaef
+Author: aizen <aizen0sou@gmail.com>
+Date:   Sun Jan 8 01:06:13 2017 +0100
+
+    Prepare for redesigning UI
+
+commit 04c86155de1a8658f003180f09314c299ff42c28
+Merge: e9023b0 579977c
+Author: aizen <aizen0sou@gmail.com>
+Date:   Tue Jan 3 11:00:29 2017 +0100
+
+    Merge branch 'dev' of https://github.com/zcoinofficial/zcoin into dev
+    
+    Incorporate wallet speedup
+
+commit e9023b0669a2f86ba874a14f1b0bfaa504d49733
+Author: aizen <aizen0sou@gmail.com>
+Date:   Tue Jan 3 01:39:12 2017 +0100
+
+    Fix Qt linux build and update the instruction for Linux in readme-qt
+
+commit eb9383a7b621135a8566da21a58502c213b39d94
+Author: aizen <aizen0sou@gmail.com>
+Date:   Sun Jan 1 13:45:14 2017 +0100
+
+    - New icons
+    - Changes for MacOS build
+    - Update Readme and Build instructions for MacOS
+
+commit 579977cd9c7b4f42aebf3f32271aea14ab861d95
+Merge: e466438 ee3ae87
+Author: nopslide <poramin.insom@gmail.com>
+Date:   Sat Dec 31 18:48:16 2016 -0800
+
+    Merge branch 'dev' of https://github.com/zcoinofficial/zcoin into dev
+
+commit e4664383b953a4abcb80bd76d9478549b4c8586f
+Author: nopslide <poramin.insom@gmail.com>
+Date:   Sat Dec 31 18:47:03 2016 -0800
+
+    Making wallet faster
+
+commit ee3ae87f57b404460a3a10c6bcc6a454f03c3f7a
+Merge: 43f3817 6452e96
+Author: Nopslide <poramininso.m@gmail.com>
+Date:   Sat Dec 31 04:25:14 2016 -0800
+
+    Merge pull request #43 from zcoinofficial/master
+    
+    Merge back to dev
+
+commit 6452e967cb9b524dffaeb5a63319f9b64a5967d1
+Merge: 246a34e d090abc
+Author: Nopslide <poramininso.m@gmail.com>
+Date:   Fri Dec 30 07:49:46 2016 -0800
+
+    Merge pull request #42 from aizensou/master
+    
+    Update version.h to newer protocol
+
+commit d090abcb7ed1de7306279bd8e303051eb2be1d4e
+Author: aizensou <aizen0sou@gmail.com>
+Date:   Fri Dec 30 15:14:57 2016 +0100
+
+    Update version.h
+
+commit 246a34e1152c5e2c471dfda61caea3d6af7f211b
+Author: Nopslide <poramininso.m@gmail.com>
+Date:   Fri Dec 30 09:28:48 2016 +0700
+
+    Urgent update to eliminate old wallet version
+
+commit 43f38178b2a6d355ab9b35e205e0bbc86b30b961
+Merge: 6ad9bdf 8c3369c
+Author: Nopslide <poramininso.m@gmail.com>
+Date:   Tue Dec 27 08:14:05 2016 -0800
+
+    Merge pull request #41 from zcoinofficial/master
+    
+    Merge back to dev
+
+commit 8c3369c20312aa3d8b8fb48f6933b2228624040c
+Merge: e88bd25 6ad9bdf
+Author: Nopslide <poramininso.m@gmail.com>
+Date:   Wed Dec 21 14:47:52 2016 -0500
+
+    Merge pull request #40 from zcoinofficial/dev
+    
+    update fouder reward
+
+commit 6ad9bdf2ea1a01df2ce757eb842fb278f0f6582d
+Author: nopslide <poramin.insom@gmail.com>
+Date:   Wed Dec 21 11:46:39 2016 -0800
+
+    update fouder reward
+
+commit e88bd253e401f202ed87ad0d68698970dcaf7f0e
+Merge: 61abac0 254ad1c
+Author: Nopslide <poramininso.m@gmail.com>
+Date:   Wed Dec 21 14:28:15 2016 -0500
+
+    Merge pull request #39 from zcoinofficial/dev
+    
+    Merge founder reward back
+
+commit 254ad1c072ba78ceb43a700c0ada33c9ddf04ebd
+Author: nopslide <poramin.insom@gmail.com>
+Date:   Wed Dec 21 11:21:36 2016 -0800
+
+    update fouder reward
+
+commit 9eab893fc828ebd9aeb6709eedfa930da781db68
+Author: nopslide <poramin.insom@gmail.com>
+Date:   Wed Dec 21 11:21:16 2016 -0800
+
+    update fouder reward
+
+commit a1820e447be59dac0d1b06a2e8cab860ff50e5e1
+Merge: d0aa89d 61abac0
+Author: Nopslide <poramininso.m@gmail.com>
+Date:   Sun Dec 18 14:20:36 2016 -0500
+
+    Merge pull request #38 from zcoinofficial/master
+    
+    Merge back to dev
+
+commit 61abac027fd66fb5ba9f4189309efc95948c686a
+Author: Nopslide <poramininso.m@gmail.com>
+Date:   Sun Dec 18 14:17:52 2016 -0500
+
+    Update README.md
+
+commit 474498853b951c96de2724d9038f3cb9e3f8eb66
+Merge: f755f95 d0aa89d
+Author: Nopslide <poramininso.m@gmail.com>
+Date:   Sat Dec 17 17:10:57 2016 -0500
+
+    Merge pull request #37 from zcoinofficial/dev
+    
+    Update version and edit seed nodes
+
+commit d0aa89d0bb96ac423c22c7b332a1a846c50a950d
+Author: nopslide <poramin.insom@gmail.com>
+Date:   Sat Dec 17 10:43:19 2016 -0800
+
+    update version, and edit seed nodes
+
+commit f755f95a036eedfef7c96bcfb6769cb79278939f
+Merge: bdd9177 1444536
+Author: Nopslide <poramininso.m@gmail.com>
+Date:   Fri Nov 4 11:26:33 2016 -0700
+
+    Merge pull request #35 from zcoinofficial/dev
+    
+    Dev
+
+commit 1444536aa7212d6028d56c5920fea1021722f43d
+Author: nopslide <poramin.insom@gmail.com>
+Date:   Fri Nov 4 11:24:56 2016 -0700
+
+    fix block height until implement MTP
+
+commit 6f2b449213838e3c1731129d0ad9741911e18d37
+Merge: 00a0365 300b198
+Author: Nopslide <poramininso.m@gmail.com>
+Date:   Fri Oct 28 09:08:00 2016 -0700
+
+    Merge pull request #30 from sschepis/dev
+    
+    Modifications to get zcoin building and working on OSX
+
+commit bdd9177169aab1269f9915d41cce30c58da1c30d
+Merge: 9ddb123 00a0365
+Author: Nopslide <poramininso.m@gmail.com>
+Date:   Thu Oct 27 15:29:49 2016 -0700
+
+    Merge pull request #31 from zcoinofficial/dev
+    
+    Dev
+
+commit 300b198f24edffd27c724ca2afbd1d9d9f879f3e
+Author: Sebastian Schepis <sschepis@figur8.com>
+Date:   Wed Oct 26 19:01:13 2016 -0700
+
+    modifications to pro file for osx build
+
+commit 9af8d23ae5d70efecb3a788593c809276ddf913a
+Author: Sebastian Schepis <sschepis@figur8.com>
+Date:   Wed Oct 26 18:52:39 2016 -0700
+
+    code and makefile changes for osx daemon build
+
+commit 00a0365d43319097985e766a1095add559effa8f
+Author: nopslide <poramin.insom@gmail.com>
+Date:   Tue Oct 25 14:01:11 2016 -0700
+
+    Set CreateNewBlock function to have only 1 spending zerocoin tx
+
+commit 67b79a73335157a3a4edd83798b09376d0aaed76
+Author: nopslide <poramin.insom@gmail.com>
+Date:   Tue Oct 25 14:00:56 2016 -0700
+
+    Set CreateNewBlock function to have only 1 spending zerocoin tx
+
+commit 8da44e9336507c02800688159dc1fc5543f7dd7f
+Merge: 52a5614 9ddb123
+Author: Nopslide <poramininso.m@gmail.com>
+Date:   Tue Oct 25 03:17:33 2016 -0700
+
+    Merge pull request #29 from zcoinofficial/master
+    
+    merge to back dev
+
+commit 9ddb12303b645c41646ce0603386f0ed1954350f
+Merge: fb83fb8 092074a
+Author: Nopslide <poramininso.m@gmail.com>
+Date:   Tue Oct 25 03:10:03 2016 -0700
+
+    Merge pull request #21 from TimurKiyivinski/fix-build
+    
+    [FIX] This closes #13
+
+commit fb83fb86f67d0f85d69138b17833961a35c7a7d0
+Merge: 79aa0f2 52a5614
+Author: Nopslide <poramininso.m@gmail.com>
+Date:   Sun Oct 23 11:15:27 2016 -0700
+
+    Merge pull request #28 from zcoinofficial/dev
+    
+    make getblocktemplate order independence and more readable
+
+commit 52a56143848c2fa1d5dd10068883d4e88bb727c7
+Author: nopslide <poramin.insom@gmail.com>
+Date:   Sun Oct 23 11:13:39 2016 -0700
+
+    make getblocktemplate order independence and more readable
+
+commit 79aa0f21810c1c798292f5f114975f683e587303
+Merge: 8676068 ff63aa8
+Author: Nopslide <poramininso.m@gmail.com>
+Date:   Sun Oct 23 07:19:43 2016 -0700
+
+    Merge pull request #27 from zcoinofficial/dev
+    
+    Merge Dev
+
+commit ff63aa8c86baa0e853fff164e651487a2d8058ee
+Author: nopslide <poramin.insom@gmail.com>
+Date:   Sun Oct 23 07:17:54 2016 -0700
+
+    add only 1 spend tx in getblocktemplate; changed condition in logic order
+
+commit aba62abd08a12b85a2c6dad8aeb9b41058e56804
+Author: nopslide <poramin.insom@gmail.com>
+Date:   Sun Oct 23 07:03:22 2016 -0700
+
+    add only 1 spend tx in getblocktemplate
+
+commit 092074af4cab5bc6781a9ec43dfcbbf266275240
+Author: Timur Kiyivinski <deathseclipse@gmail.com>
+Date:   Thu Oct 20 13:27:04 2016 +0800
+
+    [FIX] This closes #13
+
+commit 8676068e9d2501243ee4811d0aa7c740bc54ba9f
+Merge: 3602d24 c014304
+Author: Nopslide <poramininso.m@gmail.com>
+Date:   Wed Oct 19 12:23:11 2016 +0700
+
+    Merge pull request #19 from zcoinofficial/dev
+    
+    Update rpcmining.cpp
+
+commit c01430426c555c69b32b86c4902589234a15d880
+Author: Nopslide <poramininso.m@gmail.com>
+Date:   Wed Oct 19 12:22:45 2016 +0700
+
+    Update rpcmining.cpp
+    
+    Fixed problem zerocoin spend doesn't include in block when mining with pool
+
+commit 3602d249bfc3afdcea833d870c2b2542163d3cbe
+Merge: 948549e 8c1c3e6
+Author: Nopslide <poramininso.m@gmail.com>
+Date:   Wed Oct 19 01:35:21 2016 +0700
+
+    Merge pull request #18 from zcoinofficial/dev
+    
+    Merge Dev v0.2
+
+commit 8c1c3e63fb3ed61f07b6bc51ecb94d7e080cea1e
+Author: nopslide <poramin.insom@gmail.com>
+Date:   Tue Oct 18 11:33:52 2016 -0700
+
+    update git ignore
+
+commit 522bbd86185724c43f13fa7701b88b5dd816e979
+Author: nopslide <poramin.insom@gmail.com>
+Date:   Tue Oct 18 11:32:52 2016 -0700
+
+    deleted all objected fileswq
+
+commit 948549efff7c8fbdba28b1dc8642a822987d5715
+Merge: 49d4d31 46474d3
+Author: Nopslide <poramininso.m@gmail.com>
+Date:   Wed Oct 19 01:27:17 2016 +0700
+
+    Merge pull request #17 from zcoinofficial/dev
+    
+    delete height for testing
+
+commit 46474d3bbe760c49ef02a4c2d84e8c8ea3fe5df5
+Author: nopslide <poramin.insom@gmail.com>
+Date:   Tue Oct 18 11:26:40 2016 -0700
+
+    delete height for testing
+
+commit 49d4d31083d9389888aa4fd1c2f040d5286578ab
+Merge: 43b4723 3ce6340
+Author: Nopslide <poramininso.m@gmail.com>
+Date:   Wed Oct 19 00:49:18 2016 +0700
+
+    Merge pull request #16 from zcoinofficial/dev
+    
+    Merge Dev v0.2
+
+commit 3ce634096acb24b01e80e6c1113288a736d5ddeb
+Author: nopslide <poramin.insom@gmail.com>
+Date:   Tue Oct 18 10:47:43 2016 -0700
+
+    add blank build folder
+
+commit 0b1decfa26ad3164c95940554da2c2f4ec5c3c7e
+Author: nopslide <poramin.insom@gmail.com>
+Date:   Tue Oct 18 10:41:55 2016 -0700
+
+    delete object files
+
+commit 43b47239811f8bb24bf315f01faafa047fcf519a
+Merge: ce3b488 1ad7051
+Author: Nopslide <poramininso.m@gmail.com>
+Date:   Wed Oct 19 00:35:30 2016 +0700
+
+    Merge pull request #15 from zcoinofficial/dev
+    
+    Merge Dev v0.2
+
+commit 1ad7051f20fff5cc88ceabe4485b93827da97abe
+Author: nopslide <poramin.insom@gmail.com>
+Date:   Tue Oct 18 10:33:57 2016 -0700
+
+    remove error file
+
+commit 1c851699736ce44923c1b123bb7b080471406094
+Author: nopslide <poramin.insom@gmail.com>
+Date:   Tue Oct 18 10:32:49 2016 -0700
+
+    remove comment
+
+commit ce3b488bd9553af7ef9ed83bc51c2ed44cc39463
+Merge: af6f3f7 5f0c456
+Author: nopslide <poramin.insom@gmail.com>
+Date:   Tue Oct 18 10:21:26 2016 -0700
+
+    Merge branch 'dev'
+
+commit 5f0c456a59e27171d684fdb1cdadf0f4e34d930d
+Author: nopslide <poramin.insom@gmail.com>
+Date:   Tue Oct 18 09:46:58 2016 -0700
+
+    add removetxwallet command
+
+commit 59b5409fe5bb4b04e00689ff29cde6b43d228206
+Author: nopslide <poramin.insom@gmail.com>
+Date:   Mon Oct 17 13:45:31 2016 -0700
+
+    add remove tx mempool in rpc command
+
+commit a808de3c0f2423213b2a12245cc1033bf0a3c038
+Author: nopslide <poramin.insom@gmail.com>
+Date:   Mon Oct 17 13:32:47 2016 -0700
+
+    ready to bump for next version; fixed reindex issues and tested
+
+commit 68aab37ed3ebc23aa98cc5096e2a860dce36be90
+Author: nopslide <poramin.insom@gmail.com>
+Date:   Mon Oct 17 09:05:53 2016 -0700
+
+    remove debug code
+
+commit 5e21373cd50a9ca6c5862d19403e32c676a88152
+Author: nopslide <poramin.insom@gmail.com>
+Date:   Mon Oct 17 09:03:17 2016 -0700
+
+    fixed reading order during init wallet
+
+commit ede576c7426d7af36e308215878d0353b79ce982
+Author: nopslide <poramin.insom@gmail.com>
+Date:   Sun Oct 16 05:40:45 2016 -0700
+
+    delete block height for testing
+
+commit 402ec175da792ce1200dc946a3864700474c20c4
+Author: nopslide <poramin.insom@gmail.com>
+Date:   Sun Oct 16 05:38:28 2016 -0700
+
+    fixed mint tx error in solve
+
+commit 1ef12b1b246c207e37ff5500ff487de9275f55d7
+Author: nopslide <poramin.insom@gmail.com>
+Date:   Sat Oct 15 12:01:15 2016 -0700
+
+    Reset ID in AppInit2 for Mint Zerocoin
+
+commit 70b078d1fd483a8108c0cb0e35ab75e0a0f4ebd4
+Author: nopslide <poramin.insom@gmail.com>
+Date:   Fri Oct 14 14:44:05 2016 -0700
+
+    in case reindex, reset all id
+
+commit de38189d50816f7f937928e5d2624fb0cd295d2b
+Author: nopslide <poramin.insom@gmail.com>
+Date:   Fri Oct 14 12:48:49 2016 -0700
+
+    fixed reindex issue
+
+commit af6f3f7281b14910f14b54c24d960b62fb801b58
+Author: nopslide <poramin.insom@gmail.com>
+Date:   Fri Oct 14 12:34:50 2016 -0700
+
+    fixed reindex
+
+commit 9f2ac329eaa45a54daf4cea64ce11e256ca834be
+Author: nopslide <poramin.insom@gmail.com>
+Date:   Fri Oct 14 12:32:51 2016 -0700
+
+    fixed reindex
+
+commit 7520e9fab55f1d80a16f01d6d2d1d8d0173ad4ca
+Author: nopslide <poramin.insom@gmail.com>
+Date:   Wed Oct 5 19:24:32 2016 -0700
+
+    change method name from removespendzerocoin to removemintzerocoin
+
+commit 267d3cab8efab839c9aac4e71cbf5b1e5d9abf26
+Author: nopslide <poramin.insom@gmail.com>
+Date:   Wed Oct 5 19:06:40 2016 -0700
+
+    change method name from removespendzerocoin to removemintzerocoin
+
+commit 775fa0ef62b9658e77c780c2d124623d2a856bf8
+Author: Nopslide <poramininso.m@gmail.com>
+Date:   Sun Oct 2 03:04:53 2016 +0700
+
+    Update README.md
+
+commit 385a5cbfe9639197c9d83940c0c8cefc6a6000dd
+Author: nopslide <poramininso.m@gmail.com>
+Date:   Fri Sep 30 16:18:46 2016 +0700
+
+    Update README.md
+
+commit b3d48b7f17049c6a91dddad0698b02beda154dd7
+Merge: 96038b7 f092181
+Author: nopslide <poramininso.m@gmail.com>
+Date:   Thu Sep 29 02:30:41 2016 -0700
+
+    Merge pull request #5 from zcoinofficial/dev
+    
+    Change parameter in Lyra2 from fixed R to base on height
+
+commit f09218187a805b54595a7fd98b1ad5b8d2ee4eb8
+Author: nopslide <poramin.insom@gmail.com>
+Date:   Thu Sep 29 02:28:51 2016 -0700
+
+    delete comment during mining
+
+commit 41137a5cfbc7aa378f0d9cb6654ca0082170a9a7
+Author: nopslide <poramin.insom@gmail.com>
+Date:   Thu Sep 29 02:26:29 2016 -0700
+
+    up version to disconnect old wallet
+
+commit b434b61d5fcdb9a31a432762e08d3f417f503719
+Author: nopslide <poramin.insom@gmail.com>
+Date:   Thu Sep 29 02:24:36 2016 -0700
+
+    change parameter in Lyra from fixed R to base on height - we don't anti ASIC but we want to make it fair as much as possible in early state
+
+commit 96038b775c4242bb82c9eac98d74ceff5881c8b4
+Merge: 4486133 4c4642e
+Author: nopslide <poramininso.m@gmail.com>
+Date:   Wed Sep 28 23:13:47 2016 -0700
+
+    Merge pull request #4 from zcoinofficial/dev
+    
+    delete binary file
+
+commit 4c4642eb8016298faa54aad841cdd98d5f9dddc5
+Author: nopslide <poramin.insom@gmail.com>
+Date:   Wed Sep 28 23:12:45 2016 -0700
+
+    delete binary file
+
+commit 4486133782a1235979577e9bdef7cbb877ecb9b7
+Merge: e760f39 fddeefc
+Author: nopslide <poramininso.m@gmail.com>
+Date:   Wed Sep 28 23:03:55 2016 -0700
+
+    Merge pull request #3 from zcoinofficial/dev
+    
+    Change algorithm in PoW to Lyra2
+
+commit fddeefc26efbcea42d81ecd117d22a95cd83857e
+Author: nopslide <poramin.insom@gmail.com>
+Date:   Wed Sep 28 22:28:52 2016 -0700
+
+    back maturity to 100
+
+commit c3248f7094b2f3359473088fc609b811e58a9cf2
+Author: nopslide <poramin.insom@gmail.com>
+Date:   Wed Sep 28 22:21:02 2016 -0700
+
+    change start block to enable merge mining
+
+commit fffd1ea3038de8df26316885965d4447cd8d70b9
+Author: nopslide <poramin.insom@gmail.com>
+Date:   Wed Sep 28 22:15:42 2016 -0700
+
+    change hashrate format
+
+commit 9c2e6ede39d6c51d4e5ef17f591a8660c044e70e
+Author: nopslide <poramin.insom@gmail.com>
+Date:   Wed Sep 28 16:07:00 2016 -0700
+
+    making support testnet height
+
+commit 1016f63879e3de045fd5a32c42df108d87d5b12d
+Author: nopslide <poramin.insom@gmail.com>
+Date:   Wed Sep 28 15:40:50 2016 -0700
+
+    add lyra2(2,32768,256)
+
+commit e760f3969371ce809232b6e0cd5dc3b6a96e8def
+Author: nopslide <poramininso.m@gmail.com>
+Date:   Wed Sep 28 07:28:58 2016 +0700
+
+    missing qt4-default
+
+commit 8f355e8decc90931434331d5a7c0424c68d3eeb8
+Author: nopslide <poramin.insom@gmail.com>
+Date:   Tue Sep 27 16:57:10 2016 -0700
+
+    add qt4
+
+commit 9012b8af59f3128d09a4a71e988a55420583d044
+Author: nopslide <poramin.insom@gmail.com>
+Date:   Tue Sep 27 16:55:25 2016 -0700
+
+    add instruction
+
+commit 8490aede6e7e4bf76fed7b7b39f55e9f7db3cf14
+Author: nopslide <poramin.insom@gmail.com>
+Date:   Tue Sep 27 15:03:08 2016 -0700
+
+    change to 6 block retarget and maximum addjustment to 25600% for support ASIC - in case there is so network won't stuck
+
+commit d2dc629b69af251b7e567183440efdf39b78c87c
+Author: nopslide <poramin.insom@gmail.com>
+Date:   Tue Sep 27 09:33:02 2016 -0700
+
+    delete binary
+
+commit 5fcd91052195f35618959c6cc35fbc980789bdd3
+Author: nopslide <poramin.insom@gmail.com>
+Date:   Tue Sep 27 09:31:53 2016 -0700
+
+    fiexed reading non-existing wallet issue
+
+commit 8f1e8a99b9cb40cb997ce91c5bccee8ccc0e9ec0
+Author: nopslide <poramin.insom@gmail.com>
+Date:   Tue Sep 27 08:16:34 2016 -0700
+
+    reset id since begin loading wallet
+
+commit 79985d7d13fcbcb22b62b6d9ddc1659e459896c5
+Author: nopslide <poramin.insom@gmail.com>
+Date:   Sun Sep 25 18:05:25 2016 -0700
+
+    add listunspentmintzerocoins in rpc for listing all mint zerocoins
+
+commit c93eccb39b07a6132cb3d787ac18be406b24c3fa
+Author: nopslide <poramin.insom@gmail.com>
+Date:   Sat Sep 24 19:51:36 2016 -0700
+
+    add founder reward in testnet; enabled fAllowFree in normal tx; add error in MintZerocoin model
+
+commit 99d149318f61d4e56271fb3779dcc27987a3dcbc
+Author: nopslide <poramin.insom@gmail.com>
+Date:   Sat Sep 24 15:38:21 2016 -0700
+
+    change start time to 9/28/2016 again
+
+commit 2ec3e5f7e6312794998bbc3dca109477d2237830
+Author: nopslide <poramin.insom@gmail.com>
+Date:   Sat Sep 24 15:36:57 2016 -0700
+
+    changed reward fouders and add Zcoin fouders addresses
+
+commit 1ec189b84f8a9694fc2177050d851e337e957ba7
+Author: nopslide <poramin.insom@gmail.com>
+Date:   Sat Sep 24 07:59:59 2016 -0700
+
+    changed start date to 9/28/2016
+
+commit f5a6a00380626462389c7750b2eaa38185f84143
+Merge: 2a7694d 875730a
+Author: nopslide <poramin.insom@gmail.com>
+Date:   Fri Sep 23 18:38:59 2016 -0700
+
+    Merge branch 'master' of https://github.com/zcoinofficial/zcoin
+
+commit 2a7694d4d2b2a1a1793cd71ea2c83c9ea82535e8
+Author: nopslide <poramin.insom@gmail.com>
+Date:   Fri Sep 23 18:38:04 2016 -0700
+
+    change algo
+
+commit 875730a8316c23b980bb6232c3ec3d6a4ade0e7e
+Author: nopslide <poramininso.m@gmail.com>
+Date:   Wed Sep 21 02:01:20 2016 +0700
+
+    Update README.md
+
+commit 71155cc37c18d69609f81efaf7ebc73996aae0b8
+Author: nopslide <poramininso.m@gmail.com>
+Date:   Wed Sep 21 01:15:11 2016 +0700
+
+    Update README.md
+
+commit c04d8acc699afb0bf36654dcf9dc3d19d954a88b
+Author: nopslide <poramininso.m@gmail.com>
+Date:   Wed Sep 21 01:11:21 2016 +0700
+
+    Update README.md
+
+commit 04592a3bcfde9e120dff6368e5a805aab8dcd0fa
+Author: nopslide <poramininso.m@gmail.com>
+Date:   Wed Sep 21 01:10:23 2016 +0700
+
+    Update README.md
+
+commit c738999e5e8b87ca6c7cf6a8e58c56a24d4cd594
+Author: nopslide <poramin.insom@gmail.com>
+Date:   Tue Sep 20 02:34:23 2016 -0700
+
+    change start time, and support testnet
+            modified:   src/main.cpp
+            modified:   src/main.h
+
+commit c04af0ff7697f58034abd79a3e51ad87087ed526
+Author: nopslide <poramin.insom@gmail.com>
+Date:   Mon Sep 19 18:00:11 2016 -0700
+
+            modified:   src/init.cpp
+            modified:   src/main.cpp
+
+commit 445a05c96703603a476c280097859b3cf5cf1c2e
+Author: nopslide <poramin.insom@gmail.com>
+Date:   Fri Sep 9 15:57:59 2016 -0700
+
+    init project

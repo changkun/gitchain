@@ -1,0 +1,138 @@
+commit b520cd8eea1b23be5b8e9f96e1dc42b54e37494a
+Author: Leacoin.org <leacoin@users.noreply.github.com>
+Date:   Fri Jun 30 20:42:46 2017 +0200
+
+    Update README.md
+
+commit a7d0a49423c67e88630a5cb8e8e072a729328e91
+Merge: a6542cc 4af68d9
+Author: Leacoin.org <admin@leacoin.org>
+Date:   Wed Dec 14 04:42:06 2016 +0100
+
+    Merge commit '4af68d964abf956356e287a9cbfe1a3a8e624a04'
+
+commit 4af68d964abf956356e287a9cbfe1a3a8e624a04
+Author: Leacoin.org <admin@leacoin.org>
+Date:   Wed Dec 14 04:40:50 2016 +0100
+
+    Bumped version and enabled git-based buld versioning
+
+commit a6542cc6d70fbc3147463610a10aa84a06f07941
+Merge: 0ff98b6 3fc9e5a
+Author: Siniša Burina <sburina@gmail.com>
+Date:   Wed Dec 14 04:31:34 2016 +0100
+
+    Merge commit '3fc9e5a3548c3f961bd3029e1f1c0afd1da85466'
+
+commit 3fc9e5a3548c3f961bd3029e1f1c0afd1da85466
+Author: Leacoin.org <admin@leacoin.org>
+Date:   Wed Dec 14 04:23:41 2016 +0100
+
+    Bumped version and enabled git-based buld versioning
+
+commit 0ff98b6788af0bc43890ccc07bfad2400d9ebb68
+Merge: 5853a9a bec67f7
+Author: Siniša Burina <sburina@gmail.com>
+Date:   Wed Dec 14 04:24:28 2016 +0100
+
+    Merge commit 'bec67f78dba74e53db7eb7aecd0a79e23817a0fb'
+
+commit bec67f78dba74e53db7eb7aecd0a79e23817a0fb
+Author: Leacoin.org <admin@leacoin.org>
+Date:   Wed Dec 14 04:23:41 2016 +0100
+
+    Bumped version and enabled git-based buld versioning
+
+commit daa6d79b772cc486a425c5044bd0f40133f121fe
+Author: Leacoin.org <admin@leacoin.org>
+Date:   Wed Dec 14 04:01:58 2016 +0100
+
+    Removed build directory from sources
+
+commit 5853a9a561b145b9cbef3b36a2f3a8f944e9c3b1
+Author: Leacoin.org <admin@leacoin.org>
+Date:   Wed Dec 14 01:50:24 2016 +0100
+
+    Allow the successfull compilation with boost 1.58, the default with Ubuntu 15.10 and later
+
+commit 65e76f0e15012351fef5aa5a4b98604fcef7dfaf
+Author: Leacoin.org <admin@leacoin.org>
+Date:   Fri Apr 17 12:23:37 2015 +0200
+
+    -
+
+commit 512b2d0c11808cc0a391fa89c3fb51a473557461
+Merge: 5106243 83754a8
+Author: Leacoin.org <admin@leacoin.org>
+Date:   Wed Apr 8 21:46:09 2015 +0200
+
+    Merge origin/master
+
+commit 51062430be10c5e659eabd74a89ad20a5f2e05fe
+Merge: e8d3b74 2b6e31c
+Author: Leacoin.org <admin@leacoin.org>
+Date:   Wed Apr 8 21:34:58 2015 +0200
+
+    getnetworkhashps method fix
+
+commit 83754a8b389b52b123efd88ffca069ac93bf8eb9
+Merge: e8d3b74 2b6e31c
+Author: Leacoin.org <admin@leacoin.org>
+Date:   Wed Apr 8 14:51:07 2015 +0200
+
+    getnetworkhashps method fix
+
+commit e8d3b7424889a6355361bd5e459f417435dc828e
+Author: Leacoin.org <admin@leacoin.org>
+Date:   Wed Apr 8 14:48:07 2015 +0200
+
+    getnetworkhashps method fix
+
+commit 2b6e31c0f0a9df2c98c08f2cbec6e2685e590aab
+Author: Leacoin.org <admin@leacoin.org>
+Date:   Mon Apr 6 22:30:03 2015 +0200
+
+    Added getnetworkhashps method
+
+commit be91c995f36a0906e139e20a8194445ddc6f4683
+Author: Leacoin.org <admin@leacoin.org>
+Date:   Tue Mar 31 06:57:34 2015 +0200
+
+    Nice toolbar icons
+
+commit e52c42bb55d9d9bbd78ac5373bec8e699b719503
+Merge: 9f4a053 4066b4c
+Author: Leacoin.org <admin@leacoin.org>
+Date:   Tue Mar 31 05:50:36 2015 +0200
+
+commit 9f4a0539ffd14a4cd7b0444ae322bf31ab4cbbe1
+Merge: 732287b 6bb7a73
+Author: Leacoin.org <admin@leacoin.org>
+Date:   Tue Mar 31 05:29:18 2015 +0200
+
+    Initial commit
+
+commit 4066b4c8f482a6e48455d6bf6a064d3f5f843a0d
+Author: Leacoin.org <leacoin@users.noreply.github.com>
+Date:   Mon Mar 30 09:04:48 2015 +0200
+
+    Update README.md
+
+commit 2190550942eda33ece7dd8e35537afbd9d08ce54
+Merge: 6bb7a73 732287b
+Author: Leacoin.org <admin@leacoin.org>
+Date:   Mon Mar 30 08:28:02 2015 +0200
+
+    Initial commit
+
+commit 732287b2e8d6a5fe7e3a649d40d137d635774948
+Author: sburina <sburina@gmail.com>
+Date:   Wed Mar 18 15:50:11 2015 +0100
+
+    First test commit
+
+commit 6bb7a73951962826b446d349edb259ee5823f1ea
+Author: sburina <sburina@users.noreply.github.com>
+Date:   Wed Mar 18 15:42:12 2015 +0100
+
+    Initial commit

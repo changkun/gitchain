@@ -1,0 +1,13 @@
+commit 4823a2dfcc8da2a31d7bc7d5bad7a369fbcd4ea8
+Author: Swiscoin <swiscoin@gmail.com>
+Date:   Mon Feb 13 21:09:47 2017 +0400
+
+    Swiscoin (MSCN)
+    
+    swiscoin SCN convert to MSCN and algo changed from POW to POS.
+
+commit 0bb620daf32dc16fb0a42b848227501d2074c069
+Author: Swiscoin <swiscoin@gmail.com>
+Date:   Mon Feb 13 21:07:37 2017 +0400
+
+    :octocat: Added .gitattributes

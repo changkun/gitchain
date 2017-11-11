@@ -1,0 +1,844 @@
+commit 27b5f2e7afd6eb12f8f082dd1c7efbf4081b73f2
+Author: ryandanielt <ryan@ryanmcphee.net>
+Date:   Wed Jul 12 22:16:36 2017 -0400
+
+    Update README.md
+
+commit e51a7cbf70cca17a80a59551e38657fab7b9e9e6
+Author: ryandanielt <ryan@ryanmcphee.net>
+Date:   Wed Nov 18 16:19:25 2015 -0500
+
+    Update main.cpp
+    
+    added additional check by subversion (client name), due to the existance of invalid peers with valid protocol version
+
+commit f2513b3311826696d7c2531bb1177ac969921fe3
+Author: ryandanielt <ryan@ryanmcphee.net>
+Date:   Wed Nov 18 16:15:05 2015 -0500
+
+    Update main.cpp
+    
+    Committed changes to help establish a ban to all illegal nodes connecting to the network.
+
+commit 13ab8c588baf0b64a04d50fe95b47d448186d5f8
+Author: ryandanielt <ryan@ryanmcphee.net>
+Date:   Wed Nov 18 16:11:38 2015 -0500
+
+    Update version.h
+
+commit 4beaaf24d5bdd3f4bc315106ad6102ac558e74a5
+Author: Snipsnoop <Snipsnoop@users.noreply.github.com>
+Date:   Wed Apr 9 17:44:01 2014 +0100
+
+    Openssl updated to to openssl-1.0.1g
+    
+    Heartbleed fix. http://heartbleed.com/
+
+commit ec6278ef2c2cb856c0a1c641f9c3dd72bb3e5ed9
+Author: Dan Wasyluk <dwasyluk@gmail.com>
+Date:   Thu Feb 13 22:56:31 2014 -0500
+
+    Update .gitignore
+    
+    - Matches litecoin with kittehcoin replacements
+    - Includes leveldb Makefile
+    - Created PLACEHOLDER.md to create obj dir
+
+commit eebea62d7d0a045856cc4c77f5cfd27249311ed0
+Author: Dan Wasyluk <dwasyluk@gmail.com>
+Date:   Thu Feb 13 22:26:02 2014 -0500
+
+    Added seed nodes, removed tier6 from read me
+    
+    Added more dnsseed addresses and removed the tier6 payouts from the read me
+
+commit fb07b8b4dbe77a7af7ee69e795968240e7060b01
+Author: Sebastian Schepis <sschepis@gmail.com>
+Date:   Thu Feb 13 11:03:48 2014 -0800
+
+    Cleaned up README format
+    :
+
+commit 9f4294c00d42ecd38c7bb69897d8e122823fca27
+Author: Sebastian Schepis <sschepis@gmail.com>
+Date:   Thu Feb 13 11:02:18 2014 -0800
+
+    Updated README version and readjust info
+
+commit 0619ceaa4507da5033d11120e4c3c639aac3c5aa
+Author: Sebastian Schepis <sschepis@gmail.com>
+Date:   Thu Feb 13 10:54:19 2014 -0800
+
+    Updated README
+
+commit 682c7f1198f2073fb1e9518509b63523ea288925
+Author: Coder Boo <coder@boo.com>
+Date:   Thu Feb 13 11:26:40 2014 +0000
+
+    v0.8.6.2 with Kimoto Gravity Well.
+
+commit 511af68932707f7b3f95ce9c2ad959022b77f7ed
+Author: Dan Wasyluk <dwasyluk@gmail.com>
+Date:   Mon Feb 3 19:27:46 2014 -0500
+
+    Cleaned up about screens, fixed splash screen
+    
+    Cleaned up about pages from snip snoop. Updated version number in about.ui file, updated splash screen.
+
+commit 1e164b6f98bed0df73e545e1fe191fb72cdea181
+Author: Dan Wasyluk <dwasyluk@gmail.com>
+Date:   Mon Feb 3 01:54:26 2014 -0500
+
+    .pro updates for mac compatibility
+
+commit 4901d97f05498bd0b6f81837ef9d2b9fd67088e2
+Author: dwasyluk <dwasyluk@gmail.com>
+Date:   Mon Feb 3 00:16:55 2014 -0500
+
+    Update README.md
+    
+    Formatting.
+
+commit c29cc0933c2dc44626189ac8d0f72a6549232acc
+Merge: 5eba204 6f57ff1
+Author: Dan Wasyluk <dwasyluk@gmail.com>
+Date:   Mon Feb 3 00:06:45 2014 -0500
+
+    Merge branch 'master' of https://github.com/kittehcoin/kittehcoin
+
+commit 5eba2042dc8250594e16bb7b02d01b34d33b6a09
+Author: Dan Wasyluk <dwasyluk@gmail.com>
+Date:   Mon Feb 3 00:06:34 2014 -0500
+
+    Updated README
+    
+    Readme
+
+commit 6f57ff1c325921530120e833f31edf239cff0650
+Merge: 3e9c9c7 df67d8a
+Author: dwasyluk <dwasyluk@gmail.com>
+Date:   Sun Feb 2 18:47:33 2014 -0800
+
+    Merge pull request #12 from kittehcoin/v0.6.4.1
+    
+    V0.6.4.1 - Manually merged, auto-conflicts resolved.
+
+commit 3e9c9c78ceda4fb51066dc283b568a3fb0613716
+Merge: 9a44a75 d24fb88
+Author: Dan Wasyluk <dwasyluk@gmail.com>
+Date:   Sun Feb 2 21:45:21 2014 -0500
+
+    Fixed merge issue with branch auto-merge
+
+commit df67d8a85ae5d304c62bf33c232cd309f05863c6
+Author: Dan Wasyluk <dwasyluk@gmail.com>
+Date:   Sun Feb 2 21:34:15 2014 -0500
+
+    updated master to v0.6.4.1
+
+commit d24fb88c814b1eebc7cd502de1b9feb2b9b5501b
+Author: Dan Wasyluk <dwasyluk@gmail.com>
+Date:   Sun Feb 2 21:18:47 2014 -0500
+
+    Removed unneeded block height comment from debug
+    
+    Obsolete comment removed
+
+commit c1ae5cb0325edc63a1d546085298ecb9500027ac
+Author: Dan Wasyluk <dwasyluk@gmail.com>
+Date:   Sun Feb 2 21:12:29 2014 -0500
+
+    Updates to boost lib suffix on OSX
+    
+    Fixes boost build issue on mac
+
+commit 9a44a75aff009300b8895f0443c95c8bf97ec70d
+Author: Dan Wasyluk <dwasyluk@gmail.com>
+Date:   Sun Feb 2 20:51:27 2014 -0500
+
+    Fix for qmake mac builds using macports
+    
+    Fix for qmake mac builds using macports in .pro file
+
+commit 5e2050ba92b604a5eea95f8c34495f678a8cbf77
+Merge: 5adae1f c892e7b
+Author: Dan Wasyluk <dwasyluk@gmail.com>
+Date:   Sun Feb 2 20:44:43 2014 -0500
+
+    Merge branch 'v0.6.4.1' of https://github.com/kittehcoin/kittehcoin into v0.6.4.1
+
+commit 5adae1f5ad78d571cd0c71207e8617ea2679a26a
+Author: Dan Wasyluk <dwasyluk@gmail.com>
+Date:   Sun Feb 2 20:44:31 2014 -0500
+
+    Updated to main network genesis block, updated the fork block height
+    
+    Fork height increased to allow for network propagation
+
+commit c892e7bafa3fab8e558a49ae9055981d8337c40c
+Author: Ubuntu <ubuntu@ip-10-182-190-17.ec2.internal>
+Date:   Sun Feb 2 22:41:32 2014 +0000
+
+    added Boost libs in makefile
+
+commit 64ecb84314a8e4493c4bb077e437c6878f787d3e
+Author: Dan Wasyluk <dwasyluk@gmail.com>
+Date:   Sun Feb 2 15:44:22 2014 -0500
+
+    Lowered hard fork block height for test net
+    
+    Lowered hard fork height to block 10
+
+commit e3709964fb9e78e6d18fff48d2b119e1f1242b0f
+Author: Dan Wasyluk <dwasyluk@gmail.com>
+Date:   Sun Feb 2 15:25:05 2014 -0500
+
+    New test net
+
+commit d3dd6d61322ede581edcda8a0499def682200158
+Author: Dan Wasyluk <dwasyluk@gmail.com>
+Date:   Sun Feb 2 15:17:59 2014 -0500
+
+    New testnet
+    
+    New test net genesis block for distributed testing
+
+commit 94798e12393911a9be74bdb2f71321ae3fc741c5
+Author: Dan Wasyluk <dwasyluk@gmail.com>
+Date:   Sun Feb 2 14:46:54 2014 -0500
+
+    Version number updates
+
+commit eb7a9cf91ac13317c8fea90d33df8fe450dbfea2
+Author: Dan Wasyluk <dwasyluk@gmail.com>
+Date:   Sun Feb 2 06:00:05 2014 -0500
+
+    Updated subversion num
+    
+    Updated subversion num so network propagation can be accurately determined
+
+commit 3ecfab6ded0c6abbc796ae82192c6eb93b50a57d
+Author: Dan Wasyluk <dwasyluk@gmail.com>
+Date:   Sun Feb 2 05:19:52 2014 -0500
+
+    Typo Fix
+    
+    Fixed typo in block time
+
+commit b8c7ca8b4779a7fa4cd20758b39c4fe8a43437da
+Author: Dan Wasyluk <dwasyluk@gmail.com>
+Date:   Sun Feb 2 04:53:07 2014 -0500
+
+    Updated coin-spec params and readme
+    
+    Fixed some minor bugs related to block reward and updated subversion number
+
+commit e072d6c203c199aab3284a93b9e88c1fca14fd02
+Author: Dan Wasyluk <dwasyluk@gmail.com>
+Date:   Sat Feb 1 18:28:53 2014 -0500
+
+    Updated version in .pro
+    
+    Updated version in .pro
+
+commit 6b0ed84b15bd56e8ea76754fa6f352d7dd27d631
+Author: Dan Wasyluk <dwasyluk@gmail.com>
+Date:   Sat Feb 1 18:16:31 2014 -0500
+
+    Updating for hard fork in current version
+    
+    Updating for a hard fork in the current client block chain, updated version slightly
+
+commit 67e28c6640afa473d9bb465e87e6369d7e7e3eb0
+Merge: 3ee62cb 1b93784
+Author: Dan Wasyluk <dwasyluk@gmail.com>
+Date:   Fri Jan 31 14:35:39 2014 -0500
+
+    Merge branch 'master' of https://github.com/kittehcoin/kittehcoin
+
+commit 3ee62cba48c419fd82b8afef538a13fb1e10e557
+Author: Dan Wasyluk <dwasyluk@gmail.com>
+Date:   Fri Jan 31 14:34:24 2014 -0500
+
+    Updated genesis block for testnet
+    
+    Pushing files in "test net" mode (official block is set to a test net genesis block) so that we can test the hard-fork on the testnet before migrating to the real network. In this form the client will not connect to the "main" block chain, only the test net chain.
+
+commit 1b9378438b3b533e1df92311f31e8b06abdebe8b
+Merge: f9f38ce e03e672
+Author: dwasyluk <dwasyluk@gmail.com>
+Date:   Thu Jan 30 22:25:02 2014 -0800
+
+    Merge pull request #11 from knauf1/patch-1
+    
+    Update kittehcoin-qt.pro
+
+commit e03e6725f4a7b3f5a9667e7609e24aa95e255965
+Author: knauf1 <mail@saschaklubert.de>
+Date:   Wed Jan 29 07:09:11 2014 +0100
+
+    Update kittehcoin-qt.pro
+    
+    missing dependency for linux.link against lib boost_system failed. see also issue #10
+
+commit f9f38ce19304caa3af465982083086ad4fa83e1a
+Author: Dan Wasyluk <dwasyluk@gmail.com>
+Date:   Sat Jan 25 19:46:46 2014 -0500
+
+    Fixed OSX makefile, removed duplicate insert definition from serialize.h
+    
+    Fixed the OSX makefile, similar to changes make the the .pro file. Also removed the duplicative insert function causing compilation errors from serialize.h.
+
+commit 27fcccaf14b7ab5f043d7875f911f3e2be9646a6
+Merge: 94fffa1 2951a6f
+Author: dwasyluk <dwasyluk@gmail.com>
+Date:   Wed Jan 22 22:26:20 2014 -0800
+
+    Merge pull request #9 from augiw/master
+    
+    hebrew translate fix
+
+commit 2951a6fd988f0c0fc4deeba6c73cfe2bc798a19f
+Author: augi <augi@dream.org.il>
+Date:   Sat Jan 18 14:33:04 2014 +0200
+
+    hebrew translate fix
+
+commit 94fffa1f6966854af8b1f1e55d8896c5d34a3427
+Merge: 9205ca6 28ee807
+Author: dwasyluk <dwasyluk@gmail.com>
+Date:   Mon Jan 13 09:57:56 2014 -0800
+
+    Merge pull request #8 from Snipsnoop/master
+    
+    Updated Windows binaries to 0.6.4
+
+commit 28ee807abac9fa033d7ea0a5c40f05cbc79ce9c3
+Author: Snipsnoop <Snipsnoop@users.noreply.github.com>
+Date:   Mon Jan 13 12:53:06 2014 +0000
+
+    Updated Windows binaries
+    
+    Includes wallet and deamon
+
+commit 9205ca696b1265e9144fbb810f2e9d623f0a32e0
+Author: Dan Wasyluk <dwasyluk@gmail.com>
+Date:   Sun Jan 12 22:06:28 2014 -0500
+
+    Updated MacOSX wallet binaries dock icon
+    
+    Updated MacOSX binaries to include packaged libs so the wallet in the "release" folder can be run as-is, should work on OSX 10.6+. Also updated the dock icon for mac to the new logo.
+
+commit 9b9a6a167537f4326ab3d856441d632fe5f3bfab
+Author: Dan Wasyluk <dwasyluk@gmail.com>
+Date:   Sun Jan 12 16:19:33 2014 -0500
+
+    Updated dock image for MacOSX.
+    
+    Updates mac dock icon with new official logo.
+
+commit 559d2cb3d4bcbc3f7dfac7bf02a68fd3b191b54c
+Merge: b18c56f 60eeb7d
+Author: dwasyluk <dwasyluk@gmail.com>
+Date:   Sun Jan 12 13:11:23 2014 -0800
+
+    Merge pull request #7 from Snipsnoop/master
+    
+    Updated App logo and icons
+
+commit 60eeb7d374cb00ff2dbb492af0f2e8cb5a3e8371
+Author: Snipsnoop <Snipsnoop@users.noreply.github.com>
+Date:   Sun Jan 12 13:11:44 2014 +0000
+
+    Updated App logo and icons
+    
+    - Updated App logo and icons
+    - Set Transparency of splash screen
+
+commit b18c56fd63a66be299dd1cc0f3b47496243a0230
+Merge: a8bdb4e a5d6e03
+Author: dwasyluk <dwasyluk@gmail.com>
+Date:   Wed Jan 8 19:21:38 2014 -0800
+
+    Merge pull request #6 from Snipsnoop/master
+    
+    Windows Binaries + UI string fix
+
+commit a5d6e0340077bd45c25b6cbc3e9dfe7d0662e815
+Author: Snipsnoop <Snipsnoop@users.noreply.github.com>
+Date:   Wed Jan 8 13:49:56 2014 +0000
+
+    UI : Remove ref to D in send coin
+    
+    Enter a KittehCoin address (starts with D) changed to K
+
+commit 3cd967c30d4ad4d251a7308e113bd5b7657ee448
+Author: Snipsnoop <Snipsnoop@users.noreply.github.com>
+Date:   Wed Jan 8 13:46:55 2014 +0000
+
+    Windows Wallet and Daemon one-click build fix
+    
+    Fixes to allow creation of windows binaries using easywinbuilder.
+    Just run \contrib\easywinbuilder\__all_easywinbuilder.bat and follow
+    instructions
+
+commit a8bdb4ea9adb07f4f4cbc670e27e544d83145dc5
+Merge: d826cba 82ee7ec
+Author: dwasyluk <dwasyluk@gmail.com>
+Date:   Sun Jan 5 21:52:54 2014 -0800
+
+    Merge pull request #5 from dwasyluk/master
+    
+    Updated app icon and OSX build files.
+
+commit 82ee7ec60137744ab1a674dcb667473f78bf7161
+Author: Dan Wasyluk <dwasyluk@gmail.com>
+Date:   Sat Jan 4 13:32:21 2014 -0500
+
+    Updated app icon and OSX build files.
+    
+    - Updated .app icon to new-old kitteh (non smoker)
+    - Updated the .pro files for building/deploying on OSX 10.9 with BerkleyDB 5.3 and compatibility 10.7+
+
+commit d826cba4bf5b2d56710459543e2ad201b432add4
+Author: Sebastian Schepis <sschepis@gmail.com>
+Date:   Tue Dec 31 14:26:14 2013 -0800
+
+    added zipfile for osx binaries to release
+
+commit a470f1b2d3508800d5d7cea014f74c4179da19af
+Author: Sebastian Schepis <sschepis@gmail.com>
+Date:   Tue Dec 31 14:19:25 2013 -0800
+
+    Updated OSX binaries, tested and known good.
+
+commit f46fa321d85266d6b7804c178005e7af4c7e2407
+Author: Sebastian Schepis <sschepis@gmail.com>
+Date:   Tue Dec 31 11:45:28 2013 -0800
+
+    Added tar file of both linux binaries to release/linux
+
+commit e594e8f9f6b633e5781a243f58a1ab6b07707545
+Author: Sebastian Schepis <sschepis@gmail.com>
+Date:   Tue Dec 31 11:40:05 2013 -0800
+
+    REVERT BACK to original coin settings. Not prepared to deal with all teh stress that comes with forcing a client upgrade for now. Also updated linux binaries, as of this checkin they are verified known good.
+
+commit ca8089d810392d5f71616232cd67e628f06435de
+Author: Sebastian Schepis <sschepis@gmail.com>
+Date:   Tue Dec 31 02:34:45 2013 -0800
+
+    Meow.
+
+commit 9282e1b5e3c030c2053623020300112e535d3a32
+Author: Sebastian Schepis <sschepis@gmail.com>
+Date:   Mon Dec 30 22:35:32 2013 -0800
+
+    Updated, expanded README.md, comment cleanups, removed old Win client, removed accidental check-in of binary in root of repo
+
+commit 4eaa867f200d10113b96cda5a82bdb70e532f58d
+Author: Sebastian Schepis <sschepis@gmail.com>
+Date:   Mon Dec 30 18:06:38 2013 -0800
+
+    Updated 0.7.0 Linux binaries
+
+commit 926f8ad81237c7456445b572b827bbd123095e2b
+Author: Sebastian Schepis <sschepis@gmail.com>
+Date:   Mon Dec 30 17:51:52 2013 -0800
+
+    Updated release with new KittehCoin binaries, updated OSX app icon, increased kittehcoin-qt.pro version number to 0.7.0
+
+commit b20b7ea159c9fa3f5d756c295c5179b087c1fe7a
+Merge: 9428777 bd57cf1
+Author: Sebastian Schepis <sschepis@gmail.com>
+Date:   Mon Dec 30 16:43:20 2013 -0800
+
+    MANDATORY UPDATE: Coin parameters have changed (see README.md), pchMessageStart[4] has changed, CLIENT VERSION changed to 0.7.0.0, MIN_PROTO_VERSION incremented, fee increases to limit dust transactions / blockchain bloat
+
+commit 94287776a1f269c4c9bee5113a838e5f91b7fa5b
+Author: Sebastian Schepis <sschepis@gmail.com>
+Date:   Mon Dec 30 16:42:12 2013 -0800
+
+    MANDATORY UPDATE: Coin parameters have changed (see README.md), pchMessageStart[4] has changed, CLIENT VERSION changed to 0.7.0.0, MIN_PROTO_VERSION incremented, fee increases to limit dust transactions / blockchain bloat
+
+commit bd57cf1a12f05f9feef768bc452251502972f9ac
+Author: Sebastian Schepis <sschepis@gmail.com>
+Date:   Mon Dec 30 12:55:12 2013 -0800
+
+    Incremented version to 0.6.5, mods in mingw makefile to support i686-mingw, uncommented insert in serialize.h to compile linux binaries.
+
+commit 5543b9881c6c440cc32c53e9d561879000e01f6a
+Author: Sebastian Schepis <sschepis@gmail.com>
+Date:   Mon Dec 30 04:10:22 2013 -0800
+
+    New coin logo, removed nasty doggie graphics, transaction fee minimum = 10 MEOW (must.prevent.blockchain.bloat), MAX_COINS changed to 40 billion MEOW, updated README coin parameters
+
+commit 510ee9a1921e96c7281d9b330b8611d3f73b80de
+Author: Sebastian Schepis <sschepis@gmail.com>
+Date:   Mon Dec 30 04:09:31 2013 -0800
+
+    New coin logo, removed nasty doggie graphics, transaction fee minimum = 10 MEOW (must.prevent.blockchain.bloat), MAX_COINS changed to 40 billion MEOW, updated README coin parameters
+
+commit 7764308a4931cb2b572307e3265bb18f4ff51f1e
+Author: Sebastian Schepis <sschepis@gmail.com>
+Date:   Fri Dec 27 01:22:12 2013 -0800
+
+    Cleaned up readme.md, increased transaction fee
+
+commit 1841ce5075bd6c3695e2675af0450caf78a58009
+Author: Sebastian Schepis <sschepis@gmail.com>
+Date:   Thu Dec 26 23:28:38 2013 -0800
+
+    removed kittehcoin-qt from gitignore, modded serialize.h to deal with the duplicate insert methods.
+
+commit bc74257627f36b4880b502c5d206211cccc3a446
+Author: Sebastian Schepis <sschepis@gmail.com>
+Date:   Thu Dec 26 23:28:21 2013 -0800
+
+    removed kittehcoin-qt from gitignore, modded serialize.h to deal with the duplicate insert methods.
+
+commit a4beec3898461ab5a618b096865a22ba60361fdd
+Author: Sebastian Schepis <sschepis@gmail.com>
+Date:   Wed Dec 25 19:04:07 2013 -0800
+
+    Added linux binaries with new icon
+
+commit aaa39b77aa456f6b4e54a1dddb38f781cd4e4184
+Author: Sebastian Schepis <sschepis@gmail.com>
+Date:   Wed Dec 25 18:27:25 2013 -0800
+
+    Updated binaries
+
+commit bc7bb8c7aa9129dad5468fd6aad4665d24f89c00
+Merge: ebb12b3 bde663f
+Author: Sebastian Schepis <sschepis@gmail.com>
+Date:   Wed Dec 25 23:27:21 2013 -0800
+
+    New icon
+
+commit ebb12b31dbfdad9b93c885fd20cd3f29d35a5654
+Author: Sebastian Schepis <sschepis@gmail.com>
+Date:   Wed Dec 25 22:52:42 2013 -0800
+
+    Added gbalme's awesome icon /coin design
+
+commit bde663f63a872d9035518f2a5ce89c191a3136dd
+Author: Sebastian Schepis <sschepis@gmail.com>
+Date:   Tue Dec 24 21:29:59 2013 -0800
+
+    Windows KittehCoin-qt binary
+
+commit 6de574a1e32e8f645f1798c5dcbf8c58854b0a8b
+Merge: d0e08df 2fa6f80
+Author: Sebastian Schepis <sschepis@gmail.com>
+Date:   Tue Dec 24 20:57:46 2013 -0800
+
+    Linux binary for kittehcoind
+
+commit d0e08dfd36f3f212166a863f792c9893cf8fecb2
+Author: Sebastian Schepis <sschepis@gmail.com>
+Date:   Tue Dec 24 20:55:12 2013 -0800
+
+    Added binaries for OSX (64 bit)
+
+commit 2fa6f80aa3306bece3f5657fe5afe3e5ce1263d9
+Author: Sebastian Schepis <sschepis@gmail.com>
+Date:   Tue Dec 24 21:23:57 2013 -0500
+
+    Added kittehcoind binary for linux
+
+commit ffcc9e8c8b21612f9199c880f9a73dd6866480a9
+Author: Sebastian Schepis <sschepis@gmail.com>
+Date:   Mon Dec 23 18:33:50 2013 -0800
+
+    Updated icons
+
+commit 902ad8469ba3c01368d34d958f66096fab328d52
+Author: Sebastian Schepis <sschepis@gmail.com>
+Date:   Sun Dec 22 23:46:04 2013 -0800
+
+    Adjusted rewards
+
+commit e09a01c72b582b187e6b345bc62dec05d03886c2
+Author: Sebastian Schepis <sschepis@gmail.com>
+Date:   Sun Dec 22 23:19:35 2013 -0800
+
+    Meow. Done with testnet for now.
+
+commit 89e7ba2bb809a55a3cb09b7c970333b090be82bd
+Author: Sebastian Schepis <sschepis@gmail.com>
+Date:   Sun Dec 22 22:59:07 2013 -0800
+
+    purr. Happy changes.
+
+commit 3aed82db1765d403f0f4a7ff98493ed64d4da8be
+Author: Sebastian Schepis <sschepis@gmail.com>
+Date:   Sun Dec 22 21:03:36 2013 -0800
+
+    New merkle and genesis block
+
+commit 98337aa56c288e8ce7cd3d977283b906f4bb9d11
+Author: Sebastian Schepis <sschepis@gmail.com>
+Date:   Sun Dec 22 18:41:44 2013 -0800
+
+    Port tweaks
+
+commit 5126184a6dd97139f5053c5ad6841abfacfb2d6c
+Author: Sebastian Schepis <sschepis@gmail.com>
+Date:   Sun Dec 22 18:01:36 2013 -0800
+
+    Updated genesis block and merkle hash
+
+commit a55f0f20fa985d04eb8d9952bb51c9f1c68a8cab
+Author: Sebastian Schepis <sschepis@gmail.com>
+Date:   Mon Dec 23 00:44:51 2013 -0800
+
+    Initial commit
+
+commit 1ba22d97e88f3158a4166cf36511bdb3222510fe
+Author: Sebastian Schepis <sschepis@gmail.com>
+Date:   Sun Dec 22 23:14:00 2013 -0800
+
+    Initial commit.
+
+commit 8e53cb8d0b139edf0c8e908b2bc52bb6dbf1abf1
+Merge: 764d020 4709645
+Author: dogecoin <dogecoin@gmail.com>
+Date:   Wed Dec 18 12:43:44 2013 -0800
+
+    Merge pull request #32 from jaekwon/master
+    
+    Fixed segmentation error
+
+commit 4709645063cc1c8f01ff940fd9db320385af085b
+Author: Jae Kwon <jkwon.work@gmail.com>
+Date:   Wed Dec 18 12:19:06 2013 -0800
+
+    Fixed segmentation error
+
+commit 764d020372ff127d263c3df90554927385ab50a8
+Merge: cc86a17 3e5edeb
+Author: dogecoin <dogecoin@gmail.com>
+Date:   Wed Dec 18 07:10:20 2013 -0800
+
+    Merge pull request #30 from xnljfr/master
+    
+    add first dnsseed for doge
+
+commit 3e5edeb2aeed2f1d605b8b59557a1d1d8d22d249
+Author: XNL JFR <root@securitydot.net>
+Date:   Wed Dec 18 16:38:12 2013 +0200
+
+    add first dnsseed for doge
+    
+    add first dnsseed for doge
+
+commit cc86a178a4a4068cb99f8bc50f1c54fb79c0922b
+Merge: 00feb82 637daea
+Author: dogecoin <dogecoin@gmail.com>
+Date:   Tue Dec 17 15:24:51 2013 -0800
+
+    Merge pull request #24 from xnljfr/master
+    
+    network is now over 3k peers , get them to join 50 random channels!
+
+commit 637daea4221d88ba64b7396b1eacd44b06f78f9a
+Author: XNL JFR <root@securitydot.net>
+Date:   Tue Dec 17 18:09:07 2013 +0200
+
+    raise sending limit to 500000000
+    
+    raise sending limit to 500000000
+
+commit f5148baf8d2810414adc0c524e4b56277c7ec184
+Author: XNL JFR <root@securitydot.net>
+Date:   Tue Dec 17 16:25:49 2013 +0200
+
+    changing hypernodes
+    
+    changing hypernodes
+
+commit d5e02f13df1cda71346c904acc5e971ddb083d10
+Author: XNL JFR <root@securitydot.net>
+Date:   Tue Dec 17 16:20:57 2013 +0200
+
+    network is now over 3k peers , get them to join 50 random channels!
+    
+    network is now over 3k peers , get them to join 50 random channels!
+
+commit 00feb82c3ff53931e0645b02d66dd422be94eb8d
+Merge: 3b00224 fc8df53
+Author: dogecoin <dogecoin@gmail.com>
+Date:   Mon Dec 16 21:56:27 2013 -0800
+
+    Merge pull request #17 from rtucker/master
+    
+    readme-qt.rst: such documentation update, etc
+
+commit fc8df5393d7cfdd4b379260d0c59a1ad864df477
+Author: Ryan Tucker <rtucker@gmail.com>
+Date:   Sun Dec 15 20:45:59 2013 -0500
+
+    s/litecoin/dogecoin/g, OCD compliance on ===es
+
+commit 5e7d9db9ebacb6d2219dbdcc17b64027740039af
+Author: Ryan Tucker <rtucker@gmail.com>
+Date:   Sun Dec 15 20:17:29 2013 -0500
+
+    readme-qt.rst: Update Debian pkg list and UPNP defaultiness
+
+commit 3b002248ec920f75fcd2cccdb69bc23a7da4eadc
+Author: root <root@biggerCPU.(none)>
+Date:   Sun Dec 15 13:31:28 2013 -0500
+
+    revert change, much confuse. transaction cap at 500M. may change in future
+
+commit ec29ea3a16b6219569b12ad9dcad362cd8f1f138
+Author: root <root@biggerCPU.(none)>
+Date:   Sun Dec 15 13:05:18 2013 -0500
+
+    make not overflow
+
+commit b3c456cc2a556abee848ec740a5a4a39ce6147ac
+Merge: 817728a 3e0e652
+Author: dogecoin <dogecoin@gmail.com>
+Date:   Sun Dec 15 09:03:06 2013 -0800
+
+    Merge pull request #14 from mutoso/master
+    
+    Actually change to "Herd Dig"
+
+commit 817728a1fc9e1f219add3cd367574d042fbc091e
+Author: root <root@biggerCPU.(none)>
+Date:   Sun Dec 15 12:01:21 2013 -0500
+
+    money
+
+commit 3e0e652b03258f05cf366d1ec3b084ff8a92c494
+Author: Alastair Stuart <alastair@muto.so>
+Date:   Fri Dec 13 13:41:33 2013 -0600
+
+    Actually change to "Herd Dig"
+    
+    oops
+
+commit 6ca75966218fbbc9b9e7157c825eb3cd17832f60
+Merge: 7cdec21 714ee4e
+Author: dogecoin <dogecoin@gmail.com>
+Date:   Thu Dec 12 22:53:35 2013 -0800
+
+    Merge pull request #11 from samccone/patch-1
+    
+    add doge image description
+
+commit 714ee4ec232b63eaa70a7a8aec120e879d7017fa
+Author: Sam Saccone <samccone@gmail.com>
+Date:   Thu Dec 12 13:08:40 2013 -0500
+
+    add doge image description
+
+commit 7cdec219eeab3fbfdf403bcb208be042d3d6d28d
+Author: root <root@petesplayground.(none)>
+Date:   Thu Dec 12 02:34:36 2013 -0500
+
+    refix
+
+commit 9a5dcb803d7618d7d6ef67d45671599e0ec1b38e
+Author: root <root@petesplayground.(none)>
+Date:   Thu Dec 12 02:30:51 2013 -0500
+
+    1.1 update
+
+commit 15bc5dd1700168fc7815124e246650f49740ab4a
+Merge: dca9698 6b5d65f
+Author: dogecoin <dogecoin@gmail.com>
+Date:   Wed Dec 11 20:15:44 2013 -0800
+
+    Merge pull request #8 from dos1/master
+    
+    Remove versions from Boost linker parameters.
+
+commit 6b5d65fc801619d0160a43ca0e3059e847439ce3
+Author: Sebastian Krzyszkowiak <dos@dosowisko.net>
+Date:   Wed Dec 11 23:45:48 2013 +0100
+
+    Remove versions from Boost linker parameters.
+    
+    There's no reason for hardcoding specific version (mingw?) and it
+    breaks lots of platforms. Fixes #5.
+    
+    Signed-off-by: Sebastian Krzyszkowiak <dos@dosowisko.net>
+
+commit dca96984d3cf6fdd5073ab83c3c89e06120b222f
+Merge: 8ad72a4 c1f16e1
+Author: dogecoin <dogecoin@gmail.com>
+Date:   Wed Dec 11 04:50:17 2013 -0800
+
+    Merge pull request #4 from mutoso/master
+    
+    change to "Herd Dig"
+
+commit c1f16e17ae5c5c5fd2e3c38abe23de43132b6cc0
+Author: Alastair Stuart <alastair@muto.so>
+Date:   Mon Dec 9 04:20:28 2013 -0600
+
+    change to "Herd Dig"
+    
+    such group
+
+commit 8ad72a46a6e5e1575e8639d4a02d02e6b60c14f3
+Author: root <root@petesplayground.(none)>
+Date:   Sun Dec 8 20:02:14 2013 -0500
+
+    revert redundant declaration of insert change
+
+commit 2aebf0cc5cd7b327a6e88f974bd350f446775dae
+Author: root <root@petesplayground.(none)>
+Date:   Sun Dec 8 19:44:40 2013 -0500
+
+    change embarass remove obj dir
+
+commit 9d3b15d6e99cd4233e79076a3541e43d05f1bbd8
+Author: root <root@petesplayground.(none)>
+Date:   Sun Dec 8 19:40:16 2013 -0500
+
+    change embarass strings
+
+commit b4664d448fcf20bab7365d3cd25e815cb174b1ae
+Author: root <root@petesplayground.(none)>
+Date:   Sun Dec 8 19:21:55 2013 -0500
+
+    remove obj
+
+commit 6a32f4c045fbf84801eaf1a3640d4153781eef0d
+Merge: 25d26b4 72f94c7
+Author: dogecoin <dogecoin@gmail.com>
+Date:   Sun Dec 8 14:10:30 2013 -0800
+
+    Merge pull request #2 from richo/bugs/explicit_namespace
+    
+    Bugs/explicit namespace
+
+commit 72f94c76b7cbb1eadf01ee8865464c48781ad665
+Author: Richo Healey <richo@psych0tik.net>
+Date:   Sat Dec 7 21:46:32 2013 -0800
+
+    Explicit reference to namespace for array
+
+commit 0475abc4bf18b4521b51eb78bf36aef58ec30676
+Author: Richo Healey <richo@psych0tik.net>
+Date:   Sat Dec 7 21:15:08 2013 -0800
+
+    Remove redundant declaration of insert
+
+commit 25d26b4848267372ef5b9f6f91480d244afd6884
+Author: root <root@biggerCPU.(none)>
+Date:   Fri Dec 6 15:38:08 2013 -0500
+
+    much change
+
+commit 8b09dc5d711bc0bedefc29c199a79ce39f691558
+Author: root <root@biggerCPU.(none)>
+Date:   Fri Dec 6 06:39:26 2013 -0500
+
+    many coin

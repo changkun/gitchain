@@ -1,0 +1,153 @@
+commit 8566b7b2d4e0717d00e1ad24aedf434dfc0361a6
+Merge: 3158f4f b81cf4e
+Author: techcoincommunity <techcoincommunity@gmail.com>
+Date:   Tue Jun 28 12:32:36 2016 -0400
+
+    Merge pull request #2 from TestingCrypto/patch-1
+    
+    Fix @ block 4000, 4500, 5000 sync start
+
+commit 3158f4f24b7207a2df7c7d31598f08930e5f25f0
+Merge: 8c3e291 8caff22
+Author: techcoincommunity <techcoincommunity@gmail.com>
+Date:   Tue Jun 28 12:32:07 2016 -0400
+
+    Merge pull request #3 from TestingCrypto/patch-2
+    
+    Update Nodes, Block Explorer, Faucet
+
+commit 8c3e291ef4f4dedf4625ccaf8d4fdb0d4cc3f7f3
+Merge: 3c83fb1 319fefa
+Author: techcoincommunity <techcoincommunity@gmail.com>
+Date:   Tue Jun 28 12:31:44 2016 -0400
+
+    Merge pull request #4 from TestingCrypto/patch-3
+    
+    Update Copyright for 2016 community of developers
+
+commit 319fefa0dc64ffc91ab149255d3630a9311d2f80
+Author: TestingCrypto <chrispekoske@hotmail.com>
+Date:   Sat Jun 25 16:50:00 2016 -0500
+
+    Update Copyright for 2016 community of developers
+    
+    +update to 2016 & add community of instead of just developers
+
+commit 8caff2259e97a7e9edef25cb9f5237d5b4a821fc
+Author: TestingCrypto <chrispekoske@hotmail.com>
+Date:   Sat Jun 25 16:43:06 2016 -0500
+
+    Update Nodes, Block Explorer, Faucet
+    
+    +nodes
+    +block explorer
+    +faucet
+
+commit b81cf4e576a5f149eb93d7a52892b538a67d5325
+Author: TestingCrypto <chrispekoske@hotmail.com>
+Date:   Sat Jun 25 16:04:17 2016 -0500
+
+    Fix @ block 4000, 4500, 5000 sync start
+    
+    +pulled the other changes in block generation also // to sync from start
+
+commit 3c83fb1978c46025e6cd079dda8b0148c0cdebcf
+Merge: d410e6c de5cff7
+Author: techcoincommunity <techcoincommunity@gmail.com>
+Date:   Fri Mar 6 11:55:39 2015 -0500
+
+    Merge pull request #1 from TestingCrypto/patch-1
+    
+    Update README.md with all FIRE Information
+
+commit de5cff7cb79fcad117de7db46817da511818ebde
+Author: TestingCrypto <TestingCrypto@users.noreply.github.com>
+Date:   Thu Mar 5 20:41:24 2015 -0600
+
+    Update README.md with all FIRE Information
+    
+    Wallet Version, Website, Specifications, Forums, Block Explorers, Social Media..
+
+commit d410e6cc3f263623497bc740c1ed2034a0c31819
+Author: techcoincommunity <techcoincommunity@gmail.com>
+Date:   Thu Mar 5 19:06:03 2015 -0500
+
+    Change "Stake" to "Forge"
+
+commit 306933f6a06d2cfc0656eefc62e05ccf02dfdf3f
+Author: techcoincommunity <techcoincommunity@gmail.com>
+Date:   Thu Mar 5 19:04:41 2015 -0500
+
+    Changed "encrypted" to "fireproofed"
+
+commit 0c1051e00327d73c14ceac8d54326c56298166f2
+Author: techcoincommunity <techcoincommunity@gmail.com>
+Date:   Thu Mar 5 14:45:58 2015 -0500
+
+    Copyright update
+
+commit 7f67b2e2761cfe254ff20ce0b43ed33f12df8962
+Author: techcoincommunity <techcoincommunity@gmail.com>
+Date:   Thu Mar 5 14:35:24 2015 -0500
+
+    Rename "encryption" to "fireproofing"
+
+commit fd526ed03b3d3292e0df49c9189a616cae063015
+Author: techcoincommunity <techcoincommunity@gmail.com>
+Date:   Thu Mar 5 14:09:20 2015 -0500
+
+    New logo
+
+commit 1290ecab8ad8cc76c546942b5cdbce3e7e203d33
+Author: techcoincommunity <techcoincommunity@gmail.com>
+Date:   Thu Feb 26 20:49:52 2015 -0500
+
+    Update firecoin-qt.pro
+
+commit deef4374091e382fb8743ae998fa06ab46f1507e
+Author: techcoincommunity <techcoincommunity@gmail.com>
+Date:   Thu Feb 26 20:31:43 2015 -0500
+
+    Update firecoin-qt.pro
+
+commit 77f87fe09029bc6ad430dbf752da4e962a7026a4
+Author: techcoincommunity <techcoincommunity@gmail.com>
+Date:   Thu Feb 26 19:54:01 2015 -0500
+
+    Update copyright date
+
+commit bcff67c2d22cd340bbbb4d186c1431454bb89dd9
+Author: techcoincommunity <techcoincommunity@gmail.com>
+Date:   Thu Feb 26 19:49:49 2015 -0500
+
+    Update protocol version, disconnect old clients
+
+commit 612de7f7d2f2ef36ddbea246e64e617798fdbd35
+Author: techcoincommunity <techcoincommunity@gmail.com>
+Date:   Thu Feb 26 19:48:49 2015 -0500
+
+    New maturation value
+
+commit f5b4d48355e49e01ebd12438ef3e52c5a11b70a1
+Author: techcoincommunity <techcoincommunity@gmail.com>
+Date:   Thu Feb 26 19:40:20 2015 -0500
+
+    Added checkpoints
+
+commit 5c1062755943f60cc1431eab4b2e2844c6a7dcea
+Author: techcoincommunity <techcoincommunity@gmail.com>
+Date:   Sun Feb 22 10:49:35 2015 -0500
+
+    New repo
+
+commit a9cb449c183311e4e628d7a32dee44f5206ad619
+Author: techcoincommunity <techcoincommunity@gmail.com>
+Date:   Sun Feb 22 10:45:14 2015 -0500
+
+    POS speed update
+
+commit 4545bd8c22df519916e45564ca5cc9374ae4e21f
+Author: techcoincommunity <techcoincommunity@gmail.com>
+Date:   Sun Feb 22 10:42:46 2015 -0500
+
+    :tada: Added .gitattributes

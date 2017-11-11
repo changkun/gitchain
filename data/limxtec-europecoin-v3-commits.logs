@@ -1,0 +1,428 @@
+commit 860450d741b717eca9beed6448fca843ea33e0ae
+Author: Chris <apfelbaum@email.de>
+Date:   Mon Nov 6 00:12:27 2017 +0100
+
+    Fix absurdly high fees
+
+commit 525c685b100e6018d925af2de60ff298179d9d0f
+Author: Chris <apfelbaum@email.de>
+Date:   Wed Sep 6 19:22:07 2017 +0200
+
+    Update clientversion.h
+
+commit 06ecf1b7905600d8ea557eb18678b7913935586f
+Author: Chris <apfelbaum@email.de>
+Date:   Wed Sep 6 19:21:50 2017 +0200
+
+    Update configure.ac
+
+commit a0ef6ebf9a8640448af42eb928d4debd937e53ff
+Merge: d53ea5b e8afaee
+Author: Chris <apfelbaum@email.de>
+Date:   Wed Sep 6 19:21:03 2017 +0200
+
+    Merge pull request #9 from ghobson2013/master
+    
+    Wallet UI improvements
+
+commit e8afaeeb7ff9245e7924175a98ae99cc367fd684
+Author: ghobson2013 <ugac007@gmail.com>
+Date:   Thu Aug 31 05:56:47 2017 -0500
+
+    added new sort flag for the term deposit table, new totals under the deposit table to help identify matured coins.
+    fixed last column expansion issue.
+
+commit d53ea5bf603fcb60948515643d5d3f7897957237
+Merge: e5e807b d4e4298
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Fri Dec 23 20:03:10 2016 +0100
+
+    Merge pull request #8 from EuropecoinEUORG/master
+    
+    Merge pull request #10 from LIMXTEC/master
+
+commit e5e807bab5904e58d31935443c5e30d05a9fc854
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Fri Dec 23 12:42:25 2016 +0100
+
+    Add checkpoint
+
+commit 3fdaeca4e69d9fda8b338e754de12a7f2246d856
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Fri Dec 23 12:33:55 2016 +0100
+
+    Revert "Allow arbitrary number of threads"
+    
+    This reverts commit 7bb38032b937a6171fe53e02ef4cfd7df766bcda.
+
+commit 2f4fd6c5e180dcb988c388b9269050a4462d185f
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Fri Dec 23 12:33:51 2016 +0100
+
+    Revert "Allow arbitrary number of threads"
+    
+    This reverts commit cd45b9cb7fee144b3beca010c404b65eca22a682.
+
+commit 7bb38032b937a6171fe53e02ef4cfd7df766bcda
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Fri Dec 23 12:29:15 2016 +0100
+
+    Allow arbitrary number of threads
+
+commit cd45b9cb7fee144b3beca010c404b65eca22a682
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Fri Dec 23 12:28:16 2016 +0100
+
+    Allow arbitrary number of threads
+
+commit a9008afd746215a886ecb9f855b458552d2887e2
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Fri Dec 23 12:24:40 2016 +0100
+
+    depends: bump boost to 1.58.0
+
+commit f28b006f66357bf2bc7790282b8bb82f43c825ca
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Fri Dec 23 12:06:07 2016 +0100
+
+    Create Forkview.txt
+
+commit d5eb6cf92e568d6f1d1eda695cc12b6713a13fe6
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Fri Dec 23 12:01:38 2016 +0100
+
+    Update pow.cpp
+
+commit eed9a4a58503f5f82b344a5f1c16b7fda69a8a49
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Fri Dec 23 11:58:50 2016 +0100
+
+    Update configure.ac
+
+commit dba6aa19e2821da4e03e9b17fef51d9c6cb9f653
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Fri Dec 23 11:58:12 2016 +0100
+
+    Update version.h
+
+commit b0993356338cf27f88ad07869b5129f4becef38c
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Fri Dec 23 11:57:28 2016 +0100
+
+    Update clientversion.h
+
+commit 0ed923e50401bfc09d3a480c2688ad2d717ffc42
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Fri Dec 23 11:57:17 2016 +0100
+
+    Update clientversion.h
+
+commit 1d12211da76e15bb71eb2a58514ec275ae6e83bd
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Fri Dec 23 11:56:57 2016 +0100
+
+    Update main.h
+
+commit c821e0866a6bc5d144d925e63d52c4686aee1675
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Fri Dec 23 11:48:50 2016 +0100
+
+    Fix
+
+commit d4e4298d69360c2e17cb9555f2dc96be084eaeb5
+Merge: 253d4b9 6f3cfae
+Author: Matthias Klees <szenekonzept@googlemail.com>
+Date:   Thu Dec 22 13:28:07 2016 +0100
+
+    Merge pull request #10 from LIMXTEC/master
+    
+    merge from fuzzbawls
+
+commit 6f3cfae652e159b27e341269424ee0d5a4122e38
+Merge: 1dbdbfe 253d4b9
+Author: Matthias Klees <szenekonzept@googlemail.com>
+Date:   Thu Dec 22 13:25:17 2016 +0100
+
+    Merge pull request #7 from EuropecoinEUORG/master
+    
+    Merge pull request #9 from LIMXTEC/master
+
+commit 1dbdbfeb359294fcf8db638d2ded2a7e9573d109
+Merge: 179389a b94b94a
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Thu Dec 22 11:57:18 2016 +0100
+
+    Merge pull request #6 from Fuzzbawls/master
+    
+    Update the compile instructions for XUbuntu
+
+commit b94b94acdb9d44e8215d7cc6c3122d90ab9c307f
+Author: Fuzzbawls <fuzzbawls@fuzzbawls.pw>
+Date:   Wed Dec 21 19:33:37 2016 -0800
+
+    Update the compile instructions for XUbuntu
+    
+    Added TOC
+    Reworked formatting
+    Added more credits
+    Removed duplicate instructions
+    
+    This format should be a bit easier to follow.
+
+commit 253d4b97828b769a5ed6c74748ba5973b5173028
+Merge: 4437b78 179389a
+Author: Matthias Klees <szenekonzept@googlemail.com>
+Date:   Wed Dec 21 21:07:45 2016 +0100
+
+    Merge pull request #9 from LIMXTEC/master
+    
+    update build xbuntu amd64
+
+commit 179389ae979b4a9a31cedc9b34a7e58d62a0fcd7
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Wed Dec 21 12:44:29 2016 +0100
+
+    Update build-XUbuntu-14.04-amd64.md
+
+commit d16a43a1b17f66a9fe8ee0e5bb1d03550b1720a9
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Wed Dec 21 12:43:19 2016 +0100
+
+    Update build-XUbuntu-14.04-amd64.md
+
+commit 2b350c83434c967fb22788883a4e5129aa43f66b
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Wed Dec 21 12:42:58 2016 +0100
+
+    Rename build-XUbuntu-14.04-amd64 to build-XUbuntu-14.04-amd64.md
+
+commit c67128d8c2256a6527a9a55c4a6a260fb99646ca
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Wed Dec 21 12:42:22 2016 +0100
+
+    Update build-XUbuntu-14.04-amd64
+
+commit 53e766a4192a4da52dab863d5c5f8461a6e33582
+Merge: 2435dc8 4437b78
+Author: Matthias Klees <szenekonzept@googlemail.com>
+Date:   Thu Dec 1 12:38:02 2016 +0100
+
+    Merge pull request #5 from EuropecoinEUORG/master
+    
+    Merge pull request #8 from LIMXTEC/master
+
+commit 2435dc8e71c7abdab97740952e5bdb64a8c14b79
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Wed Oct 5 20:02:44 2016 +0200
+
+    Fix Node
+
+commit 4437b78ecf7790dfe2ef78220b07bb256868e8b4
+Merge: 0f402f3 a3ff0a0
+Author: Matthias Klees <szenekonzept@googlemail.com>
+Date:   Sun Aug 21 03:52:10 2016 +0200
+
+    Merge pull request #8 from LIMXTEC/master
+    
+    4
+
+commit a3ff0a00e973e929b8a6fbc0fefbf3bbf07d1909
+Merge: 67b017c 0f402f3
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sat Aug 20 16:39:42 2016 +0200
+
+    Merge pull request #4 from EuropecoinEUORG/master
+    
+    bb
+
+commit 67b017cec253d2c4bbbae8fffeee3c4e2afeb3c2
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sat Aug 6 15:14:32 2016 +0200
+
+    Create build XUbuntu-14.04-amd64
+
+commit 0f402f338bb86f46812411708f62e1a76d84b581
+Merge: 0c708d7 c4ebacb
+Author: Matthias Klees <szenekonzept@googlemail.com>
+Date:   Fri Aug 5 22:47:19 2016 +0200
+
+    Merge pull request #7 from LIMXTEC/master
+    
+    Update 3.0.1.1.
+
+commit c4ebacbed4da962efa5a606bdee04b2f61597296
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Fri Aug 5 21:41:58 2016 +0200
+
+    Update 3.0.1.1.
+    
+    -add checkpoint
+    -add hard nodes
+    -change in background
+
+commit 0c708d7c50117a6272587f056241f7d9124170ca
+Merge: 82f2a8e 8982faa
+Author: Matthias Klees <szenekonzept@googlemail.com>
+Date:   Mon Jul 18 23:03:36 2016 +0200
+
+    Merge pull request #6 from LIMXTEC/master
+    
+    Revert "Change ERC -> ERC3"
+
+commit 8982faa1f3751e41135c2a0cb90dbb579e7cb1cf
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Mon Jul 18 22:00:47 2016 +0200
+
+    Revert "Change ERC -> ERC3"
+    
+    This reverts commit 09225d173b82208d078a5d011ba27019590e2769.
+
+commit 82f2a8e6b3cfc14e5c632acb81baa107837f07b1
+Merge: f746dbd 09225d1
+Author: Matthias Klees <szenekonzept@googlemail.com>
+Date:   Sun Jul 17 20:36:36 2016 +0200
+
+    Merge pull request #5 from LIMXTEC/master
+    
+    Change ERC -> ERC3
+
+commit 09225d173b82208d078a5d011ba27019590e2769
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sun Jul 17 20:07:56 2016 +0200
+
+    Change ERC -> ERC3
+
+commit f746dbd6a5afee0fb4be61fd439388a4344544ed
+Merge: 2aedcb4 93d7168
+Author: Matthias Klees <szenekonzept@googlemail.com>
+Date:   Tue Jul 12 09:30:03 2016 +0200
+
+    Merge pull request #4 from LIMXTEC/master
+    
+    Change not mining pic
+
+commit 93d71684811151404946d77bc8028a001b76a541
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Mon Jul 11 23:47:09 2016 +0200
+
+    Change not mining pic
+
+commit 2aedcb4c238df5e5f2ee3c61fcc41f9ff561642f
+Merge: f631009 5c78c88
+Author: Matthias Klees <szenekonzept@googlemail.com>
+Date:   Mon Jul 11 19:45:21 2016 +0200
+
+    Merge pull request #3 from LIMXTEC/master
+    
+    Merge pull request #2 from LIMXTEC/master
+
+commit 5c78c885627fb20d0af0cbd8240b44212a8f95eb
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Mon Jul 11 18:31:47 2016 +0200
+
+    Up to date
+
+commit 52ac95b7a673e11b829e09e7074afd1b415b0e99
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Mon Jul 11 17:08:19 2016 +0200
+
+    Fix Estimate Date
+
+commit f631009e90cb8b9e3362c15c0c223f7793dfcc86
+Merge: 4dcffeb 2fceb15
+Author: Matthias Klees <szenekonzept@googlemail.com>
+Date:   Mon Jul 11 14:40:28 2016 +0200
+
+    Merge pull request #2 from LIMXTEC/master
+    
+    Merge pull request #1 from EuropecoinEUORG/master
+
+commit 2fceb15a0d8c7146bb1ed6de458c182427ce0514
+Merge: 6b4477e 4dcffeb
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sun Jul 10 20:28:19 2016 +0200
+
+    Merge pull request #1 from EuropecoinEUORG/master
+    
+    Merge pull request #1 from LIMXTEC/master
+
+commit 4dcffeb8db6995f29ff2245fd5b70519593b8c48
+Merge: a282583 6b4477e
+Author: Matthias Klees <szenekonzept@googlemail.com>
+Date:   Sun Jul 10 18:11:42 2016 +0200
+
+    Merge pull request #1 from LIMXTEC/master
+    
+    PULLER REQUEEEEST lol
+
+commit 6b4477e2cbf949079b2d35ca8d2e5dc95f2a5b15
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sun Jul 10 15:28:38 2016 +0200
+
+    Bump Version
+
+commit 8f01934e4ccd1998e836450dcfd424fdb320f50e
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sun Jul 10 15:28:11 2016 +0200
+
+    Update clientversion.h
+
+commit c3e594b3b6c97ecea033c538e61d8cf25a046dc3
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sun Jul 10 15:27:46 2016 +0200
+
+    Fix for Dual  KGW3 Bitbreak
+
+commit 9db86aa9d4708815f1bc49713a64528c087538a4
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sun Jul 10 12:17:23 2016 +0200
+
+    Small fix
+
+commit 6681afaa52bb058bd8b6b1421965a72c1940ee59
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sun Jul 10 11:15:59 2016 +0200
+
+    Small fix
+
+commit 2c252e38d83f43102c62bf35157e4f207c838d9d
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sat Jul 9 21:08:23 2016 +0200
+
+    Update README.md
+
+commit a6eb2c9c95d822b7bdfeaaeb748caf60cf300de9
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sat Jul 9 21:08:10 2016 +0200
+
+    Update README.md
+
+commit e22fa8262251c93c75b9065efddbd9ec95742470
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sat Jul 9 20:43:50 2016 +0200
+
+    Make amount visable
+
+commit 32effd1bffcfca81ea7a0cd17a4017882c4d4649
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sat Jul 9 20:39:36 2016 +0200
+
+    Change Placeholder text
+
+commit 5f529c63412b210c21fc6d6f84c2a4cb15119a21
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sat Jul 9 20:27:15 2016 +0200
+
+    Refresh German language file - remove debug lines
+
+commit a282583a42c8afd70c4c5fc5b948b63601dec282
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sat Jul 9 14:16:21 2016 +0200
+
+    Update README.md
+
+commit 163fa3ffed5c2fd0c3d7126ea393f82ac0572c41
+Author: Christian Knöpke <apfelbaum@email.de>
+Date:   Sat Jul 9 01:54:35 2016 +0200
+
+    Europecoin V3

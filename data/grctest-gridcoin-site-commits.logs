@@ -1,0 +1,1211 @@
+commit 0f80dc74de84d5831a93e7cff5356f69fdb2e982
+Author: grcgrc <grctestemail@gmail.com>
+Date:   Thu Aug 17 02:36:37 2017 +0100
+
+    Header/Footer rearangement & Contact page draft
+
+commit 3043e5823ae790842d0026c101954e75cbcde9dd
+Merge: ce2d6d2 b05487b
+Author: CM <grctestemail@gmail.com>
+Date:   Wed Aug 16 18:38:57 2017 +0100
+
+    Merge pull request #72 from barton2526/master
+    
+    Add Slack to Header, Add nuad.de to header
+
+commit b05487b79edc7f62a3d580043c021f5571526c8e
+Author: barton2526 <barton2526@gmail.com>
+Date:   Tue Aug 15 21:35:22 2017 -0400
+
+    Add Naud.de to header
+
+commit 9ba3161ca11ad29f69963b361ac6e3c9bf1ed207
+Author: barton2526 <barton2526@gmail.com>
+Date:   Tue Aug 15 21:29:48 2017 -0400
+
+    Revert "Preliminary contact us page"
+    
+    This reverts commit 6e85934d7e5cf146d9705da8c6c71685dbf2afbc.
+
+commit 6e85934d7e5cf146d9705da8c6c71685dbf2afbc
+Author: barton2526 <barton2526@gmail.com>
+Date:   Tue Aug 15 21:20:03 2017 -0400
+
+    Preliminary contact us page
+
+commit 1de32717c8560352308344a7d0dae794468cf5b8
+Author: barton2526 <barton2526@gmail.com>
+Date:   Tue Aug 15 21:19:51 2017 -0400
+
+    Update contact us in header
+
+commit ce2d6d26cda026208074a664c1aacca57240d479
+Merge: a962163 c72cb9c
+Author: CM <grctestemail@gmail.com>
+Date:   Wed Aug 16 01:50:06 2017 +0100
+
+    Merge pull request #71 from barton2526/master
+    
+    Change Contact Us link to Slack Channel Invite
+
+commit c72cb9cfc5bff7cc136c70e3094adbfa9e224c8e
+Author: barton2526 <barton2526@gmail.com>
+Date:   Tue Aug 15 20:33:02 2017 -0400
+
+    Change Contact Us link to Slack Channel Invite
+
+commit a962163b8072cae29c535b230f244fccde66c1ce
+Merge: c1d1e63 07350bd
+Author: CM <grctestemail@gmail.com>
+Date:   Tue Aug 15 22:58:50 2017 +0100
+
+    Merge pull request #69 from barton2526/master
+    
+    Resolving Issues
+
+commit 07350bda58df8fc1b9586e934bc6cd1a0692545c
+Author: barton2526 <barton2526@gmail.com>
+Date:   Tue Aug 15 14:56:31 2017 -0400
+
+    Change openSUSE package location, Add naud.de as block explorer, Remove unused KIT assets
+    
+    Change openSUSE package location, Add naud.de as block explorer, Remove
+    unused KIT assets
+
+commit 506d9031070412f5720ae2c2d08085e8fde05d6f
+Merge: 9d51e57 c1d1e63
+Author: barton2526 <barton2526@gmail.com>
+Date:   Tue Aug 15 14:17:55 2017 -0400
+
+    Merge remote-tracking branch 'refs/remotes/grctest/master'
+
+commit c1d1e6386a8aa84f460573989660adb04fb5e824
+Merge: 8095df6 72c0de0
+Author: CM <grctestemail@gmail.com>
+Date:   Sat Aug 12 23:15:32 2017 +0100
+
+    Merge pull request #67 from Peppernrino/master
+    
+    Updated logos again.
+
+commit 72c0de0605e4ee0ac9280e4822212a72f208efee
+Author: Peppernrino <Peppernrino@users.noreply.github.com>
+Date:   Sat Aug 12 11:33:37 2017 -0600
+
+    Update pool-gridcoin-install.htm.erb
+    
+    fxed some spellings.
+    added link about time server.
+
+commit 75ea22d406a844ef8d1cf2557a567fb89c00ad6b
+Author: Peppernrino <Peppernrino@users.noreply.github.com>
+Date:   Sat Aug 12 11:26:55 2017 -0600
+
+    Update misc.htm.erb
+    
+    updated links to current.
+    replaced OCZ with Antec. OCZ isn't producing any more.
+    some spelling.
+
+commit 6974872145b10bd14826b9251b181becb183f09c
+Author: Peppernrino <Peppernrino@users.noreply.github.com>
+Date:   Sat Aug 12 11:12:12 2017 -0600
+
+    Update 3rdpartyapps.htm.erb
+    
+    updated links to current.
+
+commit 45561a287b082af0e851a860c8399dbc419ce749
+Author: Peppernrino <Peppernrino@users.noreply.github.com>
+Date:   Sat Aug 12 11:04:56 2017 -0600
+
+    Update whitelist.htm.erb
+    
+    changed instances of cryptocointalk to cryptocurrencytalk.
+
+commit d27c071b59233183aa4d06bd862fb43217e606a6
+Author: Peppernrino <Peppernrino@users.noreply.github.com>
+Date:   Sat Aug 12 10:57:39 2017 -0600
+
+    Delete mixcloud.jpeg
+
+commit e68b04876c97beb3ab3f59b1c1ad37f432f10f55
+Author: Peppernrino <Peppernrino@users.noreply.github.com>
+Date:   Sat Aug 12 10:57:28 2017 -0600
+
+    Delete Steem.png
+
+commit f73194047e4e2aeabc3ac369a79990f727ef915b
+Author: Peppernrino <Peppernrino@users.noreply.github.com>
+Date:   Sat Aug 12 10:57:02 2017 -0600
+
+    Update index.htm.erb
+    
+    updated image sources.
+
+commit fcc9832a38e6412d20c67c63793e9c82b398847e
+Author: Peppernrino <Peppernrino@users.noreply.github.com>
+Date:   Sat Aug 12 10:55:28 2017 -0600
+
+    Add files via upload
+    
+    updated steemit logo with vector source and optimized.
+    added mixcloud logo that is within branding usage guidelines. (proper background colour, etc. #273a4b)
+
+commit 8095df6c80d0dff366d01e0e168e14fca2170e20
+Merge: d7822fd ffb67aa
+Author: CM <grctestemail@gmail.com>
+Date:   Fri Aug 11 20:36:58 2017 +0100
+
+    Merge pull request #66 from NeuralMiner/master
+    
+    Remove Katiee's Calculator
+
+commit ffb67aaab4898699c4510ead8510c75157bf2829
+Author: NeuralMiner <20843698+NeuralMiner@users.noreply.github.com>
+Date:   Thu Aug 10 16:48:32 2017 -0600
+
+    Remove Katiee's Calculator
+    
+    Probably not updating with current WL information.
+
+commit d7822fd450f68c97b137284714c87d773f18d558
+Merge: 9d51e57 531d951
+Author: CM <grctestemail@gmail.com>
+Date:   Thu Aug 10 22:45:36 2017 +0100
+
+    Merge pull request #65 from NeuralMiner/master
+    
+    Remove Katiee's Pool
+
+commit 531d95121908cd55eeb312b1fddca096d8cddbb4
+Author: NeuralMiner <20843698+NeuralMiner@users.noreply.github.com>
+Date:   Wed Aug 9 22:52:01 2017 -0600
+
+    Wording
+    
+    Fixed wording due to pool count change.
+
+commit 8681c5cbe3ce7178486f2534e4a17abedcf4bd3e
+Author: NeuralMiner <20843698+NeuralMiner@users.noreply.github.com>
+Date:   Wed Aug 9 22:49:55 2017 -0600
+
+    Remove Katiee's pool
+    
+    Removing Katiee's pool due to it no longer being maintained/updated.
+
+commit 85017d8e3faa9ae0d0a90306c1ed95fecd5e5373
+Author: NeuralMiner <20843698+NeuralMiner@users.noreply.github.com>
+Date:   Wed Aug 9 22:48:14 2017 -0600
+
+    Remove Katiee's pool
+    
+    Removing Katiee's pool due to it no longer being maintained/updated.
+
+commit 9d51e576228178b1b560a3d8ec5714d0160d2d27
+Merge: 042bba7 792feef
+Author: CM <grctestemail@gmail.com>
+Date:   Sun Aug 6 20:32:24 2017 +0100
+
+    Merge pull request #62 from Peppernrino/master
+    
+    Bring back Google+!
+
+commit 042bba71bae2f244c0adf768561b7c45bfdda33a
+Merge: 589ee55 8bcaa0c
+Author: CM <grctestemail@gmail.com>
+Date:   Sun Aug 6 20:31:44 2017 +0100
+
+    Merge pull request #63 from Peppernrino/patch-1
+    
+    Update whitelist.yml
+
+commit 8bcaa0c044621dd58afc85c141646aae9a763dc6
+Author: Peppernrino <Peppernrino@users.noreply.github.com>
+Date:   Sat Aug 5 23:19:11 2017 -0600
+
+    Update whitelist.yml
+    
+    Fixed some stuff. :)
+
+commit 792feeff0e6d388ada4efc9511a5c28c71ee73fd
+Author: Peppernrino <Peppernrino@users.noreply.github.com>
+Date:   Thu Aug 3 22:17:16 2017 -0600
+
+    Bring back Google+!
+    
+    I plan on updating it more in the future.
+
+commit 589ee557751555c067ca3ea2542b664d663c0303
+Merge: da22e26 102b494
+Author: CM <grctestemail@gmail.com>
+Date:   Fri Aug 4 01:08:05 2017 +0100
+
+    Merge pull request #61 from Peppernrino/master
+    
+    Added Discord logo...
+
+commit 102b49494d41586794f716b1e65935357492119a
+Author: Peppernrino <Peppernrino@users.noreply.github.com>
+Date:   Thu Aug 3 18:07:18 2017 -0600
+
+    Added Discord logo...
+
+commit da22e262ad68df9ee271815c43f30b5816189adb
+Merge: c748779 4537f3e
+Author: CM <grctestemail@gmail.com>
+Date:   Fri Aug 4 01:04:23 2017 +0100
+
+    Merge pull request #60 from Peppernrino/master
+    
+    Added new logos again...
+
+commit 4537f3e9240e0f5618d50972b7fd4a436f7fc65e
+Author: Peppernrino <Peppernrino@users.noreply.github.com>
+Date:   Thu Aug 3 18:03:25 2017 -0600
+
+    Added new logos again...
+    
+    fixing pull #58.
+
+commit c748779a66ddabd4ebcad35b1e05abd899ca40d1
+Merge: ac83cb0 f0ca64a
+Author: CM <grctestemail@gmail.com>
+Date:   Fri Aug 4 01:03:05 2017 +0100
+
+    Merge pull request #59 from Peppernrino/revert-58-master
+    
+    Revert "Added new logos."
+
+commit f0ca64a9f8f5ef89a050607e0508117bb348faef
+Author: Peppernrino <Peppernrino@users.noreply.github.com>
+Date:   Thu Aug 3 18:01:30 2017 -0600
+
+    Revert "Added new logos."
+
+commit ac83cb0d1a5670f15dbee605de6612a774397457
+Merge: efe3435 d4c483a
+Author: CM <grctestemail@gmail.com>
+Date:   Fri Aug 4 00:05:32 2017 +0100
+
+    Merge pull request #58 from Peppernrino/master
+    
+    Added new logos.
+
+commit d4c483a9fc4b21b785d8896bf3f0436d610a2cba
+Author: Peppernrino <Peppernrino@users.noreply.github.com>
+Date:   Thu Aug 3 17:03:19 2017 -0600
+
+    Added new logos.
+    
+    Updated IRC and Cryptocurrencytalk logos, added Discord logo. :)
+
+commit efe34352189339ae8fb883b0c8608593e46478d0
+Merge: 3e52401 c8e87aa
+Author: CM <grctestemail@gmail.com>
+Date:   Thu Aug 3 21:55:17 2017 +0100
+
+    Merge pull request #56 from barton2526/master
+    
+    Whitelist Update
+
+commit c8e87aaf528e5e618dc0a6370fda8a80d7a7dfc3
+Author: barton2526 <barton2526@gmail.com>
+Date:   Wed Aug 2 21:37:20 2017 -0400
+
+    New whitelist changes
+    
+    Added Sourcefinder and Enigma
+    Removed Leiden and Sztaki
+    Moved TN-Grid to CPU section
+
+commit 9fbd7fe8d198e9668be44351ef0c224e3b183b53
+Merge: 196dfd6 3e52401
+Author: barton26 <barton2526@gmail.com>
+Date:   Wed Aug 2 21:21:53 2017 -0400
+
+    Merge pull request #2 from grctest/master
+    
+    Merging Upstream
+
+commit 3e524013b361450fe165abbef15961b47a39be05
+Merge: 0a58f9c 0a0a41c
+Author: CM <grctestemail@gmail.com>
+Date:   Sun Jul 30 17:14:25 2017 +0100
+
+    Merge pull request #52 from Peppernrino/patch-1
+    
+    Added Discord and other new logos. Updated many things.
+
+commit 0a58f9cf46dc06c77e5cab5ee3e872b3582c948e
+Merge: 45d4739 ee2c941
+Author: CM <grctestemail@gmail.com>
+Date:   Sun Jul 30 17:13:38 2017 +0100
+
+    Merge pull request #53 from Peppernrino/patch-2
+    
+    SSL'd link
+
+commit ee2c941582bd144f8284d70df1b01a72aa6eda95
+Author: Peppernrino <Peppernrino@users.noreply.github.com>
+Date:   Thu Jul 27 23:46:33 2017 -0600
+
+    Update 404.html
+    
+    SSL'd link.
+
+commit 0a0a41c302b14f8a2bee703010b997fef9e10e3f
+Author: Peppernrino <Peppernrino@users.noreply.github.com>
+Date:   Thu Jul 27 23:31:59 2017 -0600
+
+    Update index.htm.erb
+    
+    Fixed Telegram alt.
+    Changed Cryptocointalk to Cryptocurrencytalk.
+    Changed IRC link to help channel. (don't need to be registered)
+    Changed image links to new images.
+    Added Discord.
+    Changes Steem alt to Steemit.
+    Decapitalized all alts.
+
+commit 45d47390954006f2f9a8de99cfd61e5c7377729f
+Merge: fec49e9 196dfd6
+Author: CM <grctestemail@gmail.com>
+Date:   Tue Jul 18 22:20:34 2017 +0100
+
+    Merge pull request #51 from barton2526/master
+    
+    Various small fixes.  Typos, Capitalizations, etc.
+
+commit 196dfd6e8d5361684684abfbccfc28c0e51ebcbe
+Author: barton2526 <barton2526@gmail.com>
+Date:   Tue Jul 18 15:55:04 2017 -0400
+
+    Typos found by Quez
+    
+    https://cryptocurrencytalk.com/topic/11328-community-input-needed-gridcoin-website-redesign/?page=31#comment-396750
+
+commit b002cd6a153335a158164a4f2e83ddd804e39063
+Author: barton2526 <barton2526@gmail.com>
+Date:   Tue Jul 18 15:47:29 2017 -0400
+
+    All instances of "gridcoin" are now capitalized
+
+commit 9a69e8483fc9f232830a5481e475b66947f887d9
+Author: barton2526 <barton2526@gmail.com>
+Date:   Tue Jul 18 15:38:41 2017 -0400
+
+    Fixing Issues #49 and #50
+    
+    See issues for details
+
+commit 0348cd2ce61938e2a8c26fa9b20980ebf6c5be16
+Merge: fc5f51b fec49e9
+Author: barton26 <barton2526@gmail.com>
+Date:   Tue Jul 18 15:13:07 2017 -0400
+
+    Merge pull request #1 from grctest/master
+    
+    Merging new fixes
+
+commit fec49e9631d662bd9b21b1870452b16deb0a8c1b
+Author: grcgrc <grctestemail@gmail.com>
+Date:   Thu Jun 29 00:45:34 2017 +0100
+
+    Adding the build path pro-tip back to gridcoin-install guide!
+
+commit d049a12f2ce46eb97a1070f7997994db73c01fa6
+Merge: a65b92f 6ce7116
+Author: grcgrc <grctestemail@gmail.com>
+Date:   Wed Jun 28 23:52:19 2017 +0100
+
+    Merge remote-tracking branch 'origin/master'
+
+commit a65b92fcbb0035d43aedf66e630b4087908690ee
+Author: grcgrc <grctestemail@gmail.com>
+Date:   Wed Jun 28 23:52:05 2017 +0100
+
+    Updated whitelist & pool guide partials
+
+commit 6ce71160a8b24a6b66afe6e85519689304d08cee
+Merge: e4e08b5 7ad3132
+Author: CM <grctestemail@gmail.com>
+Date:   Tue Jun 27 19:32:52 2017 +0100
+
+    Merge pull request #45 from RobertoGaudio/master
+    
+    Two minor changes
+
+commit e4e08b56e1566ec5fd1731154eb4e65738ca33f6
+Merge: 878fd33 0c6b577
+Author: CM <grctestemail@gmail.com>
+Date:   Tue Jun 27 19:32:04 2017 +0100
+
+    Merge pull request #43 from barton2526/patch-1
+    
+    Adding TN-Grid
+
+commit 0c6b577009ec547b6901e59e59d6caf0da40bad9
+Merge: 889bdda 878fd33
+Author: CM <grctestemail@gmail.com>
+Date:   Tue Jun 27 19:31:53 2017 +0100
+
+    Merge branch 'master' into patch-1
+
+commit 878fd33c6a775fa563600250247966222b1ee8f4
+Merge: b4fc0e2 8b08c90
+Author: CM <grctestemail@gmail.com>
+Date:   Tue Jun 27 19:30:23 2017 +0100
+
+    Merge pull request #44 from startailcoon/patch-1
+    
+    Fixed links to Gridcoinstats
+
+commit 7ad3132df317143a93e928268e69f31cd02d2ba0
+Author: RobertoGaudio <RobertoGaudio@users.noreply.github.com>
+Date:   Tue Jun 27 20:10:07 2017 +0200
+
+    Logical error corrected
+    
+    An investor also earns GRC, so the term "In order to earn Gridcoin, you need to crunch..." is wrong/missleading, changed to "In order to earn more Gridcoin, you need to crunch..."
+
+commit 8b08c9073e38d5cdf71684ce85f01435942bfd85
+Author: Startail Coon <magnus@port80.eu>
+Date:   Tue Jun 27 20:00:34 2017 +0200
+
+    Fixed links to Gridcoinstats
+    
+    Using fancy links
+
+commit 7c9d2a176c92ec851d00bbb9bc6ffc2e9ffa3b27
+Author: RobertoGaudio <RobertoGaudio@users.noreply.github.com>
+Date:   Tue Jun 27 19:52:29 2017 +0200
+
+    Updated PSU Section
+    
+    The best certificate is now 80+ Titanium (e.g. Seasonic Prime series) and i added BeQuiet to the reputable brands (see Dark Power Pro 11 series).
+
+commit 889bdda9d99eba06433ad4bfbe7370ae97494f83
+Author: barton26 <barton2526@gmail.com>
+Date:   Tue Jun 27 13:30:43 2017 -0400
+
+    Adding TN-Grid
+
+commit b4fc0e222551b0ef89426a2d4940d11fef826ea9
+Author: grcgrc <grctestemail@gmail.com>
+Date:   Tue Jun 27 02:35:03 2017 +0100
+
+    Updated readme formatting
+
+commit f6f8e7bb47e687a2d0158a0b34a1d5f17b716689
+Author: grcgrc <grctestemail@gmail.com>
+Date:   Tue Jun 27 02:21:49 2017 +0100
+
+    meta tags fixed
+
+commit 445b43a10db8fa0dc19b43522c7d8ac5197732f3
+Author: grcgrc <grctestemail@gmail.com>
+Date:   Tue Jun 27 02:15:11 2017 +0100
+
+    Description metadata fields & index changes
+
+commit d02b459e93b928cf39a372f6dcb7e5e0996217f3
+Author: grcgrc <grctestemail@gmail.com>
+Date:   Tue Jun 27 00:41:54 2017 +0100
+
+    Improved whitelist
+    
+    Adding entries to the whitelist is easier now and fully populated.
+
+commit 189d847279821a6020c35f6d0d7b6866e8fe913d
+Author: grcgrc <grctestemail@gmail.com>
+Date:   Mon Jun 26 05:46:23 2017 +0100
+
+    Various changes
+    
+    * Removed unneccessary images.
+    * Moved current whitelist page/partial to the 'Old Data' folder.
+    * Implemented a far simpler method of adding an additional project to the whitelist - simply add the project's details to the /data/whitelist.yml file and it'll automatically render. No more messing about with table HTML.
+    * Fixed whitelist header padding issue.
+
+commit 95b705fbe43f279e249b3443668cd3c668a3743f
+Author: grcgrc <grctestemail@gmail.com>
+Date:   Sat Jun 24 19:56:31 2017 +0100
+
+    Removed folder
+    
+    Should've been renamed not replicated
+
+commit f1a433208afc6212f51325642f863e2a713eca53
+Author: grcgrc <grctestemail@gmail.com>
+Date:   Sat Jun 24 19:54:08 2017 +0100
+
+    Production ready?
+    
+    Renamed KIT to NOW-UI-KIT, removed a bunch of comments, updated the guides, updated the guide buttons, updated the navigation bar, etc,
+
+commit f16c8af79fb4fbd0e998ec617499381a26b7862b
+Merge: 198b3ca fc5f51b
+Author: CM <grctestemail@gmail.com>
+Date:   Thu Jun 22 21:12:39 2017 +0100
+
+    Merge pull request #39 from barton2526/master
+    
+    Fixed some typos, closed / fixed tags, moved Amicable to GPU section …
+
+commit fc5f51b212a73e3bcb124e56769981103c0f5488
+Author: barton2526 <barton2526@gmail.com>
+Date:   Thu Jun 22 01:20:22 2017 -0400
+
+    Fixed some typos, closed / fixed tags, moved Amicable to GPU section of WL
+    
+    Let's try this again...
+
+commit 198b3cafc366e4c5b3f240df8a5d5ba1f05009b0
+Author: grcgrc <grctestemail@gmail.com>
+Date:   Thu Jun 22 03:48:56 2017 +0100
+
+    Changes to partial pages
+    
+    Added sync info to acquire partial, link to the footer, removal of coinvault and navbar changes.
+
+commit 3bcc749bbd10137a848c7b39dd12f6f2256913b9
+Author: grcgrc <grctestemail@gmail.com>
+Date:   Sun Jun 18 22:45:14 2017 +0100
+
+    Many little changes
+
+commit 3d32ee0599f38d6a89272a4eddc998205742251e
+Author: grcgrc <grctestemail@gmail.com>
+Date:   Sun Jun 18 02:51:53 2017 +0100
+
+    Additional site cleanup
+    
+    Cleaning up website, removing unneccessary content, working on table css file, changing the partials. Created a whitelist partial.
+
+commit e3e327ef4470f7f33f9133bbe799b8f24c5a9568
+Author: grcgrc <grctestemail@gmail.com>
+Date:   Sat Jun 17 04:30:43 2017 +0100
+
+    Updated guides
+    
+    Legend
+
+commit dc8cb9f398cc28f2bd5dfd837fd2e88fb986a2ac
+Merge: e548901 e548901
+Author: grcgrc <grctestemail@gmail.com>
+Date:   Fri Jun 16 01:51:36 2017 +0100
+
+    Updating the boinc install guide
+    
+    Still needs replicated to the 3 guide routes, and needs some styling..
+
+commit e548901a214c34d982b21542e287d0f2d9865e00
+Merge: efdfa55 5de3950
+Author: CM <grctestemail@gmail.com>
+Date:   Thu Jun 15 01:32:59 2017 +0100
+
+    Merge pull request #35 from barton2526/master
+    
+    New Image Files for Reddit, Telegram.           Massive Cleanup of Broken HTML tags and CSS.    Increase padding in footer.
+
+commit 5de3950c8b88abc35c6f52d5d85f7cea8d8fd266
+Author: barton2526 <barton2526@gmail.com>
+Date:   Wed Jun 14 16:34:26 2017 -0400
+
+    Increase padding in footer
+
+commit 18fc90fb10f357261ab3e85ba07d365d09e0bdcf
+Author: barton2526 <barton2526@gmail.com>
+Date:   Wed Jun 14 16:34:01 2017 -0400
+
+    Massive Cleanup of Broken HTML tags and CSS
+    
+    Please NEVER use "&" in an HTML document.  Proper syntax is "&amp;"
+
+commit 8d372dae9f6283fafbd91512ee237110be414527
+Author: barton2526 <barton2526@gmail.com>
+Date:   Wed Jun 14 14:38:31 2017 -0400
+
+    New Image Files for Reddit, Telegram
+    
+    Thanks to Peppernrino for the new Reddit and Telegram images!
+
+commit efdfa55de5c348bc86f85111c5be4b0afb807451
+Merge: ff8868c d3206df
+Author: CM <grctestemail@gmail.com>
+Date:   Wed Jun 14 04:02:10 2017 +0100
+
+    Merge pull request #34 from barton2526/master
+    
+    Minor Changes to Header and README
+
+commit d3206df2c00cf5abaf5989cf19817811a2abcfea
+Author: barton2526 <barton2526@gmail.com>
+Date:   Tue Jun 13 21:44:05 2017 -0400
+
+    Update README
+    
+    makes more sense to build before you run the web server
+
+commit ee8e209b1e453ba48d296ecafa8ea7e2d694b70d
+Author: barton2526 <barton2526@gmail.com>
+Date:   Tue Jun 13 21:38:20 2017 -0400
+
+    Minor Header Changes
+    
+    Header: Added grcpool
+    Header: Changes #gridcoin-irpg to #gridcoin-games
+
+commit ff8868c8b34dfa55b4b287f77ff82ce401ad8039
+Merge: a5f0abc 2229dce
+Author: grcgrc <grctestemail@gmail.com>
+Date:   Tue Jun 13 23:54:50 2017 +0100
+
+    Merge remote-tracking branch 'origin/master'
+
+commit a5f0abc88e68768188a1c4fa675c319757c251c9
+Author: grcgrc <grctestemail@gmail.com>
+Date:   Tue Jun 13 23:54:35 2017 +0100
+
+    Update
+    
+    Updated index, started updating guides
+
+commit 2229dce6d75f1aa1aab647f36b245a8b2a86a247
+Merge: 82fb2e0 5b019d9
+Author: CM <grctestemail@gmail.com>
+Date:   Tue Jun 13 16:17:03 2017 +0100
+
+    Merge pull request #31 from Peppernrino/master
+    
+    Lossless compression of image files
+
+commit 82fb2e0d884d2f8619e55c7fef3486416428a1fa
+Author: grcgrc <grctestemail@gmail.com>
+Date:   Tue Jun 13 16:16:16 2017 +0100
+
+    tiny change for HT
+
+commit 8ea4fa17562f751484e12a891098a6c1f50034b0
+Author: grcgrc <grctestemail@gmail.com>
+Date:   Tue Jun 13 16:10:25 2017 +0100
+
+    partially implemented a new bootstrap theme
+    
+    The navbar (Sidebar) still needs fixed & content needs reviewed (especially the install guides).
+
+commit 5b019d973e418bc6371a6ea99ac47ad3e0a88ee1
+Author: Peppernrino <pepperandrino@gmail.com>
+Date:   Sun Apr 23 23:19:03 2017 -0600
+
+    Lossless compression of image files
+    
+    :D
+
+commit 17e679ffe4bd2f5c9dd2994eef9235633d21c5db
+Merge: 99221d5 ba0e61f
+Author: CM <grctestemail@gmail.com>
+Date:   Tue Jan 31 16:51:08 2017 +0000
+
+    Merge pull request #22 from Peppernrino/patch-3
+    
+    Update daemon-cmd.htm.erb
+
+commit ba0e61fd85c8ac28f6234956a5402a048343be72
+Merge: 549e79b 99221d5
+Author: CM <grctestemail@gmail.com>
+Date:   Tue Jan 31 16:51:00 2017 +0000
+
+    Merge branch 'master' into patch-3
+
+commit 99221d54b897e04df43a2a2f7d623c6637f8e120
+Merge: 98c9746 a8d7e6c
+Author: CM <grctestemail@gmail.com>
+Date:   Mon Jan 30 23:07:08 2017 +0000
+
+    Merge pull request #28 from barton2526/master
+    
+    Remove all references to Mac OS X and OSX.  Replace with macOS
+
+commit a8d7e6ccb65a6f13ffc4d8b7df9e61ea7c2b41b1
+Author: barton26 <barton2526@gmail.com>
+Date:   Mon Jan 30 18:02:45 2017 -0500
+
+    Add files via upload
+
+commit e90b1cb8cb5e5aa8cf716c11c668748220182e4b
+Author: barton26 <barton2526@gmail.com>
+Date:   Mon Jan 30 17:53:26 2017 -0500
+
+    Update whitelist.htm.erb
+
+commit d69b20d0b0a1b03828add022b46f22e1796232b8
+Author: barton26 <barton2526@gmail.com>
+Date:   Mon Jan 30 17:43:45 2017 -0500
+
+    Update security.htm.erb
+
+commit 2376b81fa9fa2eeb608ff97e34943c70d44768de
+Merge: d2f86d3 98c9746
+Author: barton26 <barton2526@gmail.com>
+Date:   Mon Jan 30 17:36:19 2017 -0500
+
+    Merge pull request #1 from grctest/master
+    
+    fixing things
+
+commit 98c9746ee33435c2da368eb3d65c9aa61bddd206
+Merge: 151263c bada109
+Author: CM <grctestemail@gmail.com>
+Date:   Mon Jan 30 22:20:22 2017 +0000
+
+    Merge pull request #21 from Peppernrino/patch-2
+    
+    Update _footer.erb
+
+commit 151263cba4a31314f486475eede8db834969f8e4
+Merge: c46fc1c be995d9
+Author: CM <grctestemail@gmail.com>
+Date:   Mon Jan 30 22:16:31 2017 +0000
+
+    Merge pull request #24 from Peppernrino/patch-4
+    
+    Update 3rdpartyapps.htm.erb
+
+commit d2f86d3e4ba5da69f1318cd98a04767d6f96c130
+Author: barton26 <barton2526@gmail.com>
+Date:   Mon Jan 30 17:11:25 2017 -0500
+
+    Add files via upload
+
+commit 85defd1c5ae0c029b9a3d2adb8b9893f7073a79e
+Author: barton26 <barton2526@gmail.com>
+Date:   Mon Jan 30 17:11:06 2017 -0500
+
+    Delete osx.png
+
+commit f758add953a45ede7625c68ed4848885df755c76
+Author: barton26 <barton2526@gmail.com>
+Date:   Mon Jan 30 17:10:38 2017 -0500
+
+    Add files via upload
+
+commit b14f260493ceac1c7dfb7459d512722f1a7ad69e
+Author: barton26 <barton2526@gmail.com>
+Date:   Mon Jan 30 17:09:06 2017 -0500
+
+    Add files via upload
+
+commit c46fc1c48eff5d1747aa74affc97dac7477cb356
+Merge: 969eb52 cc495ef
+Author: CM <grctestemail@gmail.com>
+Date:   Mon Jan 30 22:07:32 2017 +0000
+
+    Merge pull request #25 from Peppernrino/patch-5
+    
+    Update daemon-cmd.htm.erb
+
+commit 969eb52441cac7f51a17a0436926e739b12d0054
+Merge: 8e08606 cde7bd5
+Author: CM <grctestemail@gmail.com>
+Date:   Mon Jan 30 22:07:15 2017 +0000
+
+    Merge pull request #26 from Peppernrino/patch-6
+    
+    Update whitelist.htm.erb
+
+commit 8e08606faa6ee1601d4919ea10f458ec281bae33
+Merge: f60167a ff98038
+Author: CM <grctestemail@gmail.com>
+Date:   Sun Jan 29 11:52:03 2017 +0000
+
+    Merge pull request #20 from Peppernrino/patch-1
+    
+    Update security.htm.erb
+
+commit cde7bd5ce90b6f418ee2b00cb6315bc5921cab40
+Author: Peppernrino <Peppernrino@users.noreply.github.com>
+Date:   Sun Jan 29 05:24:32 2017 -0600
+
+    Update whitelist.htm.erb
+    
+    descriptions for vLHC@home and Rosetta@home
+    allcaps AIDS in world community grid description. change "disease, etc." to "Ebola, Zika, and tuberculosis. Map genomes, discover solar compounds, etc."
+    moo, numberfields, collatz, enigma, primegrid, universe, and climateprediction were missing periods at the end.
+    capitalize "computing", and "applications" in the headers.
+    remove "and games" from header.
+    decapitalize "research" in cosmology.
+    decapitalize "experiment" and "simulations" in ATLAS.
+    Milkyway@Home - *Creation of a 3D map of the Milky Way.
+    allcaps BOINC x2 in YOYO@Home description.
+    removed the space after the period at the end of the BURP description.
+
+commit cc495ef9f1af4b2ed882c4cdee47177fe4f289ac
+Author: Peppernrino <Peppernrino@users.noreply.github.com>
+Date:   Sun Jan 29 00:05:45 2017 -0600
+
+    Update daemon-cmd.htm.erb
+    
+    changed <> to &lt;&gt; to remove conflict with </td> on line 763
+
+commit be995d9da6a8c144d4ceaed2202b3fe38542c028
+Author: Peppernrino <Peppernrino@users.noreply.github.com>
+Date:   Sat Jan 28 23:32:57 2017 -0600
+
+    Update 3rdpartyapps.htm.erb
+    
+    optimized self-terminating break.
+
+commit 549e79b3e92a3243b74e504dfbd24b0921abe532
+Author: Peppernrino <Peppernrino@users.noreply.github.com>
+Date:   Sat Jan 28 23:25:21 2017 -0600
+
+    Update daemon-cmd.htm.erb
+    
+    changed instances of the word bitcoin and litecoin to gridcoin/Gridcoin.
+    optimized self-terminating breaks.
+    corrected default port.
+    capitalized Qt.
+
+commit bada10963266f9c3673cf1ff59fca4679f52c0d8
+Author: Peppernrino <Peppernrino@users.noreply.github.com>
+Date:   Sat Jan 28 22:53:42 2017 -0600
+
+    Update _footer.erb
+    
+    updated facebook.com to full URL.
+
+commit ff980383ff60fcdcbde7b37db8146ce5b473b155
+Author: Peppernrino <Peppernrino@users.noreply.github.com>
+Date:   Sat Jan 28 21:32:53 2017 -0600
+
+    Update security.htm.erb
+    
+    changed DuckDuckGo to StartPage. reputedly more secure.
+    changed Adblock Edge to ublock Origin. Adblock edge and plus are now considered out of date. i have been keeping up on the politics of the adblock scene, and know this to be true from many sources. gorhill's fork is the true fork, and is maintained properly.
+    Added Random Agent Spoofer.
+    Added untiny (link unshortener) link.
+    Grammar and spelling.
+
+commit f60167a94ce3318c0e3202c5acc62958ddf1bae4
+Merge: 9e1aaf1 1d85a26
+Author: grctest <grctestemail@gmail.com>
+Date:   Mon Jan 23 14:01:23 2017 +0000
+
+    Merge pull request #15 from barton2526/master
+    
+    Adding https to a bunch of files
+
+commit 1d85a26f6cffe259605677856821712df9ecae94
+Author: barton26 <barton2526@gmail.com>
+Date:   Mon Jan 23 06:09:46 2017 -0500
+
+    Update pool-gridcoin-install.htm.erb
+
+commit c6e413e43b4556741e423c0e55e3670b2c851f62
+Author: barton26 <barton2526@gmail.com>
+Date:   Mon Jan 23 06:08:00 2017 -0500
+
+    Update Gemfile.lock
+
+commit 034d4d52be17796436c2136061a78767c7895524
+Author: barton26 <barton2526@gmail.com>
+Date:   Mon Jan 23 06:07:22 2017 -0500
+
+    Update Gemfile.lock
+
+commit 1cca6f71b99aa11c4026a1073ce53ce6c4e7819d
+Author: barton26 <barton2526@gmail.com>
+Date:   Mon Jan 23 06:05:36 2017 -0500
+
+    Create Gemfile.lock
+
+commit 5f8c43df0244822232d90f1b3ba1192da6476563
+Author: barton26 <barton2526@gmail.com>
+Date:   Sun Jan 22 21:39:23 2017 -0500
+
+    remove lock
+
+commit fff1c18881071a3f9264b48c5fa10e9ab55d83b2
+Author: barton26 <barton2526@gmail.com>
+Date:   Sun Jan 22 21:36:59 2017 -0500
+
+    https added
+
+commit af4e676185b7000832382844ab486113835c0bc0
+Author: barton26 <barton2526@gmail.com>
+Date:   Sun Jan 22 19:47:20 2017 -0500
+
+    https added
+
+commit 6ada8f1db6e78ec12584a7fe4e6618720d280636
+Author: barton26 <barton2526@gmail.com>
+Date:   Sun Jan 22 19:36:08 2017 -0500
+
+    no longer use suchflex image
+
+commit b4bff2883fae8e9d0f9f9c4a0404c97bf9e85b1e
+Author: barton26 <barton2526@gmail.com>
+Date:   Sun Jan 22 19:35:55 2017 -0500
+
+    https added
+
+commit 213524a3b1b1d0974f2bd9f9ec092ae1d02c24d7
+Merge: 9e1aaf1 46c0d8e
+Author: barton26 <barton2526@gmail.com>
+Date:   Sun Jan 22 19:22:15 2017 -0500
+
+    Merge remote-tracking branch 'refs/remotes/origin/master' into grctest/master
+
+commit 46c0d8e6c8284b87c361ef370bb3c25bd589179d
+Author: barton26 <barton2526@gmail.com>
+Date:   Sun Jan 22 19:17:00 2017 -0500
+
+    Update index.htm.erb
+    
+    adding https where supported
+
+commit 9e1aaf12d40a0bc01563d372381d811706c8f866
+Author: grctest <grctestemail@gmail.com>
+Date:   Sun Jan 22 20:36:43 2017 +0000
+
+    Update README.md
+
+commit fbafdaff0b6befbd1144d78f5ae45620b22a2c0a
+Merge: e5ae42a 04d3236
+Author: grctest <grctestemail@gmail.com>
+Date:   Sun Jan 22 20:35:45 2017 +0000
+
+    Merge pull request #14 from Bouowmx/patch-1
+    
+    Re-organize BOINC hardware compatibility tables
+
+commit 04d323687f664595b1f93ecb2012fe590619a4df
+Author: Sean Yip <Bouowmx@users.noreply.github.com>
+Date:   Sat Jan 21 17:50:27 2017 -0500
+
+    Re-organize BOINC hardware compatibility tables
+
+commit e5ae42a0680b6279d9706e4efa9497be6b019950
+Merge: bec1847 04c2e59
+Author: grctest <grctestemail@gmail.com>
+Date:   Wed Jan 18 08:58:48 2017 +0000
+
+    Merge pull request #13 from barton2526/patch-8
+    
+    Update boinc-install.htm.erb
+
+commit bec18479abcabb5acc8a592289c452c7b5e9166c
+Merge: 52d1421 b221ce4
+Author: grctest <grctestemail@gmail.com>
+Date:   Wed Jan 18 08:58:29 2017 +0000
+
+    Merge pull request #11 from barton2526/patch-6
+    
+    Update index.htm.erb
+
+commit 52d14211087defd0b93b89617c757c69c1cfcf3c
+Merge: ebf2bff dc99e36
+Author: grctest <grctestemail@gmail.com>
+Date:   Wed Jan 18 08:58:17 2017 +0000
+
+    Merge pull request #12 from barton2526/patch-7
+    
+    Update whitelist.htm.erb
+
+commit 04c2e59c5d6d3e0e47fc7e8997b1b9e94896d6f0
+Author: barton26 <barton2526@gmail.com>
+Date:   Tue Jan 17 20:27:23 2017 -0500
+
+    Update boinc-install.htm.erb
+    
+    whitelist was on this page too
+
+commit dc99e36948085f067c91de31aca95ebf08158984
+Author: barton26 <barton2526@gmail.com>
+Date:   Tue Jan 17 20:03:48 2017 -0500
+
+    Update whitelist.htm.erb
+    
+    I think I got all the whitelist changes this time...
+
+commit b221ce40b932535f602a20a0964d1deb2b36f48c
+Author: barton26 <barton2526@gmail.com>
+Date:   Tue Jan 17 19:50:03 2017 -0500
+
+    Update index.htm.erb
+    
+    one last reference to malaria project
+
+commit ebf2bff7f0f1f84c719a23179555fb54c30d249b
+Author: grctest <grctestemail@gmail.com>
+Date:   Wed Jan 18 00:22:49 2017 +0000
+
+    Update README.md
+
+commit 5ffd0426c531f033813ad4f7a05397850b4a7147
+Author: grctest <grctestemail@gmail.com>
+Date:   Wed Jan 18 00:22:27 2017 +0000
+
+    updated readme
+
+commit cf6021e91a3188e5c65be6ec49abb4b9ea0ba027
+Merge: e94c78e b386c6b
+Author: grctest <grctestemail@gmail.com>
+Date:   Tue Jan 17 23:25:20 2017 +0000
+
+    Merge pull request #5 from barton2526/patch-3
+    
+    Update pool.htm.erb
+
+commit e94c78ef7fa60a23d99e7ca17ba29c8a5f85d4e5
+Merge: 82ad890 3d1581f
+Author: grctest <grctestemail@gmail.com>
+Date:   Tue Jan 17 23:24:47 2017 +0000
+
+    Merge pull request #6 from barton2526/patch-4
+    
+    Update index.htm.erb
+
+commit 82ad890fb0da61d16988893904e18337d141621d
+Merge: d439dd1 44fd367
+Author: grctest <grctestemail@gmail.com>
+Date:   Tue Jan 17 23:24:12 2017 +0000
+
+    Merge pull request #7 from barton2526/patch-5
+    
+    Update whitelist.htm.erb
+
+commit 44fd3674d8e8138ab198ca87641c59be48422874
+Author: barton26 <barton2526@gmail.com>
+Date:   Tue Jan 17 16:46:57 2017 -0500
+
+    Update whitelist.htm.erb
+    
+    remove malariacontrol
+
+commit b386c6bba9dde83eb847fba2da391637a11961a1
+Author: barton26 <barton2526@gmail.com>
+Date:   Tue Jan 17 16:44:23 2017 -0500
+
+    Update pool.htm.erb
+
+commit 3d1581f732eb679ac369bbc20a8b2b7940a950bb
+Author: barton26 <barton2526@gmail.com>
+Date:   Tue Jan 17 16:42:16 2017 -0500
+
+    Update index.htm.erb
+    
+    remove malariacontrol, it is retired
+
+commit 75673b1588ad02884fb8de0d9ad0789f10850734
+Author: barton26 <barton2526@gmail.com>
+Date:   Tue Jan 17 16:18:36 2017 -0500
+
+    Update index.htm.erb
+    
+    updating whitelist
+
+commit 00468ba10bb9531831f0b72a215baca0f058527c
+Author: barton26 <barton2526@gmail.com>
+Date:   Tue Jan 17 16:05:18 2017 -0500
+
+    Update pool.htm.erb
+    
+    updating whitelist
+
+commit d439dd15f68b2cba5ce7abef70499ba3f1bde6d8
+Merge: 65d2aee fe6b8da
+Author: grctest <grctestemail@gmail.com>
+Date:   Tue Jan 17 09:32:33 2017 +0000
+
+    Merge pull request #3 from barton2526/patch-1
+    
+    Update whitelist.htm.erb
+
+commit 65d2aee8afcc07039fca4fc76e3b0b6c102c4264
+Merge: 60fcca8 7731340
+Author: grctest <grctestemail@gmail.com>
+Date:   Tue Jan 17 09:31:35 2017 +0000
+
+    Merge pull request #4 from barton2526/patch-2
+    
+    Update LICENSE
+
+commit 77313404d03edf87673791681bfa64c43344fe0d
+Author: barton26 <barton2526@gmail.com>
+Date:   Tue Jan 17 02:24:14 2017 -0500
+
+    Update LICENSE
+    
+    Current year!
+
+commit fe6b8daf1a4f80aeac2a666c39bba25c0c20ec84
+Author: barton2526 <barton2526@gmail.com>
+Date:   Tue Jan 17 02:20:25 2017 -0500
+
+    Update whitelist.htm.erb
+    
+    Correct VTGU to VGTU
+    Remove malariacontrol project (retired)
+    Remove BURP project (no longer whitelisted)
+    Remove ClimatePrediction project (no longer whitelisted)
+
+commit 60fcca8db4434fdf58984ee054da96de9a614652
+Author: grcgrc <grctestemail@gmail.com>
+Date:   Sat Jan 14 23:37:29 2017 +0000
+
+    Updated purge of propriatery code
+    
+    Time for open-source development.
+    
+    The site will look like garbage now though.
+
+commit 4364752147d58341de59170f263c7c929b23a2a2
+Author: grcgrc <grctestemail@gmail.com>
+Date:   Sat Jan 14 23:37:26 2017 +0000
+
+    Updated purge of propriatery code
+    
+    Time for open-source development.
+    
+    The site will look like garbage now though.
+
+commit 8eb867577e6e743d6c2e0e0fdfbb014cf226a104
+Author: grcgrc <grctestemail@gmail.com>
+Date:   Sat Jan 14 23:37:25 2017 +0000
+
+    Updated purge of propriatery code
+    
+    Time for open-source development.
+    
+    The site will look like garbage now though.
+
+commit d4277b82734a3b9cfeabf89cced0e50d45c58722
+Author: grcgrc <grctestemail@gmail.com>
+Date:   Tue May 17 14:43:11 2016 +0100
+
+    Quick changes
+    
+    Carousel was previously removed, no point in their files remaining.
+
+commit 8992b9fa640dd5f094b390f9e1cedf923caa70a2
+Author: grcgrc <grctestemail@gmail.com>
+Date:   Tue May 17 14:41:04 2016 +0100
+
+    reminents of non-free code
+
+commit 2222b59278e4237c6dbb863e2e4d4b90d663ef91
+Author: grcgrc <grctestemail@gmail.com>
+Date:   Tue May 17 12:57:52 2016 +0100
+
+    Propriatery libraries purged
+    
+    Everything will be broken.
+
+commit a4eab6a92431790bee7d15ad0397d12a0807a218
+Author: grctest <grctestemail@gmail.com>
+Date:   Tue May 17 12:52:36 2016 +0100
+
+    Initial commit

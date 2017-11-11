@@ -1,0 +1,44 @@
+commit 3a2f79ffaf14840b7fc51ad5fe8dda9ecee276b7
+Author: clifer <darren0170@gmail.com>
+Date:   Thu Sep 14 22:43:03 2017 -0700
+
+    Network Sync Fix
+
+commit b64ebf12fa8cb9ad08d2c67d653a5a0407af8856
+Author: clifer <darren0170@gmail.com>
+Date:   Fri Sep 8 17:17:59 2017 -0700
+
+    Updated README.md
+
+commit 44cb02e4ee9ace2e2b8d7a7dd21a4857e8b31e03
+Author: clifer <darren0170@gmail.com>
+Date:   Fri Sep 1 15:29:41 2017 -0700
+
+    Display/typo fixes
+
+commit b215868ccba2043ccbc8bd669aa2b422461d6c8e
+Merge: f5b23e9 feec8e4
+Author: FootyCash <footycash@gmail.com>
+Date:   Sat Aug 12 08:32:26 2017 +1000
+
+    Merge pull request #1 from clifer/master
+    
+    Added seed node and checkpoint
+
+commit feec8e4c4a7f90a9c6e4c9afb28afb6d1e80ea37
+Author: dmanicus <darren0170@gmail.com>
+Date:   Fri Aug 11 18:30:29 2017 -0400
+
+    Added seed node and checkpoint
+
+commit f5b23e99a7a8c3e95d1e533240a446168cc37e3b
+Author: clifer <darren0170@gmail.com>
+Date:   Sun Aug 6 22:33:24 2017 -0700
+
+    Fix PoW Reward
+
+commit 18b36c15f4e67570a292953b3ede005045648285
+Author: clifer <darren0170@gmail.com>
+Date:   Sun Aug 6 13:08:43 2017 -0700
+
+    first commit

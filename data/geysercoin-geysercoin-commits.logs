@@ -1,0 +1,239 @@
+commit b50dc82d200bf154d196c24fba12b95fb1bf16fe
+Author: Dmitrij <just.run.in.the.world@yandex.ru>
+Date:   Tue Nov 7 00:10:48 2017 +0300
+
+    Update checkpoints.cpp
+
+commit 5bf744949f368f050e459029c49c51efa6b2a6c3
+Author: root <DevelCurrency@gmail.com>
+Date:   Mon Nov 6 20:27:55 2017 +0300
+
+    sync node
+
+commit 74efa20af23be6600606e25e2d9825fbd8a8eed7
+Author: Dmitrij <just.run.in.the.world@yandex.ru>
+Date:   Wed Nov 1 18:06:53 2017 +0300
+
+    Update chainparams.cpp
+
+commit 7b19f16e1cda0e5c4ef481d088048a42a644bc62
+Author: Dmitrij <just.run.in.the.world@yandex.ru>
+Date:   Wed Nov 1 18:01:49 2017 +0300
+
+    Release 2.1.0.0
+
+commit a7050741ea8d7118cba5089f98ac5d3d99da99ad
+Author: Dmitrij <just.run.in.the.world@yandex.ru>
+Date:   Wed Nov 1 17:59:12 2017 +0300
+
+    Release 2.0.0.1
+
+commit c89928880f36b328deeba33b26a9c16ccd657907
+Author: root <DevelCurrency@gmail.com>
+Date:   Mon Oct 30 12:53:39 2017 +0300
+
+    Update Win wallet
+
+commit cd47b4875310734abe97d91a5d5c2dcd1640b964
+Author: root <DevelCurrency@gmail.com>
+Date:   Mon Oct 30 12:09:42 2017 +0300
+
+    interface update
+
+commit 3b2af1f4528065df8f058b02aaf2e6db33b70bbd
+Merge: 470f6a8 850e80f
+Author: root <DevelCurrency@gmail.com>
+Date:   Mon Oct 30 03:23:59 2017 +0300
+
+    Merge branch 'master' of https://github.com/geysercoin/geysercoin
+
+commit 470f6a8976cea0bebecc6a524d36a84d1d25269e
+Author: root <DevelCurrency@gmail.com>
+Date:   Mon Oct 30 03:21:28 2017 +0300
+
+    Interface update
+
+commit 5ec8d1624525ff66839db1dbfcdb067f4351caa7
+Author: root <DevelCurrency@gmail.com>
+Date:   Mon Oct 30 03:17:45 2017 +0300
+
+    Interface update
+
+commit 850e80f61769a6494c9da67a6e2d11aca4828bb1
+Author: Dmitrij <just.run.in.the.world@yandex.ru>
+Date:   Sun Oct 29 22:19:42 2017 +0300
+
+    Update bitcoin-qt.rc
+
+commit 63684278d02d6773ce3047d3b57e087224b2e666
+Author: root <DevelCurrency@gmail.com>
+Date:   Sun Oct 29 15:53:06 2017 +0300
+
+    Release 2.1.0.0
+
+commit fb1971fcb88bfe59814bdee4cb8042654d05884b
+Author: root <just.run.in.the.world@yandex.ru>
+Date:   Thu Sep 21 15:41:01 2017 +0300
+
+    Update CheckPoint & Node List
+
+commit 5f7df305fd4b0c67ace9843e23305cc9ff4edcce
+Author: Dmitrij <just.run.in.the.world@yandex.ru>
+Date:   Tue Aug 29 02:01:45 2017 +0300
+
+    Update README.md
+
+commit f0863caadf14f0d47a2a40162b1a91aa11f79579
+Merge: c0403ae 8b1e89c
+Author: Dmitrij <just.run.in.the.world@yandex.ru>
+Date:   Fri Aug 11 18:16:47 2017 +0300
+
+    Merge branch 'master' of https://github.com/geysercoin/geysercoin
+
+commit c0403ae1c39a9af465abe1c6ec71c1c8e852b716
+Author: Dmitrij <just.run.in.the.world@yandex.ru>
+Date:   Fri Aug 11 18:16:35 2017 +0300
+
+    Win Wallet
+    
+    Win Wallet
+
+commit 8b1e89c3293b46d044d4677a08fbea336b2806f2
+Author: root <just.run.in.the.world@yandex.ru>
+Date:   Fri Aug 11 16:36:47 2017 +0300
+
+    Wallet update
+
+commit 92c6f8332ccd175b8e1f5c5dbc822435817113d1
+Author: Dmitrij <just.run.in.the.world@yandex.ru>
+Date:   Tue Aug 8 01:11:54 2017 +0300
+
+    Fixed buggs
+
+commit b34fec294c210c8a52b437cc59eebc8695b505bb
+Author: Dmitrij <just.run.in.the.world@yandex.ru>
+Date:   Tue Aug 8 01:07:24 2017 +0300
+
+    Fixed buggs
+
+commit b85c8d94c06cb114040175cf664168e5320f24cd
+Author: Dmitrij <just.run.in.the.world@yandex.ru>
+Date:   Tue Aug 8 01:04:37 2017 +0300
+
+    fixed buggs
+
+commit 65857e88808a9163420cefccc62f2313c9d72dd2
+Author: root <just.run.in.the.world@yandex.ru>
+Date:   Tue Jul 25 17:19:38 2017 +0300
+
+    Win wallet version 2.0
+
+commit da5dba39939a9e4e0305ae0004d713bb7a02d37c
+Author: root <just.run.in.the.world@yandex.ru>
+Date:   Tue Jul 25 17:12:41 2017 +0300
+
+    wallet version 2.0
+
+commit c68a586dc559b236dc05d4eb9730ed21b9554cbb
+Author: root <just.run.in.the.world@yandex.ru>
+Date:   Fri Jul 21 20:51:58 2017 +0300
+
+    wallet update
+
+commit 29f210d79e405a95a322deed1cb2f1175e6bae84
+Author: root <just.run.in.the.world@yandex.ru>
+Date:   Fri Jul 21 20:46:54 2017 +0300
+
+    wallet update
+
+commit 6aa070be11cc83826d8c509132c2dcd41cea74d2
+Author: Dmitrij <just.run.in.the.world@yandex.ru>
+Date:   Wed Jul 5 13:58:31 2017 +0300
+
+    winwallet
+    
+    winwallet
+
+commit 02171f185e17ef8610155a2519fb4c2926a6abc9
+Author: root <just.run.in.the.world@yandex.ru>
+Date:   Fri Jun 9 00:35:25 2017 +0300
+
+    Readme
+
+commit 2a583e4b42db687743faeba175c5eb01b38e5ae4
+Author: root <just.run.in.the.world@yandex.ru>
+Date:   Fri Jun 9 00:32:25 2017 +0300
+
+    rm
+
+commit 99fd6f1fafd2d6da950fd56a4958f3be1b8dc1c5
+Author: root <just.run.in.the.world@yandex.ru>
+Date:   Fri Jun 9 00:30:26 2017 +0300
+
+    Change
+
+commit c8ec324910e7beaf2cccb7c82846aa3a480c0f18
+Author: root <just.run.in.the.world@yandex.ru>
+Date:   Fri Jun 9 00:26:21 2017 +0300
+
+    Add info
+
+commit f063b7d80c8d3a88e2e7039976c60749d2d51403
+Author: root <just.run.in.the.world@yandex.ru>
+Date:   Thu Jun 8 21:48:07 2017 +0300
+
+    LinuxWallet
+
+commit 05160eb954122b93f0c9c8c8b40a57d5f20a2a92
+Author: root <just.run.in.the.world@yandex.ru>
+Date:   Thu Jun 8 18:53:52 2017 +0300
+
+    WinWallet
+
+commit bf5f312e706d1700cd31d2d99737185434186299
+Author: root <just.run.in.the.world@yandex.ru>
+Date:   Sat Jun 3 20:01:04 2017 +0300
+
+    Readme
+
+commit a4e0406697c1231b34081655333837b3208cb24b
+Author: root <just.run.in.the.world@yandex.ru>
+Date:   Thu Jun 1 02:01:32 2017 +0300
+
+    secure update
+
+commit 20671778f61d994f52ed7447e9de7cab599488e2
+Author: root <just.run.in.the.world@yandex.ru>
+Date:   Fri May 26 00:25:04 2017 +0300
+
+    secure upd
+
+commit be74409a84c64b86539d996cdfd22b93e1497860
+Author: root <just.run.in.the.world@yandex.ru>
+Date:   Thu May 25 22:35:18 2017 +0300
+
+    update iface
+
+commit 883295e8d17ef55635600eebd114a5449ddadae1
+Author: Dmitry <just.run.in.the.world@yandex.ru>
+Date:   Fri May 19 00:52:39 2017 +0300
+
+    add node
+
+commit 57284503f3ce6153281006aca2828e56f48c4fdc
+Author: Dmitry <just.run.in.the.world@yandex.ru>
+Date:   Thu May 18 23:48:56 2017 +0300
+
+    fix_error
+
+commit 3f503ed9fc5d9ca412bbb2bd90bfd0570108f14d
+Author: Dmitry <just.run.in.the.world@yandex.ru>
+Date:   Thu May 18 23:46:04 2017 +0300
+
+    node update
+
+commit 7f1fd7b1d7fb554ab45b11e9157f6803a22cd7ce
+Author: Dmitry <just.run.in.the.world@yandex.ru>
+Date:   Thu May 18 23:34:26 2017 +0300
+
+    start

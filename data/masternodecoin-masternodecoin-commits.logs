@@ -1,0 +1,52 @@
+commit 60e171057a193fa8a26def76c2dbfe0387017a84
+Author: masternodecoin <31052241+masternodecoin@users.noreply.github.com>
+Date:   Sat Oct 21 12:17:06 2017 +0800
+
+    update 1.1.1.1
+    
+    update
+
+commit 245e08448c3289cbef49136c4bd1d9c3aa935ae3
+Author: masternodecoin <31052241+masternodecoin@users.noreply.github.com>
+Date:   Sat Oct 21 11:13:26 2017 +0800
+
+    update
+
+commit 00cce00b63ab44a120bae90cbc6417bef8f000cc
+Author: masternodecoin <31052241+masternodecoin@users.noreply.github.com>
+Date:   Sat Oct 21 11:00:33 2017 +0800
+
+    Revert "update to V1.1.1.1"
+    
+    This reverts commit 393157c4171321b5f6ce8743ec1a716652b4f463.
+
+commit 3874014138c99bcdba3ba665eee41d2b24d2663f
+Merge: 393157c 8d53f43
+Author: masternodecoin <31052241+masternodecoin@users.noreply.github.com>
+Date:   Sat Oct 21 10:58:12 2017 +0800
+
+    Merge branch 'master' of https://github.com/masternodecoin/masternodecoin
+
+commit 393157c4171321b5f6ce8743ec1a716652b4f463
+Author: masternodecoin <31052241+masternodecoin@users.noreply.github.com>
+Date:   Sat Oct 21 10:57:14 2017 +0800
+
+    update to V1.1.1.1
+
+commit 8d53f43b3dc374d3ca130fc04adfe41c29b0f104
+Author: masternodecoin <31052241+masternodecoin@users.noreply.github.com>
+Date:   Wed Aug 16 11:40:18 2017 +0800
+
+    update
+
+commit f45758ab7f336a14da5c8d15e78601159fd8fd19
+Author: masternodecoin <31052241+masternodecoin@users.noreply.github.com>
+Date:   Wed Aug 16 11:31:56 2017 +0800
+
+    Masternodecoin
+
+commit 41b8e20c7900464e2a815c28c08129cf9da0b361
+Author: masternodecoin <31052241+masternodecoin@users.noreply.github.com>
+Date:   Wed Aug 16 09:58:42 2017 +0800
+
+    Initial commit

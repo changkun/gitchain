@@ -1,0 +1,211 @@
+commit 3c52e427cee3c391f0788eaea3c4747d765b6541
+Author: Nigho <nico.lucciola@googlemail.com>
+Date:   Fri Aug 4 18:53:21 2017 +0200
+
+    Updated core 0.14.2
+
+commit 4e3b5094f79218e4ffad77816cb2ae91d6564d6c
+Author: Nigho <nico.lucciola@googlemail.com>
+Date:   Fri Aug 4 18:26:37 2017 +0200
+
+    Updated to core 0.14.2
+
+commit e9d44ab2f208f088dc14876dcd15658b17a72c58
+Author: Nigho <nico.lucciola@googlemail.com>
+Date:   Fri Aug 4 18:05:02 2017 +0200
+
+    Updated core to 0.14.2
+
+commit 0cb373fbdeb25caff2d72b65b86bca8576111ec8
+Author: Nigho <nico.lucciola@googlemail.com>
+Date:   Sun May 14 03:02:47 2017 +0200
+
+    Updated PowLimit
+
+commit 81e240ceb1452c2d430fdb17b2a616f7555a19d9
+Author: Nigho <nico.lucciola@googlemail.com>
+Date:   Sat May 13 01:18:42 2017 +0200
+
+    Removed the "S" :p
+
+commit cab4e06e9602210fa5263d5959c2a1fd7de62ca8
+Author: Nigho <nico.lucciola@googlemail.com>
+Date:   Sat May 13 01:16:51 2017 +0200
+
+    Updated ChainParams
+
+commit cad9cab486a10bed744dd379fad948a1a3b5b7d8
+Author: Nigho <nico.lucciola@googlemail.com>
+Date:   Fri May 12 18:20:21 2017 +0200
+
+    Set Testnet Checkpoint @ 209
+
+commit f0a1b5569f9d27bc7dc859d26880f83c67f09974
+Author: Nigho <nico.lucciola@googlemail.com>
+Date:   Fri May 12 17:52:29 2017 +0200
+
+    Updated ChainParams
+
+commit 5fac726575c1bf5cc6d4d29beb614989e5e0a27c
+Author: Nigho <nico.lucciola@googlemail.com>
+Date:   Sun May 7 19:48:40 2017 +0200
+
+    Updated ChainParams
+
+commit e3d2965124adf2953f89e20d17d44050d41edb8d
+Author: Nigho <nico.lucciola@googlemail.com>
+Date:   Sun May 7 16:21:14 2017 +0200
+
+    Added RegTest
+
+commit 55e098e08825d1624a47889f500c0a0acb11672a
+Author: Nigho <nico.lucciola@googlemail.com>
+Date:   Wed May 3 19:38:35 2017 +0200
+
+    Updated ChainParams
+
+commit 0fed2c7b6500719c22834c73f270b455bbdf64b5
+Author: Nigho <nico.lucciola@googlemail.com>
+Date:   Wed May 3 19:25:42 2017 +0200
+
+    Updated ChainParams
+
+commit 07ccb4a3900335571e2f9a2f48ae8567446e18e3
+Author: Nigho <nico.lucciola@googlemail.com>
+Date:   Wed May 3 19:22:34 2017 +0200
+
+    Updated ChainParams
+
+commit 38be320b8062556b8233a50c45de2a38d97c7956
+Author: Nigho <nico.lucciola@googlemail.com>
+Date:   Wed May 3 09:53:25 2017 +0200
+
+    Updated ChainParams
+
+commit aa52bb883de8e5e39e2a3dcba5bbc9056cbe8b53
+Author: Nigho <nico.lucciola@googlemail.com>
+Date:   Wed May 3 09:44:31 2017 +0200
+
+    Fixed Syntax Error
+
+commit f6095f65a3ea77a9ea248da9f8e6a9f8fc75e2db
+Author: Nigho <nico.lucciola@googlemail.com>
+Date:   Wed May 3 09:42:44 2017 +0200
+
+    Testnet Checkpoint + SegWit
+
+commit 0f0e1b4d18ebfa4a7bdc543f3871d30ac08743be
+Author: Nigho <nico.lucciola@googlemail.com>
+Date:   Tue May 2 22:15:35 2017 +0200
+
+    Updated Testnet Params
+
+commit f42d32faebf55c388b92e4686a6f02be0abe2e17
+Author: Nigho <nico.lucciola@googlemail.com>
+Date:   Tue May 2 20:00:43 2017 +0200
+
+    Checkpoint Testnet Block 0
+
+commit 559f0bfe49d00437037aa38def4ac731a8af2011
+Author: Nigho <nico.lucciola@googlemail.com>
+Date:   Tue May 2 18:28:05 2017 +0200
+
+    Testnet Params
+
+commit e050d56436ccef1a13d3c6578e2a5185b7eefbab
+Author: Nigho <nico.lucciola@googlemail.com>
+Date:   Fri Apr 28 10:04:30 2017 +0200
+
+    Updated chainparams.cpp
+
+commit 18f0773378ebcb84875e685c7ff624597c78e5c6
+Author: Nigho <nico.lucciola@googlemail.com>
+Date:   Fri Apr 28 10:02:12 2017 +0200
+
+    Added Checkpoint @ block 0
+
+commit 283f80613fb6be140769169cf9e507058e3a207d
+Author: Nigho <nico.lucciola@googlemail.com>
+Date:   Fri Apr 28 10:00:29 2017 +0200
+
+    Ops o.o
+
+commit a41def4fea2d796688ed7ee416bcca43fc2a4c11
+Author: Nigho <nico.lucciola@googlemail.com>
+Date:   Fri Apr 28 09:59:52 2017 +0200
+
+    Removed Checkpoint
+
+commit 10e76a8bd0b1617949263ebafe8bce8f093a1257
+Author: Nigho <nico.lucciola@googlemail.com>
+Date:   Fri Apr 28 09:54:48 2017 +0200
+
+    Updated Testnet Nonce
+
+commit 007512050ad706ba4e92783cf650f0af5ad6875e
+Author: Nigho <nico.lucciola@googlemail.com>
+Date:   Fri Apr 28 09:51:43 2017 +0200
+
+    Fixed Genesis Block for Testnet
+
+commit 8fead4c467544569e128bf2d81edd786926e4838
+Author: Nigho <nico.lucciola@googlemail.com>
+Date:   Thu Apr 27 00:46:46 2017 +0200
+
+    Updated testnet parameters
+
+commit e36cd5b3194bfa2e9b8a7d552f6b5126176053e6
+Author: Nico <nico.lucciola@googlemail.com>
+Date:   Thu Apr 27 00:05:41 2017 +0200
+
+    Fixed Secret Key Prefix
+    
+    Thanks to @ripcurl99983 for finding this bug
+
+commit 7b8e48d3c4230efd70360bc384715bc9e1e5693e
+Author: Nigho <nico.lucciola@googlemail.com>
+Date:   Sun Apr 23 23:11:09 2017 +0200
+
+    - Duplicated Code | - Bump Version Number
+
+commit 3b7202ed28b61a488ee744611c17b4b1e6036d9f
+Author: Nigho <nico.lucciola@googlemail.com>
+Date:   Sat Apr 22 21:52:08 2017 +0200
+
+    - Machinecoin Core 0.14.1
+
+commit 7ede716c0ab6138d535d83fecea53cd6ad53a67a
+Author: Nigho <admin@nigho.me>
+Date:   Sun Apr 16 23:32:11 2017 +0200
+
+    Updated Bitmap Files
+
+commit 2f7e30713fd0525789fafa28bb40057824753a77
+Author: Nigho <admin@nigho.me>
+Date:   Sun Apr 16 21:53:26 2017 +0200
+
+    Added missing files
+
+commit 91302216d3e1ed36284ca13bf4d3bad32f1e6ef3
+Author: Nigho <admin@nigho.me>
+Date:   Sun Apr 16 21:18:15 2017 +0200
+
+    Added missing Makefile
+
+commit dfe856a68c7dca3f73d4bb05ca6a2b0a317868cb
+Author: Nigho <admin@nigho.me>
+Date:   Sun Apr 16 16:14:35 2017 +0200
+
+    Deleted Folder
+
+commit adcdd3af5a27083d9418aaa9bb5cfa33a98b978e
+Author: Nigho <admin@nigho.me>
+Date:   Sun Apr 16 16:12:48 2017 +0200
+
+    Renamed Folder
+
+commit 0008bc96c8fa681601851b182ab7db166ffbf8a1
+Author: Nigho <admin@nigho.me>
+Date:   Sun Apr 16 16:09:18 2017 +0200
+
+    Machinecoin Core 0.14

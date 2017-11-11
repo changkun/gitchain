@@ -1,0 +1,109 @@
+commit 32c589a32a9fa8595557d8ca124e176e65699857
+Author: The Movement <30802121+MovementDAO@users.noreply.github.com>
+Date:   Sat Oct 28 16:24:07 2017 +0200
+
+    Italian Whitepaper
+
+commit d7babb0655b709ef3e0effe949a838f074b92e04
+Author: Movement <movement@d.ao>
+Date:   Sat Oct 28 16:23:06 2017 +0200
+
+    Revert "Italian Whitepaper"
+    
+    This reverts commit e55796106dd3e6a69dc7b0b9d0c338d0d4897322.
+
+commit e55796106dd3e6a69dc7b0b9d0c338d0d4897322
+Author: The Movement <30802121+MovementDAO@users.noreply.github.com>
+Date:   Tue Oct 24 20:00:15 2017 +0200
+
+    Italian Whitepaper
+
+commit 55e3d8589593dede1240639c507dc0f44c1faa6b
+Author: The Movement <30802121+MovementDAO@users.noreply.github.com>
+Date:   Wed Oct 18 12:42:36 2017 +0200
+
+    French Whitepaper
+
+commit ae8b2f3d942c8dc3e7583b86da264af22f809873
+Author: Movement <movement@d.ao>
+Date:   Wed Oct 18 12:39:47 2017 +0200
+
+    Revert "French Whitepaper"
+    
+    This reverts commit cb366395ecab233c3251d289d98978b3e10c4c37.
+
+commit cb366395ecab233c3251d289d98978b3e10c4c37
+Author: The Movement <30802121+MovementDAO@users.noreply.github.com>
+Date:   Tue Oct 17 14:11:35 2017 +0200
+
+    French Whitepaper
+
+commit edb0363d7a5706c8fb5fb704b16d560108cc1c53
+Author: Movement <movement@d.ao>
+Date:   Tue Oct 17 14:11:03 2017 +0200
+
+    Revert "French Whitepaper"
+    
+    This reverts commit 150804f74a67439e4d9a81c176f7450ee61b92c7.
+
+commit 150804f74a67439e4d9a81c176f7450ee61b92c7
+Author: The Movement <30802121+MovementDAO@users.noreply.github.com>
+Date:   Tue Oct 17 13:52:39 2017 +0200
+
+    French Whitepaper
+
+commit b1d4a221e79cb2cb90373d4a212dfcf24549562c
+Author: Movement <movement@d.ao>
+Date:   Tue Oct 17 13:52:20 2017 +0200
+
+    Revert "French Whitepaper"
+    
+    This reverts commit eb6ef730c073638a05a4cc18ceee93c5f0d329ec.
+
+commit eb6ef730c073638a05a4cc18ceee93c5f0d329ec
+Author: The Movement <30802121+MovementDAO@users.noreply.github.com>
+Date:   Tue Oct 17 13:49:17 2017 +0200
+
+    French Whitepaper
+
+commit 1312ac9de203d8d02c8e6bd18c9517d7fb327610
+Author: The Movement <30802121+MovementDAO@users.noreply.github.com>
+Date:   Tue Oct 17 02:37:12 2017 +0200
+
+    Brazilian Portuguese Whitepaper
+
+commit 125f0c0e44096fcdfc3bc5520eb69c3bcb7c8745
+Author: Movement <movement@d.ao>
+Date:   Tue Oct 17 02:35:44 2017 +0200
+
+    Revert "Add files via upload"
+    
+    This reverts commit 2cd8e98cb097d63dee9b895100b2cbce97c830a0.
+
+commit 2cd8e98cb097d63dee9b895100b2cbce97c830a0
+Author: The Movement <30802121+MovementDAO@users.noreply.github.com>
+Date:   Tue Oct 17 02:34:02 2017 +0200
+
+    Add files via upload
+    
+    Brazilian Portuguese Whitepaper
+
+commit bddea009c4cd8e1af18bdecbcccb4113f966dbcc
+Author: The Movement <30802121+MovementDAO@users.noreply.github.com>
+Date:   Sat Oct 14 15:17:57 2017 +0200
+
+    Portuguese Whitepaper
+
+commit c06761c49b94bd9deb52c2cda2fa970473ef63e9
+Author: Movement <movement@d.ao>
+Date:   Mon Sep 11 00:11:51 2017 +0200
+
+    The Movement DAO Whitepaper
+    
+    Version 1, Sunday 10th August 2017
+
+commit 92532cbf2399afcadec6bbcb2a89d60809e8c055
+Author: Movement <movement@d.ao>
+Date:   Mon Sep 11 00:11:10 2017 +0200
+
+    Initial commit

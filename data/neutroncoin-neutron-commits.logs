@@ -1,0 +1,536 @@
+commit 2c872d5f9929573dbf75665e11069ac03d0214f2
+Author: Eron Villarreal <eroninjapan@gmail.com>
+Date:   Sat Oct 28 13:07:48 2017 -0700
+
+    Update version to 1.1.3
+
+commit 6241f6beb7c6f527964b7c8038d5265985f5dc37
+Merge: 99755e9 48014f2
+Author: Eron Villarreal <eroninjapan@users.noreply.github.com>
+Date:   Sat Oct 28 13:02:06 2017 -0700
+
+    Merge pull request #8 from neutroncoin/threads
+    
+    Fix slowness
+
+commit 48014f24150b10d2df1331777d1009dbf408bee4
+Author: Eron Villarreal <eroninjapan@gmail.com>
+Date:   Sat Oct 28 12:59:53 2017 -0700
+
+    Update build docs from #6
+
+commit 28d3855141b5495d7a2c4740f9afe40e018ebbfe
+Author: Eron Villarreal <eroninjapan@gmail.com>
+Date:   Sat Oct 28 12:53:49 2017 -0700
+
+    Fix frequent slowness and CPU usage, replace rank with protocol in masternode list
+
+commit ef12c1e84ee996ef238b7d02f4390521be4b0f11
+Author: Eron Villarreal <eroninjapan@gmail.com>
+Date:   Fri Oct 27 02:19:21 2017 -0700
+
+    Convert some tabs to spaces
+
+commit 28277e7a65f2a66572f11d61c95ea941bcf1d932
+Author: Eron Villarreal <eroninjapan@gmail.com>
+Date:   Fri Oct 27 02:14:54 2017 -0700
+
+    Additional LogPrintf updates
+
+commit be3ddd1fa011a0a9619a98fa4c2b737d6035d4dc
+Author: Eron Villarreal <eroninjapan@gmail.com>
+Date:   Fri Oct 27 02:14:21 2017 -0700
+
+    Fix wallet slowness when updating masternode list, added refresh button
+
+commit 0ad4d5153247aced564934ce286d067f8b8d513e
+Author: Eron Villarreal <eroninjapan@gmail.com>
+Date:   Fri Oct 27 00:24:10 2017 -0700
+
+    Additional LogPrintf updates
+
+commit 25d711984f6030f2e6f88b8bd91d8236857e0d24
+Author: Eron Villarreal <eroninjapan@gmail.com>
+Date:   Tue Oct 24 01:34:29 2017 -0700
+
+    Additional LogPrintf updates
+
+commit e90c09ddeb912734bb7936e9efe2d4ee4c5fd23b
+Author: Eron Villarreal <eroninjapan@gmail.com>
+Date:   Tue Oct 17 01:40:32 2017 -0700
+
+    Add splashscreen and networkstyle
+
+commit b0dfc48e61a1328be97131270d5a10806038711f
+Author: Eron Villarreal <eroninjapan@gmail.com>
+Date:   Mon Oct 16 23:28:34 2017 -0700
+
+    Add BitcoinApplication class and update guiconstants
+
+commit cc6301f1b21f13581fac5c5288f3209a2dd948ea
+Author: Eron Villarreal <eroninjapan@gmail.com>
+Date:   Mon Oct 16 22:52:46 2017 -0700
+
+    Add SetupEnvironment() and remove qtipcserver
+
+commit 99755e99b0ac4ddd0a032c903f2e9ff4cd8ce2f8
+Merge: dd91aa0 6c163c4
+Author: Eron Villarreal <eroninjapan@users.noreply.github.com>
+Date:   Mon Oct 16 21:49:13 2017 -0700
+
+    Merge pull request #7 from neutroncoin/util_refactor
+    
+    Util and debug log refactor
+
+commit 6c163c41b0b8567813bea074346dfc750922de67
+Author: Eron Villarreal <eroninjapan@gmail.com>
+Date:   Mon Oct 16 21:43:08 2017 -0700
+
+    Additional LogPrintf updates
+
+commit c7b310bd2381b4167e948e979a7a22b8964bf0f9
+Author: Eron Villarreal <eroninjapan@gmail.com>
+Date:   Mon Oct 16 13:14:54 2017 -0700
+
+    Update windows build flag
+
+commit 5b77fe8e7c26cd5d290b7db5123252288fe1425b
+Author: Eron Villarreal <eroninjapan@gmail.com>
+Date:   Mon Oct 16 13:12:30 2017 -0700
+
+    Update windows build flag
+
+commit 02b9b08fc38596dc6712a2dbc64ce678e6bff0ec
+Author: Eron Villarreal <eroninjapan@gmail.com>
+Date:   Mon Oct 16 12:21:38 2017 -0700
+
+    Add windows build flag
+
+commit a7626146b61bf49a6cec6ed7d0e9a8b014ed7800
+Author: Eron Villarreal <eroninjapan@gmail.com>
+Date:   Mon Oct 16 02:57:31 2017 -0700
+
+    Move client version info to clientversion from utils and version files
+
+commit 176d2f159875c178419b3a5d6476f3eb5c9a95f9
+Author: Eron Villarreal <eroninjapan@gmail.com>
+Date:   Mon Oct 16 00:36:47 2017 -0700
+
+    Update getblocks debug info
+
+commit d646d53cbcba247c8433140d782ca9c586f10822
+Author: Eron Villarreal <eroninjapan@gmail.com>
+Date:   Sun Oct 15 20:53:46 2017 -0700
+
+    Remove print macros
+
+commit 8a0611f99e52a6cc2ef4667d8819b2c9f3c08ae8
+Author: Eron Villarreal <eroninjapan@gmail.com>
+Date:   Sat Oct 14 23:35:35 2017 -0700
+
+    Update many printf to use LogPrintf
+
+commit ac4938269fda275fee134cf0331aaf51ac94c12e
+Author: Eron Villarreal <eroninjapan@gmail.com>
+Date:   Sat Oct 14 00:14:41 2017 -0700
+
+    Add LogPrintf() and LogPrint() to utils
+
+commit 541b41854a45ab311126875e191b7f4b4d3e4469
+Author: Eron Villarreal <eroninjapan@gmail.com>
+Date:   Sun Oct 8 07:28:49 2017 -0700
+
+    Fix missing include
+
+commit a45e98b655fbc6258fd223260cd9065ce2156f54
+Author: Eron Villarreal <eroninjapan@gmail.com>
+Date:   Sun Oct 8 07:08:56 2017 -0700
+
+    Remove print macros
+
+commit 669282a30d31826f7362e4215309a939ac57a284
+Author: Eron Villarreal <eroninjapan@gmail.com>
+Date:   Sun Oct 8 07:02:43 2017 -0700
+
+    Fix typo
+
+commit 59cbea66d8b301eb960e8a41dc73d164ef0dce1e
+Author: Eron Villarreal <eroninjapan@gmail.com>
+Date:   Sun Oct 8 06:58:35 2017 -0700
+
+    Add pointer functions to serialize
+
+commit 0b4ac4c4f281db05d98c8c6b2b0660a2f20df007
+Author: Eron Villarreal <eroninjapan@gmail.com>
+Date:   Sun Oct 8 06:57:10 2017 -0700
+
+    Move CDataStream and CAutoFile from serialize to streams
+
+commit 5b024c2017ae9619765c2208a4e539e73c96e50e
+Author: Eron Villarreal <eroninjapan@gmail.com>
+Date:   Sun Oct 8 06:48:10 2017 -0700
+
+    Fix print function
+
+commit 169410826be4e129f15d4859fe47ee7faf1d3989
+Author: Eron Villarreal <eroninjapan@gmail.com>
+Date:   Sun Oct 8 04:49:31 2017 -0700
+
+    Refactor some utils to utiltime, timedata, and random
+
+commit d4826636b6d6220510dc87cf31d501ac3aff563b
+Author: Eron Villarreal <eroninjapan@gmail.com>
+Date:   Sun Oct 8 01:54:41 2017 -0700
+
+    Refactor some utils to utiltime
+
+commit 15e2499d0f903edafc7a8d542be10d27faf6afee
+Author: Eron Villarreal <eroninjapan@gmail.com>
+Date:   Fri Oct 6 06:14:04 2017 -0700
+
+    Refactor some utils to utilmoneystr
+
+commit c6bab5e9e31a5732684bc5b1010f859a53ca911c
+Author: Eron Villarreal <eroninjapan@gmail.com>
+Date:   Fri Oct 6 05:02:05 2017 -0700
+
+    Refactor some utils to utilstrencodings
+
+commit dd91aa06b24048bd301718cf377b6d12a8c23005
+Author: Eron Villarreal <eroninjapan@gmail.com>
+Date:   Thu Oct 5 01:35:38 2017 -0700
+
+    Fix testnet image naming
+
+commit 7c872292f228d351dea1e6cb88f74b5a6adf89f3
+Author: Eron Villarreal <eroninjapan@gmail.com>
+Date:   Thu Oct 5 01:20:06 2017 -0700
+
+    Add testnet icon
+
+commit 4f39b7e1031bf8f829a2edf38c3a25b60c5ebaa4
+Author: Eron Villarreal <eroninjapan@gmail.com>
+Date:   Thu Sep 28 09:43:46 2017 -0700
+
+    Fix display of stake amount when updating transaction list
+
+commit 0727a28cb67ecaba7bb891140ef109f858dbeeb7
+Merge: dc2e899 380d0d4
+Author: Eron Villarreal <eroninjapan@users.noreply.github.com>
+Date:   Fri Sep 15 00:49:42 2017 -0700
+
+    Merge pull request #2 from presstab/testnet
+    
+    Add testnet
+
+commit 380d0d4d80d65516350c48a5037a29f47988d5e7
+Author: presstab <presstab1337@gmail.com>
+Date:   Sun Sep 10 21:33:11 2017 -0600
+
+    Add testnet
+
+commit dc2e89988cc97d8b5e080bd34931c7f53237d303
+Merge: 258018f d0f1076
+Author: Eron Villarreal <eroninjapan@users.noreply.github.com>
+Date:   Sat Sep 9 21:42:49 2017 -0700
+
+    Merge pull request #1 from presstab/efficient_sync
+    
+    Ask peers for blocks if its been 10 seconds since last block recvd.
+
+commit d0f10764db49856beb2ee84524098de67dc068b8
+Author: presstab <presstab1337@gmail.com>
+Date:   Sat Sep 9 09:50:34 2017 -0600
+
+    Ask peers for blocks if its been 10 seconds since last block recvd.
+
+commit 258018f84f58c2e783802f83c620dd3aba3ced6a
+Author: Eron Villarreal <eroninjapan@gmail.com>
+Date:   Sat Sep 9 03:43:26 2017 -0700
+
+    Remove unused mac build config
+
+commit bd6e28faf23079751b74cdab3e4f5ca2a344d681
+Author: Eron Villarreal <eroninjapan@gmail.com>
+Date:   Thu Sep 7 02:02:03 2017 -0700
+
+    Include pthread library in qt compile
+
+commit 2e8cbc864b712a60845fd4ec552822dccb9314ca
+Author: Eron Villarreal <eroninjapan@gmail.com>
+Date:   Thu Sep 7 02:00:54 2017 -0700
+
+    Silence compiler warnings on Windows related to MinGWs inttypes.h
+
+commit 737921162bbe40700fd2653658251770a187ecd3
+Author: Eron Villarreal <eroninjapan@gmail.com>
+Date:   Thu Sep 7 01:58:09 2017 -0700
+
+    Update windows executable name to neutron-qt.exe
+
+commit f919f64d254b44f30d34b88c8ee719d1ea024f15
+Author: Eron Villarreal <eroninjapan@gmail.com>
+Date:   Thu Sep 7 00:50:40 2017 -0700
+
+    Finish disabling logger ui for now
+
+commit f489001f55f5f0abdbc6170f37e26fc912cdabc3
+Merge: e467c23 49ba518
+Author: Thomas Dowdy <tommy@bitlabshop.com>
+Date:   Tue Sep 5 18:46:49 2017 -0500
+
+    Merge pull request #3 from eroninjapan/master
+    
+    Version 1.1.2 updates
+
+commit 49ba518fdc5b363279c79145a1ae7ea16eb13f2b
+Author: Eron Villarreal <eroninjapan@gmail.com>
+Date:   Mon Sep 4 05:30:30 2017 -0700
+
+    Update version to 1.1.2
+
+commit d60ae4307ff5c027231ccff32dacf48deff8e132
+Author: Eron Villarreal <eroninjapan@gmail.com>
+Date:   Sun Sep 3 17:19:29 2017 -0700
+
+    Additional naming updates
+
+commit baa33f31a88cda54298ef9e696fbe2045ae45314
+Author: Eron Villarreal <eroninjapan@gmail.com>
+Date:   Sun Sep 3 17:19:15 2017 -0700
+
+    Add dist folder to gitignore
+
+commit b4293bb16a90c62c75f2b32607d2c7387fa540ce
+Author: Eron Villarreal <eroninjapan@gmail.com>
+Date:   Sun Sep 3 17:12:48 2017 -0700
+
+    Remove all references to IRC
+
+commit ccb62cf734ffcf1eb957bdadb69ff66650f30107
+Author: Eron Villarreal <eroninjapan@gmail.com>
+Date:   Sun Sep 3 16:12:41 2017 -0700
+
+    Rename Neutron-qt.pro to neutron-qt.pro
+
+commit bd084a7fa9f61d5f67e690bc4b7b6097dc3594ba
+Author: Eron Villarreal <eroninjapan@gmail.com>
+Date:   Sun Sep 3 15:44:21 2017 -0700
+
+    Rename Neutron.conf to neutron.conf for all platforms
+
+commit e8e0bffd220152a2e8919959be38ca57f1f26bf9
+Author: Eron Villarreal <eroninjapan@gmail.com>
+Date:   Sun Sep 3 15:34:00 2017 -0700
+
+    Rename .Neutron conf folder to .neutron on Linux
+
+commit a3936ed87e133c8a3e17e1c2ad7e260b6e649cc5
+Author: Eron Villarreal <eroninjapan@gmail.com>
+Date:   Sun Sep 3 15:02:14 2017 -0700
+
+    Rename Neutrond to neutrond (lowercase) across entire project
+
+commit 7ead8480e03a06bcea174b67619acf2ce9cdfc1c
+Author: Eron Villarreal <eroninjapan@gmail.com>
+Date:   Sun Sep 3 15:01:29 2017 -0700
+
+    Update gitignore to ignore all .app files
+
+commit b61bc4af69afc6312ad83ae53dfd9cb3129d2fa9
+Author: Eron Villarreal <eroninjapan@gmail.com>
+Date:   Sun Sep 3 14:47:30 2017 -0700
+
+    Rename linux executable from Neutrond to neutrond (lowercase)
+
+commit b7538ead4b5a66bbccca622e287988b44f896f80
+Author: Eron Villarreal <eroninjapan@gmail.com>
+Date:   Sat Sep 2 23:48:08 2017 -0700
+
+    Set deployment target for qmake on mac
+
+commit 89ebb0e88d22ba0242688db077fcbcccc5c7fb86
+Author: Eron Villarreal <eroninjapan@gmail.com>
+Date:   Sat Sep 2 23:46:04 2017 -0700
+
+    Add Mac DMG to gitignore
+
+commit a0543c7ebdef65c36ad13e2c72d91e78b0e7497f
+Author: Eron Villarreal <eroninjapan@gmail.com>
+Date:   Sat Sep 2 20:23:09 2017 -0700
+
+    Update OSX min to 10.10 and set app bundle identifier
+
+commit 8d0d5e763c70af6c3fe8e193c0c424bf663026b5
+Author: Eron Villarreal <eroninjapan@gmail.com>
+Date:   Sat Sep 2 20:22:18 2017 -0700
+
+    C++14 update and logger ui work-in-progress -- credits to Brakmic
+
+commit 9d7815a5ac75fb343b9290072b8e014fd52fbeab
+Author: Eron Villarreal <eroninjapan@gmail.com>
+Date:   Sat Aug 26 01:42:51 2017 -0700
+
+    Remove acceptable inputs print to reduce debug log size
+
+commit bdfdb38a5dc60c9341e92f9fae74b25c65984885
+Author: Eron Villarreal <eroninjapan@gmail.com>
+Date:   Sat Aug 26 01:41:05 2017 -0700
+
+    Update file indenting
+
+commit 965c04fdf39265d25ca9dd5fbaad70ff2d98e624
+Author: Eron Villarreal <eroninjapan@gmail.com>
+Date:   Sun Aug 20 16:12:24 2017 -0700
+
+    Fix compile error
+
+commit b6260d28057f71d0e3466505bbb1dc18061fbd0c
+Author: Eron Villarreal <eroninjapan@gmail.com>
+Date:   Sun Aug 20 14:55:23 2017 -0700
+
+    Fix C++11 compiler compatibility
+
+commit d13698919e3a0e2958de11c2e7b05e0c342d73f6
+Author: Eron Villarreal <eroninjapan@gmail.com>
+Date:   Sun Aug 20 02:28:56 2017 -0700
+
+    Remove stake modifier checksum print
+
+commit e467c231ff2c69b281df228306d63cab9413495d
+Merge: be7c3c9 8c7bb48
+Author: audiotopix <tommy@bitlabshop.com>
+Date:   Sat Jul 29 21:43:03 2017 -0500
+
+    Merge pull request #2 from Fuzzbawls/master
+    
+    Updates for new release version 1.1.1
+
+commit 8c7bb4802ff1f7706bbe1e4ccb25a0d07ee4c112
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Wed Jul 26 21:28:10 2017 -0700
+
+    Version 1.1.1
+
+commit ac4bf97cd34bcbd3a02acf5f50dcd2d3cfa69a98
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Wed Jul 26 21:26:04 2017 -0700
+
+    Update windows installer script and fix windows daemon makefile
+
+commit d7a42d1c375ec88ca228e202d58b5a4ac25286da
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Sun Jul 23 18:13:26 2017 -0700
+
+    use new icon filename for windows
+
+commit 6c7b87f34a24ff5a84c04961545e55ba9df3e708
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Sun Jul 23 17:54:55 2017 -0700
+
+    Update mac deployment files
+
+commit 8e97ea02b72cbd82477cda91b08bbc8c688f1e90
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Sun Jul 23 16:30:37 2017 -0700
+
+    Strict version schema
+
+commit d524a3cf33f9d40c84215668e8e1bc32f5e38444
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Sun Jul 23 16:29:44 2017 -0700
+
+    Add DNS seeder from fuzzbawls
+
+commit 217947a843e8cf3ac9a4842c9da22fea62ad8c9c
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Sun Jul 23 16:29:05 2017 -0700
+
+    OS X fixups
+
+commit 732756b5748cce7637f3be51fb0f20906c5cc656
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Sun Jul 23 16:27:46 2017 -0700
+
+    Icon and image file cleanup
+
+commit 1ad78b7b0ebe844d237d1b22edf5d3413e2041ed
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Sun Jul 16 17:05:06 2017 -0700
+
+    Clean up source tree
+    
+    Remove unused build files
+    Remove out-of-place zerocoin sources
+    Remove pre-compiled binaries
+    Remove windows dll
+    Add proper gitignore files
+
+commit 031ecdd03babaa085893707a74d4a820d2c7950b
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Fri Jul 14 19:32:38 2017 -0700
+
+    Remove IRC Peer Discovery
+
+commit be7c3c92893fc981cdbd517bd340a857d847f7d7
+Merge: 31c1ec1 87f1a2f
+Author: audiotopix <tommy@bitlabshop.com>
+Date:   Fri Jun 16 18:19:52 2017 -0500
+
+    Merge pull request #1 from presstab/master
+    
+    Replace icons, add new seed address
+
+commit 87f1a2f82aac2b9740f44857dede18438d5bfef6
+Author: presstab <presstab1337@gmail.com>
+Date:   Wed Jun 14 14:31:58 2017 -0600
+
+    Replace icons, add new seed address
+
+commit 31c1ec1ffb8f065929e4f2a70cc3d2a6ae7d96ac
+Author: audiotopix <tommy@bitlabshop.com>
+Date:   Wed May 3 20:17:32 2017 -0500
+
+    Update README.md
+
+commit 8d34f41b72764c5f84ed84f81dd0a9551526a15b
+Author: audiotopix <tommy@bitlabshop.com>
+Date:   Wed May 3 20:16:42 2017 -0500
+
+    Update README.md
+
+commit 7cdef2d2ad62783c651c5ec7c84bc8308746c965
+Author: audiotopix <tommy@bitlabshop.com>
+Date:   Wed May 3 20:15:37 2017 -0500
+
+    Update README.md
+
+commit 6f389966654dbf71717b5943078e303df1f60073
+Author: audiotopix <tommy@bitlabshop.com>
+Date:   Wed May 3 20:14:13 2017 -0500
+
+    Update README.md
+
+commit e4a2ab226644dec02a79e336346747152426be08
+Author: UnbreakableCoin <admin@unbreakablecoin.com>
+Date:   Fri Feb 5 02:57:33 2016 -0800
+
+    Update README.md
+
+commit f8265c32e388715cf7495939bb137d24d6e72c82
+Author: UnbreakableCoin <admin@unbreakablecoin.com>
+Date:   Fri Feb 5 02:49:44 2016 -0800
+
+    Update README.md
+
+commit 7cafb7ea98f5b750ac0727c5d7c666911730c996
+Author: UnbreakableCoin <admin@unbreakablecoin.com>
+Date:   Fri Feb 5 02:48:11 2016 -0800
+
+    Update README.md
+
+commit 294777bf6ce691d7f029f8f6fdaeb5055bd45fa2
+Author: root <root@debian.(none)>
+Date:   Fri Feb 5 05:19:37 2016 -0500
+
+    Neutron

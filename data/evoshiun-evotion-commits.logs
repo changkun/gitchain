@@ -1,0 +1,64 @@
+commit 247f4cfc9b40ac859b1f470dfdad70d6bc892070
+Author: Evo Shi Un <Evo Shi Un>
+Date:   Tue Dec 1 15:05:26 2015 +0000
+
+    Branding/Removal
+    
+    Branding to Evotion Evo fully now. all files for the src not needed have
+    been removed
+
+commit 44277f1652678b49ebca728e389e203cc66307ca
+Merge: 158a185 098280f
+Author: evoshiun <evoshiun@gmail.com>
+Date:   Fri Nov 27 13:33:44 2015 +0000
+
+    Merge pull request #2 from bumbacoin/master
+    
+    mac compile
+
+commit 158a1854da8b5f2416e28034a080382aed6f8b84
+Merge: e93f17c f6cb797
+Author: evoshiun <evoshiun@gmail.com>
+Date:   Fri Nov 27 13:33:25 2015 +0000
+
+    Merge pull request #1 from bumbacoin/patch-1
+    
+    Update Evotion-Evo-Qt.pro
+
+commit e93f17ca08a4fd7cce8351681e8e2c6332483ff8
+Author: Evo Shi Un <Evo Shi Un>
+Date:   Fri Nov 27 12:25:52 2015 +0000
+
+    removed semicolon
+    
+    removed semicolon from main.cpp line 1660.  thanks to
+    https://bitcointalk.org/index.php?action=profile;u=324489 for noticing
+    it.
+
+commit 098280fef9a01ba5627c5b55d939699907615b4a
+Author: bumbacoin <bumbacoin@gmail.com>
+Date:   Fri Nov 27 14:08:34 2015 +0800
+
+    mac compile
+
+commit f6cb79785b5ea193795fb1c2d1d2b94c8c5fdced
+Author: bumbacoin <bumbacoin@gmail.com>
+Date:   Fri Nov 27 13:46:20 2015 +0800
+
+    Update Evotion-Evo-Qt.pro
+
+commit 50b2a1e6bca4b77f438a65325865cbd347b19fcf
+Author: Evo Shi Un <Evo Shi Un>
+Date:   Tue Nov 24 20:00:54 2015 +0000
+
+    Overhaul
+    
+    Branding away from Bitcoin
+
+commit ce6e864bf5b6deaa4e4085b6fc58c061acfde50e
+Author: Evo Shi Un <Evo Shi Un>
+Date:   Tue Nov 24 11:15:33 2015 +0000
+
+    First Commit/Release
+    
+    The very first commit and release by Evo Shi Un for the currency Evotion

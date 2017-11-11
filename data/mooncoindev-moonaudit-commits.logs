@@ -1,0 +1,22 @@
+commit aaf1973bf1a979b62b40f8224b0da8392ec92cd4
+Author: mooncoindev <admin@bazco.in>
+Date:   Fri Feb 3 12:45:18 2017 +0800
+
+    forfucksake
+    
+    off by one bug with them fences and fenceposts
+
+commit ebf9bf6c1f9fc907824cb73a98ee91ed05af68fe
+Author: mooncoindev <admin@bazco.in>
+Date:   Wed Feb 1 04:34:36 2017 +0800
+
+    prevent lockups
+    
+    a bug has been identified in py-bitcoinrpc; workaround to avoid lockups.
+    script can now be called by cron instead of standalone.
+
+commit fab877ab269e42714571d34f7a10d54c069df02e
+Author: mooncoindev <admin@bazco.in>
+Date:   Tue Dec 20 10:10:55 2016 +0800
+
+    mooncoin transaction auditing

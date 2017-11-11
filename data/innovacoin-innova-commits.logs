@@ -1,0 +1,88 @@
+commit 8722914df3564667ca4ad71514adbd24b7ca8bed
+Merge: 005e81e f75ccb4
+Author: daja0923 <djjamol@gmail.com>
+Date:   Mon Oct 30 10:52:18 2017 +0100
+
+    Merge pull request #1 from daja0923/makefile
+    
+    Makefile created
+
+commit f75ccb45206ecf94d191347bc6664a9facb37f06
+Author: jamol <djjamol@gmail.com>
+Date:   Mon Oct 30 10:24:34 2017 +0100
+
+    [depends] native_mac_alias 2.0.6
+
+commit c51e009bcbbca53f0aa6a1f7fc2a38c58b05e47c
+Author: jamol <djjamol@gmail.com>
+Date:   Mon Oct 30 10:08:43 2017 +0100
+
+    Fix files for mac qt
+
+commit 9807576882de0d9f975a6bb814892f8a8a02c51d
+Author: daja0923 <djjamol@gmail.com>
+Date:   Sun Oct 29 21:49:04 2017 +0100
+
+    Makefile created
+    
+    Makefile copied from dashpay
+
+commit 005e81e023ddb867e9c61e7eb0ac9fc020a5ffa8
+Author: uzbek <abbmuslim@gmail.com>
+Date:   Fri Oct 27 10:27:00 2017 +0200
+
+    update spork.h
+
+commit 686d6e24fa8c316352d2601ca7608abe0b6ef1e3
+Author: uzbek <abbmuslim@gmail.com>
+Date:   Fri Oct 27 08:24:19 2017 +0200
+
+    masternode enforcement enabled
+
+commit 6650a83ae1bb824e0d7645f7023d94096fea4658
+Author: uzbek <abbmuslim@gmail.com>
+Date:   Wed Oct 25 08:45:57 2017 +0200
+
+    client version
+
+commit 7a5c41ab8cc626005a5e5597df42d9eb9700c0d0
+Author: uzbek <abbmuslim@gmail.com>
+Date:   Wed Oct 25 08:02:36 2017 +0200
+
+    fix
+
+commit faf2d5f9bab4e93ec4c1ee8e14162fc5a41fbf84
+Author: abdurahman1 <abbmuslim@gmail.com>
+Date:   Mon Oct 23 01:02:29 2017 +0300
+
+    client version
+
+commit 683e9ddfd2be36cd364feebb9efcae7358c050e8
+Author: uzbek <abbmuslim@gmail.com>
+Date:   Sun Oct 22 21:02:13 2017 +0200
+
+    some fixes
+
+commit c2308c8c54fad464631e4ef2436827f9b5af5ae9
+Author: uzbek <abbmuslim@gmail.com>
+Date:   Sun Oct 22 19:39:47 2017 +0200
+
+    retargeting fixed
+
+commit 166ede9f38cd5652b9d4c8ab920d34a4c466fdc6
+Author: uzbek <abbmuslim@gmail.com>
+Date:   Fri Oct 20 00:25:47 2017 +0200
+
+    checkpoint
+
+commit d85e6f915a029317108b5708bfc338eb5185c671
+Author: uzbek <abbmuslim@gmail.com>
+Date:   Thu Oct 19 15:41:27 2017 +0200
+
+    forgot to add
+
+commit 24f74956b572c4e3cd98b4b4de7881a1620bc780
+Author: uzbek <abbmuslim@gmail.com>
+Date:   Thu Oct 19 15:34:12 2017 +0200
+
+    first commit

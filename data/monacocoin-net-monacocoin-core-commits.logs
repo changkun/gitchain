@@ -1,0 +1,122 @@
+commit 6312ef2e8c224fd2e6e04cd64100d241f3929176
+Author: MonacoCoin Official Git <monacocoin@gmail.com>
+Date:   Sun Oct 1 10:02:27 2017 +0200
+
+    Logo Update
+
+commit bd7f63bcbceea8e6f5723e9333d7fab3d5d79b93
+Author: monacocoin-net <monacocoin@gmail.com>
+Date:   Tue Aug 29 17:35:13 2017 +0200
+
+    checkpoint
+
+commit 09b777dcc194b5758105c4c770dddc7751a576b3
+Merge: 243e00c 428586a
+Author: MonacoCoin Official Git <monacocoin@gmail.com>
+Date:   Mon Aug 21 12:15:46 2017 +0200
+
+    Merge pull request #2 from wyh136/patch-1
+    
+    Create autoinstall.sh
+
+commit 428586aa6b0da4d1c4429623dc256d3e8fcf8129
+Author: Phinx <wanyuehan@qq.com>
+Date:   Mon Aug 21 16:15:51 2017 +0800
+
+    Create autoinstall.sh
+
+commit 243e00cddb2eee63334fd0a5b8f8f7194c1b6b38
+Author: MonacoCoin Official Git <monacocoin@gmail.com>
+Date:   Sat Aug 12 17:04:53 2017 +0200
+
+    Update README.md
+
+commit 19778a74925d132230113a235c438f41016d2e96
+Author: monacocoin-net <monacocoin@gmail.com>
+Date:   Tue Aug 8 09:34:17 2017 +0200
+
+    Qt design update
+
+commit 154ab4d5009b2c8ebe66a637cbc5d68591012290
+Author: MonacoCoin Official Git <monacocoin@gmail.com>
+Date:   Wed Aug 2 16:34:55 2017 +0200
+
+    Update README.md
+
+commit 0cd7fa6540ef7980e6f17a7d1df7c88561126c87
+Author: monacocoin-net <monacocoin@gmail.com>
+Date:   Wed Aug 2 16:20:04 2017 +0200
+
+    test update
+
+commit 1662de6930d8dc79d5da728c057d4d2a28070c1f
+Author: monacocoin-net <monacocoin@gmail.com>
+Date:   Wed Aug 2 16:14:25 2017 +0200
+
+    keyUpdate
+
+commit 7e93f7a305bbe2daf1d4950b08bcccc1383f46c4
+Author: monacocoin-net <monacocoin@gmail.com>
+Date:   Wed Aug 2 11:36:43 2017 +0200
+
+    spork update
+
+commit d5ffec266ca67f10be68f19da4ea858241380b94
+Author: monacocoin-net <monacocoin@gmail.com>
+Date:   Tue Aug 1 15:48:49 2017 +0200
+
+    chain params
+
+commit b885be6dbadcfad4942f5468ad10ec8369bb21ca
+Author: MonacoCoin Official Git <monacocoin@gmail.com>
+Date:   Tue Aug 1 15:04:26 2017 +0200
+
+    Update README.md
+
+commit 131d2ed559ed93aa027612a9bbad4c70966c2f53
+Author: MonacoCoin Official Git <monacocoin@gmail.com>
+Date:   Tue Aug 1 15:04:08 2017 +0200
+
+    Update README.md
+
+commit 96f3b52bb00be17551aa8930156f17afb0f4006a
+Author: monacocoin-net <monacocoin@gmail.com>
+Date:   Tue Aug 1 14:45:32 2017 +0200
+
+    Update Testnet
+
+commit 8de04ac479bf396862c56d6e45a8c3dde2e8dd55
+Author: MonacoCoin Official Git <monacocoin@gmail.com>
+Date:   Tue Aug 1 12:26:37 2017 +0200
+
+    Delete .travis.yml
+
+commit 779b5aeb3a2bf58dabf7b9a872afeb61a6d59c0a
+Author: MonacoCoin-net <monacocoin@gmail.com>
+Date:   Tue Aug 1 10:20:54 2017 +0000
+
+    chmod change
+
+commit 8b66f762a9aac5726317f5799b1397eaab8597a7
+Author: MonacoCoin Official Git <monacocoin@gmail.com>
+Date:   Tue Aug 1 12:12:24 2017 +0200
+
+    .travis.yml
+
+commit 1a55e8af23879b3df964314e1c5973c148430076
+Author: monacocoin-net <monacocoin@gmail.com>
+Date:   Tue Aug 1 12:02:42 2017 +0200
+
+    First Commit RC1
+
+commit 45fc5e9b088daafeffbee58b41f298261f3ecfcd
+Author: MonacoCoin Official Git <monacocoin@gmail.com>
+Date:   Tue Aug 1 11:59:07 2017 +0200
+
+    Set theme jekyll-theme-merlot
+
+commit f36652fe5f73404f33cf07151306a13db0525535
+Author: monacocoin-net <monacocoin@gmail.com>
+Date:   Fri Jul 21 19:07:46 2017 +0200
+
+    Initial commit

@@ -1,0 +1,3904 @@
+commit 7324aedb152282339cff4a2a5c0a13d2416de9d2
+Merge: b3bff70 e4ad4ec
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Fri Nov 3 09:30:10 2017 -0400
+
+    Merge pull request #10 from iamunick/patch-2
+    
+    wallet: fix boost::get usage with boost 1.58
+
+commit b3bff705029c3d48a7367879e19aba69fbff95e4
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sun Oct 1 17:22:08 2017 -0400
+
+    2.0.1.0
+    
+    Added SplitBlock to GUI. @presstab Hyperstake
+    Increaed default splitthreshold and combinethreshold, plus updated Max
+    for each. This will work in startup and config switchs up to 2500/5000.
+    And further increases in gui.
+    Changed max percentage for Stake For Charity to 100%
+    Renamed SetStakeMinAge to GetStakeMinAge
+    Renamed SetTargetSpacing to GetTargetSpacing
+    Created stub function for GetModiferInterval. Will be used to fork and
+    allow for 1 day min stake period.
+    Fixed CoinControl Weight to correct show at 8.8 days until fork fixes
+    it.
+    Fixed Stake Esimate in GUI.
+    Fixed Fee Esitmate when using CoinControl.
+    Bumped version to 2.0.1.0
+
+commit 1ea43c635885e428c61ceddbfd4301e69fd827fc
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Thu Sep 14 21:30:10 2017 -0400
+
+    Update README.md
+
+commit e9d6e2e0e85f6026a4025956c0a9f11701c98ed0
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sat Sep 9 23:56:40 2017 -0400
+
+    Version 2.0
+    
+    Changes for more stable block chain.
+    2min block time
+    1 day old min age
+    Old Clients will be disconnted on Friday Sep 15th
+
+commit 84adf39ff8b622b18786469bc6801dbc91386ab4
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Wed Aug 30 21:32:07 2017 -0400
+
+    Disconnect old clients, update checkpoint
+
+commit 79bfdb04daf30fb5264703508765ea5497c27ada
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Wed Aug 23 21:47:27 2017 -0400
+
+    1.5.5.4
+    
+    Minor Release to add checkpoint and fix an issue with Staking stoping
+    after all coins are exhausted.
+
+commit 4b17c3618ed4a852e2c56ca2000375ca7cf10972
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sun Aug 13 00:16:15 2017 -0400
+
+    Update Coins Cache after 10 blocks
+
+commit e4ad4ec9021aa48ace3224e3a2971df561407244
+Author: iamunick <why@iamunick.com>
+Date:   Fri Aug 11 11:10:57 2017 -0400
+
+    wallet: fix boost::get usage with boost 1.58
+    
+    Fix build issue on Linux 16.04LTS as seen in https://github.com/bitcoin/bitcoin/commit/8b08d9530b93c7a98e7387167ecd2cd5b0563bfb and https://github.com/bitcoin/bitcoin/issues/6113
+
+commit 2c03c9f9c4c51ec1ad719e1511833aeeca411366
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Thu Aug 10 21:34:11 2017 -0400
+
+    1.5.5.3
+    
+    Fix to  validateaddress, add checkpoint
+
+commit 37032bb0132f456712f64b93cab6b0122801348f
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Wed Aug 9 22:35:13 2017 -0400
+
+    1.5.5.2
+    
+    Change to add checkpoints to help with invalid chain. Also changed the
+    way Min S4C works. Now it will accumlate the min you specify and when
+    reached send that amount to the address you requested.
+
+commit bcf7d224524efe3cb4e1f403706916901ad35bd5
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sun Aug 6 23:35:41 2017 -0400
+
+    Version Update
+
+commit 87b0f551a831a12248fd7a87b32fea06b39f7076
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sun Aug 6 23:33:06 2017 -0400
+
+    1.5.5.1
+    
+    Fixed some issues with Locks, and staking.
+
+commit c06ec45de4c35c67e544591a578bc28e96108194
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sat Jul 29 11:38:03 2017 -0400
+
+    1.5.5 Pro
+    
+    Added dialogwindowflags.h
+
+commit 4485a50fe6463cc88a8ba91433942e8d729a2bad
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sat Jul 29 11:19:03 2017 -0400
+
+    1.5.5
+    
+    Imporoved Staking Algo.
+    Added mergecoin rpc
+    Updated Gui, added windoes open/close buttons to most windows
+
+commit 6a88e8f06508503d6e5efe2aaed5878bded2c138
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sun Jul 23 12:23:06 2017 -0400
+
+    1.5.4.0
+    
+    Chagnes:
+    Script Validation Change, must upgrade by March 1, 2018
+    Fix some mutability potential problems.
+    Removed uneeded opcodes
+    Removed getpubkey and validatepubkey, should be using getaddress and
+    validateaddress instead
+    Renamed threads to hobocoin
+    Addnew script checking threads
+    split and combine threashold now use all loaded wallets for max combine
+    number.
+    Bump Version and Bump protocol.
+    Added WatchOnly ability
+    Added importaddress used in watchonly addition
+    Added
+
+commit 3c02dce4013c061fd3417d08f56d8f2a1e9c8568
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Wed Jul 12 17:45:06 2017 -0400
+
+    makefile.osx fixes
+
+commit 59dc2cd4573b05802aa4375541762863a061cc20
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Wed Jul 12 17:44:28 2017 -0400
+
+    makefile.mingw
+
+commit 8ffece3b3160df3f9bb5b2e6cb0d17fef13cf1a6
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Wed Jul 12 17:43:57 2017 -0400
+
+    makefile.linux-mingw
+
+commit 2679058dc5f7e8c5728df08b631f31f57631fe06
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Wed Jul 12 17:43:30 2017 -0400
+
+    makefile.fedora fixes
+
+commit 5ee97141f42fe9f5419badb1f8ac391aaddd5254
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Wed Jul 12 17:42:57 2017 -0400
+
+    makefile.bsd fix
+
+commit 65815e453a7eb928b20160f779ca3d7820cf889d
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Wed Jul 12 17:39:37 2017 -0400
+
+    unix make fix
+
+commit c5e202c1f233ad5c8bba4d077a5f9d0b472dc3be
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jul 11 22:25:01 2017 -0400
+
+    Add Start and Stop staking to the rpc and gui menu
+
+commit c5c7de24cd0a24942eea7c9aab8714d760b80cb0
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jul 11 19:12:53 2017 -0400
+
+    Fix Makefiles and allow to stop staking thread via -staking argument
+
+commit 54369267655aa32e0ab50ae4557b09db2e5cdf1b
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Mon Jul 10 20:12:11 2017 -0400
+
+    Update Make Files for Leveldb 1.19
+
+commit 337c34bc14d7b11031da37810b8f2fb08383b9f0
+Merge: e14a28c f077c26
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sun Jul 9 23:17:47 2017 -0400
+
+    Merge pull request #8 from GenBurnside/master
+    
+    Make compatible with libboost 1.58
+
+commit e14a28cce0967110327f758066c11922af94aa5e
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Fri Jul 7 23:23:24 2017 -0400
+
+    Proof of Work Limits
+    
+    From Block 5.6m PoW will only be accepted after a Stake block, or 10
+    minutes with no block
+    From Block 6.0m PoW will only be accepted after 10 mins with no block
+    Bump to version 1.5.3.0 and update Proto Version, will send alerts
+    Bump back down the DB version , as LevelDB1.9 "should" work fine as a
+    drop in with LevelDB 1.7
+
+commit 166baec82506d67de94a0631fd38952ef5536951
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jul 4 23:26:07 2017 -0400
+
+    Rename header defs
+
+commit 333add62fb518a376aa6e3e0c6884cd835c0d60b
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jul 4 23:25:15 2017 -0400
+
+    Multiple Changes
+    
+    Split off hash.h from util.
+    Small tweek to how coins are spit, weight intead of age.
+    Rename scrypt_mine to scrypt.
+    Tweek to gettransaction rpc call
+
+commit 05fcf4116cd46c0e23bbf27fc27be2ed9b14e780
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jun 27 00:03:06 2017 -0400
+
+    Add functions to CBigNum
+    
+    Add static libgcc to  pro,  remove un-needed txdb.close from main,  add
+    chain trust to blocktoJson rpc
+
+commit 8a62c2580cead08355f7a0e1e8289daf1571fc54
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sun Jun 25 17:27:29 2017 -0400
+
+    P2SH related RPC improvements
+    
+    New addredeemscript and decodescript RPC calls
+    validateaddress now provides redeem script
+    Also use RPC_INVALID_PARAMETER where needed
+
+commit 32abb1c45ee359416ce70f0683c36dc5c3895855
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sat Jun 24 12:31:25 2017 -0400
+
+    Remove Internal PoW-miner related code
+    
+    Also Scrypt hashing implementation update , remove Checkpoint too old
+    code warning, fix "Sign Failed" Message when solo mining,
+
+commit e07d11e05d953fa36bf35e8fce6b2b5b428beb88
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Fri Jun 9 23:38:53 2017 -0400
+
+    Upgrade to LevelDb 1.19
+
+commit c511975104cc7ee739048f11d74cef2525f27a28
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sun Jun 4 18:29:30 2017 -0400
+
+    Upgrade LevelDB 1.19
+
+commit 64fa61430bcecaa0828c8954ad3494e944df351e
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Wed May 31 23:02:06 2017 -0400
+
+    Update README.md
+
+commit 68e23ab26ee475a8c016339d8cfb1ce7bed5b899
+Merge: 1ea5f01 23f0f3f
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Wed May 31 22:53:18 2017 -0400
+
+    Merge pull request #9 from Crypto-Expert/master
+    
+    Catching up
+
+commit f077c262ac7d443c41a18b9f6ca6579e264aaa09
+Author: matt <matthughes.tech@gmail.com>
+Date:   Thu Feb 23 11:19:38 2017 -0500
+
+    Make compatible with libboost 1.58
+    
+    Fix for BTC: https://github.com/bitcoin/bitcoin/commit/8b08d95
+
+commit 23f0f3f30d73bc61adcef02e7750f71eb2731ddc
+Merge: 8e8feee 4f520b1
+Author: ahmedbodi <ABodiwala@uclan.ac.uk>
+Date:   Mon Jan 16 10:45:47 2017 +0000
+
+    Merge pull request #27 from hclivess/patch-1
+    
+    Update README.md
+
+commit 8e8feee327ccb5d2c8c221792014e12085127461
+Merge: 3fff1f6 c074883
+Author: ahmedbodi <ABodiwala@uclan.ac.uk>
+Date:   Mon Jan 16 10:45:31 2017 +0000
+
+    Merge pull request #26 from hclivess/patch-2
+    
+    removed outdated file
+
+commit c0748835820caff26b7cdbea1e9d896f3afec038
+Author: William Anderson <translace@gmail.com>
+Date:   Mon Jan 16 11:30:01 2017 +0100
+
+    removed outdated file
+    
+    seems like readme.md is more up to date
+
+commit 4f520b136e381f6d644d7687314c5335f111b946
+Author: William Anderson <translace@gmail.com>
+Date:   Mon Jan 16 11:28:25 2017 +0100
+
+    Update README.md
+    
+    added proper formatting
+
+commit 3fff1f6e39ddc9dd13490333fe649b405efbfb47
+Merge: 95c89de e2cb9b7
+Author: ahmedbodi <ABodiwala@uclan.ac.uk>
+Date:   Sat Jul 2 22:29:25 2016 +0100
+
+    Merge pull request #24 from hclivess/master
+    
+    Update to 1.8
+
+commit e2cb9b7719adfcfa7ef1e050c643d40bb76f857e
+Author: hclivess <translace@gmail.com>
+Date:   Tue Dec 15 14:15:38 2015 +0100
+
+    cleanup
+    
+    removed redundant local testing files
+
+commit f6b3ac6c95867da2dfa297e2d2b66c8696272ae0
+Author: hclivess <translace@gmail.com>
+Date:   Tue Dec 15 13:54:48 2015 +0100
+
+    db version 1.8 test
+    
+    Armv7 optimized + executable
+
+commit b85dda451403e277fcc36600cbfe5f443cab09d2
+Merge: e7a76d9 f8e55ac
+Author: hclivess <translace@gmail.com>
+Date:   Mon Dec 14 15:03:03 2015 +0100
+
+    Merge branch 'master' of https://github.com/hclivess/HoboNickels
+
+commit e7a76d967328ab4d4b199fc0566898460e8ddaa6
+Merge: 6262e83 95c89de
+Author: hclivess <translace@gmail.com>
+Date:   Mon Dec 14 15:01:28 2015 +0100
+
+    Merge remote-tracking branch 'refs/remotes/Crypto-Expert/master'
+
+commit f8e55ac6f36419f7bca0c255d6689c0533bb76ff
+Author: Script Kid <translace@gmail.com>
+Date:   Mon Dec 14 14:56:01 2015 +0100
+
+    Update README
+    
+    updated to merged
+
+commit 6262e83ecab027a108ad44330ab47e9ec5df3b05
+Author: hclivess <translace@gmail.com>
+Date:   Mon Dec 14 14:28:13 2015 +0100
+
+    Revert "Update build_detect_platform"
+    
+    This reverts commit 2b5c1576d2293d20a9cfbe865b8906e53328aab9.
+
+commit c8b89b004962a0db4635400e8542951ba81193a6
+Author: hclivess <translace@gmail.com>
+Date:   Mon Dec 14 14:28:05 2015 +0100
+
+    Revert "Update Makefile"
+    
+    This reverts commit 6b6562e2d77ef2c7242e40dfa289756ac0125d86.
+
+commit 2b5c1576d2293d20a9cfbe865b8906e53328aab9
+Author: Script Kid <translace@gmail.com>
+Date:   Mon Dec 14 13:10:33 2015 +0100
+
+    Update build_detect_platform
+    
+    reverting to test
+
+commit 6b6562e2d77ef2c7242e40dfa289756ac0125d86
+Author: Script Kid <translace@gmail.com>
+Date:   Mon Dec 14 13:02:55 2015 +0100
+
+    Update Makefile
+    
+    reverting to test
+
+commit 9643719f8b476c66a33722248ac6a5cbecebae3c
+Author: Script Kid <translace@gmail.com>
+Date:   Mon Dec 14 12:47:50 2015 +0100
+
+    Update main.cpp
+    
+    flying delorean transaction exploit fix
+
+commit 95c89de82be7039b2d8c4ba8f85223fcaad35c5d
+Merge: d671b09 fa475d6
+Author: ahmedbodi <ABodiwala@uclan.ac.uk>
+Date:   Wed Dec 9 17:12:56 2015 +0000
+
+    Merge pull request #25 from hclivess/patch-2
+    
+    readme update
+
+commit fa475d6c076ee6669b2829fe79175d215efb2f33
+Author: Script Kid <translace@gmail.com>
+Date:   Wed Dec 9 16:36:07 2015 +0100
+
+    readme update
+    
+    Added some info from Wiki and ann
+    I don't really know what should be here, so I added what I thought was relevant
+
+commit 272949062e56f4dd6ea558febc7e2dfd29db40ff
+Author: hclivess <translace@gmail.com>
+Date:   Wed Dec 9 14:28:04 2015 +0100
+
+    Update to 1.8
+
+commit d671b09f6b14986cf5bec72713037af650be2280
+Merge: 70de6e4 1ea5f01
+Author: ahmedbodi <ABodiwala@uclan.ac.uk>
+Date:   Wed Dec 2 22:28:57 2015 +0000
+
+    Merge pull request #23 from Tranz5/master
+    
+    src/scrypt-arm.S missing
+
+commit 1ea5f017c3a598d36eb3d15f911431983224aa6b
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Thu Nov 12 00:01:56 2015 -0500
+
+    Remove Priszu
+
+commit fef718f6601906780e43a4e6a3dddc2831bac3b0
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sat Jun 13 13:27:22 2015 -0400
+
+    Update checkpoints.cpp
+
+commit 60a4319d8faaa4a4ba7580648cf1197280d86395
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Mon Jun 1 23:07:23 2015 -0400
+
+    Remove checkpoint warning. Bump Version
+
+commit f46fa0c32d33ffd6194cc5f2c994a2d62081a7d4
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Apr 21 21:22:09 2015 -0400
+
+    Update split/combine threshold
+    
+    Up the max to 100/200 as startup, and added rpc commands, which allow
+    the default max, or wallet balance divided by 250
+
+commit 70de6e47ecd3336881ca7afdb0dbcbd04bbc65fa
+Merge: eb8f73c a70a8bd
+Author: ahmedbodi <ABodiwala@uclan.ac.uk>
+Date:   Wed Nov 12 09:13:03 2014 +0000
+
+    Merge pull request #22 from Tranz5/master
+    
+    Version 1.5
+
+commit a70a8bd1cf7b0bb6727446065f86154d6d7c57e7
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Nov 11 21:33:42 2014 -0500
+
+    Add money supply to BB
+
+commit 7f90b4893f003e39a71cea21b2082ee0c44b640d
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Nov 11 19:00:41 2014 -0500
+
+    Bump Version
+
+commit d677d58eb5f1fb7d0f07df7b10ede8bb832a8890
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Nov 11 18:47:55 2014 -0500
+
+    1.5 Hard Fork
+    
+    On Saturday Jan 17 2015:
+    Fix Max weight to be correctly set to 30 days
+    Set Past/Future Drift to 5 min
+    Set Max PoS Reward to 250
+    
+    At block 1,600,000:
+    Sanity Check Spacing
+
+commit b5f2fce10a4d6cc3692df19c6667c624c5eddb46
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Nov 11 18:29:29 2014 -0500
+
+    Fix progress bar
+
+commit b082fd2882a1bf6775d699c5fd57ff2a720af29a
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Nov 11 18:28:30 2014 -0500
+
+    Add money supply to BB
+
+commit 772868e7e0915488f1d03c7f21d4cdb73563370d
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Oct 21 19:53:51 2014 -0400
+
+    Fix for QT pre 4.7 (setPlaceholderText)
+
+commit ad8de3baa886cfa0f5d4cb29fc6d01a073d16f7e
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Oct 21 18:42:21 2014 -0400
+
+    change to int64_t fix 2
+
+commit 7e857d2d4ad1fc29a58f5946638f08d3184fa98f
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Oct 21 18:06:00 2014 -0400
+
+    change to int64_t fix
+
+commit 0b67b4db03783d05f512028d1251c1f930cc1b7a
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sun Oct 19 20:41:15 2014 -0400
+
+    set MintOnly to false if user locks
+
+commit a5e9f3fad6ca90aed3745ec60dcced19edf6ac79
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Thu Oct 16 19:30:23 2014 -0400
+
+    Final 1.5 Beta
+    
+    Increase combine threshold default and max
+    bump version
+
+commit fa9a1769ed70e6feba34f286c2230325ed215341
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Wed Oct 15 21:35:12 2014 -0400
+
+    Update for 53c16708a5d863ca6f60f6c59aa682c13e0d0998
+
+commit 53c16708a5d863ca6f60f6c59aa682c13e0d0998
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Oct 14 21:53:03 2014 -0400
+
+    Change progress bar from block-based to time-based
+    
+    Also remove some sleeps
+
+commit f5d7f667f3cf99fe2bf7b7eee485c2a05e24427a
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Oct 14 21:13:49 2014 -0400
+
+    New debug category checkpoint
+    
+    Keep the log cleaner, unless you care about checkpoints.
+
+commit 6984a4f429bd3ae94282e6875fa47fd4f2727459
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Oct 14 19:31:15 2014 -0400
+
+    S4C Update
+    
+    Truncate if the max is sent and hit.
+    Only check for rollback by block number to prevent sending twice.
+
+commit de48d363c150bb6918e7d70f17f3a0e71b49182b
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Oct 14 18:09:00 2014 -0400
+
+    Refactor log printing
+    
+    Add Typesafe
+    replace printf with LogPrint(f)
+    remove .c_str() from prints
+    remove prints()
+    replace PRI64(d,u,x) with %d, %u, %x
+    remove ToStringShorts
+    replace multiple debug switches with -debug=  or just -debug for all
+    use qDebug() for QT
+
+commit 0cbb1f94cf120d6acaba05eb1b52c26fd77b419c
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sat Oct 11 14:05:50 2014 -0400
+
+    Route qDebug() messages to debug.log
+    
+    remove printf redefinition from bitcoinrpc.cpp
+    code cleanup
+
+commit 959ac3e4e1d11617bb6ab9076bf6d84466db3935
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Fri Oct 10 21:54:57 2014 -0400
+
+    OutputDebugStringF code cleanup
+
+commit 67ccad9820c6fc0a708c6972e917e1e7882b0a6e
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Fri Oct 10 21:49:15 2014 -0400
+
+    Route qDebug() messages to debug.log
+
+commit 66dd15d4762d5c6f94e768c4e4f9094234416275
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Fri Oct 10 20:33:27 2014 -0400
+
+    Change to int64_t
+
+commit 8c418a459832ab4db815d349de01abd2af1b1e83
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sun Sep 28 23:28:37 2014 -0400
+
+    Prevent sending the same S4C twice.
+    
+    happens during a rollback.
+
+commit 97e7d2ebfebd51ec5423f3d8746e108f42543487
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sun Sep 28 22:19:48 2014 -0400
+
+    Fix Block Browser Crash
+    
+    when clicking on transaction with zero confirms
+
+commit b64a201969532e475c0eb0afab19f5106a9a3977
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sun Sep 28 18:06:57 2014 -0400
+
+    S4C Change Address Fix
+
+commit 0d442ec0f79804108b6bac750a8d4582f6468ce0
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sun Sep 28 15:57:27 2014 -0400
+
+    small stakingIconClicked fix
+
+commit 95bbc2f976d10845b05393b886cd090d6b7a793f
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sun Sep 28 15:00:17 2014 -0400
+
+    Update Stake For Charity
+    
+    Add Change Address
+    Make Change Address, min and max write to wallet.
+    Add Labels
+    Change getS4C calls
+    
+    Add missed .ui files from earlier commits
+
+commit c9e91a0b800f3e20a1b84d5b7957626c1cb5b445
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sat Sep 27 15:13:24 2014 -0400
+
+    CoinStake Updates
+    
+    Add Split Threshold (Hat tip ghostlander ORB)
+    Update Combine Threshold
+    Default both to 5.
+    Allow user to change these settings (within range) by startup parms.  (
+    -splitthreshold and -combinethreshold )
+
+commit 88f579b9b9fe4be97f476875d036596558cc9055
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sat Sep 27 00:32:51 2014 -0400
+
+    Safely shutdown HBN during windows shutdown.
+
+commit c8ba5b7f3a3ec2f3f1b6b9f8f5d5e393541c5d38
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Thu Sep 25 20:39:43 2014 -0400
+
+    Add total to transaction page
+    
+    Change columns name Address to Address/Label
+
+commit 348e9b10cac25eea0cc1f7bb0afe9068065d45e5
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Wed Sep 24 23:59:14 2014 -0400
+
+    Coin Control Update move up nYearlyPercent
+
+commit 2b9588b6dad268a81b1648bab7e751943d13d3f0
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Wed Sep 24 23:40:51 2014 -0400
+
+    Coin Control Updates
+    
+    Add Age and Potential Stake (Hat tip PressTab HYP)
+    Add Coin selection (Hat tip PressTab HYP)
+    Add Address and Paste Button to sendcoins
+
+commit 148333a2f9d41905854c38a2186f9a681850fd88
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sun Sep 21 23:10:59 2014 -0400
+
+    Add peertable to .pro
+
+commit e6c3456ea3c1103f47f87e10bf298f94f86f7144
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sun Sep 21 22:39:53 2014 -0400
+
+    Add Peer Info to Console
+    
+    Many changes to Nodes, including: nodeIds, syncNodes, and cleanSubVer
+    
+    Nodes are started with boost signals
+    
+    Added guiutils: formatDurationStr, formatPingTime, formatServicesStr,
+    and  class TableViewLastColumnResizingFixer.
+    
+    Removed Extended PeerInformation message popup.
+    
+    rpcconsole.ui was missed from 3446a7525037ddb0ecc9e2348608c630087ac4b1
+
+commit 3446a7525037ddb0ecc9e2348608c630087ac4b1
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sat Sep 20 17:21:09 2014 -0400
+
+    Add Network Traffic Graph
+
+commit be63e5402cf1a22649f9c4b7e7f69fd4c521932d
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sat Sep 6 13:30:04 2014 -0400
+
+    Update a19920fdc82d0ef9865275922f0547b67f7395ea
+
+commit a19920fdc82d0ef9865275922f0547b67f7395ea
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sat Sep 6 12:44:49 2014 -0400
+
+    Make sure wallet is filebacked before writing S4C
+
+commit e5cdb6d284fb86350f9185b3b14f79c9bc16028d
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Fri Sep 5 20:58:41 2014 -0400
+
+    Missed S4C Global Switch if written to disk.
+
+commit ec18ae571f4eb2351fceb36ef945de8a7bb70970
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Thu Sep 4 21:26:51 2014 -0400
+
+    Bump
+
+commit c2153fdca9ce2e22c67ebdeee96647fd78d92ff6
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Thu Sep 4 21:19:34 2014 -0400
+
+    Block Browser Final Update
+    
+    More code cleanup, close button added, remove un needed includes
+
+commit cf2f423b016eca1b85542049ca10d636a338d8b8
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Thu Sep 4 01:28:47 2014 -0400
+
+    Block Browser Cleanup
+
+commit e3b09ff75338bd4149112dd68396524777c6e45d
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Thu Sep 4 01:15:46 2014 -0400
+
+    Block Browser Fix updateExplorer
+    
+    Also add ability to get PoWHashPS and PosKernelPS by blockindex
+
+commit 463be5a1cac994ba99cf059031be3318d8e50d5b
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Wed Sep 3 20:24:49 2014 -0400
+
+    Block Browser right click txid in tx page will also set block info
+
+commit f4f3986924e14bfa34606081e78e6b6cca92486f
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Wed Sep 3 02:46:09 2014 -0400
+
+    Block Browser Fix Inputs
+
+commit 05f78d0ad48522bd227ec600a50ca9e2205e9cb7
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Wed Sep 3 01:35:42 2014 -0400
+
+    Block Browser Fix Outputs
+
+commit c58306e991ed04f8ca6134bc04124d2fce108497
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Wed Sep 3 00:22:15 2014 -0400
+
+    Block Browser Fix Fees
+
+commit d7764348b4e4d0b0d6b1e6aa3f48062747013202
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Sep 2 23:19:10 2014 -0400
+
+    Add right click on transaction ID goes to blockbrowswer
+    
+    The block browser needs major work for transaction IDs.
+
+commit b4a4d0e9c4a72aa456fd51c70b93936a0eaaaf4a
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sun Aug 31 23:16:00 2014 -0400
+
+    Fix close buttons
+
+commit a89a50b4d0dbcab0a4b591aeba4ad6379108c8ec
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sun Aug 31 22:07:21 2014 -0400
+
+    Make S4C Message persist after restart
+
+commit 6bc8e89098d47047b0c09d57a73ff2447938016e
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sun Aug 31 21:28:06 2014 -0400
+
+    Add info icon
+    
+    Remove S4C from wallet menu
+    Add max to coincontrol
+
+commit 66c24346d4b6cc45423fc0e16f534101a3b65c9d
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sun Aug 31 21:13:50 2014 -0400
+
+    Make Block Browser function as standalone window
+
+commit 05625df83bcae0b4bb9d52773957cf2480bf5654
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sun Aug 31 16:39:27 2014 -0400
+
+    Embed S4C as gui widget
+
+commit c485f399c7c97752793c06a0d166d3610cbf383d
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sun Aug 31 14:27:04 2014 -0400
+
+    Set Wallet Stack size to fixed 150
+
+commit 04ff115b6574c310a1959633ebed8e14ff78dd2a
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sun Aug 31 13:55:50 2014 -0400
+
+    Fix For S4C Write in Gui and Bump Versions
+
+commit 6c76dbf442b02612ae103b1a5d72bed188f9d398
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sun Aug 31 11:03:39 2014 -0400
+
+    Add missed blockbrowser to .pro
+
+commit 3152bf3b563a391a2873b1468f42acba61f2937f
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sun Aug 31 02:12:32 2014 -0400
+
+    Stake For Charity saved to wallet rpc
+
+commit 60434e9ce62b9cc3c786058d8721a6b066e4e959
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sun Aug 31 01:41:12 2014 -0400
+
+    Stake For Charity saved to wallet
+
+commit 2ef0266d2f747b6559371d66b4ae0f85c5835d05
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sat Aug 30 16:22:53 2014 -0400
+
+    Add Min Max to S4C
+
+commit 29f4b2ffdac444cf6f5f28236c291a5cf7b56ecd
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Fri Aug 29 21:19:26 2014 -0400
+
+    Bump Version
+
+commit 4c16289c53bd26f81463dc89868149b65c05f99c
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Fri Aug 29 21:14:36 2014 -0400
+
+    Only check 250 blocks at startup
+
+commit 427ebdae3c04e3580d7f1dbc0b099b586465ad8d
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Fri Aug 29 21:14:20 2014 -0400
+
+    Add Stake For Charity to GUI
+
+commit 02181508c3c7231516ca991747f210abbc11966f
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Wed Aug 27 00:26:41 2014 -0400
+
+    Add more options to Network menu
+
+commit 65d5e58907dfd86acb8eafffab2ba9a81c824204
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Aug 26 23:42:26 2014 -0400
+
+    Add BlockExplorer
+    
+    Also add menu Network
+
+commit 7f7cc914d365ef0386b073f9ff06bae8eb7162cd
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Mon Aug 25 21:10:40 2014 -0400
+
+    Avoid querying DNS seeds, if we have open connections.
+    
+    Also add a new dns seed.
+
+commit a268230684b64e780238fec3bd2e85a6eb8ae190
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Mon Aug 25 19:43:42 2014 -0400
+
+    Add comment about never updating nTimeOffset past 199 samples
+
+commit 861f072577bb7c235709b1654022506765e9ea02
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Mon Aug 25 19:39:23 2014 -0400
+
+    Fixed for FindNode
+
+commit 07afab2d72b81397c0a76820c3e6856b70e169f2
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Mon Aug 25 19:36:55 2014 -0400
+
+    Remove CTransaction::IsNewerThan which is never used
+
+commit 5d77005dc66db1063774e067abe1c11c4cdc1060
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Mon Aug 25 19:34:18 2014 -0400
+
+    Small fixes
+
+commit 097c4bfecf6ba0042de59727efa622f6241beee3
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Mon Aug 25 19:06:35 2014 -0400
+
+    Remove enforcecanonical option, it's always active from now
+
+commit 083540c743aea299f87f5a5bdc05fc43a9070f4b
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sat Aug 23 22:08:38 2014 -0400
+
+    Changes to walletpassphrase
+    
+    Make sure timeout value is within range.
+    Passing zero will unlock for 2.92 billion years.
+    Lock the wallet while setting the fWalletUnlockMintOnly Flag.
+
+commit 739b66062630c717058caf3c0137d548534fd68c
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sat Aug 23 14:59:29 2014 -0400
+
+    Remove dead transaction replacement code
+    
+    Should go with 019af9306e
+
+commit ebafde92c2b893d241a107a4dbd1002c1ec4afae
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sat Aug 23 14:50:08 2014 -0400
+
+    Add Ping and use it for keep alive
+
+commit dd189ad1e11c2f3f0a0240adf879e526f1150c41
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sat Aug 23 12:27:20 2014 -0400
+
+    Add GetTimeMicros() for more accurate benchmarking
+
+commit 46fbb7eb3ec19f4d036505b66888ac25365efb62
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sat Aug 23 12:19:26 2014 -0400
+
+    add OpenSSL RAND_cleanup() on OpenSSL shutdown
+
+commit 8e7f61eab6dd5e19b44496db398e6f78fd2b60fb
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sat Aug 23 12:16:45 2014 -0400
+
+    Update readme-qt.rst
+
+commit 6e0908857c127161fc862a2055d2fe015d45e2a9
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sat Aug 23 11:13:53 2014 -0400
+
+    drop workaround for bitcoin v0.1.5
+
+commit 313e48112d8052fa07c0851e1bd4653e2caa7309
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sat Aug 23 11:11:17 2014 -0400
+
+    Remove un-needed SyncWithWallets
+    
+    We already have it under AcceptToMemoryPool
+
+commit 0d9bd60e32b17f3c2363d6d03077c52b2a8cbd18
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sat Aug 23 11:10:28 2014 -0400
+
+    Update to Memory Pool
+
+commit 019af9306e22374183c9eac9f875dd6a4d5a5e33
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sat Aug 23 11:04:02 2014 -0400
+
+    Update to Memory Pool
+
+commit c7a97efc10c8d894908bdae9a200684a31c9dde9
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Fri Aug 22 21:47:24 2014 -0400
+
+    Fix nSendBytes
+
+commit c8e919dc310b732ec05a8d56ed1f4ecdcc1c18ab
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Wed Aug 20 23:14:41 2014 -0400
+
+    Fix multi-block reorg transaction resurrection
+
+commit c2194fb604b64adec96e7bb129afd974cf5a7656
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Wed Aug 20 23:12:09 2014 -0400
+
+    Only send reorged txn to mempool after checkpoint
+
+commit 70ecab0c842b375f174bbde92d6d2f4162b4e461
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Wed Aug 20 23:08:54 2014 -0400
+
+    Reject non-canonically-encoded sizes
+
+commit 792404896a3ab3dd04ea96eb3fe75c427b0bce94
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Wed Aug 20 22:37:33 2014 -0400
+
+    Add lock during S4C
+
+commit f6d8d6f7a7030539440a5ee6b127ebd4cef96be7
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Aug 19 21:55:34 2014 -0400
+
+    remove miner_test again
+
+commit fa8aaad4d186785d2b323e85cf922aaeace00eb1
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Aug 19 21:51:12 2014 -0400
+
+    Display tx nLockTime correctly when set to block #
+
+commit e3125080c78a33a7b5a68c78cb0e5dc4adb09175
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Aug 19 21:28:16 2014 -0400
+
+    Internal RNG for approximateBestSubset to prevent degenerate behavior.
+
+commit 61580e3b358c5d7e61c54b10724ec136b9c33050
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Aug 19 21:07:53 2014 -0400
+
+    Ignore too-long redeemScripts while loading wallet
+
+commit 6703b69c24315f7df6503a420cd3f32f6c067098
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Aug 19 20:58:25 2014 -0400
+
+    remove fClient
+
+commit d9a625a53f144f52f0edc4e0ab65624a88fc8ea2
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Aug 19 20:24:57 2014 -0400
+
+    refactor coin selection for staking
+
+commit ecc08571f3bc241461f386c5d23553d60b4511ad
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Aug 19 00:35:05 2014 -0400
+
+    Updates to isFinal and fix off by one errors
+
+commit da59be105417f6f3fda5e9261692e611b48b6351
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Fri Aug 15 23:34:12 2014 -0400
+
+    Update StakingIcon
+    
+    Fix spacing and wait for > 3 peers
+
+commit 9b25712aaf977781a17274b072c419f09e755b9f
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Fri Aug 15 23:07:21 2014 -0400
+
+    Change Overview Page to show 6 items
+
+commit e4d372b8107248cdcc48597b2508289c4536dec1
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Fri Aug 15 22:28:26 2014 -0400
+
+    fix memory leak
+
+commit a6ac37e0c127eb6114e47e9c27be8ab0955f6157
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Fri Aug 15 22:22:07 2014 -0400
+
+    askpassphrasedialog: clear pass fields on accept
+
+commit 846c5a6e949d5c85c56859e9dfb7952f2bf2c499
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Fri Aug 15 22:14:46 2014 -0400
+
+    More lock updates
+
+commit b00275c5da2370dbe2a3f2d3092cc26e26419cd3
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Fri Aug 15 00:03:43 2014 -0400
+
+    remove unused UPnP code from main.h
+
+commit 9793788054c68d6870e56501467b70c23ef5d614
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Fri Aug 15 00:01:07 2014 -0400
+
+    key.cpp: fail with a friendlier message on missing ssl EC support
+
+commit 3441039a576a253897feb52d4a8213dc23e8ef6b
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Thu Aug 14 23:27:13 2014 -0400
+
+    Comments for constants
+
+commit 9bedcab60c912aab11cd9b602d81aaabb9d1e7f4
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Thu Aug 14 23:16:15 2014 -0400
+
+    Allocate receive buffers in on the fl
+
+commit 4bbc2bea564709d95ad3883ee4ad3473b333acee
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Thu Aug 14 23:12:51 2014 -0400
+
+    Code Cleanup
+
+commit 077575f4585ddec00b8e040a7d01dd2a4d0faf7b
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Thu Aug 14 23:03:09 2014 -0400
+
+    Consistent lettering
+
+commit 4c9a74c97ad994db7e60a9bda5eb431b95f1e1b3
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Thu Aug 14 23:02:02 2014 -0400
+
+    replace 3 separate calls to WSAGetLastError() with 1
+
+commit 85a8de338335608270671748fd9df71af5b3a759
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Thu Aug 14 20:55:04 2014 -0400
+
+    partially revert 7f48d7e
+
+commit 7f48d7e6a1e7af2cc9d2c50850cdedfa2bdc48ac
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Thu Aug 14 00:20:20 2014 -0400
+
+    More Lock Updates
+
+commit 76f376fefdf65199e8d57c2698b3bff14176863b
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Wed Aug 13 20:57:35 2014 -0400
+
+    Major update regarding locking
+
+commit 6f8d5adef81b2851f7a4203383150269cb3c56cd
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Wed Aug 6 21:44:09 2014 -0400
+
+    Update clientversion.h
+
+commit 436cc32d8932e9715dd71c5bfb7eb582832f6980
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Wed Jul 30 00:36:56 2014 -0400
+
+    Sort OverviewPage by Date
+
+commit e0b91d142e8b7aec662d93600ca86bebcb24e5bc
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Wed Jul 30 00:22:31 2014 -0400
+
+    [Qt] Improve rpc console history behavior
+
+commit 57b38124f23020270ed0654c25d02fcda1bcdf36
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Wed Jul 30 00:21:48 2014 -0400
+
+    Remove IPV6
+
+commit 653c7d70f2e9ef7b9bbab653592664ed203790e3
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Wed Jul 30 00:17:49 2014 -0400
+
+    osx: fix building libmemenv.a
+
+commit 797c52de2db039ecc9a2d123725007c7b3d13f1a
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jul 29 23:21:32 2014 -0400
+
+    Bug fix: CDataStream::GetAndClear() when nReadPos > 0
+
+commit c14a327bc0e5042ae01808b604925d7f62628640
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jul 29 23:01:17 2014 -0400
+
+    .pro updates for linux
+    
+    Enable DBUS by default and dynamically link to librt and libdl
+
+commit 715a1744e104086aa1805630c73b45174b876314
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jul 29 22:38:26 2014 -0400
+
+    remove option to build without ipv6 support
+
+commit 1fc06a72c2214abd4ee0fe2644fca2f8617989ac
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jul 29 21:53:34 2014 -0400
+
+    Relay OP_RETURN TxOut as standard transaction type
+
+commit a9c4540ddd8b575b8a9b035085da8c56a91afff6
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Thu Jul 24 23:20:22 2014 -0400
+
+    Update About Page
+    
+    Use Rich Text
+
+commit a958de0ba6951d72b32fbd5bf9749d600a809ce0
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jul 22 21:05:14 2014 -0400
+
+    Remove template matching params from GetOpName()
+
+commit 0ca28898db4364926f937ca898c0916a243e8b89
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jul 22 20:45:50 2014 -0400
+
+    CWallet: fix nTimeFirstKey init, by making constructor init common code
+    
+    Also change S4C Address var name
+
+commit 0435cfb39c46a4143f4568df37eaf2b48bbc0de9
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jul 22 19:51:13 2014 -0400
+
+    Limit number of known addresses per peer
+
+commit 4ce4e0357d9250e61decc8f9797b0d5000dfc262
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jul 22 19:48:54 2014 -0400
+
+    Split MIN_PROTO_VERSION
+
+commit 3f746d5471ec9cee3997af9ebac42bd241dc2ad5
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jul 22 19:36:05 2014 -0400
+
+    Use per-message send buffer, rather than per connection
+    
+    This can be combined with 69948a6f589f378662e9ee08608f4e9c16079134
+
+commit d548cba9a559f9ccb31579846f53a8d2cc848bcf
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jul 22 18:41:45 2014 -0400
+
+    P2P: improve RX/TX flow control
+
+commit 69948a6f589f378662e9ee08608f4e9c16079134
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jul 22 18:36:39 2014 -0400
+
+    P2P, cosmetic: break out buffer send(2) code into separate function
+
+commit ba85423ba59801e1ba6d9a4a8130cc7a7a8d059a
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Mon Jul 21 22:08:22 2014 -0400
+
+    Further updates to CNetMessage processing
+    
+    These could be combined with the previous commit
+
+commit ec2a4acdb31ae7b7f3ae41a7e021a8f035771c99
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Mon Jul 21 21:58:03 2014 -0400
+
+    P2P: parse network datastream into header/data components
+    
+    Prevents peer from sending garbage attack.
+
+commit bd6357c752f1fc369239c673002f9ede1856ad29
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Mon Jul 21 21:13:13 2014 -0400
+
+    fix namespace bug
+
+commit d08447b4e3e96b208e32545da2d47fa5de1affa1
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Mon Jul 21 21:11:04 2014 -0400
+
+    fixed bitcoin #3162 bitcoin/bitcoin#3162
+
+commit 542bfb40c11d35e696561ffb3e1d3eed687072b2
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Mon Jul 21 21:04:08 2014 -0400
+
+    Show short scriptPubKeys correctly
+
+commit c13d09b9643f5adebe48e64071346dd7dee68412
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Mon Jul 21 20:59:18 2014 -0400
+
+    Remove OptionsModel::Upgrade
+
+commit 3fb68d4f9ace100083853e2507db5044cc08ca0b
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Mon Jul 21 20:56:06 2014 -0400
+
+    remove setting methods in wallet/walletdb
+
+commit 0603e0b8a85805e9456d4031338a4676b79125ee
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Mon Jul 21 00:15:45 2014 -0400
+
+    Change Coin Control to use local time
+    
+    Less confusion to user.
+
+commit 6c661a80c85ba259732c85830a91c5068bf8486a
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sun Jul 20 22:06:39 2014 -0400
+
+    fix build on Debian 7 wheezy
+
+commit e500d0cbfee3b67e656d78e88811ee8ec8abc047
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sun Jul 20 22:04:27 2014 -0400
+
+    Wrap GetMedianTimePast() in GetPastTimeLimit()
+    
+    Also Update Checkpoints
+
+commit e260f6da2b3f851c8c74bbf93d8080d28549a00b
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sun Jul 20 20:56:40 2014 -0400
+
+    Remove mapProofOfStake
+
+commit 2b23bce60a98921a452507ad7564114404eb467f
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sun Jul 20 20:38:49 2014 -0400
+
+    Revert dfb6cc43c8
+
+commit 1f8d4405e172059b8c14ca89925207120bfa008c
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sun Jul 20 01:20:10 2014 -0400
+
+    Add ReserveBalance to Extended PoS Information
+
+commit 82ae703091a951e165191e6a55b6634c6f3e9420
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sat Jul 19 16:16:11 2014 -0400
+
+    Changes to nReserveBalance
+    
+    Move this to wallet struct.
+    Start up switch will set all wallets loaded to same
+    -reservebalance=<amount>.
+    RPC command will allow individual wallets to be set using the usewallet
+    <walletname> reservebalance command.
+
+commit c075abbfcfee9b3d42af0ad2a778ff681d3f31c8
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sat Jul 19 14:20:55 2014 -0400
+
+    remove fStrictPayToScriptHash checking.
+    
+    It has always been active in HBN
+
+commit 3e9320576c3da629fd86bb9ca0ef36a6e3cb65cb
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sat Jul 19 11:49:25 2014 -0400
+
+    Move Display Ver to Client Ver and bump client ver
+
+commit fbec842b44b50afbc012ed40389931d83a108071
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sat Jul 19 11:18:38 2014 -0400
+
+    Prevent socket leak in ThreadSocketHandler.
+
+commit e14dc292026611439c24915c530b0e57dd6a0e1c
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sat Jul 19 10:52:04 2014 -0400
+
+    Add redeemScript to listunspent
+
+commit c6ba27f9926af8f7fc0b73340c175e9d327a2c85
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Fri Jul 18 00:38:31 2014 -0400
+
+    More code cleanup
+    
+    Also Changed GetProofOfWorkReward
+
+commit c657b5e0f4759869ebd67d1a5ac1ab3f0f80d17f
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Thu Jul 17 23:56:57 2014 -0400
+
+    Remove dupe fNameLookp
+
+commit 2d2352d318ff7ac67d2347a3380632de690b9118
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Thu Jul 17 23:55:41 2014 -0400
+
+    Remove old code
+
+commit 267902f26ac85a6fe8061a2d1ff5166f395d4909
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Thu Jul 17 22:22:24 2014 -0400
+
+    Add and use MAX_SCRIPT_ELEMENT_SIZE
+
+commit eb1553c396fdb3ead426aafc9d76afd3d6bbbd15
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Thu Jul 17 21:16:06 2014 -0400
+
+    Linux Autostart fix
+
+commit 95cd45331f69e5741dbac4e6554c86ae8dc51815
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Thu Jul 17 21:06:44 2014 -0400
+
+    A few updates for the Mac
+
+commit dfb6cc43c8117d38fff57d659b3a89e59b32c308
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Thu Jul 17 19:45:06 2014 -0400
+
+    Update how staking icon is updated.
+    
+    Help gui lag a bit.
+
+commit 4f4323b1ba516fb82a8da6bc6ef557d480f8f49f
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jul 15 22:57:22 2014 -0400
+
+    fix unconfirmed balance if wallet contains conflicted transactions
+
+commit bd3e1cc6358e728379f5b3f288c91b22e173c0b6
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jul 15 22:51:55 2014 -0400
+
+    Importprivkey updates
+
+commit 5d16ea45fce758a68995d99a5ff77bbc3cb71029
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jul 15 22:26:46 2014 -0400
+
+    Cleanup some extern vars
+
+commit a033f57e0cc1a63adc6ef4e388998b868728848e
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Mon Jul 14 21:53:40 2014 -0400
+
+    Don't fail if default key is unavailable
+    
+    This solves the issue where no default key can be added after
+    -salvagewallet.
+
+commit e2a25efe480b720e85bf19da72aa539f52b1abe3
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Mon Jul 14 20:51:45 2014 -0400
+
+    Correct some proxy related socket leaks.
+
+commit 32de29984cfd7c445b83d2d577cfc3e3a14aa9f4
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Mon Jul 14 20:43:16 2014 -0400
+
+    Add pindexPrev check to CreateCoinStake
+    
+    Should lower orphan rate
+
+commit 38a555bdef636c1297348a8b7c5f5f98f6f9b316
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sun Jul 13 22:39:01 2014 -0400
+
+    Update some wordings.
+
+commit 9f9b66dd975ca2e9ca8216782fde1cfc72cd721e
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sun Jul 13 21:41:17 2014 -0400
+
+    QT: Default sort transactions by date
+
+commit c3ffd782310df3db3fd24575e827f12538ced327
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sun Jul 13 21:31:19 2014 -0400
+
+    Only list a stake transactions once in listtransactions
+
+commit b2a5787840e818b5d823abf797460b4470a030be
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sun Jul 13 21:18:46 2014 -0400
+
+    Don't fail salvagewallet due to duplicates.
+
+commit 8a8e95370e0c42167a87112bd360f81925235815
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sun Jul 13 15:37:58 2014 -0400
+
+    remove an assignment which is never used.
+
+commit 65584dcc57a05ab66386e647fe7beb235a561aa9
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sun Jul 13 15:21:15 2014 -0400
+
+    Call GetBoolArg once where applicable
+
+commit ded4b5104e91bc74c4331471c0755c5b8adb50db
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sun Jul 13 14:07:35 2014 -0400
+
+    Add startup switch -synctime
+    
+    Allows you to not sync time with peers if you are using precise time.
+    Default on.
+
+commit e781bb9f0afc46449161a46a206ca49359d6fec1
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sun Jul 13 13:33:54 2014 -0400
+
+    Changes to StakeMiner
+    
+    Add optional switch nMinerSleep and make sure we have a strong
+    connection before attempting stake.
+
+commit b174a32d15b62c82caa64e2ac4a2cea77e971be3
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sat Jul 12 21:13:49 2014 -0400
+
+    Change Sleep to MilliSleep
+
+commit aa886c6fa9ce4684f139e74d843db1ef3cf5b935
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sat Jul 12 14:36:19 2014 -0400
+
+    Recommend alternotify be used and do not allow RPC user and Password to be the same
+
+commit 2885a4165de783b15465a67455ccc9ec13ee7f0e
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sat Jul 12 14:34:44 2014 -0400
+
+    Revert "Recommend alertnotify be used"
+    
+    This reverts commit a465bdf117bc875358cca4b30d84999d13574e49.
+
+commit a465bdf117bc875358cca4b30d84999d13574e49
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sat Jul 12 14:34:24 2014 -0400
+
+    Recommend alertnotify be used
+
+commit 74ba1c5df07b8c324aa2ab092d3076f31c804e50
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sat Jul 12 14:21:59 2014 -0400
+
+    Add -alertnotify startup switch
+
+commit 7530fd3212bfb1b0580b84e84a9149183984551a
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sat Jul 12 12:45:21 2014 -0400
+
+    Drop release times for CNode
+    
+    Closes potential dos window
+
+commit e26a4c8ad23bdee70d80edd0ff18e69411590c47
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sat Jul 12 11:43:40 2014 -0400
+
+    Smooth out Net Stake Weight
+
+commit b40c7b454690749a0e1e1b96eff0382ad8f60219
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Fri Jul 11 22:49:31 2014 -0400
+
+    replace custom GetFilesize() with boost::filesystem::file_size()
+
+commit a1943e2d6b76f9c961ecab276036a388f95e76ef
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Fri Jul 11 21:17:10 2014 -0400
+
+    Change ChainTrust to uinit256
+
+commit e41a5741c8c09c387286b85fa9e4c3f0e30ea481
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Thu Jul 10 23:57:57 2014 -0400
+
+    Enable -msse2 flag for i686 only (Raspberry Pi Fix)
+
+commit 56f8eadce20dc12cb7ae8ea81a1c6c5be5e117b2
+Merge: 73260db 420b519
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Thu Jul 3 00:27:37 2014 -0400
+
+    Merge pull request #7 from iamunick/master
+    
+    Mac Updates and Testnet logo
+
+commit 420b5195fedf6c62752cc82daad4e7f2a4486efb
+Author: iamunick <why@iamunick.com>
+Date:   Tue Jul 1 15:48:16 2014 -0400
+
+    Update OS X icns file & Add new testnet logo
+
+commit 158a25688c85f1109e6c43c034294efabcefab74
+Author: iamunick <why@iamunick.com>
+Date:   Tue Jul 1 15:34:09 2014 -0400
+
+    OSX: Make use of notification center to display notifications
+
+commit cd090e776d24eabd1eb7e45e34a77a02d6816491
+Merge: 771fc4c 73260db
+Author: iamunick <why@iamunick.com>
+Date:   Tue Jul 1 15:17:08 2014 -0400
+
+    Merge branch 'Tranz5-master'
+
+commit 73260db35abd9b306ce8c3bbfe1c4572d9c00df4
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sat Jun 28 08:57:07 2014 -0400
+
+    Add zapwallettxes
+    
+    Remove transactions then rebuilds them by rescanning the block chain.
+    
+    Works with RPC command loadwallet as 3 optional parm
+
+commit 6eeb40ec081647fa13268fd78654a9cd35672399
+Merge: 771fc4c 05cfe71
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Mon Jun 16 23:23:09 2014 -0400
+
+    Merge pull request #6 from iamunick/patch-1
+    
+    Fix Close button bug
+
+commit 05cfe71e78723c7630fc3d7beb7a9c4942c0babb
+Author: iamunick <why@iamunick.com>
+Date:   Thu Jun 12 04:32:45 2014 -0400
+
+    Fix Close button bug
+    
+    Fixes issue when close button (red) was used and the window wouldn't come back.
+
+commit 771fc4c0d9ccdab7da83b6e9d0783f8196c22340
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Thu May 15 20:23:53 2014 -0400
+
+    enforcecanonical
+
+commit 4bc5ae077437af523647fda85d93afc009337ca0
+Merge: a26f801 eb8f73c
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue May 13 20:58:50 2014 -0400
+
+    Merge pull request #5 from Crypto-Expert/master
+    
+    Create makefile.fedora
+
+commit eb8f73c0a03c6f55ec8065356eec8c3971542313
+Merge: 3127ae5 27c628c
+Author: ahmedbodi <ahmed_bodi@msn.com>
+Date:   Fri May 9 20:47:10 2014 +0100
+
+    Merge pull request #19 from Crypto-Expert/Fedora
+    
+    Fedora MakeFile
+
+commit a26f801dd4880a1c7a31c2fda9f821510adb3743
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Mon May 5 20:59:01 2014 -0400
+
+    Fix resendtx
+
+commit fdf06a7ea1a9c3a56ec3adc8c60e3b6f6b3d6ea0
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sun May 4 18:15:08 2014 -0400
+
+    Modernize Transactions
+
+commit 35ff1738fd96fa1f481d1438c56cc4a338542919
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Thu May 1 22:49:07 2014 -0400
+
+    Changes to Wallet Buttons
+
+commit 952ef63b599b584b84e2ceba4c73594e07c949fe
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sun Apr 27 23:44:58 2014 -0400
+
+    Wallet Fixes dealing with birthday
+
+commit 82c20fdc84a54bbf8b4a4eadfeec20dde4a43bec
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Apr 22 21:34:29 2014 -0400
+
+    Do not write to wallet during LoadWallet
+
+commit e2ce96b2bb78b0a5b1e7d473f3e4237e2042406b
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Mon Apr 21 23:40:33 2014 -0400
+
+    Fix Mac OS X Dock minimising issue
+
+commit 04662c01d0765ed30a2c295198331b5656833cad
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sat Apr 12 22:54:16 2014 -0400
+
+    Update clientversion.h
+
+commit fffd1ecb2b1ca350a1bbb23532f6301d8443e833
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sat Apr 12 10:58:07 2014 -0400
+
+    Remove comments
+
+commit 987be68b42414bfdfdd82a8ad1f417415f19f4cd
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sat Apr 12 10:57:16 2014 -0400
+
+    Bump DB ver so it will auto reindex
+
+commit 794ff19446df1d49205f86d4d775b4e902a67606
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sat Apr 12 10:23:44 2014 -0400
+
+    Enable fast start, other changes to leveldb
+
+commit 3127ae59df9ec27fa1bcf60b5b2bb9579681508c
+Merge: 674fb72 a727146
+Author: ahmedbodi <ahmed_bodi@msn.com>
+Date:   Wed Apr 9 20:59:39 2014 +0100
+
+    Merge pull request #20 from Tranz5/master
+    
+    Version 1.4
+
+commit a72714633aaa9b543e1784cf6045337a4b73bb1d
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Apr 8 21:00:55 2014 -0400
+
+    Added boost replace hpp
+
+commit 99c25a243d3a14d5b71c8ba03a9a8e2b7a65e256
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Apr 8 19:58:32 2014 -0400
+
+    Version 1.4
+
+commit 4ddc7a0afe4492c433615cdb517089a2e26b9124
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Apr 8 19:56:48 2014 -0400
+
+    Version 1.4
+    
+    Version 1.4 released, bump PROTOCOL version due to open ssl bug.
+
+commit d6d1a1ddf373a60ecf1987bbdec27bfb7a8843c0
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Apr 8 19:50:19 2014 -0400
+
+    Update openssl
+    
+    Fixes security issue.
+
+commit 5658ec34cf768612646e2145f0e861bd6d07636f
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Mon Apr 7 22:19:22 2014 -0400
+
+    Started S4C Information in gui
+
+commit a78f5a8b6c0e07c758618110b80b7893cba4069e
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Fri Apr 4 15:15:07 2014 -0400
+
+    Mac fix and walletmodel update
+
+commit 2c41c792105239ec05f37d71011be44311d68dd0
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Fri Apr 4 14:10:18 2014 -0400
+
+    Changes to Stake for Charity
+    
+    Moved some global wallet variables into the wallet structure.
+
+commit 28da29dfdab5587acabefcfd45d197ac6f597502
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sun Mar 30 12:17:45 2014 -0400
+
+    Bump
+
+commit da0cbf9bd409f10766c83dd6f4016c1d93009443
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sun Mar 30 12:16:35 2014 -0400
+
+    fStopMining becomes fStopStaking
+    
+    Hobo changed to HBN and bump rev
+
+commit 8b685abb5cd5ae713a14acf5ee80c022d0769c7a
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sat Mar 29 23:27:29 2014 -0400
+
+    Stake For Charity (beta)
+
+commit 8bb007a5cdcb7368b32af3e1a521ae866808112a
+Merge: d1fd9ce b6f33b1
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sat Mar 29 22:14:35 2014 -0400
+
+    Merge pull request #4 from Tranz5/Test
+    
+    Changes to use NVC Fast Stake
+
+commit 27c628cfed3e15ff7242e6d66c401326ad1376c0
+Author: ahmedbodi <ahmed_bodi@msn.com>
+Date:   Sun Mar 23 23:11:53 2014 +0000
+
+    Create makefile.fedora
+
+commit 674fb72c75f2d52a3cbbc8471fbc9eae3af74687
+Merge: 330d9e3 d1fd9ce
+Author: ahmedbodi <ahmed_bodi@msn.com>
+Date:   Sun Mar 23 23:06:50 2014 +0000
+
+    Merge pull request #18 from Tranz5/master
+    
+    Half way to 1.4
+
+commit b6f33b139ce660bc93b8fb7aea5e9c14a795ec88
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Thu Mar 20 10:33:03 2014 -0400
+
+    Bump
+
+commit ed31e899fb03ee0a5c4c5b819611aad722b32103
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Thu Mar 20 10:26:32 2014 -0400
+
+    Changes to use NVC Fast Stake
+
+commit d1fd9ce9be5f55107f7f8de2e29f790e5684b7ff
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Mon Mar 17 21:03:03 2014 -0400
+
+    Added miner to pro
+
+commit c938d4b1da52bbddccbdd8713143aadcc6899fe9
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Mon Mar 17 20:25:09 2014 -0400
+
+    Added boost replace
+
+commit 467f67668d26677bac12580b1174efecbd839836
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sun Mar 16 18:00:36 2014 -0400
+
+    bump
+
+commit 847d857f0b2534fd5677dc0142109159fe496ec8
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sun Mar 16 17:56:00 2014 -0400
+
+    Mining related calls moved.
+    
+    Also Fixed potential memory leak
+
+commit eeedaa9e6b7af66c96e55720d09ca850dabb2ded
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sun Mar 16 13:11:04 2014 -0400
+
+    Added some script notifications
+
+commit 3425e68a451f3ca2e8fb2203476a112e90b68ab9
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sun Mar 16 00:10:28 2014 -0400
+
+    Fix
+
+commit 03f341154627c07ecc758ca047d7a0e8b837face
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sun Mar 16 00:02:14 2014 -0400
+
+    Scrypt arm added
+
+commit 9446f52312a302193b02744d0f8c1f42542383fc
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sat Mar 15 16:33:13 2014 -0400
+
+    show total on the send coins confirmation dialog if more then one recipients
+
+commit 4164147ebc654374c872be77c6b7075079cbe727
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sat Mar 15 16:01:56 2014 -0400
+
+    Lock icon is clickable
+
+commit 30d53919c0f34d1f60877224e500375573f6e9b6
+Merge: 8830b12 330d9e3
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sat Mar 15 01:15:51 2014 -0400
+
+    Merge pull request #3 from Crypto-Expert/master
+    
+    Fixed typos in Polish translation.
+
+commit 330d9e307c6926192ab8825c4e1d2311fab024f7
+Merge: c53ca2b 7026718
+Author: ahmedbodi <ahmed_bodi@msn.com>
+Date:   Fri Mar 14 20:16:06 2014 +0000
+
+    Merge pull request #17 from KrzysiekJ/patch-1
+    
+    Fixed typos in Polish translation.
+
+commit 7026718397f2cd1f60b0c0c94e0cfa37f224bc48
+Author: Krzysztof Jurewicz <krzysztof.jurewicz@gmail.com>
+Date:   Fri Mar 14 20:23:04 2014 +0100
+
+    Fixed typos in Polish translation.
+
+commit 8830b12127595cc63b69eb9ef880414b6af08822
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Thu Mar 13 20:51:10 2014 -0400
+
+    Fix some known bugs
+
+commit 2c3c94797308c4f9b12d30aa72824b6f5f85e0da
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Wed Mar 12 22:13:49 2014 -0400
+
+    Finish Icon Clicks
+
+commit 82d1c5b6dc55683d2fdbc72896affdc0cde16a5d
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Mar 11 23:17:33 2014 -0400
+
+    Updates to Icon Clicks
+
+commit 73d23bccf4aa4a755aef3bf9c5a0c005ff9899da
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Mar 11 00:23:56 2014 -0400
+
+    labelConnectionsIcon  is now clickable
+    
+    Shows extended network information
+    created new class ClickableLabel for QLabel
+
+commit a212a3a984fde5e05bb107524ae97ae1517b876d
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sun Mar 9 20:44:39 2014 -0400
+
+    removed iostream and fstream
+
+commit c4f47a7eb35e0ca9a2933ff0721f0ba83d17d77f
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sun Mar 9 20:37:28 2014 -0400
+
+    Added iostream and fstream for import/export
+
+commit 71af2bc4e680f36ed72bbffee3bd1bff902dc93a
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sun Mar 9 10:46:47 2014 -0400
+
+    Bump
+
+commit b543ec6841971c7244347067023f7c2ac54952b5
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sun Mar 9 10:39:50 2014 -0400
+
+    Added Export/Import Walllet GUI
+    
+    Moved dumpwallet/importwallet to db
+    Added new icons
+    Moved rpcdump helper functions to util
+
+commit 9b4ee12c4821995e025753fa656e04b5fab00cbd
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sat Mar 8 08:15:43 2014 -0500
+
+    Revert "Removed extra connect"
+    
+    This reverts commit f19b682f3390bc8823a748c73b22a51150ef1b4f.
+
+commit f19b682f3390bc8823a748c73b22a51150ef1b4f
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Fri Mar 7 20:44:37 2014 -0500
+
+    Removed extra connect
+
+commit 87ba677854c11eb02396a4305b0072cf761fb2af
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Fri Mar 7 20:34:25 2014 -0500
+
+    Bump
+
+commit d2d5c1956fc65f28e57037b997b60ece0936436c
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Fri Mar 7 20:32:46 2014 -0500
+
+    Bump
+
+commit 841a89cd1810f16c311037f8f8ceee0ae61d4d21
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Fri Mar 7 20:28:50 2014 -0500
+
+    Few small fixes
+
+commit 25cd1c0c41e6e8b74a432c8066c9c01f104a5c01
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Fri Mar 7 16:06:41 2014 -0500
+
+    Added Weight to Coin Control
+    
+    Added getStakeFromValue in wallet for quick and dirty time/value call.
+    Removed lock/unlock from coin control
+    More adjustments to staking icon
+    Expanded About Page
+
+commit 9b9ab64961106d69a464b18eea6a3a620a1df25c
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Thu Mar 6 01:13:36 2014 -0500
+
+    Added Staking information go GUI
+
+commit d04e6ac2c1ea1a9afa3070dd28f877e9c8b0601c
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Mar 4 19:39:18 2014 -0500
+
+    Fixed placement of nOrphansFound
+
+commit a78a6e15d819737f3b5117f070ba2dc9ab88d849
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Mar 4 19:16:07 2014 -0500
+
+    bump
+
+commit 1ffb1c8774c605fb8eda47ad1702a301c8b94f2b
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Mar 4 19:14:58 2014 -0500
+
+    Bump
+
+commit 7387a45d587c077fbb0681d6d1d63854a63aff79
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Mar 4 19:03:30 2014 -0500
+
+    Added Check and Repair Wallet to Wallet menu
+    
+    Also added message popup for lock/unlock command.
+    Added additional parm to FixSpentCoins, for orphans.
+
+commit 97180d654251f26255fe6daba87b125d71349db0
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sun Mar 2 15:54:47 2014 -0500
+
+    Added Lock Wallet to Wallet Menu
+
+commit 4f7f87375863f15ee22fa5624a0d7718cc7fee6b
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sat Mar 1 23:34:45 2014 -0500
+
+    Fixing redeemScript
+
+commit 6ee2e2d5528cb312f8bf7d92181982695c088a03
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Thu Feb 27 00:06:49 2014 -0500
+
+    New Wallet Menu option
+    
+    Unlock wallet added to wallet menu
+    created restartstakeminer
+
+commit 62605eb4c136171fe61b6bcc64a94d5af4735975
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Feb 25 17:17:53 2014 -0500
+
+    Bump
+
+commit e261642ca3eaa4be9a0c995ec4d556bc366b0845
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Feb 25 17:02:37 2014 -0500
+
+    rename IsConfirmed to IsTrusted missed
+
+commit a2e904b819356be05f1986cce104a87484d0a297
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Mon Feb 24 21:54:22 2014 -0500
+
+    Comment removal
+
+commit ebef3ee0f0e97e5fe6747a35a5f697f51c4afb6b
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Mon Feb 24 21:43:56 2014 -0500
+
+    Changes to Kernel
+    
+    Checkwork and CheckStake separated
+
+commit 7292e10ce877cc9279f9fe75fd497fbde1ff73ef
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Mon Feb 24 19:36:45 2014 -0500
+
+    Update main.cpp
+
+commit 74720f2c635f6a2b383e3b1cbe382543948fc660
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Mon Feb 24 19:34:19 2014 -0500
+
+    Fix Checkwork
+
+commit b1d89ec0bfab2fe0799f30274289da0e4b1510bd
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sun Feb 23 21:58:36 2014 -0500
+
+    added confchange
+    
+    rename IsConfirmed to IsTrusted
+
+commit 79070d2a0f6878136a4bc689ea1276d8abd1e5d4
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sun Feb 23 19:33:09 2014 -0500
+
+    Replaced nMaxClockDrift with Future/PastDrift
+
+commit 0642617fad1551f34f690d7a9aab42e5a04b44fa
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sat Feb 22 12:27:58 2014 -0500
+
+    Cleaned up Transaction Page for PoS
+    
+    and some minor core changes.
+
+commit e93b5702cb86f9f9e0e971f57e73dc2ef1ecd5a7
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Thu Feb 20 11:49:05 2014 -0500
+
+    RPC repairwallet will remove orphans
+
+commit 7cc1f4a86cc60c8a8b6efb6156736aa898d2a396
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Wed Feb 19 22:38:04 2014 -0500
+
+    rcp walletpassphrase change
+    
+    unlocktime zero means forever
+
+commit 5e76bb39de7f54ff54cc441e67fb8a25da2e0be0
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Wed Feb 19 19:56:56 2014 -0500
+
+    Backup All Wallets added to gui
+
+commit 0d8daa2523d22d0be557ae438e4f4891b729ff9e
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Wed Feb 19 00:22:33 2014 -0500
+
+    Fix for older boost versions
+
+commit 353612b45353a73637ee8cd040fe985245712cd7
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Mon Feb 17 20:13:58 2014 -0500
+
+    New RPC Command backupallwallets
+
+commit e71c66707daa4cfc183961460ee891e6622d3d8e
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sun Feb 16 20:10:05 2014 -0500
+
+    Small optimization
+    
+    Also fExtended added to getinfo, for compatibility. Added back
+    walletversion
+    Changed listwallets total
+    Changed getsubsidy to decimal
+
+commit ecab8a1fc7770bcfa81d866754649bff78e2c82e
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sat Feb 15 21:02:30 2014 -0500
+
+    Multiple Changes
+    
+    added rpc getsubsidy
+    added switch mininput
+    change to rcp getinfo/getmininginfo
+    change to stakeweight
+    added AvailableCoinsMinConf and SelectCoinsSimple
+
+commit 4f76536229c6620b9b5edeff05118e017a025bf9
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Wed Feb 12 22:03:49 2014 -0500
+
+    Total Balance changed during unload
+
+commit 38051a9e39abf67ad1c3bcb603b7fa2a735bf420
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Wed Feb 12 21:39:47 2014 -0500
+
+    Show total balance of all loaded Wallets in QT
+
+commit c964fdbba5a0979557fdd59fb21e029e0362e93d
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Mon Feb 10 20:27:19 2014 -0500
+
+    Added another DNS Seed
+
+commit d93cfc70f346e13d61ee014b238d59aa62bd44e7
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sun Feb 9 14:32:19 2014 -0500
+
+    Removed accidental gitid paste
+
+commit aabb21b8b0d6b83c0d5b8786ff4783f82b068e7b
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sun Feb 9 14:19:20 2014 -0500
+
+    Update version.cpp
+
+commit c722db831b2079bdf30d4807d885d7294d848566
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sun Feb 9 14:17:53 2014 -0500
+
+    Bump for IRC changes
+
+commit 1fcb60b594589c4cfcfbf8f4fa727973c8a557e8
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sun Feb 9 14:16:42 2014 -0500
+
+    Added another live seed
+
+commit dea1630960d16794e4aecdbae728e5e624252460
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sat Feb 8 16:43:41 2014 -0500
+
+    Version displayed at startup
+
+commit 9546af3219c1d2377b31324a4584ad2e65cb317b
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sat Feb 8 15:22:13 2014 -0500
+
+    DNS Seed Nodes, and Live Nodes
+    
+    Turned off IRC by default
+
+commit 12fe9bb982f11104e1c88e755f76f74526ca8cfc
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sat Feb 8 12:33:50 2014 -0500
+
+    Change default rpcuser
+
+commit e19ab50998f57f137759f8f797da656b749c8caa
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Fri Feb 7 20:44:37 2014 -0500
+
+    fWalletUnlockMintOnly Extended to GUI
+
+commit 1f6fd6262c69d37da2a6602a1d6d5b66139c82d6
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Wed Feb 5 11:27:38 2014 -0500
+
+    QT5 Ready
+    
+    Update to boost 1.55 and static exe
+
+commit e789ce3d639a3116e70e49281a02bf7329a0ad1b
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jan 21 20:55:34 2014 -0500
+
+    Combined Wallet Total in listwallets
+
+commit 59dd381466e2eac529f3498108f6ab07d3adad66
+Merge: 47d6974 c53ca2b
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sun Jan 19 13:26:35 2014 -0800
+
+    Merge pull request #2 from Crypto-Expert/master
+    
+            Made build_detect_platform file exectuable
+
+commit c53ca2b6c7676864bba4a2d4707326e48b3743dc
+Merge: fbffaa7 47d6974
+Author: ahmedbodi <ahmed_bodi@msn.com>
+Date:   Sun Jan 19 07:44:21 2014 -0800
+
+    Merge pull request #14 from Tranz5/master
+    
+    Fixed Space issue and fWalletOnly added to gettransaction
+
+commit 47d697441ef88f320d065fc41fa1f1148333f7ab
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sat Jan 18 16:03:21 2014 -0500
+
+    fWalletOnly bool added to gettransaction
+
+commit fbffaa72c7930eccfc7364c49729d6c1b81c027e
+Merge: d4ba7a5 1c70d19
+Author: ahmedbodi <ahmed_bodi@msn.com>
+Date:   Sat Jan 18 05:42:56 2014 -0800
+
+    Merge pull request #13 from jtan189/master
+    
+    Made build_detect_platform file executable.
+
+commit 1c70d19db48985bb41b010080b79ffc752417c8a
+Author: Josh Tan <jtan189@gmail.com>
+Date:   Fri Jan 17 23:05:28 2014 -0600
+
+    Made build_detect_platform file exectuable.
+
+commit 780e4f16dcb228882c36b5053f4305013a77eb1c
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jan 14 21:07:12 2014 -0500
+
+    Revert "Update Keys"
+    
+    This reverts commit 903bded4e372dae1e20031eb2abcf3f79596282b.
+
+commit 903bded4e372dae1e20031eb2abcf3f79596282b
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jan 14 21:04:00 2014 -0500
+
+    Update Keys
+
+commit 616058a6930b1e42bf84c00ab201c4cdf66ed1f4
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jan 14 18:52:52 2014 -0500
+
+    Fixed spaced after timer
+
+commit d4ba7a5c9b66b1cfd1cdad2f5dc3437930dea397
+Merge: 175249a 8a61385
+Author: ahmedbodi <ahmed_bodi@msn.com>
+Date:   Mon Jan 13 14:45:54 2014 -0800
+
+    Merge pull request #12 from Tranz5/master
+    
+    Version 1.3
+
+commit 8a6138566d9d8b55957bc279baa4fafe7904335c
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sat Jan 11 11:23:52 2014 -0500
+
+    Update HoboNickels-qt.pro
+    
+    Fix missing regex
+
+commit 80367bce53ef1340c5df8d3529e89e73fcdb96bb
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Thu Jan 9 17:19:54 2014 -0500
+
+    Update makefile.unix
+
+commit bffff849d9a9d2a95f1637f6da94dad54100c266
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Wed Jan 8 00:57:35 2014 -0500
+
+    Update makefile.unix
+
+commit cb8cc1ebf9df9d106593844b480f66f50bdb0fba
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Wed Jan 8 00:27:04 2014 -0500
+
+    Update makefile.unix
+
+commit 84174d994ef3f4c50ee48f6b2aa24f41ee260dab
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jan 7 20:50:48 2014 -0500
+
+    V1.3
+    
+    added copyright
+    added website
+    change version
+    added new icon
+
+commit 53a8d5594291c9ad9bb8b235a89a703d19d4c50b
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jan 7 20:36:56 2014 -0500
+
+    V1.3
+    
+    Removed Wallet,
+
+commit dfd1df4a824c60dc2b8c33b4480902c0758c0bac
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jan 7 20:16:43 2014 -0500
+
+    V1.3
+
+commit fdd2e0126489568c0299cc9a5428e4e3d027a752
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jan 7 19:43:06 2014 -0500
+
+    Update version.cpp
+
+commit 76880abeea859ca9af886a1f7ef7dbc251d3b582
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jan 7 19:36:29 2014 -0500
+
+    V1.3
+    
+    Level DB
+
+commit a785d18701004b4ee37e6ea58b0334d94ee4879a
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jan 7 19:36:11 2014 -0500
+
+    V1.3
+    
+    Level DB
+
+commit 1f3dbf30747a6f8c84288910a01be592e645b1c6
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jan 7 19:35:47 2014 -0500
+
+    V1.3
+    
+    Level DB
+
+commit d576e802ba444b79fea9d83cb0f4294048f16fce
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jan 7 19:34:15 2014 -0500
+
+    V1.3
+    
+    Level DB
+
+commit b0f2caf65c31daf5b15cb74f5e86bbc1456d5304
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jan 7 19:33:20 2014 -0500
+
+    V1.3
+    
+    LevelDB
+
+commit e2f7977ba9d04aef1682bf2d8bfb3e7e29c029b9
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jan 7 19:32:49 2014 -0500
+
+    V1.3
+    
+    Coin Control
+
+commit efe2f0f92ccdb0466a9e6eb18c267bafd9f01aec
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jan 7 18:52:32 2014 -0500
+
+    Update version.cpp
+
+commit a6ca3a921096170ee526be8fa751a3e3acebf0c6
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jan 7 18:43:55 2014 -0500
+
+    V1.3
+    
+    Updated Translations for coin control
+    added polish no coin control
+
+commit 2935adcc76c9dd69424acd968eb2c62154240cc9
+Merge: d0e804e 393869a
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jan 7 18:43:31 2014 -0500
+
+    Merge branch 'master' of https://github.com/Tranz5/HoboNickels
+
+commit d0e804ec78d77afefdb087eb3a6613a0a13fc504
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jan 7 17:58:58 2014 -0500
+
+    V1.3
+    
+    Coin Control
+
+commit 937e1f86a8ad98f9c878243b3ebf32ffdfb1ab59
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jan 7 17:58:42 2014 -0500
+
+    V1.3
+    
+    Coin Control
+
+commit 0df7d010339e4ccbe82dbfda1e01f3d0888e5ca2
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jan 7 17:58:28 2014 -0500
+
+    V1.3
+    
+    Coin Control
+
+commit 393869adbfdc3d22b1c90729821afbfd98dc5bc8
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jan 7 17:28:08 2014 -0500
+
+    V1.3
+
+commit 67fb3402ccc9103362952a0c4de531eb241c82f3
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jan 7 17:27:48 2014 -0500
+
+    V1.3
+
+commit 6d4ccdf9337b2826f63315363b733adfbbd877f7
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jan 7 17:25:21 2014 -0500
+
+    V1.3
+
+commit 2b65969a47e28c2fe7cb5fb0ff684220487fcc72
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jan 7 17:18:56 2014 -0500
+
+    V1.3
+    
+    Coin Control
+    Level DB
+    QR Code
+    UPNP
+    other helpful changes
+
+commit f6dda56ed40c368466d2907addbf88931b8ebf03
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jan 7 17:15:02 2014 -0500
+
+    V1.3
+    
+    LevelDB
+
+commit 481dc300a3ceb4ee7128611692a3364f26fc51a1
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jan 7 17:11:37 2014 -0500
+
+    V1.3
+    
+    Update protocol version
+
+commit bb5f273241630633f727f6835c580fa01e6e71ab
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jan 7 17:11:12 2014 -0500
+
+    V1.3
+    
+    add dumpwallet
+    add importwallet
+
+commit d523f2fac94592369f915e070bc45d12c7ec77b2
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jan 7 17:10:16 2014 -0500
+
+    V1.3
+    
+    add extractaffectedkeys
+
+commit 5fcd8210fa3767e748fab91baa55a2e1e182a14a
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jan 7 17:09:48 2014 -0500
+
+    V1.3
+    
+    added classs ckeymetadata for dumpwallet
+
+commit a91fdbbe6cbb821a4b082908a78c6a4d2a4f4ad0
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jan 7 17:08:47 2014 -0500
+
+    V1.3
+    
+    Bugfix
+
+commit 29576197df56eba8f081c26b2b21ca07f53e19f0
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jan 7 17:08:30 2014 -0500
+
+    V1.3
+    
+    remove loops
+
+commit ad3b4728046b2298215b53860507fbb6d67bf9d5
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jan 7 17:08:00 2014 -0500
+
+    V1.3
+    
+    Remove Loops
+    added new class
+
+commit 9c97dd7ab90759d868572a72ed1ccf3df27019bf
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jan 7 17:03:53 2014 -0500
+
+    V1.3
+    
+    Remove loops
+    keymeta data for dumpwallet
+
+commit d923ea1b5ba63a2fdeeb3920628c2dc8231e5eb2
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jan 7 16:53:58 2014 -0500
+
+    V1.3
+    
+    checkpoint policy
+
+commit 486872d2cb91d8d4253939787aa516431cd3bd77
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jan 7 16:53:28 2014 -0500
+
+    V1.3
+    
+    LevelDB
+    fix negative file resize
+
+commit 3c1dfe15c5c98ea7729ba421c5b2f79531a56269
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jan 7 16:52:09 2014 -0500
+
+    V1.3
+    
+    add getbestblockhasth
+    change getmininginfo to be multi-wallet
+    add dumpwallet
+    add importwallet
+    remove loop
+    change to timingresistantequal for password
+    add keypoolrefill
+
+commit 8ab623c743459e9574f5d791d3a476a708e3cc0c
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jan 7 16:50:25 2014 -0500
+
+    V1.3
+    
+    Check point policy
+    added getpowmhashps
+    add blocktrust
+    add getbestblockhasth
+    fix getblockbynumber help
+
+commit 6083642786fa909aa8c4a55e5c16168b505962ea
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jan 7 16:48:45 2014 -0500
+
+    V1.3
+    
+    Bug Fix
+    better mining information
+
+commit 5ddefea878e685603fce6f74700d4b5286013378
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jan 7 16:48:03 2014 -0500
+
+    V1.3
+    
+    Level DB
+
+commit ef3e57f3ee5612fe775ad66efb0cfb7869b633aa
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jan 7 16:46:10 2014 -0500
+
+    V1.3
+    
+    LevelDB
+
+commit bfae25e0d293846f0c773b16be2d20f694ee2058
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jan 7 16:45:27 2014 -0500
+
+    V1.3
+    
+    Fix walletview bug
+
+commit ba5efd6b1a71d8f9d1cb457086a090871cee998c
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jan 7 16:44:44 2014 -0500
+
+    V1.3
+    
+    add signal
+
+commit e0ceceaab18ae95faa16f3fac2328a7c64b0b0b9
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jan 7 16:44:24 2014 -0500
+
+    V1.3
+    
+    add signal
+
+commit b256135be5462fb88c5b64c4fda175cd459430a7
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jan 7 16:44:00 2014 -0500
+
+    V1.3
+    
+    Remove loops
+    win32 doesn't create pid file
+    add gettimeoffset
+    filecommit fix
+
+commit ffd99f03a8a6d086083228401eab31e6cd1531f4
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jan 7 16:42:23 2014 -0500
+
+    V1.3
+    
+    getpeerinfo additional information
+
+commit 644c6451361b380b207bd65db7f338c03d305a5b
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jan 7 16:42:02 2014 -0500
+
+    V1.3
+    
+    LevelDB
+    add nodelifespan
+    add checkpoint policy
+    add fast index
+    logtimestamps default on
+    add walletnotify
+
+commit 96bc65c210dd983f026f6adc830493375c59a264
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jan 7 16:40:48 2014 -0500
+
+    V1.3
+    
+    Level DB
+    other helpful changes
+
+commit fd9468489233911a209bd8d4795f086056c0eecb
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jan 7 16:40:09 2014 -0500
+
+    V1.3
+    
+    max outbound connections default to 16
+    remove loops
+    additional node information
+    dump addresss longer
+    win32 compatability change
+    encrypted wallet crash fix
+    orphan attack vector fix
+
+commit e3a00d0fb782c89cb13c6778646ba70595d3b3f1
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jan 7 16:38:01 2014 -0500
+
+    V1.3
+    
+    Level DB
+    add nodelivespan
+    add fastindex
+    add bcoinyearonly to getproffofstakereward
+    Coin Control
+
+commit c1fab1a630951af07e8fa533c3a3872c1d785901
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jan 7 16:36:32 2014 -0500
+
+    V1.3
+    
+    Compatability fix
+
+commit 2f68a8aec9ea8ebfae5fd7fd3641bd2b1ee45993
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jan 7 16:35:37 2014 -0500
+
+    V1.3
+    
+    Remove win pid file
+    remove loop
+    add gettimeoffset
+    add lefttrim
+    add timingristantequal close possible password attack vector
+
+commit 6e92cfdc98c0bbdb431731b8afc6a9af872511ca
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jan 7 16:34:14 2014 -0500
+
+    V1.3
+    
+    Better mining info
+    dumpwallet
+    importwallet
+    getblockhash
+
+commit a8610edfb1ae6e439fe3d50371d4689541cbd25c
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jan 7 16:33:24 2014 -0500
+
+    V1.3
+    
+    LevelDB
+    orphan attack vecotor fix
+    checkpoint policy change
+    Coin Control
+    getproofofstakereward update for bCoinYearOnly
+    DoS for coinbase too early
+    remove loops
+    keep track of blocks requested
+
+commit 3473136d0b519a59aee50eec2ddf99bd9f79d9df
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jan 7 16:26:49 2014 -0500
+
+    V1.3
+    
+    listunspent addition
+    orphan attack vector fix
+
+commit 9811ab41f0b08f9a86f65c3b2426f7d51629a26b
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jan 7 16:25:38 2014 -0500
+
+    V1.3
+    
+    more info for getpeerinfo
+    orphan attack vector fix
+
+commit 42adb1854af63e406de810b4dfbccf50cc5fdbb7
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jan 7 16:23:57 2014 -0500
+
+    V1.3
+    
+    Keypool change for rpc
+
+commit 493cfd5345d930db0613610434f3192339cf0386
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jan 7 16:23:11 2014 -0500
+
+    V1.3
+    
+    LevelDB
+    CoinControl
+    -walletnotify
+    getaccountAmounts fix
+    orphan attack vector fix
+    loop removed
+    getstakeweight
+    getstakemintpower changes
+    encrypted wallet crash fix
+
+commit be16fbacfc957e521fabc0016da1a50a50f36a78
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jan 7 16:15:29 2014 -0500
+
+    V1.3 LevelDB
+
+commit 1a2bca0af384d92b134f8fab831726e97667e851
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jan 7 16:15:08 2014 -0500
+
+    V1.3 Copy Transaction ID
+
+commit 2fd8e8f2e3ba3d52863361da34b4ec31f9c7f3bc
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jan 7 16:14:37 2014 -0500
+
+    V1.3
+    
+    getLastBlockDate fix
+
+commit 9fe4e0d2f8ee30c59b07d409b3dd1730ec4e9a23
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jan 7 16:13:45 2014 -0500
+
+    V1.3 URI Fix
+
+commit 9dd82e0089007466665ca24cd4d8e7c39f2b661a
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jan 7 16:13:22 2014 -0500
+
+    V1.3
+    
+    Freedesktop Fix
+
+commit c9ee461d0eccc529116a115382aafb75295faf37
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jan 7 16:12:48 2014 -0500
+
+    V1.3
+    
+    URI Fix
+    loops removed
+
+commit 29dc1a142a7e09d9bcf5ab07e19b57f39e9ba896
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jan 7 16:12:21 2014 -0500
+
+    V1.3 URI Fix
+
+commit ffaf8bb4d27477ffa490015a58d4c0e22eca0a24
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jan 7 16:12:03 2014 -0500
+
+    V1.3 Coin Control
+
+commit c4ad878dd0aad1661e41914139de094d766fff84
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jan 7 16:11:08 2014 -0500
+
+    V1.3 Coin Control
+
+commit 052f42a79fb5eff4273d0a87c716cb8fa67c46ed
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jan 7 16:10:30 2014 -0500
+
+    V1.3 Coin Control
+
+commit 4dbdc2c0e43724163dcea7b8cab4c87fdad7c6bb
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jan 7 16:10:08 2014 -0500
+
+    V1.3
+    
+    URI Fix
+    clipboard copy
+
+commit 5d585bc03e1a0ecc978019b81e473cfca00ed718
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jan 7 16:09:38 2014 -0500
+
+    V1.3 Coin Control
+
+commit b4db291fe500915022a182561fbe7b7d9c4eedc2
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jan 7 16:08:25 2014 -0500
+
+    V1.3
+    
+    GuiUtil Clip Board Copy
+    URI Fix
+    QT Bug Fix
+
+commit a5c17b265d4993478d9ea2b17d2e2bd253b584c7
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jan 7 16:07:30 2014 -0500
+
+    V1.3 Coin Control
+    
+    Plus GuiUtil Clip board
+    and QT remove multiple payments bug fix
+
+commit 332fdd382fe53377f1e64dc825e65e6770318101
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jan 7 16:04:57 2014 -0500
+
+    V1.3 Coin Control
+
+commit 3c336ca44c261644eeb246884c2d339cab422048
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jan 7 16:03:58 2014 -0500
+
+    V1.3
+
+commit b11483f68c1e2bd78f58a64039233723b02ae195
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jan 7 16:02:25 2014 -0500
+
+    V1.3 New CoinControl
+
+commit b007bad12a168cb88fe7d605e8bc56a4900e9ecb
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jan 7 16:01:32 2014 -0500
+
+    V1.3 New Icons
+
+commit c4539c3c971bef6374265c76bdaa5a25440b1573
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Jan 7 16:01:01 2014 -0500
+
+    V1.3 New Icons
+
+commit 0fd0ff5a007e129f29b420cf4d2f5168c8145816
+Merge: bea873d 175249a
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Thu Dec 26 11:35:12 2013 -0800
+
+    Merge pull request #1 from ahmedbodi/master
+    
+    Added subcategory field to 'listtransactions' JSON-RPC output.
+
+commit 175249a2a9369023f75dafbe2c36fbe38fdba9ca
+Merge: d6688a1 59b3f17
+Author: ahmedbodi <ahmed_bodi@msn.com>
+Date:   Wed Dec 25 19:12:13 2013 -0800
+
+    Merge pull request #11 from jtan189/master
+    
+    Added subcategory field to 'listtransactions' JSON-RPC output.
+
+commit 59b3f171662729fff0d7a37d3bc66b1419aae2e6
+Author: Josh Tan <jtan189@gmail.com>
+Date:   Sun Dec 22 17:19:15 2013 -0600
+
+    Added subcategory entry to JSON output for generated blocks assigned to ''.
+
+commit 2c63288a2a7f56e4905a772a57bb0bbb0ef2d051
+Author: Josh Tan <jtan189@gmail.com>
+Date:   Sun Dec 22 16:53:17 2013 -0600
+
+    Added curly brackets to else statement.
+
+commit dc94f56c906b6fb294b73635931ff191d29c7700
+Author: Josh Tan <jtan189@gmail.com>
+Date:   Sun Dec 22 16:41:48 2013 -0600
+
+    Added subcategory field to 'listransactions' RPC output. Possible values are 'work' and 'stake'.
+
+commit d6688a137c3bf8a4f833628203bc4a6cdf34d4ce
+Merge: b199991 bea873d
+Author: ahmedbodi <ahmed_bodi@msn.com>
+Date:   Sat Dec 21 09:44:53 2013 -0800
+
+    Merge pull request #9 from Tranz5/master
+    
+    Pull from Tranz/Master
+
+commit bea873d9a4868b6a65adeb1de2ab710bc4646ceb
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sat Dec 14 14:19:36 2013 -0500
+
+    Update version.cpp
+
+commit e43cb68905b0c6a77aa4f02b60fe525502865374
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sat Dec 14 14:16:52 2013 -0500
+
+    Update version.h
+
+commit 2f6393659399f50eab25ee8dbecc7c6434e0f3e1
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sat Dec 14 14:07:03 2013 -0500
+
+    CP Update
+
+commit 8015cf0d6b5fe18d90aa72df21a9803aefba919b
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sat Dec 14 14:04:13 2013 -0500
+
+    update CP
+
+commit 9c39860802d614a36097658b2a134ca8b75a0db4
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sat Dec 14 11:25:47 2013 -0500
+
+    splash
+
+commit 3adaa1d47c4107ce18b87a6a4bf36b5b4f9555fa
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sat Dec 14 10:57:15 2013 -0500
+
+    fmitonly bool, addnode rpc, splash screen, code cleanup
+
+commit b1999918e568895f9a9cdfdd007fa4484b3daec4
+Merge: 27d6c12 0fb8d5c
+Author: ahmedbodi <ahmed_bodi@msn.com>
+Date:   Fri Nov 29 18:34:21 2013 -0800
+
+    Merge pull request #8 from Tranz5/master
+    
+    Final multi-wallet
+
+commit 0fb8d5c2be33f97832a376171596cea87cb5d63f
+Merge: b156988 7103d1e
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Fri Nov 29 18:32:52 2013 -0500
+
+    Merge branch 'master' of https://github.com/Tranz5/HoboNickels
+
+commit b15698853e4bc12f701d24fadcd72069703950aa
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Fri Nov 29 18:32:47 2013 -0500
+
+    MW2
+
+commit 7103d1e7370d4e4d91008422ff337a6db7549e4c
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Fri Nov 29 17:21:32 2013 -0500
+
+    Update bitcoingui.cpp
+
+commit 2d3e640b0a3fcdd40a598157dcb411097d774507
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Fri Nov 29 16:42:18 2013 -0500
+
+    Update clientversion.h
+
+commit 78c22be50f7d58cc94e88aaeec10e0ebeb9244de
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Fri Nov 29 16:17:43 2013 -0500
+
+    Update version.cpp
+
+commit 38a5c8725aefc51e187fe1922a8fb03830c6cd71
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Fri Nov 29 16:15:58 2013 -0500
+
+    Update version.h
+
+commit 7a74d1260500d25195c01ceb4b5dcb9490130230
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Fri Nov 29 16:04:02 2013 -0500
+
+    MW2 Updates
+
+commit c72febee6a8cb8357f4f6f2322cb552e326da0c5
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Fri Nov 29 16:03:14 2013 -0500
+
+    MW2 updates
+
+commit 48fae592b0faf3ae187a566388ee93f8e293c9df
+Merge: cd09f61 e198463
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Nov 26 20:26:34 2013 -0500
+
+    Merge branch 'master' of https://github.com/Tranz5/HoboNickels
+
+commit cd09f6133fe91ea68e312510b093096c2d72af5b
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Nov 26 20:26:27 2013 -0500
+
+    MW2 RCP Signals to GUI
+
+commit e198463c4a054a623a0ee30a20c99ee4953d4532
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Nov 26 20:17:51 2013 -0500
+
+    Update version.cpp
+
+commit e9bc3c8d856256db9dd3611ed7ba01ca479e57d5
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Nov 26 20:16:43 2013 -0500
+
+    Update version.h
+
+commit 3e70bb8fae0fc01ed756d07d05d7934a30906d6b
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Tue Nov 26 20:15:11 2013 -0500
+
+    MW2 RCP signals to GUI
+
+commit 19bc46bd61c507378a56dbb265c82ca715f53add
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sat Nov 23 17:38:01 2013 -0500
+
+    Update version.h
+
+commit f100046510aaddd972939d983d13f235147cf4b8
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sat Nov 23 17:37:23 2013 -0500
+
+    Update version.cpp
+
+commit e9ac4977efcd9b38c086db3a54c75adfff89e160
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sat Nov 23 17:31:28 2013 -0500
+
+    MW2 Pre Release
+    
+    Fix to export and sign mesasge
+
+commit ed0809eeb70a4b9a734e32c02ae00cf641d00d7c
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Mon Nov 11 20:59:04 2013 -0500
+
+    removed btc ref
+
+commit 7258f81b69525387d3e0b50a66e81e6a808d6696
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Mon Nov 11 20:53:35 2013 -0500
+
+    removed btc refs
+
+commit 84966241f3351ee0b883405e3bf958693d307c54
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Mon Nov 11 20:51:54 2013 -0500
+
+    removed btc refs
+
+commit 3950193f8989f7f913f4161dc256cdb01595bbd2
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sun Nov 10 23:12:20 2013 -0500
+
+    Pre Release of MW2
+
+commit 90998b413b23cb54c9927e170d5ffe71fab26b39
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sun Nov 10 23:10:37 2013 -0500
+
+    Pre Release of MW2
+
+commit 55937c95895a7e62001058f17a272d0796a60506
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sun Nov 10 23:03:41 2013 -0500
+
+    MW2
+
+commit d7822819686c5f078282621ac18959db75830c97
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sun Nov 10 22:54:52 2013 -0500
+
+    MW2
+
+commit 83181fa155a1ff64314047348744766ec0030bcc
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sun Nov 10 22:46:10 2013 -0500
+
+    MW2
+
+commit 0221c12b0e2cc3e745364c9287409871cb39206b
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sun Nov 10 22:31:51 2013 -0500
+
+    MW2
+
+commit 33c34f3205575c5de1af44fa5d075cd935a50173
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sun Nov 10 22:18:50 2013 -0500
+
+    MW2
+
+commit c8cea15fcd31219a42f517c8b924bef5855aa974
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sun Nov 10 22:17:58 2013 -0500
+
+    typo
+
+commit 75793bfbc5b4480abe13c8da4d440c5202bd75bb
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sun Nov 10 22:16:23 2013 -0500
+
+    MW2
+
+commit a5945514480bb35b292120274a6f2fc63c83e162
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sun Nov 10 19:08:51 2013 -0500
+
+    walletstack and walletview
+
+commit fbb19e34cd2ac8ee594630c2bd7d8f42bd61c185
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sun Nov 10 19:07:24 2013 -0500
+
+    LoadWalletFromFile
+
+commit 6ca823375969e64cb2d77bf102967abd5d27e6ce
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sun Nov 10 19:06:42 2013 -0500
+
+    LoadWalletFromFile
+
+commit df3654725524a06ec317ca6dd87ca043db0e9be2
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sun Nov 10 19:05:21 2013 -0500
+
+    volitle vars
+
+commit ad8ef242fc2014d1d6e34312aefd3cf8e743ae4a
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sun Nov 10 19:01:41 2013 -0500
+
+    openssl_cleanse
+
+commit 30530ea66c5da0bf651bc2cfda331dcd7ba9311c
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sun Nov 10 14:59:50 2013 -0500
+
+    minor changes
+
+commit 13593bfe232c942891664f128654bee21835d15f
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sun Nov 10 14:54:30 2013 -0500
+
+    comment cleanup
+
+commit dc285036e679632678259d51358efe397ac93a40
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sun Nov 10 14:52:46 2013 -0500
+
+    Added CLIENT RELEASE
+
+commit 0a454fd486ff6889e5e6ca7f321a543ee11dd708
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sun Nov 10 14:48:24 2013 -0500
+
+    minor changes
+
+commit cde5f940ac6d013838f658141996b2afaeb3bff1
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sun Nov 10 14:47:45 2013 -0500
+
+    openssl_cleanse
+
+commit a4867183f235209c50d8ba69773b99269102ed26
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sun Nov 10 14:47:09 2013 -0500
+
+    openssl_cleanse
+
+commit a54b3b60d0d54e7d5a4163c1bced2e0c68cbe180
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sun Nov 10 14:38:57 2013 -0500
+
+    minor changes
+
+commit 5177ec2df86d95ef186005fb3b5d753c615cb3bf
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sun Nov 10 14:38:24 2013 -0500
+
+    openssl_cleanse
+
+commit 8f35c1758ef7f07269444af544059f7701b3ac08
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sun Nov 10 14:37:32 2013 -0500
+
+    Open SSL cleanse
+
+commit 8fb5aceab78df261fb0ac7495195ff438ec09edf
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sun Nov 10 14:33:58 2013 -0500
+
+    MW2 GUI
+
+commit 27d6c12c380a458ed5a147089c29982dc4acb09b
+Merge: b7b6d2f 84fefe9
+Author: ahmedbodi <ahmed_bodi@msn.com>
+Date:   Sun Nov 3 15:25:38 2013 -0800
+
+    Merge pull request #7 from Tranz5/master
+    
+    Tighter peer kicking
+
+commit 84fefe9b6c0442e8589bdc13f4d90a1205f38bdd
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sun Nov 3 17:44:17 2013 -0500
+
+    Tighter peer kicking
+
+commit b7b6d2f92cf69a5c259a263bb7b7e703cc1e7b8d
+Merge: 4a3ab2b a7c5ecb
+Author: ahmedbodi <ahmed_bodi@msn.com>
+Date:   Sun Nov 3 13:46:29 2013 -0800
+
+    Merge pull request #6 from Tranz5/master
+    
+    Too much POS fix
+
+commit a7c5ecbbdc8367ba97656323e775e94f342eb882
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sat Nov 2 20:36:30 2013 -0400
+
+    Update version.cpp
+
+commit 17417f69404ef1c545e4eb638b6279e9a03602f9
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sat Nov 2 20:32:09 2013 -0400
+
+    Update version.cpp
+
+commit eb597e57732c360a22485f2c284536211b150f1c
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sat Nov 2 20:31:02 2013 -0400
+
+    Update version.h
+
+commit b7ff50e300198d7a2f4ab69f43f684afe33d7743
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sat Nov 2 19:44:59 2013 -0400
+
+    Update main.cpp
+
+commit 6dad6c16f4e903a5e4a4ac173cbbf28666d1c734
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sat Nov 2 19:25:31 2013 -0400
+
+    POS Fix 3
+
+commit 1d67833fc3fc704924c3c0e886560a79e1b01473
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sat Nov 2 19:25:01 2013 -0400
+
+    change to protocol version
+
+commit 03a44b775923a43a1eeecacb07eacd7c14a41d85
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sat Nov 2 19:24:24 2013 -0400
+
+    update
+
+commit 4a3ab2ba8a1d9d60a0d937eea110e842587195d2
+Author: ahmedbodi <ahmed_bodi@msn.com>
+Date:   Fri Nov 1 20:13:25 2013 +0000
+
+    Created HoboNickels subver
+    
+    Allows identifying hobonickles client easier
+
+commit 3d7e8cbc6d4db252e0ecbcaa9c4835c8e13c1419
+Merge: eb9da57 15d1474
+Author: ahmedbodi <ahmed_bodi@msn.com>
+Date:   Fri Nov 1 13:10:55 2013 -0700
+
+    Merge pull request #5 from Tranz5/master
+    
+    Rollback Fix 2
+
+commit 15d1474afe4c43d8f46812cb2ce7b2dc44d7a64c
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Fri Nov 1 08:21:54 2013 -0400
+
+    Update makefile.unix
+
+commit 333219ef1ef3186cc117570df209e7ef1895ffcd
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Fri Nov 1 02:21:31 2013 -0400
+
+    Update
+
+commit 4162d951f07b5e35f0e418a42ea88f6d4a0db55a
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Fri Nov 1 01:52:47 2013 -0400
+
+    Update version.cpp
+
+commit b3d06434d447e307f3664488b0370cd28b0fa4c8
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Fri Nov 1 01:38:35 2013 -0400
+
+    Add rpc and  stake thread for loadwallet
+
+commit b42eec23e537dc09c803ae99845c8dff91d3ac99
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Fri Nov 1 01:34:31 2013 -0400
+
+    Update Alert Pub Key
+
+commit 4ff9304ac032d4e36755e42ac243aba5c0de2b4e
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Fri Nov 1 01:34:10 2013 -0400
+
+    Update CP PubKey
+
+commit 9e5363fb2123778ec4f06b434e3de6b5ed33f329
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Fri Nov 1 01:33:06 2013 -0400
+
+    Update PROTOCOL and Build
+
+commit 0ef1bde6fb176c5b38e4d016a4a65e803e5a62da
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Fri Nov 1 01:31:04 2013 -0400
+
+    Rollback fix 2
+
+commit eb9da576ca0c4f1ea4f2caa5af9fda1cf85efe12
+Merge: 5bf4c85 541f437
+Author: ahmedbodi <ahmed_bodi@msn.com>
+Date:   Wed Oct 30 16:36:30 2013 -0700
+
+    Merge pull request #4 from Tranz5/master
+    
+    GUI, MW2, RCP, Rollback
+
+commit 541f437326d40c5cc6fe8c8a91e979d84f92a98b
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Sat Oct 26 23:09:09 2013 -0400
+
+    Update makefile.unix
+    
+    GUI, MW2 RPC, Rollback
+
+commit c22eab2bf2ac6f1a8fd8758c8ea92133dbedeece
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Thu Oct 24 23:20:52 2013 -0400
+
+    Update version.cpp
+
+commit 37ee135589c6e6eebd149b673939875aff3be6ee
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Thu Oct 24 22:59:03 2013 -0400
+
+    GUI, MW2 RPC, Rollback
+    
+    GUI Update. Initial Multi-Wallet Support. RPC Command Adds and changes.
+    Tigher Roll back
+
+commit 37b48f063aba155ad9c74f80f71a0e14b41314a7
+Merge: 60c7bb3 238ce0f
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Thu Oct 24 22:53:03 2013 -0400
+
+    Merge branch 'master' of https://github.com/Tranz5/HoboNickels
+
+commit 60c7bb3bb2e39cc9258f5d8d927e4452c20d3df8
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Thu Oct 24 22:52:58 2013 -0400
+
+    GUI, MW2 RPC, Rollback
+    
+    GUI Update. Initial Multi-Wallet Support. RPC Command Adds and changes.
+    Tigher Roll back
+
+commit 238ce0f778364990f0e739f3dc011b27adddfbeb
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Thu Oct 24 22:37:33 2013 -0400
+
+    GUI, MW2 RPC, Rollback
+    
+    GUI Update. Initial Multi-Wallet Support. RPC Command Adds and changes.
+    Tigher Roll back
+
+commit 48661e08de6545c000a338a426ce3ce371e3f321
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Thu Oct 24 22:34:54 2013 -0400
+
+    GUI, MW2 RPC, Rollback
+    
+    GUI Update. Initial Multi-Wallet Support. RPC Command Adds and changes.
+    Tigher Roll back
+
+commit 9131da3eac2d4b214f8005208443be8ca5b484ac
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Thu Oct 24 22:30:23 2013 -0400
+
+    GUI, MW2, RPC, Rollback
+    
+    GUI Updates. Initial Multi-Wallet Support. RPC Command Adds and changes,
+    Tighter Roll back
+
+commit 8a3d1b6d77ea63741a23d8c2a63605373442c100
+Author: Tranz5 <Tranz5@users.noreply.github.com>
+Date:   Thu Oct 24 22:27:55 2013 -0400
+
+    .
+
+commit 96b26e3215ba302bd259e3ac3c6328be20d6193d
+Author: Tranz5 <mcass221355@yahoo.com>
+Date:   Sat Oct 5 19:20:29 2013 -0400
+
+    Update build-msw.txt
+
+commit 5bf4c85121be751a7a7b29267944af18f6d3c922
+Merge: 6179cdd 7d57703
+Author: ahmedbodi <ahmed_bodi@msn.com>
+Date:   Sat Oct 5 13:15:51 2013 -0700
+
+    Merge pull request #3 from Tranz5/master
+    
+    Doc updates
+
+commit 7d57703830369beda045c740ede4490c85a6a6f0
+Author: Tranz5 <mcass221355@yahoo.com>
+Date:   Sat Oct 5 15:07:00 2013 -0400
+
+    Update HoboNickels-qt.pro
+    
+    Changed boost and open ssl versions
+
+commit 1ddfdda8b59bfaa4c7ede0c56fd630c741515e2d
+Author: Tranz5 <mcass221355@yahoo.com>
+Date:   Sat Oct 5 15:02:13 2013 -0400
+
+    Update build-msw.txt
+    
+    Added more detailed instructions.
+
+commit 2251da8ad7bf573f604e3bed451b4c2adc0072d3
+Author: Tranz5 <mcass221355@yahoo.com>
+Date:   Sat Oct 5 14:32:40 2013 -0400
+
+    Delete HoboNickels-qt.exe
+
+commit d5c011c8ce5e2c201779ea86b45abb243540ddea
+Author: Tranz5 <mcass221355@yahoo.com>
+Date:   Sat Oct 5 14:31:05 2013 -0400
+
+    Create HoboNickels-qt.exe
+
+commit 6179cdd028e81e7151a5db381984c70fa79e2076
+Merge: 70f1e0b 805e275
+Author: ahmedbodi <ahmed_bodi@msn.com>
+Date:   Sat Oct 5 08:56:05 2013 -0700
+
+    Merge pull request #2 from Tranz5/master
+    
+    (2% stake fix) Other various update's from new dev
+
+commit 805e275b53bb28631957ec472261c1c88413e50a
+Author: Tranz5 <mcass221355@yahoo.com>
+Date:   Sat Oct 5 11:35:52 2013 -0400
+
+    Update checkpoints.cpp
+
+commit 1603561b6360f637bdfa35bc0042c5b42f6ca48b
+Author: Tranz5 <mcass221355@yahoo.com>
+Date:   Sat Oct 5 00:21:25 2013 -0400
+
+    Delete optionsdialog.cpp~
+
+commit 894f4f054861c5cb654cf06542e9ee82d23674f0
+Author: Tranz5 <mcass221355@yahoo.com>
+Date:   Sat Oct 5 00:21:13 2013 -0400
+
+    Delete guiutil.cpp~
+
+commit 75bb643cb2baa57ff210d90dd770a82c0e34ca56
+Author: Tranz5 <mcass221355@yahoo.com>
+Date:   Sat Oct 5 00:21:03 2013 -0400
+
+    Delete bitcoinunits.cpp~
+
+commit 6beeeb8120204283239b48dc635aa1f8927c1595
+Author: Tranz5 <mcass221355@yahoo.com>
+Date:   Sat Oct 5 00:20:54 2013 -0400
+
+    Delete editaddressdialog.cpp~
+
+commit c4c1df3b7dffdf95799c732a4ab8ddcc57641908
+Author: Tranz5 <mcass221355@yahoo.com>
+Date:   Sat Oct 5 00:20:42 2013 -0400
+
+    Delete bitcoin.qrc~
+
+commit ddbe84dd18e70e3f0beecb14a39a72db38b03bc8
+Author: Tranz5 <mcass221355@yahoo.com>
+Date:   Sat Oct 5 00:20:35 2013 -0400
+
+    Delete bitcoinstrings.cpp~
+
+commit 85a7e782a10726b8b4aac0ff575c0ebf11647f21
+Author: Tranz5 <mcass221355@yahoo.com>
+Date:   Sat Oct 5 00:20:19 2013 -0400
+
+    Delete bitcoin.cpp~
+
+commit b82a1520ba04e0248e5a09cf02e07fd4303f450f
+Author: Tranz5 <mcass221355@yahoo.com>
+Date:   Sat Oct 5 00:20:01 2013 -0400
+
+    Delete bitcoingui.cpp~
+
+commit 0cf0b74e078bc0136ab393483ae6a3b75b4fa2d5
+Author: Tranz5 <mcass221355@yahoo.com>
+Date:   Sat Oct 5 00:19:31 2013 -0400
+
+    Delete askpassphrasedialog.cpp~
+
+commit 002b3978f2023621daa1983b3e87e98cd197bb35
+Author: Tranz5 <mcass221355@yahoo.com>
+Date:   Sat Oct 5 00:19:07 2013 -0400
+
+    Delete askpassphrasedialog.cpp~~
+
+commit 5ed22dffa7184d027e39ec8591e02a2d7354ac5e
+Author: Tranz5 <mcass221355@yahoo.com>
+Date:   Sat Oct 5 00:17:53 2013 -0400
+
+    Delete ._.DS_Store
+
+commit 1651bb3f5f73dbf6dbfdd53dc77af75471ae50ce
+Author: Tranz5 <mcass221355@yahoo.com>
+Date:   Sat Oct 5 00:16:23 2013 -0400
+
+    Delete makefile.mingw~
+
+commit 03bd191b32ab6c7b841ff768afba753d65ec09ee
+Author: Tranz5 <mcass221355@yahoo.com>
+Date:   Sat Oct 5 00:16:13 2013 -0400
+
+    Delete makefile.linux-mingw~
+
+commit 3a09b6ab3408c8a6810f80922a00810e12c8089e
+Author: Tranz5 <mcass221355@yahoo.com>
+Date:   Sat Oct 5 00:16:04 2013 -0400
+
+    Delete makefile.bsd~
+
+commit d6b89942ff4dbb1f44e33aba0d873e7a33eca171
+Author: Tranz5 <mcass221355@yahoo.com>
+Date:   Sat Oct 5 00:15:53 2013 -0400
+
+    Delete hobonickelsd
+
+commit b5f7650d667d3c1e21b85b807e0d3863da5d58cd
+Author: Tranz5 <mcass221355@yahoo.com>
+Date:   Sat Oct 5 00:15:41 2013 -0400
+
+    Delete main.h~
+
+commit b088491ee8c3ab78f7cbbb9d8de962a255e673cf
+Author: Tranz5 <mcass221355@yahoo.com>
+Date:   Sat Oct 5 00:15:20 2013 -0400
+
+    Delete main.cpp~
+
+commit 481454a04587e9c2ae0876ed50ae38f81d91d9f4
+Author: Tranz5 <mcass221355@yahoo.com>
+Date:   Sat Oct 5 00:14:41 2013 -0400
+
+    Delete base58.h~
+
+commit 19726fecf293ee4d4b8c768e45f00f51e81c6415
+Author: Tranz5 <mcass221355@yahoo.com>
+Date:   Sat Oct 5 00:14:13 2013 -0400
+
+    Delete ._version.h
+
+commit 31fedb734f6ac8aee93444ea45d0039ae749de86
+Author: Tranz5 <mcass221355@yahoo.com>
+Date:   Sat Oct 5 00:14:08 2013 -0400
+
+    Delete ._version.cpp
+
+commit 8ef976500cce6a075a2c940b9c2bfabc6a7cb635
+Author: Tranz5 <mcass221355@yahoo.com>
+Date:   Sat Oct 5 00:14:04 2013 -0400
+
+    Delete ._protocol.h
+
+commit f10bcef24956f72cfd176b2aa500b5491cea5cb2
+Author: Tranz5 <mcass221355@yahoo.com>
+Date:   Sat Oct 5 00:13:59 2013 -0400
+
+    Delete ._main.h
+
+commit c9884b592fc3ef59c02d190c25c2ea55709a7b00
+Author: Tranz5 <mcass221355@yahoo.com>
+Date:   Sat Oct 5 00:13:54 2013 -0400
+
+    Delete ._main.cpp
+
+commit 57509dc508787d350ae5d699909d2bdd5783f03a
+Author: Tranz5 <mcass221355@yahoo.com>
+Date:   Sat Oct 5 00:13:48 2013 -0400
+
+    Delete ._checkpoints.cpp
+
+commit 0a36c1108e0b96ddabc3297be591c4a2561446e8
+Author: Tranz5 <mcass221355@yahoo.com>
+Date:   Sat Oct 5 00:13:42 2013 -0400
+
+    Delete ._bitcoinrpc.cpp
+
+commit 7574623c53060f6538109b3e00b5f12fcb2bf97b
+Author: Tranz5 <mcass221355@yahoo.com>
+Date:   Sat Oct 5 00:13:35 2013 -0400
+
+    Delete ._.DS_Store
+
+commit 04bf30e3740b9c17790a6498e0cbdcd02a1ab97f
+Author: Tranz5 <mcass221355@yahoo.com>
+Date:   Fri Oct 4 22:47:47 2013 -0400
+
+    Delete ._.DS_Store
+
+commit 6db67e43b7bc1dc1baf968ddf893fc536c15c8f5
+Author: Tranz5 <mcass221355@yahoo.com>
+Date:   Fri Oct 4 22:47:03 2013 -0400
+
+    Update version.h
+    
+    Changes for stake fix
+
+commit 136a6653eb177e6ef18c1005002eb6598467f38b
+Author: Tranz5 <mcass221355@yahoo.com>
+Date:   Fri Oct 4 22:45:16 2013 -0400
+
+    Update main.cpp
+
+commit c0fb1bfbe91538f4fd7456ebf43544583c99823f
+Author: Tranz5 <mcass221355@yahoo.com>
+Date:   Fri Oct 4 22:40:58 2013 -0400
+
+    Update main.h
+
+commit 70f1e0b8c6927eb3d4fd23758ceb29600ee3c973
+Merge: 41918cb 1945f56
+Author: ahmedbodi <ahmed_bodi@msn.com>
+Date:   Sat Aug 31 10:56:59 2013 -0700
+
+    Merge pull request #1 from bottlecaps-foundation/master
+    
+    Version 1.1 Update Fixing Stake Error and Updating Checkpoints
+
+commit 1945f5685f958adc99b82bb4994c2b296d84e151
+Author: bottlecaps-foundation <cookiekiller420@gmail.com>
+Date:   Fri Aug 30 21:40:44 2013 -0500
+
+    Update version.h
+
+commit b73a8dfd34349b3f3f88e4b31c460c6adbc3ae13
+Author: bottlecaps-foundation <cookiekiller420@gmail.com>
+Date:   Fri Aug 30 21:38:53 2013 -0500
+
+    Update main.cpp
+
+commit bada91b692568017c90b8290ab28c5c2f6b382cb
+Author: bottlecaps-foundation <cookiekiller420@gmail.com>
+Date:   Fri Aug 30 21:33:46 2013 -0500
+
+    Update wallet.cpp
+
+commit 2c1f4a8a128e2ff171d1f07e4fd6747bf71defb1
+Author: bottlecaps-foundation <cookiekiller420@gmail.com>
+Date:   Fri Aug 30 21:32:05 2013 -0500
+
+    Update checkpoints.cpp
+
+commit 4c31bebab24a154f25776a610d8e9e6063305a67
+Author: bottlecaps-foundation <cookiekiller420@gmail.com>
+Date:   Fri Aug 30 21:30:40 2013 -0500
+
+    Update main.h
+
+commit bf9cdac9d3db26070b8048eca699bcdfb1e8cf77
+Author: bottlecaps-foundation <cookiekiller420@gmail.com>
+Date:   Fri Aug 30 21:29:14 2013 -0500
+
+    Update main.cpp
+
+commit 41918cb10c6f336123a4090e1be44055d4fb2dbc
+Author: Ahmed Bodiwala <ahmed_bodi@msn.com>
+Date:   Sun Aug 4 17:43:03 2013 -0600
+
+    first upload
+
+commit 2a990365062dcd18fe733ef9442ce8f921b56575
+Author: maxxine <humcoins@yahoo.com>
+Date:   Tue Jul 23 19:59:10 2013 -0700
+
+    Update README.md
+
+commit 8b2938441df7d93e849c9983529c4dedb0cc4275
+Author: maxxine <humcoins@yahoo.com>
+Date:   Wed Jul 17 13:45:21 2013 -0700
+
+    Update README.md
+
+commit 69f2cb0a45d60f86485dbfdc8a19c7eef3748f64
+Author: maxxine <humcoins@yahoo.com>
+Date:   Wed Jul 17 12:13:25 2013 -0700
+
+    Delete bottlecaps-qt.pro
+
+commit 8bfe96bbfc4c6b26008961af7aa2342effa06212
+Author: maxxine <humcoins@yahoo.com>
+Date:   Tue Jul 16 19:46:31 2013 -0700
+
+    changes
+
+commit 6e4f2e301ca27080caf40e57a32670b7696dce85
+Author: maxxine <humcoins@yahoo.com>
+Date:   Tue Jul 16 15:42:46 2013 -0700
+
+    first commit

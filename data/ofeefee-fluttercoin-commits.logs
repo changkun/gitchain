@@ -1,0 +1,2278 @@
+commit ff437700ff27eb4b4026304de4ef8d7c60907aac
+Author: ofeefee <ofeefee@highpoint.tech>
+Date:   Thu Jun 22 19:56:00 2017 -0500
+
+    domain adjustments
+
+commit bb2c3237b5d16d66c42bcf2300ba982cd74c7645
+Author: ofeefee <ofeefee@highpoint.tech>
+Date:   Tue Jun 20 12:30:04 2017 -0500
+
+    website pointer updates
+
+commit 95dae3358e35dae29403b464abd571f324a736f3
+Author: ofeefee <ofeefee@highpoint.tech>
+Date:   Tue Jun 20 12:18:13 2017 -0500
+
+    update version
+
+commit dd68650219988ec76f9276c884163a4914f1d808
+Author: Ofeefee <ofeefee@gmail.com>
+Date:   Fri Aug 19 22:05:33 2016 -0500
+
+    code cleanup and a revert
+
+commit ca44762e06965df158174a2f7f973448c4865866
+Merge: 7a647f7 6d6792d
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Wed Aug 17 18:32:19 2016 -0500
+
+    Merge pull request #39 from kizeren/master
+    
+    Fix error on 64 bit builds breaking.
+
+commit 6d6792d62ffd00f012f251b6bd9fc6db6389ff01
+Author: Shaun Mcbride <shaun.mcbride@gmail.com>
+Date:   Wed Aug 17 01:29:56 2016 -0500
+
+    Fix error on 64 bit builds breaking.
+    
+    Quick fixed for PPA 64 builds.
+
+commit 7a647f7c520e5052e7234f9d2b12b807c509e850
+Author: Ofeefee <ofeefee@gmail.com>
+Date:   Tue Aug 16 22:20:34 2016 -0500
+
+    write setstakesplitthreshold to walletdb
+
+commit c8ff45e0a0b93ccdc58e538e8cbf8ff6c874e396
+Author: Ofeefee <ofeefee@gmail.com>
+Date:   Mon Aug 15 01:11:50 2016 -0500
+
+    setstakesplitthreshold RPC call (default 1000)
+
+commit d749cde61fe091c63642586dbfc2fd4a56e183ec
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Wed Sep 16 23:04:11 2015 -0500
+
+    If using splitblock, fee is 1 FLT
+    
+    This makes it so you won't be charged less than the expected fee, and
+    also adds a very small premium to these transactions.
+    
+    This is optional and can be changed by anyone that builds their own
+    wallet.
+
+commit bbb802404e6a86d55f6cd4a917f65100f0c984ec
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Wed Sep 16 22:55:54 2015 -0500
+
+    Version Update
+
+commit 8be943ad55b8946cf3667dc179cdd402642b7d59
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Fri Sep 4 09:50:28 2015 -0500
+
+    combine mod
+
+commit 4d2d16b4f235d16ea6952b14f81a27eb21aa9e32
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Thu Sep 3 11:56:56 2015 -0500
+
+    adjusts the stake split decision
+    
+    previously it took into account the stake reward added to the block value. This uses the split on the block value pre reward, so if this 2000+ it will split it.  Code will not split if blocks would be <1000.
+
+commit ae3749dd5139f067350c1a9f0bdbc479988a2eaf
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Thu Sep 3 11:10:39 2015 -0500
+
+    combine/split adjustment
+
+commit 8f2544e4ccb04f5fb8ddf81c24c648927a6c96c3
+Merge: 9f1f93b e65cd1a
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Thu Sep 3 11:03:06 2015 -0500
+
+    Merge pull request #36 from kizeren/master
+    
+    Copyright year update
+
+commit e65cd1af06c1536b7eefba1356a227123c98d056
+Author: Shaun Mcbride <shaun.mcbride@gmail.com>
+Date:   Wed Aug 26 23:03:38 2015 -0500
+
+    Copyright year update
+
+commit 9f1f93b8245ff71c227e1650430a0acfb5120491
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Sun Aug 23 22:55:04 2015 -0500
+
+    remove unused function
+
+commit 02bc710e87b178e98a76ef2ce95b9c9f56fd331b
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Sun Aug 23 22:48:17 2015 -0500
+
+    importwallet importprivkey fixes
+
+commit bc483b10dd9079b2a2fcd47e2e546e7467b518fd
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Sun Aug 23 22:27:22 2015 -0500
+
+    remove dust from splitter
+
+commit 615a7b15b564e4e71026a7e735afb8fc8f3441ae
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Sun Aug 23 22:22:42 2015 -0500
+
+    remove dust from splitter
+
+commit a03a62dab2ca78782a9338bb02a968b4ff929ee5
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Fri Jul 31 10:28:32 2015 -0500
+
+    version update
+
+commit c39e0f28e89383d5a64fdc8dd81880ca17a88f3d
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Fri Jul 31 10:28:13 2015 -0500
+
+    version update
+
+commit 48ee3b9ae97d217f69561dd510dc3dabd60f85b3
+Merge: ca4e8d7 ad35b9f
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Fri Jul 31 10:27:16 2015 -0500
+
+    Merge pull request #35 from ofeefee/dev
+    
+    Messaging Fix
+
+commit ad35b9f0bd3a58b5e87c6a634cad858ae1b4b277
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Sun Jul 19 15:21:46 2015 -0500
+
+    enable coincontrol default
+
+commit b7f78e8b9fa61bc9b8309304119a922280056455
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Tue Jul 7 18:14:34 2015 -0500
+
+    messaging fix
+
+commit ca4e8d77f2581c21f4fe2ab1b5bedba22ce75a36
+Merge: d7bbb28 02f0c16
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Fri Mar 27 12:20:41 2015 -0500
+
+    Merge pull request #34 from Kefkius/patch-1
+    
+    fix table formatting in README
+
+commit 02f0c165e1fb12011ee3d1d8b0ba86e2808e7a8e
+Author: Kefkius <Kefkius@users.noreply.github.com>
+Date:   Tue Mar 24 03:52:07 2015 -0400
+
+    fix table formatting in README
+    
+    This just formats the data so that it's displayed as a table.
+
+commit d7bbb2811bb80d63141c4f1f28d77bb65d04de35
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Thu Mar 19 00:03:20 2015 -0500
+
+    code update
+
+commit 2ef591dd71f50e1d897a184d96d2fee881d12d06
+Merge: da4aae3 1c19b4f
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Thu Mar 19 00:01:47 2015 -0500
+
+    Merge branch 'master' of https://github.com/ofeefee/fluttercoin
+
+commit da4aae38864085326ae553cb5c3dc3526730fe91
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Thu Mar 19 00:01:25 2015 -0500
+
+    up version and protocol for release
+
+commit 1c19b4ff0c80caa3f68dfd1da96363a643c48f98
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Wed Mar 18 23:05:31 2015 -0500
+
+    update protocol for tracking pos/pot
+
+commit 5d68676076cb2c6c852f5a0e38e249b3eff87bdd
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Wed Mar 18 15:50:09 2015 -0500
+
+    code cleanup
+
+commit 6309ee1e79bde736adcbbe83a4e44934ef2dc8bb
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Wed Mar 18 15:49:18 2015 -0500
+
+    update proof of transaction tracking
+
+commit fc313f810323391a68eeb4035b30148e9b8f9655
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Mon Mar 16 10:34:53 2015 -0500
+
+    formatting change
+
+commit d75bcf1687bd1e354f37140c465908dd27877e35
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Mon Mar 16 09:51:37 2015 -0500
+
+    update coinstake transaction handling
+
+commit 8885dde65e768101c3a4fe514f2e4aa843282b0f
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Mon Mar 16 02:03:46 2015 -0500
+
+    periodic gui lag fix
+
+commit 3f5ec7f67b926b63dfc70de8b0b29ab9c50c1dc9
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Fri Mar 13 12:48:32 2015 -0500
+
+    formatting change
+
+commit d30a57848a2e8bd427ea077f29d49461192016c8
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Fri Mar 13 12:35:55 2015 -0500
+
+    adjust trans record process
+
+commit 5e4c43f5a8d5c1514c97ac4cd5080528213f4bfa
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Fri Mar 13 11:14:46 2015 -0500
+
+    small pos change for transaction record
+
+commit c42a3aeab2b513f563d2d93054950b388ed50db9
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Wed Mar 11 07:10:14 2015 -0500
+
+    transaction record update for pos
+
+commit 63d24ff3571bd9bca5a999e16289c8f4d5a9d1f3
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Tue Mar 10 02:12:26 2015 -0500
+
+    adjust net in trans detail
+
+commit 7ecdacd39d021aac674aef9b890e1f20a6c23b03
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Mon Mar 9 22:19:27 2015 -0500
+
+    Fix transaction detail
+
+commit de43c2b63659d5e13e2243587af9071bfb94b31e
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Sat Mar 7 18:25:27 2015 -0600
+
+    add themes to linux build zip
+
+commit 575437062ecf97df758cab52e02e91a42d2a29d2
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Sat Mar 7 12:49:24 2015 -0600
+
+    add alternate theme dir
+
+commit 7d0419fdb2ed3712a336e47c513b96b344903baa
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Tue Mar 3 10:48:01 2015 -0600
+
+    build and style changes
+
+commit 9c2cc811a34d9397ae53d653934e00c4d6f358be
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Thu Feb 26 11:06:23 2015 -0600
+
+    revert namespace bug commit
+
+commit 04451f344df11a42eac822d74570393fac9d7cd2
+Merge: 9bae8b1 d10bd26
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Wed Feb 25 20:18:31 2015 -0600
+
+    Merge branch 'master' of https://github.com/ofeefee/fluttercoin
+
+commit 9bae8b133418ce4a154235d160d03c4089e01c68
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Wed Feb 25 18:36:53 2015 -0600
+
+    missed edit
+
+commit d10bd26f81a48a0a24109a1d1447aabffe2a5ac1
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Wed Feb 25 18:02:42 2015 -0600
+
+    fluttercoin-qt.pro source adjust
+
+commit a25cf5d90636a655ce7a7f8260189ba09b12a3a9
+Merge: d88d04c 392d629
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Wed Feb 25 17:59:30 2015 -0600
+
+    Merge pull request #33 from jarridgraham/master
+    
+    Debug tail
+
+commit f618eadb31bebb70eedd54fd6b02d9be78148f18
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Wed Feb 25 16:06:41 2015 -0600
+
+    treat not accepted tx as inactive
+
+commit 968586e01987b414553823fe8c8df94b3c188e7c
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Wed Feb 25 15:50:40 2015 -0600
+
+    Wallet: optimize rescan to skip blocks prior to birthday
+
+commit f343a4f22667bd1424584ee92076f79a582749f7
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Wed Feb 25 15:47:34 2015 -0600
+
+    add missing new line
+
+commit 44a72876addb4a37c39db08573776c3cf172ff0d
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Wed Feb 25 15:46:38 2015 -0600
+
+    Remove unused includes of boost lexical_cast
+
+commit c96c6d5171cd8e06638d2ecf2c2b25113de71b70
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Wed Feb 25 15:33:17 2015 -0600
+
+    fix displaying of staking state and try to sync first
+
+commit 0a87c7985de68950ff4687e09e5bfa4c1c9a4ad2
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Wed Feb 25 15:24:26 2015 -0600
+
+    gui: add total balance
+
+commit 15f39fc632c9d60c29fd82f5e19609db0ed1c5e4
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Wed Feb 25 15:14:28 2015 -0600
+
+    Make explicitly requested salvage operations continue if error
+
+commit ce983e31085706d603d41404379a88b38421b1ac
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Wed Feb 25 15:07:57 2015 -0600
+
+    remove an assignment which is never used.
+
+commit c1813d38911c978ea7598fd0656761e0b34dba63
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Wed Feb 25 15:03:47 2015 -0600
+
+    add option synctime
+
+commit babff362c1a7468dc9cad978268888af6145cf39
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Wed Feb 25 14:27:56 2015 -0600
+
+    fix namespace bug
+
+commit 8fac67e2653a74e99e8dc4632df1c1353284cfa3
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Wed Feb 25 14:22:02 2015 -0600
+
+    Drop release times for CNode
+
+commit 1735f51cbb0ddaff3cb1f3daf47e4e8e324b8afb
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Wed Feb 25 14:11:16 2015 -0600
+
+    Prevent socket leak in ThreadSocketHandler
+
+commit 8f8fd5eec21b9245b1c4bbd63bc03b0b83873be0
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Wed Feb 25 14:07:18 2015 -0600
+
+    P2P: improve RX/TX flow control
+
+commit 392d6290d92fe77a5e807fbfb59e749f37314d88
+Merge: 46c56ff d88d04c
+Author: jarridgraham <jarrid.graham@gmail.com>
+Date:   Wed Feb 25 09:30:39 2015 -0500
+
+    Merge remote-tracking branch 'upstream/master'
+
+commit 46c56ff7d8ff1dbfc6a7d455e96fc821b6483f57
+Author: jarridgraham <jarrid.graham@gmail.com>
+Date:   Wed Feb 25 08:04:53 2015 -0500
+
+    clean up
+
+commit d88d04cbf52d105c1f3af29e4cdf5529dcab3327
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Tue Feb 24 18:26:37 2015 -0600
+
+    updated checkpoints
+
+commit 934b73895127720e9caadf7ba571a8275718b0d7
+Author: jarridgraham <jarrid.graham@gmail.com>
+Date:   Tue Feb 24 12:24:35 2015 -0500
+
+    modified a few things
+
+commit 4639bc9ef3674662d3379ea77d5ee0e0270a0320
+Author: jarridgraham <jarrid.graham@gmail.com>
+Date:   Tue Feb 24 10:49:56 2015 -0500
+
+    Final basic addition of tail debug log
+
+commit fdacaf096f5a3dac2de47e1b8b4d5f9c27058cd2
+Merge: 9f527ab d0c3057
+Author: jarridgraham <jarrid.graham@gmail.com>
+Date:   Tue Feb 24 08:38:28 2015 -0500
+
+    Merge branch 'debugTail' of https://github.com/jarridgraham/fluttercoin into debugTail
+    
+    Conflicts:
+            src/qt/debugdialog.cpp
+            src/qt/forms/debugdialog.ui
+
+commit d0c3057f361c1e9449e53d69481ecc6215145e88
+Author: jarridgraham <jarrid.graham@gmail.com>
+Date:   Mon Feb 23 14:33:52 2015 -0500
+
+    First work on adding a tail -f function to the debug log insted of just open in an editor
+    most of the work (nearly all) was taken from
+    https://github.com/tazio/QtTail
+    just stripped out what I needed.
+
+commit 9f527ab8dbdada8e79372e7fe1ed6c5dc39ccca2
+Author: jarridgraham <jarrid.graham@gmail.com>
+Date:   Mon Feb 23 14:33:52 2015 -0500
+
+    First work on adding a tail -f function to the debug log insted of just open in an editor
+    most of the work (nearly all) was taken from
+    https://github.com/tazio/QtTail
+    just stripped out what I needed.
+
+commit 55d66b6865ceb64495395c93cb65d6b774b6fc39
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Mon Feb 23 02:01:52 2015 -0600
+
+    modernization of treatment of transactions
+
+commit 3f5327b05ff9a5e37b8190f8bc79b31d08753b3b
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Thu Feb 19 20:44:37 2015 -0600
+
+    thread updates, ThreadOpenAddedConnections updates
+
+commit 8cad15731163b8c2a142c28f56d18522b621c957
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Thu Feb 19 02:53:12 2015 -0600
+
+    fix memory leak
+
+commit e8625e69a56b4bafa3c11fc58bbc8bf7a518a2e0
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Thu Feb 19 02:48:10 2015 -0600
+
+    addnode rpc call
+
+commit f4f96a60aff858282ccf2b28a11d32e27a85edce
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Wed Feb 18 00:31:47 2015 -0600
+
+    theme changer
+
+commit 935ee1763f071b0e1b10046fa23a8f4b1b74e032
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Mon Feb 16 01:14:02 2015 -0600
+
+    allow receiving address to be deleted - GUI & RPC
+    
+    --presstab hyperstake 4b7f8a
+    --presstab hyperstake 875fae
+
+commit 6ca1af9e555b9e7eed88125bd1d2120433e31768
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Mon Feb 16 00:47:46 2015 -0600
+
+    bump version
+
+commit 58ed519afb7025fe8b2077c07380ba0b2fc1c32d
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Tue Feb 10 22:24:00 2015 -0600
+
+    formatting changes
+
+commit 41de62b2b38ece17643a25825f68c8d8b65b5dcd
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Tue Feb 10 22:17:34 2015 -0600
+
+    Wallet refuses to create mints with zero reward.
+
+commit aed17f4bcb3acf5a2038d7d3ef4757c6ec79d288
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Tue Feb 10 21:15:11 2015 -0600
+
+    fix unconfirmed balance if wallet contains conflicted transactions
+
+commit 9c186d2dbdb3dd6c687aee97118b4ad66e64bae4
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Mon Feb 9 20:50:51 2015 -0600
+
+    bug fix
+
+commit f3d43b244a0b951e46b8b8a49d171a4222fad8cd
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Fri Feb 6 15:06:22 2015 -0600
+
+    Add traffic graph menu item
+
+commit 13b886b61f8ecd939f9459cebba646f6c26bb0c3
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Fri Feb 6 05:19:44 2015 -0600
+
+    traffic graph update and rpc updates
+
+commit b1235f4bfea92f4abbe77f9c75ccb77938740166
+Merge: e48aec3 7ca79f9
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Fri Feb 6 03:19:29 2015 -0600
+
+    Merge pull request #31 from kizeren/master
+    
+    Adding traffic graph
+
+commit 7ca79f9abdbc27aa6192ae6da746abf602469fc3
+Author: Shaun Mcbride <shaun.mcbride@gmail.com>
+Date:   Thu Feb 5 00:46:09 2015 -0600
+
+    Adding traffic graph
+
+commit e48aec34007e67cfe564eb6062b2f62a3a0eb620
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Wed Jan 21 17:24:01 2015 -0600
+
+    bump version to 0.7.5.16
+
+commit cb972fb88036685b785edc4ff38a8b58e707fad4
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Wed Jan 21 17:19:54 2015 -0600
+
+    Allow a fixed list of change addresses
+
+commit 38cc433b39ada7ca3e458125eec1c17d6ee54650
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Sun Jan 11 01:11:58 2015 -0600
+
+    response - mainteance mode
+
+commit 6cca69ec17007647ffddf76ce3d207ed1a54c52d
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Sat Jan 10 01:09:46 2015 -0600
+
+    referral mods
+
+commit a35a681d7a8f4654db4494a8a6c328a54814af9a
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Sun Jan 4 23:58:00 2015 -0600
+
+    version bump
+
+commit 68e934f1d3fe1d31dd8629e73a30814457412cc3
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Fri Jan 2 02:42:41 2015 -0600
+
+    messageEdit height adjust
+
+commit 1a01ae26e0c1954aaa2f729d8a03e7b06fa5a5e4
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Fri Jan 2 02:19:21 2015 -0600
+
+    messaging updates and bug fixes
+
+commit c76eab133978a930308c49ce5ae58840310d9b67
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Wed Dec 31 02:20:46 2014 -0600
+
+    messaging mods
+
+commit 19c92ba286420e4f4eafeab162101ab16563e296
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Tue Dec 30 01:13:32 2014 -0600
+
+    split block mod for addressbook
+
+commit 695280da30f534a1eed099146bc79328777fab84
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Sun Dec 28 04:46:00 2014 -0600
+
+    update label
+
+commit 3c490f4bf07ea855c78574b44a6ea635f3762b37
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Sun Dec 28 04:39:09 2014 -0600
+
+    free flt messaging mod and time updates
+
+commit 101bba0b6776f6f0079ab9bd070938de9744ca2e
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Sat Dec 27 11:31:25 2014 -0600
+
+    Fluttershare Free
+
+commit b891d83920d36f7e91529e99c1b4ce6807de5245
+Merge: 348ef92 92aae43
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Tue Dec 23 11:54:17 2014 -0600
+
+    Merge pull request #28 from kizeren/master
+    
+    Fixing desktop icons and updating version controlling to master.
+
+commit 92aae4359a90d05ad30759008518f68334417602
+Author: Shaun Mcbride <shaun.mcbride@gmail.com>
+Date:   Tue Dec 23 11:30:54 2014 -0600
+
+    Fixing desktop icons and updating version controlling to master.
+
+commit 348ef92aeceff186208812c68908211c08f8e490
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Tue Dec 23 01:13:50 2014 -0600
+
+    Update version.h
+
+commit d0f5f70cd87c6122b3e4c68829f16aebf86ab7ce
+Merge: 563586b 8858b7b
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Tue Dec 23 01:11:55 2014 -0600
+
+    Merge pull request #27 from kizeren/master
+    
+    Updated contrib/debian files
+
+commit 8858b7b3b330ec717b1258c33f9a845598f5427c
+Author: Shaun Mcbride <shaun.mcbride@gmail.com>
+Date:   Mon Dec 22 23:41:03 2014 -0600
+
+    Changes for ubuntu repositories on launchpad.
+
+commit 442281633e164e96dcb910d8e9e5d3997ebf4ab5
+Merge: bcccc03 563586b
+Author: Shaun Mcbride <shaun.mcbride@gmail.com>
+Date:   Mon Dec 22 00:42:26 2014 -0600
+
+    Merge remote-tracking branch 'upstream/master'
+    
+    Conflicts:
+            src/version.h
+
+commit 563586bdd1cfdb949e1b54960e1957b80e93aa7f
+Merge: 21f3eec da9bf89
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Thu Dec 18 01:11:09 2014 -0600
+
+    Merge pull request #26 from jarridgraham/master
+    
+    Added a time based portion to progress bar on re-sync
+
+commit 21f3eece51c37dd8d852c0d659da03d8e6374ae1
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Thu Dec 18 00:54:05 2014 -0600
+
+    bump protocol for messaging, bump version, disconnect old clients
+
+commit 9a60eb3d0d50334d21131f7528215b1e6c42c74b
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Thu Dec 11 23:36:35 2014 -0600
+
+    update labels
+
+commit 295fd0914598bf5f402d07732efa5590322cbda7
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Thu Dec 11 23:06:05 2014 -0600
+
+    Fix block browser crash
+
+commit da9bf89f193ceedaa0a01383d18a57f9b64081e7
+Merge: 2bf7e5c 96e4866
+Author: jarridgraham <jarrid.graham@gmail.com>
+Date:   Thu Dec 11 21:36:58 2014 -0500
+
+    Merge remote-tracking branch 'upstream/master'
+
+commit 96e4866ebedce1413adde2bc726d3a23ff0c3d45
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Thu Dec 11 12:05:11 2014 -0600
+
+    Block Split GUI
+
+commit bcccc032afc708e67bae4ee7e5857ae93137cb5a
+Author: Shaun Mcbride <shaun.mcbride@gmail.com>
+Date:   Wed Dec 10 17:27:58 2014 -0600
+
+    Weed out kidcoins code.
+    
+    Up'd protocol version by one and min version to 11
+
+commit 0a8950acefa4e1b30b49509e5e315196c0914281
+Merge: e232648 7bf2cc7
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Wed Dec 10 15:41:46 2014 -0600
+
+    Merge branch 'master' of https://github.com/ofeefee/fluttercoin
+
+commit e23264875bfa52a2b2d86b3ce24ac6ff9ced46c0
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Wed Dec 10 15:41:16 2014 -0600
+
+    fluttershare additions
+
+commit 7bf2cc726642c85c9450b97b85bd37bad5e118a3
+Merge: 9501db6 51e748e
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Tue Dec 9 22:33:44 2014 -0600
+
+    Merge pull request #24 from slax0r/master
+    
+    Update makefile.linux
+
+commit 51e748ebcb9dce614ff86961eb205aa4c83eaeea
+Author: slax0r <frcole@gmail.com>
+Date:   Tue Dec 9 23:20:27 2014 -0500
+
+    Update makefile.linux
+
+commit 2bf7e5c0ba9a9500b40d0e0ada93fb2929b8e9fb
+Author: jarridgraham <jarrid.graham@gmail.com>
+Date:   Mon Dec 8 05:55:36 2014 -0500
+
+    Added a time based portion to progress bar on re-sync
+
+commit 9501db6d3ff37d1630ca16a9940c90821da96772
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Fri Dec 5 08:35:28 2014 -0600
+
+    Coin Control Return Change
+
+commit b99bc32f74c579e398b4648e733cb8640dcc0b2c
+Merge: dbf0eca 6e79139
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Thu Dec 4 14:19:36 2014 -0600
+
+    Merge pull request #23 from jarridgraham/master
+    
+    remove -beta from version
+
+commit 6e791399fdcd16509a9e3d9906309ba7fd144af0
+Author: jarridgraham <jarrid.graham@gmail.com>
+Date:   Thu Dec 4 15:16:38 2014 -0500
+
+    remove -beta from version
+
+commit dbf0eca1ba7749b31326f999fb02ebda2cff4f00
+Merge: 1c48a4c 4d98391
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Thu Dec 4 09:38:05 2014 -0600
+
+    Merge pull request #22 from jarridgraham/master
+    
+    Version bump for messaging client
+
+commit 4d98391ec0c084eb4fc3330d5cf0193f3d3d3605
+Author: jarridgraham <jarrid.graham@gmail.com>
+Date:   Thu Dec 4 07:51:02 2014 -0500
+
+    added microsecond timer
+
+commit d8932166ac3f84927a89e73f7a8aa538ad63df45
+Author: jarridgraham <jarrid.graham@gmail.com>
+Date:   Thu Dec 4 07:50:44 2014 -0500
+
+    Version bump for messaging
+
+commit 1c48a4cc83dffe0f033bcd432cb52289efdba821
+Merge: 5f33b82 907b0be
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Wed Dec 3 12:01:10 2014 -0600
+
+    Merge pull request #21 from jarridgraham/master
+    
+    small changes
+
+commit 907b0be9fcec3f525f5010541b257a9eee84abea
+Author: jarridgraham <jarrid.graham@gmail.com>
+Date:   Wed Dec 3 09:54:03 2014 -0500
+
+    Changed download speed monitor to overall average, was getting divide by zero problems with high data rate
+
+commit a5af8cb0bb974b1e669c52dd265978d42ba445c5
+Merge: 29fa953 5f33b82
+Author: jarridgraham <jarrid.graham@gmail.com>
+Date:   Wed Dec 3 09:04:00 2014 -0500
+
+    Merge remote-tracking branch 'upstream/master'
+
+commit 5f33b8224238c2e8c07380a292faab0e1da785a8
+Merge: 40ce1d2 d92afd3
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Tue Dec 2 23:22:52 2014 -0600
+
+    Merge pull request #20 from ofeefee/dev
+    
+    messaging changes
+
+commit d92afd3051cc34d6d8e5144f07069e937d147906
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Tue Dec 2 01:08:12 2014 -0600
+
+    messaging when wallet unlock
+
+commit 29fa953088adfe1269fdf4caaa2f763cba61fd7c
+Merge: 90efb3c 779b7d4
+Author: user <user@user-VirtualBox.(none)>
+Date:   Mon Dec 1 20:47:45 2014 -0500
+
+    Merge remote-tracking branch 'upstream/dev'
+
+commit 779b7d443e5743bdf27a4046f3caf13199ff914b
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Mon Dec 1 10:45:00 2014 -0600
+
+    windows fix
+
+commit 518530d65d408909c9270e042f34f24d01240d23
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Wed Nov 26 13:23:40 2014 -0600
+
+    updated icons, messaging gui changes
+
+commit 90efb3cc209f4e0f33553a4194591b63caba67ef
+Author: jarridgraham <jarrid.graham@gmail.com>
+Date:   Sun Nov 23 12:25:59 2014 -0500
+
+    P2P, cosmetic: break out buffer send(2) code into separate function
+    Tranz5 HoboNickels 69948a6f589f378662e9ee08608f4e9c16079134
+
+commit 7b14559c60aa3149b720038f5a8ff47bf0a72c0c
+Author: jarridgraham <jarrid.graham@gmail.com>
+Date:   Sun Nov 23 12:25:25 2014 -0500
+
+    fixed status line on splash screen from earlier mod
+
+commit 09cc154d8b295461e316ac6781ecf68aede6f724
+Author: jarridgraham <jarrid.graham@gmail.com>
+Date:   Sun Nov 23 12:22:55 2014 -0500
+
+    Added an speed monitor (instant not average)  on flutterspeed download screen
+
+commit 68a4a45ccf67c16bf3152340e96129f38876a427
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Sat Nov 22 23:46:42 2014 -0600
+
+    revert another
+
+commit c32e1be8c9839f43e1e165eef72966bb3f165ecb
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Sat Nov 22 23:39:10 2014 -0600
+
+    revert to orig
+
+commit 3a43950be721c133918d09176a810ca44de92684
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Sat Nov 22 23:02:59 2014 -0600
+
+    Update pro file
+
+commit 3d8dab33d9ae084a952f231d3b5690e65cc53451
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Sat Nov 22 20:14:31 2014 -0600
+
+    Secure Messaging
+
+commit 40ce1d2d2b239ecca2667b542cd5b03ee980ae46
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Sat Nov 22 01:51:32 2014 -0600
+
+    status bar update and bug fix
+
+commit 22b36d0b5c85da09f58e3106d2baa3f863b78de3
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Thu Nov 20 16:08:25 2014 -0600
+
+    code cleanup, stake gui changes
+
+commit 38eb4826be6ec25f26e31e3a80cb6944af720a25
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Wed Nov 19 23:59:13 2014 -0600
+
+    revert overviewpage.ui
+
+commit ee3dcc9eaad71918f8463f98aa209bc1fa1bd0ee
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Wed Nov 19 23:50:04 2014 -0600
+
+    update missing file
+
+commit 79f26bd3fd5901f5ce172974bb1df3b8c0b91648
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Wed Nov 19 23:49:25 2014 -0600
+
+    some GUI goodness
+
+commit 9a87c56151560968dd78c80ca392570f3d8de26d
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Mon Nov 17 23:00:42 2014 -0600
+
+    label fix
+
+commit c2a399d949f69a2110b6cfa5ede9b28027108571
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Sun Nov 16 00:55:59 2014 -0600
+
+    Block Explorer
+
+commit 375d97e995bb80a8f129faefc8f26adfb4ef371c
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Fri Nov 14 15:30:29 2014 -0600
+
+    trailing space
+
+commit db17f9d32b450fe0a3acb428fae40bd4fa7d9c75
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Fri Nov 14 15:28:35 2014 -0600
+
+    control stake splitting initial
+
+commit 8549e898f435117ea79b5c39ad276c9bab7eb337
+Merge: 4ab77d9 b713141
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Thu Nov 13 01:50:54 2014 -0600
+
+    Merge pull request #19 from jarridgraham/master
+    
+    [Qt] show number of in/out connections in debug console from bitcoin com...
+
+commit 4ab77d940be88a1cd230812cf76a1ec866412c06
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Thu Nov 13 01:49:10 2014 -0600
+
+    animate staking icon
+
+commit ee1dc23c669095ae7c97683fb3212fff3f452a46
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Wed Nov 12 17:07:08 2014 -0600
+
+    Coin Control Updates
+
+commit b7131415701559f5eac658899b868c97eeaa2924
+Author: jarridgraham <jarrid.graham@gmail.com>
+Date:   Wed Oct 29 08:16:42 2014 -0400
+
+    [Qt] show number of in/out connections in debug console from bitcoin commit 8e296230775deade9c63f48e61a1ccc9c7e3f4da Diapolo
+
+commit bc4da29bdf4095596349701439d0b90e106b7ad8
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Fri Oct 3 11:19:56 2014 -0500
+
+    sharing bugfixes
+
+commit 4ffb90d89461fe4212d75a764a6db8d1f63a30a7
+Merge: c0a50e7 e747562
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Thu Oct 2 08:18:47 2014 -0500
+
+    Merge pull request #18 from jarridgraham/master
+    
+    fixed flutterspeed forced run, tweeked savings dialog, added a copy address button
+
+commit e7475629a6c985f99703ba62f185c2041764a5bf
+Author: jarridgraham <jarrid.graham@gmail.com>
+Date:   Thu Oct 2 08:35:06 2014 -0400
+
+    addded a copy button and tweeked layout a bit
+
+commit 172986e585e55134463910493c537ba2e86b806b
+Author: jarridgraham <jarrid.graham@gmail.com>
+Date:   Thu Oct 2 08:34:25 2014 -0400
+
+    fixed a var def
+
+commit 8b56e893594e6b66589a7f28b986d3ac52ddaf00
+Merge: 7b98e6b c0a50e7
+Author: jarridgraham <jarrid.graham@gmail.com>
+Date:   Thu Oct 2 07:59:02 2014 -0400
+
+    Merge branch 'master' of https://github.com/ofeefee/fluttercoin
+
+commit c0a50e73e0358b38ddfdefd59ff695735e23018e
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Thu Oct 2 00:13:11 2014 -0500
+
+    update form
+
+commit 6159a683dc27f27c2b3f0774af890812152e685a
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Wed Oct 1 23:57:53 2014 -0500
+
+    adjustments
+
+commit 7b98e6bbd24c29c74a6e76bb917524c7797c121c
+Author: Jarrid Graham <jarrid.graham@gmail.com>
+Date:   Wed Oct 1 23:47:05 2014 -0400
+
+    Changes to flutterspeed to try and avoid version problems
+
+commit 7761d6b5e5667ca3a9db265fad5ae6e2e365fb88
+Merge: 221568f ce05f27
+Author: jarridgraham <jarrid.graham@gmail.com>
+Date:   Wed Oct 1 14:50:09 2014 -0400
+
+    Merge branch 'master' of https://github.com/jarridgraham/fluttercoin
+
+commit 221568f52dd7fdf2238b6caa89255d4824ab44a7
+Author: jarridgraham <jarrid.graham@gmail.com>
+Date:   Wed Oct 1 14:48:35 2014 -0400
+
+    disabled automatic first run flutterspeed will need to start with -download or select out of menu
+
+commit ce05f277f152cd955e2c0130b1845916be359257
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Tue Sep 30 21:46:42 2014 -0500
+
+    use client for this now that it's synced
+
+commit 3a2db965bb05eebde07094b05c7bd22a04a70f50
+Merge: d7c56a8 b5c13a6
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Tue Sep 30 21:42:19 2014 -0500
+
+    Merge branch 'master' of https://github.com/ofeefee/fluttercoin
+
+commit d7c56a8a049864363a0fed2e2243a9d4c33b9378
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Tue Sep 30 21:41:43 2014 -0500
+
+    Updated Checkpoints
+
+commit b5c13a66b40234e09ee7fad2ffa9487c3a4a40d8
+Merge: 647bb4e 2435dab
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Tue Sep 30 21:28:08 2014 -0500
+
+    Merge pull request #17 from jarridgraham/master
+    
+    Mods to send display version for getpeerinfo and update versions
+
+commit 2435dabe62ab6838e90ce07d412a0f04c006045f
+Merge: f08304b 2ba63cc
+Author: jarridgraham <jarrid.graham@gmail.com>
+Date:   Tue Sep 30 11:34:45 2014 -0400
+
+    Merge branch 'subver' of https://github.com/jarridgraham/fluttercoin into subver
+
+commit f08304b2d107ffba94888696fc874ce3e55dddea
+Author: jarridgraham <jarrid.graham@gmail.com>
+Date:   Tue Sep 30 08:59:46 2014 -0400
+
+    Changed file to send current program name and version
+
+commit 2ba63cc057933223d4717988fa16ea274ee8d7f3
+Author: jarridgraham <jarrid.graham@gmail.com>
+Date:   Tue Sep 30 08:59:46 2014 -0400
+
+    Changed file to send current program name and version
+
+commit 647bb4e08ce88fe280bd46ef9ee3cd2d366503c1
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Sun Sep 28 12:38:16 2014 -0500
+
+    Update clientversion.h
+
+commit ba23cc20cd779f65a7711faf3d1db37d70425f1b
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Sun Sep 28 12:37:17 2014 -0500
+
+    Update version.cpp
+
+commit 1850d2169cb3e248ca017a89247a4c2c95048774
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Wed Sep 24 11:06:24 2014 -0500
+
+    subver fix
+
+commit aacc381a2ef5cb41c2362bf7b8d5e435ad0f5224
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Wed Sep 24 11:05:52 2014 -0500
+
+    translation fixes
+
+commit ef9f81a225c892706b0836c3937d5586c793a45e
+Merge: 6741c88 a1cc39f
+Author: jarridgraham <jarrid.graham@gmail.com>
+Date:   Mon Sep 22 14:43:30 2014 -0400
+
+    Merge remote-tracking branch 'upstream/master'
+
+commit a1cc39f62bf01901a690c474c34e9e25ae7b37d5
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Mon Sep 22 10:43:47 2014 -0500
+
+    Merged Features
+
+commit 6741c8846ea46f1d5e22bd06ea813350da11ac52
+Author: jarridgraham <jarrid.graham@gmail.com>
+Date:   Sun Sep 21 00:28:27 2014 -0400
+
+    Merge of ofeefee's branch and my branch
+
+commit 9c653bab6f48799cde03edcd6f5ef5cceb4d4b05
+Author: jarridgraham <jarrid.graham@gmail.com>
+Date:   Fri Sep 19 08:11:46 2014 -0400
+
+    Added a set true if not there for online update
+
+commit 0f64bd6b5a418d840cf4c82edd34bf1c8676c6ad
+Author: Jarrid Graham <jarrid.graham@gmail.com>
+Date:   Thu Sep 18 23:20:28 2014 -0400
+
+    Fixed a QT problem
+
+commit 65955f86ce6a6c279216f361f01bebc982acb28a
+Author: jarridgraham <jarrid.graham@gmail.com>
+Date:   Thu Sep 18 14:12:11 2014 -0400
+
+    Added a cache control to disable http server caching and misc changes
+
+commit a365802d7588c42ed6f2dee29ca99c96ea3e61cd
+Author: jarridgraham <jarrid.graham@gmail.com>
+Date:   Thu Sep 18 00:25:16 2014 -0400
+
+    Added options to set a flag to trigger download of blockchain on next run
+
+commit c6add9ccec3f35c7aabe5838c493a941db5f1407
+Author: jarridgraham <jarrid.graham@gmail.com>
+Date:   Wed Sep 17 14:26:44 2014 -0400
+
+    moved location on update checkbox and made it default enabled
+
+commit 7247c1bc9344d4f9185521c261adf2a8e01099dc
+Author: jarridgraham <jarrid.graham@gmail.com>
+Date:   Wed Sep 17 14:25:39 2014 -0400
+
+    flutterspeed download dialog boxes and controls to make it work
+
+commit 20b848ab0352eae86404691088ce48bed10b8538
+Author: jarridgraham <jarrid.graham@gmail.com>
+Date:   Wed Sep 17 14:24:55 2014 -0400
+
+    changed locations of some of the stuff I had added
+
+commit 9b8b7568a3a12fe00460e04e1920445aa0ef56e1
+Author: jarridgraham <jarrid.graham@gmail.com>
+Date:   Wed Sep 17 14:23:32 2014 -0400
+
+    added a new shutdown routine to delete blockchain on exit
+
+commit 01caf9ed327db1859af5bcf443dfbe8ed8dba79f
+Author: jarridgraham <jarrid.graham@gmail.com>
+Date:   Wed Sep 17 14:22:07 2014 -0400
+
+    misc mods
+
+commit 0675aad02ea4be1a9cf9b7d9ba2eccdae125ef0d
+Author: jarridgraham <jarrid.graham@gmail.com>
+Date:   Wed Sep 17 14:20:27 2014 -0400
+
+    Added new flutterspeed dialog box to build
+
+commit 3555b683cb42742e6e0379052a9d24b6f8b546ad
+Author: jarridgraham <jarrid.graham@gmail.com>
+Date:   Sat Sep 13 11:12:55 2014 -0400
+
+    Added a prercent update to rescan option
+
+commit d4a166e7ea33d4d9e58734f51d0ae0e9e623687f
+Author: jarridgraham <jarrid.graham@gmail.com>
+Date:   Sat Sep 13 11:12:25 2014 -0400
+
+    Added a percent status
+
+commit ba6b06acbbc3da687e5b49b9b06854ac1c24893a
+Author: jarridgraham <jarrid.graham@gmail.com>
+Date:   Sat Sep 13 11:11:44 2014 -0400
+
+    Added code to support new check box for online update
+
+commit 228f49972c84764bbd94134650b30f79cb9c606e
+Author: jarridgraham <jarrid.graham@gmail.com>
+Date:   Sat Sep 13 11:10:31 2014 -0400
+
+    Added a checkbox for checking online updates
+
+commit ce2a4cbaac166f5446f851c5cd55cd746befecd9
+Author: jarridgraham <jarrid.graham@gmail.com>
+Date:   Sat Sep 13 11:09:34 2014 -0400
+
+    Added a check to enable or disable online update checking
+
+commit 794a7cee2e53c612714898786e69b050fffcfcf9
+Author: jarridgraham <jarrid.graham@gmail.com>
+Date:   Sat Sep 13 11:08:52 2014 -0400
+
+    Added help for the -update flag
+
+commit 8afb3e8558ddf930a8715b37f4aa1dfad129f38a
+Author: jarridgraham <jarrid.graham@gmail.com>
+Date:   Sat Sep 13 11:08:26 2014 -0400
+
+    Added optional status code and removed some output to console
+
+commit b7562bc585dcd20e0d9259fbabdd262e97d99a8c
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Sat Sep 13 01:32:03 2014 -0500
+
+    update naming
+
+commit 88e838a728cb31eb0ec0dc1916f99ee7a6f97e5e
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Sat Sep 13 01:24:43 2014 -0500
+
+    add something extra
+
+commit 17d937058b2c7679ee07ee94d4331fcf26397fd6
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Thu Sep 11 22:33:47 2014 -0500
+
+    add account to db
+
+commit 3747a7b33cdc4a320942c332e5946f66e563585a
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Thu Sep 11 22:31:14 2014 -0500
+
+    writing changes to wallet
+
+commit 6d443a556fa72d92ef6d098095c2d0ea222c14d7
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Thu Sep 11 10:42:31 2014 -0500
+
+    naming missed function
+
+commit 9b8143bbc1d42a7971a0325a311e6ad1c93d0a82
+Merge: 8179c7f 92f2fb2
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Thu Sep 11 10:39:14 2014 -0500
+
+    Merge pull request #13 from ofeefee/experimental
+    
+    add some things
+
+commit 92f2fb283db8a1f1818a1f4517646743e0ef33a5
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Thu Sep 11 10:38:39 2014 -0500
+
+    naming rpc
+
+commit 79764fbb851d11b1909400a456ec1791f7daeb84
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Thu Sep 11 10:37:16 2014 -0500
+
+    naming gui
+
+commit 0f7340a3fe83efd02c3d9955cd25bd3909d26028
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Thu Sep 11 10:35:44 2014 -0500
+
+    blah
+
+commit 4843a4728f6f7399e161ca86068a248408ec28b8
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Thu Sep 11 10:34:39 2014 -0500
+
+    gui update
+
+commit fe7ea8589d0e043886a5c1c41115e5d0ce09d23c
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Thu Sep 11 10:33:52 2014 -0500
+
+    gui edit
+
+commit 5b309e3f48e23b76f9a177ab88b5d7f6480f4804
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Thu Sep 11 10:31:19 2014 -0500
+
+    typo
+
+commit 7998b9a68605d7390563336e764ec2eddc9089f2
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Thu Sep 11 10:31:00 2014 -0500
+
+    credit
+
+commit 8de76bdf97876e0d815c9222fa2d2f48751a1f36
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Thu Sep 11 10:29:20 2014 -0500
+
+    rpc changes
+
+commit 760fecd91481fa92358f8ee675f334fb9a600bdb
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Thu Sep 11 10:25:53 2014 -0500
+
+    revert options gui
+
+commit 15a6e778fe51b0c995a7874f910c891b69afdba7
+Author: jarridgraham <jarrid.graham@gmail.com>
+Date:   Wed Sep 10 13:59:16 2014 -0400
+
+    modified spash image
+
+commit f21b6b1aa769dabb042ea36468590431d3c534ae
+Author: jarridgraham <jarrid.graham@gmail.com>
+Date:   Wed Sep 10 13:30:01 2014 -0400
+
+    fix my gitian build scripts for when I modified the version.h file
+
+commit 5f484a59719398bc8a6692606a52c115a0d1541e
+Author: jarridgraham <jarrid.graham@gmail.com>
+Date:   Wed Sep 10 08:50:39 2014 -0400
+
+    tweaking on splash screen colors on message output and made a darker area for text output
+
+commit b841c0af8ea9556b4a5abbc9cb69cc931490e6a4
+Author: jarridgraham <jarrid.graham@gmail.com>
+Date:   Tue Sep 9 23:01:30 2014 -0400
+
+    Files for the check web version and pop a GUI up on start, will add a
+    check on/off toggle at a later date
+
+commit 19ee94c0b54f93f8fa7b6747a566e7ec052fc53d
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Tue Sep 9 19:22:19 2014 -0500
+
+    fix description
+
+commit f60fac505e8f87f8cfcc8555069089046b5ee637
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Tue Sep 9 19:16:14 2014 -0500
+
+    adjust a few things
+
+commit ecc1fffed296f0271c013d3cd99e67e450600be7
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Sun Sep 7 09:04:28 2014 -0500
+
+    missed file
+
+commit d07fb5c078388a5d2c1c0433730813ffcd7cdfb9
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Sun Sep 7 08:33:19 2014 -0500
+
+    mods for donation
+
+commit a6e7abec0799c3bd44cbbd7ba549905580264c9a
+Author: jarridgraham <jarrid.graham@gmail.com>
+Date:   Sun Sep 7 02:35:42 2014 -0400
+
+    Forgot these files for the new version box
+
+commit de5590922dc72bdb771f940efca5c2fae3bc17c2
+Author: jarridgraham <jarrid.graham@gmail.com>
+Date:   Sun Sep 7 02:23:15 2014 -0400
+
+    Added a dialog box with download link on startup for new version
+
+commit 132a7a5ac671710f28f5943949aa586310a0f0fc
+Author: jarridgraham <jarrid.graham@gmail.com>
+Date:   Fri Sep 5 15:15:24 2014 -0400
+
+    fixed some formatting
+
+commit 5f1abcb4fedc29e303841b2471704b7bce928be9
+Author: jarridgraham <jarrid.graham@gmail.com>
+Date:   Fri Sep 5 14:30:21 2014 -0400
+
+    Added some error handling on downloads
+
+commit e46ed53a7a78ffaee6821ed661d9a1c9a501e17d
+Author: jarridgraham <jarrid.graham@gmail.com>
+Date:   Thu Sep 4 13:00:52 2014 -0400
+
+    fixed filecounter
+
+commit 3de480e5cab7ccc7dbe471797bf32f10ac3b9a06
+Author: jarridgraham <jarrid.graham@gmail.com>
+Date:   Thu Sep 4 10:52:17 2014 -0400
+
+    two new forms for new version function and download chain function
+
+commit db9252ac40f08af0d44f71fedaae87230173df96
+Author: jgraham <jgraham@jgraham-VirtualBox.(none)>
+Date:   Wed Sep 3 14:39:45 2014 -0400
+
+    cleaned up some of my stuff
+
+commit 92ceb7678705fdabae54e29b92219f37857ade2d
+Author: jgraham <jgraham@jgraham-VirtualBox.(none)>
+Date:   Wed Sep 3 14:38:55 2014 -0400
+
+    added progress indication to -rescan
+
+commit 376f64b253d090e7da2f19ff7e7f6157c83a83ab
+Author: jgraham <jgraham@jgraham-VirtualBox.(none)>
+Date:   Wed Sep 3 14:37:44 2014 -0400
+
+    added the description in help section, added a check section to start download
+
+commit 98502f521164369d7a54e1ac724b5be5d3da33a8
+Author: jgraham <jgraham@jgraham-VirtualBox.(none)>
+Date:   Wed Sep 3 14:36:55 2014 -0400
+
+    changed progress formatting added a new run check
+
+commit cdeb12a27965a25330caed7a1bcd478dbed4eece
+Author: Jarrid Graham <jarrid.graham@gmail.com>
+Date:   Mon Sep 1 02:52:05 2014 -0400
+
+    added some stuff to print block progress on a rescan
+
+commit 88630b013be1db68bb72508ebd0521122adf03b3
+Author: Jarrid Graham <jarrid.graham@gmail.com>
+Date:   Mon Sep 1 02:51:41 2014 -0400
+
+    removed long address flag
+
+commit caedd1a546537fc14fabf2844200bd671de0bc89
+Author: Jarrid Graham <jarrid.graham@gmail.com>
+Date:   Sun Aug 31 23:48:16 2014 -0400
+
+    added a -download option to download blockchain, and put the check verion to throw a message if there is a new verion
+    just testing at moment
+
+commit d65a717e795f60e2316782755ce3dccd42e5c2c7
+Author: Jarrid Graham <jarrid.graham@gmail.com>
+Date:   Sun Aug 31 18:50:16 2014 -0400
+
+    First round at routines for downloading blockchain from http server
+
+commit 8179c7f44401328bbaddb090547d29bb8a6cd513
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Thu Aug 28 14:42:36 2014 -0500
+
+    Reduced alert time to 24 hours
+
+commit ef61e1eef2f8cb9a88e8823e40b5c2047f98bb17
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Thu Aug 28 01:27:06 2014 -0500
+
+    more
+
+commit 983c7aed47807b66687c9944a0e19a9ce7998fd4
+Author: ofeefee <ofeefee@users.noreply.github.com>
+Date:   Thu Aug 28 01:19:08 2014 -0500
+
+    menu changes
+
+commit d155103d621a3ffa7a93d3c9e32b806323b03883
+Author: ofeefee <derekoflynn@Dereks-MacBook.local>
+Date:   Thu Aug 28 01:14:56 2014 -0500
+
+    menu change
+
+commit 459d7934e714637066a95069f212234a40adab6a
+Author: Derek O'Flynn <derekoflynn@Dereks-MacBook.local>
+Date:   Thu Aug 28 00:52:57 2014 -0500
+
+    QT5 Changes
+
+commit 632ca6c44b68686c8a050701fea1389a0ed22377
+Author: Derek O'Flynn <derekoflynn@Dereks-MacBook.local>
+Date:   Thu Aug 28 00:41:06 2014 -0500
+
+    Fix relock wallet when set to unlock for staking only
+
+commit 766e87053688bb0b2854f249bce76103c16ae71e
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Tue Aug 26 00:04:35 2014 -0500
+
+    Update macdockiconhandler.mm
+
+commit 18a023caf2ff5f2bd94d2f541f8ae3df7e64a47c
+Author: Derek O'Flynn <derekoflynn@Dereks-MacBook.local>
+Date:   Mon Aug 25 22:58:40 2014 -0500
+
+    Fix Mac OS X Dock issue
+
+commit cb77d507623a49d64ff2ac5f6f5cc538ae486524
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Wed Aug 20 14:40:27 2014 -0500
+
+    unnecessary
+
+commit d2353244353974f7b7a616c615e8d2f6d90e4550
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Wed Aug 20 14:26:32 2014 -0500
+
+    Revert - remove unneeded vars
+
+commit 40210a2a4255ccc0a88a658888507dec855eef9e
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Wed Aug 20 14:02:47 2014 -0500
+
+    remove unneeded vars
+    
+    no need for these items in bitcoingui.cpp, we do not care what fWalletUnlockStakingOnly is if the wallet is locked, only if you unlock it.
+
+commit aded9d6a1a5283388028089399e3702c9092d26b
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Wed Aug 20 08:58:44 2014 -0500
+
+    typo fix
+
+commit 353094d92e3edba466351216db3dc941a1761d4f
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Mon Aug 18 22:39:40 2014 -0500
+
+    add lock wallet menu item
+
+commit 3e9f4181598ee92063b0d4e59fbba6d3ebefda8c
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Mon Aug 18 22:36:40 2014 -0500
+
+    another typo
+
+commit 6d4b92612da0f071867603fd03aee66a4a1ea697
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Mon Aug 18 22:20:55 2014 -0500
+
+    typo fix
+
+commit b74e326dfe2e3ab6cb0ecb32017e2b13fddaaae8
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Mon Aug 18 22:19:18 2014 -0500
+
+    add lock wallet menu item
+
+commit e5d150d847150e86802ad856daaf59a9b2b1ad2e
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Mon Aug 18 21:40:09 2014 -0500
+
+    translation fixes
+
+commit 862af6ad0a39f031b8edd7ba831c7dc420ed4d29
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Mon Aug 18 16:33:35 2014 -0500
+
+    gui unlock for staking changes
+
+commit a20a05473ebb621004a259e617d989a4ce06937d
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Mon Aug 18 16:29:27 2014 -0500
+
+    gui unlock for staking changes
+
+commit 9ce8c6f550bd0a8d9ecb1201167eaa14e554705b
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Mon Aug 18 16:28:37 2014 -0500
+
+    gui unlock for staking changes
+
+commit e588e2deebf534fa1063ed672c6243a7c445c215
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Sat Aug 16 00:19:06 2014 -0500
+
+    Update Transaction Description for Mined Blocks
+    
+    520 changed to 112 to match code
+    main.cpp
+    nCoinbaseMaturity=12
+    return max(0, (nCoinbaseMaturity+100) - GetDepthInMainChain()); // increase maturity of mined block
+
+commit 97f8b19fe34a3d7764c65db7530e4b68075e3818
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Fri Aug 15 09:08:37 2014 -0500
+
+    bump to version 0.4.5.12
+
+commit 5b2c26449517146caef439fb7ee6b41e40f98652
+Merge: 33d0553 b153856
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Fri Aug 15 09:07:05 2014 -0500
+
+    Merge pull request #12 from ofeefee/dev
+    
+    bugfix - update staking icon on encryption change
+
+commit b1538561379c330cb42d4cb62a3b408fd7823cae
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Tue Aug 12 13:47:38 2014 -0500
+
+    update staking icon
+    
+    bugfix to updatestakingicon on encryption status change
+
+commit 33d0553520a452b80889ccf2a00bc9032b163dfc
+Merge: b2805c2 1e60fcb
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Wed Aug 6 17:25:41 2014 -0500
+
+    Merge pull request #11 from slax0r/master
+    
+    Fixed crash bug on Mac related to the use of CScript()
+
+commit 1e60fcb07d950ffef1906f0efae712eff5955b06
+Author: slax0r <slacker@radicalether.com>
+Date:   Wed Aug 6 12:19:18 2014 -0400
+
+    Fixed crash bug on Mac related to the use of CScript()
+
+commit b2805c28b1bbb3cf196f81517e7707e574f6f50d
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Mon Aug 4 23:55:07 2014 -0500
+
+    change depsdir to match homebrew locations
+
+commit 16b36fca9d9902a855dc5691494df05e0c71edd8
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Mon Aug 4 23:35:07 2014 -0500
+
+    bump version
+
+commit 01c233b4313ecb857ff811e8efc46717fdb50355
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Mon Aug 4 23:27:36 2014 -0500
+
+    NOBLKS_VERSION_END
+
+commit 230bd9dc9ff051a8ded7f8352dfaaf99300bfdd5
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Mon Aug 4 22:46:43 2014 -0500
+
+    osx: missed a edit for brew with berkeley-db
+
+commit 5e4551c214b44300fa522a28c7e3d02a16dd47ff
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Mon Aug 4 22:42:05 2014 -0500
+
+    osx: fix building libmemenv.a and db53
+
+commit 8d830f31e0bfae2a9df893f90cab1e69517a6ac1
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Mon Aug 4 18:48:12 2014 -0500
+
+    osx: fix building libmemenv.a
+
+commit fd53703bdb6d11d522b18f82d02f4d317d44cd41
+Merge: 0e6efb8 01bddd9
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Thu Jul 31 22:45:16 2014 -0500
+
+    Merge pull request #10 from ofeefee/dev
+    
+    fixes for building, new images with transparency mapping, bugfixes
+
+commit 01bddd9185ffcd260aa560995986c00b8e7c27bd
+Merge: e632331 27a756e
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Thu Jul 31 22:42:39 2014 -0500
+
+    Merge pull request #9 from jarridgraham/dev
+    
+    fixes for building, new images with transparency mapping, bugfixes
+
+commit 27a756ea7d19c00c211fe895c773c232ce1c738e
+Author: Jarrid Graham <jarrid.graham@gmail.com>
+Date:   Thu Jul 31 20:47:46 2014 -0400
+
+    Changed width of about window to be able to hold the fluttercoin image
+
+commit 4f97421fe74f08608cf1639289d05b99198521ac
+Author: Jarrid Graham <jarrid.graham@gmail.com>
+Date:   Thu Jul 31 20:43:39 2014 -0400
+
+    Change status text form nearly white to green and an option not to fill the background
+    of the splash image. On linux it was fine as is int windows was solid black
+
+commit b775ba4129f50e9068a73a501b231ce87cda7ef9
+Author: Jarrid Graham <jarrid.graham@gmail.com>
+Date:   Thu Jul 31 20:42:23 2014 -0400
+
+    Change source to include new images
+
+commit 5fcd9abb0be447efec3cdbb435c9c97231f0a4a8
+Author: Jarrid Graham <jarrid.graham@gmail.com>
+Date:   Thu Jul 31 20:37:44 2014 -0400
+
+    Two new images with transparency mapping
+
+commit c47827ecc95314980c6815a7c9fc27acd30d2136
+Author: Jarrid Graham <jarrid.graham@gmail.com>
+Date:   Thu Jul 31 20:16:25 2014 -0400
+
+    Removed the remote option, and included the source code to be built
+
+commit ed064c78f980db27e84e6e3b6fd87cecef49d86a
+Author: Jarrid Graham <jarrid.graham@gmail.com>
+Date:   Thu Jul 31 20:12:22 2014 -0400
+
+    Changed the filename it was looking for, an earlier build created a newer version.
+
+commit 3921372d0c49400f15670ea388ee08deed104674
+Author: Jarrid Graham <jarrid.graham@gmail.com>
+Date:   Thu Jul 31 20:10:12 2014 -0400
+
+    Fixed sha256 checksum for db file, plus a line to rename a file that was missing
+
+commit c449b129bcdc5b608d23c6ab01f3cfcb76e52236
+Author: Jarrid Graham <jarrid.graham@gmail.com>
+Date:   Thu Jul 31 19:49:00 2014 -0400
+
+    Scripts to build and zip up output with version numbers
+
+commit 0e6efb853383ba8612c698d399a9238d01fb6d04
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Wed Jul 30 02:00:01 2014 -0500
+
+    Change Coin Control to use local time
+    
+    less confusion to user
+
+commit bac300a5b5720ac477ab9840a1291aebad7cc904
+Merge: 443c616 e632331
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Wed Jul 30 01:48:38 2014 -0500
+
+    Merge pull request #8 from ofeefee/dev
+    
+    QT: Default sort transactions by date
+
+commit e6323319f59300c47247f8a634401eb764a0aa37
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Wed Jul 30 01:45:26 2014 -0500
+
+    QT: Default sort transactions by date
+
+commit 443c6169f9b89b621ebec283c2a286a95ba86500
+Merge: 150e159 e9d5447
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Wed Jul 30 01:34:18 2014 -0500
+
+    Merge pull request #7 from ofeefee/dev
+    
+    Sort OverviewPage by Date
+
+commit e9d5447f4e7ecea4206561fb59b03c01abb604e8
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Wed Jul 30 01:32:51 2014 -0500
+
+    Update overviewpage.cpp
+
+commit 0b8e9b8a6436f126106fdca40981922455aca279
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Wed Jul 30 01:30:50 2014 -0500
+
+    Update transactionfilterproxy.cpp
+
+commit 21eed6bc2b06590d7628e5441e4161c38379a91e
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Wed Jul 30 01:29:55 2014 -0500
+
+    Update transactionfilterproxy.h
+
+commit a3dc4ae1cfe213e88be3eb00177509f86f23bd70
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Wed Jul 30 01:22:28 2014 -0500
+
+    Update overviewpage.cpp
+
+commit d6472953b6880facf6a6e93fc314fdc1d2643133
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Wed Jul 30 01:21:34 2014 -0500
+
+    Update transactionfilterproxy.h
+
+commit 24097aa2eec04103a2e506c9be47cddbeb68959b
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Wed Jul 30 01:20:36 2014 -0500
+
+    Update transactionfilterproxy.cpp
+
+commit 722330be935f43b3f4603a4e8bcc11762f2d5791
+Merge: d550582 150e159
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Wed Jul 30 00:55:50 2014 -0500
+
+    Merge pull request #6 from ofeefee/master
+    
+    Merge with Master
+
+commit 150e1594aca9cb8fb3dc5d5f3cd6541a9c780874
+Merge: a323b71 d550582
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Wed Jul 30 00:52:38 2014 -0500
+
+    Merge pull request #5 from ofeefee/dev
+    
+    Remove OptionsModel::Upgrade
+
+commit d550582ba5b33f238e3295cb29d0c3404d39ac91
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Wed Jul 30 00:51:01 2014 -0500
+
+    Update optionsmodel.h
+
+commit 90738153121efd1787ba28b365691eb8207dc125
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Wed Jul 30 00:49:38 2014 -0500
+
+    Update optionsmodel.cpp
+
+commit c5cb7a8c8bd2ddb47cbfc3fd5a71dcc2299d4b95
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Wed Jul 30 00:48:45 2014 -0500
+
+    Update bitcoin.cpp
+
+commit a323b71247afe1933adec2af321969ea41194b45
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Wed Jul 30 00:06:19 2014 -0500
+
+    disable irc seeding by default
+
+commit c997072ae2026020d8ec57309973c04b02095c28
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Wed Jul 30 00:05:19 2014 -0500
+
+    disable irc seeding by default
+
+commit 0fcafdd96995b45e5fd0689acf6330066e45a1d4
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Tue Jul 29 16:29:49 2014 -0500
+
+    bump version
+
+commit c027f32662594a0f5f069e2fb341d3aa99fa3553
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Tue Jul 29 16:26:23 2014 -0500
+
+    fixed bitcoin #3162
+
+commit 69d9d826e127c8a20d69250612e554c385e44e94
+Merge: f44ee55 427122c
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Tue Jul 29 16:20:45 2014 -0500
+
+    Merge pull request #3 from ofeefee/dev
+    
+    ui changes - add coin control weight, sort transactions by date
+
+commit 427122c9168deb3ea39fc4f68063bb7beecd5a19
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Tue Jul 29 11:38:57 2014 -0500
+
+    Update rpcmining.cpp
+
+commit 3b2cbfb06fd5a47d98eaa0eda8ceabaf0898a209
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Tue Jul 29 11:06:51 2014 -0500
+
+    Update walletmodel.cpp
+
+commit 96b1ffcd6b71783b35a0377160f6574bfff95aa5
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Tue Jul 29 11:05:02 2014 -0500
+
+    Update wallet.cpp
+
+commit d0c07117050e4b839e743f0ffef9fe20a2bdb9f5
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Tue Jul 29 11:01:08 2014 -0500
+
+    Update wallet.h
+
+commit 5b368deed4d1cd91b82672817bb97629cb0ae199
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Tue Jul 29 10:59:53 2014 -0500
+
+    Update rpcmining.cpp
+
+commit ac95dfe23d8ae27de2626c1cbb8cd50030b546cd
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Tue Jul 29 10:59:21 2014 -0500
+
+    Update bitcoingui.cpp
+
+commit f44ee55cc5d372bac52459f7da0e89cb54d10332
+Merge: 78e1b10 fa1eb2c
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Sun Jul 27 23:01:29 2014 -0500
+
+    Merge pull request #4 from slax0r/master
+    
+    Mac OS X Mavericks/Homebrew build.
+
+commit c3f27b13338fef716dae8e9d0e4bb17a71ec5f24
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Sun Jul 27 22:41:42 2014 -0500
+
+    UI Fixes
+    
+    QT: sort transactions by date;
+
+commit a1b5d5bb5ddd4f884b3fbdee17b1d7c83b77a06c
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Sun Jul 27 22:40:34 2014 -0500
+
+    UI Fixes
+    
+    QT: sort transactions by date;
+
+commit fec6f91d59facce945fe8a65c04435e76bc3d8c3
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Sun Jul 27 21:28:03 2014 -0500
+
+    change getStakeWeight uint64 to uint64_t to match wallet function (type issue)
+
+commit fa1eb2c7f39699ae8d5ec2b81f3a6f04e58d1b54
+Author: Frank Cole <frcole@Franks-MacBook-Pro.local>
+Date:   Fri Jul 25 21:46:12 2014 -0400
+
+    Second attempt at a good Mac OS X Mavericks/Homebrew build.
+
+commit c5fcd80eb959e1dd46aad14a65058a68cfc43267
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Fri Jul 25 16:49:22 2014 -0500
+
+    Add input weight to coin control interface
+
+commit cb9e8777a0667603621ae3220f4ce53a25cba534
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Fri Jul 25 16:48:33 2014 -0500
+
+    Add input weight to coin control interface
+
+commit 03036e46227ce6d4bd7fced1a4a88573d7535ff6
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Fri Jul 25 16:46:33 2014 -0500
+
+    Add input weight to coin control interface
+
+commit 2ba8a7b68aff9322ed2ce9a4d8b82c29b861b28e
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Fri Jul 25 16:45:48 2014 -0500
+
+    Add input weight to coin control interface
+
+commit 2e35ecc172a0a992479e248828506dbddd812065
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Fri Jul 25 16:20:59 2014 -0500
+
+    Add input weight to coin control interface
+
+commit b226d1281c54d5242fce47499e97561dfd784eaa
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Fri Jul 25 16:18:20 2014 -0500
+
+    Add input weight to coin control interface
+
+commit 588db86673397bb785946fe4132f2ab753d5fe62
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Fri Jul 25 16:15:08 2014 -0500
+
+    Add input weight to coin control interface
+
+commit fb73ec1232b983aee040a695bdbb62b287e8b4c1
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Fri Jul 25 16:06:16 2014 -0500
+
+    Add input weight to coin control interface
+
+commit 78e1b1084ff50615c0f070d0d8a1e6558b36a7e0
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Wed Jul 16 14:47:23 2014 -0500
+
+    version update 4.5.10
+
+commit 1c12bf62269023a1912274c718db10d4d3d17bb6
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Wed Jul 16 00:36:40 2014 -0500
+
+    reverting a block height adjustment
+
+commit 0b6c070d2c8d295f8fc25c731facebd7c7718453
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Tue Jul 15 19:09:21 2014 -0500
+
+    version update 4.5.9
+
+commit 8a161c42ad1481e5a5997ea41807864b85c4a17f
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Tue Jul 15 19:07:50 2014 -0500
+
+    fluttercoin.us dnsseed
+
+commit 20bd6596aea8ff3b6337096dc44c90a8db496115
+Author: Ofeefee <ofeefee@gmail.com>
+Date:   Sat Jul 12 08:46:29 2014 +0000
+
+    keys
+
+commit c7478c84cfd8b4de96c020ef2d7dd4633a40bd51
+Author: Ofeefee <ofeefee@gmail.com>
+Date:   Sat Jul 12 04:32:57 2014 +0000
+
+    alertkeys
+
+commit 133e1641df9e1c8193f6dc3154f8e5c2c6b7e1c0
+Merge: 932441c 932bd6e
+Author: Ofeefee <ofeefee@gmail.com>
+Date:   Fri Jul 11 15:46:57 2014 +0000
+
+    Merge branch 'master' of https://github.com/ofeefee/fluttercoin
+
+commit 932441c855f7c4bb918e620816972484215e10bc
+Author: Ofeefee <ofeefee@gmail.com>
+Date:   Fri Jul 11 15:45:41 2014 +0000
+
+    alertkey
+
+commit 932bd6ee20b00e68029964dd0043fa67bfae0da5
+Merge: 1ffe178 adb0035
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Fri Jul 11 09:31:07 2014 -0500
+
+    Merge pull request #1 from slax0r/master
+    
+    fixed a error about signed/unsigned int
+
+commit adb003581230d8df75e3a9a1f1379e439fe00f4d
+Author: slax0r <frcole@gmail.com>
+Date:   Thu Jul 10 01:34:45 2014 -0400
+
+    Update main.cpp
+    
+    Fixed a minor annoyance in main.
+
+commit 1ffe178e2ae1ae14f78fdacd5918747871aa514e
+Author: Ofeefee <ofeefee@gmail.com>
+Date:   Wed Jul 9 16:37:42 2014 +0000
+
+    updatd dnsseed, updated PoT checking
+
+commit 426ea7976ea9212cdf8d987c10865dd3801a12f7
+Author: Ofeefee <ofeefee@gmail.com>
+Date:   Tue Jul 8 18:24:49 2014 +0000
+
+    comments
+
+commit d3918fa3ee0112d906239b55617b57191af3a81e
+Author: Ofeefee <ofeefee@gmail.com>
+Date:   Tue Jul 8 18:12:21 2014 +0000
+
+    comments
+
+commit 21d65f932aa4912a3b76972dbaf79e5c300fc22e
+Author: Ofeefee <ofeefee@gmail.com>
+Date:   Tue Jul 8 17:33:37 2014 +0000
+
+    updated checkpoint
+
+commit f017b907a7df1cb4873fc0d54846799d5a1ac747
+Author: Ofeefee <ofeefee@gmail.com>
+Date:   Mon Jul 7 20:36:29 2014 +0000
+
+    version update
+
+commit 20deb7a138fcd3aeb0ec3a33efddec0473ec782e
+Author: Ofeefee <ofeefee@gmail.com>
+Date:   Mon Jul 7 16:37:33 2014 +0000
+
+    Updated Checkpoint and Height Adjustment
+
+commit 7e0236741216708a70a9f576799b153055214cdd
+Author: Ofeefee <ofeefee@gmail.com>
+Date:   Mon Jul 7 16:32:37 2014 +0000
+
+    Updated Checkpoint
+
+commit 8934bd3f4eba1714bcd200be2c06a65aca06cfd1
+Author: Ofeefee <ofeefee@gmail.com>
+Date:   Fri Jul 4 06:13:35 2014 +0000
+
+    fork fixes and peer sync height
+
+commit 0e5033581bda44974350a010fa8a6d058829900a
+Author: Ofeefee <ofeefee@gmail.com>
+Date:   Tue Jul 1 17:29:17 2014 +0000
+
+    Fork Fixes
+
+commit 3e9e2716d7d940483927bac376c81d689d98626d
+Author: Ofeefee <ofeefee@gmail.com>
+Date:   Tue Jul 1 17:22:55 2014 +0000
+
+    Fork Fixes
+
+commit 171c8260a273b9b03e58f3d7bd167147d01a251b
+Author: Ofeefee <ofeefee@gmail.com>
+Date:   Tue Jul 1 17:10:55 2014 +0000
+
+    Fork Fixes
+
+commit 7a68eaa90514bd4a8c3a96316378fed4de0e0425
+Author: root <root@ip-172-31-24-222.ec2.internal>
+Date:   Tue Jul 1 16:52:51 2014 +0000
+
+    Update ProcessMessage for block 88212
+
+commit 249375c3bf108393231968116e8706d3f0d7e88d
+Author: ofeefee <ofeefee@gmail.com>
+Date:   Mon Jun 30 22:01:40 2014 -0500
+
+    Update checkpoints.cpp
+    
+    Added Checkpoint at Block 92800
+
+commit 8a4a0713638b4b483e905ec3596f29c8bf9e3aeb
+Author: thekidcoin <thekidcoin@gmail.com>
+Date:   Sat May 10 14:37:22 2014 -0500
+
+    fix calcs and resendtx
+
+commit 58a30cf7c89de39bd84124b6980a559ad15c892c
+Author: thekidcoin <thekidcoin@gmail.com>
+Date:   Mon May 5 12:55:05 2014 -0500
+
+    fix miner.cpp
+
+commit 4dc48b1c4a7f1b991147266624a77b1866d86fb4
+Author: thekidcoin <thekidcoin@gmail.com>
+Date:   Mon May 5 10:05:20 2014 -0500
+
+    PoT v2 Updates
+
+commit 603c9875d738d26af371fe7ce5adf0056461f3bb
+Author: thekidcoin <thekidcoin@gmail.com>
+Date:   Thu Apr 10 23:16:04 2014 -0500
+
+    updated readme
+
+commit dc00a736c9373bb16bdd9200d1bd21f452d904a3
+Author: thekidcoin <thekidcoin@gmail.com>
+Date:   Thu Apr 10 21:01:03 2014 -0500
+
+    stake improvements reward changes
+
+commit 386121ab696d605b583e134ba4fc9b723fe5236e
+Author: thekidcoin <thekidcoin@gmail.com>
+Date:   Sat Apr 5 10:50:06 2014 -0500
+
+    checkpoints and various fixes
+
+commit 0df5c41c9f23db9833583e435713da503d3fff14
+Author: petemanaco <pmanaco@gmail.com>
+Date:   Mon Mar 24 23:00:44 2014 -0500
+
+    getblocktemplate fixes for stratum
+
+commit 37373bd764bf69447de6e2278ac44f7e5dd7adc1
+Author: thekidcoin <thekidcoin@gmail.com>
+Date:   Mon Mar 17 22:20:57 2014 -0500
+
+    Fork fix POW time to 6 minutes max
+
+commit 4af26ab7e73cb1554bb7f283c6d18b3f830f3937
+Author: thekidcoin <thekidcoin@gmail.com>
+Date:   Mon Mar 17 22:12:28 2014 -0500
+
+    update to allow upcoming fork
+
+commit d1c776ede68a45de1db12a02bc28929ae196455b
+Author: thekidcoin <thekidcoin@gmail.com>
+Date:   Wed Mar 12 17:46:18 2014 -0500
+
+    Added ability to sign and verify releases
+
+commit c16f0fea802a2a317e207e1caf88934fdcb2f682
+Author: thekidcoin <thekidcoin@gmail.com>
+Date:   Tue Mar 11 21:04:39 2014 -0500
+
+    updated readme
+
+commit f8a0386022336ba51000a26ceff14a6cfb3a7a7b
+Author: thekidcoin <thekidcoin@gmail.com>
+Date:   Tue Mar 11 17:28:21 2014 -0500
+
+    getmininginfo - temp fix disable netstakeweight
+
+commit a895520b70b555aed6f29e7ac06edfd3d1345849
+Author: thekidcoin <thekidcoin@gmail.com>
+Date:   Sun Mar 9 23:26:01 2014 -0500
+
+    adjust halving because of slower block time
+
+commit fc42abccf7c906241f4c9b610df6cf450b974c7f
+Author: thekidcoin <thekidcoin@gmail.com>
+Date:   Sat Mar 8 15:51:40 2014 -0600
+
+    v0.4.5.0 fixes
+
+commit fa3e9a33b1154074ca325e30770acc890b9a42e3
+Author: thekidcoin <thekidcoin@gmail.com>
+Date:   Wed Mar 5 19:13:52 2014 -0600
+
+    check greater than 3280
+
+commit 7048e86aefd705446242d5216b543babdc61e003
+Author: thekidcoin <thekidcoin@gmail.com>
+Date:   Wed Mar 5 19:10:25 2014 -0600
+
+    Fix check work
+
+commit 945a073bffaf4714fdfda33474344d403ab23b40
+Author: thekidcoin <thekidcoin@gmail.com>
+Date:   Wed Mar 5 19:00:03 2014 -0600
+
+    Don't check Old Blocks
+
+commit 23ca0fc117576530da86d00b18a03baad9b32f2f
+Author: thekidcoin <thekidcoin@gmail.com>
+Date:   Wed Mar 5 18:28:36 2014 -0600
+
+    Version 70002 v0.4.4.9
+
+commit e8b8b1197ebd9f20584c6543cb38e49a4a1a6d69
+Author: thekidcoin <thekidcoin@gmail.com>
+Date:   Wed Mar 5 12:34:20 2014 -0600
+
+    Forking Fixes
+
+commit ed42d92dfe21cf1b4b13eed943900987a4a2528a
+Author: thekidcoin <thekidcoin@gmail.com>
+Date:   Tue Mar 4 08:25:20 2014 -0600
+
+    revert checkpoints
+
+commit 0cd0dc12b33affc770a544c5198de294ec455c50
+Author: thekidcoin <thekidcoin@gmail.com>
+Date:   Mon Mar 3 23:42:47 2014 -0600
+
+    checkpoint 1088
+
+commit 346d7ca8340ad4a29dd1e15f6543d48331b487e9
+Author: thekidcoin <thekidcoin@gmail.com>
+Date:   Mon Mar 3 22:15:26 2014 -0600
+
+    checkpoint 875
+
+commit 45391251571e3932cf15b55996d5e28916caede7
+Author: thekidcoin <thekidcoin@gmail.com>
+Date:   Mon Mar 3 18:53:32 2014 -0600
+
+    Initial Upload

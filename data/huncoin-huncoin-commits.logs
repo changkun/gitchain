@@ -1,0 +1,103 @@
+commit 8154e157e838eca7d25ccc6ab8d9ffe94b7f29ac
+Author: ygzen <ygzen8@gmail.com>
+Date:   Mon Apr 17 03:35:46 2017 -0400
+
+    Update README
+
+commit 00b403ff58e1f2c4455cf9a765ec18ba04369c43
+Author: ygzen <ygzen8@gmail.com>
+Date:   Thu Mar 23 05:56:37 2017 -0400
+
+    Update README
+
+commit 28a1c428cc970805364f78509fd2077e8c4a7430
+Author: ygzen <ygzen8@gmail.com>
+Date:   Thu Mar 23 04:21:34 2017 -0400
+
+    Update README
+
+commit 39fb1357ba727e0e8730636b3450e5627a2622f7
+Author: ygzen <ygzen8@gmail.com>
+Date:   Thu Mar 23 03:16:53 2017 -0400
+
+    Update README
+
+commit 0b99f5e7df440060cb21eefd71e1fda5c420e5e9
+Author: ygzen <ygzen8@gmail.com>
+Date:   Thu Jul 21 03:19:05 2016 -0400
+
+    Update README
+
+commit 1a4ff922d4873bdc9a7a5fcf5be0344cd5df4a0b
+Author: ygzen <ygzen8@gmail.com>
+Date:   Fri Jun 24 15:20:29 2016 -0400
+
+    Update README
+
+commit becdec121e079ac085a009376f550e74fcb158f4
+Author: HunCoin <ygzen8@gmail.com>
+Date:   Fri Jun 24 14:15:44 2016 -0400
+
+    huncoin
+
+commit c7826a46b2d11c01c378cd9be80fb9f57701a6b2
+Author: ygzen <ygzen8@gmail.com>
+Date:   Sun Jun 5 01:27:23 2016 -0400
+
+    Update README
+
+commit 43b8223c6f33cccbeb90f8727626264363d3f4da
+Author: ygzen <ygzen8@gmail.com>
+Date:   Wed Jun 1 23:18:09 2016 -0400
+
+    Add files via upload
+
+commit 745e0af0de5b64b1b2959ce87d3333d19f11f581
+Author: ygzen <ygzen8@gmail.com>
+Date:   Wed Jun 1 23:17:40 2016 -0400
+
+    Delete bitcoin.qrc
+
+commit f6e55642e01460741dc3b6a56804cd61909d952d
+Author: ygzen <ygzen8@gmail.com>
+Date:   Tue May 31 19:18:16 2016 -0400
+
+    Update bitcoin.qrc
+
+commit 4ec7888a3b7120219d6a4aebfd58b38d69a918a1
+Author: ygzen <ygzen8@gmail.com>
+Date:   Tue May 31 16:34:49 2016 -0400
+
+    Update README
+
+commit 0dfa5378a8befc311f4c1c2e3f5e189fd80c9ac4
+Author: ygzen <ygzen8@gmail.com>
+Date:   Tue May 31 16:13:56 2016 -0400
+
+    Update README
+
+commit 481fc2723a383eed88e2a5fbe102303e3aef3599
+Author: HunCoin <ygzen8@gmail.com>
+Date:   Tue May 31 16:04:07 2016 -0400
+
+    huncoin
+
+commit 6607a4f6c6b548af5a381a85faf06fac48228ff3
+Author: HunCoin <ygzen8@gmail.com>
+Date:   Tue May 31 15:29:21 2016 -0400
+
+    huncoin
+
+commit 6e5171317facca213ac6f81ccc890e78cfa93d58
+Author: HunCoin <ygzen8@gmail.com>
+Date:   Sat May 28 17:06:52 2016 -0400
+
+    Revert ":lollipop: Added .gitattributes"
+    
+    This reverts commit 34d4c6f4380ca6222921c09995c01be7d071cea2.
+
+commit 34d4c6f4380ca6222921c09995c01be7d071cea2
+Author: HunCoin <ygzen8@gmail.com>
+Date:   Sat May 28 16:26:23 2016 -0400
+
+    :lollipop: Added .gitattributes

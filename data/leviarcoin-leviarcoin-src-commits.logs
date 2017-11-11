@@ -1,0 +1,113 @@
+commit b8376f1789813d90279151835a6f18b184a11293
+Author: LeviarCoin <info@leviarcoin.org>
+Date:   Wed Sep 20 22:27:08 2017 +0200
+
+    Release notes v2.1.1
+
+commit dda0f5ff60afe00e423493127ea8367a773cd0f7
+Author: LeviarCoin <info@leviarcoin.org>
+Date:   Wed Sep 20 22:25:59 2017 +0200
+
+    v2.1.1 Barium
+
+commit 07b4b11e0a690173f0866648c34f891495d4e4f6
+Author: LeviarCoin <info@leviarcoin.org>
+Date:   Thu Aug 10 00:56:40 2017 +0200
+
+    Checkpoints + new RPC JSON commands
+
+commit a331cf49004118ac00878c427ce1b076d99ee6b2
+Author: LeviarCoin <info@leviarcoin.org>
+Date:   Sat Aug 5 11:54:39 2017 +0200
+
+    Fix Makefile - rocksdb clean
+
+commit 4ea535412fe59251aaa4737d62b3f965771ae331
+Author: LeviarCoin <info@leviarcoin.org>
+Date:   Fri Aug 4 14:21:52 2017 +0200
+
+    README
+
+commit 82eb379a2857bc8a55ce392af4f76f96cdb79a8a
+Author: LeviarCoin <info@leviarcoin.org>
+Date:   Fri Aug 4 14:20:51 2017 +0200
+
+    v2.0.6 Actinium
+
+commit f9fc61e6556c54361ea215a20db486f60149b2db
+Author: LeviarCoin <info@leviarcoin.org>
+Date:   Fri Aug 4 14:20:07 2017 +0200
+
+    Removed old client v1
+
+commit aea8125487500966754f77c33e3b55add60b7183
+Author: LeviarCoin <info@leviarcoin.org>
+Date:   Mon Jul 31 21:11:28 2017 +0200
+
+    Bug fixing
+
+commit ef70b5aedfdf32d2da24dca31a4b76c0c2d6ccef
+Author: LeviarCoin <info@leviarcoin.org>
+Date:   Mon Jul 31 09:00:18 2017 +0200
+
+    Removed debug message
+
+commit d899002e79a5883b5eab1817779b428fcf960c5c
+Author: LeviarCoin <info@leviarcoin.org>
+Date:   Mon Jul 31 04:06:40 2017 +0200
+
+    Removed debug message
+
+commit 1b21afbad1eb727529da561e562266ca3b61af50
+Author: LeviarCoin <info@leviarcoin.org>
+Date:   Mon Jul 31 04:03:04 2017 +0200
+
+    Fix block time and clean up
+
+commit b4d7d0e691bb9e8f63ddb9d7bb140c95a066b0a1
+Author: LeviarCoin <info@leviarcoin.org>
+Date:   Mon Jul 31 02:21:20 2017 +0200
+
+    Fix CMakeLists
+
+commit 43a8d5afc53ceb4e85698ae0aeb654f046b0dbc8
+Author: LeviarCoin <info@leviarcoin.org>
+Date:   Mon Jul 31 02:08:18 2017 +0200
+
+    block number change
+
+commit 57c5454534228d8f15a6e88140bb4085d900f695
+Author: LeviarCoin <info@leviarcoin.org>
+Date:   Mon Jul 31 02:06:05 2017 +0200
+
+    1.1.2 diff target changed (2 minutes)
+
+commit 0a77d29c22736bed6a41e9b4005674af607ef123
+Author: LeviarCoin <info@leviarcoin.org>
+Date:   Mon Jul 31 02:04:59 2017 +0200
+
+    1.1.2 diff target changed (2 minutes)
+
+commit 64a8b391cef1695f32b62721c9685f19dfdbd60f
+Author: LeviarCoin <info@leviarcoin.org>
+Date:   Sun Jul 16 19:05:15 2017 +0200
+
+    New Genesis
+
+commit ca68ab1b6c0447b11ea87711dd71376f2a63786c
+Author: LeviarCoin <info@leviarcoin.org>
+Date:   Sat Jul 15 21:41:51 2017 +0200
+
+    Added genesis
+
+commit 426d15c84531fa2172444a3cad772f6f2e605bf7
+Author: LeviarCoin <info@leviarcoin.org>
+Date:   Sun Apr 16 20:43:36 2017 +0200
+
+    Create README.md
+
+commit 2f50ecfef19f0d0439711d345939cc6ed27cba47
+Author: LeviarCoin <info@leviarcoin.org>
+Date:   Sun Apr 16 20:42:21 2017 +0200
+
+    First commit

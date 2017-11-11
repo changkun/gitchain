@@ -1,0 +1,101 @@
+commit 8369582eda66353a0ef5ced59c82508cebc3c337
+Author: Hcash <dev@hcash.org>
+Date:   Wed Sep 20 19:23:46 2017 +0800
+
+    fix copyright
+
+commit c8e8e9ccf2b631f7d96426ec26e4adab033784ad
+Author: Hcash <dev@hcash.org>
+Date:   Fri Sep 8 17:00:03 2017 +0800
+
+    set upgrade block at 10600
+
+commit 57e4c06b91ffcf6cefb89b52693b2e1abf96ce9f
+Author: Hcash <dev@hcash.org>
+Date:   Fri Sep 8 16:23:44 2017 +0800
+
+    v1.1.0 commit
+
+commit 809684d547efe8383983961ec6ec46299bfae49a
+Author: Hcash <dev@hcash.org>
+Date:   Fri Sep 8 13:17:20 2017 +0800
+
+    change block current version
+
+commit 132b164345f861bf605ca85d3d75ed8f6608d53e
+Author: Hcash <dev@hcash.org>
+Date:   Fri Sep 8 09:15:56 2017 +0800
+
+    add version check
+
+commit a36e78df8e77f146b6481b3b8990079dc2cb06eb
+Author: Hcash <dev@hcash.org>
+Date:   Fri Sep 8 02:07:56 2017 +0800
+
+    increase block version
+
+commit fe31f2e2215cf3a077f3386724f9268cf0b49bea
+Author: Hcash <dev@hcash.org>
+Date:   Fri Sep 8 00:54:45 2017 +0800
+
+    fix sm3
+
+commit 3ca04cb5db7c99941345c83caf00ee41e4c57c25
+Author: Hcash <dev@hcash.org>
+Date:   Thu Sep 7 16:49:31 2017 +0800
+
+    fix space in makefile
+
+commit 54dbde03acbc9dba8ed2aac3cf592615ba5c53c5
+Author: Hcash <dev@hcash.org>
+Date:   Thu Sep 7 16:29:01 2017 +0800
+
+    fix reward coculate
+
+commit ba3da639f41fbf31f97b2d60c664e2a92430148b
+Author: Hcash <hcash>
+Date:   Thu Sep 7 15:46:45 2017 +0800
+
+    enable pow, add sm3 to X13 hash
+
+commit a55f5c2aa552cb81aa786b26cd01091c9aa8873f
+Author: Hcash <dev@hcash.org>
+Date:   Wed Aug 30 11:44:20 2017 +0800
+
+    change readme
+
+commit 9ec0751c34655420f6e248fd33a070da1faaaed6
+Author: Hcash <dev@hcash.org>
+Date:   Fri Aug 18 08:46:23 2017 +0800
+
+    add min fee
+
+commit e79a3836eceeae755d8944c7051a440d5bbb33fb
+Author: Hcash <dev@hcash.org>
+Date:   Wed Aug 16 21:48:59 2017 +0800
+
+    change port
+
+commit a509b60dd3aef57be66fbb7fc8d74e41d1b79ec7
+Author: Hcash <dev@hcash.org>
+Date:   Wed Aug 16 21:31:20 2017 +0800
+
+    add seeds and change version
+
+commit d6e3479461afdb420cdface4d506525223ef7a4e
+Author: Hcash <hcash2017@hotmail.com>
+Date:   Fri Aug 11 20:27:17 2017 +0800
+
+    add dnsseeds
+
+commit 08e301c8f3919bb3362b153ff79aea8a65502a5e
+Author: Hcash <dev@hcash.org>
+Date:   Thu Jun 29 12:41:59 2017 +0800
+
+    Hcash
+
+commit 9e136783def1d91885667e9f1db89cadf48d26d7
+Author: Hcash <dev@hcash.org>
+Date:   Wed Jun 14 20:30:01 2017 +0800
+
+    init

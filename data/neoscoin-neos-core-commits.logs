@@ -1,0 +1,67 @@
+commit 82400c5aa48bed35eb92c45358b48d38a05699e1
+Author: ksynb <kris@blockchaindatasystems.com>
+Date:   Wed Mar 29 22:40:15 2017 -0400
+
+    Fix for TX relay issues
+
+commit aa8688d2581f712568c9ec9f061aade0220beabd
+Merge: 95eb6bb 59b8d44
+Author: ksynb <kris@blockchaindatasystems.com>
+Date:   Fri Mar 10 04:43:13 2017 -0500
+
+    Merge pull request #1 from Stoner19/master
+    
+    wallet: fix boost::get usage with boost 1.58
+
+commit 59b8d44cd7fbe803fb42c50bbab16a8512fb56a0
+Author: Stoner19 <stoner19@msn.com>
+Date:   Thu Jan 19 09:28:34 2017 -0700
+
+    name clean up
+    
+    name and values cleaned up for master node values and comments
+
+commit 20e87ee3c8ee60398a382e875e5cad08e946c033
+Author: Stoner19 <Stoner19@users.noreply.github.com>
+Date:   Wed Jan 18 13:28:34 2017 -0700
+
+    wallet: fix boost::get usage with boost 1.58
+    
+    see reference to https://github.com/bitcoin/bitcoin/pull/6114/commits/824c011d165cc352088f8e238f66b829b0e654ed
+    And of course best of if its tested before merge is accepted ;)
+
+commit 95eb6bbed9ff6c2f063eaa2e4bdcc532ddb1bc60
+Author: ksynb <kris@blockchaindatasystems.com>
+Date:   Fri Sep 30 17:16:32 2016 -0400
+
+    missing obj directories added
+
+commit 87afaa95ea2e27dd2c7f70681469c99b34d7ddd8
+Author: ksynb <kris@blockchaindatasystems.com>
+Date:   Thu Sep 29 17:02:57 2016 -0400
+
+    Fix client revision number
+
+commit 2bdbc3c73a1f3115db1307a11602096c6c2fd4ac
+Author: ksynb <kris@blockchaindatasystems.com>
+Date:   Thu Sep 29 17:02:40 2016 -0400
+
+    Fix client revision number
+
+commit 341bdf7d7a8036812bb3a46c24ea58b7c819d63b
+Author: ksynb <kris@blockchaindatasystems.com>
+Date:   Thu Sep 29 14:53:38 2016 -0400
+
+    Correct height in other payment block (was 2000000 duplicated)
+
+commit 9559646c0cfc4244b524010d3e1c2fd5f05ea17c
+Author: ksynb <kris@blockchaindatasystems.com>
+Date:   Thu Sep 29 14:06:47 2016 -0400
+
+    Fix mistype on block 2500000
+
+commit 2452a77d8d96c0ea3154c2a0cce6e3faec22cee7
+Author: ksynb <kris@blockchaindatasystems.com>
+Date:   Thu Sep 29 14:04:37 2016 -0400
+
+    Cleaned up source, new reward structure, fork block added

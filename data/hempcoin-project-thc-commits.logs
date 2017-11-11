@@ -1,0 +1,250 @@
+commit 7979fddfdb6cf47bd6deec6a7d8175c5e7b1cbd0
+Author: withthelemons <with.the.lemons@gmail.com>
+Date:   Sat Oct 14 15:44:44 2017 +0200
+
+    fix compilation on 32bit systems
+
+commit 1a65d873c0d484fafa005c80afa6243aea5b2e08
+Author: withthelemons <with.the.lemons@gmail.com>
+Date:   Sat Oct 14 15:40:41 2017 +0200
+
+    Always use SSE2
+    
+    It is supported on virtually all systems (except for ARM, but we don't target that yet)
+
+commit 9da6ec85e481389a456f2accafeadc00a442af1a
+Author: withthelemons <with.the.lemons@gmail.com>
+Date:   Sat Oct 14 15:31:13 2017 +0200
+
+    Bump version
+
+commit f4de1483105442d33a0a5a5b635c51a78ecfda6d
+Author: withthelemons <with.the.lemons@gmail.com>
+Date:   Sat Oct 14 15:30:54 2017 +0200
+
+    Add checkpoint
+
+commit 15a08a179201cbcb15568b1e39c80bd8d26ed2c4
+Author: withthelemons <with.the.lemons@gmail.com>
+Date:   Fri Oct 13 21:02:45 2017 +0200
+
+    allow to do some casts in scrypt.h
+
+commit d855c106b7ac43ea7f88d0ba05a477f8db66f34d
+Author: withthelemons <with.the.lemons@gmail.com>
+Date:   Fri Oct 13 20:33:40 2017 +0200
+
+    add SSE define to makefile
+
+commit c63fa460d6cfb904957455dcb2521b5684d8ec3d
+Author: withthelemons <with.the.lemons@gmail.com>
+Date:   Fri Oct 13 20:26:43 2017 +0200
+
+    optimize IsTrusted() function (see novacoin for reference)
+
+commit 097ab3e5b7240812730db218418c136287e9cfe3
+Author: withthelemons <with.the.lemons@gmail.com>
+Date:   Fri Oct 13 20:26:13 2017 +0200
+
+    disable sync-checkpoints for now
+
+commit 18ea9c43ab6780bb98d1a729a79c0478b91a5e39
+Author: withthelemons <with.the.lemons@gmail.com>
+Date:   Fri Oct 13 20:25:06 2017 +0200
+
+    Compile with new miniupnpc library
+
+commit ae25140bf3869b6af90e6fb6c7b2b878978dd3ae
+Author: withthelemons <with.the.lemons@gmail.com>
+Date:   Fri Oct 13 20:19:36 2017 +0200
+
+    Optimize Scrypt hashing by using SSE2 instructions
+
+commit a579213053d7946e8f1209670538df553ea54771
+Merge: 2cf1247 ec2cb11
+Author: Tim <dev@hempcoin.org>
+Date:   Sat Apr 8 14:28:36 2017 -0500
+
+    Merge pull request #7 from CryptoUnited/master
+    
+    Protocol increment
+
+commit ec2cb114e9bf103be0e2b800b5686a50477b9f86
+Author: Greg Griffith <tfa.productions.1337@gmail.com>
+Date:   Sat Apr 8 13:02:01 2017 -0400
+
+    Protocol increment
+    
+    Protocol increment to prevent syncing with a bad node
+
+commit 2cf1247c9fd11b3ea2297be5b764f14006ee50a5
+Merge: 7ebc388 3811f36
+Author: Tim <dev@hempcoin.org>
+Date:   Wed Mar 29 13:42:16 2017 -0500
+
+    Merge pull request #6 from CryptoUnited/master
+    
+    added massive reorg prevention, incremented version
+
+commit 3811f36522ceeafb9815a3aa6e54350fdd5576c9
+Author: Greg Griffith <tfa.productions.1337@gmail.com>
+Date:   Wed Mar 29 12:36:42 2017 -0400
+
+    added massive reorg prevention, incremented version
+    
+    added massive reorg prevention, incremented version
+
+commit 7ebc3886089da545f10f6351dbd278a8a00449e4
+Author: withthelemons <with.the.lemons@gmail.com>
+Date:   Sun Dec 18 01:54:52 2016 +0100
+
+    Fix the copyright beginning year too
+
+commit 110062af110f53152c621b29f090f8cd2636c9a0
+Author: withthelemons <with.the.lemons@gmail.com>
+Date:   Sun Dec 18 01:53:01 2016 +0100
+
+    Update copyright year in About dialog
+
+commit e0630c0a46e14c708909cbeb3fc468618aa13a38
+Author: withthelemons <with.the.lemons@gmail.com>
+Date:   Sun Dec 18 01:36:34 2016 +0100
+
+    Fix compilation with C++11
+
+commit c9b2d5237171918be1486adcedb88e2a5ecb1277
+Merge: 1f657c3 34bc284
+Author: withthelemons <with.the.lemons@gmail.com>
+Date:   Sat Dec 17 14:21:00 2016 +0100
+
+    Merge pull request #5 from CryptoUnited/master
+    
+    wallet 2.0.0
+
+commit 34bc284ed805f573accf8bde65837ee905d4a660
+Author: Greg Griffith <tfa.productions.1337@gmail.com>
+Date:   Fri Dec 16 22:08:02 2016 -0800
+
+    update version to 2.0.0.0
+    
+    update wallet version to 2.0.0.0
+
+commit a35b1ce47cc276168cfa0c643eb3d0c2ccc9ac17
+Author: Greg Griffith <tfa.productions.1337@gmail.com>
+Date:   Fri Dec 16 22:07:20 2016 -0800
+
+    updated graphics
+    
+    updated wallet graphics, moved originals into folder marked originals
+    for safe keeping in the event a revert on the graphic updates is
+    requested
+
+commit 1f657c3ae706f6020c2ac816dc08a4737719cc1f
+Merge: 78b473b aa98886
+Author: Tim <dev@hempcoin.org>
+Date:   Fri Dec 16 06:30:29 2016 -0600
+
+    Merge pull request #4 from CryptoUnited/master
+    
+    PoS updates
+
+commit aa9888614355f1bf91e1598becfbf758473c0abc
+Author: Greg Griffith <tfa.productions.1337@gmail.com>
+Date:   Fri Dec 16 00:44:51 2016 -0800
+
+    debug removed, fork time added
+    
+    debug code was removed and the official fork time was coded into the
+    wallet
+
+commit e0d1449510a07e44e2dddbe9f61e3318a6957ac7
+Author: Greg Griffith <tfa.productions.1337@gmail.com>
+Date:   Sun Dec 11 13:01:07 2016 -0800
+
+    PoS fix - no fork coded
+    
+    PoS code fix without the fork date coded in yet
+
+commit 78b473b1287e905d269d214d5b4782988a8cec5b
+Author: hempcoin-project <dev@hempcoin.org>
+Date:   Wed Jul 30 14:03:47 2014 +0100
+
+    change stash to crop
+
+commit 5ad3d48459155b442b173030b9316deef0b46b9a
+Author: hempcoin-project <dev@hempcoin.org>
+Date:   Wed Jul 30 01:26:24 2014 +0100
+
+    fix typo
+
+commit d25595aa9b9f01d117c853cc3e8bc160671793c1
+Author: hempcoin-project <dev@hempcoin.org>
+Date:   Wed Jul 30 00:32:12 2014 +0100
+
+    make windows slightly bigger
+
+commit a05f1d2c857910b795f735ec802e9697f276fef2
+Author: hempcoin-project <dev@hempcoin.org>
+Date:   Wed Jul 30 00:28:27 2014 +0100
+
+    pretty background for coin-control
+
+commit 43bc9680e575041ab26ebff180b6f846ccbaef99
+Author: hempcoin-project <dev@hempcoin.org>
+Date:   Tue Jul 29 21:44:04 2014 +0100
+
+    remove hempcoind file
+
+commit 6e4256a7f93831d0782525d4f6bf7a01b06e3418
+Author: hempcoin-project <dev@hempcoin.org>
+Date:   Tue Jul 29 19:26:32 2014 +0100
+
+    updated graphics
+
+commit 832d8d2bf01240f3b88ec22e28870a45cadac4b7
+Author: hempcoin-project <dev@hempcoin.org>
+Date:   Tue Jul 29 19:10:38 2014 +0100
+
+    1.7.0.3 - fix stuck chain
+
+commit 25b30a8c1d7d1886f66b35642d02da50f34ccf0f
+Author: hempcoin-project <dev@hempcoin.org>
+Date:   Fri Jul 25 23:17:34 2014 +0100
+
+    1.7.0.2
+
+commit 388d08dbcbd625c94407c76f9ca83d1088db1d1c
+Author: hempcoin-project <dev@hempcoin.org>
+Date:   Fri Jul 25 23:13:40 2014 +0100
+
+    autocheckpointing key
+
+commit c888900f9cfb1fe554f50715c8de982d02d6d788
+Author: hempcoin-project <dev@hempcoin.org>
+Date:   Fri Jul 25 19:05:32 2014 +0100
+
+    add testnet
+
+commit 6a0680b2527bfefa29d95efa8eb711e95de56bb1
+Author: hempcoin-project <dev@hempcoin.org>
+Date:   Fri Jul 25 14:14:31 2014 +0100
+
+    proper example address
+
+commit fc0ee8c0b0fb18cd2051ee10a41584a64a7af3dc
+Author: hempcoin-project <dev@hempcoin.org>
+Date:   Fri Jul 25 13:59:21 2014 +0100
+
+    automatically connect to main node
+
+commit 597e2c3681e1933b1630cc878c0141327f8f56ef
+Author: hempcoin-project <dev@hempcoin.org>
+Date:   Fri Jul 25 13:48:40 2014 +0100
+
+    use .Hempcoin dir and Hempcoin.conf
+
+commit 9e2c68729c35dfe23a92266fa8406a1a7e17abe5
+Author: hempcoin-project <dev@hempcoin.org>
+Date:   Fri Jul 25 02:20:11 2014 +0100
+
+    1.7

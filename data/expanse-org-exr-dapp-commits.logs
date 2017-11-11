@@ -1,0 +1,606 @@
+commit 8af3d41477d6562a7a7568670154904cbf853812
+Author: Christopher Franko <chrisjfranko@gmail.com>
+Date:   Tue Aug 15 12:41:03 2017 -0400
+
+    hm
+
+commit 50f48dc4d40b9418e5e73a18e3ebd38644e5df94
+Author: Christopher Franko <chrisjfranko@gmail.com>
+Date:   Tue Aug 15 12:36:42 2017 -0400
+
+    fix broken link
+    
+    strange broken link
+
+commit 97807db9068ee1d0fe4e11c0034ac7404c6600a4
+Author: Christopher Franko <chrisjfranko@gmail.com>
+Date:   Tue Aug 15 12:27:12 2017 -0400
+
+    Update readme
+    
+    add download
+
+commit 824d9c83728bf1c1ae21c77d76339c9d232f0b06
+Author: Christopher Franko <chrisjfranko@gmail.com>
+Date:   Tue Aug 15 12:16:19 2017 -0400
+
+    Update Readme
+
+commit 750d38309767415e2b2ca642471f5ba6d0a43a4d
+Merge: b0348c0 43d646c
+Author: Dan Conway <surreal7@gmail.com>
+Date:   Fri Aug 4 16:35:57 2017 -0500
+
+    Merge pull request #69 from expanse-org/dev
+    
+    merge dev branch for exr update
+
+commit 43d646cf41f4dc2d0eba166ea441353f08a21752
+Author: Dan Conway <surreal7@gmail.com>
+Date:   Fri Aug 4 16:03:34 2017 -0500
+
+    contract func name backwards compat
+
+commit b96885e4c69ca9e31c7d3e83493e5e05c9623d89
+Author: Dan Conway <surreal7@gmail.com>
+Date:   Thu Aug 3 23:17:10 2017 -0500
+
+    EXR Conversion 2/3
+
+commit be67ce6507b6dcb1831c531b4f4fdc874702acb7
+Author: Dan Conway <surreal7@gmail.com>
+Date:   Thu Aug 3 22:58:51 2017 -0500
+
+    EXR Conversion 2/3
+
+commit 3f09f7c32b53954049006fe71371dc6a246c9c39
+Author: Dan Conway <surreal7@gmail.com>
+Date:   Tue Aug 1 15:06:29 2017 -0500
+
+    EXR Conversion 1/3
+
+commit b0348c09f7d5eaed453675bba188cc2e29ee3004
+Merge: a10aa23 5bfc6e2
+Author: Dan Conway <surreal7@gmail.com>
+Date:   Sun Jun 18 17:45:55 2017 -0500
+
+    Merge pull request #67 from expanse-org/dev
+    
+    pagination
+
+commit 5bfc6e218b312048946873f2ccf5ddcfe39d5885
+Author: Dan Conway <surreal7@gmail.com>
+Date:   Sun Jun 18 17:41:27 2017 -0500
+
+    pagination
+
+commit a10aa23c6ad7dbea05e085de4578b16731d0645b
+Merge: a1552d2 40ab43e
+Author: Dan Conway <surreal7@gmail.com>
+Date:   Fri Jun 16 17:11:07 2017 -0500
+
+    Merge pull request #63 from expanse-org/dev
+    
+    1.1.0 Dev merge
+
+commit 40ab43eccb2db5cc1b0f22f673ee0ee5ea3dacd5
+Author: Dan Conway <surreal7@gmail.com>
+Date:   Fri Jun 16 17:09:35 2017 -0500
+
+    async update + fixes
+
+commit a1552d2185aa63c411f8aca930f1689572560d79
+Author: Christopher Franko <chrisjfranko@gmail.com>
+Date:   Thu Jun 15 14:49:11 2017 -0400
+
+    Set theme jekyll-theme-tactile
+
+commit 8d15711d5c9d9fe43d54273092339ccc44631084
+Merge: bcf8565 91dc068
+Author: Dan Conway <surreal7@gmail.com>
+Date:   Fri Jun 9 13:07:57 2017 -0500
+
+    async update
+
+commit bcf85651c8349b763ca607a6208f2473d45304b5
+Author: Dan Conway <surreal7@gmail.com>
+Date:   Fri Jun 9 13:04:01 2017 -0500
+
+    converting to async
+
+commit 1b21856f6a4b260f2f84b5a8e1ae91a5ff4f93ab
+Merge: 28167a7 91dc068
+Author: Dan Conway <surreal7@gmail.com>
+Date:   Sat May 27 10:52:16 2017 -0500
+
+    Merge pull request #55 from expanse-org/dev
+    
+    ipcfix
+
+commit 91dc068a4362c72552a2cfc58537199afe9187e4
+Author: Dan Conway <surreal7@gmail.com>
+Date:   Sat May 27 15:51:27 2017 +0000
+
+    ipc fix
+
+commit fb9ca801e744a647f24a21095985fb5a151961da
+Merge: e484c0b fa1103d
+Author: Dan Conway <surreal7@gmail.com>
+Date:   Sat May 27 02:01:45 2017 +0000
+
+    Merge branch 'dev' of https://github.com/expanse-org/bond-dapp into dev
+
+commit e484c0bbf259dd54d24807c8b456a992cf7868d5
+Author: Dan Conway <surreal7@gmail.com>
+Date:   Sat May 27 02:01:13 2017 +0000
+
+    mac/linux ipc path fix
+
+commit 28167a7d5be971e2319b96fcf44147c504691f43
+Merge: 97bcb9f fa1103d
+Author: Dan Conway <surreal7@gmail.com>
+Date:   Mon May 22 15:33:11 2017 -0500
+
+    Merge pull request #54 from expanse-org/dev
+    
+    1.0.0 abi  + address
+
+commit fa1103dbb8e1dfb1d5cf8bcafb04577ae76e0619
+Author: Dan Conway <surreal7@gmail.com>
+Date:   Sat May 20 23:42:31 2017 -0500
+
+    1.0.0 abi  + address
+
+commit 97bcb9f9183ebc8bdfd88e2a806a1c459ad077fc
+Merge: 4261649 aeea132
+Author: Dan Conway <surreal7@gmail.com>
+Date:   Tue May 16 15:44:59 2017 -0500
+
+    Merge pull request #41 from expanse-org/dev
+    
+    Dev 1.0.0 merge
+
+commit aeea13246751ef02e1b716eff62e036cdc2ccedb
+Author: Dan Conway <surreal7@gmail.com>
+Date:   Tue May 16 15:35:49 2017 -0500
+
+    update version
+
+commit 2c771e63dc875c3290fb3f413679622ff0676273
+Author: Dan Conway <surreal7@gmail.com>
+Date:   Tue May 16 15:27:04 2017 -0500
+
+    copy addrs and txids to clipboard
+
+commit e3d46c468952e1fbb00e607ab6056d36d1cdfd3a
+Author: Dan Conway <surreal7@gmail.com>
+Date:   Tue May 16 14:33:52 2017 -0500
+
+    center logo
+
+commit e9f940f20f87a8a715adfbcc66a7218df9a37975
+Author: Dan Conway <surreal7@gmail.com>
+Date:   Tue May 16 14:18:51 2017 -0500
+
+    implement sync modal
+
+commit 3b829f84667696669f2e3ea3244cdee59b58a7cf
+Author: Dan Conway <surreal7@gmail.com>
+Date:   Tue May 16 12:57:37 2017 -0500
+
+    live contract vars
+
+commit d3a7f2a1b1d65c2f4299a490af2708b850ad2db5
+Author: Dan Conway <surreal7@gmail.com>
+Date:   Tue May 16 01:28:44 2017 -0500
+
+    update siidebar blockcount
+
+commit a799cae209192216be4780f5654af26974766dfb
+Author: Dan Conway <surreal7@gmail.com>
+Date:   Tue May 16 01:18:00 2017 -0500
+
+    syncUpdate
+
+commit c2c98d61a2f8cf9ea2bbde0027e525da1010fd2c
+Author: Dan Conway <surreal7@gmail.com>
+Date:   Tue May 16 00:50:39 2017 -0500
+
+    optimized connection and blockchain sync handling
+
+commit 2c0eb3c87e1ad66b6dc9eeb8cd1e8c5b2fb311b5
+Author: Dan Conway <surreal7@gmail.com>
+Date:   Mon May 15 19:54:10 2017 -0500
+
+    update gitignore - ignore releases (osx)
+
+commit 1947c679342e29dfabeb227e885424f76a9cbdfd
+Author: Dan Conway <surreal7@gmail.com>
+Date:   Mon May 15 19:43:40 2017 -0500
+
+    update gitignore - ignore releases
+
+commit a4aeb4dbbda257d5c190db0500cd70b20be514a5
+Author: Dan Conway <surreal7@gmail.com>
+Date:   Mon May 15 19:42:16 2017 -0500
+
+    only allow xfer if bond active
+
+commit 93f63058ee3e9963cb3d2e3e7290802435670897
+Author: Dan Conway <surreal7@gmail.com>
+Date:   Mon May 15 19:22:13 2017 -0500
+
+    update package.json spawnargs
+
+commit 20d5bb0fefc5b0c76ddd0af24fa3ea71b2973d79
+Author: Dan Conway <surreal7@gmail.com>
+Date:   Mon May 15 18:14:39 2017 -0500
+
+    add raddix 10
+
+commit 44e05a6d35b9798582268017545d8660eca54c3d
+Author: Dan Conway <surreal7@gmail.com>
+Date:   Mon May 15 18:10:10 2017 -0500
+
+    only allow bond if under limit
+
+commit 5b2b7653d2cfe28a1527d08a965b5c6fdf9081eb
+Author: Dan Conway <surreal7@gmail.com>
+Date:   Mon May 15 17:31:16 2017 -0500
+
+    fix dialog behaviour
+
+commit c9651a2ace589e83d67b1af4433f0f710807dd21
+Author: Dan Conway <surreal7@gmail.com>
+Date:   Mon May 15 17:24:28 2017 -0500
+
+    use angulars number detection + modulus
+
+commit 8e5080e25958a108a33187e6b4313f063f6a160b
+Author: Dan Conway <surreal7@gmail.com>
+Date:   Mon May 15 16:58:04 2017 -0500
+
+    whole number deposits only
+
+commit e1f2ad1a933ea2c604f1ec86bd37b3b96713a0a6
+Author: Dan Conway <surreal7@gmail.com>
+Date:   Mon May 15 16:11:43 2017 -0500
+
+    verify gexp node exists
+
+commit 20c02ae915c016cfa542b2323ac0c1fc16d26091
+Author: Dan Conway <surreal7@gmail.com>
+Date:   Mon May 15 12:37:28 2017 -0500
+
+    0.0.3 update
+
+commit 9b85e5525ab4371a48f765bcf88e92da4bf191b9
+Author: Dan Conway <surreal7@gmail.com>
+Date:   Mon May 15 12:24:25 2017 -0500
+
+    rehauled service
+
+commit 4261649c5c04135fe74ad2fe517d82cf70e192b3
+Author: Christopher Franko <chrisjfranko@gmail.com>
+Date:   Mon May 15 13:01:27 2017 -0400
+
+    create README.md
+
+commit be066d7b9c7e38f29d317d7c8eaa509ba8a4f6b1
+Author: Dan Conway <surreal7@gmail.com>
+Date:   Mon May 15 09:13:43 2017 -0500
+
+    final 1.0 contracts
+
+commit 0cd3e2f1881478de75d06273ea7ec17f28680114
+Author: Dan Conway <surreal7@gmail.com>
+Date:   Tue May 2 00:19:06 2017 -0500
+
+    delete by index not id
+
+commit 6b80206ca09c96f95b9d78caea86a75562129969
+Author: Dan Conway <surreal7@gmail.com>
+Date:   Mon May 1 18:50:16 2017 -0500
+
+    solidity no longer discards remainders
+
+commit ad401421b309e62abb456fad52a1d28316f441fb
+Author: Dan Conway <surreal7@gmail.com>
+Date:   Mon May 1 17:37:36 2017 -0500
+
+    missing paras
+
+commit dd3a7f9b2ee3eafcd4f116133b1e758a70f6074e
+Author: Dan Conway <surreal7@gmail.com>
+Date:   Mon May 1 12:37:52 2017 -0500
+
+    pay coupons in exp not wei
+
+commit 44a6d3c3ca38c3f882d31f99c0fa17bb225b97fd
+Author: Dan Conway <surreal7@gmail.com>
+Date:   Sun Apr 30 22:21:25 2017 -0500
+
+    added bondid to transfer event
+
+commit 9c9523af45ae0ad1767bbe1a250cc21f20f1f038
+Author: Dan Conway <surreal7@gmail.com>
+Date:   Fri Apr 28 19:50:17 2017 -0500
+
+    payable constructor
+
+commit c5268d3949a135f5f137e6668594ddd3e9053eec
+Author: Dan Conway <surreal7@gmail.com>
+Date:   Fri Apr 28 11:30:12 2017 -0500
+
+    Fix jquery incompat + update jquery
+
+commit 457bc60f77f6a3e00049677c596f11f92638dd84
+Author: Dan Conway <surreal7@gmail.com>
+Date:   Thu Apr 27 21:43:00 2017 -0500
+
+    unify stylization
+
+commit a4359a442d91cdfedba4b21337ce5665990b3ecb
+Author: Dan Conway <surreal7@gmail.com>
+Date:   Thu Apr 27 18:12:07 2017 -0500
+
+    redeem coupons if you redeem bond
+
+commit 73f7594cb9de8b029a51542dea8738d43c2b09c8
+Author: Dan Conway <surreal7@gmail.com>
+Date:   Thu Apr 27 18:09:09 2017 -0500
+
+    prepare upgrade
+
+commit b2e6904e42a6bd6a1fd08e5c579282998cff2a5f
+Author: Dan Conway <surreal7@gmail.com>
+Date:   Wed Apr 26 18:23:25 2017 -0500
+
+    reisolate upgradeusers to reduce callstack depth
+
+commit 7838def3c61024bedd008fc67e6bc5762484bbf6
+Author: Dan Conway <surreal7@gmail.com>
+Date:   Wed Apr 26 18:12:08 2017 -0500
+
+    merge upgrade user into upgrade bond / reduce state use
+
+commit 7f905c2f45484628de7da82cf7d8ad0742370f03
+Author: Dan Conway <surreal7@gmail.com>
+Date:   Wed Apr 26 18:07:29 2017 -0500
+
+    update constructor
+
+commit 8a9f7c0835b5aa749c75716e7ae6cee4d90aed3e
+Author: Dan Conway <surreal7@gmail.com>
+Date:   Mon Apr 24 21:28:26 2017 -0500
+
+    replace _bid with _bondid for clarity
+
+commit a6b0b5dc33aa440e0e3ba19324a6de51c63ca688
+Author: Dan Conway <surreal7@gmail.com>
+Date:   Mon Apr 24 21:18:03 2017 -0500
+
+    update and unify naming conventions
+
+commit 7216ecc0a777a864b1b30e756bf72d8edfc4dee6
+Author: Dan Conway <surreal7@gmail.com>
+Date:   Mon Apr 24 20:36:50 2017 -0500
+
+    improved upgrade
+
+commit cdf4ec76fcc50007a0c905bd01d9e0846dbd35b2
+Author: Dan Conway <surreal7@gmail.com>
+Date:   Mon Apr 24 20:01:44 2017 -0500
+
+    improved redemption handling
+
+commit f0486984e3b2c6a85bafdb1d500e3ad71f7cebcc
+Author: Dan Conway <surreal7@gmail.com>
+Date:   Mon Apr 24 16:52:20 2017 -0500
+
+    unify struct naming and group funcs by type
+
+commit 8fc41647eab0f60455d2cdc5442049ac9289d985
+Author: Dan Conway <surreal7@gmail.com>
+Date:   Mon Apr 24 16:44:39 2017 -0500
+
+    improved buy method
+
+commit 17337ced7b1b6bebef62232aa9fab6585fae8603
+Author: Dan Conway <surreal7@gmail.com>
+Date:   Mon Apr 24 12:59:21 2017 -0500
+
+    cleanup + optimization
+
+commit 43bdd0ca40ed7cd6128951ff78bea9ca32fff41b
+Author: Dan Conway <surreal7@gmail.com>
+Date:   Mon Apr 17 16:11:28 2017 -0500
+
+    cleanup / optimization
+
+commit 2cd6ca5a1be1fa411b0707df1ed5496c2c7535af
+Author: Dan Conway <surreal7@gmail.com>
+Date:   Mon Apr 17 15:37:05 2017 -0500
+
+    reference live contract addresses
+
+commit cee5c0b92af0483dd2d0969def42dd737cbbe26d
+Author: Dan Conway <surreal7@gmail.com>
+Date:   Mon Apr 17 15:16:33 2017 -0500
+
+    remove erroneous merge info
+
+commit e938885f69503431558d691294e316033aa1f956
+Merge: 0bec354 887a459
+Author: Dan Conway <surreal7@gmail.com>
+Date:   Mon Apr 17 15:12:02 2017 -0500
+
+     merge accurate timestamps
+
+commit 0bec35442b3ad0576b67fdc9507af410c1597efa
+Author: Dan Conway <surreal7@gmail.com>
+Date:   Mon Apr 17 15:05:39 2017 -0500
+
+    added timestamp history
+
+commit 887a459abe2a1c1793b87bdaae574ef449b899d6
+Author: chris <chrisjfranko@gmail.com>
+Date:   Mon Apr 17 14:45:27 2017 -0400
+
+    fix bond limit bug
+
+commit 02f9df9ba3a75c8def925bff82b3572caa02730a
+Author: chris <chrisjfranko@gmail.com>
+Date:   Thu Apr 13 15:52:32 2017 -0400
+
+    fix maturity extension
+
+commit e0e5587f64f5870356007d879b561c09c763b456
+Author: chris <chrisjfranko@gmail.com>
+Date:   Wed Apr 12 10:49:05 2017 -0400
+
+    fix maturity times
+
+commit 0ba35815ad7f6394fc5f7301823ed108cceb707b
+Author: chris <chrisjfranko@gmail.com>
+Date:   Wed Apr 12 10:37:06 2017 -0400
+
+    fix buy function bug, maturity bug
+
+commit 334ac52c4fbbd173cd0619312b51b924e3e62b4b
+Merge: 7278923 722f54a
+Author: Dan Conway <surreal7@gmail.com>
+Date:   Thu Apr 6 14:01:48 2017 -0500
+
+    Merge branch 'timestamps' of https://github.com/expanse-org/bond-dapp into timestamps
+
+commit 727892328bb6c29ed111ac770c355bc34a2bff33
+Author: Dan Conway <surreal7@gmail.com>
+Date:   Thu Apr 6 14:01:25 2017 -0500
+
+    revert contract
+
+commit 722f54a901200257ee0fd5ab91ec910bebbacbf1
+Merge: 490727a 145c5ea
+Author: Christopher Franko <chrisjfranko@gmail.com>
+Date:   Wed Apr 5 18:55:50 2017 -0400
+
+    Merge branch 'timestamps' of https://github.com/expanse-org/bond-dapp into timestamps
+
+commit 490727ab883cf576835af8f1d1424893faf6d7bf
+Author: Christopher Franko <chrisjfranko@gmail.com>
+Date:   Wed Apr 5 18:55:23 2017 -0400
+
+    fix typos and make compileable
+
+commit 145c5ead1a30e075dfbf75431ef2e7c527763c67
+Author: Dan Conway <surreal7@gmail.com>
+Date:   Wed Apr 5 13:35:31 2017 -0500
+
+    removed deprecated lastMultiplierChange
+
+commit e97871a05ef693dda4ae2c6de56125c9b46b4ee5
+Merge: 9f14eb5 7949853
+Author: Dan Conway <surreal7@gmail.com>
+Date:   Wed Apr 5 13:33:55 2017 -0500
+
+    Merge branch 'timestamps' of https://github.com/expanse-org/bond-dapp into timestamps
+
+commit 9f14eb596a0106cf8aa35f5771371c939738b2f2
+Author: Dan Conway <surreal7@gmail.com>
+Date:   Wed Apr 5 13:30:23 2017 -0500
+
+    removed deprecated lastMultiplierChange
+
+commit 79498531ccea33cb941ee7a0d0a742cdd88ecf91
+Author: Christopher Franko <chris@Christophers-MacBook-Pro.local>
+Date:   Mon Apr 3 21:40:04 2017 -0400
+
+    convert to timestamp
+
+commit 6884c932228e160da5af5e297554d034470ac61c
+Author: Christopher Franko <chrisjfranko@gmail.com>
+Date:   Sat Mar 25 10:17:58 2017 -0400
+
+    Contract 0.2.0
+
+commit 520568e8f648d469678a87bb7205511ea3a470f6
+Merge: 556da34 97cffa3
+Author: Dan Conway <surreal7@gmail.com>
+Date:   Tue Mar 7 02:25:15 2017 -0600
+
+    Merge pull request #14 from expanse-org/dev
+    
+    Dev
+
+commit 97cffa3e98df56b3c2c88271bb183bd16b1b2901
+Author: Dan Conway <surreal7@gmail.com>
+Date:   Tue Mar 7 02:21:17 2017 -0600
+
+    falsey localStorage bugfix
+
+commit 1150fecd0340deceb291dacb4e92db8bae0c548e
+Author: Dan Conway <surreal7@gmail.com>
+Date:   Fri Mar 3 11:16:32 2017 -0600
+
+     localStorage falsey bugfix
+
+commit 556da34a66c1ba533f505a63a69900b755cbd502
+Merge: 330e9e3 1e24013
+Author: Dan Conway <surreal7@gmail.com>
+Date:   Thu Mar 2 17:47:43 2017 -0600
+
+    Merge pull request #13 from expanse-org/dev
+    
+    enable debug console in production
+
+commit 1e2401382c6f343b1df4933efbe15a0bbc47ef14
+Author: Dan Conway <surreal7@gmail.com>
+Date:   Thu Mar 2 17:45:17 2017 -0600
+
+    enable debug console in production
+
+commit 330e9e3ce3cd0d8f127251615d3c1ed9dbaefcc4
+Merge: cef8fcb cd81bb2
+Author: Dan Conway <surreal7@gmail.com>
+Date:   Wed Mar 1 11:15:45 2017 -0600
+
+    Merge pull request #12 from expanse-org/dev
+    
+    Dev merge
+
+commit cd81bb29ae30823142941decd6d89609b7315ae9
+Author: Dan Conway <surreal7@gmail.com>
+Date:   Wed Mar 1 11:13:10 2017 -0600
+
+    merge 0.0.2 gitlab dev changes
+
+commit 064eee79cc6be54908774da07d54ad5bef8fdd84
+Author: Dan Conway <surreal7@gmail.com>
+Date:   Fri Feb 3 17:19:13 2017 -0600
+
+    setting up node connection ui
+
+commit e5d36167930a0caf4a5b29931d8fed84f8f3dd5d
+Author: Christopher Franko <chrisjfranko@gmail.com>
+Date:   Fri Feb 3 13:13:55 2017 -0500
+
+    update readme formating
+
+commit 4eeaf80c0c20216a48aa6188565751716aded35f
+Author: Christopher Franko <chrisjfranko@gmail.com>
+Date:   Fri Feb 3 13:09:21 2017 -0500
+
+    refactor and add readme to contracts dir
+
+commit 67c7be552758c40dc91869c80c25b32b02de8dd6
+Author: Christopher Franko <chrisjfranko@gmail.com>
+Date:   Fri Feb 3 13:00:08 2017 -0500
+
+    clean up git and update contract files
+
+commit cef8fcbe4e5cd998209fd9e13c57ef0bc8f65ff7
+Author: Dan Conway <surreal7@gmail.com>
+Date:   Wed Feb 1 19:21:30 2017 -0600
+
+    initial commit

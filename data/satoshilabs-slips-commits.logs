@@ -1,0 +1,1133 @@
+commit e28151cce7d18d0171ec854a44fe800facf39ea8
+Author: topynate <nathan.cook@gmail.com>
+Date:   Thu Nov 9 16:54:36 2017 +0200
+
+    Add Zen Protocol to SLIP-0044 (#126)
+
+commit 3b8a5dab78d63cf74a855a555d9e70cd943b1212
+Author: ellaismer <31844524+ellaismer@users.noreply.github.com>
+Date:   Thu Nov 9 05:07:37 2017 +0800
+
+    BIP44: Add Ellaism to the registered coin types (#125)
+
+commit 97e38962cfdb620aa07a4b73304a87ad21f04320
+Author: Pavol Rusnak <stick@gk2.sk>
+Date:   Wed Nov 8 15:55:51 2017 +0100
+
+    slip-0173: reformat table
+
+commit 4341a5618eb0f31272ba3c687a61d24a3463441b
+Author: h4x3rotab <h4x3rotab@gmail.com>
+Date:   Wed Nov 8 08:39:18 2017 -0600
+
+    Add Bitcoin Gold to slip-0173 (#124)
+
+commit 795ca24cfae224edae42f2886cef50f28d1fa8c7
+Author: Alfredo Di Napoli <alfredo.dinapoli@iohk.io>
+Date:   Fri Nov 3 18:31:15 2017 +0100
+
+    Add ADA to the registered coin types (#123)
+
+commit f197703597b49366c9e130e8c68bd014618fc4c0
+Author: Jonathan Brown <jbrown@mix-blockchain.org>
+Date:   Fri Oct 27 17:50:52 2017 +0700
+
+    LINK => MIX (#122)
+    
+    LINK is now called MIX.
+    
+    https://medium.com/mix-blockchain/link-relaunch-as-mix-770fa5cf0635
+
+commit 728f2e66bace98411518caa46820b7d9b58564a7
+Author: John L. Jegutanis <erasmospunk@gmail.com>
+Date:   Thu Oct 19 15:49:04 2017 +0300
+
+    Add EuropeCoin, Diamond, TOACoin, Bitcore, Adcoin, Bridgecoin (#121)
+
+commit ac78fb2697aabdf7af8f47c8f402a72a4718d2a7
+Author: yager <ypf3027@163.com>
+Date:   Fri Oct 13 08:15:09 2017 -0500
+
+    Update slip-0044.md (#119)
+
+commit 9a5cc31c5770e485a3750efa6f670ca23a515587
+Author: Tomas Susanka <tsusanka@gmail.com>
+Date:   Wed Oct 11 17:15:37 2017 +0200
+
+    slip-0032: typo (#118)
+
+commit 9ee7b4b020ae1fc76855f7cfd0d691619c8f6c3a
+Author: Nicolas Bacca <contact@btchip.com>
+Date:   Sun Oct 8 23:30:15 2017 +0200
+
+    Add placeholder for November Bitcoin forks (#117)
+
+commit 06df3889ab380d67bdbbaf3d651b31772f684aac
+Author: Pavol Rusnak <stick@gk2.sk>
+Date:   Thu Oct 5 19:20:21 2017 +0200
+
+    reserve SLIP-0018
+
+commit 750f3836564ba8af40999bf6ff6860762cbfafc3
+Author: Tomas Susanka <tsusanka@gmail.com>
+Date:   Wed Oct 4 16:32:17 2017 +0200
+
+    slip-0016: typos (#116)
+
+commit d8fb518ae9061a9c5cdd8e5d2c1fe3b5c53c39fe
+Author: Oizopower <Oizopower@users.noreply.github.com>
+Date:   Mon Oct 2 12:44:17 2017 +0200
+
+    Add support for Whitecoin (XWC)
+
+commit 864f371dfe581d1f75083ae958a9b3ee4010effb
+Author: Rhett Creighton <rhett@heyrhett.com>
+Date:   Sun Oct 1 15:40:33 2017 -0500
+
+    Add Whalecoin to slip-44
+
+commit 5bf0ca3382b7204657be670b153225ffb9880770
+Author: Pavol Rusnak <stick@gk2.sk>
+Date:   Wed Sep 27 14:00:30 2017 +0200
+
+    add NEO
+
+commit 28a72d945c29e8c48a0d5f4a96dfc652a9a486e7
+Author: Sambhav Sharma <sambhav.sharma@hotmail.com>
+Date:   Sun Sep 24 05:49:13 2017 +0530
+
+    adding NoLimitCoin2
+
+commit 5f494a0d05dbd191dd757ec8ef640881ebc7f295
+Author: Bartek Nowotarski <bartek@nowotarski.info>
+Date:   Fri Sep 22 13:38:20 2017 +0200
+
+    Add Stellar Lumens
+
+commit a17bac489f8f3f3569d7e2ee6e14ac72158695d6
+Author: Jonathan Brown <jbrown@link-blockchain.org>
+Date:   Thu Sep 14 12:36:04 2017 +0700
+
+    Link is now called LINK
+
+commit c2db465a1d37b2aba87ee2364ffa6b4efddfa168
+Author: Blackithart <blackithart@me.com>
+Date:   Wed Sep 13 16:16:38 2017 +0300
+
+    Add BioCoin
+
+commit cc5a312cbdacf87e7b83e53ec0b2470657aa69ad
+Author: Pavol Rusnak <stick@gk2.sk>
+Date:   Thu Sep 7 18:28:55 2017 +0200
+
+    fix whitespace
+
+commit 70d95d0c966e8d7b1355b476200dad08c0ffaef6
+Author: Fabian Schuh <Fabian@chainsquad.com>
+Date:   Thu Sep 7 14:52:29 2017 +0200
+
+    [slip48] swap account-index with role to allow separated sub-trees
+
+commit a4591ddfa8aecd37cbcb5a397336199e290f786f
+Author: Chris Priest <cp368202@ohiou.edu>
+Date:   Thu Sep 7 09:56:33 2017 -0600
+
+    added zcl and added some placeholders
+
+commit d1cbecd2b18ce205e521871a0a82866ddc9fb47e
+Author: Pavol Rusnak <stick@gk2.sk>
+Date:   Thu Sep 7 00:13:35 2017 +0200
+
+    add slip-0032
+
+commit 3e765246ec141a95f371b8838003275b4842d41a
+Author: Pavol Rusnak <stick@gk2.sk>
+Date:   Mon Sep 4 13:51:03 2017 +0200
+
+    slip-0016: fix pwdreader.py to work with both python2 and python3
+
+commit ec221a8afaf8171c8c8b38d23a2df4a9dd6b77b0
+Author: Blockmeta-区块元 <blockmeta@8btc.com>
+Date:   Thu Aug 31 02:05:05 2017 +0800
+
+    add bytom (BTM) (#100)
+
+commit 268c9acfcce85e685ad1def73af084fe5781aff6
+Author: John L. Jegutanis <erasmospunk@gmail.com>
+Date:   Wed Aug 30 21:03:59 2017 +0300
+
+    Add Vcash, Voxels, Smartcash (#101)
+
+commit 8b7e13d3f9f072f98f7e7770d38e30b24eee5606
+Author: sanbit <liuweisan@126.com>
+Date:   Thu Aug 31 02:03:07 2017 +0800
+
+    add memcoin (#102)
+
+commit 1ccaf0bbda3446c63a3645537b936ae7ac92f8b2
+Author: Neblio Team <neblioteam@gmail.com>
+Date:   Mon Aug 28 18:05:54 2017 -0400
+
+    Add Neblio (#104)
+
+commit 73c409e54920ef1bb17d82b075f01c34c110eebf
+Author: CikeQiu <work_cocody@hotmail.com>
+Date:   Wed Aug 23 19:43:33 2017 +0800
+
+    Add AskCoin (#98)
+
+commit 2168808eddaf6f04f809a518038c465f5a715e33
+Author: BreakoutCoin <BreakoutCoin@users.noreply.github.com>
+Date:   Wed Aug 23 05:43:25 2017 -0600
+
+    Please add XST and BRK (#99)
+    
+    * Add XST and BRK
+    
+    * Fix space (BRK)
+    
+    * Fix URLs XST & BRK
+
+commit d9efc929d282d75c2f508abdaac49efa070ac55e
+Author: Pavol Rusnak <stick@gk2.sk>
+Date:   Mon Aug 21 18:50:06 2017 +0200
+
+    slip0016: use urlparse in pwdreader proof of concept
+
+commit f3aa073cf208d3b98d29ca42eef1dda5bdb51eee
+Author: Pavol Rusnak <stick@gk2.sk>
+Date:   Thu Aug 17 14:31:28 2017 +0200
+
+    SLIP-44: fix Defcoin listing
+
+commit 3dfcd2377b1307dbd1b4327d84400c9c62b32529
+Author: Cryptorunner <30604524+Cryptorunner@users.noreply.github.com>
+Date:   Mon Jul 31 22:17:21 2017 +0200
+
+    Add Unify Cryptocurrency (#95)
+
+commit f40dab965a72f05fb9b6103747ec73ac0befb3f2
+Author: slowfx <contact@slowfx.com>
+Date:   Fri Jul 28 20:54:22 2017 +0900
+
+    Added BitZeny (#93)
+
+commit 4b7d5ae0dd7ef8e3d992da31efbdcb9df2862099
+Author: Nicolas Bacca <contact@btchip.com>
+Date:   Sun Jul 23 23:43:33 2017 +0200
+
+    Add Bitcoin Cash (#91)
+
+commit 2dfe2f3a643102fa1615367ea9c6e51e8c680c8a
+Author: John L. Jegutanis <erasmospunk@gmail.com>
+Date:   Mon Jul 24 00:41:45 2017 +0300
+
+    slip-0044: Add Flashcoin (#92)
+
+commit 6e0c2ecf7d46e12b2d02ba129ea7b03bef40c3f6
+Author: John L. Jegutanis <erasmospunk@gmail.com>
+Date:   Sun Jul 23 22:17:32 2017 +0300
+
+    slip-0044: Register serveral coins (#90)
+
+commit cbd580006f935ea585b9deac5ee494d358f38848
+Author: Chris Priest <cp368202@ohiou.edu>
+Date:   Wed Jun 28 03:36:31 2017 -0600
+
+    added pesetacoin (#87)
+
+commit 64d8cdb00aa39200e76a953d6d79202ec7df185a
+Author: François-Xavier Thoorens <fx.thoorens@gmail.com>
+Date:   Thu Jun 22 16:36:29 2017 +0200
+
+    proposing 111 for ARK (#86)
+    
+    head of dev of ark here. We are working on hardware wallet integration and this needs to be put in marble :)
+
+commit 384b8a6aa571d320c209c8ba0307305f30109b57
+Author: Chris Priest <cp368202@ohiou.edu>
+Date:   Mon Jun 19 12:41:35 2017 -0600
+
+    added fujicoin (#85)
+
+commit fbcc922acdce1088cbc4412ade989c062e6b862e
+Author: Luke Williams <iquidus@users.noreply.github.com>
+Date:   Mon Jun 19 11:11:09 2017 +0200
+
+    Add Ubiq (UBQ) (#84)
+
+commit bbb158a8232dd35723bb7e92ee3f85dcf994224b
+Author: Chris Priest <cp368202@ohiou.edu>
+Date:   Mon Jun 5 11:04:49 2017 -0600
+
+    Added MarsCoin (#82)
+
+commit f796b2d34546a2d2736a965fb9272a1ccd2d83bd
+Author: Pavol Rusnak <stick@gk2.sk>
+Date:   Mon Jun 5 18:17:56 2017 +0200
+
+    update markdownlint.json
+
+commit ba1925bf25494465ed2f97a36f1a79c28f2ef79e
+Author: Pavol Rusnak <stick@gk2.sk>
+Date:   Mon Jun 5 18:06:21 2017 +0200
+
+    reformat slip-0014
+
+commit 7a955ad474e1d4036dafa6754a6befa34b60d1f5
+Author: Jonathan Brown <jbrown@link-blockchain.org>
+Date:   Sat Jun 3 02:50:49 2017 +0700
+
+    Add Link Blockchain. (#81)
+    
+    http://docs.link-blockchain.org/en/latest/cryptofuel.html
+    
+    76 is ascii for L
+
+commit 0d179c38716cf2bd35943aff0a38ac6ed7af0397
+Author: John L. Jegutanis <erasmospunk@gmail.com>
+Date:   Fri Jun 2 00:06:58 2017 +0300
+
+    Add new coins (#80)
+
+commit d6df2ad38982204891760e7963e453c155f18ec4
+Author: Nicolas Bacca <contact@btchip.com>
+Date:   Thu May 18 17:17:29 2017 +0200
+
+    slip-0044: add coin type for Ripple (#79)
+
+commit ae62cd7b4bb21b81d61ad8d45b1061e3c3d81dec
+Author: James Lovejoy <jameslovejoy1@gmail.com>
+Date:   Thu May 18 11:17:05 2017 -0400
+
+    Add Vertcoin bech32 addresses (#78)
+    
+    Right now Vertcoin is using `vtc` and `tvtc` for main net and test net respectively.
+
+commit ebeaceb61e89465d9699fa088f6ff3ba0e191d87
+Author: Pavol Rusnak <stick@gk2.sk>
+Date:   Wed May 17 17:09:34 2017 +0200
+
+    add slip-0173 to README
+
+commit 2929e0227abb88c616d60f04befd1b7a50d880d3
+Author: Clark Moody <clarkmoody@gmail.com>
+Date:   Wed May 17 10:06:45 2017 -0500
+
+    Add SLIP-0173 (#77)
+
+commit 70915d8961965cdfd84233992a6841eb664d5a5d
+Author: Pavol Rusnak <stick@gk2.sk>
+Date:   Tue May 16 00:11:28 2017 +0200
+
+    add SLIP-0014: Addresses for various Coins and Chains
+
+commit 3101c5a859d38439caa604f73d7bf3e8340c8c9c
+Author: VERGE/XVG <vergecurrency@hushmail.com>
+Date:   Sun May 14 17:29:33 2017 -0400
+
+    updated DOGED to XVG (#76)
+
+commit 0c94078d48995468ea94e134d93689b2aee86c92
+Author: John L. Jegutanis <erasmospunk@gmail.com>
+Date:   Wed Apr 26 22:17:31 2017 +0200
+
+    Add various coins (#75)
+    
+    Coins added:
+    Posw coin
+    Shreeji
+    Bitcoinplus
+    Internet of People
+    Nexus
+    InsaneCoin
+    BritCoin
+    Compcoin
+    Crown
+
+commit 16883eff4d4af2e3e949426087ed4f770cd00802
+Author: Karel Bílek <kb@karelbilek.com>
+Date:   Wed Apr 26 15:43:15 2017 +0200
+
+    Starting segwit (#71)
+
+commit 719ae294cddf8a58aa355a79407490be44b63e3e
+Author: Dan Gershony <dan.gershony@gmail.com>
+Date:   Tue Apr 11 17:40:21 2017 +0100
+
+    Add coin Libertas (#73)
+
+commit 4c71ef9e278eb6ca7dd1537cbd341e40c1cc884e
+Author: S.Kamon <kamonshohei@gmail.com>
+Date:   Mon Apr 10 20:38:20 2017 +0900
+
+    slip-0044: add NEM (#72)
+
+commit d6e9e1cfacba0a3b5ba914e0a0d7bed48e3bd908
+Author: John L. Jegutanis <erasmospunk@gmail.com>
+Date:   Fri Mar 31 02:34:48 2017 +0300
+
+    Add Einsteinium and Landcoin (#70)
+
+commit 134aa82d041345a0f5890ea2e216c4315de6f5f3
+Author: Karel Bílek <kb@karelbilek.com>
+Date:   Thu Mar 30 16:33:51 2017 +0200
+
+    Fixing SLIP0014 markdown
+
+commit e74140cbbb5817551c46ad9f97c53b5838aa98ac
+Author: Pavol Rusnak <stick@gk2.sk>
+Date:   Thu Mar 23 22:45:51 2017 +0100
+
+    slip-0044: user lowercase for hex values, insert skipped numbers to encourage gap filling
+
+commit 6b3d99e6e193578302a9fc4d02800f1e7e96cbcb
+Author: Charlie Lee <charlie@coinbase.com>
+Date:   Thu Mar 23 14:37:53 2017 -0700
+
+    Add coin type for Decred (#69)
+
+commit 49fa6aef36009d1a03483fb5278a84411e3fe735
+Author: Chris Priest <cp368202@ohiou.edu>
+Date:   Thu Mar 23 05:14:06 2017 -0700
+
+    added riecoin (#68)
+
+commit d91f6ee14722b5a74b5a5f946fa3fa59754707d7
+Author: Pavol Rusnak <stick@gk2.sk>
+Date:   Sun Mar 19 15:47:58 2017 +0100
+
+    slip-0044: add Particl
+
+commit 7999d6f0a7f8effee66047cf947a2f43cd8d4419
+Author: Pavol Rusnak <stick@gk2.sk>
+Date:   Sun Mar 19 15:46:59 2017 +0100
+
+    slip-0044: fix table
+
+commit 9cf98134abb9e712df2ae7b8b944ae0bd9d1adb0
+Author: Pavol Rusnak <stick@gk2.sk>
+Date:   Wed Mar 15 15:25:33 2017 +0100
+
+    add travis badge
+
+commit 40c88470be714e81a5149b50adf2db25ab230bf4
+Author: Pavol Rusnak <stick@gk2.sk>
+Date:   Tue Mar 14 21:54:43 2017 +0100
+
+    markdown lint using travis
+
+commit 107edf5d15d769fad054440518503c7754d557d7
+Author: Roman Zeyde <roman.zeyde@gmail.com>
+Date:   Tue Mar 14 22:11:09 2017 +0200
+
+    Small markdown fixes for SLIP-0013 (#66)
+
+commit 907daffa5976ab9a2114ecce28cf0bd9d928d918
+Author: Manfred Karrer <ManfredKarrer@users.noreply.github.com>
+Date:   Thu Mar 2 08:05:38 2017 -0500
+
+    Add bisq Token (BSQ) (#65)
+
+commit ce3d3ff2fbc61d385c2f734fdca3e238bb5cf659
+Author: pondsea <pondsearigs@gmail.com>
+Date:   Tue Jan 31 23:19:25 2017 +1100
+
+    Update slip-0044.md (#63)
+
+commit 5bea56286fa38d64132927c9bbb82d630d484972
+Author: spiralus <sularips@gmail.com>
+Date:   Wed Jan 25 02:27:50 2017 -0800
+
+    Add BIP44 code for PIVX, to be used in upcoming wallet currently under development (#62)
+
+commit 53df1f1d88c8fca2e0a086988f8cc69aead321ed
+Author: Thomas Zarebczan <tzarebczan@users.noreply.github.com>
+Date:   Sun Jan 22 12:37:19 2017 -0500
+
+    Add LBRY Credits (LBC) (#61)
+    
+    * Add LBRY Credits (LBC)
+    
+    As used here in our small android wallet: https://github.com/fillerix99/lbry-android
+    
+    * Change to 140 in order to be sequential.
+
+commit 8950d5d9d59f8426290a544e777cdfeed2772009
+Author: vbecas <bas1l1sp@hotmail.com>
+Date:   Fri Jan 20 23:27:39 2017 +0200
+
+    added expanse (#60)
+
+commit 0cd3630c6dc32cf25f6ed16d07493b0851a1da4a
+Author: dev0tion <dev0tion@hotmail.com>
+Date:   Mon Jan 2 14:29:28 2017 +0100
+
+    Remove Stratis 140 and change URL (#59)
+
+commit 11f55345692edb6f65f0027cfdaea00aceb0ee9c
+Author: dev0tion <dev0tion@hotmail.com>
+Date:   Mon Jan 2 13:14:27 2017 +0100
+
+    Add Stratis (#58)
+
+commit 7e762d8a6b04393be3432fc88918b1f2592aac09
+Author: vetal20600 <vetal2060@gmail.com>
+Date:   Mon Jan 2 14:13:37 2017 +0200
+
+    Add RealPointCoin. (#57)
+
+commit 02fd70e6df3012a1fd60ef00e98a9cef093fcf33
+Author: mikeyb <github@mikes.email>
+Date:   Fri Dec 9 10:35:26 2016 -0700
+
+    update GameCredits url (#56)
+
+commit e488787c95ce412217af5bf03fb660988154d748
+Author: Fabian Schuh <mail@xeroc.org>
+Date:   Wed Oct 19 15:44:16 2016 +0200
+
+    [Steem] Integrate 'cointype' and add specifications slip-48
+
+commit ee8e256c438472886217ba83af2bb3ed700084ee
+Author: Martin Treurnicht <martin.treurnicht@gmail.com>
+Date:   Wed Nov 16 01:39:21 2016 -0800
+
+    add Giftblock to SLIP-0044 (#55)
+
+commit 20e1120aea9a1310601cb61ea7841f1a26c18f63
+Author: Pavol Rusnak <stick@gk2.sk>
+Date:   Tue Nov 15 21:04:42 2016 +0100
+
+    add RSK to SLIP-0044
+
+commit 111e39c8929718b47b64810345a78d9ceb21f45f
+Author: vbecas <bas1l1sp@hotmail.com>
+Date:   Mon Oct 24 16:14:38 2016 +0300
+
+    added pesobit (#51)
+
+commit a2cdaba5ceef223a13eba87db5ff197e85d5b2a9
+Author: Nopslide <poramininso.m@gmail.com>
+Date:   Wed Oct 19 00:10:15 2016 +0700
+
+    Update slip-0044.md (#48)
+    
+    Following #47, we changed to 136 | 0x88
+
+commit bc8d1ab56a8b4737cdda2b200b65a6b40717e93e
+Author: Max Kordek <max@lisk.io>
+Date:   Thu Oct 13 13:29:42 2016 +0200
+
+    Update slip-0044.md (#46)
+
+commit c8b32fcf7ef92cfbe533e378f5a9920afeb3fcbf
+Author: Pavol Rusnak <stick@gk2.sk>
+Date:   Thu Oct 13 12:03:00 2016 +0200
+
+    add lisk
+
+commit d97589d49722f84d42bcdbd47a9d05f480456948
+Author: slush0 <marek@palatinus.cz>
+Date:   Wed Oct 5 15:45:54 2016 +0200
+
+    Adding Zcash entry
+
+commit 17379c9da2c1faab961b40bf1ac4abd306545c6f
+Author: Leigh Phillips <neurocis@neurocis.me>
+Date:   Wed Sep 28 02:33:52 2016 -0700
+
+    Add PiggyCoin "p" (#43)
+    
+    Pending coinomi & electrum wallets fork/ports release.
+
+commit 7d6c4afb69cb9db6145371c1c029165ec681312c
+Author: Dan Gershony <dan.gershony@gmail.com>
+Date:   Mon Sep 26 13:32:18 2016 +0100
+
+    Adding shilling coin (#42)
+
+commit 4e55240fcbc2c3358519cd35646844a08ad9827a
+Merge: e802ebc fb0a449
+Author: Pavol Rusnak <stick@gk2.sk>
+Date:   Fri Sep 23 10:37:56 2016 +0200
+
+    Handle both token types (Factoids + ECs) in Factom (#41)
+    
+    * Handle both token types (Factoids + ECs) in Factom
+
+commit fb0a449a41454d4986a5828247456016ac26a042
+Author: Brian Deery <carryforward@users.noreply.github.com>
+Date:   Fri Sep 23 00:10:33 2016 -0500
+
+    link to test vectors
+
+commit a5096ae46a1fc3759b2e5bd584e235f8d934ab75
+Author: Brian Deery <carryforward@users.noreply.github.com>
+Date:   Thu Sep 22 18:53:53 2016 -0500
+
+    Handle both token types (Factoids + ECs) in Factom
+
+commit e802ebca93e3eafcf4736e0b97b6c75d1d8a3ef1
+Author: Brian Deery <carryforward@users.noreply.github.com>
+Date:   Tue Sep 20 17:40:06 2016 -0500
+
+    Register Factom into the BIP44 directory (#40)
+
+commit 87232bd3c35f844d9856a8a209ba20da9f16854c
+Author: Dan Gershony <dan.gershony@gmail.com>
+Date:   Mon Sep 19 14:16:17 2016 +0100
+
+    Adding Stratis and Dubaicoin (#38)
+    
+    Dubaicoin is not fully confirmed yet to be added to coinvault.io
+
+commit 1a3a8b8908a3a33d4566bfd38702fecb4bc1636b
+Author: vbecas <bas1l1sp@hotmail.com>
+Date:   Mon Sep 19 16:16:07 2016 +0300
+
+    added smileycoin (#37)
+
+commit 62f0129dcdf53ba4c060439af0e077aec2dcf1dd
+Author: Pavol Rusnak <stick@gk2.sk>
+Date:   Wed Sep 14 17:49:16 2016 +0200
+
+    Linking more coins to their official website (#36)
+
+commit 568586f830942a61f608d23919f845e86eb846fb
+Author: Dan Gershony <dan.gershony@gmail.com>
+Date:   Wed Sep 14 15:45:29 2016 +0100
+
+    Adding Zayedcoin (#35)
+    
+    Coin is added to coinvault.io
+
+commit 58d169ec960291ed71a407f272f41620b4ac7cbd
+Author: Dan Gershony <dan.gershony@gmail.com>
+Date:   Sat Sep 10 01:56:32 2016 +0100
+
+    Adding DLC and STO HD keys (#33)
+
+commit 86953db1a86db427a7ea0fb25b6bfcdbf34da61f
+Author: mikeyb <github@mikes.email>
+Date:   Tue Sep 6 06:48:34 2016 -0700
+
+    Add Ether Classic 0x8000003d - 61 (#31)
+
+commit eb75a320aa77fab6c7ed8355a242a54bd6f41e51
+Author: protonn <protonn@users.noreply.github.com>
+Date:   Sun Sep 4 08:28:02 2016 -0500
+
+    Add Argentum (#30)
+
+commit 88270e344466715797d4d043a4affa9389439157
+Merge: b4987c3 e876856
+Author: Pavol Rusnak <stick@gk2.sk>
+Date:   Fri Aug 26 19:42:29 2016 +0200
+
+    Merge pull request #29 from dangershony/patch-4
+    
+    Adding Ubiquoin
+
+commit e876856e31a996777c8f3f58514778d5dac54bdb
+Author: Dan Gershony <dan.gershony@gmail.com>
+Date:   Fri Aug 26 18:36:07 2016 +0100
+
+    Adding Ubiquoin
+
+commit b4987c354d33c9adad1f19bf4bbfab5140165ff3
+Merge: 020aed7 47d9998
+Author: Pavol Rusnak <stick@gk2.sk>
+Date:   Fri Aug 26 11:24:52 2016 +0200
+
+    Merge pull request #28 from vetal20600/master
+    
+    Add Evotion
+
+commit 47d99988a021a0ccc89388151974b15d7587f043
+Author: Vitali Grabovkski <vetal2060@gmail.com>
+Date:   Fri Aug 26 03:41:32 2016 +0300
+
+    Add Evotion
+
+commit 020aed75021fdab7da69f3655ee5452f4202e2df
+Merge: 133ae8c 94e7140
+Author: Pavol Rusnak <stick@gk2.sk>
+Date:   Wed Aug 17 18:49:43 2016 +0200
+
+    Merge pull request #27 from dangershony/patch-3
+    
+    Adding Saham and Chronos
+
+commit 94e7140a73ea798e16eed891d0650aff4d7d9739
+Author: Dan Gershony <dan.gershony@gmail.com>
+Date:   Wed Aug 17 16:11:32 2016 +0100
+
+    Adding Saham and Chronos
+    
+    Both coins have been added to https://www.coinvault.io
+
+commit 133ae8c3baf0b4d776565b862fb6d3ce613ab21b
+Merge: f82a53f abdf9d1
+Author: Pavol Rusnak <stick@gk2.sk>
+Date:   Tue Aug 16 21:40:01 2016 +0200
+
+    Merge pull request #26 from dangershony/patch-2
+    
+    Adding GoldBlocks
+
+commit abdf9d125c96b19edca785b316cfaac61a895cc5
+Author: Dan Gershony <dan.gershony@gmail.com>
+Date:   Tue Aug 16 18:10:10 2016 +0100
+
+    Adding GoldBlocks
+
+commit f82a53f8ed54536147fb50dad7da61f47eabb4d2
+Merge: 77621aa 4023b83
+Author: Pavol Rusnak <stick@gk2.sk>
+Date:   Wed Jul 13 13:55:01 2016 +0200
+
+    Merge pull request #22 from sherlockcoin/patch-1
+    
+    Update slip-0044.md
+
+commit 77621aa62be548207e61a7a12c97cc372b1de1fb
+Merge: 93aeac8 ae90557
+Author: Pavol Rusnak <stick@gk2.sk>
+Date:   Wed Jul 13 13:54:49 2016 +0200
+
+    Merge pull request #23 from dangershony/patch-1
+    
+    Slip-44 - Adding MasterTrader coin
+
+commit 4023b839e0451e8cbd1e14c181efe606d2c3595f
+Author: sherlockcoin <sherlockcoin@gmail.com>
+Date:   Wed Jul 13 09:43:52 2016 +0530
+
+    Update slip-0044.md
+    
+    NavCoin Addition Request.
+
+commit ae90557b90dd0e6aaa5d1357e967f4244be0613a
+Author: Dan Gershony <dan.gershony@gmail.com>
+Date:   Tue Jul 12 18:11:17 2016 +0100
+
+    Adding MasterTrader coin
+    
+    Grabing the next available hardened coin index.
+    This will be implemented in https://www.coinvault.io
+
+commit 93aeac80e8f2c02a4d58e637a1786d7293979e0b
+Merge: 0821035 6bd6749
+Author: Pavol Rusnak <stick@gk2.sk>
+Date:   Thu Jun 30 17:14:08 2016 +0200
+
+    Merge pull request #21 from Coinomi/master
+    
+    added EDRCoin, Solarcoin, Syscoin
+
+commit 6bd674948436ac6c6e481d979fc03d007682ee26
+Author: John L. Jegutanis <erasmospunk@gmail.com>
+Date:   Wed Jun 29 17:29:38 2016 +0300
+
+    added EDRCoin, Solarcoin, Syscoin
+
+commit 0821035f9729426ac8fa8d8847442cef53d1b176
+Author: Karel Bílek <kb@karelbilek.com>
+Date:   Wed Jun 29 12:18:53 2016 +0200
+
+    Adding info about padding
+
+commit b5d404b62f4bf732bf17cc5f465ea95c2e93219d
+Merge: dfaeb35 c331df9
+Author: Pavol Rusnak <stick@gk2.sk>
+Date:   Mon Jun 27 22:49:20 2016 +0200
+
+    Merge pull request #20 from priestc/master
+    
+    added UNO
+
+commit c331df9e51c53a2b875de6688e7feb3883a7d598
+Author: Chris Priest <cp368202@ohiou.edu>
+Date:   Mon Jun 20 21:54:25 2016 -0700
+
+    added UNO
+
+commit dfaeb35b9e3b08b64096ecac74871b117367662a
+Merge: bff6ca0 6055bbd
+Author: Pavol Rusnak <stick@gk2.sk>
+Date:   Thu Jun 9 14:00:44 2016 +0200
+
+    Merge pull request #19 from romanz/master
+    
+    Create slip-0017.md
+
+commit 6055bbdf5982a27e7b2bbaf6b6f879e0ebbcf1bc
+Author: Roman Zeyde <roman.zeyde@gmail.com>
+Date:   Wed Jun 8 22:43:10 2016 +0300
+
+    Create slip-0017.md
+
+commit bff6ca0cfc0500e03c70f9b9a954bbcdbb32964a
+Author: Pavol Rusnak <stick@gk2.sk>
+Date:   Wed Jun 8 18:44:49 2016 +0200
+
+    swap slip-0011 and slip-0012
+
+commit be0b1a1e8144d625ecb421de4667eb3885b0f99c
+Author: Karel Bílek <kb@karelbilek.com>
+Date:   Wed Jun 8 15:07:21 2016 +0200
+
+    Writing SLIP-0012
+
+commit 31bc36225917edaee1d9aaa97a24708bb3684c64
+Merge: e439f56 38ece2a
+Author: Pavol Rusnak <stick@gk2.sk>
+Date:   Sat Jun 4 20:32:45 2016 +0200
+
+    Merge pull request #17 from KingCaper/master
+    
+    Add MOIN BIP44
+
+commit 38ece2ad8f8396ff84af94e3430d50154fed9ae7
+Author: KingCaper <kingcaper@discovermoin.com>
+Date:   Sat Jun 4 17:10:21 2016 +0100
+
+    Add MOIN BIP44
+
+commit e439f567e7559cf7b38a5e87c81ed065095efdfe
+Author: Pavol Rusnak <stick@gk2.sk>
+Date:   Mon May 30 00:32:06 2016 +0200
+
+    use CC-BY-SA license
+
+commit e9be4aefa98f922d7683616d6c5ce78a2a0f828a
+Merge: 3dc9e80 8b1773d
+Author: Pavol Rusnak <stick@gk2.sk>
+Date:   Thu May 26 22:05:15 2016 +0200
+
+    Merge pull request #16 from lateminer/bitsend
+    
+    Added BitSend
+
+commit 8b1773de98ee3467c123c352a9e8329a0ec97603
+Author: lateminer <late-miner@ya.ru>
+Date:   Thu May 26 23:02:30 2016 +0300
+
+    Added BitSend
+
+commit 3dc9e80357ce0a5a7cc65bbde227bdc913e3aa95
+Merge: dbb9d25 672d6ee
+Author: Pavol Rusnak <stick@gk2.sk>
+Date:   Thu May 5 02:16:05 2016 +0200
+
+    Merge pull request #15 from OKtoshi/master
+    
+    Gamecredits addition BIP44
+
+commit 672d6ee40e01428614b5cf521fddf3d80eaddf07
+Author: Oktoshi <devteam@okcash.co>
+Date:   Wed May 4 15:54:22 2016 -0500
+
+    Gamecredits addition BIP44
+
+commit dbb9d25b2f1fdaae80ce1a7897fe088e11193265
+Author: Pavol Rusnak <stick@gk2.sk>
+Date:   Tue Apr 26 13:58:14 2016 +0200
+
+    update date, authors
+
+commit f13a50c2562e7d8cc05cb6b17fad613a218c10ff
+Merge: 523bc2d bb3a288
+Author: Pavol Rusnak <stick@gk2.sk>
+Date:   Tue Apr 26 13:07:25 2016 +0200
+
+    Merge pull request #14 from jhoenicke/master
+    
+    Added SLIP-0010 (bip-32 like derivation for different curves)
+
+commit bb3a288a9f120f8f144d7b0f54962ea05f7a1c97
+Author: Jochen Hoenicke <hoenicke@gmail.com>
+Date:   Tue Apr 26 12:02:13 2016 +0200
+
+    Clarifications of the algorithm
+
+commit c5b6871c4ca2afdd9eff4b0cb67df97e58ec3364
+Author: Jochen Hoenicke <hoenicke@gmail.com>
+Date:   Tue Apr 26 11:37:30 2016 +0200
+
+    Test vectors and reference implementation
+
+commit 0a7fcef651cffd6adf39365c07fbc04139c2a259
+Author: Jochen Hoenicke <hoenicke@gmail.com>
+Date:   Sun Apr 24 20:10:05 2016 +0200
+
+    Added contents to slip-0010
+
+commit 523bc2de2593f7b4b1adcd5d3d5c581da3cdf24b
+Merge: c8ee00e 49da1b0
+Author: Pavol Rusnak <stick@gk2.sk>
+Date:   Mon Apr 25 15:50:01 2016 +0200
+
+    Merge pull request #13 from cryptapus/patch-1
+    
+    Added Myriadcoin
+
+commit 49da1b04d8f2bb9ff77b6d953a5b989d880afe82
+Author: cryptapus <info@cryptap.us>
+Date:   Mon Apr 25 07:59:10 2016 -0500
+
+    Added Myriadcoin
+    
+    https://github.com/Coinomi/coinomi-android/pull/92
+
+commit c8ee00e4964d42307014cabb27104d02efb4df66
+Author: Pavol Rusnak <stick@gk2.sk>
+Date:   Wed Apr 20 14:33:22 2016 +0200
+
+    cleanup pwdreader for slip-0016
+
+commit 4cb852e5b0ba3ad3c715eb75c94540879ebef3e9
+Merge: 735b48e 20b41f3
+Author: Pavol Rusnak <stick@gk2.sk>
+Date:   Fri Apr 15 19:58:09 2016 +0200
+
+    Merge branch 'BigUps-patch-1'
+
+commit 20b41f372cfd2be2c8b5743099a086df89955727
+Merge: 735b48e 03838e7
+Author: Pavol Rusnak <stick@gk2.sk>
+Date:   Fri Apr 15 19:55:52 2016 +0200
+
+    Merge branch 'patch-1' of https://github.com/BigUps/slips into BigUps-patch-1
+
+commit 735b48e535287f505585340f88935ea29f6a1bb8
+Author: Pavol Rusnak <stick@gk2.sk>
+Date:   Fri Apr 15 14:41:03 2016 +0200
+
+    fix last commit
+
+commit 34dca7f637a5385a40b9fd20651dd516dd87ec84
+Merge: c568163 b289b25
+Author: Pavol Rusnak <stick@gk2.sk>
+Date:   Fri Apr 15 14:39:51 2016 +0200
+
+    Merge pull request #12 from BTA-BATA/patch-1
+    
+    Update slip-0044.md
+
+commit b289b25556f3d18241909f63d114d5349e6d88c0
+Author: Bata.io <p.p.caruana@gmail.com>
+Date:   Fri Apr 15 13:29:11 2016 +1000
+
+    Update slip-0044.md
+    
+    add Bata (BTA)
+    90 | 0x80000059 | [Bata](http://bata.io/)
+
+commit 03838e775cdffd844d0d0c832610bfd3a73e3871
+Author: BigUP Life <pumpslove@yahoo.com>
+Date:   Thu Apr 14 13:33:05 2016 -0400
+
+    Update slip-0044.md
+    
+    Added coin type BigUp as value 100 (hex 64)
+
+commit c56816389c1140b13fbea7a7f41d4e1cc9b16902
+Author: Peter Privalinec <peter.privalinec@satoshilabs.com>
+Date:   Thu Mar 31 19:50:50 2016 +0200
+
+    fixed title of decrypted entry title & change name of dropbox app
+
+commit 8b6416c5544e615501ad0e8da52a343a119d1b10
+Merge: dd923d1 8b6dfc7
+Author: Pavol Rusnak <stick@gk2.sk>
+Date:   Mon Mar 21 14:37:13 2016 +0100
+
+    Merge pull request #10 from fluffypony/patch-1
+    
+    Add Monero to SLIP-0044
+
+commit 8b6dfc7bdb7e64636cec87d015225074a82fc43a
+Author: Riccardo Spagni <ric@spagni.net>
+Date:   Mon Mar 21 15:34:25 2016 +0200
+
+    Updated to match decimal to hex
+
+commit 9e3d3178b88cc041fab45d60cc662819b04e8244
+Author: Riccardo Spagni <ric@spagni.net>
+Date:   Mon Mar 21 15:30:09 2016 +0200
+
+    Add Monero to SLIP-0044
+    
+    Chosen due to 0x80000080 almost being a palindrome, which seemed important at the time;)
+
+commit dd923d188aa087ffdf56c72c9d48bfea1754549b
+Merge: aa7846c a59ba6d
+Author: Pavol Rusnak <stick@gk2.sk>
+Date:   Sat Mar 19 18:09:27 2016 +0100
+
+    Merge pull request #9 from Extrememist/master
+    
+    BitBean Support
+
+commit a59ba6d94deb02fee661e5c4cbc5ee897b13a3e3
+Author: Hypermist <jacobms109@gmail.com>
+Date:   Sat Mar 19 20:46:03 2016 +1300
+
+    BitBean Support
+
+commit aa7846c9c7ac47c5fbc6c93c721a8cbb5b09d4d5
+Merge: 8ff10a9 1f3ff09
+Author: Pavol Rusnak <stick@gk2.sk>
+Date:   Mon Mar 7 12:28:25 2016 +0100
+
+    Merge pull request #8 from Gulden/master
+    
+    Add Gulden to bip44 standard.
+
+commit 1f3ff09eeb63a328346ee961bfb2718ebb53c585
+Author: Malcolm MacLeod <mmacleod@webmail.co.za>
+Date:   Mon Mar 7 09:48:33 2016 +0200
+
+    Add Gulden to bip44 standard.
+
+commit 8ff10a9d67fae46f22f83451dd0add153d8d43d7
+Merge: 8e64422 efec67d
+Author: Pavol Rusnak <stick@gk2.sk>
+Date:   Sun Mar 6 20:26:59 2016 +0100
+
+    Merge pull request #7 from ahmedbodi/patch-1
+    
+    Add IXCoin BIP44
+
+commit efec67dc74ac468bad70329ce3588e199d7de494
+Author: ahmedbodi <ABodiwala@uclan.ac.uk>
+Date:   Sun Mar 6 12:39:04 2016 +0000
+
+    Add IXCoin BIP44
+
+commit 8e644221e6449208284464f95d36c527660f5e56
+Merge: 92d0617 0d970f5
+Author: Pavol Rusnak <stick@gk2.sk>
+Date:   Wed Mar 2 08:36:21 2016 +0100
+
+    Merge pull request #6 from BioMike/master
+    
+    Auroracoin registration.
+
+commit 0d970f5251a7d56b974e14a66139c63b23a2a0be
+Author: Myckel Habets <myckel@sdf.lonestar.org>
+Date:   Tue Mar 1 23:29:41 2016 +0100
+
+    Auroracoin registration.
+
+commit 92d061728766a5ea501bea8731ecef0d4ffbc53d
+Author: Pavol Rusnak <stick@gk2.sk>
+Date:   Mon Feb 22 18:37:34 2016 +0100
+
+    add slip-0016 to index
+
+commit 05f148de399bda7c54f97b74fa7f34363c686a14
+Author: chren <peter.privalinec@gmail.com>
+Date:   Mon Feb 22 16:51:47 2016 +0100
+
+    added link to implementation SLIP-0016
+
+commit 7af4f631d58a1a2568116b27f393d8cc8dcd3680
+Author: chren <peter.privalinec@gmail.com>
+Date:   Mon Feb 22 16:47:32 2016 +0100
+
+    fix proper comments
+
+commit 05b7126a56aed749ed795462cacd94259d66e6cc
+Author: Pavol Rusnak <stick@gk2.sk>
+Date:   Thu Feb 18 21:25:38 2016 +0100
+
+    cleanup pwdreader
+
+commit 98357061ad36a06b9f2754b92d7773af2c6e8ffa
+Author: Pavol Rusnak <stick@gk2.sk>
+Date:   Thu Feb 18 20:41:57 2016 +0100
+
+    cleanup markdown formatting
+
+commit f2ffb282ff7b2270e896be7bc4223de4de88a16e
+Author: chren <peter.privalinec@gmail.com>
+Date:   Thu Feb 18 18:05:52 2016 +0100
+
+    added password reader
+
+commit dd0515ea647f86428f581c533b4818f7cb6f0425
+Author: Pavol Rusnak <stick@gk2.sk>
+Date:   Thu Feb 18 18:02:25 2016 +0100
+
+    Update slip-0015.md
+    
+    update highlight (json->javascript) to hide red error
+
+commit 26ac59beda94341f0c232ec74b39d9d71690dc1c
+Author: Peter Jensen <chren-de-large@users.noreply.github.com>
+Date:   Thu Feb 18 18:00:22 2016 +0100
+
+    minor format changes
+
+commit d1fd949052f56df705ad2f45ecf1bbfdf3440024
+Author: Peter Jensen <chren-de-large@users.noreply.github.com>
+Date:   Thu Feb 18 17:56:53 2016 +0100
+
+    Update slip-0016.md
+
+commit 908f24102b0b03c845ee97a8871606e43921648f
+Author: Peter Jensen <chren-de-large@users.noreply.github.com>
+Date:   Thu Feb 18 17:54:50 2016 +0100
+
+    Create slip-0016.md
+
+commit b39405c1d6eed56dbd70b0ca86de164642eae259
+Merge: 7899713 706d56f
+Author: Pavol Rusnak <stick@gk2.sk>
+Date:   Thu Feb 18 15:39:45 2016 +0100
+
+    Merge pull request #5 from fanatid/feature/add-bip44-constants
+    
+    Add URL to bip44-constants (js package)
+
+commit 706d56f9083687108c7d38a4312b018ce71f683f
+Author: Kirill Fomichev <fanatid@ya.ru>
+Date:   Thu Feb 18 17:33:54 2016 +0300
+
+    Add URL to bip44-constants (js package)
+
+commit 7899713293eec94a9159a1819d34ba62c1fb3aac
+Merge: 1964e3c 86e3f4d
+Author: Pavol Rusnak <stick@gk2.sk>
+Date:   Sun Feb 14 18:35:37 2016 +0100
+
+    Merge pull request #3 from gary-rowe/master
+    
+    Improve wording and provide worked example for SLIP0013 HD section
+
+commit 86e3f4d9d0a13ff83c98a3da539af77a45fe19d0
+Author: Gary Rowe <g.rowe@froot.co.uk>
+Date:   Sun Feb 14 11:54:29 2016 +0000
+
+    Improve wording and provide worked example
+
+commit 1964e3cb51719ff6f583041ca7e9794327711e44
+Author: Pavol Rusnak <stick@gk2.sk>
+Date:   Mon Feb 1 16:07:37 2016 +0100
+
+    add more code usage
+
+commit fba5141f5504f1f2b5877db6e3ef186e7846442e
+Author: Pavol Rusnak <stick@gk2.sk>
+Date:   Mon Feb 1 16:06:01 2016 +0100
+
+    fix code usage in slip-0015
+
+commit b76151348a7430013a4b147725ed94b0f6b72994
+Author: Pavol Rusnak <stick@gk2.sk>
+Date:   Mon Feb 1 16:02:09 2016 +0100
+
+    import from docs repo

@@ -1,0 +1,89 @@
+commit 384c67784177ca5eb3d218f4276f00584a8b8743
+Author: sppl <sppl@users.noreply.github.com>
+Date:   Fri Jul 14 21:38:33 2017 +0300
+
+    add http://explorer.iticoin.com/
+    
+    http://explorer.iticoin.com/
+
+commit 5e75db1ee92c9bee0495bd3a0840aa552da37ddf
+Author: sppl <t0675700395@gmail.com>
+Date:   Thu Jul 6 16:46:29 2017 +0300
+
+    Master
+    
+    In the update:
+    1. Fix a synchronization stop on 1000/1500 blocks.
+    2. Fix the search for POW blocks after last_pow_block.
+    3. Fix St13runtime_error and other errors.
+    4. Update Malleablekey (long address, crypt night)
+    St13runtime_error error may have been caused by a mismatch of Berkeley
+    DB versions in the client assembly, That was created and used
+    wallet.dat.
+    Use the 0.5.9 client at Leveldb. If the problem persists, try to run
+    with the Salvagewallet -rescan- upgradewallet.
+    
+    Startup plan:
+    1) Runs on type servers Debian64/Ubuntu64/CentOS 7(64)
+    2)  Save the previous wallet.dat
+    3) Clear the iticoind folder
+    4) Run the updated version
+    5) Wait for blocks to be synchronized
+    6) Drag the URwallet.dat to the specified folder.
+
+commit 33ba6ae664fe675b5896f425bb273b46ff9d81db
+Author: sppl <sppl@users.noreply.github.com>
+Date:   Sun Mar 19 13:58:34 2017 +0200
+
+    обновления ссылки
+
+commit dddbb1761d8a618dcdad72fbc079cecae465086d
+Author: sppl <sppl@users.noreply.github.com>
+Date:   Sun Mar 19 13:57:07 2017 +0200
+
+    обновления ссылки
+
+commit 4ccb1ff052d8bac5bf18240e9a9e9662d3bbeb15
+Author: sppl <sppl@users.noreply.github.com>
+Date:   Sun Mar 19 13:56:17 2017 +0200
+
+    обновления ссылки
+
+commit c1e7976063b2724a0ce13291af5ef32133c2b6ed
+Author: sppl <sppl@users.noreply.github.com>
+Date:   Sun Mar 19 13:54:39 2017 +0200
+
+    обновления ссылки
+
+commit 2a279b9fe7b9ca633fd99645837f2b9c36865602
+Author: sppl <sppl@users.noreply.github.com>
+Date:   Sun Mar 19 13:51:30 2017 +0200
+
+    корректировка ссылки к репозиторию
+
+commit edf73215f8481ef92add4086b45d5996e886be36
+Author: sppl <sppl@users.noreply.github.com>
+Date:   Sun Mar 19 13:44:01 2017 +0200
+
+    обновления коментариев
+
+commit 1916ecbe9f53624e976dee15f6b50077fe873c69
+Author: sppl <t0675700395@gmail.com>
+Date:   Sun Mar 19 13:02:40 2017 +0200
+
+    fix error
+    
+    src/rpcblockchain.cpp:197:40: warning: division by zero [-Wdiv-by-zero]
+    nTransactionFee = (nTransactionFee / MIN_TX_FEE) * MIN_TX_FEE
+
+commit d36f0cbb323aa8aff58f099a9f5c519d090496b5
+Author: sppl <t0675700395@gmail.com>
+Date:   Sun Jun 19 13:43:18 2016 +0700
+
+    done
+
+commit 5db6008ebb3d14f84a73e20671a76f7e3b0863f3
+Author: sppl <t0675700395@gmail.com>
+Date:   Sun Jun 19 13:40:34 2016 +0700
+
+    :octocat: Added .gitattributes & .gitignore files

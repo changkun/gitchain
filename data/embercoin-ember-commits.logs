@@ -1,0 +1,946 @@
+commit 1d2bb24d7417c155df53c4fb6cae0e3181cc0e2c
+Merge: 585a621e 0273a154
+Author: EmberCoin <26856336+EmberCoin@users.noreply.github.com>
+Date:   Sat Nov 11 05:42:41 2017 -0600
+
+    Merge pull request #40 from EmberCoin/dev2
+    
+    Merging in v1.1.5.1
+
+commit 0273a1548673993fb5b6f6f9c76e1f573d1af9dd
+Author: EmberCoin <EmberCoin@users.noreply.github.com>
+Date:   Fri Nov 10 20:04:33 2017 -0600
+
+    3rd try.
+
+commit ccae94ecdcc91de07136f04c37b1e97384a31404
+Author: EmberCoin <EmberCoin@users.noreply.github.com>
+Date:   Fri Nov 10 03:50:02 2017 -0600
+
+    And a second typo fix
+
+commit c96e810363fa1902887081e3c08e893d3dd15e79
+Author: EmberCoin <EmberCoin@users.noreply.github.com>
+Date:   Fri Nov 10 03:46:41 2017 -0600
+
+    Typo'd the t, should've been time_on_block
+
+commit e30365fe26480502f05f66249ebb30f501f47679
+Author: EmberCoin <EmberCoin@users.noreply.github.com>
+Date:   Fri Nov 10 03:44:37 2017 -0600
+
+    Second attempt at a bugfix, allow for variance over the past r=62.71 period that is already past
+
+commit 9edae8a6aec9b05c25f97e59a3e735be2d73d33a
+Merge: 15fabb8f dcef1cf3
+Author: EmberCoin <EmberCoin@users.noreply.github.com>
+Date:   Wed Nov 8 20:35:21 2017 -0600
+
+    Merge branch 'dev2' of github.com:EmberCoin/Ember into dev2
+
+commit 15fabb8f78b548f11da9cc9283db04e634653e75
+Author: EmberCoin <EmberCoin@users.noreply.github.com>
+Date:   Wed Nov 8 20:33:07 2017 -0600
+
+    trial FPU bugfix
+
+commit 585a621e38d99415ddaea7c203f292048d29c24e
+Merge: eb8528b9 dcef1cf3
+Author: EmberCoin <26856336+EmberCoin@users.noreply.github.com>
+Date:   Mon Nov 6 11:54:53 2017 -0600
+
+    Merge pull request #37 from EmberCoin/dev2
+    
+    Dev2 to Master merge
+
+commit dcef1cf35a6b3b45f57e5d60a8438d58a6dc7db9
+Author: EmberCoin <26856336+EmberCoin@users.noreply.github.com>
+Date:   Mon Nov 6 11:53:26 2017 -0600
+
+    Update README.md
+
+commit 8e48d5447c42a1f5765dd30bced1ddcf8f38aaf1
+Merge: 28aba270 4cf58946
+Author: Mathieu Tetreault <mathieu.alexandre.tetreault@gmail.com>
+Date:   Mon Oct 30 21:49:24 2017 -0400
+
+    Merge branch 'dev2' of github.com:EmberCoin/Ember into dev2
+
+commit 28aba2700590b96deae7e0ec4299d9eeff342ca6
+Merge: 8d00b586 718977cc
+Author: Mathieu Tetreault <mathieu.alexandre.tetreault@gmail.com>
+Date:   Mon Oct 30 21:37:12 2017 -0400
+
+    Merge branch 'dev2' of github.com:EmberCoin/Ember into dev2
+
+commit 4cf58946523ffc830218fc0c2c10145f022cbeaa
+Merge: 8d00b586 718977cc
+Author: Mathieu Tetreault <mathieu.alexandre.tetreault@gmail.com>
+Date:   Mon Oct 30 21:37:12 2017 -0400
+
+    Merge branch 'dev2' of github.com:EmberCoin/Ember into dev2
+
+commit 8d00b586b81d261326e3835927838f8183f277dc
+Author: Mathieu Tetreault <mathieu.alexandre.tetreault@gmail.com>
+Date:   Mon Oct 30 21:37:04 2017 -0400
+
+    Debian build: change binary name to Ember-Qt
+
+commit 718977cce1d0924db7a61f51506b05af41e22b3e
+Merge: 215be75b d612b1d8
+Author: EmberCoin <EmberCoin@users.noreply.github.com>
+Date:   Mon Oct 30 13:56:52 2017 -0500
+
+    Merge branch 'dev2' of github.com:EmberCoin/Ember into dev2
+
+commit 215be75be1992cc70c91f8e91cc76781fe50d231
+Author: EmberCoin <EmberCoin@users.noreply.github.com>
+Date:   Mon Oct 30 12:10:18 2017 -0500
+
+    Added Proof of Burn. Thanks BlackCoin. <3 https://github.com/CoinBlack/blackcoin/commit/b0bf9eb77c777c42dcdb59f43609ad07117be8ad
+
+commit 3936bfaf53fcfb666af710f1ec6027cd5dea3626
+Author: EmberCoin <EmberCoin@users.noreply.github.com>
+Date:   Mon Oct 30 12:09:19 2017 -0500
+
+    Updated version.
+
+commit d612b1d849565b68617d6fbc629c8ec3766e1a2a
+Author: Mathieu Tetreault <mathieu.alexandre.tetreault@gmail.com>
+Date:   Mon Oct 30 00:01:12 2017 -0400
+
+    bump: version to 1.1.5
+
+commit cf593b1d0595fdd0cec593414dba034f6c8e432b
+Merge: 2162465f 5a5135f3
+Author: EmberCoin <EmberCoin@users.noreply.github.com>
+Date:   Thu Oct 26 03:27:00 2017 -0500
+
+    Merge branch 'dev2' of github.com:EmberCoin/Ember into dev2
+
+commit 2162465f461f022ce91e4eee791fa65ef98cd520
+Author: EmberCoin <EmberCoin@users.noreply.github.com>
+Date:   Thu Oct 26 03:26:41 2017 -0500
+
+    Okay, we have tiered MIN_PEERS now. Hacky way to solve not starting with enough peers and 29th of Nov 0:00 UTC
+
+commit 5a5135f379439b8c6674700f9e7242be9cdac87b
+Author: Mathieu Tetreault <mathieu.alexandre.tetreault@gmail.com>
+Date:   Wed Oct 25 18:37:17 2017 -0400
+
+    Debian packaging folder
+
+commit 03f784132ee0897fc1ec51df23a04c206d7333a3
+Merge: db24634e 11da0680
+Author: Mathieu Tetreault <mathieu.alexandre.tetreault@gmail.com>
+Date:   Wed Oct 25 18:36:42 2017 -0400
+
+    Merge branch 'dev2' of github.com:EmberCoin/Ember into dev2
+
+commit 11da06808c3b3e806e0a0a4230fdca8e77494540
+Author: konez2k <konez2k@gmail.com>
+Date:   Thu Oct 26 00:16:17 2017 +0200
+
+    fix macos bundle name
+
+commit db24634e3c25ea6e306fbf5ff5cebc9be960dc01
+Merge: cd4ff12e d24cd564
+Author: Mathieu Tetreault <mathieu.alexandre.tetreault@gmail.com>
+Date:   Tue Oct 24 08:15:58 2017 -0400
+
+    Merge branch 'dev2' of github.com:EmberCoin/Ember into dev2
+
+commit d24cd5644f37a557691cd58f6c21379fd3daa42d
+Author: EmberCoin <EmberCoin@users.noreply.github.com>
+Date:   Sun Oct 22 05:52:00 2017 -0500
+
+    Updated the page info
+
+commit edb7f8d3e85bc174bb346d2c990fc19af2422ef5
+Author: EmberCoin <EmberCoin@users.noreply.github.com>
+Date:   Sun Oct 22 02:32:30 2017 -0500
+
+    bugfixed math closely
+
+commit 480b516d1ef59953bb50d319878c978b46f2fade
+Author: EmberCoin <EmberCoin@users.noreply.github.com>
+Date:   Fri Oct 20 20:11:49 2017 -0500
+
+    Now we will be able to break a clean break
+
+commit 5999eff027429086a63465ec8f1fb0a7704d3ac0
+Author: EmberCoin <EmberCoin@users.noreply.github.com>
+Date:   Fri Oct 20 02:55:05 2017 -0500
+
+    alteration of fix on the you are staking being on with sync as well
+
+commit b1357e0df5f2be5322824e7cbf887513208e31c3
+Author: EmberCoin <EmberCoin@users.noreply.github.com>
+Date:   Fri Oct 20 01:17:02 2017 -0500
+
+    Turn off the stake miner option when de-synced.
+
+commit cd4ff12ea6a1e613777a9d485019e66bcfcc9e76
+Merge: 53c276cf 34e11660
+Author: Mathieu Tetreault <mathieu.alexandre.tetreault@gmail.com>
+Date:   Thu Oct 19 19:52:29 2017 -0400
+
+    Merge branch 'dev2' of github.com:EmberCoin/Ember into dev2
+
+commit 53c276cfb90b876e0ba333c30631cbe9b19d2b73
+Author: Mathieu Tetreault <mathieu.alexandre.tetreault@gmail.com>
+Date:   Thu Oct 19 19:52:25 2017 -0400
+
+    Fix for db 6.x
+
+commit 34e1166004b0b894fdea35c04bbfecb2a64fe732
+Author: EmberCoin <EmberCoin@users.noreply.github.com>
+Date:   Thu Oct 19 18:44:04 2017 -0500
+
+    Okay, this should be binary compatible.
+
+commit f67b18c97cb9e63eb14f5f32e6ebebe5e91c0531
+Author: EmberCoin <EmberCoin@users.noreply.github.com>
+Date:   Thu Oct 19 18:40:26 2017 -0500
+
+    A few bugfixes and preparing the next version release
+
+commit 9bd0d8d798811c6841cd6b22f7368d4778222b6f
+Author: EmberCoin <EmberCoin@users.noreply.github.com>
+Date:   Wed Oct 18 04:41:27 2017 -0500
+
+    Minor alterations to the ThreadDNSAddressSeed( code
+
+commit 2094723f07b09aee1450f2b59badb40a2b9861f6
+Author: EmberCoin <EmberCoin@users.noreply.github.com>
+Date:   Wed Oct 18 03:46:10 2017 -0500
+
+    Adding konez2k to the dns seed node list. Altering how many and when the addresses are gathered with a max cap.
+
+commit e70c418e11e10261acfea8958b971445cbbd1209
+Author: EmberCoin <EmberCoin@users.noreply.github.com>
+Date:   Mon Oct 16 21:50:24 2017 -0500
+
+    Bugfixed starting rate
+
+commit 6863a45172036ca8f35fcf19f165ef8071ba49cc
+Author: EmberCoin <EmberCoin@users.noreply.github.com>
+Date:   Mon Oct 16 08:05:55 2017 -0500
+
+    get rid of the includes for tmp_nodes.h
+
+commit 5e3e77feeb72036ffde4cccf056395625eb27d00
+Author: EmberCoin <EmberCoin@users.noreply.github.com>
+Date:   Sun Oct 15 22:35:35 2017 -0500
+
+    Bugfixing reeeeaally small ammounts and times, deterministically they are better 0'd out than throwing a runtime error. Also, adding addnodes back in.
+
+commit e4e93f44604180a21afa38d75c1d4015fdecc2a3
+Author: EmberCoin <EmberCoin@users.noreply.github.com>
+Date:   Sun Oct 15 04:53:02 2017 -0500
+
+    Another bugfix in the APPROX macro usage.
+
+commit 886ba1ff92705fd71f09f377270d4de48638f871
+Author: EmberCoin <EmberCoin@users.noreply.github.com>
+Date:   Sun Oct 15 04:09:23 2017 -0500
+
+    Make a clean break from old clients poisoning our pool. Will this result in less global money reported?
+
+commit c919805705278c681d1df90b7a5defff81c807c2
+Author: EmberCoin <EmberCoin@users.noreply.github.com>
+Date:   Fri Oct 13 06:01:04 2017 -0500
+
+    Debugging net, Upping version, adding manifests, altering .pro
+
+commit eb8528b959d7a07a393de47c319018f57ec2e6be
+Author: Mathieu Tetreault <mathieu.alexandre.tetreault@gmail.com>
+Date:   Sun Oct 8 16:52:36 2017 -0400
+
+    Fix application name in menu
+
+commit 242f6f80bd1f2b4e157353e373a28368253deffe
+Author: Mathieu Tetreault <mathieu.alexandre.tetreault@gmail.com>
+Date:   Sun Oct 8 16:21:34 2017 -0400
+
+    Add install instructions to allow linux packaging
+
+commit 0ba946a867519c949bcae05cd2d010054dd09814
+Author: EmberCoin <dawngurl@gmail.com>
+Date:   Sun Oct 8 13:42:26 2017 -0500
+
+    Just some printing in tmp_nodes.h
+
+commit 8015782f46ad377d01eeebd64dca44fead7829e2
+Author: EmberCoin <dawngurl@gmail.com>
+Date:   Sun Oct 8 11:29:34 2017 -0500
+
+    Once again reminded, this isn't C
+
+commit 72191fc93add3b4785c6d5eef8eabf18aa5530c0
+Author: EmberCoin <dawngurl@gmail.com>
+Date:   Sun Oct 8 11:27:50 2017 -0500
+
+    Missed this commit removal of autoupdater button events
+
+commit 4f9bd00b87208954007f6208415ed037c8f556fa
+Author: EmberCoin <dawngurl@gmail.com>
+Date:   Sun Oct 8 11:26:27 2017 -0500
+
+    Debug quitting in a bunch of inner loops. Hacky, but it's this damned thread!
+
+commit cab0891a6e3ee7d8d7fb24cf39470dadce067d1c
+Author: EmberCoin <dawngurl@gmail.com>
+Date:   Sun Oct 8 11:25:51 2017 -0500
+
+    Debug printing
+
+commit adc8a46da37152aa1c2faf759c5df2aa8ab94029
+Author: EmberCoin <dawngurl@gmail.com>
+Date:   Sun Oct 8 11:04:09 2017 -0500
+
+    Adding tmp_nodes.h
+
+commit 4c8fdf915684a21c6341bcdcc504e28aee533e97
+Author: konez2k <konez2k@gmail.com>
+Date:   Sun Oct 8 18:02:05 2017 +0200
+
+    macos build using berkeley 6
+
+commit 6e10c1a0e3d1455bc33201b1de0926d11b929eae
+Author: EmberCoin <dawngurl@gmail.com>
+Date:   Sat Oct 7 19:23:56 2017 -0500
+
+    Actually fully remove the autoupdater change this time.
+
+commit a564fc02c55ecf627769e8f5a92ff05491823682
+Author: EmberCoin <dawngurl@gmail.com>
+Date:   Sat Oct 7 19:08:18 2017 -0500
+
+    Just some rearranging for profile ready debug builds.
+
+commit 755d3b519c27b58e85bc41d84b33016890eb0f28
+Author: EmberCoin <dawngurl@gmail.com>
+Date:   Sat Oct 7 19:07:28 2017 -0500
+
+    Fully remove the autoupdater changes, and reset important values to their usual storage type.
+
+commit 4bda242d47a0a33276d54e72cb1e63d88afe78f8
+Author: konez2k <konez2k@gmail.com>
+Date:   Sun Oct 8 00:18:33 2017 +0200
+
+    macos build
+
+commit 6f1de5353862c142d7c674e99e2c5240dd9faaae
+Author: konez2k <konez2k@gmail.com>
+Date:   Sat Oct 7 23:34:41 2017 +0200
+
+    mainnet peers
+
+commit 624db4936cbe1ece199e96bcfee8e0e9a9fbdc18
+Merge: 22d0ccd8 82e23f6c
+Author: konez2k <konez2k@gmail.com>
+Date:   Sat Oct 7 22:50:52 2017 +0200
+
+    Merge branch 'dev2' of https://github.com/EmberCoin/Ember into dev2
+
+commit 22d0ccd893195b1b9fbab3b3f7d8e429b8997c04
+Author: konez2k <konez2k@gmail.com>
+Date:   Sat Oct 7 22:50:42 2017 +0200
+
+    no more IRC!
+
+commit 82e23f6c69c5868c00d85bb139d084a4bfb3fdd7
+Author: EmberCoin <dawngurl@gmail.com>
+Date:   Sat Oct 7 12:15:07 2017 -0500
+
+    Changed a few windows build flags around to better profile what's going on with these two or three (if rpc) misbehaving threads.
+
+commit 55d0a03f201c51d360b97a3d25aa0beaa8ad78fe
+Author: EmberCoin <dawngurl@gmail.com>
+Date:   Fri Oct 6 17:29:22 2017 -0500
+
+    Just another update
+
+commit d1504eb6de607b5654b00d9f1edb42e607f871e7
+Author: EmberCoin <dawngurl@gmail.com>
+Date:   Fri Oct 6 17:19:28 2017 -0500
+
+    Change where the seeds are specified. Here goes something!
+
+commit f27f4991bb4dc1605b6e73e26439cbc006a32a8a
+Author: EmberCoin <dawngurl@gmail.com>
+Date:   Fri Oct 6 15:14:48 2017 -0500
+
+    More quittable areas.
+
+commit a54361f6f6700a66f2d082eee10b235961cbe2de
+Author: EmberCoin <dawngurl@gmail.com>
+Date:   Fri Oct 6 15:14:27 2017 -0500
+
+    More diagnostic info.
+
+commit 57599903b1547f9526fa7d7911e3ffc4b4fd593a
+Author: EmberCoin <dawngurl@gmail.com>
+Date:   Fri Oct 6 13:01:40 2017 -0500
+
+    Now we shut off after 1-20 seconds.
+
+commit 8fe17691f6c3d9224843ad231b0defe208f0ba19
+Author: EmberCoin <dawngurl@gmail.com>
+Date:   Fri Oct 6 13:01:02 2017 -0500
+
+    The final.
+
+commit 3b683f80eacc73e74b282f86d4decdd661c53186
+Author: EmberCoin <dawngurl@gmail.com>
+Date:   Fri Oct 6 04:10:59 2017 -0500
+
+    Now we can have a huge number of connections if you want them to. Net supernodes.
+
+commit fc261bdcb29ab9b00482cab8ae0b9d354a1c4c01
+Author: EmberCoin <dawngurl@gmail.com>
+Date:   Thu Oct 5 18:44:10 2017 -0500
+
+    Actually add the final amounts to the wallet/blockchain
+
+commit fec378916a7d8c58a373c22089741b55d75f404a
+Author: EmberCoin <dawngurl@gmail.com>
+Date:   Thu Oct 5 07:47:24 2017 -0500
+
+    Alteration to DoS rules around coinstakerewards on blocks
+
+commit 1a9d10d71169d679fa56ca99a9f3771ed159cb6b
+Author: EmberCoin <dawngurl@gmail.com>
+Date:   Thu Oct 5 06:59:13 2017 -0500
+
+    Removed autoupdater feature, AV doesn't like this either even though it does get consent before installing.
+
+commit 59ba43eb3554d18b137d14815faf528ec339e05f
+Author: EmberCoin <dawngurl@gmail.com>
+Date:   Thu Oct 5 00:40:49 2017 -0500
+
+    Changed up the DoS calls around ConnectBlock( PoS attachments
+
+commit c037211746d06153c7d63805d621026405154fe3
+Author: konez2k <konez2k@gmail.com>
+Date:   Thu Oct 5 01:40:29 2017 +0200
+
+    another "stake" on coin interest calculation...
+
+commit 7a850e3728fc87e9b7c7305ba0071bef6b18ff8e
+Author: EmberCoin <dawngurl@gmail.com>
+Date:   Wed Oct 4 07:34:16 2017 -0500
+
+    CoinCCInterest went back.
+
+commit f012bd98b3abd3694f6c1d6ff5ba72ee35c7c5e8
+Author: EmberCoin <dawngurl@gmail.com>
+Date:   Tue Oct 3 22:24:12 2017 -0500
+
+    CoinCCInterest Annnnd now we're chasing good values again.
+
+commit 6acc536983d31c1a0d0c15c32054619126add206
+Author: EmberCoin <dawngurl@gmail.com>
+Date:   Tue Oct 3 21:48:09 2017 -0500
+
+    CoinCCInterest refactor printf LogPrintf bug.
+
+commit e12a8559ddbf5c249da630c89d2f2eabf3aeed26
+Author: EmberCoin <dawngurl@gmail.com>
+Date:   Tue Oct 3 19:26:13 2017 -0500
+
+    Alright, I feel a lot better about this CoinCCInterest(
+
+commit 26ee3688b2078fa8e1008a845939e437e670bb3b
+Author: konez2k <konez2k@gmail.com>
+Date:   Wed Oct 4 00:18:57 2017 +0200
+
+    variables declaration fix
+
+commit 15647a94a6ca80ec50cff5fb14a92fb0c5a7ceea
+Merge: ce14f518 8730eabf
+Author: konez2k <konez2k@gmail.com>
+Date:   Wed Oct 4 00:00:46 2017 +0200
+
+    Merge branch 'dev2' of https://github.com/EmberCoin/Ember into dev2
+
+commit ce14f5187509a1b1f48a66690ae0e3b9629d8d84
+Author: konez2k <konez2k@gmail.com>
+Date:   Wed Oct 4 00:00:34 2017 +0200
+
+    new rates for testnet
+
+commit d90c22622d5426af48fc00373448f0c7d98b7cb3
+Author: konez2k <konez2k@gmail.com>
+Date:   Wed Oct 4 00:00:16 2017 +0200
+
+    indentation fix
+
+commit 8730eabf39d5e606162418eba97e7ea3cb539958
+Author: EmberCoin <dawngurl@gmail.com>
+Date:   Tue Oct 3 12:35:07 2017 -0500
+
+    Alter the value down low for nSubsidyFactually
+
+commit 1753c5d2c70ce845025d1ee84de51dc952eaa9f1
+Author: EmberCoin <dawngurl@gmail.com>
+Date:   Tue Oct 3 08:45:49 2017 -0500
+
+    Minor .pro tweak, was unnoticed before now
+
+commit 2bbb1d1f5d5898a966b2e62429a69cc4754287a1
+Author: EmberCoin <dawngurl@gmail.com>
+Date:   Tue Oct 3 08:44:49 2017 -0500
+
+    Building Emberd. make does not like .S files.
+
+commit 35efb67452727a5c9dd995f324fb6d772f540ca8
+Author: EmberCoin <dawngurl@gmail.com>
+Date:   Tue Oct 3 08:44:00 2017 -0500
+
+    Bugfixing alteration
+
+commit 43a8ee0cd44c74b206c23d60f012825ed95d64cd
+Author: EmberCoin <dawngurl@gmail.com>
+Date:   Tue Oct 3 07:11:17 2017 -0500
+
+    Updating GetProofOfStakeReward
+
+commit ec125dcaf9b4802565a9c184724f0a5704e72f47
+Author: EmberCoin <dawngurl@gmail.com>
+Date:   Tue Oct 3 06:36:57 2017 -0500
+
+    No locale aware crap in math code please. boost::lexical_cast -> c locale ss
+
+commit 6ca27ff21117238156013a6de61013f2e6fb57fe
+Author: EmberCoin <dawngurl@gmail.com>
+Date:   Tue Oct 3 06:27:53 2017 -0500
+
+    Updating to LogPrintf in CoinCCInterest
+
+commit b144a958390c21c59a03d4d223becab677acec25
+Author: konez2k <konez2k@gmail.com>
+Date:   Tue Oct 3 13:07:50 2017 +0200
+
+    missing brackets
+
+commit 61925a3754268c1244793810da9e0da267376715
+Author: EmberCoin <dawngurl@gmail.com>
+Date:   Tue Oct 3 05:24:37 2017 -0500
+
+    Updating to LogPrintf in GetProofOfStakeReward
+
+commit 80bc3a99e147938ce112e5f04254f9dc081284d6
+Author: EmberCoin <dawngurl@gmail.com>
+Date:   Tue Oct 3 04:00:42 2017 -0500
+
+    Added true ember seeds, the aws one from before doesn't have permanent IPs and these 5 do
+
+commit 5c6cba8b4520b2dc32b6d318097b2c53c78b7859
+Author: EmberCoin <dawngurl@gmail.com>
+Date:   Tue Oct 3 00:12:46 2017 -0500
+
+    KILL DA BUG.
+
+commit e6ea6714a3519fabb1d9a4bfc1367d0eb7efeef3
+Author: EmberCoin <dawngurl@gmail.com>
+Date:   Mon Oct 2 19:32:51 2017 -0500
+
+    Updater tweak
+
+commit ffae8e6c4be1b039620a9051bbf2780a15381bb2
+Author: EmberCoin <dawngurl@gmail.com>
+Date:   Mon Oct 2 19:32:03 2017 -0500
+
+    TestNet( checks
+
+commit ea970ff0ccf769701c1be046fc2f83b59ff95cf1
+Author: konez2k <konez2k@gmail.com>
+Date:   Tue Oct 3 01:43:14 2017 +0200
+
+    fixed stakeminage on testnet
+
+commit 778fcc3f0b1b7e6d490e7e35ffb68c48b177be71
+Author: konez2k <konez2k@gmail.com>
+Date:   Tue Oct 3 01:31:22 2017 +0200
+
+    connection limit
+
+commit 9414cb9f581be98581370214034b166d916ff353
+Author: konez2k <konez2k@gmail.com>
+Date:   Tue Oct 3 01:30:59 2017 +0200
+
+    emberd macos fix
+
+commit 3e30fb06ebf58f95afe08ed28d0e277bc20c8f14
+Author: konez2k <konez2k@gmail.com>
+Date:   Tue Oct 3 00:48:18 2017 +0200
+
+    upnp client fix
+
+commit 2a839c64dd0f9f784ac1d8fc280ed9a6386d5f48
+Merge: bb2faa7e d6c4f8fe
+Author: konez2k <32417933+konez2k@users.noreply.github.com>
+Date:   Tue Oct 3 00:28:58 2017 +0200
+
+    Merge pull request #24 from konez2k/dev2
+    
+    Dev2
+
+commit bb2faa7e5c940b0f0e8971b227bb34331d8619ef
+Author: EmberCoin <dawngurl@gmail.com>
+Date:   Mon Oct 2 17:18:49 2017 -0500
+
+    Current attempt.
+
+commit d6c4f8fe7fd4ad22fc06b33be159a92c8e2cac15
+Merge: 5ee8dcc5 90399e5a
+Author: konez2k <konez2k@gmail.com>
+Date:   Tue Oct 3 00:06:11 2017 +0200
+
+    Merge branch 'dev2' of https://github.com/konez2k/Ember into dev2
+
+commit 5ee8dcc51cfceec9861cbdd7b7ccc4bd3cfd9db0
+Author: konez2k <konez2k@gmail.com>
+Date:   Tue Oct 3 00:06:00 2017 +0200
+
+    POS starts at block 0 on testnet
+
+commit 90399e5aef7d66b5b4385e5a7f0c2cc18d1a6f99
+Author: konez2k <konez2k@gmail.com>
+Date:   Mon Oct 2 23:43:33 2017 +0200
+
+    removed irc dependency
+
+commit 15072af1d4fec43113e7aa8b6d5d5d72ee8826ca
+Author: konez2k <konez2k@gmail.com>
+Date:   Mon Oct 2 23:39:53 2017 +0200
+
+    unused variable
+
+commit a2f92efe70ce4f3ac032efeaf9253c4d4a5514db
+Merge: f104521f 79b59789
+Author: konez2k <konez2k@gmail.com>
+Date:   Mon Oct 2 23:38:11 2017 +0200
+
+    Merge branch 'dev2' of https://github.com/konez2k/Ember into dev2
+
+commit f104521f295747d198af80e3d4ed9ff4bbf56497
+Author: konez2k <konez2k@gmail.com>
+Date:   Mon Oct 2 23:38:00 2017 +0200
+
+    get_exe_path refactor
+
+commit 79b5978965af2c1cf994f52e4ee27d8d73b44fd5
+Author: konez2k <konez2k@gmail.com>
+Date:   Mon Oct 2 23:15:42 2017 +0200
+
+    v1.1.4.0
+
+commit 251d35af8b5282041bfdf0a032507388882b229b
+Author: konez2k <konez2k@gmail.com>
+Date:   Mon Oct 2 23:15:31 2017 +0200
+
+    limit seednodes to main net
+
+commit 7a6406ab3143e4ce0503f15c76c1fd3783e00b73
+Merge: 258e32f2 8ac07ead
+Author: konez2k <konez2k@gmail.com>
+Date:   Mon Oct 2 22:39:42 2017 +0200
+
+    Merge branch 'dev2' of https://github.com/konez2k/Ember into dev2
+    
+    # Conflicts:
+    #       src/clientversion.h
+    #       src/main.cpp
+
+commit 258e32f2839040a42def706236cfa5bc97ba6d51
+Author: EmberCoin <dawngurl@gmail.com>
+Date:   Mon Oct 2 01:51:38 2017 -0500
+
+    A few fixes and upgrading version 1.1.4.0
+
+commit b08d1aee5c6ff13511bbe9f3f2a13ba858defd45
+Author: EmberCoin <dawngurl@gmail.com>
+Date:   Sun Oct 1 15:37:42 2017 -0500
+
+    Didn't I just remove this?
+
+commit 8ea0dbf88865d085946362c745fb0eb9762b9a86
+Author: EmberCoin <dawngurl@gmail.com>
+Date:   Sun Oct 1 14:25:00 2017 -0500
+
+    Removing IRC. To be fair, you were great. It's such a shame that every AV hates you so much. Ahh the 90\'s.
+
+commit 0d6e606dfde71d3fb0de825aea1ef0dbd0a06558
+Author: EmberCoin <dawngurl@gmail.com>
+Date:   Sun Oct 1 13:43:34 2017 -0500
+
+    Housecleaning. Removing libs/ inc/ deps/
+
+commit 8ac07eadfe57bd0a83f2419967ccbc7fe6d05b5e
+Author: konez2k <konez2k@gmail.com>
+Date:   Sun Oct 1 20:01:48 2017 +0200
+
+    removed deps
+
+commit 9bcce0aab47e9df65c35e8903f1f9f2f21bfe9ee
+Author: EmberCoin <dawngurl@gmail.com>
+Date:   Sun Oct 1 12:49:32 2017 -0500
+
+    "Oops I forgot to" merge change.
+
+commit a1d68caa89fd4bd353902364e0df4f6df3e2dc61
+Author: EmberCoin <dawngurl@gmail.com>
+Date:   Sun Oct 1 12:42:11 2017 -0500
+
+    Post merge clean change.
+
+commit 5e251f5069f8ba727ee456332af457de86d23403
+Merge: 3f3c33ad 571d35c9
+Author: EmberCoin <dawngurl@gmail.com>
+Date:   Sun Oct 1 12:38:47 2017 -0500
+
+    Merging with remotes/konez/dev2.
+
+commit 0ce73fdbaea9cebb650e378a73d9e5f75502d330
+Author: konez2k <konez2k@gmail.com>
+Date:   Sun Oct 1 19:24:40 2017 +0200
+
+    sync fix
+
+commit 3f3c33add3217be14e1055eb56ee7a432d3e4617
+Author: EmberCoin <dawngurl@gmail.com>
+Date:   Sun Oct 1 12:00:42 2017 -0500
+
+    Prepping for a happy merge.
+
+commit 00e4f429640c60ccd13f81cf12ed49998557bbfd
+Author: konez2k <konez2k@gmail.com>
+Date:   Sun Oct 1 17:24:57 2017 +0200
+
+    removed inc
+
+commit 571d35c93c9ffb11f86160a991bdde52ffebcd31
+Author: EmberCoin <dawngurl@gmail.com>
+Date:   Sun Oct 1 10:20:41 2017 -0500
+
+    Side noise.
+
+commit 30e4722f29f64ecbef00eb29d1b73609e491263a
+Author: konez2k <konez2k@gmail.com>
+Date:   Sun Oct 1 15:51:23 2017 +0200
+
+    rolling back changes + fix upnp
+
+commit b4870bde43efb99e9004faa797c33cca80f35b1e
+Author: andrea <andrea@debian>
+Date:   Sun Oct 1 06:24:59 2017 -0400
+
+    fix connection limit
+
+commit d74e58e02198e12521933b5ffa5640f02862f003
+Author: konez2k <konez2k@gmail.com>
+Date:   Sun Oct 1 11:19:11 2017 +0200
+
+    removed unused variable
+
+commit 88010ad47ada01086e5df4cca90ddc464b2b0d42
+Merge: f1962037 f597fd17
+Author: konez2k <konez2k@gmail.com>
+Date:   Sun Oct 1 11:13:09 2017 +0200
+
+    Merge branch 'dev2' of https://github.com/konez2k/Ember into dev2
+    
+    # Conflicts:
+    #       src/net.cpp
+
+commit f1962037217f5a410e4260f7246adc4e67c823d5
+Author: konez2k <konez2k@gmail.com>
+Date:   Sun Oct 1 11:06:30 2017 +0200
+
+    Inbound connections fix
+
+commit 32f30df472c4b8553c3eac2f1f4e5940e2e238c5
+Author: EmberCoin <dawngurl@gmail.com>
+Date:   Sun Oct 1 02:30:16 2017 -0500
+
+    net.cpp has a bug.
+
+commit e90533072013396e8f7b7aa4461cd21c08e4a6e9
+Author: EmberCoin <dawngurl@gmail.com>
+Date:   Sat Sep 30 22:07:53 2017 -0500
+
+    Actually close when you quit.
+
+commit f597fd17022718ac33b2fc197492f27ba84722f6
+Author: Mathieu Tetreault <mathieu.alexandre.tetreault@gmail.com>
+Date:   Sat Sep 30 19:33:25 2017 -0700
+
+    Conditionnal WSAECONNRESET or ECONNRESET depending of the target
+
+commit 94693a0ea797086286ed4011fa01499760f7ac8f
+Merge: fa452d61 95ef6c5a
+Author: Mathieu Tetreault <mathieu.alexandre.tetreault@gmail.com>
+Date:   Sat Sep 30 19:02:05 2017 -0700
+
+    Merge branch 'dev2' of git@github.com:EmberCoin/Ember.git
+
+commit 95ef6c5ac15cc418b5ade786cdd118842980092d
+Author: EmberCoin <dawngurl@gmail.com>
+Date:   Sat Sep 30 18:25:39 2017 -0500
+
+    What?! Hahah!
+
+commit 882caf07aeadcb0f8dedaebe3a45275752825cf9
+Author: EmberCoin <dawngurl@gmail.com>
+Date:   Sat Sep 30 17:23:37 2017 -0500
+
+    net.cpp socket error/state handling code had a bug.
+
+commit 17c418d0c2c422c0521b31feccdbb895ebe7c3e4
+Author: EmberCoin <dawngurl@gmail.com>
+Date:   Sat Sep 30 16:29:08 2017 -0500
+
+    Debugging is great fun.
+
+commit fa452d6107f8e6e677492c6516332e8ec640cc83
+Author: konez2k <konez2k@gmail.com>
+Date:   Sat Sep 30 19:38:53 2017 +0200
+
+    missing error param
+
+commit 9388fa9d02387223a57dddd1edff25d99c26ce2a
+Author: konez2k <konez2k@gmail.com>
+Date:   Sat Sep 30 19:38:38 2017 +0200
+
+    updated ignores
+
+commit 71653b0b014d761163fcafd8f67c6ec91022caea
+Merge: 5de7a0cd 4e9cec73
+Author: andrea <andrea@debian>
+Date:   Sat Sep 30 13:21:40 2017 -0400
+
+    Merge branch 'dev2' of https://github.com/konez2k/Ember into dev2
+
+commit 5de7a0cdc9a113fa59da55f1cebb6502fd651c9b
+Author: andrea <andrea@debian>
+Date:   Sat Sep 30 13:20:58 2017 -0400
+
+    fix build linux
+
+commit 7d9425ca645430e4349d19464aafa27bd28f7c7a
+Author: EmberCoin <dawngurl@gmail.com>
+Date:   Sat Sep 30 12:19:14 2017 -0500
+
+    More bugfix work
+
+commit 4e9cec7399992d036a3d1457eb655dd17e35642e
+Author: Mathieu Tetreault <mathieu.alexandre.tetreault@gmail.com>
+Date:   Sat Sep 30 10:16:56 2017 -0700
+
+    Fix compilation issue due to wrong permissions
+
+commit 600eb08133359fbf0517ef6d11859172eb14cdca
+Author: Mathieu Tetreault <mathieu.alexandre.tetreault@gmail.com>
+Date:   Sat Sep 30 10:12:05 2017 -0700
+
+    Ember-qt.pro: Change linux detection to a clearer mechanism
+
+commit 84d1a31d9966e361afb3a3bbf879eba94f1de19f
+Author: Mathieu Tetreault <mathieu.alexandre.tetreault@gmail.com>
+Date:   Sat Sep 30 09:54:18 2017 -0700
+
+    Change Sleep to sleep_for crossplatform alternative
+
+commit ebbde3c408403b0449a7efc4828d3a1b9de8b50c
+Author: konez2k <konez2k@gmail.com>
+Date:   Sat Sep 30 18:41:29 2017 +0200
+
+    Fixed macOS build
+
+commit 7c8cd35308b6e19a5ac3618718145cc15988d97a
+Author: EmberCoin <dawngurl@gmail.com>
+Date:   Fri Sep 29 11:40:18 2017 -0500
+
+    Almost there.
+
+commit d915bb5b6e10556259870ba41047339b41abada6
+Author: EmberCoin <dawngurl@gmail.com>
+Date:   Tue Sep 19 20:51:25 2017 -0500
+
+    Ember-qt.pro
+
+commit 75b2aef0597e737a074e14ba07ad37b4acda19f3
+Author: EmberCoin <dawngurl@gmail.com>
+Date:   Tue Sep 19 20:50:36 2017 -0500
+
+    More work in progress for mtetrault
+
+commit ac25e3ddcf689f171e11b9b0e2f8dcc2a2df4f60
+Author: EmberCoin <dawngurl@gmail.com>
+Date:   Tue Sep 19 20:34:43 2017 -0500
+
+    In progress commit for mtetreault
+
+commit 7f4f2ad26c984a626d352f943ffd8f8ec3ad664d
+Merge: a044d2db b2796c8a
+Author: EmberCoin <dawngurl@gmail.com>
+Date:   Fri Sep 1 10:22:34 2017 -0500
+
+    Merge branch 'master' of github.com:EmberCoin/Ember
+
+commit a044d2db9e48c54c381ee19bbcba2b1b79ac148b
+Author: EmberCoin <dawngurl@gmail.com>
+Date:   Fri Sep 1 10:12:53 2017 -0500
+
+    Upgrade to DB-6.1.26
+
+commit b2796c8a3a7da6887aa3c2e3dff93f1334c0867e
+Author: EmberCoin <DawnGurl@gmail.com>
+Date:   Thu Aug 31 23:01:38 2017 -0500
+
+    Update README.md
+
+commit 1e05bf5fbbbb1a381ad5cfbff95d31f96f3ac8c0
+Author: EmberCoin <dawngurl@gmail.com>
+Date:   Thu Aug 31 13:29:40 2017 -0500
+
+    Committing the old client's pure upgrade path, with most dependencies inc/libs taken care of
+
+commit 95e2c681e98e9aeac693b8b88a8b4548a16d00d0
+Author: EmberProject <EmberBlockProject@gmail.com>
+Date:   Tue Oct 25 22:20:31 2016 -0700
+
+    Ember v1.0.1.0 Update
+    
+    General security update:
+    
+    -Added checkpoints
+    -PoS block generation rate enforcement
+    -Version sanity update
+
+commit 10d85e3cdd9ae732464739b8bb271536b6a12e8d
+Author: EmberProject <EmberBlockProject@gmail.com>
+Date:   Sun Oct 16 00:27:03 2016 -0700
+
+    Ember release
+    
+    Release changes commited
+
+commit 077fbe0f486918e3963154159d291a4e52358c41
+Author: EmberProject <EmberBlockProject@gmail.com>
+Date:   Sat Oct 15 22:41:33 2016 -0700
+
+    info update
+    
+    Updated readme and versioning
+
+commit ab75eb5cc6cd9c40b7da1f165ca8dd4bdf285c82
+Author: EmberProject <EmberBlockProject@gmail.com>
+Date:   Sat Oct 15 21:32:42 2016 -0700
+
+    Ember initial commit
+    
+    Ember initial commit

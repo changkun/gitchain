@@ -1,0 +1,346 @@
+commit 824d55b27b143173290f5eea6a55866fe7ac6d05
+Author: bumbacoin <bumbacoin@gmail.com>
+Date:   Sun Sep 10 14:41:27 2017 +0800
+
+    v1210 bump
+
+commit 364250c596f5396ce99192d24f1eb5046e8017eb
+Author: bumbacoin <bumbacoin@gmail.com>
+Date:   Sun Sep 10 11:55:42 2017 +0800
+
+    compilation fix
+
+commit f07c1bc277720d3d380e81d382aed7084534657e
+Author: bumbacoin <bumbacoin@gmail.com>
+Date:   Mon Aug 14 12:59:54 2017 +0800
+
+    reduce split combine thresholds
+
+commit bc3a8b5ae4c46796d7914d31ecd61c42b77e510c
+Author: bumbacoin <bumbacoin@gmail.com>
+Date:   Thu Aug 3 11:10:36 2017 +0800
+
+    Update checkpoints.cpp
+
+commit 1d7be83018d593147d856a372e56a39e3bd13004
+Author: sunerok <justinvforvendetta@users.noreply.github.com>
+Date:   Thu Jul 27 11:04:43 2017 -0400
+
+    Update masternodeman.cpp
+
+commit 6a4a7c5df056ab091670eb729d80496a2dc65f1c
+Merge: 95c1bc8 a4e0daa
+Author: sunerok <justinvforvendetta@users.noreply.github.com>
+Date:   Tue Jul 25 22:27:39 2017 -0400
+
+    Merge pull request #10 from justinvforvendetta/master
+    
+    masternode updates
+
+commit a4e0daa6cc6121e04c5d50f8a68c6fbf0212a890
+Author: sunerok <justinvforvendetta@users.noreply.github.com>
+Date:   Tue Jul 18 21:04:01 2017 -0400
+
+    fix freeze
+
+commit 219ccef2adbff618c356aaa2878482e6fafb56d1
+Author: sunerok <justinvforvendetta@users.noreply.github.com>
+Date:   Tue Jul 18 20:58:09 2017 -0400
+
+    updates for masternodes
+
+commit 48ee5bfdf62e7b4ee49c52adfacbc88b572ec491
+Author: sunerok <justinvforvendetta@users.noreply.github.com>
+Date:   Tue Jul 18 20:56:17 2017 -0400
+
+    Update masternodeman.cpp
+
+commit 2555cc4676ea49553169eb3f4589ac054f07c271
+Author: sunerok <justinvforvendetta@users.noreply.github.com>
+Date:   Tue Jul 18 19:40:46 2017 -0400
+
+    Update activemasternode.cpp
+
+commit 95c1bc85d9ce6dbedce4b9b534385bd0a70e8dfe
+Merge: c7b7f84 5d5c9ad
+Author: sunerok <justinvforvendetta@users.noreply.github.com>
+Date:   Tue Jul 18 18:59:14 2017 -0400
+
+    Merge pull request #9 from justinvforvendetta/master
+    
+    Merge pull request #1 from exclfork/master
+
+commit 5d5c9ad6b3e0d6bac944354b668bd9fee042e6fa
+Merge: 1b14fe2 c7b7f84
+Author: sunerok <justinvforvendetta@users.noreply.github.com>
+Date:   Tue Jul 18 18:58:34 2017 -0400
+
+    Merge pull request #1 from exclfork/master
+    
+    Merge pull request #8 from justinvforvendetta/master
+
+commit c7b7f84fd72ac9e9c2606e0c6e0433bb9f486486
+Merge: ccece5f 1b14fe2
+Author: sunerok <justinvforvendetta@users.noreply.github.com>
+Date:   Wed Apr 26 21:24:34 2017 -0400
+
+    Merge pull request #8 from justinvforvendetta/master
+    
+    updated windows 32 bit binary
+
+commit 1b14fe2847ebc73c02c914c06343ef303d54bf9b
+Author: sunerok <justinvforvendetta@gmail.com>
+Date:   Wed Apr 26 21:21:20 2017 -0400
+
+    updated windows binary
+
+commit ccece5f8a727c833cc6d96d6051a0606c502e41a
+Merge: e12401f f26dd59
+Author: sunerok <justinvforvendetta@users.noreply.github.com>
+Date:   Wed Apr 26 19:35:02 2017 -0400
+
+    Merge pull request #7 from justinvforvendetta/master
+    
+    detailed location for secp256k1 headers
+
+commit f26dd59c839b97d24f800cd2b535921515422b0d
+Author: sunerok <justinvforvendetta@users.noreply.github.com>
+Date:   Wed Apr 26 19:27:46 2017 -0400
+
+    updated location of secp256k1 header
+    
+    helps win compiles.
+
+commit d0957b8ea6c463d5d0da63b2cb16cb8b1d3d9c0e
+Author: sunerok <justinvforvendetta@users.noreply.github.com>
+Date:   Wed Apr 26 19:27:09 2017 -0400
+
+    detailed secp256k1 header location
+    
+    helps win compiles to be more specific.
+
+commit e12401fd72cafcf5cc26782874edf0c41a7c287f
+Merge: b0242cf 5e08cfc
+Author: exclfork <news@fuk.io>
+Date:   Tue Apr 25 12:12:31 2017 -0600
+
+    Merge pull request #6 from io-eightyeight/1.2.0
+    
+    1.2.0
+
+commit 5e08cfcfa137b4c38e10999917edf5dffc52f9c6
+Author: io-eightyeight <io-eightyeight@users.noreply.github.com>
+Date:   Tue Apr 25 11:57:36 2017 -0600
+
+    bump protocol version: 61404
+
+commit ada64b593e770198145985ec6e343b6e001e5a22
+Author: Stoner19 <Stoner19@users.noreply.github.com>
+Date:   Wed Jan 18 13:28:34 2017 -0700
+
+    wallet: fix boost::get usage with boost 1.58
+    
+    see reference to https://github.com/bitcoin/bitcoin/pull/6114/commits/824c011d165cc352088f8e238f66b829b0e654ed
+    And of course best of if its tested before merge is accepted ;)
+
+commit a63cd582a8af4114eb7300006c34d2b9daca58a9
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Wed Sep 21 11:41:12 2016 -0400
+
+    Change vNodes.empty() to vNodes.size() < 3
+    
+    Checking for vNodes.empty() or IsInitialBlockDownload() isn't enough of a check for the nodes. if the list isn't empty it skips the check for the size of the list. causing it to stake with less than 3 nodes.
+
+commit 22318eca2064fb5dad256aef7970269cdeddb6a5
+Author: ksynb <kris@blockchaindatasystems.com>
+Date:   Wed Mar 29 22:40:15 2017 -0400
+
+    Fix for TX relay issues
+
+commit d7d350e31d472010a6c9198e237585ef5742fed5
+Author: io-eightyeight <io-eightyeight@users.noreply.github.com>
+Date:   Sun Apr 2 15:34:20 2017 -0600
+
+    bump version: 1.2.0
+
+commit b0242cfb81c1c1dd6c7df3314269626ef58f3b0d
+Merge: 9d47ca0 bfaea17
+Author: exclfork <news@fuk.io>
+Date:   Fri Sep 23 15:51:39 2016 +0200
+
+    Merge pull request #5 from justinvforvendetta/master
+    
+    32bit win qt and daemon binaries
+
+commit bfaea17a0fe24f801004b3cd8eee1bbe607f2cb8
+Author: sunerok <justinvforvendetta@gmail.com>
+Date:   Fri Sep 23 01:02:40 2016 -0400
+
+    upload 32bit win qt and daemon
+
+commit 9d47ca001e6d8b6640c299d9765571f08cf9fb26
+Merge: d80268c b432e42
+Author: exclfork <news@fuk.io>
+Date:   Fri Sep 23 04:42:10 2016 +0200
+
+    Merge pull request #4 from justinvforvendetta/master
+    
+    add qr lib paths for win
+
+commit b432e4275e685a8b9f43f22e741f7634b5e3e6c4
+Author: sunerok <justinvforvendetta@users.noreply.github.com>
+Date:   Thu Sep 22 22:21:33 2016 -0400
+
+    add qr lib paths for win
+
+commit d80268c6112ad67110076553e8f78629b339a1e6
+Merge: 8005c56 aa606e8
+Author: exclfork <news@fuk.io>
+Date:   Tue Sep 20 16:22:01 2016 +0200
+
+    Merge pull request #3 from io-eightyeight/1.1.0.0
+    
+    1.1.0.0
+
+commit aa606e81e12a3df856fe191bf642616fc2c27be8
+Author: io-eightyeight <io-eightyeight@users.noreply.github.com>
+Date:   Tue Sep 20 00:22:34 2016 -0600
+
+    change masternode dialogs to reflect correct collateral payment amount
+
+commit 59771cf56f490e228f1a6a2895037b15476ccf90
+Author: io-eightyeight <io-eightyeight@users.noreply.github.com>
+Date:   Sat Sep 17 18:21:25 2016 -0600
+
+    change fixed seed nodes
+    
+    - nodes used from the ANN page
+
+commit e1cd3b2bdde5d00358fd132d1e235d6bdbc4bcd5
+Author: io-eightyeight <io-eightyeight@users.noreply.github.com>
+Date:   Sat Sep 17 18:09:16 2016 -0600
+
+    add generate-seeds.py
+
+commit 165f1ce33c22fe54bde60c9081102590f28d07d9
+Author: io-eightyeight <io-eightyeight@users.noreply.github.com>
+Date:   Sat Sep 17 18:02:15 2016 -0600
+
+    change DarksendPoolDummyAddress
+
+commit f6e08a5b89f68b43cdbe35d94591f357b2460766
+Author: io-eightyeight <io-eightyeight@users.noreply.github.com>
+Date:   Sat Sep 17 00:35:57 2016 -0600
+
+    bump protocol version: 61403
+    
+    - also change client name to: Exclusivus
+
+commit b16e65de13af1058bd615a3e29abb974e195c50d
+Author: io-eightyeight <io-eightyeight@users.noreply.github.com>
+Date:   Sat Sep 17 00:25:05 2016 -0600
+
+    bump version: 1.1.0.0
+
+commit 6b0e6f6b504ac285c5e9cca2f88ccd989d789ca3
+Author: ksynb <kris@blockchaindatasystems.com>
+Date:   Sat Sep 3 01:01:33 2016 -0400
+
+    Added cclist - shows detailed input information for staking
+
+commit e159a0168dccc01945d2a72795f0cc1b39d2503d
+Author: io-eightyeight <io-eightyeight@users.noreply.github.com>
+Date:   Tue Aug 23 09:23:47 2016 +0000
+
+    Fix fRelayTxes
+
+commit 68aef0e4e1b2e50c981e5bb7e2d6f8b56c16b0bb
+Author: io-eightyeight <io-eightyeight@users.noreply.github.com>
+Date:   Tue Aug 23 06:53:38 2016 +0000
+
+    Fix SetMerkleBranch
+
+commit 9c79983fe445e29246f4a4bd2cc497b922b2ebc2
+Author: io-eightyeight <io-eightyeight@users.noreply.github.com>
+Date:   Tue Aug 2 06:22:12 2016 +0000
+
+    net: dirty merge with 0.9
+
+commit 235bb20c563b5f0dc55be48554870ddcf778061b
+Author: io-eightyeight <io-eightyeight@users.noreply.github.com>
+Date:   Mon Aug 1 18:58:13 2016 +0000
+
+    net: bug fixes
+    
+    - add missing includes
+    - default max connections to 125 (from 25)
+
+commit 29d336a780c30311a1d022e45186aebe81e07591
+Author: Infernoman <jjaauto@hotmail.com>
+Date:   Sun Jul 24 11:40:48 2016 -0400
+
+    Fix move command
+    
+    Move was adding 2 separate entries for debits, This can cause wallet.dat corruption as well as account balance issues depending on the OS.
+
+commit 782d7a2c2cb3f0fd35d1e8be414ec6f515760214
+Author: io-eightyeight <io-eightyeight@users.noreply.github.com>
+Date:   Mon Aug 1 08:12:45 2016 +0000
+
+    build: add IPV6 definitions
+    
+    Conflicts:
+            src/makefile.osx
+
+commit 8005c563015f38fb71222d1957f7cb56d49b6827
+Merge: 3ddec91 be1ef55
+Author: exclfork <news@fuk.io>
+Date:   Thu Jul 28 21:17:18 2016 +0200
+
+    Merge pull request #1 from bumbacoin/master
+    
+    fix mac compile
+
+commit be1ef5532b6c9b438f4dccade2fd0637463590fc
+Author: bumbacoin <bumbacoin@gmail.com>
+Date:   Sun Jul 17 21:47:03 2016 +0800
+
+    Update sendcoinsentry.ui
+    
+    fix mac compile
+
+commit 5b7e7aecadd440749b789b2375954f69f057788c
+Author: bumbacoin <bumbacoin@gmail.com>
+Date:   Sun Jul 17 21:27:41 2016 +0800
+
+    Update tradingdialog.ui
+    
+    cosmetic fix mac compile
+
+commit 6a7e068989b3bf1517f310f847d1675964ac9bf2
+Author: bumbacoin <bumbacoin@gmail.com>
+Date:   Sun Jul 17 21:26:36 2016 +0800
+
+    Update sendmessagesentry.ui
+    
+    fix mac compile
+
+commit 87008cac620661bdc6afa07122b3a29bb8b1e92f
+Author: bumbacoin <bumbacoin@gmail.com>
+Date:   Sun Jul 17 21:25:35 2016 +0800
+
+    Update sendcoinsentry.ui
+    
+    fix mac build
+
+commit 3ddec912a9172d18a481b002dd14c3c3c4ec7f2f
+Author: exclfork <news@fuk.io>
+Date:   Wed Jul 6 19:34:06 2016 -0400
+
+    Updated port information in README.md
+
+commit a2c8827c4d2a23dab2ebf168f6d17bcbbe039c3c
+Author: exclfork <news@fuk.io>
+Date:   Wed Jul 6 19:32:18 2016 -0400
+
+    New ExclusiveCoin

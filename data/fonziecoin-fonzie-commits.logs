@@ -1,0 +1,59 @@
+commit 827e7a129adeb930f935c63859853ab3ca3960b1
+Author: FonzieCoin <fonziecoin@gmail.com>
+Date:   Wed Apr 8 22:20:37 2015 -0600
+
+    Updating version for latest fix
+
+commit ed06cc6a9054a5652a11fd9a191bfe19d794e77b
+Author: FonzieCoin <fonziecoin@gmail.com>
+Date:   Wed Apr 8 22:18:04 2015 -0600
+
+    Fixing staking icon that is on when no stake
+
+commit 05c62b25f05137047291312818bd06382e770c03
+Author: FonzieCoin <fonziecoin@gmail.com>
+Date:   Wed Apr 1 23:53:30 2015 -0600
+
+    Adding select 268 to coin control
+
+commit c43b4560a343c57b78ef42f0a96a6ef71a51e25b
+Author: FonzieCoin <fonziecoin@gmail.com>
+Date:   Fri Mar 27 23:21:14 2015 -0600
+
+    Updating version for new build
+
+commit f61af66951fb7ef9cf8668d39fc1a262de31986f
+Author: FonzieCoin <fonziecoin@gmail.com>
+Date:   Fri Mar 27 23:08:43 2015 -0600
+
+    Fixing too high diff for first staking block
+
+commit 9243d587e828ae668b92c1c5bd9d8386ea23be74
+Author: fonziecoin <fonziecoin@gmail.com>
+Date:   Thu Mar 19 09:30:33 2015 -0600
+
+    Added blocks to maturity.
+
+commit 1fae9499af2e41c623fccd445273fb7d06f884c2
+Author: FonzieCoin <fonziecoin@gmail.com>
+Date:   Thu Mar 19 01:16:02 2015 -0600
+
+    Fixing client name and README.md
+
+commit 6472b29c73078e6756aadbf0d4a22c4c09595fbe
+Author: FonzieCoin <fonziecoin@gmail.com>
+Date:   Wed Mar 18 23:04:42 2015 -0600
+
+    Adding tor, restyling, new genesis
+
+commit 270434f68eb8cfa9fc9464bb9d466b15a8ecbb6d
+Author: Carson Cloak <carson@fudcoin.net>
+Date:   Sat Nov 22 01:08:24 2014 -0700
+
+    Lowering recommended confirmations because of long block time
+
+commit 4302ca595015738b45ee28d56911c48e9da66b54
+Author: Carson Cloak <carson@fudcoin.net>
+Date:   Fri Nov 21 00:09:44 2014 -0700
+
+    Fud you.

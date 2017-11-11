@@ -1,0 +1,119 @@
+commit 398a13eb63edf9ad3dbdeaff36cf37960a76ef2d
+Author: kushcoindev <kushcoindev@users.noreply.github.com>
+Date:   Tue Feb 21 21:41:05 2017 +0000
+
+    Fix of POS calculations
+
+commit 86ef61980f9d46d48c3db1c1f7ceef67b73f0e45
+Author: kushcoindev <kushcoindev@users.noreply.github.com>
+Date:   Sun Feb 12 22:56:57 2017 +0000
+
+    Raise version numbers
+
+commit c084936ef51f62848c8d258d39b412be29eb49a0
+Author: kushcoindev <kushcoindev@users.noreply.github.com>
+Date:   Sun Feb 12 21:39:13 2017 +0000
+
+    Add checkpoint
+
+commit ad87144d6a729272abb1fc0697aa191bf71d29aa
+Author: kushcoindev <kushcoindev@users.noreply.github.com>
+Date:   Sun Feb 12 20:34:50 2017 +0000
+
+    Bump version and protocol number
+
+commit 492f546f04c40a12ec1f234e3a03f8647e3ed568
+Author: kushcoindev <kushcoindev@users.noreply.github.com>
+Date:   Sun Feb 12 21:25:28 2017 +0000
+
+    Adjust pos calculations
+
+commit fc0b9b796bbccbd03ef959d170fd75159b9bf5e7
+Author: kushcoindev <kushcoindev@users.noreply.github.com>
+Date:   Sat Feb 11 12:56:38 2017 +0000
+
+    Fix POS calculations
+
+commit ba0bfd3ea60f85401ede9394d56fa4d7338b68d0
+Author: kushcoindev <kushcoindev@users.noreply.github.com>
+Date:   Sat Feb 11 12:35:32 2017 +0000
+
+    Add checkpoint
+
+commit 10c5ac8856b72f794fb2fffe4f74509183d93417
+Author: kushcoindev <kushcoindev@users.noreply.github.com>
+Date:   Sat Feb 4 14:30:37 2017 +0000
+
+    Add checkpoint
+
+commit a5ae499379c4643573b18cc0f1c4fef63989e680
+Author: kushcoindev <kushcoindev@users.noreply.github.com>
+Date:   Fri Feb 3 10:48:39 2017 +0000
+
+    Add checkpoint
+
+commit 7cdb6947ae1a7fecc660038fb58330bac4de8866
+Author: kushcoindev <kushcoindev@users.noreply.github.com>
+Date:   Tue Jan 31 11:12:42 2017 +0000
+
+    Add checkpoint
+
+commit ad2d033ea9bc12580b15d588da15f57d36b90bb2
+Author: kushcoindev <kushcoindev@users.noreply.github.com>
+Date:   Sat Jan 28 14:23:23 2017 +0000
+
+    Add banlist
+
+commit 52e6b63248fed02fbdd6ad5944249fcb4ea39124
+Author: kushcoindev <kushcoindev@users.noreply.github.com>
+Date:   Sat Jan 28 14:22:54 2017 +0000
+
+    Add timestamp to logs
+
+commit 646147df006c87fb3ed4d1ac2766d4b9b587b3ea
+Author: kushcoindev <kushcoindev@users.noreply.github.com>
+Date:   Sat Jan 28 11:15:14 2017 +0000
+
+    Bump version number
+
+commit 1263bc34ea59e6ded6f1fd194d95ee8eed673eea
+Author: kushcoindev <kushcoindev@users.noreply.github.com>
+Date:   Sat Jan 28 10:48:50 2017 +0000
+
+    Update installation instructions
+
+commit 785f2b53986de078afb7bdec627aae1483688546
+Author: kushcoindev <kushcoindev@users.noreply.github.com>
+Date:   Sat Jan 28 10:29:25 2017 +0000
+
+    Display full hash
+
+commit 717d44fc3d043325ace182a25a5515dd4b52133f
+Author: kushcoindev <kushcoindev@users.noreply.github.com>
+Date:   Thu Jan 26 19:37:51 2017 +0000
+
+    Update checkpoint key
+
+commit d09b96ee993b0ecf8f5805012e2a347ac3742c01
+Author: kushcoindev <kushcoindev@users.noreply.github.com>
+Date:   Thu Jan 26 18:38:24 2017 +0000
+
+    Change alert key
+
+commit 1e4054e15bdf3b8202a2aece40c9963820c96858
+Author: kushcoindev <kushcoindev@users.noreply.github.com>
+Date:   Thu Jan 26 18:10:56 2017 +0000
+
+    Add git files
+
+commit 3d6c83d284e0082985f299160aea3fde15c99d66
+Author: kushcoindev <kushcoindev@users.noreply.github.com>
+Date:   Thu Jan 26 18:09:16 2017 +0000
+
+    Update seeders
+
+commit 4bea8f3a1f3091cfe572a92413dd1ecc4db38e92
+Author: kushcoindev <kushcoindev@users.noreply.github.com>
+Date:   Wed Jan 25 13:59:05 2017 +0000
+
+    Initial commit

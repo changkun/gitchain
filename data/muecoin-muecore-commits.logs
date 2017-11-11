@@ -1,0 +1,217 @@
+commit f8f39d0de05c66fe122134a266792690d59ed3c4
+Author: BBoBBG <github@empirictechs.com>
+Date:   Sun Aug 13 11:43:52 2017 +0300
+
+    Update miner confirmation
+
+commit 25438ac97d56ef158f63248e859a15a94783f6ee
+Author: BBoBBG <github@empirictechs.com>
+Date:   Sun Aug 13 02:15:35 2017 +0300
+
+    DNS seeds
+
+commit c87dd90071c32644d7c9be7ee3ca02923bea74c2
+Author: BBoBBG <github@empirictechs.com>
+Date:   Sat Aug 12 23:48:02 2017 +0300
+
+    Checkpoints
+
+commit 1f1b410097495130edb05b365d77f15738417abb
+Author: BBoBB <BBoBBG@users.noreply.github.com>
+Date:   Sat Aug 12 05:07:37 2017 +0300
+
+    Update README.md
+
+commit 4a2ef0e5320f78cb4029da2a0c49168f93dfa241
+Merge: 71fd17d 9f937e1
+Author: BBoBBG <github@empirictechs.com>
+Date:   Sat Aug 12 04:24:59 2017 +0300
+
+    Merge branch 'master' into PMUS1
+
+commit 71fd17dad206f856f2c5152abe43ee060ba836df
+Author: BBoBBG <github@empirictechs.com>
+Date:   Sat Aug 12 04:24:33 2017 +0300
+
+    Checkpoints and update 1
+
+commit 9f937e1268ad71e6cdcbccdc3da7e05feaa19f87
+Merge: f21cd1f f469c0b
+Author: BBoBBG <github@empirictechs.com>
+Date:   Sat Aug 12 04:23:44 2017 +0300
+
+    Checkpoints and update 1
+
+commit f21cd1fa25943d4296d28103d06800d60db367b4
+Author: BBoBBG <github@empirictechs.com>
+Date:   Sat Aug 12 03:36:20 2017 +0300
+
+    Checkpoints 10/10
+
+commit 0cf7330cefd41e5dce8ca808a38213521f8de05d
+Author: BBoBBG <github@empirictechs.com>
+Date:   Sat Aug 12 03:05:14 2017 +0300
+
+    Checkpoints 10/10
+
+commit d5383b9d5b123b6f9613e6e0835aaff93510eb1e
+Author: BBoBBG <github@empirictechs.com>
+Date:   Sat Aug 12 02:16:51 2017 +0300
+
+    Checkpoints 10/10
+
+commit 90cd12c5d1da58ba6bb1c8264537b04a2fa3bbf2
+Author: BBoBBG <github@empirictechs.com>
+Date:   Sat Aug 12 01:39:12 2017 +0300
+
+    Patches 9/10
+
+commit 86122fbfdf32a9410e83edcdda666a7baff3ba4a
+Author: BBoBBG <github@empirictechs.com>
+Date:   Sat Aug 12 01:38:23 2017 +0300
+
+    Patches 9/10
+
+commit 0608266a94021c2d2b4050b76612a2d8c2f981bd
+Author: BBoBBG <github@empirictechs.com>
+Date:   Sat Aug 12 00:38:45 2017 +0300
+
+    Patches 9/10
+
+commit e940d341e6853d2d931be9b9210ea8f428f7aa01
+Author: BBoBBG <github@empirictechs.com>
+Date:   Wed Aug 9 23:42:21 2017 +0300
+
+    Patches 8/10
+
+commit 5590a9b2f1aec5e0af24c2db77ef425c211c0e84
+Author: BBoBBG <github@empirictechs.com>
+Date:   Wed Aug 9 16:08:20 2017 +0300
+
+    Patches 7/10
+
+commit e55ee320dfcd7c65b80abfef9c9397613f16646d
+Author: BBoBBG <github@empirictechs.com>
+Date:   Wed Aug 9 16:04:53 2017 +0300
+
+    Patches 7/10
+
+commit 89309d2b613c77027f67687ee4d292109a95727b
+Author: BBoBBG <github@empirictechs.com>
+Date:   Wed Aug 9 15:16:25 2017 +0300
+
+    Patches 6/10
+
+commit da31ccec7994c07ef26ee6bbb4bf99f5e4fdf4bb
+Author: BBoBBG <github@empirictechs.com>
+Date:   Wed Aug 9 11:25:45 2017 +0300
+
+    Patches 5/10
+
+commit 036fa35e823950794031fb73533ba3a3db0ed740
+Author: BBoBBG <github@empirictechs.com>
+Date:   Tue Aug 8 22:44:07 2017 +0300
+
+    Patches 4/10
+
+commit 7f1edadb5d7e15d2d9390826e0bc1fc75424a760
+Author: BBoBBG <github@empirictechs.com>
+Date:   Tue Aug 8 22:40:01 2017 +0300
+
+    Patches 3/10
+
+commit d907907b537bf55dbd52b7f042845eae7eba1c70
+Author: BBoBBG <github@empirictechs.com>
+Date:   Tue Aug 8 21:43:08 2017 +0300
+
+    Patches 2/10
+
+commit 2c8e1209eeff64b947742ee7846df00901cc4c77
+Author: BBoBBG <github@empirictechs.com>
+Date:   Tue Aug 8 21:29:41 2017 +0300
+
+    Patches 2/10
+
+commit 9ab40c92f8bcc847dc19c4c48fc5798acfcc9efb
+Author: BBoBBG <github@empirictechs.com>
+Date:   Tue Aug 8 20:43:58 2017 +0300
+
+    Patches 1/10
+
+commit f469c0b443bd8ddca84dd97461b173d83a22ad76
+Author: BBoBBG <github@empirictechs.com>
+Date:   Sat Jul 1 08:06:20 2017 -0400
+
+    AB00003
+
+commit 7a9a4dd8c87d132d3b6072fddcd0c8afa476ca23
+Author: BBoBBG <github@empirictechs.com>
+Date:   Sat Jul 1 07:45:25 2017 -0400
+
+    AB00003
+
+commit b403328907059802b1c40e4b2c08a21dd9b8cca9
+Author: BBoBBG <github@empirictechs.com>
+Date:   Sat Jul 1 05:00:19 2017 -0400
+
+    AB00002
+
+commit 4719194a8e5f13fb39eb12ae05b26dd2b319f9cf
+Author: BBoBBG <github@empirictechs.com>
+Date:   Sat Jul 1 04:56:27 2017 -0400
+
+    AB00002
+
+commit 984bca0d51c1cbfa2ea9f998e3b3237600d41304
+Author: BBoBBG <github@empirictechs.com>
+Date:   Sat Jul 1 04:41:19 2017 -0400
+
+    AB0001
+
+commit 92554c3757b637b8d25da460928ed0989c251f3e
+Author: BBoBBG <github@empirictechs.com>
+Date:   Wed Jun 28 03:37:24 2017 +0300
+
+    UB0001
+
+commit 7b1d514987896942d4f94b17dad987f1ba3bd51a
+Author: BBoBB <BBoBBG@users.noreply.github.com>
+Date:   Tue Jun 27 20:35:52 2017 +0300
+
+    Update README.md
+
+commit 1808c413da5c8057cdc05e6ab28ec08c68d3f86a
+Author: BBoBB <BBoBBG@users.noreply.github.com>
+Date:   Tue Jun 27 20:33:36 2017 +0300
+
+    Update README.md
+
+commit 5a48bd01a0ed088ec17b6b00e1857e3a93f21e2a
+Author: BBoBBG <github@empirictechs.com>
+Date:   Tue Jun 27 20:03:20 2017 +0300
+
+    MUE Update
+
+commit 2db47d982df3befb2092cc1df0b8a5b57ab6d05b
+Author: BBoBBG <github@empirictechs.com>
+Date:   Tue Jun 27 20:01:04 2017 +0300
+
+    MUE Update
+
+commit 922ad64acb9c9dd992998375df36bfad4dbabb4e
+Author: BBoBBG <github@empirictechs.com>
+Date:   Tue Jun 27 16:48:28 2017 +0300
+
+    MUE Update
+
+commit 19c1773251ff5f183934646617be48bbeee3d321
+Author: BBoBBG <github@empirictechs.com>
+Date:   Tue Jun 27 12:37:41 2017 +0300
+
+    Checkpoints
+
+commit 6a62f6182b3e4e03f4037c1f67372271a0f88991
+Author: BBoBBG <github@empirictechs.com>
+Date:   Tue Jun 27 12:16:58 2017 +0300
+
+    MonetaryUnit Core (X11)

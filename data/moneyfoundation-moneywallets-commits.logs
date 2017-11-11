@@ -1,0 +1,29 @@
+commit dab0c2fbab0653a23193f30027cae4415ce73788
+Author: r00t <r00t@money>
+Date:   Fri Nov 21 00:00:31 2014 +0100
+
+    fix
+
+commit bd8e7dc67fdedc6e1a320275b13d8d54051fc53a
+Author: r00t <r00t@money>
+Date:   Thu Nov 20 23:55:29 2014 +0100
+
+    update macwallet
+
+commit 83c179a6f266be6fda66ce6010263767cc4b7cb0
+Author: r00t <r00t@money>
+Date:   Tue Nov 18 22:09:47 2014 +0100
+
+    update win
+
+commit 7f04334a68a5b7a823043aa1d151627ce5ba8573
+Author: r00t <r00t@money>
+Date:   Tue Nov 18 17:13:21 2014 +0100
+
+    remove old winwallte
+
+commit b144b8be420bdfc8f81f8a07f0dfa2409e46b8d2
+Author: r00t <r00t@money>
+Date:   Mon Nov 17 00:19:16 2014 +0100
+
+    first commit v0.8.6.2

@@ -1,0 +1,2228 @@
+commit 3d66bfc8414bcc367e0e98ff32c605d7cd12e8eb
+Author: Tommy <destiny-coming@tutanota.com>
+Date:   Fri Apr 1 09:29:56 2016 +0200
+
+    Bump verstion
+
+commit 0434356269b90d648eb145da59b740b2d4136ecd
+Author: Tommy <destiny-coming@tutanota.com>
+Date:   Tue Mar 15 23:59:07 2016 +0100
+
+    Add more nodes, again
+
+commit 96c01a29ee26f91bce3421e9639656ce630da66b
+Author: Tommy <destiny-coming@tutanota.com>
+Date:   Tue Mar 15 17:18:30 2016 +0100
+
+    Add more nodes
+
+commit fe7d1d406f5f79477709f6de0337c76860835118
+Author: Tommy <destiny-coming@tutanota.com>
+Date:   Tue Mar 15 15:08:56 2016 +0100
+
+    Add nodes on start
+
+commit d34c58261499067c1dccdd3c63d470090aeedd45
+Author: Tommy <destiny-coming@tutanota.com>
+Date:   Mon Mar 14 14:01:16 2016 +0100
+
+    Add new node binaries
+
+commit e54ade2e61f1c85f9431cb584e1742536480755d
+Author: Tommy <destiny-coming@tutanota.com>
+Date:   Sun Mar 13 12:28:24 2016 +0100
+
+    Enhance ipcProvider
+
+commit ae0e151cbc3fe91c529a2fc03f73ab1eb3ec5ae2
+Author: Tommy <destiny-coming@tutanota.com>
+Date:   Sat Mar 12 06:13:17 2016 +0100
+
+    Remove additional confirmation from Mist
+
+commit bad8e3d8c11470fbaec853fa30b8f98ae56c43c4
+Author: Tommy <destiny-coming@tutanota.com>
+Date:   Thu Mar 10 19:47:45 2016 +0100
+
+    Update popup address
+
+commit da88fffd61e075844d8d73b5dae42abb9dc9013f
+Author: Tommy <destiny-coming@tutanota.com>
+Date:   Wed Mar 9 17:53:36 2016 +0100
+
+    Popup windows from external wallet should handled by external wallet
+
+commit eb89910cd5004476334d04882833e7a890650b43
+Author: Tommy <TommyKR@tutanota.com>
+Date:   Sun Mar 6 21:19:26 2016 +0100
+
+    Update icons
+
+commit 75e86c46282a50e03fd2018c8e870c796a99cf65
+Author: Tommy <TommyKR@tutanota.com>
+Date:   Sun Mar 6 19:49:07 2016 +0100
+
+    New node binaries
+
+commit 29696a26f7fb5908734864c8ca61998d99f074ff
+Author: Tommy <TommyKR@tutanota.com>
+Date:   Sat Mar 5 20:16:50 2016 +0100
+
+    Eth -> Exp migration, stage 2
+
+commit f72881bea7d96c680c225524764c32b37cf1263d
+Author: Tommy <TommyKR@tutanota.com>
+Date:   Sat Mar 5 17:36:13 2016 +0100
+
+    Eth -> Exp migration
+
+commit 35055373de60ad99bbe87fab5b2a38affda4b383
+Author: Tommy <TommyKR@tutanota.com>
+Date:   Sat Mar 5 17:35:26 2016 +0100
+
+    Update node binaries
+
+commit c1a7097cd40765d53c2f3a8aed0f3b468e9447ec
+Author: Tommy <TommyKR@tutanota.com>
+Date:   Thu Mar 3 17:37:42 2016 +0100
+
+    Change path to ipc
+
+commit 2ac2e4560f89afe63ba8ffb2c8e9de67bd9d48ca
+Author: Tommy <TommyKR@tutanota.com>
+Date:   Thu Mar 3 14:49:50 2016 +0100
+
+    Update gitignore
+
+commit bf4c8da96350f498b747911063ceabc52ae2151c
+Merge: 36ca1b1 f11dffa
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Thu Feb 18 11:53:23 2016 +0100
+
+    Merge pull request #185 from jakezeal/patch-1
+    
+    Update README.md
+
+commit f11dffa1cd7feeae8f1d69e8d5c62af982ccf943
+Author: Jake Zeal <jake@jakezeal.com>
+Date:   Wed Feb 17 21:51:32 2016 -0500
+
+    Update README.md
+
+commit 36ca1b172bcf415585c674978ab7f72727189c54
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Tue Feb 16 15:26:22 2016 +0100
+
+    switch mode to mist
+
+commit 07948e3a04aa7641e3d8fc5c5f53dfdc9e67cdf4
+Merge: 4227281 9e022eb
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Tue Feb 16 15:24:46 2016 +0100
+
+    Merge branch 'wallet' of github.com:ethereum/mist into wallet
+
+commit 422728121988895f9b7afb83dd4803547d996552
+Merge: 786bd13 dc42c70
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Tue Feb 16 15:21:53 2016 +0100
+
+    Merge pull request #151 from ethereum/onboarding
+    
+    Adds the on boarding screen
+
+commit dc42c70b45555d6594c05a118a01e210dc3fe600
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Tue Feb 16 14:52:18 2016 +0100
+
+    added user groups to node plist
+
+commit b5557355f5d99de9d358d38e7fd26ca6739b400a
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Tue Feb 16 14:22:21 2016 +0100
+
+    added DStore deletion
+
+commit cca17fffc6bc59ef3b58a0ff26ff8aaef2265566
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Tue Feb 16 13:22:19 2016 +0100
+
+    changwed node path to frameworks
+
+commit b425a3b1c811910ede5f1fec23368049db615ce1
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Mon Feb 15 16:41:35 2016 +0100
+
+    updated solc to  0.2.1-1
+
+commit e9ebf07444ba3385cf5746b78ae564c1b2fbb2bb
+Merge: 7e7457c 33e7924
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Mon Feb 15 15:55:08 2016 +0100
+
+    Merge branch 'onboarding' of github.com:ethereum/mist into onboarding
+
+commit 7e7457c74ca1b2d4a6a7c075d49ffb228035c22c
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Mon Feb 15 15:55:03 2016 +0100
+
+    added testnet indicator
+
+commit 33e7924d5406fad19e3ed09b0c745881a727c5e5
+Author: Alexandre Van de Sande <alex.vandesande@ethdev.com>
+Date:   Mon Feb 15 12:49:48 2016 -0200
+
+    added other tutorial descriptions
+
+commit afc74e0dd08f4bd4d2e45b401c03d1594dcf2426
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Mon Feb 15 15:04:40 2016 +0100
+
+    switched onboarding on
+
+commit 9e022ebb58994c25b74132973250833b9f4e737c
+Author: Alexandre Van de Sande <alex.vandesande@ethdev.com>
+Date:   Mon Feb 15 11:19:12 2016 -0200
+
+    Added a default token for the mainnet, once
+
+commit 57d474421c865630fab4b15e1e609432a93d3a34
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Mon Feb 15 12:01:15 2016 +0100
+
+    added better explanation to readme
+
+commit 55e614c83177a131eb0775bc44692da9e0264631
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Fri Feb 12 17:14:57 2016 +0100
+
+    finished onboarding functionality
+
+commit f779dc4d038536163204c9baac93b423297b5d8a
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Thu Feb 11 10:03:42 2016 +0100
+
+    improved loading popup
+
+commit b2c29579056ceb6f5053f800ab1328d0db0ce989
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Wed Feb 10 18:27:11 2016 +0100
+
+    added presale import
+
+commit 2c249b71f4dfda1fc6eb314b0c765feffd17c422
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Wed Feb 10 12:50:34 2016 +0100
+
+    added account generation, workong on presale import
+
+commit 2027b18361fe05a7bb6068b8637b8a71c7f71327
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Mon Feb 8 18:40:12 2016 +0100
+
+    made web3.js work on the onboarding
+
+commit d43ac125b821e0591875f36ce4fe61153fd55300
+Merge: bb1820a 786bd13
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Mon Feb 8 17:57:48 2016 +0100
+
+    Merge branch 'develop' into onboarding
+
+commit 786bd13e6e03d424699a5cb4c0051934cf817277
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Mon Feb 8 15:01:24 2016 +0100
+
+    added contribution file
+
+commit bb1820aa6aa5d38b15e123ded7f21e287f4f7393
+Author: Alexandre Van de Sande <alex.vandesande@ethdev.com>
+Date:   Mon Feb 1 14:29:01 2016 -0200
+
+    added metal logo
+
+commit 44de97db46a61fae56c0597c894c8a6be2c724d9
+Author: Alexandre Van de Sande <alex.vandesande@ethdev.com>
+Date:   Fri Jan 29 15:21:05 2016 -0200
+
+    changed logo
+
+commit 7c0dbc503579191f32c135a2b6117992c30fc88f
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Fri Jan 29 16:07:39 2016 +0100
+
+    switched mode
+
+commit 902d764890ab54ed628dae2413a58e4191741ce5
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Fri Jan 29 16:06:14 2016 +0100
+
+    switched mode
+
+commit 7e300323699fc852a39ad8905c58e160b6a2d5fb
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Fri Jan 29 16:05:31 2016 +0100
+
+    fixed open external
+
+commit f44474729bd2a1820b40c93ec1aaed418b4fcb26
+Author: Alexandre Van de Sande <alex.vandesande@ethdev.com>
+Date:   Fri Jan 29 12:00:00 2016 -0200
+
+    new image
+
+commit 960660607e3aaed874444e48723b2f40d4af63b7
+Author: Alexandre Van de Sande <alex.vandesande@ethdev.com>
+Date:   Fri Jan 29 10:13:06 2016 -0200
+
+    fixed 18njson
+
+commit 31920ef29bce64ceb275daaf2e69701333cd7eec
+Merge: 2bfc645 086727f
+Author: Alexandre Van de Sande <alex.vandesande@ethdev.com>
+Date:   Thu Jan 28 19:21:34 2016 -0200
+
+    merged from wallet
+
+commit 2bfc6450722ed8b04301e94908d418402715fe2c
+Author: Alexandre Van de Sande <alex.vandesande@ethdev.com>
+Date:   Thu Jan 28 17:52:39 2016 -0200
+
+    versions
+
+commit 086727f74cdb9043cc7a39cc02f8ac173764f486
+Author: Alexandre Van de Sande <alex.vandesande@ethdev.com>
+Date:   Thu Jan 28 17:32:51 2016 -0200
+
+    dappstyle versions
+
+commit 49396bc3aa5293319d9a7ce4895ffc447695bbbc
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Thu Jan 28 17:49:54 2016 +0100
+
+    added backgroundColor
+
+commit 9365f84d6dbad8e0faa1b104b9fe81677167edb2
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Thu Jan 28 17:16:52 2016 +0100
+
+    added new window mode and code signing
+
+commit f9f6dbcf4bbf3e0091ba73f6b39329109fd48ca2
+Author: Alexandre Van de Sande <alex.vandesande@ethdev.com>
+Date:   Thu Jan 28 09:43:36 2016 -0200
+
+    shapeshift
+
+commit 8448207a9805c7e3ac5ee556b6b0b74c2a562222
+Author: Alexandre Van de Sande <alex.vandesande@ethdev.com>
+Date:   Wed Jan 27 18:53:31 2016 -0200
+
+    more animations, shapeshift button
+
+commit 90436c6c38d1af052467ee081dfe8162fea2d3f6
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Wed Jan 27 16:15:41 2016 +0100
+
+    changed texts of backup
+
+commit 0fba007e2e721d573bd2680ead970ce8da927585
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Wed Jan 27 16:09:29 2016 +0100
+
+    added eth key folder
+
+commit 4a861aa82e68f9763415c504d0cdee2ec699d659
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Wed Jan 27 15:58:32 2016 +0100
+
+    added possible code to avoid white screen on ubuntu
+
+commit 5321aa7e6b6609a9a955687761d2c6dc39cf0166
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Wed Jan 27 13:18:03 2016 +0100
+
+    fixed windows backup folder path
+
+commit 22966e8376fb73c5313527a9e64cae5c0b10266e
+Author: Alexandre Van de Sande <alex.vandesande@ethdev.com>
+Date:   Wed Jan 27 09:10:29 2016 -0200
+
+    added images
+
+commit 3c48c42302a784d1b2250dff098b16c6d60d1119
+Author: Alexandre Van de Sande <alex.vandesande@ethdev.com>
+Date:   Wed Jan 27 09:09:37 2016 -0200
+
+    Onboarding animations
+
+commit af222346174a7a6ee0e02fde560e7efc6320b38f
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Wed Jan 27 11:40:03 2016 +0100
+
+    switched to wallet mode
+
+commit 593eca6422b48db35adf8d3d8984daf662eb4eaf
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Wed Jan 27 10:37:24 2016 +0100
+
+    added backup funcitonality
+
+commit f01ee52d5bc11e93973440e4236b5378b1f3e4b3
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Tue Jan 26 14:42:08 2016 +0100
+
+    updated browserwindow properties
+
+commit 418948e315d9241f75d20757e05454f841c3d9f1
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Tue Jan 26 11:54:24 2016 +0100
+
+    updated electron packager
+
+commit ce37c74e2d9d905bc9a47a884353e775ef5c00e6
+Author: Alexandre Van de Sande <alex.vandesande@ethdev.com>
+Date:   Mon Jan 25 19:01:57 2016 -0200
+
+    adding onboarding steps
+
+commit 2601b8de76db0fd32de99e50ff77b8dfa7b53239
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Mon Jan 25 16:30:42 2016 +0100
+
+    fixed #117 crash due to closed window
+
+commit 81576436ee79f9508b72bbff1d8cb9b7d87ad6ad
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Mon Jan 25 11:48:41 2016 +0100
+
+    add window title default name
+
+commit edaaadaf0b2ec64901bb9fda4bcb2a715e8a64ca
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Fri Jan 22 14:55:41 2016 +0100
+
+    added log files -> AppSupp/Mist/node.log
+
+commit 82e72b497ff4f8c41cd01f09c881a629f6a509c4
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Fri Jan 22 14:21:17 2016 +0100
+
+    added better node closing process
+
+commit f26ed86bf2b904ce624838e98b2142fbe6217188
+Author: Alexandre Van de Sande <alex.vandesande@ethdev.com>
+Date:   Thu Jan 21 17:54:08 2016 -0200
+
+    Started onboarding
+
+commit 7773d98b097d6bbc69fecbf789818f93e3e84695
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Tue Jan 19 16:19:17 2016 +0100
+
+    prevent sendTransaction in batch requests
+
+commit 64cb59b7b5c598e30101b2754252b604023c3c94
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Wed Jan 13 16:18:18 2016 +0100
+
+    add more ipc provider events
+
+commit 953f618c723b95746d759658c70de8d8b49093fc
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Tue Jan 12 10:57:39 2016 +0100
+
+    add all socket events to the wrapper
+
+commit 3c86c2c38ac294a158de5b16b4d022b76b3e8653
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Mon Jan 11 19:34:58 2016 +0100
+
+    add removeAllListeners to the ipc wrapper
+
+commit b2be45923baf4d23782820d6f39047b2babd348f
+Merge: a808047 b10b371
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Fri Jan 8 15:09:06 2016 +0100
+
+    merge origin
+
+commit a8080476566598211c24cc499aa084048b5ac39e
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Fri Jan 8 15:05:20 2016 +0100
+
+    add new node version
+
+commit aee87ce803e8687e2e81c0de7b2eb15424f4f234
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Wed Jan 6 17:19:29 2016 +0100
+
+    removed electron prebuilt dependecy, add license and bumped version
+
+commit 17764b5f1fb0df7ede2274bbfd0c79290e312187
+Merge: f0088ee e615a81
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Wed Jan 6 16:44:14 2016 +0100
+
+    Merge branch 'develop' of github.com:ethereum/mist into develop
+
+commit f0088ee67ff19da4617af920e1577932d1629fd8
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Wed Jan 6 16:43:42 2016 +0100
+
+    add push notification support
+
+commit e615a810e74ce4dd3178535038157287e58165ca
+Merge: a592d49 5025994
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Thu Dec 17 15:08:29 2015 +0100
+
+    Merge pull request #91 from caktux/develop
+    
+    add build status badges
+
+commit 50259947f9d756c30182d000735374bf0755b80a
+Author: caktux <caktux@gmail.com>
+Date:   Wed Dec 16 22:17:22 2015 -0500
+
+    add build status badges
+
+commit a592d491dfd318f7b6b1bff242505ce2debba9e1
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Wed Dec 16 09:18:10 2015 +0100
+
+    fixed destroyed socket loop
+
+commit 3e8b9dc7ec3b641eb6cff02d43acd82f9a4b0d9c
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Thu Dec 3 20:07:27 2015 +0100
+
+    improved nodeSync
+
+commit 1b764b7d1063e2efac0e3d968cfd7d4fdabfeed4
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Thu Dec 3 13:57:51 2015 +0100
+
+    added miner text
+
+commit 64421b2b886a6329259bdace7f2fb8c7dce5eef7
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Thu Dec 3 11:07:36 2015 +0100
+
+    readme improvements
+
+commit d9422bb244434313831031f595c84877be89be17
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Wed Dec 2 15:24:53 2015 +0100
+
+    add mining button and new nodes
+
+commit b10b3715777f327b625d5598c10585fb0c58b3b8
+Author: Alexandre Van de Sande <alex.vandesande@ethdev.com>
+Date:   Wed Dec 2 09:46:40 2015 -0200
+
+    gulpfile
+
+commit 255657a43bf06a32f7520252b19bb3a0f02ff2a3
+Author: Alexandre Van de Sande <alex.vandesande@ethdev.com>
+Date:   Sat Nov 28 09:29:28 2015 -0200
+
+    add 100k to the estimated gas, instead of 10k
+
+commit 1df6302956abe5b400d45c727b9e499a9f3356c8
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Wed Nov 25 17:21:20 2015 +0100
+
+    minor fixes in the IPC bakcend
+
+commit 39021dae512bc1ebee3275ab15e553b2063c562d
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Tue Nov 24 17:12:52 2015 +0100
+
+    fixed peerCount and changed IPC path
+
+commit ea62876663324fe377f2046f41e5fb09416acb17
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Tue Nov 24 10:51:05 2015 +0100
+
+    allow copy and past on start
+
+commit b9f6cf91e1b4841c4a52c253840bea12685daa78
+Merge: 7739f94 fb7d704
+Author: Alexandre Van de Sande <alex.vandesande@ethdev.com>
+Date:   Mon Nov 23 16:06:14 2015 -0200
+
+    Merge branch 'wallet' of https://github.com/ethereum/mist into wallet
+
+commit a7b3bb0aa635ad0141eba3b70ca90d2ba1c4b800
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Mon Nov 23 16:55:25 2015 +0100
+
+    always se the lowest needed gas as provided gas, if less is provided
+
+commit 895720a53969cb8fe30f977e9164fd9bf0fc9d97
+Merge: 3f3fb5a fb7d704
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Wed Nov 18 14:38:04 2015 +0100
+
+    Merge branch 'wallet' into develop
+
+commit fb7d704d7a8fdb6b95fdd58ad97408f094a23f07
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Wed Nov 18 14:37:42 2015 +0100
+
+    added fast flag
+
+commit 3f3fb5a183623a8dd52848aa44fc2f56fe75ef33
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Tue Nov 17 21:34:54 2015 +0100
+
+    removed the web3 provider from the mist object
+
+commit 52440c0c70e661c1ca05cc9ddac5a949ff68fe54
+Merge: 8356c05 b0d5311
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Tue Nov 17 20:52:46 2015 +0100
+
+    Merge branch 'wallet' into develop
+
+commit b0d531144118e13ab25d2cbdb35e1fd441130205
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Tue Nov 17 20:52:20 2015 +0100
+
+    added testnet info to the readme
+
+commit 8356c054ba74a9bd6cb33e16e4ac65d010df1d39
+Merge: b2e4f71 c338cbf
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Tue Nov 17 20:46:35 2015 +0100
+
+    Merge branch 'wallet' into develop
+
+commit c338cbfec959f6eca72285ba05b606af1273adcd
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Tue Nov 17 20:46:13 2015 +0100
+
+    fixed popupCallback
+
+commit b2e4f71f139da7c79e2019166d117e7a2b7b93e3
+Merge: 83a9a71 8a9351a
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Tue Nov 17 19:57:03 2015 +0100
+
+    Merge branch 'wallet'
+
+commit 8a9351aed805158cca8220fb7af2fae69c6177ab
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Tue Nov 17 17:43:26 2015 +0100
+
+    tested custom protocol
+
+commit 886e87c2de23c635f058b6cc27d2ef3d3edaa2a0
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Tue Nov 17 16:07:08 2015 +0100
+
+    update to electorn 0.35.0
+
+commit 83a9a71e4f344bcd24ea958f8a801c710fb09da0
+Merge: fc9d8d9 b619c28
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Mon Nov 16 16:10:31 2015 +0100
+
+    Merge branch 'wallet'
+
+commit b619c287d124a5c443bbd878f26367c77b73f8d3
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Mon Nov 16 16:10:00 2015 +0100
+
+    improved readme
+
+commit fc9d8d9f756f902a07b98f3e84e8f72e4c7b3b98
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Mon Nov 16 15:30:32 2015 +0100
+
+    switch to mist
+
+commit 03fa9d63e566e46585e903b6090bf406f4845da8
+Merge: 1507044 6d75876
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Mon Nov 16 15:30:09 2015 +0100
+
+    Merge branch 'wallet'
+
+commit 6d75876c20426e296674a531c4ea28ad29933b15
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Mon Nov 16 15:29:45 2015 +0100
+
+    add web3 to browser and dont load Web3 for dapps
+
+commit 7739f94a9697de61058f7af8aa691578b9348d44
+Merge: f789279 08c226b
+Author: Alexandre Van de Sande <alex.vandesande@ethdev.com>
+Date:   Mon Nov 16 11:41:51 2015 -0200
+
+    Merge branch 'wallet' of https://github.com/ethereum/mist into wallet
+
+commit f7892790752f5be92bce70cf58066a5f4bb66ecc
+Author: Alexandre Van de Sande <alex.vandesande@ethdev.com>
+Date:   Mon Nov 9 14:01:32 2015 +0000
+
+    updates
+
+commit 08c226b493e6eedba04df20c926db421b5c0ff4d
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Fri Nov 6 17:14:42 2015 +0100
+
+    disabled the send req log
+
+commit 73e21d18facc1aa8eb6a6a0bb0978ef0bbe672ce
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Fri Nov 6 12:50:34 2015 +0100
+
+    swicth back to wallet
+
+commit c7484e8014f059f3fa82095aec66f084c50f274f
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Thu Nov 5 19:05:55 2015 +0100
+
+    add node info
+
+commit 8e0c6edfeb62b025263ec2d06b5acbfd892e3233
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Wed Nov 4 21:24:21 2015 +0100
+
+    bumped version
+
+commit 717ae3f6dd9caa1ae921bdb09ff0f114f09c22e3
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Wed Nov 4 20:07:46 2015 +0100
+
+    enabled testnet feature
+
+commit ddb13fb73a914724c169f97c5879bfb3368ddc7f
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Wed Nov 4 11:55:42 2015 +0100
+
+    prevent pinch gesture
+
+commit 7fe5189f19318b13e0c0f9aae0a308fb2a9ed255
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Wed Nov 4 11:30:26 2015 +0100
+
+    add cpp nodes
+
+commit 9f77e1384450d0fe3b0ff0c4b4d93fe123fe71b8
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Tue Nov 3 12:37:56 2015 +0100
+
+    add geth 1.3.1 binaries
+
+commit 4720c87023bd10c47aec7c1281afb91dcd98ec66
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Mon Nov 2 21:48:33 2015 +0100
+
+    moved sounds to mist interface
+
+commit 347a2eba767e85e005942ee3ace878e5aed90a27
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Mon Nov 2 10:54:39 2015 +0100
+
+    bumped web3
+
+commit 79d57572390958f9d2b9e64967588294ff51324d
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Fri Oct 30 18:47:16 2015 +0100
+
+    switched mode
+
+commit 150704457270a230244853fd93850cb24a1be77d
+Merge: 957b715 d38ba41
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Fri Oct 30 18:46:33 2015 +0100
+
+    Merge branch 'wallet'
+
+commit d38ba418d3fe67584ec0957af72ebb3376635e60
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Fri Oct 30 18:46:15 2015 +0100
+
+    meteor package updates
+
+commit 75807d00eedf46ba8d1af5f6c6fa749e8673f963
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Fri Oct 30 15:51:16 2015 +0100
+
+    bumped version
+
+commit 1dac2bf2774277b38963e01cb47d009a0b564fbe
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Fri Oct 30 12:15:24 2015 +0100
+
+    renamed rejexted tx error
+
+commit 301b41bdd92d281f6d3142baf3afa8589db7c510
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Thu Oct 29 16:05:08 2015 +0100
+
+    return soldity compiler error
+
+commit dd7a1a2ba3c921a5b3e318e53da2c0488c79e9ac
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Tue Oct 27 11:57:47 2015 +0100
+
+    updated identicons
+
+commit 11173e8cef41b8e16397b352874e385e41382173
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Mon Oct 26 15:04:57 2015 +0100
+
+    add new eth version
+
+commit df4566f47f6391e860d6f56fd688a03201f171b1
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Fri Oct 23 23:55:11 2015 +0200
+
+    first remove listeners, then destroy socket
+
+commit 09d8c7c227a46f7cdd85d172265510c7736d7167
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Fri Oct 23 17:23:05 2015 +0200
+
+    fixed geth starting
+
+commit a9085d2bf5172d63f8c82cd4928fcadef4c520f2
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Fri Oct 23 17:19:25 2015 +0200
+
+    add --unsafe-transactions to eth
+
+commit c4a25310afed943fe199e44211d321893cbfe246
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Fri Oct 23 16:56:49 2015 +0200
+
+    add new eth binaries
+
+commit acbd4fc98380df34ccdcd09439ec1f1ff05fdd84
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Fri Oct 23 09:46:25 2015 +0200
+
+    add new eth and geth version
+
+commit e6385e0aeaa13320572e66213945813ef07cc778
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Thu Oct 22 14:52:50 2015 +0200
+
+    add BigNumber manually, to popups
+
+commit 6bd5a6d44c9b8837c56ad4b03c73cbdd52683bff
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Thu Oct 22 13:42:22 2015 +0200
+
+    check for localstorage cap only every 30s, not on every add
+
+commit e0fd08d6313f1c83048d2b621fe3b84402182a35
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Thu Oct 22 13:36:20 2015 +0200
+
+    made ethereum:blocks not persistent
+
+commit 3daafa2aa8322a6b88d19c0c6c6f24f41c2a1389
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Wed Oct 21 15:05:40 2015 +0200
+
+    bumped web3 version
+
+commit f080b2c12fa3d0fef33c96b2a65696f74b509d3f
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Wed Oct 21 14:21:11 2015 +0200
+
+    bumped version and add new electron version
+
+commit f06c455826bd67ffab6fbf9fa4d0dd3877f00a1b
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Tue Oct 20 20:22:12 2015 +0200
+
+    improved geth node starting
+
+commit 357214bfc2764608a83eaf4f09f92983175e1503
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Tue Oct 20 15:47:16 2015 +0200
+
+    added eth switch and windows eth binaries
+
+commit 31d2fd6cbb18d360b49f34781f0b714322f61d61
+Author: Alexandre Van de Sande <alex.vandesande@ethdev.com>
+Date:   Fri Oct 16 17:35:48 2015 -0300
+
+    change progress bar color order
+
+commit b267719e1413b4d4e5cd4ce3e58e34d61dc5a1ba
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Fri Oct 16 15:17:31 2015 +0200
+
+    improved readme
+
+commit 69bf990b14a76e324dca8058af02437d0bc8be3d
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Thu Oct 15 20:48:24 2015 +0200
+
+    add nodes and sound
+
+commit ecff185335d10aa4c29145004926d88c7bb9e7b3
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Thu Oct 15 17:33:29 2015 +0200
+
+    quite gracefully on uncaught exception
+
+commit 36b01d59ec7815b757120262c4557d5d518cdbbb
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Thu Oct 15 17:26:55 2015 +0200
+
+    add sounds to the mist api
+
+commit dfa9fe4d7a8ed81ca016b26356bf58de7685b592
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Thu Oct 15 15:18:22 2015 +0200
+
+    add new binary folders
+
+commit cc74b219ff5b6953126f790fe0e3891214ae0f5f
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Thu Oct 15 00:21:18 2015 +0200
+
+    make splash screen window visible in the docks
+
+commit b566fccb2745e864cb7d5b58c03a6eb1362cc83e
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Wed Oct 14 23:54:40 2015 +0200
+
+    bumped version to 0.3.2
+
+commit fd0d6c9d9410a38d9d9735e83a4267fc5b5766fc
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Wed Oct 14 23:52:48 2015 +0200
+
+    fixed windows path
+
+commit 957b715b738fa226daa062fd0eeecf4fec200842
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Wed Oct 14 15:45:30 2015 +0200
+
+    merged wallet
+
+commit ba6000e33fbf9acc1e5b7aafb711607db5a5baf1
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Wed Oct 14 00:18:25 2015 +0200
+
+    add fixed geth start and add eth master password
+
+commit 3e41443fc23e90f175baa4457343849c31d8023e
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Tue Oct 13 16:00:41 2015 +0200
+
+    trial with eth node
+
+commit 6c7e6aeb62e5ce045cd5e747f882cfb57cb46015
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Tue Oct 13 15:27:57 2015 +0200
+
+    updated ethereum:elements
+
+commit a5655aa61e75260b4d838577ed701feadceb0c31
+Merge: d6379cc 6f6d6b2
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Tue Oct 13 13:02:38 2015 +0200
+
+    Merge branch 'wallet' of github.com:ethereum/mist into wallet
+
+commit d6379cc957939a309c8f6e75a5de7fc8b585a4a9
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Tue Oct 13 12:59:25 2015 +0200
+
+    add notifications
+
+commit 6f6d6b260c3d96cfb301bb282fc18aff9acea643
+Author: Alexandre Van de Sande <alex.vandesande@ethdev.com>
+Date:   Fri Oct 9 16:12:06 2015 -0300
+
+    update package
+
+commit 599d2aa2cb7c125790390c12804e55af1053bbe9
+Merge: 509b849 e1d0640
+Author: Alexandre Van de Sande <alex.vandesande@ethdev.com>
+Date:   Fri Oct 9 15:59:02 2015 -0300
+
+    Merge branch 'wallet' of https://github.com/ethereum/mist into wallet
+
+commit 509b849555839896ed9cc6b21246de844e9b1794
+Author: Alexandre Van de Sande <alex.vandesande@ethdev.com>
+Date:   Fri Oct 9 15:58:55 2015 -0300
+
+    only mist can run test
+
+commit e1d06408dd5798393b95525b71e2750483e08df1
+Merge: b51aa99 40871a6
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Fri Oct 9 20:00:23 2015 +0200
+
+    Merge branch 'wallet' of github.com:ethereum/mist into wallet
+
+commit b51aa9915a5c3e2ebeda04a701b42f43f8cef3b7
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Fri Oct 9 19:59:40 2015 +0200
+
+    add geth testnet
+
+commit 40871a6c1acc2e31e97dc8e1e5e2a270b9396500
+Merge: 9172319 8e77dcb
+Author: Alexandre Van de Sande <alex.vandesande@ethdev.com>
+Date:   Fri Oct 9 14:08:34 2015 -0300
+
+    Merge branch 'wallet' of https://github.com/ethereum/mist into wallet
+
+commit 91723191add065b79af0b315d3c46a6e0a9626a1
+Author: Alexandre Van de Sande <alex.vandesande@ethdev.com>
+Date:   Fri Oct 9 14:08:26 2015 -0300
+
+    updated dapp-styles
+
+commit 8e77dcbfee17dec89a93bd25de9ff52834ce0471
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Fri Oct 9 18:19:17 2015 +0200
+
+    add node menu
+
+commit b082add55108e7dd1a29dbe43164798bdf14a230
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Fri Oct 9 18:10:04 2015 +0200
+
+    add node menu
+
+commit 15ba61416eac3bf9515716b5b2e2790b2a20de27
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Fri Oct 9 16:50:12 2015 +0200
+
+    add code cant be executed warnign to confirmations
+
+commit 540092bdbaa156c8d6e032dadcd310a341e60d20
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Fri Oct 9 15:43:34 2015 +0200
+
+    menuItem name fix
+
+commit a60ee2482d1bddc5ba146bab3ad7362900214a26
+Merge: f3aa98a b83c458
+Author: Alexandre Van de Sande <alex.vandesande@ethdev.com>
+Date:   Fri Oct 9 10:01:10 2015 -0300
+
+    merge
+
+commit b83c45813d8d1a8051ba2e841efddc0cabedfd93
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Fri Oct 9 14:57:51 2015 +0200
+
+    fixed persistent minimongo race condition
+
+commit f3aa98adf8a13ca75c8e1a58fb7149bc2c75583f
+Author: Alexandre Van de Sande <alex.vandesande@ethdev.com>
+Date:   Fri Oct 9 09:57:30 2015 -0300
+
+    Changed Mist and wallet menus
+
+commit 538834431970336885e2b148b73db00d72ae4258
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Fri Oct 9 14:54:01 2015 +0200
+
+    fixed account create
+
+commit 15c88cef2b2b1e57ca97f9c2c7a351261031b165
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Thu Oct 8 18:47:35 2015 +0200
+
+    add linux starting geth
+
+commit b0f28a494b3fa9a8e0672abcd4f7b39f74f9b906
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Thu Oct 8 18:40:32 2015 +0200
+
+    bumped version
+
+commit 81e3e98db5f0309eb488707070681064689b4018
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Thu Oct 8 18:39:18 2015 +0200
+
+    updated minimongo
+
+commit 925118a274252c57553f9c468024beb2f59a9e7b
+Merge: 9b88006 d6331f7
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Wed Oct 7 18:55:20 2015 +0200
+
+    Merge branch 'wallet' of github.com:ethereum/mist into wallet
+
+commit 9b88006f2f0af79ecce6125096e9c14e03720f4d
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Wed Oct 7 18:55:13 2015 +0200
+
+    add new geth version
+
+commit d6331f71f11b274a604220ce0a8043603f382ffc
+Author: Alexandre Van de Sande <alex.vandesande@ethdev.com>
+Date:   Tue Oct 6 18:34:32 2015 -0300
+
+    enhancements to account creation window
+
+commit 400b0d4e668dd104a4668c98166f0c3e933574b0
+Merge: 8ae8b43 6163856
+Author: Alexandre Van de Sande <alex.vandesande@ethdev.com>
+Date:   Tue Oct 6 16:02:40 2015 -0300
+
+    Merge branch 'wallet' of https://github.com/ethereum/mist into wallet
+
+commit 8ae8b43223b4a289b14a8c75a0062d3a408aaf9d
+Author: Alexandre Van de Sande <alex.vandesande@ethdev.com>
+Date:   Tue Oct 6 16:01:45 2015 -0300
+
+    changes to splash screen button
+
+commit 61638569f24449d6e934fa489801f2afea13f6ed
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Tue Oct 6 18:09:51 2015 +0200
+
+    make sure its unlocked
+
+commit 179ad203644fb307917cc5850beeb4fb2d203198
+Merge: 7037294 772eb9e
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Tue Oct 6 16:54:42 2015 +0200
+
+    Merge branch 'wallet' of github.com:ethereum/mist into wallet
+
+commit 703729441ee8639fdca4816fa72dd889de0e11ed
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Tue Oct 6 16:54:18 2015 +0200
+
+    fixed transaction confirmation
+
+commit c3686bbbaa718ecf6eaa48e63eb4d3c4a228b8b7
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Tue Oct 6 16:01:42 2015 +0200
+
+    fixed dechunker for eth++
+
+commit 772eb9ed0c14d5c3f6144e2c0296e3bc1a41c729
+Author: Alexandre Van de Sande <alex.vandesande@ethdev.com>
+Date:   Sun Oct 4 11:02:39 2015 -0300
+
+    simplifying gas price display without resorting to ether sub units
+
+commit 0e7ef12a4efa2bd7b73e113cc6f6909094342c7f
+Merge: 14f1144 d9f26c7
+Author: Alexandre Van de Sande <alex.vandesande@ethdev.com>
+Date:   Fri Oct 2 09:48:07 2015 -0300
+
+    Merge branch 'wallet' of https://github.com/ethereum/mist into wallet
+
+commit d9f26c724f8e87272a11380841ed6c5edfae5166
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Fri Oct 2 09:13:36 2015 +0200
+
+    fixed button cursor
+
+commit 14f1144242875ed0adaf858a27ba228ae37275ea
+Author: Alexandre Van de Sande <alex.vandesande@ethdev.com>
+Date:   Thu Oct 1 19:04:25 2015 -0300
+
+    temp change to modal popup
+
+commit 2645e0b6145302881aedb4d72ee1018d8e791097
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Thu Oct 1 15:27:52 2015 +0200
+
+    colorcoded zeros
+
+commit ff366f0b94207c32330ef582ac13be6d67fbe484
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Thu Oct 1 14:12:06 2015 +0200
+
+    fixed create account window size
+
+commit 6da554ade703758514476ba7c7c59f66a48be5f4
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Thu Oct 1 13:41:22 2015 +0200
+
+    made gas changeable, not gas in ether
+
+commit 831ebba8bf9cae8647b5c4971f4d40d5192d95c3
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Thu Oct 1 12:32:46 2015 +0200
+
+    add better modal presentation
+
+commit 0342cf1d79f6b2e0a6470722c3933bbb9ec2d861
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Wed Sep 30 23:05:02 2015 +0200
+
+    fixed create account window size
+
+commit 99ebed7c027ab17b5809707045aa8df8d8a5f5ba
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Wed Sep 30 22:02:30 2015 +0200
+
+    improved window resizing
+
+commit d16a309b75bee2d833dd507547f5f4ce9016d6bf
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Wed Sep 30 21:30:12 2015 +0200
+
+    add new confirmation windows
+
+commit 3024d5e020ffc1fd37fd02a711d843666a7b1ae3
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Wed Sep 30 15:12:42 2015 +0200
+
+    fixed accounts for persistent minimongo
+
+commit b19d2d5881e4e2f911cf08dae259985bd7099793
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Tue Sep 29 18:19:58 2015 +0200
+
+    add os specifc background colors
+
+commit f40bc27097527b95ed635dc672392804770df909
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Tue Sep 29 17:37:34 2015 +0200
+
+    add note on contract execution confirmations
+
+commit 9702a929ee61cb5d4ca416910657d7fffd76bb9c
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Tue Sep 29 16:49:21 2015 +0200
+
+    empty pw fix
+
+commit 6a81e3c01f57ed731969f7a35c4ccd53f846d55d
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Tue Sep 29 16:42:18 2015 +0200
+
+    improved confirmations
+
+commit 3c5e2d637e5e0c19cb289913e36cca572db64605
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Tue Sep 29 16:25:16 2015 +0200
+
+    imporved confirmations
+
+commit ae622eb35efd70d2164ba4a11604091def71d6f1
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Mon Sep 28 18:59:01 2015 +0200
+
+    add confirmation window
+
+commit 8423bdbbcc1e9db03249ae011ae79294447fe209
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Fri Sep 25 18:34:08 2015 +0200
+
+    add creating text to the requestAccount window
+
+commit 215ed22b0f9d46fc990548d35d3f0bbaeb9a9831
+Merge: b739d37 83ca2d7
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Fri Sep 25 15:07:51 2015 +0200
+
+    updated to meteor 1.2 merge
+
+commit b739d37e325a2f5b4a6f12f45349f4151b419e0d
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Fri Sep 25 15:06:39 2015 +0200
+
+    updated to meteor 1.2
+
+commit 83ca2d7c051a4eb77024f85b68c5416830e02607
+Merge: 10e20aa 2e13122
+Author: Alexandre Van de Sande <alex.vandesande@ethdev.com>
+Date:   Tue Sep 22 16:45:30 2015 -0300
+
+    Merge branch 'wallet' of https://github.com/ethereum/mist into wallet
+
+commit 10e20aa0462d201c46c5c9140e52b818404827d0
+Author: Alexandre Van de Sande <alex.vandesande@ethdev.com>
+Date:   Tue Sep 22 16:45:21 2015 -0300
+
+    added action bar instead of qrcode
+
+commit 2e13122a07eed9b424c51a823049f3565670a821
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Tue Sep 22 11:42:34 2015 +0200
+
+    improved popuop window behaviour
+
+commit 2761c4dc4651b6e0bbc33bbb81205bdb1e15ae12
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Mon Sep 21 21:01:09 2015 +0200
+
+    add window communication
+
+commit 32599d0d9c7512eb6ad1360bc99b0770a592a3b6
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Fri Sep 18 15:39:48 2015 +0200
+
+    add title to the popups
+
+commit 619669d8f7879081f1a56b2a07c2bfa2d306c288
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Fri Sep 18 15:26:56 2015 +0200
+
+    updated dapp styles
+
+commit f0b2fc53873212ebdd72ac060404e41e58e3a87c
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Fri Sep 18 15:19:59 2015 +0200
+
+    add request account popup
+
+commit 720f4aed24cf6ad2234fe4d9187d6ed353f70873
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Thu Sep 17 18:30:52 2015 +0200
+
+    working on popup windows
+
+commit 314b500cf51b8f710d133a555b5b4a3d79dc2de6
+Merge: 9d4fedd ff3253c
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Thu Sep 17 17:51:27 2015 +0200
+
+    Merge branch 'master' of github.com:ethereum/mist
+
+commit 9d4fedd046053b76df8d681d211be79dd066acaf
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Thu Sep 17 17:50:55 2015 +0200
+
+    fixed icon loading
+
+commit ff3253c137f20b165a6c2f373211fdc0a0d7acd8
+Merge: 91da2a4 06cc662
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Thu Sep 17 17:06:40 2015 +0200
+
+    Merge pull request #44 from ethereum/wallet
+    
+    moved interface back
+
+commit 06cc6626b07cfe78d490a97f6bd51105bb69ae6a
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Thu Sep 17 16:54:43 2015 +0200
+
+    moved interface back
+
+commit 91da2a43f3ebb40fe5bcf6e3ceab4fb4b9c21351
+Merge: d5fd2f4 5954f3f
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Thu Sep 17 16:56:17 2015 +0200
+
+    Merge branch 'wallet' into develop
+
+commit 5954f3f1fbcc9f5095e29a5e0a1f81ade4d97a3d
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Thu Sep 17 16:54:43 2015 +0200
+
+    moved interface back
+
+commit a1e5b41b7b990bd395852ba907b55d376553979a
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Thu Sep 17 14:10:11 2015 +0200
+
+    moved splash screen to meteor
+
+commit 8559d8cc4376f8f95a462a3f682e2d945d7eff87
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Wed Sep 16 20:11:27 2015 +0200
+
+    increased web3 version
+
+commit 354520d2bb6754b16b7f4585e44b65ccc6d66334
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Wed Sep 16 19:52:33 2015 +0200
+
+    add screenshot
+
+commit 508ffd65f2abcec90e01a09fe8120913012ac266
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Wed Sep 16 18:59:32 2015 +0200
+
+    made it eth compatible
+
+commit 9a82088d5adbbf639aaa92d8d99d86975de0b836
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Wed Sep 16 18:11:36 2015 +0200
+
+    add new icons
+
+commit b05abcef861be015efbd8e96cdb3512ad3d77ba6
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Wed Sep 16 14:21:17 2015 +0200
+
+    updated readme
+
+commit bd72d1871930bb917b6b52daafa38f2d054c86b1
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Wed Sep 16 12:46:48 2015 +0200
+
+    minor fix in gulpfile
+
+commit c81786c66f2f8857bc057b3c9e7d1ae913ffff31
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Wed Sep 16 10:33:58 2015 +0200
+
+    add GPL license
+
+commit a4a06c2d540675e93106c0d64bfc1798d914f2dc
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Fri Sep 11 18:14:36 2015 +0200
+
+    working on reqtesut Account popups
+
+commit afc7d665cc33e1ef91efa517507272f893751a2d
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Thu Sep 10 18:51:26 2015 +0200
+
+    created 0.2.4 release
+
+commit 0d344cac51a282207c1f6197cac6404f6f5c8a60
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Thu Sep 10 18:30:12 2015 +0200
+
+    add overlay scrollbars
+
+commit 7506250ca0501a96fa66b4d139de1a92d464359d
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Thu Sep 10 16:47:38 2015 +0200
+
+    made mist backwards compatible, to nodes withouyt eth_syncing
+
+commit 9504146d5069a799b0e1dbf496b06d350407c36a
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Thu Sep 10 11:48:39 2015 +0200
+
+    add new eth_syncing method
+
+commit 101c24748be258b5122bab0d466e7e181c656705
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Wed Sep 9 18:43:10 2015 +0200
+
+    fixed json rpc error response
+
+commit 6f6efada806b319a51dce56a43cbcf69191f1901
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Wed Sep 9 18:38:50 2015 +0200
+
+    fixed json rpc call
+
+commit 87420ac9ea1b9ee381b02dac8475575e2bb17c4a
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Tue Sep 8 17:47:57 2015 +0200
+
+    improved sync screen using angular.js
+
+commit cdf8fe5dba5f1934736452bfc518349f980bfc7d
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Tue Sep 8 13:16:15 2015 +0200
+
+    fixed spelling
+
+commit 5cb7fc182d6c750c291c5695245cc1f68a6012ee
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Tue Sep 8 12:01:44 2015 +0200
+
+    put dechunker in module, bumped version
+
+commit d68d3793296ececb3906a9537e7b6ad108521b78
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Mon Sep 7 19:10:10 2015 +0200
+
+    add on sync screen..
+    
+    add on sync screen
+
+commit cd27770ddc109ca0e7b947a59e3114f07da1f5df
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Thu Sep 3 15:13:29 2015 +0200
+
+    add splashscreen
+
+commit bc67700accd3ba571d72999f946aee1e58aefbb4
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Tue Sep 1 16:51:19 2015 +0200
+
+    add auto starting geth
+
+commit e5623ea35dd0429d85a34b77c4f85a20d3048749
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Mon Aug 31 11:46:13 2015 +0200
+
+    add wallet readme
+
+commit 95bbf1073b9a1e7548ff299b6849b1f0c0442021
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Fri Aug 21 20:36:24 2015 +0200
+
+    add build folder renaming
+
+commit d5fd2f4e8a1559e97f7bd5c77c39c39ac76dfff4
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Fri Aug 21 14:38:09 2015 +0200
+
+    switched mode
+
+commit f6ee4d6d9fbdf8095d87aa437a280aa5b785a8df
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Thu Aug 20 22:07:59 2015 +0200
+
+    show window after its loaded
+
+commit d59f37b9ea0e1d7f7ae14f3a089a1711a5a56319
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Wed Aug 19 21:15:50 2015 +0200
+
+    impreved internal IPC provider
+
+commit 0665ecf5ccf613003d40b23e63a8352fbfb48faf
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Wed Aug 19 14:56:52 2015 +0200
+
+    add better binary packaging
+
+commit 20a7c15ac044963917aac76490d2faa9b2a63bbb
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Tue Aug 18 15:48:12 2015 +0200
+
+    add icons
+
+commit aa5e815bd882b605924b6bac28932c803e5076e0
+Merge: 616ce84 d89f7ef
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Tue Aug 18 14:13:54 2015 +0200
+
+    add deploy process
+
+commit 616ce845c8ba2b1bfc64304797dea496b8525a7f
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Tue Aug 18 14:09:58 2015 +0200
+
+    add deploy process
+
+commit d89f7ef3d62ab9d65d6da9e7f4f55bbc4cf5ec2c
+Author: Alexandre Van de Sande <alex.vandesande@ethdev.com>
+Date:   Fri Aug 14 15:32:19 2015 -0300
+
+    updated dappstyles
+
+commit 055799e866a974fb42f6097c02d1771ae561c1c3
+Author: Alexandre Van de Sande <alex.vandesande@ethdev.com>
+Date:   Fri Aug 14 13:09:34 2015 -0300
+
+    changes to header
+
+commit fd7a8f28d4d38268645df1326ec670ba05fef941
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Fri Aug 14 16:27:11 2015 +0200
+
+    switched to wallet mode
+
+commit 828940547f392ddc6b22482eb26f98b5ea1b12a4
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Fri Aug 14 16:25:31 2015 +0200
+
+    switched to mist mode
+
+commit 4bd8b534b2dda74de8a94879bc34fa5e2156fe5a
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Thu Aug 13 13:12:37 2015 +0200
+
+    integrated wallet
+
+commit 3c21827c086c898c5f122eea583cf91a94ddc733
+Merge: 5617e73 4640082
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Wed Aug 12 17:25:10 2015 +0200
+
+    Merge branch 'develop' of github.com:ethereum/mist into develop
+
+commit 5617e73cf37e7c65bdf97193b786a8d2f7edb9b5
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Wed Aug 12 17:24:55 2015 +0200
+
+    add wallet mode
+
+commit 4640082e9477395a43f9cd00050af8c44c00063f
+Author: bas-vk <bas@ethdev.com>
+Date:   Tue Aug 11 17:08:01 2015 +0200
+
+    fixed named pipe issue on windows
+
+commit af7e284ea057660e6c7054b8b4e3a56721bdd543
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Tue Aug 11 16:49:28 2015 +0200
+
+    add windows named pipe fix 2
+
+commit 6f184f3d1c806ce95e1f67f99b9e422242f06363
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Tue Aug 11 16:31:02 2015 +0200
+
+    add windows named pipe fixed
+
+commit 1a7f06edba90b85490a55df8482a25c6b4ab920a
+Merge: 1ebcf93 1cddba1
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Tue Aug 11 16:28:52 2015 +0200
+
+    Merge branch 'develop' of github.com:ethereum/mist into develop
+
+commit 1ebcf936c2e642624d8a4121c0ff626dbc8b9364
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Tue Aug 11 16:28:33 2015 +0200
+
+    add windows named pipe
+
+commit 1cddba152faed9b2372f6095442e1a18b13f1e4c
+Author: Alexandre Van de Sande <alex.vandesande@ethdev.com>
+Date:   Tue Aug 4 16:46:55 2015 -0300
+
+    Removed check mark, added mim-width
+
+commit 42bd2ddbb70e739aa4c4006b1b86467d36431e0e
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Mon Aug 3 18:58:00 2015 +0200
+
+    fixed switching urls when on about blank
+
+commit 035edf858cd1c31d201b5224c0819acdc60ba5f4
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Mon Aug 3 17:53:58 2015 +0200
+
+    change browser url back to last visited page, when dapp is add
+
+commit 0add07db9a56fe54fa5be7c5f031e36ed7ab8a65
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Tue Jul 28 18:40:41 2015 +0200
+
+    made some changes for deployment
+
+commit 08a8c970f8de5a625afe859c23146275aec5595f
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Mon Jul 27 15:00:22 2015 +0200
+
+    updated dapp styles
+
+commit 876e3a9a0b0400b7ee15f243cb5abc469d2784ab
+Merge: 6cffcd8 df53a66
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Mon Jul 27 12:36:38 2015 +0200
+
+    merged develop
+
+commit df53a66868d478dab6a6fdc25ba3426f60d995a7
+Merge: d217e8c a7b2459
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Mon Jul 27 12:25:39 2015 +0200
+
+    merged ipc-tests
+
+commit d217e8c950b00a58f02108bc5a7a3acecdac3ba2
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Mon Jul 27 12:22:13 2015 +0200
+
+    updated dapp styles
+
+commit a7b2459b2766866ce90178b2ca9ba1c9f890f866
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Mon Jul 27 12:20:29 2015 +0200
+
+    add readme notes
+
+commit cc029b43c74e886a34cc834ab1984e5cbb19f95b
+Author: Taylor Gerring <taylor.gerring@gmail.com>
+Date:   Fri Jul 24 13:46:32 2015 +0100
+
+    Correct typo
+
+commit 9a3040d9b6f5643ff0bfa2d5a35d46b3a43c9daa
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Wed Jul 22 10:20:14 2015 +0200
+
+    added basic ipc permission tests
+
+commit 35197b6a58a5732de6a1e65c7ebce72571b5671b
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Tue Jul 21 16:17:43 2015 +0200
+
+    added in browser tests
+
+commit 781e4eeff9e31e792348b739c326f3f55d4ff709
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Mon Jul 20 15:29:52 2015 +0200
+
+    web3.isConnected will always return true
+
+commit 3c1402f39ba2a52fc97d381fe28e6cd403867f58
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Mon Jul 20 14:43:36 2015 +0200
+
+    changed wrapper connnection to be sync
+
+commit a1bdd3758be79f63494774cdbe1540a9f0bd7ba1
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Fri Jul 17 11:17:11 2015 +0200
+
+    updated readme
+
+commit 7be3a66e47a960f84a47c5d8cba5fa03b11cba97
+Merge: 49ef15e b20a54e
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Fri Jul 17 11:14:39 2015 +0200
+
+    Merge branch 'develop' into account-permissions
+
+commit 49ef15e7df4fba252d132dcd5d6fd2cff1117735
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Fri Jul 17 11:06:12 2015 +0200
+
+    add new EthAccounts and EthBlocks
+
+commit b20a54e68defc6da2e697933f7b2cb39071a9d7f
+Merge: e098764 5827a32
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Fri Jul 17 11:04:30 2015 +0200
+
+    Merge pull request #38 from tgerring/documentation
+    
+    Update README instructions
+
+commit 5827a320292f812f4b6214374ff24552e923b81a
+Author: Taylor Gerring <taylor.gerring@gmail.com>
+Date:   Fri Jul 17 11:03:34 2015 +0200
+
+    Add deployment notes
+
+commit 16ad8e07882b923fc6c0a222c9723451448e5686
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Thu Jul 16 12:08:05 2015 +0200
+
+    localized application menu
+
+commit 4dac9e92222da5376f967843f25db0f404266eda
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Thu Jul 16 10:47:12 2015 +0200
+
+    add develop menu entry
+
+commit 7b2e35bea6952e56fbacc98e427985d8b66cbed0
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Wed Jul 15 19:50:32 2015 +0200
+
+    fixed response event issue
+
+commit f15e04a5efc2c0b1e2c2a48a1296c015048847e4
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Wed Jul 15 18:05:12 2015 +0200
+
+    tested batch requests
+
+commit e3831be70aed48d5c5f164dbfdf4a72f5cd1a3ee
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Wed Jul 15 16:04:18 2015 +0200
+
+    add permissin checks for methods on the backend
+
+commit f0d5c0445f6e086949b24081c69bb57e3dc196c1
+Author: Taylor Gerring <taylor.gerring@gmail.com>
+Date:   Wed Jul 15 12:11:30 2015 +0200
+
+    Update README instructions
+
+commit b4b7905b22c81127958ed4dcc44a11012546e5cf
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Wed Jul 15 10:16:22 2015 +0200
+
+    add auto hiding for the dapp
+
+commit ada5fe70b6c38fa0eef1cfcae83748d96734fc5d
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Tue Jul 14 18:40:05 2015 +0200
+
+    add ethereum:blocks and re-structured browserbar
+
+commit 52b13a7f1fc43d12cf4daa957c084bb996f07cf8
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Tue Jul 14 17:05:50 2015 +0200
+
+    made browserbar clickable
+
+commit 9cb3f51d9dfcda4f6aa37bfc156aea3a14ae5fac
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Mon Jul 13 19:17:09 2015 +0200
+
+    fixed the dapp account list, update dapp styles
+
+commit cc68f609ecdbd97a1af62af758d67e096294d43c
+Merge: 0c358c8 c365c19
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Mon Jul 13 17:20:32 2015 +0200
+
+    merged accounts filter
+
+commit e0987640cff4b893be92708beac6b6b1ae2cc96d
+Merge: c6fc3d8 0c358c8
+Author: Alexandre Van de Sande <alex.vandesande@ethdev.com>
+Date:   Mon Jul 13 12:13:55 2015 -0300
+
+    Merge pull request #36 from ethereum/db-mirror
+    
+    Syncs the Minomongo DB of the MistUI, with the backend and also adds IPC integration
+
+commit 0c358c8e7a2313ac4c6abbb110fda6e6d448ddf0
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Mon Jul 13 16:46:12 2015 +0200
+
+    removed console.logs
+
+commit ffea2de8f39a6db44092dac6e16766c04e074152
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Mon Jul 13 12:24:19 2015 +0200
+
+    add menu syncing and desoyed socket on webview closing.
+
+commit 101fe48594df43caf176e1cb98d6fe7a83c97463
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Fri Jul 10 16:04:20 2015 +0200
+
+    add syncing minimongo to backend
+
+commit 8fc4eafe424e8b1c3b508b97ba75e4b056468285
+Merge: 91ad5f3 6351572
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Fri Jul 10 11:53:17 2015 +0200
+
+    Merge branch 'ipc-integration' into db-mirror
+
+commit 91ad5f35d537d014043da72836d99b32d383b858
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Fri Jul 10 11:52:57 2015 +0200
+
+    moved minimongo to the top
+
+commit 6351572076ea78e49095c533f2574f63aa71f94d
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Thu Jul 9 17:27:40 2015 +0200
+
+    use _.each instead of for
+
+commit 75b7227d1736cfa7200300fb78902775bbd2288d
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Fri Jul 3 18:14:43 2015 +0200
+
+    remove unecessary minimongos
+
+commit 2dae7baf0d19ed2e0c5dfabb59bcd98178863dcb
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Fri Jul 3 16:23:57 2015 +0200
+
+    add minimongos
+
+commit 3fa5a75012bd9d7dfd0084fb87a95fb442156a81
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Fri Jul 3 12:35:16 2015 +0200
+
+    updated packages
+
+commit b6eb6aba917010b95a53b2441ee78114808e8da3
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Thu Jul 2 19:18:21 2015 +0200
+
+    dont try to reconnect if connection is still writeable
+
+commit c365c195048958103f5a94c0c46a0c285f3491f1
+Merge: ec26552 783c1fe
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Thu Jul 2 18:14:03 2015 +0200
+
+    merged ipc integration
+
+commit ec26552f6b60d2f5b9e565232dc0c9bdc34eb310
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Thu Jul 2 18:12:54 2015 +0200
+
+    updated ethereum:accounts
+
+commit 783c1fe6e2fd1e99f831f693cf444d0e7709f68f
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Thu Jul 2 18:11:25 2015 +0200
+
+    tested remote net package connection
+
+commit 1544418f8fb4f21ae32a8311ebf35270c1a80bfc
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Thu Jul 2 15:38:28 2015 +0200
+
+    add ethereum:accounts
+
+commit 7e01f4b006dc6f4001987891ad22b9f653ec8a08
+Merge: 346a2e8 36ee2c4
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Thu Jul 2 12:04:37 2015 +0200
+
+    merged ipc-integration branch
+
+commit 36ee2c46006836c1a0464216c29a1d2566122c57
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Thu Jul 2 12:02:23 2015 +0200
+
+    made requests use one connection again.
+
+commit 07f8df709b429683ebf7a5b5ea3129e13f1ce24c
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Thu Jul 2 11:41:37 2015 +0200
+
+    add favicon.js
+
+commit 9e80565683d9e9b494c73a65e5a402977e2e7cf1
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Thu Jul 2 11:32:28 2015 +0200
+
+    made requests destroy itself after response
+
+commit 346a2e8e2a502ce35276887f63064dfdd37a39f1
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Thu Jul 2 10:59:12 2015 +0200
+
+    add favicon file
+
+commit d57f145403c86b971da5141fd7f9231324add3d4
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Thu Jul 2 10:58:48 2015 +0200
+
+    add accounts collection
+
+commit 667d900c3f3ebfecb14503f37bfaf50c64e3f5ec
+Merge: 0bac6eb c6fc3d8
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Wed Jul 1 17:00:27 2015 +0200
+
+    merged develop
+
+commit 0bac6eb54727e7c1a446fe9c78179288a6bef4f7
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Wed Jul 1 15:06:54 2015 +0200
+
+    reorg write section
+
+commit 680e90a910b3e5bf77244d8e11f01237ad967fee
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Wed Jul 1 14:32:32 2015 +0200
+
+    improved logger
+
+commit e23d7f68bdcee817649a4ed70fa633c404ff001e
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Wed Jul 1 12:55:03 2015 +0200
+
+    enabled logs
+
+commit c6fc3d817c90ccbedfa9df1cae1484b0594d34cc
+Merge: 3171a47 f1750f4
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Tue Jun 30 17:50:12 2015 +0200
+
+    Merge pull request #35 from ethereum/design
+    
+    Small improvements on the UI for the browser bar area
+
+commit a29d9b2dd533f83b330b921645feff8d46b493ff
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Tue Jun 30 17:48:39 2015 +0200
+
+    add language and ipc path detection
+
+commit a2df510e46a24ba8a577a92ac0bfd161381fb0f7
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Tue Jun 30 17:47:58 2015 +0200
+
+    stop reconnecting on end
+
+commit 48e37032523f7b4bc071a6c1ae6155405bde6783
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Tue Jun 30 12:06:38 2015 +0200
+
+    restructured the ipc backend
+
+commit 1778fef7aee3fe5fdbb3416256fea15a593ebe7d
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Mon Jun 29 18:38:43 2015 +0200
+
+    add THE DECHUNKER, geths seems to drop requests
+
+commit d554327a864356e446fcc8956b04731916ec1855
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Fri Jun 26 17:26:45 2015 +0200
+
+    debugging RPC, deactivated sync for now
+
+commit a3c94dd461dfffae403447b8a67297fb57e54eeb
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Fri Jun 26 15:03:48 2015 +0200
+
+    created one socket per dapp
+
+commit f1750f43c074a511919932a8332afd5416f1bd8a
+Author: Alexandre Van de Sande <alex.vandesande@ethdev.com>
+Date:   Thu Jun 25 17:06:49 2015 -0300
+
+    Added a color ping for when the app receives block information
+
+commit 3fa642644221e88c003bcb11d54d7668c3262628
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Thu Jun 25 17:47:08 2015 +0200
+
+    working on the IPC backend wrapper
+
+commit e8119d8115e25bf4d9b24725aee1697524128a21
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Thu Jun 25 13:01:08 2015 +0200
+
+    removed electrong from local npm
+
+commit 723bd37253021e452c049c67c542037382c7875d
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Thu Jun 25 12:10:58 2015 +0200
+
+    display which method is not found
+
+commit 313b78cc63697c110e85c044cf1648a780557397
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Thu Jun 25 12:03:28 2015 +0200
+
+    removed dbfrom admin
+
+commit 805ae3c0916a0003d7bc44dbc3fb0754f262c7f7
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Thu Jun 25 12:02:37 2015 +0200
+
+    filter by whitelist
+
+commit 67c2633edfab816514ca2d27f3364d4e0489007d
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Thu Jun 25 11:32:00 2015 +0200
+
+    add admin api
+
+commit 9742421a057b29279da2f669e8e4c62ede4ac4f2
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Thu Jun 25 10:23:42 2015 +0200
+
+    add filter
+
+commit 39270d37be0b09907a5dee25c862a5452eece98e
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Wed Jun 24 21:54:07 2015 +0200
+
+    add sync connection and tunnel through main process
+
+commit 811dd2296ff2b7c456b1e93d1fc1a3a5b3acca2a
+Author: Alexandre Van de Sande <alex.vandesande@ethdev.com>
+Date:   Wed Jun 24 12:15:49 2015 -0300
+
+    Moving triangle and separator of keys and app info areas
+
+commit 6cffcd87f1d82d86c65fa102e2aa58a54f5d9330
+Merge: add3f51 023462c
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Wed Jun 24 17:06:12 2015 +0200
+
+    Merge pull request #33 from kitsilanosoftware/master
+    
+    Updated README.md to reflect the addition of submodules support.
+
+commit 023462c1c0f69ad3241cb175251a73b6dd161bd1
+Author: Bob Summerwill <bob@summerwill.net>
+Date:   Wed Jun 24 10:12:03 2015 -0400
+
+    Revert the 'sudo' addition, and add a "git submodules update --init" call.
+
+commit c1840060d7ddf83d073d0ea0a2160a3dae417bb0
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Wed Jun 24 15:38:17 2015 +0200
+
+    testing ipc
+
+commit dcc0badbb5332a542e43246171492a18129300eb
+Author: Bob Summerwill <bob@summerwill.net>
+Date:   Wed Jun 24 03:51:33 2015 -0400
+
+    Updated README.md to reflect the addition of submodules support.   Added sudo to the electron install instructions, because this is a global node installation.
+
+commit 3171a47a7e10114fe85b00120e359b8a3d7d9f3e
+Merge: 61a5e74 add3f51
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Wed Jun 24 09:27:34 2015 +0200
+
+    Merge branch 'master' into develop
+
+commit 8f173ed18f2c2a81dd34006dd6f9383cdf6928c9
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Wed Jun 24 09:25:57 2015 +0200
+
+    working on the web3 ipc provider
+
+commit add3f511ee7f5411d671f40a1a7e64992acd2218
+Merge: b62fcfa 5b9eb8d
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Wed Jun 24 09:24:43 2015 +0200
+
+    Merge pull request #31 from kitsilanosoftware/master
+    
+    Added .submodules file, pointing at the ethereum/dapps-style repo.
+
+commit 5b9eb8dd496ed78d537f6c191786f40acee7c2e9
+Author: Bob Summerwill <bob@summerwill.net>
+Date:   Wed Jun 24 02:51:45 2015 -0400
+
+    Added .submodules file, pointing at the ethereum/dapps-style repo.
+
+commit ff300d6e492c9e1f37bd88ba3dba28914375fc71
+Author: Alexandre Van de Sande <alex.vandesande@ethdev.com>
+Date:   Tue Jun 23 19:10:48 2015 -0300
+
+    url and breadcrumb adjustments
+
+commit ffde7605be5f8466ff526a8cd67c0e67dbdc8dfb
+Author: Alexandre Van de Sande <alex.vandesande@ethdev.com>
+Date:   Tue Jun 23 18:17:05 2015 -0300
+
+    sync dappstyles
+
+commit 333032c0c3829683124c4b15eb287ee4930e68ec
+Author: Alexandre Van de Sande <alex.vandesande@ethdev.com>
+Date:   Tue Jun 23 18:15:00 2015 -0300
+
+    Enhanced the dapp list view
+
+commit 61a5e740ecddd96d023e028560a57823642bbde5
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Tue Jun 23 14:34:45 2015 +0200
+
+    fixed preloader
+
+commit 3b0d8dd17fa7df5b4af276dad6463264531c362c
+Merge: e0587f9 b240577
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Tue Jun 23 14:23:55 2015 +0200
+
+    Merge branch 'fabian' into develop
+
+commit b240577cb7e809015cd22414caaa9508c6a09707
+Merge: 6226e34 8da5ccd
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Tue Jun 23 14:21:38 2015 +0200
+
+    Merge branch 'fabian' of github.com:ethereum/mist into fabian
+
+commit 6226e34a595b9000fc7cb8d7ee1350a10af03491
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Tue Jun 23 14:20:20 2015 +0200
+
+    add image preloader {{elements_img}}
+
+commit e0587f96b58afcab4aecb3b946e37e8571c9b9fc
+Merge: 9ff9bf6 8da5ccd
+Author: Alexandre Van de Sande <alex.vandesande@ethdev.com>
+Date:   Tue Jun 23 09:15:50 2015 -0300
+
+    Merge pull request #29 from ethereum/fabian
+    
+    add dapp icons and mist api docs
+
+commit 8da5ccdbe9900078ea0e2a4ba2ffc76681524a7b
+Author: Alexandre Van de Sande <alex.vandesande@ethdev.com>
+Date:   Tue Jun 23 09:14:02 2015 -0300
+
+    testing round icons
+
+commit 8bc811de345e21a66819977f7d1a63f1162161e8
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Tue Jun 23 11:28:43 2015 +0200
+
+    add menu to the mist api
+
+commit 51a8a5f3a45137a9f46a793ebaa89891ee1737fc
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Tue Jun 23 11:25:09 2015 +0200
+
+    add info to the readme
+
+commit bee61cf8361de08279429e27e11b113c187762f5
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Tue Jun 23 11:21:17 2015 +0200
+
+    add dapp icons and mist api docs
+
+commit b62fcfaa549ee91d8fe6445c979832c4a9c3da40
+Merge: e1c97e8 9ff9bf6
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Mon Jun 22 16:02:39 2015 +0200
+
+    Merge pull request #28 from ethereum/develop
+    
+    Develop
+
+commit 9ff9bf6869d983a001afe09d2503ff34f4e2d1f9
+Merge: a107e73 3f362b4
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Mon Jun 22 15:39:02 2015 +0200
+
+    Merge branch 'develop' of github.com:ethereum/mist into develop
+
+commit a107e73e37f1a8db7054c9b2d0317b9f45eac73c
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Mon Jun 22 15:38:37 2015 +0200
+
+    fixed line
+
+commit 33ab6c98eadfb1c8b18cbf3a901c032a0bee4f26
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Mon Jun 22 15:36:37 2015 +0200
+
+    fixed browser bar
+
+commit 651032589aeae300b188222bc470f5ea2e5f4e38
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Mon Jun 22 15:20:37 2015 +0200
+
+    removed httpsync
+
+commit 3f362b44e9d5e69786e178190b6d8c401af4bae9
+Merge: e1c97e8 58f2359
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Mon Jun 22 15:05:06 2015 +0200
+
+    Merge pull request #27 from ethereum/fabian
+    
+    made browser part of tabs
+
+commit 58f23597c133c62214203dd0b3ac9a4e44f84d5e
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Mon Jun 22 14:51:37 2015 +0200
+
+    add electro to the package.json
+
+commit aabc34b800b7e0393b261193a640f8acc2c7e5d7
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Mon Jun 22 14:35:35 2015 +0200
+
+    made browser part of tabs
+
+commit e1c97e88ce4b95ee129149163a223d8743a3262e
+Author: Fabian Vogelsteller <fabian@frozeman.de>
+Date:   Mon Jun 22 09:56:39 2015 +0200
+
+    add files

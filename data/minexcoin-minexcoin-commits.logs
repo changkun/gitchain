@@ -1,0 +1,277 @@
+commit 735fe36c83a2391dd63831f658cc89b7ebdd627d
+Merge: 648feba 5695e38
+Author: Andru Cherny <8457572+wirwolf@users.noreply.github.com>
+Date:   Tue Oct 3 19:17:11 2017 +0300
+
+    Merge pull request #35 from wirwolf/EX-109-Fix-Build-documentation
+    
+    Update build documentation. Add sodium ppa repo
+
+commit 5695e384d3aa216b4a6ed212d219439b42865fdd
+Author: Andru Cherny <8457572+wirwolf@users.noreply.github.com>
+Date:   Tue Oct 3 19:12:14 2017 +0300
+
+    Update build-unix.md
+
+commit 648feba72c162deb75f7c80524856743d63e8783
+Author: Roman Hulenko <rhulenko@minexsystems.com>
+Date:   Mon Sep 25 13:00:44 2017 +0300
+
+    MC-26 V1.2.0.0
+
+commit 7dbd6df1a18a223a716ac1edf189882eb948ece6
+Merge: bd24f41 4d57018
+Author: Roman Hulenko <rhulenko@minexsystems.com>
+Date:   Mon Sep 18 18:52:11 2017 +0300
+
+    Merge branch 'MC-25' into MC-24
+
+commit bd24f41a91da4f88ea2c1cbc8412ec498c23bf5a
+Merge: 5c4483f 54cfde7
+Author: Roman Hulenko <rhulenko@minexsystems.com>
+Date:   Mon Sep 18 18:52:05 2017 +0300
+
+    Merge branch 'MC-23' into MC-24
+
+commit 5c4483f663a05d7cf755d0a55b3badd8eb63c068
+Merge: 9ee48d4 b660bcb
+Author: Roman Hulenko <rhulenko@minexsystems.com>
+Date:   Mon Sep 18 18:51:57 2017 +0300
+
+    Merge branch 'MC-19' into MC-24
+
+commit 9ee48d433c017847b9b2b9f7cece50573b636e5f
+Merge: 5d8d93e 04d4c8e
+Author: Roman Hulenko <rhulenko@minexsystems.com>
+Date:   Mon Sep 18 18:51:51 2017 +0300
+
+    Merge branch 'MC-18' into MC-24
+
+commit 5d8d93edd5cccc00698c7b0fe45c64f9a04499cc
+Merge: e7a2167 5807e7b
+Author: Roman Hulenko <rhulenko@minexsystems.com>
+Date:   Mon Sep 18 18:51:43 2017 +0300
+
+    Merge branch 'MC-17' into MC-24
+
+commit e7a21671f4d6dd3a7e28e318861e415224cdbc9c
+Merge: 9e8edb9 47b9798
+Author: Roman Hulenko <rhulenko@minexsystems.com>
+Date:   Mon Sep 18 18:51:37 2017 +0300
+
+    Merge branch 'MC-16' into MC-24
+
+commit 9e8edb92a5c8e25dde4e5b3905767f9a98a172ba
+Merge: 73b8ef9 f3bd05d
+Author: Roman Hulenko <rhulenko@minexsystems.com>
+Date:   Mon Sep 18 18:51:30 2017 +0300
+
+    Merge branch 'MC-14' into MC-24
+
+commit 73b8ef91f2e06e8a7b257b88d6904a71200ec340
+Merge: 00ac8a0 d3b9791
+Author: Roman Hulenko <rhulenko@minexsystems.com>
+Date:   Mon Sep 18 18:51:21 2017 +0300
+
+    Merge branch 'MC-12' into MC-24
+
+commit 00ac8a081800299e05b937a473356faea90ca18f
+Merge: e27d1cf e81fd4a
+Author: Roman Hulenko <rhulenko@minexsystems.com>
+Date:   Mon Sep 18 18:50:44 2017 +0300
+
+    Merge branch 'MC-11' into MC-24
+
+commit e27d1cf0a559bd9740edcb2d87ea243006c24527
+Merge: 6df48b5 1ea8355
+Author: Roman Hulenko <rhulenko@minexsystems.com>
+Date:   Mon Sep 18 18:50:16 2017 +0300
+
+    Merge branch 'MC-7' into MC-24
+
+commit 4d57018a852a98a46063d0a9df943ff42fc72217
+Author: Roman Hulenko <rhulenko@minexsystems.com>
+Date:   Mon Sep 18 18:34:33 2017 +0300
+
+    MC-25 Correct start nodes ips
+
+commit d3b979185bdd411fa1e04173ed19e7433af9f943
+Author: Roman Hulenko <rhulenko@minexsystems.com>
+Date:   Tue Sep 5 17:15:03 2017 +0300
+
+    MC-12 Create notification widget for update
+
+commit 54cfde72264f84263f5ca8f18189ad4314314cf7
+Author: Roman Hulenko <rhulenko@minexsystems.com>
+Date:   Mon Sep 18 16:43:10 2017 +0300
+
+    MC-23 Remove compilation warnings
+
+commit f3bd05d9078dc3a17c8a20a9df5a0bd7f2510d85
+Author: Roman Hulenko <rhulenko@minexsystems.com>
+Date:   Mon Sep 4 15:03:22 2017 +0300
+
+    MC-14 Validation Bank's address and emission with MIP1
+
+commit 6df48b551ae11fa860ec7a541e4fb2afe7ce6b2d
+Author: Roman Hulenko <rhulenko@minexsystems.com>
+Date:   Mon Sep 4 18:06:40 2017 +0300
+
+    MC-4 Investigate system crashing during mining
+
+commit e81fd4a2ba01a45fffea3448457ffeaeb7b4e23b
+Author: Roman Hulenko <rhulenko@minexsystems.com>
+Date:   Mon Sep 4 18:40:36 2017 +0300
+
+    MC-11 Transactions don't always added to block
+
+commit 1ea835582f34e8841a8fb8fbe37be1b97489549d
+Author: Roman Hulenko <rhulenko@minexsystems.com>
+Date:   Mon Sep 4 15:51:35 2017 +0300
+
+    MC-7 Translation from Bitcoin to Minexcoin
+
+commit b660bcbc6c45b3385020fdca5b9e76da43b45c28
+Author: Andru Cherny <acherny@minexsystems.com>
+Date:   Tue Sep 12 13:26:14 2017 +0300
+
+    MC-19 Actualize build documentation
+
+commit 04d4c8ea1f1ca64fb4e5f84746972bb5edc55536
+Author: Roman Hulenko <rhulenko@minexsystems.com>
+Date:   Thu Sep 14 17:57:54 2017 +0300
+
+    MC-18 Rename output executable files in build scripts
+
+commit 47b979824af02d75f20e6b6eaf83346cf4c66085
+Author: Andru Cherny <8457572+wirwolf@users.noreply.github.com>
+Date:   Tue Sep 12 11:21:21 2017 +0300
+
+    MC-16 Build project with sodium v.1.0.13
+    
+    * Fix build version
+    * [fix] sodium lib: 1.0.8 to 1.0.13
+    * travis: filter out pyenv
+    https://github.com/bitcoin/bitcoin/commit/0ced455b99154aa875ca07378c63167f13006360
+
+commit 5807e7bb17a80e241c1760004e858c40146f93cb
+Author: Roman Hulenko <rhulenko@minexsystems.com>
+Date:   Mon Sep 11 19:00:37 2017 +0300
+
+    MC-17 Fix tests that fail during building
+
+commit 32b1f93f77237ec13bfb46ff397657d02da10f00
+Author: Andru Cherny <wir_wolf@bk.ru>
+Date:   Thu Aug 10 15:34:54 2017 +0300
+
+    [add] badges
+
+commit 5325d6381110f9bb20d0def216619aa0c2b69876
+Merge: de8021b 57b6c10
+Author: Andru Cherny <wir_wolf@bk.ru>
+Date:   Thu Aug 10 15:07:01 2017 +0300
+
+    Merge pull request #8 from minexcoin/builder
+    
+    Stability builder
+
+commit 57b6c10f08cf5df55644f714033b1a803adf7340
+Author: Andru Cherny <wir_wolf@bk.ru>
+Date:   Thu Aug 10 13:14:50 2017 +0300
+
+    [Fix] libsodium 1.0.8 is unsupported:(
+
+commit e699d191fa2f6d61807e3f28dec0a508943d8d81
+Author: Andru Cherny <wir_wolf@bk.ru>
+Date:   Thu Aug 10 13:08:07 2017 +0300
+
+    [fix] cross-compile in libsodium.mk
+    [delete] old compile scripts
+
+commit 114fb95e84a2d6df5924163f1f0b87d47c8c1df9
+Author: Andru Cherny <wir_wolf@bk.ru>
+Date:   Wed Aug 9 14:45:41 2017 +0300
+
+    Fix compile error
+
+commit 78cd921705141ed67a28975f0ad5770459d833a3
+Author: Andru Cherny <wir_wolf@bk.ru>
+Date:   Wed Aug 9 14:16:47 2017 +0300
+
+    add gen.cpp
+
+commit 63c7afcc30933c07a59b106dafe8d9c98a0000eb
+Author: Andru Cherny <wir_wolf@bk.ru>
+Date:   Wed Aug 9 14:16:22 2017 +0300
+
+    [test] - Stability builder
+
+commit 12890a05d795d55eeead9bab13bb4e0faa30f139
+Author: Andru Cherny <wir_wolf@bk.ru>
+Date:   Wed Aug 9 12:46:53 2017 +0300
+
+    For test
+
+commit de8021b7617607ffc0c85d77676b8242ec18fbec
+Author: Андрей Черный <a.chernyi@bossgs.org>
+Date:   Sun Jul 30 14:28:44 2017 +0300
+
+    fix depends. Add Makefile
+
+commit 2a6819e8c028e9949d913e00d710d7b451eac06e
+Author: Андрей Черный <a.chernyi@bossgs.org>
+Date:   Sun Jul 30 14:14:55 2017 +0300
+
+    chmod for travis-ci
+
+commit a6fdbf984032a8a2a8ed3ffc0b866ecb3cd1ce89
+Merge: 8a79a18 ec2c309
+Author: Andru Cherny <wir_wolf@bk.ru>
+Date:   Sun Jul 30 14:08:38 2017 +0300
+
+    Merge pull request #3 from awoland/patch-4
+    
+    Update Makefile.am
+
+commit 8a79a181c54cdfe5f270c96fa1dcffe5cb5b1dbf
+Merge: 8c957a0 031120b
+Author: Andru Cherny <wir_wolf@bk.ru>
+Date:   Sun Jul 30 14:05:31 2017 +0300
+
+    Merge pull request #2 from awoland/patch-3
+    
+    Update Makefile.qt.include
+
+commit ec2c3092bc0fd56df82ea63ec3df9cbeefa0d257
+Author: awoland <awoland@me.com>
+Date:   Mon Jul 24 10:17:32 2017 +0400
+
+    Update Makefile.am
+    
+    Correction of executable file names
+
+commit 031120b3c22f96136b271d99353fed60965bdeb7
+Author: awoland <awoland@me.com>
+Date:   Mon Jul 24 10:15:42 2017 +0400
+
+    Update Makefile.qt.include
+    
+    Correction of executable file names
+
+commit 8c957a004f01155afd0491fbc3186644a89f48f0
+Author: MinexSystems <vzaichuk@minexsystems.com>
+Date:   Fri Jul 21 17:24:06 2017 +0300
+
+    Add note for Linux binary file.
+
+commit 983f63ace06c63466cd565bc523642bd89368e97
+Author: MinexSystems <vzaichuk@minexsystems.com>
+Date:   Fri Jul 21 15:31:13 2017 +0300
+
+    Add libcrypto notes.
+
+commit 3a37396517a6a1f42d4c307e9b16612fe04c9f9e
+Author: MinexSystems <vzaichuk@minexsystems.com>
+Date:   Fri Jul 21 14:56:18 2017 +0300
+
+    Minexcoin Core release version.

@@ -1,0 +1,1555 @@
+commit ea71867df04658edc39d365b7e98afd933a373a2
+Merge: cd979e3 4af60f6
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Mon May 29 17:17:42 2017 -0700
+
+    Merge pull request #24 from Fuzzbawls/2.0.3-testnet
+    
+    2.0.3 rc1
+
+commit 4af60f66ea762b439dd55e248281600ddc4b4749
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Mon May 29 17:14:49 2017 -0700
+
+    [RPC] Fix difficulty reporting / Add netstakeweight
+
+commit 4b3042040b938dec63c539b5b7b8c1f925c39a91
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Thu Jan 26 00:46:36 2017 -0800
+
+    Fix static miniupnpc linking for windows
+
+commit f31bf3d6df8c958fabfc3e187808e5180271bc70
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Thu Jan 26 00:03:07 2017 -0800
+
+    add .gitignore file
+    
+    Keep the source tree clean after build
+
+commit 137c25165f5e54269cc3466ea108daec5e4c6988
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Thu Jan 26 00:02:17 2017 -0800
+
+    Better version string formatting
+
+commit ba7b7517221d42e6dfc6ff4477aa18f97b7a4f54
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Wed Jan 25 23:28:46 2017 -0800
+
+    Update genbuild.sh
+
+commit f876e7d789ca0d5de37d6d1ec2069cfc83eb63f2
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Wed Jan 25 23:14:54 2017 -0800
+
+    Update genbuild script
+
+commit 4a6f0973d46a8ff9a0b4ad7b62270836cbfa2860
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Wed Jan 25 23:14:33 2017 -0800
+
+    Use genbuild even for win builds
+
+commit ea67528f0d1fd4d03f5f282c5de1da0d66912da1
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Wed Jan 25 23:10:14 2017 -0800
+
+    Test: increase header return to 10k
+
+commit 8c9160d0a3082d018e4d830452c7cad123ac9a15
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Wed Jan 25 22:48:24 2017 -0800
+
+    Add TestNet seeds
+
+commit 853c6d3d3ee3c901d6635a65bf27e8ac1f2445b9
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Wed Jan 25 22:41:52 2017 -0800
+
+    New Alert keys
+
+commit 201a08d781bed2815b4614bce00a9d11521c2b4f
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Wed Jan 25 22:40:50 2017 -0800
+
+    Fix sync/catchup stalling
+    
+    Specifically request new blocks from the network when a stall is
+    detected.
+
+commit a46caa7a048d7787fe99941abc46e76fef9b6a6a
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Wed Jan 25 22:37:07 2017 -0800
+
+    Client version / protocol version bump
+    
+    Client Version: 2.0.3.99
+    Protocol Version: 60008
+    
+    Release: FALSE
+
+commit 788bde7850c81af9f4a81c2f4d33d0938ec43f28
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Wed Jan 25 22:34:23 2017 -0800
+
+    Remove all webview based elements in UI
+    
+    Shop/Donate page and the Overview page news items are now depreciated.
+    Remove these elements and their dependant files to clean up the UI more.
+    
+    Repositioned the Overview page's transaction list to adjust for this.
+
+commit cd979e31012241664794e37ce84f8e8ec5b1e280
+Author: Fuzzbawls <fuzzbawls@fuzzbawls.pw>
+Date:   Fri Sep 23 15:00:17 2016 -0700
+
+    Fix typo in windows installer script
+    
+    The generated shortcut from the Windows Installer was using an
+    incorrect binary executable name.
+
+commit 59f8575366214c185eab64bf91d062ec1639ab13
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Wed Mar 2 00:58:36 2016 -0800
+
+    Version 2.0.2 Release
+
+commit 7b7de748b9dd505ae77a8326305085ae89b39257
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Wed Mar 2 00:56:11 2016 -0800
+
+    Fix some spacing/indent issues in pro file
+
+commit 9a10473fd68dc344d9042d432b6de34bc8267eb9
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Wed Mar 2 00:55:13 2016 -0800
+
+    Update copyright year in about dialog
+
+commit bca38bce0c6cd685a2ee698af7863bee1ee6583e
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Wed Mar 2 00:54:46 2016 -0800
+
+    Freshen up some of the docs (not complete)
+
+commit de0a23ab2f696e2fcdc7749b1b86816241994f93
+Merge: 25eae54 babf197
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Tue Mar 1 22:14:15 2016 -0800
+
+    Merge pull request #21 from MintcoinCommunity/maint-patches
+    
+    Maint patches
+
+commit babf1971b980c1b28f8942d896c93d9d1012e2d9
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Tue Mar 1 22:13:20 2016 -0800
+
+    Update OS X installer image
+
+commit d1948259234bbcdbfdacf0e6bab7fc39c53a8df8
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Tue Mar 1 20:29:54 2016 -0800
+
+    Bump version to 2.0.2.99 (Test version)
+
+commit e0be24d2a4a34c293a542d38a948927aafd64e44
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Tue Mar 1 20:28:26 2016 -0800
+
+    Mintify the restart notice when changing 3rd party tx urls
+
+commit bef587cf5c887e245f290fc318fdb49f611a001f
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Tue Mar 1 20:25:46 2016 -0800
+
+    Update BDB version in pro file for Mac
+
+commit e8e2d96bed4dcdc5e620a6941d7bddb0af7e9711
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Tue Mar 1 20:24:48 2016 -0800
+
+    GUI Fixes and Additions
+    Bitcoin-Qt: use statustips in addition to tooltips- add setStatusTip() in addition to setTooltip() where it makes sense- add only setStatusTip() if GUI element is only used in main- or tray menu- add an event filter on our BitcoinGUI object to prevent garbelled texton the status bar, which happens when we use it for e.g. displayingblock-sync state and then a QEvent::StatusTip wants to write own text to it- remove a double translation of "Bitcoin client"small update for BitcoinGUI::setNumBlocks() function- re-work code parts that check if we have a Statusbar warning- use same variable names in the headerShow warning when using prerelease versionImplements #1948- Add macro `CLIENT_VERSION_IS_RELEASE` to clientversion.h- When running a prerelease (the above macro is `false`):  - In UI, show an orange warning bar at the top. This will be used for other    warnings (and alerts) as well, instead of the status bar.  - For `bitcoind`, show the warning in the "errors" field in `getinfo`    response.BTC Commit(s):6f959c4cb340cf66b36170be137b7b59d619b35bce2f66d9bfd2040753b1af93dc520a8a3f7a521362e21fb5d00c33df37b6faaf0626da120c4783bc
+
+commit 8ba9d1816d1be05b403f4e435f6a154e4eff7ef5
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Tue Mar 1 16:05:10 2016 -0800
+
+    Update OS X daemon makefile
+    MintCoin distribution is now linked against BDB 5.3. Reflect this
+    change in the makefile for OSX.
+
+commit 85b76b561d9f9b01813660a12a6d22d81defd877
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Tue Mar 1 15:58:26 2016 -0800
+
+    Remove checkpoint warning
+    
+    MintCoin doesn't use a central checkpoint server anymore, so checking for such checkpoints is useless.
+    Remove the warning message that the checkpoint is too old from RPC/GUI.
+
+commit 3a75e29087933a733d21e2b2787af2482944dfc4
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Tue Mar 1 00:25:37 2016 -0800
+
+    Include BDB version information in walletdb.cpp
+
+commit 2a9ac23be24e2c33b440605eca45dbb397bf55f7
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Tue Mar 1 00:23:19 2016 -0800
+
+    Updated *nix makefiles a bit
+    
+    Removed the option to disable leveldb entierly as it is an invalid option now.
+    Removed some VERY outdated refrences to cross compilers in linux-mingw.
+
+commit 05bac2a9901decec246c4aba81b2a83881bfbfba
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Tue Mar 1 00:22:21 2016 -0800
+
+    Refine some windows specific calls in util.h/cpp
+
+commit 2edf6f2240e45c9ab83f8450deaca1e744a17179
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Tue Mar 1 00:20:38 2016 -0800
+
+    Add some updated checkpoints
+
+commit 470bfb44cf9bb7325c71361bef2ae0c013746c24
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Fri Feb 26 19:22:49 2016 -0800
+
+    [Qt] Add optional 3rd party transaction URLs
+
+commit 22153054d9bc21c4c91e10ec572137705b9dad60
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Fri Feb 26 17:13:22 2016 -0800
+
+    Include BDB version used in debug.log and RPC Console UI
+
+commit 02eea6f09c59795c3f938b13f4b12a77d044ea2f
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Fri Feb 26 16:51:45 2016 -0800
+
+    Update Windows Installer support files for MINT
+
+commit 2f64760c890b6e872d7ef2e1e3579b9fcb0be618
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Tue Feb 23 23:48:07 2016 -0800
+
+    Bump version/clientversion to 2.0.1.1
+
+commit a5d130c11a8dc89fb00ee27dba062c15615da52a
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Tue Feb 23 16:15:45 2016 -0800
+
+    Fix invalid signature with crafted length
+    
+    ppcoin/ppcoin@4f3f5d8
+    ppcoin/ppcoin@06d2cba
+    ppcoin/ppcoin#100
+    
+    https://bitcointalk.org/index.php?topic=678849.msg13134930#msg13134930
+
+commit f21ebad4c16fe89d199fd614c54f27cf06a8293a
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Tue Feb 23 16:12:46 2016 -0800
+
+    Guard against OpenSSL's new strict DER checks
+    
+    bitcoin/bitcoin@f4134ee
+    bitcoin/bitcoin@91e1332
+    bitcoin/bitcoin@f19dded
+
+commit 1696dc1c0a38a0d05be072edab78368533a94296
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Tue Feb 23 16:01:11 2016 -0800
+
+    miniupnpc API version 14 compatibility
+    
+    New versions of miniupnpc changed some of their API methods.
+    Most notably is the late 2015 builds of miniupnpc 1.9 and the addition
+    of another argument to upnpDiscover.
+
+commit a07643d920897624efef8f4dff725f91cb937ab4
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Tue Feb 23 15:55:11 2016 -0800
+
+    Add new DNS Seeder from Fuzzbawls
+
+commit 25eae54d2f697bdff777c9ebec2c6352b06b5f30
+Merge: da098b2 2bf010c
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Sat Oct 10 17:48:25 2015 -0700
+
+    Merge pull request #20 from supasonic/netcodeBP
+    
+    Networking fixes and improvements
+
+commit 2bf010c7d0104200c0c4af377f67c790f73134fb
+Author: supasonic <supasonic128@gmail.com>
+Date:   Sat Oct 10 19:11:18 2015 -0500
+
+    Version Bump 2.0.1
+
+commit e506519dbb38eeccffefba823ac5e304ecb1de9b
+Author: supasonic <supasonic128@gmail.com>
+Date:   Wed Oct 7 00:06:21 2015 -0500
+
+    make CBase58Data class use zero_after_free_allocator
+    
+    - this way there is no need for an explicit destructor, who does the same
+    thing anyway
+    
+    BTC Commit(s):
+    d0b0925be9f94068deb98940103a7b8a8c56f027
+    Conflicts:
+            src/base58.h
+
+commit 8fb911e3e0425287ccc611774e7d124520c5327d
+Author: supasonic <supasonic128@gmail.com>
+Date:   Sun Oct 4 13:37:04 2015 -0500
+
+    ripped out getwork
+
+commit 5239a6d0cf6fe19685b199abb13702ff74e0234b
+Author: supasonic <supasonic128@gmail.com>
+Date:   Tue Oct 6 12:41:40 2015 -0500
+
+    Memory leaks fixed
+    
+    Fix memory leak on exception in Key::SignCompact
+    fix memory leak in CKey::SetCompactSignature()
+    
+    BTC Commit(s):
+    a9280652ce61ddbbecfe16e18e1e464bb1f5d34d
+    173601705ccf189fd83e3854f71f6a872c6faeda
+
+commit 356703bc69ce58cf0689df989810fd875017199d
+Author: supasonic <supasonic128@gmail.com>
+Date:   Sat Oct 3 00:16:43 2015 -0500
+
+     Split off CBlockHeader from CBlock
+    
+    Cleaner and removes the need for the application-specific flags in
+    serialize.h.
+    
+    Modified for testing
+    
+    BTC Commit(s):
+    e754cf4133c9c97e320ae5dec394e338524e650b
+
+commit 991ff5421fee828f073b45157743d9b191f63a5a
+Author: supasonic <supasonic128@gmail.com>
+Date:   Thu Oct 1 18:12:37 2015 -0500
+
+     Process getdata invs separately until send buffer overflows
+    
+    There exists a per-message-processed send buffer overflow protection,
+    where processing is halted when the send buffer is larger than the
+    allowed maximum.
+    
+    This protection does not apply to individual items, however, and
+    getdata has the potential for causing large amounts of data to be
+    sent. In case several hundreds of blocks are requested in one getdata,
+    the send buffer can easily grow 50 megabytes above the send buffer
+    limit.
+    
+    This commit breaks up the processing of getdata requests, remembering
+    them inside a CNode when too many are requested at once.
+    
+    
+    Modified version for testing
+    
+    BTC Commit(s):
+    c7f039b674b43b741f20bf7521eb8a68426f4275
+
+commit 56d2a1293c407ce2e814e4cf3ae081c4a2678d58
+Author: supasonic <supasonic128@gmail.com>
+Date:   Thu Oct 1 00:59:42 2015 -0500
+
+    Add a CBloomFilter class for use as a transaction filter.
+    
+    BTC Commit(s):
+    bd21612c37cf4f2df3a6926beff8a7f89714235e
+
+commit acca245e27697bb94b9642ed64543d64d81d35f1
+Author: supasonic <supasonic128@gmail.com>
+Date:   Wed Sep 30 23:37:52 2015 -0500
+
+    Add MurmurHash3 implementation to hash.h/add hash.cpp.
+    
+    BTC Commit(s):
+    7ab026f4493b145f2255d816864cb1a3486e0788
+
+commit 50fc22f108e872bdc7933fc85391186ea690eb42
+Author: supasonic <supasonic128@gmail.com>
+Date:   Wed Sep 30 11:43:26 2015 -0500
+
+     Add a notfound message to getdata that is sent if any transactions th…
+    
+    …at aren't in the relayable set are requested.
+    
+    BTC Commit(s):
+    903d146030e741441c288873ef3c682fb5019101
+
+commit 016a4e091663f1b5f44a055d4c4981eac7eb9c71
+Author: supasonic <supasonic128@gmail.com>
+Date:   Wed Sep 30 02:44:42 2015 -0500
+
+    Use per-message send buffer, rather than per connection
+    
+    Removed unused function EndMessageAbortIfEmpty
+    
+    BTC Commit(s):
+    41b052ad87633d5a8a989c512c8710b875f2ba88
+    25511af4a57816c4f9bb960527f090a9719c9010
+
+commit 79a41b89d56a405a8188ebaa32b6c1883d6ccc89
+Author: supasonic <supasonic128@gmail.com>
+Date:   Tue Sep 29 22:21:43 2015 -0500
+
+     Some fixes to CNetMessage processing
+    
+    * Change CNode::vRecvMsg to be a deque instead of a vector (less copying)
+    * Make sure to acquire cs_vRecvMsg in CNode::CloseSocketDisconnect (as it
+      may be called without that lock).
+    
+    BTC Commit(s):
+    967f24590b43f0f84148f669d886b40fe45aa978
+
+commit 6ebfa7f8ff4811877492d204fd7a7acc1539794e
+Author: supasonic <supasonic128@gmail.com>
+Date:   Tue Sep 29 21:34:15 2015 -0500
+
+     P2P: improve RX/TX flow control
+    
+    1) "optimistic write": Push each message to kernel socket buffer immediately.
+    
+    2) If there is write data at select time, that implies send() blocked
+       during optimistic write.  Drain write queue, before receiving
+       any more messages.
+    
+    This avoids needlessly queueing received data, if the remote peer
+    is not themselves receiving data.
+    
+    Result: write buffer (and thus memory usage) is kept small, DoS
+    potential is slightly lower, and TCP flow control signalling is
+    properly utilized.
+    
+    The kernel will queue data into the socket buffer, then signal the
+    remote peer to stop sending data, until we resume reading again.
+    
+    BTC Commit(s);
+    b9ff2970b9fbb24e2fffc449b4ef478d019633d8
+
+commit 8bf072a6cc50afb1306cd83369c1092653de0965
+Author: supasonic <supasonic128@gmail.com>
+Date:   Tue Sep 29 20:46:47 2015 -0500
+
+    P2P, cosmetic: break out buffer send(2) code into separate function
+    
+    BTC Commit(s):
+    bc2f5aa72cfb3f456280a6d34c5d425bf24b009c
+
+commit 8cc8427b1d6595148b9d6a8de51be1f2d69f481c
+Author: supasonic <supasonic128@gmail.com>
+Date:   Tue Sep 29 20:00:35 2015 -0500
+
+     P2P: parse network datastream into header/data components in socket t…
+    
+    …hread
+    
+    Replaces CNode::vRecv buffer with a vector of CNetMessage's.  This simplifies
+    ProcessMessages() and eliminates several redundant data copies.
+    
+    Overview:
+    
+    * socket thread now parses incoming message datastream into
+      header/data components, as encapsulated by CNetMessage
+    * socket thread adds each CNetMessage to a vector inside CNode
+    * message thread (ProcessMessages) iterates through CNode's CNetMessage vector
+    
+    Message parsing is made more strict:
+    
+    * Socket is disconnected, if message larger than MAX_SIZE
+      or if CMessageHeader deserialization fails (latter is impossible?).
+      Previously, code would simply eat garbage data all day long.
+    * Socket is disconnected, if we fail to find pchMessageStart.
+      We do not search through garbage, to find pchMessageStart.  Each
+      message must begin precisely after the last message ends.
+    
+    ProcessMessages() always processes a complete message, and is more efficient:
+    
+    * buffer is always precisely sized, using CDataStream::resize(),
+      rather than progressively sized in 64k chunks.  More efficient
+      for large messages like "block".
+    * whole-buffer memory copy eliminated (vRecv -> vMsg)
+    * other buffer-shifting memory copies eliminated (vRecv.insert, vRecv.erase)
+    
+    BTC Commit(s):
+    607dbfdeaf7ec053d959c47c125d60c0b7e7216a
+
+commit 324f5d52f2003371599974c5820e64a9a55b57d5
+Author: supasonic <supasonic128@gmail.com>
+Date:   Tue Sep 29 19:10:20 2015 -0500
+
+    Remove "checkorder" and "reply" P2P commands
+    
+    These command are a leftover from send-to-IP transactions, which have been
+    removed a long time ago.
+    Also removes CNode::mapRequests and CNode::PushRequests, as these were
+    only used for the mentioned commands.
+    
+    BTC Commit(s):
+    529a4d4824136a00e63cd69831023b9c4dd6936b
+
+commit 146c747aa230e9c936405dcb423883e4d782ccb5
+Author: supasonic <supasonic128@gmail.com>
+Date:   Fri Oct 2 17:09:17 2015 -0500
+
+     clear history when using clear button in RPC console
+    
+    - current code does not clear history, when using the clear button, this
+      is added
+    - remove a currently unused variable but add a TODO comment
+    
+    BTC Commit (s):
+    af7b88f29fba5d1db109a03dd6e5282fd9da825d
+
+commit 5e6c7c655377aa984b643b6a787614b3e7a4823a
+Author: supasonic <supasonic128@gmail.com>
+Date:   Fri Oct 2 12:46:51 2015 -0500
+
+    Check for canonical public keys and signatures
+    
+    Only enabled inside tests for now.
+    
+    BTC Commit(s):
+    58bc86e37fda1aec270bccb3df6c20fbd2a6591c
+
+commit e5123f29071abe1ba6e569a7ee55a08f08a0c565
+Author: supasonic <supasonic128@gmail.com>
+Date:   Fri Oct 2 10:07:32 2015 -0500
+
+    Remove P2SH transition code: P2SH violations may cause DoS trigger
+    
+    BTC Commit(s):
+    28982cc9dc07ef85862109439a61f3ff3409e749
+
+commit df9b1cab85ee355c1c1c537822d1a20c59bdad48
+Author: supasonic <supasonic128@gmail.com>
+Date:   Fri Oct 2 09:52:52 2015 -0500
+
+    Do not accept orphan blocks in -loadblock mode
+    
+    BTC Commit(s):
+    5c88e3c108f8bbe0edbcd88b3f48e3eaf611cd7c
+
+commit d6dc07a9e08dfd91d1e2fa93ff677e3a874224fa
+Author: supasonic <supasonic128@gmail.com>
+Date:   Wed Sep 30 19:29:10 2015 -0500
+
+    Split off hash.h from util.h
+    
+    BTC Commit(s):
+    0fb9073edd49a39a64d7c7dbf6e6100a7259c0e1
+
+commit da098b24fc0b837da50e009eba67f1eff8b2a47c
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Tue Aug 4 18:17:17 2015 -0600
+
+    add -msse2 to makefile
+
+commit 462c3ef6e41a8eeb65c357f3b41c92f38a09f16b
+Merge: 1952e42 5926a89
+Author: presstab <presstab1337@gmail.com>
+Date:   Tue Aug 4 17:37:06 2015 -0600
+
+    Merge pull request #14 from Fuzzbawls/master
+    
+    Mac OS X updates required for build.
+
+commit 5926a89c9feb04035ad18b9d7553f9e95b2562f1
+Merge: 82916e9 1952e42
+Author: Fuzzbawls <jbartlett@nbtechs.com>
+Date:   Mon Aug 3 04:15:26 2015 -0700
+
+    Merge pull request #1 from MintcoinCommunity/master
+    
+    Merge upstream sync fix
+
+commit 1952e4259cd5ffad6ffe40349cc7ddcf76ad025f
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sat Aug 1 14:47:45 2015 -0600
+
+    bump build to 2.0.0.2
+
+commit 7a768d13ed3fcaaa652d16b7c80ed7a3136ba106
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Sat Aug 1 14:17:32 2015 -0600
+
+    Fix sync timedrift errors
+
+commit 82916e9a6a8bb594041cf820001a220b3f2e7937
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Sat Jul 25 16:28:59 2015 -0700
+
+    Change Mac target name from all lower-case.
+
+commit 6563883f5410a01d47bf00b3917f6d8bb0803d62
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Sat Jul 25 02:40:38 2015 -0700
+
+    Final (hopefully) Mac OS X build changes
+
+commit 39da55d0507df0e1cc4b09596679fa9bfbfeda5f
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Sat Jul 25 02:34:41 2015 -0700
+
+    Mac OS X Deployment support, ditching the old ass Novacoin dog background.
+
+commit b2f546c3fe7f17880ba8959e9d25cd594d758324
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Sat Jul 25 02:25:53 2015 -0700
+
+    Fix notifications for Mac OS X, uses system notifications on 10.8+.
+
+commit ca5c46868d2f64636fbf697f9648848bb78795f4
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Fri Jul 24 23:54:15 2015 -0700
+
+    Include proper icon for Mac OS X bundles.
+
+commit 0a2af99ea935ce5ad867df8ae6095d9accb70472
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Fri Jul 24 23:53:00 2015 -0700
+
+    Update unit defs.
+
+commit 73011652edaadd60107e62b57503e28d3b710048
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Fri Jul 24 23:52:00 2015 -0700
+
+    include nomacro.pl script for OS X building.
+
+commit cce2bbac8445b1233fc5fe9ef34443e3a391a231
+Author: Fuzzbawls <fuzzbawls@gmail.com>
+Date:   Fri Jul 24 23:49:45 2015 -0700
+
+    Update to make compile possible with Qt5!
+
+commit aa04d6417c0ac0f041d3110aa5761dacadb49bbe
+Author: presstab <presstab1337@gmail.com>
+Date:   Thu Jul 23 11:08:15 2015 -0600
+
+    remove old IRC code
+
+commit 29bb7f2e1b4d5a9ad92b4fdf26d67279da3d3f6a
+Author: supasonic <supasonic128@gmail.com>
+Date:   Wed Jul 15 16:12:46 2015 -0500
+
+    Headless compile fix
+
+commit 4b5e278552506caaa6d52d43b75799064da38b64
+Author: supasonic <supasonic128@gmail.com>
+Date:   Wed Jul 15 12:18:04 2015 -0500
+
+    Compile fix: Premature addition should be in test branch
+
+commit 625fcb5a931b9ab0344f63dff4d34c8549cf2543
+Author: MintcoinCommunity <mintcoinfund@gmail.com>
+Date:   Sun Jul 12 16:15:50 2015 -0500
+
+    Update README.md
+
+commit 7c07949a34e1262e67f0ff18b73143008dd72d4f
+Author: supasonic <supasonic128@gmail.com>
+Date:   Sat Jul 11 13:35:20 2015 -0500
+
+    Ask to import a wallet file or start a new one.
+
+commit d4fc24f952cd1c735f705dbd21c913e54d3ac761
+Author: supasonic <supasonic128@gmail.com>
+Date:   Thu Jul 9 15:28:16 2015 -0500
+
+    Adds an option to require the passphrase when sending transaction
+
+commit 985bd23407708db37f47f800ee5a3aa2142c1b9c
+Merge: a312a85 17584cd
+Author: supasonic <supasonic128@gmail.com>
+Date:   Wed Jul 8 00:03:23 2015 -0500
+
+    Merge branch 'master' of https://github.com/mintcoincommunity/mintcoin-desktop-wallet
+
+commit a312a85b02169a1494ce37310857fc8d4cf26942
+Author: supasonic <supasonic128@gmail.com>
+Date:   Tue Jul 7 23:16:43 2015 -0500
+
+    This is a kludge to get the repair wallet function out of the RPC. As a part of a bigger project of building a RPC Model to give the GUI a better way to interface with it.
+
+commit 17584cd95103fd8ecccc7297f915305d6cfbb855
+Merge: eeba757 0438e27
+Author: presstab <presstab1337@gmail.com>
+Date:   Tue Jul 7 12:17:11 2015 -0600
+
+    Merge pull request #13 from presstab/master
+    
+    HARD FORK - Aug 2015 - Reduce Time Drift to 30 seconds
+
+commit 0438e27664719ed568d2add77e85bee08dcfd125
+Author: Press Tab <presstab1337@gmail.com>
+Date:   Fri Jul 3 11:21:12 2015 -0600
+
+    HARD FORK - Aug 2015 - Reduce Time Drift to 30 seconds
+    
+    Protocol requirements are raised to accept post-fork clients only after
+    the fork time Sat, 01 Aug 2015 16:00:00 GMT
+    Time Drift is changed to 30 seconds maximum, which is also the block
+    target. This is a strict enough drift allowance to reduce drift based
+    exploits, while still allowing some flexibility for nodes.
+    
+    Maximum Stake Search Interval is changed to 15 seconds to give less
+    chances of producing hashed that will be rejected by the time drift
+    requirements.
+    
+    Add another 10 confirmations to the network requirements for
+    transactions and coinstake transactions.
+
+commit eeba757aa0450c59a27848cafd9bbf5368f26bc6
+Merge: d26c2c6 5a97d52
+Author: roboguy3 <roboguy3@gmail.com>
+Date:   Tue Mar 17 19:29:01 2015 -0400
+
+    Merge pull request #12 from roboguy3/master
+    
+    Stake modifier block number was wrong, changing to more recent checkpoin...
+
+commit 5a97d520b19da8ad2f0cdd3c57d5ae68b6e3d252
+Author: roboguy <roboguy3@gmail.com>
+Date:   Tue Mar 17 18:47:44 2015 -0400
+
+    Stake modifier block number was wrong, changing to more recent checkpoint
+
+commit d26c2c6f3d2359e804210436d4d55af5c248d68c
+Merge: 5d45420 15ef30c
+Author: roboguy3 <roboguy3@gmail.com>
+Date:   Tue Mar 10 19:08:52 2015 -0400
+
+    Merge pull request #10 from roboguy3/master
+    
+    website references and total only confirmed minting
+
+commit 15ef30ca60f87b744bad6453fca7d1956b86f8eb
+Author: roboguy <roboguy3@gmail.com>
+Date:   Mon Mar 9 20:54:20 2015 -0400
+
+    checkpoints and version
+
+commit fb7b089ff0b7d77b81e48332f729796f39c015bd
+Author: roboguy <roboguy3@gmail.com>
+Date:   Wed Mar 4 23:00:18 2015 -0500
+
+    Only count confirmed for minted ballance
+
+commit a13ea83e711685d8f6594a9695d9e5b436e915c7
+Author: roboguy <roboguy3@gmail.com>
+Date:   Wed Mar 4 22:59:32 2015 -0500
+
+    Change mintcoin.cc references to mintcoinofficial.com
+
+commit 5d454205e6e4343fb14fe7586607533e55e2048e
+Merge: eedab45 f106151
+Author: roboguy3 <roboguy3@gmail.com>
+Date:   Wed Feb 18 23:53:59 2015 -0500
+
+    Merge pull request #9 from roboguy3/master
+    
+    Report total minted and qr/link reference change
+
+commit f10615128952d668d39541b4aa363ed8093c3a39
+Author: roboguy <roboguy3@gmail.com>
+Date:   Wed Feb 18 20:17:30 2015 -0500
+
+    Update QR and link references
+
+commit 79b03bd17526e2ee16663d6d19f752f67f8a87b2
+Author: roboguy <roboguy3@gmail.com>
+Date:   Wed Feb 18 20:16:57 2015 -0500
+
+    Report total minted
+
+commit a417845528e47a4059685012b9dfa357d03efd36
+Author: roboguy <roboguy3@gmail.com>
+Date:   Wed Feb 18 20:15:19 2015 -0500
+
+    Warning update
+
+commit 8c2c44f53becc92f40ea12304392477eeb0da452
+Author: roboguy <roboguy3@gmail.com>
+Date:   Wed Feb 18 20:14:48 2015 -0500
+
+    version change
+
+commit 6e8ebf60e91deaefc92cd3ccb89362f0d6edb67e
+Author: roboguy <roboguy3@gmail.com>
+Date:   Wed Feb 18 20:14:27 2015 -0500
+
+    New checkpoints
+
+commit eedab4564e6cee5bb6a9fcdbaa1955fa2092f375
+Merge: 3ff5a4b 37ae45e
+Author: roboguy3 <roboguy3@gmail.com>
+Date:   Thu Dec 18 23:43:18 2014 -0500
+
+    Merge pull request #8 from roboguy3/master
+    
+    Bug fixes to get blockchain moving again
+
+commit 37ae45e1c999236e30df97afbb8a1cf88869c935
+Author: roboguy <roboguy3@gmail.com>
+Date:   Thu Dec 18 23:03:38 2014 -0500
+
+    another version bump
+
+commit d6cfad74c0d21bb5bbf8b9f4c3b969640c646a66
+Author: roboguy <roboguy3@gmail.com>
+Date:   Thu Dec 18 22:51:14 2014 -0500
+
+    Fix bugs to get blockchain moving again
+
+commit 3ff5a4bf9b117b4db0e80131d198a982e585dead
+Merge: d0b8236 50fd27e
+Author: roboguy3 <roboguy3@gmail.com>
+Date:   Tue Nov 18 23:30:46 2014 -0500
+
+    Merge pull request #7 from roboguy3/master
+    
+    Bug fix for display of addresses can get swapped
+
+commit 50fd27ef45dff3dc281f435a55f2e6476770df71
+Author: roboguy <roboguy3@gmail.com>
+Date:   Sun Nov 9 17:36:45 2014 -0500
+
+    Version bump
+
+commit 0e2331034e4d4057ae849d5e502715d43f4c5aa6
+Author: roboguy <roboguy3@gmail.com>
+Date:   Sun Nov 9 16:13:49 2014 -0500
+
+    Fix bug where Address book and Receive address can get swapped
+
+commit d0b8236e2f431af62452e14bc98031785dbe9f0b
+Merge: f18d397 28ef26c
+Author: roboguy3 <roboguy3@gmail.com>
+Date:   Mon Oct 20 21:52:19 2014 -0400
+
+    Merge pull request #6 from keremhd/master
+    
+    Add new DNS seeds
+
+commit f18d397951765cdf02dba06da70e50aac85e1693
+Merge: e41cc5a 9304ff0
+Author: roboguy3 <roboguy3@gmail.com>
+Date:   Mon Oct 20 21:51:52 2014 -0400
+
+    Merge pull request #5 from roboguy3/master
+    
+    LevelDB and more
+
+commit 9304ff0bed03f210d1983d2511eb72efdc5a43fb
+Author: roboguy <roboguy3@gmail.com>
+Date:   Mon Oct 20 21:50:16 2014 -0400
+
+    Newer checkpoints
+
+commit a251fd723afa0b8d2e0b4b6f905c843f2d88097e
+Author: roboguy <roboguy3@gmail.com>
+Date:   Sun Oct 19 23:41:08 2014 -0400
+
+    Logo changes
+
+commit 3e96176d05e6e5041c62585e5ee49161503668ec
+Author: roboguy <roboguy3@gmail.com>
+Date:   Sun Oct 19 23:26:37 2014 -0400
+
+    Set the new checkpoint and alert keys
+
+commit 83cd9789fbc9635d28221854102a04256c38e0c7
+Author: roboguy <roboguy3@gmail.com>
+Date:   Sun Oct 12 22:50:32 2014 -0400
+
+    Moving gui elements around
+
+commit 058719e9faa329d18f40be9271810b597a5e110f
+Author: roboguy <roboguy3@gmail.com>
+Date:   Sun Oct 12 22:50:04 2014 -0400
+
+    Fix for sending alerts
+
+commit b7caff831bb2d881ff91517913a48f95c2f5d869
+Author: roboguy <roboguy3@gmail.com>
+Date:   Sat Oct 4 22:00:45 2014 -0400
+
+    Recurring send
+
+commit e78b774681650b87e2becb75e43eff3d8796f816
+Author: roboguy <roboguy3@gmail.com>
+Date:   Sat Oct 4 17:38:22 2014 -0400
+
+    Use the same openssl version as Bitcoin
+
+commit 71f59765c92a049a0d4698bc96ea6a8da48e560f
+Author: roboguy <roboguy3@gmail.com>
+Date:   Sat Oct 4 17:30:12 2014 -0400
+
+    remove warning of unused type
+
+commit 28ef26cfe359705aada862de5c0bb14993acb312
+Merge: 02f641e e41cc5a
+Author: keremhd <keremhd@users.noreply.github.com>
+Date:   Thu Sep 18 02:08:03 2014 +0300
+
+    Merge remote-tracking branch 'upstream/master'
+
+commit 02f641e3c523bb2e72d3c91ad0990e696c0663d6
+Author: keremhd <keremhd@users.noreply.github.com>
+Date:   Thu Sep 18 02:01:47 2014 +0300
+
+    Added new DNS seeds seed.mintcoin.cc and mintseed.mintcoinfund.org
+
+commit 33ac995b48789bba19d533745de372223c9092ba
+Author: roboguy <roboguy3@gmail.com>
+Date:   Mon Sep 15 23:05:53 2014 -0400
+
+    add requires restart text
+
+commit 1fd51ebbc246265e3d1b5c2b8c6f5c46e4e3b1e6
+Author: roboguy <roboguy3@gmail.com>
+Date:   Mon Sep 15 23:05:21 2014 -0400
+
+    Add check wallet in help
+
+commit 4c3bfacda89d5b1c13fa8aa141cc12c23e6270c6
+Author: roboguy <roboguy3@gmail.com>
+Date:   Sun Sep 14 21:00:27 2014 -0400
+
+    Add option to disable web views
+
+commit 435ddbd6b391166197908352c6098174b711a926
+Author: roboguy <roboguy3@gmail.com>
+Date:   Sun Sep 14 17:49:03 2014 -0400
+
+    Fix send from frame
+
+commit 66980f21166dc40ef40e4156be190ce3c295205d
+Author: roboguy <roboguy3@gmail.com>
+Date:   Sat Sep 13 17:31:04 2014 -0400
+
+    Add support for qt stylesheets, reminder to backup and version bump
+
+commit b62d4539fc9ec771bb1b73f141e2d1afb12486fd
+Author: roboguy <roboguy3@gmail.com>
+Date:   Sat Sep 13 17:29:51 2014 -0400
+
+    Fix bug in transactions view
+
+commit 5b905c708255951e832e4d649111d56cda161703
+Author: roboguy <roboguy3@gmail.com>
+Date:   Wed Sep 10 23:03:02 2014 -0400
+
+    Add LevelDB support changes
+
+commit e41cc5a6905cbaa1529b940e911dd94b9a75dd12
+Merge: a031db9 8287cdd
+Author: roboguy3 <roboguy3@gmail.com>
+Date:   Sun Aug 17 12:52:32 2014 -0400
+
+    Merge pull request #2 from keremhd/master
+    
+    Added current checkpoints
+
+commit a031db9a262c3c35dc23288cac7988c27cae7957
+Merge: 1c98210 9b3bb49
+Author: roboguy3 <roboguy3@gmail.com>
+Date:   Thu Aug 14 22:20:17 2014 -0400
+
+    Merge pull request #4 from roboguy3/master
+    
+    increase version
+
+commit 9b3bb49e053541d394a6cae73d3a8ea67218fb01
+Author: roboguy <roboguy3@gmail.com>
+Date:   Thu Aug 14 22:17:46 2014 -0400
+
+    increase version
+
+commit 1c98210bac0390f4335f071a726b1217afeb620b
+Merge: 0233e1f 600725e
+Author: roboguy3 <roboguy3@gmail.com>
+Date:   Thu Aug 14 22:09:51 2014 -0400
+
+    Merge pull request #3 from roboguy3/master
+    
+    Changes introduce a web view for announcements and a tab for merchants and donations.  This also adds per address balances and address based spending.  It fixes the update of the expected time to mint.  It fixes the display of minting and the address which minted.
+
+commit 600725e7ef5464bd6e0933828f935daa5ab7bda5
+Author: roboguy <roboguy3@gmail.com>
+Date:   Wed Aug 13 21:31:23 2014 -0400
+
+    Reload the webViews once a day
+
+commit 8bdc275fa146bdf87a704304176c74161065b83a
+Author: roboguy <roboguy3@gmail.com>
+Date:   Tue Aug 12 21:13:52 2014 -0400
+
+    Add address balances to the pay from combo box
+
+commit e9c89436aa99d9fb32d4139a73cd0465746ca8b9
+Author: roboguy <roboguy3@gmail.com>
+Date:   Tue Aug 12 21:11:24 2014 -0400
+
+    make sure simple coin control spends coins with minimum coin age
+
+commit c40bbf4492e73e3ac20f3028dccd5e8e5f78bd05
+Author: roboguy <roboguy3@gmail.com>
+Date:   Tue Aug 12 21:09:34 2014 -0400
+
+    speedup suggested by Paspi
+
+commit 52c777f0bd955660c13e6af242894caea0a78e4b
+Author: roboguy <roboguy3@gmail.com>
+Date:   Mon Aug 11 23:29:54 2014 -0400
+
+    Set the correct web addresses and add redirect
+
+commit 7b1fc25f05b61ead4688ab2467003aeb559c8536
+Author: roboguy <roboguy3@gmail.com>
+Date:   Sun Aug 10 16:51:16 2014 -0400
+
+    Add pay from address combo box
+
+commit d4b5f1183a058e4df7b400e9e241a7e346d4eef0
+Author: roboguy <roboguy3@gmail.com>
+Date:   Sun Aug 10 16:50:57 2014 -0400
+
+    Add page to show where mintcoin can be used
+
+commit 3485d6772ba6487c95b629b86dd221870ffa8c58
+Author: roboguy <roboguy3@gmail.com>
+Date:   Sun Aug 10 16:47:38 2014 -0400
+
+    Rearrange overview page to add a web page view
+
+commit 84b162c0e2f9709aee527343300f332e6be68ec5
+Author: roboguy <roboguy3@gmail.com>
+Date:   Sun Aug 10 16:47:02 2014 -0400
+
+    Add per address balance in the address book
+
+commit 708768c37a138924d9cf42d40f177fcdfd015850
+Author: roboguy <roboguy3@gmail.com>
+Date:   Sun Aug 10 16:46:31 2014 -0400
+
+    Use Minted label not Mined and show which address Minted
+
+commit 8287cdd3d8c8e6b2b0268d0115e88dfb92862beb
+Author: keremhd <keremhd@users.noreply.github.com>
+Date:   Sun Aug 10 15:01:46 2014 +0300
+
+    Added current checkpoints
+
+commit 0233e1f2f6d9eff0904e3432388518372a4b37e5
+Author: mintcoin <mintcoin928346@yahoo.com>
+Date:   Thu Jun 19 12:55:48 2014 -0700
+
+            modified:   src/checkpoints.cpp
+            modified:   src/kernel.cpp
+            modified:   src/version.h
+
+commit 201acd349e20d4769921756b18c9de5873978973
+Merge: 6e51ebd 67b82e9
+Author: mintcoinproject <david9643@163.com>
+Date:   Wed Jun 18 23:27:57 2014 -0700
+
+    Merge pull request #21 from presstab/master
+    
+    Add FastStart
+
+commit 6e51ebd52aef570a8c7b07beb9132cfa7b2e19b2
+Merge: 86c7e08 61361d3
+Author: mintcoinproject <david9643@163.com>
+Date:   Wed Jun 18 23:27:04 2014 -0700
+
+    Merge pull request #20 from skwurp/master
+    
+    Fix the "For minting only" option.
+
+commit 67b82e96efe91ef40584e2d93a3bc90c48ae6429
+Author: presstab <presstab1337@gmail.com>
+Date:   Tue Jun 17 08:49:14 2014 -0600
+
+    Add FastStart
+
+commit 61361d3d7e833e309f5d71f5d8c1740c346febee
+Merge: 24b107d 86c7e08
+Author: skwurp <skwurp@gmail.com>
+Date:   Thu May 22 15:47:21 2014 +1200
+
+    Merge remote-tracking branch 'upstream/master'
+
+commit 86c7e083816952761bf2de76332f0c27216ee669
+Merge: 7b3152b c906085
+Author: mintcoinproject <david9643@163.com>
+Date:   Tue May 20 12:01:53 2014 -0700
+
+    Merge pull request #19 from keremhd/master
+    
+    Enabled DNS seeding by default, added 1 DNS seed
+
+commit 24b107daa3ab30fe2af4b61b1191f9ee2caa4fa4
+Author: skwurp <skwurp@gmail.com>
+Date:   Wed May 21 00:06:45 2014 +1200
+
+    Remove unneeded commented code.
+
+commit 0a41302d717a763c73d45486b296761434c2eb2a
+Author: skwurp <skwurp@gmail.com>
+Date:   Tue May 20 23:59:42 2014 +1200
+
+    Fix the "For minting only" option.
+    
+    When the wallet is unlocked with the minting only option, force the user
+    to retype the passphrase when sending coins by first re-locking the
+    wallet, then asking them for the passphrase to unlock it again.
+    
+    Also changed the wording from "For staking only" to "For minting only".
+
+commit c9060853055f6c176a1396f0c22a32c24e2b0a86
+Author: keremhd <keremhd@users.noreply.github.com>
+Date:   Thu May 15 23:43:48 2014 +0300
+
+    Enabled DNS seeding by default, added 1 DNS seed
+
+commit 7b3152b6b93049e512f9bcd06ac834dbd6bb9efc
+Merge: 91066ee 4c0212a
+Author: mintcoinproject <david9643@163.com>
+Date:   Mon Apr 28 18:18:05 2014 -0700
+
+    Merge pull request #17 from skwurp/pull-3
+    
+    Sort transactions by date instead of status.
+
+commit 91066eed99b570c6b7d9acb00ea09043dde28568
+Merge: b24be6b d512704
+Author: mintcoinproject <david9643@163.com>
+Date:   Mon Apr 28 18:17:24 2014 -0700
+
+    Merge pull request #16 from skwurp/pull-2
+    
+    Better fix for minting icon lagging the GUI.
+
+commit b24be6bc99b006957e15dfe090615eec130301d6
+Merge: 7bd5a3a b943eee
+Author: mintcoinproject <david9643@163.com>
+Date:   Mon Apr 28 18:15:21 2014 -0700
+
+    Merge pull request #15 from skwurp/pull-1
+    
+    Critical: Fix proof-of-stake block signing.
+
+commit b943eee5ee05e333dbc554762f7b8006a0886a9d
+Author: skwurp <skwurp@gmail.com>
+Date:   Tue Apr 29 10:26:13 2014 +1200
+
+    Fix proof-of-stake block signing.
+    
+    Add back mistakenly removed SignBlock() in proof-of-stake section of
+    BitcoinMiner().
+
+commit d512704fb550a218924e07db1d85b8dd31c1a7b5
+Author: skwurp <skwurp@gmail.com>
+Date:   Tue Apr 29 10:30:49 2014 +1200
+
+    Better fix for minting icon lagging the GUI.
+    
+    Split updating user and network weights into a separate function. Update
+    them only every 30 seconds.
+
+commit 4c0212a40ab41ee91f0f62ca6a06457e5903536a
+Author: skwurp <skwurp@gmail.com>
+Date:   Tue Apr 29 10:47:10 2014 +1200
+
+    Sort transactions by date instead of status.
+    
+    List transactions by most recent date on the overview and transactions
+    pages. Sorting by status shows all the orphaned blocks first, which is
+    confusing.
+
+commit e5b763a5b21f15933fc2029e5e9c6cd019a70e7e
+Author: skwurp <skwurp@gmail.com>
+Date:   Tue Apr 29 10:47:10 2014 +1200
+
+    Sort transactions by date instead of status.
+    
+    List transactions by most recent date on the overview and transactions
+    pages. Sorting by status shows all the orphaned blocks first, which is
+    confusing.
+
+commit 5faa6b94222d9527b51e4f0625c6dfdb1c9b918f
+Author: skwurp <skwurp@gmail.com>
+Date:   Tue Apr 29 10:30:49 2014 +1200
+
+    Better fix for minting icon lagging the GUI.
+    
+    Split updating user and network weights into a separate function. Update
+    them only every 30 seconds.
+
+commit e1c61b3595fe8208b13bd289060cf2e0307ebee9
+Author: skwurp <skwurp@gmail.com>
+Date:   Tue Apr 29 10:26:13 2014 +1200
+
+    Fix proof-of-stake block signing.
+    
+    Add back mistakenly removed SignBlock() in proof-of-stake section of
+    BitcoinMiner().
+
+commit 7bd5a3a93cbcf1fd41716a8ca437fab2cea9e643
+Author: mintcoin <mintcoin83275682@yahoo.com>
+Date:   Mon Apr 28 10:23:11 2014 -0700
+
+            modified:   src/alert.cpp
+
+commit 4436304d055a417565857530242751ee225b0e5d
+Author: mintcoin <mintcoin83275682@yahoo.com>
+Date:   Sun Apr 27 21:38:11 2014 -0700
+
+            modified:   src/checkpoints.cpp
+            modified:   src/kernel.cpp
+            modified:   src/version.h
+
+commit a86eff85db4c6f08cf7735ccfcd32f175447b411
+Merge: c62953c a2fd701
+Author: mintcoinproject <david9643@163.com>
+Date:   Thu Apr 24 11:06:30 2014 -0700
+
+    Merge pull request #14 from skwurp/master
+    
+    Add minting info icon and nicer unlock interface
+
+commit a2fd70199eb8348fed23c078cc6264cff25bd986
+Author: skwurp <skwurp@gmail.com>
+Date:   Wed Apr 23 23:54:08 2014 +1200
+
+    Fix GUI lagging when client is syncing.
+
+commit b3608b6a4b9f67abe454ae0930330b1842a44670
+Merge: be75f4b c62953c
+Author: skwurp <skwurp@gmail.com>
+Date:   Thu Apr 17 19:59:19 2014 +1200
+
+    Merge remote-tracking branch 'upstream/master'
+
+commit be75f4bdae02ac1fb714e7a5df73f1414e774e60
+Author: skwurp <skwurp@gmail.com>
+Date:   Thu Apr 17 19:34:24 2014 +1200
+
+    Updated licence authors.
+    
+    The previous commit adds code that came from blackcoin. Update COPYING
+    to include the same authors as blackcoin's licence.
+
+commit c62953c36c77e3919d0a46a95a08ccd371988a49
+Merge: b2ac3f7 5753b78
+Author: mintcoinproject <david9643@163.com>
+Date:   Tue Apr 15 10:01:47 2014 -0700
+
+    Merge pull request #13 from keremhd/master
+    
+    Remove misbehaving peer's reported block count from peer block counts wh...
+
+commit a2d15d1d8d36aff7c73a16f1598a97a476a20740
+Author: skwurp <skwurp@gmail.com>
+Date:   Tue Apr 15 22:01:11 2014 +1200
+
+    Add minting info icon and nicer unlock interface
+    
+    Added minting GUI icon.
+    Replaced ugly unlock button with a nicer one.
+    Added menu items to lock/unlock wallet.
+    Added option to unlock for minting only.
+
+commit 5753b78124f267a92ba6f5eb47197d9d8ba762f6
+Author: keremhd <keremhd@users.noreply.github.com>
+Date:   Thu Apr 10 21:54:55 2014 +0300
+
+    Remove misbehaving peer's reported block count from peer block counts when disconnecting them
+
+commit b2ac3f70fea2d2c3d42ef5e9900062849465b93d
+Author: mintcoin <mintcoin9832654@yahoo.com>
+Date:   Wed Apr 9 09:57:40 2014 -0700
+
+            modified:   src/checkpoints.cpp
+            modified:   src/kernel.cpp
+
+commit 4926fcda4d746f2056c1b032f8b811092cf5d260
+Author: mintcoin <mint293869482@yahoo.com>
+Date:   Wed Apr 9 00:40:22 2014 -0700
+
+            modified:   src/makefile.mingw
+
+commit aa18a18357450ec143e75436dbe369ad5611e8ac
+Author: mintcoin <mint293869482@yahoo.com>
+Date:   Wed Apr 9 00:37:02 2014 -0700
+
+            modified:   src/checkpoints.cpp
+            modified:   src/kernel.cpp
+            modified:   src/makefile.mingw
+            modified:   src/net.cpp
+            modified:   src/version.h
+
+commit 0d7144f92af87a1f43dcee205e51a6547abe33e4
+Merge: a1a0a03 aeb0d02
+Author: mintcoinproject <david9643@163.com>
+Date:   Tue Apr 8 12:21:45 2014 -0700
+
+    Merge pull request #11 from Kergekoin/master
+    
+    Coin Control Features
+
+commit a1a0a03a12f8f93827f09ffa08ef9c32cfc02446
+Merge: 8b4e38e bcffed6
+Author: mintcoinproject <david9643@163.com>
+Date:   Tue Apr 8 12:18:37 2014 -0700
+
+    Merge pull request #10 from beatles1/patch-1
+    
+    "Mined" to "Minted" for StakeMint transactions & Readme update
+
+commit 8b4e38e13a30e9445eaae075fefd7afab225a450
+Merge: d6ca6bc 4b810d4
+Author: mintcoinproject <david9643@163.com>
+Date:   Tue Apr 8 12:15:36 2014 -0700
+
+    Merge pull request #9 from pjf/patch-2
+    
+    Add libminiupnpc-dev libminiupnpc8 to install docs
+
+commit d6ca6bc2d166b236604fc0fbe44b44dd4b2214e6
+Merge: dad7971 8bc9bdf
+Author: mintcoinproject <david9643@163.com>
+Date:   Tue Apr 8 12:14:38 2014 -0700
+
+    Merge pull request #8 from pjf/patch-1
+    
+    Add extra step for Ubuntu install
+
+commit aeb0d02b28d858e896de7545c42ecd192094e416
+Author: Kergekoin <kergekoin@users.noreply.github.com>
+Date:   Tue Apr 8 19:35:13 2014 +0300
+
+    parandus
+
+commit 8031aba570f0b38b3cb1911121c421c9e7928503
+Author: Kergekoin <kergekoin@users.noreply.github.com>
+Date:   Tue Apr 8 18:38:14 2014 +0300
+
+    veaparandus
+
+commit af6c0b9debca664975fbe570d6ac17acf92094f0
+Author: Kergekoin <kergekoin@users.noreply.github.com>
+Date:   Tue Apr 8 18:25:07 2014 +0300
+
+    CoinControl features added
+    
+    Review and pull if all looks accurate.
+
+commit bcffed60ceac4a41fc0eaa883b347eac6b614b10
+Author: beatles1 <beatles1@users.noreply.github.com>
+Date:   Sat Apr 5 16:45:28 2014 +0100
+
+    Add "Minted" Translation to bitcoin_en.ts
+
+commit a4746c901172d361b6ea369d11dece65aaeaec59
+Author: beatles1 <beatles1@users.noreply.github.com>
+Date:   Fri Apr 4 23:14:30 2014 +0100
+
+    Update README.md
+    
+    Fixed markup and added PoW removal info
+
+commit 16c03f931eb7a1353b24717d6ff81ec158c24f69
+Author: beatles1 <beatles1@users.noreply.github.com>
+Date:   Fri Apr 4 23:00:39 2014 +0100
+
+    "Mined" to "Minted" for StakeMint transactions
+    
+    I am a noob so this could be completely wrong but as noted in this reddit thread it makes more sense to say "Minted": http://www.reddit.com/r/MintCoin/comments/22818m/mint_wallet_mining_by_itself_wtf_is_going_on/
+
+commit dad79713d4172a569238de1b736abfbf307acfbd
+Author: mintcoin <kg3g24239846@yahoo.com>
+Date:   Wed Apr 2 13:06:19 2014 -0700
+
+            modified:   src/checkpoints.cpp
+            modified:   src/kernel.cpp
+            modified:   src/main.cpp
+            modified:   src/main.h
+            modified:   src/qt/res/icons/MintCoin-16.png
+            modified:   src/rpcwallet.cpp
+            modified:   src/version.h
+            modified:   src/wallet.cpp
+            modified:   src/wallet.h
+
+commit 8bc9bdf8c1163b5e88ff341f890aa2bb41b67460
+Author: Paul Fenwick <pjf@perltraining.com.au>
+Date:   Mon Mar 24 18:13:13 2014 +1100
+
+    Add extra step for Ubuntu install
+    
+    Ubuntu 13.10 doesn't have `libdb4.8++-dev` packages by default, but they're in the bitcoin ppa. This patch adds the relevant install instructions.
+
+commit 4b810d4c4a6ffc07b348816bab86328432159a3c
+Author: Paul Fenwick <pjf@perltraining.com.au>
+Date:   Mon Mar 24 18:17:03 2014 +1100
+
+    Add libminiupnpc-dev libminiupnpc8 to install docs
+    
+    Looks like the install docs had some missing libraries under Ubuntu.
+
+commit bba5c0ac1b789818efb1128eaf5b45673f9ebffc
+Author: mintcoin <mintcoin8735@yahoo.com>
+Date:   Mon Mar 17 00:44:49 2014 -0700
+
+            modified:   src/checkpoints.cpp
+            modified:   src/kernel.cpp
+            modified:   src/qt/res/icons/MintCoin-128.png
+            modified:   src/qt/res/icons/MintCoin-16.png
+            modified:   src/qt/res/icons/MintCoin.ico
+            modified:   src/qt/res/icons/MintCoin.png
+            modified:   src/qt/res/icons/add.png
+            modified:   src/qt/res/icons/address-book.png
+            modified:   src/qt/res/icons/configure.png
+            modified:   src/qt/res/icons/debugwindow.png
+            modified:   src/qt/res/icons/edit.png
+            modified:   src/qt/res/icons/editcopy.png
+            modified:   src/qt/res/icons/editpaste.png
+            modified:   src/qt/res/icons/export.png
+            modified:   src/qt/res/icons/filesave.png
+            modified:   src/qt/res/icons/history.png
+            modified:   src/qt/res/icons/key.png
+            modified:   src/qt/res/icons/lock_closed.png
+            modified:   src/qt/res/icons/lock_open.png
+            modified:   src/qt/res/icons/mining.png
+            modified:   src/qt/res/icons/mining_active.png
+            modified:   src/qt/res/icons/mining_inactive.png
+            modified:   src/qt/res/icons/overview.png
+            modified:   src/qt/res/icons/qrcode.png
+            modified:   src/qt/res/icons/quit.png
+            modified:   src/qt/res/icons/receive.png
+            modified:   src/qt/res/icons/remove.png
+            modified:   src/qt/res/icons/send.png
+            modified:   src/qt/res/icons/tx_inout.png
+            modified:   src/qt/res/icons/tx_input.png
+            modified:   src/qt/res/icons/tx_mined.png
+            modified:   src/qt/res/icons/tx_output.png
+            modified:   src/qt/res/images/about.png
+            modified:   src/qt/res/images/splash.png
+            modified:   src/qt/res/images/wallet.png
+            modified:   src/version.h
+
+commit 8d38d42330581ab01216cbb85df7742675ff99db
+Author: mintcoin <mintcoin8735@yahoo.com>
+Date:   Sun Mar 9 12:00:40 2014 -0700
+
+            modified:   src/checkpoints.cpp
+            modified:   src/kernel.cpp
+            modified:   src/main.cpp
+            modified:   src/qt/bitcoingui.cpp
+            modified:   src/qt/forms/addressbookpage.ui
+            modified:   src/qt/forms/signverifymessagedialog.ui
+            modified:   src/version.h
+            modified:   src/wallet.cpp
+
+commit f6f7eba56d63857cebd3f5fe3501b529ebeb2435
+Merge: 29a5d0b 6f6ce97
+Author: mintcoinproject <david9643@163.com>
+Date:   Sat Mar 8 01:12:21 2014 -0800
+
+    Merge pull request #4 from unek/master
+    
+    added unlock wallet button
+
+commit 6f6ce978e3168f783c64f07c8ad91c0661003d04
+Author: unek <unekpl@gmail.com>
+Date:   Wed Mar 5 17:57:16 2014 +0100
+
+    added unlock wallet button
+
+commit 29a5d0bc5c36010fadb89fab55365d56de1acec5
+Merge: 75a51a2 134381a
+Author: mintcoinproject <david9643@163.com>
+Date:   Tue Feb 25 23:46:09 2014 -0800
+
+    Merge pull request #2 from bigchirv/master
+    
+    Strip [almost] all NovaCoin references in text/code.
+
+commit 134381a20b1bf2a8a6d8b91abb0ddd0f4055b397
+Author: Irving A. Bermúdez S <bigchirv@gmail.com>
+Date:   Tue Feb 25 00:58:31 2014 -0430
+
+    Moved novacoin* files to mintcoin*
+
+commit ac30861cba8dc5f4671ac7667b09fffa1c3257eb
+Author: Irving A. Bermúdez S <bigchirv@gmail.com>
+Date:   Tue Feb 25 00:57:47 2014 -0430
+
+    Remove almost all references to NovaCoin except on the README files
+
+commit 75a51a2bf9562e9cba6078099ff3610238edf3e2
+Author: mintcoin <mintcoin9832654@yahoo.com>
+Date:   Fri Feb 21 17:09:56 2014 -0800
+
+            modified:   src/checkpoints.cpp
+            modified:   src/kernel.cpp
+            modified:   src/qt/overviewpage.cpp
+            modified:   src/rpcwallet.cpp
+            modified:   src/version.h
+            modified:   src/wallet.cpp
+
+commit 05445974fcde02b3d5a5f2b4b31d1f32dc501011
+Author: mintcoin <mintcoin9832654@yahoo.com>
+Date:   Mon Feb 17 21:05:00 2014 -0800
+
+            modified:   mintcoin-qt.pro
+            modified:   src/checkpoints.cpp
+            modified:   src/kernel.cpp
+            modified:   src/rpcwallet.cpp
+            modified:   src/version.h
+
+commit e54a480b8583e64685b234a4f0415a44efc6cb02
+Author: mintcoin <mintcoin9264@gmail.com>
+Date:   Sat Feb 8 09:19:11 2014 -0800
+
+            modified:   src/irc.cpp
+            modified:   src/version.h
+
+commit b840beb69703a465ac9b905b97c8f917d9228c6a
+Author: mintcoin <mintcoin96326@gmail.com>
+Date:   Thu Feb 6 19:58:05 2014 -0800
+
+            modified:   src/checkpoints.cpp
+            modified:   src/kernel.cpp
+            modified:   src/qt/bitcoinunits.cpp
+            modified:   src/qt/forms/overviewpage.ui
+            modified:   src/qt/forms/sendcoinsdialog.ui
+            modified:   src/qt/overviewpage.cpp
+            modified:   src/version.h
+
+commit a4a00c4e4c3c2998368281afe09d12bb5e9e261b
+Author: mintcoin <mintcoin96326@gmail.com>
+Date:   Thu Feb 6 10:56:13 2014 -0800
+
+    mintcoin

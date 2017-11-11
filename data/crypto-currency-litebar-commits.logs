@@ -1,0 +1,215 @@
+commit 93941dd9f75ba144d558bdedcdf981b24a4003c5
+Author: Spidersbox <Spider@Spidersbox.com>
+Date:   Sun Oct 8 20:16:05 2017 -0700
+
+    updated readme
+
+commit 78d86fdb9cdafe5ab46d2f98f47defcf7f5d91d0
+Author: Spidersbox <Spider@Spidersbox.com>
+Date:   Sun Oct 8 20:14:59 2017 -0700
+
+    updated readme
+
+commit 1a257ae1d0aa38b05cc19df70b3abbc91013d813
+Author: Spidersbox <Spider@Spidersbox.com>
+Date:   Sun Oct 8 19:35:38 2017 -0700
+
+    added check/repair wallet and zap wallet
+
+commit 578cb77bc7fe69aee07757cdc4753b6616b4b70c
+Author: Spidersbox <Spider@Spidersbox.com>
+Date:   Sun Oct 8 10:28:48 2017 -0700
+
+    added coin control. version up
+
+commit 699a2163c398d1a052da9f791afcfc5603e20eff
+Author: Spidersbox <Spider@Spidersbox.com>
+Date:   Sun Oct 8 09:52:59 2017 -0700
+
+    updated qt menu
+
+commit 0fe3ff98a9fe9263bf0ac4643d7675cae13284eb
+Author: spider <spider@spiders-Mac.local>
+Date:   Thu Apr 20 23:21:00 2017 -0700
+
+    small edit for building mac qt
+
+commit 17ce802334ce7c9eb746d8560c35a5de5a60d4d3
+Author: spider <spider@spiders-Mac.local>
+Date:   Thu Apr 20 22:59:20 2017 -0700
+
+    adding stuff for mac icons
+
+commit 5f2e57799f45aa037ecbeb6b21b8ebde77963cf0
+Author: Spider <spider@DesktopWalletMaker.(none)>
+Date:   Tue Jul 19 15:58:02 2016 -0700
+
+    updated wallet links on readme
+
+commit 8bce121c628268a927ed9a1f95fecfb904aad10d
+Author: Spider <spider@DesktopWalletMaker.(none)>
+Date:   Tue Jul 19 14:48:36 2016 -0700
+
+    version up
+
+commit 3bdf1edabdb2e189525b12a5309f95e3c215e935
+Author: Spider <spider@DesktopWalletMaker.(none)>
+Date:   Tue Jul 19 12:33:48 2016 -0700
+
+    non Litebar wallets are now disconnected
+
+commit 92df76f9de0032fb434f506bded386ffb03bcdfa
+Author: Spider <spider@DesktopWalletMaker.(none)>
+Date:   Tue Jul 19 12:16:00 2016 -0700
+
+    small correction (find function returns -1 not 0)
+
+commit 30066898e8e33ffa14d69877f3bbbab40130c1f0
+Author: Spider <spider@DesktopWalletMaker.(none)>
+Date:   Tue Jul 19 11:56:41 2016 -0700
+
+    removed some connect/time out messages from debug.log - blocked wallets that are not subver Litebar
+
+commit 978a0bae48ed26abbcfb8cd49e49e8b6b9149024
+Author: Spidersbox <Spider@Spidersbox.com>
+Date:   Wed Jul 13 16:44:41 2016 -0700
+
+    removed litebard
+
+commit 6f74f3e9dfb71ff8c21267524a37e00638f0da5b
+Author: Spidersbox <Spider@Spidersbox.com>
+Date:   Wed Apr 6 14:29:05 2016 -0700
+
+    updated build-unix with link for libboost1.48-all-dev
+
+commit c46287d5f74f48811f546d43a7e252774c95dfdc
+Author: Spider <spider@DesktopWalletMaker.(none)>
+Date:   Sun Apr 3 15:41:47 2016 -0700
+
+    new update - v0.4.3.004
+
+commit 4afd71cb43076a52616aeeec9e110203c6fd56e6
+Author: Spider <spider@DesktopWalletMaker.(none)>
+Date:   Sun Apr 3 14:58:32 2016 -0700
+
+    corrected display of version.  version up
+
+commit 63016c6f62fda127a671bf07678964b67a6ed882
+Author: Spider <spider@DesktopWalletMaker.(none)>
+Date:   Sun Apr 3 01:10:49 2016 -0700
+
+    updated readme.rd with windows qt wallet download
+
+commit 9faa32016f2d046b6a7c28742f471be81a43b7a5
+Author: Spider <spider@DesktopWalletMaker.(none)>
+Date:   Sun Apr 3 00:39:19 2016 -0700
+
+    fixing windows qt version reporting
+
+commit 9882d8bfd43fa4aa2e452fb759a9d9393a081004
+Author: Spider <spider@DesktopWalletMaker.(none)>
+Date:   Sat Apr 2 23:38:05 2016 -0700
+
+    update windows-qt build date
+
+commit 717851846172425e9d7aa28c0b0d3b21c19b1ca7
+Author: Spider <spider@DesktopWalletMaker.(none)>
+Date:   Sat Apr 2 23:17:51 2016 -0700
+
+    updated readme.md
+
+commit 0397940c88f9a3df4f0580d3d740772ecd6883c3
+Author: Spider <spider@DesktopWalletMaker.(none)>
+Date:   Sat Apr 2 23:16:13 2016 -0700
+
+    update readme.md
+
+commit 5fc9e1a9247e34b7f58f1e4f0de8e834538161cb
+Author: Spider <spider@DesktopWalletMaker.(none)>
+Date:   Sat Apr 2 23:10:42 2016 -0700
+
+    updated readme.md
+
+commit ce9a7dcd6a3024518b7233fd5ae67e942b2a40b3
+Author: Spider <spider@DesktopWalletMaker.(none)>
+Date:   Sat Apr 2 22:57:06 2016 -0700
+
+    Added logo the overview page - click on it and opens browser to Litebar.co
+
+commit 7429592c6e619ee47c5b73c4d004af411d4459d3
+Author: Spider <spider@DesktopWalletMaker.(none)>
+Date:   Tue Mar 29 21:32:49 2016 -0700
+
+    added click on logo to open web browser to litebar.co
+
+commit 05c95eb71335fe0b07b288dd87be016eeb859462
+Author: Spider <spider@DesktopWalletMaker.(none)>
+Date:   Mon Mar 28 21:56:33 2016 -0700
+
+    corrected a version error  ;)
+
+commit eb45abd4d7d417b6874bee5fcd3e5f54babcbb43
+Author: Spider <spider@DesktopWalletMaker.(none)>
+Date:   Mon Mar 28 21:22:04 2016 -0700
+
+    cannot convert 'int*' to 'const char*'
+
+commit ea34ecce32b2f59806b213810a118a72a56bd96e
+Author: Spider <spider@DesktopWalletMaker.(none)>
+Date:   Mon Mar 28 21:01:13 2016 -0700
+
+    invalid conversion from 'void*' to 'const char*' [-fpermissive]
+
+commit 742e36208d88485cf37957172620c7b1b4588982
+Author: Spider <spider@DesktopWalletMaker.(none)>
+Date:   Mon Mar 28 19:26:40 2016 -0700
+
+    updated version info
+
+commit b57fa101c63509e7a09802f2dd440bc0d8d45a1c
+Author: Spider <spider@DesktopWalletMaker.(none)>
+Date:   Mon Mar 28 13:38:18 2016 -0700
+
+    updated version number
+
+commit 27ac3a35b4e2623be676c401a3d1398d79c0e9cd
+Author: Spider <spider@DesktopWalletMaker.(none)>
+Date:   Mon Mar 28 13:19:48 2016 -0700
+
+    changed litebard-kgw back to litebar
+
+commit b30e437d1d177c4eb879d856c8727b46eed26187
+Author: Spider <spider@DesktopWalletMaker.(none)>
+Date:   Mon Mar 28 13:13:30 2016 -0700
+
+    changed dsnseed webcoin.us does not exsist
+
+commit 3517cb565a43e554091bcfc2ce140970ffc9a663
+Author: Spider <spider@DesktopWalletMaker.(none)>
+Date:   Sun Mar 27 11:56:40 2016 -0700
+
+    changed .litebar-kgw back to .litebar
+
+commit 5173d08b7e5ccfdf5343bad248aa9bdce462c17c
+Author: Spider <spider@DesktopWalletMaker.(none)>
+Date:   Sun Mar 27 11:47:58 2016 -0700
+
+    fixed litebar-qt.pro so it would compile qmake/make on linux
+
+commit 3126af03392c4734dace40199e77f86ad1926118
+Author: digiwhite <jr.white@yandex.com>
+Date:   Wed Feb 19 00:26:54 2014 +0200
+
+    Update util.cpp
+
+commit 3acc1512012d0191e011ed1232844de7b4f64a40
+Author: digiwhite <jr.white@yandex.com>
+Date:   Wed Feb 19 00:22:33 2014 +0200
+
+    Update makefile.unix
+
+commit 34092d961c5d339e1cf67ec3130cec80ff1d12cb
+Author: Rynaldo <rynaldo@ubuntu.(none)>
+Date:   Tue Feb 18 20:40:21 2014 +0200
+
+    update release with KGW
