@@ -4,4 +4,6 @@ venv/**
 .idea/**
 temp/**
 *.pyc
-.ipynb_checkpoints
+**/node_modules/**
+.DS_Store
+.ipynb_checkpoints/**
