@@ -4,3 +4,4 @@ venv/**
 .idea/**
 temp/**
 *.pyc
+.ipynb_checkpoints
