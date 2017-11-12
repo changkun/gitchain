@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+name,url,price,sentiment
+=======
 currency,url,price,sentiment
+>>>>>>> origin/master
 1337,https://www.1337coin.net/,4.9e-5,-0.13636363636363635
 2give,https://2give.info/,0.005609,NA
 42-coin,http://42-coin.org/,10563,NA

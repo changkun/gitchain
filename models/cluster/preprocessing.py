@@ -4,21 +4,25 @@ import glob
 import os
 from collections import Counter
 from datetime import datetime
-
+from tqdm import tqdm
 
 def unix_time(dt):
     epoch = datetime.utcfromtimestamp(0).date()
     delta = dt - epoch
     return delta.total_seconds()
 
-f = open('data/features.csv', 'a')
-f.write("name" + "," + "commit_count" + "," + "star_count" + "," + "watcher_count" + "," + "forks_count" + "," + "contributers_count" + "," + "open_issues_count" + "," + "created_time"+"\n")
+def span(start):
+    now = datetime.now()
+    period = (now - datetime.strptime(start, "%Y-%m-%d")).days
+    return period
 
-result = []
+f = open('data/features.csv', 'w')
+f.write("name" + "," + "commit_count" + "," + "star_count" + "," + "watcher_count" + "," + "forks_count" + "," + "contributers_count" + "," + "open_issues_count" + "," + "subscribers_count"+ "," +"period" +"\n")
 
-for coin in glob.glob("data/*.json"):
+c = open('data/commits.csv', 'w')
+c.write("name" + "," + "time" + ","  "value" + "\n")
 
-    coin_commit_dict = {}
+for coin in tqdm(glob.glob("data/*.json")):
 
     basename = os.path.splitext(coin)[0].split("/")[-1]
 
@@ -27,9 +31,6 @@ for coin in glob.glob("data/*.json"):
 
     #number of commits per day
     formed_dates = []
-    histories = []
-
-    value = 0
 
     for date in dates:
         formed_date = datetime.strptime(date, "%a %b %d %H:%M:%S %Y %z").date()
@@ -37,36 +38,32 @@ for coin in glob.glob("data/*.json"):
 
     commits_per_day = dict(Counter(formed_dates))
 
-    for x in set(formed_dates):
-        history = {}
-        time_integer = int(unix_time(x))
-        history["timestamp"] = time_integer
-        history["value"] = commits_per_day[x]
-        histories.append(history)
-
+    # parse the json file
     json_file = open(coin)
     record = json.load(json_file)
 
+    #calculate the period
+    date_ = record["created_at"].split("T")[0]
+    period = span(date_)
+
      # get the feature from raw data
-    row = str(record["name"]) + "," + \
+    coin = str(record["name"]) + "," + \
           str(commit_count) + "," + \
           str(record["stargazers_count"]) + "," + \
           str(record["watchers_count"]) + "," + \
           str(record["forks_count"]) + "," + \
           str(len(record["contributors"])) + "," + \
           str(record["open_issues_count"]) + "," + \
-          str(record["created_at"])
+          str(record["subscribers_count"]) + "," + \
+          str(period)
 
-    f.write(row + "\n")
+    f.write(coin + "\n")
 
-    coin_commit_dict["name"] = str(record["name"])
-    coin_commit_dict["commit_history"] = histories
+    for x in set(formed_dates):
+        time_integer = int(unix_time(x))
+        commit = str(record["name"]) + "," + str(time_integer) + "," + str(commits_per_day[x])
+        c.write(commit + "\n")
 
-    result.append(coin_commit_dict)
-
-final_data = open("result.json", "w")
-final_data.write(json.dumps(result))
-final_data.close()
-
+c.close()
 f.close()
 

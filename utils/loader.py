@@ -11,13 +11,13 @@ class Loader(object):
 
     def start(self):
         if self.type == 'json':
-            with open(self.db, 'r') as f:
+            with open(self.db, 'r', encoding='utf-8') as f:
                 return json.load(f)
         elif self.type == 'csv':
             # return genfromtxt(self.db, delimiter=',', dtype="|U", quotechar='"')
-            return pd.read_csv(self.db, delimiter=',', dtype='|U', quotechar='"').fillna('').values
+            return pd.read_csv(self.db, delimiter=',', dtype='|U', quotechar='"', encoding="utf-8").fillna('').values
         elif self.type == 'txt':
-            with open(self.db, 'r') as f:
+            with open(self.db, 'r', encoding="utf-8") as f:
                 return f.readlines()
         else:
             print('not support')
