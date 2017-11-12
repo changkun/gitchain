@@ -64,6 +64,18 @@ Methods:
 - Feature selection
   + PCA
 
+
+
+![](images/clustering.png)
+
+![](images/pie.png)
+
+![](images/linear_regression-linear_scale.png)
+
+
+
+![](images/exponential_regression-log_scale.png)
+
 ## License
 
 MIT &copy; Contributors
