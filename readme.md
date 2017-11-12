@@ -1,5 +1,7 @@
 # Gitchain
 
+![](images/logo.png)
+
 GitHub repository meets crptocurrencies.
 
 ## Setup
