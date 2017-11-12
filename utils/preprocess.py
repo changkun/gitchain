@@ -3,6 +3,9 @@ from datetime import datetime
 from loader import Loader
 import numpy as np
 from sklearn.preprocessing import normalize
+from sklearn import linear_model
+from sklearn.metrics import accuracy_score
+from sklearn.model_selection import train_test_split
 
 files = os.listdir(os.path.join(os.path.dirname(__file__), '../data/'))
 json_files = [file for file in files if 'json' in file]
@@ -44,7 +47,7 @@ for file in json_files:
     metas.append(meta)
     v = [
         repo_meta['size'],
-        repo_meta['stargazers_count'],
+
         repo_meta['watchers_count'],
         repo_meta['forks'],
         repo_meta['open_issues'],
@@ -54,7 +57,8 @@ for file in json_files:
                         == None else repo_meta['language']],
         created_days.days,
         cold_days.days,
-        1  # open source
+        # 100  # open source
+        repo_meta['stargazers_count'],
     ]
     temp.append(v)
 
@@ -71,4 +75,21 @@ data = np.array(loader.start())
 names = data[:, (0)]
 labels = data[:, (2, 3)]
 labels[labels == ''] = '-100'
-print(labels.astype(float))
+
+# 3. prepare and match all data
+# TODO: fix here
+y = []
+for index, name in enumerate(META):
+    i, = np.where(names == name[1])
+    print(name)
+    if len(i) != 0:
+        y.append(labels[i])
+
+y = np.array(y, dtype=float)
+print(X_normed.shape)
+X_train, X_test, y_train, y_test = train_test_split(
+    X_normed[:-1], X_normed[-1], test_size=0.33, random_state=42)
+reg = linear_model.Ridge(alpha=.5)
+reg.fit(X_train, y_train)
+y_pred = reg.predict(X_test)
+print('accuracy: ', accuracy_score(y_test, y_pred))

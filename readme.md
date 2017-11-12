@@ -11,10 +11,20 @@ GitHub repository meets crptocurrencies.
 $ virtualenv -p python3 .env
 $ source .env/bin/activate
 $ pip install -r req.txt
-
-# fetch repo data you want
-$ python utils/creeper.py
 ```
+
+## Structures
+
+- [app](./app): web application
+- [config](./config): creeper config
+- [data](./data): data
+- [models](./models): our models
+  + cluster
+  + linear
+  + prediction
+- [utils](./utils): data creeper
+
+## Insights
 
 ## License
 
