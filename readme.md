@@ -26,7 +26,43 @@ $ pip install -r req.txt
 
 ## Insights & Conclutions
 
+Features:
 
+- repo size
+- number of watchers
+- number of forks
+- number of open issues
+- number of subscribers
+- number of contributors
+- implement language
+- stars
+- days since create date
+- days since last update
+- historical price regression slope value
+- sentiment from articles
+
+Most important features:
+
+
+- days since create date
+- days since last update
+- historical price regression slope value
+- sentiment from articles
+- number of open issues
+- stars
+- repo size
+- number of forks
+- number of subscribers
+- number of contributors
+
+Methods:
+
+- Supervised
+  + price regression
+- Unsupervised
+  + clustring
+- Feature selection
+  + PCA
 
 ## License
 

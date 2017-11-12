@@ -47,7 +47,6 @@ for file in json_files:
     metas.append(meta)
     v = [
         repo_meta['size'],
-
         repo_meta['watchers_count'],
         repo_meta['forks'],
         repo_meta['open_issues'],
